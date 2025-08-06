@@ -1,4 +1,4 @@
-# OpenAI's GPT Data Exposure Analysis
+# Data Collection in LLM App Ecosystems
 
 This repository contains the code and data accompanying our IMC ’25 paper, [An In-Depth Investigation of Data Collection in LLM App Ecosystems](https://arxiv.org/abs/2408.13247). These artifacts support GPT metadata crawling, data-collection analysis, and privacy-policy analysis for GPTs, including those with Actions.
 
