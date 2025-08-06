@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="My Astro Advise">
+    <meta name="Robots" content="index, follow" />
+    <title>My Astro Advise</title><meta property="og:title" content="My Astro Advise">    <meta name="description" content="My Astro Advise"><meta property="og:description" content="My Astro Advise">    <meta name="keywords" content="">        <link rel="canonical" href="https://myastroadvise.com/" />
+    <meta property="og:url" content="https://myastroadvise.com/">
+    <meta property="og:type" content="website" />
+
+    
+        <link rel="shortcut icon" href="https://myastroadvise.com/assets/front/img/favicon.ico" type="image/x-icon">
+    <link href="https://myastroadvise.com/assets/front/css/bootstrap.custom.min.css" rel="stylesheet">
+    <link href="https://myastroadvise.com/assets/front/css/style.css?ver=1.12" rel="stylesheet">
+    <link href="https://myastroadvise.com/assets/front/css/all.min.css?ver=1.12" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://myastroadvise.com/assets/front/css/google-header-fonts.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://myastroadvise.com/assets/admin/css/bootstrap-datepicker.min.css" />
+    <noscript>
+        <link href="https://myastroadvise.com/assets/front/css/all.min.css" rel="stylesheet">
+        <link href="https://myastroadvise.com/assets/front/css/google-header-fonts.css" rel="stylesheet">
+    </noscript>
+</head>
+
+<body>
+    <div id="page">
+        <header class="version_1">
+            <div class="layer"></div>
+            <div class="main_header sticky_element">
+                <div class="container-fluid">
+                    <div class="row small-gutters">
+                        <div class="col-xl-2 col-lg-8 align-items-center">
+                            <div id="logo">
+                                <a href="https://myastroadvise.com"><img class="img_logo" src="https://myastroadvise.com/assets/front/img/mylogo.svg" alt="My Astro Advise" height="60" width="150"></a>
+                            </div>
+                        </div>
+                        <nav class="col-xl-8 col-lg-8">
+                            <a class="open_close" href="javascript:void(0);">
+                                <div class="hamburger hamburger--spin">
+                                    <div class="hamburger-box">
+                                        <div class="hamburger-inner"></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="main-menu">
+                                <div id="header_menu">
+                                    <a href="#"><img src="https://myastroadvise.com/assets/front/img/mylogo.svg" alt="My Astro Advise" width="100" height="35"></a>
+                                    <a href="javascript:void(0);" class="open_close" id="close_in"><i class="ti-close"></i></a>
+                                </div>
+                                <ul class="nav_ul">
+                                    <li><a href="https://myastroadvise.com/blogs">Blog</a></li>
+                                    <li><a href="https://myastroadvise.com/contact-us">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="top_panel">
+                            <div class="container header_panel">
+                                <a href="#" class="btn_close_top_panel"><i class="ti-close"></i></a>
+                                <small>Search reports.</small>
+                            </div>
+                            <form action="https://myastroadvise.com/search" method="get">
+                                <div class="container">
+                                    <div class="search-input">
+                                        <input type="text" placeholder="Search Reports" name="search" id="search_reports" required autocomplete="off" value="">
+                                        <button type="submit"><i class="header-icon_search_custom"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="search_results d-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><main>
+    <div class="content-wrapper">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 pr-lg-5 text-center d-none d-lg-block">
+                <img src="https://myastroadvise.com/assets/front/img/mobile.png" style="width:50%; height: 50%;" />
+            </div>
+            <div class="col-lg-5">
+                <div class="box_about">
+                    <h2>My Astro Advise</h2>
+                    <p class="lead">Your personal gateway to the celestial wisdom of the cosmos!</p>
+                    <p>At My Astro Advise, we believe in the power of astrology to provide guidance, clarity, and insight into our lives. We have created a platform that bridges the gap between you and the world's most skilled astrologers, offering you the opportunity to seek advice and gain understanding about your life's path, relationships, career, and more.</p><br>
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <center><a href="https://play.google.com/store/apps/details?id=com.astrornmobileapp&hl=en" target="_blank"><img src="https://myastroadvise.com/assets/front/img/playstore.png" /></a>
+                            </center>
+                        </div>
+                        <!-- <div class="col-lg-6">
+                            <center><a href="https://myastroadvise.com"><img src="https://myastroadvise.com/assets/front/img/appstore.png" /></a>
+                            </center>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="revealed" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <p data-target="#collapse_1">Quick Links</p>
+                <div class="collapse dont-collapse-sm links" id="collapse_1">
+                    <ul>
+                        <li><a href="https://myastroadvise.com/about-us">About Us</a></li>
+                        <li><a href="https://myastroadvise.com/faq">FAQ</a></li>
+                        <li><a href="https://myastroadvise.com/blogs">Blog</a></li>
+                        <li><a href="https://myastroadvise.com/contact-us">Contact Us</a></li>
+                        <li><a href="https://myastroadvise.com/appointment-cancellation-policy">Appointment Cancellation Policy</a></li>
+                        <li><a href="https://myastroadvise.com/disclaimer">Disclaimer</a></li>
+                        <li><a href="https://myastroadvise.com/refund-and-policy">Refund and Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <p data-target="#collapse_3">Contacts</p>
+                <div class="collapse dont-collapse-sm contacts" id="collapse_3">
+                    <ul>
+                        <li><i class="ti-home"></i>7th floor, Survey No.1/1A/29/1 2, Office No.701, Siddh Icon,
+                            Baner Road, Opp Royal Enfiled Showroom Baner,<br> Pune, Maharashtra - 411045</li>
+                        <!-- <li><i class="ti-headphone-alt"></i><a href="tel:+91 9999999999">+91 9999999999</a></li> -->
+                        <li><i class="ti-email"></i><a href="mailto:hello@myastroadvise.com">hello@myastroadvise.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-0">
+        <div class="row">
+            <div class="col-md-12">
+                <center>
+                    <ul class="additional_links">
+                        <li><a href="https://myastroadvise.com/terms-and-conditions">Terms and conditions</a></li>
+                        <li><a href="https://myastroadvise.com/privacy-and-policy">Privacy</a></li>
+                        <li><span>My Astro Advise is Product of Code Mingle IT Solution </span></li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="loader">
+</div>
+</div>
+
+<div id="toTop"></div>
+<script src="https://myastroadvise.com/assets/front/js/common_scripts.min.js?ver=1.3"></script>
+<script src="https://myastroadvise.com/assets/front/js/main.js?v=2.1" async defer></script>
+<script src="https://myastroadvise.com/assets/admin/js/bootstrap-datepicker.min.js"></script>
+<script src="https://myastroadvise.com/assets/admin/js/jquery.validate.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-87947670-16"></script>
+<script>
+    //Google Analytics
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "My Astro Advise",
+        "alternateName": "My Astro Advise",
+        "url": "https://myastroadvise.com/",
+        "logo": "https://myastroadvise.com/assets/front/img/mylogo.svg",
+        "sameAs": [
+            "https://www.facebook.com/myastroadvise",
+            "https://twitter.com/GrowthReports",
+            "https://www.linkedin.com/company/my-astro-advise",
+            "https://myastroadvise.com/"
+        ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "My Astro Advise",
+        "url": "https://myastroadvise.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://myastroadvise.com/search?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "My Astro Advise",
+        "image": "",
+        "@id": "",
+        "url": "https://myastroadvise.com/",
+        "telephone": "+1 909 414 1393",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "500 East E Street",
+            "addressLocality": "Ontario",
+            "postalCode": "91764",
+            "addressCountry": "USA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 34.0679967,
+            "longitude": -117.6481025
+        }
+    }
+</script></main>
+
+</body>
+
+</html>

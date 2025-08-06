@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lineup: Previsiones de olas y viento</title>
+        <meta property="og:title" content="Lineup: Previsiones de olas y viento" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Descarga Lineup, la nueva app de previsión de olas y viento con un diseño intuitivo, previsiones inteligentes a 7 días, mapa de previsión FNMOC y boyas a tiempo real." />
+        <meta property="og:image" content="https://lineupforecast.com/image/ogimage.jpeg" />
+        <meta property="og:url" content="https://lineuforecast.com" />
+        <meta property="og:site_name" content="Lineup Forecast: Previsiones de olas y viento" />
+        <link rel="shortcut icon" href="/image/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="/css/styles.css" rel="stylesheet">
+
+        
+            </head>
+    <body>
+
+                <div class="bg-blue bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark pt-4 pt-md-4 pb-0 pb-md-4">
+                <div class="container">
+                    <a class="navbar-brand ms-3 ms-md-0" href="/">
+                        <img src="/svg/logo.svg" alt="Lineup" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-17.000000, -24.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g transform="translate(18.500000, 24.500000)">
+                <line x1="-1.77982629e-15" y1="0.5" x2="19" y2="0.5"></line>
+                <line x1="-1.77982629e-15" y1="6.5" x2="19" y2="6.5"></line>
+                <line x1="-1.77982629e-15" y1="12.5" x2="19" y2="12.5"></line>
+            </g>
+        </g>
+    </g>
+</svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mt-3 mt-md-0 ms-3 ms-md-auto">
+                            <li class="nav-item ms-0 ms-md-5">
+                                <a class="nav-link" href="/#features">Características</a>
+                            </li>
+                            <li class="nav-item ms-0 ms-md-5">
+                                <a class="nav-link" href="/#faq">Preguntas frecuentes</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+            <div class="bg-light">
+        <div class="container section feature-block">
+            <div class="row justify-content-center g-0">
+                <div class="col-12 col-md-8 col-lg-8">
+                    <h2 class="mb-5">Política de Privacidad</h2>
+                    <h5 class="mt-3">Recogida y tratamiento de datos de carácter personal</h5>
+                    Los datos de carácter personal son los que pueden ser utilizados para
+                    identificar a una persona o ponerse en contacto con ella.
+                    Lineup puede solicitar datos personales de usuarios al acceder a la aplicación. Si no se facilitan esos datos personales, en muchos casos no podremos ofrecer los productos o servicios solicitados.
+
+                    <h5 class="mt-3">¿Qué datos de carácter personal se pueden recopilar?</h5>
+                    <ul>
+                        <li>Al crear una cuenta se recopilan el nombre y la dirección de correo electrónico.</li>
+                        <li>El usuario podrá dar su consentimiento para compartir su ubicación con Lineup.</li>
+                    </ul>
+
+                    <h5 class="mt-3">Propósito del tratamiento de datos de carácter personal</h5>
+                    Lineup podrá utilizar los datos personales recabados para:
+                    <ul>
+                        <li>Los datos de carácter personal recopilados permiten mantenerle informado acerca de los últimos productos, las actualizaciones de software disponibles y los próximos eventos.</li>
+                        <li>También se utilizan los datos de carácter personal como ayuda para elaborar, perfeccionar, gestionar, proporcionar y mejorar los productos, servicios, contenidos y publicidad, y con el propósito de evitar pérdidas y fraudes.</li>
+                        <li>Pueden utilizarse los datos de carácter personal para comprobar la identidad, colaborar en la identificación de usuarios y decidir los servicios apropiados.</li>
+                        <li>También se utilizan esos datos de carácter personal con propósitos internos, incluyendo auditorías, análisis de datos y sondeos, para mejorar los productos, servicios y comunicaciones a usuarios.</li>
+                        <li>Si participa en un sorteo, un concurso o una promoción, pueden usarse los datos proporcionados para administrar estos programas.</li>
+                        <li>La ubicación del usuario (bajo su consentimiento explícito) se podrá utilizar para ordenar la información mostrada según distancia.</li>
+                    </ul>
+
+                    <h5 class="mt-3">Recopilación y tratamiento de datos de carácter no personal</h5>
+                    Lineup también recopilará datos de un modo que, por sí mismos, no pueden ser asociados directamente a una persona determinada. Estos datos de carácter no personal se pueden recopilar, tratar, transferir y publicar con cualquier intención. Estos son algunos ejemplos de las clases de datos de carácter no personal que Lineup puede recopilar y los fines para los que se realiza su tratamiento:
+                    <ul>
+                        <li>Datos tales como idioma, identificador único de dispositivo, etc. para comprender mejor la conducta de nuestros usuarios y mejorar nuestros productos, servicios y anuncios publicitarios.</li>
+                        <li>Datos sobre cómo se usan determinados servicios, incluidas las consultas de búsqueda. Esta información se puede utilizar para incrementar la importancia de los resultados que aportan los servicios ofrecidos.</li>
+                        <li>Datos sobre cómo usa su dispositivo y las aplicaciones para facilitar a los desarrolladores la mejora de esas aplicaciones.</li>
+                    </ul>
+                    Si juntamos datos de carácter no personal con datos personales, los datos mezclados serán tratados como datos personales mientras sigan estando combinados.
+
+                    <h5 class="mt-3">Divulgación a terceros</h5>
+                    Ocasionalmente Lineup puede facilitar determinados datos de carácter personal a socios estratégicos que trabajen con nosotros para proveer productos y servicios o nos ayudan en nuestras actividades de marketing. No se compartirán los datos con ningún tercero para sus propios fines de marketing.
+
+                    <h5 class="mt-3">Otros terceros</h5>
+                    Es posible que Lineup divulgue datos de carácter personal por mandato legal, en el marco de un proceso judicial o por petición de una autoridad pública, tanto dentro como fuera de su país de residencia. Igualmente se puede publicar información personal si es necesaria o conveniente por motivos de seguridad nacional, para acatar la legislación vigente o por otras razones relevantes de orden público.
+
+                    <h5 class="mt-3">Protección de datos de carácter personal</h5>
+                    Lineup garantizará la protección de los datos personales mediante cifrado durante el tránsito y, los alojados en instalaciones, con medidas de seguridad físicas.
+                    Al usar ciertos productos, servicios o aplicaciones o al publicar opiniones en foros, salas de chat o redes sociales, el contenido y los datos de carácter personal que se comparta serán visible para otros usuarios, que tendrán la posibilidad de leerlos, compilarlos o usarlos. Usted será responsable de los datos de carácter personal que distribuya o proporcione en estos casos.
+
+                    <h5 class="mt-3">Integridad y conservación de datos de carácter personal</h5>
+                    Lineup garantizará la exactitud y la calidad de los datos personales, se conservarán durante el tiempo necesario para cumplir los fines para los que fueron recabados, salvo que la ley exija conservarlos durante más tiempo.
+
+                    <h5 class="mt-3">Acceso a los datos de carácter personal</h5>
+                    Respecto a los datos de carácter personal que conservamos, Lineup le ofrece accesoa ellos para cualquier fin, incluyendo las solicitudes de rectificación en caso de que sean incorrectos o de eliminación en caso de no estar obligados a conservarlos por imperativo legal o por razones legítimas de negocio. Nos reservamos el derecho a no tramitar aquellas solicitudes que sean improcedentes o vejatorias, que pongan en riesgo la privacidad de terceros, que resulten inviables o para las que la legislación local no exija derecho de acceso. Las solicitudes de acceso, rectificación o eliminación podrán enviarse a nuestra cuenta de correo electrónico soporte@lineupforecast.com.
+
+                    <h5 class="mt-3">Niños y educación</h5>
+                    Lineup es consciente de la necesidad de establecer precauciones adicionales para preservar la privacidad y la seguridad de los menores que utilizan las aplicaciones y exigir consentimiento de sus progenitores en caso de que no tengan la edad mínima exigida por la legislación (en España, 14 años).
+                    Si se han recopilado datos personales de un menor de 14 años, sin el consentimiento necesario, se debe eliminar esa información lo antes posible.
+
+                    <h5 class="mt-3">Servicios de localización</h5>
+                    <p>Para prestar servicios de localización Lineup podrá reunir, utilizar y compartir datos exactos sobre ubicaciones, incluyendo la situación geográfica en tiempo real de su ordenador o de su dispositivo. Salvo que nos den su consentimiento, estos datos de localización se recogen de manera anónima de forma que no pueden utilizarse para identificarlo personalmente, y son usados para suministrar y mejorar sus productos y servicios de localización.</p>
+
+                    <h5 class="mt-3">Páginas web y servicios de terceros</h5>
+                    <p>Las aplicaciones pueden contener enlaces a páginas web, productos y servicios de terceros. También pueden utilizar u ofrecer productos o servicios de terceros. La recogida de datos por parte de terceros, introduciendo de datos sobre ubicaciones geográficas o datos de contacto, se guiará por sus respectivas políticas de privacidad. Le recomendamos consultar las políticas de privacidad de esos terceros.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <div class="bg-white">
+                <div class="container section">
+                    <div class="row justify-content-center g-0">
+                        <div class="col col-md-9">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="mb-4">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+<svg class="logo-lineup" width="100px" height="33px" viewBox="0 0 100 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Lineup</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-235.000000, -44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M249.594595,68.5454545 L249.594595,64.6841294 L239.306602,64.6841294 L239.306602,44.1363636 L235,44.1363636 L235,68.5454545 L249.594595,68.5454545 Z M255.033345,48.9090909 C255.786241,48.9090909 256.419358,48.6761364 256.932696,48.2102273 C257.446034,47.7443182 257.702703,47.1590909 257.702703,46.4545455 C257.702703,45.75 257.446034,45.1647727 256.932696,44.6988636 C256.419358,44.2329545 255.786241,44 255.033345,44 C254.280449,44 253.65874,44.2443182 253.168217,44.7329545 C252.677694,45.2215909 252.432432,45.7954545 252.432432,46.4545455 C252.432432,47.1136364 252.677694,47.6875 253.168217,48.1761364 C253.65874,48.6647727 254.280449,48.9090909 255.033345,48.9090909 Z M257.162162,68.8181818 L257.162162,52.1818182 L253.108108,52.1818182 L253.108108,68.8181818 L257.162162,68.8181818 Z M265.190168,68.6818182 L265.190168,59.5725064 C265.190168,59.0204269 265.270066,58.4740983 265.429864,57.9335204 C265.589662,57.3929426 265.823652,56.9156238 266.131833,56.5015642 C266.440015,56.0875046 266.833802,55.7482057 267.313196,55.4836676 C267.792589,55.2191296 268.363295,55.0868605 269.025315,55.0868605 C269.687334,55.0868605 270.218091,55.2248804 270.617586,55.5009201 C271.01708,55.7769599 271.330969,56.1277604 271.559252,56.5533217 C271.787534,56.978883 271.935918,57.4562017 272.004403,57.9852779 C272.072887,58.5143541 272.10713,59.0204269 272.10713,59.5034965 L272.10713,59.5034965 L272.10713,68.6818182 L276.216216,68.6818182 L276.216216,58.3303276 C276.216216,57.479205 276.102075,56.6510858 275.873792,55.8459698 C275.64551,55.0408539 275.285965,54.3277512 274.795157,53.7066618 C274.30435,53.0855723 273.676573,52.5852503 272.911826,52.2056956 C272.147079,51.826141 271.228242,51.6363636 270.155314,51.6363636 C268.922588,51.6363636 267.855367,51.9526592 266.95365,52.5852503 C266.051934,53.2178414 265.41845,53.9481965 265.053198,54.7763158 L265.053198,54.7763158 L264.984713,54.7763158 L264.984713,52.1194332 L261.081081,52.1194332 L261.081081,68.6818182 L265.190168,68.6818182 Z M287.742743,69.2272727 C290.820821,69.2272727 293.16928,68.119184 294.788121,65.9030064 L294.788121,65.9030064 L292.052052,63.6868289 C291.59604,64.3562992 291.014626,64.8814871 290.307808,65.2623926 C289.60099,65.6432981 288.734568,65.8337509 287.708542,65.8337509 C287.115727,65.8337509 286.545712,65.7298676 285.998498,65.5221009 C285.451285,65.3143343 284.961072,65.0315408 284.527861,64.6737205 C284.09465,64.3159001 283.746941,63.8888243 283.484735,63.3924928 C283.222528,62.8961614 283.068624,62.3478883 283.023023,61.7476736 L283.023023,61.7476736 L295.50634,61.7476736 C295.52914,61.5629921 295.540541,61.3783107 295.540541,61.1936292 L295.540541,61.1936292 L295.540541,60.6395848 C295.540541,59.139048 295.341035,57.8289639 294.942025,56.7093325 C294.543015,55.5897011 293.990101,54.6547513 293.283283,53.9044828 C292.576465,53.1542144 291.738544,52.5886274 290.76952,52.2077219 C289.800495,51.8268164 288.745968,51.6363636 287.605939,51.6363636 C286.374708,51.6363636 285.228979,51.8499016 284.168752,52.2769775 C283.108525,52.7040533 282.190802,53.3042681 281.415582,54.0776217 C280.640363,54.8509753 280.030447,55.7859252 279.585836,56.8824714 C279.141225,57.9790175 278.918919,59.1967609 278.918919,60.5357015 C278.918919,61.8977273 279.141225,63.1154707 279.585836,64.1889316 C280.030447,65.2623926 280.646063,66.168486 281.432683,66.9072119 C282.219303,67.6459377 283.148426,68.217296 284.220053,68.6212867 C285.291681,69.0252774 286.46591,69.2272727 287.742743,69.2272727 Z M291.486486,58.7272727 L283.108108,58.7272727 C283.198931,57.5681818 283.670073,56.6193182 284.521534,55.8806818 C285.372995,55.1420455 286.411778,54.7727273 287.637882,54.7727273 C288.296345,54.7727273 288.869662,54.8806818 289.357833,55.0965909 C289.846005,55.3125 290.24903,55.6022727 290.566908,55.9659091 C290.884787,56.3295455 291.11752,56.75 291.265107,57.2272727 C291.412693,57.7045455 291.486486,58.2045455 291.486486,58.7272727 L291.486486,58.7272727 Z M304.304146,69.2272727 C305.536872,69.2272727 306.604093,68.9109772 307.505809,68.2783861 C308.407525,67.645795 309.041009,66.9154398 309.406261,66.0873206 L309.406261,66.0873206 L309.474746,66.0873206 L309.474746,68.7442032 L313.378378,68.7442032 L313.378378,52.1818182 L309.269292,52.1818182 L309.269292,61.2911299 C309.269292,61.8432094 309.189393,62.3895381 309.029595,62.9301159 C308.869797,63.4706938 308.635808,63.9480125 308.327626,64.3620721 C308.019445,64.7761318 307.61995,65.1154306 307.129143,65.3799687 C306.638335,65.6445068 306.073336,65.7767759 305.434145,65.7767759 C304.772125,65.7767759 304.241368,65.638756 303.841874,65.3627162 C303.442379,65.0866765 303.12849,64.735876 302.900208,64.3103147 C302.671925,63.8847534 302.523542,63.4074347 302.455057,62.8783585 C302.386572,62.3492823 302.35233,61.8432094 302.35233,61.3601399 L302.35233,61.3601399 L302.35233,52.1818182 L298.243243,52.1818182 L298.243243,62.5333088 C298.243243,63.3844314 298.357385,64.2125506 298.585667,65.0176665 C298.81395,65.8227825 299.173495,66.5358852 299.664302,67.1569746 C300.15511,67.778064 300.782887,68.2783861 301.547634,68.6579407 C302.31238,69.0374954 303.231218,69.2272727 304.304146,69.2272727 Z M321.406242,77 L321.406242,66.4951697 L321.474724,66.4951697 C321.999756,67.3244984 322.747356,67.9810503 323.717523,68.4648254 C324.687691,68.9486004 325.754875,69.190488 326.919076,69.190488 C328.174587,69.190488 329.298839,68.9543597 330.291834,68.482103 C331.284829,68.0098464 332.129446,67.3763314 332.825684,66.5815581 C333.521921,65.7867847 334.058367,64.8537899 334.43502,63.7825737 C334.811673,62.7113574 335,61.5652712 335,60.3443151 C335,59.1233589 334.805967,57.983032 334.4179,56.9233342 C334.029833,55.8636364 333.481973,54.94216 332.774322,54.1589051 C332.06667,53.3756502 331.222054,52.7594129 330.240473,52.3101932 C329.258891,51.8609735 328.186,51.6363636 327.021799,51.6363636 C326.268493,51.6363636 325.589376,51.722752 324.984448,51.8955289 C324.37952,52.0683057 323.837367,52.2871563 323.35799,52.5520808 C322.878614,52.8170052 322.473426,53.116485 322.142428,53.4505202 C321.811429,53.7845554 321.543207,54.1128313 321.337759,54.435348 L321.337759,54.435348 L321.235036,54.435348 L321.235036,52.1201387 L317.297297,52.1201387 L317.297297,77 L321.406242,77 Z M326.065097,65.8181818 C325.308534,65.8181818 324.632213,65.6618035 324.036133,65.3490469 C323.440053,65.0362903 322.929946,64.6250733 322.505812,64.1153959 C322.081678,63.6057185 321.760712,63.0323314 321.542914,62.3952346 C321.325115,61.7581378 321.216216,61.1152493 321.216216,60.4665689 C321.216216,59.8178886 321.325115,59.1692082 321.542914,58.5205279 C321.760712,57.8718475 322.081678,57.2926686 322.505812,56.7829912 C322.929946,56.2733138 323.440053,55.856305 324.036133,55.5319648 C324.632213,55.2076246 325.308534,55.0454545 326.065097,55.0454545 C326.867513,55.0454545 327.56676,55.2018328 328.16284,55.5145894 C328.75892,55.827346 329.251832,56.238563 329.641577,56.7482405 C330.031322,57.2579179 330.32363,57.831305 330.518502,58.4684018 C330.713375,59.1054985 330.810811,59.7483871 330.810811,60.3970674 C330.810811,61.0457478 330.713375,61.6944282 330.518502,62.3431085 C330.32363,62.9917889 330.031322,63.5709677 329.641577,64.0806452 C329.251832,64.5903226 328.75892,65.0073314 328.16284,65.3316716 C327.56676,65.6560117 326.867513,65.8181818 326.065097,65.8181818 Z" id="Lineup"></path>
+        </g>
+    </g>
+</svg>
+                                </div>
+                                <div class="mb-4">
+                                    <a target="_blank" class="text-muted me-3" href="https://twitter.com/lineupforecast"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg></a>
+                                    <a target="_blank" class="text-muted" href="https://instagram.com/lineupforecast"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg></a>
+                                </div>
+                                <div class="">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a class="text-muted" href="/">Descargar app</a></li>
+                                        <li><a class="text-muted" href="#features">Características</a></li>
+                                        <li><a class="text-muted" href="#faq">Preguntas frecuentes</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+            </body>
+
+</html>

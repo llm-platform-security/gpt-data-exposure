@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Companion Privacy Policy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <div class="bg-white p-6 rounded shadow">
+            <h1 class="text-xl font-bold mb-4">Privacy Policy for Capital Companion</h1>
+
+            <p class="mb-3"><strong>Last Updated: 01/17/24</strong></p>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">1. Introduction</h2>
+            <p class="mb-3">Welcome to Capital Companion. This privacy policy ("Policy") describes how Capital Companion collects, uses, and shares personal information when you use our service.</p>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">2. Information Collection</h2>
+            <p class="mb-3">We collect the following information:</p>
+            <ul class="list-disc list-inside mb-3">
+                <li><strong>Usage Data</strong>: When you access the service, we may automatically collect certain information about your device and usage of the service, including IP addresses, browser type, browser version, the pages of our service that you visit, the time and date of your visit, the time spent on those pages, and other diagnostic data.</li>
+                <li><strong>API Data</strong>: When you use our API, we may collect information about the API requests made, including the stock symbols queried and the frequency of requests.</li>
+            </ul>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">3. Use of Information</h2>
+            <p class="mb-3">The information we collect is used for the following purposes:</p>
+            <ul class="list-disc list-inside mb-3">
+                <li>To provide and maintain our service.</li>
+                <li>To monitor the usage of our service.</li>
+                <li>To detect, prevent, and address technical issues.</li>
+            </ul>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">4. Data Sharing</h2>
+            <p class="mb-3">We do not share your personal information with third parties, except as necessary to comply with the law, or protect our rights.</p>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">5. Data Security</h2>
+            <p class="mb-3">We strive to use commercially acceptable means to protect your personal information but remember that no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+
+            <h2 class="text-lg font-semibold mt-4 mb-2">6. Changes to This Privacy Policy</h2>
+            <p class="mb-3">We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+        </div>
+    </div>
+</body>
+</html>

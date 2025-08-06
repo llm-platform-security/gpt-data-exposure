@@ -1,0 +1,1290 @@
+
+
+
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com -->
+<!--  Last Published: Sat Jun 17 2017 13:28:40 GMT+0000 (UTC)  -->
+<html>
+  <head>
+    
+
+
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-877LY0S3L6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-877LY0S3L6');
+</script>
+
+    
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2136357668616589" crossorigin="anonymous"></script>
+
+
+    <title>Data Security</title>
+    <link rel="shortcut icon" href="https://d5a9y5rnan99s.cloudfront.net/images/favicon.226052eb87e0.svg">
+    <meta charset="utf-8"/>
+    <meta content="Import MS Word documents and format your content automatically to 88,000+ journals such as IEEE. Elsevier etc. Scientists at CERN and NASA use SciSpace to author their research papers." name="description"/>
+    <meta content="SciSpace- Auto-format your paper to any journal in a click" property="og:title"/>
+    <meta content="Import MS Word documents and format your content automatically to 88,000+ journals such as IEEE. Elsevier etc. Scientists at CERN and NASA use SciSpace to author their research papers." property="og:description"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    
+
+
+
+<script>
+    "use strict";
+    function LoadDriftWidget() {
+        console.log('loading helper');
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function (e) {
+                    return function () {
+                        var n = Array.prototype.slice.call(arguments);
+                        return n.unshift(e), t.push(n), t;
+                    };
+                }, t.methods.forEach(function (e) {
+                    t[e] = t.factory(e);
+                }), t.load = function (t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+        }
+        drift.SNIPPET_VERSION = "0.3.1";
+        drift.on('ready', function () {
+            
+            addHelp();
+        });
+        drift.load("None");
+    };
+
+    function addHelp() {
+        const helpWidget = document.createElement("a");
+        const textNode = document.createTextNode("Help?");
+        helpWidget.classList.add("helpWidget");
+        helpWidget.appendChild(textNode);
+        helpWidget.onclick = function () {
+            drift.api.startInteraction({ interactionId: 123359 });
+        };
+        document.body.appendChild(helpWidget);
+    }
+
+    
+    function scheduleDrift() {
+        setTimeout(function () {
+            LoadDriftWidget()
+        }, 4000);
+    }
+    window.onload = setTimeout(scheduleDrift, 1000);
+    
+</script>
+
+
+
+<script id="intercom">
+window.intercomSettings = {
+  alignment: "left",
+  horizontal_padding: 40,
+  api_base: "https://api-iam.intercom.io",
+  app_id: "jtijbv5y",
+  
+  
+  
+  
+};
+</script>
+
+<script>
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/jtijbv5y';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+
+
+
+<!-- Vendor javascript starts -->
+
+
+<!-- Vendor javascript ends -->
+
+<!-- Vendor css starts -->
+<!-- Bootstrap Css -->
+<link rel="stylesheet" href='https://d5a9y5rnan99s.cloudfront.net/lib/bootstrap/css/bootstrap.min.2f624089c65f.css'/>
+<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> -->
+<!-- Vendor css ends -->
+<link rel='stylesheet' href='https://d5a9y5rnan99s.cloudfront.net/css/common/marketing-icons.a82e44e0c2b5.css'/>
+<link rel='stylesheet' href='https://d5a9y5rnan99s.cloudfront.net/css/icons.125ed9e53d1f.css'/>
+<link href='https://d5a9y5rnan99s.cloudfront.net/css/mainNew.bundle.d830da34be28.css' rel="stylesheet" type="text/css"/>
+
+        <style>
+
+                @font-face {
+                  font-family: "ProximaVara-Roman";
+                  src: url(https://d5a9y5rnan99s.cloudfront.net/fonts/proxima-vara-roman/font.5aee7ef3d65c.woff2) format('woff2'), url(https://d5a9y5rnan99s.cloudfront.net/fonts/proxima-vara-roman/font.7f6246cfc691.woff) format('woff');
+                  font-weight: 100 1000;
+                  font-display: swap;
+                }
+
+                body {
+                  font-family: 'ProximaVara-Roman', system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+                }
+            </style>
+    
+    
+
+
+    
+
+    
+ 
+</head>
+  <body class="security">
+
+
+
+    
+
+
+<style>
+    @keyframes loader-kf{100%{transform:rotate(360deg)}}.sp-header-wrapper *{font-family:"ProximaVara-Roman", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important}.sp-header-wrapper img{width:auto}.sp-header-wrapper .hide{display:none !important}.sp-header-wrapper .divider-horizontal{height:1px;background-color:#c6c8ca;margin:unset;width:unset}.sp-header-wrapper.no-search-bar .sp-header{height:60px !important}.sp-header-wrapper .sp-header{position:fixed;top:0;left:0;right:0;background:white;box-shadow:0px 0px 4px rgba(0,0,0,0.16);z-index:999;height:92px}.sp-header-wrapper .sp-header__container{width:100%;height:100%;padding:0px 15px}.sp-header-wrapper .sp-header__wrapper{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-around;gap:5px}.sp-header-wrapper .sp-header__wrapper .lhs{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;height:95%;width:100%}.sp-header-wrapper .sp-header__wrapper .lhs .scispace-logo{order:0}.sp-header-wrapper .sp-header__wrapper .lhs .scispace-logo img{height:34px;width:unset}.sp-header-wrapper .sp-header__wrapper .search-field-container{order:2;width:100%}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper{display:flex;align-items:center;justify-content:space-between;background:white;border:1px solid #c6c8ca;box-sizing:border-box;border-radius:4px;height:34px;width:100%;padding:0px 12px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper img{width:unset}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-icon-btn,.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .transparent-action-btn{border:none;background:none;height:34px;width:34px;cursor:pointer}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .back-btn{justify-content:flex-start;margin-left:-5px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-icon-wrapper{height:34px;width:34px;display:flex;align-items:center;justify-content:center;margin-right:-5px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-icon-btn{background-color:#030303;margin-right:-12px;border-top-right-radius:4px;border-bottom-right-radius:4px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-icon-btn img{filter:brightness(0) invert(1)}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .clear-icon{margin-right:-5px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-icon-wrapper img{width:unset;vertical-align:-1px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-field{border:none;background:none;font-weight:400;font-size:14px;line-height:1.4375em;letter-spacing:-0.005em;color:#030303;width:100%}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-field::placeholder{color:rgba(80,80,80,0.75)}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .search-field:focus{outline:none}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper.focused{border-color:#030303;background:white;box-shadow:none;position:fixed;top:0;left:0;right:0;z-index:9999;border:none;height:45px;box-shadow:0px 1px 4px rgba(0,0,0,0.16);background:white}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper.focused .search-field{color:#030303;padding-right:5px}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .autoauggest-loading{height:34px;width:34px;margin-right:-5px;display:flex;align-items:center;justify-content:center}.sp-header-wrapper .sp-header__wrapper .search-field-wrapper .autoauggest-loading .loader{display:inline-block;width:20px;height:20px;vertical-align:-3.5px;border:2px solid #258eb2;border-right-color:transparent;border-radius:50%;animation:0.75s linear infinite loader-kf}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown{position:fixed;top:0px;left:0px;right:0px;bottom:0px;background:white;padding:50px 15px 0px 15px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list{height:100%;overflow-y:auto;display:flex;flex-direction:column;gap:18px;padding-top:10px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .no-results p{margin:0px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .show-all-btn{background:none;border:none;color:#258eb2;width:100%;text-align:left;padding:0px;font-size:14px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item{cursor:pointer}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item h6{font-weight:400;font-size:16px;line-height:19px;margin:0;color:#258eb2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item p{color:#505050;font-weight:400;margin:0}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item p .entity-type{font-size:12px;padding:5px 10px;background-color:#e6e9ed;border-radius:2px;margin-right:8px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item p .meta-data{font-size:14px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .recent-search-list{display:flex;flex-direction:column;gap:18px;padding-top:10px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .recent-search-list h6{font-weight:400;font-size:12px;line-height:14px;color:#505050}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .recent-search-list .recent-search-item{margin:0px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-weight:400;font-size:14px;line-height:17px;color:#030303}.sp-header-wrapper .sp-header__wrapper .mobile-menus{display:flex;align-items:center;order:1}.sp-header-wrapper .sp-header__wrapper .mobile-menus__actions{display:flex;align-items:center;justify-content:space-around;gap:20px}.sp-header-wrapper .sp-header__wrapper .mobile-menus__actions .auth-btn{display:flex;align-items:center;gap:6px;font-size:16px;font-weight:500;line-height:20px;color:#030303}.sp-header-wrapper .sp-header__wrapper .desktop-menus{display:none;align-items:center;order:2}.sp-header-wrapper .sp-header .learn-more-section h6{color:#505050}.sp-header-wrapper .sp-header .learn-more-section .divider-horizontal{display:none}.sp-header-wrapper .mobile-menus-modal{position:fixed;left:0px;right:0px;bottom:0px;background-color:white;overflow-y:auto;padding:0px 15px;z-index:9999;scroll-behavior:smooth;padding-bottom:60px}.sp-header-wrapper .mobile-menus-modal .menu-link{display:flex;font-weight:500;font-size:16px;line-height:20px;color:#030303;align-items:center;justify-content:space-between;padding:20px 0px}.sp-header-wrapper .mobile-menus-modal .menu-link img{width:unset}.sp-header-wrapper .mobile-menus-modal .collapse-menu{padding-bottom:20px}.sp-header-wrapper .mobile-menus-modal .collapse-menu__toggle{display:flex;align-items:center;justify-content:space-between;width:100%;position:sticky;top:0px;z-index:3;font-weight:700;font-size:16px;line-height:19px;color:#030303;background-color:white;transition:0.4s;padding:20px 0px;color:#030303;margin:0px}.sp-header-wrapper .mobile-menus-modal .collapse-menu__toggle::after{content:"";vertical-align:2px;border-top:5px solid #030303;border-right:5px solid transparent;border-bottom:0;border-left:5px solid transparent;margin-left:10px;border-radius:4px}.sp-header-wrapper .mobile-menus-modal .collapse-menu__toggle.active::after{transform:rotate(180deg)}.sp-header-wrapper .mobile-menus-modal .collapse-menu__body{background-color:white;overflow:hidden;transition:max-height 0.2s ease-out}.sp-header-wrapper .mobile-menus-modal .login-btn,.sp-header-wrapper .mobile-menus-modal .get-started-btn{width:100%;min-width:auto}.sp-header-wrapper .mobile-menus-modal .login-btn{background:white;border:1px solid #030303;color:#030303}.sp-header-wrapper .mobile-menus-modal .actions{z-index:9999;background-color:white;position:fixed;bottom:0;left:0;right:0;gap:15px;display:flex;align-items:center;justify-content:space-between;background-color:white;padding:15px;border-top:0.7px solid #c6c8ca}.sp-header-wrapper .mobile-menus-modal .actions a{width:100%}.sp-header-wrapper .header-link-container,.sp-header-wrapper .header-link-wrapper{display:flex;flex-direction:column;gap:25px}.sp-header-wrapper .header-link-sub-heading{display:flex;align-items:center;font-weight:600;font-size:14px;line-height:17px;color:rgba(80,80,80,0.7);gap:10px}.sp-header-wrapper .header-link-item{position:relative;display:flex;flex-direction:column;gap:4px}.sp-header-wrapper .header-link-item h6{font-weight:500;font-size:16px;line-height:20px;color:#030303;margin:0px;max-width:280px}.sp-header-wrapper .header-link-item p{margin:0px;font-weight:400;font-size:14px;line-height:19px;color:#505050;max-width:280px}.sp-header-wrapper .header-link-item .right-icon{position:absolute;right:0px;margin:auto;top:0;bottom:0}.sp-header-wrapper .menu-button{background:#030303;border-radius:4px;color:white;padding:4px 16px;border:1px solid #030303;cursor:pointer;display:flex;align-items:center;justify-content:center;white-space:nowrap;font-weight:450;font-size:16px;line-height:26px}.sp-header-wrapper .sp-header-content-shifter{height:92px}.sp-header-wrapper .sp-header-content-shifter.no-search-bar{height:60px}@media (min-width: 768px){.sp-header-wrapper .sp-header{height:60px}.sp-header-wrapper .sp-header__container{width:1200px;margin:auto;padding:0px 0px}.sp-header-wrapper .sp-header__wrapper{flex-direction:row;justify-content:space-between;gap:28px}.sp-header-wrapper .sp-header__wrapper .lhs{gap:30px;width:100%;flex-wrap:nowrap}.sp-header-wrapper .sp-header__wrapper .mobile-menus{display:none}.sp-header-wrapper .sp-header__wrapper .desktop-menus{display:flex}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper{display:flex;align-items:center;justify-content:space-between;gap:28px}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu{display:flex;align-items:center;justify-content:center;gap:34px}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item{font-weight:450;font-size:16px;line-height:19px;color:#030303;white-space:nowrap;cursor:pointer;display:flex;align-items:center}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item.has-dd::after{content:"";vertical-align:2px;border-top:5px solid #030303;border-right:5px solid transparent;border-bottom:0;border-left:5px solid transparent;margin-left:7px;border-radius:4px}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item:hover{color:#258eb2}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item:hover.has-dd::after{border-top-color:#258eb2}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item.active{color:#258eb2}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__item.active.has-dd::after{border-top-color:#258eb2;transform:rotate(180deg)}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .main-menu__collapsed{display:flex;align-items:center;justify-content:space-between;gap:10px;background:none;border:none;font-weight:450;font-size:16px;line-height:19px;color:#030303}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .menu-divider{display:inline-block;background:#c6c8ca;width:1px;height:34px}.sp-header-wrapper .sp-header__wrapper .desktop-menus__wrapper .login-btn{font-weight:450;font-size:16px;line-height:19px;color:#030303;cursor:pointer;background:none;border:none;width:unset;padding:unset}.sp-header-wrapper .sp-header__wrapper .search-field-container{order:1;width:100%}.sp-header-wrapper .sp-header__wrapper .search-field-container .search-field-wrapper{width:372px;position:unset;top:unset;left:unset;right:unset;background:rgba(198,200,202,0.12);border:0.8px solid #c6c8ca;box-shadow:inset 0px 2px 1px rgba(222,221,221,0.5);height:34px}.sp-header-wrapper .sp-header__wrapper .search-field-container .search-field-wrapper.focused,.sp-header-wrapper .sp-header__wrapper .search-field-container .search-field-wrapper.full_expanded{width:100%;border-color:#030303;box-shadow:none;background:white}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown{position:absolute;height:auto;top:unset;left:unset;right:unset;bottom:unset;background:#ffffff;border:1px solid rgba(202,202,202,0.3);box-shadow:0px 5px 12px rgba(0,0,0,0.16);border-radius:2px;padding:0px;z-index:1}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list{padding:0px;padding-top:5px;gap:0px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .divider-horizontal{margin:unset;width:unset;margin-top:10px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item{padding:7.5px 15px;cursor:pointer;transition:0.2s}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item:hover{background-color:rgba(0,0,0,0.04);transition:0.2s}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .auto-suggest-item h6{color:#030303}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .show-all-btn{padding:8px 15px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .no-results{padding:5px 15px}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .no-results h4{font-size:16px;line-height:unset}.sp-header-wrapper .sp-header__wrapper .search-field-dropdown .auto-suggest-list .no-results p{font-size:14px;color:#505050}.sp-header-wrapper .sp-header .go-to-geature,.sp-header-wrapper .sp-header .profile-dd{position:relative}.sp-header-wrapper .sp-header .go-to-geature .header-menu-modal,.sp-header-wrapper .sp-header .profile-dd .header-menu-modal{width:auto;padding:20px}.sp-header-wrapper .sp-header .go-to-geature .go-to-btn{border:1px solid #c6c8ca;font-size:16px;font-weight:450;border-radius:4px;height:36px;padding:3px 9px;white-space:nowrap;display:flex;align-items:center;color:#030303}.sp-header-wrapper .sp-header .go-to-geature .go-to-btn::after{content:"";vertical-align:2px;border-top:5px solid #030303;border-right:5px solid transparent;border-bottom:0;border-left:5px solid transparent;margin-left:17px}.sp-header-wrapper .sp-header .go-to-geature .go-to-btn.active{color:#258eb2;border-color:#258eb2}.sp-header-wrapper .sp-header .go-to-geature .go-to-btn.active::after{border-top-color:#258eb2;transform:rotate(180deg)}.sp-header-wrapper .sp-header .go-to-geature .go-to-content{position:absolute;top:35px;right:0px;display:flex;flex-direction:column;gap:20px}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option{padding:0px;width:220px}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option h6,.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option p{margin:0px;width:100%;white-space:normal}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option h6{font-size:16px;font-weight:500;line-height:20px;color:#030303}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option p{font-size:14px;font-weight:400;color:#505050;line-height:19px}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option:hover h6{color:#258eb2}.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option:hover,.sp-header-wrapper .sp-header .go-to-geature .go-to-content .go-to-option:focus{background:none !important}.sp-header-wrapper .sp-header .profile-dd .profile-toggle-btn{width:34px;height:34px}.sp-header-wrapper .sp-header .profile-dd .profile-toggle-btn.active .profile-btn{background-color:#258eb2}.sp-header-wrapper .sp-header .profile-dd .profile-img{cursor:pointer;height:100%;width:100%;object-fit:cover;object-position:top;border-radius:4px}.sp-header-wrapper .sp-header .profile-dd .profile-btn{height:100%;width:100%;border-radius:4px;background-color:#030303;display:flex;align-items:center;justify-content:center;text-transform:uppercase;color:white;font-weight:600;font-size:16px;line-height:19px}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content{position:absolute;top:35px;right:0px;display:flex;flex-direction:column;gap:18px}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content .profile-option{cursor:pointer;font-size:16px;color:#030303;font-weight:500;line-height:20px}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content .profile-option h6{font-weight:600;line-height:20px;font-size:16px;margin:0px}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content .profile-option p.email{color:#505050;font-size:14px;font-weight:400;line-height:19px;margin:0px;width:140px;overflow:hidden;text-overflow:ellipsis}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content .profile-option:hover{color:#258eb2}.sp-header-wrapper .sp-header .profile-dd .profile-dd-content .profile-option:hover h6{color:#258eb2}.sp-header-wrapper .sp-header .header-menu-modal{position:absolute;background:white;padding:20px;border:1px solid rgba(198,200,202,0.2);box-shadow:0px 14px 12px -5px rgba(3,3,3,0.16);border-radius:4px;width:747px}.sp-header-wrapper .sp-header .header-menu-modal .header-link-container{display:flex;flex-direction:row;justify-content:space-between}.sp-header-wrapper .sp-header .header-menu-modal .header-link-container .header-link-item:hover h6{color:#258eb2}.sp-header-wrapper .sp-header .header-menu-modal .header-link-container .header-link-item img{display:none}.sp-header-wrapper .sp-header .modal-menu-discover{width:170px}.sp-header-wrapper .sp-header .modal-menu-discover .header-link-wrapper{width:100%}.sp-header-wrapper .sp-header .learn-more-section .divider-horizontal{display:block;margin:0 0 20px 0}.sp-header-wrapper .sp-header-content-shifter{height:60px}}
+</style>
+
+
+<div class="sp-header-wrapper ">
+    <header id="scispace-header" class="sp-header">
+        <div class="sp-header__container">
+            <div class="sp-header__wrapper">
+                <div class="lhs">
+                    <a href="/" class="scispace-logo">
+                        <img src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/logos/ic_scispace.ec4f882c0db3.svg'
+                            alt="SciSpace Logo">
+                    </a>
+                    <div id="search-field-col" class=" search-field-container">
+                        
+                        
+
+<div id="search-field-wrapper" class="search-field-wrapper  ">
+    <button id="search-field-back-btn" class="hide transparent-action-btn back-btn">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="#505050" />
+        </svg>
+    </button>
+    <input autocomplete="off" id="scispace-search-field" type="text" class="search-field"
+        placeholder="Discover 270 million+ papers across all topics" data-section='search'>
+    <span id="search-icon-wrapper" class="search-icon-wrapper  ">
+        
+        <img class="" id="search-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_search.e95a486d5eee.svg'>
+        
+    </span>
+    </button>
+    <button id="search-icon-btn" class="hide search-icon-btn">
+        
+        <img src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_search.e95a486d5eee.svg'>
+        
+    </button>
+    <div id="auto-suggest-loader" class="autoauggest-loading hide">
+        <div class="loader" role="status"></div>
+    </div>
+    <button id="clear-icon" class="hide transparent-action-btn clear-icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M8 0C3.576 0 0 3.576 0 8C0 12.424 3.576 16 8 16C12.424 16 16 12.424 16 8C16 3.576 12.424 0 8 0ZM12 10.872L10.872 12L8 9.128L5.128 12L4 10.872L6.872 8L4 5.128L5.128 4L8 6.872L10.872 4L12 5.128L9.128 8L12 10.872Z"
+                fill="#505050" />
+        </svg>
+    </button>
+</div>
+
+
+
+<!-- Modal -->
+<div id="search-field-dropdown" class="search-field-dropdown hide" data-section='autosuggest'>
+  <div id="auto-suggest-list" class="auto-suggest-list hide">
+  </div>
+  <div id="recent-search-list" class="recent-search-list hide">
+    <h6>Recent searches</h6>
+    <p class="recent-search-item hide"><img src="https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_recent_search.6c0a407d893c.svg"></p>
+  </div>
+</div>
+
+                        
+                    </div>
+                    <div class="mobile-menus">
+                        
+
+<div class="mobile-menus__actions">
+    
+    <a href="/accounts/login/" class="menu-button">Sign up</a>
+    
+    <img id="menu-hamburger" role="button" data-state="open" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_hamburger.6fb011390ebc.svg'/>
+</div>
+
+<script>
+    function handleMenuModal() {
+        const menuHamburger = document.getElementById('menu-hamburger')
+        const modalMenuContent = document.getElementById('mobile-menu-modal-content')
+
+        const hamburgerIconUrl = 'https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_hamburger.6fb011390ebc.svg'
+        const hamburgerCloseIconUrl = 'https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_close.dcb18cedb343.svg'
+
+        menuHamburger.addEventListener('click', function () {
+            const top = menuHamburger.offsetTop
+            const isOpen = menuHamburger.getAttribute('data-state') === 'open'
+            document.body.style.overflow = isOpen ? 'hidden' : 'auto';
+            menuHamburger.setAttribute("src", isOpen ? hamburgerCloseIconUrl : hamburgerIconUrl);
+            menuHamburger.setAttribute('data-state', isOpen ? 'closed' : 'open')
+            const modalTopPosition = top + 38
+            modalMenuContent.style.top = modalTopPosition + 'px'
+            modalMenuContent.classList.toggle('hide')
+        });
+    }
+    
+    window.addEventListener('load', function() {
+        handleMenuModal()
+    })
+</script>
+                    </div>
+                </div>
+                <div class="desktop-menus">
+                    <div class="desktop-menus__wrapper" data-section='NavBar'>
+    <div id="main-menu" class="main-menu">
+        <div class="main-menu__item has-dd" id="menu-discover-btn">Discover</div>
+        
+         <div class="main-menu__item has-dd" id="menu-write-btn">Write</div>
+        <div class="main-menu__item has-dd" id="menu-for-publisher">For Publishers</div> 
+        
+    </div>
+    <button id="main-menu-collapsed" class="hide main-menu__collapsed">
+        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 12H13V10H0V12ZM0 7H10V5H0V7ZM0 0V2H13V0H0ZM18 9.59L14.42 6L18 2.41L16.59 1L11.59 6L16.59 11L18 9.59Z" fill="#505050"/>
+        </svg>
+        <span>Menu</span>
+    </button> 
+    
+
+    <style>
+    .my-library-button{
+        display:flex;
+        gap:8px;
+        align-items:center;
+        color:black;
+    }
+    .login-btn-navbar{
+        background: white !important;
+        color: black !important;
+    }
+    .ml-8{
+        margin-left:8px;
+    }
+</style>
+
+
+    <a href="/accounts/login/"> 
+        <div class="menu-button login-btn-navbar border" data-element='login'>Log in</div>
+    </a>
+
+    <a href="/accounts/signup/">
+        <div class="menu-button" data-element='signup'>Sign Up</div>
+    </a>
+
+</div>
+
+<script>
+    function handleDiscoverMenu() {
+        const menuDiscover = document.getElementById('menu-discover-btn')
+        const modalDiscoverContent = document.getElementById('discover-menu-modal-content')
+
+        menuDiscover.addEventListener('click', function () {
+            const top = menuDiscover.offsetTop
+            const left = menuDiscover.offsetLeft
+
+            menuDiscover.classList.toggle('active')
+            modalDiscoverContent.classList.toggle('hide')
+            modalDiscoverContent.style.top = top + 40 + 'px';
+            modalDiscoverContent.style.left = left - (modalDiscoverContent.offsetWidth / 2) + 40 + 'px';
+        });
+
+        document.addEventListener('click', function (event) {
+            if (menuDiscover.contains(event.target) || modalDiscoverContent.contains(event.target)) {
+                return;
+            } else {
+                modalDiscoverContent.classList.add('hide');
+                menuDiscover.classList.remove('active')
+            }
+        })
+    }
+
+    function handleWriteMenu() {
+        const menuWrite = document.getElementById('menu-write-btn')
+        const modalWriteContent = document.getElementById('write-menu-modal-content')
+
+        menuWrite.addEventListener('click', function () {
+            const top = menuWrite.offsetTop
+            const left = menuWrite.offsetLeft
+
+            menuWrite.classList.toggle('active')
+            modalWriteContent.classList.toggle('hide')
+            modalWriteContent.style.top = top + 40 + 'px';
+            modalWriteContent.style.left = left - (modalWriteContent.offsetWidth / 2) + 40 + 'px';
+        });
+
+        document.addEventListener('click', function (event) {
+            if (menuWrite.contains(event.target) || modalWriteContent.contains(event.target)) {
+                return;
+            } else {
+                modalWriteContent.classList.add('hide');
+                menuWrite.classList.remove('active')
+            }
+        })
+    }
+    
+    function handleForPublisherMenu() {
+        const menuForPublisher = document.getElementById('menu-for-publisher')
+        const modalForPublisherContent = document.getElementById('for-publisher-menu-modal-content')
+
+        menuForPublisher.addEventListener('click', function () {
+            const top = menuForPublisher.offsetTop
+            const left = menuForPublisher.offsetLeft
+
+            menuForPublisher.classList.toggle('active')
+            modalForPublisherContent.classList.toggle('hide')
+            modalForPublisherContent.style.top = top + 40 + 'px';
+            modalForPublisherContent.style.left = left - (modalForPublisherContent.offsetWidth / 2) + 40 + 'px';
+        });
+
+        document.addEventListener('click', function (event) {
+            if (menuForPublisher.contains(event.target) || modalForPublisherContent.contains(event.target)) {
+                return;
+            } else {
+                modalForPublisherContent.classList.add('hide');
+                menuForPublisher.classList.remove('active')
+            }
+        })
+    }
+
+
+    window.addEventListener('load', function() {
+        handleDiscoverMenu()
+        handleWriteMenu()
+        handleForPublisherMenu()
+    })
+</script>
+                </div>
+            </div>
+        </div>
+        
+
+<div id="mobile-menu-modal-content" class="mobile-menus-modal hide">
+    <div class="collapse-menu">
+        <p class='mt-15'>Discover</p>
+        <div class="collapse-menu__body" style="display: block;">
+            
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <a href="/papers">
+            <div class="header-link-item">
+                <h6>Papers</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/authors">
+            <div class="header-link-item">
+                <h6>Authors</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a> 
+         <a href="/institutions">
+            <div class="header-link-item">
+                <h6>Institutions</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a> 
+        <a href="/topics">
+            <div class="header-link-item">
+                <h6>Topics</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+         <a href="/journals">
+            <div class="header-link-item">
+                <h6>Journals</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/conferences">
+            <div class="header-link-item">
+                <h6>Conferences</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/questions">
+            <div class="header-link-item">
+                <h6>Questions</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div class="divider-horizontal"></div>
+
+    
+    <div class="collapse-menu">
+        <h2 class="collapse-menu__toggle">Write</h2>
+        <div class="collapse-menu__body" style="display: none;">
+            
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C3.584 0 0 3.584 0 8C0 12.416 3.584 16 8 16C12.416 16 16 12.416 16 8C16 3.584 12.416 0 8 0ZM8 12C7.56 12 7.2 11.64 7.2 11.2V8C7.2 7.56 7.56 7.2 8 7.2C8.44 7.2 8.8 7.56 8.8 8V11.2C8.8 11.64 8.44 12 8 12ZM8.8 5.6H7.2V4H8.8V5.6Z" fill="#FF822A"/>
+            </svg>
+            <span>TEMPLATES</span>
+        </div>
+        <a href="/formats/">
+            <div class="header-link-item">
+                <h6>Journals Gallery</h6>
+                <p>40,000+ journal templates to choose from for your next paper</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.469 8.622L9.369 0.522C9.045 0.198 8.595 0 8.1 0H1.8C0.81 0 0 0.81 0 1.8V8.1C0 8.595 0.198 9.045 0.531 9.378L8.631 17.478C8.955 17.802 9.405 18 9.9 18C10.395 18 10.845 17.802 11.169 17.469L17.469 11.169C17.802 10.845 18 10.395 18 9.9C18 9.405 17.793 8.946 17.469 8.622ZM3.15 4.5C2.403 4.5 1.8 3.897 1.8 3.15C1.8 2.403 2.403 1.8 3.15 1.8C3.897 1.8 4.5 2.403 4.5 3.15C4.5 3.897 3.897 4.5 3.15 4.5Z" fill="#FF822A"/>
+            </svg>
+            <span>PRICING & OFFERS</span>
+        </div>
+        <a href="/typeset-pricing/">
+            <div class="header-link-item">
+                <h6>Pricing</h6>
+                <p>Flexible pricing plans that caters to everyone’s needs</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 10H2C0.9 10 0 10.9 0 12V16C0 17.1 0.9 18 2 18H16C17.1 18 18 17.1 18 16V12C18 10.9 17.1 10 16 10ZM4 16C2.9 16 2 15.1 2 14C2 12.9 2.9 12 4 12C5.1 12 6 12.9 6 14C6 15.1 5.1 16 4 16ZM16 0H2C0.9 0 0 0.9 0 2V6C0 7.1 0.9 8 2 8H16C17.1 8 18 7.1 18 6V2C18 0.9 17.1 0 16 0ZM4 6C2.9 6 2 5.1 2 4C2 2.9 2.9 2 4 2C5.1 2 6 2.9 6 4C6 5.1 5.1 6 4 6Z" fill="#FF822A"/>
+            </svg>                
+            <span>SERVICES</span>
+        </div>
+        <a href="/services/plagiarism-check/">
+             <div class="header-link-item">
+                <h6>Plagiarism check</h6>
+                <p>Detect plagiarism early. Powered by Turnitin.</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/services/journal-submission/">
+            <div class="header-link-item">
+                <h6>Journal Submission</h6>
+                <p>Get accepted in top journals.</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    
+  </div>
+  
+        </div>
+    </div>
+    <div class="divider-horizontal"></div>
+    <div class="collapse-menu">
+        <h2 class="collapse-menu__toggle">For Publishers</h2>
+        <div class="collapse-menu__body" style="display: none;">
+            
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0C4.032 0 0 4.032 0 9C0 13.968 4.032 18 9 18C13.968 18 18 13.968 18 9C18 4.032 13.968 0 9 0ZM9 13.5C8.505 13.5 8.1 13.095 8.1 12.6V9C8.1 8.505 8.505 8.1 9 8.1C9.495 8.1 9.9 8.505 9.9 9V12.6C9.9 13.095 9.495 13.5 9 13.5ZM9.9 6.3H8.1V4.5H9.9V6.3Z" fill="#FF822A"/>
+            </svg>                
+            <span>ABOUT</span>
+        </div>
+        <a href="/for-publishers/">
+            <div class="header-link-item">
+                <h6>For Publishers</h6>
+                <p>Streamline publishing process with automated workflows</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/client-stories/">
+            <div class="header-link-item">
+                <h6>Client Stories</h6>
+                <p>Read what our clients have yielded with our products and services</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.765 7.3703L8.55364 12.5817C8.19455 12.9408 7.61449 12.9408 7.2554 12.5817L4.64972 9.97598C4.29063 9.61689 4.29063 9.03683 4.64972 8.67774C5.0088 8.31866 5.58887 8.31866 5.94795 8.67774L7.89991 10.6297L12.4576 6.07206C12.8166 5.71297 13.3967 5.71297 13.7558 6.07206C14.1241 6.43115 14.1241 7.01121 13.765 7.3703ZM1.84147 9C1.84147 6.85469 2.78062 4.93035 4.2538 3.58607L5.66253 4.9948C5.94795 5.28023 6.44515 5.07767 6.44515 4.66333V0.713378C6.44515 0.455572 6.24259 0.25301 5.98478 0.25301H2.03483C1.6205 0.25301 1.41793 0.750207 1.71257 1.03564L2.94635 2.27863C1.14171 3.95437 0 6.33907 0 9C0 13.3735 3.05684 17.038 7.14491 17.9772C7.72497 18.1061 8.28662 17.6733 8.28662 17.0749C8.28662 16.6421 7.98278 16.2738 7.55924 16.1725C4.29063 15.4267 1.84147 12.4988 1.84147 9ZM18.4147 9C18.4147 4.6265 15.3579 0.961977 11.2698 0.0228261C10.6897 -0.106077 10.1281 0.326669 10.1281 0.925147C10.1281 1.35789 10.4319 1.72619 10.8555 1.82747C14.1241 2.57326 16.5732 5.5012 16.5732 9C16.5732 11.1453 15.6341 13.0697 14.1609 14.4139L12.7522 13.0052C12.4668 12.7198 11.9696 12.9223 11.9696 13.3367V17.2866C11.9696 17.5444 12.1721 17.747 12.4299 17.747H16.3799C16.7942 17.747 16.9968 17.2498 16.7021 16.9644L15.4684 15.7214C17.273 14.0456 18.4147 11.6609 18.4147 9Z" fill="#FF822A"/>
+            </svg>
+            <span>XML CONVERTERS</span>
+        </div>
+        <a href="/for-publishers/convert/word-to-jats-xml/">
+            <div class="header-link-item">
+                <h6>Convert from Word</h6>
+                <p>Word file to JATS XML, PMC XML, DOAJ XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/convert/pdf-to-jats-xml/">
+            <div class="header-link-item">
+                <h6>Convert from PDF</h6>
+                <p>PDF file to SciELO XML, CrossRef XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/convert/jats-to-pmc-xml/">
+            <div class="header-link-item">
+                <h6>Convert from JATS XML</h6>
+                <p>JATS XML to Redalyc XML, DataCite XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 14.4067L13.3649 17.0467C14.1642 17.5305 15.1424 16.8153 14.932 15.9107L13.7751 10.9464L17.6351 7.60171C18.3398 6.99168 17.9611 5.83473 17.0356 5.7611L11.9555 5.32987L9.96763 0.638954C9.61003 -0.212985 8.38997 -0.212985 8.03237 0.638954L6.04451 5.31936L0.964434 5.75058C0.038871 5.82421 -0.339768 6.98116 0.364921 7.59119L4.22494 10.9358L3.06799 15.9002C2.85763 16.8047 3.83578 17.52 4.63513 17.0361L9 14.4067Z" fill="#FF822A"/>
+            </svg>
+            <span>FEATURES</span>
+        </div>
+        <a href="/for-publishers/jats-xml/">
+            <div class="header-link-item">
+                <h6>JATS XML</h6>
+                <p>Adhere to standard of all global publishing bodies</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/pubmed-pmc-xml/">
+            <div class="header-link-item">
+                <h6>PubMed XML</h6>
+                <p>Compliance for medical journals in PubMed database</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/scielo-xml/">
+            <div class="header-link-item">
+                <h6>SciELO XML</h6>
+                <p>Generate standardized XML for SciELO indexed journals</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+</div>
+
+        </div>
+    </div> 
+    
+    
+    
+    <div class="actions">
+        
+    </div>
+    
+</div>
+
+<script>
+    const collapseMenu = document.getElementsByClassName("collapse-menu__toggle");
+    let i;
+
+    for (i = 0; i < collapseMenu.length; i++) {
+        collapseMenu[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            const collapseBody = this.nextElementSibling;
+            if (collapseBody.style.display === "block") {
+                collapseBody.style.display = "none";
+            } else {
+                collapseBody.style.display = "block";
+            }
+            if (collapseBody.style.maxHeight) {
+                collapseBody.style.maxHeight = null;
+            } else {
+                collapseBody.style.maxHeight = collapseBody.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+<div class="header-menu-modal modal-menu-discover hide" id="discover-menu-modal-content">
+    
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <a href="/papers">
+            <div class="header-link-item">
+                <h6>Papers</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/authors">
+            <div class="header-link-item">
+                <h6>Authors</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a> 
+         <a href="/institutions">
+            <div class="header-link-item">
+                <h6>Institutions</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a> 
+        <a href="/topics">
+            <div class="header-link-item">
+                <h6>Topics</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+         <a href="/journals">
+            <div class="header-link-item">
+                <h6>Journals</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/conferences">
+            <div class="header-link-item">
+                <h6>Conferences</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/questions">
+            <div class="header-link-item">
+                <h6>Questions</h6>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+</div>
+
+</div>
+
+<div class="header-menu-modal modal-menu-write hide" id="write-menu-modal-content">
+    
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C3.584 0 0 3.584 0 8C0 12.416 3.584 16 8 16C12.416 16 16 12.416 16 8C16 3.584 12.416 0 8 0ZM8 12C7.56 12 7.2 11.64 7.2 11.2V8C7.2 7.56 7.56 7.2 8 7.2C8.44 7.2 8.8 7.56 8.8 8V11.2C8.8 11.64 8.44 12 8 12ZM8.8 5.6H7.2V4H8.8V5.6Z" fill="#FF822A"/>
+            </svg>
+            <span>TEMPLATES</span>
+        </div>
+        <a href="/formats/">
+            <div class="header-link-item">
+                <h6>Journals Gallery</h6>
+                <p>40,000+ journal templates to choose from for your next paper</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.469 8.622L9.369 0.522C9.045 0.198 8.595 0 8.1 0H1.8C0.81 0 0 0.81 0 1.8V8.1C0 8.595 0.198 9.045 0.531 9.378L8.631 17.478C8.955 17.802 9.405 18 9.9 18C10.395 18 10.845 17.802 11.169 17.469L17.469 11.169C17.802 10.845 18 10.395 18 9.9C18 9.405 17.793 8.946 17.469 8.622ZM3.15 4.5C2.403 4.5 1.8 3.897 1.8 3.15C1.8 2.403 2.403 1.8 3.15 1.8C3.897 1.8 4.5 2.403 4.5 3.15C4.5 3.897 3.897 4.5 3.15 4.5Z" fill="#FF822A"/>
+            </svg>
+            <span>PRICING & OFFERS</span>
+        </div>
+        <a href="/typeset-pricing/">
+            <div class="header-link-item">
+                <h6>Pricing</h6>
+                <p>Flexible pricing plans that caters to everyone’s needs</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 10H2C0.9 10 0 10.9 0 12V16C0 17.1 0.9 18 2 18H16C17.1 18 18 17.1 18 16V12C18 10.9 17.1 10 16 10ZM4 16C2.9 16 2 15.1 2 14C2 12.9 2.9 12 4 12C5.1 12 6 12.9 6 14C6 15.1 5.1 16 4 16ZM16 0H2C0.9 0 0 0.9 0 2V6C0 7.1 0.9 8 2 8H16C17.1 8 18 7.1 18 6V2C18 0.9 17.1 0 16 0ZM4 6C2.9 6 2 5.1 2 4C2 2.9 2.9 2 4 2C5.1 2 6 2.9 6 4C6 5.1 5.1 6 4 6Z" fill="#FF822A"/>
+            </svg>                
+            <span>SERVICES</span>
+        </div>
+        <a href="/services/plagiarism-check/">
+             <div class="header-link-item">
+                <h6>Plagiarism check</h6>
+                <p>Detect plagiarism early. Powered by Turnitin.</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/services/journal-submission/">
+            <div class="header-link-item">
+                <h6>Journal Submission</h6>
+                <p>Get accepted in top journals.</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    
+  </div>
+  
+</div>
+
+<div class="header-menu-modal modal-menu-publisher hide" id="for-publisher-menu-modal-content">
+    
+
+<div class="header-link-container">
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 0C4.032 0 0 4.032 0 9C0 13.968 4.032 18 9 18C13.968 18 18 13.968 18 9C18 4.032 13.968 0 9 0ZM9 13.5C8.505 13.5 8.1 13.095 8.1 12.6V9C8.1 8.505 8.505 8.1 9 8.1C9.495 8.1 9.9 8.505 9.9 9V12.6C9.9 13.095 9.495 13.5 9 13.5ZM9.9 6.3H8.1V4.5H9.9V6.3Z" fill="#FF822A"/>
+            </svg>                
+            <span>ABOUT</span>
+        </div>
+        <a href="/for-publishers/">
+            <div class="header-link-item">
+                <h6>For Publishers</h6>
+                <p>Streamline publishing process with automated workflows</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/client-stories/">
+            <div class="header-link-item">
+                <h6>Client Stories</h6>
+                <p>Read what our clients have yielded with our products and services</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.765 7.3703L8.55364 12.5817C8.19455 12.9408 7.61449 12.9408 7.2554 12.5817L4.64972 9.97598C4.29063 9.61689 4.29063 9.03683 4.64972 8.67774C5.0088 8.31866 5.58887 8.31866 5.94795 8.67774L7.89991 10.6297L12.4576 6.07206C12.8166 5.71297 13.3967 5.71297 13.7558 6.07206C14.1241 6.43115 14.1241 7.01121 13.765 7.3703ZM1.84147 9C1.84147 6.85469 2.78062 4.93035 4.2538 3.58607L5.66253 4.9948C5.94795 5.28023 6.44515 5.07767 6.44515 4.66333V0.713378C6.44515 0.455572 6.24259 0.25301 5.98478 0.25301H2.03483C1.6205 0.25301 1.41793 0.750207 1.71257 1.03564L2.94635 2.27863C1.14171 3.95437 0 6.33907 0 9C0 13.3735 3.05684 17.038 7.14491 17.9772C7.72497 18.1061 8.28662 17.6733 8.28662 17.0749C8.28662 16.6421 7.98278 16.2738 7.55924 16.1725C4.29063 15.4267 1.84147 12.4988 1.84147 9ZM18.4147 9C18.4147 4.6265 15.3579 0.961977 11.2698 0.0228261C10.6897 -0.106077 10.1281 0.326669 10.1281 0.925147C10.1281 1.35789 10.4319 1.72619 10.8555 1.82747C14.1241 2.57326 16.5732 5.5012 16.5732 9C16.5732 11.1453 15.6341 13.0697 14.1609 14.4139L12.7522 13.0052C12.4668 12.7198 11.9696 12.9223 11.9696 13.3367V17.2866C11.9696 17.5444 12.1721 17.747 12.4299 17.747H16.3799C16.7942 17.747 16.9968 17.2498 16.7021 16.9644L15.4684 15.7214C17.273 14.0456 18.4147 11.6609 18.4147 9Z" fill="#FF822A"/>
+            </svg>
+            <span>XML CONVERTERS</span>
+        </div>
+        <a href="/for-publishers/convert/word-to-jats-xml/">
+            <div class="header-link-item">
+                <h6>Convert from Word</h6>
+                <p>Word file to JATS XML, PMC XML, DOAJ XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/convert/pdf-to-jats-xml/">
+            <div class="header-link-item">
+                <h6>Convert from PDF</h6>
+                <p>PDF file to SciELO XML, CrossRef XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/convert/jats-to-pmc-xml/">
+            <div class="header-link-item">
+                <h6>Convert from JATS XML</h6>
+                <p>JATS XML to Redalyc XML, DataCite XML and more</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+    <div class="header-link-wrapper">
+        <div class="header-link-sub-heading">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 14.4067L13.3649 17.0467C14.1642 17.5305 15.1424 16.8153 14.932 15.9107L13.7751 10.9464L17.6351 7.60171C18.3398 6.99168 17.9611 5.83473 17.0356 5.7611L11.9555 5.32987L9.96763 0.638954C9.61003 -0.212985 8.38997 -0.212985 8.03237 0.638954L6.04451 5.31936L0.964434 5.75058C0.038871 5.82421 -0.339768 6.98116 0.364921 7.59119L4.22494 10.9358L3.06799 15.9002C2.85763 16.8047 3.83578 17.52 4.63513 17.0361L9 14.4067Z" fill="#FF822A"/>
+            </svg>
+            <span>FEATURES</span>
+        </div>
+        <a href="/for-publishers/jats-xml/">
+            <div class="header-link-item">
+                <h6>JATS XML</h6>
+                <p>Adhere to standard of all global publishing bodies</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/pubmed-pmc-xml/">
+            <div class="header-link-item">
+                <h6>PubMed XML</h6>
+                <p>Compliance for medical journals in PubMed database</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+        <a href="/for-publishers/scielo-xml/">
+            <div class="header-link-item">
+                <h6>SciELO XML</h6>
+                <p>Generate standardized XML for SciELO indexed journals</p>
+                <img class="right-icon" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/icons/ic_menu_right_arrow.5c68bb3a9dfb.svg' alt="">
+            </div>
+        </a>
+    </div>
+</div>
+
+</div>
+
+    </header>
+    <div class="sp-header-content-shifter "></div>
+    
+    <script src='https://d5a9y5rnan99s.cloudfront.net/js/scispace-search.bundle.cedb6bc30fe1.js' type="text/javascript" defer></script>
+    <div id="search-field-dropdown-backdrop" class="search-field-backdrop hide"></div>
+    
+</div>
+
+<script>
+    (function detectBrokenImg() {
+        const profileImgEl = document.getElementById('profile-img')
+        if(profileImgEl) {
+            profileImgEl.onerror = function () {
+                document.getElementById('profile-menu-letter-btn').classList.remove('hide')
+                profileImgEl.classList.add('hide')
+            }
+        }
+    })()
+</script>
+
+    <div class="main">
+      <!-- First section starts -->
+      <section class="common-pdng img-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <h1 class="info-heading">
+                <div class="info-heading--small">Our commitment to your</div>
+                <div class="info-heading--large">Data Security</div>
+              </h1>
+              <div class="info-heading--seperator-large"></div>
+            </div>
+          </div>
+        </div>
+        <div class="img-wrapper__item--right">
+          <img src='https://d5a9y5rnan99s.cloudfront.net/landing/assetsNew/images/security/security-data@2x.f7f552946224.png'>
+        </div>
+      </section>
+      <!-- First section ends -->
+
+      <!-- Second section starts -->
+      <section>
+        <div class="container">
+          <div class="box-text-wrapper">
+            <h1 class="heading">Overview</h1>
+            <p class="info-text">
+              Writing your research is your life’s work. We know it. That’s why we built SciSpace from the beginning with data security in mind. Your privacy is of utmost important to us and we take every effort under our control to secure all your data.
+            </p>
+            <p class="info-text">
+              Protecting our customers’ data is the most important thing we do at SciSpace. We ensure that every possible step to secure your data and privacy is promptly undertaken. Keeping SciSpace secure is fundamental to our vision of transforming the way research is communicated. As you continue to know more about us, you can also read our privacy policy <a href="/t/privacy/">here</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Second section ends -->
+
+      <!-- Third section starts -->
+      <section class="common-mrgn--small">
+        <div class="container">
+          <h1 class="heading reduce-mrgn">Best practices</h1>
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">System Security</h3>
+                <p class="info-text">
+                  All servers that run SciSpace software in production is recent, continuously patched Linux systems. Additional hosted services that we utilize, such as Amazon Cloud Storage, are comprehensively hardened infrastructure-as-a-service (IaaS) platforms.
+                </p>
+                <p class="info-text">
+                  Our web servers use the strongest grade of HTTPS security (TLS 1.2) so that requests are protected from eavesdroppers and man-in-the-middle attacks. Our SSL certificates are 2048 bit RSA, signed with SHA256. 
+                </p>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Security Event Response Plan</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    We have a well-defined process for security events that might occur and have educated all our staff on our policies. 
+                  </li>
+                  <li class="info-list__item">
+                    Whenever a security event is detected, it is immediately shared with our emergency engineering team, teams are notified and assembled to immediately address the event.
+                  </li>
+                  <li class="info-list__item">
+                    After a security event is addressed, we do a post-mortem analysis of the problem.
+                  </li>
+                  <li class="info-list__item">
+                    Security event analysis is reviewed by chief engineer in person, and action items are identified.
+                  </li>
+                  <li class="info-list__item">
+                    Learnings from the event are formalized and distributed across the company to prevent any occurrence of similar events in the future.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Data</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    All our customer data is stored in secure SSAE 16 / SOC1 certified data centers in the USA.
+                  </li>
+                  <li class="info-list__item">
+                    We have Access restrictions on our servers to better protect your information
+                  </li>
+                  <li class="info-list__item">
+                    Firewalls have been implemented to prevent unauthorized access
+                  </li>
+                  <li class="info-list__item">
+                    We use Amazon Web Services (RDS & S3) for managing your data
+                  </li>
+                  <li class="info-list__item">
+                    Regular snapshots of database are taken and moved securely to separate
+                  datacenter for backup in case of regional Amazon failure
+                  </li>
+                  <li class="info-list__item">
+                    Customer data is stored in multi-tenant data-stores, we do not have individual data-stores for each customer. However, we have struck privacy controls in our application to ensure data security and privacy. This also prevents unauthorized access of any customer’s data.
+                  </li>
+                  <li class="info-list__item">
+                    We have unit, integration, and regression test cases in place to ensure that privacy controls work as expected.
+                  </li>
+                  <li class="info-list__item">
+                    All tests are run every time changes are made on the platform.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Application monitoring</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    All access to SciSpace applications is logged and audited.
+                  </li>
+                  <li class="info-list__item">
+                    Bastion hosts are used to login to devices.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Confidentiality</h3>
+                <p class="info-text">
+                  We place strict controls over our employees’ access to your data and are committed to ensure that any customer data is not seen by anyone who should not have access to it. All of our employees and contract personnel are bound to our policies regarding customer data privacy and security and we treat these issues as matters of the highest importance within our company.
+                </p>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Personnel Practices</h3>
+                <p class="info-text">
+                  SciSpace conducts background checks on all employees before employment, and employees receive security training during on boarding as well as on an ongoing basis. All SciSpace employees are required to read and sign our strict data security and privacy policy covering the security, availability, and confidentiality of our services.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Infrastructure</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    All of our services run in the cloud.
+                  </li>
+                  <li class="info-list__item">
+                    SciSpace does not run our own routers, load balancers, DNS servers, or physical servers.
+                  </li>
+                  <li class="info-list__item">
+                    The vast majority of our services and data are hosted on Amazon Web Services (AWS) facilities in the USA.
+                  </li>
+                  <li class="info-list__item">
+                    All of our servers are within our own virtual private cloud (VPC) with network access control lists (ACL’s) that block unauthorized requests.
+                  </li>
+                  <li class="info-list__item">
+                    We have multiple VPC’s for different environments to ensure data integrity.
+                  </li>
+                  <li class="info-list__item">
+                    SciSpace takes snapshots of your document at frequent intervals as our automatic backup strategy.  In addition to this, our databases are backed up on a daily basis to ensure no loss of data.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Build Process Automation</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    All changes are rolled out to the platform using automation.
+                  </li>
+                  <li class="info-list__item">
+                    With typical code deploys happening multiple times a day, we can get any security fix on the platform quickly. 
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Data Transfer</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    All data sent to or from SciSpace is encrypted in transit using 128-bit encryption.
+                  </li>
+                  <li class="info-list__item">
+                    Our API and application endpoints are TLS/SSL only.
+                  </li>
+                  <li class="info-list__item">
+                    We use strong cipher suites and have features such as Perfect Forward Secrecy fully enabled etc.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Authentication</h3>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    SciSpace is served 100% over https.
+                  </li>
+                  <li class="info-list__item">
+                    There are no corporate resources or additional privileges from being on SciSpace’s network.
+                  </li>
+                </ul>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">PCI Obligations</h3>
+                <p class="info-text">
+                  SciSpace is not subject to PCI obligations. All payment instrument processing is outsourced to <a href="https://www.2checkout.com/">2Checkout</a>
+                </p>
+              </div>
+              <div class="info-list__wrapper">
+                <h3 class="info-sub-heading">Physical Security</h3>
+                <p class="info-text">
+                  SciSpace production data is processed and stored within AWS Data Centers, which uses state-of-the-art multi-layer access, alerting, and auditing measures, including
+                </p>
+                <ul class="info-list">
+                  <li class="info-list__item">
+                    Perimeter fencing
+                  </li>
+                  <li class="info-list__item">
+                    Vehicle access barriers
+                  </li>
+                  <li class="info-list__item">
+                    Custom-designed electronic access cards
+                  </li>
+                  <li class="info-list__item">
+                    Biometric checks
+                  </li>
+                  <li class="info-list__item">
+                    Laser beam intrusion detection
+                  </li>
+                  <li class="info-list__item">
+                    Continuous external and internal security camera surveillance
+                  </li>
+                  <li class="info-list__item">
+                    24x7 trained security guards
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="info-text">
+            You can know more about AWS Data security <a href="https://aws.amazon.com/security">here</a>
+          </p>
+        </div>
+      </section>
+      <!-- Third section ends -->
+      
+
+
+<style>
+    .sp-footer-wrapper{background-color:#f7f7f7;width:100%;padding:0px !important;margin:0px !important}.sp-footer-wrapper *{font-smoothing:auto !important;-moz-font-smoothing:auto !important;-webkit-font-smoothing:auto !important}.sp-footer-wrapper .social-button{height:18px;width:18px}.sp-footer-wrapper__container{width:100%;padding:35px 15px;display:flex;flex-direction:column;gap:20px}.sp-footer-wrapper__links-wrapper{display:flex;align-items:flex-start;justify-content:space-between;flex-direction:column;gap:30px}.sp-footer-wrapper__sub-heading{width:100%}.sp-footer-wrapper__sub-heading h6{font-weight:700;font-size:14px;line-height:20px;color:#505050;opacity:0.7;margin-top:0px;margin-bottom:0.0625rem}.sp-footer-wrapper__section{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:10px;width:100%}.sp-footer-wrapper__link-holders{display:flex;flex-direction:column;gap:10px;flex:1}.sp-footer-wrapper .footer-link{min-height:24px}.sp-footer-wrapper .footer-link a{font-weight:400;font-size:16px;line-height:20px;color:#030303}.sp-footer-wrapper .footer-link a:hover{color:#258eb2}.sp-footer-wrapper .footer-link.social-links{display:flex;gap:10px;align-items:center;justify-content:flex-start}.sp-footer-wrapper .footer-link.social-links img{width:unset}.sp-footer-wrapper__divider{height:1px;background-color:#c6c8ca;margin:10px 0px}.sp-footer-wrapper__copyright-section{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:15px}.sp-footer-wrapper__copyright-section p{font-weight:400;font-size:12px;line-height:15px;letter-spacing:0.4px;color:#505050;margin:0px}.sp-footer-wrapper__copyright-section img{width:unset}@media (min-width: 768px){.sp-footer-wrapper .social-button{height:24px !important;width:24px !important}.sp-footer-wrapper .sp-footer-wrapper__container{width:1200px;margin:auto;gap:10px;padding-top:40px}.sp-footer-wrapper .sp-footer-wrapper__links-wrapper{flex-direction:row;gap:0px}.sp-footer-wrapper .sp-footer-wrapper__section{flex-direction:column;width:calc(70% / 5)}.sp-footer-wrapper .sp-footer-wrapper__divider{margin:0px;margin-top:30px}.sp-footer-wrapper .sp-footer-wrapper__copyright-section{gap:unset;justify-content:space-between;flex-direction:row}.sp-footer-wrapper .sp-footer-wrapper__copyright-section p br{display:none}}
+</style>
+
+
+<footer class="sp-footer-wrapper">
+    <div class="sp-footer-wrapper__container">
+        <div class="sp-footer-wrapper__links-wrapper">
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>COMPANY</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/">Home</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/about/">About SciSpace</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/careers">Careers</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/resources/">Resources</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/community/">Community</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>DISCOVER</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/papers">Papers</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/authors">Authors</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/institutions">Institutions</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/topics">Topics</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/journals">Journals</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/conferences">Conferences</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/questions">Questions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>WRITE</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/formats/">Journals Gallery</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/typeset-pricing/">Pricing</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/services/plagiarism-check/">
+                            Plagiarism Check
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/services/journal-submission/">
+                            Journal Submission
+                        </a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/testimonials/">
+                            Testimonials
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>PUBLISH</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/for-publishers/">For Publishers</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/client-stories/">Client Stories</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/jats-xml/">JATS XML</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/pubmed-pmc-xml/">PubMed XML</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/for-publishers/crossref-deposit-xml/">CrossRef XML</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/scielo-xml/">SciELO XML</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/redalyc-xml/">Redalyc XML</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/for-publishers/ojs-hosting/">OJS Hosting</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>PRIVACY &amp; SECURITY</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/t/privacy/">Data Privacy</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/security/">Data Security</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/security-commitment/">Security Practices</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="/t/terms/">UAA</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/t/legal-disclaimer/">Legal Disclaimer</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="https://cdn-a.typeset.io/cancellation-and-refund-policy.pdf">Cancellation &
+                            Refund Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sp-footer-wrapper__section">
+                <div class="sp-footer-wrapper__sub-heading">
+                    <h6>REACH US</h6>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    
+                    <div class="footer-link">
+                        <a href="tel:+918431021544">+91 84310 21544</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="/help/">Help</a>
+                    </div>
+                </div>
+                <div class="sp-footer-wrapper__link-holders">
+                    <div class="footer-link">
+                        <a href="mailto:support@typeset.io" target="_blank">Contact Support</a>
+                    </div>
+                    <div class="footer-link social-links">
+                        <a href="https://www.facebook.com/SciSpace/" target="_blank" rel="noreferrer noopener nofollow">
+                            <img class="social-button"
+                                src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/social/ic_facebook.0bd4efd40135.svg'
+                                alt="Facebook">
+                        </a>
+                        <a href="https://twitter.com/scispace_" target="_blank" rel="noreferrer noopener nofollow">
+                            <img class="social-button"
+                                src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/social/ic_twitter.6e58fd1c99be.svg'
+                                alt="Twitter">
+                        </a>
+                        <a href="https://www.instagram.com/scispace_official/" target="_blank" rel="noreferrer noopener nofollow">
+                            <img class="social-button"
+                                src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/social/ic_instagram.ccf4a3a3c537.svg'
+                                alt="Instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/company/scispace/" target="_blank" rel="noreferrer noopener nofollow">
+                            <img class="social-button"
+                                src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/social/ic_linkedin.38fe2e8d0385.svg'
+                                alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sp-footer-wrapper__divider"></div>
+        <div class="sp-footer-wrapper__copyright-section">
+            <p>
+                Copyright © 2024 | PubGenius Inc. | Suite # 217 <br> 691 S Milpitas Blvd Milpitas CA 95035,
+                USA
+            </p>
+            <img class="scispace-logo" src='https://d5a9y5rnan99s.cloudfront.net/images/marketing/common/logos/ic_scispace.ec4f882c0db3.svg' alt="SciSpace">
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script src='https://d5a9y5rnan99s.cloudfront.net/js/hamburger-menu.4d783835c078.js' type="text/javascript"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"/></script>
+  </body>
+ </html>

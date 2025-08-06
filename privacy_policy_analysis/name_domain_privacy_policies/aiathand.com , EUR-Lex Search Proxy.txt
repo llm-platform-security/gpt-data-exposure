@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <h1>Privacy Policy for EUR-Lex Search Proxy</h1>
+    <p>Last updated: 14.11.2023</p>
+
+    <h2>About This Privacy Policy</h2>
+    <p>This privacy policy applies to the EUR-Lex Search Proxy located at https://aiathand.com/test.php. This policy describes how we handle and protect your personal data in relation to our service.</p>
+
+    <h2>Information Collection and Use</h2>
+    <p>We collect data that you provide to us through the use of our service. This includes the keywords entered into the expertQuery parameter. We use this information to process your requests and improve the service.</p>
+
+    <h2>Log Data</h2>
+    <p>When you use our service, our servers automatically record information ("log data"), including information that your browser sends whenever you visit a website. This log data may include your IP address, browser type, the pages of our service that you visit, and other statistics.</p>
+
+    <h2>Data Security</h2>
+    <p>We take the security of your data seriously and implement appropriate measures to prevent unauthorized access, disclosure, alteration, or destruction of your personal information.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update our privacy policy from time to time. We will notify you of any changes by posting the new policy on this page. We advise you to review this privacy policy periodically for any changes.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this privacy policy or our treatment of your personal data, please use the form below to contact us.</p>
+
+    <!-- Contact Form -->
+    <form action="https://aiathand.com/gpt/privacy.php" method="post">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Your email" required><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Your message"></textarea><br>
+        <input type="submit" name="submit" value="Send">
+    </form>
+    
+
+</body>
+</html>

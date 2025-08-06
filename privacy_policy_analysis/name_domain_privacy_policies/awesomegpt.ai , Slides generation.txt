@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=0.7,maximum-scale=0.7,minimum-scale=0.7,user-scalable=no" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta name="keywords" content="GPTs, Prompts, Tools, Roadmap, Ultimate" />
+    <title>AwesomeGPT FAQ</title>
+    <link rel="stylesheet" href="./css/faq.css">
+    </link>
+</head>
+
+<body>
+    <div class="faq-header">
+        <header>
+            <a class="logo" href="/">
+                <img src="./images/logo.png" alt="logo" />
+                <span class="title">AwesomeGPT</span>
+                <span class="help">Help center</span>
+            </a>
+            <div class="language">
+                <img src="./images/globe.svg" class="globe" alt="">
+                <span class="txt" id="language">English</span>
+                <img src="./images/down.svg" class="down" alt="">
+                <div class="popper">
+                    <div class="popper-item">
+                        <div class="item-inner">
+                            <img src="./images/zh.svg" />
+                            <span id="zh">Chinese</span>
+                        </div>
+                        <i class="check-icon"></i>
+                    </div>
+                    <div class="popper-item">
+                        <div class="item-inner">
+                            <img src="./images/en.svg" />
+                            <span id="en">English</span>
+                        </div>
+                        <i class="check-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="fqa-page">
+    </div>
+    <script>
+        var lanMap = {
+            zh: {
+                en: "英语",
+                zh: "中文",
+                faq: {
+                    title: "常见问题",
+                    question1: "切换语言",
+                    question2: "寻找最佳GPTs",
+                    question3: "寻找最佳Prompts",
+                    question4: "提交你自己的GPTs",
+                    answer11: `要访问语言设置，请单击右上角的“globe”图标。`,
+                    answer12: `打开语言下拉列表后，您将看到以下信息。从这里，您可以设置用户界面中显示的语言以及用于各种功能的语言。`,
+                    answer21: `如果你想找到最适合你需要的GPTs，你可以选择搜索框顶部的“GPTs”按钮。然后输入您要搜索的关键字，例如“novel”，您可以找到GPT可以提供的所有与“novel”相关的结果。`,
+                    answer22: `如果你想找到具体的功能，你可以选择“类别”按钮，确定你要找的是哪种GPT。`,
+                    answer31: `如果你想亲自动手，你可以在我们的“Prompts”按钮的帮助下尝试制作自己的prompts。在这个模块中，您可以通过输入任务的关键字来找到最佳Prompts。在下面的例子中，你可以制作自己的twitter帖子:`,
+                    answer41: `点击搜索框下方的“提交GPT”按钮，输入您自己的GPT网址。`
+                },
+            },
+            en: {
+                en: "English",
+                zh: "Chinese",
+                faq: {
+                    title: "Frequently Asked Questions",
+                    question1: "Change Language",
+                    question2: "Find Best GPTs",
+                    question3: "Find Best Prompts",
+                    question4: "Submit your own GPTs",
+                    answer11: `To access language settings, click the "globe" icon in the upper-right corner.`,
+                    answer12: `Once you open the language drop-down list, you will be presented with the following information. From here, you can set the language displayed in the user interface as well as the language used for various features.`,
+                    answer21: `If you want to find the best GPTs that suit your needs, you can select the "GPTs' button on top of the search box. Then enter the keywords of the function you are searching, such as "novel", you can find all the novel-related functions GPT can provide.`,
+                    answer22: `If you want to find the specific function, you can select "Categories" button, make sure what kind of GPT you are looking for.`,
+                    answer31: `If you want to make your hands dirty, you can always try to craft your own prompts with the help of our "Prompts" button. In this section, you can find the best prompts by entering the keywords of your task. In the example below, you can craft your own twitter post:`,
+                    answer41: `Press the button "Submit a GPT" below the search box and enter your own URL of GPT.`,
+                },
+            }
+        }
+        var currLan = 'en'
+        var isPopper = false
+        var targetPop = document.getElementsByClassName('popper')[0]
+        var targetPopItem = document.getElementsByClassName('popper-item')
+        var checkIcon = document.getElementsByClassName('check-icon')
+        var language = document.getElementById('language')
+        var zh = document.getElementById('zh')
+        var en = document.getElementById('en')
+        var page = document.getElementsByClassName('fqa-page')[0]
+
+        var faqList = [
+            {
+                id: 1,
+                title: "question1",
+                isShow: true,
+                content: [
+                    {
+                        txt: "answer11",
+                        src: "自定义",
+                    },
+                    {
+                        txt: "answer12",
+                        src: "",
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: "question2",
+                isShow: false,
+                content: [
+                    {
+                        txt: "answer21",
+                        src: "https://cloudfront-pax-prod.shannonai.com/user/1255/docImage/d6da0b4078969e52346c5ee3bad12b39.png",
+                    },
+                    {
+                        txt: "answer22",
+                        src: "https://cloudfront-pax-prod.shannonai.com/user/1255/docImage/79d45063fc7ce8defefa9e6b985b7941.png",
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "question3",
+                isShow: false,
+                content: [
+                    {
+                        txt: "answer31",
+                        src: "https://cloudfront-pax-prod.shannonai.com/user/1255/docImage/0122255f2b986647b6f81f16830ed353.png",
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: "question4",
+                isShow: false,
+                content: [
+                    {
+                        txt: "answer41",
+                        src: "https://cloudfront-pax-prod.shannonai.com/user/1255/docImage/14c73115771993dd30d36bd87f549e84.png",
+                    },
+                    {
+                        txt: ``,
+                        src: "自定义",
+                    },
+                ],
+            },
+        ]
+
+        var renderPage = function () {
+            var template = '<h1 class="title">' + lanMap[currLan]['faq']['title'] + '</h1>'
+            for (var i = 0; i < faqList.length; i++) {
+                // console.log('进入', template)
+                template = template + '<div class="faq-item">'
+                if (faqList[i].isShow) {
+                    template = template + '<div class="arrow">'
+                } else {
+                    template = template + '<div class="arrow rotate">'
+                }
+                template = template += '<img src="./images/arrow.svg" class="arrow-icon" alt="">' +
+                    '<span class="name">' + lanMap[currLan]['faq'][faqList[i].title] + '</span>' +
+                    ' </div>'
+                if (faqList[i].isShow) {
+                    template = template + '<div class="content-wrap" style="display: block;">'
+                } else {
+                    template = template + '<div class="content-wrap" style="display: none;">'
+                }
+                for (var j = 0; j < faqList[i].content.length; j++) {
+                    var currentItem = faqList[i].content[j]
+                    template = template + '<div class="content">'
+                    if (currentItem.txt) {
+                        template = template + '<p>' + lanMap[currLan]['faq'][currentItem.txt] + '</p>'
+                    }
+                    if (currentItem.src == '自定义' && i == 0) {
+                        template = template + '<img src="./images/language.png" alt="" />'
+                    } else if (currentItem.src == '自定义' && i == 3) {
+                        template = template + '<img src="./images/share-gpt.png" alt="" />'
+                    } else if (currentItem.src) {
+                        template = template + '<img v-else-if="son.src" src="' + currentItem.src + '" alt="" />'
+                    }
+                    template = template + '</div>'
+                }
+                template = template + '</div></div>'
+            }
+            page.innerHTML = template
+            var arrowTargets = document.getElementsByClassName('arrow')
+            arrowTargets[0].addEventListener("click", function () { handleArrowClick(1) })
+            arrowTargets[1].addEventListener("click", function () { handleArrowClick(2) })
+            arrowTargets[2].addEventListener("click", function () { handleArrowClick(3) })
+            arrowTargets[3].addEventListener("click", function () { handleArrowClick(4) })
+            // for (var i = 0; i < arrowTargets.length; i++) {
+            //     arrowTargets[i].addEventListener('click', function () {
+            //         handleArrowClick(i)
+            //     })
+            // }
+        }
+        var handleArrowClick = function (id) {
+            var contentTargets = document.getElementsByClassName('content-wrap')
+            var arrowTargets = document.getElementsByClassName('arrow')
+            faqList.forEach((item) => {
+                if (id !== item.id) {
+                    item.isShow = false;
+                    contentTargets[item.id - 1].style.display = 'none'
+                    arrowTargets[item.id - 1].classList = 'arrow rotate'
+                } else {
+                    item.isShow = !item.isShow
+                    if (item.isShow) {
+                        contentTargets[item.id - 1].style.display = 'block'
+                        arrowTargets[item.id - 1].classList = 'arrow'
+                    } else {
+                        contentTargets[item.id - 1].style.display = 'none'
+                        arrowTargets[item.id - 1].classList = 'arrow rotate'
+                    }
+                }
+            });
+        }
+
+
+        var handleClickPopper = function (event) {
+            const className = event.target.className;
+            if (!["txt", "language", "globe", "down"].includes(className) && isPopper) {
+                isPopper = false;
+                targetPop.style.display = "none"
+            }
+        };
+        window.onload = function () {
+            var LANG = localStorage.getItem('LANG')
+            if (LANG && LANG != 'en') {
+                handlePoper(LANG)
+            }
+            renderPage()
+        }
+        document.addEventListener("click", handleClickPopper);
+        document.getElementsByClassName('language')[0].addEventListener("click", function () {
+            isPopper = !isPopper
+            if (isPopper) targetPop.style.display = "block"
+            else targetPop.style.display = "none"
+        })
+
+        var handlePoper = function (str) {
+            if (currLan === str) return
+            currLan = str;
+            if (currLan == 'zh') {
+                checkIcon[0].style.display = 'block'
+                checkIcon[1].style.display = 'none'
+            } else {
+                checkIcon[0].style.display = 'none'
+                checkIcon[1].style.display = 'block'
+            }
+            // 修改语言
+            // console.log(str, '--', lanMap[currLan], lanMap[currLan][currLan])
+            language.innerText = lanMap[currLan][currLan]
+            zh.innerText = lanMap[currLan]['zh']
+            en.innerText = lanMap[currLan]['en']
+            renderPage()
+            localStorage.setItem('LANG', str)
+            // locale.value = str;
+            isPopper = false;
+            targetPop.style.display = "none"
+        }
+        targetPopItem[0].addEventListener("click", function () { handlePoper('zh') })
+        targetPopItem[1].addEventListener("click", function () { handlePoper('en') })
+
+
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6N7M8H1K3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+        gtag('config', 'G-F6N7M8H1K3')
+    </script>
+</body>
+
+</html>

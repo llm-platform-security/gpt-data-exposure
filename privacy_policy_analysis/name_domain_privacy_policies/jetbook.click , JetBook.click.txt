@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <title>Legal Terms & Conditions | JetBook.click</title>
+
+    <style>
+        body {
+            overflow-x: hidden;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        div.main {
+            margin: auto;
+            padding-top: 10px;
+        }
+
+        div.main a {
+            text-decoration: none;
+        }
+
+        div.main a img {
+            border: 0px;
+        }
+
+        footer {
+            width: 100%;
+            background: #eee;
+            text-align: center;
+            margin: auto 0px;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1,
+        h2 {
+            color: #007BFF;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <center>
+            <a href="/"><img src="./img/logo-big.png" alt="JetBook.click"
+                    style="max-width: 80vw;max-height: 100px;"></a>
+        </center>
+        <hr>
+        <h1>Legal Terms & Conditions</h1>
+        <hr>
+
+        <h2>Introduction</h2>
+        <p>Welcome to JetBook.click, a service operated by PING Consulting, SASU. By using our website ("Website"), you
+            agree to these terms and conditions.</p>
+
+        <h2>Company Details</h2>
+        <ul>
+            <li>Legal Form: SASU Société par actions simplifiée à associé unique</li>
+            <li>SIRET Number: 81790693600015</li>
+            <li>RCS Number: Versailles B 817 906 936</li>
+            <li>VAT Number: FR90817906936</li>
+            <li>Postal Address: 6 RUE JEAN REY, 78220 VIROFLAY</li>
+        </ul>
+
+        <h2>Description of Service</h2>
+        <p>JetBook.click offers its users information and redirection links to various flight booking services. Please
+            note that
+            we do not directly manage bookings or collect personal data related to bookings.</p>
+
+        <h2>Use of Service</h2>
+        <p>The Service must be used in a lawful manner, respecting these terms and conditions and all applicable laws.
+        </p>
+
+        <h2>Third-Party Links</h2>
+        <p>We may offer links to third-party websites. These are not under the control of PING Consulting, and we cannot
+            be held
+            responsible for their content, privacy measures, or other practices.</p>
+
+        <h2>Disclaimer of Warranties</h2>
+        <p>Our service is presented "as is." PING Consulting makes no guarantees, either direct or implied, and
+            renounces all
+            other guarantees.</p>
+
+        <h2>Limitation of Liability</h2>
+        <p>PING Consulting, along with its directors, employees, and partners, is not responsible for any indirect,
+            incidental,
+            special, consequential, or punitive damages resulting from the use or inability to use our service.</p>
+
+        <h2>Dispute Resolution</h2>
+        <p>Disputes arising from the use of our service with third-party providers should be directed to the relevant
+            provider.
+            PING Consulting is not obligated to mediate or resolve such disputes.</p>
+
+        <h2>Governing Law</h2>
+        <p>These terms and conditions are governed by French law, without regard to conflict of law rules.</p>
+
+        <h2>Privacy Policy</h2>
+        <ul>
+            <li><strong>Personal Data</strong>: We do not collect personal data. Third-party services linked from our
+                website
+                have their privacy policies.</li>
+            <li><strong>Cookies</strong>: Our Website uses cookies to analyze user trends. These cookies don't collect
+                personal
+                data.</li>
+            <li><strong>Third-Party Websites</strong>: The privacy policy of third-party websites linked from our
+                website will
+                prevail over this privacy policy for the content and actions on those third-party sites.</li>
+            <li><strong>Policy Updates</strong>: We may update our privacy policy periodically. Continuing to use our
+                website
+                after changes means you accept the new terms.</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>For questions or feedback regarding these terms, conditions, or our privacy policy, please write to us at <a
+                href="mailto:contact@ping.consulting">contact@ping.consulting</a>.</p>
+        <hr>
+        <p>Thank you for using JetBook.click. We value your trust and strive to offer a safe and useful service.</p>
+
+
+        <footer>
+            <a href="./legal.html">Legal Terms</a>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

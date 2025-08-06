@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+	class="hasSidebar hasPageActions hasBreadcrumb conceptual has-default-focus theme-light"
+	lang="en-us"
+	dir="ltr"
+	data-authenticated="false"
+	data-auth-status-determined="false"
+	data-target="docs"
+	x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Terms of Use - Microsoft APIs" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use" />
+			<meta property="og:description" content="Read the terms of use for Microsoft APIs." />
+
+	<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+
+	<meta property="og:image:alt" content="Microsoft Learn" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta name="twitter:site" content="@MicrosoftLearn" />
+
+	<meta name="color-scheme" content="light dark">
+
+
+	<meta name="author" content="yinaa" />
+<meta name="breadcrumb_path" content="/legal/bread/toc.json" />
+<meta name="depot_name" content="MSDN.DocsLegal" />
+<meta name="description" content="Read the terms of use for Microsoft APIs." />
+<meta name="document_id" content="aa93ae3a-42cd-30b6-bada-a220eec834a5" />
+<meta name="document_version_independent_id" content="72aa1273-0da4-6357-d843-91ca1ce1f58d" />
+<meta name="feedback_help_link_type" content="" />
+<meta name="feedback_help_link_url" content="" />
+<meta name="feedback_product_url" content="" />
+<meta name="feedback_system" content="None" />
+<meta name="git_commit_id" content="8d7f36df73690935e8f73ad67298601679c86b11" />
+<meta name="gitcommit" content="https://github.com/MicrosoftDocs/DocsLegal-pr/blob/8d7f36df73690935e8f73ad67298601679c86b11/DocsLegal/microsoft-apis/terms-of-use.md" />
+<meta name="keywords" content="Microsoft APIs terms use" />
+<meta name="locale" content="en-us" />
+<meta name="ms.author" content="yinaa" />
+<meta name="ms.date" content="12/18/2019" />
+<meta name="ms.reviewer" content="jimross, reneeyo" />
+<meta name="ms.service" content="legal" />
+<meta name="ms.topic" content="legal" />
+<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/DocsLegal-pr/blob/live/DocsLegal/microsoft-apis/terms-of-use.md" />
+<meta name="page_type" content="conceptual" />
+<meta name="schema" content="Conceptual" />
+<meta name="site_name" content="Docs" />
+<meta name="toc_rel" content="toc.json" />
+<meta name="updated_at" content="2024-03-19 10:32 PM" />
+<meta name="word_count" content="4375" />
+
+
+	<meta name="persistent_id" content="cfbabaab-a25c-a495-e29f-ee2a8dcd231b" />
+	
+
+
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/6ab06385-661e-4214-8870-bbe4071c960d" data-source="generated" />
+
+	<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/a72e95ff-4b4f-4cc1-90c6-7dcba67ff05f" data-source="generated" />
+
+	<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/e4f48d48-dfb7-4973-a019-e504674667cb" data-source="generated" />
+
+	
+
+
+	<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/131ba09e-4280-4ae7-8622-1f9f1c0daad1" data-source="generated" />
+
+	<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/24dc3ccd-591a-4415-a1fe-8759afafcb12" data-source="generated" />
+
+	<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/495840e0-c52f-49d2-a584-185aefeb98c7" data-source="generated" />
+
+	
+
+
+	<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/DocsLegal-pr/blob/live/DocsLegal/microsoft-apis/terms-of-use.md" />
+<link href="https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use" rel="canonical">
+	<title>Terms of Use - Microsoft APIs | Microsoft Learn</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/en-us/_themes/styles/b020066a.site-ltr.css ">
+
+	
+
+	<script id="msdocs-script">
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'en-us',
+			contentDir: 'ltr',
+			userLocale: 'en-us',
+			userDir: 'ltr',
+			pageTemplate: 'Conceptual',
+			brand: '',
+			context: {
+				uhfHeaderId: 'MSDocsHeader-MSGraph',
+				breadcrumbPath: 'concepts/breadcrumb/toc.json',
+				tocRel: 'toc.json',
+				isolated: false,
+			},
+			hasBinaryRating: true,
+			hasGithubIssues: false,
+			feedbackHelpLinkType:'',
+			feedbackHelpLinkUrl:'',
+			standardFeedback: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			extendBreadcrumb: false,
+			isEditDisplayable: false,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasPrintButton: true,
+			hasBookmark: true,
+			hasShare: true,
+			isPermissioned: false,
+			isPrivateUnauthorized: false,
+			hasRecommendations: true,
+			contributors: [
+						{ name: "yinaa", url: "https://github.com/yinaa" },
+						{ name: "alexbuckgit", url: "https://github.com/alexbuckgit" },
+						{ name: "JustPies", url: "https://github.com/JustPies" },
+						{ name: "Lauragra", url: "https://github.com/Lauragra" },
+						{ name: "meganbradley", url: "https://github.com/meganbradley" }
+],
+		},
+		functions:{}
+	};
+	</script>
+	<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+	<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js"></script>
+
+	<script src="/_themes/docs.theme/master/en-us/_themes/global/67a45209.deprecation.js"></script>
+
+		<link rel="preconnect" href="//mscom.demdex.net" crossorigin>
+		<link rel="dns-prefetch" href="//target.microsoft.com">
+		<link rel="dns-prefetch" href="//microsoftmscompoc.tt.omtrdc.net">
+		<link
+			rel="preload"
+			as="script"
+			href="/static/third-party/adobe-target/at-js/2.9.0/at.js"
+			integrity="sha384-1/viVM50hgc33O2gOgkWz3EjiD/Fy/ld1dKYXJRUyjNYVEjSUGcSN+iPiQF7e4cu"
+			crossorigin="anonymous"
+			id="adobe-target-script"
+			type="application/javascript"
+		/>
+		<script src="/_themes/docs.theme/master/en-us/_themes/scripts/930d4fa3.index-docs.js"></script>
+</head>
+
+<body lang="en-us" dir="ltr">
+	<div class="header-holder has-default-focus">
+		<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right-0 padding-xs has-text-centered has-body-background" tabindex="1">Skip to main content</a>
+
+		<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+
+		<div id="unsupported-browser" style="
+			background-color: white;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;"
+			hidden
+		>
+			<div style="max-width: 800px; margin: 0 auto;">
+				<p style="font-size: 24px">This browser is no longer supported.</p>
+				<p style="font-size: 16px; margin-top: 16px;">Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.</p>
+				<div style="margin-top: 12px;">
+					<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+						style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">
+Download Microsoft Edge					</a>
+					<a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+						style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">
+More info about Internet Explorer and Microsoft Edge					</a>
+				</div>
+			</div>
+		</div>
+		<!-- liquid-tag banners global -->
+
+		<!-- site header -->
+		<header id="ms--site-header" data-test-id="site-header-wrapper" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+			<div id="ms--mobile-nav" class="site-header display-none-tablet padding-inline-none gap-none" data-bi-name="mobile-header" data-test-id="mobile-header"></div>
+			<div id="ms--primary-nav" class="site-header display-none display-flex-tablet" data-bi-name="L1-header" data-test-id="primary-header"></div>
+			<div id="ms--secondary-nav" class="display-none" data-bi-name="L2-header" data-test-id="secondary-header"></div>
+		</header>
+
+
+			<div id="content-header" class="content-header uhf-container has-padding has-default-focus border-bottom-none" data-bi-name="content-header">
+				<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+					<button type="button" class="contents-button button button-sm margin-right-xxs" data-bi-name="contents-expand" aria-haspopup="true" data-contents-button>
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">
+Table of contents						</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button button-sm" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Exit focus mode</span>
+					</button>
+				</div>
+			</div>
+
+		<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="margin-top-sm-tablet position-sticky display-flex flex-direction-column" aria-label="Primary"></nav>
+			</div>
+
+			<!-- .primary-holder -->
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<!--div.columns -->
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+					<div id="main-column" class="column  is-full is-8-desktop">
+
+						<main id="main" class="" role="main" data-bi-name="content" lang="en-us" dir="ltr">
+							<!-- article-header -->
+							<div id="article-header" class="background-color-body margin-top-sm-tablet margin-bottom-xs display-none-print">
+								<div class="display-flex align-items-center ">
+									<details id="article-header-breadcrumbs-overflow-popover" class="popover" data-for="article-header-breadcrumbs">
+										<summary class="button button-clear button-primary button-sm inner-focus" aria-label="All breadcrumbs">
+											<span class="icon">
+												<span class="docon docon-more"></span>
+											</span>
+										</summary>
+										<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none">
+
+										</div>
+									</details>
+
+									<bread-crumbs id="article-header-breadcrumbs" data-test-id="article-header-breadcrumbs" class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"></bread-crumbs>
+
+									<div id="article-header-page-actions"  class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch">
+
+										<a
+											id="lang-link-tablet"
+											class="button button-primary button-clear button-sm display-none display-inline-flex-tablet"
+											title="Read in English" data-bi-name="language-toggle"
+											data-read-in-link
+											hidden>
+											<span class="icon margin-none" aria-hidden="true" data-read-in-link-icon>
+												<span class="docon docon-locale-globe"></span>
+											</span>
+											<span class="is-visually-hidden" data-read-in-link-text>Read in English</span>
+										</a>
+
+											<button
+												type="button"
+												class="collection button button-clear button-sm button-primary display-none display-inline-flex-tablet"
+												data-list-type="collection"
+												data-bi-name="collection"
+												title="Add to collection">
+												<span class="icon margin-none" aria-hidden="true">
+													<span class="docon docon-circle-addition"></span>
+												</span>
+												<span class="collection-status is-visually-hidden">Save</span>
+											</button>
+										
+
+											<a	data-contenteditbtn
+												class="button button-clear button-sm text-decoration-none button-primary display-none display-inline-flex-tablet"
+												aria-label="Edit"
+												title="Edit This Document"
+												data-bi-name="edit"
+
+													hidden
+
+														href="https://github.com/MicrosoftDocs/DocsLegal-pr/blob/live/DocsLegal/microsoft-apis/terms-of-use.md"
+											>
+												<span class="icon margin-none" aria-hidden="true">
+													<span class="docon docon-edit-outline"></span>
+												</span>
+											</a>
+										
+
+
+										
+										<details class="popover popover-right" id="article-header-page-actions-overflow">
+											<summary class="justify-content-flex-start button button-clear button-sm button-primary" aria-label="More actions" title="More actions">
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-more-vertical"></span>
+												</span>
+											</summary>
+											<div class="popover-content padding-none">
+													<button
+														data-page-action-item="overflow-mobile"
+														type="button"
+														class="justify-content-flex-start button-block button-sm has-inner-focus button button-clear display-none-tablet"
+														data-bi-name="contents-expand"
+														data-contents-button
+														data-popover-close>
+														<span class="icon">
+															<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+														</span>
+															<span class="contents-expand-title">Table of contents</span>
+													</button>
+
+												<a
+													id="lang-link-overflow"
+													class="justify-content-flex-start button-sm has-inner-focus button button-clear button-block display-none-tablet"
+													title="Read in English" data-bi-name="language-toggle"
+													data-page-action-item="overflow-mobile"
+													data-check-hidden="true"
+													data-read-in-link
+													hidden
+													>
+													<span class="icon" aria-hidden="true" data-read-in-link-icon>
+														<span class="docon docon-locale-globe"></span>
+													</span>
+													<span data-read-in-link-text>Read in English</span>
+												</a>
+
+													<button
+														type="button"
+														class="collection justify-content-flex-start button button-clear button-sm has-inner-focus button-block display-none-tablet"
+														data-list-type="collection"
+														data-bi-name="collection"
+														title="Save"
+														data-page-action-item="overflow-mobile"
+														data-check-hidden="true"
+														data-popover-close>
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-circle-addition"></span>
+														</span>
+														<span class="collection-status">Save</span>
+													</button>
+
+			 										
+													<button
+													 	type="button"
+														class="collection justify-content-flex-start button button-clear button-sm has-inner-focus button-block display-none-tablet"
+														data-list-type="plan"
+														data-bi-name="plan"
+														title="Add to Plan"
+														data-page-action-item="overflow-mobile"
+														data-check-hidden="true"
+														data-popover-close
+														hidden>
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-circle-addition"></span>
+														</span>
+														<span class="plan-status">Add to Plan</span>
+													</button>
+
+
+													<a	data-contenteditbtn
+														class="button button-clear button-block button-sm has-inner-focus justify-content-flex-start text-decoration-none display-none-tablet"
+														aria-label="Edit"
+														title="Edit This Document"
+														data-bi-name="edit"
+
+															hidden
+
+																href="https://github.com/MicrosoftDocs/DocsLegal-pr/blob/live/DocsLegal/microsoft-apis/terms-of-use.md"
+													>
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-edit-outline"></span>
+														</span>
+														<span>Edit</span>
+													</a>
+
+													<button
+														class="button button-block button-clear button-sm justify-content-flex-start has-inner-focus"
+														title="Print"
+														type="button"
+														aria-label="Print"
+														data-bi-name="print"
+														data-page-action-item="overflow-all"
+														data-popover-close
+														data-print-page
+														data-check-hidden="true">
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-print"></span>
+														</span>
+														<span>Print</span>
+													</button>
+
+													<div aria-hidden="true" class="margin-none
+														border-top" data-page-action-item="overflow-all"></div>
+
+													
+														<a class="button button-clear button-sm has-inner-focus button-block text-decoration-none justify-content-flex-start share-twitter" data-bi-name="twitter" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-twitter"></span>
+															</span>
+															<span>Twitter</span>
+														</a>
+														<a class="button button-clear button-sm has-inner-focus button-block text-decoration-none justify-content-flex-start share-linkedin" data-bi-name="linkedin" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-linkedin"></span>
+															</span>
+															<span>LinkedIn</span>
+														</a>
+														<a class="button button-clear button-sm button-block has-inner-focus text-decoration-none justify-content-flex-start share-facebook" data-bi-name="facebook" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-facebook"></span>
+															</span>
+															<span>Facebook</span>
+														</a>
+														<a class="button button-clear button-sm button-block has-inner-focus text-decoration-none justify-content-flex-start share-email" data-bi-name="email" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-mail-message-fill"></span>
+															</span>
+															<span>Email</span>
+														</a>
+												
+											</div>
+										</details>
+										
+									</div>
+								</div>
+							</div>
+							<!-- end article-header -->
+
+
+							<div>
+								<button type="button" class="border contents-button button button-clear button-sm is-hidden-tablet has-inner-focus" data-bi-name="contents-expand" data-contents-button hidden>
+									<span class="icon">
+										<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+									</span>
+										<span class="contents-expand-title">Table of contents</span>
+								</button>
+							</div>
+
+							<!-- end mobile-contents button  -->
+
+							<div class="content ">
+
+
+								<h1 id="microsoft-apis-terms-of-use">Microsoft APIs Terms of Use</h1>
+
+
+									<div class="display-flex justify-content-space-between align-items-center flex-wrap-wrap page-metadata-container">
+										<div class="margin-right-xxs">
+											<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+														<li>
+Article														</li>
+															<li class="visibility-hidden-visual-diff">
+																<time class="is-invisible" data-article-date aria-label="Article review date" datetime="2022-09-26T22:33:00Z" data-article-date-source="calculated">09/26/2022</time>
+															</li>
+														<li class="contributors-holder display-none-print">
+															<button aria-label="View all contributors" class="contributors-button link-button" data-bi-name="contributors" title="View all contributors">
+																	5 contributors
+															</button>
+														</li>
+											</ul>
+										</div>
+
+<div id="user-feedback" class="margin-block-xxs display-none-print" data-hide-on-archived>
+	<button
+		id="user-feedback-button"
+		data-test-id="conceptual-feedback-button"
+		class="button button-sm button-clear button-primary"
+		type="button"
+		data-bi-name="user-feedback-button"
+		data-user-feedback-button
+	>
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-like"></span>
+		</span>
+		<span>Feedback</span>
+	</button>
+</div>
+									</div>
+
+									<div id="ms--inline-notifications" data-bi-name="inline-notification"></div>
+
+										<nav id="center-doc-outline" class="doc-outline is-hidden-desktop display-none-print margin-bottom-sm" data-bi-name="intopic toc" aria-label="In this article">
+											<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">In this article</h2>
+										</nav>
+
+								<!-- <content> -->
+									<p>Last Updated: May 2019      <a href="terms-of-use-changelog" data-linktype="relative-path">What's new?</a></p>
+<p>Thank you for developing with Microsoft!</p>
+<p>By accessing or using Microsoft APIs, including within a software application, website, tool, service, or product you create or offer to Customers (your &quot;<strong>Application</strong>&quot;), you are agreeing to these terms and to comply with any accompanying documentation that applies to your use of the Microsoft APIs (&quot;<strong>API Terms</strong>&quot;) with Microsoft Corporation (&quot;<strong>Microsoft</strong>&quot;, &quot;<strong>we</strong>&quot;, &quot;<strong>us</strong>&quot;, or &quot;<strong>our</strong>&quot;).  You represent and warrant to us that you have the authority to accept these API Terms on behalf of yourself, a company, and/or other entity, as applicable.  We may change, amend or terminate these API Terms at any time.  <strong>Your use of the Microsoft APIs after any change or amendment means you agree to the new API Terms.  If you do not agree to the new API Terms or if we terminate these API Terms, you must stop using the Microsoft APIs.</strong></p>
+<h2 id="1--defined-terms">1.  Defined Terms</h2>
+<p>a)  &quot;<strong>Customer(s)</strong>&quot; means the licensee of a Microsoft online service (&quot;<strong>Microsoft Offering</strong>&quot;) and if the licensee is an organization, includes their administrators and end users.</p>
+<p>b)  &quot;<strong>Microsoft APIs</strong>&quot; means (i) any form of machine accessible application programming interface that Microsoft makes available which provides access to a Microsoft Offering, including all associated tools, elements, components and executables therein, (ii) any Microsoft sample code that enables interactions with a Microsoft Offering, and (iii) documentation that Microsoft makes available to help enable your access to the Microsoft APIs.</p>
+<p>c)  &quot;<strong>Microsoft email protocols and APIs</strong>&quot; may include and means IMAP, POP, MAPI, RPC over HTTP, Outlook REST API, Outlook APIs in Microsoft Graph API, Exchange Web Services (&quot;EWS&quot;), Exchange Active Sync (&quot;EAS&quot;), Exchange Management Shell and any Exchange online APIs in the Microsoft APIs, individually or in any combination, when used to provide access to a Microsoft Offering.</p>
+<p>d)  The Microsoft APIs include:</p>
+<ol>
+<li>the Microsoft Graph API (documented, for example, at <a href="/en-us/graph" data-linktype="absolute-path">https://learn.microsoft.com/graph</a>);</li>
+<li>any other Microsoft APIs that enable access to data in Azure Active Directory;</li>
+<li>any other Microsoft APIs that enable access to data in services that are part of Office 365 (including, but not limited to, Office 365 Services, Office 365 Business, Office 365 Business Premium, Office 365 Business Essentials, Office 365 Home, and Office 365 Personal), including, for example, all APIs in the following services:
+<ol>
+<li>Office 365: Outlook/Exchange, SharePoint, OneDrive, Microsoft Teams, Excel, OneNote, Project Online, Microsoft Planner, Microsoft Kaizala Pro, and Yammer; and</li>
+<li>Office 365 for Education;</li>
+</ol>
+</li>
+<li>Any other Microsoft APIs that enable access to data in services that are part of Outlook.com, OneDrive.com, and Yammer;</li>
+<li>Microsoft email protocols and APIs;</li>
+<li>any other Microsoft APIs that enable access to data in Microsoft Intune®; and</li>
+<li>any other Microsoft APIs that enable access to data from Project Rome services, including, but not limited to: user activities, notifications, device relay and share (documented, for example, at <a href="/en-us/windows/project-rome/" data-linktype="absolute-path">https://learn.microsoft.com/windows/project-rome/</a>).</li>
+</ol>
+<h2 id="2-scope-and-application-registration">2. Scope and Application Registration</h2>
+<p>a)  These API Terms govern your use of Microsoft APIs except:</p>
+<ol>
+<li>if you have entered into another agreement with Microsoft that expressly supersedes these API Terms and governs your use of specific Microsoft APIs, or</li>
+<li>for any APIs other than the APIs listed in section 1.d) of these terms, if you access APIs that present accompanying terms (&quot;<strong>Accompanying Terms</strong>&quot;) and you have accepted those Accompanying Terms, then those Accompanying Terms will apply to your access of those APIs.</li>
+</ol>
+<p>b)  Registration for your Application may be required pursuant to documentation.  If registration is required, you must register your Application with Microsoft.  Your registration must be accurate and kept up-to-date by you at all times.  Once you have successfully registered an Application, you will be given access credentials for your Application. &quot;<strong>Access Credentials</strong>&quot; means the necessary security keys, secrets, tokens, and other credentials to access the Microsoft APIs.  The Access Credentials enable us to associate your Application with your use of the Microsoft APIs.  All activities that occur using your Access Credentials are your responsibility.  Access Credentials are non-transferable and non-assignable.  Keep them secret.  Do not try to circumvent them.</p>
+<h2 id="3--microsoft-apis-license-and-guidelines">3.  Microsoft APIs License and Guidelines</h2>
+<p>a)  <strong>Microsoft APIs License</strong>  Subject to your compliance with all of the API Terms, Microsoft grants you a limited, non-exclusive, non-assignable, non-transferable, revocable license to use the Microsoft APIs to develop, test, and support your Application, and allow Customers to use your integration of the Microsoft APIs within your Application.  You may use the Microsoft APIs only as expressly permitted in these API Terms. Violation of these API Terms may result in the suspension or termination of your use of the Microsoft APIs.</p>
+<p>b)  <strong>Microsoft APIs Guidelines</strong></p>
+<p>You may NOT:</p>
+<ol>
+<li>Use the Microsoft APIs in a way that could impair, harm or damage Microsoft, the Microsoft APIs, any Microsoft Offering, or anyone's use of the Microsoft APIs or any Microsoft Offerings;</li>
+<li>Use the Microsoft APIs to disrupt, interfere with, or attempt to gain unauthorized access to services, servers, devices, or networks connected to or which can be accessed via the Microsoft APIs;</li>
+<li>Use the Microsoft APIs, or any information accessed or obtained using the Microsoft APIs, for the purpose of migrating Customers away from a Microsoft Offering, except in connection with use of the Microsoft APIs by your Application or unless expressly permitted by Microsoft pursuant to a duly executed written agreement;</li>
+<li>Scrape, build databases or otherwise create copies of any data accessed or obtained using the Microsoft APIs, except as necessary to enable an intended usage scenario for your Application;</li>
+<li>Request from the Microsoft APIs more than the minimum amount of data, or more than the minimum permissions to the types of data, that your Application needs for Customers to use the intended functionality of your Application;</li>
+<li>Use an unreasonable amount of bandwidth, or adversely impact the stability of the Microsoft APIs or the behavior of other apps using the Microsoft APIs;</li>
+<li>Attempt to circumvent the limitations Microsoft sets on your use of the Microsoft APIs.  Microsoft sets and enforces limits on your use of the Microsoft APIs (e.g., limiting the number of API requests that you may make or the number of users you may serve), in its sole discretion;</li>
+<li>Use Microsoft APIs in any manner that works around any technical limitations of the Microsoft APIs or of the accessed Microsoft Offering, or reverse engineer, decompile or disassemble the Microsoft APIs, except and only to the extent that applicable law expressly permits, despite this limitation;</li>
+<li>Use the Microsoft APIs, or any data obtained using the Microsoft APIs, to conduct performance testing of a Microsoft Offering unless expressly permitted by Microsoft
+pursuant to a duly executed written agreement;</li>
+<li>Use the Microsoft APIs, or any data obtained using the Microsoft APIs, to identify, exploit or publicly disclose any potential security vulnerabilities;</li>
+<li>Request, use or make available any data obtained using the Microsoft APIs outside any permissions expressly granted by Customers in connection with using your Application;</li>
+<li>Use or transfer any data accessed or obtained using the Microsoft APIs, including any data aggregated, anonymized or derived from that data (collectively the &quot;Microsoft APIs Data&quot;) for advertising or marketing purposes including (i) targeting ads, or (ii) serving ads.  For purposes of clarity, this prohibition on using Microsoft APIs Data for advertising or marketing purposes does not extend to using other data, such as (i) the number of users of your Application, (ii) a user identifier you independently receive from a user (e.g., an email address you receive when a user enrolls to use your Application, a device identifier, or an advertising identifier), or (iii) a product or service identifier that identifies a Microsoft Offering;</li>
+<li>Make your Application available for use in a manner that circumvents the need for users to obtain a valid license to the Microsoft application or service that is accessed through the Microsoft APIs;</li>
+<li>Redistribute or resell, or sublicense access to, the Microsoft APIs, any data obtained using the Microsoft APIs, or any other Microsoft Offering accessed through the  Microsoft APIs; or</li>
+<li>Misrepresent expressly, by omission, or implication, the need for users to obtain a valid license to the Microsoft application or service that is accessed through the Microsoft APIs;</li>
+<li>Falsify or alter any unique referral identifier in, or assigned to an Application, or otherwise obscure or alter the source of queries coming from an Application to hide a violation of this agreement; or</li>
+<li>Use the Microsoft APIs or allow any user to use the Application in a way that violates applicable law, including:
+<ol>
+<li>Illegal activities, such as child pornography, gambling, piracy, violating copyright, trademark or other intellectual property laws.</li>
+<li>Intending to exploit minors in any way.</li>
+<li>Accessing or authorizing anyone to access the Microsoft APIs from an embargoed country as prohibited by the U.S. government.</li>
+<li>Threatening, stalking, defaming, defrauding, degrading, victimizing or intimidating anyone for any reason.</li>
+<li>Violating applicable privacy laws and regulations.</li>
+</ol>
+</li>
+<li>Use the Microsoft APIs in a way that could create, in Microsoft's sole discretion and judgment, an unreasonable risk to Customers from a security or privacy perspective.</li>
+</ol>
+<p>c)  <strong>Accessing the Exchange and Outlook Services through Microsoft email protocols and APIs</strong></p>
+<p>Unless you have use permissions expressly and specifically granted by Customers in connection with using your Application, you may not use Microsoft email protocols and APIs for any purpose other than:</p>
+<ol>
+<li>syncing email messages, calendar events, and contacts, or</li>
+<li>backing up email messages, calendar events, and contacts.</li>
+</ol>
+<p>d)  <strong>Accessing the Microsoft Intune Service through a Microsoft API</strong></p>
+<p>When your Application or services access an Intune API in Microsoft Graph using a Post command, for example, such as documented at <a href="/en-us/graph" data-linktype="absolute-path">https://learn.microsoft.com/graph</a>, you must include:</p>
+<ol>
+<li>In your Application and services' license terms, a statement that certain functionalities are enabled by accessing Microsoft Intune® through the Microsoft API and use of your Application and accompanying services does not remove the need for users to have a valid license for their use of the Microsoft Intune® service.</li>
+<li>In your Application and services' marketing material and product documentation that references functionality enabled by your Application or service's access to Microsoft Intune® through the Microsoft API:
+<ol>
+<li>The attribution &quot;Microsoft Intune® App Protection Policies&quot; displayed in a manner consistent with the <a href="https://aka.ms/trademarks-usage" data-linktype="external"><strong>Microsoft Trademark &amp; Brand Guidelines</strong></a>, and</li>
+<li>A statement that use of your Application and services does not remove the need for users to maintain a valid license for their use of the Microsoft Intune® service.</li>
+</ol>
+</li>
+<li>In your Application's user interface or console that displays commands for functionality enabled by the Microsoft API for Intune, include the attribution &quot;Microsoft Intune® App Protection Policies&quot; in a conspicuous place on the console or UI.  The attribution must be in a manner consistent with the <a href="https://aka.ms/trademarks-usage" data-linktype="external"><strong>Microsoft Trademark &amp; Brand Guidelines</strong></a>.</li>
+</ol>
+<p>e)  <strong>Accessing Microsoft OneDrive through a Microsoft API</strong></p>
+<p>When your Application or services access a Microsoft API for Microsoft OneDrive, other than the work files of a user or work files created on behalf of a user, you may not enable storage of system data in Microsoft OneDrive, the systems data including (i) computer system back-up data, (ii) team, organization, or departmental level data, or (iii) data related to any assignment of a per user license to a team, organization, department, or other non-human entity.  Such systems data can be stored in Microsoft SharePoint shared libraries, which is a solution for more advanced content management and collaboration, including storing and managing files, communications, and intranet sites across a team or organization.</p>
+<p>f)  <strong>Accessing the Microsoft Yammer Service through a Microsoft API</strong></p>
+<p>When your Application or services access a Microsoft API for Yammer, you must adhere to the following requirements:</p>
+<ol>
+<li><strong>Contact and Cooperation</strong>.  You (or the name of the contact you gave to Microsoft when you applied for your application key if it's not you) must be reachable at all times for privacy and security questions or concerns.  You can change this name or contact by signing up for a new application key, and providing the correct contact information and using the new application key instead.</li>
+<li><strong>Reporting</strong>.  In addition to the vulnerabilities and data breach requirements of section <strong>4.  Security</strong>, you must promptly report any security deficiencies in or intrusions to your Application or services systems that you discover to Microsoft in writing via email to api@yammer-inc.com.  You will work with Microsoft to immediately correct any security deficiency and will disconnect immediately any intrusions or intruder.  In the event of any such security deficiency or intrusion, you will make no public statements (e.g., press, blogs, social media, bulletin boards, etc.) without prior written and express permission from Microsoft in each instance.</li>
+<li><strong>Branding</strong>.  If your product or service uses or is based upon accessing the Microsoft Yammer service through a Microsoft API, and you wish to include Yammer branding or logos, please contact us at <a href="mailto:api@yammer-inc.com" data-linktype="external">api@yammer-inc.com</a>.  Absent express written permission from us, you may not use Yammer branding, except as outlined in section 3. f) 4. below.</li>
+<li><strong>Attribution</strong>.  The images provided to you through the accessing the Microsoft Yammer service through a Microsoft API may contain the trade names, trademarks, service marks, logos, domain names, and other distinctive brand features of Microsoft and its partners.  You may not delete or in any manner alter these trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  You agree to maintain, and not to remove, modify, obscure or alter, any link or notices appearing on any image provided through the Service.</li>
+</ol>
+<h2 id="4--security">4.  Security</h2>
+<p>You warrant that your Application has been developed to operate with Microsoft API content in a secure manner.  Your network, operating system and the software of your servers, databases, and computer systems (collectively, &quot;<strong>Systems</strong>&quot;) must be properly configured to securely operate your Application and store content collected through your Application (including the Microsoft API content).  Your Application must use reasonable security measures to protect the private data of your users.</p>
+<p>We may use technology to detect, prevent or limit the impact of any issues caused by your Application (before, after, or instead of suspension of your access).  This may include, for example, (i) filtering to stop spam, (ii) performing security or privacy monitoring regarding scraping, denial of service attacks, user impersonation, application impersonation, or illicit consent grant(s), or (iii) limiting or terminating your access to the Microsoft APIs.</p>
+<p>You will permit Microsoft reasonable access to your Application for purposes of monitoring compliance with these API Terms.  You will respond to any questions by Microsoft about your compliance with these API Terms.</p>
+<p>Without limiting the foregoing, upon request by Microsoft, you will provide us (or an independent auditor acting on our behalf) with up to two full-feature client account-level instances to access your Application (and/or other materials relating to your use of the API) as reasonably requested by us to verify your compliance with these API Terms (including, in particular, your security and privacy obligations under these API Terms).</p>
+<p>We may restrict or terminate access to the APIs or perform an audit (including by hiring an independent auditor acting on our behalf) of your Application if you fail to provide adequate information and materials (including up to two full-featured instances of your Application) to verify your compliance with these Terms.</p>
+<p>You must have a process to respond to any vulnerabilities in your Application, and in the case of any vulnerabilities related to your Application's connection to the Microsoft APIs discovered by you or reported to you by a third party, you agree that you will provide vulnerability details to the Microsoft Security Response Center (secure@microsoft.com).</p>
+<p>In the event of a data breach by you resulting from any aspect of the Microsoft APIs involving your Application or any data collected through your Application, you will promptly contact the Microsoft Security Response Center (secure@microsoft.com) and provide details of the data breach.  You agree to refrain from making public statements (e.g., press, blogs, social media, bulletin boards, etc.) without prior written and express permission from Microsoft in each instance as it relates to the Microsoft APIs.</p>
+<p>The rights and requirements of this section -- <strong>4. Security</strong> -- will survive for five (5) years following any termination of these API Terms.</p>
+<h2 id="5--your-compliance-with-applicable-privacy-and-data-protection-laws">5.  Your Compliance with Applicable Privacy and Data Protection Laws</h2>
+<p>You must comply with all laws and regulations applicable to your use of the data accessed through the Microsoft APIs, including without limitation laws related to privacy, biometric data, data protection and confidentiality of communications.  Your use of the Microsoft APIs is conditioned upon implementing and maintaining appropriate protections and measures for your service and Application, and that includes your responsibility to the data obtained through the use of the Microsoft APIs. For the data you obtained through the Microsoft APIs, you must:</p>
+<p>a)  obtain all necessary consents before processing data and obtain additional consent if the processing changes (&quot;<strong>Data Access Consents</strong>&quot;),</p>
+<p>b)  In the event you're storing data locally, ensure that data is kept up to date and implement corrections, restrictions to data, or the deletion of data as reflected in the data obtained through your use of the Microsoft APIs,</p>
+<p>c)  implement proper retention and deletion policies, including deleting all data when your user abandons your Application, uninstalls your Application, closes its account with you, or abandons the account,</p>
+<p>d)  maintain and comply with a written statement available to Customers and users that describes your privacy practices regarding data and information you collect and use (&quot;<strong>Your Privacy Statement</strong>&quot;), and that statement must be as protective as the <a href="https://privacy.microsoft.com/privacystatement" data-linktype="external">Microsoft Privacy Statement</a>, and</p>
+<p>e)  When your Application allows end users to sign in with a Microsoft account and Microsoft is not providing the user interface for the sign in, your Privacy Statement must provide a link to <a href="https://account.live.com/consent/Manage" data-linktype="external">https://account.live.com/consent/Manage</a> and/or <a href="https://myapps.microsoft.com" data-linktype="external">https://myapps.microsoft.com</a>, or such other location(s) as we may specify from time to time, with a clear indication that Customers and end users can go to the Microsoft site(s) to revoke Data Access Consents at any time.  If Customers or end users must take additional steps to disable your Application's access to Customer or end user data, then Your Privacy Statement must clearly indicate to Customers and end users the additional steps required to disable access.</p>
+<p>Nothing in the Agreement shall be construed as creating a joint controller or processor-subprocessor relationship between you and Microsoft.</p>
+<h2 id="6--changes-to-the-microsoft-apis-and-api-terms">6.  Changes to the Microsoft APIs and API Terms</h2>
+<p><strong>WE MAY CHANGE OR DISCONTINUE THE AVAILABILITY OF SOME OR ALL OF THE MICROSOFT APIs AT ANY TIME FOR ANY REASON WITH OR WITHOUT NOTICE.</strong>  Such changes may include, without limitation, removing or limiting access to specific API(s), requiring fees or setting and enforcing limits on your use of additions to the Microsoft APIs.  We may also impose limits on certain features and services or restrict your access to some or all of the Microsoft APIs.  We may release subsequent versions of the Microsoft APIs and require that you use those subsequent versions, at your sole cost and expense.</p>
+<p>Any version of the Microsoft APIs designated as &quot;preview&quot;, &quot;pre-release&quot; or &quot;beta&quot; (&quot;<strong>Preview API</strong>&quot;), may not work in the same way as a final version.  We may change or not release a final or commercial version of a Preview API in our sole discretion.</p>
+<p><strong>WE MAY MODIFY THESE API TERMS AT ANY TIME, WITH OR WITHOUT PRIOR NOTICE TO YOU.  YOUR CONTINUED USE OF THE MICROSOFT APIs FOLLOWING THE RELEASE OF A SUBSEQUENT VERSION OF THESE API TERMS WILL BE DEEMED YOUR ACCEPTANCE OF ANY MODIFICATIONS TO THESE API TERMS.</strong></p>
+<h2 id="7--feedback">7.  Feedback</h2>
+<p>If you give feedback about the Microsoft APIs to Microsoft, you give to Microsoft, without charge, the right to use, share and commercialize your feedback in any way and for any purpose.  You will not give feedback that is subject to a license that requires Microsoft to license its software or documentation to third parties because Microsoft includes your feedback in them.  These rights survive these API Terms.</p>
+<h2 id="8--confidentiality">8.  Confidentiality</h2>
+<p>You may be given access to certain non-public information, software, and specifications relating to the Microsoft APIs (&quot;<strong>Confidential Information</strong>&quot;), which is confidential and proprietary to Microsoft.  You may use Confidential Information only as necessary in exercising your rights granted under these API Terms.  You may not disclose any Confidential Information to any third party without Microsoft's prior written consent.  You agree that you will protect any Confidential Information from unauthorized use, access, or disclosure in the same manner that you would use to protect your own confidential and proprietary information.</p>
+<h2 id="9--disclaimer-of-warranties-limitation-of-liability-and-indemnity">9.  Disclaimer of Warranties, Limitation of Liability and Indemnity</h2>
+<p>a)  <strong>Disclaimer of Warranties</strong></p>
+<p><strong>WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THE MICROSOFT APIs.  YOU UNDERSTAND THAT USE OF THE MICROSOFT APIs IS AT YOUR OWN RISK AND THAT WE PROVIDE THE MICROSOFT APIs ON AN &quot;AS IS&quot; BASIS &quot;WITH ALL FAULTS&quot; AND &quot;AS AVAILABLE&quot; TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, WE EXCLUDE ANY IMPLIED WARRANTIES, INCLUDING FOR MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, WORKMANLIKE EFFORT, AND NON-INFRINGEMENT.  YOU MAY HAVE CERTAIN RIGHTS UNDER YOUR LOCAL LAW.  NOTHING IN THESE API TERMS ARE INTENDED TO AFFECT THOSE RIGHTS, IF THEY ARE APPLICABLE.  WE DO NOT GUARANTEE THE MICROSOFT APIs WILL FUNCTION WITHOUT INTERRUPTION OR ERRORS IN FUNCTIONING.  IN PARTICULAR, THE OPERATION OF THE MICROSOFT APIs MAY BE INTERRUPTED DUE TO MAINTENANCE, UPDATES, OR SYSTEM OR NETWORK FAILURES.  WE DISCLAIM ALL LIABILITY FOR DAMAGES CAUSED BY ANY SUCH INTERRUPTION, ERRORS IN FUNCTIONING, OR THAT DATA LOSS WILL NOT OCCUR.</strong></p>
+<p>b)  <strong>Limitation of Liability</strong></p>
+<p><strong>IF YOU HAVE ANY BASIS FOR RECOVERING DAMAGES (INCLUDING BREACH OF THESE API TERMS), YOU AGREE THAT YOUR EXCLUSIVE REMEDY IS TO RECOVER, FROM MICROSOFT OR ANY AFFILIATES, RESELLERS, DISTRIBUTORS, SUPPLIERS (AND RESPECTIVE EMPLOYEES, SHAREHOLDERS, OR DIRECTORS) AND VENDORS, ONLY DIRECT DAMAGES UP TO USD $5.00 COLLECTIVELY.  YOU CAN'T RECOVER ANY OTHER DAMAGES OR LOSSES, INCLUDING, WITHOUT LIMITATION, DIRECT, CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT, INCIDENTAL, OR PUNITIVE.</strong>  These limitations and exclusions apply even if this remedy doesn't fully compensate you for any losses or fails of its essential purpose or if we knew or should have known about the possibility of the damages.  To the maximum extent permitted by law, these limitations and exclusions apply to any claims related to these API Terms or your use of the Microsoft APIs.</p>
+<p>c)  <strong>Indemnification</strong></p>
+<p>You will defend, hold harmless, and indemnify Microsoft from any claim or action brought by a third party, including all damages, liabilities, costs and expenses, and reasonable attorney fees, to the extent resulting from, alleged to have resulted from, or in connection with your breach of the obligations herein or infringement of Microsoft's or third party's intellectual property.</p>
+<p>d)  <strong>No Injunctive Relief</strong></p>
+<p>In no event shall you seek or be entitled to rescission, injunctive or other equitable relief, or to enjoin or restrain the operation of the Microsoft APIs, content or other material used or displayed through the current Microsoft website or successor site.</p>
+<p>e)  <strong>No Third-Party Beneficiaries</strong></p>
+<p>There are no third-party beneficiaries to this Agreement.</p>
+<h2 id="10--termination">10.  Termination</h2>
+<p>a)  We may suspend or immediately terminate these API Terms, any rights granted herein, and/or your license to the Microsoft APIs, in our sole discretion at any time, for any reason.  You may terminate these API Terms at any time by ceasing your access to the Microsoft APIs.</p>
+<p>b)  Upon termination, all licenses granted herein immediately expire and you must cease use of the Microsoft APIs.  You must also comply with Customer's instruction to return or delete any data accessed or obtained through the Microsoft APIs, unless expressly permitted by Microsoft or prohibited by law.  Neither party will be liable to the other for any damages resulting solely from termination of these API Terms.</p>
+<h2 id="11--general-terms">11.  General Terms</h2>
+<p>a)  <strong>Applicable Law</strong></p>
+<ol>
+<li><strong>United States</strong>.  If you reside in the United States, Washington state law governs the interpretation of these API Terms and applies to claims for breach of it, regardless of conflict of laws principles.  The laws of the state where you live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort.</li>
+<li><strong>Outside the United States</strong>.  If you reside in any other country, the laws of that country apply.</li>
+</ol>
+<p>b)  <strong>Support</strong>.  Because the Microsoft APIs are provided &quot;as is,&quot; we may not provide support services for them.  You are solely responsible for the quality of your Application and providing support for your Application.</p>
+<p>c)  <strong>Assignment and Delegation</strong>.  You may not assign or delegate any rights or obligations under these API Terms, including in connection with a change of control.  Any purported assignment and delegation shall be ineffective.  We may freely assign or delegate all rights and obligations under these API Terms, fully or partially without notice to you.</p>
+<p>d)  <strong>Reservation of Rights</strong>.  All rights not expressly granted herein are reserved by Microsoft.  You acknowledge that all intellectual property rights within the Microsoft APIs remain the property of Microsoft and nothing within these API Terms will act to transfer any of these intellectual property rights to you.</p>
+<p>e)  <strong>Microsoft and you are independent contractors</strong>.  Nothing in this Agreement shall be construed as creating an employer-employee relationship, processor-subprocessor relationship, a partnership, or a joint venture between the parties.</p>
+<p>f)  <strong>No Waiver</strong>.  Either party's failure to act with respect to a breach of these API Terms does not waive either party's right to act with respect to that breach or subsequent similar or other breaches.</p>
+<p>g)  <strong>Survival</strong>.  Sections of these API Terms that, by their terms, require performance after the termination or expiration of these API Terms will survive, such as, for example, the rights and requirements of section <strong>4.  Security</strong>.</p>
+<p>h)  <strong>Modifications</strong>.  We may modify these API Terms at any time with or without individual notice to you.  Any modifications will be effective upon your continued use of the Microsoft APIs.</p>
+<p>i)  <strong>Entire Agreement</strong>.  These API Terms and any documents incorporated into these API Terms by reference, constitute the entire agreement between you and us regarding the Microsoft APIs and supersede all prior agreements and understandings, whether written or oral, or whether established by custom, practice, policy or precedent, with respect to the subject matter of these API Terms.  If any provision of these API Terms is found to be illegal, void, or unenforceable, the unenforceable provision will be modified so as to render it enforceable to the maximum extent possible.</p>
+
+							</div>
+
+							<div id="assertive-live-region" role="alert" aria-live="assertive" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<div id="polite-live-region" role="status" aria-live="polite" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<!-- </content> -->
+
+						</main>
+
+
+
+
+						<!-- recommendations section -->
+						<!-- end recommendations section -->
+
+						<!-- feedback section -->
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+							<aside
+								id="ms--additional-resources-mobile"
+								aria-label="Additional resources"
+								class="display-none-desktop display-none-print"
+							>
+								<hr class="hr" hidden />
+								<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>Additional resources</h2>
+								<section id="right-rail-recommendations-mobile" data-bi-name="recommendations" hidden></section>
+								<section id="right-rail-training-mobile" data-bi-name="learning-resources-card" hidden></section>
+								<section id="right-rail-events-mobile" data-bi-name="events-card" hidden></section>
+								<section id="right-rail-qna-mobile" data-bi-name="qna-link-card" hidden></section>
+							</aside>
+
+						<div class="border-top is-visible-interactive has-default-focus margin-top-sm ">
+
+
+
+	<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+	<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-sm button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+<a
+	href="https://aka.ms/yourcaliforniaprivacychoices"
+	class="button button-sm button-clear flex-shrink-0"
+	data-mscc-ic="false"
+	data-bi-name="your-privacy-choices"
+>
+	<svg
+		role="img"
+		aria-label="California Consumer Privacy Act (CCPA) Opt-Out Icon"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 30 14"
+		xml:space="preserve"
+		height="16"
+		width="43"
+		focusable="false"
+	>
+		<title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+		<path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+		<path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+		<path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+		<path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+	</svg>
+	<span>Your Privacy Choices</span>
+</a>
+		</div>
+		<div class="flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+		<span class="icon expanded-indicator" aria-hidden="true">
+			<span class="docon docon-chevron-down-light"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a class="external-link-indicator" data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2024</li>
+	</ul>
+</footer>
+						</div>
+
+					</div>
+
+						<div
+							id="ms--additional-resources"
+							class="right-container column is-4-desktop display-none display-block-desktop"
+							data-bi-name="pageactions"
+							role="complementary"
+							aria-label="Additional resources"
+						>
+							<div id="affixed-right-container" class="margin-top-sm-tablet" data-bi-name="right-column">
+								<h2 id="ms--additional-resources-heading" class="title is-6 margin-top-md" hidden>Additional resources</h2>
+								<section id="right-rail-events" data-bi-name="events-card" hidden></section>
+								<section id="right-rail-training" data-bi-name="learning-resources-card" hidden></section>
+								<section id="right-rail-recommendations" data-bi-name="recommendations" hidden></section>
+								<nav id="side-doc-outline" class="doc-outline" data-bi-name="intopic toc" aria-label="In this article">
+									<h3>In this article</h3>
+								</nav>
+								<section id="right-rail-qna" class="margin-top-xxs" data-bi-name="qna-link-card" hidden></section>
+							</div>
+						</div>
+
+				</div>
+				<!--end of div.columns -->
+
+			</section>
+			<!--end of .primary-holder -->
+
+			<!-- interactive container -->
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+			<!-- end of interactive container -->
+		</div>
+
+	</div>
+	<!--end of .mainContainer -->
+
+	<section class="border-top has-default-focus is-hidden-interactive margin-top-sm ">
+
+
+
+	<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+	<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-sm button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+<a
+	href="https://aka.ms/yourcaliforniaprivacychoices"
+	class="button button-sm button-clear flex-shrink-0"
+	data-mscc-ic="false"
+	data-bi-name="your-privacy-choices"
+>
+	<svg
+		role="img"
+		aria-label="California Consumer Privacy Act (CCPA) Opt-Out Icon"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 30 14"
+		xml:space="preserve"
+		height="16"
+		width="43"
+		focusable="false"
+	>
+		<title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+		<path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+		<path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+		<path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+		<path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+	</svg>
+	<span>Your Privacy Choices</span>
+</a>
+		</div>
+		<div class="flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Theme" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Theme</span>
+		<span class="icon expanded-indicator" aria-hidden="true">
+			<span class="docon docon-chevron-down-light"></span>
+		</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Light					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Dark					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+High contrast					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/previous-versions/" data-bi-name="archivelink">Previous Versions</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/contribute/" data-bi-name="contributorGuide">Contribute</a></li>
+					<li><a class="external-link-indicator" data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Privacy</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="/en-us/legal/termsofuse" data-bi-name="termsofuse">Terms of Use</a></li>
+				<li><a class="external-link-indicator" data-mscc-ic="false" href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/" data-bi-name="trademarks">Trademarks</a></li>
+		<li>&copy; Microsoft 2024</li>
+	</ul>
+</footer>
+	</section>
+
+	<div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>

@@ -1,0 +1,818 @@
+openapi: 3.0.3
+info:
+  title: Central Bank Digital Currency API
+  description: >-
+    Mastercard CBDC Testing Platform is a test-bed for central and commercial
+    banks which want to explore CBDC use cases and conduct PoCs.
+  version: 1.0.0
+  contact:
+    name: API Support
+    email: apisupport@mastercard.com
+    url: https://developer.mastercard.com/support
+tags:
+  - name: Banks
+    description: >-
+      Bank represents a commercial bank or other licensed wallet provider in the
+      system.
+  - name: Customers
+    description: >-
+      Customer represents an entity who is a customer of a bank and can hold
+      wallets at that bank. This can be a person, a company or institution.
+  - name: Wallets
+    description: Wallets represents the digital currency wallet of a customer.
+  - name: Transfers
+    description: Transfers represent the transfer of CBDC between wallets.
+  - name: Purchases
+    description: Purchases represent adding CBDC to a wallet by purchasing CBDC in exchange for other money
+
+servers:
+  - url: 'https://api.mastercard.com/cbdc'
+    description: Production URL
+  - url: 'https://sandbox.api.mastercard.com/cbdc'
+    description: Sandbox URL
+paths:
+  /banks:
+    get:
+      tags:
+        - Banks
+      summary: List all banks
+      description: Return a list of all pre-configured commercial banks in the system
+      operationId: listBanks
+      responses:
+        '200':
+          $ref: '#/components/responses/Banks'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers:
+    post:
+      tags:
+        - Customers
+      summary: Create a customer
+      description: Creates a new customer in a given bank
+      operationId: createCustomer
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+      requestBody:
+        $ref: '#/components/requestBodies/CustomerInput'
+      responses:
+        '201':
+          $ref: '#/components/responses/NewCustomer'
+        default:
+          $ref: '#/components/responses/DefaultError'
+    get:
+      tags:
+        - Customers
+      summary: List customers in a bank
+      description: Returns list of customers in a given bank
+      operationId: listCustomers
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/Limit'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Sort'
+      responses:
+        '200':
+          $ref: '#/components/responses/Customers'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers/{customer_id}:
+    get:
+      tags:
+        - Customers
+      summary: Get customer details
+      description: Returns a single customer in a given bank
+      operationId: getCustomer
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+      responses:
+        '200':
+          $ref: '#/components/responses/Customer'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers/{customer_id}/wallets:
+    post:
+      tags:
+        - Wallets
+      summary: Create a wallet for a given customer
+      description: Creates a new wallet for a given customer in a given bank
+      operationId: createWallet
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+      requestBody:
+        $ref: '#/components/requestBodies/WalletInput'
+      responses:
+        '201':
+          $ref: '#/components/responses/Wallet'
+        default:
+          $ref: '#/components/responses/DefaultError'
+    get:
+      tags:
+        - Wallets
+      summary: List wallets for a customer in a bank
+      description: Returns list of wallets for a given bank and customer
+      operationId: listWallets
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/Limit'
+        - $ref: '#/components/parameters/Offset'
+      responses:
+        '200':
+          $ref: '#/components/responses/Wallets'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers/{customer_id}/wallets/{wallet_address}:
+    get:
+      tags:
+        - Wallets
+      summary: Get wallet details
+      description: Get details of a wallet for a given bank and customer. This request
+        requires the customer's bearer token.
+      operationId: getWallet
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/WalletAddress'
+        - $ref: '#/components/parameters/BearerToken'
+      responses:
+        '200':
+          $ref: '#/components/responses/Wallet'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers/{customer_id}/wallets/{wallet_address}/transfers:
+    post:
+      tags:
+        - Transfers
+      summary: Create a new transfer
+      description: >-
+        Creates a new transfer request. This request requires the sending
+        customer's bearer token.
+      operationId: createTransfer
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/WalletAddress'
+        - $ref: '#/components/parameters/BearerToken'
+      requestBody:
+        $ref: '#/components/requestBodies/TransferInput'
+      responses:
+        '201':
+          $ref: '#/components/responses/Transfer'
+        default:
+          $ref: '#/components/responses/DefaultError'
+    get:
+      tags:
+        - Transfers
+      summary: List transfers for a customer in a bank
+      description: >-
+        Returns a list of transfers for a customer in a bank.  This request
+        requires the customer's bearer token.
+      operationId: listTransfers
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/WalletAddress'
+        - $ref: '#/components/parameters/BearerToken'
+        - $ref: '#/components/parameters/Limit'
+        - $ref: '#/components/parameters/Offset'
+        - $ref: '#/components/parameters/Sort'
+      responses:
+        '200':
+          $ref: '#/components/responses/Transfers'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/customers/{customer_id}/wallets/{wallet_address}/transfers/{transfer_id}:
+    get:
+      tags:
+        - Transfers
+      summary: Get transfer details
+      description: Returns transfer details
+      operationId: getTransfer
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/CustomerId'
+        - $ref: '#/components/parameters/WalletAddress'
+        - $ref: '#/components/parameters/TransferIdPath'
+      responses:
+        '200':
+          $ref: '#/components/responses/Transfer'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/purchases:
+    post:
+      tags:
+        - Purchases
+      summary: Request to purchase CBDC and add to a wallet
+      description: Creates a new CBDC purchase request.
+      operationId: createPurchaseRequest
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+      requestBody:
+        $ref: '#/components/requestBodies/PurchaseInput'
+      responses:
+        '201':
+          $ref: '#/components/responses/Purchase'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+  /banks/{bank_id}/purchases/{purchase_id}:
+    get:
+      tags:
+        - Purchases
+      summary: Get Purchase request details
+      description: Returns details about a CBDC purchase request
+      operationId: getPurchaseDetails
+      parameters:
+        - $ref: '#/components/parameters/BankId'
+        - $ref: '#/components/parameters/PurchaseId'
+      responses:
+        '200':
+          $ref: '#/components/responses/Purchase'
+        default:
+          $ref: '#/components/responses/DefaultError'
+
+components:
+  schemas:
+    Amount:
+      description: CBDC amount
+      type: integer
+      format: int64
+      example: 10023
+    BearerToken:
+      description: A bearer token required for some operations
+      type: string
+      example: fc5e30eb7695768851901555d47c404fffc51a69f30bdc0bdb58fd3a2fa69304
+      minLength: 8
+      maxLength: 64
+    Message:
+      description: Descriptive message
+      type: string
+      example: A message which describes this operation
+      minLength: 1
+      maxLength: 64
+    UniqueReference:
+      description: Unique reference provided by the entity which sends a request
+      type: string
+      example: 3fcba3b5-f4c8-4d24-9027-99e6724d3723
+      minLength: 4
+      maxLength: 64
+    Status:
+      description: 'Operation status [PENDING, CONFIRMED, REJECTED]'
+      type: string
+      example: CONFIRMED
+      minLength: 4
+      maxLength: 32
+    BankId:
+      description: Bank ID
+      type: string
+      example: bank_a
+      minLength: 4
+      maxLength: 16
+    BankName:
+      description: Bank name
+      type: string
+      example: Bank A
+      minLength: 1
+      maxLength: 64
+    Bank:
+      type: object
+      properties:
+        id:
+          $ref: '#/components/schemas/BankId'
+        name:
+          $ref: '#/components/schemas/BankName'
+        defaultWalletId:
+          $ref: '#/components/schemas/WalletAddress'
+        availableBalance:
+          $ref: '#/components/schemas/WalletBalance'
+    Banks:
+      description: A list of banks
+      type: array
+      items:
+        $ref: '#/components/schemas/Bank'
+    CustomerId:
+      description: A generated unique identifier for a customer
+      type: integer
+      example: 12345678
+      minLength: 1
+      maxLength: 10
+    CustomerExternalId:
+      description: 'External ID for this customer, for example from another application'
+      type: string
+      example: joebloggs-ext08
+      minLength: 1
+      maxLength: 64
+    CustomerFirstName:
+      description: Customer's first name
+      type: string
+      example: Joe
+      minLength: 1
+      maxLength: 64
+    CustomerLastName:
+      description: Customer's last name
+      type: string
+      example: Bloggs
+      minLength: 1
+      maxLength: 64
+    CustomerUsername:
+      description: User name - note this must be unique within a bank
+      type: string
+      example: joebloggs09
+      minLength: 10
+      maxLength: 64
+    CustomerInput:
+      type: object
+      description: Inputs required to create a new customer
+      required:
+        - firstname
+        - lastname
+        - username
+        - bankId
+      properties:
+        username:
+          $ref: '#/components/schemas/CustomerUsername'
+        firstname:
+          $ref: '#/components/schemas/CustomerFirstName'
+        lastname:
+          $ref: '#/components/schemas/CustomerLastName'
+        externalId:
+          $ref: '#/components/schemas/CustomerExternalId'
+    NewCustomer:
+      type: object
+      description: A new customer
+      properties:
+        customer:
+          $ref: '#/components/schemas/Customer'
+        bearerToken:
+          $ref: '#/components/schemas/BearerToken'
+    Customer:
+      type: object
+      description: A customer who can hold one or more CBDC wallets
+      properties:
+        id:
+          $ref: '#/components/schemas/CustomerId'
+        bankId:
+          $ref: '#/components/schemas/BankId'
+        username:
+          $ref: '#/components/schemas/CustomerUsername'
+        firstname:
+          $ref: '#/components/schemas/CustomerFirstName'
+        lastname:
+          $ref: '#/components/schemas/CustomerLastName'
+        externalId:
+          $ref: '#/components/schemas/CustomerExternalId'
+    Customers:
+      allOf:
+        - $ref: '#/components/schemas/PagedResult'
+        - type: object
+        - required:
+            - Customer
+      properties:
+        items:
+          description: A list of customers
+          type: array
+          items:
+            $ref: '#/components/schemas/Customer'
+    WalletType:
+      description: 'Wallet type [PERSON, BANK, MERCHANT, GOVERNMENT, BUSINESS, MACHINE]'
+      type: string
+      example: PERSON
+      minLength: 1
+      maxLength: 64
+    WalletAddress:
+      description: Wallet address
+      type: string
+      example: >-
+        MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjikKOfFIyi4xRQqSS7pqWJV8cyRqFsmduqxqIPiymrwhxx79fv82fpIDnp1lRbUGafs0rmhId0Ow/r2yZZsPKQ==
+      minLength: 124
+      maxLength: 168
+    WalletBalance:
+      type: object
+      properties:
+        amount:
+          $ref: '#/components/schemas/Amount'
+    WalletInput:
+      type: object
+      description: Inputs required to create a new CBDC wallet for a customer
+      required:
+        - bankId
+        - customerId
+        - type
+      properties:
+        type:
+          $ref: '#/components/schemas/WalletType'
+    WalletPublicData:
+      type: object
+      properties:
+        address:
+          $ref: '#/components/schemas/WalletAddress'
+        bankId:
+          $ref: '#/components/schemas/BankId'
+        customerId:
+          $ref: '#/components/schemas/CustomerId'
+        type:
+          $ref: '#/components/schemas/WalletType'
+    WalletConfidentialData:
+      type: object
+      properties:
+        customerUsername:
+          $ref: '#/components/schemas/CustomerUsername'
+        balance:
+          $ref: '#/components/schemas/WalletBalance'
+    Wallet:
+      allOf:
+        - $ref: '#/components/schemas/WalletPublicData'
+        - $ref: '#/components/schemas/WalletConfidentialData'
+    Wallets:
+      allOf:
+        - $ref: '#/components/schemas/PagedResult'
+        - type: object
+        - required:
+            - Wallet
+      properties:
+        wallets:
+          description: A list of wallets
+          type: array
+          items:
+            $ref: '#/components/schemas/WalletPublicData'
+
+    PurchaseId:
+      description: System generated CBDC purchase ID
+      type: string
+      example: 40159f63d8ec8588feb28cfe563385d2fdd9f5fd48d216dc51533235687b3a92
+      minLength: 4
+      maxLength: 64
+    PurchaseInput:
+      type: object
+      description: Inputs required to create a new request to purchase CBDC and add it to a wallet
+      required:
+        - recipientBankId
+        - recipientWalletAddress
+        - amount
+        - message
+        - senderReference
+      properties:
+        recipientBankId:
+          $ref: '#/components/schemas/BankId'
+        recipientWalletAddress:
+          $ref: '#/components/schemas/WalletAddress'
+        amount:
+          $ref: '#/components/schemas/Amount'
+        message:
+          $ref: '#/components/schemas/Message'
+        senderReference:
+          $ref: '#/components/schemas/UniqueReference'
+    Purchase:
+      type: object
+      description: CBDC Purchase
+      properties:
+        senderBankId:
+          $ref: '#/components/schemas/BankId'
+        recipientBankId:
+          $ref: '#/components/schemas/BankId'
+        recipientWalletAddress:
+          $ref: '#/components/schemas/WalletAddress'
+        amount:
+          $ref: '#/components/schemas/Amount'
+        message:
+          $ref: '#/components/schemas/Message'
+        senderReference:
+          $ref: '#/components/schemas/UniqueReference'
+        id:
+          $ref: '#/components/schemas/PurchaseId'
+        status:
+          $ref: '#/components/schemas/Status'
+
+    TransferId:
+      description: System generated Transfer ID
+      type: string
+      example: 40159f63d8ec8588feb28cfe563385d2fdd9f5fd48d216dc51533235687b3a92
+      minLength: 4
+      maxLength: 64
+    TransferAmount:
+      type: object
+      properties:
+        amount:
+          $ref: '#/components/schemas/Amount'
+    TransferInput:
+      type: object
+      description: Inputs required to create a new CBDC transfer request
+      required:
+        - recipientBankId
+        - recipientWalletAddress
+        - amount
+        - message
+        - senderReference
+      properties:
+        recipientBankId:
+          $ref: '#/components/schemas/BankId'
+        recipientWalletAddress:
+          $ref: '#/components/schemas/WalletAddress'
+        amount:
+          $ref: '#/components/schemas/TransferAmount'
+        message:
+          $ref: '#/components/schemas/Message'
+        senderReference:
+          $ref: '#/components/schemas/UniqueReference'
+    Transfer:
+      type: object
+      description: CBDC Transfer details
+      properties:
+        senderBankId:
+          $ref: '#/components/schemas/BankId'
+        senderWalletAddress:
+          $ref: '#/components/schemas/WalletAddress'
+        recipientBankId:
+          $ref: '#/components/schemas/BankId'
+        recipientWalletAddress:
+          $ref: '#/components/schemas/WalletAddress'
+        message:
+          $ref: '#/components/schemas/Message'
+        amount:
+          $ref: '#/components/schemas/Amount'
+        senderReference:
+          $ref: '#/components/schemas/UniqueReference'
+        id:
+          $ref: '#/components/schemas/TransferId'
+        status:
+          $ref: '#/components/schemas/Status'
+    Transfers:
+      allOf:
+        - $ref: '#/components/schemas/PagedResult'
+        - type: object
+        - required:
+            - Transfer
+      properties:
+        transfers:
+          description: A list of transfers
+          type: array
+          items:
+            $ref: '#/components/schemas/Transfer'
+    PagedResult:
+      type: object
+      description: Paged response of results
+      properties:
+        count:
+          description: Number of results in this response.
+          type: integer
+          example: 0
+          format: int32
+        limit:
+          description: Max number of results in this response.
+          type: integer
+          format: int32
+          example: 10
+        offset:
+          description: Result offset value.
+          type: integer
+          format: int64
+          example: 10
+        total:
+          description: Total number of results available.
+          type: integer
+          format: int64
+          example: 10
+    ErrorWrapper:
+      type: object
+      required:
+        - Errors
+      properties:
+        Errors:
+          $ref: '#/components/schemas/Errors'
+    Errors:
+      type: object
+      required:
+        - Error
+      properties:
+        Error:
+          $ref: '#/components/schemas/ErrorList'
+    ErrorList:
+      type: array
+      minItems: 1
+      items:
+        $ref: '#/components/schemas/Error'
+    Error:
+      type: object
+      properties:
+        Source:
+          description: Error source
+          type: string
+          example: lwp-bank-a
+          minLength: 3
+          maxLength: 20
+        ReasonCode:
+          description: Error reason code
+          type: string
+          example: INVALID_WALLET_ID
+          minLength: 3
+          maxLength: 20
+        Description:
+          description: Error description
+          type: string
+          example: Customer not found
+          minLength: 3
+          maxLength: 30
+        Recoverable:
+          description: Indicates whether this error is recoverable or not
+          type: boolean
+          example: true
+          minLength: 4
+          maxLength: 5
+        Details:
+          description: Additional error details
+          type: string
+          example: The Template entity may not contain data for the id UNKNOWN.
+          minLength: 3
+          maxLength: 30
+  parameters:
+    BankId:
+      in: path
+      name: bank_id
+      description: Bank ID
+      example: bank_a
+      required: true
+      schema:
+        $ref: '#/components/schemas/BankId'
+    CustomerId:
+      name: customer_id
+      description: Customer ID
+      example: 12345678
+      in: path
+      required: true
+      schema:
+        $ref: '#/components/schemas/CustomerId'
+    BearerToken:
+      in: query
+      name: bearer_token
+      description: Bearer token required for this operation
+      example: fc5e30eb7695768851901555d47c404fffc51a69f30bdc0bdb58fd3a2fa69304
+      required: true
+      schema:
+        $ref: '#/components/schemas/BearerToken'
+
+    WalletAddress:
+      in: path
+      name: wallet_address
+      description: Wallet Address
+      required: true
+      example: >-
+        MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjikKOfFIyi4xRQqSS7pqWJV8cyRqFsmduqxqIPiymrwhxx79fv82fpIDnp1lRbUGafs0rmhId0Ow/r2yZZsPKQ==
+      schema:
+        $ref: '#/components/schemas/WalletAddress'
+    TransferIdPath:
+      in: path
+      name: transfer_id
+      description: Transfer ID
+      example: a4344c3373d3d8e25766975cee34d158c1a52262c455544bdcfef99a3eb8cc45
+      required: true
+      schema:
+        $ref: '#/components/schemas/TransferId'
+    PurchaseId:
+      in: path
+      name: purchase_id
+      description: CBDC Purchase Request ID
+      example: d14074a01f6d553036563cbdee70172c2546042d2dee578f8bfea06a55db971b
+      required: true
+      schema:
+        $ref: '#/components/schemas/PurchaseId'
+    Limit:
+      name: limit
+      example: 1
+      in: query
+      schema:
+        default: 1
+        type: integer
+      description: >-
+        Number of items per page [Default: 1]
+      required: true
+    Offset:
+      name: offset
+      example: 0
+      in: query
+      schema:
+        default: 0
+        type: integer
+      description: >-
+        Return items after offset value [Default: 0]
+      required: true
+    Sort:
+      name: sort
+      example: -id
+      in: query
+      schema:
+        default: -id
+        type: string
+      description: >-
+        Sort the items [Default: -id]
+      required: false
+  requestBodies:
+    CustomerInput:
+      description: Customer request object to create a Customer
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CustomerInput'
+    WalletInput:
+      description: Wallet request object to create a Wallet
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/WalletInput'
+    TransferInput:
+      description: Transfer request object
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TransferInput'
+    PurchaseInput:
+      description: Purchase request object
+      required: true
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/PurchaseInput'
+  responses:
+    Banks:
+      description: List of banks in the system
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Banks'
+    Customer:
+      description: Customer details
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Customer'
+    Customers:
+      description: List of customers
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Customers'
+    NewCustomer:
+      description: New customer details
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/NewCustomer'
+    Wallet:
+      description: Wallet details
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Wallet'
+    Wallets:
+      description: List of wallets
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Wallets'
+    Transfer:
+      description: Transfer details
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Transfer'
+    Transfers:
+      description: List of transfers
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Transfers'
+    Purchase:
+      description: Purchase details
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Purchase'
+    DefaultError:
+      description: Default HTTP Error response
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorWrapper'
+    NotFound:
+      description: Not Found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorWrapper'

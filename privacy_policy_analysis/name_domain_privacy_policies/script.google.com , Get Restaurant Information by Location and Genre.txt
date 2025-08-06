@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>株式会社Lily | プライバシーポリシー</title>
+        <meta name="description" content="株式会社Lily（リリー）のコーポレートサイトです。株式会社Lilyは、ユーザー体験にフォーカスした本質的な課題解決と、既存事象への新たな意味づけによる構造アップグレードをミッションに掲げています。">
+        <meta name="format-detection" content="telephone=no">
+
+        <!-- favicon/webclipicon -->
+        <link rel="icon" href="../resources/img/common/favicon_lily.ico">
+        <link rel="icon" href="../resources/img/common/favicon_lily.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="../resources/img/common/webclip_lily.png">
+
+        <!-- ogp -->
+        <meta property="og:site_name" content="株式会社Lily">
+        <meta property="og:url" content="https://lily-inc.com/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="株式会社Lily">
+        <meta property="og:description" content="株式会社Lilyは、ユーザー体験にフォーカスした本質的な課題解決と、既存事象への新たな意味づけによる構造アップグレードをミッションに掲げています。">
+        <meta property="og:image" content="https://lily-inc.com/resources/img/common/ogp_message.jpg">
+        <meta property="og:locale" content="ja_JP">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:description" content="株式会社Lilyは、ユーザー体験にフォーカスした本質的な課題解決と、既存事象への新たな意味づけによる構造アップグレードをミッションに掲げています。">
+        <meta name="twitter:image:src" content="https://lily-inc.com/resources/img/common/ogp_message.jpg">
+
+        <!-- css -->
+        <link rel="stylesheet" href="../resources/styles/pp.css">
+
+        <!-- js -->
+        <script src="../resources/js/common.js" defer></script>
+
+        <!-- web-font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="cursor"></div>
+        <div id="stalker"></div>
+            <header id="header" class="l-header">
+                <div class="l-header__inner">
+                    <div class="l-header__logo">
+                        <a href="/" class="l-header__logo-link">
+                            <img id="header-logo" src="../resources/img/common/lily_logo_black.png" alt="株式会社Lily">
+                        </a><!-- l-header__logo-link -->
+                    </div><!-- l-header__logo -->
+                </div><!-- l-header__inner -->
+            </header>
+            
+            <main>
+                <section id="pp" class="l-section p-contact__pp">
+                    <div class="l-section__inner p-pp__inner">
+                        <h2 class="c-ttl__h2 p-contact__h2">
+                            <div class="c-h2__inner">
+                                <p class="c-ttl__h2--en"><span class="js-h2-smooth"><span class="js-h2-smooth-trigger--2">PRIVACY POLICY</span></span></p>
+                                <p class="c-ttl__h2--jp">プライバシーポリシー</p>
+                            </div><!-- c-h2__inner -->
+                        </h2><!-- c-ttl__h2 -->
+
+                        <div class="p-pp__lead js-delay-scroll--3">
+                            <p class="c-txt__main js-box">
+                                株式会社Lily（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
+                            </p>
+                        </div><!-- p-pp__lead -->
+                        <dl class="p-pp__dl js-delay-scroll--3">
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第1条（個人情報）</dt>
+                                <dd class="p-pp__dd c-txt__main">「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。</dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第2条（個人情報の収集方法）</dt>
+                                <dd class="p-pp__dd c-txt__main">当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当社の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。</dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第3条（個人情報を収集・利用する目的）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    当社が個人情報を収集・利用する目的は，以下のとおりです。
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">当社サービスの提供・運営のため</li>
+                                        <li class="p-pp__dd-item">ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）</li>
+                                        <li class="p-pp__dd-item">ユーザーが利用中のサービスの新機能，更新情報，キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため</li>
+                                        <li class="p-pp__dd-item">メンテナンス，重要なお知らせなど必要に応じたご連絡のため</li>
+                                        <li class="p-pp__dd-item">利用規約に違反したユーザーや，不正・不当な目的でサービスを利用しようとするユーザーの特定をし，ご利用をお断りするため</li>
+                                        <li class="p-pp__dd-item">ユーザーにご自身の登録情報の閲覧や変更，削除，ご利用状況の閲覧を行っていただくため</li>
+                                        <li class="p-pp__dd-item">有料サービスにおいて，ユーザーに利用料金を請求するため</li>
+                                        <li class="p-pp__dd-item">上記の利用目的に付随する目的</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第4条（利用目的の変更）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    当社が個人情報を収集・利用する目的は，以下のとおりです。
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">当社は，利用目的が変更前と関連性を有すると合理的に認められる場合に限り，個人情報の利用目的を変更するものとします。</li>
+                                        <li class="p-pp__dd-item">利用目的の変更を行った場合には，変更後の目的について，当社所定の方法により，ユーザーに通知し，または本ウェブサイト上に公表するものとします。</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第5条（個人情報の第三者提供）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">
+                                            当社は，次に掲げる場合を除いて，あらかじめユーザーの同意を得ることなく，第三者に個人情報を提供することはありません。ただし，個人情報保護法その他の法令で認められる場合を除きます。
+                                            <ol class="p-pp__dd-list-sub">
+                                                <li class="p-pp__dd-item-sub">人の生命，身体または財産の保護のために必要がある場合であって，本人の同意を得ることが困難であるとき</li>
+                                                <li class="p-pp__dd-item-sub">公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって，本人の同意を得ることが困難であるとき</li>
+                                                <li class="p-pp__dd-item-sub">国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって，本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき</li>
+                                                <li class="p-pp__dd-item-sub">予め次の事項を告知あるいは公表し，かつ当社が個人情報保護委員会に届出をしたとき</li>
+                                                <ol class="p-pp__dd-list-sub2">
+                                                    <li class="p-pp__dd-item-sub2">利用目的に第三者への提供を含むこと</li>
+                                                    <li class="p-pp__dd-item-sub2">第三者に提供されるデータの項目</li>
+                                                    <li class="p-pp__dd-item-sub2">第三者への提供の手段または方法</li>
+                                                    <li class="p-pp__dd-item-sub2">本人の求めに応じて個人情報の第三者への提供を停止すること</li>
+                                                    <li class="p-pp__dd-item-sub2">本人の求めを受け付ける方法</li>
+                                                </ol>
+                                            </ol>
+                                        </li>
+                                        <li class="p-pp__dd-item">
+                                            前項の定めにかかわらず，次に掲げる場合には，当該情報の提供先は第三者に該当しないものとします。
+                                            <ol class="p-pp__dd-list-sub">
+                                                <li class="p-pp__dd-item-sub">当社が利用目的の達成に必要な範囲内において個人情報の取扱いの全部または一部を委託する場合</li>
+                                                <li class="p-pp__dd-item-sub">合併その他の事由による事業の承継に伴って個人情報が提供される場合</li>
+                                                <li class="p-pp__dd-item-sub">個人情報を特定の者との間で共同して利用する場合であって，その旨並びに共同して利用される個人情報の項目，共同して利用する者の範囲，利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について，あらかじめ本人に通知し，または本人が容易に知り得る状態に置いた場合</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第6条（個人情報の開示）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">
+                                            当社は，本人から個人情報の開示を求められたときは，本人に対し，遅滞なくこれを開示します。ただし，開示することにより次のいずれかに該当する場合は，その全部または一部を開示しないこともあり，開示しない決定をした場合には，その旨を遅滞なく通知します。なお，個人情報の開示に際しては，1件あたり1，000円の手数料を申し受けます。
+                                            <ol class="p-pp__dd-list-sub">
+                                                <li class="p-pp__dd-item-sub">本人または第三者の生命，身体，財産その他の権利利益を害するおそれがある場合</li>
+                                                <li class="p-pp__dd-item-sub">当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合</li>
+                                                <li class="p-pp__dd-item-sub">その他法令に違反することとなる場合</li>
+                                            </ol>
+                                        </li>
+                                        <li class="p-pp__dd-item">前項の定めにかかわらず，履歴情報および特性情報などの個人情報以外の情報については，原則として開示いたしません。</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第7条（個人情報の訂正および削除）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">ユーザーは，当社の保有する自己の個人情報が誤った情報である場合には，当社が定める手続きにより，当社に対して個人情報の訂正，追加または削除（以下，「訂正等」といいます。）を請求することができます。</li>
+                                        <li class="p-pp__dd-item">当社は，ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の訂正等を行うものとします。</li>
+                                        <li class="p-pp__dd-item">当社は，前項の規定に基づき訂正等を行った場合，または訂正等を行わない旨の決定をしたときは遅滞なく，これをユーザーに通知します。</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第8条（個人情報の利用停止等）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">当社は，本人から，個人情報が，利用目的の範囲を超えて取り扱われているという理由，または不正の手段により取得されたものであるという理由により，その利用の停止または消去（以下，「利用停止等」といいます。）を求められた場合には，遅滞なく必要な調査を行います。</li>
+                                        <li class="p-pp__dd-item">前項の調査結果に基づき，その請求に応じる必要があると判断した場合には，遅滞なく，当該個人情報の利用停止等を行います。</li>
+                                        <li class="p-pp__dd-item">当社は，前項の規定に基づき利用停止等を行った場合，または利用停止等を行わない旨の決定をしたときは，遅滞なく，これをユーザーに通知します。</li>
+                                        <li class="p-pp__dd-item">前2項にかかわらず，利用停止等に多額の費用を有する場合その他利用停止等を行うことが困難な場合であって，ユーザーの権利利益を保護するために必要なこれに代わるべき措置をとれる場合は，この代替策を講じるものとします。</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第9条（プライバシーポリシーの変更）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    <ol class="p-pp__dd-list">
+                                        <li class="p-pp__dd-item">本ポリシーの内容は，法令その他本ポリシーに別段の定めのある事項を除いて，ユーザーに通知することなく，変更することができるものとします。</li>
+                                        <li class="p-pp__dd-item">当社が別途定める場合を除いて，変更後のプライバシーポリシーは，本ウェブサイトに掲載したときから効力を生じるものとします。</li>
+                                    </ol>
+                                </dd>
+                            </div><!--p-pp__line -->
+                            <div class="p-pp__line js-box">
+                                <dt class="p-pp__dt c-label--l">第10条（お問い合わせ窓口）</dt>
+                                <dd class="p-pp__dd c-txt__main">
+                                    本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。<br>
+                                    住所 : 東京都渋谷区神宮前六丁目23番4号桑野ビル2階<br>
+                                    社名 : 株式会社Lily<br>
+                                    代表取締役 : 麻生哲郎<br>
+                                    Eメールアドレス : tetsuro.aso@lily-inc.com<br>
+                                </dd>
+                            </div><!--p-pp__line -->
+                        </dl><!-- p-pp__dl -->
+                    </div><!-- l-section__inner -->
+                </section><!-- pp -->
+            </main>
+
+            <footer id="footer" class="l-footer l-lower-footer">
+                <div class="l-footer__inner l-lower-footer__inner">
+                    <div class="l-footer__copylight">
+                        <p>&copy; 2023 Lily, Inc.</p>
+                    </div><!-- l-footer__copylight -->
+                </div><!-- footer__inner -->
+            </footer>
+    </body>
+
+    
+</html>

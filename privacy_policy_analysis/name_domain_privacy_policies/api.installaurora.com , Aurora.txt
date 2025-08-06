@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Helps with older IE compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Aurora - Privacy & Terms</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
+
+    <!-- CSS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css?v4">
+</head>
+
+<body class="text-white font-sans">
+    <header class="bg-dark-custom fixed w-full z-50 py-4">
+        <nav class="container mx-auto flex justify-center items-center">
+            <ul class="flex space-x-6 text-lg items-center">
+                <li><a href="home" class="text-base hover-text-custom transition duration-300">HOME</a></li>
+                <li><a href="#" style="color: #7CCAB6;" class="text-base">LEGAL</a></li>
+                <li><a href="mailto:feedback@installaurora.com?subject=Feedback%20-%20[Aurora_v1]" class="text-base hover-text-custom transition duration-300">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="py-20 px-4">
+        <div class="container mx-auto">
+            <!-- Privacy Policy Content -->
+            <div class="section-card">
+                <h2 class="text-2xl font-bold mb-8">
+                    Privacy Policy
+                </h2>
+                <div id="privacy-policy-content" class="text-lg mb-8">
+                    <h2 class="text-xl font-bold mb-4">
+                        Information Collection:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        When using Aurora, we collect device IDs related to your Philips Hue bridge and Philips Hue lights. We also collect the current settings of your bridge and lights. We don't collect personal identifiers like name or email unless you're making a payment.
+                    </p>
+                    <h2 class="text-xl font-bold mb-4">
+                        Usage of Information:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        This data is primarily used to offer you an enhanced user experience and ensure our GPT functions as intended with your lighting setup.
+                    </p>
+                    <h2 class="text-xl font-bold mb-4">
+                        Security:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        We take the security of your data seriously. Your data is stored securely and is not shared with any third parties unless required by law.
+                    </p>
+                    <h2 class="text-xl font-bold mb-4">
+                        Changes:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        Any changes to this privacy policy will be updated on this page.
+                    </p>
+                </div>
+            </div>
+            <!-- Terms of Service Content -->
+            <div class="section-card">
+                <h2 class="text-2xl font-bold mb-8">
+                    Terms of Service
+                </h2>
+                <div id="terms-of-service-content" class="text-lg mb-8">
+                    <h2 class="text-xl font-bold mb-4">
+                        Usage:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        By using the Aurora GPT, you agree to these terms. We provide our service as-is, and while we strive to offer a top-notch user experience, we cannot guarantee the GPT will always function without disruptions or be error-free.
+                    </p>
+                    <h2 class="text-xl font-bold mb-4">
+                        Liability:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        We are not responsible for any damage to your Philips Hue bridge/lighting system or any account blocking by Philips Hue due to the use of Aurora. Use our services at your own risk.
+                    </p>
+                    <h2 class="text-xl font-bold mb-4">
+                        Changes:
+                    </h2>
+                    <p class="text-lg mb-8">
+                        We reserve the right to modify or terminate the Aurora service or these terms at any time. We will endeavor to notify our users of any significant changes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark-custom text-white py-8">
+        <div class="container mx-auto px-4">
+            <!-- Branding and Social Links -->
+            <div class="flex justify-between items-center mb-4">
+                <img src="img/logo.png" alt="Aurora Logo" class="h-16">
+                <div class="flex space-x-8">
+                    <a href="https://facebook.com/somethingtechie" target="_blank" rel="noopener noreferrer" class="text-2xl hover-text-custom transition duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/somethingtechie" target="_blank" rel="noopener noreferrer" class="text-2xl hover-text-custom transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/somethingtechie" target="_blank" rel="noopener noreferrer" class="text-2xl hover-text-custom transition duration-300">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Copyright and Powered By -->
+            <div class="flex justify-between items-center">
+                <p class="text-base">
+                    © 2024 Aurora - Conversational Philips Hue light control.
+                </p>
+                <div class="flex items-center">
+                    <span class="text-sm mr-2">Powered by</span>
+                    <a href="https://somethingtechie.co">
+                        <strong>SOMETHING TECHIE</strong>
+                    </a>
+                </div>
+                <!--
+                <div class="flex items-center">
+                    <span class="text-sm mr-2">POWERED BY</span>
+                    <a href="https://somethingtechie.co">
+                        <img src="https://somethingtechie.co/img/logo.png" alt="SOMETHING TECHIE">
+                    </a>
+                </div>
+                -->
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let lastScrollTop = 0;
+
+        window.addEventListener("scroll", function() {
+            let st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > lastScrollTop) {
+                // If scrolling down
+                document.querySelector("header").classList.add("header-hide");
+            } else {
+                // If scrolling up
+                document.querySelector("header").classList.remove("header-hide");
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+        }, false);
+    </script>
+</body>
+</html>

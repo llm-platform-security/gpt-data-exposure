@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="app-name" content="PixVerse - Create breath-taking videos with PixVerse AI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="robots" content="all" />
+    <meta name="Copyright" content="PixVerse" />
+    <meta name="description" content="PixVerse is an innovative AI video creation platform, unleash the full potential of video creation with our powerful generative AI" />
+    <meta name="keywords" content="pixverse,ai video generator,ai generator,generative ai" />
+    <title>PixVerse - Create breath-taking videos with PixVerse AI</title>
+    <link rel="preconnect" href="https://cdn.pixverse.ai" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.pixverse.ai" />
+    <link rel="preconnect" href="https://media.pixverse.ai" crossorigin />
+    <link rel="dns-prefetch" href="https://media.pixverse.ai" />
+    <link rel="shortcut icon" href="https://cdn.pixverse.ai/app/app-pixverse/favicon-pixverse.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.pixverse.ai/lib/xgplayer/3.0.16/dist/index.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.pixverse.ai/lib/antd/5.16.2/dist/reset.css"
+    />
+
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/react/18.2.0/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/react-dom/18.2.0/umd/react-dom.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/@remix-run/router/1.15.3/dist/router.umd.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/react-router/6.22.3/dist/umd/react-router.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/react-router-dom/6.22.3/dist/umd/react-router-dom.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/lodash/4.17.21/lodash.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/dayjs/1.11.10/dayjs.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/axios/1.6.8/dist/axios.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/antd/5.16.2/dist/antd.min.js"
+    ></script>
+    <!-- <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/@ant-design/pro-components/2.7.1/dist/pro-components.min.js"
+    ></script> -->
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/@ant-design/icons/5.3.6/dist/index.umd.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/xgplayer/3.0.16/dist/index.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/ali-oss/6.20.0/dist/aliyun-oss-sdk.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdn.pixverse.ai/lib/@volcengine/tos-sdk/2.7.1/browser/tos.umd.production.min.js"
+    ></script>
+    <script crossorigin src="https://cstaticdun.126.net/load.min.js"></script>
+
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-MDP7DCPG')
+    </script>
+
+    <script>
+      ;(function (n, e, r, t, a, o, s, i, c, l, f, m, p, u) {
+        o = 'precollect'
+        s = 'getAttribute'
+        i = 'addEventListener'
+        c = 'PerformanceObserver'
+        l = function (e) {
+          f = [].slice.call(arguments)
+          f.push(Date.now(), location.href)
+          ;(e == o ? l.p.a : l.q).push(f)
+        }
+        l.q = []
+        l.p = { a: [] }
+        n[a] = l
+        m = document.createElement('script')
+        m.src = r + '?aid=' + t + '&globalName=' + a
+        m.crossorigin = 'anonymous'
+        e.getElementsByTagName('head')[0].appendChild(m)
+        if (i in n) {
+          l.pcErr = function (e) {
+            e = e || n.event
+            p = e.target || e.srcElement
+            if (p instanceof Element || p instanceof HTMLElement) {
+              n[a](o, 'st', {
+                tagName: p.tagName,
+                url: p[s]('href') || p[s]('src'),
+              })
+            } else {
+              n[a](o, 'err', e.error || e.message)
+            }
+          }
+          l.pcRej = function (e) {
+            e = e || n.event
+            n[a](o, 'reject', e.reason || (e.detail && e.detail.reason))
+          }
+          n[i]('error', l.pcErr, true)
+          n[i]('unhandledrejection', l.pcRej, true)
+        }
+        if ('PerformanceLongTaskTiming' in n) {
+          u = l.pp = { entries: [] }
+          u.observer = new PerformanceObserver(function (e) {
+            u.entries = u.entries.concat(e.getEntries())
+          })
+          u.observer.observe({ entryTypes: ['longtask'] })
+        }
+      })(
+        window,
+        document,
+        'https://apm.volccdn.com/mars-web/apmplus/web/browser.cn.js',
+        0,
+        'apmPlus',
+      )
+    </script>
+
+    <script>
+      ;(function (win, export_obj) {
+        win['LogAnalyticsObject'] = export_obj
+        if (!win[export_obj]) {
+          function _collect() {
+            _collect.q.push(arguments)
+          }
+          _collect.q = _collect.q || []
+          win[export_obj] = _collect
+        }
+        win[export_obj].l = +new Date()
+      })(window, 'collectEvent')
+    </script>
+    <script
+      async
+      src="https://cdn.pixverse.ai/lib/datafinder/collect-rangers-v5.0.0-global.js"
+    ></script>
+    <script type="module" crossorigin src="https://cdn.pixverse.ai/app/app-pixverse/assets/index-BUZKdE76.js"></script>
+    <link rel="modulepreload" crossorigin href="https://cdn.pixverse.ai/app/app-pixverse/assets/vendor-Cfjb4l7V.js">
+    <link rel="stylesheet" crossorigin href="https://cdn.pixverse.ai/app/app-pixverse/assets/index-DL1DpbGc.css">
+  </head>
+  <body>
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MDP7DCPG"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

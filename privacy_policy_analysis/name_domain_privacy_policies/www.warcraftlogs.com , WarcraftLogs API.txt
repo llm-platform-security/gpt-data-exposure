@@ -1,0 +1,407 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="csrf-token" content="EqkxJc8JpbwMGjTNUo6wvzKFeSKsMaCAo9vuBtjD">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        
+                            <title>Warcraft Logs - Combat Analysis
+                for Warcraft</title>
+        
+                                                <link rel="alternate" hreflang="de"
+                      href="https://de.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="en"
+                      href="https://www.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="es"
+                      href="https://es.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="fr"
+                      href="https://fr.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="it"
+                      href="https://it.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="pt-BR"
+                      href="https://br.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="ru"
+                      href="https://ru.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="ko"
+                      href="https://ko.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="zh-TW"
+                      href="https://tw.warcraftlogs.com/help/privacy"/>
+                            <link rel="alternate" hreflang="zh-CN"
+                      href="https://cn.warcraftlogs.com/help/privacy"/>
+                        <link rel="alternate" hreflang="x-default"
+                  href="https://www.warcraftlogs.com/help/privacy"/>
+        
+        <link type="text/css" href="https://assets.rpglogs.com/css/global.0a545651b5f701bf.css" rel="stylesheet"/>
+                <link type="text/css" href="https://assets.rpglogs.com/css/app.8431e7586bec2add.css" rel="stylesheet"/>
+        <link type="text/css"
+              href="https://assets.rpglogs.com/libs/material-design-iconic-font@2.2.0/css/material-design-iconic-font.min.css"
+              rel="stylesheet"/>
+        <link type="text/css" href="https://assets.rpglogs.com/libs/jquery-ui.css" rel="stylesheet"/>
+
+        <link href="https://assets.rpglogs.com/libs/malihu-custom-scrollbar-plugin@3.1.6/jquery.mCustomScrollbar.min.css"
+              rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/png"
+              href="https://assets.rpglogs.com/img/warcraft/favicon.png"/>
+
+        <style>
+h1 { color: rgb(70,197,255); font-weight:normal }
+h2, h3, h4, h5, h6 { color : #00a0a0 }
+</style>
+        <style>
+          @font-face {
+            font-family: 'ralewayregular';
+            src: url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.eot');
+            src: url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.woff') format('woff'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.ttf') format('truetype'),
+            url('https://assets.rpglogs.com/fonts/Raleway-Regular-webfont.svg#ralewayregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+          }
+
+          /* Tighten up scrollers in reports pages */
+          .mCSB_inside > .mCSB_container {
+            margin-right: 20px !important
+          }
+
+          .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+            margin-right: 0 !important
+          }
+
+          .search-white {
+            color: white;
+            font-size: 22px;
+          }
+
+          .searchbutton-mini-image {
+            padding-left: 7px;
+            padding-top: 3px;
+          }
+
+          .compact-search-container {
+            height: 36px;
+            display: flex;
+            align-items: center;
+          }
+
+          .search-compact {
+            font-size: 28px;
+            margin-top: -3px;
+          }
+
+          .zmdi-hc-spin {
+            animation: zmdi-spin 2.5s infinite linear;
+          }
+
+          .edge-hide {
+            opacity: 0.01;
+          }
+
+          #qc-cmp2-persistent-link {
+            left: 0;
+            right: auto;
+            font-size: 10px;
+            background-color: #300040
+          }
+
+          .logo-container {
+            width: auto !important;
+          }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+    window.googleAnalyticsViewModel = {"id":"UA-45206045-1","siteTitle":"Warcraft Logs","isLoggedIn":false,"isSubscribed":false,"subscriptionStatus":0,"sendPageViewOnContentLoaded":true,"isAdBlocking":false};
+</script>
+<script src="https://assets.rpglogs.com/js/global/googleAnalytics.ad8fa776381e2af4.js"></script>
+
+        <!-- ads-script-tag -->
+
+    <script src="https://btloader.com/tag?o=5150306120761344&upapi=true" async></script>
+
+<script>
+    window.isAdBlockingCookieName = 'support-metrics-v1';
+    </script>
+
+        <script src="https://assets.rpglogs.com/libs/jquery@3.2.0/jquery.min.js"></script>
+        <script src="https://assets.rpglogs.com/libs/jqueryui@1.12.1/jquery-ui.min.js"></script>
+        <script src="https://assets.rpglogs.com/libs/lazyload@2.0.0-beta.2/lazyload.min.js"></script>
+
+        <script>
+          jQuery.browser = {};
+          (function () {
+            jQuery.browser.msie = false;
+            jQuery.browser.version = 0;
+            if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+              jQuery.browser.msie = true;
+              jQuery.browser.version = RegExp.$1;
+            }
+          })();
+
+          function edgeRevert() {
+            $(".edge-hide").css('transform', '');
+            $(".edge-hide").removeClass('edge-hide');
+          }
+
+          function edgeZoom() {
+            $(".edge-hide").css('transform', 'scale(2)');
+            setTimeout(edgeRevert, 50);
+          }
+
+          function edgeSpriteFix(container) {
+            if (navigator.userAgent.indexOf("Edge") == -1)
+              return
+            var selector = (container ? container + ' ' : '') + ".sprite"
+            $(selector).addClass('edge-hide')
+            setTimeout(edgeZoom, 10)
+          }
+        </script>
+
+                    <script src="https://assets.rpglogs.com/js/lang/js-localization.d7f7ef8a2c8848e7.js"></script>
+        <script src="https://assets.rpglogs.com/js/lang/lang-en.d82cd6d6d56403b4.js"></script>
+                <script>Lang.setLocale('en');</script>
+
+        <script src="https://assets.rpglogs.com/js/manifest.447ef8db5ed1c596.js"></script>
+        <script src="https://assets.rpglogs.com/js/vendor.9d6a1a71f431ff4f.js"></script>
+        <!-- page-view-models -->
+<script>
+    window._pageViewModels = [["AdBlockMetrics",{"cookieName":"support-metrics-v1"}],["PlaywireAds",{"shouldShowAds":true,"publisherId":"1024476","siteId":"73247","googleAnalyticsTag":"G-7CLEJL8GDT","userProfile":null,"forcePath":null}],["AdPlacements",{"adPlacements":{"sideRailWide":{"id":"sideRailWide","adProvider":"playwire","adPlacementLocation":"sideRailWide","adPlacementPlaywireViewModel":{"id":"sideRailWide","adPlacementLocation":"sideRailWide","adPlacementPlaywireType":"sky_atf","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":{"adPlacementFallbackType":"vertical","siteTitle":"Warcraft Logs","headerImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-logo.png","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/featured-article-fallback.jpg","href":"https:\/\/www.warcraftlogs.com\/subscribe?utm_content=ad-fallback-sideRailWide"}},"stickyFooter":{"id":"stickyFooter","adProvider":"playwire","adPlacementLocation":"stickyFooter","adPlacementPlaywireViewModel":{"id":"stickyFooter","adPlacementLocation":"stickyFooter","adPlacementPlaywireType":"leaderboard_btf","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":{"adPlacementFallbackType":"horizontal","siteTitle":"Warcraft Logs","headerImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-logo.png","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/featured-article-fallback.jpg","href":"https:\/\/www.warcraftlogs.com\/subscribe?utm_content=ad-fallback-stickyFooter"}},"cornerVideo":{"id":"cornerVideo","adProvider":"playwire","adPlacementLocation":"cornerVideo","adPlacementPlaywireViewModel":{"id":"cornerVideo","adPlacementLocation":"cornerVideo","adPlacementPlaywireType":"trendi_video","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":null}}}],["Game",{"game":{"id":0,"area":1,"season":0,"locales":["de","en","es","fr","it","br","ru","ko","tw","cn"],"fullName":"World of Warcraft","lowercaseName":"warcraft","siteTitle":"Warcraft Logs","siteLogoImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/favicon.png?v=2","headerLogoUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-logo.png","baseUrl":"https:\/\/www.warcraftlogs.com","archonGameSlug":"wow","actorsSprite":"https:\/\/assets.rpglogs.com\/img\/warcraft\/icons\/actors.jpg?v=25","actorsSecondarySprite":"https:\/\/assets.rpglogs.com\/img\/warcraft\/icons\/secondary\/actors.jpg?v=1","actorsLargeIconsPath":"https:\/\/assets.rpglogs.com\/img\/warcraft\/icons\/large","articlesBaseUrl":"https:\/\/www.archon.gg\/wow\/articles","assetServerBaseUrl":"https:\/\/assets.rpglogs.com","abilityExternalSitePath":"https:\/\/www.wowhead.com\/spell=","buffExternalSitePath":"https:\/\/www.wowhead.com\/spell=","itemExternalSitePath":"https:\/\/www.wowhead.com\/item=","itemSetExternalSitePath":"https:\/\/www.wowhead.com\/item-set=","npcExternalSitePath":"https:\/\/www.wowhead.com\/npc=","tooltipLibraryPath":"\/\/wow.zamimg.com\/widgets\/power.js","abilityTooltipEndpoint":"https:\/\/www.warcraftlogs.com\/ability\/{id}\/tooltip","encounterIconExtension":"jpg","headerTextPartOneTopColor":"rgb(45,170,200)","headerTextPartOneBottomColor":"rgb(0,140,195)","headerTextPartTwoTopColor":"rgb(230,230,230)","headerTextPartTwoBottomColor":"rgb(190,190,190)"}}],["User",{"value":null}]];
+</script>
+        <script src="https://assets.rpglogs.com/js/app.27e2f1b1a4bf3813.js"></script>
+
+        <script src="https://assets.rpglogs.com/libs/moment.js@2.24.0/moment-with-locales.min.js"></script>
+        <script src="https://assets.rpglogs.com/libs/moment-duration-format@2.2.2/moment-duration-format.min.js"></script>
+
+        <script type="text/javascript"
+                src="https://assets.rpglogs.com/libs/malihu-custom-scrollbar-plugin-with-iframe-fix@3.1.6-rpg1/jquery.mCustomScrollbar.min.js"></script>
+
+        <script src="https://assets.rpglogs.com/js/global.e2d50f007647660c.js"></script>
+
+        <script>
+          window.locale = "en";
+          moment.locale(window.locale);
+        </script>
+
+                
+        <script>
+          window.onload = function () {
+            edgeSpriteFix()
+          };
+        </script>
+
+        <script>
+          
+        </script>
+
+    </head>
+
+
+            <body class="responsive
+ warcraft
+">
+        
+                
+                            <div id="header-container"></div>
+                <script>
+                                          attachToDom(
+                    '#header-container',
+                    'Header',
+                    {
+                      initialData: {"siteSelect":{"options":[{"value":"https:\/\/www.warcraftlogs.com","label":"Dragonflight","url":"https:\/\/www.warcraftlogs.com","iconUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/game-logo_32.webp","selectedLabel":null,"longLabel":"WoW: Dragonflight","area":1,"season":0},{"value":"https:\/\/classic.warcraftlogs.com","label":"Wrath of the Lich King","url":"https:\/\/classic.warcraftlogs.com","iconUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/game-logo-classic_32.webp","selectedLabel":null,"longLabel":"WoW Classic: Wrath of the Lich King","area":2,"season":0},{"value":"https:\/\/sod.warcraftlogs.com","label":"Season of Discovery","url":"https:\/\/sod.warcraftlogs.com","iconUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/game-logo-vanilla_32.webp","selectedLabel":null,"longLabel":"WoW Classic: Season of Discovery","area":3,"season":3},{"value":"https:\/\/vanilla.warcraftlogs.com","label":"Vanilla","url":"https:\/\/vanilla.warcraftlogs.com","iconUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/game-logo-vanilla_32.webp","selectedLabel":null,"longLabel":"WoW Classic: Vanilla","area":3,"season":0}]},"topBar":{"pollsCount":0,"streamsCount":176,"headerLinks":[{"title":"Statistics","url":"\/zone\/statistics\/35"},{"title":"Latest News","url":"https:\/\/www.archon.gg\/wow\/articles"},{"title":"Download Client","url":"\/client\/download"},{"title":"Recruitment","url":"\/recruitment"}],"availableLanguages":[{"title":"Deutsch","linkUrl":"de.warcraftlogs.com"},{"title":"English","linkUrl":"www.warcraftlogs.com"},{"title":"Espa\u00f1ol","linkUrl":"es.warcraftlogs.com"},{"title":"Fran\u00e7ais","linkUrl":"fr.warcraftlogs.com"},{"title":"Italiano","linkUrl":"it.warcraftlogs.com"},{"title":"Portugu\u00eas (Brasil)","linkUrl":"br.warcraftlogs.com"},{"title":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","linkUrl":"ru.warcraftlogs.com"},{"title":"\ud55c\uad6d\uc5b4","linkUrl":"ko.warcraftlogs.com"},{"title":"\u7e41\u9ad4\u4e2d\u6587","linkUrl":"tw.warcraftlogs.com"},{"title":"\u7b80\u4f53\u4e2d\u6587","linkUrl":"cn.warcraftlogs.com"}],"backgroundArtworkUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-artwork.jpg?v=7","currentActiveRaceLink":null,"currentActiveRaceBackgroundImageUrl":null,"currentActiveRaceArtworkImageUrl":null},"gameContents":{"contents":[{"title":"Raids","id":"raid-content","expansions":[],"hasBadge":false,"buttonIconUrl":null},{"title":"Dungeons","id":"dungeons-content","expansions":[],"hasBadge":false,"buttonIconUrl":null},{"title":"Raid Guides","id":"raid-strategies","expansions":[],"hasBadge":false,"buttonIconUrl":null},{"title":"Archon","id":"archon","expansions":[{"title":"Archon","id":"","panel":{"sections":[{"header":null,"children":[{"title":"Data-Driven Meta Builds","iconUrl":"builds","type":"archon","bossLinks":[],"character":null,"report":null,"linkUrl":"https:\/\/www.archon.gg\/wow\/builds\/classes-and-specs","desktopOnlyLinkUrl":null,"subTitle":"Discover the most popular builds for each spec.","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/builds\/crosslink-gear-header.png","linkLabel":"Open Archon"},{"title":"Tier Lists - Mythic+ & Raid","iconUrl":"tier-lists","type":"archon","bossLinks":[],"character":null,"report":null,"linkUrl":"https:\/\/www.archon.gg\/wow\/tier-list\/dps-rankings\/mythic-plus\/10\/all-dungeons\/this-week","desktopOnlyLinkUrl":null,"subTitle":"Understand the current meta with our tier list.","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/builds\/crosslink-tier-list.png","linkLabel":"Open Archon"}],"isExpanded":true}]}}],"hasBadge":false,"buttonIconUrl":"https:\/\/assets.rpglogs.com\/img\/archon\/logo.svg"}]},"characters":null,"guilds":null,"labels":{"siteSelectLabel":"Game","expansionSelectLabel":"Expansions","contentTypeSelectLabel":"Content Type","guildsLabel":"Guild","charactersLabel":"Characters","signupLabel":"Sign Up","loginLabel":"Log In","streamsCountLabel":"176 Players Streaming","pollsCountLabel":"0 Poll Available!","updateCharactersLabel":"Update Characters","logoutLabel":"Log Out","createAGuildLabel":"Create a Guild or Team","joinAGuildLabel":"Join a Guild or Team","searchBarPlaceholder":"Enter a player, guild, or realm","showMore":"Show More","showLess":"Show Less","noGuildDescription":"Join a guild and get quick access to your guild's reports, rankings, recruitment, calendar and more!","noGuildTitle":"You're not in a guild yet","noCharactersTitle":"You have not claimed any characters yet","noCharactersDescription":"Learn how to claim characters","orSeparator":"or","accessibilityExpand":"Expand Dropdown","accessibilityCollapse":"Collapse Dropdown","badgeLabel":"New","followTheRaceLabel":"Follow the Race!","menuLabel":"Menu","searchLabel":"Search"}}
+                    },
+                    null,
+                    null,
+                    false
+                  );
+                </script>
+            
+            <div id="content-and-footer">
+                
+                
+                <div id="content"
+                     class="not-subscribed ">
+                    
+<h2>
+	Warcraft Logs Privacy Policy
+</h2>
+<p>
+	Last Updated on May 25, 2018.
+</p>
+<p>
+	This Privacy Policy is effective immediately for users that sign up for accounts on or after May 25, 2018 and will become effective on May 25, 2018 for users that already have accounts. 
+</p>
+<p>
+	This Privacy Policy describes our policies on the collection, use, and disclosure of information about you in connection with your use of our services, including those offered through our websites, emails, and mobile applications (collectively, the "Service"). The terms "we", "us", and "Warcraft Logs" refer to RPGLogs, LLC, a Delaware corporation with its headquarters in Houston, Texas. When you use the Service, you consent to our collection, use, and disclosure of information about you as described in this Privacy Policy.
+</p>
+<h3>
+	TABLE OF CONTENTS
+</h3>
+<ol>
+	<li><a href="#section1">Information We Collect and How We Use It</a></li>
+	<li><a href="#section2">Cookies</a></li>
+	<li><a href="#section3">Third Parties</a></li>
+	<li><a href="#section4">Controlling Your Personal Data</a></li>
+	<li><a href="#section5">Data Retention and Account Termination</a></li>
+	<li><a href="#section6">Children</a></li>
+	<li><a href="#section7">Security</a></li>
+	<li><a href="#section8">Contact Information</a></li>
+	<li><a href="#section9">Modifications to This Privacy Policy</a></li>
+	<li><a href="#section10">California Residents: Your California Privacy Rights</a></li>
+</ol>
+
+<h4 id="section1">1. INFORMATION WE COLLECT AND HOW WE USE IT</h4>
+<p>
+	We may collect and store information about you in connection with your use of the Service, including any information you transmit to or through the Service. We use that information to provide the Service’s functionality, fulfill your requests, improve the Service’s quality, engage in research and analysis relating to the Service, personalize your experience, track usage of the Service, display relevant advertising, market the Service, provide customer support, contact you, back up our systems, allow for disaster recovery, enhance the security of the Service, and comply with legal obligations. Even when we do not retain such information, it still must be transmitted to our servers initially and stored long enough to process.
+</p>
+<p>
+    When you use our website, we share information that we collect from you, such as your email (in hashed form), IP address or information about your browser or operating system, with our identity partners/service providers, including LiveRamp Inc. LiveRamp returns an online identification code that we may store in our first-party cookie for our use in online and cross-channel advertising and it may be shared with advertising companies to enable interest-based and targeted advertising. To opt out of this use, please <a href="https://optout.liveramp.com/opt_out" target="_blank" rel="noopener">click here</a>.
+</p>
+<p>Please also note:</p>
+<ol>
+	<li><strong>Account Information:</strong> If you create an account, we may store and use the information you provide during that process, such as your email address, username, and other information you may provide with your account. We may publicly display your username. You can modify some of the information associated with your account through your account settings. If you believe that someone has created an unauthorized account depicting you or your likeness, you can request its removal by flagging it.</li>
+	<li><strong>Public Content:</strong> Your contributions to the Service are intended for public consumption and are therefore viewable by the public, including your game logs. Your account profile is also intended for public consumption, as is some of your other activity through the Service, like your uploaded game logs. You can limit the public nature of some of these activities through your account settings. 
+	
+In accordance with <a href="http://us.blizzard.com/en-us/company/legal/eula.html">Blizzard’s User Agreement</a>
+, characters, character names, character data, virtual items, character profile information are owned by the game company or its licensors. This information is not protected as personal information, and may be displayed on the site.
+</li>
+	<li><strong>Communications:</strong> When you sign up for an account or use certain features, you are opting to receive messages from us. You can manage some of your messaging preferences through your account settings, but note that you cannot opt out of receiving certain administrative, transactional, or legal messages from us. For example, if you request a password reset, we may send you messages about your transaction using the contact information you provide. We may also track your actions in response to the messages you receive from us or through the Service, such as whether you deleted, opened, or forwarded such messages. We may also store information that you provide through communications to us, including from phone calls, letters, emails and other electronic messages, or in person. </li>
+	<li><strong>Transactions:</strong> If you initiate a transaction through the Service, we may collect and store information about you, such as your name, phone number, address, email, and payment information (such as a credit card number and expiration date), as well as any other information you provide to us, in order to process your transaction, send communications about them to you, and populate forms for future transactions. When you submit credit card numbers, we encrypt that information using industry standard technology.</li>
+	<li><strong>Activity:</strong> We may store information about your use of the Service, such as your search activity, the pages you view, and the date and time of your visit. We also may store information that your computer or mobile device may provide to us in connection with your use of the Service, such as your browser type, type of computer or mobile device, browser language, IP address, WiFi information such as SSID, mobile carrier, phone number, unique device identifier, advertising identifier, location (including geolocation, beacon based location, and GPS location), and requested and referring URLs. You may be able to limit or disallow our use of certain location data through your device or browser settings, for example by adjusting the "Location Services" settings for our applications in iOS privacy settings.</li>
+	<li><strong>Different Devices:</strong> You may access the Service through different devices (e.g., your mobile phone or desktop computer) and different platforms (e.g., the Warcraft Logs website or Warcraft Logs desktop app). The information that we collect and store through those different uses may be cross-referenced and combined, and your contributions through one Warcraft Logs platform will typically be similarly visible and accessible through all other Warcraft Logs platforms.</li>
+</ol>
+<h4 id="section2">2. COOKIES</h4>
+<p>
+	We, and third parties with whom we partner, may use cookies, web beacons, tags, scripts, local shared objects such as HTML5 and Flash (sometimes called "flash cookies"), advertising identifiers (including mobile identifiers such as Apple’s IDFA or Google’s Advertising ID) and similar technology ("Cookies") in connection with your use of the Service, third party websites, and mobile applications. Cookies may have unique identifiers, and reside, among other places, on your computer or mobile device, in emails we send to you, and on our web pages. Cookies may transmit information about you and your use of the Service, such as your browser type, search preferences, IP address, data relating to advertisements that have been displayed to you or that you have clicked on, and the date and time of your use. Cookies may be persistent or stored only during an individual session.
+</p>
+<p>
+	The purposes for which we use Cookies in the Service include:
+</p>
+<table>
+	<tr>
+		<td>Purpose</td>
+		<td>Explanation</td>
+	</tr>
+	<tr>
+		<td>Processes</td>
+		<td>Intended to make the Service work in the way you expect. For example, we use a Cookie that tells us whether you have already signed up for an account.</td>
+	</tr>
+	<tr>
+		<td>Authentication, Security, and Compliance</td>
+		<td>Intended to prevent fraud, protect your data from unauthorized parties, and comply with legal requirements. For example, we use Cookies to determine if you are logged in.</td>
+	</tr>
+	<tr>
+		<td>Preferences</td>
+		<td>Intended to remember information about how you prefer the Service to behave and look. For example, we use a Cookie that tells us whether you have declined to allow us to send push notifications to your phone.</td>
+	</tr>
+	<tr>
+		<td>Notifications</td>
+		<td>Intended to allow or prevent notices of information or options that we think could improve your use of the Service. For example, we use a Cookie that stops us from showing you the signup notification if you have already seen it.</td>
+	</tr>
+	<tr>
+		<td>Advertising</td>
+		<td>Intended to make advertising more relevant to users and more valuable to advertisers. For example, we may use Cookies to serve you interest-based ads, such as ads that are displayed to you based on your visits to other websites, or to tell us if you have recently clicked on an ad. We use Freestar.io and Google AdSense for this purpose.</td>
+	</tr>
+	<tr>
+		<td>Analytics</td>
+		<td>Intended to help us understand how visitors use the Service. We use Google Analytics for this support.</td>
+	</tr>
+</table>
+<p>
+	You can set some Cookie preferences through your device or browser settings, but doing so may affect the functionality of the Service. The method for disabling Cookies may vary by device and browser, but can usually be found in your device or browser preferences or security settings. For example, iOS and Android devices each have settings which are designed to limit forms of ad tracking. Please note that changing any of these settings does not prevent the display of certain advertisements to you.
+</p>
+<script type="text/javascript">let optOutCounter = 0; function setCookie(cname,cvalue,exdays){var d = new Date();d.setTime(d.getTime()+(exdays*24*60*60*1000));var expires='expires='+d.toUTCString();document.cookie=cname+'='+cvalue+';'+expires+';path=/'; if(optOutCounter==0){ let cookieP = document.getElementById('cookieP'); var successCookie = document.createElement('h3'); successCookie.innerHTML = 'Optout Success!'; successCookie.setAttribute('style','color:green'); cookieP.appendChild(successCookie); optOutCounter ++ } };</script> <h3>Common ID Cookie</h3> <p id="cookieP">This site uses cookies and similar tracking technologies such as the Common ID cookie to provide its services. Cookies are important devices for measuring advertising effectiveness and ensuring a robust online advertising industry. The Common ID cookie stores a unique user id in the first party domain and is accessible to our ad partners. This simple ID that can be utilized to improve user matching, especially for delivering ads to iOS and MacOS browsers. Users can opt out of the Common ID tracking cookie by clicking <a onclick="window.setCookie('_pubcid_optout', '1', 1825);" href="#opt-out">here</a>.</p> <h3>Advertising Privacy Settings</h3> <p>FOR EU USERS ONLY: When you use our site, pre-selected companies may access and use certain information on your device and about your interests to serve ads or personalized content. You may revisit or change consent-choices at any time by clicking <a href="#cmp" onclick="if(window.__cmp === undefined){console.warn('User is not in the EU - Consent Choices can only be configured when User is in the EU')}else{window.__cmp('showConsentTool')}" >here</a>.</p>
+
+<h4 id="section3">3. THIRD PARTIES</h4>
+<p>Third parties may receive information about you as follows:</p>
+<ol>
+	<li><strong>Advertisers:</strong> We may allow third parties to use Cookies through the Service to collect the same type of information for the same purposes as we do. In doing so, we adhere to the Digital Advertising Alliance’s Self-Regulatory Principles for Online Behavioral Advertising. Third parties may be able to associate the information they collect with other information they have about you from other sources. We do not necessarily have access to or control over the Cookies they use, but you may be able to opt out of some of their practices by visiting the following links: <a target="_blank" href="
+http://www.networkadvertising.org/choices/">Network Advertising Initiative</a>, <a target="_blank" href="https://www.d1.sc.omtrdc.net/optout.html?omniture=1&popup=1&locale=en_US&second=1&second_has_cookie=0">Omniture</a>, and <a target="_blank" href="http://www.aboutads.info/choices/">Digital Advertising Alliance</a>. Please note that opting out does not prevent the display of all advertisements to you. Additionally, we may share non-personally identifiable information from or about you with third parties, such as location data, advertising identifiers, or a cryptographic hash of a common account identifier (such as an email address) to facilitate the display of targeted advertising. You may be able to limit our sharing of some of this information through your mobile device settings, as described in Section 2 above, or through the Service’s settings.</li>
+	<li><strong>Aggregate or Anonymous Information:</strong> We may share user information in the aggregate with third parties, such as content distributors. For example, we may disclose the number of users that have been exposed to, or clicked on, advertisements. </li>
+	<li><strong>Business Transfers:</strong> We may share information from or about you with our parent companies, subsidiaries, joint ventures, or other companies under common control, in which case we will require them to honor this Privacy Policy. If another company acquires Warcraft Logs, or all or substantially all of our assets, that company will possess the same information, and will assume the rights and obligations with respect to that information as described in this Privacy Policy.</li>
+	<li><strong>Investigations and Legal Disclosures:</strong> We may investigate and disclose information from or about you if we have a good faith belief that such investigation or disclosure: (a) is reasonably necessary to comply with legal process and law enforcement instructions and orders, such as a search warrant, subpoena, statute, judicial proceeding, or other legal process or law enforcement requests served on us; or (b) is helpful to prevent, investigate, or identify possible wrongdoing in connection with the Service. </li>
+	<li><strong>Links:</strong> The Service may link to third party services, like another site’s URL. Except as set forth herein, we do not share your personal information with them, and are not responsible for their privacy practices. We suggest you read the privacy policies on or applicable to all such third party services.</li>
+	<li><strong>Third Party Accounts:</strong> If you sign up for, or log into, Warcraft Logs using a third party service (e.g., BattleNet for WoW), we may receive information about you from such third party service. </li>
+</ol>
+<h4 id="section4">4. CONTROLLING YOUR PERSONAL DATA</h4>
+<p>Other users may be able to identify you, or associate you with your account, if you include personal information in the content you post publicly. You can reduce the risk of being personally identified by using the Service pseudonymously, though doing so could detract from the credibility of your contributions to the Service. </p>
+<h4 id="section5">5. DATA RETENTION AND ACCOUNT TERMINATION</h4>
+<p>You can close your account by email. We will remove certain information from view and/or dissociate them from your account profile, but we may retain information about you for the purposes authorized under this Privacy Policy unless prohibited by law. For example, we may retain information to prevent, investigate, or identify possible wrongdoing in connection with the Service or to comply with legal obligations.</p>
+<h4 id="section6">6. CHILDREN</h4>
+<p>The Service is intended for general audiences and is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal information without parental consent, please contact us <a href="mailto:support@warcraftlogs.com">here</a>. If we become aware that a child under 13 has provided us with personal information without parental consent, we take steps to remove such information and terminate the child's account.</p>
+<h4 id="section7">7. SECURITY</h4>
+<p>We use various safeguards to protect the personal information submitted to us, both during transmission and once we receive it. However, no method of transmission over the Internet or via mobile device, or method of electronic storage, is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
+<h4 id="section8">8. CONTACT</h4>
+<p>You may contact us online concerning our Privacy Policy, or write to us at the following address:<br>
+RPGLogs, Attn: Data Privacy Manager <br>
+1301 Fannin St #2440 <br>
+Houston, TX 77002</p>
+<h4 id="section9">9. MODIFICATIONS TO THIS PRIVACY POLICY</h4>
+<p>We may revise this Privacy Policy from time to time. The most current version of the Privacy Policy will govern our collection, use, and disclosure of information about you and will be located at <a href="/help/privacy/">http://www.warcraftlogs.com/help/privacy/</a>. If we make material changes to this Privacy Policy, we will notify you by email or by posting a notice on the Service prior to the effective date of the changes. By continuing to access or use the Service after those changes become effective, you acknowledge the revised Privacy Policy.</p>
+<h4 id="section10">10. CALIFORNIA RESIDENTS: YOUR CALIFORNIA PRIVACY RIGHTS</h4>
+<p>We do not disclose your personal information to third parties for the purpose of directly marketing their goods or services to you unless you first agree to such disclosure. If you have any questions regarding this policy, or would like to change your preferences, you may contact us at the address listed above in Section 8.</p>
+
+                                                                        <span id="ap-ea8a4fe5-container"></span>
+<script async>
+    attachToDom(
+        '#ap-ea8a4fe5-container',
+        'AdPlacement',
+        {"id":"ap-ea8a4fe5","adProvider":"playwire","adPlacementLocation":"stickyFooter","adPlacementPlaywireViewModel":{"id":"ap-ea8a4fe5","adPlacementLocation":"stickyFooter","adPlacementPlaywireType":"leaderboard_btf","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":{"adPlacementFallbackType":"horizontal","siteTitle":"Warcraft Logs","headerImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-logo.png","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/featured-article-fallback.jpg","href":"https:\/\/www.warcraftlogs.com\/subscribe?utm_content=ad-fallback-stickyFooter"}},
+        null,
+        null,
+        false
+    );
+</script>
+                                                            </div>
+
+                
+                    <div id="footer-spacer" class="unsubscribed"></div>
+
+                    <div id="footer">
+
+                        
+                                                                                    <span id="ap-bfa28a8b-container"></span>
+<script async>
+    attachToDom(
+        '#ap-bfa28a8b-container',
+        'AdPlacement',
+        {"id":"ap-bfa28a8b","adProvider":"playwire","adPlacementLocation":"flexLeaderboard","adPlacementPlaywireViewModel":{"id":"ap-bfa28a8b","adPlacementLocation":"flexLeaderboard","adPlacementPlaywireType":"flex_leaderboard","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":null},
+        null,
+        null,
+        false
+    );
+</script>
+                                                        <span id="ap-55f9cb93-container"></span>
+<script async>
+    attachToDom(
+        '#ap-55f9cb93-container',
+        'AdPlacement',
+        {"id":"ap-55f9cb93","adProvider":"playwire","adPlacementLocation":"cornerVideo","adPlacementPlaywireViewModel":{"id":"ap-55f9cb93","adPlacementLocation":"cornerVideo","adPlacementPlaywireType":"trendi_video","adPlacementPlaywirePathType":null,"minimumRefreshThresholdSeconds":6},"adPlacementGoogleViewModel":null,"adPlacementVenatusViewModel":null,"adPlacementFallbackViewModel":null},
+        null,
+        null,
+        false
+    );
+</script>
+                        
+                        <div id="footer-container"></div>
+                        <script>
+                          attachToDom(
+                            '#footer-container',
+                            'Footer',
+                                  {"privacyPolicyUrl":"https:\/\/www.warcraftlogs.com\/help\/privacy","careersUrl":"https:\/\/www.warcraftlogs.com\/careers","backgroundImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/footer-bg.jpg?v=4","headerTitle":{"backgroundImageUrl":"","logoImageUrl":"https:\/\/assets.rpglogs.com\/img\/warcraft\/header-logo.png","logoIsRounded":false,"isSlim":false,"faction":null,"textPartOne":"Warcraft","textPartTwo":"Logs","textPartOneTopColor":"rgb(45,170,200)","textPartOneBottomColor":"rgb(0,140,195)","textPartTwoTopColor":"rgb(230,230,230)","textPartTwoBottomColor":"rgb(190,190,190)","partTwoOverflowCutUnder380px":"","isFooterSize":true,"href":"\/","logoVerticalOffsetInPx":0},"latestArticles":[{"id":165,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/newest-archon-improvements","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/archonmeta_bda52ef008.png","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_archonmeta_bda52ef008.png","title":"Newest Archon Improvements","description":"Archon has released a new set of updates to the Meta Builds and Tier lists.","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1713543541000,"isPinned":false,"status":null},{"id":161,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/archon-alchemical-society","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/alc_society_429e4f67ae.jpg","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_alc_society_429e4f67ae.jpg","title":"Archon Alchemical Society","description":"We're thrilled to finally launch a new tier for our supporters, the Archon Alchemical Society! ","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1711036989000,"isPinned":false,"status":null},{"id":155,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/archon-improvements-based-on-feedback","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/archon_featured_image_d18afa0bfa.jpg","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_archon_featured_image_d18afa0bfa.jpg","title":"Archon Improvements Based On Feedback","description":" Archon has recently released many improvements to their Tier Lists and Meta Builds tools, helping you more quickly find what you need.","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1708360073000,"isPinned":false,"status":null},{"id":154,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/subcreation-passes-the-torch","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/Archonx_Subcreation_afd548d779.png","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_Archonx_Subcreation_afd548d779.png","title":"Subcreation Passes the Torch","description":"Subcreation is passing the torch to Archon, and Warcraft Logs. Read a statement from Subcreations creator, Alcaras. ","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1707336141000,"isPinned":false,"status":null},{"id":147,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/elevate-your-game-with-new-build-guides-and-tier-lists-on-archon","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/Builds_8933ce15b9.jpg","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_Builds_8933ce15b9.jpg","title":"Elevate Your Game: New Meta Builds and Tier Lists on Archon","description":"Archon is excited to announce its first tool\u2014 popularity based builds and tier lists.","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1702556449000,"isPinned":false,"status":null},{"id":143,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/wipefest-amirdrassil-the-dreams-hope","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/Wipefest_Amirdrassil_7b5a175424.jpg","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_Wipefest_Amirdrassil_7b5a175424.jpg","title":"Wipefest: Amirdrassil, the Dream's Hope","description":"Wipefest has full support for Amirdrassil, the Dream's Hope on Normal, Heroic, and Mythic difficulties.","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1700652786000,"isPinned":false,"status":null},{"id":60,"url":"https:\/\/www.archon.gg\/wow\/articles\/news\/multiple-report-analysis","imageUrl":"https:\/\/assets.rpglogs.com\/cms\/mra5_0b78669997.jpg","thumbnailUrl":"https:\/\/assets.rpglogs.com\/cms\/thumbnail_mra5_0b78669997.jpg","title":"Multiple Report Analysis","description":"Find out how to analyze several hundred pulls from different reports with the new <SiteTitle>' Multiple Report Analysis subscriber feature.","categoryName":"News","categoryUrl":"https:\/\/www.archon.gg\/wow\/articles\/news","timestamp":1658242273000,"isPinned":true,"status":"Featured"}],"toolLinks":[{"url":"\/client\/download","title":"Download Client","iconType":"font","iconSrc":"download","openInNewTab":false},{"url":"https:\/\/wowanalyzer.com","title":"WoWAnalyzer","iconType":"image","iconSrc":"https:\/\/assets.rpglogs.com\/img\/warcraft\/wowa-logo-80px.png","openInNewTab":true},{"url":"https:\/\/www.wipefest.gg","title":"Wipefest","iconType":"image","iconSrc":"https:\/\/assets.rpglogs.com\/img\/warcraft\/wipefest-logo-80px.png","openInNewTab":true},{"url":"\/recruitment","title":"Recruitment","iconType":"font","iconSrc":"accounts","openInNewTab":false}],"raidLinks":[{"url":"\/zone\/statistics\/35","title":"Statistics","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"\/zone\/rankings\/35","title":"Rankings","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"\/zone\/rankings\/35#metric=progress","title":"Progress","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"\/zone\/reports?zone=35","title":"All Reports","iconType":null,"iconSrc":null,"openInNewTab":false}],"ourWebsiteLinks":[{"url":"https:\/\/www.archon.gg","title":"Archon","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.warcraftlogs.com","title":"WoW Retail","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/classic.warcraftlogs.com","title":"WoW Classic","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/sod.warcraftlogs.com","title":"WoW SoD","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/vanilla.warcraftlogs.com","title":"WoW Vanilla","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.fflogs.com","title":"Final Fantasy XIV","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.esologs.com","title":"Elder Scrolls Online","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.swtorlogs.com","title":"SWTOR","iconType":null,"iconSrc":null,"openInNewTab":false}],"resourceLinks":[{"url":"https:\/\/forums.combatlogforums.com","title":"Forums","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.patreon.com\/warcraftlogs","title":"Subscribe","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.archon.gg\/wow\/articles\/help\/getting-started","title":"Help and Info","iconType":null,"iconSrc":null,"openInNewTab":false},{"url":"https:\/\/www.archon.gg\/wow\/articles\/help\/rpg-logs-branding-information","title":"Brand","iconType":null,"iconSrc":null,"openInNewTab":false}],"labels":{"contactUsText":"Contact Us","privacyPolicyText":"Privacy Policy","careersText":"Careers","latestArticleText":"Latest Article","resourcesListLabel":"Resources","websitesListLabel":"Our Websites","toolsListLabel":"Our Tools","latestRaidListLabel":"Latest Raid"},"copyrightText":"\u00a9 2013-2024 Warcraft Logs","twitterUrl":"WarcraftLogs","discordUrl":"https:\/\/discord.gg\/5ebPJSsy5y","patreonUrl":"https:\/\/www.patreon.com\/warcraftlogs","pageWidth":"narrow","extraSpaceUnderLogo":0},
+                              null,
+                              null,
+                              false
+                          );
+                        </script>
+                    </div>
+            </div>
+
+            
+            
+            
+            </body>
+    </html>
+

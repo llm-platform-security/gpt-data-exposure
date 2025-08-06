@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Tides Anywhere: Privacy Policy">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="tides">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Tides Anywhere: Privacy Policy</title>
+    <style>
+      .parallax-container {
+        height: 350px;
+      }
+      .main ul {
+        padding-left: 30px !important;
+      }
+      .main ul>li {
+        list-style-type: disc !important;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    </style>
+</head>
+<body>
+
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper deep-purple">
+            <a href="./" class="brand-logo left" style="padding-left: 30px">Tides Anywhere: Privacy Policy</a>
+            <ul id="nav-mobile" class="right hide-on-small-only">
+
+                <li><a href="https://play.google.com/store/apps/details?id=net.hamandmore.mic" target="blank"><i class="material-icons
+          left">file_download</i>Download</a></li>
+
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div style="padding: 30px;" class="main">
+
+    <p>This privacy policy will explain how Tides Anywhere uses the personal data we collect from you when you use our website and app.</p>
+
+    <p>Topics:</p>
+
+    <ul>
+        <li>What data do we collect?</li>
+        <li>What are your data protection rights?</li>
+        <li>Cookies</li>
+        <li>Privacy policies of other websites</li>
+        <li>Changes to our privacy policy</li>
+        <li>How to contact us</li>
+        <li>How to contact the appropriate authorities</li></ul>
+
+    <h3>What data do we collect?</h3>
+
+    <p>Tides Anywhere collects no personal data and sends no personal information to any servers. Used selected location information is sent to the server to download relevant weather, tidal and bathymetric data, to enable the app to calculate tide information. This information is not logged.</p>
+
+    <p>Where ads are displayed, no personal data is sent to providers. Only the request to display an advertisement is sent.</p>
+
+    <p>Web logs are stored that indicate an IP address and date/time when accessing the web site. No personal information is requested or stored.</p>
+
+    <h3>What are your data protection rights?</h3>
+
+    <p>Tides Anywhere would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
+
+    <p><strong>The right to access</strong> &#8211; You have the right to request Tides Anywhere for copies of your personal data. We may charge you a small fee for this service.</p>
+
+    <p><strong>The right to rectification</strong> &#8211; You have the right to request that Tides Anywhere correct any information you believe is inaccurate. You also have the right to request Tides Anywhere to complete the information you believe is incomplete.</p>
+
+    <p><strong>The right to erasure</strong> – You have the right to request that Tides Anywhere erase your personal data, under certain conditions.</p>
+
+    <p><strong>The right to restrict processing</strong> &#8211; You have the right to request that Tides Anywhere restrict the processing of your personal data, under certain conditions.</p>
+
+    <p><strong>The right to object to processing</strong> &#8211; You have the right to object to Tides Anywhere’s processing of your personal data, under certain conditions.</p>
+
+    <p><strong>The right to data portability</strong> &#8211; You have the right to request that Tides Anywhere transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
+
+    <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us on Telegram:</p>
+
+    <a class="waves-effect waves-light btn deep-purple" target="blank"
+       href="https://t.me/TidesAnywhere"><img src="images/telegram.png" height="24" style="top: 6px; left: -5px;" /> Contact us</a>
+
+    <h3>Cookies</h3>
+
+    <p>We don't use any cookies.</p>
+
+    <p>For further information, visit allaboutcookies.org.</p>
+
+    <h3>Privacy policies of other websites</h3>
+
+    <p>The Tides Anywhere website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.</p>
+
+    <h3>Changes to our privacy policy</h3>
+
+    <p>Tides Anywhere keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 9 April 2023.</p>
+
+    <h3>How to contact us</h3>
+
+    <p>If you have any questions about Tides Anywhere’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us. We can currently be contacted via Telegram.</p>
+
+    <a class="waves-effect waves-light btn deep-purple" target="blank"
+       href="https://t.me/TidesAnywhere"><img src="images/telegram.png" height="24" style="top: 6px; left: -5px;" /> Contact us</a>
+
+    <h3>How to contact the appropriate authority</h3>
+
+    <p>Should you wish to report a complaint or if you feel that Tides Anywhere has not addressed your concern in a satisfactory manner, you may contact the <a href="https://privacy.org.nz" target="_blank">Privacy Commissioner’s Office</a>.</p>
+
+</div>
+
+<footer class="page-footer deep-purple">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2023 Tides Anywhere
+            <div class="right">
+                <a class="grey-text text-lighten-4" href="privacy.html">Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script language="javascript">
+      M.AutoInit();
+    </script>
+
+</body>
+</html>

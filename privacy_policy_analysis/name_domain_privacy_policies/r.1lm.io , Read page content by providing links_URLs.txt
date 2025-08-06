@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reader API - Legal Information</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 15px; /* Reduced from 20px to tighten line breaks */
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Legal Information</h1>
+    <p>The Web Page Reader API is based on the <a href="https://jina.ai/reader/" target="_blank">Jina AI Reader API</a>, an open-source project maintained by <a href="https://jina.ai/" target="_blank">Jina AI</a>. Big thanks to them for their awesome work! _<</p>
+    <h2>Terms of Service</h2>
+    <p>By using the Web Page Reader API, you agree to use it responsibly and in accordance with all applicable laws and regulations.</p>
+    <p>The developer reserves the right to suspend or terminate access to the service for any user who violates these terms.</p>
+    <h2>Privacy Policy</h2>
+    <p>The Web Page Reader API, built on top of Jina AI's Reader API, does not collect, store, or share any personal data. It extracts core content from provided URLs and returns it as clean, LLM-friendly text.</p>
+    <p>For analytics and performance monitoring, certain non-personal data (such as request timestamps and headers) is stored in Cloudflare's Analytics Engine for a duration of three months. After this period, the data is automatically deleted and is not used for any other purpose.</p>
+    <h2>Cookie Policy</h2>
+    <p>The Web Page Reader API does not use cookies.</p>
+    <h2>Open Source</h2>
+    <p>The Jina AI Reader API that powers this service is open-source and available on <a href="https://github.com/jina-ai/reader" target="_blank">GitHub</a>. It is licensed under the Apache 2.0 license.</p>
+    <h2>Contact</h2>
+    <p>If you have any questions or concerns about our legal policies, please contact us at <a href="mailto:support@promptspellsmith.com">support@promptspellsmith.com</a>.</p>
+    <p>For issues related to the underlying Jina AI Reader API, please raise an issue on their <a href="https://github.com/jina-ai/reader/issues" target="_blank">GitHub repository</a>.</p>
+</body>
+</html>

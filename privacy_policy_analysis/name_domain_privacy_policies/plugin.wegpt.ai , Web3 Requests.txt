@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQQZY83JV2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SQQZY83JV2');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/static/logo.png" alt="Logo" width="120">
+            </div>
+            <ul>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#features">Features</a></li>
+                <li><a href="/#pro">Web Requests Pro</a></li>
+                <li><a href="/#image-generation">Image Generation</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                <li><a href="/api-spec">API Spec</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Legal Content -->
+        <div class="container">
+            <img src="/static/logo.png" alt="Web Requests Logo">
+            <h1>Web Requests</h1>
+            <p>ChatGPT's Uplink to the Web</p>
+        </div>
+<h2>Legal Notice</h2>
+
+    <p>Web Requests is a ChatGPT plugin provided "as is" and cannot guarantee accuracy beyond the capabilities of GPT. Users may experience bugs. The service is available exclusively via the ChatGPT interface at chat.openai.com, helping protect users from direct harm as no local software installation or downloading is required.</p>
+
+    <p>Web Requests operates by crawling the content you request, much like a web-crawling bot. We adhere to all robots.txt configurations and web scraping standards. If a destination website attempts to block our automated access, it may result in our inability to provide you with the desired content. In such cases, the destination site is responsible for blocking access, and we are unable to provide further assistance.</p>
+    
+    <p>Web Requests neither tracks nor stores your searches, queries, or content beyond caching in-memory for performance and efficiency purposes. We do not maintain a lengthy database of activity or content. Cache retention is limited to 24 to 48 hours.</p>
+
+    <h3>AI Image Generation and Ownership</h3>
+    <p>You own the rights to sell, distribute, and use the images you generate through DALL-E and the Web Requests plugin, as stated on <a href="https://help.openai.com/en/articles/6425277-can-i-sell-images-i-create-with-dall-e">OpenAI's official website</a> and <a href="https://plugin.wegpt.ai/legal">Web Requests' official website</a>.</p>
+
+    <h3>Ethical Standards</h3>
+    <p>The boundaries between 'real' and 'fake' will blur in the coming years. While you own your generated art, it's crucial not to be misleading about its source. Celebrate the collaboration between Human and AI, always keeping honest and transparent.</p>
+
+    <p>By using Web Requests, users acknowledge these conditions and understand their role in shielding users from potential harm, respecting web standards, and providing limited retention of user-specific data.</p>
+    </main>
+    <footer>
+        <p>© 2023 Web Requests Plugin for <a href="https://chat.openai.com/">ChatGPT</a>. All rights reserved.</p>
+        <p><a href="/legal">Legal</a></p>
+        <a href="https://twitter.com/WeGPTai" target="_blank">Follow us on Twitter</a>
+    </footer>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'880d1a4cef0f225b',t:'MTcxNTIwOTYxMi4zODkwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

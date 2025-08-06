@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ocean Data Measurement Service (MaaS) | Ocean Currency Network | Ocean Currency Network</title>
+        <meta name="description" content="Our technology enables scientists, governments, and businesses to understand the ocean more completely and to make better and more informed decisions in order to protect it.">
+        <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Ocean Currency Network">
+    <meta property="og:description" content="Measurement as a Service (MaaS) business for ocean data">
+    <meta property="og:image" content="https://www.ocn.ai/apple-touch-icon.png">
+    <meta property="og:url" content="https://www.ocn.ai/">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Ocean Currency Network">
+    <meta property="twitter:description" content="Measurement as a Service (MaaS) business for ocean data">
+    <meta property="twitter:image" content="https://www.ocn.ai/apple-touch-icon.png">
+    <meta property="twitter:site" content="https://twitter.com/ocncoin">
+    <meta property="twitter:url" content="https://www.ocn.ai/">
+    <meta name="theme-color" content="#051620">
+    <link rel="apple-touch-icon" href="https://www.ocn.ai/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://www.ocn.ai/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.ocn.ai/assets/css/main.css">
+  </head>
+  <body>
+    <div class="header-container">
+      <header>
+        <div class="wrapper">
+          <button type="button" id="menu-button">
+            <span data-sal="slide-down" data-sal-duration="1000" data-sal-delay="500" class="wave" data-text="loaderloader"></span>
+            <span data-sal="slide-down" data-sal-duration="1000" data-sal-delay="750" class="wave" data-text="loaderloader"></span>
+            <span data-sal="slide-down" data-sal-duration="1000" data-sal-delay="1000" class="wave" data-text="loaderloader"></span>
+          </button>
+          <a data-sal="slide-down" data-sal-duration="1000" href="https://www.ocn.ai/" title="ocean currency network logo">
+            <h2>Ocean Currency Network</h2>
+          </a>
+          <ul data-sal="slide-down" data-sal-duration="1000" data-sal-delay="500">
+                      <li>
+              <a href="https://twitter.com/OCN_ai" title="twitter link" target="_blank">
+                <img src="https://www.ocn.ai/assets/img/svg/twitter.svg" alt="twitter logo">
+              </a>
+            </li>
+                                <li>
+              <a href="https://www.instagram.com/ocn.ai/" title="instagram link" target="_blank">
+                <img src="https://www.ocn.ai/assets/img/svg/instagram.svg" alt="instagram logo">
+              </a>
+            </li>
+                    </ul>
+        </div>
+      </header>
+    </div>
+
+    <div class="nav-container">
+      <div class="wrapper">
+        <button type="button" id="menu-close-button">Close</button>
+        <div class="nav-elements" style="margin-bottom:104px">
+
+        <nav>
+          <ul>
+          <li>
+            <a href="/" title="nav link">Home</a></li>
+            <li><a href="/data" title="Data">Data</a></li>
+            <li><a  href="/foundation" title="Foundation">Foundation</a></li>
+            <li><a href="/about" title="About">About</a></li>
+            <li><a href="/contact" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-overlay"></div>
+<div class="main-container">
+  <main>
+
+    <div class="primary-info-block">
+      <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+        <video width="1152" height="608" autoplay muted playsinline loop preload="auto" poster="https://www.ocn.ai/assets/img/poster/home.jpg">
+          <source src="https://www.ocn.ai/assets/video/home-main.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <div data-sal="fade" data-sal-delay="1000" data-sal-duration="1000" class="wrapper">
+        <div class="content">
+          <h1>Monitoring the ocean <span>for a healthier world.</span></h1>          <p>Humans use apps and devices to track and enhance their health. That’s what we're doing for the ocean. Our technology enables scientists, governments, and businesses to understand the ocean more completely and to make better and more informed decisions in order to protect it.</p>
+          <img src="https://www.ocn.ai/assets/img/svg/scroll-prompt.svg" alt="scroll arrow" class="scroll-prompt">
+        </div>
+      </div>
+    </div><!--primary-info-block-->
+
+    <div class="primary-info-block">
+      <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+        <video width="1920" height="1080" autoplay muted playsinline loop preload="auto" poster="https://www.ocn.ai/assets/img/poster/jellyfish.jpg">
+          <source src="https://www.ocn.ai/assets/video/jellyfish.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="wrapper">
+        <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">HOW</p>
+        <div class="content">
+          <ul class="pairing">
+            <li data-sal="fade" data-sal-delay="500" data-sal-duration="1000">
+              <div class="img-container">
+                <img src="https://www.ocn.ai/assets/img/business-data-meeting-500.jpg"
+                  srcset="https://www.ocn.ai/assets/img/business-data-meeting-1000.jpg 1000w,
+                          https://www.ocn.ai/assets/img/business-data-meeting-2000.jpg 2000w,
+                          https://www.ocn.ai/assets/img/business-data-meeting-3000.jpg 3000w"
+                  sizes="100vw"
+                  loading="lazy"
+                  alt="business meeting discussing data">
+                <h2>See the Data In Action</h2>
+              </div>
+              <p>For the first time, we are accumulating, visualizing, and translating ocean data from all over the planet in one dashboard. This combined information creates a more complete picture of ocean health.</p>
+              <a href="https://www.ocn.ai/data" class="primary" title="link to dashboard">Explore the dashboard</a>
+            </li>
+            <li data-sal="fade" data-sal-delay="500" data-sal-duration="1000">
+              <div class="img-container">
+                <img src="https://www.ocn.ai/assets/img/underwater-seascape-500.jpg"
+                  srcset="https://www.ocn.ai/assets/img/underwater-seascape-1000.jpg 1000w,
+                          https://www.ocn.ai/assets/img/underwater-seascape-2000.jpg 2000w,
+                          https://www.ocn.ai/assets/img/underwater-seascape-3000.jpg 3000w"
+                  sizes="100vw"
+                  loading="lazy"
+                  alt="underwater ocean scene">
+                <h2>Join the Revolution</h2>
+              </div>
+              <p>Introducing BlueSense™, our advanced machine learning platform. It combines public and private data sets to generate actionable insights every 30 minutes.</p>
+              <a href="https://www.ocn.ai/data" class="primary" title="link to seamore">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!--primary-info-block-->
+
+    <div class="primary-info-block">
+      <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+        <video width="1920" height="1080" autoplay muted playsinline loop preload="auto" poster="https://www.ocn.ai/assets/img/poster/measurements.jpg">
+          <source src="https://www.ocn.ai/assets/video/statistical-video-effect.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="wrapper">
+        <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">LIVE OCN STATS</p>
+        <div class="content">
+          <ul>
+            <li data-sal="fade" data-sal-delay="500" data-sal-duration="1000">
+              Measurements recorded in the last 24 hours:              <div class="stat">
+                <p class="stat-1"></p>
+              </div>
+            </li>
+            <li data-sal="fade" data-sal-delay="500" data-sal-duration="1000">
+              Total measurements recorded:              <div class="stat">
+                <p class="stat-2"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!--primary-info-block-->
+
+    <div class="primary-info-block">
+      <div class="wrapper">
+        <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">Let’s understand the ocean together.</p>
+          <div class="content">
+            <ul>
+              <li>
+                <img src="https://www.ocn.ai/assets/img/svg/for-scientists-animated.svg" alt="scientist icon">
+                <p>FOR SCIENTISTS</p>
+              </li>
+              <li>
+                <img src="https://www.ocn.ai/assets/img/svg/for-community-animated.svg" alt="communities icon">
+                <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">FOR COMMUNITIES</p>
+              </li>
+              <li>
+                <img src="https://www.ocn.ai/assets/img/svg/for-business-animated.svg" alt="business icon">
+                <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">FOR BUSINESS</p>
+              </li>
+              <li>
+                <img src="https://www.ocn.ai/assets/img/svg/for-government-animated.svg" alt="government icon">
+                <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">FOR LOCAL GOVERNMENTS</p>
+              </li>
+              <li>
+                <img src="https://www.ocn.ai/assets/img/svg/for-eco-investors-animated.svg" alt="eco-investors icon">
+                <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">FOR ECO-INVESTORS</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div><!--primary-info-block-->
+
+      <div class="primary-info-block">
+        <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+          <video width="1920" height="1080" autoplay muted playsinline loop preload="auto" poster="https://www.ocn.ai/assets/img/poster/understanding-the-ocean.jpg">
+            <source src="https://www.ocn.ai/assets/video/understanding-the-ocean.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="wrapper">
+          <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">WITH INCREASED, COMBINED, AND VERIFIED DATA WE CAN:</p>
+          <div data-sal="fade" data-sal-delay="500" data-sal-duration="1000" class="content">
+            <ul>
+<li>Discover anomalies and danger zones</li>
+<li>Identify sources of destruction</li>
+<li>Hold entities accountable</li>
+<li>Change laws</li>
+<li>Encourage healthy business practices</li>
+<li>Increase efficiency of ocean conservation</li>
+<li>Engage coastal communities</li>
+<li>Create real trackable solutions</li>
+</ul>            <!--<a href="https://www.ocn.ai/how-it-works" class="primary" title="link to how it works">More about OCN’s Impact</a>-->
+          </div>
+        </div>
+      </div><!--primary-info-block-->
+
+      <div class="primary-info-block">
+        <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+          <video width="1920" height="1080" autoplay muted playsinline loop preload="auto" poster="https://www.ocn.ai/assets/img/poster/foundation.jpg">
+            <source src="https://www.ocn.ai/assets/video/arial-footage-fishing-village.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="wrapper">
+          <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">FURTHERMORE FOUNDATION</p>
+          <div data-sal="fade" data-sal-delay="500" data-sal-duration="1000" class="content">
+            <p>The Furthermore Foundation is committed to helping underserved coastal communities</p><p> Contact us to find out more or get involved</p><p></p>
+            <a href="https://www.ocn.ai/sensor" class="primary" title="link to contact">Learn More</a>
+          </div>
+        </div>
+      </div><!--primary-info-block-->
+
+      <div class="primary-info-block">
+        <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+          <img src="https://www.ocn.ai/assets/img/man-working-at-laptop-500.jpg"
+            srcset="https://www.ocn.ai/assets/img/man-working-at-laptop-1000.jpg 1000w,
+              https://www.ocn.ai/assets/img/man-working-at-laptop-2000.jpg 2000w,
+              https://www.ocn.ai/assets/img/man-working-at-laptop-3000.jpg 3000w,
+              https://www.ocn.ai/assets/img/man-working-at-laptop-4000.jpg 4000w"
+            sizes="100vw"
+            loading="lazy"
+            alt="man working at laptop">
+        </div>
+        <div class="wrapper">
+          <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">TEAM</p>
+          <div data-sal="fade" data-sal-delay="500" data-sal-duration="1000" class="content">
+            <p>This work requires a large team of very committed, experienced, and talented people.</p>
+<p>We are creating that team.</p>            <a href="https://www.ocn.ai/about#ocn-team" class="primary" title="link to meet the team">Meet the OCN team</a>
+          </div>
+        </div>
+      </div><!--primary-info-block-->
+
+      <div class="primary-info-block">
+        <div data-sal="fade" data-sal-delay="750" data-sal-duration="1000" class="container-full">
+          <img src="https://www.ocn.ai/assets/img/young-woman-in-front-of-the-ocean-500.jpg"
+            srcset="https://www.ocn.ai/assets/img/young-woman-in-front-of-the-ocean-1000.jpg 1000w,
+              https://www.ocn.ai/assets/img/young-woman-in-front-of-the-ocean-2000.jpg 2000w,
+              https://www.ocn.ai/assets/img/young-woman-in-front-of-the-ocean-3000.jpg 3000w,
+              https://www.ocn.ai/assets/img/young-woman-in-front-of-the-ocean-4000.jpg 4000w"
+            sizes="100vw"
+            loading="lazy"
+            alt="young woman in front of the ocean">
+        </div>
+        <div class="wrapper">
+          <p data-sal="fade" data-sal-delay="500" data-sal-duration="1000">GET INVOLVED</p>
+          <div data-sal="fade" data-sal-delay="500" data-sal-duration="1000" class="content">
+            <p>We are creating a network of global ocean enthusiasts.</p>
+            <a href="https://www.ocn.ai/contact" class="primary" title="link to contact">Join our team</a>
+          </div>
+        </div>
+      </div><!--primary-info-block-->
+
+  </main>
+</div> <!-- #main-container -->
+      <div class="footer-container">
+        <footer>
+          <div class="wrapper">
+            <div class="group">
+              <img src="https://www.ocn.ai/assets/img/ocn-logo.png" alt="ocn logo">
+              <ul>
+                              <li>
+                  <a href="https://twitter.com/OCN_ai" title="Twitter" target="_blank">
+                    <img src="https://www.ocn.ai/assets/img/svg/twitter.svg" alt="Twitter logo">
+                  </a>
+                </li>
+                                            <li>
+                  <a href="https://www.instagram.com/ocn.ai/" title="Instagram" target="_blank">
+                    <img src="https://www.ocn.ai/assets/img/svg/instagram.svg" alt="Instagram logo">
+                  </a>
+                </li>
+                            </ul>
+            </div>
+            <div class="group">
+              <p><a href="/contact">Contact</a></p>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="https://www.ocn.ai/assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+      <script src="https://www.ocn.ai/assets/js/plugins.min.js"></script>
+      <script src="https://www.ocn.ai/assets/js/main.min.js"></script>
+    <button class="material-scrolltop" type="button"></button>
+  </body>
+</html>

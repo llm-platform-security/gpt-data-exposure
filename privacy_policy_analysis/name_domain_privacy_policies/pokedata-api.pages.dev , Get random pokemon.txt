@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-m7qnq3">We don&#39;t collect any data from you. That&#39;s all.</h1> <h2 data-svelte-h="svelte-1fi0qlh">You call the API, and we give you a pokemon.</h2> 
+			
+			<script>
+				{
+					__sveltekit_1yp6rat = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.de51f09f.js"),
+						import("./_app/immutable/entry/app.302fa288.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

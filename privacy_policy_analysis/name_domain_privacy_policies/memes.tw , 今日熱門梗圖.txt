@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>&#x96B1;&#x79C1;&#x6B0A;&#x689D;&#x6B3E; | &#x591A;&#x5947;&#x6578;&#x4F4D;&#x5275;&#x610F;</title>
+
+    <link rel="shortcut icon" href="/duotify_128x128.ico" />
+    <link rel="bookmark" href="/duotify_128x128.ico" />
+
+    <link rel="stylesheet" href="/assets/site.min.css" />
+
+    <link rel="preload" as="style" href="https://unpkg.com/aos@next/dist/aos.css" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"></noscript>
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&amp;family=Noto+Sans:wght@400;500;600;700&amp;display=swap" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&amp;family=Noto+Sans:wght@400;500;600;700&amp;display=swap"></noscript>
+
+    <link rel="preload" as="style" href="https://unpkg.com/swiper/swiper-bundle.min.css" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"></noscript>
+
+    <meta name="description" content="&#x591A;&#x5947;&#x6578;&#x4F4D;&#x5275;&#x610F;&#x6709;&#x9650;&#x516C;&#x53F8;">
+    <meta name="keywords">
+    <meta property="og:url" content="https://www.duotify.com/PrivacyPolicy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PrivacyPolicy" />
+    <meta property="og:description" content="PrivacyPolicy" />
+    <meta property="og:image" content="https://www.duotify.com/assets/images/top-logo-sm.6f0a7eb4.png" />
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=e13a4f9b-fff8-41c4-8a23-292e50548b71;IngestionEndpoint=https://eastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://eastasia.livediagnostics.monitor.azure.com/'
+}});</script></head>
+<body>
+<div b-bpvzhxromb class="space nav"></div>
+
+
+<header class="top nav header">
+    <div class="container nav">
+        <div class="logo">
+            <a href="/">
+                <img src="/assets/images/duotify-logo01.svg" alt="多奇數位創意" />
+            </a>
+        </div>
+        <div class="bar">
+            <input id="menu-toggle" type="checkbox" /><span></span><span></span><span></span>
+        </div>
+        <div class="menu" id="menu">
+
+                    <div>
+                            <a href="/Consulting">顧問服務</a>
+                    </div>
+                    <div>
+                            <a href="/CaseShare">案例分享</a>
+                    </div>
+                    <div>
+                            <a href="/Training">教育訓練</a>
+                    </div>
+                    <div>
+                            <a href="/CloudProducts/TWCA-SSL">資訊雲端產品</a>
+                        <div class="sub-menu">
+                                <a href="/CloudProducts/TWCA-SSL">TWCA SSL 憑證</a>
+                                <a href="/CloudProducts/Azure">Microsoft Azure</a>
+                                <a href="/CloudProducts/Office">Microsoft 365</a>
+                        </div>
+                    </div>
+                    <div>
+                            <a href="/AboutUs">關於多奇</a>
+                    </div>
+                    <div>
+                            <a href="/JoinUs">加入多奇</a>
+                    </div>
+                    <div>
+                            <a href="/ContactUs">聯絡我們</a>
+                    </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<div class="products-top products">
+  <div class="top-content">
+    <div>
+      <div class="title">隱私權政策</div>
+      <div class="desc">本《隱私權政策》旨在協助您瞭解「多奇」收集的資訊類型以及收集這些資訊的原因。</div>
+    </div>
+  </div>
+</div>
+<div class="ssl products">
+  <div class="ssl-top">
+    <div class="ssl-top-content">
+      <div>
+        <p>
+          為了讓您能夠安心的使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
+        </p>
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">一、隱私權保護政策的適用範圍</h4>
+          <ul style="list-style-type: disc; padding-inline-start: 40px">
+            <li>
+              隱私權保護政策內容，包括本網站如何處理在您使用網站服務時收集到的個人識別資料。
+            </li>
+            <li>
+              隱私權保護政策不適用於本網站以外的相關連結網站，也不適用於非本網站所委託或參與管理的人員。
+            </li>
+          </ul>
+        </div>
+
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">二、個人資料的蒐集、處理及利用方式</h4>
+          <ul style="list-style-type: disc; padding-inline-start: 40px">
+            <li>
+              當您造訪本網站或使用本網站所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本網站不會將個人資料用於其他用途。
+            </li>
+            <li>
+              本網站在您使用服務信箱、問卷調查等互動性功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。
+            </li>
+            <li>
+              於一般瀏覽時，伺服器會自行記錄相關行徑，包括您使用連線設備的IP位址、使用時間、使用的瀏覽器、瀏覽及點選資料記錄等，做為我們增進網站服務的參考依據，此記錄為內部應用，決不對外公佈。
+            </li>
+            <li>
+              為提供精確的服務，我們會將收集的問卷調查內容進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。
+            </li>
+          </ul>
+        </div>
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">三、資料之保護</h4>
+          <ul style="list-style-type: disc; padding-inline-start: 40px">
+            <li>
+              本網站主機均設有防火牆、防毒系統等相關的各項資訊安全設備及必要的安全防護措施，加以保護網站及您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。
+            </li>
+            <li>
+              如因業務需要有必要委託其他單位提供服務時，本網站亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。
+            </li>
+          </ul>
+        </div>
+
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">四、網站對外的相關連結</h4>
+          <p>
+            本網站的網頁提供其他網站的網路連結，您也可經由本網站所提供的連結，點選進入其他網站。但該連結網站不適用本網站的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。
+          </p>
+        </div>
+
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">五、與第三人共用個人資料之政策</h4>
+          <p>
+            本網站絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。
+          </p>
+          <p>前項但書之情形包括不限於：</p>
+          <br />
+          <ul style="list-style-type: disc; padding-inline-start: 40px">
+            <li>經由您書面同意。</li>
+            <li>法律明文規定。</li>
+            <li>為免除您生命、身體、自由或財產上之危險。</li>
+            <li>
+              與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。
+            </li>
+            <li>
+              當您在網站的行為，違反服務條款或可能損害或妨礙網站與其他使用者權益或導致任何人遭受損害時，經網站管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。
+            </li>
+            <li>有利於您的權益。</li>
+            <li>
+              本網站委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。
+            </li>
+          </ul>
+        </div>
+
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">六、Cookie 之使用</h4>
+          <p>
+            為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的
+            Cookie，若您不願接受 Cookie
+            的寫入，您可在您使用的瀏覽器功能項中設定隱私權等級為高，即可拒絕
+            Cookie 的寫入，但可能會導致網站某些功能無法正常執行。
+          </p>
+        </div>
+
+        <div style="margin: 2rem 0">
+          <h4 style="margin: 1rem 0">七、隱私權保護政策之修正</h4>
+          <p>
+            本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+    <div class="container footer">
+        <div class="left">
+                <div class="block">
+                    <h2>
+                            <a href="/Consulting">顧問服務</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/CaseShare">案例分享</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/Training">教育訓練</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+資訊雲端產品                    </h2>
+                            <a href="/CloudProducts/TWCA-SSL">TWCA SSL 憑證</a>
+                            <a href="/CloudProducts/Azure">Microsoft Azure</a>
+                            <a href="/CloudProducts/Office">Microsoft 365</a>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/AboutUs">關於多奇</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/JoinUs">加入多奇</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/ContactUs">聯絡我們</a>
+                    </h2>
+                </div>
+                <div class="block">
+                    <h2>
+                            <a href="/PrivacyPolicy">隱私權條款</a>
+                    </h2>
+                </div>
+        </div>
+        <div class="right">
+            <div>
+                <h2>公司資訊</h2>
+                <div class="block">
+                    <div class="icon">
+                        <img src="/assets/images/addr.4cdfc1a1.svg" alt="" />
+                    </div>
+                    <div class="content">
+                        <div>地址：</div>
+                        <div>台北市中山區中山北路一段82號7樓</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="/assets/images/phone.c5588c95.svg" alt="" />
+                    </div>
+                    <div class="content">
+                        <div>電話：</div>
+                        <div>(02)2322-2480 #10</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="/assets/images/fax.092bd7a5.svg" alt="" />
+                    </div>
+                    <div class="content">
+                        <div>傳真：</div>
+                        <div>(02)2341-8318</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="/assets/images/mail.e55729eb.svg" alt="" />
+                    </div>
+                    <div class="content">
+                        <div>Mail：</div>
+                        <div><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="27544255514e4442674a4e494e4654570944484a">[email&#160;protected]</a></div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon">
+                        <img src="/assets/images/work.dac4d47e.svg" alt="" />
+                    </div>
+                    <div class="content">
+                        <div>上班時間：</div>
+                        <div>每周一 ～ 周五： 9am to 6pm</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/MotionPathPlugin.min.js"></script>
+<script defer src="/assets/site.min.js?r=2"></script>
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5Z73T7X');</script>
+
+</body>
+</html>

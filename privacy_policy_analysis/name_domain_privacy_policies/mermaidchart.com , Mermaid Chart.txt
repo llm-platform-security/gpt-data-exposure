@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="sentry-trace" content="984c4ed067c04d1b9182ec9e172fd7a2-9ffb4f279fcfe216-1"/>
+    <meta name="baggage" content="sentry-environment=production,sentry-release=34b1c9353c0dff05f69664a37da9da7743b267f8,sentry-public_key=7be454a4d9949a38e6692b3d475ba387,sentry-trace_id=984c4ed067c04d1b9182ec9e172fd7a2,sentry-sample_rate=0.5,sentry-transaction=GET%20%2F(public)%2F(home)%2Fprivacy-policy,sentry-sampled=true"/>
+    
+<script >
+    const f = window.fetch;
+    if(f){
+      window._sentryFetchProxy = function(...a){return f(...a)}
+      window.fetch = function(...a){return window._sentryFetchProxy(...a)}
+    }
+</script>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/img/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <title>
+      Mermaid Chart - Create complex, visual diagrams with text. A smarter way of creating diagrams.
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&family=Urbanist:wght@400;600;900&display=swap"
+      rel="stylesheet" />
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
+    <!-- Roboto Mono -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
+    
+  </head>
+  <body class="overflow-hidden bg-primary-50 dark:bg-surface-900">
+    <div class="contents">
+			<script>
+				{
+					__sveltekit_i9xziv = {
+						base: "",
+						env: {"PUBLIC_CAPTCHA_SITE_KEY":"0x4AAAAAAANyydvnRfYewKyi","PUBLIC_ENVIRONMENT":"prod","PUBLIC_HCAPTCHA_SITE_KEY":"59f481bd-fe68-4237-8bdc-4dc988e938f1","PUBLIC_IN_PREVIEW_MODE":"false","PUBLIC_LEVEL_EXCEPTIONS":"[]","PUBLIC_LOG_LEVEL":"info","PUBLIC_MIXPANEL_TOKEN":"295168446303daf7afc247f43897a6a6","PUBLIC_OPENREPLAY_KEY":"false","PUBLIC_SENTRY_DSN_KEY":"https://7be454a4d9949a38e6692b3d475ba387@o4504767952388096.ingest.sentry.io/4506547418890240","PUBLIC_STRIPE_MANAGEMENT_LINK":"https://billing.stripe.com/p/login/28o4il9RjaD3edi9AA","PUBLIC_SUPABASE_ANON":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVtbWNzbmVnbG9lZHhjcndsdWN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzU5NTMwMTEsImV4cCI6MTk5MTUyOTAxMX0.g9eLmwbiqhjrkLI8gIiGklOEO-YYE_W40l529tvQys8","PUBLIC_SUPABASE_BASE_URL":"https://supabase.mermaidchart.com","PUBLIC_USE_CAPTCHA":"true","PUBLIC_USE_HCAPTCHA":"true","PUBLIC_USE_PLAUSIBLE":"true"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.CEgQv2Si.js"),
+						import("/_app/immutable/entry/app.C9pIkZ-q.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>

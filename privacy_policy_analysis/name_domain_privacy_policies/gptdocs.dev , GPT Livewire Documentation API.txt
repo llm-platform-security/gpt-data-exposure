@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GPTDocs | AI-Powered Software Documentation</title>
+        <meta name="description" content="Providing software documentation API's for GPTs.">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="storage/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="storage/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="storage/favicon-16x16.png">
+
+        <link rel="preload" as="style" href="https://gptdocs.dev/build/assets/app-ad509d53.css" /><link rel="stylesheet" href="https://gptdocs.dev/build/assets/app-ad509d53.css" />    </head>
+    <body>
+
+        <header x-data="{ open: false }" class="bg-white">
+  <nav class="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">
+    <div class="flex lg:flex-1">
+      <a href="." class="-m-1.5 p-1.5">
+        <span class="sr-only">GPTDocs</span>
+        <img class="w-auto rounded-lg h-14" src="storage/images/gptdocslogo.png" alt="">
+      </a>
+    </div>
+    <div class="flex lg:hidden">
+      <button x-on:click="open = !open" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <div class="hidden lg:flex lg:gap-x-12">
+      <a href="https://chat.openai.com/g/g-16MMeSrpe" class="text-sm font-semibold leading-6 text-gray-900">
+        LaravelGPT
+        <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+    </a>
+    <a href="https://chat.openai.com/g/g-cKlsTeKKr" class="text-sm font-semibold leading-6 text-gray-900">
+        LivewireGPT
+        <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+    </a>
+      <a href="https://chat.openai.com/g/g-Kk2DseBzU" class="text-sm font-semibold leading-6 text-gray-900">
+        Alpine.jsGPT
+        <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+    </a>
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <a href="/privacy-policy" class="text-sm font-semibold leading-6 text-gray-900">Privacy Policy</a>
+    </div>
+  </nav>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div x-show="open" class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-10"></div>
+    <div class="fixed inset-y-0 right-0 z-10 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-between">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">GPTDocs</span>
+          <img class="w-auto h-8 rounded-lg radius-full" src="storage/images/gptdocslogo.png" alt="">
+        </a>
+        <button x-on:click="open = !open" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flow-root mt-6">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="py-6 space-y-2">
+            <a href="https://chat.openai.com/g/g-16MMeSrpe" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50">
+                LaravelGPT
+                <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+            </a>
+            <a href="https://chat.openai.com/g/g-cKlsTeKKr" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50">
+                LivewireGPT
+                <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+            </a>
+            <a href="https://chat.openai.com/g/g-Kk2DseBzU" class="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50">
+                Alpine.jsGPT
+                <svg class="inline-block w-3 h-3 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z"></path>
+</svg>
+            </a>
+          </div>
+          <div class="py-6">
+            <a href="/privacy-policy" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+        <div class="container px-4 py-4 mx-auto">
+
+            <div class="relative mx-auto max-w-[37.5rem] pt-6 text-center pb-12">
+            <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">Privacy policy</h1>
+            <p class="mt-4 text-base leading-7 text-slate-600">Last updated on November 16, 2023</p>
+        </div>
+        <div class="relative px-4 mb-24 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-[40rem] prose-sm prose prose-slate prose-a:font-semibold prose-a:text-gray-600 hover:prose-a:text-gray-700">
+                <h2 class="mb-2 text-xl">Introduction</h2>
+                <p>Welcome to GPTDocs. We are committed to respecting your privacy and ensuring that your personal information is protected. This Privacy Policy explains how we handle information in relation to GPTs accessing our API.</p>
+                <h2 class="mt-6 mb-2 text-xl">Data Collection and Use</h2>
+                <p><b>Type of Data Collected:</b> We do not collect, store, or process any personal data from our users </p>
+                <p><b>Purpose of Data Use:</b> Since we do not collect personal data, there is no use of such data in our service.</p>
+                <h2 class="mt-6 mb-2 text-xl">Data Storage and Security</h2>
+                <p><b>Data Storage:</b> We do not store any personal data from our users as our service is based solely on GET requests for GPT actions.</p>
+                <p><b>Security Measures:</b> Despite not storing user data, we maintain robust security measures to protect our service and infrastructure from unauthorized access and cyber threats.</p>
+                <h2 class="mt-6 mb-2 text-xl">Third-Party Sharing</h2>
+                <p>We do not share any personal data with third-party service providers.</p>
+                <h2 class="mt-6 mb-2 text-xl">Changes to This Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time. You are advised to review this Privacy Policy periodically for any changes.</p>
+                <h2 class="mt-6 mb-2 text-xl">Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact us at <a class="font-bold" href="mailto:hello@gptdocs.dev">hello@gptdocs.dev</a>.</p>
+            </div>
+        </div>
+
+        </div>
+
+        <footer class="bg-white">
+    <div class="px-6 pt-6 pb-12 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-8">
+        <div class="flex justify-center space-x-6 md:order-2">
+        <a href="/privacy-policy" class="text-gray-400 hover:text-gray-500">Privacy Policy</a>
+        </div>
+        <div class="mt-8 md:order-1 md:mt-0">
+        <p class="text-xs leading-5 text-center text-gray-500">&copy; 2023 GPTDocs - All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+        <link rel="modulepreload" href="https://gptdocs.dev/build/assets/app-e19c81df.js" /><script type="module" src="https://gptdocs.dev/build/assets/app-e19c81df.js"></script>    </body>
+</html>

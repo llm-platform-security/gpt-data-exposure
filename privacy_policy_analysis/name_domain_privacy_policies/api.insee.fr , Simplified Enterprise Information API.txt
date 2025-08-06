@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="fr" data-fr-scheme="light">
+  <head>
+    <title>API Entreprise</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="apple-touch-icon" href="https://entreprise.api.gouv.fr/assets/favicons/apple-touch-icon-6bba27eab475ac619cc15ce96c3efdcd93dda78018633318eee5bf429db0a2ca.png">
+<link rel="icon" href="https://entreprise.api.gouv.fr/assets/favicons/favicon-5d0b3361488aa18aac28ec1add8f84649ea9a86ade4d03d6fcdf1d75a34f372b.svg" type="image/svg+xml">
+<link rel="shortcut icon" href="https://entreprise.api.gouv.fr/assets/favicons/favicon-ac3f5ac40d55bc86a12960f79dc3c51110fd7e924ab3e6b5934579f0732b2e55.ico" type="image/x-icon">
+<link rel="manifest" href="https://entreprise.api.gouv.fr/assets/favicons/manifest-1c9cf8d2bf56aa0fb17ffc0d01e5829987296f365c9d028f7816dc24286ce153.webmanifest" crossorigin="use-credentials">
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="EOIdCX7CuwJkChRvZiNaLCFgA9OA4sPTTdEaB0YFUk5e5-IDXHzLMZyw-LUkHZBBWoOKQjrSLeMeeQ9tYTa8Ow" />
+    
+
+    <link rel="stylesheet" href="/assets/api_entreprise-72bfb4c5539d636bef9dafeedcf2ba00801f94d948ce29b54666f3d1d0762ecf.css" media="all" data-turbo-track="reload" />
+    <script src="/assets/api_entreprise-f1c38127d41d397825b021039e616a7c5331491084c8184c198f432417f600b8.js" data-turbo-track="reload"></script>
+    
+    <script src="/assets/turbo-6f8f1796078d2d3f7cb9b6badcd2d5e76287a3c58d97baffaa59dd12bd4135f5.js" type="module"></script>
+
+    <script type="module">
+  import { Application, Controller } from "https://unpkg.com/@hotwired/stimulus/dist/stimulus.js"
+
+  window.Stimulus = Application.start()
+  window.StimulusController = Controller;
+
+  document.addEventListener('turbo:frame-missing', (event) => {
+    const { detail: { response, visit } } = event
+    event.preventDefault()
+    visit(response)
+  })
+</script>
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body
+    data-algolia-application-id="0WG30SD859"
+    data-algolia-search-key="d3e5b117cec579ddcbe5448c58a2048a"
+  >
+    
+      <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+
+    var matomo = (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '45']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+    ['turbo:render', 'turbo:load'].forEach(function(e) {
+      document.addEventListener(e, matomo);
+    });
+  </script>
+
+    <header class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">
+              République
+              <br>Française
+              </p>
+            </div>
+            <div class="fr-header__navbar">
+              <!-- <button class="fr&#45;btn&#45;&#45;search fr&#45;btn" data&#45;fr&#45;opened="false" aria&#45;controls="modal&#45;866" title="Rechercher"> -->
+              <!--   Rechercher -->
+              <!-- </button> -->
+              <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-header-menu" aria-haspopup="menu" title="Menu" id="fr-btn-menu-mobile-1">
+                Menu
+              </button>
+            </div>
+          </div>
+
+          <div class="fr-header__service">
+            <a href="/" title="Accueil - API Entreprise">
+              <p class="fr-header__service-title">
+                API Entreprise
+              </p>
+              <p class="fr-header__service-tagline">
+                Les données des entreprises et des associations <strong>pour les administrations</strong>
+              </p>
+            </a>
+          </div>
+
+        </div>
+        <div class="fr-header__tools">
+          <div class="fr-header__tools-links">
+  <ul class="fr-links-group">
+    <li>
+      <a class="fr-link fr-icon-question-fill" href="/faq">
+        FAQ &amp; Contact
+      </a>
+    </li>
+    <li>
+      <turbo-frame id="current_status" style="display: inherit;" src="/apis/status">
+        <a class="fr-link" href="https://status.entreprise.api.gouv.fr" title="API Entreprise Status Page" target="_blank">
+          <span class="circle circle-undefined fr-mr-1w"></span> Statuts des API
+        </a>
+      </turbo-frame>
+      <span class="fr-header-separator"></span>
+    </li>
+      <li>
+        <a class="fr-link fr-icon-lock-fill" id="login_header" href="/compte/se-connecter">Se connecter</a>
+      </li>
+  </ul>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fr-header__menu fr-modal" id="modal-header-menu" aria-labelledby="fr-btn-menu-mobile-1">
+
+  <div class="fr-container">
+    <button class="fr-link--close fr-link" aria-controls="modal-header-menu">
+      Fermer
+    </button>
+
+    <div class="fr-header__menu-links"></div>
+      <nav class="fr-nav" id="navigation-header-menu" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item">
+            <a class="fr-nav__link center" href="/catalogue" target="_self" >
+              <strong>Catalogue des API</strong><br> & documentation des données
+            </a>
+          </li>
+
+          <li class="fr-nav__item">
+            <a class="fr-nav__link center" href="/cas_usages" target="_self" >
+              <strong>Cas d'usages</strong><br> Fiches pratiques
+            </a>
+          </li>
+
+          <li class="fr-nav__item">
+            <a class="fr-nav__link center" href="/developpeurs" target="_self" >
+              <strong>Espace développeur</strong><br> & spécifications techniques
+            </a>
+          </li>
+
+
+          <li class="ask-access-link fr-nav__item">
+            <a class="fr-nav__link center" href="https://api.gouv.fr/les-api/api-entreprise/demande-acces" target="_blank">
+              <strong>Demander un accès</strong><br>🔑 Vérifier votre éligibilité
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+
+  <div class="fr-notice fr-notice--info">
+    <div class="fr-container">
+      <div class="fr-notice__body">
+        <p class="fr-notice__title fr-text--regular">
+            <strong>Bureau ouvert</strong> <a href='https://webconf.numerique.gouv.fr/APIEntreprise00Version3'>en visio</a> le 21/05/2024 à 10 heures. <a href='/faq#quand-et-pourquoi-un-bureau-ouvert'>En savoir plus ➜</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+
+      <div class="fr-container fr-mb-5w fr-mt-5w">
+  <turbo-frame id="alerts">
+    
+  </turbo-frame>
+
+    <turbo-frame id="main-modal-content">
+  <div class="single-page fr-px-6w">
+    <h1 class="center">
+  Conditions générales d'utilisation
+  <br>
+  du service API Entreprise
+</h1>
+
+<p class="fr-text--lead">
+Ce document, ci-après les «&nbsp;CGU&nbsp;», présente les modalités d’utilisation de l’API Entreprise
+par les personnes y ayant accès, ci-après les «&nbsp;<strong>Partenaires</strong>&nbsp;».
+<br>
+Les présentes conditions d’utilisation (CGU) sont mises en œuvre conformément à
+l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367350/" target="_blank">Article L. 112-9 du Code des relations entre le public et l’administration</a>. <strong>Elles s’imposent aux utilisateurs d'API Entreprise</strong>.
+</p>
+
+<h2 class="fr-mt-4w">
+  1. Présentation
+</h2>
+
+<p class="fr-m-0">
+  Le service API Entreprise (ci-après dénommé «&nbsp;le&nbsp;<strong>Service</strong>&nbsp;») est mis en œuvre par la Direction interministérielle du numérique (ci-après dénommée «&nbsp;la&nbsp;<strong>DINUM</strong>&nbsp;») et vise à :
+</p>
+
+<ul class="fr-mb-5w">
+  <li>
+    Simplifier les démarches administratives des entreprises et associations usagères du service
+    public, ci-après «&nbsp;l’<strong>Usager</strong>&nbsp;», notamment en les soulageant de la production de certaines
+    pièces justificatives ;
+  </li>
+
+  <li>
+    Faciliter l’instruction associée à ces démarches en permettant aux administrations qui en sont chargées, ci-après «&nbsp;le<strong>Partenaire</strong>&nbsp;»,
+    de récupérer des documents ou des données produits ou détenus par d’autres autorités administratives.
+  </li>
+</ul>
+
+<p class="fr-m-0">
+  Pour ce faire, le Service consiste en un dispositif d’échange permettant&nbsp;:
+</p>
+
+<ul class="fr-mb-5w">
+  <li>
+    la mise à disposition d’informations ou données détenues par les administrations ;
+  </li>
+  <li>
+    la récupération d’informations ou données nécessaires à l’accomplissement de démarches administratives ;
+  </li>
+  <li>
+    la consultation des statistiques d’usage des données, la visualisation des dernières requêtes effectuées, ainsi que la mise à jour des coordonnées du compte.
+  </li>
+</ul>
+
+<p>
+  Le <strong>Service</strong> est ouvert aux administrations au sens de l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367308/" target="_blank">Article L. 100-3 du Code des relations entre le public
+  et l’administration</a>, c’est-à-dire les administrations de l’État, les collectivités territoriales, leurs établissements
+  publics administratifs respectifs et les organismes et personnes de droit public et de droit privé
+  chargés d’une mission de service public administratif, y compris les organismes de sécurité sociale.
+
+  <br>
+
+  Les entités accédant au <strong>Service</strong> sont dénommées «&nbsp;<strong>Partenaires</strong>&nbsp;» dans la suite de ce document.
+</p>
+
+<p>
+  Le <strong>Service</strong> donne accès à des données et pièces justificatives émanant d’administrations diverses, que le
+  <strong>Service</strong> fédère, à partir d’interfaces de programmation (API) ou, exceptionnellement, de bases
+  mises à sa disposition, dans des conditions assurant la protection des données et le respect des règles de confidentialité.
+
+  <br>
+
+  La liste exhaustive des données, des documents et des modalités techniques de consultation
+  sont précisés dans la documentation technique.
+</p>
+
+
+<h2 class="fr-mt-4w">
+  2. Modalités d’utilisation du Service
+</h2>
+
+<p>
+  L'utilisation du <strong>Service</strong> est facultative et gratuite.
+</p>
+
+<h3 class="fr-mt-3w">
+  2.1.	Rôle et engagements du Partenaire
+</h3>
+
+<h5>
+  Adhésion
+</h5>
+
+<p>
+  Le <strong>Partenaire</strong> vérifie qu’il remplit les conditions d’accès présentées dans les présentes CGU et
+  effectue sa demande d’adhésion à partir du site internet : <a href="https://datapass.api.gouv.fr/api-entreprise" target="_blank">https://datapass.api.gouv.fr/api-entreprise</a>.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> demande l’accès aux seules données strictement nécessaires à la réalisation d’une démarche administrative.
+</p>
+
+<p>
+  La demande d’accès effectuée par le <strong>Partenaire</strong> visant à obtenir un jeton d’accès est
+  spécifique à ce <strong>Partenaire</strong> et à un type de démarche administrative qu’il réalise. Le <strong>Partenaire</strong>
+  doit effectuer une demande d’accès par démarche et obtient autant de jetons que de demandes.
+
+  <br>
+  Le fait pour un <strong>Partenaire</strong> d’utiliser un jeton unique pour plusieurs démarches différentes, y compris en
+  internalisant la gestion des droits d’accès, entraîne la révocation immédiate du jeton.
+
+  <br>
+  Le <strong>Partenaire</strong> vérifie qu’il remplit les conditions d’accès présentées dans les présentes CGU et
+  effectue sa demande d’adhésion à partir du site internet : <a href="https://datapass.api.gouv.fr/api-entreprise" target="_blank">https://datapass.api.gouv.fr/api-entreprise</a>.
+</p>
+</p>
+
+<p>
+  Le jeton est émis avec une durée de vie de 18 mois, son expiration est programmée à cette date sauf en cas de révocation précoce. Trois mois avant l’expiration,
+  le <strong>Partenaire</strong> est invité à formuler une demande de prolongation du jeton s’il le souhaite. Pour l'informer, l’API Entreprise envoie des notifications par emails trois mois avant l'expiration
+  d'un jeton. Ces derniers sont valables pour une durée de 18 mois.
+</p>
+
+<p>
+Le formulaire de prolongation permet au <strong>Partenaire</strong> d’indiquer si des changements sont intervenus depuis la dernière demande d’habilitation à l’API Entreprise et donc de vérifier que les conditions pour lesquelles l'habiliation a été délivrée sont toujours valables. Une fois le formulaire complété par le <strong>Partenaire</strong> :
+</p>
+<ul>
+  <li>
+    Si des changements sont signalés, le <strong>Partenaire</strong> est invité à lancer une demande de modification de l’habilitation. Cette demande sera traitée en priorité par les services instructeurs de la <strong>DINUM</strong>. Après validation, le jeton sera prolongé de 18 mois.
+  </li>
+  <li>
+    Si aucun changement n’est signalé, le jeton est prolongé de 18 mois à la suite de l’envoi du formulaire de prolongation.
+  </li>
+</ul>
+
+<h5>
+  Engagements
+</h5>
+
+<p>
+  Une fois son raccordement effectué, le <strong>Partenaire</strong> s’engage à mettre en œuvre le <strong>Service</strong>
+  en l’intégrant au sein de ses services numériques.
+  <br>
+  Le <strong>Partenaire</strong> est responsable des traitements qu’il opère sur les données reçues au moyen du <strong>Service</strong> et,
+  à ce titre, respecte les obligations inhérentes à ce traitement, notamment celles prévues par la <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068624" target="_blank">Loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés</a> modifiée.
+</p>
+
+<p>
+  Préalablement à toute transmission de données, le <strong>Partenaire</strong> s’engage à informer correctement l’<strong>Usager</strong>
+  et à recueillir, le cas échéant, son consentement explicite à la transmission des données.
+  <br>
+  Le <strong>Partenaire</strong> s’engage à ne pas donner accès aux données obtenues par l’intermédiaire du
+  <strong>Service</strong> à l’<strong>Usager</strong> ne bénéficiant pas d’un niveau d’authentification suffisant.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> s’engage à présenter les données obtenues par l’intermédiaire du <strong>Service</strong> aux seuls
+  agents dûment habilités et à tracer l’accès de ces agents aux données. Ces traces sont
+  conservées pour une durée minimum de 36 mois, la durée légalement applicable.
+</p>
+
+<p>
+  Pour ce qui concerne les données de la base Sirene, le <strong>Partenaire</strong> s’engage
+  à tenir compte du statut de diffusion le plus récent de chaque personne physique, qui tient
+  compte des oppositions formulées par certaines d’entre elles, à la  l’utilisation par
+  des tiers autres que les organismes habilités au titre de l’<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030783422/" target="_blank">Article R. 123-224 du Code
+  de commerce ou les administrations</a> à des fins de prospection, notamment commerciale. En cas d’octroi
+  d’un accès aux données des personnes physiques dîtes "non-diffusbiles", le <strong>Partenaire</strong> s’engage à n’utiliser ces informations que dans le cadre
+  strict de ses missions de service public, et à ne pas les rediffuser ni les divulguer auprès de tiers non autorisés.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> s’engage à ne pas commercialiser les données reçues et à ne pas les
+  communiquer à des tiers en dehors des cas prévus par la loi.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> s’engage à mettre en œuvre les mesures de sécurité techniques et organisationnelles
+  nécessaires au bon fonctionnement du <strong>Service</strong>, notamment en matière de traçabilité interne, et à informer,
+  le cas échéant, la <strong>DINUM</strong> de toute difficulté de nature à compromettre le bon fonctionnement du
+  <strong>Service</strong>. En particulier, il garantit la confidentialité du jeton. Dès lors que la confidentialité du
+  jeton a pu être compromise, y compris de manière accidentelle, le jeton est révoqué.
+  À cette fin, le <strong>Partenaire</strong> s’engage à alerter sans délai la <strong>DINUM</strong> en envoyant un courriel à <a href="support@entreprise.api.gouv.fr">support@entreprise.api.gouv.fr</a>.
+</p>
+
+<p>
+  En cas d’incident grave dans l’utilisation du <strong>Service</strong>, le <strong>Partenaire</strong> s’engage à coopérer avec la <strong>DINUM</strong> dans la
+  réalisation d’un audit, en fournissant toutes les informations nécessaires.
+</p>
+
+<p>
+  Lorsqu’il souhaite surveiller par des mécanismes automatisés la disponibilité de l’API Entreprise, le <strong>Partenaire</strong>
+  s’engage à utiliser le mécanisme de surveillance prévu à cet effet et disponible sur la partie privée
+  du site : <a href="https://entreprise.api.gouv.fr/compte" target="_blank">https://entreprise.api.gouv.fr/compte</a>.
+</p>
+
+<p>
+  Dans ses procédures internes, le <strong>Partenaire</strong> s’engage à ne pas considérer la non-transmission
+  d’une donnée par le biais du <strong>Service</strong>, comme impliquant une réponse non conforme entrainant directement
+  le rejet de la démarche de l’<strong>Usager</strong>. Dans ce cas, le <strong>Partenaire</strong> doit permettre à l’<strong>Usager</strong> de finaliser sa demande via une procédure alternative.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> s’engage à mettre à jour les coordonnées des responsables technique et fonctionnel afin de pouvoir
+  être contacté par la <strong>DINUM</strong>. Ces informations sont modifiables dans le tableau de bord à disposition du <strong>Partenaire</strong> : <a href="https://entreprise.api.gouv.fr/compte/" target="_blank">https://entreprise.api.gouv.fr/compte</a>.
+</p>
+
+<h3 class="fr-mt-3w">
+  2.2.	Rôle et engagements de la DINUM
+</h3>
+
+<p class="fr-m-0">
+  La <strong>DINUM</strong> met en œuvre et opère le <strong>Service</strong> conformément aux dispositions légales et réglementaires en vigueur. À ce
+  titre, la <strong>DINUM</strong> s’engage à respecter les obligations légales liées au traitement, notamment celles relevant de
+  la <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068624" target="_blank">Loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés</a>.
+  <br>
+  <br>
+  La <strong>DINUM</strong> s’engage à transmettre les données demandées par le <strong>Partenaire</strong> via le <strong>Service</strong> au regard de son droit d’en connaître.
+  <br>
+  <br>
+  La <strong>DINUM</strong> met à disposition le site internet <a href="https://entreprise.api.gouv.fr/compte" target="_blank">https://entreprise.api.gouv.fr/compte</a> afin de permettre au <strong>Partenaire</strong> de :
+</p>
+
+<ul class="fr-mb-5w">
+  <li>
+    récupérer le jeton d’accès (sous réserve de l’acceptation de la demande d’adhésion et des données afférentes)
+  </li>
+  <li>
+    consulter les statistiques d’usage des données,
+  </li>
+  <li>
+    de visualiser les dernières requêtes effectuées,
+  </li>
+  <li>
+    mettre à jour les coordonnées des contacts.
+  </li>
+</ul>
+
+<p>
+  La <strong>DINUM</strong> s’engage à proposer aux <strong>Partenaires</strong> une assistance technique leur permettant de définir et de mettre
+  en œuvre au mieux l’usage qu’ils réalisent du <strong>Service</strong>. Elle s’engage à apporter son concours fonctionnel à
+  chaque fois que la situation le permet.
+</p>
+
+<p>
+La <strong>DINUM</strong> s’autorise à mettre fin à l’accès au <strong>Service</strong> par le <strong>Partenaire</strong> s’il
+estime que son usage du <strong>Service</strong> n’est pas conforme aux présentes CGU, ne respecte pas les dispositions
+légales en vigueur, ne correspond pas aux exigences de sécurité ou porte préjudice à son image.
+</p>
+
+<p>
+  La <strong>DINUM</strong> s’engage à ce que le <strong>Service</strong> soit accessible à 99,5 %, à informer les
+  <strong>Partenaires</strong> de toute difficulté de nature à en compromettre le bon fonctionnement. À cette fin, elle
+  fournit un tableau de bord de la disponibilité du <strong>Service</strong> et les interruptions programmées des fournisseurs
+  de données sur le site <a href="https://status.entreprise.api.gouv.fr/" target="_blank">https://status.entreprise.api.gouv.fr/</a>. L’engagement de disponibilité porte sur le
+  <strong>Service</strong> et non pas sur les dispositifs d’échange sous-jacents. En effet, ceux-ci dépendent
+  d’entités sur lesquels la <strong>DINUM</strong> n’a pas d’autorité fonctionnelle ou hiérarchique.
+</p>
+
+<p>
+  La <strong>DINUM</strong> s’engage à mettre en œuvre toutes mesures appropriées afin de protéger et de garantir
+  l’intégrité des données traitées dans le cadre du <strong>Service</strong>. Elle ne porte aucune responsabilité
+  s’agissant de la qualité ou du contenu intrinsèque des données. Dans ce cadre, la <strong>DINUM</strong> ne modifie
+  pas les données à l’exception d’une standardisation contextuelle limitée (minuscule vers majuscule, format de date, nombre d’espaces).
+</p>
+
+<p>
+  La <strong>DINUM</strong> s’engage à assurer la traçabilité de toutes les actions réalisées par les
+  partenaires du <strong>Service</strong> et conserve ces informations pendant la durée fixée par le cadre légal applicable.
+</p>
+
+<p>
+  La <strong>DINUM</strong> s’engage à assurer le suivi et l’évaluation de l’utilisation du <strong>Service</strong>, et à
+  communiquer les résultats obtenus aux <strong>Partenaires</strong>.
+</p>
+
+<h3 class="fr-mt-3w">
+  2.3.	Cookies et mesures d'audience
+</h3>
+
+<p>
+  Le <strong>Service</strong> API Entreprise dépose des cookies de mesure d’audience (nombre de visites, pages
+  consultées) respectant les conditions d’exemption du consentement de l’internaute
+  définies par la <a href="https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience" target="_blank">recommandation « Cookies » de la Commission nationale informatique et libertés (CNIL)</a>
+  <br>
+  Il utilise <a href="https://fr.matomo.org/" target="_blank">Matomo</a>, un outil libre, paramétré pour ce faire.
+  Cela signifie, notamment, que ces cookies ne servent qu’à la production de statistiques anonymes et ne permettent
+  pas de suivre la navigation de l’internaute sur d’autres sites.
+</p>
+
+<h2 class="fr-mt-4w">
+  3. Traitement des données à caractère personnel
+</h2>
+
+<p>
+  Le <strong>Service</strong> ne collecte que les données strictement nécessaires à sa mise en œuvre.
+</p>
+
+<p class="fr-m-0">
+  Les catégories de données à caractère personnel traitées sont les suivantes :
+</p>
+
+<ul class="fr-mb-5w">
+  <li>
+    adresse e-mail du correspondant de l’organisation disposant du compte API Gouv.
+    <br>
+    <br>
+    Ces informations permettent d’assurer l’accès du <strong>Partenaire</strong> au compte utilisateur privé,
+    de récupérer ses jetons, de recevoir les notifications de prolongation du jeton, d’accéder aux lettres
+    d'informations, de consulter les invitations aux évènements organisés par API Entreprise.
+  </li>
+  <li>
+    adresse e-mail et numéro de téléphone d'un responsable technique (renseigné pour chaque jeton).
+    <br>
+    <br>
+    Ces informations constituent le point d'entrée pour toute question technique. Elles permettent également
+    aux contacts de recevoir des invitations, des lettres d'informations et d'être alertés en cas d'incident technique ou de maintenance.
+  </li>
+  <li>
+    adresse e-mail et numéro de téléphone d'un responsable métier (renseigné pour chaque jeton).
+    <br>
+    <br>
+    Ces informations constituent le point d'entrée pour toute question métier. Elles permettent également
+    aux contacts de recevoir des invitations, des lettres d'informations et d'être informés en cas de nouvelles fonctionnalités, données ou API.
+  </li>
+</ul>
+
+<p>
+  Ces informations permettent de développer le service API Entreprise (lettres d'information, invitations aux évènements organisés par API Entreprise)
+  <br>
+  Enfin, d’autres informations techniques sont conservées via les logs d'utilisations du service par
+  les utilisateurs (URL appelée, paramètres d'appel, jeton, adresse IP, date et heure, code réponse ...) afin de
+  permettre la supervision du service et de faciliter la résolution d’incidents.
+  La <strong>DINUM</strong> s'engage à prendre toutes les précautions utiles pour préserver la sécurité des données collectées auprès de
+  l'utilisateur, et notamment empêcher qu'elles soient déformées et endommagées ou que des tiers non autorisés y aient accès.
+</p>
+
+<p>
+  La <strong>DINUM</strong> garantit aux utilisateurs du <strong>Service</strong> les droits d'accès, de rectification et
+  d'opposition prévus par la <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068624" target="_blank">Loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés</a>.
+</p>
+
+<p>
+  Ces droits s’exercent via l’adresse mail <a href="support@entreprise.api.gouv.fr">support@entreprise.api.gouv.fr</a>
+  La <strong>DINUM</strong> s'engage à n'opérer aucune commercialisation des informations et documents transmis par
+  l'utilisateur au moyen du <strong>Service</strong>, et à ne pas les communiquer à des tiers, en dehors des cas prévus par la loi.
+</p>
+
+
+<h2 class="fr-mt-4w">
+  4. Cadre légal et responsabilité
+</h2>
+
+<p class="fr-m-0">
+  Le présent <strong>Service</strong> est mis en œuvre selon les dispositions du Code des relations entre le public et l’administration (CRPA).
+  Les CGU s’inscrivent également dans le cadre :
+</p>
+
+<ul class="fr-mb-5w">
+  <li>
+    des <a href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000031367410/#LEGISCTA000031367410" target="_blank">Articles L. 114-8 et suivants du Code des relations entre le public et l’administration</a> relatifs
+    à l’échange de données entre administrations  ;
+  </li>
+  <li>
+    de la <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068624" target="_blank">Loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés</a> ;
+  </li>
+  <li>
+    du <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021779444" target="_blank">Décret n°2010-112 du 2 février 2010 pris pour l'application des articles 9, 10 et 12 de l'ordonnance n° 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives et entre les autorités administratives</a> ;
+  </li>
+  <li>
+    de l’ <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000027697207/" target="_blank">Arrêté du 4 juillet 2013 autorisant la mise en œuvre par les collectivités territoriales, les établissements publics de coopération intercommunale, les syndicats mixtes, les établissements publics locaux qui leur sont rattachés ainsi que les groupements d'intérêt public et les sociétés publiques locales dont ils sont membres de traitements automatisés de données à caractère personnel ayant pour objet la mise à disposition des usagers d'un ou de plusieurs téléservices de l'administration électronique</a>.
+  </li>
+</ul>
+
+<p>
+  L’adhésion du <strong>Partenaire</strong> au <strong>Service</strong> emporte l’acceptation des présentes CGU.
+</p>
+
+<p>
+  Le <strong>Service</strong> est mis à disposition sans autres garanties expresses ou tacites que celles qui sont prévues par les présentes.
+  <br>
+  Le service est développé conformément à l’état de l’art. Toutefois, il n’est pas garanti qu’il soit exempt
+  d’anomalies ou erreurs. Le service est donc mis à disposition sans garantie sur sa disponibilité et ses
+  performances. À ce titre, la <strong>DINUM</strong> ne peut être tenue responsable des pertes et/ou préjudices, de
+  quelque nature qu’ils soient, qui pourraient être causés à la suite d’un dysfonctionnement ou une indisponibilité du
+  service. De telles situations n'ouvriront droit à aucune compensation financière.
+</p>
+
+<p>
+  Le <strong>Partenaire</strong> s’engage à respecter les présentes CGU et la législation en vigueur. Il s’engage
+  notamment à ne fournir, dans le cadre de l'utilisation du <strong>Service</strong>, que des informations exactes, à jour et complètes.
+</p>
+
+<p>
+  Dans l'hypothèse où le <strong>Partenaire</strong> ne s'acquitterait pas de ses engagements, la <strong>DINUM</strong> se réserve le droit de suspendre ou
+  résilier le service pour ce <strong>Partenaire</strong>, sans préjudice des éventuelles actions en responsabilité pénale et civile qui
+  pourraient être engagées à son encontre.
+</p>
+
+<p>
+  Il est rappelé que toute personne procédant à une fausse déclaration pour elle-même ou pour autrui s'expose,
+  notamment, aux sanctions prévues à l'<a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418753/" target="_blank">Article 441-1 du Code pénal</a>, prévoyant des peines pouvant aller jusqu'à
+  trois ans d'emprisonnement et 45 000 euros d'amende.
+</p>
+
+<h3 class="fr-mt-3w">
+  5. Modification et évolution du Service
+</h3>
+
+<p>
+La <strong>DINUM</strong> se réserve la liberté de faire évoluer, de modifier ou de suspendre, sans préavis,
+le <strong>Service</strong> pour des raisons de maintenance ou pour tout autre motif jugé nécessaire. Une page
+d'information est alors affichée à l'usager lui mentionnant cette indisponibilité.
+</p>
+
+<p>
+Les termes des présentes conditions d’utilisation peuvent être modifiés ou complétés à tout moment, sans préavis,
+en fonction des modifications apportées au <strong>Service</strong>, de l’évolution de la législation ou pour tout autre
+motif jugé nécessaire. Ces modifications et mises à jour s’imposent à l’utilisateur qui doit, en conséquence,
+se référer régulièrement à cette rubrique pour vérifier les conditions générales en vigueur.
+Cette modification fait l’objet d’une communication aux partenaires selon les modalités définies par la <strong>DINUM</strong>.
+</p>
+
+<h3 class="fr-mt-3w">
+  6. Nous contacter
+</h3>
+
+<p>
+  Pour toute demande concernant une difficulté technique, un problème lié à l’utilisation de nos services, ou
+  vos données personnelles (droit d’accès CNIL), vous pouvez nous contacter à l’adresse email <a href="support@entreprise.api.gouv.fr">support@entreprise.api.gouv.fr</a>
+</p>
+
+<p>
+  Pour toute difficulté lors de la procédure d’adhésion au service API Entreprise, veuillez contacter la même adresse :  <a href="support@entreprise.api.gouv.fr">support@entreprise.api.gouv.fr</a>
+</p>
+
+<p>
+  Le 28 juillet 2020
+</p>
+
+  </div>
+</turbo-frame>
+
+</div>
+
+
+
+      <div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-col-12">
+        <div class="fr-follow__newsletter">
+          <div>
+            <h2 class="fr-h5 fr-follow__title">Abonnez-vous à nos lettres d’information</h2>
+            <p class="fr-text--sm fr-follow__desc">Restez informés des dernières API disponibles, des nouvelles fonctionnalités et évolutions techniques, ou encore des opérations de maintenance et incidents.</p>
+          </div>
+          <div>
+            <a class="fr-btn" href="/infolettre">S&#39;abonner</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="fr-footer" role="contentinfo" id="footer">
+  <div class="fr-container">
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <a href="/" title="Retour à l’accueil">
+          <p class="fr-logo" title="république française">
+          République
+          <br>Française
+          </p>
+        </a>
+      </div>
+      <div class="fr-footer__content">
+        <p class="fr-footer__content-desc">
+          API Entreprise, un <strong>service de l'écosystème des API et de la circulation des données</strong> au sein des administrations.
+        </p>
+        <ul class="fr-footer__content-list">
+            <li class="fr-footer__content-item">
+              <a class="fr-footer__content-link" href="https://info.gouv.fr">
+                info.gouv.fr
+              </a>
+            </li>
+            <li class="fr-footer__content-item">
+              <a class="fr-footer__content-link" href="https://service-public.fr">
+                service-public.fr
+              </a>
+            </li>
+            <li class="fr-footer__content-item">
+              <a class="fr-footer__content-link" href="https://legifrance.gouv.fr">
+                legifrance.gouv.fr
+              </a>
+            </li>
+            <li class="fr-footer__content-item">
+              <a class="fr-footer__content-link" href="https://data.gouv.fr">
+                data.gouv.fr
+              </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="#">Plan du site</a>
+        </li>
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité: non conforme</a>
+        </li>
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a>
+        </li>
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="/donnees_personnelles">Données personnelles</a>
+        </li>
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="/cgu">Conditions Générales d'Utilisation</a>
+        </li>
+        <li class="fr-footer__bottom-item">
+          <a class="fr-footer__bottom-link" href="/stats">Statistiques publiques</a>
+        </li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+        Sauf mention contraire, tous les textes de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <dialog aria-labelledby="fr-modal-2-title" id="main-modal" class="fr-modal">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button class="fr-link--close fr-link" aria-controls="main-modal">Fermer</button>
+          </div>
+
+          <turbo-frame id="main-modal-content">
+            <img src="/assets/loading-349266236fc62778931d82aa6bc6494165008c6ce08288a0f7164cc36adb7f34.gif" />
+          </turbo-frame>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+    <div id="tooltip" role="tooltip">
+  <p id="tooltip-text">Placeholder</p>
+  <div id="tooltip-arrow" data-popper-arrow></div>
+</div>
+
+  </body>
+</html>

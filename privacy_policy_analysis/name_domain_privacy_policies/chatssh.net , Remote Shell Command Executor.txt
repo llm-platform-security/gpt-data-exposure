@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11143155511"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11143155511');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@grandiopanda">
+    <meta name="twitter:creator" content="@grandiopanda">
+    <meta name="twitter:title" content="ChatSSH.net - talk to your servers">
+    <meta name="twitter:image" content="https://asktutor.online/tutor.png">
+    <title>ChatSSH.net - Talk to Your Servers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="css/tutor_icon.png" type="image/png">
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-rounded">
+    <a class="navbar-brand" href="index.php"><img src='css/tutor_icon.png' height=30 /> ChatSSH.net</a> <!-- Updated link for Home -->
+    <ul class="navbar-nav ml-auto d-flex flex-row">
+        <li class="nav-item">
+            <a class="btn btn-success ml-2" href="config.html">SSH Token</a> <!-- Added link for GPT Token -->
+        </li>
+        <li class="nav-item ml-2">
+            <a class="btn btn-success ml-2" href="faq.html">Help</a> <!-- Added link for Help -->
+        </li>
+    </ul>
+</nav>
+    <div class="container mt-5">
+    <p><strong>ChatSSH Privacy Notice</strong></p>
+    <p>Effective as of December 1 2023</p>
+    <p>Welcome to ChatSSH! Your privacy and the security of your data are of utmost importance to us. This notice outlines our practices concerning the collection, use, and protection of your information.</p>
+
+    <ol>
+        <li><strong>Information Collection:</strong>
+            <ul>
+                <li><em>SSH Tokens:</em> To facilitate remote server access, ChatSSH requires users to provide a chatSshToken. This token must be obtained from chatssh.net and is necessary for the secure execution of server tasks.</li>
+                <li><em>Command Execution:</em> ChatSSH processes and executes Linux commands on your behalf on remote servers. These commands and their outputs are treated with strict confidentiality.</li>
+            </ul>
+        </li>
+        <li><strong>Use of Information:</strong>
+            <ul>
+                <li>The provided chatSshToken and any commands are used solely for the purpose of executing server tasks as per your request.</li>
+                <li>We do not store, analyze, or share this information for any purpose other than providing the ChatSSH service.</li>
+            </ul>
+        </li>
+        <li><strong>Data Security:</strong>
+            <ul>
+                <li>We employ industry-standard security measures to protect your information from unauthorized access.</li>
+                <li>Our infrastructure ensures that your data is encrypted during transmission and at rest.</li>
+            </ul>
+        </li>
+        <li><strong>Retention of Information:</strong>
+            <ul>
+                <li>ChatSSH does not retain any information post-session. All tokens and command details are discarded once the session ends.</li>
+            </ul>
+        </li>
+        <li><strong>Experimental Use Caution:</strong>
+            <ul>
+                <li>Please note, ChatSSH is intended for experimental use. Users should utilize it at their own risk. The creator, ChatSSH.net, is not responsible for any potential damage or loss of data resulting from its use. Users are encouraged to ensure proper backups and safeguards are in place.</li>
+            </ul>
+        </li>
+        <li><strong>Changes to This Notice:</strong>
+            <ul>
+                <li>We may update this privacy notice to reflect changes in our practices. We will notify you of any significant changes and obtain your consent where required.</li>
+            </ul>
+        </li>
+        <li><strong>Contact Us:</strong>
+            <ul>
+                <li>If you have any questions or concerns about this privacy notice or ChatSSH's handling of your information, please contact us at help@chatssh.net.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>By using ChatSSH, you acknowledge that you have read and understood this privacy notice and agree to use ChatSSH at your own risk.</p>
+</div>
+    <!-- Footer -->
+    <footer class="bg-light mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>ChatSSH is an innovative tool designed to transform computers into intelligent agents, empowering them with AI capabilities for enhanced server management and interaction.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: support@chatssh.net</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

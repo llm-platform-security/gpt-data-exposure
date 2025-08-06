@@ -1,0 +1,3164 @@
+
+
+ 
+<!doctype html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="profile" href="https://gmpg.org/xfn/11">
+ 
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Privacy Policy - Rightsify</title>
+<meta name="description" content="RIGHTSIFY"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://rightsify.com/privacy-policy/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Privacy Policy - Rightsify" />
+<meta property="og:description" content="RIGHTSIFY" />
+<meta property="og:url" content="https://rightsify.com/privacy-policy/" />
+<meta property="og:site_name" content="Rightsify" />
+<meta property="og:updated_time" content="2023-12-09T05:58:53+00:00" />
+<meta property="article:published_time" content="2020-12-17T10:09:38+00:00" />
+<meta property="article:modified_time" content="2023-12-09T05:58:53+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Privacy Policy - Rightsify" />
+<meta name="twitter:description" content="RIGHTSIFY" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="21 minutes" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://rightsify.com/#person","name":"Rightsify"},{"@type":"WebSite","@id":"https://rightsify.com/#website","url":"https://rightsify.com","name":"Rightsify","publisher":{"@id":"https://rightsify.com/#person"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://rightsify.com/privacy-policy/#webpage","url":"https://rightsify.com/privacy-policy/","name":"Privacy Policy - Rightsify","datePublished":"2020-12-17T10:09:38+00:00","dateModified":"2023-12-09T05:58:53+00:00","isPartOf":{"@id":"https://rightsify.com/#website"},"inLanguage":"en-US"},{"@type":"Article","headline":"Privacy Policy - Rightsify","datePublished":"2020-12-17T10:09:38+00:00","dateModified":"2023-12-09T05:58:53+00:00","publisher":{"@id":"https://rightsify.com/#person"},"description":"RIGHTSIFY","name":"Privacy Policy - Rightsify","@id":"https://rightsify.com/privacy-policy/#richSnippet","isPartOf":{"@id":"https://rightsify.com/privacy-policy/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://rightsify.com/privacy-policy/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.youtube.com' />
+<link rel='dns-prefetch' href='//hcaptcha.com' />
+<link rel="alternate" type="application/rss+xml" title="Rightsify &raquo; Feed" href="https://rightsify.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rightsify &raquo; Comments Feed" href="https://rightsify.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/rightsify.com\/wp-includes\/js\/wp-emoji.js?ver=6.3.4","twemoji":"https:\/\/rightsify.com\/wp-includes\/js\/twemoji.js?ver=6.3.4"}};
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+/**
+ * Emoji Settings as exported in PHP via _print_emoji_detection_script().
+ * @typedef WPEmojiSettings
+ * @type {object}
+ * @property {?object} source
+ * @property {?string} source.concatemoji
+ * @property {?string} source.twemoji
+ * @property {?string} source.wpemoji
+ * @property {?boolean} DOMReady
+ * @property {?Function} readyCallback
+ */
+
+/**
+ * Support tests.
+ * @typedef SupportTests
+ * @type {object}
+ * @property {?boolean} flag
+ * @property {?boolean} emoji
+ */
+
+/**
+ * IIFE to detect emoji support and load Twemoji if needed.
+ *
+ * @param {Window} window
+ * @param {Document} document
+ * @param {WPEmojiSettings} settings
+ */
+( function wpEmojiLoader( window, document, settings ) {
+	if ( typeof Promise === 'undefined' ) {
+		return;
+	}
+
+	var sessionStorageKey = 'wpEmojiSettingsSupports';
+	var tests = [ 'flag', 'emoji' ];
+
+	/**
+	 * Checks whether the browser supports offloading to a Worker.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {boolean}
+	 */
+	function supportsWorkerOffloading() {
+		return (
+			typeof Worker !== 'undefined' &&
+			typeof OffscreenCanvas !== 'undefined' &&
+			typeof URL !== 'undefined' &&
+			URL.createObjectURL &&
+			typeof Blob !== 'undefined'
+		);
+	}
+
+	/**
+	 * @typedef SessionSupportTests
+	 * @type {object}
+	 * @property {number} timestamp
+	 * @property {SupportTests} supportTests
+	 */
+
+	/**
+	 * Get support tests from session.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {?SupportTests} Support tests, or null if not set or older than 1 week.
+	 */
+	function getSessionSupportTests() {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = JSON.parse(
+				sessionStorage.getItem( sessionStorageKey )
+			);
+			if (
+				typeof item === 'object' &&
+				typeof item.timestamp === 'number' &&
+				new Date().valueOf() < item.timestamp + 604800 && // Note: Number is a week in seconds.
+				typeof item.supportTests === 'object'
+			) {
+				return item.supportTests;
+			}
+		} catch ( e ) {}
+		return null;
+	}
+
+	/**
+	 * Persist the supports in session storage.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {SupportTests} supportTests Support tests.
+	 */
+	function setSessionSupportTests( supportTests ) {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = {
+				supportTests: supportTests,
+				timestamp: new Date().valueOf()
+			};
+
+			sessionStorage.setItem(
+				sessionStorageKey,
+				JSON.stringify( item )
+			);
+		} catch ( e ) {}
+	}
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} set1 Set of Emoji to test.
+	 * @param {string} set2 Set of Emoji to test.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( context, set1, set2 ) {
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set1, 0, 0 );
+		var rendered1 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set2, 0, 0 );
+		var rendered2 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		return rendered1.every( function ( rendered2Data, index ) {
+			return rendered2Data === rendered2[ index ];
+		} );
+	}
+
+	/**
+	 * Determines if the browser properly renders Emoji that Twemoji can supplement.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( context, type, emojiSetsRenderIdentically ) {
+		var isIdentical;
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. Added in Unicode 13.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F', // as a zero-width joiner sequence
+					'\uD83C\uDFF3\uFE0F\u200B\u26A7\uFE0F' // separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDDFA\uD83C\uDDF3', // as the sequence of two code points
+					'\uD83C\uDDFA\u200B\uD83C\uDDF3' // as the two code points separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather a five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					// as the flag sequence
+					'\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F',
+					// with each code point separated by a zero-width space
+					'\uD83C\uDFF4\u200B\uDB40\uDC67\u200B\uDB40\uDC62\u200B\uDB40\uDC65\u200B\uDB40\uDC6E\u200B\uDB40\uDC67\u200B\uDB40\uDC7F'
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Why can't we be friends? Everyone can now shake hands in emoji, regardless of skin tone!
+				 *
+				 * To test for Emoji 14.0 support, try to render a new emoji: Handshake: Light Skin Tone, Dark Skin Tone.
+				 *
+				 * The Handshake: Light Skin Tone, Dark Skin Tone emoji is a ZWJ sequence combining 🫱 Rightwards Hand,
+				 * 🏻 Light Skin Tone, a Zero Width Joiner, 🫲 Leftwards Hand, and 🏿 Dark Skin Tone.
+				 *
+				 * 0x1FAF1 == Rightwards Hand
+				 * 0x1F3FB == Light Skin Tone
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0x1FAF2 == Leftwards Hand
+				 * 0x1F3FF == Dark Skin Tone.
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFF', // as the zero-width joiner sequence
+					'\uD83E\uDEF1\uD83C\uDFFB\u200B\uD83E\uDEF2\uD83C\uDFFF' // separated by a zero-width space
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Checks emoji support tests.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {string[]} tests Tests.
+	 * @param {Function} browserSupportsEmoji Reference to browserSupportsEmoji function, needed due to minification.
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {SupportTests} Support tests.
+	 */
+	function testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically ) {
+		var canvas;
+		if (
+			typeof WorkerGlobalScope !== 'undefined' &&
+			self instanceof WorkerGlobalScope
+		) {
+			canvas = new OffscreenCanvas( 300, 150 ); // Dimensions are default for HTMLCanvasElement.
+		} else {
+			canvas = document.createElement( 'canvas' );
+		}
+
+		var context = canvas.getContext( '2d', { willReadFrequently: true } );
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		var supports = {};
+		tests.forEach( function ( test ) {
+			supports[ test ] = browserSupportsEmoji( context, test, emojiSetsRenderIdentically );
+		} );
+		return supports;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {string} src The url where the script is located.
+	 *
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+		script.src = src;
+		script.defer = true;
+		document.head.appendChild( script );
+	}
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	// Create a promise for DOMContentLoaded since the worker logic may finish after the event has fired.
+	var domReadyPromise = new Promise( function ( resolve ) {
+		document.addEventListener( 'DOMContentLoaded', resolve, {
+			once: true
+		} );
+	} );
+
+	// Obtain the emoji support from the browser, asynchronously when possible.
+	new Promise( function ( resolve ) {
+		var supportTests = getSessionSupportTests();
+		if ( supportTests ) {
+			resolve( supportTests );
+			return;
+		}
+
+		if ( supportsWorkerOffloading() ) {
+			try {
+				// Note that the functions are being passed as arguments due to minification.
+				var workerScript =
+					'postMessage(' +
+					testEmojiSupports.toString() +
+					'(' +
+					[
+						JSON.stringify( tests ),
+						browserSupportsEmoji.toString(),
+						emojiSetsRenderIdentically.toString()
+					].join( ',' ) +
+					'));';
+				var blob = new Blob( [ workerScript ], {
+					type: 'text/javascript'
+				} );
+				var worker = new Worker( URL.createObjectURL( blob ), { name: 'wpTestEmojiSupports' } );
+				worker.onmessage = function ( event ) {
+					supportTests = event.data;
+					setSessionSupportTests( supportTests );
+					worker.terminate();
+					resolve( supportTests );
+				};
+				return;
+			} catch ( e ) {}
+		}
+
+		supportTests = testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically );
+		setSessionSupportTests( supportTests );
+		resolve( supportTests );
+	} )
+		// Once the browser emoji support has been obtained from the session, finalize the settings.
+		.then( function ( supportTests ) {
+			/*
+			 * Tests the browser support for flag emojis and other emojis, and adjusts the
+			 * support settings accordingly.
+			 */
+			for ( var test in supportTests ) {
+				settings.supports[ test ] = supportTests[ test ];
+
+				settings.supports.everything =
+					settings.supports.everything && settings.supports[ test ];
+
+				if ( 'flag' !== test ) {
+					settings.supports.everythingExceptFlag =
+						settings.supports.everythingExceptFlag &&
+						settings.supports[ test ];
+				}
+			}
+
+			settings.supports.everythingExceptFlag =
+				settings.supports.everythingExceptFlag &&
+				! settings.supports.flag;
+
+			// Sets DOMReady to false and assigns a ready function to settings.
+			settings.DOMReady = false;
+			settings.readyCallback = function () {
+				settings.DOMReady = true;
+			};
+		} )
+		.then( function () {
+			return domReadyPromise;
+		} )
+		.then( function () {
+			// When the browser can not render everything we need to load a polyfill.
+			if ( ! settings.supports.everything ) {
+				settings.readyCallback();
+
+				var src = settings.source || {};
+
+				if ( src.concatemoji ) {
+					addScript( src.concatemoji );
+				} else if ( src.wpemoji && src.twemoji ) {
+					addScript( src.twemoji );
+					addScript( src.wpemoji );
+				}
+			}
+		} );
+} )( window, document, window._wpemojiSettings );
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://rightsify.com/wp-includes/css/dist/block-library/style.css?ver=6.3.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://rightsify.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-intlTelInput-style-css' href='https://rightsify.com/wp-content/plugins/country-phone-field-contact-form-7/assets/css/intlTelInput.min.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-countryFlag-style-css' href='https://rightsify.com/wp-content/plugins/country-phone-field-contact-form-7/assets/css/countrySelect.min.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='menu-image-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/miraculous-menu-image.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pmpro_frontend-css' href='https://rightsify.com/wp-content/plugins/paid-memberships-pro/css/frontend.css?ver=2.12.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='pmpro_print-css' href='https://rightsify.com/wp-content/plugins/paid-memberships-pro/css/print.css?ver=2.12.2' type='text/css' media='print' />
+<link rel='stylesheet' id='miraculous-style-css' href='https://rightsify.com/wp-content/themes/miraculous/style.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='miraculous-fonts-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/fonts.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/bootstrap.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/swiper/css/swiper.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='miraculous-nice-select-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/nice_select/nice-select.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='miraculous-volume-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/player/volume.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='mcustomscrollbar-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/scroll/jquery.mCustomScrollbar.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='toastr-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/toastr.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='slickslider-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/slick.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='miraculous-custom-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/miraculous-custom-style.css?ver=1' type='text/css' media='all' />
+<style id='miraculous-custom-inline-css' type='text/css'>
+.ms_relative_inner .swiper-wrapper{
+	                    transform: translate3d(-921.75px, 0px, 0px);
+	                    transition-duration: 0ms;
+	                }
+	                .ms_relative_inner .swiper-wrapper .swiper-slide{
+	                	width: 238.833px;
+	                	margin-right: 30px;
+	                }
+</style>
+<link rel='stylesheet' id='miraculous-custom-light-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/miraculous-custom-light-style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='miraculous-color-option-css' href='https://rightsify.com/wp-content/themes/miraculous/assets/css/color/color5.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css' href='https://rightsify.com/wp-includes/css/buttons.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://rightsify.com/wp-includes/css/dashicons.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://rightsify.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://rightsify.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='media-views-css' href='https://rightsify.com/wp-includes/css/media-views.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='imgareaselect-css' href='https://rightsify.com/wp-includes/js/imgareaselect/imgareaselect.css?ver=0.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='fw-ext-breadcrumbs-add-css-css' href='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/breadcrumbs/static/css/style.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fw-ext-builder-frontend-grid-css' href='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/builder/static/css/frontend-grid.css?ver=1.2.11' type='text/css' media='all' />
+<link rel='stylesheet' id='fw-ext-forms-default-styles-css' href='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/forms/static/css/frontend.css?ver=2.7.23' type='text/css' media='all' />
+<link rel='stylesheet' id='fw-shortcode-section-background-video-css' href='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/css/background.css?ver=6.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fw-shortcode-section-css' href='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/css/styles.css?ver=6.3.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/jquery/jquery.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='utils-js-extra'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1715201006","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/utils.js?ver=6.3.4' id='utils-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/plupload/moxie.js?ver=1.3.5' id='moxiejs-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/plupload/plupload.js?ver=2.1.9' id='plupload-js'></script>
+<!--[if lt IE 8]>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/json2.js?ver=2015-05-03' id='json2-js'></script>
+<![endif]-->
+<script type='text/javascript' defer src='https://rightsify.com/wp-content/themes/miraculous/assets/js/frontend-profile-upload.js?ver=20151215' id='miraculous-frontend-profile-upload-js'></script>
+<script type='text/javascript' src='https://www.youtube.com/iframe_api?ver=6.3.4' id='youtube-iframe-api-js'></script>
+<link rel="https://api.w.org/" href="https://rightsify.com/wp-json/" /><link rel="alternate" type="application/json" href="https://rightsify.com/wp-json/wp/v2/pages/3061" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://rightsify.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.4" />
+<link rel='shortlink' href='https://rightsify.com/?p=3061' />
+<link rel="alternate" type="application/json+oembed" href="https://rightsify.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frightsify.com%2Fprivacy-policy%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://rightsify.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frightsify.com%2Fprivacy-policy%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.107.0" /><style>
+        .wpap-loadmore-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            margin: 20px 0; 
+        }   
+        .wpap-loadmore-wrapper .wpap-loadmore-button{
+            background-color: #ffffff;
+            color: ;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ;
+            box-shadow: 1px 1px 10px 0 #b4b4b4;
+            
+        }
+        .wpap-visibility-hidden{
+           display: none;
+        }
+            .wp-ajax-pagination-loading{
+                position:fixed;
+                display: block;
+                top:0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.4);
+                z-index:10000;
+                background-image: url('https://rightsify.com/wp-content/plugins/wp-ajax-pagination/assets/frontend/img/loader.gif');
+                background-position: 50% 50%;
+                background-size: 60px;
+                background-repeat: no-repeat; 
+            }
+            </style>		<!--suppress CssUnresolvedCustomProperty, CssUnusedSymbol -->
+		<style>
+			#wpdiscuz-subscribe-form .h-captcha {
+				margin-left: auto;
+			}
+
+			div.wpforms-container-full .wpforms-form .h-captcha,
+			#wpforo #wpforo-wrap div .h-captcha,
+			.h-captcha {
+				position: relative;
+				display: block;
+				margin-bottom: 2rem;
+				padding: 0;
+				clear: both;
+			}
+
+			#hcaptcha-options .h-captcha {
+				margin-bottom: 0;
+			}
+
+			#af-wrapper div.editor-row.editor-row-hcaptcha {
+				display: flex;
+				flex-direction: row-reverse;
+			}
+
+			#af-wrapper div.editor-row.editor-row-hcaptcha .h-captcha {
+				margin-bottom: 0;
+			}
+
+			.brz-forms2.brz-forms2__item .h-captcha {
+				margin-bottom: 0;
+			}
+
+			form.wpsc-create-ticket .h-captcha {
+				margin: 0 15px 15px 15px;
+			}
+
+			.frm-fluent-form .h-captcha {
+				line-height: 0;
+				margin-bottom: 0;
+			}
+
+			.passster-form .h-captcha {
+				margin-bottom: 5px;
+			}
+
+			#wpforo #wpforo-wrap.wpft-topic div .h-captcha,
+			#wpforo #wpforo-wrap.wpft-forum div .h-captcha {
+				margin: 0 -20px;
+			}
+
+			.wpdm-button-area + .h-captcha {
+				margin-bottom: 1rem;
+			}
+
+			.w3eden .btn-primary {
+				background-color: var(--color-primary) !important;
+				color: #fff !important;
+			}
+
+			div.wpforms-container-full .wpforms-form .h-captcha[data-size="normal"],
+			.h-captcha[data-size="normal"] {
+				width: 303px;
+				height: 78px;
+			}
+
+			div.wpforms-container-full .wpforms-form .h-captcha[data-size="compact"],
+			.h-captcha[data-size="compact"] {
+				width: 164px;
+				height: 144px;
+			}
+
+			div.wpforms-container-full .wpforms-form .h-captcha[data-size="invisible"],
+			.h-captcha[data-size="invisible"] {
+				display: none;
+			}
+
+			.h-captcha::before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: url(https://rightsify.com/wp-content/plugins/hcaptcha-for-forms-and-more/assets/images/hcaptcha-div-logo.svg) no-repeat;
+				border: 1px solid transparent;
+				border-radius: 4px;
+			}
+
+			.h-captcha[data-size="normal"]::before {
+				width: 300px;
+				height: 74px;
+				background-position: 94% 28%;
+			}
+
+			.h-captcha[data-size="compact"]::before {
+				width: 156px;
+				height: 136px;
+				background-position: 50% 79%;
+			}
+
+			.h-captcha[data-theme="light"]::before,
+			body.is-light-theme .h-captcha[data-theme="auto"]::before,
+			.h-captcha[data-theme="auto"]::before {
+				background-color: #fafafa;
+				border: 1px solid #e0e0e0;
+			}
+
+			.h-captcha[data-theme="dark"]::before,
+			body.is-dark-theme .h-captcha[data-theme="auto"]::before,
+			html.wp-dark-mode-active .h-captcha[data-theme="auto"]::before,
+			html.drdt-dark-mode .h-captcha[data-theme="auto"]::before {
+				background-image: url(https://rightsify.com/wp-content/plugins/hcaptcha-for-forms-and-more/assets/images/hcaptcha-div-logo-white.svg);
+				background-repeat: no-repeat;
+				background-color: #333;
+				border: 1px solid #f5f5f5;
+			}
+
+			.h-captcha[data-size="invisible"]::before {
+				display: none;
+			}
+
+			div.wpforms-container-full .wpforms-form .h-captcha iframe,
+			.h-captcha iframe {
+				position: relative;
+			}
+
+			span[data-name="hcap-cf7"] .h-captcha {
+				margin-bottom: 0;
+			}
+
+			span[data-name="hcap-cf7"] ~ input[type="submit"],
+			span[data-name="hcap-cf7"] ~ button[type="submit"] {
+				margin-top: 2rem;
+			}
+
+			.elementor-field-type-hcaptcha .elementor-field {
+				background: transparent !important;
+			}
+
+			.elementor-field-type-hcaptcha .h-captcha {
+				margin-bottom: unset;
+			}
+
+			#wppb-loginform .h-captcha {
+				margin-bottom: 14px;
+			}
+
+			div[style*="z-index: 2147483647"] div[style*="border-width: 11px"][style*="position: absolute"][style*="pointer-events: none"] {
+				border-style: none;
+			}
+		</style>
+		<link rel="icon" href="https://rightsify.com/wp-content/uploads/2020/07/logo-36x36.png" sizes="32x32" />
+<link rel="icon" href="https://rightsify.com/wp-content/uploads/2020/07/logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://rightsify.com/wp-content/uploads/2020/07/logo.png" />
+<meta name="msapplication-TileImage" content="https://rightsify.com/wp-content/uploads/2020/07/logo.png" />
+		<style type="text/css" id="wp-custom-css">
+			footer.entry-footer {
+    margin-top: 10px;
+    display: none !important;
+}		</style>
+		 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+ <!-- Global site tag (gtag.js) - Google Ads: 990970948 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-990970948"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-990970948');
+</script>
+
+<script defer src="https://analytics.us.umami.is/script.js" data-website-id="9b3d644f-46e8-45a7-97b7-c5ff674f4cdf"></script>
+
+
+  </head> 
+<body class="page-template page-template-template-parts page-template-tpl_landing_page page-template-template-partstpl_landing_page-php page page-id-3061 ms_public_user   pmpro-body-has-access">
+
+
+
+<style>
+.btn_default,#submit_fr,.foo_sharing ul li a,.ms_btn{
+  background-color: #d800ea !important;
+}
+.banner .text-left h1 span,.worldwide P a,.music h3 span,.price-text span
+{
+  color: #d800ea !important;
+  border-bottom: 2px solid #d800ea !important;
+}
+#member-profile-edit .pmpro_submit{
+  display: block !important;
+}
+input[type="submit"], input[type="reset"]
+{
+  background-color: #d800ea !important;
+  border: 1px solid #d800ea !important;
+}
+.pmpro_submit hr{display: none !important;}
+</style>
+
+   
+
+
+
+
+<script type="text/javascript">
+jQuery(".menu-header").appendTo(".ms_top_trend");
+
+jQuery("li#menu-item-2337 a.menu-image-title-after").click(function() {
+	jQuery("li a.menu-image-title-after span.menu-image-title").css("color", "#3f3f3f");
+	jQuery("li#menu-item-2337 a.menu-image-title-after span.menu-image-title").css("color", "#ff4865");
+    jQuery('html, body').animate({
+        scrollTop: jQuery("div#Features").offset().top
+    }, 1500);
+});
+
+jQuery("li#menu-item-2338 a.menu-image-title-after").click(function() {
+	jQuery("li a.menu-image-title-after span.menu-image-title").css("color", "#3f3f3f");
+	jQuery("li#menu-item-2338 a.menu-image-title-after span.menu-image-title").css("color", "#ff4865");
+    jQuery('html, body').animate({
+        scrollTop: jQuery("div#Pricing").offset().top
+    }, 1500);
+});
+
+setTimeout(function(){
+  if(jQuery( ".banner_img_inner" ).hasClass( "front_page" )){
+    jQuery(".banner_img").parent().parent().parent().parent().addClass("full_width_banner");
+  }  
+}, 1000);
+
+jQuery(document).ready(function(){
+  jQuery(".header .button").click(function(){
+    jQuery('.menu-header').toggleClass('show_menus');
+    jQuery('.header .button img').toggleClass('show_menus_icons');
+    jQuery('.header-main .header').toggleClass("slide_menu_options");
+  });
+});
+
+</script>
+
+<header class="header-main">
+  <input type="hidden" class="cun_val" value="">
+        <div class="container">
+
+            <div class="header">
+                <div class="logo"><a href="https://rightsify.com"><img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/new-logo.png" alt="logo"></a></div>
+                  
+
+
+                <div class="button burger_menu"><img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/button.png" alt="button"></div>
+                <div class="header-search" style="display:none;">
+                                  </div>
+
+            <!-- <div class="Curancy_swith currency_switch">
+            <form action="" method="">
+            <select name="convert_from">
+            <option  value="USD">$ USD</option>
+            <option  value="AUD">$ AUD</option>
+             <option  value="NZ">$ NZ</option>
+            </select>
+            </form>
+            </div> -->
+
+            </div>
+        </div>
+        <div class="menu-header"><ul id="menu-main-manu" class="menu"><li id="menu-item-3731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3731"><a title="Playlists" href="https://rightsify.com/playlist/" class="menu-image-title-after"><span class="menu-image-title">Playlists</span></a></li>
+<li id="menu-item-2339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2339"><a title="Blog" href="https://rightsify.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></li>
+<li id="menu-item-2554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2554"><a title="Contact" href="https://rightsify.com/contact-us/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></li>
+<li id="menu-item-20003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20003"><a title="Hydra" href="https://rightsify.com/hydra/" class="menu-image-title-after"><span class="menu-image-title">Hydra</span></a></li>
+<li class="right"><a href="https://rightsify.com/login/?redirect_to=https%3A%2F%2Frightsify.com%2Fprivacy-policy%2F">Log In</a></li></ul></div>    </header>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function(){ 
+var cuntry_ipp = "USD";
+if(cuntry_ipp == 'AUD' || cuntry_ipp == 'NZD')
+{
+
+  price_val = jQuery('.cng_price').text();
+   var num = price_val.match(/[\d\.]+/g);
+    if (num != null){
+        var number = num.toString();
+        
+        jQuery.ajax({
+        // use the ajax object url
+        url: 'https://rightsify.com/wp-admin/admin-ajax.php',
+        data: {
+        action: "get_currancy_price", // add your action to the data object
+        price_val: number,
+        cuntry_ipp:cuntry_ipp,
+        },
+        success: function(data) {
+          
+         jQuery('.cng_price').html('$'+data+' '+cuntry_ipp);
+        
+        },
+        error: function(data) {
+         // test to see what you get back on error
+         console.log(data);
+        }
+     });
+
+    }
+}
+// //jQuery('.pricing-plan .description').hide();
+// var cuntry_ipp = "USD";
+// //alert(cuntry_ipp)
+// sessionStorage.setItem("cuntry_ipp", cuntry_ipp);
+// var new_val_cn = sessionStorage.getItem("cuntry_ipp");
+
+// var body_val = jQuery('.cun_val').val(new_val_cn);
+
+// var new_val = sessionStorage.getItem("select_currency");
+
+
+// if(new_val_cn == 'AUD')
+// {     
+ 
+//  jQuery('.pricing-plan .description.AUD').show();
+//   var plan_url = 'https://rightsify.com/membership-account/purchase-your-license/?level=7';
+//      jQuery('.butoon_plan a').attr('href' ,plan_url);
+// }else if(new_val_cn == 'NZD')
+// {
+//  jQuery('.pricing-plan .description.NZD').show();
+//   var plan_url = 'https://rightsify.com/membership-account/purchase-your-license/?level=7';
+//   jQuery('.butoon_plan a').attr('href' , plan_url);
+// }else{
+    
+//     jQuery('.pricing-plan .description.USD').show();
+//     var plan_url = 'https://rightsify.com/membership-account/purchase-your-license/?level=7';
+//     jQuery('.butoon_plan a').attr('href' ,plan_url);   
+// }
+
+// if(new_val == 'null' || new_val == null )
+// {
+//   // alert('yes');
+// jQuery ('.currency_switch select option[value="'+cuntry_ipp+'"]').attr("selected", "selected");
+// } else
+// {  
+//   // alert('no');
+//    jQuery ('.currency_switch select option[value="'+new_val+'"]').attr("selected", "selected");
+// }
+
+// // alert(cuntry_ipp);
+
+// // alert(new_val)
+// jQuery(".currency_switch select").change(function () {
+//   sessionStorage.setItem("default_currency", "USD");
+//   var select_currency = jQuery(this).val();
+   
+//    if(select_currency != ''){
+//       sessionStorage.setItem("select_currency", select_currency);
+     
+//    } else{
+
+//         sessionStorage.setItem("select_currency", 'USD');
+//    }
+  
+//   location.reload(true);
+// });
+
+
+});
+</script>
+<div class="custome-lading-page-template">
+<div class="ms_content_wrapper landing_page">
+	
+										<article id="post-3061">
+										    
+									    									    <div class="ms_entry_content">
+											<div class="fw-page-builder-content"><section class="fw-main-row  "  >
+	<div class="fw-container">
+		<div class="fw-row">
+	<div class="fw-col-xs-12">
+	<div class="privacy-content-container"><div class="privacy-first-content"><p><strong>RIGHTSIFY</strong></p><p><strong>PRIVACY POLICY</strong></p><p><strong>Last Updated</strong>: December 11th, 2023</p><p>Rightsify is committed to protecting your privacy and, for that reason, we have adopted this Privacy Policy to explain our data collection, use, and disclosure practices for our website, our mobile app, and the related products and services made available by Rightsify (the “<strong>Platform</strong>”). The Platform is owned and operated by Rightsify Group, LLC. (“<strong>Rightsify</strong>”, “<strong>we</strong>”, “<strong>us</strong>” or “<strong>our</strong>”).</p><p>This Privacy Policy applies to information Rightsify collects through the Platform, as well as other information provided to us online or offline by third parties when we associate that information with users of the Platform (but not to information collected from our employees, contractors, or vendors). While Rightsify will never sell your Personal Information to any third party for their marketing purposes, certain third parties may also be able to collect information via the Platform. The data collection and use practices of these third parties may be governed by those third parties’ own policies.</p><p>This Privacy Policy describes, among other things:</p><ul><li>Personal and other information we collect about you;</li><li>How we use your information;</li><li>How we may share your information with third parties; and</li><li>Your choices regarding the personal information we collect about you.</li></ul><ol><li><strong> Consent</strong></li></ol><p>By accessing or using the Platform, you consent to this Privacy Policy. If you do not agree with this Privacy Policy, please do not access, or use the Platform. Information gathered through the Platform may be transferred, used, and stored in the United States or in other countries where our service providers, our affiliates or we are located. If you use the Platform, you agree to the transfer, use, and storage of your Personal Information (as defined below) in those countries. The data protection and other laws of the United States and other countries might not be as comprehensive as those in your country. You agree that all transactions relating to the Platform or Rightsify are deemed to occur in the United States, where our servers are located.</p><p><strong>European Union Residents</strong></p><p>If you reside in a country in the European Economic Area or in Switzerland, then information we collect from you may be subject to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (the “<strong>GDPR</strong>”) and the following additional information is provided for your benefit.</p><p>The controller of the personal data collected through the Platform is:</p><p>Rightsify Group, LLC</p><p>17 East Colorado Boulevard, Suite 600</p><p>Pasadena, California, 91105</p><p>If you use the Platform, you acknowledge that your personal data is being processed pursuant to the following lawful bases: your consent, Rightsify’s legitimate interests, to fulfil requests made by you, and compliance with applicable law. You further acknowledge and consent to your information that is gathered through the Platform being transferred to, used in, and stored in the United States.</p><p>You may withdraw your consent at any time by following the instructions in the Accessing/Updating/Deleting Your Personal Information section below, but this will not affect the lawfulness of processing based on consent before its withdrawal. However, if you withdraw your consent or decline to provide personal data to us, you may be unable to use the Platform. You have the right to file a complaint relating to the processing of personal data with a supervisory authority.</p><p><strong>Accessing/Updating/Deleting Your Personal Information</strong></p><p>If you would like to delete, update, or access the Personal Information we have collected from you, and/or deactivate or delete your Rightsify account, you may do so by sending an email to help@rightsify.com Additionally, if your Personal Information is subject to the GDPR, you may have certain additional rights, including the right of restriction of processing of personal data, and the right to object to the processing of personal data. Please send e-mail to help@rightsify.com for more information.</p><ol start="2"><li><strong> Collection of Your Personal and Other Information</strong></li></ol><p>When you use the Platform we collect Personal Information. By “Personal Information” we mean information that can identify an individual, such as:</p><ul><li>Name;</li><li>Email address;</li><li>Address</li><li>Company Name (if applicable)</li><li>Your Internet Protocol (IP address)</li></ul><p>Rightsify also collects any information that you choose to upload or transmit to the Platform including, without limitation, text prompts in connection with Hydra, our generative artificial intelligence music service.</p><p>The Platform may integrate with social media and other third-party platforms, including, but not limited to, Google and Meta to enable account creation and login. When you connect your account from a third-party platform to the Platform, then we may collect information from that third-party platform and share information with that third-party platform for account creation and authentication. This collected information may include, but is not limited to, your name, email address, or other content. You acknowledge and agree that Rightsify is not responsible for the data collection or use practices of any such connected third-party platform. You should read each third-party platform’s privacy policy before connecting that third-party account.</p><p>You may choose not to provide Personal Information, but this may prevent you from receiving certain features of the Rightsify Platform.</p><p>When you use our mobile application, we may request to send you push notifications regarding your account or the mobile application. If you wish to opt-out from receiving these types of communications, you may turn them off in your device’s settings.</p><p>We may also collect non-Personal Information relating to the Platform, that is, information that does not personally identify an individual. The non-Personal Information we may collect includes how you interact with the Platform, information generally collected or “logged” by Internet websites or Internet services when accessed or used by users, and information about your web browser or device accessing or using the Platform.</p><p>Examples of the non-Personal Information we may collect are:</p><ul><li>Information about your computer or mobile device, such as its maker or operating system version, and HTTP header information</li><li>The pages of our website that you viewed during a visit;</li><li>What information, or content you view or interact with using the Platform; and</li><li>The city, state, province and country in which you are located;</li></ul><p>We will not use non-Personal Information to try to identify you, and if we associate any non-Personal Information with information that personally identifies you, then we will treat it as Personal Information. As discussed in more detail below, we sometimes use cookies and other automatic information gathering technologies to gather non-Personal Information.</p><p>Information collected by the Platform may be collected by us or one of our service providers, but in either case, this Privacy Policy will govern our collection, use, and sharing of the information.</p><ol start="3"><li><strong> Use of Your Information</strong></li></ol><p>We may use the information we collect to:</p><ul><li>Assist us in providing, maintaining, and protecting the Platform;</li><li>Set up, maintain, and protect accounts to use the Platform;</li><li>Improve our online operations;</li><li>Process transactions;</li><li>Provide customer service;</li><li>Communicate with you, such as provide you with account or transaction-related communications, or other newsletters, and/or other communications relating to the Platform;</li><li>Send or display offers and other content that is customized to your interests or preferences and to measure its effectiveness;</li><li>Perform research and analysis aimed at improving our products and services and developing new products or services; and</li><li>Manage and maintain the systems that provide the Platform.</li><li>Deliver targeted advertising to you&nbsp;for our business purposes;</li></ul><ol start="4"><li><strong> Disclosure of Your Information</strong></li></ol><p>We may disclose your Personal Information to third parties as described below.</p><p>We may disclose Personal Information, to provide services to you, or when you authorize or instruct us to do so. We may also disclose Personal Information and non-Personal Information to companies, agents, contractors, service providers, or others engaged to perform functions on our behalf (such as processing of payments, provision of data storage, hosting of our website, marketing of our products and services to you, conducting audits, and performing web analytics).</p><p>We may license third party software to include in or use with the Platform, in which case we may disclose Personal Information and/or Non-Personal Information to the licensor. These third parties’ collection and use of Personal Information and non-Personal Information are subject to their own privacy policies, which you can read here:</p><ul><li><a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener">Google Analytics</a></li><li><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudfare</a></li><li><a href="https://aws.amazon.com/privacy/" target="_blank" rel="noopener">AWS</a></li><li><a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe</a></li><li><a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Meta</a></li><li><a href="https://www.nextroll.com/privacy" target="_blank" rel="noopener">Adroll</a></li></ul><p>We may also disclose Personal Information to other third parties upon your affirmative consent to such disclosures.</p><p>In addition, we may disclose your Personal Information to third parties when we believe, in good faith and in our sole discretion, that such disclosure is reasonably necessary to (a) enforce or apply the terms and conditions of the Platform, including investigation of potential violations thereof, (b) comply with legal or regulatory requirements or an enforceable governmental request, (c) protect the rights, property or safety of Rightsify, our users, or other third parties, (d) prevent a crime or protect national security, or (e) detect, prevent or otherwise address fraud, security or technical issues.</p><p>Finally, we reserve the right to transfer information (including your Personal Information) to a third party in the event of a sale, merger, or transfer of all or a portion of the assets of our company relating to the Platform, or in the unlikely event of a bankruptcy, liquidation, or receivership of our business. We will use commercially reasonable efforts to notify you of such transfer, for example via email or by posting notice on our website.</p><p>Lastly, we may also disclose non-Personal Information, aggregated with information about our other users, to our business partners, merchants, investors, potential buyers and other third parties if we deem such disclosure, in our sole discretion, to have sound business reasons or justifications.</p><ol start="5"><li><strong> Cookies and Automatic Information Gathering Technologies</strong></li></ol><p>Every time you use the Platform, we collect Personal and non-Personal Information (discussed above in Section 2) regarding that use. For example, to improve the Platform, we collect how, when, and which parts of the Platform or its features you use, which third-party platforms you connect to the Platform, and when, how, and what you post to the third-party platforms through the Platform. Also, we may use your device’s unique identifier (UDID), media access control address (MAC Address), or other unique identifiers to assist us in collecting and analyzing this data.</p><p>To assist us in collecting and storing this Personal and non-Personal Information, we may employ a variety of technologies, including “Cookies,” local browser storage, and “Web Beacons.” A “Cookie” is a small amount of data a website operator, or a third party whose content is embedded in that website, may store in your web browser and that the website operator or, as applicable, the third party, can access when you visit the website.</p><p>Site Cookies may contain user preferences, unique identifiers, and other non-Personal Information. A “<strong>Web Beacon</strong>” is a small, usually transparent image placed on a web page that allows the operator of that image, which may be the operator of the website you visit or a third party, to read or write a Cookie.</p><p>We, or our marketing partners and/or vendors may use Cookies to determine whether you have seen a particular advertisement before on the same or different device and to otherwise control and tailor the display of ads to you based on your preferences, to track the movements of individual users through the Platform and elsewhere on the web or across apps, devices, and geographic locations, to help diagnose problems with servers, to gather broad demographic information, to conduct research, to record registration and personalization information, and to otherwise administer the Platform.</p><p>In addition, Rightsify may use Cookies in our communications with you, such as within email and text messages and push notifications, and to determine which messages have been opened by recipients.</p><p>Your operating system and web browser may allow you to erase information stored in Cookies, and local browser storage. But if you do so, you may be forced to login to the Platform again and you may lose some preferences or settings. You may also be able to set your browser to refuse all website storage or to indicate when it is permitted, but some features of the Platform may not function properly without it. We may use Cookies to keep you logged in, save your preferences for the Rightsify Platform, and to collect information about how you use the Platform.</p><p>More information about managing Cookies is available <a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener">here</a>. To learn how to manage privacy and storage settings for your local browser storage, please refer to the end user documentation for your browser.</p><ol start="6"><li><strong> Transparency and Choice</strong></li></ol><p>You may request access to your Personal Information by sending an email to&nbsp;help@rightsify.com We will provide you with your Personal Information and give you the opportunity to correct this data, if it is inaccurate, or to delete it, at your request. But, in either case, we may need to retain it for legal reasons or for legitimate business purposes.</p><p>We ask individual users to identify themselves and the information requested to be accessed, corrected, or removed before processing such requests, and we may decline to process requests that are unreasonably repetitive or systematic, require disproportionate technical effort, jeopardize the privacy of others, would be extremely impractical (for instance, requests concerning information residing on backups), or relate to information that is not associated with your Personal Information. In any case, where we provide information access and correction, we perform this service free of charge, except if doing so would require a disproportionate effort.</p><p>Please be aware that if you request us to delete your Personal Information, you may not be able to continue to use the Platform. Also, even if you request that we delete your Personal Information, we may need to retain certain information for a limited period of time to satisfy our legal, audit and/or dispute resolution requirements.</p><p>You can opt out of receiving marketing emails from us by clicking on the “unsubscribe” link in the emails. Please note that it may take up to ten (10) business days for your opt-out request to be processed. Also, even if you opt out of marketing emails, we may continue to send you certain account-related emails, such as notices about your account and confirmations of transactions you have requested.</p><ol start="7"><li><strong> Children</strong></li></ol><p>The Platform is geared toward a general audience and is not directed to anyone under 18 years of age. We do not knowingly collect Personal Information from anyone under the age of 18. If we become aware that we have collected Personal Information from a person under 18, we will promptly delete the information, unless we are legally obligated to retain such information. &nbsp;If you believe a person who is under the age of 18 may have provided us with Personal Information, please contact us as specified in the “How to Contact Us” section of this Policy.</p><ol start="8"><li><strong> Information Security</strong></li></ol><p>We utilize reasonable information security measures to safeguard your Personal Information against unauthorized access, modification, or destruction. For example, we utilize Secure Socket Layer (SSL), Transport Layer Security (TLS), and similar encryption technology when sensitive data is transmitted over the Internet and use firewalls to help prevent external access into our network. However, no data transmission over the Internet and no method of data storage can be guaranteed to be 100% secure. While we use industry standard means to protect your Personal Information, we cannot guarantee its security.</p><p>Within Rightsify, we restrict access to Personal Information to our employees, contractors, and agents who need to know that information in order to operate, develop, improve or support the Platform. If we share Personal Information with service providers, we require that they also use reasonable information security measures to safeguard your Personal Information and only use your Personal Information for the purposes for which we share it with them.</p><ol start="9"><li><strong> California Privacy Rights</strong></li></ol><p>California Civil Code Section 1798.83 permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.</p><p>If you are under 18 years of age, reside in California, and have a registered Platform account, you have the right to request removal of unwanted data that you publicly post on the Rightsify Platform. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. &nbsp;We will make sure the data is not publicly displayed on the Platform, but please be aware that the data may not be completely or comprehensively removed from our systems.</p><p>You may request, up to two (2) times per year: (1) the categories and specific pieces of data the that Rightsify has collected from you; (2) the categories of sources from which your data was collected; (3) the categories of third parties to which your data has been disclosed or sold; and (4) the purposes for which the information was disclosed or sold. If you would like to make such a request, please submit your request in writing to us using the contact information provided below.</p><p>&nbsp;</p><p>Subject to certain limitations, you have the right to (1) request to know more about the categories and specific pieces of personal information Rightsify collects, uses, and discloses about you, (2) request deletion of your Personal Information, (3) opt out of any sales of your Personal Information, and (4) not be discriminated against for exercising these rights. If you would like to make such a request, please submit your request in writing to us using the contact information provided below.</p><p>&nbsp;</p><ol start="10"><li><strong> Third Party Websites</strong></li></ol><p>Please note that the Platform may link or integrate with third-party sites, services, or apps. We are not responsible for the privacy or security policies or practices or the content of such third parties. Accordingly, we encourage you to review the privacy and security policies and terms of service of those third parties so that you understand how those websites collect, use, share and protect your information.</p><ol start="11"><li><strong> Changes to this Policy</strong></li></ol><p>We may modify or update this Privacy Policy periodically with or without prior notice by posting the updated policy on this page. You can always check the “Last Updated” date at the top of this document to see when the Privacy Policy was last changed. If we make any material changes to this Privacy Policy, we will notify you by reasonable means, which may be by e-mail or posting a notice of the changes on our website prior to the changes becoming effective. We encourage you to check this Privacy Policy from time to time.</p><ol start="12"><li><strong> Questions</strong></li></ol><p>To ask questions about our Privacy Policy or to lodge a complaint, contact us at:</p><p>Rightsify Group, LLC</p><p>17 East Colorado Boulevard, Suite 600</p><p>Pasadena, California, 91105</p><p>help@rightsify.com</p></div></div></div>
+</div>
+
+	</div>
+</section>
+</div>
+										</div>
+									</article>
+								</div>
+</div>
+
+
+<section class="custome_footer_section">
+	<div class="container">
+		<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer_one text-center">
+			<section id="text-3" class="widget widget_text">			<div class="textwidget"><p><a href="https://rightsify.com/"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-2394" src="https://rightsify.com/wp-content/themes/miraculous/assets/images/new-logo.png" alt="" width="212" height="51" /></a><br />
+<a href="https://www.fairlytrained.org/certified-models" style="margin-bottom:15px;display:inline-block;" target="_blank" rel="noopener"><img decoding="async" class="alignnone size-full wp-image-20122" src="https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent.png" alt="" width="212" srcset="https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent.png 3900w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-300x300.png 300w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-1024x1024.png 1024w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-150x150.png 150w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-768x768.png 768w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-1536x1536.png 1536w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-2048x2048.png 2048w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-400x400.png 400w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-24x24.png 24w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-36x36.png 36w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-48x48.png 48w" sizes="(max-width: 3900px) 100vw, 3900px" /></a></p>
+<p>© COPYRIGHT 2024, ALL RIGHTS RESERVED RIGHTSIFY</p>
+</div>
+		</section>		</div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer_two_nav text-center">
+			<section id="nav_menu-5" class="widget widget_nav_menu"><h1 class="footer_title">Menu</h1><div class="menu-footer-menu-items-container"><ul id="menu-footer-menu-items" class="menu"><li id="menu-item-19634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19634"><a title="Blog" href="https://rightsify.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></li>
+<li id="menu-item-3067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3067"><a title="TOS" href="https://rightsify.com/tos/" class="menu-image-title-after"><span class="menu-image-title">TOS</span></a></li>
+<li id="menu-item-3066" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3061 current_page_item menu-item-3066"><a title="Privacy Policy" href="https://rightsify.com/privacy-policy/" aria-current="page" class="menu-image-title-after"><span class="menu-image-title">Privacy Policy</span></a></li>
+<li id="menu-item-2550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550"><a title="Contact us" href="https://rightsify.com/contact-us/" class="menu-image-title-after"><span class="menu-image-title">Contact us</span></a></li>
+</ul></div></section>		</div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer_two_nav text-center">
+	<div class="section_of_footer_inner text-left"><section id="text-4" class="widget widget_text"><h1 class="footer_title">About Us</h1>			<div class="textwidget"><p>Rightsify provides music to thousands of businesses in more than 180 countries across the globe.</p>
+<p>Every day our music is experienced by over 3 million people across all facets of life. From cafes to shopping malls, hotels, spas, fitness centers, restaurants, train stations, airports, international flights and more. </p>
+</div>
+		</section></div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- <div class="ms_footer ms_footer_wrapper" >
+            <div class="ms_footer_logo">
+          <a href="https://rightsify.com/" rel="home">
+						<img src="https://rightsify.com/wp-content/uploads/2021/05/rightsify-logo-1-min.jpg" alt="Logo Image">
+						</a>
+		</div> 
+                <div class="container-fluid">
+			<div class="ms_footer_inner">
+            <div class="row ">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_box">
+                        <section id="text-3" class="widget widget_text">			<div class="textwidget"><p><a href="https://rightsify.com/"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-2394" src="https://rightsify.com/wp-content/themes/miraculous/assets/images/new-logo.png" alt="" width="212" height="51" /></a><br />
+<a href="https://www.fairlytrained.org/certified-models" style="margin-bottom:15px;display:inline-block;" target="_blank" rel="noopener"><img decoding="async" class="alignnone size-full wp-image-20122" src="https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent.png" alt="" width="212" srcset="https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent.png 3900w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-300x300.png 300w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-1024x1024.png 1024w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-150x150.png 150w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-768x768.png 768w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-1536x1536.png 1536w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-2048x2048.png 2048w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-400x400.png 400w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-24x24.png 24w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-36x36.png 36w, https://rtsy-live-site-media.s3.amazonaws.com/wp-content/uploads/2024/02/19054243/FT_cert_transparent-48x48.png 48w" sizes="(max-width: 3900px) 100vw, 3900px" /></a></p>
+<p>© COPYRIGHT 2024, ALL RIGHTS RESERVED RIGHTSIFY</p>
+</div>
+		</section>                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_box">
+                        <section id="nav_menu-5" class="widget widget_nav_menu"><h1 class="footer_title">Menu</h1><div class="menu-footer-menu-items-container"><ul id="menu-footer-menu-items-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19634"><a title="Blog" href="https://rightsify.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3067"><a title="TOS" href="https://rightsify.com/tos/" class="menu-image-title-after"><span class="menu-image-title">TOS</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3061 current_page_item menu-item-3066"><a title="Privacy Policy" href="https://rightsify.com/privacy-policy/" aria-current="page" class="menu-image-title-after"><span class="menu-image-title">Privacy Policy</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2550"><a title="Contact us" href="https://rightsify.com/contact-us/" class="menu-image-title-after"><span class="menu-image-title">Contact us</span></a></li>
+</ul></div></section>                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_box">
+                        <section id="text-4" class="widget widget_text"><h1 class="footer_title">About Us</h1>			<div class="textwidget"><p>Rightsify provides music to thousands of businesses in more than 180 countries across the globe.</p>
+<p>Every day our music is experienced by over 3 million people across all facets of life. From cafes to shopping malls, hotels, spas, fitness centers, restaurants, train stations, airports, international flights and more. </p>
+</div>
+		</section>                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_box">
+                        <section id="miraculous_widget_social_links-2" class="widget widget_miraculous_widget_social_links">
+    <div class="foo_sharing">
+         <div class="share_title">
+		  follow us :		</div>
+         <ul>
+                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                         <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                   </ul>
+  </div>
+</section>                    </div>
+                </div>
+            </div>
+			</div>
+        </div>
+        <div class="col-lg-12">
+        <div class="ms_copyright">
+            <div class="footer_border"></div>
+            <div class="site-info">
+                                   <p>&copy; Copyright 2018, All Rights Reserved<a href="https://themeforest.net/user/kamleshyadav">
+				    Miraculous</a></p>
+                            </div>
+        </div> 
+    </div>
+</div> -->       <!-- Audio Player Section -->
+        <div class="ms_player_wrapper">
+            <div class="ms_player_close">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+            </div>
+            <div class="player_mid">
+                <div class="audio-player">
+                    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                    <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                        <div class="player_left">
+                            <div class="ms_play_song">
+                                <div class="play_song_name">
+                                    <a href="javascript:void(0);" id="playlist-text">
+                                        <div class="jp-now-playing flex-item">
+                                            <div class="jp-track-name"></div>
+                                            <div class="jp-artist-name"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="play_song_options">
+                                <ul>
+                                                                      <li>
+                      <a href="javascript:;" class="favourite_music jp_cur_favourite" data-musicid=""><span class="song_optn_icon"><i class="ms_icon icon_fav"></i></span>Favorites                      </a>
+                    </li>
+                                    <li>
+                      <a href="javascript:;" class="ms_add_playlist jp_cur_playlist" data-msmusic=""><span class="song_optn_icon"><i class="ms_icon icon_playlist"></i></span>Add To Playlist                      </a>
+                    </li>
+                                    <li>
+                      <a href="javascript:;" class="ms_share_music jp_cur_share" data-shareuri="" data-sharename=""><span class="song_optn_icon"><i class="ms_icon icon_share"></i></span>Share                      </a>
+                     </li>
+                                </ul>
+                            </div>
+                            <span class="play-left-arrow">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+                        </div>
+                        <!-- Right Queue -->
+                        <div class="jp_queue_wrapper">
+                            <span class="que_text" id="myPlaylistQueue">
+                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                queue                </span>
+                            <div id="playlist-wrap" class="jp-playlist">
+                                <div class="jp_queue_cls">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                  </div>
+                                <h2>queue</h2>
+                                <div class="jp_queue_list_inner">
+                                    <div class="ms_empty_queue"></div>
+                                    <ul>
+                                        <li>&amp;nbsp</li>
+                                    </ul>
+                                </div>
+                                <div class="jp_queue_btn">
+                                    <a href="javascript:;" class="ms_clear" data-toggle="modal" data-target="#clear_modal">
+                    clear                    </a>
+                                                                              <a href="clear_modal" class="ms_save" data-toggle="modal" data-target="#myModal1">save                        </a>
+                                                                      </div>
+                            </div>
+                        </div>
+                        <div class="jp-type-playlist">
+                            <div class="jp-gui jp-interface flex-wrap">
+                                <div class="jp-controls flex-item">
+                    <button class="jp-previous" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                    <button class="jp-play" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                    <button class="jp-next" tabindex="0">
+                      <i class="ms_play_control"></i>
+                    </button>
+                                </div>
+                                <div class="jp-progress-container flex-item">
+                                    <div class="jp-time-holder">
+                                        <span class="jp-current-time" role="timer" aria-label="time">&amp;nbsp</span>
+                                        <span class="jp-duration" role="timer" aria-label="duration">&amp;nbsp</span>
+                                    </div>
+                                    <div class="jp-progress">
+                                        <div class="jp-seek-bar">
+                                            <div class="jp-play-bar">
+                                                <div class="bullet">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jp-volume-controls flex-item">
+                                    <div class="widgetvolume knob-container">
+                                        <div class="knob-wrapper-outer">
+                                            <div class="knob-wrapper">
+                                                <div class="knob-mask">
+                                                    <div class="knob d3">
+                             <span></span>
+                            </div>
+                                                    <div class="handle"></div>
+                                                                                <div class="round">
+                                                    </div>
+                                                                            </div>
+                                            </div>
+                                            <!-- <input></input> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="jp-toggles flex-item">
+                                    <button class="jp-shuffle" tabindex="0" title="Shuffle">
+                                      <i class="ms_play_control"></i>
+                    </button>
+                                    <button class="jp-repeat" tabindex="0" title="Repeat">
+                      <i class="ms_play_control"></i>
+                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--main div-->
+        </div>
+        <!-- Queue Clear Model -->
+        <div class="ms_clear_modal">
+            <div id="clear_modal" class="modal  centered-modal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="fa_icon form_close"></i>
+                        </button>
+                        <div class="modal-body">
+                            <h1>Are you sure you want to clear your queue?</h1>
+                            <div class="clr_modal_btn">
+                                <a href="javascript:;" class="ms_remove_all">
+                  clear all</a>
+                                <a href="javascript:;" class="ms_cancel">
+                  cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="ms_register_popup">
+            <div id="myModal" class="modal  centered-modal" role="dialog">
+                <div class="modal-dialog register_dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">
+                          <i class="fa_icon form_close"></i>
+                        </button>
+                        <div class="modal-body">
+                                          <div class="ms_register_img">
+                                <img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/register_img.png" alt="loginregister" class="img-fluid" />
+                            </div>
+                            <!-- <div class="ms_register_form">
+                 <div class="none_partner">
+                    <a href="https://rightsify.com/membership-account/purchase-your-license/?level=7">Annual License</a>
+                 </div>
+                 <div class="for_prtner_register">
+                    <a href="https://rightsify.com//membership-account/purchase-your-license/?level=8">Partner</a>
+                 </div>
+              </div> -->
+                            <div class="ms_register_form">
+                                <h2>Register / Sign Up</h2>
+                                <div class="form-msg"></div>
+                                <form id="form_register" method="post">
+                                  <div class="form-group">
+                                      <input type="text" name="username" id="username" placeholder="Enter Username" class="form-control required">
+                                      <span class="form_icon">
+                                      <i class="fa_icon form-user" aria-hidden="true"></i>
+                                      </span>
+                                      <span id="erroruser" class="error-row"></span>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="text" name="full_name" id="full_name" placeholder="Enter Your Name" class="form-control required">
+                                      <span class="form_icon">
+                                      <i class="fa_icon form-user" aria-hidden="true"></i>
+                                      </span>
+                                      <span id="errorname" class="error-row"></span>
+                                  </div>
+                                  <div class="form-group">
+                                       <input type="text" name="useremail" id="useremail" placeholder="Enter Your Email" class="form-control required">
+                                       <span class="form_icon">
+                                        <i class="fa_icon form-envelope" aria-hidden="true"></i>
+                                       </span>
+                                       <span id="erroremail" class="error-row"></span>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="password" name="password" id="password" placeholder="Enter Password" class="form-control required">
+                                      <span class="form_icon">
+                                      <i class="fa_icon form-lock" aria-hidden="true"></i>
+                                      </span>
+                                      <span id="errorpass" class="error-row"></span>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="password" name="confirmpass" id="confirmpass" placeholder="Confirm Password" class="form-control required">
+                                      <span class="form_icon">
+                      <i class=" fa_icon form-lock" aria-hidden="true"></i>
+                                     </span>
+                                     <span id="errorcpass" class="error-row"></span>
+                                   </div>
+                                   <input type="submit" name="register_one" id="register_btn" class="ms_btn" value="register now">
+                                   <button class="hst_loader" style="display: none;">
+                      <i class="fa fa-circle-o-notch fa-spin"></i>
+                      Loading                     </button>
+                                    <p>
+                      Already Have An Account?   <a href="#myModal1" data-toggle="modal" class="ms_modal hideCurrentModel">
+                    login here                    </a>
+                      </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myModal1" class="modal  centered-modal" role="dialog">
+                <div class="modal-dialog login_dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa_icon form_close"></i>
+                        </button>
+                        <div class="modal-body">
+                                              <div class="ms_register_img">
+                                <img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/register_img.png" alt="loginregister" class="img-fluid" />
+                            </div>
+                                              <div class="ms_register_form">
+                                <h2>login / Sign in</h2>
+                                <div class="form-lmsg"></div>
+                                <form id="form_login" method="post">
+                                  <div class="form-group">
+                                      <input type="text" placeholder="Enter Your Email or Username" id="lusername" class="form-control">
+                                      <span class="form_icon">
+                      <i class="fa_icon form-envelope" aria-hidden="true"></i>
+                      </span>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="password" placeholder="Enter Password" id="lpassword" class="form-control">
+                                      <span class="form_icon">
+                                      <i class="fa_icon form-lock" aria-hidden="true"></i>
+                                      </span>
+                                  </div>
+                                  <div class="remember_checkbox">
+                                    <label>Keep me signed in                      <input type="checkbox" name="rem_check" id="rem_check">
+                      <span class="checkmark"></span>
+                      </label>
+                                  </div>
+                                 <input type="submit" name="login_one" id="login_btn" class="ms_btn" value="login now">
+                                  <button class="hst_loader" style="display: none;"><i class="fa fa-circle-o-notch fa-spin"></i>Loading</button>
+                                  <div class="popup_forgot">
+                                      <a href="https://rightsify.com/wp-login.php?action=lostpassword">Forgot Password ?</a>
+                                  </div>
+                                  					<div class="save_modal_btn">
+						<a href="https://accounts.google.com/o/oauth2/auth?response_type=code&#038;redirect_uri=https%3A%2F%2Frightsify.com%2F&#038;client_id=356784220122-7g1a9sf9823cfj7hvs214rr9griftkdk.apps.googleusercontent.com&#038;scope=email+profile&#038;access_type=online&#038;approval_prompt=auto&#038;state=206443819">
+						 <i class="fa fa-google-plus" aria-hidden="true"></i> 
+						 continue with google						</a>
+					</div>
+				                                  <!-- <p> <a href="#myModal" data-toggle="modal" class="ms_modal1 hideCurrentModel"></a></p> -->
+                                  <p>Don&#039;t Have An Account? <a href= "https://rightsify.com/membership-account/membership-levels/" class="ms_modal1 hideCurrentModel">register here</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+             <div class="ms_lang_popup">
+            <div id="lang_modal" class="modal  centered-modal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">
+                     <i class="fa_icon form_close"></i>
+                    </button>
+                        <div class="modal-body">
+                            <h1>language selection</h1>
+                            <p>Please select the language(s) of the music you listen to.</p>
+                                                          <ul class="lang_list">
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Arabic                                        <input type="checkbox" name="check" value="13" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Chinese                                        <input type="checkbox" name="check" value="11" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        English                                        <input type="checkbox" name="check" value="5" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        French                                        <input type="checkbox" name="check" value="8" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        German                                        <input type="checkbox" name="check" value="9" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Hindi                                        <input type="checkbox" name="check" value="6" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Italian                                        <input type="checkbox" name="check" value="14" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Japanese                                        <input type="checkbox" name="check" value="12" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Punjabi                                        <input type="checkbox" name="check" value="7" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                                <li>
+                                    <label class="lang_check_label">
+                                        Spanish                                        <input type="checkbox" name="check" value="10" class="lang_filter" >
+                                        <span class="label-text"></span>
+                                    </label>
+                                  </li>
+                                                            </ul>
+                                                          <div class="ms_lang_btn">
+                                <a href="javascript:;" class="ms_btn language_filter">
+                  apply</a>
+                                <button class="hst_loader" style="display: none;"><i class="fa fa-circle-o-notch fa-spin"></i>Loading</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="ms_create_playlist_modal">
+        <div id="create_playlist_modal" class="modal  centered-modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa_icon form_close"></i>
+                    </button>
+                    <div class="modal-body">
+              <div class="ms_share_img">
+                <img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/playlist.svg" class="img-fluid" alt="Playlist">
+              </div>
+              <div class="ms_share_text">
+                <h1>Create New Playlist</h1>
+                <input type="text" name="playlist_name" id="playlist_name" class="form-control" placeholder="Playlist Name">
+                <div class="clr_modal_btn">
+                  <a href="javascript:;" class="create_new_playlist">
+                  create</a>
+                  <button class="hst_loader" style="display: none;">
+                  <i class="fa fa-circle-o-notch fa-spin"></i>
+                  Loading                  </button>
+                </div>
+              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ms_share_music_modal">
+        <div id="ms_share_music_modal_id" class="modal  centered-modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa_icon form_close"></i>
+                    </button>
+                    <div class="modal-body">
+                          <div class="ms_share_img">
+                <img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/sharing.svg" class="img-fluid" alt="Share">
+              </div>
+                           <div class="ms_share_text">
+                <h1>Share With</h1>
+                <ul>
+                  <li><a href="javascript:void(0);" class="ms_share_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="javascript:void(0);" class="ms_share_linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="javascript:void(0);" class="ms_share_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="javascript:void(0);" class="ms_share_googleplus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="ms_add_in_playlist_modal">
+        <div id="add_in_playlist_modal" class="modal  centered-modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa_icon form_close"></i>
+                    </button>
+                    <div class="modal-body">
+              <div class="ms_share_img">
+                <img src="https://rightsify.com/wp-content/themes/miraculous/assets/images/playlist.svg" class="img-fluid" alt="Playlist">
+              </div>
+              <div class="ms_share_text">
+                        <h1>Playlist</h1>
+                                                        You have not created any playlist please create playlist.                                <div class="clr_modal_btn">
+                                    <a href="javascript:;" class="ms_create_playlist">
+                    create playlist</a>
+                                </div>
+                                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+</div><!-- #content -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Memberships powered by Paid Memberships Pro v2.12.2. -->
+	
+		<script type="text/html" id="tmpl-media-frame">
+		<div class="media-frame-title" id="media-frame-title"></div>
+		<h2 class="media-frame-menu-heading">Actions</h2>
+		<button type="button" class="button button-link media-frame-menu-toggle" aria-expanded="false">
+			Menu			<span class="dashicons dashicons-arrow-down" aria-hidden="true"></span>
+		</button>
+		<div class="media-frame-menu"></div>
+		<div class="media-frame-tab-panel">
+			<div class="media-frame-router"></div>
+			<div class="media-frame-content"></div>
+		</div>
+		<h2 class="media-frame-actions-heading screen-reader-text">
+		Selected media actions		</h2>
+		<div class="media-frame-toolbar"></div>
+		<div class="media-frame-uploader"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-media-modal">
+		<div tabindex="0" class="media-modal wp-core-ui" role="dialog" aria-labelledby="media-frame-title">
+			<# if ( data.hasCloseButton ) { #>
+				<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">
+					Close dialog				</span></span></button>
+			<# } #>
+			<div class="media-modal-content" role="document"></div>
+		</div>
+		<div class="media-modal-backdrop"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-window">
+		<div class="uploader-window-content">
+			<div class="uploader-editor-title">Drop files to upload</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-editor">
+		<div class="uploader-editor-content">
+			<div class="uploader-editor-title">Drop files to upload</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-inline">
+		<# var messageClass = data.message ? 'has-upload-message' : 'no-upload-message'; #>
+		<# if ( data.canClose ) { #>
+		<button class="close dashicons dashicons-no"><span class="screen-reader-text">
+			Close uploader		</span></button>
+		<# } #>
+		<div class="uploader-inline-content {{ messageClass }}">
+		<# if ( data.message ) { #>
+			<h2 class="upload-message">{{ data.message }}</h2>
+		<# } #>
+					<div class="upload-ui">
+				<h2 class="upload-instructions drop-instructions">Drop files to upload</h2>
+				<p class="upload-instructions drop-instructions">or</p>
+				<button type="button" class="browser button button-hero" aria-labelledby="post-upload-info">Select Files</button>
+			</div>
+
+			<div class="upload-inline-status"></div>
+
+			<div class="post-upload-ui" id="post-upload-info">
+				
+				<p class="max-upload-size">
+				Maximum upload file size: 2 MB.				</p>
+
+				<# if ( data.suggestedWidth && data.suggestedHeight ) { #>
+					<p class="suggested-dimensions">
+						Suggested image dimensions: {{data.suggestedWidth}} by {{data.suggestedHeight}} pixels.					</p>
+				<# } #>
+
+							</div>
+				</div>
+	</script>
+
+		<script type="text/html" id="tmpl-media-library-view-switcher">
+		<a href="https://rightsify.com/wp-admin/upload.php?mode=list" class="view-list">
+			<span class="screen-reader-text">
+				List view			</span>
+		</a>
+		<a href="https://rightsify.com/wp-admin/upload.php?mode=grid" class="view-grid current" aria-current="page">
+			<span class="screen-reader-text">
+				Grid view			</span>
+		</a>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status">
+		<h2>Uploading</h2>
+
+		<div class="media-progress-bar"><div></div></div>
+		<div class="upload-details">
+			<span class="upload-count">
+				<span class="upload-index"></span> / <span class="upload-total"></span>
+			</span>
+			<span class="upload-detail-separator">&ndash;</span>
+			<span class="upload-filename"></span>
+		</div>
+		<div class="upload-errors"></div>
+		<button type="button" class="button upload-dismiss-errors">Dismiss errors</button>
+	</script>
+
+		<script type="text/html" id="tmpl-uploader-status-error">
+		<span class="upload-error-filename">{{{ data.filename }}}</span>
+		<span class="upload-error-message">{{ data.message }}</span>
+	</script>
+
+		<script type="text/html" id="tmpl-edit-attachment-frame">
+		<div class="edit-media-header">
+			<button class="left dashicons"<# if ( ! data.hasPrevious ) { #> disabled<# } #>><span class="screen-reader-text">Edit previous media item</span></button>
+			<button class="right dashicons"<# if ( ! data.hasNext ) { #> disabled<# } #>><span class="screen-reader-text">Edit next media item</span></button>
+			<button type="button" class="media-modal-close"><span class="media-modal-icon"><span class="screen-reader-text">Close dialog</span></span></button>
+		</div>
+		<div class="media-frame-title"></div>
+		<div class="media-frame-content"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details-two-column">
+		<div class="attachment-media-view {{ data.orientation }}">
+						<h2 class="screen-reader-text">Attachment Preview</h2>
+			<div class="thumbnail thumbnail-{{ data.type }}">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div></div></div>
+				<# } else if ( data.sizes && data.sizes.full ) { #>
+					<img class="details-image" src="{{ data.sizes.full.url }}" draggable="false" alt="" />
+				<# } else if ( data.sizes && data.sizes.large ) { #>
+					<img class="details-image" src="{{ data.sizes.large.url }}" draggable="false" alt="" />
+				<# } else if ( -1 === jQuery.inArray( data.type, [ 'audio', 'video' ] ) ) { #>
+					<img class="details-image icon" src="{{ data.icon }}" draggable="false" alt="" />
+				<# } #>
+
+				<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper wp-audio">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</audio>
+				</div>
+				<# } else if ( 'video' === data.type ) {
+					var w_rule = '';
+					if ( data.width ) {
+						w_rule = 'width: ' + data.width + 'px;';
+					} else if ( wp.media.view.settings.contentWidth ) {
+						w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+					}
+				#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</video>
+				</div>
+				<# } #>
+
+				<div class="attachment-actions">
+					<# if ( 'image' === data.type && ! data.uploading && data.sizes && data.can.save ) { #>
+					<button type="button" class="button edit-attachment">Edit Image</button>
+					<# } else if ( 'pdf' === data.subtype && data.sizes ) { #>
+					<p>Document Preview</p>
+					<# } #>
+				</div>
+			</div>
+		</div>
+		<div class="attachment-info">
+			<span class="settings-save-status" role="status">
+				<span class="spinner"></span>
+				<span class="saved">Saved.</span>
+			</span>
+			<div class="details">
+				<h2 class="screen-reader-text">
+					Details				</h2>
+				<div class="uploaded"><strong>Uploaded on:</strong> {{ data.dateFormatted }}</div>
+				<div class="uploaded-by">
+					<strong>Uploaded by:</strong>
+						<# if ( data.authorLink ) { #>
+							<a href="{{ data.authorLink }}">{{ data.authorName }}</a>
+						<# } else { #>
+							{{ data.authorName }}
+						<# } #>
+				</div>
+				<# if ( data.uploadedToTitle ) { #>
+					<div class="uploaded-to">
+						<strong>Uploaded to:</strong>
+						<# if ( data.uploadedToLink ) { #>
+							<a href="{{ data.uploadedToLink }}">{{ data.uploadedToTitle }}</a>
+						<# } else { #>
+							{{ data.uploadedToTitle }}
+						<# } #>
+					</div>
+				<# } #>
+				<div class="filename"><strong>File name:</strong> {{ data.filename }}</div>
+				<div class="file-type"><strong>File type:</strong> {{ data.mime }}</div>
+				<div class="file-size"><strong>File size:</strong> {{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions"><strong>Dimensions:</strong>
+							{{ data.width }} by {{ data.height }} pixels						</div>
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						<div class="word-wrap-break-word">
+							<strong>Original image:</strong>
+							<a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
+						</div>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length"><strong>Length:</strong>
+						<span aria-hidden="true">{{ data.fileLength }}</span>
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}</span>
+					</div>
+				<# } #>
+
+				<# if ( 'audio' === data.type && data.meta.bitrate ) { #>
+					<div class="bitrate">
+						<strong>Bitrate:</strong> {{ Math.round( data.meta.bitrate / 1000 ) }}kb/s
+						<# if ( data.meta.bitrate_mode ) { #>
+						{{ ' ' + data.meta.bitrate_mode.toUpperCase() }}
+						<# } #>
+					</div>
+				<# } #>
+
+				<# if ( data.mediaStates ) { #>
+					<div class="media-states"><strong>Used as:</strong> {{ data.mediaStates }}</div>
+				<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+
+			<div class="settings">
+				<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+				<# if ( 'image' === data.type ) { #>
+					<span class="setting alt-text has-description" data-setting="alt">
+						<label for="attachment-details-two-column-alt-text" class="name">Alternative Text</label>
+						<textarea id="attachment-details-two-column-alt-text" aria-describedby="alt-text-description" {{ maybeReadOnly }}>{{ data.alt }}</textarea>
+					</span>
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Learn how to describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab)</span></a>. Leave empty if the image is purely decorative.</p>
+				<# } #>
+								<span class="setting" data-setting="title">
+					<label for="attachment-details-two-column-title" class="name">Title</label>
+					<input type="text" id="attachment-details-two-column-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+				</span>
+								<# if ( 'audio' === data.type ) { #>
+								<span class="setting" data-setting="artist">
+					<label for="attachment-details-two-column-artist" class="name">Artist</label>
+					<input type="text" id="attachment-details-two-column-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+				</span>
+								<span class="setting" data-setting="album">
+					<label for="attachment-details-two-column-album" class="name">Album</label>
+					<input type="text" id="attachment-details-two-column-album" value="{{ data.album || data.meta.album || '' }}" />
+				</span>
+								<# } #>
+				<span class="setting" data-setting="caption">
+					<label for="attachment-details-two-column-caption" class="name">Caption</label>
+					<textarea id="attachment-details-two-column-caption" {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+				</span>
+				<span class="setting" data-setting="description">
+					<label for="attachment-details-two-column-description" class="name">Description</label>
+					<textarea id="attachment-details-two-column-description" {{ maybeReadOnly }}>{{ data.description }}</textarea>
+				</span>
+				<span class="setting" data-setting="url">
+					<label for="attachment-details-two-column-copy-link" class="name">File URL:</label>
+					<input type="text" class="attachment-details-copy-link" id="attachment-details-two-column-copy-link" value="{{ data.url }}" readonly />
+					<span class="copy-to-clipboard-container">
+						<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-two-column-copy-link">Copy URL to clipboard</button>
+						<span class="success hidden" aria-hidden="true">Copied!</span>
+					</span>
+				</span>
+				<div class="attachment-compat"></div>
+			</div>
+
+			<div class="actions">
+				<# if ( data.link ) { #>
+					<a class="view-attachment" href="{{ data.link }}">View attachment page</a>
+				<# } #>
+				<# if ( data.can.save ) { #>
+					<# if ( data.link ) { #>
+						<span class="links-separator">|</span>
+					<# } #>
+					<a href="{{ data.editLink }}">Edit more details</a>
+				<# } #>
+				<# if ( data.can.save && data.link ) { #>
+					<span class="links-separator">|</span>
+					<a href="{{ data.url }}" download>Download file</a>
+				<# } #>
+				<# if ( ! data.uploading && data.can.remove ) { #>
+					<# if ( data.link || data.can.save ) { #>
+						<span class="links-separator">|</span>
+					<# } #>
+											<button type="button" class="button-link delete-attachment">Delete permanently</button>
+									<# } #>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment">
+		<div class="attachment-preview js--select-attachment type-{{ data.type }} subtype-{{ data.subtype }} {{ data.orientation }}">
+			<div class="thumbnail">
+				<# if ( data.uploading ) { #>
+					<div class="media-progress-bar"><div style="width: {{ data.percent }}%"></div></div>
+				<# } else if ( 'image' === data.type && data.size && data.size.url ) { #>
+					<div class="centered">
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					</div>
+				<# } else { #>
+					<div class="centered">
+						<# if ( data.image && data.image.src && data.image.src !== data.icon ) { #>
+							<img src="{{ data.image.src }}" class="thumbnail" draggable="false" alt="" />
+						<# } else if ( data.sizes && data.sizes.medium ) { #>
+							<img src="{{ data.sizes.medium.url }}" class="thumbnail" draggable="false" alt="" />
+						<# } else { #>
+							<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+						<# } #>
+					</div>
+					<div class="filename">
+						<div>{{ data.filename }}</div>
+					</div>
+				<# } #>
+			</div>
+			<# if ( data.buttons.close ) { #>
+				<button type="button" class="button-link attachment-close media-modal-icon"><span class="screen-reader-text">
+					Remove				</span></button>
+			<# } #>
+		</div>
+		<# if ( data.buttons.check ) { #>
+			<button type="button" class="check" tabindex="-1"><span class="media-modal-icon"></span><span class="screen-reader-text">
+				Deselect			</span></button>
+		<# } #>
+		<#
+		var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly';
+		if ( data.describe ) {
+			if ( 'image' === data.type ) { #>
+				<input type="text" value="{{ data.caption }}" class="describe" data-setting="caption"
+					aria-label="Caption"
+					placeholder="Caption&hellip;" {{ maybeReadOnly }} />
+			<# } else { #>
+				<input type="text" value="{{ data.title }}" class="describe" data-setting="title"
+					<# if ( 'video' === data.type ) { #>
+						aria-label="Video title"
+						placeholder="Video title&hellip;"
+					<# } else if ( 'audio' === data.type ) { #>
+						aria-label="Audio title"
+						placeholder="Audio title&hellip;"
+					<# } else { #>
+						aria-label="Media title"
+						placeholder="Media title&hellip;"
+					<# } #> {{ maybeReadOnly }} />
+			<# }
+		} #>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-details">
+		<h2>
+			Attachment Details			<span class="settings-save-status" role="status">
+				<span class="spinner"></span>
+				<span class="saved">Saved.</span>
+			</span>
+		</h2>
+		<div class="attachment-info">
+
+			<# if ( 'audio' === data.type ) { #>
+				<div class="wp-media-wrapper wp-audio">
+					<audio style="visibility: hidden" controls class="wp-audio-shortcode" width="100%" preload="none">
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</audio>
+				</div>
+			<# } else if ( 'video' === data.type ) {
+				var w_rule = '';
+				if ( data.width ) {
+					w_rule = 'width: ' + data.width + 'px;';
+				} else if ( wp.media.view.settings.contentWidth ) {
+					w_rule = 'width: ' + wp.media.view.settings.contentWidth + 'px;';
+				}
+			#>
+				<div style="{{ w_rule }}" class="wp-media-wrapper wp-video">
+					<video controls="controls" class="wp-video-shortcode" preload="metadata"
+						<# if ( data.width ) { #>width="{{ data.width }}"<# } #>
+						<# if ( data.height ) { #>height="{{ data.height }}"<# } #>
+						<# if ( data.image && data.image.src !== data.icon ) { #>poster="{{ data.image.src }}"<# } #>>
+						<source type="{{ data.mime }}" src="{{ data.url }}" />
+					</video>
+				</div>
+			<# } else { #>
+				<div class="thumbnail thumbnail-{{ data.type }}">
+					<# if ( data.uploading ) { #>
+						<div class="media-progress-bar"><div></div></div>
+					<# } else if ( 'image' === data.type && data.size && data.size.url ) { #>
+						<img src="{{ data.size.url }}" draggable="false" alt="" />
+					<# } else { #>
+						<img src="{{ data.icon }}" class="icon" draggable="false" alt="" />
+					<# } #>
+				</div>
+			<# } #>
+
+			<div class="details">
+				<div class="filename">{{ data.filename }}</div>
+				<div class="uploaded">{{ data.dateFormatted }}</div>
+
+				<div class="file-size">{{ data.filesizeHumanReadable }}</div>
+				<# if ( 'image' === data.type && ! data.uploading ) { #>
+					<# if ( data.width && data.height ) { #>
+						<div class="dimensions">
+							{{ data.width }} by {{ data.height }} pixels						</div>
+					<# } #>
+
+					<# if ( data.originalImageURL && data.originalImageName ) { #>
+						<div class="word-wrap-break-word">
+							Original image:							<a href="{{ data.originalImageURL }}">{{data.originalImageName}}</a>
+						</div>
+					<# } #>
+
+					<# if ( data.can.save && data.sizes ) { #>
+						<a class="edit-attachment" href="{{ data.editLink }}&amp;image-editor" target="_blank">Edit Image</a>
+					<# } #>
+				<# } #>
+
+				<# if ( data.fileLength && data.fileLengthHumanReadable ) { #>
+					<div class="file-length">Length:						<span aria-hidden="true">{{ data.fileLength }}</span>
+						<span class="screen-reader-text">{{ data.fileLengthHumanReadable }}</span>
+					</div>
+				<# } #>
+
+				<# if ( data.mediaStates ) { #>
+					<div class="media-states"><strong>Used as:</strong> {{ data.mediaStates }}</div>
+				<# } #>
+
+				<# if ( ! data.uploading && data.can.remove ) { #>
+											<button type="button" class="button-link delete-attachment">Delete permanently</button>
+									<# } #>
+
+				<div class="compat-meta">
+					<# if ( data.compat && data.compat.meta ) { #>
+						{{{ data.compat.meta }}}
+					<# } #>
+				</div>
+			</div>
+		</div>
+		<# var maybeReadOnly = data.can.save || data.allowLocalEdits ? '' : 'readonly'; #>
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting alt-text has-description" data-setting="alt">
+				<label for="attachment-details-alt-text" class="name">Alt Text</label>
+				<textarea id="attachment-details-alt-text" aria-describedby="alt-text-description" {{ maybeReadOnly }}>{{ data.alt }}</textarea>
+			</span>
+			<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Learn how to describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab)</span></a>. Leave empty if the image is purely decorative.</p>
+		<# } #>
+				<span class="setting" data-setting="title">
+			<label for="attachment-details-title" class="name">Title</label>
+			<input type="text" id="attachment-details-title" value="{{ data.title }}" {{ maybeReadOnly }} />
+		</span>
+				<# if ( 'audio' === data.type ) { #>
+				<span class="setting" data-setting="artist">
+			<label for="attachment-details-artist" class="name">Artist</label>
+			<input type="text" id="attachment-details-artist" value="{{ data.artist || data.meta.artist || '' }}" />
+		</span>
+				<span class="setting" data-setting="album">
+			<label for="attachment-details-album" class="name">Album</label>
+			<input type="text" id="attachment-details-album" value="{{ data.album || data.meta.album || '' }}" />
+		</span>
+				<# } #>
+		<span class="setting" data-setting="caption">
+			<label for="attachment-details-caption" class="name">Caption</label>
+			<textarea id="attachment-details-caption" {{ maybeReadOnly }}>{{ data.caption }}</textarea>
+		</span>
+		<span class="setting" data-setting="description">
+			<label for="attachment-details-description" class="name">Description</label>
+			<textarea id="attachment-details-description" {{ maybeReadOnly }}>{{ data.description }}</textarea>
+		</span>
+		<span class="setting" data-setting="url">
+			<label for="attachment-details-copy-link" class="name">File URL:</label>
+			<input type="text" class="attachment-details-copy-link" id="attachment-details-copy-link" value="{{ data.url }}" readonly />
+			<div class="copy-to-clipboard-container">
+				<button type="button" class="button button-small copy-attachment-url" data-clipboard-target="#attachment-details-copy-link">Copy URL to clipboard</button>
+				<span class="success hidden" aria-hidden="true">Copied!</span>
+			</div>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-media-selection">
+		<div class="selection-info">
+			<span class="count"></span>
+			<# if ( data.editable ) { #>
+				<button type="button" class="button-link edit-selection">Edit Selection</button>
+			<# } #>
+			<# if ( data.clearable ) { #>
+				<button type="button" class="button-link clear-selection">Clear</button>
+			<# } #>
+		</div>
+		<div class="selection-view"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-attachment-display-settings">
+		<h2>Attachment Display Settings</h2>
+
+		<# if ( 'image' === data.type ) { #>
+			<span class="setting align">
+				<label for="attachment-display-settings-alignment" class="name">Alignment</label>
+				<select id="attachment-display-settings-alignment" class="alignment"
+					data-setting="align"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="align"
+					<# } #>>
+
+					<option value="left">
+						Left					</option>
+					<option value="center">
+						Center					</option>
+					<option value="right">
+						Right					</option>
+					<option value="none" selected>
+						None					</option>
+				</select>
+			</span>
+		<# } #>
+
+		<span class="setting">
+			<label for="attachment-display-settings-link-to" class="name">
+				<# if ( data.model.canEmbed ) { #>
+					Embed or Link				<# } else { #>
+					Link To				<# } #>
+			</label>
+			<select id="attachment-display-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings && ! data.model.canEmbed ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+			<# if ( data.model.canEmbed ) { #>
+				<option value="embed" selected>
+					Embed Media Player				</option>
+				<option value="file">
+			<# } else { #>
+				<option value="none" selected>
+					None				</option>
+				<option value="file">
+			<# } #>
+				<# if ( data.model.canEmbed ) { #>
+					Link to Media File				<# } else { #>
+					Media File				<# } #>
+				</option>
+				<option value="post">
+				<# if ( data.model.canEmbed ) { #>
+					Link to Attachment Page				<# } else { #>
+					Attachment Page				<# } #>
+				</option>
+			<# if ( 'image' === data.type ) { #>
+				<option value="custom">
+					Custom URL				</option>
+			<# } #>
+			</select>
+		</span>
+		<span class="setting">
+			<label for="attachment-display-settings-link-to-custom" class="name">URL</label>
+			<input type="text" id="attachment-display-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+		</span>
+
+		<# if ( 'undefined' !== typeof data.sizes ) { #>
+			<span class="setting">
+				<label for="attachment-display-settings-size" class="name">Size</label>
+				<select id="attachment-display-settings-size" class="size" name="size"
+					data-setting="size"
+					<# if ( data.userSettings ) { #>
+						data-user-setting="imgsize"
+					<# } #>>
+											<#
+						var size = data.sizes['thumbnail'];
+						if ( size ) { #>
+							<option value="thumbnail" >
+								Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['medium'];
+						if ( size ) { #>
+							<option value="medium" >
+								Medium &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['large'];
+						if ( size ) { #>
+							<option value="large" >
+								Large &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+											<#
+						var size = data.sizes['full'];
+						if ( size ) { #>
+							<option value="full"  selected='selected'>
+								Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+							</option>
+						<# } #>
+									</select>
+			</span>
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-gallery-settings">
+		<h2>Gallery Settings</h2>
+
+		<span class="setting">
+			<label for="gallery-settings-link-to" class="name">Link To</label>
+			<select id="gallery-settings-link-to" class="link-to"
+				data-setting="link"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="urlbutton"
+				<# } #>>
+
+				<option value="post" <# if ( ! wp.media.galleryDefaults.link || 'post' === wp.media.galleryDefaults.link ) {
+					#>selected="selected"<# }
+				#>>
+					Attachment Page				</option>
+				<option value="file" <# if ( 'file' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					Media File				</option>
+				<option value="none" <# if ( 'none' === wp.media.galleryDefaults.link ) { #>selected="selected"<# } #>>
+					None				</option>
+			</select>
+		</span>
+
+		<span class="setting">
+			<label for="gallery-settings-columns" class="name select-label-inline">Columns</label>
+			<select id="gallery-settings-columns" class="columns" name="columns"
+				data-setting="columns">
+									<option value="1" <#
+						if ( 1 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						1					</option>
+									<option value="2" <#
+						if ( 2 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						2					</option>
+									<option value="3" <#
+						if ( 3 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						3					</option>
+									<option value="4" <#
+						if ( 4 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						4					</option>
+									<option value="5" <#
+						if ( 5 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						5					</option>
+									<option value="6" <#
+						if ( 6 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						6					</option>
+									<option value="7" <#
+						if ( 7 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						7					</option>
+									<option value="8" <#
+						if ( 8 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						8					</option>
+									<option value="9" <#
+						if ( 9 == wp.media.galleryDefaults.columns ) { #>selected="selected"<# }
+					#>>
+						9					</option>
+							</select>
+		</span>
+
+		<span class="setting">
+			<input type="checkbox" id="gallery-settings-random-order" data-setting="_orderbyRandom" />
+			<label for="gallery-settings-random-order" class="checkbox-label-inline">Random Order</label>
+		</span>
+
+		<span class="setting size">
+			<label for="gallery-settings-size" class="name">Size</label>
+			<select id="gallery-settings-size" class="size" name="size"
+				data-setting="size"
+				<# if ( data.userSettings ) { #>
+					data-user-setting="imgsize"
+				<# } #>
+				>
+									<option value="thumbnail">
+						Thumbnail					</option>
+									<option value="medium">
+						Medium					</option>
+									<option value="large">
+						Large					</option>
+									<option value="full">
+						Full Size					</option>
+							</select>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-playlist-settings">
+		<h2>Playlist Settings</h2>
+
+		<# var emptyModel = _.isEmpty( data.model ),
+			isVideo = 'video' === data.controller.get('library').props.get('type'); #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-list" data-setting="tracklist" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-list" class="checkbox-label-inline">
+				<# if ( isVideo ) { #>
+				Show Video List				<# } else { #>
+				Show Tracklist				<# } #>
+			</label>
+		</span>
+
+		<# if ( ! isVideo ) { #>
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-artist" data-setting="artists" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-artist" class="checkbox-label-inline">
+				Show Artist Name in Tracklist			</label>
+		</span>
+		<# } #>
+
+		<span class="setting">
+			<input type="checkbox" id="playlist-settings-show-images" data-setting="images" <# if ( emptyModel ) { #>
+				checked="checked"
+			<# } #> />
+			<label for="playlist-settings-show-images" class="checkbox-label-inline">
+				Show Images			</label>
+		</span>
+	</script>
+
+		<script type="text/html" id="tmpl-embed-link-settings">
+		<span class="setting link-text">
+			<label for="embed-link-settings-link-text" class="name">Link Text</label>
+			<input type="text" id="embed-link-settings-link-text" class="alignment" data-setting="linkText" />
+		</span>
+		<div class="embed-container" style="display: none;">
+			<div class="embed-preview"></div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-embed-image-settings">
+		<div class="wp-clearfix">
+			<div class="thumbnail">
+				<img src="{{ data.model.url }}" draggable="false" alt="" />
+			</div>
+		</div>
+
+		<span class="setting alt-text has-description">
+			<label for="embed-image-settings-alt-text" class="name">Alternative Text</label>
+			<textarea id="embed-image-settings-alt-text" data-setting="alt" aria-describedby="alt-text-description"></textarea>
+		</span>
+		<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Learn how to describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab)</span></a>. Leave empty if the image is purely decorative.</p>
+
+					<span class="setting caption">
+				<label for="embed-image-settings-caption" class="name">Caption</label>
+				<textarea id="embed-image-settings-caption" data-setting="caption"></textarea>
+			</span>
+		
+		<fieldset class="setting-group">
+			<legend class="name">Align</legend>
+			<span class="setting align">
+				<span class="button-group button-large" data-setting="align">
+					<button class="button" value="left">
+						Left					</button>
+					<button class="button" value="center">
+						Center					</button>
+					<button class="button" value="right">
+						Right					</button>
+					<button class="button active" value="none">
+						None					</button>
+				</span>
+			</span>
+		</fieldset>
+
+		<fieldset class="setting-group">
+			<legend class="name">Link To</legend>
+			<span class="setting link-to">
+				<span class="button-group button-large" data-setting="link">
+					<button class="button" value="file">
+						Image URL					</button>
+					<button class="button" value="custom">
+						Custom URL					</button>
+					<button class="button active" value="none">
+						None					</button>
+				</span>
+			</span>
+			<span class="setting">
+				<label for="embed-image-settings-link-to-custom" class="name">URL</label>
+				<input type="text" id="embed-image-settings-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+			</span>
+		</fieldset>
+	</script>
+
+		<script type="text/html" id="tmpl-image-details">
+		<div class="media-embed">
+			<div class="embed-media-settings">
+				<div class="column-settings">
+					<span class="setting alt-text has-description">
+						<label for="image-details-alt-text" class="name">Alternative Text</label>
+						<textarea id="image-details-alt-text" data-setting="alt" aria-describedby="alt-text-description">{{ data.model.alt }}</textarea>
+					</span>
+					<p class="description" id="alt-text-description"><a href="https://www.w3.org/WAI/tutorials/images/decision-tree" target="_blank" rel="noopener">Learn how to describe the purpose of the image<span class="screen-reader-text"> (opens in a new tab)</span></a>. Leave empty if the image is purely decorative.</p>
+
+											<span class="setting caption">
+							<label for="image-details-caption" class="name">Caption</label>
+							<textarea id="image-details-caption" data-setting="caption">{{ data.model.caption }}</textarea>
+						</span>
+					
+					<h2>Display Settings</h2>
+					<fieldset class="setting-group">
+						<legend class="legend-inline">Align</legend>
+						<span class="setting align">
+							<span class="button-group button-large" data-setting="align">
+								<button class="button" value="left">
+									Left								</button>
+								<button class="button" value="center">
+									Center								</button>
+								<button class="button" value="right">
+									Right								</button>
+								<button class="button active" value="none">
+									None								</button>
+							</span>
+						</span>
+					</fieldset>
+
+					<# if ( data.attachment ) { #>
+						<# if ( 'undefined' !== typeof data.attachment.sizes ) { #>
+							<span class="setting size">
+								<label for="image-details-size" class="name">Size</label>
+								<select id="image-details-size" class="size" name="size"
+									data-setting="size"
+									<# if ( data.userSettings ) { #>
+										data-user-setting="imgsize"
+									<# } #>>
+																			<#
+										var size = data.sizes['thumbnail'];
+										if ( size ) { #>
+											<option value="thumbnail">
+												Thumbnail &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['medium'];
+										if ( size ) { #>
+											<option value="medium">
+												Medium &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['large'];
+										if ( size ) { #>
+											<option value="large">
+												Large &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																			<#
+										var size = data.sizes['full'];
+										if ( size ) { #>
+											<option value="full">
+												Full Size &ndash; {{ size.width }} &times; {{ size.height }}
+											</option>
+										<# } #>
+																		<option value="custom">
+										Custom Size									</option>
+								</select>
+							</span>
+						<# } #>
+							<div class="custom-size wp-clearfix<# if ( data.model.size !== 'custom' ) { #> hidden<# } #>">
+								<span class="custom-size-setting">
+									<label for="image-details-size-width">Width</label>
+									<input type="number" id="image-details-size-width" aria-describedby="image-size-desc" data-setting="customWidth" step="1" value="{{ data.model.customWidth }}" />
+								</span>
+								<span class="sep" aria-hidden="true">&times;</span>
+								<span class="custom-size-setting">
+									<label for="image-details-size-height">Height</label>
+									<input type="number" id="image-details-size-height" aria-describedby="image-size-desc" data-setting="customHeight" step="1" value="{{ data.model.customHeight }}" />
+								</span>
+								<p id="image-size-desc" class="description">Image size in pixels</p>
+							</div>
+					<# } #>
+
+					<span class="setting link-to">
+						<label for="image-details-link-to" class="name">Link To</label>
+						<select id="image-details-link-to" data-setting="link">
+						<# if ( data.attachment ) { #>
+							<option value="file">
+								Media File							</option>
+							<option value="post">
+								Attachment Page							</option>
+						<# } else { #>
+							<option value="file">
+								Image URL							</option>
+						<# } #>
+							<option value="custom">
+								Custom URL							</option>
+							<option value="none">
+								None							</option>
+						</select>
+					</span>
+					<span class="setting">
+						<label for="image-details-link-to-custom" class="name">URL</label>
+						<input type="text" id="image-details-link-to-custom" class="link-to-custom" data-setting="linkUrl" />
+					</span>
+
+					<div class="advanced-section">
+						<h2><button type="button" class="button-link advanced-toggle">Advanced Options</button></h2>
+						<div class="advanced-settings hidden">
+							<div class="advanced-image">
+								<span class="setting title-text">
+									<label for="image-details-title-attribute" class="name">Image Title Attribute</label>
+									<input type="text" id="image-details-title-attribute" data-setting="title" value="{{ data.model.title }}" />
+								</span>
+								<span class="setting extra-classes">
+									<label for="image-details-css-class" class="name">Image CSS Class</label>
+									<input type="text" id="image-details-css-class" data-setting="extraClasses" value="{{ data.model.extraClasses }}" />
+								</span>
+							</div>
+							<div class="advanced-link">
+								<span class="setting link-target">
+									<input type="checkbox" id="image-details-link-target" data-setting="linkTargetBlank" value="_blank" <# if ( data.model.linkTargetBlank ) { #>checked="checked"<# } #>>
+									<label for="image-details-link-target" class="checkbox-label">Open link in a new tab</label>
+								</span>
+								<span class="setting link-rel">
+									<label for="image-details-link-rel" class="name">Link Rel</label>
+									<input type="text" id="image-details-link-rel" data-setting="linkRel" value="{{ data.model.linkRel }}" />
+								</span>
+								<span class="setting link-class-name">
+									<label for="image-details-link-css-class" class="name">Link CSS Class</label>
+									<input type="text" id="image-details-link-css-class" data-setting="linkClassName" value="{{ data.model.linkClassName }}" />
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column-image">
+					<div class="image">
+						<img src="{{ data.model.url }}" draggable="false" alt="" />
+						<# if ( data.attachment && window.imageEdit ) { #>
+							<div class="actions">
+								<input type="button" class="edit-attachment button" value="Edit Original" />
+								<input type="button" class="replace-attachment button" value="Replace" />
+							</div>
+						<# } #>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-image-editor">
+		<div id="media-head-{{ data.id }}"></div>
+		<div id="image-editor-{{ data.id }}"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-audio-details">
+		<# var ext, html5types = {
+			mp3: wp.media.view.settings.embedMimes.mp3,
+			ogg: wp.media.view.settings.embedMimes.ogg
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-audio-settings">
+				<audio style="visibility: hidden"
+	controls
+	class="wp-audio-shortcode"
+	width="{{ _.isUndefined( data.model.width ) ? 400 : data.model.width }}"
+	preload="{{ _.isUndefined( data.model.preload ) ? 'none' : data.model.preload }}"
+	<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) { #>
+	<source src="{{ data.model.src }}" type="{{ wp.media.view.settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+	<# } #>
+
+		<# if ( ! _.isEmpty( data.model.mp3 ) ) { #>
+	<source src="{{ data.model.mp3 }}" type="{{ wp.media.view.settings.embedMimes[ 'mp3' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.ogg ) ) { #>
+	<source src="{{ data.model.ogg }}" type="{{ wp.media.view.settings.embedMimes[ 'ogg' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.flac ) ) { #>
+	<source src="{{ data.model.flac }}" type="{{ wp.media.view.settings.embedMimes[ 'flac' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.m4a ) ) { #>
+	<source src="{{ data.model.m4a }}" type="{{ wp.media.view.settings.embedMimes[ 'm4a' ] }}" />
+	<# } #>
+			<# if ( ! _.isEmpty( data.model.wav ) ) { #>
+	<source src="{{ data.model.wav }}" type="{{ wp.media.view.settings.embedMimes[ 'wav' ] }}" />
+	<# } #>
+		</audio>
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-source" class="name">URL</label>
+					<input type="text" id="audio-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp3 ) ) {
+					if ( ! _.isUndefined( html5types.mp3 ) ) {
+						delete html5types.mp3;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-mp3-source" class="name">MP3</label>
+					<input type="text" id="audio-details-mp3-source" readonly data-setting="mp3" value="{{ data.model.mp3 }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogg ) ) {
+					if ( ! _.isUndefined( html5types.ogg ) ) {
+						delete html5types.ogg;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-ogg-source" class="name">OGG</label>
+					<input type="text" id="audio-details-ogg-source" readonly data-setting="ogg" value="{{ data.model.ogg }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flac ) ) {
+					if ( ! _.isUndefined( html5types.flac ) ) {
+						delete html5types.flac;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-flac-source" class="name">FLAC</label>
+					<input type="text" id="audio-details-flac-source" readonly data-setting="flac" value="{{ data.model.flac }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4a ) ) {
+					if ( ! _.isUndefined( html5types.m4a ) ) {
+						delete html5types.m4a;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-m4a-source" class="name">M4A</label>
+					<input type="text" id="audio-details-m4a-source" readonly data-setting="m4a" value="{{ data.model.m4a }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.wav ) ) {
+					if ( ! _.isUndefined( html5types.wav ) ) {
+						delete html5types.wav;
+					}
+				#>
+				<span class="setting">
+					<label for="audio-details-wav-source" class="name">WAV</label>
+					<input type="text" id="audio-details-wav-source" readonly data-setting="wav" value="{{ data.model.wav }}" />
+					<button type="button" class="button-link remove-setting">Remove audio source</button>
+				</span>
+				<# } #>
+				
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Add alternate sources for maximum HTML5 playback</legend>
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+						<# } ) #>
+						</span>
+					</span>
+				</fieldset>
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Preload</legend>
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Auto</button>
+							<button class="button" value="metadata">Metadata</button>
+							<button class="button active" value="none">None</button>
+						</span>
+					</span>
+				</fieldset>
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="audio-details-autoplay" data-setting="autoplay" />
+						<label for="audio-details-autoplay" class="checkbox-label">Autoplay</label>
+					</span>
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="audio-details-loop" data-setting="loop" />
+						<label for="audio-details-loop" class="checkbox-label">Loop</label>
+					</span>
+				</span>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-video-details">
+		<# var ext, html5types = {
+			mp4: wp.media.view.settings.embedMimes.mp4,
+			ogv: wp.media.view.settings.embedMimes.ogv,
+			webm: wp.media.view.settings.embedMimes.webm
+		}; #>
+
+				<div class="media-embed media-embed-details">
+			<div class="embed-media-settings embed-video-settings">
+				<div class="wp-video-holder">
+				<#
+				var w = ! data.model.width || data.model.width > 640 ? 640 : data.model.width,
+					h = ! data.model.height ? 360 : data.model.height;
+
+				if ( data.model.width && w !== data.model.width ) {
+					h = Math.ceil( ( h * w ) / data.model.width );
+				}
+				#>
+
+				<#  var w_rule = '', classes = [],
+		w, h, settings = wp.media.view.settings,
+		isYouTube = isVimeo = false;
+
+	if ( ! _.isEmpty( data.model.src ) ) {
+		isYouTube = data.model.src.match(/youtube|youtu\.be/);
+		isVimeo = -1 !== data.model.src.indexOf('vimeo');
+	}
+
+	if ( settings.contentWidth && data.model.width >= settings.contentWidth ) {
+		w = settings.contentWidth;
+	} else {
+		w = data.model.width;
+	}
+
+	if ( w !== data.model.width ) {
+		h = Math.ceil( ( data.model.height * w ) / data.model.width );
+	} else {
+		h = data.model.height;
+	}
+
+	if ( w ) {
+		w_rule = 'width: ' + w + 'px; ';
+	}
+
+	if ( isYouTube ) {
+		classes.push( 'youtube-video' );
+	}
+
+	if ( isVimeo ) {
+		classes.push( 'vimeo-video' );
+	}
+
+#>
+<div style="{{ w_rule }}" class="wp-video">
+<video controls
+	class="wp-video-shortcode {{ classes.join( ' ' ) }}"
+	<# if ( w ) { #>width="{{ w }}"<# } #>
+	<# if ( h ) { #>height="{{ h }}"<# } #>
+			<#
+		if ( ! _.isUndefined( data.model.poster ) && data.model.poster ) {
+			#> poster="{{ data.model.poster }}"<#
+		} #>
+			preload			="{{ _.isUndefined( data.model.preload ) ? 'metadata' : data.model.preload }}"
+				<#
+		if ( ! _.isUndefined( data.model.autoplay ) && data.model.autoplay ) {
+		#> autoplay<#
+	}
+		if ( ! _.isUndefined( data.model.loop ) && data.model.loop ) {
+		#> loop<#
+	}
+	#>
+>
+	<# if ( ! _.isEmpty( data.model.src ) ) {
+		if ( isYouTube ) { #>
+		<source src="{{ data.model.src }}" type="video/youtube" />
+		<# } else if ( isVimeo ) { #>
+		<source src="{{ data.model.src }}" type="video/vimeo" />
+		<# } else { #>
+		<source src="{{ data.model.src }}" type="{{ settings.embedMimes[ data.model.src.split('.').pop() ] }}" />
+		<# }
+	} #>
+
+		<# if ( data.model.mp4 ) { #>
+	<source src="{{ data.model.mp4 }}" type="{{ settings.embedMimes[ 'mp4' ] }}" />
+	<# } #>
+		<# if ( data.model.m4v ) { #>
+	<source src="{{ data.model.m4v }}" type="{{ settings.embedMimes[ 'm4v' ] }}" />
+	<# } #>
+		<# if ( data.model.webm ) { #>
+	<source src="{{ data.model.webm }}" type="{{ settings.embedMimes[ 'webm' ] }}" />
+	<# } #>
+		<# if ( data.model.ogv ) { #>
+	<source src="{{ data.model.ogv }}" type="{{ settings.embedMimes[ 'ogv' ] }}" />
+	<# } #>
+		<# if ( data.model.flv ) { #>
+	<source src="{{ data.model.flv }}" type="{{ settings.embedMimes[ 'flv' ] }}" />
+	<# } #>
+		{{{ data.model.content }}}
+</video>
+</div>
+	
+				<# if ( ! _.isEmpty( data.model.src ) ) {
+					ext = data.model.src.split('.').pop();
+					if ( html5types[ ext ] ) {
+						delete html5types[ ext ];
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-source" class="name">URL</label>
+					<input type="text" id="video-details-source" readonly data-setting="src" value="{{ data.model.src }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.mp4 ) ) {
+					if ( ! _.isUndefined( html5types.mp4 ) ) {
+						delete html5types.mp4;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-mp4-source" class="name">MP4</label>
+					<input type="text" id="video-details-mp4-source" readonly data-setting="mp4" value="{{ data.model.mp4 }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.m4v ) ) {
+					if ( ! _.isUndefined( html5types.m4v ) ) {
+						delete html5types.m4v;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-m4v-source" class="name">M4V</label>
+					<input type="text" id="video-details-m4v-source" readonly data-setting="m4v" value="{{ data.model.m4v }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.webm ) ) {
+					if ( ! _.isUndefined( html5types.webm ) ) {
+						delete html5types.webm;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-webm-source" class="name">WEBM</label>
+					<input type="text" id="video-details-webm-source" readonly data-setting="webm" value="{{ data.model.webm }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.ogv ) ) {
+					if ( ! _.isUndefined( html5types.ogv ) ) {
+						delete html5types.ogv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-ogv-source" class="name">OGV</label>
+					<input type="text" id="video-details-ogv-source" readonly data-setting="ogv" value="{{ data.model.ogv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								<# if ( ! _.isEmpty( data.model.flv ) ) {
+					if ( ! _.isUndefined( html5types.flv ) ) {
+						delete html5types.flv;
+					}
+				#>
+				<span class="setting">
+					<label for="video-details-flv-source" class="name">FLV</label>
+					<input type="text" id="video-details-flv-source" readonly data-setting="flv" value="{{ data.model.flv }}" />
+					<button type="button" class="button-link remove-setting">Remove video source</button>
+				</span>
+				<# } #>
+								</div>
+
+				<# if ( ! _.isEmpty( html5types ) ) { #>
+				<fieldset class="setting-group">
+					<legend class="name">Add alternate sources for maximum HTML5 playback</legend>
+					<span class="setting">
+						<span class="button-large">
+						<# _.each( html5types, function (mime, type) { #>
+							<button class="button add-media-source" data-mime="{{ mime }}">{{ type }}</button>
+						<# } ) #>
+						</span>
+					</span>
+				</fieldset>
+				<# } #>
+
+				<# if ( ! _.isEmpty( data.model.poster ) ) { #>
+				<span class="setting">
+					<label for="video-details-poster-image" class="name">Poster Image</label>
+					<input type="text" id="video-details-poster-image" readonly data-setting="poster" value="{{ data.model.poster }}" />
+					<button type="button" class="button-link remove-setting">Remove poster image</button>
+				</span>
+				<# } #>
+
+				<fieldset class="setting-group">
+					<legend class="name">Preload</legend>
+					<span class="setting preload">
+						<span class="button-group button-large" data-setting="preload">
+							<button class="button" value="auto">Auto</button>
+							<button class="button" value="metadata">Metadata</button>
+							<button class="button active" value="none">None</button>
+						</span>
+					</span>
+				</fieldset>
+
+				<span class="setting-group">
+					<span class="setting checkbox-setting autoplay">
+						<input type="checkbox" id="video-details-autoplay" data-setting="autoplay" />
+						<label for="video-details-autoplay" class="checkbox-label">Autoplay</label>
+					</span>
+
+					<span class="setting checkbox-setting">
+						<input type="checkbox" id="video-details-loop" data-setting="loop" />
+						<label for="video-details-loop" class="checkbox-label">Loop</label>
+					</span>
+				</span>
+
+				<span class="setting" data-setting="content">
+					<#
+					var content = '';
+					if ( ! _.isEmpty( data.model.content ) ) {
+						var tracks = jQuery( data.model.content ).filter( 'track' );
+						_.each( tracks.toArray(), function( track, index ) {
+							content += track.outerHTML; #>
+						<label for="video-details-track-{{ index }}" class="name">Tracks (subtitles, captions, descriptions, chapters, or metadata)</label>
+						<input class="content-track" type="text" id="video-details-track-{{ index }}" aria-describedby="video-details-track-desc-{{ index }}" value="{{ track.outerHTML }}" />
+						<span class="description" id="video-details-track-desc-{{ index }}">
+						The srclang, label, and kind values can be edited to set the video track language and kind.						</span>
+						<button type="button" class="button-link remove-setting remove-track">Remove video track</button><br />
+						<# } ); #>
+					<# } else { #>
+					<span class="name">Tracks (subtitles, captions, descriptions, chapters, or metadata)</span><br />
+					<em>There are no associated subtitles.</em>
+					<# } #>
+					<textarea class="hidden content-setting">{{ content }}</textarea>
+				</span>
+			</div>
+		</div>
+	</script>
+
+		<script type="text/html" id="tmpl-editor-gallery">
+		<# if ( data.attachments.length ) { #>
+			<div class="gallery gallery-columns-{{ data.columns }}">
+				<# _.each( data.attachments, function( attachment, index ) { #>
+					<dl class="gallery-item">
+						<dt class="gallery-icon">
+							<# if ( attachment.thumbnail ) { #>
+								<img src="{{ attachment.thumbnail.url }}" width="{{ attachment.thumbnail.width }}" height="{{ attachment.thumbnail.height }}" alt="{{ attachment.alt }}" />
+							<# } else { #>
+								<img src="{{ attachment.url }}" alt="{{ attachment.alt }}" />
+							<# } #>
+						</dt>
+						<# if ( attachment.caption ) { #>
+							<dd class="wp-caption-text gallery-caption">
+								{{{ data.verifyHTML( attachment.caption ) }}}
+							</dd>
+						<# } #>
+					</dl>
+					<# if ( index % data.columns === data.columns - 1 ) { #>
+						<br style="clear: both;" />
+					<# } #>
+				<# } ); #>
+			</div>
+		<# } else { #>
+			<div class="wpview-error">
+				<div class="dashicons dashicons-format-gallery"></div><p>No items found.</p>
+			</div>
+		<# } #>
+	</script>
+
+		<script type="text/html" id="tmpl-crop-content">
+		<img class="crop-image" src="{{ data.url }}" alt="Image crop area preview. Requires mouse interaction." />
+		<div class="upload-errors"></div>
+	</script>
+
+		<script type="text/html" id="tmpl-site-icon-preview">
+		<h2>Preview</h2>
+		<strong aria-hidden="true">As a browser icon</strong>
+		<div class="favicon-preview">
+			<img src="https://rightsify.com/wp-admin/images/browser.png" class="browser-preview" width="182" height="" alt="" />
+
+			<div class="favicon">
+				<img id="preview-favicon" src="{{ data.url }}" alt="Preview as a browser icon" />
+			</div>
+			<span class="browser-title" aria-hidden="true"><# print( 'Rightsify' ) #></span>
+		</div>
+
+		<strong aria-hidden="true">As an app icon</strong>
+		<div class="app-icon-preview">
+			<img id="preview-app-icon" src="{{ data.url }}" alt="Preview as an app icon" />
+		</div>
+	</script>
+
+	<style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.4' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/rightsify.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.4' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/country-phone-field-contact-form-7/assets/js/intlTelInput.min.js?ver=6.3.4' id='nbcpf-intlTelInput-script-js'></script>
+<script type='text/javascript' id='nbcpf-countryFlag-script-js-extra'>
+/* <![CDATA[ */
+var nbcpf = {"ajaxurl":"https:\/\/rightsify.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/country-phone-field-contact-form-7/assets/js/countrySelect.min.js?ver=6.3.4' id='nbcpf-countryFlag-script-js'></script>
+<script id="nbcpf-countryFlag-script-js-after" type="text/javascript">
+		(function($) {
+			$(function() {
+				$(".wpcf7-countrytext").countrySelect({
+					
+				});
+				$(".wpcf7-phonetext").intlTelInput({
+					autoHideDialCode: false,
+					autoPlaceholder: "off",
+					nationalMode: false,
+					separateDialCode: false,
+					hiddenInput: "full_number",
+						
+				});
+
+				$(".wpcf7-phonetext").each(function () {
+					var hiddenInput = $(this).attr('name');
+					//console.log(hiddenInput);
+					$("input[name="+hiddenInput+"-country-code]").val($(this).val());
+				});
+				
+				$(".wpcf7-phonetext").on("countrychange", function() {
+					// do something with iti.getSelectedCountryData()
+					//console.log(this.value);
+					var hiddenInput = $(this).attr("name");
+					$("input[name="+hiddenInput+"-country-code]").val(this.value);
+					
+				});$(".wpcf7-phonetext").on("keyup", function() {
+						var dial_code = $(this).siblings(".flag-container").find(".country-list li.active span.dial-code").text();
+						if(dial_code == "")
+						var dial_code = $(this).siblings(".flag-container").find(".country-list li.highlight span.dial-code").text();
+						var value   = $(this).val();
+						console.log(dial_code, value);
+						$(this).val(dial_code + value.substring(dial_code.length));
+					 });$(".wpcf7-countrytext").on("keyup", function() {
+					var country_name = $(this).siblings(".flag-dropdown").find(".country-list li.active span.country-name").text();
+					if(country_name == "")
+					var country_name = $(this).siblings(".flag-dropdown").find(".country-list li.highlight span.country-name").text();
+					
+					var value   = $(this).val();
+					//console.log(country_name, value);
+					$(this).val(country_name + value.substring(country_name.length));
+				});
+				
+			});
+		})(jQuery);
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/shortcode.js?ver=6.3.4' id='shortcode-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/backbone.min.js?ver=1.4.1' id='backbone-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/wp-util.js?ver=6.3.4' id='wp-util-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/wp-backbone.js?ver=6.3.4' id='wp-backbone-js'></script>
+<script type='text/javascript' id='media-models-js-extra'>
+/* <![CDATA[ */
+var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/wp-admin\/admin-ajax.php","post":{"id":0}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/media-models.js?ver=6.3.4' id='media-models-js'></script>
+<script type='text/javascript' id='wp-plupload-js-extra'>
+/* <![CDATA[ */
+var pluploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"Sorry, you are not allowed to upload this file type.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page.","http_error_image":"The server cannot process the image. This can happen if the server is busy or does not have enough resources to complete the task. Uploading a smaller image may help. Suggested maximum size is 2560 pixels.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the Trash.","error_uploading":"\u201c%s\u201d has failed to upload.","unsupported_image":"This image cannot be displayed in a web browser. For best results convert it to JPEG before uploading.","noneditable_image":"This image cannot be processed by the web server. Convert it to JPEG or PNG before uploading.","file_url_copied":"The file URL has been copied to your clipboard"};
+var _wpPluploadSettings = {"defaults":{"file_data_name":"async-upload","url":"\/wp-admin\/async-upload.php","filters":{"max_file_size":"2097152b","mime_types":[{"extensions":"jpg,jpeg,jpe,gif,png,bmp,tiff,tif,webp,ico,heic,asf,asx,wmv,wmx,wm,avi,divx,flv,mov,qt,mpeg,mpg,mpe,mp4,m4v,ogv,webm,mkv,3gp,3gpp,3g2,3gp2,txt,asc,c,cc,h,srt,csv,tsv,ics,rtx,css,vtt,dfxp,mp3,m4a,m4b,aac,ra,ram,wav,ogg,oga,flac,mid,midi,wma,wax,mka,rtf,pdf,class,tar,zip,gz,gzip,rar,7z,psd,xcf,doc,pot,pps,ppt,wri,xla,xls,xlt,xlw,mdb,mpp,docx,docm,dotx,dotm,xlsx,xlsm,xlsb,xltx,xltm,xlam,pptx,pptm,ppsx,ppsm,potx,potm,ppam,sldx,sldm,onetoc,onetoc2,onetmp,onepkg,oxps,xps,odt,odp,ods,odg,odc,odb,odf,wp,wpd,key,numbers,pages,svg"}]},"heic_upload_error":true,"multipart_params":{"action":"upload-attachment","_wpnonce":"c9db25e2bb"}},"browser":{"mobile":false,"supported":true},"limitExceeded":false};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/plupload/wp-plupload.js?ver=6.3.4' id='wp-plupload-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/jquery/ui/core.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/jquery/ui/mouse.js?ver=1.13.2' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/jquery/ui/sortable.js?ver=1.13.2' id='jquery-ui-sortable-js'></script>
+<script id="mediaelement-core-js-before" type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/mediaelement/mediaelement-and-player.js?ver=4.2.17' id='mediaelement-core-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/mediaelement/mediaelement-migrate.js?ver=6.3.4' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=6.3.4' id='wp-mediaelement-js'></script>
+<script type='text/javascript' id='wp-api-request-js-extra'>
+/* <![CDATA[ */
+var wpApiSettings = {"root":"https:\/\/rightsify.com\/wp-json\/","nonce":"bb083ec2b1","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/api-request.js?ver=6.3.4' id='wp-api-request-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/vendor/wp-polyfill-inert.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/vendor/regenerator-runtime.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/vendor/wp-polyfill.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/dom-ready.js?ver=7c25017459f1da90355d' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/hooks.js?ver=cb3553927d7ab6049113' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/i18n.js?ver=28325ce370dfa8a48974' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after" type="text/javascript">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/dist/a11y.js?ver=f5d24347216c445a8c01' id='wp-a11y-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/clipboard.js?ver=2.0.11' id='clipboard-js'></script>
+<script type='text/javascript' id='media-views-js-extra'>
+/* <![CDATA[ */
+var _wpMediaViewsL10n = {"mediaFrameDefaultTitle":"Media","url":"URL","addMedia":"Add media","search":"Search","select":"Select","cancel":"Cancel","update":"Update","replace":"Replace","remove":"Remove","back":"Back","selected":"%d selected","dragInfo":"Drag and drop to reorder media files.","uploadFilesTitle":"Upload files","uploadImagesTitle":"Upload images","mediaLibraryTitle":"Media Library","insertMediaTitle":"Add media","createNewGallery":"Create a new gallery","createNewPlaylist":"Create a new playlist","createNewVideoPlaylist":"Create a new video playlist","returnToLibrary":"\u2190 Go to library","allMediaItems":"All media items","allDates":"All dates","noItemsFound":"No items found.","insertIntoPost":"Insert into post","unattached":"Unattached","mine":"Mine","trash":"Trash","uploadedToThisPost":"Uploaded to this post","warnDelete":"You are about to permanently delete this item from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","warnBulkDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","warnBulkTrash":"You are about to trash these items.\n  'Cancel' to stop, 'OK' to delete.","bulkSelect":"Bulk select","trashSelected":"Move to Trash","restoreSelected":"Restore from Trash","deletePermanently":"Delete permanently","errorDeleting":"Error in deleting the attachment.","apply":"Apply","filterByDate":"Filter by date","filterByType":"Filter by type","searchLabel":"Search","searchMediaLabel":"Search media","searchMediaPlaceholder":"Search media items...","mediaFound":"Number of media items found: %d","noMedia":"No media items found.","noMediaTryNewSearch":"No media items found. Try a different search.","attachmentDetails":"Attachment details","insertFromUrlTitle":"Insert from URL","setFeaturedImageTitle":"Featured image","setFeaturedImage":"Set featured image","createGalleryTitle":"Create gallery","editGalleryTitle":"Edit gallery","cancelGalleryTitle":"\u2190 Cancel gallery","insertGallery":"Insert gallery","updateGallery":"Update gallery","addToGallery":"Add to gallery","addToGalleryTitle":"Add to gallery","reverseOrder":"Reverse order","imageDetailsTitle":"Image details","imageReplaceTitle":"Replace image","imageDetailsCancel":"Cancel edit","editImage":"Edit image","chooseImage":"Choose image","selectAndCrop":"Select and crop","skipCropping":"Skip cropping","cropImage":"Crop image","cropYourImage":"Crop your image","cropping":"Cropping\u2026","suggestedDimensions":"Suggested image dimensions: %1$s by %2$s pixels.","cropError":"There has been an error cropping your image.","audioDetailsTitle":"Audio details","audioReplaceTitle":"Replace audio","audioAddSourceTitle":"Add audio source","audioDetailsCancel":"Cancel edit","videoDetailsTitle":"Video details","videoReplaceTitle":"Replace video","videoAddSourceTitle":"Add video source","videoDetailsCancel":"Cancel edit","videoSelectPosterImageTitle":"Select poster image","videoAddTrackTitle":"Add subtitles","playlistDragInfo":"Drag and drop to reorder tracks.","createPlaylistTitle":"Create audio playlist","editPlaylistTitle":"Edit audio playlist","cancelPlaylistTitle":"\u2190 Cancel audio playlist","insertPlaylist":"Insert audio playlist","updatePlaylist":"Update audio playlist","addToPlaylist":"Add to audio playlist","addToPlaylistTitle":"Add to Audio Playlist","videoPlaylistDragInfo":"Drag and drop to reorder videos.","createVideoPlaylistTitle":"Create video playlist","editVideoPlaylistTitle":"Edit video playlist","cancelVideoPlaylistTitle":"\u2190 Cancel video playlist","insertVideoPlaylist":"Insert video playlist","updateVideoPlaylist":"Update video playlist","addToVideoPlaylist":"Add to video playlist","addToVideoPlaylistTitle":"Add to video Playlist","filterAttachments":"Filter media","attachmentsList":"Media list","settings":{"tabs":[],"tabUrl":"https:\/\/rightsify.com\/wp-admin\/media-upload.php?chromeless=1","mimeTypes":{"image":"Images","audio":"Audio","video":"Video","application\/msword,application\/vnd.openxmlformats-officedocument.wordprocessingml.document,application\/vnd.ms-word.document.macroEnabled.12,application\/vnd.ms-word.template.macroEnabled.12,application\/vnd.oasis.opendocument.text,application\/vnd.apple.pages,application\/pdf,application\/vnd.ms-xpsdocument,application\/oxps,application\/rtf,application\/wordperfect,application\/octet-stream":"Documents","application\/vnd.apple.numbers,application\/vnd.oasis.opendocument.spreadsheet,application\/vnd.ms-excel,application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application\/vnd.ms-excel.sheet.macroEnabled.12,application\/vnd.ms-excel.sheet.binary.macroEnabled.12":"Spreadsheets","application\/x-gzip,application\/rar,application\/x-tar,application\/zip,application\/x-7z-compressed":"Archives"},"captions":true,"nonce":{"sendToEditor":"c2d641b3c6","setAttachmentThumbnail":"df2ec4bd4e"},"post":{"id":0},"defaultProps":{"link":"none","align":"","size":""},"attachmentCounts":{"audio":1,"video":1},"oEmbedProxyUrl":"https:\/\/rightsify.com\/wp-json\/oembed\/1.0\/proxy","embedExts":["mp3","ogg","flac","m4a","wav","mp4","m4v","webm","ogv","flv"],"embedMimes":{"mp3":"audio\/mpeg","ogg":"audio\/ogg","flac":"audio\/flac","m4a":"audio\/mpeg","wav":"audio\/wav","mp4":"video\/mp4","m4v":"video\/mp4","webm":"video\/webm","ogv":"video\/ogg","flv":"video\/x-flv"},"contentWidth":640,"months":[{"year":"2024","month":"3","text":"March 2024"},{"year":"2024","month":"2","text":"February 2024"},{"year":"2023","month":"12","text":"December 2023"},{"year":"2023","month":"8","text":"August 2023"},{"year":"2023","month":"6","text":"June 2023"},{"year":"2023","month":"5","text":"May 2023"},{"year":"2023","month":"2","text":"February 2023"},{"year":"2023","month":"1","text":"January 2023"},{"year":"2022","month":"12","text":"December 2022"},{"year":"2022","month":"9","text":"September 2022"},{"year":"2022","month":"8","text":"August 2022"},{"year":"2021","month":"12","text":"December 2021"},{"year":"2021","month":"10","text":"October 2021"},{"year":"2021","month":"5","text":"May 2021"},{"year":"2020","month":"12","text":"December 2020"},{"year":"2020","month":"11","text":"November 2020"},{"year":"2020","month":"10","text":"October 2020"},{"year":"2020","month":"9","text":"September 2020"},{"year":"2020","month":"8","text":"August 2020"},{"year":"2020","month":"7","text":"July 2020"},{"year":"2018","month":"11","text":"November 2018"},{"year":"2018","month":"10","text":"October 2018"},{"year":"2018","month":"9","text":"September 2018"},{"year":"2013","month":"12","text":"December 2013"},{"year":"2012","month":"7","text":"July 2012"}],"mediaTrash":0,"infiniteScrolling":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/media-views.js?ver=6.3.4' id='media-views-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/media-editor.js?ver=6.3.4' id='media-editor-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-includes/js/media-audiovideo.js?ver=6.3.4' id='media-audiovideo-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/navigation.js?ver=20151215' id='miraculous-navigation-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/skip-link-focus-fix.js?ver=20151215' id='skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/bootstrap.min.js?ver=20151215' id='bootstrap-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/swiper/js/swiper.min.js?ver=20151215' id='swiper-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/nice_select/jquery.nice-select.min.js?ver=20151215' id='nice-select-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/miraculous-custom.js?ver=20151215' id='miraculous-custom-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/slick.min.js?ver=20240314' id='slick-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/scroll/jquery.mCustomScrollbar.js?ver=20151215' id='mcustomscrollbar-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/toastr.min.js?ver=20151215' id='toastr-js'></script>
+<script type='text/javascript' id='miraculous-custom-ajax-js-extra'>
+/* <![CDATA[ */
+var frontadminajax = {"ajax_url":"https:\/\/rightsify.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/custom-ajax.js?ver=20151215' id='miraculous-custom-ajax-js'></script>
+<script type='text/javascript' id='jplayer-playlist-js-extra'>
+/* <![CDATA[ */
+var templatepath = {"url":"https:\/\/rightsify.com\/wp-content\/themes\/miraculous\/assets\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/player/jplayer.playlist.min.js?ver=20151215' id='jplayer-playlist-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/player/jquery.jplayer.min.js?ver=20151215' id='jplayer-js'></script>
+<script type='text/javascript' id='audio-player-js-extra'>
+/* <![CDATA[ */
+var templatepath = {"url":"https:\/\/rightsify.com\/wp-content\/themes\/miraculous\/assets\/","ajax_url":"https:\/\/rightsify.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/player/audio-player.js?ver=20151215' id='audio-player-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/themes/miraculous/assets/js/plugins/player/volume.js?ver=20151215' id='volume-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6Le0RJ4aAAAAAOJr_PeEfhUFYN7bngSqPdBgOlCk&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Le0RJ4aAAAAAOJr_PeEfhUFYN7bngSqPdBgOlCk","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.8.4' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/core.js?ver=6.3.4' id='fw-shortcode-section-formstone-core-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/transition.js?ver=6.3.4' id='fw-shortcode-section-formstone-transition-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/background.js?ver=6.3.4' id='fw-shortcode-section-formstone-background-js'></script>
+<script type='text/javascript' src='https://rightsify.com/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/static/js/background.init.js?ver=6.3.4' id='fw-shortcode-section-js'></script>
+<script type='text/javascript'>
+            function makeHttpObject() {
+                try {return new XMLHttpRequest();}
+                catch (error) {}
+                try {return new ActiveXObject("Msxml2.XMLHTTP");}
+                catch (error) {}
+                try {return new ActiveXObject("Microsoft.XMLHTTP");}
+                catch (error) {}
+            
+                throw new Error("Could not create HTTP request object.");
+           }jQuery(document).ready(function($){
+        
+        
+                    if($(".ms_main_data").length != 0){
+                    $(".navigation").before("<div class='wpap-loadmore-wrapper'><span class='wpap-loadmore-button loadmore-button-0 wpap_button_text' data-pages='0' data-page='1' data-link='https://rightsify.com/privacy-policy/'>Load more</span></div>");
+                    $(".navigation").addClass('wpap-visibility-hidden');
+                    }
+                    if($('.loadmore-button-0').length != 0){
+                      
+                        var pageNext = $('.loadmore-button-0').data('page');
+                      
+                        var pages = $('.loadmore-button-0').data('pages');
+                        
+                         if(pageNext < pages){
+                         pageNext++;
+                         }
+                    
+                        $(document).on('click', ".loadmore-button-0", function (event) {
+                            event.preventDefault();
+                               
+                             var link = $(this).data('link');   
+                            var arr = link.split('?',2);
+                            if(arr.length == 1){
+                            link = link +'page/'+pageNext+'/'; 
+                            }
+                            if(arr.length == 2){
+                            link = arr[0] +'page/'+pageNext+'/' +'?' + arr[1]; 
+                            }                                                                          
+                            window.history.pushState('', 'Title', link);                          
+                            $('body').append('<div class="wp-ajax-pagination-loading"></div>');
+                
+                            var request = makeHttpObject();
+                
+                            request.open("POST", link , true);
+                            request.send(null);
+                            request.onreadystatechange = function() {
+                
+                                if (request.readyState == 4){
+                                         
+                                    var htmlDoc = $( request.responseText );
+                                    var html = htmlDoc.find('.ms_main_data').html();
+                                    var htmlNav = htmlDoc.find('.navigation').html();
+                
+                                    $(".ms_main_data").children().last().after(html);
+                                    
+                                    $('.wp-ajax-pagination-loading').remove();
+                                    
+                                   
+                                     if(pageNext == pages){
+                                        console.log(pageNext);
+                                       $('.loadmore-button-0').remove();
+                                     }else{
+                                      pageNext++;
+                                     }
+                                                                                                                              
+                                    
+                                }
+                            };                  
+                        });                           
+                   }});</script></body> 
+</html>
+
+<script type="text/javascript">
+	if(jQuery(".left_and_right_image_content_image_inner").hasClass("right-section-space")) {
+	  jQuery(".left_and_right_image_content_image_inner.right-section-space").parent().parent().parent().addClass("right-section-space-top");
+	  jQuery(".left_and_right_image_content").parent().parent().addClass("left_and_right_image_box");
+	}
+	jQuery("p.blog-section-div").parent().addClass("blog-section-div-content");
+
+	jQuery(document).ready(function() {
+		jQuery( "#submit_fr" ).click(function( event ) {
+		  event.preventDefault();
+		  console.log(jQuery('#hero_image_select').val());
+		  window.location = jQuery('#hero_image_select').val();
+		  return false;
+		});
+	});
+</script>
+
+
+
+
+

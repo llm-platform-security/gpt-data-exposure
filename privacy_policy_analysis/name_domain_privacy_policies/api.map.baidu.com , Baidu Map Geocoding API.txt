@@ -1,0 +1,2512 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" Content="IE=Edge,chrome=1"/>
+<title>隐私政策 | 百度地图API SDK</title>
+<meta name="keywords" content="openprivacy" />
+
+<meta name="viewport" content="width=1300">
+<meta name="description" content="" />
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><meta name="generator" content="MediaWiki 1.22.5" />
+<link rel="shortcut icon" href="/skins/MySkin/resources/img/icon/lbsyunlogo_icon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Wiki (zh-cn)" />
+<link rel="EditURI" type="application/rsd+xml" href="//lbsyun.baidu.com/api.php?action=rsd" />
+<link rel="alternate" type="application/atom+xml" title="Wiki的Atom feed" href="/index.php?title=%E7%89%B9%E6%AE%8A:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9&amp;feed=atom" />
+<link rel="stylesheet" href="//lbsyun.baidu.com/load.php?debug=false&amp;lang=zh-cn&amp;modules=mediawiki.legacy.commonPrint%2Cshared&amp;only=styles&amp;skin=myskin&amp;*" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/mapi.css?20201116?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/admin.css?1568810875?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/sidebar.css?20230110?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/jsapisidebar.css?20230105?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/baseTemplate.css?20210227?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/open.css?1568810875?303" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/prettify.css?1568810875?303" media="screen" />
+<link rel="stylesheet" href="/static/wikiupdate/common/css/common_sub.css?20230915" media="screen" />
+<link rel="stylesheet" href="/skins/MySkin/resources/css/privacy.css?20220617?303" media="screen" /><meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//lbsyun.baidu.com/load.php?debug=false&amp;lang=zh-cn&amp;modules=site&amp;only=styles&amp;skin=myskin&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mediawiki:resourceloader:filter:minify-css:7:69c3b272daeae604268474911f487a64 */</style>
+
+<script src="//lbsyun.baidu.com/load.php?debug=false&amp;lang=zh-cn&amp;modules=startup&amp;only=scripts&amp;skin=myskin&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"openprivacy","wgTitle":"openprivacy","wgCurRevisionId":18249,"wgRevisionId":18249,"wgArticleId":1403,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"zh-cn","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgMonthNamesShort":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRelevantPageName":"openprivacy","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgFCKEditorDir":"extensions/WYSIWYG/ckeditor","wgFCKEditorExtDir":"extensions/WYSIWYG","wgFCKEditorToolbarSet":"Wiki","wgFCKEditorHeight":"0","wgCKeditorMagicWords":{"wikitags":["nowiki","includeonly","onlyinclude","noinclude","comments","poll","actionscript-french","actionscript","ada","apache","applescript","asm","asp","bash","c","caddcl","cadlisp","cpp","csharp","css","c_mac","d","delphi","diff","dos","eiffel","freebasic","gml","html4strict","ini","inno","java","javascript","lisp","lua","matlab","mpasm","nsis","objc","ocaml-brief","ocaml","oobas","oracle8","pascal","perl","php-brief","php","python","qbasic","ruby","scheme","sdlbasic","smarty","sql","vb","vbnet","vhdl","visualfoxpro","xml","pre","gallery","sidebar","inputbox","source","syntaxhighlight"],"imagewikitags":["references","ref","syntaxhighlight","html","nowiki","math","gallery","includeonly","noinclude","onlyinclude"],"magicwords":["NOTOC","FORCETOC","TOC","NOEDITSECTION","NEWSECTIONLINK","NONEWSECTIONLINK","NOGALLERY","HIDDENCAT","NOCONTENTCONVERT","NOCC","NOTITLECONVERT","NOTC","START","END","INDEX","NOINDEX","STATICREDIRECT","DISAMBIG"],"datevars":["CURRENTYEAR","CURRENTMONTH","CURRENTMONTHNAME","CURRENTMONTHNAMEGEN","CURRENTMONTHABBREV","CURRENTDAY","CURRENTDAY2","CURRENTDOW","CURRENTDAYNAME","CURRENTTIME","CURRENTHOUR","CURRENTWEEK","CURRENTTIMESTAMP","LOCALYEAR","LOCALMONTH","LOCALMONTHNAME","LOCALMONTHNAMEGEN","LOCALMONTHABBREV","LOCALDAY","LOCALDAY2","LOCALDOW","LOCALDAYNAME","LOCALTIME","LOCALHOUR","LOCALWEEK","LOCALTIMESTAMP"],"wikivars":["SITENAME","SERVER","SERVERNAME","DIRMARK","DIRECTIONMARK","SCRIPTPATH","STYLEPATH","CURRENTVERSION","CONTENTLANGUAGE","CONTENTLANG","PAGEID","CASCADINGSOURCES","REVISIONID","REVISIONDAY","REVISIONDAY2","REVISIONMONTH","REVISIONMONTH1","REVISIONYEAR","REVISIONTIMESTAMP","REVISIONUSER","REVISIONSIZE","NUMBEROFPAGES","NUMBEROFARTICLES","NUMBEROFFILES","NUMBEROFEDITS","NUMBEROFVIEWS","NUMBEROFUSERS","NUMBEROFADMINS","NUMBEROFACTIVEUSERS","FULLPAGENAME","PAGENAME","BASEPAGENAME","SUBPAGENAME","SUBJECTPAGENAME","ARTICLEPAGENAME","TALKPAGENAME","ROOTPAGENAME","NAMESPACE","NAMESPACENUMBER","SUBJECTSPACE","ARTICLESPACE","TALKSPACE"],"parserhooks":["lc","lcfirst","uc","ucfirst","formatnum","#dateformat","padleft","padright","plural","grammar","#language","int","#tag","#int","#ns","#nse","#urlencode","#lcfirst","#ucfirst","#lc","#uc","#localurl","#localurle","#fullurl","#fullurle","#canonicalurl","#canonicalurle","#formatnum","#grammar","#gender","#plural","#numberofpages","#numberofusers","#numberofactiveusers","#numberofarticles","#numberoffiles","#numberofadmins","#numberingroup","#numberofedits","#numberofviews","#padleft","#padright","#anchorencode","#special","#speciale","#defaultsort","#filepath","#pagesincategory","#pagesize","#protectionlevel","#namespace","#namespacee","#namespacenumber","#talkspace","#talkspacee","#subjectspace","#subjectspacee","#pagename","#pagenamee","#fullpagename","#fullpagenamee","#rootpagename","#rootpagenamee","#basepagename","#basepagenamee","#subpagename","#subpagenamee","#talkpagename","#talkpagenamee","#subjectpagename","#subjectpagenamee","#formatdate","#displaytitle"]},"wgCKeditorUseBuildin4Extensions":[],"wgAllowExternalImages":true});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"myskin","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"vector-simplesearch":1,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,
+"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"riched_use_toggle":true,"riched_start_disabled":false,"riched_use_popup":false,"riched_toggle_remember_state":true,"riched_link_paste_text":1,"cke_show":"richeditor","language":"zh-cn","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"zh-cn"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: mediawiki:resourceloader:filter:minify-js:7:d8ba52cc1387f9e4482bc5a61e77e37b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-openprivacy skin-myskin action-view">
+
+
+<div class="ieBrowser">
+    <div class="ieBrowser-close">
+    <svg class="icon icon-web-videoclose" width="48px" height="48.00px" viewBox="0 0 1024 1024" version="1.1" style='width:18px; fill:#E29629;'>
+        <path d='M817.707 250.826c14.122-14.122 14.39-37.69 0.018-52.061-14.471-14.471-37.679-14.363-52.061 0.018L505.469 458.979 245.274 198.783c-14.122-14.122-37.689-14.389-52.061-0.018-14.471 14.471-14.363 37.68 0.019 52.061l260.195 260.195-260.196 260.196c-14.122 14.122-14.39 37.69-0.019 52.061 14.471 14.471 37.68 14.363 52.061-0.018l260.195-260.195L765.663 823.26c14.122 14.122 37.691 14.389 52.061 0.018 14.472-14.471 14.363-37.68-0.018-52.061L557.512 511.021l260.195-260.195z'></path>
+    </svg>
+    </div>
+    浏览器版本低！无法浏览完整内容，建议升级或更换浏览器。
+</div>
+<header class="lbsyun-g-header has-transition">
+    <div id="ufochartbox"></div>
+    <div class="hd-bg2"></div>
+    <div class="header-box">
+        <a href="/index.php?title=%E9%A6%96%E9%A1%B5" class="logo"></a>
+        <!-- <a href="/promotion/specialoffer"  id="activityLogo"
+            style="width:94px; height: 45px; margin-left: 45px; 
+            position: absolute;
+            display: inline-block; margin-top: 12px;
+            float: left;
+            background: url(https://mapopen-website-wiki.cdn.bcebos.com/promotion/specilaoffer/header_nav_promotion_2.png) no-repeat center;
+            background-size: 100% 100%;
+            "></a> -->
+        <div class="header-right" id="header-user"></div>
+        <ul class="main-menu-li">
+            <li class="main-m-li menu-big menu-service">
+                <a href="javascript:;">
+                    <span>为什么选择百度地图</span>
+                </a>
+                <div class="full-menu full-menu-service  full-menu-SelectMap" data-v="whyBmap"></div>
+            </li>
+            <li class="main-m-li menu-big menu-service">
+                <a href="javascript:;">
+                    <span>功能与服务</span>
+                    <span style='font-style:italic; color:#ff280b; font-size:12px; position:absolute; top:-15px; right:-20px;'>NEW !</span>
+                </a>
+                <div class="full-menu full-menu-service" style="width: 490px;"  data-v="service"></div>
+            </li>
+            <li class="main-m-li menu-big menu-service">
+                <a href="javascript:;">
+                    <span>解决方案</span>
+                </a>
+                <div class="full-menu full-menu-service full-menu-resolve" data-v="solution"></div>
+            </li>
+            <li class="main-m-li menu-big main-m-li1">
+                <a href="javascript:;">
+                    <span>开发文档</span>
+                    <span style='font-style:italic; color:#ff280b; font-size:12px; position:absolute; top:-15px; right:-20px;'>NEW !</span>
+                </a>
+                <div class="full-menu  full-menu2" data-v="divDoc"></div>
+            </li>
+            <li class="main-m-li" >
+                <a target="_blank" id="navbarfaqurl" href="/faq/search"  >
+                    <span>反馈与帮助</span>
+                    <!--<span style='font-style:italic; color:#ff280b; font-size:12px; position:absolute; top:-15px; right:-20px;'>NEW !</span>-->
+                </a>
+            </li>
+            <li class="main-m-li menu-big menu-service">
+                <a href="javascript:;">
+                    <span>服务升级</span>
+                </a>
+                <div class="full-menu full-menu-service full-menu-upgrade " data-v="upgrade"></div>
+            </li>
+            <li class="main-m-li" >
+                <a target="_blank" href="/apiconsole/center" id="count-apiconsole" onclick="toControlStation()">
+                    <span>控制台</span>
+                </a>
+            </li>
+        </ul>
+        <div id="search_bar" class="search_bar small_search_input">
+            <div class="bg_bar" id="bg_bar"></div>
+            <div class="bg_bar2"></div>
+            <div id="searchform" class="searchform" style="z-index: 0;">
+                <input type="text" name="srch" id="srch" onkeypress="enterSearch(event)" oninput="inputSearch(this.value)" autocomplete="off" placeholder>
+                <!-- <img class="srch-icon" src="//mapopen-website-wiki.cdn.bcebos.com/index/srch-icon.png" alt="search" for="srch" onclick="iconSearch()" tabindex="2"> -->
+                <svg width="20px" height="20px" id="srchlogo" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  alt="search" for="srch" onclick="iconSearch()">
+                    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+                    <title>搜索</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="搜索" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <circle id="椭圆形" stroke="#FFFFFF" stroke-width="1.5" cx="9.5" cy="9.5" r="8.5"></circle>
+                        <path d="M15.5,15.5 L19.2426407,19.2426407" id="直线-2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square"></path>
+                    </g>
+                </svg>
+                <svg t="1690438293959" class="closeicon" id="closeicon" onclick="clearSearch()" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1646" width="20" height="20"><path d="M563.8 512l262.5-312.9c4.4-5.2 0.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9c-4.4 5.2-0.7 13.1 6.1 13.1h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z" p-id="1647" fill="#ffffff"></path></svg>
+                <!-- <span style='font-style:italic; color:#ff280b; font-size:12px; position:absolute; top:11px; right:-30px;'>NEW !</span> -->
+            </div>
+
+            <label class="search_list" style="display:none;" >
+
+                <ul class="srch_list_input" id="srch_list_input" style="display:none;">
+                </ul>
+
+                <div class="srch_list_wrap" id="srch-list-wrap" tabindex="2">
+                    <ul id='search_hot' class="search_fieldset search_fieldset_hot">
+                        <div class="search_legend search_legend_border">热门推荐</div>
+                        <div class="no-hot-data" style="display:none;">暂无推荐，自己搜搜看！</div>
+                    </ul>
+                    <ul id='search_history' class="search_fieldset search_fieldset_history" >
+                        <div class="search_legend">历史搜索</div>
+                        <div class="no-history-data">暂无搜索历史...</div>
+                    </ul>
+                </div>
+                <div class="openwenxin" id="openwenxin">
+                    <img src="https://mapopen-website-wiki.cdn.bcebos.com/WenxinComponent/system.png" />
+                    没有Match的答案？试试对话大模型
+                    <!-- <div class="open">立即查看</div> -->
+                </div>
+            </label>
+        </div>
+
+    </div>
+</header>
+<ul class="quick-entrance">
+    <div class="quick-f-external" style="display: flex; visibility: hidden">
+        <div class="close" onclick="closeRobot()">
+            <img src="https://mapopen-website-wiki.cdn.bcebos.com/common/images/closeRobot_v3.png" />
+        </div>
+        <div class="message" >
+            <div style="padding: 10px 6px 10px 22px;">我是智能客服，有问题可以问我哦！</div>
+        </div>
+        <div style="width: 81px; height: 85px; z-index: -1;">
+            <div class="robot" src="https://mapopen-website-wiki.cdn.bcebos.com/common/images/closeEyesRobot.png"></div>
+        </div>
+    </div>
+    <li>
+        <!-- class="feedBackJ" -->
+        <a class="quick-f"  href="/chat/customerservice" target="_blank" id="ufochart">
+            <img src="https://mapopen-website-wiki.cdn.bcebos.com/ufochart/CustCare.png" style="position: relative; top: -7px; vertical-align: middle;" width="33"/>
+            <span class="tip">NEW !</span>
+            <div style="display: block;">智能客服</div>
+        </a>
+        <div class="quick-line quick-line1"></div>
+    </li>
+    <li>
+            <!-- class="feedBackJ" -->
+        <a  href="/faq/search" target="_blank">
+            <img src="https://mapopen-website-wiki.cdn.bcebos.com/ufochart/FAQ.png" style="position: relative; top: -7px; vertical-align: middle;" width="33"/>
+            <div style="display: block;">常见问题</div>
+        </a>
+        <div class="quick-line quick-line1"></div>
+    </li>
+
+    <li>
+        <a class="erweim twoErweim"  >
+            <img src="https://mapopen-website-wiki.cdn.bcebos.com/ufochart/QR-code.png" style="position: relative; top: -7px; vertical-align: middle;" width="33"/>
+            <div class="erwei" style="display: block;">公众号<br/>二维码</div>
+            <i class="erImg">
+                <img src="//mapopen-website-wiki.cdn.bcebos.com/index/newIndex/newErweim.jpg" alt="开发平台二维码">
+            </i>
+        </a>
+        <div class="quick-line"></div>
+    </li>
+    <li id="traffic" style="display: none;">
+    <!-- class="feedBackJ" -->
+        <a class="erweim"  href="/apiconsole/fankui#?typeOne=49495&typeTwo=49590" target="_blank">
+            <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+                <title>message copy</title>
+                <desc>Created with Sketch.</desc>
+                <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="画板-copy-10" transform="translate(-1336.000000, -675.000000)" fill="#000000">
+                        <g id="message-copy" transform="translate(1334.000000, 673.000000)">
+                            <rect id="矩形" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                            <path d="M26.1141846,18.4861727 C25.9211759,18.2947784 25.8126081,18.0342212 25.8126081,17.762405 C25.8126081,17.4905887 25.9211759,17.2300315 26.1141846,17.0386373 L28.325697,12.5472899 C29.1499879,11.722999 30.4768954,10.1015305 29.7732323,9.39786746 L22.9909007,2.45560362 C22.387761,1.85246388 20.6859269,2.54317881 20.444671,2.50296949 C20.2637291,2.48286484 20.0023685,2.48286484 19.6404847,2.84474868 L12.3424938,10.1427396 C13.4080407,10.8262979 14.6143201,10.9067166 15.3782972,10.2432629 C16.6850999,9.09729734 18.5548331,7.06672688 18.5749378,7.04662222 C18.9569263,6.6244244 19.6002753,6.60431974 20.0224732,6.98630824 C20.444671,7.36829675 20.4647756,8.01164581 20.0827871,8.43384363 C20.0023685,8.51426226 18.1125307,10.5649374 16.7253092,11.7913215 C14.91589,13.3795895 12.0610286,12.997601 10.0706674,10.9067166 C9.68867892,10.5046234 9.68867892,9.86127435 10.0907721,9.47928584 L18.1728446,1.3972133 C19.5801707,-0.0101127635 22.7295402,-0.700827695 24.4384361,1.00806824 L31.2207677,7.95033208 C33.0502916,9.77985596 31.2810817,12.486976 29.7732323,13.9948253 L27.5617199,18.4861727 C27.3606734,18.6872192 27.0993128,18.7877425 26.8379523,18.7877425 C26.5765917,18.7877425 26.3152311,18.6872192 26.1141846,18.4861727 Z" id="路径"></path>
+                            <path d="M15.679867,29.7447812 C15.5391344,29.7447812 15.3782972,29.7447812 15.2375645,29.7246765 C14.3529596,29.6040486 13.508564,29.1818508 12.8451102,28.518397 L5.46670073,21.9752128 C4.09958398,20.6080961 4.2805259,20.5803297 3.69749082,19.6354108 C3.35571163,19.0724804 2.29016475,14.0631479 1.84786228,13.5002175 C1.72723433,13.3393802 1.58650172,13.1785429 1.44576912,13.0177057 C0.601373476,11.9923681 0.0786523665,11.3289144 0.03844305,10.645356 C0.03844305,10.6051467 0.03844305,10.5649374 0.0183383921,10.5247281 C-0.0419755822,9.92158832 0.03844305,9.61794641 0.380222237,8.95656473 L6.28775854,2.26095298 C7.75539858,0.793312942 9.93113319,3.04503465 11.0770987,3.62806973 L11.2580406,3.70848836 C11.4389825,3.78890699 11.6400291,3.88943028 11.820971,3.98995357 C12.9669366,4.552884 14.5942155,3.99071419 15.8407043,5.07636573 C16.2629021,5.43824957 16.3232161,6.10170329 15.9412276,6.52390111 C15.5793437,6.94609893 14.91589,7.0064129 14.4936922,6.6244244 C13.44825,5.71971479 11.9617037,6.34219857 10.9162614,5.83958212 C10.7152149,5.73905883 10.5141683,5.63853554 10.3131217,5.5581169 L10.1321798,5.45759361 C8.84548165,4.81424456 8.05696845,3.34660452 7.6950846,3.70848836 L1.82775762,10.4041001 C1.06378061,11.1680771 2.00869954,9.86127435 2.04890886,10.3035768 C2.04890886,10.3437861 2.04890886,10.3638908 2.06901352,10.4041001 C2.16953681,10.6654607 2.73246723,11.3289144 3.0340371,11.6907982 C3.17476971,11.8717402 3.33560697,12.0526821 3.45623492,12.2135193 C3.99906069,12.8970777 5.10481688,17.9667242 5.46670073,18.5698639 C6.02963115,19.5147829 5.72806128,19.3415026 6.91423611,20.5276775 L14.2926456,27.050757 C14.6344248,27.3925362 15.0767273,27.6136874 15.4989251,27.6740014 C15.800495,27.7142107 16.0618555,27.6538967 16.2025881,27.5332688 C16.6046813,27.1311756 18.6553564,25.3217564 21.5102179,22.8086741 C23.1185905,21.4013481 24.9280097,19.8130801 25.1089517,19.6120335 C25.1290563,19.5919289 26.1744985,18.2449168 25.209475,17.2798932 L17.6501235,9.72054174 C17.2480304,9.31844858 17.2480304,8.67509952 17.6501235,8.27300636 C18.0522167,7.8709132 18.6955657,7.8709132 19.0976589,8.27300636 L26.6570103,15.8323578 C27.501406,16.6767534 27.8230805,17.8026143 27.5818246,18.9887891 C27.4008827,19.8733941 26.9384755,20.6775804 26.556487,21.0595689 C26.3353358,21.2807201 25.0687423,22.3864763 22.85723,24.3366282 C20.7060315,26.226466 18.032112,28.578711 17.6501235,28.9606995 C17.1676117,29.463316 16.4639487,29.7447812 15.679867,29.7447812 Z" id="路径"></path>
+                            <path d="M24.204242,21.9843832 C23.9428815,21.9843832 23.6815209,21.8838599 23.4804744,21.6828133 L19.8013219,18.0036609 C19.3992288,17.6015677 19.3992288,16.9582186 19.8013219,16.5561255 C20.2034151,16.1540323 20.8467641,16.1540323 21.2488573,16.5561255 L24.9280097,20.2352779 C25.1210184,20.4266722 25.2295862,20.6872293 25.2295862,20.9590456 C25.2295862,21.2308619 25.1210184,21.491419 24.9280097,21.6828133 C24.7470678,21.8838599 24.4857073,21.9843832 24.204242,21.9843832 L24.204242,21.9843832 Z M21.6308458,24.5778841 C21.3694853,24.5778841 21.1081247,24.4773608 20.9070781,24.2763142 L17.2279257,20.5971618 C16.8258325,20.1950686 16.8258325,19.5517195 17.2279257,19.1496264 C17.6300189,18.7475332 18.2733679,18.7475332 18.6754611,19.1496264 L22.3546135,22.8287788 C22.5476221,23.0201731 22.65619,23.2807302 22.65619,23.5525465 C22.65619,23.8243628 22.5476221,24.0849199 22.3546135,24.2763142 C22.1535669,24.4773608 21.8922064,24.5778841 21.6308458,24.5778841 L21.6308458,24.5778841 Z M18.8362983,27.3724315 C18.5749378,27.3724315 18.3135772,27.2719082 18.1125307,27.0708617 L14.4333782,23.3917092 C14.0312851,22.9896161 14.0312851,22.346267 14.4333782,21.9441738 C14.8354714,21.5420807 15.4788204,21.5420807 15.8809136,21.9441738 L19.560066,25.6233263 C19.7530747,25.8147205 19.8616425,26.0752777 19.8616425,26.347094 C19.8616425,26.6189102 19.7530747,26.8794674 19.560066,27.0708617 C19.3590195,27.2719082 19.0976589,27.3724315 18.8362983,27.3724315 L18.8362983,27.3724315 Z" id="形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            <div style="display: block;">商务合作</div>
+        </a>
+        <div class="quick-line quick-line1"></div>
+    </li>
+
+    <li>
+        <span class="goTop" style='display:none;' >
+                <svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+                    <title>Import Copy</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="画板-copy-10" transform="translate(-1338.000000, -843.000000)" fill="#000000">
+                            <g id="Import-Copy" transform="translate(1350.000000, 855.000000) rotate(-270.000000) translate(-1350.000000, -855.000000) translate(1334.000000, 839.000000)">
+                                <rect id="矩形" opacity="0" x="0" y="0" width="32" height="32"></rect>
+                                <path d="M27.759375,23.66875 L26.078125,23.66875 C25.946875,23.66875 25.8375,23.778125 25.8375,23.909375 L25.8375,25.840625 L6.159375,25.840625 L6.159375,6.159375 L25.840625,6.159375 L25.840625,8.090625 C25.840625,8.221875 25.95,8.33125 26.08125,8.33125 L27.7625,8.33125 C27.89375,8.33125 28.003125,8.225 28.003125,8.090625 L28.003125,4.959375 C28.003125,4.428125 27.575,4 27.04375,4 L4.959375,4 C4.428125,4 4,4.428125 4,4.959375 L4,27.040625 C4,27.571875 4.428125,28 4.959375,28 L27.040625,28 C27.571875,28 28,27.571875 28,27.040625 L28,23.909375 C28,23.775 27.890625,23.66875 27.759375,23.66875 Z M28.1875,14.875 L18.375,14.875 L18.375,12.5 C18.375,12.290625 18.13125,12.171875 17.96875,12.303125 L13.534375,15.803125 C13.40625,15.903125 13.40625,16.096875 13.534375,16.196875 L17.96875,19.696875 C18.134375,19.828125 18.375,19.709375 18.375,19.5 L18.375,17.125 L28.1875,17.125 C28.325,17.125 28.4375,17.0125 28.4375,16.875 L28.4375,15.125 C28.4375,14.9875 28.325,14.875 28.1875,14.875 Z" id="形状" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <div class="goback">回到顶部</div>
+        </span>
+
+    </li>
+</ul>
+
+<script type="text/template" id="login_suc">
+<div class="user-area">
+    <a href="javascript:;" class='user-info'>
+        <span class="uinfo-w">
+            <span class="uname">
+                <i class="icon">
+                    <svg class="icon" viewBox="0 0 1024 1024" version="1.1" width="16" height="16"><path d="M160.16 844.48l23.52 10.24c33.6-76.8 93.44-139.52 168.16-176.96l-11.52-22.88c-80.16 40.16-144.16 107.36-180.16 189.6z" p-id="2765"></path><path d="M644.32 530.24C733.12 482.88 793.6 389.28 793.6 281.6 793.6 126.08 667.52 0 512 0S230.4 126.08 230.4 281.6c0 107.68 60.48 201.28 149.28 248.64C175.36 587.84 25.6 775.68 25.6 998.4c0 14.08 11.52 25.6 25.6 25.6s25.6-11.52 25.6-25.6c0-240.32 194.88-435.2 435.2-435.2s435.2 194.88 435.2 435.2c0 14.08 11.52 25.6 25.6 25.6s25.6-11.52 25.6-25.6c0-222.72-149.76-410.56-354.08-468.16zM512 512c-127.2 0-230.4-103.2-230.4-230.4S384.8 51.2 512 51.2s230.4 103.2 230.4 230.4-103.2 230.4-230.4 230.4z" p-id="2766"></path></svg>
+                </i>
+                <b>${username}<em id="totalNum" class="numstatistics"></em></b>
+            </span>
+        </span>
+    </a>
+    <div class="user-control">
+        <div class="uc-menu-w">
+            <ul class="uc-menu">
+                <li class="item">
+                    <a href="${setting}">帐号设置</a>
+                </li>
+                <li class="item manageNotify_m">
+                    <a href="/apiconsole/fankui/list#/home" >工单反馈<span id="fanKuiNum" >（<strong></strong>）</span></a>
+                </li>
+                <li class="item manageNotify_m">
+                    <a href="/apiconsole/mail" >站内信<span id="mailNum" >（<strong></strong>）</span></a>
+                </li>
+                <li class="item">
+                    <a href="${logout}">退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</script>
+
+<script>
+    // 解决内网跳转控制台登录域名受限问题
+    function toControlStation() {
+        var currentURL = window.location.host;
+        var a = document.getElementById('count-apiconsole');
+        if (currentURL.indexOf('baidu-int.com') !== -1) {
+            var tmp = a.href;
+            var urlArr = tmp.split('-int');
+            a.href = urlArr.join('');
+        }
+    }
+    //关闭机器人客服动画
+    function closeRobot() {
+        document.getElementsByClassName('quick-f-external')[0].style.visibility = 'hidden';
+        localStorage.setItem("IsCloseRobot","false");
+    }
+    //判断是否为traffic页面，因为这个页面需要展示跳转工单按钮
+    var pathname= window.location.pathname;
+    if(pathname === '/products/traffic'){
+        //展示工单
+        document.getElementById('traffic').style.display='block';
+        document.getElementsByClassName('quick-entrance')[0].style.height='280px';
+        document.getElementsByClassName('twoErweim')[0].style.borderRadius='0px';
+    }
+</script>
+
+<script src="/map/resource/global/js/search/search.js?20230911" type="text/javascript"></script>
+<script src="/map/resource/global/js/msgcounting/msgcounting.js?20231108" type="text/javascript"></script>
+<script src="/lbscomponent/WXModuleLoad.js?20230911" type="text/javascript"></script>
+
+                        
+            
+            
+            
+                        
+
+<link rel="stylesheet" href="/skins/MySkin/resources/css/oldHead.css">
+<div class="oldHead">
+    <div class="bx">
+        <h2>文档全面上新</h2>
+        <p>更科技的视觉体验，更高效的页面结构，快前往体验吧！</p>
+        <a id="toNewWiki" href="/faq/api?title=webapi">体验新版</a>
+        <span class="close"></span>
+    </div>
+</div>
+<script>
+    (function(){
+        var urlList = [
+            "androidsdk", 
+            "android-locsdk", 
+            "android-yingyan", 
+            "android-navsdk", 
+            "android-panosdk", 
+            "android-syncdisplay", 
+            "iossdk", 
+            "ios-locsdk", 
+            "ios-yingyan", 
+            "ios-navsdk", 
+            "ios-panosdk", 
+            "ios-syncdisplay", 
+            "harmonyossdk", 
+            "flutter/loc", 
+            "yingyan", 
+            "uri",
+        ];
+        var oldHead = document.getElementsByClassName('oldHead')[0];
+        var close = document.getElementsByClassName('close')[0];
+        var baseUrl = location.pathname + location.search;
+        var toNewWiki = document.getElementById('toNewWiki');
+        // if (/^\/index\.php\?title\=(webapi|static|viewstatic)/.test(baseUrl)) {
+        //    oldHead.style.display = 'block';
+        // };
+        for (var blockI = 0; blockI < urlList.length; blockI++) {
+            if (baseUrl.indexOf(`/index.php?title=${urlList[blockI]}`) === 0) {
+                if (urlList[blockI] === 'uri') {
+                    toNewWiki.setAttribute("href", `/faq/api?title=webapi/${urlList[blockI]}`);
+                }
+                else {
+                    toNewWiki.setAttribute("href", `/faq/api?title=${urlList[blockI]}`);
+                }
+                oldHead.style.display = 'block';
+                break;
+            }
+        }
+        close.addEventListener('click',function(){
+            oldHead.style.display = 'none';
+        })
+    })()
+</script>
+
+<div id="mbody" class="mbody">
+    <div class="mwrapper clearfix">
+		
+		<div id="sidebar">
+																									
+  <div id="sidebar-scrollTop">
+	<ul class="nav-list">
+	
+									
+				<li class=""  style="border-top: none" >
+					
+					<ul  class="first-sidebar-nav" >
+						
+																													<li>
+								<a class="onebtn" href="index.php?title=openguide" >合规手册</a>
+								</li>
+																
+																																				<li>
+								<a class="onebtn" href="index.php?title=inspectionguide" >隐私合规自查指南</a>
+								</li>
+																
+																																				<li class="selected">
+								<a class="onebtn" href="index.php?title=openprivacy" >隐私政策</a>
+								</li>
+																
+																																				<li>
+								<a class="onebtn" href="index.php?title=comlianceability" >合规能力</a>
+								</li>
+																
+																		</ul>		
+				</li>
+						</ul>
+				  </div>
+</div>
+
+
+
+		<div class="mcontainer">
+			
+			<div class="mbread">
+			      
+			    			</div>
+			
+			<div id="content" class="clearfix" >
+				
+				
+				
+				<div class="article">
+					<div id="mw-content-text" lang="zh-CN" dir="ltr" class="mw-content-ltr"><div id="privacy" style="margin-top: -20px">
+<h2><span class="mw-headline" id=".E7.99.BE.E5.BA.A6.E5.9C.B0.E5.9B.BE.E5.BC.80.E6.94.BE.E5.B9.B3.E5.8F.B0.E4.BA.A7.E5.93.81.E5.92.8C.E6.9C.8D.E5.8A.A1.E9.9A.90.E7.A7.81.E6.94.BF.E7.AD.96.E6.9B.B4.E6.96.B0.E6.97.B6.E9.97.B4.EF.BC.9A2024.E5.B9.B401.E6.9C.8825.E6.97.A5"><span style="font-size:x-large;">百度地图开放平台产品和服务隐私政策</span><br /><span style="font-size:14px; font-weight:400; color:#afb1b0">更新时间：2024年01月25日</span></span></h2>
+<div class="labels" style="height:0"></div><div class="contents"><div class="navRemark"><div class="handpointto">内容（服务介绍）</div></div><div class="serveintoor-title service-page-anchor">
+<p>欢迎使用百度地图开放平台的产品和服务！
+</p><p><span style="letter-spacing:.75pt;"><span style="color:#333333;"><span style="font-family:宋体;"><b>百度地图开放平台</b>（以下简称“<b>开放平台</b>”</span>）的产品和服务均由<b>北京百度网讯科技有限公司</b>（以下简称“<b>平台方</b>”或“<b>我们</b>”）提供。我们通过开放平台的产品和服务为<b>第三方开发者</b>（以下简称“</span><b>开发者</b>”</span>）所开发和/或运营的应用（包括但不限于移动应用、软件系统和网站等，以下简称“<b>开发者应用</b>”）提供定位、地图展示、轨迹管理、导航等各项位置相关服务，具体详见各个产品和服务的相关说明。开发者在遵守法律法规和开放平台使用规则的前提下，在开发者应用内集成开放平台产品后，可实现平台方通过开放平台产品和服务向开发者应用的最终用户（以下简称“<b>最终用户</b>”或“<b>您</b>”）提供相关服务。<br /><br />开发者在使用开放平台产品和服务时，开放平台可能处理开发者应用相关数据信息，其中<b>可能包括处理（包括收集、存储、使用、加工、运输、提供、公开、删除等）最终用户的个人信息</b>。我们深知个人信息对最终用户的重要性，也非常珍视开发者及最终用户对我们的信赖，我们将严格遵守法律法规要求采取相应的安全保护措施，致力于保护最终用户的个人信息安全可控。基于此，我们制定本<b>《百度地图开放平台产品和服务隐私政策》</b>（以下简称“<b>隐私政策</b>”），<b><u>此隐私政策旨在帮助开发者及最终用户了解我们处理最终用户个人信息的类型及我们如何利用和保护最终用户的个人信息</u>。<u>为了便于开发者及最终用户阅读及理解，我们将专门术语进行了定义，请参见本隐私政策“附录1：定义”来了解这些定义的具体内容</u>。</b>
+</p><p><br /><b>特别说明：<br />1、如果开发者在开发者应用中集成开放平台产品，则开发者应承诺：<br />（1）开发者应遵守与处理最终用户个人信息有关的所有可适用的法律、政策和法规，保护最终用户个人信息安全。若开发者认为使用开放平台的产品和服务将会导致开发者应用不符合可适用法律、政策和法规，则开发者可以联系我们，也可以停止使用开放平台产品和服务。<br />（2）<span style="letter-spacing:.75pt;"><span><span style="font-family:宋体;">开发者应将在开发者应用中集成开放平台产品的情况，以及使用开放平台产品和服务过程中对最终用户必要的个人信息的处理、利用和保护规则（即本隐私政策），在开发者应用的显著位置或以其他可触达最终用户的方式告知最终用户（包括但不限于：在</span></span></span><span style="letter-spacing:.75pt;"><span><span style="font-family:宋体;">开发者应用的隐私政策显眼处提供最终用户可浏览本隐私政策的链接），并就开发者使用开放平台产品和服务期间我们处理最终用户相关个人信息事宜获得最终用户的完整、合法、持续有效的授权同意。如果开发者应用的最终用户是未满14</span>周岁的未成年人，请开发者务必确保就开发者使用开放平台产品和服务期间我们处理最终用户相关个人信息事宜获得最终用户的父母或其他监护人的完整、合法、持续有效的授权同意。<br />（3</span>）开发者应向最终用户提供易于操作的查阅、更正、补充、删除、复制或转移其个人信息，撤回或更改其授权同意，注销其个人账号，要求开发者就个人信息处理规则作出解释说明等用户权利实现机制。<br />（4</span>）关于上述承诺的具体落地执行可参考开放平台<a rel="nofollow" target="_blank" class="external text" href="https://lbs.baidu.com/index.php?title=inspectionguide"><span style="text-decoration:none;text-underline:none;"><span style="color:#5173C9;">《隐私合规自查指南》</span></span></a>。<br /><br />2、我们希望集成并使用开放平台产品的开发者应用以合法合规的方式处理最终用户的个人信息，但我们并不了解且无法控制开发者及其开发者应用如何使用开发者所控制的最终用户个人信息，因此也不应为其行为负责。我们建议最终用户认真阅读开发者应用相关用户协议及隐私政策，在确认充分了解并同意开发者如何处理最终用户的个人信息后再使用开发者应用。<br /><br />3、最终用户具体获得的开放平台产品和服务内容由开发者根据开发者应用需要进行选择，可能因为最终用户所使用的开发者应用不同而有所差异，开放平台产品和服务可能获得的个人信息取决于最终用户所使用的开发者应用的具体类型/版本以及最终用户所使用的功能。如果在部分开发者应用版本中不涵盖某些服务内容或未提供特定功能，则本隐私政策中涉及到上述服务/功能及相关个人信息的内容将不适用。<br /><br />请开发者及最终用户务必在使用开放平台产品和服务前仔细认真阅读并理解本隐私政策，<u>特别提示开发者及最终用户务必重点阅读我们以粗体和/或下划线标识的条款</u>，以便做出适当的选择：请开发者在确认充分了解并同意本隐私政策后再集成和使用开放平台产品和服务；请开发者确保最终用户在确认充分了解并同意本隐私政策后再使用开放平台产品和服务。</b><br /><br />本隐私政策将帮助开发者及最终用户了解以下内容：<br />一、我们如何收集和使用最终用户的个人信息<br />二、我们如何共享、转让、公开披露最终用户的个人信息<br />三、我们如何保存及保护最终用户的个人信息<br />四、我们如何处理未成年人的个人信息<br />五、我们如何保障最终用户的个人信息相关权利行使<br />六、隐私政策的修订与通知<br />七、如何联系我们<br /><b><span style="font-size:large;"><span style="letter-spacing:.75pt;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">一、我们如何收集和使用最终用户的个人信息</span></span></span></span><br /><span style="font-size:large;"><span style="font-family:宋体;" class="title">（一）为帮助开发者向最终用户提供相应功能及服务</span></span></b><br /><span style="font-family:宋体;">为了帮助开发者向最终用户提供相应功能及服务，当最终用户使用相应功能及服务时，我们会通过开发者应用向最终用户的设备系统申请相应设备权限。开发者应确保最终用户可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置，停止我们对最终用户个人信息的收集，之后最终用户可能将无法使用基于相应个人信息而提供的相关服务或功能，或者无法达到基于相应个人信息提供的相关服务拟达到的效果，但不会影响最终用户正常使用开放平台产品的其他不基于相应个人信息即可实现的功能及服务。</span>
+</p>
+<div class="txtstyle2"><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:larger;" class="title"><b>1、定位产品</b></span></div><b><span style="font-family: 宋体;">（</span></b><span style="font-family: 宋体; color: rgb(0, 0, 0);"><b>1）</b>当您使用集成了百度定位产品的开发者应用中的定位功能及服务时，我们将处理您的如下个人信息：</span><br /></div>
+<table border="1" cellspacing="0" style="width: 948px;">
+
+<tr>
+<td style="width: 147px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 111px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 131px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 170px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 127px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 145px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="6" style="width: 147px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 111px; text-align: center;"> Android ID<br />
+</td>
+<td style="width: 131px; text-align: center;"> 便于查找定位异常时的问题日志<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次启动时调用1次<br />
+</td>
+<td rowspan="6" style="width: 127px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />
+</td>
+<td rowspan="6" style="width: 145px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；<br />当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> IDFA<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助分析定位异常的问题原因<br />
+</td>
+<td style="width: 111px; text-align: center;"> 否/开发者可选<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次启动时调用1次<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助分析定位异常的问题原因<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助分析定位异常的问题原因<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助分析定位异常的问题原因<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 应用名<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助分析定位异常的问题原因<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td rowspan="15" style="width: 147px; text-align: center;"> 位置信息<br />
+</td>
+<td style="width: 111px; text-align: center;"> 经纬度<br />
+</td>
+<td style="width: 131px; text-align: center;"> 向用户提供精确的位置信息<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 1次/秒<br />
+</td>
+<td rowspan="15" style="width: 127px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />
+</td>
+<td rowspan="15" style="width: 145px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> GNSS信息<br />
+</td>
+<td style="width: 131px; text-align: center;"> 获取卫星状态信息，优化卫星定位效果，判断卫星定位效果<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 1次/秒<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi网关地址<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于判断移动热点<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取1次<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> BSSID<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于服务端进行网络wifi定位<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 1次/秒<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> SSID<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于识别移动热点，避免定位异常<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取1次<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi信号强度<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助提升网络定位精度<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi状态<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于识别当前网络状态<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi参数<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助提升网络定位精度，排除过期wifi<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi列表<br />
+</td>
+<td style="width: 131px; text-align: center;"> 获取扫描到的Wi-Fi数据，用于服务端进行网络定位<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求网络定位时调用，次数跟Wi-Fi更新完成广播的接收次数相关<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 基站ID数据信息<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于服务端进行网络基站定位<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 运营商信息<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助提升网络定位精度<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 设备信号强度信息<br />
+</td>
+<td style="width: 131px; text-align: center;"> 协助提升网络定位精度<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次请求定位时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> IP地址<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用ip数据优化网络定位效果，减少跨城定位<br />
+</td>
+<td style="width: 111px; text-align: center;"> 否（需要开发者配置，配置后用户同意才会采集）<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次网络请求时获取<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 蓝牙信息<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用蓝牙beacon数据做室内高精定位<br />
+</td>
+<td style="width: 111px; text-align: center;"> 否（需要开发者配置，配置后用户同意才会采集）<br />
+</td>
+<td style="width: 170px; text-align: center;"> 目前全国30+商场才会触发，一秒一次<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> 传感器信息（加速度、陀螺仪、方向、压力、旋转矢量、光照、磁力计）<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用传感器等数据优化定位平滑性、及丢星推算<br />
+</td>
+<td style="width: 111px; text-align: center;"> 否（需要开发者配置，配置后用户同意才会采集）<br />
+</td>
+<td style="width: 170px; text-align: center;"> 特定场景才会触发，如导航丢星场景，注册传感器功能一般系统会以50hz左右回调<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 147px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 111px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于识别当前移动网络状态<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次网络请求时获取<br />
+</td>
+<td style="width: 127px; text-align: center;" rowspan="2" colspan="1"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />&#160;<br />
+</td>
+<td rowspan="2" style="width: 145px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 111px; text-align: center;"> WiFi网络<br />
+</td>
+<td style="width: 131px; text-align: center;"> 用于识别当前wifi网络状态<br />
+</td>
+<td style="width: 111px; text-align: center;"> 是<br />
+</td>
+<td style="width: 170px; text-align: center;"> 每次网络请求时获取<br />
+</td></tr></table>
+<div style="text-align: center;"></div>
+<p><b>位置信息为敏感个人信息，您可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置停止我们对您的位置信息的收集，之后您可能将无法使用基于位置信息而提供的定位功能及服务，或者无法达到基于位置信息提供的相关服务拟达到的效果。</b><br /><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br />为了保证您能正常使用集成了百度定位产品的开发者应用中的定位功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用相关的功能及服务，定位功能及服务对设备权限的调用情况如下：
+</p>
+<table border="1" cellspacing="0" style="width: 952px;">
+
+<tr>
+<td style="width: 99.5px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 132px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 168px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 88px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 108px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 179px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 153px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="4" style="width: 99.5px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 132px; text-align: center;"> 跟踪<br />
+</td>
+<td style="width: 168px; text-align: center;"> 用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 88px; text-align: center;"> 否<br />
+</td>
+<td style="width: 108px; text-align: center;"> 开发者可选，非必需<br />
+</td>
+<td style="width: 179px; text-align: center;"> iOS定位SDK<br />定位Flutter插件<br />
+</td>
+<td rowspan="4" style="width: 153px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 132px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 168px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 88px; text-align: center;"> 是<br />
+</td>
+<td style="width: 108px; text-align: center;"> 定位sdk内部不会主动获取权限，由宿主app完成<br />
+</td>
+<td style="width: 179px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 132px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 168px; text-align: center;"> 根据您选择的权限（例如，精准定位、粗略定位、仅单次定位等）来给开发者应用返回您的位置信息，帮助开发者基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 88px; text-align: center;"> 是<br />
+</td>
+<td style="width: 108px; text-align: center;"> 定位sdk内部不会主动获取权限，由宿主app完成<br />
+</td>
+<td style="width: 179px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 132px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 168px; text-align: center;"> 在后台场景下给开发者应用持续返回您的位置信息，帮助开发者持续基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 88px; text-align: center;"> 否<br />
+</td>
+<td style="width: 108px; text-align: center;"> 不必须，可以申请前台服务通知用于后台定位<br />
+</td>
+<td style="width: 179px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件
+</td></tr></table>
+<br /><b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:large;" class="title"><b>2、地图产品</b></span></div><b>（1）当您使用集成了百度地图产品的开发者应用中的地图展示和搜索功能及服务时，我们将处理您的如下个人信息：</b></div>
+<table border="1" cellspacing="0" style="width: 954px;">
+
+<tr>
+<td style="width: 93px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 146px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 181px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 138px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 121px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 171px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="7" style="width: 93px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 146px; text-align: center;"> Android ID<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 每次启动时调用1次（仅Android）<br />
+</td>
+<td rowspan="7" style="width: 121px; text-align: center;"> Android地图SDK（基础版）<br />iOS地图SDK（基础版）<br />HarmonyOS地图SDK轻量版<br />Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />地图Flutter插件<br />Android地图组件<br />
+</td>
+<td rowspan="7" style="width: 171px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> IDFV<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 第次安装时获取 1次（仅ios）<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 应用名<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于SDK鉴权<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 外部存储目录<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用户缓存地图，离线地图场景<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td rowspan="7" style="width: 93px; text-align: center;"> 位置信息<br />
+</td>
+<td style="width: 146px; text-align: center;"> 经纬度<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于步骑行导航时获取<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 启动步骑行导航时获取<br />
+</td>
+<td rowspan="7" style="width: 121px; text-align: center;"> Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />
+</td>
+<td rowspan="7" style="width: 171px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> GNSS信息<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用户步骑行导航时获取<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 启动步骑行导航时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> WiFi状态<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于判断是否连接网络Wi-Fi状态<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> WiFi参数<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于判断是否连接网络Wi-Fi状态<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 运营商信息<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于地图展示，网络变化<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 设备信号强度信息<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于地图展示，网络变化<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> 传感器信息（加速度、陀螺仪、方向、压力、旋转矢量、光照、磁力计）<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用于步骑行导航功能，通过使用您的设备陀螺仪角度信息调整导航引导视角<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 启动步骑行导航时获取<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 93px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 146px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用户地图展示，检索数据等场景<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td>
+<td rowspan="2" style="width: 121px; text-align: center;"> Android地图SDK（基础版）<br />iOS地图SDK（基础版）<br />HarmonyOS地图SDK轻量版<br />Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />地图Flutter插件<br />Android地图组件<br />
+</td>
+<td rowspan="2" style="width: 171px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 146px; text-align: center;"> WiFi网络<br />
+</td>
+<td style="width: 181px; text-align: center;"> 用户地图展示，检索数据等场景<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 93px; text-align: center;"> 图像信息<br />
+</td>
+<td style="width: 146px; text-align: center;"> 室内AR步行导航过程中采集到的室内图像<br />
+</td>
+<td style="width: 181px; text-align: center;"> 为了室内AR步行导航功能的正常使用，通过室内图像提供视觉定位，否则将无法提供准确的室内AR导航服务<br />
+</td>
+<td style="width: 96px; text-align: center;"> 是<br />
+</td>
+<td style="width: 138px; text-align: center;"> AR步行导航时获取<br />
+</td>
+<td style="width: 121px; text-align: center;"> Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）
+</td></tr></table>
+<p><b><span style="font-family:宋体;">位置信息为敏感个人信息，您可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置停止我们对您的位置信息的收集，之后您可能将无法使用基于位置信息而提供的相关服务或功能，或者无法达到基于位置信息提供的相关服务拟达到的效果，但不会影响您正常使用百度地图产品的其他不基于位置信息即可实现的功能及服务。</span></b><br /><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br /><span><span style="font-family:宋体;">为了保证您能正常使用集成了百度地图产品的开发者应用中与百度地图产品相关的相应功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用与该设备权限相关的功能及服务，但不会导致您无法使用其他功能及服务。各项功能及服务对设备权限的调用情况如下：</span></span>
+</p>
+<table border="1" cellspacing="0" style="width: 941px;">
+
+<tr>
+<td style="width: 67.5px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 90px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 159px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 105px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 204px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 133px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="7" style="width: 67.5px; text-align: center;"> 地图展示和搜索、步骑行导航<br />
+</td>
+<td style="width: 90px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 159px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 地图展示或使用检索组件时申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（基础版）<br />iOS地图SDK（基础版）<br />HarmonyOS地图SDK轻量版<br />Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />地图Flutter插件<br />Android地图组件<br />
+</td>
+<td rowspan="7" style="width: 133px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 90px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 159px; text-align: center;"> 根据您选择的权限（例如，精准定位、粗略定位、仅单次定位等）来给开发者应用返回您的位置信息，帮助开发者基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 使用到步骑行导航功能的时候申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />
+</td></tr>
+<tr>
+<td style="width: 90px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 159px; text-align: center;"> 在后台场景下给开发者应用持续返回您的位置信息，帮助开发者持续基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 使用到步骑行导航功能的时申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）<br />
+</td></tr>
+<tr>
+<td style="width: 90px; text-align: center;"> 存储<br />
+</td>
+<td style="width: 159px; text-align: center;"> 用于网络异常时向拓展卡写入和读取定位数据，向您提供离线定位功能<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 地图展示的时申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（基础版）<br />Android地图SDK（步骑行导航版）<br />地图Flutter插件<br />Android地图组件<br />
+</td></tr>
+<tr>
+<td style="width: 90px; text-align: center;"> 存储<br />相机<br />
+</td>
+<td style="width: 159px; text-align: center;"> 向拓展卡写入和读取缓存信息，用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 地图展示的时申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（基础版）<br />Android地图SDK（步骑行导航版）<br />地图Flutter插件<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 90px; text-align: center;"> 存储<br />相机<br />&#160;<br />
+</td>
+<td style="width: 159px; text-align: center;"> 通过摄像头获取实时画面用于和导航诱导信息相结合来为您提供步骑行导航功能及服务<br />
+</td>
+<td style="width: 78px; text-align: center;"> 是<br />
+</td>
+<td style="width: 105px; text-align: center;"> 使用到ar步骑行导航时申请1次<br />
+</td>
+<td style="width: 204px; text-align: center;"> Android地图SDK（步骑行导航版）<br />iOS地图SDK（步骑行导航版）
+</td></tr></table>
+&#160;<br /><br /><b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><br /><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:large;" class="title"><b>3、鹰眼轨迹产品</b></span></div><b><span style="font-family:宋体;">（1）当您使用集成了百度鹰眼轨迹产品的开发者应用中与轨迹服务相关的功能及服务时，我们将处理您的如下个人信息：</span></b></div>
+<table border="1" cellspacing="0" style="width: 945px;">
+
+<tr>
+<td style="width: 86px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 99px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 147px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 157px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 174px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 179px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="7" style="width: 86px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 99px; text-align: center;"> Android ID<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 每次启动时调用1次（仅Android）<br />
+</td>
+<td rowspan="7" style="width: 174px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td>
+<td rowspan="7" style="width: 179px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> IDFV<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 第一次安装时获取 1次（仅ios）<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于排查和分析异常时的问题日志<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 应用名<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鉴权<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 外部存储目录<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于离线轨迹的存储<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td></tr>
+<tr>
+<td rowspan="11" style="width: 86px; text-align: center;"> 位置信息<br />
+</td>
+<td style="width: 99px; text-align: center;"> 经纬度<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于实现轨迹服务获取您的精确或粗略位置信息<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td>
+<td rowspan="11" style="width: 174px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td>
+<td rowspan="11" style="width: 179px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> GNSS信息<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，gnss定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> BSSID<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> SSID<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> WiFi信号强度<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> WiFi参数<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> WiFi列表<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 基站ID数据信息<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 运营商信息<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> 设备信号强度信息<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> IP地址<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于鹰眼轨迹采集时，网络定位场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 开启鹰眼服务时获取<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 86px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 99px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于服务数据交互，采集查询等场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取<br />
+</td>
+<td rowspan="2" style="width: 174px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td>
+<td rowspan="2" style="width: 179px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 99px; text-align: center;"> WiFi网络<br />
+</td>
+<td style="width: 147px; text-align: center;"> 用于服务数据交互，采集查询等场景<br />
+</td>
+<td style="width: 75px; text-align: center;"> 是<br />
+</td>
+<td style="width: 157px; text-align: center;"> 运行时获取
+</td></tr></table>
+<br /><b><span style="font-family:宋体;">位置信息为敏感个人信息，您可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置停止我们对您的位置信息的收集，之后您可能将无法使用基于位置信息而提供的相关服务或功能，或者无法达到基于位置信息提供的相关服务拟达到的效果。</span></b><br /><div><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br /><span style="font-family:宋体;">为了保证您能正常使用百度鹰眼轨迹产品相应功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用相关的轨迹功能及服务。轨迹功能及服务对设备权限的调用情况如下：</span><br />
+<table border="1" cellspacing="0" style="width: 953px;">
+
+<tr>
+<td style="width: 78px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 115px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 178px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 119px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 160px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 175px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="7" style="width: 78px; text-align: center;"> 轨迹<br />
+</td>
+<td style="width: 115px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 178px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 运行时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td>
+<td rowspan="7" style="width: 175px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 115px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 178px; text-align: center;"> 根据您选择的权限（例如，精准定位、粗略定位、仅单次定位等）来给开发者应用返回您的位置信息，帮助开发者基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 开启鹰眼服务时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 115px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 178px; text-align: center;"> 在后台场景下给开发者应用持续返回您的位置信息，帮助开发者持续基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 开启鹰眼后台采集时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />iOS鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 115px; text-align: center;"> 存储<br />
+</td>
+<td style="width: 178px; text-align: center;"> 用于网络异常时向拓展卡写入和读取定位数据，向您提供离线定位功能<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 运行时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 115px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 178px; text-align: center;"> 向拓展卡写入和读取缓存信息，用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 运行时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 115px; text-align: center;"> 前台服务申请<br />电池优化白名单<br />
+</td>
+<td style="width: 178px; text-align: center;"> 用于持续获取并上传您的位置信息，来为您提供轨迹功能及服务<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 开启鹰眼后台采集时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件<br />
+</td></tr>
+<tr>
+<td style="width: 178px; text-align: center;"> 用于在持续获取并上传您的位置信息过程中，不受电池剩余电量的影响，始终以标准模式工作来为您提供轨迹功能及服务<br />
+</td>
+<td style="width: 102px; text-align: center;"> 是<br />
+</td>
+<td style="width: 119px; text-align: center;"> 开启鹰眼后台采集时申请<br />
+</td>
+<td style="width: 160px; text-align: center;"> Android鹰眼轨迹SDK<br />鹰眼轨迹Flutter插件
+</td></tr></table>
+<b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><br /><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:large;" class="title"><b>4、全景产品</b></span></div><b><span style="font-family:宋体;">（1）当您使用集成了百度全景产品的开发者应用中与全景服务相关的功能及服务时，我们将处理您的如下个人信息：</span></b></div>
+<table border="1" cellspacing="0" style="width: 957px;">
+
+<tr>
+<td style="width: 88px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 101px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 116px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 142px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 126px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 245px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="6" style="width: 88px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 101px; text-align: center;"> Android ID<br />
+</td>
+<td style="width: 116px; text-align: center;"> 便于查找异常时的问题日志<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 每次启动时调用1次<br />
+</td>
+<td rowspan="6" style="width: 126px; text-align: center;"> Android全景SDK<br />iOS全景SDK<br />
+</td>
+<td rowspan="6" style="width: 245px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> IDFA<br />
+</td>
+<td style="width: 116px; text-align: center;"> 协助分析异常的问题原因<br />
+</td>
+<td style="width: 84px; text-align: center;"> 否/开发者可选<br />
+</td>
+<td style="width: 142px; text-align: center;"> 每次启动时调用1次<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 116px; text-align: center;"> 协助分析异常的问题原因<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 116px; text-align: center;"> 协助分析异常的问题原因<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 116px; text-align: center;"> 协助分析异常的问题原因<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> 应用名<br />
+</td>
+<td style="width: 116px; text-align: center;"> 协助分析异常的问题原因<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 随用随取<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 88px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 101px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 116px; text-align: center;"> 用于识别当前移动网络状态<br />
+</td>
+<td style="width: 84px; text-align: center;"> 是<br />
+</td>
+<td style="width: 142px; text-align: center;"> 每次网络请求时获取<br />
+</td>
+<td rowspan="2" style="width: 126px; text-align: center;"> Android全景SDK<br />iOS全景SDK<br />
+</td>
+<td rowspan="2" style="width: 245px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启
+</td></tr></table>
+<p><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br /><span style="font-family:宋体;">为了保证您能正常使用百度全景产品相应功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用相关功能及服务，但不会导致您无法使用其他功能及服务。各项功能及服务对设备权限的调用情况如下：</span>
+</p>
+<table border="1" cellspacing="0" style="width: 958px;">
+
+<tr>
+<td style="width: 82px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 101px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 174px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 164px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 147px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 195px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 82px; text-align: center;"> 全景服务<br />
+</td>
+<td style="width: 101px; text-align: center;"> 跟踪<br />
+</td>
+<td style="width: 174px; text-align: center;"> 用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 71px; text-align: center;"> 否<br />
+</td>
+<td style="width: 164px; text-align: center;"> 开发者可选，非必需<br />
+</td>
+<td style="width: 147px; text-align: center;"> iOS定位SDK<br />定位Flutter插件<br />
+</td>
+<td rowspan="2" style="width: 195px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；<br />当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 101px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 174px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 164px; text-align: center;"> 全景sdk内部不会主动获取权限，由宿主app完成<br />
+</td>
+<td style="width: 147px; text-align: center;"> Android定位SDK<br />iOS定位SDK<br />定位Flutter插件<br />
+</td></tr></table>
+<br /><b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><br /><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:larger;" class="title"><b>5、导航产品</b></span></div><b><span style="font-family:宋体;">（1）当您使用集成了百度导航产品的开发者应用中与导航服务相关的功能及服务时，我们将收集您的如下个人信息：</span></b></div>
+<table border="1" cellspacing="0">
+
+<tr>
+<td style="width: 94px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 113px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 154px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 145px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 143px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 212px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="4" style="width: 94px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 113px; text-align: center;"> Android ID<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 每次初始化调用一次<br />
+</td>
+<td rowspan="4" style="width: 143px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td>
+<td rowspan="4" style="width: 212px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于跟进客户反馈的问题<br />网络请求参数<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 每次初始化调用一次<br />按需调用，获取一次调用一次<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 每次初始化调用一次<br />按需调用，获取一次调用一次<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于跟进客户反馈的问题<br />网络请求参数<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 每次初始化调用一次<br />按需调用，获取一次调用一次<br />
+</td></tr>
+<tr>
+<td rowspan="5" style="width: 94px; text-align: center;"> 位置信息<br />
+</td>
+<td style="width: 113px; text-align: center;"> 经纬度<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于导航位置更新<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 1秒一次<br />
+</td>
+<td rowspan="5" style="width: 143px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td>
+<td rowspan="5" style="width: 212px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> GNSS信息<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于导航位置更新<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 1秒一次<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> WiFi状态<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于导航位置更新<br />ios没用到<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 导航中gps信号弱时调用<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 蓝牙信息<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于室内导航场景<br />
+</td>
+<td style="width: 71px; text-align: center;"> 否/开发者可配置<br />
+</td>
+<td style="width: 145px; text-align: center;"> 进入室内导航时<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 传感器信息（加速度、陀螺仪、方向、压力、旋转矢量、光照、磁力计）<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于导航位置更新<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 1秒一次<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 94px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 113px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于鉴权、算路、导航等功能<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 频繁<br />
+</td>
+<td rowspan="2" style="width: 143px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td>
+<td rowspan="2" style="width: 212px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> WiFi网络<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于鉴权、算路、导航等功能<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 频繁<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 94px; text-align: center;"> 出发地到达地<br />
+</td>
+<td style="width: 113px; text-align: center;"> 上车点<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于算路<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 频繁<br />
+</td>
+<td rowspan="2" style="width: 143px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td>
+<td rowspan="2" style="width: 212px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 113px; text-align: center;"> 下车点<br />
+</td>
+<td style="width: 154px; text-align: center;"> 用于算路<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 145px; text-align: center;"> 频繁<br />
+</td></tr></table>
+<div style="text-align: center;"><br /></div><b><span style="font-family:宋体;">位置信息为敏感个人信息，您可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置停止我们对您的位置信息的收集，之后您可能将无法使用基于位置信息而提供的相关服务或功能，或者无法达到基于位置信息提供的相关服务拟达到的效果，但不会影响您正常使用百度导航产品的其他不基于位置信息即可实现的功能及服务。</span></b><br /><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br /><div><span style="font-family:宋体;">为了保证您能正常使用百度导航产品相应功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用相关的功能及服务，但不会导致您无法使用其他功能及服务。各项功能及服务对设备权限的调用情况如下：</span></div>
+<table border="1" cellspacing="0">
+
+<tr>
+<td style="width: 88px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 94px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 198px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 66px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 116px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 154px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 217px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="4" style="width: 88px; text-align: center;"> 导航<br />
+</td>
+<td style="width: 94px; text-align: center;"> 跟踪<br />
+</td>
+<td style="width: 198px; text-align: center;"> 用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 66px; text-align: center;"> 是<br />
+</td>
+<td style="width: 116px; text-align: center;"> 用户允许后，导航过程中实时获取<br />
+</td>
+<td style="width: 154px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td>
+<td rowspan="4" style="width: 217px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 94px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 198px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 66px; text-align: center;"> 是<br />
+</td>
+<td style="width: 116px; text-align: center;"> 用户允许后，导航过程中实时获取<br />
+</td>
+<td style="width: 154px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td></tr>
+<tr>
+<td style="width: 94px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 198px; text-align: center;"> 根据您选择的权限（例如，精准定位、粗略定位、仅单次定位等）来给开发者应用返回您的位置信息，帮助开发者基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 66px; text-align: center;"> 是<br />
+</td>
+<td style="width: 116px; text-align: center;"> 用户允许后，导航过程中实时获取<br />
+</td>
+<td style="width: 154px; text-align: center;"> Android导航SDK<br />iOS导航SDK<br />
+</td></tr>
+<tr>
+<td style="width: 94px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 198px; text-align: center;"> 在后台场景下给开发者应用持续返回您的位置信息，帮助开发者持续基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 66px; text-align: center;"> 是<br />
+</td>
+<td style="width: 116px; text-align: center;"> 用户允许后，导航过程中实时获取<br />
+</td>
+<td style="width: 154px; text-align: center;"> Android导航SDK<br />iOS导航SDK）
+</td></tr></table>
+<br /><b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><br /><div class="serve-explain-text" style="padding: 0"><div class="serveintoor-title service-page-anchor"><span style="font-size:large;" class="title"><b>6、司乘同显产品</b></span></div><b><span style="font-family:宋体;">（1）当您使用集成了百度司乘同显产品的开发者应用中与司乘同显服务相关的功能及服务时，我们将处理您的如下个人信息：</span></b></div>
+<table border="1" cellspacing="0">
+
+<tr>
+<td style="width: 94px; text-align: center;"> 个人信息类型<br />
+</td>
+<td style="width: 114px; text-align: center;"> 获取数据项<br />
+</td>
+<td style="width: 156px; text-align: center;"> 目的/用途<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是否必须<br />
+</td>
+<td style="width: 132px; text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 187px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 179px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="6" style="width: 94px; text-align: center;"> 设备信息<br />
+</td>
+<td style="width: 114px; text-align: center;"> IDFV<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 第一次安装启动时获取<br />
+</td>
+<td rowspan="6" style="width: 187px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td>
+<td rowspan="25" style="width: 179px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 操作系统版本<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />网络请求参数<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 每次启动进行SDK鉴权请求时获取<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 设备配置<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 每次启动进行SDK鉴权请求时获取<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 设备品牌及型号<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />网络请求参数<br />&#160;<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 每次启动进行SDK鉴权请求时获取<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 应用名（包名）<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 每次启动进行SDK鉴权请求时获取<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 外部存储目录<br />
+</td>
+<td style="width: 156px; text-align: center;"> 用于跟进客户反馈的问题<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> App每次启动时<br />
+</td></tr>
+<tr>
+<td rowspan="14" style="width: 94px; text-align: center;"> 位置信息<br />
+</td>
+<td style="width: 114px; text-align: center;"> 经纬度<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取<br />
+</td>
+<td rowspan="14" style="width: 187px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> GNSS信息<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> BSSID<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> SSID<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> WiFi信号强度<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> WiFi状态<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> WiFi参数<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> WiFi列表<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 基站ID数据信息<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 运营商信息<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 设备信号强度信息<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> IP地址<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取，仅安卓<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 蓝牙信息<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取（室内步行场景）<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 传感器信息（加速度、陀螺仪、方向、旋转矢量、磁力计）<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 司机端导航中实时获取<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 94px; text-align: center;"> 网络信息<br />
+</td>
+<td style="width: 114px; text-align: center;"> 移动网络<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td rowspan="2" style="width: 132px; text-align: center;"> 实时监听网络状态变更<br />
+</td>
+<td rowspan="2" style="width: 187px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> WiFi网络<br />
+</td>
+<td style="width: 156px; text-align: center;"> 定位精确或粗略位置信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 94px; text-align: center;"> 出发地到达地<br />
+</td>
+<td style="width: 114px; text-align: center;"> 上车点<br />
+</td>
+<td style="width: 156px; text-align: center;"> 路线规划和导航的起终点<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 用户设置上车点时<br />
+</td>
+<td rowspan="2" style="width: 187px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 114px; text-align: center;"> 下车点<br />
+</td>
+<td style="width: 156px; text-align: center;"> 路线规划和导航的起终点<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 用户设置下车点时<br />
+</td></tr>
+<tr>
+<td style="width: 94px; text-align: center;"> 图像信息<br />
+</td>
+<td style="width: 114px; text-align: center;"> 室内AR步行导航过程中采集到的室内图像<br />
+</td>
+<td style="width: 156px; text-align: center;"> 仅用于端上给用户指示路线方向信息<br />
+</td>
+<td style="width: 71px; text-align: center;"> 是<br />
+</td>
+<td style="width: 132px; text-align: center;"> 用户设置使用AR导航过程中<br />
+</td>
+<td style="width: 187px; text-align: center;"> Android司乘同显SDK司机端<br />iOS司乘同显SDK司机端
+</td></tr></table>
+<p><b><span style="font-family:宋体;">位置信息为敏感个人信息，您可以随时通过取消系统授权开发者应用获取相应设备权限或开发者应用提供的其他授权设置停止我们对您的位置信息的收集，之后您可能将无法使用基于位置信息而提供的相关服务或功能，或者无法达到基于位置信息提供的相关服务拟达到的效果，但不会影响您正常使用百度司乘同显产品的其他不基于位置信息即可实现的功能及服务。</span></b>
+</p>
+<div style="text-align: center;"></div></div></div></div>
+<p><b><span style="font-family:宋体;" class="vicetitle">(2)设备权限调用</span></b><br /><span style="font-family:宋体;">为了保证您能正常使用百度司乘同显产品相应功能及服务，我们会通过开发者应用向您的设备系统申请以下设备权限，申请前我们会征询您的同意，您可以选择“允许”或“禁止”权限申请。经过您的授权后我们会开启相关权限，您可以随时在系统中取消授权，您取消授权会导致您无法使用相关的功能及服务，但不会导致您无法使用其他功能及服务。各项功能及服务对设备权限的调用情况如下：</span>
+</p>
+<table border="1" cellspacing="0" align="center">
+
+<tr>
+<td style="width: 96px; text-align: center;"> 功能及服务<br />
+</td>
+<td style="width: 147px; text-align: center;"> 设备权限<br />
+</td>
+<td style="width: 175px; text-align: center;"> 使用目的<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是否必须<br />
+</td>
+<td style="text-align: center;"> 调用频次<br />
+</td>
+<td style="width: 200px; text-align: center;"> 适用产品类型<br />
+</td>
+<td style="width: 125px; text-align: center;"> 权限授权方式<br />
+</td></tr>
+<tr>
+<td rowspan="9" style="width: 96px; text-align: center;"> 司乘同显<br />
+</td>
+<td style="width: 147px; text-align: center;"> 电话<br />
+</td>
+<td style="width: 175px; text-align: center;"> 用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 79px; text-align: center;"> 否<br />
+</td>
+<td style="text-align: center;"> 用户反馈问题时<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />
+</td>
+<td rowspan="9" style="width: 125px; text-align: center;"> 授权方式由设备系统开发方以及开发者应用决定；当您同意向开发者应用授予该权限时开启<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 跟踪<br />
+</td>
+<td style="width: 175px; text-align: center;"> 用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 79px; text-align: center;"> 否<br />
+</td>
+<td style="text-align: center;"> &#160;<br />
+</td>
+<td style="width: 200px; text-align: center;"> iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 网络访问<br />
+</td>
+<td style="width: 175px; text-align: center;"> 用于访问定位服务，以帮助开发者向您提供定位功能，同时WiFi信息的访问会用于网络定位<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> 司乘同显过程中实时获取<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />iOS司乘同显SDK司机端<br />iOS司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 定位<br />
+</td>
+<td style="width: 175px; text-align: center;"> 根据您选择的权限（例如，精准定位、粗略定位、仅单次定位等）来给开发者应用返回您的位置信息，帮助开发者基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> 司乘同显过程中实时获取<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />iOS司乘同显SDK司机端<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 始终允许访问位置信息<br />
+</td>
+<td style="width: 175px; text-align: center;"> 在后台场景下给开发者应用持续返回您的位置信息，帮助开发者持续基于您的位置信息提供相关服务<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> 用户允许后，司乘同显过程中实时获取<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />iOS司乘同显SDK司机端<br />
+</td></tr>
+<tr>
+<td rowspan="2" style="width: 147px; text-align: center;"> 存储<br />
+</td>
+<td style="width: 175px; text-align: center;"> 用于网络异常时向拓展卡写入和读取定位数据，向您提供离线定位功能<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> App每次启动时获取<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 175px; text-align: center;"> 向拓展卡写入和读取缓存信息，用于向您提供问题追踪、排查、诊断服务并进行数据统计，以保障产品和服务安全正常运行<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> App每次启动时获取<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />Android司乘同显SDK乘客端<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 相机<br />
+</td>
+<td style="width: 175px; text-align: center;"> 通过摄像头获取实时画面用于和导航诱导信息相结合来为您提供步骑行导航功能及服务<br />
+</td>
+<td style="width: 79px; text-align: center;"> 是<br />
+</td>
+<td style="text-align: center;"> 仅步行AR导航过程中<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端<br />iOS司乘同显SDK司机端<br />
+</td></tr>
+<tr>
+<td style="width: 147px; text-align: center;"> 麦克风<br />
+</td>
+<td style="width: 175px; text-align: center;"> 为了您在导航过程中上报UGC事件时调用麦克风进行录音<br />
+</td>
+<td style="width: 79px; text-align: center;"> 否<br />
+</td>
+<td style="text-align: center;"> 仅上报UGC事件时<br />
+</td>
+<td style="width: 200px; text-align: center;"> Android司乘同显SDK司机端
+</td></tr></table>
+<p><b><span style="font-family:宋体;">在不同设备中，权限显示方式及关闭方式可能有所不同，具体请您参考设备及系统开发方说明或指引。</span></b><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（二）保证服务安全、优化和改善服务目的</span></b></span><br />为了帮助开发者向您提供上述功能及服务，同时为了更准确定位并解决开发者以及您在使用开放平台产品和服务时遇到的问题，改进及优化开放平台产品和服务在开发者侧以及最终用户侧的双重使用体验，提高开放平台产品和服务的安全性，预防、发现、调查欺诈、危害安全、非法或违反与我们的协议、政策或规则的行为，以保护开发者、您、我们或我们的关联公司、合作伙伴及社会公众的合法权益，我们会收集您的<b>设备信息、位置信息、日志信息及其他与登录环境相关的信息，其中，个人信息相关日志仅存储10天</b>。<br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（三）个人信息的匿名化处理</span></b></span><br />在不公开披露和/或不对外提供您的个人信息的前提下，百度公司有权对匿名化处理后的用户数据库进行挖掘、分析和利用（包括商业性使用），有权对产品/服务使用情况进行统计并与公众/第三方共享匿名化处理后的统计信息。<br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（四）事先征得授权同意的例外&#160;</span></b></span><br /><span style="font-family:宋体;">请注意，在以下情形中，收集、使用个人信息无需事先征得您的授权同意：</span><br />&#160;<br />&#160;1.&#160;&#160;<span style="font-family:宋体;">与国家安全、国防安全直接相关的；</span>
+</p>
+</div>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;2.&#160;&#160;<span style="font-family:宋体;">为履行法定职责或者法定义务所必需；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">&#160;3</span>.&#160;&#160;<span style="font-family:宋体;">为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;4.&#160;&#160;<span style="font-family:宋体;">与犯罪侦查、起诉、审判和判决执行等直接有关的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;5.&#160;&#160;<span style="font-family:宋体;">出于维护最终用户或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;6.&#160;&#160;<span style="font-family:宋体;">依照法律法规的规定在合理的范围内收集最终用户自行向社会公众公开或其他已经合法公开的个人信息；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;7.&#160;&#160;<span style="font-family:宋体;">依照法律法规的规定在合理的范围内从合法公开披露的信息中收集最终用户的个人信息，如合法的新闻报道、政府信息公开等渠道；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;8.&#160;&#160;<span style="font-family:宋体;">为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;9.&#160;&#160;<span style="font-family:宋体;">学术研究机构基于公共利益开展统计或学术研究所必要，且对外提供学术研究或描述的结果时，对结果中所包含的个人信息进行去标识化处理的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p>&#160;10.&#160;&#160;<span style="font-family:宋体;">法律法规规定的其他情形。<br /><br /><b>提示您注意，当我们要将信息用于本隐私政策未载明的其它用途时，会事先征求您的同意。</b></span><br /><b><span style="font-size:large;"><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">二、我们如何共享、转让、公开披露最终用户的个人信息</span></span></span></span></b><br /><b><span style="font-size:large;"><span style="font-family:宋体;" class="title">（一）共享</span></span></b><br /><span style="font-family:宋体;">除非经过您本人事先单独同意或符合其他法律法规规定的情形，我们不会向除百度公司以外的第三方共享您的个人信息，但经过处理无法识别特定个人且不能复原的除外。</span><br /><br /><b><span style="font-family:宋体;">1.</span></b>&#160;<b><span style="font-family:宋体;">在下列情况下，经过您的授权同意，我们可能会共享的个人信息：</span></b><br /><br /><span style="font-family:宋体;">仅为实现本隐私政策中声明的目的，我们的某些服务将由授权合作伙伴提供。我们可能会与合作伙伴共享您的某些个人信息，以提供更好的客户服务和用户体验。我们仅会出于合法、正当、必要、特定、明确的目的共享您的个人信息，并且只会共享与提供服务相关的个人信息。我们的合作伙伴无权将共享的个人信息用于任何其他用途。</span><br /><span style="font-family:宋体;">目前，我们的授权合作伙伴包括以下类型：</span><br /><br /><span style="font-family:宋体;">(1) </span><span style="font-family:宋体;">服务平台或服务提供商。百度各产品接入了丰富的第三方服务。当您选择使用该第三方服务时，您授权我们将该信息提供给第三方服务平台或服务提供商，以便其基于相关信息为您提供服务。</span><br /><br /><span style="font-family:宋体;">(2) </span><span style="font-family:宋体;">软硬件/系统服务提供商。当第三方软硬件/</span>系统产品或服务与百度的产品或服务结合为您提供服务时，经您授权，我们会向第三方软硬件/系统服务提供商提供您的必要个人信息，以便您使用服务，或用于我们分析产品和服务使用情况，来提升您的使用体验。<br /><br /><span style="font-family:宋体;">(3) </span>广告、咨询类服务商/广告主。未经您授权，我们不会将您的个人信息与提供广告、咨询类服务商共享。但我们可能会将经处理无法识别您的身份且接收方无法复原的信息，例如经匿名化处理的用户画像，与广告或咨询类服务商或广告主共享，以帮助其在不识别最终用户个人的前提下，提升广告有效触达率，以及分析我们的产品和服务使用情况等。我们将按照业内领先的去标识化、匿名化、假名化等数据安全技术（例如，机密计算等隐私保护计算技术），在无法识别特定个人的前提下，对我们所收集的数据进行分析挖掘和处理，无需另行通知您并征得您的同意。我们将采取技术措施和其他必要措施进行处理，以无法识别或反推个人信息的形式对数据进行聚合性、匿名性的群体性分析与研究，也可能将数据用于机器学习或算法模型训练，并提供数据技术服务，例如：帮助优化广告投放营销效果、辅助商业决策分析、开展商业选址分析等。<br /><br /><span style="font-family:宋体;">(4) </span>如果您与征信机构（如百行征信、朴道征信等）、金融机构或其他机构签订了相应授权协议或文件，基于您的前述授权同意与本政策，我们会对您的个人信息进行综合统计、分析或加工处理并将数据处理结果提供给前述机构。<br /><br /><span style="font-family:宋体;">2. </span><span style="font-family:宋体;">对我们与之共享个人信息的公司、组织和个人，我们会对其数据安全环境进行调查，与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理个人信息。</span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（二）转让</span></b></span><br /><span style="font-family:宋体;">我们不会将您的个人信息转让给除<b>关联公司</b>外的任何公司、组织和个人，但以下情况除外：</span><br /><br /><span style="font-family:宋体;">1. </span><span style="font-family:宋体;">事先获得最终用户的明确授权或同意；</span><br /><span style="font-family:宋体;">2. </span><span style="font-family:宋体;">满足法律法规、法律程序的要求或强制性的政府要求或司法裁定；</span><br /><span style="font-family:宋体;">3. </span><span style="font-family:宋体;">如果我们或我们的关联公司涉及合并、分立、清算、资产或业务的收购或出售等交易，最终用户的个人信息有可能作为此类交易的一部分而被转移，我们将确保该等信息在转移时的机密性，并尽最大可能确保新的持有最终用户个人信息的公司、组织继续受此隐私政策的约束，否则我们将要求该公司、组织重新向最终用户征求授权同意。</span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（三）公开披露</span></b></span><br /><span style="font-family:宋体;">我们仅会在以下情况下，公开披露您的个人信息：</span><br /><span style="font-family:宋体;">1. </span><span style="font-family:宋体;">获得最终用户的单独同意；</span><br /><span style="font-family:宋体;">2. </span><span style="font-family:宋体;">基于法律法规、法律程序、诉讼或政府主管部门强制性要求下。</span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（四）共享、转让、公开披露个人信息时事先征得授权同意的例外</span></b></span><br />&#160;<span style="font-family:宋体;">在以下情形中，共享、转让、公开披露个人信息无需事先征得您的授权同意：</span>
+</p>
+<div style="text-align:left;">
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;"></span>&#160;1.&#160;<span style="font-family:宋体;">与国家安全、国防安全直接相关的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;"></span>&#160;2.&#160;<span style="font-family:宋体;">为履行法定职责或者法定义务所必需；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;"></span>&#160;3.&#160;<span style="font-family:宋体;">与公共安全、公共卫生、重大公共利益直接相关的。例如：为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;"></span>&#160;4.&#160;<span style="font-family:宋体;">与犯罪侦查、起诉、审判和判决执行等直接相关的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;"></span>&#160;5.&#160;<span style="font-family:宋体;">出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">&#160; &#160; 6. 依照法律法规的规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息，例如：合法的新闻报道、政府信息公开等渠道等；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">&#160; &#160; 7. 法律、行政法规另有规定的情形。</span><br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">三、我们如何保存及保护最终用户的个人信息</span></span></span></b></span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（一）保存期限</span></b></span><br /><span style="font-family:宋体;">我们将在开放平台产品自身提供服务以及开发者应用提供服务所需的期限内保存您的个人信息，但法律法规对保存期限另有规定、您同意留存更长的期限、保证服务的安全与质量、实现争议解决目的、技术上难以实现等情况下，在前述保存期限到期后，我们将依法、依约或在合理范围内延长保存期限。</span><br /><span style="font-family:宋体;">在超出保存期限后，我们将根据法律规定删除您的个人信息或进行匿名化处理。</span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（二）保存地域</span></b></span><br />开放平台产品和服务在中华人民共和国境内运营中收集和产生的个人信息，将<b>存储在中国境内。但是，如果最终用户在中国境外使用集成了开放平台产品和服务的开发者应用时，平台方可能会将部分信息传输至最终用户位于中国境外的移动终端上。</b>平台方会严格按照相应法律法规的规定执行，并保证最终用户的个人信息安全。<br /><br /><b>最终用户理解并同意，若最终用户在中国境外使用开发者应用中集成的开放平台产品和服务时，平台方收集的有关最终用户的个人信息仍会存储到平台方在境内的服务器上。<br /><br />平台方要求，并且开发者应当确保针对该使用场景有关此项数据在中国大陆存储已经取得最终用户的明确有效的同意；否则，由此引发的一切风险及后果由开发者自行承担；若平台方因此遭受任何形式的诉请、诉求、投诉、处罚等的，开发者将负责全面给予解决；如果导致平台方发生任何形式的损失，开发者负责给予平台方全额赔偿。<br /><br />平台方要求，并且开发者承诺已清楚知晓并完全理解，不同国家或地区对于数据及个人信息的收集、存储、使用、共享等处理各有其监管要求。未经平台方另行事先书面许可，开发者不得仅根据《百度地图开放平台服务条款》等平台线上协议而以任何方式将集成了开放平台产品和服务的开发者应用提供给中国境外的其他国家或地区的自然人使用。若开发者未经平台方事先书面许可，擅自将集成了前述开发者应用提供给中国境外的其他国家或地区的自然人使用，因此导致的所有风险及后果均由开发者自行承担；并且，如平台方因此遭受任何形式的诉请、诉求、投诉、处罚等的，开发者将负责全面给予解决；如导致平台方或最终用户发生任何形式的损失，开发者负责给予赔偿。同时，平台方将保留停止提供相关服务的权利。</b><br /><br />以下情形下，我们会在履行法律规定的义务后，向可能的境外实体提供您的个人信息：
+</p><p>1、适用的法律有明确规定；
+</p><p>2、获得最终用户的单独同意。
+</p><p>针对以上情形，我们会按照本政策依法保护您的个人信息安全。<br /><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（三）安全措施</span></b></span><br /><span style="font-family: 宋体;">1.&#160; 我们会以“最小化”</span>原则收集、使用、存储和传输用户信息，并通过用户协议和隐私政策告知您相关信息的使用目的和范围。
+</p>
+<div style="text-align:left;">
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">2.&#160; 我们非常重视信息安全。我们成立了专责团队负责研发和应用多种安全技术和程序等，我们会对安全管理负责人和关键安全岗位的人员进行安全背景审查，我们建立了完善的信息安全管理制度和内部安全事件处置机制等。我们会采取适当的符合业界标准的安全措施和技术手段存储和保护您的个人信息，以防止您的信息丢失、遭到被未经授权的访问、公开披露、使用、毁损、丢失或泄漏。我们会采取一切合理可行的措施，保护您的个人信息。我们会使用加密技术确保数据的保密性；我们会使用受信赖的保护机制防止数据遭到恶意攻击。</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">3.&#160; 我们会对员工进行数据安全的意识培养和安全能力的培训和考核，加强员工对于保护个人信息重要性的认识。我们会对处理个人信息的员工进行身份认证及权限控制，并会与接触您个人信息的员工、合作伙伴签署保密协议，明确岗位职责及行为准则，确保只有授权人员才可访问个人信息。<b>若有违反保密协议的行为，会被立即终止与百度公司的合作关系，</b>并会被追究相关法律责任，对接触个人信息人员在离岗时也提出了保密要求。</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">4.&#160; 我们提醒您注意，互联网并非绝对安全的环境，<b>当您通过开放平台产品中嵌入的第三方社交软件、电子邮件、短信等与其他用户交互您的地理位置或行踪轨迹信息时，我们不确定第三方软件对信息的传递是否完全加密，注意确保您个人信息的安全。</b></span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">5.&#160; 我们也请您理解，在互联网行业由于技术的限制和飞速发展以及可能存在的各种恶意攻击手段，即便我们竭尽所能加强安全措施，也不可能始终保证信息的百分之百安全。<b>请您了解，您使用我们的产品和/或服务时所用的系统和通讯网络，有可能在我们控制之外的其他环节而出现安全问题。</b></span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><b><span style="font-family:宋体;">6.&#160; 根据我们的安全管理制度，个人信息泄露、毁损或丢失事件被列为最特大安全事件，一经发生将启动公司最高级别的紧急预案，</span></b><span style="font-family:宋体;">由安全部、公共事务部、法务部等多个部门组成联合应急响应小组处理。</span><br /><span style="font-size:large;"><b><span style="font-family:宋体;" class="title">（四）安全事件通知</span></b></span><br /><span style="font-family: 宋体;">1.&#160; 我们会制定网络安全事件应急预案，及时处置系统漏洞、计算机病毒、网络攻击、网络侵入等安全风险，在发生危害网络安全的事件时，我们会立即启动应急预案，采取相应的补救措施，并按照规定向有关主管部门报告。</span>
+</p>
+<div style="margin-top:2.5pt;margin-right:0cm;margin-bottom:2.5pt;layout-grid-mode:char;">
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">2.&#160; 个人信息泄露、毁损、丢失属于公司级特大安全事件，我们会负责定期组织工作组成员进行安全预案演练，防止此类安全事件发生。若一旦不幸发生，我们将按照最高优先级启动应急预案，组成紧急应急小组，在最短时间内追溯原因并减少损失。</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">3.&#160; &#160;在不幸发生个人信息安全事件后，我们将按照法律法规的要求，及时向您告知安全事件的基本情况和可能的影响、我们已采取或将要采取的处理措施、您可自主防范和降低的风险的建议、对您的补救措施等。我们将及时将事件相关情况以站内通知、短信通知、电话、邮件等您预留的联系方式告知您，难以逐一告知时我们会采取合理、有效的方式发布公告。同时，我们还将按照监管部门要求，主动上报个人信息安全事件的处置情况。请您理解，根据法律法规的规定，如果我们采取的措施能够有效避免信息泄露、篡改、丢失造成危害的，除非监管部门要求向您通知，我们可以选择不向您通知该个人信息安全事件。</span><br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">四、我们如何处理未成年人的个人信息</span></span></span></b></span><br /><b><span style="font-family:宋体;">百度地图开放平台非常重视对未成年人信息的保护。</span></b><br /><br /><span style="font-family:宋体;">开放平台产品和服务主要面向成年人。如果您是未满14周岁的未成年人，请您务必在使用已集成开放平台产品和服务的开发者应用前，在您的父母或其他监护人监护、指导下共同仔细阅读开发者应用隐私政策、本隐私政策以及<a rel="nofollow" target="_blank" class="external text" href="http://privacy.baidu.com/policy/children-privacy-policy/index.html"><span style="text-decoration:none;text-underline:none;"><span style="color:#5173C9;">《百度儿童个人信息保护声明》</span></span></a></span>，并在征得监护人同意的前提下使用开发者应用或提供个人信息。<br /><br /><span style="font-family:宋体;">如果我们发现在未事先获得可证实的父母同意的情况下收集了未成年人的个人信息，将会采取措施尽快删除相关信息。</span><br /><br /><span style="font-family:宋体;">如果任何时候监护人有理由相信我们在未获监护人同意的情况下收集了未成年人的个人信息，请通过本隐私政策第七条列明的联系方式联系我们，我们会采取措施尽快删除相关数据。</span><br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">五、我们如何保障最终用户的个人信息相关权利行使</span></span></span></b></span><br /><span style="font-family:宋体;">按照中国相关的法律、法规、标准，以及其他国家、地区的通行做法，我们将尽力协调、支持并保障您对自己的个人信息行使以下权利：</span><br /><br /><b><span style="font-family:宋体;">1.</span>&#160;<span style="font-family:宋体;">查阅权、更正及补充权、复制权、</span>账<span style="font-family:宋体;">号注销权</span></b><br /><br /><span style="font-family:宋体;">鉴于您通过开发者应用使用开放平台产品和服务，并且使用服务时并不会注册/登录百度</span>账<span style="font-family:宋体;">号，为保障您查阅、更正、补充、复制其个人信息以及注销其开发者应用</span>账<span style="font-family:宋体;">号的权利实现，我们在本隐私政策以及其他与开发者的约定中，要求开发者承诺提供便于操作的实现方式。如您要查阅、更正、补充、复制其个人信息或注销其开发者应用</span>账<span style="font-family:宋体;">号，应通过开发者提供的上述权利实现方式，如开发者未按照承诺进行提供，您可通过本隐私政策第七条列明的联系方式与我们取得联系，我们将尽力协调、支持并保障您的上述权利实现。</span><br /><br /><b><span style="font-family:宋体;">2</span></b><i><b><span style="font-family:宋体;">.</span></b>&#160;</i><b><span style="font-family:宋体;">删除权</span></b><br /><br /><span style="font-family:宋体;">为保障您删除您的个人信息的权利实现，我们在本隐私政策以及其他与开发者的约定中，要求开发者承诺提供便于操作的实现方式。如您要删除您的个人信息，应通过开发者提供的上述权利实现方式，如开发者未按照承诺进行提供，在以下情形中，您可以通过本隐私政策第七条列明的联系方式与我们取得联系，向我们提出删除个人信息的请求：</span>
+</p>
+<div style="text-align:left;">
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">1.&#160; 如果我们违反法律法规或与最终用户的约定处理其个人信息；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">2.&#160; 如果我们的处理目的已实现、无法实现或者拟实现处理目的已不再必要；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">3.&#160; 如果我们停止提供产品或者服务，或者保存期限已届满；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">4.&#160; 如果最终用户撤回同意；</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">5.&#160; 法律、行政法规规定的其他情形。</span>
+</p>
+<ol>
+<li>
+</li>
+</ol>
+<p><span style="font-family:宋体;">当您从我们的服务中删除信息后，我们可能不会立即在备份系统中删除相应的信息，但会在备份更新时删除这些信息。请您知晓并理解，如果法律、行政法规规定的或本隐私政策说明的保存期限未届满，或者删除个人信息从技术上难以实现的，我们会停止除存储和采取必要的安全保护措施之外的处理。</span><br /><br /><b><span style="font-family:宋体;">3.</span>&#160;<span style="font-family:宋体;">撤回同意</span></b><br /><br /><span style="font-family:宋体;">每个业务功能需要一些基本的个人信息才能得以完成。对于额外收集的个人信息的收集和使用，您可以随时给予或收回其授权同意。</span><br /><br /><span style="font-family:宋体;">您可以在设备系统中直接关闭本隐私政策说明的我们可能调用的设备系统权限，或开发者应用提供的其他授权设置（如适用），改变同意范围或撤回其授权。</span><br /><br /><span style="font-family:宋体;">当您撤回同意后，我们无法继续为您提供撤回同意所对应的服务，也将不再使用您的相应个人信息。但您撤回同意的决定，不会影响此前基于您的同意而开展的个人信息处理。</span><br /><br /><b><span style="font-family:宋体;">4.</span></b>&#160;<b><span style="font-family:宋体;">可携带权</span></b><br /><br /><span style="font-family:宋体;">为保障您转移您的个人信息的权利实现，我们在本隐私政策以及其他与开发者的约定中，要求开发者承诺提供便于操作的实现方式。如您要转移您的个人信息，应通过开发者提供的上述权利实现方式，如开发者未按照承诺进行提供，您可以</span><span style="font-family:宋体;">通过本隐私政策第七条列明的联系方式与我们取得联系，我们将尽力协调、支持并保障其上述权利实现。</span><br /><br /><span style="font-family:宋体;">在法律法规规定的条件下，同时符合国家网信部门规定指令和条件的，如果技术可行，</span><span style="font-family:宋体;">您也可以要求我们将其个人信息转移至您指定的其他主体。</span><br /><br /><b><span style="font-family:宋体;">5.</span>&#160;<span style="font-family:宋体;">提前获知产品和服务停止运营权。</span></b><br /><br /><span style="font-family:宋体;">百度地图开放平台产品和服务愿一直陪伴开发者和最终用户，若因特殊原因导致开放平台产品停止运营，我们将在合理期间内在产品或服务的主页面或站内信或向开发者和最终用户发送电子邮件或其他合适的能触达其方式通知开发者和最终用户，并将停止对最终用户个人信息的收集，同时会按照法律规定对已收集的最终用户的个人信息进行删除或匿名化处理。</span><br /><br /><b><span style="font-family:宋体;">6</span><i><span style="font-family:宋体;">.</span>&#160;</i><span style="font-family:宋体;">获得解释的权利</span></b><br /><br /><span style="font-family:宋体;">您有权要求我们就个人信息处理规则作出解释说明。您可以通过本隐私政策第七条列明的联系方式与我们取得联系。</span><br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">六、隐私政策的修订与通知</span></span></span></b></span><br /><span style="font-family:宋体;">我们的隐私政策可能变更。</span><br /><br /><span style="font-family:宋体;">未经您明确同意，我们不会削减您按照本隐私政策所应享有的权利。我们会在本页面上发布对本隐私政策所做的任何变更。</span><br /><span style="font-family:宋体;">对于重大变更，<b>我们会在百度地图开放平台官方网站的主要曝光页面向开发者以及最终用户公示，并以任何可触达的方式通知开发者。若开发者不同意该等变更可以停止集成并使用开放平台的产品和服务，若开发者继续集成并使用开放平台的产品和/或服务，即表示开发者同意受修订后的本隐私政策的约束，并将此变更通知最终用户，获取最终用户对此变更的完整、合法、在使用开放平台产品和服务期间持续有效的授权同意。</b>若最终用户不同意该等变更，可以停止使用开放平台产品和服务，开发者应向最终用户提供相应实现机制；若最终用户继续使用开放平台产品和/</span>或服务，即表示最终用户同意受修订后的本隐私政策的约束。<br /><br /><b><span style="font-family:宋体;">本政策所指的重大变更包括但不限于：</span></b><br /><br /><span style="font-family:宋体;">1. </span><span style="font-family:宋体;">我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息类型、个人信息的使用方式等；</span><br /><span style="font-family:宋体;">2. </span><span style="font-family:宋体;">我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有者变更等；</span><br /><span style="font-family:宋体;">3. </span><span style="font-family:宋体;">个人信息共享、转让或公开披露的主要对象发生变化；</span><br /><span style="font-family:宋体;">4. </span><span style="font-family:宋体;">最终用户参与个人信息处理方面的权利及其行使方式发生重大变化；</span><br /><span style="font-family:宋体;">5. </span><span style="font-family:宋体;">我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时；</span><br /><span style="font-family:宋体;">6. </span><span style="font-family:宋体;">个人信息安全影响评估报告表明存在高风险时。</span><br />&#160;<br /><span style="font-family:宋体;">如有本隐私政策未尽事宜，以<a rel="nofollow" target="_blank" class="external text" href="http://privacy.baidu.com/policy"><span style="text-decoration:none;text-underline:none;"><span style="color:#5173C9;">《百度隐私权保护声明》</span></span></a>为准。</span><br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;" class="title">七、如何联系我们</span></span></span></b></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">百度地图开放平台的产品和服务的成长离不开各方开发者及最终用户的共同努力，我们非常感谢开发者及最终用户对百度地图开放平台产品和服务数据更新、使用反馈方面的贡献。</span></span></span><br /><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">开发者及最终用户可以通过拨打客服热线4000998998或发送邮件至map_service@baidu.com</span>（工作时间9:00-21:00</span>）反馈开发者及最终用户对百度地图开放平台产品和服务的建议以及在使用过程中遇到的问题，以帮助我们优化产品功能及服务，使更多用户更加便捷的使用我们的产品和服务。</span></b><br /><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">开发者及最终用户可以通过个人信息保护问题反馈平台（<a rel="nofollow" target="_blank" class="external text" href="http://help.baidu.com/personalinformation"><span style="text-decoration:none;text-underline:none;"><span style="color:#5173C9;">http://help.baidu.com/personalinformation</span></span></a></span></span></span></b>&#160;<b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">）同我们联系。</span></span></span></b><br /><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">开发者及最终用户也可以通过如下联络方式同我们联系：</span></span></span></b><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">&#160; &#160; 中国北京市海淀区上地十街10号</span></span></span></b><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">&#160; &#160; 北京百度网讯科技有限公司 法务部</span></span></span></b><br /><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">&#160; &#160; 邮政编码：100085</span></span></span></b><br /><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">为保障我们高效处理开发者/最终用户的问题并及时向开发者/</span>最终用户反馈，需要开发者/</span>最终用户提交身份证明、有效联系方式和书面请求及相关证据，我们会在验证开发者/</span>最终用户的身份后处理开发者/最终用户的请求。<br /><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">如果开发者/最终用户对我们的回复不满意，特别是最终用户认为我们的个人信息处理行为损害了最终用户的合法权益，开发者/</span>最终用户还可以通过以下外部途径寻求解决方案：<b>向北京市海淀区人民法院提起诉讼</b>。</span></span><br />&#160;<br /><span style="font-size:large;"><b><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">附录1：定义</span></span></span></b></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">本隐私政策中使用的特定词语，具有如下含义：<br />(1) “平台方”或“我们”，指北京百度网讯科技有限公司</span></span></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(2) “</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">开放平台”，指百度地图开放平台，开放平台的官方网站为</span></span></span><a rel="nofollow" target="_blank" class="external text" href="https://lbs.baidu.com/"><span style="text-decoration:none;text-underline:none;"><span style="color:#5173C9;">https://lbs.baidu.com/</span></span></a><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">。<br />(3) “开发者”，指开发和/</span>或运营的、集成了开放平台产品和服务的开发者应用的第三方开发者。</span></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(4)</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">“开发者应用”，指由开发者开发和/或运营的、集成了开放平台产品和服务的</span></span></span><span style="letter-spacing:.75pt;"><span style="color:#333333;"><span style="font-family:宋体;">应用（包括但不限于移动应用、软件系统和网站等）。</span></span></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(5) “最终用户”，指开发者应用的最终用户。<br />(6) “</span>个人信息”</span>，指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。个人信息包括姓名、出生日期、身份证件号码、个人生物识别信息、住址、通信通讯联系方式、通信记录和内容、</span>账<span style="letter-spacing:.75pt;background:white;">号密码、财产信息、征信信息、行踪轨迹、住宿信息、健康生理信息、交易信息等。<br />(7) “</span>敏感个人信息”，指一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满14周岁未成年人的个人信息。<br />(8) “设备”是指可用于使用百度产品和/或服务的装置，例如桌面设备、平板电脑或智能手机。<br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(9)</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">“设备信息”可能包括最终用户用于安装、运行集成了开放平台产品的开发者应用的终端设备的设备属性信息（例如最终用户的硬件型号，操作系统版本，设备配置，国际移动设备身份码IMEI、国际移动用户识别码IMSI</span>、网络设备硬件地址MAC</span>、广告标识符IDFA</span>、供应商标识符IDFV、移动设备识别码MEID、匿名设备标识符OAID 、集成电路卡识别码ICCID 、Android ID、硬件序列号等唯一设备标识符）、设备连接信息（例如浏览器的类型、电信运营商、使用的语言、WiFi信息）以及设备状态信息（例如设备应用安装列表）。<br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(10)</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">“日志信息”，指我们的服务器所自动记录最终用户在使用开放平台产品和服务时所发出的请求，例如最终用户的IP 地址、浏览器的类型和使用的语言、硬件设备信息、操作系统的版本、网络运营商的信息、最终用户访问服务的日期、时间、时长等最终用户在使用我们的产品或服务时提供、形成或留存的信息。</span></span></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(11)</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">“位置信息”，指通过GPS信息，WLAN</span>接入点、蓝牙、基站以及其他传感器信息所获取的精确位置信息，也包括通过IP</span>地址或其他网络信息等获取的粗略地理位置信息。</span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(12)</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">“用户画像”，指通过收集、汇聚、分析个人信息，对某特定自然人个人特征，如其职业、经济、健康、教育、个人喜好、信用、行为等方面做出分析或预测，形成其个人特征模型的过程。直接使用特定自然人的个人信息，形成该自然人的特征模型，称为直接用户画像。使用来源于特定自然人以外的个人信息，如其所在群体的数据，形成该自然人的特征模型，称为间接用户画像。</span></span></span><br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">(13) “</span></span></span><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">去标识化”，指个人信息经过处理，使其在不借助额外信息的情况下无法识别特定自然人的过程。<br />(14) “</span>匿名化”</span>，</span> <span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">指通过对个人信息的技术处理，使得个人信息主体无法被识别，且处理后的信息不能被复原的过程。个人信息经匿名化处理后所得的信息不属于个人信息。<br />(15) “关联公司”，指开放平台产品和服务的经营者“北京百度网讯科技有限公司”及其他与百度公司存在关联关系的公司的单称或合称。“</span>关联关系”</span>是指对于任何主体（包括个人、公司、合伙企业、组织或其他任何实体）而言，即其直接或间接控制的主体，或直接或间接控制其的主体，或直接或间接与其受同一主体控制的主体。前述“</span>控制”指，通过持有表决权、合约或其他方式，直接或间接地拥有对相关主体的管理和决策作出指示或责成他人作出指示的权力或事实上构成实际控制的其他关系。<br />&#160;<br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">再次感谢开发者以及最终用户对百度地图开放平台产品和服务的信任和使用！</span></span></span><br />&#160;<br /><span style="letter-spacing:.75pt;background:white;"><span style="color:#333333;"><span style="font-family:宋体;">北京百度网讯科技有限公司</span></span></span><br /><br />【2024】年【01】月【25】日更新<br />【2024】年【02】月【01】日生效
+</p>
+</div></div></div></div></div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.085 seconds
+Real time usage: 0.089 seconds
+Preprocessor visited node count: 357/1000000
+Preprocessor generated node count: 724/1000000
+Post‐expand include size: 44/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mediawiki:pcache:idhash:1403-0!*!*!*!*!*!* and timestamp 20240508085201
+ -->
+</div><div class="printfooter">
+取自“<a href="http://lbsyun.baidu.com/index.php?title=openprivacy&amp;oldid=18249">http://lbsyun.baidu.com/index.php?title=openprivacy&amp;oldid=18249</a>”</div>
+
+				</div>
+				
+				<!-- 评分功能 -->
+				<div id="score_services_template">
+					<!-- 评分 -->
+					<div class="star-rating">
+						<ul class="star">
+							<li>
+								<p class="star-solid"></p>
+								<p class="star_hint">文档根本没法用<i></i></p>
+							</li>
+							<li>
+								<p class="star-solid"></p>
+								<p class="star_hint">文档水平很差<i></i></p>
+							</li>
+							<li>
+								<p class="star-solid"></p>
+								<p class="star_hint">文档水平一般<i></i></p>
+							</li>
+							<li>
+								<p class="star-solid"></p>
+								<p class="star_hint">文档不错<i></i></p>
+							</li>
+							<li>
+								<p class="star-solid"></p>
+								<p class="star_hint">文档写的很好<i></i></p>
+							</li>
+						</ul>
+						<p class="starHint"></p>
+					</div>
+					<!-- 评论 -->
+					<div class="score_service_review">
+						<p class="review_remind">如发现文档错误，或对此文档有更好的建议，请在下方反馈。<span class="question">问题咨询请前往<a target="_blank" href="/faq/search">反馈平台</a>提交工单咨询。</span> </p>
+						<!-- 输入框 -->
+						<div class="review_template">
+								<textarea class="review_content" placeholder="请描述此文档存在的问题，字数在500字以内。" class="" id="" cols="30" rows="10"></textarea>
+								<!-- 截图 -->
+								<!-- <div class="review_screenshot" id="add_screenshot">
+									<i></i>
+									<p>添加截图</p>
+								</div>   -->
+								<!-- 图片预览 -->
+								<div class="preview_img_template">
+									<i class="clearScreenshotData"></i>
+								</div>
+						</div>
+						<!-- 提交按钮 -->
+						<div class="submit_review_template">
+							<p class="submit_service_comment">提交反馈</p>
+						</div>
+						<p class="submit_review_hint"></p>
+					</div>
+
+				</div>
+				
+				
+			</div>
+		</div>
+		<!-- end of .mcontainer -->
+	</div>
+	<!-- end fo .mwrapper -->
+</div>
+
+<!-- 截图按钮 -->
+<div id="screenshot_Template">
+	<div class="canvas_btn">
+		<p class="canvas_btn_drag" id="canvas_btn_drag">
+				<span class="btn_prompt">拖动标注工具</span>
+		</p>
+		<p id="canvas_add_rect" class="canvas_style">
+			<i class="canvas_add_rect"></i>
+			<span class="btn_prompt">添加矩形标注</span>
+		</p>
+		<p id="canvas_add_arrow" class="canvas_style">
+			<i class="canvas_add_arrow"></i>
+			<span class="btn_prompt">添加箭头标注</span>
+		</p>
+		<!-- <p id="canvas_hide_rect" class="canvas_style">隐藏</p> -->
+		<p id="canvas_add_btn" class="canvas_add_btn">完成</p>
+		<p id="canvas_add_btn2" class="canvas_add_btn">取消</p>
+	</div>
+</div>
+<!-- 截图画板 -->
+<canvas id="canvas_template"></canvas>
+
+<!-- 加载动画 -->
+<div id="service_review_loading">
+	<div class="loading_icon">
+	</div>
+</div>
+<!-- end of #mbody -->
+
+<!-- 引用拷贝 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/common/clipboard.min.js"></script>
+
+<!-- 获取公共footer -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/skins/MySkin/resources/js/jquery.SuperSlide.2.1.1.source.js"></script>
+<footer class="lbsyun-g-footer" style="background: #fff;padding: 20px 0 0 0;line-height: 20px;">
+    <div class="main-copyright" id="apicontrolfooter" style="background: #2e3037;padding: 0;overflow: hidden;">
+        <p>地图审图号：GS(2022)460|测绘资质：甲测资字11111342</p>
+        <p style='position: relative; top:-9px;'>©2024 Baidu <a href="http://www.baidu.com/duty/">使用百度前必读 </a>京ICP证030173号</p>
+    </div>
+</footer>
+<!--<script src="/map/resource/global/js/fankui/fkNum.js?up5" type="text/javascript"></script>-->
+<!--<script src="/map/resource/global/js/msgcounting/msgcounting.js?up5" type="text/javascript"></script>-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?81f6b965835b9737e999b473ad66ad23";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+// SEM推广统计代码安装
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?a3a503425b644baa3a443826c11fc137";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?72cd39992237c4290a39f557562323f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 顶部导航 -->
+
+<script type="text/javascript" src="/static/wikiupdate/common/js/header.bundle.js?20240327"></script>
+<!-- 截图 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/common/html2canvas.js"></script>
+<script type="text/javascript" src="/skins/MySkin/resources/js/common/Ypaint.js"></script>
+
+<!-- 代码格式化 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/prettify.js?type"></script>
+<script type="text/javascript" src="/skins/MySkin/resources/js/run_prettify.js?map"></script>
+<!-- 窗口大小事件 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/jquery.ba-resize.min.js?map"></script>
+<div class="clear"></div>
+<script type="text/javascript" src="https://mapopen-website-wiki.bj.bcebos.com/static/hudSdkStatistics.js"></script>
+
+<!-- 评论服务列表 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/common/ufo_score_service_list.js"></script>
+<script type="text/javascript" src="/skins/MySkin/resources/js/common/document_score.js?20200609"></script>
+<!-- 导航 -->
+<script type="text/javascript" src="/skins/MySkin/resources/js/sidebar.js?20230110"></script>
+<script type="text/javascript" src="/skins/MySkin/resources/js/jsapisidebar.js?20230223"></script>
+
+<script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+(function () {
+  //if (top.location !== self.location) {
+  //  return false;
+  //}
+  function createIframe(parent,id, src) {
+    var _iframe = document.createElement('iframe');
+    $(_iframe).attr('scrolling','no');
+    $(_iframe).attr('frameborder','0');
+    _iframe.id = id;
+    _iframe.src = src;
+    _iframe.onload = function () {
+      //引用内容
+      var targetElements = $('div[dir="' + src + '"]');
+      var targetElementsCount = targetElements.length;
+      for (var i = 0; i < targetElementsCount; i++) {
+        var _targetElement = $(targetElements[i]);
+        _targetElement.replaceWith($(this).contents().find('.' + _targetElement.attr('class')));
+      }
+    }
+    $(parent).append(_iframe);
+  }
+
+  //获取要引用的目标元素
+  var targetElements = $('div[dir]');
+  var targetElementsCount = targetElements.length;
+  var source_url = [];
+
+  for (var i = 0; i < targetElementsCount; i++) {
+    var _dir = $(targetElements[i]).attr("dir");
+    if (_dir.substr(0, 4) == 'http') {
+      source_url.push($(targetElements[i]).attr("dir"));
+    }
+  }
+
+  source_url = uniq(source_url);
+
+  for (var i = 0; i < source_url.length; i++) {
+    var url = source_url[i];
+    var parentElement = $('div[dir="' + url + '"]').parent();
+    createIframe(parentElement,'dev_wiki_iframe' + i, url);
+  }
+
+
+  function uniq(array) {
+    var map = {};
+    var re = [];
+    for (var i = 0, l = array.length; i < l; i++) {
+      if (typeof map[array[i]] == "undefined") {
+        map[array[i]] = 1;
+        re.push(array[i]);
+      }
+    }
+    return re;
+  }
+})();
+</script>
+<script type="text/javascript">
+$('#user-state-li').bind({
+    "mouseenter": function(e) {
+        $('.username-dropdown').css('visibility', 'visible');
+    },
+    "mouseleave": function(e) {
+
+        $('.username-dropdown').css('visibility', 'hidden');
+    }
+});
+(function(){
+	var isIE=!!window.ActiveXObject;
+	var isIE6=isIE&&!window.XMLHttpRequest;
+	if(isIE){if(isIE6){alert('您正在使用低版本浏览器,为了保证您能有更好的访问效果,我们建议您使用谷歌Chrome浏览器、火狐Firefox浏览器或者IE7以上版本浏览器！');}}
+})();
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5650c092812f8659cdfe23eeb42024ef' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI News Brew</title>
+    <link rel="stylesheet" type="text/css" href="/assets/style/styleV2.css">
+<script src="/assets/scripts/mainV2.js"></script>
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Expires" content="Sat, 26 Jul 1997 05:00:00 GMT">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta name="description" content="AI News Brew revolutionizes news consumption by harnessing the power of artificial intelligence. Discover objective summaries of daily events, empowering you to stay informed while avoiding biased narratives. Cut through the noise and get to the essential facts with our service that analyzes and extracts key information from multiple credible resources. Join us in improving news consumption and staying engaged with the world.">
+<link rel="manifest" href="/manifest.json"></head>
+<body>
+    <nav>
+    <div class="row1">
+        <div class="column">
+            <div class="logo">
+                                <a href="/"><img src="/assets/images/logo_192.png" alt="Logo"></a>
+                                
+            </div>
+            <div class="branding">
+                <div class="title">AI News Brew</div>
+                <div class="subtitle">Empowering Minds, Enlightening News</div>
+                <div class="subtitle">Category
+                    <select id="category-select">
+                        <option value="all" >All</option>
+                        <option value="World" >World</option>
+                        <option value="Politics" >Politics</option>
+                        <option value="Tech" >Tech</option>
+                    </select>
+                 </div>
+            </div>
+        </div>
+        <!--<div class="column">
+            <div class="links">
+                 <a href="/about.php">ABOUT</a><br> -->
+                <!-- <a href="/support.php">SUPPORT</a><br> 
+            </div>
+        </div> -->
+    </div>
+    <div class="row4">
+
+        <div class="column" id="actfilter">
+                </div>
+        <div class="column"><a href="/about.php">About</a></div>
+        <div class="column"><a href="/survey.php">Survey</a></div>
+        <div class="column"><a href="/support.php">Support</a></div>
+        
+    </div>
+    <!-- TODO depricate .row4 -->
+    <!-- <div class="row4">
+        
+        <div class="column">
+            <a href="/indexSQL.php?topic=world" >WORLD</a>
+        </div>
+        <div class="column">
+            <a href="/indexSQL.php?topic=politics" >POLITICAL</a>
+        </div>
+        <div class="column">
+            <a href="/indexSQL.php?topic=tech" >TECHNOLOGY</a>
+        </div>
+        <div class="column">
+            <!-- <a href="survey.php" >SURVEY</a> -->
+        </div>
+    <!-- </div> -->
+
+</nav>
+    <div id="body">
+    <h1>AI News Brew</h1>
+  <h2>Privacy Notice: We Respect Your Privacy (I mean, like, who are you anyways?!?)</h2>
+  <p>
+    At AI News Brew, we take your privacy seriously. We believe in trust, transparency, and treating our users with the utmost respect. That's why we want to assure you that we track absolutely nothing. Yes, you heard it right! Zilch, zero, nada. Niente!
+  </p>
+  <p>
+    So, sit back, relax, and let us walk you through all the things we could be tracking if we were in the business of tracking, but we're not. It's like a virtual tour of a tracking-free wonderland!
+  </p>
+  <ol>
+    <li>
+      <strong>Cookies:</strong> We don't have any cookies for you, not even a delicious chocolate chip one. We believe in leaving no digital crumbs behind.
+    </li>
+    <li>
+      <strong>IP Addresses:</strong> Your IP address? It's none of our business. We won't peek, poke, or prod it. We're IP address agnostic, treating all IPs with equal indifference.
+    </li>
+    <li>
+      <strong>Browser Fingerprinting:</strong> Your browser is your fingerprint, but we're not here to collect fingerprints. We respect your unique digital identity and promise not to keep a single copy.
+    </li>
+    <li>
+      <strong>Location Data:</strong> We don't need a map to know where you are. Your location is your own business, and we won't ask, track, or attempt to pinpoint you on a digital globe.
+    </li>
+    <li>
+      <strong>Device Information:</strong> We won't be taking a peek under the hood of your device. Whether you're using a smartphone, a tablet, or an AI-powered toaster, it's none of our concern.
+    </li>
+    <li>
+      <strong>Clicks, Scrolling, and Habits:</strong> We won't follow your digital dance moves. Your clicks, scrolls, and browsing habits are yours to keep secret. Consider us the polite party guests who never stare.
+    </li>
+    <li>
+      <strong>Personal Information:</strong> We believe that what you share with us should remain confidential. Rest assured, we won't ask for, collect, or store any personal information. Consider it our way of throwing a virtual party with a strict "no name tags" policy.
+    </li>
+    <li>
+      <strong>Third-Party Tracking:</strong> We have a "no entry" sign for third-party trackers. They won't be joining the party either. We believe in keeping things exclusive between you and us.
+    </li>
+  </ol>
+  <p>
+    In summary, we don't track anything because we believe in giving you the freedom to explore, click, and scroll without prying eyes. Your privacy is our top priority, and we want you to feel at ease while enjoying your time on our website.
+  </p>
+  <p>
+    So, go ahead and enjoy the digital wonderland we've created, where your every move remains your secret. We're here to provide you with an experience that's not only informativve but also completely tracking-free.
+  </p>
+  <p>
+    If you have any questions about our privacy practices (or just want to chat about unicorns or your favorite pizza toppings), feel free to reach out to me at <strong>steven@stevenburns.net</strong>.
+  </p>
+  <p>
+    Thank you for trusting us with your privacy, and remember, we're the guardians of your anonymity in this vast digital realm!
+
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        setupSubMenuInteraction();
+        setfilter();
+        
+    });
+    </script>
+    <footer>
+    <!-- Your footer content here -->
+    <div class="row4">
+        <div class="column"> 
+        </div>
+        <div class="column">
+            <a href="/privacy.php">privacy</a>
+        </div>
+        <div class="column">
+            <a href="#">contact</a>
+        </div>
+        <div class="column">
+        </div>
+    </div>
+</footer>
+</body>
+</html>

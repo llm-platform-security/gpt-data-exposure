@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="utf-8">
+<meta property="fb:app_id" content="283810257114271">
+<meta property="og:url" content="https://www.dracattus.com">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dracattus">
+<meta property="og:description" content="A tale of magic, technology and its place in the world around us, Dracattus has it all.">
+<meta property="og:image" content="https://bit.ly/3Lkwuk9">
+<title>Dracattus</title>
+<base href="/">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<script src="https://js.stripe.com/v3/"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DX6XXV8S93"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DX6XXV8S93');
+
+  </script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico">
+<link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style type="text/css">@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '284447060340724');
+    fbq('track', 'PageView');
+
+  </script>
+
+<noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=284447060340724&ev=PageView&noscript=1" /></noscript>
+
+<style>@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Alfa+Slab+One&family=Open+Sans:wght@300;400;500;600;700;800&family=Righteous&display=swap);:root{--ion-color-primary:#8d1b87;--ion-color-primary-rgb:80,200,255;--ion-color-primary-contrast:#fff;--ion-color-primary-contrast-rgb:255,255,255;--ion-color-primary-shade:#100214;--ion-color-primary-tint:#7fbbce;--ion-color-secondary:#e0b739;--ion-color-secondary-rgb:61,194,255;--ion-color-secondary-contrast:#3a3a3a;--ion-color-secondary-contrast-rgb:255,255,255;--ion-color-secondary-shade:#e036c9;--ion-color-secondary-tint:#f050ff;--ion-color-tertiary:#11071adb;--ion-color-tertiary-rgb:82,96,255;--ion-color-tertiary-contrast:#fff;--ion-color-tertiary-contrast-rgb:255,255,255;--ion-color-tertiary-shade:#4854e0;--ion-color-tertiary-tint:#6370ff;--ion-color-success:#2dd36f;--ion-color-success-rgb:45,211,111;--ion-color-success-contrast:#fff;--ion-color-success-contrast-rgb:255,255,255;--ion-color-success-shade:#28ba62;--ion-color-success-tint:#42d77d;--ion-color-warning:#ffc409;--ion-color-warning-rgb:255,196,9;--ion-color-warning-contrast:#000;--ion-color-warning-contrast-rgb:0,0,0;--ion-color-warning-shade:#e0ac08;--ion-color-warning-tint:#ffca22;--ion-color-danger:#eb445a;--ion-color-danger-rgb:235,68,90;--ion-color-danger-contrast:#fff;--ion-color-danger-contrast-rgb:255,255,255;--ion-color-danger-shade:#cf3c4f;--ion-color-danger-tint:#ed576b;--ion-color-dark:#11071a8f;--ion-color-dark-rgb:34,36,40;--ion-color-dark-contrast:#fff;--ion-color-dark-contrast-rgb:255,255,255;--ion-color-dark-shade:#1e2023;--ion-color-dark-tint:#9600a3;--ion-color-medium:#98d4d1;--ion-color-medium-rgb:146,148,156;--ion-color-medium-contrast:#1e2023;--ion-color-medium-contrast-rgb:255,255,255;--ion-color-medium-shade:#026f8a;--ion-color-medium-tint:#e8b2ec;--ion-color-light:#f4f5f8;--ion-color-light-rgb:244,245,248;--ion-color-light-contrast:#000;--ion-color-light-contrast-rgb:0,0,0;--ion-color-light-shade:#d7d8da;--ion-color-light-tint:#f5f6f9}html{--ion-font-family:var(--ion-default-font)}body{background:var(--ion-background-color)}@supports (padding-top: 20px){html{--ion-safe-area-top:var(--ion-statusbar-padding)}}@supports (padding-top: constant(safe-area-inset-top)){html{--ion-safe-area-top:constant(safe-area-inset-top);--ion-safe-area-bottom:constant(safe-area-inset-bottom);--ion-safe-area-left:constant(safe-area-inset-left);--ion-safe-area-right:constant(safe-area-inset-right)}}@supports (padding-top: env(safe-area-inset-top)){html{--ion-safe-area-top:env(safe-area-inset-top);--ion-safe-area-bottom:env(safe-area-inset-bottom);--ion-safe-area-left:env(safe-area-inset-left);--ion-safe-area-right:env(safe-area-inset-right)}}*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}html{width:100%;height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}html:not(.hydrated) body{display:none}body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;position:fixed;width:100%;max-width:100%;height:100%;max-height:100%;text-rendering:optimizeLegibility;overflow:hidden;touch-action:manipulation;-webkit-user-drag:none;-ms-content-zooming:none;word-wrap:break-word;overscroll-behavior-y:none;-webkit-text-size-adjust:none;text-size-adjust:none}html{font-family:var(--ion-font-family)}body{background:#0f0220;padding:0;margin:0;font-family:Open Sans;overflow-x:hidden}body{color:#fff}:root{--fa-style-family-brands:"Font Awesome 6 Brands";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}:root{--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Free"}:root{--fa-style-family-classic:"Font Awesome 6 Free";--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"}</style><link rel="stylesheet" href="styles.44e23c492218f5580261.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.44e23c492218f5580261.css"></noscript></head>
+<body>
+<app-root></app-root>
+<script src="runtime.d54253fdad4c93b6f052.js" defer></script><script src="polyfills.50b38ae78c01533e3ff9.js" defer></script><script src="scripts.a5f40c06364c52823cf6.js" defer></script><script src="main.0071fd964fed7aa14bd6.js" defer></script>
+</body></html>

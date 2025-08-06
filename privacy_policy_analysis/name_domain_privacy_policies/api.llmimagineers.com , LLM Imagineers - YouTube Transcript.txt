@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<h4ad>
+  <meta charset="UTF-8">
+  <title>LLM Imagineers: Privacy Policy</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css'>
+
+</head>
+<body>
+<div class="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100 dark:bg-gray-900">
+  <div class="w-full max-w px-8 py-6 mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800">
+      <h2 class="mt-4 text-3xl font-semibold text-center text-gray-700 dark:text-white">LLM Imagineers Privacy Policy</h2>
+      <p class="mt-2 text-sm text-center text-gray-600 dark:text-gray-400">
+ <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">1. Introduction</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">This Privacy Policy outlines how LLM Imagineers collects, uses, and protects personal information received from users via email.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">2. Data Collection</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Personal Information</strong>: When users send emails, or use the /feedback "slash command" to send feedback from a Custom GPT such as AutoExpert, we may collect data such as names, email addresses, and any other personal details voluntarily provided in the message.</p>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>API Requests</strong>: When using our API endpoints at api.llmimagineers.com, we log all requests for performance monitoring and legal compliance. No data is ever shared or sold to third parties, and access is restricted to the LLM Imagineers security compliance team.</p>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Purpose of Collection</strong>: The data is used for responding to inquiries, providing support, and improving our services.</p>
+
+
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">3. Data Use</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Processing and Response</strong>: We use the information to process and respond to the user’s queries. This may include direct communication with the user.</p>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Service Improvement</strong>: Aggregated and anonymized data may be used for improving our services and offerings.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">4. Data Sharing and Disclosure</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Third-party Sharing</strong>: We do not sell or rent personal data. Data may be shared with third-party service providers only for purposes essential to our services (e.g., email management tools).</p>
+    <p class="mt-4 text-left text-gray-700 dark:text-white"><strong>Legal Compliance</strong>: We may disclose personal information if required by law or in response to legal requests.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">5. Data Security</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">6. User Rights</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">Users have the right to access, correct, delete, or restrict the processing of their personal data. Requests can be made via email.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">7. Changes to Policy</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">This policy may be updated periodically. Users will be notified of significant changes via email or on our website.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">8. Contact Information</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">For any questions or concerns regarding this policy, please contact us at privacy@llmimagineers.com.</p>
+
+    <h4 class="mt-4 text-xl font-semibold text-left text-gray-700 dark:text-white">9. Effective Date</h4>
+    <p class="mt-4 text-left text-gray-700 dark:text-white">This policy is effective as of November 10, 2023.</p>
+  </div>
+</div>
+
+</body>
+</html>

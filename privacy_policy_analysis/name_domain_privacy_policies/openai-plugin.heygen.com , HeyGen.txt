@@ -1,0 +1,687 @@
+<!DOCTYPE html><!-- Last Published: Wed May 08 2024 17:53:34 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.heygen.com" data-wf-page="6479663f1943a79a7dc37a11" data-wf-site="63fdcbe48aa020c0a5493507"><head><meta charset="utf-8"/><title>HeyGen Privacy Policy</title><meta content="Review HeyGen&#x27;s Privacy Policy detailing our dedication to safeguarding your data while you use our cutting-edge text-to-video creation services." name="description"/><meta content="HeyGen Privacy Policy" property="og:title"/><meta content="Review HeyGen&#x27;s Privacy Policy detailing our dedication to safeguarding your data while you use our cutting-edge text-to-video creation services." property="og:description"/><meta content="HeyGen Privacy Policy" property="twitter:title"/><meta content="Review HeyGen&#x27;s Privacy Policy detailing our dedication to safeguarding your data while you use our cutting-edge text-to-video creation services." property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="iSRWTJT2JIeY-yTjw-7ud527jnkHmEzSoL16bUmRK54" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/css/heygen.webflow.f2cc77714.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Merriweather:300,300italic,400,400italic,700,700italic,900,900italic","Bitter:400,700,400italic","Mulish:200,300,regular,500,600,700,800,900","Red Hat Display:300,regular,500,600,700,800,900","Amita:regular,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/660fa56f1f2d318b352b4786_robotAvatarDark.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/660fa5826aba95f3c43cd552_robotAvatarDark-1.png" rel="apple-touch-icon"/><link href="https://www.heygen.com/policy" rel="canonical"/><!-- preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://ajax.googleapis.com">
+<link rel="preconnect" href="https://uploads-ssl.webflow.com">
+<link rel="preconnect" href="https://global-uploads.webflow.com">
+<link rel="preconnect" href="https://d3e54v103j8qbb.cloudfront.net">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- User Style Sheet -->
+<style>
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .no-point-event {
+        pointer-events: none;
+    }
+
+    .ratio-16-9 {
+        aspect-ratio: 16/9;
+    }
+</style>
+
+<script>
+    if (window.top !== window) {
+        setTimeout(() => {
+            document.body.innerHTML = ''
+        }, 1000);
+    }
+</script>
+
+<script type="text/javascript">
+    function loadScript(src, opts) {
+        var script = document.createElement('script');
+        script.src = src;
+        script.async = true;
+        script.defer = false;
+        for (var k in opts) { script.setAttribute(k, opts[k]); }
+        document.head.append(script);
+        return script;
+    }
+</script>
+<script type="text/javascript">
+    function loadGA() {
+        loadScript('https://www.googletagmanager.com/gtag/js?id=G-PMMWB6MFPC');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window['gtag'] = gtag;
+        gtag('js', new Date());
+        gtag('set', 'developer_id.dZGVlNj', true);
+        gtag('config', 'G-PMMWB6MFPC');
+    }
+</script>
+<script type="text/javascript">
+    function getTopDomain() {
+        var hostname = location.hostname;
+        try {
+            if (/\d{1,3}\.\d{1,3}\.\d{1,3}/.test(hostname)) {
+                return '';
+            }
+        } catch { }
+        if (hostname == 'localhost') {
+            return 'localhost';
+        }
+        return '.' + hostname.split('.').slice(-2).join('.');
+    }
+
+    ; (function (w, d) {
+        var cp = {
+            _cache: undefined,
+            _gcr: function () {
+                var list = d.cookie.split(';');
+                var value = (list.find(str => str.trim().startsWith('cookie_perms=')) || '').split('=')[1];
+                return value;
+            },
+            _gco: function () {
+                if (cp._cache) return cp._cache;
+                var value = cp._gcr();
+                try {
+                    cp._cache = JSON.parse(decodeURIComponent(value));
+                    return cp._cache;
+                } catch { }
+                cp._cache = {};
+                return cp._cache;
+            },
+            _sc: function (data) {
+                cp._cache = data;
+                d.cookie = 'cookie_perms=' + encodeURIComponent(JSON.stringify(data)) + ';' +
+                    'expires=' + new Date((new Date()).getTime() + 180 * 24 * 60 * 60 * 1000).toUTCString() + ';' +
+                    'Secure;' + 'domain=' + getTopDomain();
+            },
+            isSet: function () {
+                return !!cp._gcr();
+            },
+            getItem: function (n) {
+                var d = cp._gco();
+                if (typeof d[n] != 'undefined') { return !!d[n]; }
+                if (typeof d['_all'] != 'undefined') { return !!d['_all']; }
+                return false;
+            },
+            setItem: function (n, v) {
+                var d = cp._gco();
+                d[n] = v ? 1 : 0;
+                cp._sc(d);
+            },
+            setAll: function (v) {
+                cp._sc({ _all: v ? 1 : 0 })
+            },
+        };
+        w['CookiePerms'] = cp;
+    })(window, document);
+
+    if (CookiePerms.getItem('anal')) {
+        loadGA();
+    } else {
+        window['gtag'] = function () { };
+    }
+
+    //GA Event Tracker Script. this code is written by vio.
+    // Get the category, action and label from the element and send it to GA. The action is optional, because mostly it will be a click event.
+    var trackClickEvent = function () {
+        var eventCategory = this.getAttribute("data-event-category");
+        var eventAction = this.getAttribute("data-event-action");
+        var eventLabel = this.getAttribute("data-event-label");
+        var eventValue = this.getAttribute("data-event-value");
+        ga('send', 'event', eventCategory, (eventAction != undefined && eventAction != '' ? eventAction : 'click'), eventLabel, eventValue);
+    };
+
+    // Find all of the elements on the page which have the class 'ga-event'
+    var elementsToTrack = document.getElementsByClassName("ga-event");
+
+    // Add an event listener to each of the elements you found
+    var elementsToTrackLength = elementsToTrack.length;
+    for (var i = 0; i < elementsToTrackLength; i++) {
+        elementsToTrack[i].addEventListener('click', trackClickEvent, false);
+    }
+
+    /******************************************************************************************/
+    /* common section {@author chenh} */
+    function getElWithAttribute(e, attr, deep = 8) {
+        var t = e.target;
+        var check = '';
+        for (var i = 0; i < deep; i++) {
+            if (!t) return;
+            check = t.getAttribute(attr);
+            if (check) break;
+            t = t.parentElement;
+        }
+        if (!check) return;
+        return t;
+    }
+
+    function ClickHandler() {
+        this.handles = [];
+
+        this.add = function (handle) {
+            this.handles.push(handle);
+        }
+
+        this._trigger = function (e) {
+            var len = this.handles.length;
+            for (var i = 0; i < len; i++) {
+                if (typeof this.handles[i] === 'function') { this.handles[i](e); }
+            }
+        }
+
+        this.trigger = this._trigger.bind(this);
+    }
+
+    var clickHandler = new ClickHandler();
+    window.addEventListener('click', clickHandler.trigger);
+    /* common section end */
+
+    /******************************************************************************************/
+    /* sid section */
+    var sidStore = { sid: '' };
+
+    function parseSid() {
+        var sid = localStorage.getItem('sid') || '';
+        if (!sid) {
+            var search = new URLSearchParams(location.search);
+            sid = search.get('sid') || 'no_sid'; //set url sid or default sid
+            if (sid) localStorage.setItem('sid', sid);
+        }
+        sidStore.sid = sid;
+        return sid || '';
+    }
+
+    parseSid();
+
+    function getSid() {
+        return sidStore.sid;
+    }
+
+    function getLinkWithSid(url) {
+        var sid = getSid() || 'webflow';
+        if (!sid) return url;
+        if (!url) return url;
+        try {
+            if (url.startsWith('/')) {
+                url = location.origin + url;
+            }
+            var u = new URL(url);
+            u.searchParams.delete('sid')
+            u.searchParams.append('sid', sid)
+
+            return u.toString();
+        } catch (e) { };
+
+        return url;
+    }
+
+    /* sid section end */
+
+    function handleLinkWithSid(e) {
+        var t = getElWithAttribute(e, 'data-with-sid');
+        if (!t) return;
+        if (t.nodeName.toLocaleLowerCase() != 'a') return;
+        var url = t.getAttribute('href');
+        if (!url) return;
+        e.stopPropagation();
+        e.preventDefault();
+        url = getLinkWithSid(url);
+
+        if (t.getAttribute("target") === '_blank') {
+            window.open(url)
+        } else {
+            window.location.href = url
+        }
+    }
+
+    clickHandler.add(handleLinkWithSid);
+    //gtag('config', 'G-5RD6NP6ZFS', {
+    //});
+</script>
+<script type="text/javascript">
+    function getTimeZoneString() {
+        return Intl.DateTimeFormat().resolvedOptions().timeZone;
+    }
+    function timeZoneAtAsia() {
+        if (window.isDebugMode) {
+            return false;
+        }
+        return getTimeZoneString().startsWith('Asia/');
+    }
+    function getUserFirstTouchTime() {
+        var t = localStorage.getItem('first_touch_time');
+        return +t;
+    }
+    function initUserFirstTouchTime() {
+        var t = getUserFirstTouchTime();
+        if (t > 0) return;
+        localStorage.setItem('first_touch_time', new Date().getTime());
+    }
+    initUserFirstTouchTime();
+    function getReferrer() {
+        var referrer = '';
+        var referrerDomain = '';
+        if (document && document.referrer) {
+            referrer = document.referrer || '';
+            referrerDomain = referrer.split('/')[2];
+        }
+        return {
+            referrer: referrer || 'EMPTY',
+            referrerDomain: referrerDomain || 'EMPTY',
+        }
+    }
+</script>
+<script>
+    (function (w, r) {
+        w._rwq = r;
+        w[r] =
+            w[r] ||
+            function () {
+                (w[r].q = w[r].q || []).push(arguments);
+            };
+    })(window, 'rewardful');
+</script>
+<script type="text/javascript">
+    loadScript('https://r.wdfl.co/rw.js', {
+        defer: true,
+        'data-rewardful': '943759',
+    });
+</script>
+<style>
+.w-embed-youtubevideo{
+padding-top:56.3% !important;
+}
+</style>
+<style>
+.lightbox-link-2 { -webkit-mask-image: -webkit-radial-gradient(white, black); }
+</style>
+<!-- CMS Slider -->
+<script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
+
+<link rel="canonical" href="https://www.heygen.com/policy">
+
+<script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body><div data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abd4" class="cookie-wrapper"><div id="cookiesPopUp" class="cookies-pop-up"><div class="cookies-heading">This website uses cookies</div><p class="cookies-para">In addition to cookies that are essential to operate our website, we use cookies and similar technologies to analyze traffic, personalize content and ads, to provide social media features and to improve our products and services. These technologies are set by third parties, including our social media, advertising and analytics partners. Please read our <a href="/policy" aria-current="page" class="link-underline w--current">privacy policy</a> for additional info.</p><div class="cookies-button-wrapper"><a href="#" id="rejectButton" class="btn small border-gray w-button">Reject All</a><div data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abdd" class="cookies-button-wrapper block"><a href="#" id="acceptAllBtn" class="btn small fill w-button">Accept All</a><a id="customBtn" data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abe0" href="#" class="btn small ghost custom_md w-button">Customize</a></div><a id="acceptSelectedBtn" data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abe2" href="#" class="btn small fill accept_all w-node-db263a74-07b5-9a59-3c7f-e5bc2c69abe2-2c69abd4 w-button">Accept Selected</a><a id="customBtnMobile" data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abe4" href="#" class="btn small ghost custom_sm w-node-db263a74-07b5-9a59-3c7f-e5bc2c69abe4-2c69abd4 w-button">Cookie Customize</a></div><div data-w-id="db263a74-07b5-9a59-3c7f-e5bc2c69abe6" class="cookies-customize-wrapper"><div class="cookies-select essential"><div class="cookies-select-icon"><div class="cookies-select-checkbox selected"><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/655339422f2b2d24a083acd2_checkbox-icon.svg" loading="lazy" alt="" class="icon_cookies_check_essential _50"/></div></div><div class="cookies-custom-btn-text">Essential</div></div><div id="anlyticCheckBtn" data-check="unchecked" class="cookies-select"><div class="cookies-select-icon"><div class="cookies-select-checkbox unchecked"><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/655339422f2b2d24a083acd2_checkbox-icon.svg" loading="lazy" alt="" class="icon_cookies_check unchecked"/></div></div><div class="cookies-custom-btn-text">Analytic</div></div><div id="AdsCheckBtn" data-check="unchecked" class="cookies-select"><div class="cookies-select-icon"><div class="cookies-select-checkbox unchecked"><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/655339422f2b2d24a083acd2_checkbox-icon.svg" loading="lazy" alt="" class="icon_cookies_check unchecked"/></div></div><div class="cookies-custom-btn-text">Ads &amp; Social</div></div></div></div></div><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="heygen-navigation bg-white w-nav"><div class="container w-container"><div class="navbar-padding"><div class="split-horizontal"><div class="nav-left-container"><a href="/" class="brand w-nav-brand"><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/649e4c3d5f0708ca6cd80bba_logoHorizonalLight.svg" loading="eager" alt="logo-horizonal-light" class="heygen-logo-img"/></a><nav role="navigation" class="nav-menu-full-width-heygen white w-nav-menu"><div data-hover="false" data-delay="0" class="dropdown-2 full-width w-dropdown"><div class="dropdown-toggle-2 full-width w-dropdown-toggle"><div>Use Cases</div><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/64d08f3d6fd8127e792dc5e1_drop-down-arrow.svg" loading="lazy" alt="drop-down-arrow" class="navdropdownarrow"/></div><nav class="dropdown-list-2 full-width heygen w-dropdown-list"><a href="/explainer-video-maker" class="nav-dropdown-link full-width w-dropdown-link">Product Marketing</a><a href="/marketing-videos" class="nav-dropdown-link full-width w-dropdown-link">Content Marketing</a><a href="/learning-development" class="nav-dropdown-link full-width w-dropdown-link">Learning &amp; Development</a><a href="/personalized-video" class="nav-dropdown-link full-width w-dropdown-link">Personalized Video</a></nav></div><div data-hover="false" data-delay="0" class="dropdown-2 full-width w-dropdown"><div class="dropdown-toggle-2 full-width w-dropdown-toggle"><div>Features</div><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/64d08f3d6fd8127e792dc5e1_drop-down-arrow.svg" loading="lazy" alt="drop-down-arrow" class="navdropdownarrow"/></div><nav class="dropdown-list-2 full-width heygen w-dropdown-list"><a href="/instant-avatar" class="nav-dropdown-link full-width w-dropdown-link">Instant Avatar</a><a href="/studio-avatar" class="nav-dropdown-link full-width w-dropdown-link">Studio Avatar</a><a href="/video-translation" class="nav-dropdown-link full-width w-dropdown-link">video translate</a><a href="/voice-cloning" class="nav-dropdown-link full-width w-dropdown-link">Voice Cloning</a><a href="/photo-avatar" class="nav-dropdown-link full-width w-dropdown-link">Photo Avatar</a><a href="/ai-voices" class="nav-dropdown-link full-width w-dropdown-link">AI Voices</a><a href="/personalized-video" class="nav-dropdown-link full-width w-dropdown-link">personalized video</a><a href="/streaming-avatar" class="nav-dropdown-link full-width w-dropdown-link">Streaming Avatar</a><a href="/avatars" class="nav-dropdown-link full-width w-dropdown-link">AI Avatars</a><a href="/video-template" class="nav-dropdown-link full-width w-dropdown-link">Templates</a><a href="https://www.heygen.com/integration/zapier" class="nav-dropdown-link full-width w-dropdown-link">Zapier</a></nav></div><div data-hover="false" data-delay="0" class="dropdown-2 full-width w-dropdown"><div class="dropdown-toggle-2 full-width w-dropdown-toggle"><div>Resources</div><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/64d08f3d6fd8127e792dc5e1_drop-down-arrow.svg" loading="lazy" alt="drop-down-arrow" class="navdropdownarrow"/></div><nav class="dropdown-list-2 full-width heygen w-dropdown-list"><a href="/blog" data-track-data="type=weekly-demo" data-track-event="CLK_TO_NAV_WHILTE" data-with-sid="true" class="nav-dropdown-link full-width w-dropdown-link">Blog</a><a href="https://lu.ma/pvuzmgxo?utm_source=3w" data-track-data="type=weekly-demo" data-track-event="CLK_TO_NAV_WHILTE" data-with-sid="true" target="_blank" class="nav-dropdown-link full-width w-dropdown-link">Weekly Webinar</a><a href="/case-studies" data-track-data="type=weekly-demo" data-track-event="CLK_TO_NAV_WHILTE" data-with-sid="true" class="nav-dropdown-link full-width w-dropdown-link">Case Studies</a><a href="https://help.heygen.com/en/" data-track-data="type=help-center" data-track-event="CLK_TO_NAV_WHILTE" data-with-sid="true" target="_blank" class="nav-dropdown-link full-width w-dropdown-link">Help Center</a></nav></div><a href="/pricing" class="menu-nav-link full-width w-inline-block"><div class="text">Pricing</div></a><div class="nav-mobile-btns"><a href="https://am8evw00qys.typeform.com/enterprisecall" target="_blank" class="btn small w-button">Contanct Sales</a><a href="https://app.heygen.com/login" target="_blank" class="btn fill small w-button">Sign Up</a></div></nav></div><div class="nav-right-container-wrapper"><div class="nav-right-container"><div class="margin-left-16 tablet-no-margin margin-vertical-4 phonehide"><div class="heygen-signin-btn-2 dark linear ghost"><div class="w-embed"><style>
+	.typeform-btn{
+  	text-decoration: none !important;
+    font-weight: 600 !important;
+    height: 41px !important;
+    width: 138px !important;
+    display:flex;
+ 		justify-content: center;
+    align-items: center;
+  }
+  
+	.typeform-btn a{
+  	text-decoration: none !important;
+    font-weight: 600 !important;
+    height: 41px !important;
+    width: 138px !important;
+    display:flex;
+ 		justify-content: center;
+    align-items: center;
+  }
+  
+@media (min-width: 1440px) {
+	.typeform-btn{
+  	text-decoration: none !important;
+    font-weight: 600 !important;
+    height: 53px !important;
+    width: 164px !important;
+    display:flex;
+ 		justify-content: center;
+    align-items: center;
+  }
+  
+	.typeform-btn a{
+  	text-decoration: none !important;
+    font-weight: 600 !important;
+    height: 53px !important;
+    width: 164px !important;
+    display:flex;
+ 		justify-content: center;
+    align-items: center;
+  }
+}
+</style>
+<div class='typeform-btn' data-tf-live="01HMK5P4HT97V25V45BYN8MFEM">Contact Sales</div></div></div></div><div class="margin-left-16 tablet-no-margin margin-vertical-4 phonehide"><a data-with-sid="true" data-track-event="LAND_CLK_TRY" href="https://app.heygen.com/" target="_blank" class="heygen-signin-btn dark linear pure w-inline-block"><h6 class="h6 white _14 semibold">Try HeyGen for Free</h6></a></div><a href="https://app.heygen.com/login" target="_blank" class="btn-sign-up w-button">Sign Up</a></div><div data-w-id="bbf55982-5fe2-6266-0c60-a8b353f8863c" class="menu-button-3 w-nav-button"><div data-is-ix2-target="1" class="lottie-animation" data-w-id="bbf55982-5fe2-6266-0c60-a8b353f8863d" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/63fdcbe48aa020af71493542_lottieflow-menu-nav-07-0e0f11-easey.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.4791666666666665" data-duration="0"></div></div></div></div></div></div><div class="typeform-embed w-embed w-script"><script src="//embed.typeform.com/next/embed.js"></script></div></div><div class="overflow-controler"><section class="section _160-80-gap"><div class="w-layout-blockcontainer container w-container"><div><h1 class="policy-h1">HeyGen Privacy Policy</h1><div class="policy-sub">Effective as of 20th of November 2023</div></div><div class="privacy-policy-rich-text w-richtext"><h2>1. Introduction</h2><p>HeyGen is an independent platform for creating synthetic media, allowing users to create their text to video. We understand that your privacy is important and that you care about how your information is used and shared online. We respect and value the privacy of everyone who visits our websites and uses our platform, and only collect and use information in ways that are consistent with your rights and obligations under applicable laws.</p><p>‍</p><p>This Policy describes how HeyGen, Inc. (“HeyGen”, “our”, “we”, “us”) collects, uses and disclosures personal information about you when you use our websites (<a href="https://www.heygen.com">https://www.heygen.com</a> and <a href="https://app.heygen.com" target="_blank">https://app.heygen.com</a>) (“Site”), and our application programming interfaces, software, tools, data and documentation offered on the Site (collectively, “Services”). For purposes of this Privacy Policy, HeyGen is the data controller of your information, and “you” and “your” means you, the person using the Services.</p><p>‍</p><p>Please read this Privacy Policy carefully and ensure that you understand it. By using any of our Services, you agree to this Privacy Policy and our collection, use and disclosure of your information as described in this Privacy Policy. If you disagree with this Privacy Policy, you must stop using our Services immediately.</p><h2>2. Scope – What Does This Policy Cover?</h2><p>This Privacy Policy applies only to our collection and processing of information about users of the Services, including individuals who access and use the Services on behalf of a business customer. This Privacy Policy does not apply to our collection and processing of information on behalf of customers of our enterprise or business offerings, which is governed by our customer contracts. If you have questions about the use of information by a business customer, please reach out to the relevant customer directly.</p><p>‍</p><p>This Privacy Policy also does not extend to any websites or platforms operated by third parties that are linked to our Site (whether we provide those links or other users share them) nor does it apply to content, data, applications or materials from third parties, including other users. We are not responsible for the privacy or security of, or information found on, these sites or platforms, or the accuracy, completeness or reliability of third-party materials, and have no control over how your information is collected, stored, or used by other websites. We advise you to check the privacy policies of any third party website or platform before providing any information to them. Our inclusion of any links to third party websites or platforms does not, by itself, imply any endorsement of the content on such platforms or of their owners or operators.</p><h2>3. What Information Do We Collect?</h2><p>We collect certain information about you from different sources, as described in this section.</p><p>‍</p><h6>Information You Provide Us</h6><p>Some features of the Services may require you to directly provide us with information. You may elect not to provide this information, but doing so may prevent you from using or accessing these features. Depending upon your use of our Services, we may collect some or all of the following information about you:</p><ul role="list"><li><em>Account and contact information.</em> When you create an account, we collect your name, email address and account password. We may also collect other information associated with your account, such as your phone number, business/company name and position, mailing address and social media handles. Depending on the plan that you subscribe to, we may collect payment information and transaction history.</li><li><em>User Input.</em> When you use our Services, we collect personal information that is included in the text, voice, scripts, images, videos and other Input (as defined in our Terms) that you provide to generate videos, avatars and other forms of output, alongside metadata associated with the Input. As described below, we may use Input that you provide us to improve our services, for example, to train and enhance the models that power our Services. Some of the features of the Services require us to process parts of faces or bodies within a video or photo, and this may include face imagery. The information we use for this process is used to create and personalize avatars. It is not used to identify you.  We may also disclose Input to our vendors who help us provide the Services.</li><li><em>Information posted to the Services.</em> Certain features on the Services may enable you to share templates or make your videos and other content available to other users. We collect information that you choose to share or make available (“UGC”), and we, or others, may store, display, reproduce, publish or otherwise use UGC (including with your name and email address) and may or may not attribute it to you. Others, including other users, may also have access to UGC and may have the ability to share it with third parties.</li><li><em>Communications information.</em> We collect your name, email address and other information you provide in communications with us, including through the “Contact Sales” page or when interacting with us through our online chatbot.</li></ul><p>‍</p><h6>Information Collected Automatically</h6><p>We automatically collect certain information about your interaction with the Services (“Usage Data”), including through cookies, web beacons and other technologies (“Tracking Technologies”). This information includes:</p><ul role="list"><li><em>Device information</em>, such as device type, operating system, unique device identifier and IP address.</li><li><em>Location information</em>, such as approximate location based on IP address</li><li><em>Other information regarding your interaction with the Services</em>, such as your operating system, browser type, date and time stamps and clickstream data (including referring site, the types of content that you view or engage with, the features that you use and other actions you take on the Services, as well as the site you exit to).</li></ul><p>‍</p><p>For more information on how we use Tracking Technologies and your choices, please see the &quot;Cookies and Other Tracking Technologies&quot; section below.</p><p>‍</p><h6>Information From Third Parties</h6><p>We may obtain information about you from outside sources, including:</p><ul role="list"><li>Integration partners. Information we receive when you connect HeyGen to an integration service.</li><li>Login integrations. Information we receive when you choose to access the Services through a login integration or a Single Sign On service.</li><li>Social media platforms. Information we receive from social media platforms, such as when you interact with us on YouTube, TikTok or Instagram.</li></ul><h2>4. How Do We Use Your Information?</h2><p>We use your personal information to provide you with the best possible products and services. This includes:</p><ul role="list"><li>Providing and managing your Account, and access to and use of our Services.</li><li>Personalizing and tailoring your experience with our Services, including surfacing recommendations, enabling you to create Output and generating such output for you.</li><li>Providing customer support, responding to communications from you, sending you emails that you have subscribed to or announcements relating to your account.</li><li>Conducting research and development, improving and developing our products and technology (including training the models that power our services), analyzing your use of our Services and gathering feedback to enable us to understand and improve. our Services and your user experience, and monitoring and analyzing trends</li><li>Enhancing the safety and security of our Services, such as conducting troubleshooting, data analysis, testing, evaluation and system reporting.</li><li>Complying with applicable legal obligations, enforcing our contractual arrangements and policies, and protecting or defending the Services, our rights and the rights of our users or others.</li><li>Sending you marketing communications, including news and offers on our products or services (with your permission/consent or where otherwise permitted by applicable law). Unless permitted by law, we will not send you unsolicited marketing communications. We will also take all reasonable steps to ensure that we comply with our obligations under applicable email marketing laws. You can unsubscribe from our emails at any time by using the unsubscribe function in the email communication to you, or upon manual request to <a href="mailto:contact@heygen.com" target="_blank">privacy@heygen.com</a>. We will remove your email address from our subscriber list upon receipt of such a request.</li></ul><h2>5. How Do We Share Your Data?</h2><p>We only disclose your personal information as described in this Privacy Policy. Unless otherwise described, we will never sell your personal information to anyone for monetary consideration. You are in control of your personal information at all times.</p><p>‍</p><p>In certain circumstances, we may disclose your personal information to third parties for the purposes described in this Privacy Policy, including:</p><ul role="list"><li><em>Vendors and Service Providers. </em>We may contract with third parties who help us provide the Services, including for payment processing, cloud storage, chatbot operation, voice transcriptions, image generation, system administration, security, customer relationship management, delivery of goods, search engine facilities, data analytics, advertising, and marketing. In some cases, these third parties may require access to some or all of your information. We will take all reasonable steps to ensure that your information will be handled safely and securely.</li><li><em>With direction or consent. </em>We may also disclose information to third parties, including other users of the Services, when you request, direct or consent to us doing so, such as when you make output or other content available to others, through your use of login integrations and social media widgets or with your consent.</li><li><em>Affiliates.</em> We may disclose information to our affiliates or others within our corporate group.</li><li><em>Legal reasons. </em>In certain circumstances, we may be legally required to share certain data held by us, which may include your personal information, for example, where we are involved in legal proceedings or where we are cooperating or complying with the requirements of legislation, a court order, a governmental authority or law enforcement. We may also disclose information to comply with applicable law, to enforce our contractual arrangements and policies, or protect or defend the Services, our rights and the rights of our users or others.</li></ul><p>‍</p><p>We may also compile statistics about the use of our Site, including data on traffic, usage patterns, user numbers, sales, and other information. All such data will be anonymized and will not include any personally identifying information. We may occasionally share such data with third parties, such as prospective investors, affiliates, partners, and advertisers. Data will only be shared and used within the bounds of the law.</p><h2>6. What Happens If Our Business Changes Hands?</h2><p>We may, from time to time, expand or reduce our business, and this may involve the sale and/or the transfer of control of all or part of our business, which could take various forms, such as an asset sale, merger, bankruptcy or other business transaction. Personal information provided by users will, where it is relevant to any part of our business so transferred, be transferred along with that part, and the new owner or newly controlled party will, under the terms of this Privacy Policy, be permitted to use the information for the purposes for which it was originally collected by us. We may also disclose personal information to third parties assisting with such a business transaction, such as legal advisors involved in the diligence processor.</p><p>‍</p><p>If any of your personal information will be transferred in such a manner, you will be contacted in advance and informed of the changes.</p><h2>7. Cookies and Other Tracking Technologies</h2><p>As described above, the Site and Services may use certain Tracking Technologies to collect Usage Data, including first-party Tracking Technologies (those placed directly by us and are used only by us) and third-party Tracking Technologies (those placed by websites, services and/or parties other than us). These Tracking Technologies include those provided by Google Analytics, Datadog, DoubleClick and Meta.</p><p>‍</p><p>We use Tracking Technologies because it is in our legitimate interests to facilitate, improve and tailor your experience with the Services, run analytics, de-bug and to provide and improve our products and services. For example, we use Datadog to better understand our user’s experience (e.g., how much time is spent on pages, what features they use, what links they choose to click, etc.) and this enables us to build and maintain the Services with user feedback. We may associate Usage Data with the device you use to access the Services, or email accounts you use to engage with us. We also use Tracking Technologies for advertising related purposes, including for remarketing and to deliver targeted ads to you, and analyze and measure the effectiveness of our advertisements. We use cookies on our Site in accordance with current English and EU Cookie Laws, and if you are in the EU or UK, we request your consent before dropping Tracking Technologies that are not strictly necessary for the Services.</p><p>‍</p><p>Most browsers accept cookies automatically, but you may be able to control the way in which your devices permit the use of Tracking Technologies. While you do not have to allow us to use Tracking Technologies, they do enable us to continually improve our Services, making it a better and more useful experience for you.</p><p>‍</p><p>If you so choose, you can choose to disable or delete cookies in your Internet browser at any time. Most internet browsers also enable you to choose whether you wish to disable all cookies or only third-party cookies. For further details, please consult the help menu in your internet browser or the documentation that came with your device. Disabling or deleting cookies may cause some of the Services to work incorrectly, and you may lose any information that enables you to access our Site more quickly and efficiently, including login and personalization settings. While your browser may allow you to transmit a “do not track” / “opt-out preference” signal or other mechanism for exercising choices regarding the collection of information by Tracking Technologies, like many websites, our website is not designed to respond to such signals. To learn more about “do not track” signals, you can visit <a href="http://www.allaboutdnt.com/" target="_blank">http://www.allaboutdnt.com/</a>.</p><p>‍</p><p>For information about interest-based ads, and to opt out of targeted advertising by companies that participate in the Digital Advertising Alliance, visit <a href="http://optout.aboutads.info/" target="_blank">http://optout.aboutads.info/</a> or <a href="https://www.youronlinechoices.com/" target="_blank">https://www.youronlinechoices.com/</a>. You can also use the Network Advertising Initiative opt-out at <a href="https://thenai.org/opt-out/" target="_blank">https://thenai.org/opt-out/</a>. Google and Meta also provide options to customize how your information is collected and used. For example, you can utilize Google Analytics’s Opt-Out Browser Add On <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">here</a>, or alter Facebook Ads Display options in your Facebook account. If you apply certain ad blockers or tools to restrict cookies, it may interfere with your ability to opt out.</p><h2>8. How Long Do We Store Your Information?</h2><p>We only keep your personal information for as long as we need to provide our products and services as described in this Privacy Policy and/or for as long as we have your permission to keep it. In determining the length of time we retain information, we consider various criteria, including whether we need the information to continue to administer your account, provide the Services, maintain output and content that you have generated, resolve a dispute, enforce our contractual agreements, prevent harm, promote safety, security and integrity, or protect ourselves, including our rights, property and products. We conduct reviews when appropriate to ascertain whether we still need to keep your information.</p><p>‍</p><p>If you submit a request to delete your information, we strive to take steps to delete that information within 24 hours of your request, unless we are required or permitted to retain such information under applicable law. For additional information, see “Summary of Your Rights” below.</p><h2>9. How Do We Secure Your Information?</h2><p>Data security is of great importance to us, and to protect your personal information, we have put in place suitable physical, electronic, and managerial procedures designed to safeguard and secure personal information collected through our Site.</p><p>‍</p><p>Notwithstanding any security measures that we take, it is important to remember that the transmission of data via the Internet may not be completely secure, and we cannot guarantee that the collection, transmission and storage of data will always be secure. Please take suitable precautions when transmitting data via the Internet to us.</p><p>‍</p><p>In addition, if you choose to register an account with us, you are responsible for keeping your account credentials safe. We recommend that you do not share your access details with anyone. If you believe your account has been compromised, please contact us immediately.</p><h2>10. Summary of Your Rights</h2><p>When you submit information via our Site, you may be given options to restrict our use of your information. We aim to give you strong control on our use of your information. Depending on where you live, you may have certain rights in relation to your personal information. However, these rights are not absolute, and may only apply in certain circumstances.</p><ul role="list"><li><em>Access.</em> You may have the right to request access to the information we hold about you, how we use it, and who we share it with.</li><li><em>Delete. </em>You may have the right to request that we delete information we hold about you.</li><li><em>Correct.</em> You may have the right to request that we correct inaccurate information we maintain about you.</li><li>Opt out of targeted advertising. You may have a right to opt-out of the processing of your information for the purposes of targeted advertising. For more information, please see the “Cookies and Other Tracking Technologies” section above.</li><li><em>Portability.</em> You may have the right to receive a copy of personal information we hold about you and request that we transfer it to a third party.</li><li><em>Restriction of processing to storage only.</em> You may have the right to ask us to stop, suspend or restrict our processing of personal information.</li><li><em>Objection.</em> You may have the right to object to our processing of personal information. You can also object to marketing at any time by using the unsubscribe/opt-out function displayed in our communications to you.</li><li><em>Withdrawal of consent.</em> Where we rely on consent to process your personal information, you may have the right to withdraw this consent at any time. If you confirm that you wish to withdraw your consent, we will delete your information from our systems. However, you acknowledge this may limit our ability to provide you with the best possible products and services.</li></ul><p>‍</p><p>To submit a request to exercise any of the foregoing rights, please contact us using the details set out in the “Contacting Us” section below.</p><p>‍</p><p>We will not discriminate against you for exercising any of these rights. Further information may be needed to verify your identity before exercising these rights, such as your email address or government issued ID. You may designate, in writing or through a power of attorney document, an authorized agent to make requests on your behalf. Before accepting such a request from an agent, we will require that the agent provide proof you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. If we deny your request, you may appeal our decision by contacting us through the methods described below.</p><h2>11. Children&#x27;s Privacy</h2><p>Our Services are not intended for minors under the age of 18, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian of a child under 13 years old who has provided us with personal information, please contact us at <a href="mailto:contact@heygen.com" target="_blank">privacy@heygen.com</a>. If we become aware that we have unknowingly collected personal information from a child under age 13, we take steps to remove that information from our servers.</p><h2>12. Social Features</h2><p>Certain features of the Services allow you to initiate interactions between the Services and third-party services or platforms, such as YouTube, TikTok, Instagram and email integrations (“Social Features”). Social Features include features that allow you to access our pages on third-party platforms, and from there “like” or “share” our content, or to access our Services through a login integration. Use of Social Features may allow a third party to collect and/or use your information. If you use Social Features, information you post or make accessible may be publicly displayed by the third-party service. Both we and the third party may have access to information about you and your use of both the Services and the third-party service. For more information, see the section below.</p><h2>13. Third-party Websites and Materials</h2><p>As described above, we are not responsible for the privacy or security of, information found on, or any practices employed by any third-party applications, websites, or services linked to or from our Service. Although we may provide links to third-party websites or platforms, or display content, data, applications or materials from third parties, our Privacy Policy does not apply to those third-party sites or materials, and your browsing and interaction on any third-party site, application, or service, including those that have a link on our Services, are subject to that third party&#x27;s own terms and policies.</p><h2>14. Additional U.S. State Disclosures</h2><p>This section provides additional information to residents of California, Colorado or other U.S. states that have passed a law similar to the California Consumer Privacy Act (“CCPA”). For purposes of this section, “personal information” also includes “sensitive personal information” as those terms are defined under the CCPA.</p><p>‍</p><p>The following table sets out the categories of personal information (sensitive information denoted by *) we collect and disclose (if applicable), including our practices over the past 12 months.</p></div><div class="rich-text-table-grid"><div id="w-node-_2c02edab-557c-5467-f951-399cc62ba0cb-7dc37a11" class="rich-text-table-cell"><div><span class="font-semibold">Category of Personal Information</span></div></div><div id="w-node-a1994ddd-b622-4627-6636-2ae7cf73df57-7dc37a11" class="rich-text-table-cell"><div><span class="font-semibold">Recipient(s)</span></div></div><div id="w-node-a231956a-a6d9-1c16-9513-fffd2608e798-7dc37a11" class="rich-text-table-cell"><div>Identifiers, such as name, contact information, IP address and other device identifiers</div></div><div id="w-node-e7f7b064-2dcc-fbf4-4eb3-1af4de8a2e87-7dc37a11" class="rich-text-table-cell"><div>Vendors and service providers, with your direction or consent (e.g., to other users), with our affiliates.</div></div><div id="w-node-_51e99ae0-fb4e-14dd-aac5-8c205c2f2497-7dc37a11" class="rich-text-table-cell"><div>Personal information under the California Customer Records statute, such as name</div></div><div id="w-node-_14b7b4c7-f1e7-8998-fe61-be06a0b40b1a-7dc37a11" class="rich-text-table-cell"><div>Internet and similar network activity information, such as information regarding your interactions with the Services, Input and UGC</div></div><div id="w-node-dfc3f992-2095-c716-890f-8b1104f24c54-7dc37a11" class="rich-text-table-cell"><div>Geolocation information, such as IP address</div></div><div id="w-node-a6318010-aa29-d9d1-0a8f-a8355ce756e5-7dc37a11" class="rich-text-table-cell"><div>Vendors and service providers, with our affiliates. </div></div><div id="w-node-cf7239d9-4c77-d38e-1c7d-a7a78f631f17-7dc37a11" class="rich-text-table-cell"><div>Commercial information, such as your subscription transaction history</div></div><div id="w-node-_0e5f1409-86c0-d5da-e174-2c4d0f521477-7dc37a11" class="rich-text-table-cell"><div>Characteristics of protected classifications, such as race, color, sex and age</div></div><div id="w-node-bcf39df3-3490-fbc0-6745-35aed8b9763e-7dc37a11" class="rich-text-table-cell"><div>Professional-related information, such as your business/company name</div></div><div id="w-node-e4d01582-6b67-e308-c81d-1587550ac01f-7dc37a11" class="rich-text-table-cell"><div>Information drawn from other personal information provided to us, which could include your preferences, interests, and other information used to personalize your experience.</div></div><div id="w-node-_9185cfd7-e46e-3ccf-da1c-8c11ae4fa226-7dc37a11" class="rich-text-table-cell"><div>Account access credentials, such as username and password*</div></div></div><div class="privacy-policy-rich-text w-richtext"><p>‍</p><p>For information regarding the specific purposes for which we collect and disclose your personal information and the categories of sources from which we collect your personal information, please see section 3 “What Information Do We Collect?” and section 4 “How Do We Use Your Information” above. Information about our retention of personal information is described in section 8, “How Long Do We Store Your Information”. We only use and disclose sensitive  personal information for the purposes specified in the CCPA or otherwise with your consent.</p><p>‍</p><p><strong>We do not “sell” or “share” (as those terms are defined in the CCPA) personal information, nor have we done so in the preceding 12 months.</strong> Further, we do not have actual knowledge that we sell or share personal information about California residents under 16 years of age.</p><p>‍</p><p>California residents under the age of 18 who have registered to use the Services and posted UGC to the Services can request that their UGC be removed by contacting us at <a href="mailto:contact@heygen.com" target="_blank">privacy@heygen.com</a>. Such a request must state that they personally posted such UGC or information and detail where the UGC is posted. We will make reasonable good faith efforts to remove the content from prospective public view or anonymize it so the minor cannot be individually identified. This removal process cannot ensure complete or comprehensive removal. For instance, third parties may have republished the post and archived copies of it may be stored by search engines and others that we do not control.</p><p>‍</p><h2>15. Third-party Websites and Materials</h2><p>Our Services are designed for users in the United States only and are not intended for users located outside the United States. By using our Services, you understand that your personal information may be processed and stored on servers, and transferred to third parties, outside your country of residence, including the United States.</p><p>‍</p><p>The personal information that you provide to us and that we collect from you will be transferred to, stored at, or processed in, countries outside your country of residence, such as to the United States. Your personal information is also processed by staff operating outside the EEA, UK or Switzerland who work for us or one of our third-party service providers or partners. We process the personal information that you provide to us in countries outside your country of residence in order to provide our Services, perform our contract with you, and provide our website’s functionality. We also use standard contractual clauses as relevant for certain transfers of personal information to third countries, unless the transfer is to a country that has been determined to provide an adequate level of protection for individuals’ rights and freedoms for their personal information.</p><p>‍</p><p>If you are in the EEA, UK or Switzerland, our legal bases for processing your personal information include:</p><ul role="list"><li>Performance of a contract with you. We process certain account and contact information, information, application information, user content and Usage Data to provide and maintain your account and our Services. If you do not provide some of this information, we may not be able to provide our Services to you.</li><li>Our legitimate interests. We process certain account and contact information, application information, user content, communications information and Usage Data where it is in our legitimate interest, and those interests are not overridden by your interests or fundamental rights and freedoms. Our legitimate interests include us processing information in order to be responsive to you, protect our Services from fraud, security or abuse, and to develop, improve and provide effective products and services, including for training and enhancing our models.</li><li>Your consent. If we ask for your consent to process your personal information for a specific purpose, such as to send marketing communications to you. You can withdraw your consent at any time.</li><li>Compliance with legal obligations. We may process information to comply with applicable law, to enforce our contractual arrangements and policies, or to protect or defend the Services, our rights, the rights of our users or others.</li></ul><p>‍</p><p>Our representative in the European Economic Area and the UK is:</p></div><div class="privacy-policy-rich-text---center w-richtext"><p>Jan Czarnocki</p><p><a href="mailto:jan.czarnocki@heygen.com" target="_blank">jan.czarnocki@heygen.com</a></p></div><div class="privacy-policy-rich-text w-richtext"><p>‍</p><p>As described in section 1 “Introduction”, HeyGen, Inc. is the relevant data controller for the processing of your information, and we are a domestic corporation established in the United States.</p><p>‍</p><h2>16. Changes to our Privacy Policy</h2><p>We may change this Privacy Policy from time to time, in which case we will update the “Effective” date at the top of this Privacy Policy and post the updated Privacy Policy  on our Site. If we make material changes to the way in which we use personal information collected about you, we will use commercially reasonable efforts to notify you and take additional steps as required by applicable law. We recommend that you check this page regularly to keep up-to-date. If you do not agree to any updates to this Privacy Policy, please do not use or access any of the Services.</p><h2>17. Contacting Us</h2><p>If you have any questions about our Services or this Privacy Policy, please contact us by email at <a href="mailto:contact@heygen.com" target="_blank">privacy@heygen.com</a>.</p><p>‍</p><p>Please ensure that your query is clear, particularly if it is a request for information about the data we hold about you. If you think we have infringed applicable data privacy or protection laws, you can complain to your local data protection supervisory authority in which you are based or where you think we have infringed data protection laws. Of course, we hope you will contact us first so we can resolve any issues.</p></div></div></section></div><div class="footer-section"><div class="w-layout-blockcontainer footer-container w-container"><div class="w-layout-grid footer-2cols-grid"><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac5eb-b2a65174" class="flex-vertical-between _100-height"><div><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/649e4c3d5f0708ca6cd80bba_logoHorizonalLight.svg" loading="lazy" alt="logo-horizonal-light" class="image-73"/><div class="text-block-76">12130 Millennium Drive, Suite 300, Los Angeles, CA 90094</div></div></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac5f0-b2a65174" class="w-layout-grid footer-links-grid"><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac5f1-b2a65174" class="div-block-footer-menu dark"><h6 class="heading6 _18-mb-6">Use Cases</h6><a href="/explainer-video-maker" class="link-footer drak">Explainer &amp; How to</a><a href="/marketing-videos" class="link-footer drak">Marketing</a><a href="/learning-development" class="link-footer drak">Training &amp; Onboarding</a></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac5fe-b2a65174" class="div-block-footer-menu dark"><h6 class="heading6 _18-mb-6">Features</h6><a href="/instant-avatar" class="link-footer drak">Instant Avatar</a><a href="/studio-avatar" class="link-footer drak">Studio Avatar</a><a href="/video-translation" class="link-footer drak">Video Translate</a><a href="/voice-cloning" class="link-footer drak">Voice Cloning</a><a href="/photo-avatar" class="link-footer drak">Photo Avatar</a><a href="/ai-voices" class="link-footer drak">AI Voices</a><a href="/personalized-video" class="link-footer drak">Personalized Video</a><a href="/streaming-avatar" class="link-footer drak">Streaming Avatar</a><a href="/avatars" class="link-footer drak">AI Avatars</a><a href="https://docs.heygen.com" target="_blank" class="link-footer drak">HeyGen API</a><a href="https://www.heygen.com/integration/zapier" class="link-footer drak">Zapier</a></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac614-b2a65174" class="div-block-footer-menu dark"><h6 class="heading6 _18-mb-6">Community</h6><a href="https://discord.com/invite/KqDWp35Uvb" target="_blank" class="link-footer drak">Discord</a><a href="https://www.facebook.com/groups/345553694144336" target="_blank" class="link-footer drak">Facebook</a><a href="https://www.youtube.com/@heygen_official" target="_blank" class="link-footer drak">Youtube</a><a href="https://www.tiktok.com/@heygenofficial" target="_blank" class="link-footer drak">TikTok</a><a href="https://www.linkedin.com/company/heygen/mycompany/?viewAsMember=true" target="_blank" class="link-footer drak">LinkedIn</a><a href="https://twitter.com/heygen_official" target="_blank" class="link-footer drak">Twitter</a></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac627-b2a65174" class="div-block-footer-menu dark"><h6 class="heading6 _18-mb-6">Resources</h6><a href="/faq" class="link-footer drak">FAQ</a><a href="/blog" class="link-footer drak">Blog</a><a href="/tutorial" class="link-footer drak">Tutorial</a><a data-track-data="weekly-demo-bottom" data-track-event="CLK_TO_Footer" data-with-sid="true" href="https://lu.ma/pvuzmgxo?sid=no_sid&amp;utm_source=3w" target="_blank" class="link-footer drak">Weekly Webinar</a><a data-track-data="weekly-demo-bottom" data-track-event="CLK_TO_Footer" data-with-sid="true" href="/case-studies" class="link-footer drak">Case Studies</a><a href="https://help.heygen.com/en/" target="_blank" class="link-footer drak">Help Center</a><a href="/alternatives" class="link-footer drak">Alternative </a><a href="/ambassador" class="link-footer drak">Ambassador Program</a><a href="/creator-fund" class="link-footer drak">Creator Fund</a><a href="/affiliate-program" class="link-footer drak">Affiliate Program</a><a href="https://status.heygen.com" target="_blank" class="link-footer drak">Status</a></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac63c-b2a65174" class="div-block-footer-menu dark"><h6 class="heading6 _18-mb-6">Company</h6><a href="/about-us" class="link-footer drak">About Us</a><a href="https://boards.greenhouse.io/heygen" target="_blank" class="link-footer drak">Careers</a><a href="/policy" aria-current="page" class="link-footer drak w--current">Privacy Policy</a><a href="/terms" class="link-footer drak">Terms of Service</a><a href="/security" class="link-footer drak">Security Portal</a><a href="/ethics" class="link-footer drak">Ethics</a><a href="/moderation-policy" class="link-footer drak">Moderation Policy</a><div id="footerCookie" data-w-id="b205d4ed-1cd1-d49d-4b9e-b17c7e3a1b44" class="link-footer drak">Cookie Preference</div><a href="mailto:contact@heygen.com?subject=Contact" class="link-footer drak">Contact</a></div></div><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac64d-b2a65174"><img src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/64e6c60e9cbdcb516f8b956d_footer-logo2.png" loading="lazy" alt="" class="image-76"/><div id="w-node-f1a1277f-90fe-0fec-4b02-676388dac64f-b2a65174" class="footer-copyright-text">©Copyright <span id="copyright">2024</span> HeyGen</div></div></div></div><div class="w-embed w-script"><script>
+  const cookiesPopUp = document.getElementById('cookiesPopUp');
+  const acceptAllBtn = document.getElementById('acceptAllBtn');
+  const acceptSelectedBtn = document.getElementById('acceptSelectedBtn');
+  const rejectButton = document.getElementById('rejectButton');
+  const customBtn = document.getElementById('customBtn');
+  const customBtnMobile = document.getElementById('customBtnMobile');
+  const anlyticCheckBtn = document.getElementById('anlyticCheckBtn');
+  const AdsCheckBtn = document.getElementById('AdsCheckBtn');
+  const footerCookie = document.getElementById('footerCookie');
+
+  const queryParams = new URLSearchParams(window.location.search);
+  const shouldShowCookiePopup = queryParams.get('cookie_preference') === '1';
+
+  const getCookiesStatus = function () {
+    const analyticsPermission = window.CookiePerms.getItem('anal');
+    const adsPermission = window.CookiePerms.getItem('ads');
+
+    anlyticCheckBtn.setAttribute(
+      'data-check',
+      analyticsPermission ? 'checked' : 'unchecked'
+    );
+    anlyticCheckBtn
+      .querySelector('.cookies-select-checkbox')
+      .classList.remove('unchecked', 'checked');
+    anlyticCheckBtn
+      .querySelector('.cookies-select-checkbox')
+      .classList.add(analyticsPermission ? 'checked' : 'unchecked');
+    anlyticCheckBtn
+      .querySelector('.icon_cookies_check')
+      .classList.remove('unchecked', 'checked');
+    anlyticCheckBtn
+      .querySelector('.icon_cookies_check')
+      .classList.add(analyticsPermission ? 'checked' : 'unchecked');
+
+    AdsCheckBtn.setAttribute(
+      'data-check',
+      adsPermission ? 'checked' : 'unchecked'
+    );
+    AdsCheckBtn.querySelector('.cookies-select-checkbox').classList.remove(
+      'unchecked',
+      'checked'
+    );
+    AdsCheckBtn.querySelector('.cookies-select-checkbox').classList.add(
+      adsPermission ? 'checked' : 'unchecked'
+    );
+    AdsCheckBtn.querySelector('.icon_cookies_check').classList.remove(
+      'unchecked',
+      'checked'
+    );
+    AdsCheckBtn.querySelector('.icon_cookies_check').classList.add(
+      adsPermission ? 'checked' : 'unchecked'
+    );
+  };
+
+  if (shouldShowCookiePopup) {
+    cookiesPopUp.style.display = 'block';
+    getCookiesStatus();
+  }
+  if (window.CookiePerms.isSet() && !shouldShowCookiePopup) {
+    cookiesPopUp.style.display = 'none';
+  }
+
+  function toggleCookieSelection(element, cookieType) {
+    const checkbox = element.querySelector('.cookies-select-checkbox');
+    const icon = element.querySelector('.icon_cookies_check');
+    const isChecked = element.getAttribute('data-check') === 'checked';
+
+    element.setAttribute('data-check', isChecked ? 'unchecked' : 'checked');
+    window.CookiePerms.setItem(cookieType, isChecked);
+    checkbox.classList.toggle('checked', !isChecked);
+    checkbox.classList.toggle('unchecked', isChecked);
+    icon.classList.toggle('checked', !isChecked);
+    icon.classList.toggle('unchecked', isChecked);
+  }
+
+  acceptAllBtn.addEventListener('click', function () {
+    window.CookiePerms.setAll(true);
+    cookiesPopUp.style.display = 'none';
+  });
+
+  rejectButton.addEventListener('click', function () {
+    window.CookiePerms.setAll(false);
+    cookiesPopUp.style.display = 'none';
+  });
+
+  customBtn.addEventListener('click', function () {
+    rejectButton.textContent = 'Reject All';
+  });
+  customBtnMobile.addEventListener('click', function () {
+    rejectButton.textContent = 'Reject All';
+  });
+
+  anlyticCheckBtn.addEventListener('click', function () {
+    toggleCookieSelection(this, 'anal');
+  });
+
+  AdsCheckBtn.addEventListener('click', function () {
+    toggleCookieSelection(this, 'ads');
+  });
+
+  acceptSelectedBtn.addEventListener('click', function () {
+    toggleCookieSelection(anlyticCheckBtn, 'anal');
+    toggleCookieSelection(AdsCheckBtn, 'ads');
+    cookiesPopUp.style.display = 'none';
+  });
+
+  footerCookie.addEventListener('click', function () {
+    cookiesPopUp.style.display = 'block';
+    getCookiesStatus();
+  });
+</script>
+
+<script>
+  window.onload = function() {
+    const year = new Date().getFullYear();
+    document.getElementById('copyright').textContent = year; 
+  };
+</script></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63fdcbe48aa020c0a5493507" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/63fdcbe48aa020c0a5493507/js/webflow.8b44f9a40.js" type="text/javascript"></script><script>
+    function detectLang() {
+        var lang = (navigator.language || '').toLocaleLowerCase();
+        var nodes = document.querySelectorAll('[data-if-lang]');
+        for (var i = 0; i < nodes.length; i++) {
+            var node = nodes[i];
+            var nodeLang = node.getAttribute('data-if-lang');
+            var hit = lang && nodeLang && (nodeLang.split(',').some((l) => (lang == l)));
+            var hideNode = node.children[0];
+            var showNode = node.children[1];
+            if (hit) {
+                var s = showNode;
+                showNode = hideNode;
+                hideNode = s;
+            }
+            if (hideNode) hideNode.style.display = 'none';
+            if (showNode) showNode.style.display = 'block';
+        }
+    }
+    detectLang();
+</script>
+<script type="text/javascript">
+    function loadClarity() {
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "kwu3qxbpf1");
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+
+    /******************************************************************************************/
+    /* zid section */
+    function randomString(len = 8) {
+        var str = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var result = '';
+        for (var index = 0; index < len; index++) {
+            result += str[Math.floor(Math.random() * str.length)];
+        }
+        return result;
+    }
+
+    function getZid() {
+        if (!CookiePerms.getItem('anal')) {
+            return '';
+        }
+        var KEY = 'x-movio-v-id';
+        var SHARED_KEY = 'x-movio-shared-v-id';
+
+        var sharedUuid = Cookies.get(SHARED_KEY);
+        var uuid = Cookies.get(KEY);
+
+        if (sharedUuid) return sharedUuid;
+
+        // no shared uuid
+        var newSharedUuid = uuid || randomString(32);
+        // set shared uuid
+        try {
+            var host = location.host;
+            if (host.startsWith('www.')) {
+                Cookies.set(SHARED_KEY, newSharedUuid, {
+                    // .someweb.com
+                    domain: host.replace('www', ''),
+                });
+            }
+        } catch (e) {
+            console.error('set all domain cookies failed:', e);
+        }
+
+        if (uuid) return uuid;
+
+        // no uuid
+        Cookies.set(KEY, newSharedUuid);
+
+        return newSharedUuid;
+    }
+    var movioZid = getZid();
+
+    function zidToHashNumber(input) {
+        let hash = 0;
+        for (let i = 0; i < input.length; i++) {
+            const char = input.charCodeAt(i);
+            hash = (hash << 5) - hash + char;
+        }
+
+        const mappedHash = (hash % 100 + 100) % 100;
+
+        return mappedHash;
+    }
+    var movioZidHash = zidToHashNumber(movioZid);
+
+    /* zid section end */
+
+    /******************************************************************************************/
+    /* track section */
+    var movioRequest = axios.create({
+        baseURL: 'https://api2.heygen.com',
+    });
+
+    var getDeviceType = function () {
+        return document.body.clientWidth > 600 ? 'desktop' : 'mobile';
+    };
+
+    var logEventToMovio = function (evt, data) {
+        var params = Object.assign({
+            origin: location.origin,
+            page_view: location.pathname,
+            event_name: evt,
+            sid: window.getSid && window.getSid(),
+            zid: window.getZid && window.getZid(),
+            device: getDeviceType(),
+            width: document.body.clientWidth,
+            referrer: document.referrer,
+            params: JSON.stringify(data || {}),
+        });
+        movioRequest.post('/v1/movio.track', params);
+    };
+
+    var logEvent = function (evt, data) {
+        logEventToMovio(evt, data);
+    };
+    logEvent('PAGE_VIEW');
+    /* track section end */
+
+    function parseAttributeData(strData) {
+        var list = (strData || '').split(/[&;]/);
+        var out = {};
+        for (var i = 0; i < list.length; i++) {
+            var item = list[i];
+            if (item) {
+                var kv = item.split(/[=:]/);
+                if (kv.length >= 2) {
+                    var k = kv[0].trim();
+                    var v = kv[1].trim();
+                    out[k] = v;
+                }
+            }
+        }
+        return out;
+    }
+
+    function parseTrackData(strData) {
+        var data = {};
+        try {
+            var d = JSON.parse(strData);
+            if (typeof d === 'object') { data = d; }
+        } catch {
+            try { data = parseAttributeData(strData) } catch { }
+        }
+        return data;
+    }
+
+    /******************************************************************************************/
+    function handleLogEvent(e) {
+        var t = getElWithAttribute(e, 'data-track-event');
+        if (!t) return;
+
+        var evt = t.getAttribute('data-track-event');
+        if (!evt) return;
+        var data = parseTrackData(t.getAttribute('data-track-data'));
+
+        logEvent(evt, data);
+        if (evt === 'LAND_CLK_TRY') {
+            gtag('event', 'click_try');
+        }
+    }
+
+    function handleWithNavUrl(e) {
+        var t = getElWithAttribute(e, 'data-nav-url');
+        if (!t) return;
+        var url = t.getAttribute('data-nav-url');
+        if (!url) return;
+        e.stopPropagation();
+        e.preventDefault();
+        url = getLinkWithSid(url);
+        window.open(url);
+    }
+
+    clickHandler.add(handleLogEvent);
+    clickHandler.add(handleWithNavUrl);
+
+    function checkIsLogin() {
+        return Cookies.get('heygen_is_login') === 'true';
+    }
+    function redirectWhenIsLogin() {
+        if (getDeviceType() === "mobile") return;
+        if (location.pathname === '/' && checkIsLogin()) {
+            location.href = 'https://app.heygen.com';
+        }
+    }
+    redirectWhenIsLogin();
+    if (CookiePerms.getItem('anal') && movioZidHash < 10) {
+        loadClarity();
+    }
+</script><script>
+// declare MutationObserver config object
+// the config object specifies which mutations to observe
+// in this case it'll observe the class attribute
+const config = { attributes: true, attributeFilter: ['class'] };
+
+// setup the MutationObserver
+const observer = new MutationObserver((mutationsList, observer)=>{
+  // every time the class attribute of the observed element changes
+  for(let mutation of mutationsList) {
+    // if the classList contains the w--current class
+    if (mutation.target.classList.contains('w--current')){
+      // add the active class to the element's dot
+      $(mutation.target).find('.tab-underline').addClass('tab-active');
+    }
+    else{ // else if the element's classList doesn't contain the w--current class
+      // remove the active class from the element's dot
+      $(mutation.target).find('.tab-underline').removeClass('tab-active');
+    }
+  }
+});
+
+// get all links & for each link
+document.querySelectorAll('.tablink').forEach(link => {
+  // start the mutation observer
+  observer.observe(link, config);
+});</body></html>

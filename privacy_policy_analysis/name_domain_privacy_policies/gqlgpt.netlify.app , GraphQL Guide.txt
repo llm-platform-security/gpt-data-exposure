@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            background-color: #f1f1f1;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        .container p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="privacy-policy">
+        <h2>Privacy Policy for GraphQL Guide</h2>
+        <p>We are committed to maintaining the trust and confidence of our users. In this Privacy
+            Policy, we've provided detailed information on when and why we might need to collect personal data, how we
+            use it, the limited conditions under which we may disclose it to others, and how we keep it secure.</p>
+
+        <h3>No Collection of Personal Data:</h3>
+        <ul>
+            <li><strong>No Data Storage:</strong> We do not store, collect, or persist any user data.</li>
+            <li><strong>Session-based Interaction:</strong> Our functionality is strictly limited to retrieving data
+                from servers using GraphQL queries during our interactive session.</li>
+            <li><strong>No Data Persistence:</strong> No personal data or session information is retained between
+                sessions.</li>
+        </ul>
+
+        <h3>Purpose:</h3>
+        <p>Our sole purpose is to assist users in querying GraphQL APIs. We ensure the privacy and data security of our
+            users at all times.</p>
+
+        <h3>Security:</h3>
+        <p>We take your privacy seriously and ensure that no personal data is stored or at risk of being compromised.
+        </p>
+
+        <h3>User Consent:</h3>
+        <p>By using GraphQL Guide, users consent to our privacy policy.</p>
+
+        <h3>Changes to Our Privacy Policy:</h3>
+        <p>Any changes we may make to our privacy policy in the future will be posted on this page.</p>
+
+        <p>This service is hosted by Netlify, who may perform their own logging of access to this service. For more
+            details, please refer to <a href="https://www.netlify.com/privacy/" target="_blank">Netlify's Privacy
+                Policy</a>.</p>
+
+        <p>For any questions or concerns regarding our privacy policy, please contact us.</p>
+    </div>
+</body>
+
+</html>

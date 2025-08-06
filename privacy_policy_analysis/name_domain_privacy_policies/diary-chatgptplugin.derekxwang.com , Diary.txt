@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en" class="h-full bg-gray-50 antialiased"><head><title>Diary</title><meta name="charset" content="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="/build/_assets/global-ERQ6MIIK.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Lexend:wght@400;500&amp;display=swap"/></head><body class="flex h-full flex-col"><div class="p-8"><h1 class="text-3xl font-bold mb-4">Legal Information for Diary GPT &amp; Plugin</h1><div class="mb-8"><h2 class="text-2xl font-semibold mb-2">Terms of Service</h2><p class="mb-2">The Diary Plugin (&quot;the Plugin&quot;) is provided by [Derek X. Wang] (&quot;the Company&quot;). By using the Plugin, you agree to these Terms of Service.</p><ol class="list-decimal list-inside"><li>The Plugin is provided &quot;as is&quot; and the Company makes no warranties, either express or implied, about its functionality or performance.</li><li>The Company is not responsible for any damages or losses resulting from the use of the Plugin.</li><li>The Company reserves the right to update or modify the Plugin at any time.</li></ol></div><div class="mb-8"><h2 class="text-2xl font-semibold mb-2">Privacy Policy</h2><p class="mb-2">The Company respects your privacy and is committed to protecting your personal data.</p><ol class="list-decimal list-inside"><li>The Plugin does not collect any personal data. All data processed by the Plugin is stored locally on your device and is not shared with the Company or any third parties.</li><li>If you contact the Company for support or other inquiries, we may keep a record of that correspondence.</li></ol></div><div class="mb-8"><h2 class="text-2xl font-semibold mb-2">Disclaimer</h2><p class="mb-2">The Plugin is provided &quot;as is&quot; without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the Plugin is with you. Should the Plugin prove defective, you assume the cost of all necessary servicing, repair, or correction.</p><p>In no event will the Company be liable to you for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use the Plugin (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the Plugin to operate with any other software), even if the Company has been advised of the possibility of such damages.</p></div></div><script>((STORAGE_KEY2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key2 = Math.random().toString(32).slice(2);
+      window.history.replaceState({
+        key: key2
+      }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(STORAGE_KEY2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(STORAGE_KEY2);
+    }
+  })("positions", null)</script><link rel="modulepreload" href="/build/manifest-FE0DE437.js"/><link rel="modulepreload" href="/build/entry.client-NPYARZOH.js"/><link rel="modulepreload" href="/build/_shared/chunk-ZXDZKQXN.js"/><link rel="modulepreload" href="/build/_shared/chunk-LW36DCNB.js"/><link rel="modulepreload" href="/build/root-Z3ZUYGAN.js"/><link rel="modulepreload" href="/build/routes/chatgptplugin/legal-75SKFKBG.js"/><script>window.__remixContext = {"url":"/chatgptplugin/legal","state":{"loaderData":{"root":null,"routes/chatgptplugin/legal":null},"actionData":null,"errors":null},"future":{"v3_fetcherPersist":false,"v3_relativeSplatPath":false,"v3_throwAbortReason":false}};</script><script type="module" async="">import "/build/manifest-FE0DE437.js";
+import * as route0 from "/build/root-Z3ZUYGAN.js";
+import * as route1 from "/build/routes/chatgptplugin/legal-75SKFKBG.js";
+window.__remixRouteModules = {"root":route0,"routes/chatgptplugin/legal":route1};
+
+import("/build/entry.client-NPYARZOH.js");</script></body></html>

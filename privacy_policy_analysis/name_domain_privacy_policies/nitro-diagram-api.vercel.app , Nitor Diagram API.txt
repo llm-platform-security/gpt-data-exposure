@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <meta name="abuseipdb-verification"
+        content="QG5XcIPz" />
+  <meta name="description"
+        content="In my free time I develop web applications and game-stuff for friends.">
+  <link rel="shortcut icon"
+        href="../favicon.ico"
+        type="image/x-icon">
+
+  <title>Lutt.online</title>
+
+  <style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+      height: 100%;
+      min-width: 320px;
+    }
+
+    body {
+      padding: 2em;
+      margin: 0;
+      min-height: 100%;
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      background: url('../images/backgrounds/canada-wash.jpg');
+      background-size: cover;
+
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h2 {
+      line-height: 1.5em;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      font-weight: bold;
+      color: #F2F2F2;
+      text-align: center;
+      text-shadow:
+        -1px -1px 0 #333333,
+        1px -1px 0 #333333,
+        -1px 1px 0 #333333,
+        1px 1px 0 #333333;
+      letter-spacing: 0.15em;
+    }
+
+    h2 small {
+      display: block;
+      font-size: 0.5em;
+    }
+
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 1em;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 0.5em;
+    }
+
+    @media screen and (max-width: 550px) {
+      h1 {
+        box-sizing: border-box;
+        padding: 1em;
+      }
+
+      h1 img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <h1><img src="../images/logos/logo375-outlined.png"
+             width="441"
+             height="200"
+             alt="Lutt.online logo"
+             title="Lutt.online"></h1>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <h2>Privacy Statement <small>Last updated: 6st of January 2024</small></h2>
+    <section>
+      <p><strong>Lutt Online</strong>, which can be reached via the email address <a
+           href="mailto:privacy@lutt.online">privacy@lutt.online</a>, is responsible for the processing of
+        personal data as shown in this privacy statement.</p>
+      <h3 id="contactgegevens">Contact Details</h3>
+      <ul>
+        <li>Lutt Online</li>
+        <li>Chamber of Commerce: 86248650</li>
+        <li>Website: <a href="https://lutt.online">https://lutt.online</a></li>
+        <li>Email address: <a href="mailto:privacy@lutt.online">privacy@lutt.online</a></li>
+      </ul>
+      <h3 id="persoonsgegevens-die-wij-verwerken">Personal Data We Process</h3>
+      <p>Lutt Online processes your personal data because you use our services and/or because you provide them to us
+        yourself.</p>
+      <p>Below is an overview of the personal data we process:</p>
+      <ul>
+        <li>Email address</li>
+        <li>IP address</li>
+        <li>Other personal data that you actively provide, for example by creating a profile on this website, in
+          correspondence and by phone</li>
+        <li>For our websites your internet browser and device type</li>
+        <li>For our apps your device type</li>
+      </ul>
+      <h3 id="bijzondere-en-of-gevoelige-persoonsgegevens-die-wij-verwerken">Special and/or Sensitive Personal Data We
+        Process</h3>
+      <p>Our website, app and/or service does not intend to collect data about website visitors who are under 16 years
+        of age,
+        unless they have permission from parents or guardian. However, we cannot check if a visitor is over 16. We
+        therefore
+        advise parents to be involved in the online activities of their children, to prevent data about children being
+        collected without parental consent. If you are convinced that we have collected personal information about a
+        minor
+        without that consent, please contact us at <a href="mailto:privacy@lutt.online">privacy@lutt.online</a>,
+        and we will delete this information.</p>
+      <h3 id="met-welk-doel-en-op-basis-van-welke-grondslag-wij-persoonsgegevens-verwerken">For What Purpose and on What
+        Basis We Process Personal Data</h3>
+      <p>Lutt Online processes your personal data for the following purposes:</p>
+      <ul>
+        <li>To give you the opportunity to create an account</li>
+        <li>To deliver goods and services to you</li>
+        <li>To handle your payment</li>
+        <li>To be able to call or email you if necessary to perform our services</li>
+        <li>To inform you about changes to our services and products</li>
+        <li>Lutt Online analyzes your behavior on the website to improve the website and tailor the range of products
+          and
+          services to your preferences.</li>
+        <li>Lutt Online also processes personal data if we are legally obliged to do so, such as data that we need
+          for our tax return.</li>
+      </ul>
+      <h3 id="hoe-lang-we-persoonsgegevens-bewaren">How Long We Keep Personal Data</h3>
+      <p>Lutt Online does not store your personal data longer than is strictly necessary to achieve the purposes for
+        which your
+        data is collected. Your data will be kept for the duration of the use of our services. After termination of the
+        use of
+        our services, your data will be deleted immediately.</p>
+      <h3 id="delen-van-persoonsgegevens-met-derden">Sharing Personal Data with Third Parties</h3>
+      <p>Lutt Online only provides to third parties and only if this is necessary for the execution of our agreement
+        with
+        you or to comply with a legal obligation.</p>
+      <h3 id="hoe-wij-persoonsgegevens-beveiligen">How We Secure Personal Data</h3>
+      <p>Lutt Online takes the protection of your data seriously and takes appropriate measures to prevent misuse, loss,
+        unauthorized access, unwanted disclosure, and unauthorized modification.</p>
+      <p>If you feel that your data is not properly secured or there are indications of abuse, please contact
+        us at <a href="mailto:privacy@lutt.online">privacy@lutt.online</a>.</p>
+      <h3 id="cookies-of-vergelijkbare-technieken-die-wij-gebruiken">Cookies, or Similar Techniques, That We Use</h3>
+      <p>Lutt Online only uses technical and functional cookies. And analytical cookies that do not infringe on your
+        privacy. A cookie is a small text file that is stored on your computer, tablet, or smartphone during the first
+        visit
+        to this website.</p>
+      <p>The cookies we use are necessary for the technical functioning of the website and your ease of use.
+        They ensure that the website works properly and remember, for example, your preferred settings.
+        We can also optimize our website with them. You can opt out of cookies by setting your internet browser
+        so that it no longer stores cookies. Additionally, you can also delete all information previously saved via the
+        settings of your browser.</p>
+      <h3 id="gegevens-inzien-aanpassen-of-verwijderen">View, Modify, or Delete Data</h3>
+      <p>You have the right to view, correct or delete your personal data. You can do this yourself
+        via the personal settings of your account. In addition, you have the right to withdraw your consent
+        to data processing or to object to the processing of your personal data by our company and you have the right to
+        data portability. This means that you can submit a request to us to send the personal data that we have of you
+        in a computer file to you or another organization specified by you.</p>
+      <p>If you wish to exercise your right to object and/or right to data portability or if you have other
+        questions/comments about data processing, send a specified request to
+        <a href="mailto:privacy@lutt.online">privacy@lutt.online</a>.
+      </p>
+      <p>To make sure that the request for access has been made by you, we ask you to send proof of your identity
+        with your request. For example by sending it from the email address known to us.
+        Lutt Online will respond to your request as soon as possible, but within 30 days
+        at the latest.</p>
+      <h3 id="klachten">Complaints</h3>
+      <p>We naturally hope that you are satisfied with the way we handle your personal data. Should you
+        still have a complaint about the way we handle your personal data, we would like to hear from you. Let us know
+        via <a href="mailto:privacy@lutt.online">privacy@lutt.online</a>. We will then
+        do our best to resolve your complaint as soon as possible.</p>
+      <p>Lutt Online would also like to point out that you have the option to file a complaint with the national
+        supervisor, the Personal Data Authority. This can be done via the following link:
+        <a
+           href="https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons">https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</a>
+      </p>
+    </section>
+  </div>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet">
+</body>
+
+</html>

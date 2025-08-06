@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+
+<!--
+    @param  String  title   Site title
+-->
+<head>
+	<style type="text/css" media="screen">@import '//botize.com/basic/gt/gtstyles.css';</style>
+	
+    
+	<link rel="stylesheet" type="text/css" href="//botize.com/sesiones/botize/web/layout.css">
+	<link rel="stylesheet" type="text/css" href="//botize.com/sesiones/botize/web/site_main.css?x=4">
+	<script type="text/javascript" language="javascript" src="https://botize.com/sesiones/botize/web/js/layout.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+	<script type="text/javascript" src="//botize.com/basic/../sesiones/botize/plugins/botize.js"></script>
+	<script type="text/javascript" src="//botize.com/basic/../sesiones/botize/plugins/jquerycookiebar.js"></script>
+	<link rel="stylesheet" type="text/css" href="//botize.com/basic/../sesiones/botize/plugins/jquerycookiebar.css" media="screen">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="autor" content="Botize.com">
+    <meta name="DC.Creator" content="https://www.Botize.com">
+    <meta name="VW96.objecttype" content="Document">
+    <meta name="language" content="en">
+    <meta name="distribution" content="global">
+    <meta name="resource-type" content="Document">
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="1 days">
+    <style type="text/css" media="screen">@import '/basic/gt/temp-files/botize_sheet.css';</style>
+    <meta name="viewport" table="" content="width=device-width, initial-scale=1">
+    <style type="text/css" media="screen">@import '//botize.com/basic/../sesiones/botize/web/media.css?x=1625813814';</style>
+    <script type="text/javascript" src="//botize.com/basic/js/jquery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="shortcut icon" href="//botize.com/basic/../sesiones/botize/shortcut.ico">
+
+</head>
+
+
+<header>
+    <div id="cabecera">
+        <div class="t_header_nologo">
+            <div class="reg" style="clear:both;">
+                <div class="text">
+                    <nav class = "z-depth-0">
+                        <div class="nav-wrapper">
+                            
+
+<a href="/" class="brand-logo logo left">
+<svg width="88" height="26" viewBox="0 0 237.1 73.901" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#444" stroke-width="0.25mm" fill="#444" style="stroke:#444;stroke-width:0.25mm;fill:#444"><path d="M 25 73.1 L 4.7 73.1 A 7.2 7.2 0 0 1 3.266 72.965 Q 2.373 72.784 1.676 72.358 A 4.236 4.236 0 0 1 1.3 72.1 A 3.85 3.85 0 0 1 0.561 71.367 A 2.709 2.709 0 0 1 0 69.7 L 0 3.5 A 3.041 3.041 0 0 1 0.258 2.23 Q 0.559 1.565 1.213 1.09 A 3.901 3.901 0 0 1 1.5 0.9 Q 3 0 4.7 0 L 22.9 0 Q 28.3 0 32.9 1.4 Q 37.5 2.8 40.3 6.55 Q 43.1 10.3 43.1 17.3 A 29.028 29.028 0 0 1 42.784 21.716 Q 42.257 25.138 40.85 27.7 A 13.64 13.64 0 0 1 37.966 31.379 A 12.233 12.233 0 0 1 34.6 33.5 A 19.663 19.663 0 0 1 38.405 35.451 A 17.139 17.139 0 0 1 40 36.65 A 12.041 12.041 0 0 1 42.64 39.857 A 15.527 15.527 0 0 1 43.6 41.85 A 16.116 16.116 0 0 1 44.43 44.734 Q 44.717 46.195 44.829 47.906 A 35.158 35.158 0 0 1 44.9 50.2 L 44.9 52.1 A 37.168 37.168 0 0 1 44.607 56.924 Q 44.027 61.346 42.3 64.4 A 16.204 16.204 0 0 1 38.601 68.915 A 14.901 14.901 0 0 1 35.2 71.05 A 22.673 22.673 0 0 1 28.612 72.88 A 28.706 28.706 0 0 1 25 73.1 Z M 188.3 73.1 L 157.2 73.1 A 5.243 5.243 0 0 1 156.11 72.994 Q 154.933 72.744 154.3 71.9 A 4.511 4.511 0 0 1 153.573 70.487 A 4.108 4.108 0 0 1 153.4 69.3 Q 153.4 68.1 153.95 67 Q 154.5 65.9 155.2 65.1 L 176.6 34.4 L 157.6 34.4 A 2.684 2.684 0 0 1 155.606 33.525 A 4.04 4.04 0 0 1 155.25 33.1 A 4.925 4.925 0 0 1 154.334 30.664 A 6.325 6.325 0 0 1 154.3 30 Q 154.3 28.2 155.2 26.95 Q 156.084 25.723 157.546 25.701 A 3.56 3.56 0 0 1 157.6 25.7 L 186.6 25.7 Q 188 25.7 189.05 26.6 Q 189.963 27.382 190.082 28.92 A 6.203 6.203 0 0 1 190.1 29.4 A 6.382 6.382 0 0 1 189.411 32.245 A 8.867 8.867 0 0 1 188.5 33.7 L 167 64.4 L 188.3 64.4 A 2.613 2.613 0 0 1 189.972 65.011 A 4.079 4.079 0 0 1 190.6 65.65 Q 191.6 66.9 191.6 68.8 A 5.439 5.439 0 0 1 191.291 70.655 A 4.947 4.947 0 0 1 190.7 71.8 A 3.22 3.22 0 0 1 189.923 72.605 A 2.731 2.731 0 0 1 188.3 73.1 Z M 196.4 54 L 196.4 44.5 Q 196.4 39.2 199.25 34.8 Q 202.1 30.4 206.8 27.75 A 20.733 20.733 0 0 1 216.845 25.103 A 24.321 24.321 0 0 1 217.2 25.1 Q 222.6 25.1 227.1 27.45 Q 231.6 29.8 234.35 34 A 16.901 16.901 0 0 1 237.076 42.598 A 20.572 20.572 0 0 1 237.1 43.6 A 21.458 21.458 0 0 1 237.009 45.662 Q 236.755 48.278 235.8 49.6 Q 234.5 51.4 232.4 51.8 Q 230.3 52.2 228 52.2 L 206.9 52.2 L 206.9 54.5 A 11.04 11.04 0 0 0 207.503 58.224 A 9.437 9.437 0 0 0 210.55 62.45 A 12.951 12.951 0 0 0 216.146 65.036 A 18.398 18.398 0 0 0 219.9 65.4 A 20.178 20.178 0 0 0 222.153 65.282 Q 224.157 65.056 225.6 64.4 A 49.981 49.981 0 0 0 227.152 63.664 Q 228.363 63.063 229.3 62.5 A 7.508 7.508 0 0 1 230.375 61.961 Q 230.989 61.716 231.565 61.637 A 3.966 3.966 0 0 1 232.1 61.6 A 3.503 3.503 0 0 1 233.266 61.788 A 3.076 3.076 0 0 1 234.3 62.4 Q 235.2 63.2 235.7 64.3 A 6.543 6.543 0 0 1 236.005 65.097 Q 236.139 65.538 236.181 65.941 A 3.472 3.472 0 0 1 236.2 66.3 A 2.691 2.691 0 0 1 235.924 67.442 Q 235.523 68.3 234.54 69.243 A 11.989 11.989 0 0 1 234.15 69.6 A 12.193 12.193 0 0 1 232.212 70.972 Q 231.203 71.557 229.966 72.066 A 25.794 25.794 0 0 1 228.4 72.65 Q 224.7 73.9 219.6 73.9 A 31.419 31.419 0 0 1 213.294 73.295 A 24.352 24.352 0 0 1 207.6 71.4 A 21.093 21.093 0 0 1 201.782 67.338 A 19.337 19.337 0 0 1 199.4 64.45 A 17.557 17.557 0 0 1 196.524 56.374 A 22.263 22.263 0 0 1 196.4 54 Z M 123.5 73.1 L 120.1 73.1 A 30.906 30.906 0 0 1 115.178 72.734 Q 112.569 72.312 110.478 71.405 A 13.85 13.85 0 0 1 107.1 69.35 A 11.627 11.627 0 0 1 103.524 63.948 Q 102.875 61.995 102.682 59.601 A 26.174 26.174 0 0 1 102.6 57.5 L 102.6 7.4 A 2.467 2.467 0 0 1 103.416 5.563 Q 103.761 5.232 104.25 4.95 Q 105.9 4 107.8 4 Q 109.7 4 111.4 4.95 A 4.49 4.49 0 0 1 112.213 5.52 Q 112.677 5.937 112.899 6.432 A 2.346 2.346 0 0 1 113.1 7.4 L 113.1 25.7 L 125.3 25.7 Q 126.7 25.7 127.45 26.9 A 4.968 4.968 0 0 1 128.2 29.501 A 5.941 5.941 0 0 1 128.2 29.6 A 5.14 5.14 0 0 1 127.846 31.521 A 4.87 4.87 0 0 1 127.45 32.3 A 2.664 2.664 0 0 1 126.765 33.055 Q 126.216 33.455 125.471 33.496 A 3.132 3.132 0 0 1 125.3 33.5 L 113.1 33.5 L 113.1 57.5 A 13.199 13.199 0 0 0 113.21 59.265 Q 113.512 61.499 114.65 62.6 Q 116.2 64.1 120.1 64.1 L 123.5 64.1 A 6.241 6.241 0 0 1 124.826 64.232 Q 125.675 64.417 126.304 64.86 A 3.477 3.477 0 0 1 126.95 65.45 Q 128.1 66.8 128.1 68.6 A 4.735 4.735 0 0 1 127.056 71.568 A 5.969 5.969 0 0 1 126.95 71.7 A 3.672 3.672 0 0 1 124.975 72.927 Q 124.361 73.087 123.626 73.099 A 7.404 7.404 0 0 1 123.5 73.1 Z M 52.4 54 L 52.4 44.8 Q 52.4 39.5 55.15 35 Q 57.9 30.5 62.65 27.8 Q 67.4 25.1 73 25.1 Q 78.6 25.1 83.3 27.75 Q 88 30.4 90.85 34.85 Q 93.7 39.3 93.7 44.8 L 93.7 54 A 18.04 18.04 0 0 1 91.069 63.34 A 21.553 21.553 0 0 1 90.85 63.7 Q 88 68.3 83.25 71.1 Q 78.5 73.9 72.9 73.9 Q 67.5 73.9 62.8 71.1 Q 58.1 68.3 55.25 63.75 Q 52.4 59.2 52.4 54 Z M 135.4 69.6 L 135.4 29.1 A 2.687 2.687 0 0 1 136.376 27.009 A 4.175 4.175 0 0 1 136.85 26.65 Q 138.119 25.819 140.039 25.715 A 10.394 10.394 0 0 1 140.6 25.7 A 8.497 8.497 0 0 1 142.386 25.879 A 6.23 6.23 0 0 1 144.35 26.65 A 4.054 4.054 0 0 1 145.134 27.263 A 2.542 2.542 0 0 1 145.9 29.1 L 145.9 69.6 A 2.292 2.292 0 0 1 145.476 70.906 Q 145.089 71.476 144.35 72 A 5.909 5.909 0 0 1 141.786 73.013 A 7.819 7.819 0 0 1 140.6 73.1 A 7.875 7.875 0 0 1 138.995 72.946 Q 137.95 72.728 137.142 72.205 A 4.782 4.782 0 0 1 136.85 72 A 5.042 5.042 0 0 1 136.149 71.366 Q 135.4 70.535 135.4 69.6 Z M 10.5 37.7 L 10.5 63.7 L 23 63.7 A 15.841 15.841 0 0 0 26.352 63.367 Q 28.477 62.907 30.074 61.811 A 9.02 9.02 0 0 0 31.35 60.75 A 8.83 8.83 0 0 0 33.341 57.56 Q 34.3 55.007 34.3 51.3 L 34.3 49.7 A 23.245 23.245 0 0 0 34.092 46.469 Q 33.563 42.71 31.686 40.731 A 6.651 6.651 0 0 0 31.35 40.4 Q 28.757 38.027 24.27 37.74 A 19.902 19.902 0 0 0 23 37.7 L 10.5 37.7 Z M 83.2 54 L 83.2 44.8 A 9.702 9.702 0 0 0 81.98 40.12 A 11.566 11.566 0 0 0 81.8 39.8 Q 80.4 37.4 78.1 35.9 Q 75.8 34.4 73 34.4 A 9.531 9.531 0 0 0 69.707 34.957 A 8.742 8.742 0 0 0 67.85 35.9 Q 65.6 37.4 64.25 39.8 Q 62.9 42.2 62.9 44.8 L 62.9 54 Q 62.9 56.7 64.25 59.15 Q 65.6 61.6 67.9 63.1 Q 70.2 64.6 73 64.6 Q 75.8 64.6 78.1 63.1 Q 80.4 61.6 81.8 59.15 Q 83.2 56.7 83.2 54 Z M 10.5 9.4 L 10.5 29.3 L 22.5 29.3 Q 25.807 29.3 28 28.207 A 7.202 7.202 0 0 0 30.05 26.7 Q 32.5 24.1 32.5 19 A 15.191 15.191 0 0 0 32.353 16.816 Q 32.185 15.666 31.828 14.712 A 7.528 7.528 0 0 0 31.25 13.5 Q 30 11.4 27.7 10.4 Q 25.402 9.401 22.306 9.4 A 12.541 12.541 0 0 0 22.3 9.4 L 10.5 9.4 Z M 206.9 42.5 L 206.9 45.7 L 223.5 45.7 Q 225.7 45.7 226.45 45.1 A 1.608 1.608 0 0 0 226.9 44.498 Q 227.147 43.957 227.191 43.091 A 7.707 7.707 0 0 0 227.2 42.7 Q 227.2 40.1 225.9 37.85 Q 224.6 35.6 222.3 34.35 A 10.351 10.351 0 0 0 218.254 33.152 A 12.669 12.669 0 0 0 217.1 33.1 Q 214.3 33.1 212 34.3 Q 209.7 35.5 208.3 37.6 A 8.351 8.351 0 0 0 206.946 41.517 A 10.5 10.5 0 0 0 206.9 42.5 Z M 140.6 13.8 Q 138.1 13.8 136.3 12.1 A 6.471 6.471 0 0 1 135.212 10.783 A 4.674 4.674 0 0 1 134.5 8.3 A 4.978 4.978 0 0 1 136.082 4.603 A 6.525 6.525 0 0 1 136.3 4.4 Q 138.1 2.8 140.6 2.8 A 6.473 6.473 0 0 1 143.012 3.239 A 5.987 5.987 0 0 1 144.85 4.4 A 5.411 5.411 0 0 1 146.149 6.145 A 5.123 5.123 0 0 1 146.6 8.3 A 4.879 4.879 0 0 1 145.575 11.281 A 6.91 6.91 0 0 1 144.85 12.1 Q 143.1 13.8 140.6 13.8 Z" vector-effect="non-scaling-stroke"/></g></svg>
+</a>
+
+<div class="t_mytable_menu_lt_materialize">
+    
+    <ul class="right">
+            <li>
+                <a href="/es/apps">Apps</a>
+            </li>
+            <li>
+                <a href="/es/pricing">Precios</a>
+            </li>
+            <li>
+                <a href="/signin">Entrar</a>
+            </li>
+
+    </ul>
+    
+</div>
+
+                        </div>
+                    </nav>
+                </div>
+                <!--<div style="background-color:#fee;padding:1em" class='center-align'><strong>🚧 Sorry, we are currently under maintenance.</strong> Please check back later.</div>-->
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<ul id="slide-out" class="sidenav">
+    <ul class="menu">
+
+    <li>
+        <a href="/es/account">Configuración</a>	
+    </li>
+    <li>
+        <a href="//botize.com/basic/sd/set_signin.php?logout=true">Salir</a>	
+    </li>
+
+</ul>
+</ul>
+
+  <script language="javascript">
+    // Right slide nav
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        options={"edge":"right"};
+        var instances = M.Sidenav.init(elems, options);
+    });
+  </script>
+
+<app>
+    <article>
+    <div class="container">
+<h1>Privacy Policy</h1>
+
+<p>We are committed to safeguarding the privacy of our users. Our business model is to provide a paid service to users who need additional features on top of the FREE version, and does not rely on widespread collection of general user data.</p>
+
+<h2>Personal Information We Collect</h2>
+<p>Botize.com may collect, store and process various kinds of data, with different legal grounds, as listed below. For the categories of data that require your consent, we will actively ask you for consent before collecting any data. You can revoke your consents at any time in your settings page.</p>
+
+<p>The following is a list of data we collect, process or store, with the purpose and legal ground listed for each item or group of items having the same purpose and legal ground:</p>
+
+<ul class="browser-default">
+    <li><strong>User account information.</strong> Users that choose to register in Botize.com, will have to provide a valid email address.</li>
+
+    <li><strong>Task information.</strong> To create a task in Botize, you as a user will have to select channels or apps and configure to automate it. You as a user are responsible for the content you enter into a Task, and the content has to be compliant with our partner guidelines for Prohibited Content in Terms of Services.
+
+    The information may be used for the purposes of operating our website, providing our services, ensuring the security of our website and services, maintaining back-ups of our databases and communicating with you. This is required to deliver the Service to you as user, by taking steps, at your request, to enter into such a contract (Terms of Service) cf. GDPR art. 6(1)b.</li>
+    
+    <li><strong>Transaction information.</strong> Customers that choose to purchase a paid version of the Services provide Botize.com (and our payment processors) with billing details such as credit card information, billing email, banking information, location at the time of transaction and/or a billing address.<br>
+
+    The transaction data may be processed for the purpose of supplying the purchased services and keeping proper records of those transactions. This data may be used for the purpose of delivering the Services to you. Collecting this information is required for performing the contract we entered into with you, at your request (our Terms of Service) cf. GDPR art. 6(1)b. Additionally, this information needs to be retained in order to comply with accounting and tax regulation cf. GDPR art. 6(1)c.</li>
+    
+    <li><strong>Usage information.</strong> When you as a user interact with the Services, we collect metadata to provide additional context about the way the Service is being used. The usage data may include your IP address, browser type and version, operating system, referral source, length of visit, page views and website navigation paths, as well as information about the timing, frequency and pattern of your service use. The source of the usage data is our server software and our analytics tracking system.</li>
+    
+    <li><strong>Technical log data.</strong> Like most digital services, our servers automatically collect information when you access or use our Websites or Services and record it in log files. This log data may include the Internet Protocol (IP) address, the address of the web page visited within the Services, browser type and settings, the date and time the Services were used, information about browser configuration and plugins, language preferences and cookie data.</li>
+    
+    <li><strong>Device information.</strong> Botize.com may collect information about devices used to access the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and crash data. Whether we collect some or all of this information depends on the type of device used and its settings.<br>
+
+    The legal basis for this processing is our legitimate interests cf. GDPR art. 6(1)f, namely using this data for the purpose of ensuring the proper administration of our website and business, analyzing the use of the website and services, monitoring and improving our website and services, improving the user experience, preventing abuse, and assisting users with support inquiries. For information about cookies and how to opt out of cookies, see our Cookie Policy.</li>
+    
+    <li><strong>Customer Support Information.</strong> We may process information that you send to us, should you chose to submit a ticket to our support email. If you contact us, we may use your Account, Task, Transaction or Usage Information to respond.
+    Collecting this information it is required for performing the contract we entered into with you, at your request (our Terms of Service), as well as our legitimate interest of handling your requests cf. GDPR art. 6(1)f.</li>
+    
+    <li><strong>Service and transactional notifications.</strong> Sometimes we'll send you emails about your account, service changes or new policies. You can't opt out of this type of “service or transactional” emails (unless you delete your account).<br>
+
+    The legal grounds for collecting this information is that it is required for performing our commitment about communicating changes in plans and pricing to you in the contract we entered into with you, at your request (our Terms of Service) cf. GDPR art. 6(1)b, and our legitimate interest of communicating important information about your account to you, cf. GDPR art. 6(1)f.</li>
+</ul>
+
+<p>By using our Service, you agree that Botize.com can use your personal data in accordance with our Privacy Policy and in accordance with the consents you have given us.
+Botize.com will comply with EU privacy regulations.</p>
+
+<h3>Limited Use Disclosure Related to Google</h3>
+
+<p>Botize's use and transfer to any other app of information received from Google APIs will adhere to the <a target="_blank" href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+
+<h2>How We Use the Information We Collect</h2>
+
+<p>Botize collects this personal data for the following purposes:</p>
+
+<ul class="browser-default">
+    <li>Login to Botize</li>
+    <li>Possibility to reset a password in case of forgetting it</li>
+    <li>Informing users about executions of active scenarios</li>
+    <li>Informing users about business matters</li>
+    <li>Informing users and potential users about new features of Botize</li>
+</ul>
+
+<h2>How We Store Your Personal Data</h2>
+
+<p>We are committed to doing our very best to protect your data and keep it confidential. We employ advanced security practices to keep your data safe and secure:</p>
+
+<ul class="browser-default">
+    <li>The connection between Botize and your browser is always encrypted (HTTPS).</li>
+    <li>Every connection between Botize and a third-party service is established in the most secure way that is supported by the given service.</li>
+    <li>To protect our secure HTTPS website from downgrade attacks, we have implemented and use HTTP Strict Transport Security (HSTS), the web security policy mechanism.</li>
+    <li>We have protection against CSRF/XSRF attacks.</li>
+    <li>We use CSP protection to prevent XSS.</li>
+    <li>All passwords that you provide us with are stored in an encrypted format.</li>
+    <li>We use persistent IP addresses so you can limit access or make tunnels.</li>
+    <li>Our servers are housed in one of the most modern data centers in Europe, equipped with the latest security technologies.</li>
+</ul>
+
+<h2>Modificación de sus Datos Personales</h2>
+
+<p>Puede revisar y cambiar sus Datos personales en Botize iniciando sesión y visitando <a target="_blank" href="https://botize.com/user_accounts">la página de su perfil de usuario</a>.</p>
+<p>También puede enviarnos un correo electrónico a info@botize.com para solicitar acceso, corregir o eliminar cualquier Dato personal que nos haya proporcionado.</p>
+
+<h2>Eliminación de sus Datos Personales</h2>
+
+<p>Para cumplir con los requisitos legales y reglamentarios y asegurarse de tener el control principal sobre sus datos, puede exportar y eliminar los datos de su cuenta de Botize y sus Datos personales en cualquier momento.</p>
+<p>En los casos en que se apliquen regulaciones legales (por ejemplo, por leyes fiscales, comerciales o contractuales) que requieran un almacenamiento más prolongado de sus Datos personales, o si necesitamos sus Datos personales en defensa o para procesar reclamos legales, los Datos personales serán almacenados hasta la expiración del plazo correspondiente o la liquidación de las reclamaciones.</p>
+
+<p>Si desea eliminar su cuenta de Botize, debe hacerlo usted mismo. Por razones de seguridad, Botize nunca eliminará su cuenta en su nombre. La eliminación de su cuenta es permanente y no se puede deshacer. Todas las tareas, registros y conexiones de cuentas de aplicaciones se eliminarán de forma permanente.</p>
+
+<ul class="browser-default">
+    <li>Vaya a su <a target="_blank" href="https://botize.com/account_cancel">Página para la eliminación de cuenta de Botize</a>.</li>
+    <li>Haga clic en <strong>Sí, eliminar mi cuenta y mis datos personales</strong>.</li>
+</ul>
+
+<p>Nota: al eliminar los datos de su cuenta de Botize, se eliminarán de forma permanente todos los datos personales asociados con su cuenta y no se pueden deshacer ni recuperar. No se puede restaurar ni recuperar de ninguna manera. Para conservar los datos de su cuenta, expórtelos.</p>
+
+<h2>How we share information</h2>
+<p>We do not sell, rent, or otherwise disclose your personal information to third parties for their marketing and advertising purposes.</p>
+
+<h3>Google Analytics</h3>
+<p>Botize uses Google Analytics service provided by Google, Inc. ("Google"). Google Analytics uses cookies to help analyze how individuals use the websites they visit. Non-personal information generated by this cookie about your use of Botize is transmitted to and stored by Google on servers in the United States. Google does not associate your IP address with any other data held by Google. Google uses this information to understand how you use Botize and compiles reports on this activity to help us improve Botize for our users. By using Botize, you consent to the processing of data about you by Google for these purposes.</p>
+
+<p>You may disable cookies within your browser to block this tracking by Google, understanding that doing so may affect your ability to use the full functionality of Botize.</p>
+
+<p>We use third party service providers to facilitate or outsource one or more aspects of our business and therefore we may provide some of your personal information directly to these service providers. These service providers are subject to confidentiality agreements with us and other legal restrictions that prohibit their use of the information we provide them for any other purpose except to facilitate the specific outsourced Botize.com related operation, unless you have given your prior permission to them for additional uses.</p>
+
+<p>We share our data, including personal information about you with our partners and joint ventures in furtherance of our business. To the extent that these entities have access to your information, they will treat it at least as protectively as they treat information they obtain from their other users. Our partners and joint ventures follow privacy practices no less protective of all users than our practices described in this document, to the extent allowed by applicable law.</p>
+
+<h2>Questions Regarding Your Personal Data</h2>
+<p>If you have any questions about this section or our data practices generally, please contact us using the following information at info@botize.com</p>
+
+<h2>Terms of use</h2>
+<p>By using the website botize.com or other features, services or applications offered by BOTIZE you agree to be bound by these terms of use.</p>
+
+<p>NOTICE: This page only applies to the site under the botize.com and botize.es domain.</p>
+<br>
+
+<h2>Representative and contact information</h2>
+<p style="text-align:left;">De acuerdo con el art. 10 de la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, Juan Salvador Sánchez Bonnín, con NIF 43112503-S se identifica en Internet con el dominio www.botize.com sobre el que ejerce su titularidad.
+<br>
+<br>Usted puede contactar con nosotros dirigiéndose a:
+<br>Juan Salvador Sánchez Bonnín
+<br>Dirección:
+<br>Juan Ramón Jimenez, 3
+<br>07008 - Palma de Mallorca
+<br>
+<br>Email:
+<br>info [arroba] botize.com</p>
+<br>
+
+<h2>Sobre los datos de los usuarios</h2>
+<p>En conformidad con lo previsto en la Ley Orgánica 15/1999, del 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), los gestores de botize.com informan de la existencia de un fichero de su titularidad en el cual se incluirán los datos necesarios para mantener informados a los usuarios que así lo requieran o proporcionar los servicios que los usuarios soliciten.
+<br>
+<br>El titular podrá ejercitar los derechos reconocidos en la LOPD sobre este fichero y, en particular, los de acceso, rectificación o cancelación de datos y oposición, si resultara pertinente, así como el de revocación del consentimiento para la cesión de sus datos en los términos previstos en la LOPD. Los usuarios pueden realizar estas acciones editando sus propios datos en el web botize.com.</p><br>
+
+<h2>Privacidad</h2>
+<p>Los ficheros de botize.com no contienen datos de carácter privado ni requieren información para identificar personas físicas.</p><br>
+
+<h2>Exclusión de garantías y responsabilidad</h2>
+<p>Los gestores de botize.com no garantizan la licitud, fiabilidad, exactitud, exhaustividad, actualidad y utilidad de las aplicaciones, servicios y redes sociales que se incluyen.
+<br>
+<br>El establecimiento de aplicaciones, servicios y redes sociales no implica en ningún caso la existencia de relaciones entre los gestores de botize.com y los propietarios de los mismos, ni la aceptación y aprobación de sus contenidos o servicios.
+<br>
+<br>Los gestores de botize.com excluyen toda responsabilidad en la información distribuida, generada, enlazada y compartida por el uso de esta web y no pueden controlar y no controlan que entre ella aparezcan contenidos que puedan resultar ilícitos, ilegales, contrarios a la moral o a las buenas costumbres o inapropiados. El usuario, por tanto, debe extremar la prudencia en la valoración y utilización de la información, contenidos y servicios existentes.</p>
+<br>
+</div>
+</article>
+</app>
+
+
+
+<footer class="page-footer grey lighten-3">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col l3 m3 s6">
+          <h6 class="grey-text text-darken-2">Secciones</h6>
+          <ul>
+            
+            <li>
+                <a class="grey-text text-darken-3" href="/es/apps">Aplicaciones</a>
+            </li>
+            <li>
+                <a class="grey-text text-darken-3" href="/es/news">Novedades</a>
+            </li>
+            <li>
+                <a class="grey-text text-darken-3" href="/new">Fórmulas</a>
+            </li>
+            <li>
+                <a class="grey-text text-darken-3" href="/api">API</a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col l3 m3 s6">
+            <h6 class="grey-text text-darken-2">Recursos</h6>
+            <ul>
+              
+              <li>
+                  <a class="grey-text text-darken-3" href="https://www.youtube.com/c/botizechannel">YouTube</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="https://botize.com/audible">Newsletter audible</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="/es/help">Ayuda</a>
+              </li>
+              
+            </ul>
+        </div>
+
+        <div class="col l3 m3 s6">
+            <h6 class="grey-text text-darken-2">Contacto</h6>
+            <ul>
+              
+              <li>
+                  <a class="grey-text text-darken-3" href="https://botize.com/call">Asistencia remota</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="https://t.me/botize">Telegram</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="https://chat.openai.com/g/g-Zqxw37YPm-botize-gpt">BotizeGPT</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="mailto:info@botize.com">Email</a>
+              </li>
+              
+            </ul>
+        </div>
+
+        <div class="col l3 m3 s6">
+            <h6 class="grey-text text-darken-2">Idioma</h6>
+            <ul>
+              
+              <li>
+                  <a class="grey-text text-darken-3" href="/en"><svg style="width: 18px;height: 11px;vertical-align: middle;display: inline-block;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55.2 38.4" style="enable-background:new 0 0 55.2 38.4" xml:space="preserve"><style type="text/css">.st0{fill:#FEFEFE;} .st1{fill:#C8102E;} .st2{fill:#012169;}</style><g><path class="st0" d="M2.87,38.4h49.46c1.59-0.09,2.87-1.42,2.87-3.03V3.03c0-1.66-1.35-3.02-3.01-3.03H3.01 C1.35,0.01,0,1.37,0,3.03v32.33C0,36.98,1.28,38.31,2.87,38.4L2.87,38.4z"></path><polygon class="st1" points="23.74,23.03 23.74,38.4 31.42,38.4 31.42,23.03 55.2,23.03 55.2,15.35 31.42,15.35 31.42,0 23.74,0 23.74,15.35 0,15.35 0,23.03 23.74,23.03"></polygon><path class="st2" d="M33.98,12.43V0h18.23c1.26,0.02,2.34,0.81,2.78,1.92L33.98,12.43L33.98,12.43z"></path><path class="st2" d="M33.98,25.97V38.4h18.35c1.21-0.07,2.23-0.85,2.66-1.92L33.98,25.97L33.98,25.97z"></path><path class="st2" d="M21.18,25.97V38.4H2.87c-1.21-0.07-2.24-0.85-2.66-1.94L21.18,25.97L21.18,25.97z"></path><path class="st2" d="M21.18,12.43V0H2.99C1.73,0.02,0.64,0.82,0.21,1.94L21.18,12.43L21.18,12.43z"></path><polygon class="st2" points="0,12.8 7.65,12.8 0,8.97 0,12.8"></polygon><polygon class="st2" points="55.2,12.8 47.51,12.8 55.2,8.95 55.2,12.8"></polygon><polygon class="st2" points="55.2,25.6 47.51,25.6 55.2,29.45 55.2,25.6"></polygon><polygon class="st2" points="0,25.6 7.65,25.6 0,29.43 0,25.6"></polygon><polygon class="st1" points="55.2,3.25 36.15,12.8 40.41,12.8 55.2,5.4 55.2,3.25"></polygon><polygon class="st1" points="19.01,25.6 14.75,25.6 0,32.98 0,35.13 19.05,25.6 19.01,25.6"></polygon><polygon class="st1" points="10.52,12.81 14.78,12.81 0,5.41 0,7.55 10.52,12.81"></polygon><polygon class="st1" points="44.63,25.59 40.37,25.59 55.2,33.02 55.2,30.88 44.63,25.59"></polygon></g></svg> English</a>
+              </li>
+              <li>
+                  <a class="grey-text text-darken-3" href="/es"><svg style="width: 18px;height: 21px;vertical-align: middle;display: inline-block;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 2.761719 5.679688 L 27.4375 5.679688 L 27.4375 23.101562 L 2.761719 23.101562 Z M 2.761719 5.679688 " clip-rule="nonzero"></path></clipPath><clipPath id="id2"><path d="M 2.761719 10 L 27.4375 10 L 27.4375 19 L 2.761719 19 Z M 2.761719 10 " clip-rule="nonzero"></path></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(77.648926%, 3.919983%, 11.369324%)" d="M 27.433594 20.421875 C 27.433594 21.902344 26.207031 23.101562 24.691406 23.101562 L 5.503906 23.101562 C 3.992188 23.101562 2.765625 21.902344 2.765625 20.421875 L 2.765625 8.359375 C 2.765625 6.882812 3.992188 5.679688 5.503906 5.679688 L 24.691406 5.679688 C 26.207031 5.679688 27.433594 6.882812 27.433594 8.359375 Z M 27.433594 20.421875 " fill-opacity="1" fill-rule="nonzero"></path></g><g clip-path="url(#id2)"><path fill="rgb(100%, 76.858521%, 0%)" d="M 2.765625 10.371094 L 27.433594 10.371094 L 27.433594 18.410156 L 2.765625 18.410156 Z M 2.765625 10.371094 " fill-opacity="1" fill-rule="nonzero"></path></g></svg> Español</a>
+              </li>
+              
+            </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div>
+      <div class="container grey-text text-darken-3">
+      © 2010 - 2024 Botize Japan.
+
+            <a class="grey-text right text-darken-3" target="_blank" href="/es/privacy">Política de privacidad</a>
+    
+      </div>
+    </div>
+  </footer>
+
+<script language="javascript">
+    $.cookieBar({
+    message: "Botize utiliza <a href ='/cookies' style='margin:0px;padding:0px'><i><b>cookies</b></i></a> para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.",
+    acceptText: 'Aceptar',
+    declineButton: true,
+    bottom: true,
+    fixed: true,
+    acceptOnContinue: true,
+    declineButton: false
+    }); 
+</script>
+

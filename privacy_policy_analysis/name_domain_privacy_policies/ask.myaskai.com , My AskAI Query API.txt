@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Our privacy policy — My AskAI</title>
+<script type="text/javascript">
+    window.bubble_session_uid = 'no_user';
+</script>
+<script type="text/javascript">
+    window.headers_source_maps = [["plugin_main_headers_1497473108162x748255442121523200",184,195],["plugin_main_headers_1511633892621x172898325333540860",196,200],["plugin_main_headers_1518279603919x687476512969195500",201,209],["plugin_main_headers_1527575349408x715242509040615400",210,214],["plugin_main_headers_1529049256732x320729526682517500",215,219],["plugin_main_headers_1539124824422x194279356396994560",220,222],["plugin_main_headers_1604651614509x464085686082338800",223,232],["plugin_main_headers_1634649566581x778319647278891000",233,259],["plugin_page_headers_AAD",260,262],["plugin_page_headers_AAU",263,265],["custom_app_header",267,513]]
+</script>
+<script type="text/javascript">
+function load_error_function (event) {
+  return window.load_error_log.push({ msg: event.message, error_url: event.filename, line: event.lineno, col: event.colno })
+}
+window.load_error_log = [];
+window.addEventListener('error', load_error_function);
+window.disableLoadErrorFunction = function () {
+  window.removeEventListener('error', load_error_function);
+}
+</script>
+<meta name="referrer" content="origin">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_early_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/early_js/05ae9fe83d6b755291132aab9d325d70918aafd336da1bd91a41a31c8b25734b/early.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_early_js'] = Date.now();
+</script>
+<script type="text/javascript">(function () {
+    function onWebFontFinish () {
+        window.google_web_fonts_active = true;
+if (window.google_web_fonts_active_cb) {
+    window.google_web_fonts_active_cb();
+}
+        (function fontface_loaded_snippet (font) {
+  if (window.fontface_loaded == null) {
+    window.fontface_loaded = {}
+  }
+  if (font != null) {
+    window.fontface_loaded[font] = true
+  } else {
+    window.all_fontface_loaded = true
+  }
+  if (window.fontface_webfonts_loaded_cb) {
+    return window.fontface_webfonts_loaded_cb(font)
+  }
+})()
+    }
+    const WebFontConfig = {'google': { families: ["Adamina:400","Adamina:regular","Adamina:400","Adamina:400","Adamina:400","Courier Prime:regular","Lato:regular","Lato:regular","Lato:400","Lato:900","Lato:700","Lato:700","Lato:900"] },
+        active: function() {
+            onWebFontFinish()
+        },
+        inactive: function() {
+            console.log('Failed to load all the fonts');
+            onWebFontFinish()
+        },
+        fontinactive: function(family_name, fvd) {
+            console.log('fontinactive being called for ' + family_name + ', Google says the fonts didnt render');
+            onWebFontFinish()
+        }
+    }
+        window.WebFont.load(WebFontConfig);
+})();</script>
+<script>
+(function initialize_data() {
+const xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+        const data = JSON.parse(this.responseText);
+
+        function init_data() {
+            data.forEach(function(d) {
+                Lib().db_instance().initialize_data(d.id, d.data, d.type, d.version);
+            })
+        }
+
+        if (window.Lib) {
+            init_data();
+        } else {
+            window.Lib_post_load = init_data;
+        }
+    }
+};
+xhr.open("GET", "https://myaskai.com/api/1.1/init/data?location=" + encodeURIComponent(window.location.href), true);
+xhr.send();
+})();
+</script>
+<script type="text/javascript">window.gm_key = "AIzaSyDrc7Z2Xh0LNmHty4bO9Jine0mnKpx6p9Q";</script>
+<script type="text/javascript">window.glrl_key_status = false;</script>
+<script type="text/javascript">window.bubble_page_load_id = "1712783954625x2374";</script>
+<script type="text/javascript">window.bubble_plp_token = "lk42/ho9Lmhx+yR6Iqea/WuiXDmbEXFPxecNyMe4ffA=";</script>
+<script type="text/javascript">window.bubble_is_leanjs = false;</script>
+<link rel="icon" type="image/png" href="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7ac07acbae116a5155080d295197d8d6.cdn.bubble.io%2Ff1680092618447x871663073292272500%2FZapier%2520logo.png?w=128&h=&auto=compress&dpr=1&fit=max" />
+<meta name="fragment" content="!">
+<meta name="description" content="Please carefully read (or at least try to) and understand our privacy policy when using My AskAI.">
+<link rel="canonical" href="https://myaskai.com/privacy" />
+<meta property="og:title" content="Our privacy policy — My AskAI" />
+<meta name="twitter:title" content="Our privacy policy — My AskAI" />
+<meta property="og:site_name" content="My AskAI — Your AI Chatbot for Customer Support" />
+<meta name="twitter:site_name" content="My AskAI — Your AI Chatbot for Customer Support" />
+<meta property="og:description" content="Please carefully read (or at least try to) and understand our privacy policy when using My AskAI." />
+<meta name="twitter:description" content="Please carefully read (or at least try to) and understand our privacy policy when using My AskAI." />
+<link rel="image_src" href="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7ac07acbae116a5155080d295197d8d6.cdn.bubble.io%2Ff1710344441149x317072082903736600%2Fmeta.png?w=&h=&auto=compress&dpr=1&fit=max" />
+<meta property="og:image" content="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7ac07acbae116a5155080d295197d8d6.cdn.bubble.io%2Ff1710344441149x317072082903736600%2Fmeta.png?w=&amp;h=&amp;auto=compress&amp;dpr=1&amp;fit=max" />
+<meta name="twitter:image:src" content="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7ac07acbae116a5155080d295197d8d6.cdn.bubble.io%2Ff1710344441149x317072082903736600%2Fmeta.png?w=&amp;h=&amp;auto=compress&amp;dpr=1&amp;fit=max" />
+<meta property="fb:app_id" content="770218461462609" />
+<meta property="og:url" content="https://myaskai.com/privacy" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script type="text/javascript">window._p = '{"id":"app_professional_2019","no_branding":true,"import_export_csv":true,"custom_domain":true}';</script>
+<script type="text/javascript">window.bubble_page_name = "privacy";</script>
+<script type="module">window.__bubble_module_mode = false;</script>
+<link type="text/css" href="/package/run_css/004a15c47abde4666d7ce457a43edd0c35c0f9e2a91f7ed4a87de467842452a7/no-code-ai-model-trainer/live/privacy/xfalse/xfalse/run.css" rel="stylesheet">
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_run_js'] = Date.now();
+</script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/pre_run_jquery_js/dee903a9e36db713e4c86d0cdd96d921e37be0c1293ed8dee29e2e4d7713b9ff/pre_run_jquery.js"></script>
+<script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/run_js/c93aa684be79d629bc9d75048de80ccbbd7cd816acbf509824fe2aa1292b5873/xfalse/x28/run.js"></script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_run_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_static_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/static_js/f23fbc98e8d2dd888b52d84b5fa37b22f6aee7d8b064a276062854e46de6bb0a/no-code-ai-model-trainer/live/privacy/xnull/xfalse/xfalse/xfalse/static.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_static_js'] = Date.now();
+</script>
+<script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['pre_dynamic_js'] = Date.now();
+</script><script type="text/javascript" crossorigin="anonymous" charset="UTF-8" src="/package/dynamic_js/80662d6855ef07bfa181095cccc4fa2966958ed4832fe14a84d5da84ad46eaf7/no-code-ai-model-trainer/live/privacy/xnull/xfalse/xfalse/en_gb/xfalse/xfalse/dynamic.js"></script><script type="text/javascript">
+if (!window._bubble_page_load_data) {
+  window._bubble_page_load_data = {}
+}
+if (!window._bubble_page_load_data.js_execution_timings) {
+  window._bubble_page_load_data.js_execution_timings = {}
+}
+window._bubble_page_load_data.js_execution_timings['post_dynamic_js'] = Date.now();
+</script>
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_start_execution = Date.now();</script>
+
+<script type="text/javascript" src="//7ac07acbae116a5155080d295197d8d6.cdn.bubble.io/f1618227041113x740068462949819800/clipboard.min.js"></script>
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1497473108162x748255442121523200");
+</script>
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1497473108162x748255442121523200");
+</script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1511633892621x172898325333540860");
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/mousetrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/plugins/global-bind/mousetrap-global-bind.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/plugins/pause/mousetrap-pause.min.js"></script>
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1518279603919x687476512969195500");
+</script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1527575349408x715242509040615400");
+</script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1529049256732x320729526682517500");
+</script>
+
+<script src="//7ac07acbae116a5155080d295197d8d6.cdn.bubble.io/f1539208662229x803640740225091600/download.js"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F23TFFGFBY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F23TFFGFBY');
+</script>
+
+<script type="text/javascript">
+(function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+;r.type="text/javascript"
+;r.integrity="sha384-tzcaaCH5+KXD4sGaDozev6oElQhsVfbJvdi3//c2YvbY02LrNlbpGdt3Wq4rWonS"
+;r.crossOrigin="anonymous";r.async=true
+;r.src="https://cdn.amplitude.com/libs/amplitude-8.5.0-min.gz.js"
+;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+console.log("[Amplitude] Error: could not load SDK")}}
+;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+;function s(e,t){e.prototype[t]=function(){
+this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+var o=function(){this._q=[];return this}
+;var a=["add","append","clearAll","prepend","set","setOnce","unset","preInsert","postInsert","remove"]
+;for(var c=0;c<a.length;c++){s(o,a[c])}n.Identify=o;var u=function(){this._q=[]
+;return this}
+;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+;for(var p=0;p<l.length;p++){s(u,l[p])}n.Revenue=u
+;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","enableTracking","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+;function v(e){function t(t){e[t]=function(){
+e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+;if(!Object.prototype.hasOwnProperty.call(n._iq,e)){n._iq[e]={_q:[]};v(n._iq[e])
+}return n._iq[e]};e.amplitude=n})(window,document);
+amplitude.getInstance().init("ba48adde60fa2affc761084c7c5918b4", null, {includeUtm: true, includeReferrer: true});
+</script>
+
+<script src="//7ac07acbae116a5155080d295197d8d6.cdn.bubble.io/f1511634801837x947863827459514100/bounceback.min.js"></script>
+
+<script src="https://unpkg.com/popper.js@1" defer></script><script src="https://unpkg.com/tippy.js@4" defer></script>
+<script type="text/javascript">window._bubble_page_load_data.js_execution_timings.plugin_js_end_execution = Date.now();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<style>
+    /*a {
+        color: #1f3261 !important;
+        text-decoration: underline !important;
+    }
+    
+    a:hover {
+        text-decoration: none !important;
+    }*/
+    button, button:focus, button:active, button:hover {
+    	outline: none !important;
+	}
+    #linkButton {
+    	text-decoration: none !important;
+    }
+
+</style>
+<style>
+    .bad-revision {
+        top: auto;
+        bottom: 12px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        color: #000;
+        max-width: 320px;
+        padding: 20px;
+        border-radius: 8px;
+        transition: all 0.5s ease;
+        text-align: left;
+        border: 1px solid RGB(0, 0, 0, 0.1);
+        box-shadow: 0 0 48px RGB(0, 0, 0, 0.1);
+    }
+    
+    .bad-revision:hover {
+        box-shadow: 0 0 48px RGB(0, 0, 0, 0.2);
+    }
+</style>
+
+<script>
+    if (!location.pathname.includes("/share-ask-ai") && !location.pathname.includes("/embed")) {
+        //Meta pixel OFF
+        // !(function (f, b, e, v, n, t, s) {
+        //   if (f.fbq) return;
+        //   n = f.fbq = function () {
+        //     n.callMethod
+        //       ? n.callMethod.apply(n, arguments)
+        //       : n.queue.push(arguments);
+        //   };
+        //   if (!f._fbq) f._fbq = n;
+        //   n.push = n;
+        //   n.loaded = !0;
+        //   n.version = "2.0";
+        //   n.queue = [];
+        //   t = b.createElement(e);
+        //   t.async = !0;
+        //   t.src = v;
+        //   s = b.getElementsByTagName(e)[0];
+        //   s.parentNode.insertBefore(t, s);
+        // })(
+        //   window,
+        //   document,
+        //   "script",
+        //   "https://connect.facebook.net/en_US/fbevents.js"
+        // );
+        // fbq("init", "924638018834290");
+        // fbq("track", "PageView");
+
+        //Twitter Ads OFF
+        // !(function (e, t, n, s, u, a) {
+        //   e.twq ||
+        //     ((s = e.twq =
+        //       function () {
+        //         s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        //       }),
+        //     (s.version = "1.1"),
+        //     (s.queue = []),
+        //     (u = t.createElement(n)),
+        //     (u.async = !0),
+        //     (u.src = "https://static.ads-twitter.com/uwt.js"),
+        //     (a = t.getElementsByTagName(n)[0]),
+        //     a.parentNode.insertBefore(u, a));
+        // })(window, document, "script");
+        // twq("config", "ofee1");
+        
+        //Impact
+        (function(a,b,c,d,e,f,g){e['ire_o']=c;e[c]=e[c]||function(){(e[c].a=e[c].a||[]).push(arguments)};f=d.createElement(b);g=d.getElementsByTagName(b)[0];f.async=1;f.src=a;g.parentNode.insertBefore(f,g);})('https://utt.impactcdn.com/A5112908-98f6-46c2-858c-b4d7188de4d61.js','script','ire',document,window); 
+
+        //Reflio
+        (function() {
+            var reflio = document.createElement("script");
+            reflio.type = "text/javascript";
+            reflio.async = true;
+            reflio.src = "https://reflio.com/js/reflio.min.js";
+            reflio.setAttribute("data-reflio", "25xyo3uco2968gj");
+            (
+                document.getElementsByTagName("head")[0] ||
+                document.getElementsByTagName("body")[0]
+            ).appendChild(reflio);
+        })();
+    }
+</script>
+
+<script id="profitwell-js" data-pw-auth="60587757c662df14ccafd933c5528f5d">
+    if (!location.pathname.includes("/share-ask-ai") && !location.pathname.includes("/embed")) {
+        (function(i, s, o, g, r, a, m) {
+            i[o] =
+                i[o] ||
+                function() {
+                    (i[o].q = i[o].q || []).push(arguments);
+                };
+            a = s.createElement(g);
+            m = s.getElementsByTagName(g)[0];
+            a.async = 1;
+            a.src =
+                r + "?auth=" + s.getElementById(o + "-js").getAttribute("data-pw-auth");
+            m.parentNode.insertBefore(a, m);
+        })(
+            window,
+            document,
+            "profitwell",
+            "script",
+            "https://public.profitwell.com/js/profitwell.js"
+        );
+    }
+</script>
+
+<script type="text/javascript" id="vwoCode">
+    if (!location.pathname.includes("/share-ask-ai") && !location.pathname.includes("/embed")) {
+        window._vwo_code =
+            window._vwo_code ||
+            (function() {
+                var account_id = 701201,
+                    version = 1.5,
+                    settings_tolerance = 2000,
+                    library_tolerance = 2500,
+                    use_existing_jquery = false,
+                    is_spa = 1,
+                    hide_element = "body",
+                    hide_element_style =
+                    "opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important",
+                    /* DO NOT EDIT BELOW THIS LINE */
+                    f = false,
+                    d = document,
+                    vwoCodeEl = d.querySelector("#vwoCode"),
+                    code = {
+                        use_existing_jquery: function() {
+                            return use_existing_jquery;
+                        },
+                        library_tolerance: function() {
+                            return library_tolerance;
+                        },
+                        hide_element_style: function() {
+                            return "{" + hide_element_style + "}";
+                        },
+                        finish: function() {
+                            if (!f) {
+                                f = true;
+                                var e = d.getElementById("_vis_opt_path_hides");
+                                if (e) e.parentNode.removeChild(e);
+                            }
+                        },
+                        finished: function() {
+                            return f;
+                        },
+                        load: function(e) {
+                            var t = d.createElement("script");
+                            t.fetchPriority = "high";
+                            t.src = e;
+                            t.type = "text/javascript";
+                            t.innerText;
+                            t.onerror = function() {
+                                _vwo_code.finish();
+                            };
+                            d.getElementsByTagName("head")[0].appendChild(t);
+                        },
+                        getVersion: function() {
+                            return version;
+                        },
+                        getMatchedCookies: function(e) {
+                            var t = [];
+                            if (document.cookie) {
+                                t = document.cookie.match(e) || [];
+                            }
+                            return t;
+                        },
+                        getCombinationCookie: function() {
+                            var e = code.getMatchedCookies(
+                                /(?:^|;)\s?(_vis_opt_exp_\d+_combi=[^;$]*)/gi
+                            );
+                            e = e.map(function(e) {
+                                try {
+                                    var t = decodeURIComponent(e);
+                                    if (!/_vis_opt_exp_\d+_combi=(?:\d+,?)+\s*$/.test(t)) {
+                                        return "";
+                                    }
+                                    return t;
+                                } catch (e) {
+                                    return "";
+                                }
+                            });
+                            var i = [];
+                            e.forEach(function(e) {
+                                var t = e.match(/([\d,]+)/g);
+                                t && i.push(t.join("-"));
+                            });
+                            return i.join("|");
+                        },
+                        init: function() {
+                            if (d.URL.indexOf("__vwo_disable__") > -1) return;
+                            window.settings_timer = setTimeout(function() {
+                                _vwo_code.finish();
+                            }, settings_tolerance);
+                            var e = d.createElement("style"),
+                                t = hide_element ?
+                                hide_element + "{" + hide_element_style + "}" :
+                                "",
+                                i = d.getElementsByTagName("head")[0];
+                            e.setAttribute("id", "_vis_opt_path_hides");
+                            vwoCodeEl && e.setAttribute("nonce", vwoCodeEl.nonce);
+                            e.setAttribute("type", "text/css");
+                            if (e.styleSheet) e.styleSheet.cssText = t;
+                            else e.appendChild(d.createTextNode(t));
+                            i.appendChild(e);
+                            var n = this.getCombinationCookie();
+                            this.load(
+                                "https://dev.visualwebsiteoptimizer.com/j.php?a=" +
+                                account_id +
+                                "&u=" +
+                                encodeURIComponent(d.URL) +
+                                "&f=" +
+                                +is_spa +
+                                "&vn=" +
+                                version +
+                                (n ? "&c=" + n : "")
+                            );
+                            return settings_timer;
+                        },
+                    };
+                window._vwo_settings_timer = code.init();
+                return code;
+            })();
+    }
+</script>
+
+</head>
+<body><script type="text/javascript">
+window.addEventListener('DOMContentLoaded', function () {
+  if (window.appquery == null) {
+    const css = document.createElement('style');
+css.type='text/css';
+css.appendChild(document.createTextNode(".warning-message-failure {padding: 30px; line-height: 1.5; white-space: pre; z-index: 1000000; position: fixed; width: 100%; height: 100%; background: white;}"));
+document.getElementsByTagName("head")[0].appendChild(css);
+const newDiv = document.createElement("div");
+newDiv.className = "warning-message-failure";
+newDiv.innerHTML = "Your browser was unable to load some necessary resources, contact your IT network administrator and ask them to allow access to <br><br>     d3dqmih97rcqmh.cloudfront.net <br>     7ac07acbae116a5155080d295197d8d6.cdn.bubble.io/ <br>     d1muf25xaso8hp.cloudfront.net";
+document.body.appendChild(newDiv);
+    httpRequest = new XMLHttpRequest();
+httpRequest.open('POST', '/user/m', true);
+httpRequest.setRequestHeader('Content-Type', 'application/json');
+httpRequest.send(JSON.stringify({measures: {page_load_error: 1, url: document.location.href, errors: window.load_error_log}}));
+  };
+});
+</script><script>
+    if (!location.pathname.includes("/share-ask-ai") && !location.pathname.includes("/embed")) {
+
+        //Clarity screen recording
+        (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ke132kuz2v");
+        
+        //Reditus
+        (function(w, d, s, p, t) {
+            w.gr = w.gr || function() {
+                w.gr.q = w.gr.q || [];
+                w.gr.q.push(arguments);
+            };
+            p = d.getElementsByTagName(s)[0];
+            t = d.createElement(s);
+            t.async = true;
+            t.src = "https://app.getreditus.com/gr.js?_ce=60";
+            p.parentNode.insertBefore(t, p);
+        })(window, document, "script");
+        gr("track", "pageview");
+
+
+        //LinkedIn Ads OFF
+        //   _linkedin_partner_id = "5095250";
+        //   window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        //   window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+        //   (function (l) {
+        //     if (!l) {
+        //       window.lintrk = function (a, b) {
+        //         window.lintrk.q.push([a, b]);
+        //       };
+        //       window.lintrk.q = [];
+        //     }
+        //     var s = document.getElementsByTagName("script")[0];
+        //     var b = document.createElement("script");
+        //     b.type = "text/javascript";
+        //     b.async = true;
+        //     b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        //     s.parentNode.insertBefore(b, s);
+        //   })(window.lintrk);
+
+    }
+</script><script type="text/javascript">window.addEventListener('DOMContentLoaded', function () {if (window.appquery && window.app == null) {const css = document.createElement('style');
+css.type='text/css';
+css.appendChild(document.createTextNode(".warning-message-failure {padding: 30px; line-height: 1.5; white-space: pre; z-index: 1000000; position: fixed; width: 100%; height: 100%; background: white;}"));
+document.getElementsByTagName("head")[0].appendChild(css);
+const newDiv = document.createElement("div");
+newDiv.className = "warning-message-failure";
+newDiv.innerHTML = "Your browser was unable to load the application data. We've been notified of the issue. Please try again in a few moments and make sure not to use ad-blockers.";
+document.body.appendChild(newDiv);}});</script>
+<img style="display: none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+</body>
+</html>

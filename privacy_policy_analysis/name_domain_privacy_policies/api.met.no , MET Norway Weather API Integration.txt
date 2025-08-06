@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms of Service</title>
+  <link rel="alternate" type="application/rss+xml" title="News RSS" href="/feed/news">
+  <link rel="alternate" type="application/rss+xml" title="Global changelog RSS" href="/feed/changelog">
+  <link type="image/x-icon" rel="icon" href="/images/met_favicon.png">
+  <link type="image/x-icon" rel="shortcut icon" href="/images/met_favicon.ico">
+
+  <!-- bootstrap 5 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="/css/mdb.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/css/style.css" />
+
+
+</head>
+<body>
+  <header>
+    <!-- Intro settings -->
+    <style>
+      #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+      @media (max-width: 991px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-met-pri fixed-top">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" target="_blank" href="https://met.no/">
+          <img src="/img/met_logo_icon_neg.png" height="24" alt="MET logo" loading="lazy"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.api.met.no/doc/">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/weatherapi/">API Reference</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/doc/FAQ">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/doc/License">License</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/doc/TermsOfService">Terms of Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/doc/support">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <a class="icon" href="/weatherapi/healthz"><img src='/weatherapi/healthz?icon' height='15px' alt="Healthz status" ></a>
+        <a class="icon" href="/feed/changelog"><img src="/images/16px-Rss-feed.svg.png" alt="Changelog RSS" /></a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Jumbotron -->
+    <div id="intro" class="p-4 text-center bg-met-light">
+      <h1 class="mb-1">Terms of Service</h1>
+    </div>
+    <!-- Jumbotron -->
+
+    <!--alert-->
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+          </svg>
+          Are you getting 403 Forbidden errors? Read the <a href="/doc/FAQ">FAQ</a> and check your User-Agent header!
+
+        </div>
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="my-5">
+    <div class="container">
+      <!--Section: Content-->
+      
+<style type="text/css">
+    li.nobullet { list-style-type:none; margin-left: -12px }
+</style>
+
+
+<div class="row">
+  <div class="col-md">
+    <div class="card px-3 py-3 documentation">
+
+
+
+
+      <p>This document describes the terms for using the MET Weather API.
+Changes to the terms will be announced on the <a href="./support">mailing list</a>.
+<strong>The last revision was on {{ page.date | date: "%-d %B %Y" }}</strong>.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The service has good capacity and can handle relatively large volumes of
+requests, but the capacity is not unlimited. We ask all users to respect
+the guidelines so that the service will be stable.</p>
+
+<p>Most important rules:</p>
+
+<ol>
+<li>You must identify yourself</li>
+<li>You must not cause unnecessary traffic</li>
+<li>You must not overload our servers</li>
+</ol>
+
+<h2 id="generalinformationabouttheservice">General information about the service</h2>
+
+<p>All weather data on the api are continually updated. New data will be made
+available in the service continuously. In order to receive important
+notifications about changes to the service we strongly suggest you
+subscribe to either our api-users mailing list or the RSS feed.</p>
+
+<p>When new versions of products are introduced (usually after a beta period), the older
+versions will be deprecated. This can be monitored by checking for a 203 status code
+(instead of the usual 200); if so this should be logged and/or shown as a warning.
+Deprecated versions will be terminated after a reasonable time period (usually 1 month).</p>
+
+<p>There are no guarantees of delivery regarding this service, or possibilities to
+obtain an SLA.</p>
+
+<p>If you need to get a customized delivery of weather data and products, you can
+see what is offered in ECOMET catalogue on <a href="https://www.ecomet.eu/ecomet-catalogue">ecomet.eu</a>.</p>
+
+<h2 id="legalstuff">Legal stuff</h2>
+
+<h3 id="trademarksandnamingrestrictionsnew">Trademarks and naming restrictions (NEW)</h3>
+
+<p>You are not allowed to make services/sites that appear to be made by Yr, NRK or
+The Norwegian Meteorological Institute. In other words, you may not use the word
+"Yr" as a part of your service name, or attach the Yr logo to your service.</p>
+
+<h3 id="identification">Identification</h3>
+
+<p>All requests must (if possible) include an identifying User Agent-string (UA) in the request
+with the application/domain name, optionally version number.
+You should also include a company email address or a link to the company website
+where we can find contact information. If we cannot contact you in case of
+problems, you risk being blocked without warning.</p>
+
+<p>Examples of valid User-Agents:</p>
+
+<pre><code>"acmeweathersite.com support@acmeweathersite.com"
+"AcmeWeatherApp/0.9 github.com/acmeweatherapp"
+</code></pre>
+
+<p>In cases where this is not possible (e.g. image links or simple cross-origin requests in Javascript), the website must instead identify itself using an <code>Origin</code> (Javascript) or <code>Referer</code> (for image links) header.</p>
+
+<h3 id="attribution">Attribution</h3>
+
+<p>All open data require attribution as specified in the CC BY 4.0 license:</p>
+
+<blockquote>
+  <p>You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made. You may do so in any reasonable manner, but
+  not in any way that suggests the licensor endorses you or your use.</p>
+</blockquote>
+
+<p>For more information, please see our <a href="./License">Licensing and Data Policy</a>.</p>
+
+<h3 id="personaldata">Personal data</h3>
+
+<p>As an app or site developer, the confidentiality of the users' personal
+data are your own responsibility. If you call the API directly from an app or
+browser, the user's IP address will be stored in our logs, along with
+any possible geocoordinates used in requests. To guarantee anonymity we
+recommend using a proxy gateway so that the ip addresses of the users
+are not revealed to us.</p>
+
+<p>All api.met.no access logs are stored in our own data center in Oslo, Norway.
+Company email addresses (used in User-Agent headers) are not considered personal
+information for GDPR and other privacy purposes. For more information, see
+our <a href="https://www.met.no/en/About-us/privacy">Privacy Policy Statement</a>.</p>
+
+<h2 id="technicalissues">Technical issues</h2>
+
+<h3 id="traffic">Traffic</h3>
+
+<ol>
+<li>Do not ask too often, and don't repeat requests until the time indicated in the <code>Expires</code> response header.</li>
+<li>Cache data locally and and use the <code>If-Modified-Since</code> request header to avoid repeatedly downloading the same data. Do not use HEAD followed by GET since this doubles the server processing load if it misses the cache.</li>
+<li>Don't generate unnecessary traffic, e.g. by repeated requests for data which never change (MetAlerts CAP files, images with timestamps and so on).</li>
+<li>Don't schedule many requests at the same time, e.g. every hour on the dot or when the forecast model runs are finished.
+Add a random number of minutes to the time of the requests as our data are continously updated.
+Spread your traffic evenly out over time so it makes a flat curve, not a sawtooth.</li>
+<li>When using requests with latitude/longitude, truncate all coordinates to max 4
+decimals. There is no need to ask for weather forecasts with nanometer precision!
+For new products, requests with 5+ decimals will return a 403 Forbidden.</li>
+<li>Avoid continuous updating of mobile devices.
+Applications on mobile devices must not retrieve new data as long as the application is not in use.
+If you need push notification (e.g. for <a href="MetAlerts">MetAlerts</a>), don't make more than one poll every 10 mins.</li>
+</ol>
+
+<h4 id="bandwidth">Bandwidth</h4>
+
+<p>Anything over 20 requests/second per application (total, not per client)
+requires special agreement. If you have a mobile app, this means the total
+traffic from all installations. For websites, this means the total for all servers and/or
+traffic coming directly from the browsers.
+Sites exceeding this limit are likely to be throttled, possibly also blocked if we cannot contact you for optimization.</p>
+
+<p>Copy animations and other large objects to your own server if you expect heavy traffic.
+We have good bandwidth, but sites with heavy traffic
+which links directly to our animations can use more bandwidth than we have
+taken into account. It is desirable that you inform your users about the time
+you retrieved the data so that they can consider whether they look at outdated
+data.</p>
+
+<h4 id="protocols">Protocols</h4>
+
+<p>We only support encrypted HTTPS for security reasons. Unencrypted HTTP requests
+are redirected to HTTPS, but since this is both a security risk and generates
+unnecessary traffic it is not allowed over extended periods of time. If you
+don't fix it after a reasonable interval we reserve the right to block such traffic.</p>
+
+<h4 id="compression">Compression</h4>
+
+<p>All clients must support redirects and gzip compression (Accept-Encoding: gzip,
+deflate) as described in RFC 2616.</p>
+
+<h4 id="cachingandproxy">Caching and proxy</h4>
+
+<p>Web servers and mobile apps should cache all API responses to avoid repeatedly asking for the
+same data.</p>
+
+<p>Use the information found in any cache headers, see RFC 2616. For example, use
+If-Modified-Since requests if the Last-Modified header exists. Note that the
+If-Modified-Since header should be identical to the previous Last-Modified, not
+any random timestamp (and definitely not in the future).</p>
+
+<h4 id="directclient-to-apiconnections">Direct client-to-API connections</h4>
+
+<p>Browsers and mobile apps should not contact the API directly, but instead use a local
+proxy (backend for frontend) server where you can cache data and add
+identification/authentication details (this is the canonical way of doing
+authentication in React since you cannot store client secrets in Javascript).</p>
+
+<p><strong><em>Note: The conditions for using CORS are still under review and will be finalized later.</em></strong></p>
+
+<p>Low-volume websites and mobile apps may use <em>simple</em> cross-origin Javascript requests and direct image links,
+provided the sites identifies itself as described above. If you start generating a lot of traffic against the API,
+you must set up a caching proxy gateway and route all traffic through this.</p>
+
+<p>Non-simple javascript requests (i.e. using authentication or other custom headers) and CORS preflights
+(whitelisting of your domain in the <code>`Access-Control-Allow-Origin</code> header) is explicitly not supported.</p>
+
+<h2 id="accesscontrol">Access control</h2>
+
+<h3 id="throttlingandtrafficshaping">Throttling and traffic shaping</h3>
+
+<p>Clients which don't follow the terms are liable to being throttled. This means requests
+will start getting a 429 HTTP status code instead of any content. Always check response <code>Status</code> headers
+and limit traffic immediately if this should happen. If you don't suspect you have excessive amounts
+of traffic, the problem is likely to be a breach of the TOS, usually lack of identification.</p>
+
+<h3 id="abuse">Abuse</h3>
+
+<p>Deliberate breach of our TOS, as well as trying to circumvent traffic rate
+limiting measures and/or impersonating traffic from other clients
+will result in a permanent ban in the use of our services. This includes
+fake or random strings as identification in the User-Agent header.</p>
+
+      <address>2020-06-26, Geir Aalberg</address>
+
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <footer class="text-lg-start met-footer">
+    <div id="copyright" class="text-center p-3">
+      © 2022 Copyright:
+      <a class="text-light" href="https://met.no/">MET Norway</a>
+    </div>
+  </footer>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="/js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="/js/script.js"></script>
+</body>
+</html>

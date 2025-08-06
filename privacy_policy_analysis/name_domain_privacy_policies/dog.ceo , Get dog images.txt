@@ -1,0 +1,118 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Dog API - About</title>
+<link rel="icon" type="image/png" href="/img/favicon.png" />
+<meta name="description" content="About Dog API - The internet's biggest collection of open source dog pictures. Fetching you over 20,000 dog images accessible by over 120 breeds">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:url" content="https://dog.ceo/dog-api" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Dog API - About" />
+<meta property="og:description" content="About Dog CEO's Dog API. Over 20,000 images of dogs programmaticaly accessible by over 120 breeds. Image supplied by the Stanford Dogs Dataset." />
+<meta property="og:image" content="https://dog.ceo/img/dog-api-fb.jpg" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dog API - About">
+<meta name="twitter:description" content="About Dog CEO's Dog API. Over 20,000 images of dogs programmaticaly accessible by over 120 breeds. Image supplied by the Stanford Dogs Dataset.">
+<meta name="twitter:image" content="https://dog.ceo/img/dog-api-fb.jpg">
+<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Ubuntu+Mono:400" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<div class="mobile-header">
+<div class="mobile-menu">
+<a href><i class="fa fa-navicon"></i></a>
+</div>
+<ul class="header-menu">
+<li>
+<img src="/img/dog-api-logo.svg" />
+</li>
+<li>
+<a href="/dog-api">Dog API</a>
+</li>
+</ul>
+</div>
+<div class="vertical-nav">
+<a class="no-border" href="/dog-api/"><img src="/img/dog-api-logo.svg" class="logo"></a>
+<h1>Dog API</h1>
+<ul>
+<li><a href="/dog-api/documentation">Documentation</a></li>
+<li><a href="/dog-api/breeds-list">Breeds list</a></li>
+<li><a href="/dog-api/about">About</a></li>
+<li><a href="https://github.com/jigsawpieces/dog-api-images#dog-api-images">Submit your dog</a></li>
+</ul>
+<div class="social">
+<a href="https://sideorders.co.uk/collections/frontpage/products/dog-ceo-issue-1" target="_blank"><i class="fa fa-paw"></i> Dog CEO Zine</a>
+<a href="https://paypal.me/dogapi"><i class="fa fa-dollar"></i> Buy me a dog treat</a>
+<a href="https://github.com/ElliottLandsborough/dog-ceo-api" target _blank><i class="fa fa-github"></i> View on GitHub</a>
+<a href="https://twitter.com/dog__CEO" target="_blank"><i class="fa fa-twitter"></i> Follow on Twitter</a>
+</div>
+</div>
+<div class="api-side">
+<h3 id="about">About</h3>
+<p>Original dataset taken from the the <a href="http://vision.stanford.edu/aditya86/ImageNetDogs/" target="_blank">Stanford Dogs Dataset</a>. Logo thanks to <a href="https://www.reddit.com/user/NotKnifoon" target="_blank">NotKnifoon</a>.</p>
+<h3>Support us!</h3>
+<p>Do you care about accessing free images of dogs on the internet? Do you want your dog pictures to be served at lightning fast speed with 99.999% uptime? Do you care about DaaS (Dogs as a Service)? <a href="https://paypal.me/dogapi">Help us pay our hosting bills</a> and ensure that Dog API stays free to access and use for everyone. We'll even gift you an executive business tie for your pet (or small child) to say thanks.</p>
+<div class="gallery">
+<img src="/img/shop/tie-1.jpg">
+<img src="/img/shop/tie-5.jpg">
+<img src="/img/shop/tie-4.jpg">
+<img src="/img/shop/tie-3.jpg">
+<img src="/img/shop/tie-2.jpg">
+</div>
+<h3>Projects made using Dog API</h3>
+<ul>
+<li><a href="https://guess.dog.ceo/" target="_blank">Tensorflow model trained on the dog.ceo image set and a web app to serve predictions</a></li>
+<li><a href="https://github.com/Aehmlo/node-dog-ceo" target="_blank">Node.js wrapper</a></li>
+<li><a href="https://github.com/justicesuh/dogapi" target="_blank">Python client</a></li>
+<li><a href="https://github.com/c4collins/pydogapi" target="_blank">Python wrapper</a></li>
+<li><a href="https://github.com/adfleshner/Furballs" target="_blank">Furballs: A simple application to pull down a list of dog images.</a></li>
+<li><a href="https://github.com/mtarnawa/doggobot" target="_blank">Telegram bot</a></li>
+<li><a href="https://github.com/stlbucket/dog-ceo-graphql" target="_blank">GraphQL</a></li>
+<li><a href="https://sebastianroll.github.io/dog-element" target="_blank">Polymer 2 webcomponent</a></li>
+<li><a href="https://github.com/jigsawpieces/dog-twitter-bot" target="_blank">Twitter bot that tweets a dog a day</a></li>
+<li><a href="https://polux.fr/" target="_blank">polux.fr</a></li>
+<li><a href="https://medium.com/@kmarquardsen/serverless-slack-commands-with-go-the-serverless-framework-fa9f3480437c" target="_blank">Serverless Slack Commands</a>. <a href="https://github.com/mangatadigital/sls-go-slack" target="_blank">GitHub</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/fetch/jkanoaaphjgfmmlomnhplhnikdhehijg" target="_blank">Fetch! A Chrome extension that fetches a picture of a dog to display in your browser</a>. <a href="https://github.com/pcullings/Fetch" target="_blank">GitHub</a></li>
+<li><a href="https://tinuola.github.io/doggie-browser/" target="_blank">Doggie Browser</a></li>
+</ul>
+<p><a href="/cdn-cgi/l/email-protection#2a4e454d6a4e454d04494f45">Tell us</a> if you've made something cool!</p>
+</ul>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="4327a846b4fc6ab00cdc5a1f-text/javascript"></script>
+
+<div class="google-ad">
+<p>Sorry for running ads but hosting is expensive :( <br>If you're feeling generous you can <a href="https://paypal.me/dogapi">buy us some dog treats</a></p>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4498889939210127" data-ad-slot="2734496944" data-ad-format="auto"></ins>
+</div>
+<script type="4327a846b4fc6ab00cdc5a1f-text/javascript">
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<script type="4327a846b4fc6ab00cdc5a1f-text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-98107378-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="4327a846b4fc6ab00cdc5a1f-text/javascript"></script>
+<script type="4327a846b4fc6ab00cdc5a1f-text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/js/vendor/jquery-3.4.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script src="/js/main.js" type="4327a846b4fc6ab00cdc5a1f-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4327a846b4fc6ab00cdc5a1f-|49" defer></script></body>
+</html>

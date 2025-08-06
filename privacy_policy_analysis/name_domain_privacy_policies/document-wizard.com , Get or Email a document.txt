@@ -1,0 +1,253 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Document Wizard - Document Plugins for ChatGPT">
+    <meta name="author" content="Zatosh Nakamoto">
+    <meta name="theme-color" content="#0d6efd">
+    <!-- Title-->
+    <title>Document Wizard</title>
+    <!--  -->
+    <!-- Favicon  -->
+    <link rel="icon" href="https://ams3.digitaloceanspaces.com/wizard/static/assets/img/favicon.png">
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="https://ams3.digitaloceanspaces.com/wizard/static/assets/css/style.css">
+  </head>
+  <body>
+
+    <!-- Header Area-->
+    <header class="header-area white-nav">
+      <div class="container">
+        <div class="classy-nav-container breakpoint-off">
+          <nav class="classy-navbar justify-content-between" id="aplandNav">
+            <!-- Logo--><a class="nav-brand" href="/"><img src="https://ams3.digitaloceanspaces.com/wizard/static/assets/img/document_wizard_logo.png" width="200" alt="ChatGPT Document Plugins"></a>
+            <!-- Navbar Toggler-->
+            <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span></span></div>
+            <!-- Menu-->
+            <div class="classy-menu">
+              <!-- Close Button-->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+              <!-- Nav-->
+              <div class="classynav">
+                <ul id="corenav">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/terms-of-service">Terms of Service</a></li>
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                </ul>
+                <!-- Login Button-->
+                <div class="login-btn-area ms-3 ms-lg-5 mt-5 mt-lg-0"><a class="btn btn-danger" href="/login/">Log In</a></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+
+
+    
+<!-- Breadcrumb Area-->
+<div class="breadcrumb-area bg-img bg-black-overlay section-padding-130" style="background-image: url();">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-9 col-xl-6">
+        <div class="breadcrumb-content text-center">
+          <h3 class="text-white">Privacy Policy</h3>
+          <p>Document Wizard: ChatGPT Document Plugins</p>
+          <!-- Breadcrumb-->
+          <nav class="mt-4" aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Area-->
+<div class="apland-blog-area section-padding-130">
+  <div class="container">
+    <div class="row justify-content-center gy-5">
+      <div class="col-12 col-sm-10 col-md-9 col-lg-8">
+        <!-- Blog Post Area-->
+        <div class="single-blog-post"><span class="post-date wow fadeInUp">Document Wizard</span>
+          <div class="post-title mb-3 wow fadeInUp">Privacy Policy</div>
+          <br>
+
+          <p>This Privacy Policy describes how Document Wizard ("we," "us," or "our") collects, uses, and discloses information when you ("user" or "you") visit and use our website, https://document-wizard.com ("Website") and the services provided through our website.</p>
+          <br>
+
+          <h3>1. Information We Collect:</h3>
+          <p>1.1 Personal Information: <br>
+            We may collect personal information from you when you voluntarily provide it. For example we collect your email address when you request us to send you an email with your document.</p>
+          <p>1.2 Usage Information: <br>
+            We may collect non-personal information about your use of the Website, such as IP addresses, browser type, operating system, and pages visited. This information is collected to improve the functionality and security of the Website.</p>
+          <br>
+
+          <h3>2. Use of Information:</h3>
+          <p>2.1 Providing and Improving Our Services: <br>
+            We only use the information collected to deliver our services to you and discard it later. We do not store and personal information on our servers, beyond using it within the transaction requested.</p>
+          <p>2.2 Communication: <br>
+            We will never contact you beyond your interaction with our GPT.</p>
+          <p>2.3 Legal Compliance: <br>
+            We will never disclose your information to any third parties, including law enforcement agencies as we do not store it in our databases.</p>
+          <br>
+
+          <h3>3. Data Storage and Security:</h3>
+          <p>3.1 Data Retention: <br>
+            We do not retain any data.</p>
+          <p>3.2 Data Access and Deletion: <br>
+            You will not be able to access, delete or update your information as we do not store it in our database.</p>
+          <p>3.3 Data Security: <br>
+            We implement industry-standard security measures to protect your document information, utilise Digital Ocean protected and secured S3 buckets for documents, the links we share are only accesible with the access keys provided which expire after some time.</p>
+          <br>
+
+
+          <h3>4. Third-Party Service Providers:</h3>
+          <p>We may engage third-party service providers to assist us in operating the Website and providing our services. These service providers may have access to your personal information only to the extent necessary to perform their services and are contractually obligated to maintain the confidentiality and security of your information.</p>
+          <br>
+
+
+          <h3>5. Third-Party Links:</h3>
+          <p>Our Website may contain links to third-party websites or services. We are not responsible for the privacy practices or the content of such third-party websites. We encourage you to review the privacy policies of those websites before using them.</p>
+          <br>
+
+
+          <h3>6. Children's Privacy:</h3>
+          <p>Our services are not intended for individuals under the age of 16. We do not knowingly collect personal information from children. If we become aware that we have collected personal information from a child under the age of 16, we will take appropriate steps to delete it.</p>
+          <br>
+
+
+          <h3>7. Updates to this Privacy Policy:</h3>
+          <p>We may update this Privacy Policy from time to time to reflect changes in our practices and services. We will notify you of any material changes by posting the updated Privacy Policy on our Website. Your continued use of our Website after the changes become effective will indicate your acceptance of the updated Privacy Policy.</p>
+          <br>
+
+
+          <h3>8. Contact Us:</h3>
+          <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at hello[at]document-wizard.com.
+            <br>
+            Please note that this Privacy Policy applies to the information collected through our Website and services and does not apply to any third-party websites or services linked to our Website.
+            <br>
+            By using our Website and services, you consent to the collection, use, and disclosure of information as described in this Privacy Policy.
+          </p>
+          <br>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- Footer Area-->
+    <footer class="footer-area section-padding-130">
+      <div class="container">
+        <div class="row g-5 justify-content-between">
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget">
+              <!-- Widget Title-->
+              <h5 class="widget-title">Our Commitment</h5>
+              <p class="mb-0">
+                We are committed to enhancing your ChatGPT experience with Document Wizard.
+                </p>
+
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget">
+              <!-- Widget Title-->
+              <h5 class="widget-title">Important Links</h5>
+              <!-- Footer Menu-->
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="/terms-of-service">Term of Service</a></li>
+                  <!-- <li><a href="#">Blog</a></li>
+                  <li><a href="#">FAQs</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget">
+              <!-- Widget Title-->
+              <h5 class="widget-title">Location</h5>
+              <p class="mb-0">651 N Broad St,<br>
+                  Suite 201, Middletown,<br>
+                  Delaware, 19707 <br>
+                  hello[at]document-wizard.com</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Bottom-->
+    <div class="footer-bottom-area py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-7">
+            <div class="copywrite-text">
+              <p class="mb-0">2023 &copy; Powered by <a class="ms-1" href="https://tati.digital">Tati Digital</a></p>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="social-btn-group d-flex align-items-center justify-content-end">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            </a>
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery(necessary for all JavaScript plugins without bootstrap js)-->
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/classy-nav.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/one-page-nav.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/scrollup.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/waypoints.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.easing.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.animatedheadline.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/owl.carousel.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jarallax.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jarallax-video.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.counterup.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/jquery.countdown.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/wow.min.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/mail.js"></script>
+    <!-- All plugins activation code-->
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/active.js"></script>
+    <script src="https://ams3.digitaloceanspaces.com/wizard/static/assets/js/dark-mode-switch.js"></script>
+  </body>
+</html>

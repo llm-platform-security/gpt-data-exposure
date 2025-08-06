@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Express Tracking Legal Page</h1>
+
+    <h2>Privacy Policy</h2>
+    <p>Our Express Tracking Service does not collect or store any personal data. The tracking numbers provided by users
+        are used solely for the purpose of fetching tracking information and are not stored or shared with any third
+        parties.</p>
+
+    <h2>Terms of Service</h2>
+    <p>By using the Express Tracking Service, users agree to not misuse the service or use it for any illegal
+        activities. The service is provided "as is" and users use it at their own risk.</p>
+
+    <h2>Disclaimer</h2>
+    <p>While we strive to provide accurate and timely tracking information, we cannot guarantee its correctness at all
+        times. We are not responsible for any loss or damage arising from the use of this service.</p>
+
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or concerns about our service or this legal page, please contact us at <a
+                href="mailto:sonicli1988@gmail.com">sonicli1988@gmail.com</a>.</p>
+    </div>
+</body>
+
+</html>

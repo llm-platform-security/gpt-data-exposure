@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" id="header_favicon" type="image/svg+xml" href="/favicon.ico" />
+  <!-- <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1, maximum-scale=0.2, user-scalable=yes"/> -->
+  <meta id="meta_viewport" name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 关键词在页面标签中的权重：title>description>h>keywords； -->
+  <title>YourArtist.AI | Create AI Covers With Your Favorite Voices</title>
+  <meta name="description"
+    content="Create AI covers using AI in seconds with yourartist.ai, with hundreds of community-uploaded AI voice models available for creative use now!" />
+  <meta name="keywords"
+    content="YourArtist.AI, yourartist.ai, yourartist, AI covers, voicify, musicfy, covers.ai, kits, AI cover, Singing Voice model, Singing voice conversion" />
+  <link href="./static/assets/css/validBrower.css" type="text/css" rel="stylesheet" />
+
+  <style id="sheetStyleAnimation">
+
+  </style>
+  <script>
+    const getUrlParam = (name, url = location.href) => {
+      const r = (decodeURIComponent(url)).substr(1).match(new RegExp("(\\?|&)" + name + "=([^&]*)(&|$)"));
+      if (r != null) {
+        return decodeURIComponent(r[2]);
+      }
+      return '';
+    };
+    function initSetViewport() {
+      if (window.navigator.userAgent.toLowerCase().indexOf('yourartist') >= 0) {
+        document.getElementById('meta_viewport').content = "width=device-width, initial-scale=1";
+      } else if (window.screen.width < 768 && getUrlParam("noscale") != 1) {
+        document.getElementById('meta_viewport').content = "width=device-width, initial-scale=0.4, max-scale=0.4, min-scale=0.4";
+      } else {
+        document.getElementById('meta_viewport').content = "width=device-width, initial-scale=1, max-scale=1, min-scale=1";
+      }
+    }
+    function resetViewport() {
+      document.getElementById('meta_viewport').content = "width=device-width, initial-scale=1";
+    }
+    initSetViewport();
+
+    function setSkymusicFavicon(){
+      
+      document.getElementById('header_favicon').href = "/skymusic_favicon.ico";
+
+    }
+
+
+  </script>
+  <script type="module" crossorigin src="/assets/index-8f5d93b6.js"></script>
+  <link rel="stylesheet" href="/assets/index-7a38c0e7.css">
+  <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body data-theme="themegreen">
+  <div id="app" style="height: 100vh;">
+    <router-view></router-view>
+  </div>
+  <script>
+    // const setGif = async () => {
+    //   const img0 = `/static/assets/img/loading_0${String(0).padStart(5, 0)}.png`;
+    //   let ht = ` ${((100 / 72) * 0).toFixed(2)}% { background-image: url(${img0}); }`;
+    //   for (let i = 1; i < 72; i++) {
+    //     const img = `/static/assets/img/loading_0${String(i).padStart(5, 0)}.png`;
+    //     ht += ` ${((100 / 72) * i).toFixed(2)}% { background-image: url(${img}); }`;
+    //   }
+    //   ht+ = ` 100% { background-image: url(${img0}); }`;
+    //   let keyframes = `@keyframes run-gif-loding { ${ht} }`;
+    //   console.log(keyframes);
+    //   let sheet = document.getElementById('sheetStyleAnimation');
+    //   sheet.sheet.insertRule(keyframes, 0);
+    // };
+    // setGif();
+  </script>
+  
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-f2991ea8.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-7e38ba07.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>

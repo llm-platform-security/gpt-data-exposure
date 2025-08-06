@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<title>
+	HOME
+</title><meta id="MetaRobots" name="robots" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=981" type="text/css" rel="stylesheet"/><link href="/DesktopModules/Events/module.css?cdv=981" type="text/css" rel="stylesheet"/><link href="/Portals/StLucie/Skins/StLucie/skin.css?cdv=981" type="text/css" rel="stylesheet"/><link href="/Portals/StLucie/Containers/StLucie/container.css?cdv=981" type="text/css" rel="stylesheet"/><link href="/Portals/StLucie/Skins/StLucie/jQueryToolsAccordion/tabs-accordion.css?cdv=981" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=981" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=981" type="text/javascript"></script><link href="//vrcdn.electionsfl.org/common/css/Padlock.css" media="all" type="text/css" rel="stylesheet" /><link href="/TowerMenuLayout.css" media="all" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/common/js/wf_services.js"></script>
+    <script type="text/javascript" src="/common/js/iFrameMagicDNN.js"></script>
+    <script type="text/javascript" src="/common/js/getRegistrationTotals160128.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            FrameMagicInitDNN();
+			var towerMenu = '<div id="towermenu">' +
+							'<ul><li><div style="background-color: white;"><img width="150px" style="margin:5px 0;" src="/admin/ControlPanel/controlbarimages/dnnLogo.png"/></div><ul><li><div id="TowerWhatsNew" style="margin-top:0;height:auto;">The VR Tower Menu has moved. Please access the menu by hovering over Admin > Click Advanced Settings (two gear icon) > Click Tower Admin</div></li></uL></li></ul></div>';
+			$(".ServiceIcon").html(towerMenu);
+        });
+    </script>
+<!--[if gte IE 9]><!-->
+    <script type="text/javascript">
+        window.addEventListener('message', receiveMessage, false);
+
+        function receiveMessage(evt) {
+            var parts = evt.origin.split("/");
+            var myOrigin = parts[parts.length - 1];
+            if (myOrigin.indexOf(".voterfocus.com")!=-1 || myOrigin.indexOf(".electionsfl.org")!=-1
+                || myOrigin.indexOf("dotnet.nuke") != -1) {
+                if (evt.data == "TOP PLEASE") {
+                    window.scrollTo(0, 0);
+                }
+            }
+        }
+    </script>
+<!--<![endif]-->
+
+<link href="/DesktopModules/Events/Themes/Events/Events.css" rel="stylesheet" type="text/css" />
+
+          <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-145446081-1', 'auto', {'legacyCookieDomain': 'none'});
+            
+			var dimensionName = localStorage.getItem('Analytics.Page.PageVariantDimension');
+
+			if (dimensionName != undefined && dimensionName != '') { ga('set', dimensionName, 'Default'); }
+
+            ga('send', 'pageview');	
+          </script>
+
+        <link href="/WebResource.axd?d=EFjvvw03I-qiLc6IvmQE-0P0AXRitzYvT6vwdCJ7dKNsydQvTvvYcjgu_zo-bxcwOIUgqJ2Q6-9ARa9Dru3vfD_ikTV_nOEXHqfJAWJ2neByCbT60&amp;t=636413833326744121" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=iRvtG_52nRcGDbPkodce8vpxysf0odaC9Z1ztYAwXWDA6pbGOiGBif4l-AsWLSku9gmeTVj_p77O9lt3-9qwx61AJEFpfGbE2jwgjrlH16d2pGAQbyqlsW9QHmsw8QjMEKu2Dg2&amp;t=636413833326744121" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body id="Body">
+	<script type="text/javascript">
+		
+		var TowerCountyId = "stlucie";
+	</script>
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV0Y8MXWW1Hx7m7Mpag2NYZAOBpYtKb4_mWFTY7GU0pIJ7s2Dw41&amp;t=638459824569584809" type="text/javascript"></script>
+
+<script src="/DesktopModules/Events/Scripts/Validation.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=uHIkleVeDJcBO78CxJ0DflZ44H6qhyuqMYsrAId18DcYuBcWz2Lel9vWcH3k0XYQAbxrKALUMtgFME5NO2peFARkT4jmTCSRmUDxmKgIMqMfQVYgNr_UpZRKig1daaVJy62QXQ2&amp;t=74258c30" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Jw6tUGWnA17LQ_bF57sEYUZw7lSl9tIo1oE1V5cc3trr_DIGa0QnnEQc4-3WVdsNgSzHAjv8zErNCVKJw_AWcya0PMg0foWE4WdEdVbiSd65eXrEpqQw3919iL_iv-OYsK2zXDqvxZR9Dh9A0&amp;t=74258c30" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB24lPQwYC8RCQv3xvfGJX3dN8hLJVnXIwOOAbqE9WcDZIn1aUGHCpBQ5tvde50PTGcb9B2nrzM7vbW9KN5LRdxUfPzzDA2&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpyT7vX8X-lG9_NsrAiXublPZI3UzRPlhfgJPM_MXY76iKGaG7xlWWRcuQGkZPFV9LxVleYukrIzXj9Y5Zx2az_LWOnSbz3NLRPWPRp0&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dnHi0nMgDDepPwwG-L_-i1ejkZPJwX0ETv84_psV7Mq5ecA1LEW_7ZB48usvDnFbeca5YECrSr0BEJthpymKk6lYTM4OAUAJ98lhCci7i2zI45D50&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6q2f3O5KC8wR57dOTVBvF9qTEV5OaVjf_lPmHCxW6vEzFEb7WoYGSJsm8nil7XHAUflPbwbAICHUCSBozwuIGEx4-iyq8k44o35gZPp_Cxd93OUEkWXTM8ks-pQYgXNEcdSH_w2&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Taq5viT0lCqS6uCLcmzNRbjp754kfeOVFY1gfA7teL-Nepk-D1lUpMyjM1viHiHB-rURL8XgZ6SrQlh_SPFoyHCASSfysszC6UTbAle-gQwaJu7X5ILe8trvMaQ1&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KlfC4ae2T75sWD0cv3bSKcQSGpdYxcaoO48X-K2DVa5eoTsvlpDOOdgW1h5dayo1gARN9VqStFAMmx9hvtsNtZFYb4p3hg1bD97bQvLn1TCXpon8XK9zuXSVYlM1&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=g97X-aYOf9YaLefrUsWUkd-o1-NoPp0n_e8e9_obAp7y45pkoOmu2DmzGBgSQpzV9uo7yZD--P2NVUi2FAoBE9BdVA8C7RsTOIQDKAGKXCMMNuE8oYko1LiwJHk1&amp;t=4036ae9" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6lG28Gbf74u1H6HnqAosHluIuuIOgr-6HpPjs2l1Iyi4K47eXVbfdIwHJBXomrUWzrw9tZmQREdj1UH_zyMoxl5ZhmtMNAXRAr9nJ_6OFluYk7U--PHmNsNp1oIZt72OZXFuiw2&amp;t=4036ae9" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="EjNgpjjs3KaCbs/OEcHvVWHLy7W+0IVJOXIhg/tQkyuFLBhNtfbyHm8ccJQTtdTf16682KZXJjQWsEp4AZe71zBoy/5wabrxcQnkFHohPOYV9Nty" />
+</div><script src="/js/dnn.js?cdv=981" type="text/javascript"></script><script src="/js/dnncore.js?cdv=981" type="text/javascript"></script><script src="/js/dnn.servicesframework.js?cdv=981" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', ['tdnn$ctr5518$Events_UP','dnn_ctr5518_Events_UP','tdnn$ctr5518$Events$EventList$toolTipManagerRTMPanel',''], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+<script src="//vrcdn.electionsfl.org/common/js/common.js" type="text/javascript"></script>
+<script src="//vrcdn.electionsfl.org/common/js/TextIncreaseDecrease.js" type="text/javascript"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7C6R2BWEE0"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'G-7C6R2BWEE0');
+</script>
+<a id="skipheader" href="#dnn_ContentPane">skip to content</a>
+<div id="wrapper">
+	<div id="header">
+		<div id="controls">
+			<div id="increase" class="fontlarger"><span class="fontsize">Font Size</span><span class="textsize"> Larger
+					+</span></div>
+			<div id="decrease" class="fontsmaller"><span class="fontsize">Font Size</span><span class="textsize">
+					Smaller -</span></div>
+		</div>
+		<a id="logo" title="St. Lucie County Supervisor of Elections" href="/Home.aspx">
+			<img alt="St. Lucie County Supervisor of Elections logo" src="/portals/stlucie/skins/stlucie/images/wf_staticbanner.png" class="headerimage" height="432" width="960" />
+		</a>
+		<div id="rotatordiv">
+			
+<script src="/DesktopModules/VRSystemsSkinObjects/jquery.innerfade.js" type="text/javascript"></script>
+<script type="text/javascript">
+    (function ($) {
+        $(document).ready(
+	    function () {
+	        $('ul#rotator').innerfade({
+	            speed: 600,
+	            timeout: 5000,
+	            type: 'sequence',
+	            containerheight: '198px'
+	        });
+	    });
+    })(jQuery);
+</script>
+
+<ul id="rotator" class="innerfade">
+    
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic1.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic10.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic11.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic12.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic13.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic14.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic15.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic16.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic17.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic18.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic19.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic2.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic20.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic21.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic22.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic23.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic24.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic25.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic26.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic27.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic28.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic29.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic3.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic30.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic31.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic32.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic33.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic34.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic35.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic36.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic37.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic38.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic39.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic4.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic40.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic41.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic42.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic43.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic44.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic45.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic46.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic47.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic48.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic49.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic5.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic50.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic51.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic6.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic7.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic8.jpg" alt="Dynamic Rotator" /></li>
+        
+            <li><img src="/Portals/StLucie/Images/Rotator/wf_pic9.jpg" alt="Dynamic Rotator" /></li>
+        
+</ul>
+		</div>
+	</div>
+
+	<div id="quicklinks">
+		<a href="/Register-to-Vote.aspx">
+			<div id="q1" title="Register to Vote">Register to Vote</div>
+		</a>
+		<a href="/My-Registration-Status.aspx">
+			<div id="q2" title="My Registration Status">My Registration Status</div>
+		</a>
+		<a href="/Absentee-Voting/Vote-By-Mail.aspx">
+			<div id="q3" title="Vote By Mail">Vote By Mail</div>
+		</a>
+		<a href="/Early-Voting">
+			<div id="q4" title="Early Voting">Early Voting</div>
+		</a>
+		<a href="/ELECTION-INFORMATION/Where-do-I-vote">
+			<div id="q5" title="Where Do I Vote">Where Do I Vote?</div>
+		</a>
+		<a href="/ABSENTEE-VOTING/Absentee-Request-Form-Lookup">
+			<div id="q6" title="Sample Ballot">Sample Ballot</div>
+		</a>
+	</div>
+	<div id="registeredvoters">
+		<div id="activetext">Active Registered Voters</div>
+		
+<div id="registrationTotals">
+    <ul id="dnn_ctl01_registrationTotalsList" class="registrationTotalsList"><li><span class='totalsField datePrelude'> as of:</span><span class='totalsValue dateValue'></span></li><li><span class='totalsField demField'> Dem:</span><span class='totalsValue demValue'></span></li><li><span class='totalsField repField'> Rep:</span><span class='totalsValue repValue'></span></li><li><span class='totalsField npaField'> NPA:</span><span class='totalsValue npaValue'></span></li><li><span class='totalsField othField'> Other:</span><span class='totalsValue othValue'></span></li><li><span class='totalsField totField'> Total:</span><span class='totalsValue totValue'></span></li></ul>
+</div>
+<script type="text/javascript">
+    TOTCounty = "stlucie";
+</script>
+
+	</div>
+	<div style="clear: both"></div>
+	<div id="contentwrapper">
+		<div id="leftsidebar">
+			<div style="clear: both;"></div>
+			<script type="text/javascript">
+      jQuery(function($) {
+          $(".accordionDiv h3").click(function() {
+            if($(this).parent().find('.pane').has('a').length > 0) {
+              if($(this).hasClass('starredBlock')) {
+                $(this).removeClass('starredBlock');
+                $(this).parent().find('.pane').slideUp();
+              }
+              else {
+                //clear all the menu selections
+                $(".accordionDiv h3").each(function(index) {
+                  $(this).removeClass('starredBlock');
+                  $(this).parent().find('.pane').slideUp();
+                });
+                $(this).addClass('starredBlock');
+                $(this).parent().find('.pane').slideDown();
+              }
+              return false;
+            }
+          });
+        
+			});
+		</script><div id="dnn_siteMenu" class="toolsaccordion">
+  <h2 class="home"><a href="/Home.aspx">
+          HOME
+        </a></h2>
+  <div id="PUBLIC RECORDS REQUEST" class="accordionDiv">
+    <h3><a href="https://stluciecountysoefl.nextrequest.com/" target="_blank">PUBLIC RECORDS REQUEST</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="CONTACT US" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/CONTACT-US" target="">CONTACT US</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="OFFICE INFORMATION" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/OFFICE-INFORMATION" target="">OFFICE INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/OFFICE-INFORMATION/A-Message-From-Your-Supervisor" target="">A Message From Your Supervisor</a><a style="display:block" href="https://www.slcelections.com/OFFICE-INFORMATION/Office-Information" target="">Office Information</a></div>
+  </div>
+  <div id="Canvassing Board Schedules and Public Notices" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/Canvassing-Board-Schedules-and-Public-Notices" target="">Canvassing Board Schedules and Public Notices</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/Canvassing-Board-Schedules-and-Public-Notices/2024-Elections-Schedules-and-Public-Notices" target="_blank">2024 Elections Schedules and Public Notices</a></div>
+  </div>
+  <div id="CANVASSING BOARD" class="accordionDiv">
+    <h3><a href="/LinkClick.aspx?fileticket=roTRGQSwNlM%3d&amp;tabid=6837&amp;portalid=42" target="">CANVASSING BOARD</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/CANVASSING-BOARD/Canvassing-Board-Duties" target="">Canvassing Board Duties</a></div>
+  </div>
+  <div id="ELECTION INFORMATION" class="accordionDiv">
+    <h3><a href="/LinkClick.aspx?fileticket=SSAa69VBvlU%3d&amp;tabid=2403&amp;portalid=42" target="_blank">ELECTION INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Where-Do-I-Vote" target="">Where Do I Vote</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/What-is-a-Closed-Primary-Universal-Primary" target="">What is a Closed Primary/Universal Primary</a><a style="display:block" href="/LinkClick.aspx?fileticket=3ZijN6QmOk8%3d&amp;tabid=2597&amp;portalid=42" target="_blank">Historical Election Information</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Election-Results" target="">Election Results</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/What-is-Provisional-Ballot-Voting" target="">What is Provisional Ballot Voting</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Provisional-Ballot-Cure-Affidavit" target="">Provisional Ballot Cure Affidavit</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Election-Voting-Trends" target="">Election Voting Trends</a><a style="display:block" href="/LinkClick.aspx?fileticket=vsFaItz05t0%3d&amp;tabid=17915&amp;portalid=42" target="_blank">Precinct List and Locations</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Election-Preparation-Reports" target="_blank">Election Preparation Reports</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Post-Election-Audit-Reports" target="">Post Election Audit Reports</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/2024-Election-Dates" target="">2024 Election Dates</a><a style="display:block" href="/LinkClick.aspx?fileticket=nBXUiPbKFss%3d&amp;tabid=21022&amp;portalid=42" target="_blank">2024 POLLING PLACE LOCATION CHANGES</a></div>
+  </div>
+  <div id="VOTER REGISTRATION INFORMATION" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION" target="">VOTER REGISTRATION INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION/How-and-Where-Do-I-Register" target="">How and Where Do I Register</a><a style="display:block" href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION/Register-To-Vote-Online-OVR" target="">Register To Vote Online (OVR)</a><a style="display:block" href="https://www.slcelections.com/REGISTRATION-INFORMATION/Address-Update" target="_blank">Update Your Name, Party or Address within St. Lucie county</a><a style="display:block" href="https://dos.myflorida.com/elections/for-voters/voter-registration/third-party-voter-registration-organizations/" target="_blank">Third-Party Voter Registration Organizations</a><a style="display:block" href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION/Civil-Rights-Restoration" target="">Civil Rights Restoration</a><a style="display:block" href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION/Registration-Reports" target="">Registration Reports</a></div>
+  </div>
+  <div id="LANGUAGE ASSISTANCE" class="accordionDiv">
+    <h3><a href="/LinkClick.aspx?fileticket=9uIzcvXApwA%3d&amp;tabid=14450&amp;portalid=42" target="">LANGUAGE ASSISTANCE</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/LANGUAGE-ASSISTANCE/Language-Assistance" target="">Language Assistance</a></div>
+  </div>
+  <div id="VOTER EDUCATION and VOTING GUIDES" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/VOTER-EDUCATION-and-VOTING-GUIDES" target="">VOTER EDUCATION and VOTING GUIDES</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/VOTER-EDUCATION-and-VOTING-GUIDES/Acceptable-Forms-Of-Identification" target="">Acceptable Forms Of Identification</a><a style="display:block" href="https://www.slcelections.com/VOTER-EDUCATION-and-VOTING-GUIDES/Voters-Bill-of-Rights" target="">Voter's Bill of Rights</a><a style="display:block" href="/LinkClick.aspx?fileticket=8Pqfif6cQHU%3d&amp;tabid=2817&amp;portalid=42" target="_blank">Voter  Information Guide (English)</a><a style="display:block" href="/LinkClick.aspx?fileticket=1pL2_GxgIls%3d&amp;tabid=14334&amp;portalid=42" target="_blank">Voter Information Guide (Spanish)</a><a style="display:block" href="/LinkClick.aspx?fileticket=ujnShchfmKU%3d&amp;tabid=6324&amp;portalid=42" target="_blank">Guide to Elected and Appointed Officials (English)</a><a style="display:block" href="/LinkClick.aspx?fileticket=CIvCXUixeiY%3d&amp;tabid=15955&amp;portalid=42" target="_blank">Guide to Elected and Appointed Officials (Spanish)</a><a style="display:block" href="/LinkClick.aspx?fileticket=Z3kDZ6lf-Fk%3d&amp;tabid=18880&amp;portalid=42" target="_blank">Voter's Guide to Contact your Elected Officials (English)</a><a style="display:block" href="/LinkClick.aspx?fileticket=0_SN2E9wz-8%3d&amp;tabid=18868&amp;portalid=42" target="_blank">Voter's Guide to Contact your Elected Officials (Spanish)</a><a style="display:block" href="https://youtu.be/M-RtzcLHSuI" target="_blank">Dominion ICE Voting System</a><a style="display:block" href="/LinkClick.aspx?fileticket=s6hIRDi-F1w%3d&amp;tabid=13056&amp;portalid=42" target="_blank">Minority Languages Report</a><a style="display:block" href="/LinkClick.aspx?fileticket=XCFeeMm2Y8g%3d&amp;tabid=20374&amp;portalid=42" target="_blank">Florida Voter Guide 2024 Election Cycle</a><a style="display:block" href="https://www.slcelections.com/VOTER-EDUCATION-and-VOTING-GUIDES/SLC-School-Elections-Service" target="">SLC School Elections Service</a></div>
+  </div>
+  <div id="VOTE-BY-MAIL INFORMATION" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/VOTE-BY-MAIL/Absentee-Request-Form-Lookup/Vote-By-Mail" target="">VOTE-BY-MAIL INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/VOTE-BY-MAIL/Absentee-Request-Form-Lookup/Vote-By-Mail" target="">Vote-By-Mail Information and Requirements</a><a style="display:block" href="https://www.slcelections.com/VOTE-BY-MAIL-INFORMATION/Military-and-Overseas-Citizens-Information" target="">Military and Overseas Citizens Information</a><a style="display:block" href="https://www.slcelections.com/VOTE-BY-MAIL-INFORMATION/Affidavit-Form-for-Missing-Signature" target="">Affidavit Form for Missing Signature</a><a style="display:block" href="https://www.slcelections.com/VOTE-BY-MAIL-INFORMATION/Request-a-Vote-by-Mail-Ballot" target="">Request a Vote-by-Mail Ballot</a></div>
+  </div>
+  <div id="ELECTION WORKERS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/ELECTION-WORKERS" target="">ELECTION WORKERS</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/ELECTION-WORKERS/Election-Worker-Information" target="">Election Worker Information</a><a style="display:block" href="https://www.slcelections.com/ELECTION-WORKERS/Election-Worker-Application" target="">Election Worker Application</a><a style="display:block" href="https://www.slcelections.com/ELECTION-WORKERS/ImageCast-Evolution-ICE-Tabulation-System" target="">ImageCast Evolution (ICE) Tabulation System</a></div>
+  </div>
+  <div id="POLL WATCHERS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/POLL-WATCHERS" target="">POLL WATCHERS</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/POLL-WATCHERS/Poll-Watcher-Duties-and-Information" target="">Poll Watcher Duties and Information</a></div>
+  </div>
+  <div id="CANDIDATE PROFILES &amp; FINANCIAL REPORTS" class="accordionDiv">
+    <h3><a href="https://www.voterfocus.com/ws/WScand/candidate_pr.php?c=st" target="_blank">CANDIDATE PROFILES &amp; FINANCIAL REPORTS</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="COMMITTEE INFORMATION" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/COMMITTEE-INFORMATION" target="">COMMITTEE INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/CANDIDATE-INFORMATION/Candidate-Login" target="">Committee Login</a><a style="display:block" href="/LinkClick.aspx?fileticket=jcWDQ0gm7B0%3d&amp;tabid=9726&amp;portalid=42" target="_blank">2024 Committee report dates</a><a style="display:block" href="/LinkClick.aspx?fileticket=VO3koGQJBRY%3d&amp;tabid=11287&amp;portalid=42" target="_blank">2024 Executive Committee report dates</a><a style="display:block" href="/LinkClick.aspx?fileticket=yD0hLEkLNWY%3d&amp;tabid=20441&amp;portalid=42" target="_blank">2024 Political Committee handbook</a></div>
+  </div>
+  <div id="CANDIDATE INFORMATION" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/CANDIDATE-INFORMATION" target="">CANDIDATE INFORMATION</a></h3>
+    <div class="pane"><a style="display:block" href="/LinkClick.aspx?fileticket=IST296HxDq8%3d&amp;tabid=19472&amp;portalid=42" target="_blank">2024 Candidate petition handbook</a><a style="display:block" href="/LinkClick.aspx?fileticket=S3RROH7ZF6I%3d&amp;tabid=13626&amp;portalid=42" target="_blank">Candidate Petition Logs</a><a style="display:block" href="/LinkClick.aspx?fileticket=PnA984cLge8%3d&amp;tabid=2607&amp;portalid=42" target="_blank">2024 Candidate campaign treasurer Handbook</a><a style="display:block" href="https://www.slcelections.com/CANDIDATE-INFORMATION/City-Candidate-Information" target="">City Candidate Information</a><a style="display:block" href="https://www.voterfocus.com/ws/WScand/cand_srch.php?c=st" target="_blank">Campaign Finance Reports</a><a style="display:block" href="https://www.slcelections.com/CANDIDATE-INFORMATION/Candidate-Login" target="">Candidate Login</a><a style="display:block" href="/LinkClick.aspx?fileticket=Erp5hIlLqzo%3d&amp;tabid=20921&amp;portalid=42" target="_blank">2026 Candidate Reporting Dates</a><a style="display:block" href="/LinkClick.aspx?fileticket=Vlb8Bh-LGDI%3d&amp;tabid=2816&amp;portalid=42" target="_blank">2024 Candidate Reporting Dates</a><a style="display:block" href="http://dos.myflorida.com/elections/contacts/frequently-asked-questions/" target="_blank">Frequently Asked Questions</a><a style="display:block" href="/LinkClick.aspx?fileticket=lR3UJ5v5SvI%3d&amp;tabid=11517&amp;portalid=42" target="_blank">Candidate Workshop</a><a style="display:block" href="http://dos.myflorida.com/elections/forms-publications/forms/county-candidate-forms/" target="_blank">County Candidate Forms</a><a style="display:block" href="/LinkClick.aspx?fileticket=zIpyRiGPWaE%3d&amp;tabid=14193&amp;portalid=42" target="_blank">Request for Acquisition of Registered Voter Information</a><a style="display:block" href="/LinkClick.aspx?fileticket=gf1C0xF01QQ%3d&amp;tabid=17922&amp;portalid=42" target="_blank">Application to obtain vote-by-mail  request information</a><a style="display:block" href="https://www.slcelections.com/CANDIDATE-INFORMATION/City-of-Port-St-Lucie-Polling-Place-Guide-and-Sign-Ordinance-Information" target="">City of Port St Lucie Polling Place Guide and Sign Ordinance Information</a><a style="display:block" href="/LinkClick.aspx?fileticket=xe__cXQJrUc%3d&amp;tabid=21220&amp;portalid=42" target="_blank">FDOT Political Campaign Sign Notice</a></div>
+  </div>
+  <div id="REPORTS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/REPORTS" target="">REPORTS</a></h3>
+    <div class="pane"><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Election-Results" target="">Election Results</a><a style="display:block" href="https://www.slcelections.com/VOTER-REGISTRATION-INFORMATION/Registration-Reports" target="">Registration Reports</a><a style="display:block" href="https://www.slcelections.com/ELECTION-INFORMATION/Election-Voting-Trends" target="">Voting Trends</a></div>
+  </div>
+  <div id="MAPS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/MAPS" target="">MAPS</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="LINKS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/LINKS" target="">LINKS</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="FIND MY REPRESENTATIVE" class="accordionDiv">
+    <h3><a href="http://www.slcelections.com/ELECTION-INFORMATION/Where-do-I-vote" target="">FIND MY REPRESENTATIVE</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="2024 FSE SCHOLARSHIP" class="accordionDiv">
+    <h3><a href="/LinkClick.aspx?fileticket=0k0MQpSxG-8%3d&amp;tabid=17147&amp;portalid=42" target="_blank">2024 FSE SCHOLARSHIP</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="FORMS" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/FORMS" target="">FORMS</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="TRANSPARENCY IN COVERAGE" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/TRANSPARENCY-IN-COVERAGE" target="">TRANSPARENCY IN COVERAGE</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="NOTICE OF POTENTIAL INELIGIBILITY" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/NOTICE-OF-POTENTIAL-INELIGIBILITY" target="">NOTICE OF POTENTIAL INELIGIBILITY</a></h3>
+    <div class="pane"></div>
+  </div>
+  <div id="INITIATIVE PETITION REPORT" class="accordionDiv">
+    <h3><a href="https://www.slcelections.com/INITIATIVE-PETITION-REPORT" target="">INITIATIVE PETITION REPORT</a></h3>
+    <div class="pane"></div>
+  </div>
+</div>
+
+
+		</div>
+		<div id="dnn_ContentPane" class="homecontentpane resize"><div class="DnnModule DnnModule-DNN_HTML DnnModule-44538 DnnVersionableControl"><a name="44538"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr44538_ContentPane"><!-- Start_Module_44538 --><div id="dnn_ctr44538_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr44538_HtmlModule_lblContent"><hr />
+<p style="text-align: center;"><a href="https://registertovoteflorida.gov/home" target="_blank"><img alt="Register to vote florida logo" src="/portals/stlucie/images/ovr-button.jpg" /></a></p>
+
+<p style="text-align: center;"><span style="font-size:14px;">Online Voter Registration is now available. Register to vote or update your current registration at&nbsp;<a href="https://registertovoteflorida.gov/home" target="_blank">www.registertovoteflorida.gov</a></span></p>
+
+<p style="text-align: center;"><span style="font-size:14px;">If you do not currently have a valid Florida ID, you can register to vote using the statewide voter registration application form that is available for download (<a href="https://files.floridados.gov/media/707891/1s-2040-form-ds-de-39-eng-nonfillable-20240424.pdf" target="_blank">English PDF</a>/&nbsp;<a href="https://files.floridados.gov/media/707892/1s-2040-form-ds-de-39-spn-nonfillable-revised-0240424.pdf" target="_blank">Español PDF</a>)</span></p>
+
+<p style="text-align: center;"><span style="font-size:14px;"><a href="https://dos.myflorida.com/media/698341/ovr-faq-english.pdf" target="_blank">Online Voter Registration FAQ</a><br />
+<a href="https://dos.myflorida.com/media/698338/ovr-faq-spanish.pdf" target="_blank">Votantes en linea Registro FAQ</a><br />
+<a href="/Portals/StLucie/documents/voter%20guides/Spanish%20Trifold%20Voter%20Information%20Guide%202018.pdf" target="_blank">Condado de St. Lucie Guía del Votante</a></span></p>
+
+<p style="text-align: center;"><span style="font-size:14px;"><strong>ASISTENCIA EN ESPANOL: 772-448-5169&nbsp; &nbsp;(844)575-2763</strong></span></p>
+
+<hr />
+<p>&nbsp;</p>
+</div>
+
+
+
+
+</div><!-- End_Module_44538 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-46298 DnnVersionableControl"><a name="46298"></a>
+<div class="WFContainer_Title_h1 SpacingBottom">
+    <h1><span id="dnn_ctr46298_wfTITLE_titleLabel" class="TitleH1"> </span>
+
+
+</h1>
+    <div id="dnn_ctr46298_ContentPane"><!-- Start_Module_46298 --><div id="dnn_ctr46298_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr46298_HtmlModule_lblContent"><p><iframe frameborder="0" scrolling="no" src="https://copilotstudio.microsoft.com/environments/Default-6451038c-dae9-424d-b35a-a4906b7eb8de/bots/cr6b8_slcElections/webchat?__version__=2" style="width: 90%; height: 650px;"></iframe></p>
+</div>
+
+
+
+
+</div><!-- End_Module_46298 --></div>
+</div>
+</div></div>
+		<div id="rightsidebar">
+			<div id="search">
+				<script type="text/javascript" id="bcs_js_snippet" src="https://ui.customsearch.ai/api/ux/rendering-js?customConfig=2408131869&market=en-US&version=latest&q=">
+				</script>
+			</div>
+			<div id="translatetext">Seleccione El Idoioma</div>
+			<div id="google_translate_element"></div>
+			<div id="calendar">
+				<div id="calendarheader">Community Outreach Calendar</div>
+				<div id="dnn_calendarcontentpanetop" class="calendartext"><div class="DnnModule DnnModule-DNN_Events DnnModule-5518"><a name="5518"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr5518_ContentPane"><!-- Start_Module_5518 --><div id="dnn_ctr5518_ModuleContent" class="DNNModuleContent ModDNNEventsC">
+	<div id="dnn_ctr5518_Events_UP">
+		<div id="dnn_ctr5518_Events_pnlEventsModule" class="ThemeEvents">
+			
+    <div id="dnn_ctr5518_Events_EventList_toolTipManager" class="Eventtooltip" style="display:none;position:absolute;">
+				<!-- 2013.2.717.40 --><div id="dnn_ctr5518_Events_EventList_toolTipManagerRTMPanel">
+
+				</div><input id="dnn_ctr5518_Events_EventList_toolTipManager_ClientState" name="dnn_ctr5518_Events_EventList_toolTipManager_ClientState" type="hidden" />
+			</div>
+<div>
+    <div class="EvtHdrLftCol">
+        
+    </div>
+    <div class="EvtHdrMdlCol">
+        
+    </div>
+    <div class="TopIconBar EvtHdrRgtCol">
+        
+<div class="IconBar" style="text-align: center">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+    </div>
+    <div style="clear: both">
+        
+    </div>
+    <div id="dnn_ctr5518_Events_EventList_divNoEvents" class="dnnForm">
+        <div class="dnnFormMessage dnnFormWarning">
+            <span id="dnn_ctr5518_Events_EventList_lblNoEvents">No events to display.</span>
+        </div>
+    </div>
+    <div class="BottomIconBar">
+        
+    </div>
+</div>
+
+		</div>
+<div style="text-align: center;">
+    
+</div>
+	</div><div id="dnn_ctr5518_Events_UP_Prog" style="display:none;">
+		<div class="dnnLoading dnnPanelLoading"></div>
+	</div>
+</div><!-- End_Module_5518 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-12302 DnnVersionableControl"><a name="12302"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr12302_ContentPane"><!-- Start_Module_12302 --><div id="dnn_ctr12302_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr12302_HtmlModule_lblContent"><p><a href="/Full-Calendar-from-Home-Page" style="font-size: x-small; font-family: Verdana;">Full Calendar View</a></p>
+</div>
+
+
+
+
+</div><!-- End_Module_12302 --></div>
+</div>
+</div></div>
+			</div>
+
+			<div id="news">
+				<div id="newstop">News</div>
+				<div id="dnn_newscontentpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5290 DnnVersionableControl"><a name="5290"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr5290_ContentPane"><!-- Start_Module_5290 --><div id="dnn_ctr5290_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5290_HtmlModule_lblContent"><p><a href="https://www.facebook.com/slcsoe?_rdr=p" target="_blank"><img alt="Like us on Facebook Logo" src="/portals/stlucie/images/lik_us_on_facebook.png" style="width: 175px; height: 58px;" /></a></p>
+
+<p><a href="/Portals/StLucie/documents/news items/2024 First Vote Program.pdf?ver=LMMtmliFyYChEjVFrE3S_A%3d%3d" target="_blank"><span style="font-size:14px;"><strong>First Vote: A Voter Registration Drive for High School Students</strong></span></a></p>
+
+<p><a href="/Portals/StLucie/documents/canvassing board schedules and public notices/2024 Elections/2024 PPP/STL20240403_2024 PPP Audit.pdf?ver=ewGtJAtn3Hs5Mb1ujAbjYA%3d%3d" target="_blank"><span style="font-size:14px;"><strong>2024 Presidential Preference Primary Audit Report</strong></span></a></p>
+
+<p><a href="/Portals/StLucie/documents/news items/2024_NGE_STL_English.pdf?ver=_5lbTWD-bJdjK2t7tPxaMA%3d%3d" target="_blank"><strong><span style="font-size:14px;">Notices of General Election</span></strong></a>&nbsp;(<a href="https://dos.fl.gov/elections/for-voters/notices-of-general-election/" target="_blank">Spanish</a>)</p>
+
+<p><a href="/Portals/StLucie/documents/news items/2024 Republican PPP.pdf?ver=8DmJcgCJd-ATbNrqpvADrg%3d%3d" target="_blank">Important Notice for Voters on Election Day</a></p>
+
+<p>2<a href="/Portals/StLucie/documents/news items/2024 PPP New Early Voting Site.pdf?ver=Rwc3nqP2WsfuXfkPuJBCng%3d%3d" target="_blank">024 PPP New Early Voting Site</a></p>
+
+<p><a href="/Portals/StLucie/documents/news items/2024 PPP Sample Ballots Mailed.pdf?ver=fPQsOaINh_cJTd8H-OOaUw%3d%3d" target="_blank">March 19, 2024, Republican Presidential Preference Primary<br />
+Sample Ballots Mailed to Voters</a></p>
+
+<p><a href="/Portals/StLucie/documents/news items/2024 Presidential Preference Primary Candidate Withdrawal Notice.pdf?ver=I_Oo95rtQiYmtc9z8FGx2Q%3d%3d" target="_blank">2024 Presidential Preference Primary Candidate Withdrawal Notice</a></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/news items/Voters Moved to Inactive Status.pdf?ver=kyNGq-ON1f93p6Th1FcoaA%3d%3d" target="_blank">Voters Moved to Inactive Status</a></span></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/news items/2024 PPP Closed Primary.pdf?ver=SY0AfljnhQK-EW0nZlAdWw%3d%3d" target="_blank">March 19, 2024 Presidential Preference Primary Election is a Closed Primary for Republican Voters</a></span></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/news items/FSE Scholarship Press Release 1-8-24.pdf?ver=BDqbCSpWTGbT269HhPHVVQ%3d%3d" target="_blank">Florida Supervisor of Elections Association AnnouncesScholarship Opportunities For College Student</a></span></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/FSASE/FSE Scholarship Application 2024 .pdf?ver=xhCtEIpXU3vnx9PsLZ8wqA%3d%3d" target="_blank">2024&nbsp;FSE Scholarship Information</a></span></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/precinct and polling places/2024 Polling Place Location Changes.pdf?ver=OdnpDCcaxIZEZmGDhFBgyw%3d%3d" target="_blank">2024 POLLING PLACE LOCATION CHANGES</a></span></p>
+
+<p><span style="font-size:12px;">Has Your Signature Changed?&nbsp;<a href="/VOTE-BY-MAIL/Absentee-Request-Form-Lookup/Vote-By-Mail">UPDATE YOUR SIGNATURE</a></span></p>
+
+<p><span style="font-size:12px;"><a href="/Portals/StLucie/documents/news items/Felon Eligibility Information1.pdf?ver=2020-07-24-125934-983" target="_blank">FELON ELIGIBILITY</a></span></p>
+
+<p><span style="font-size:12px;"><a href="https://www.dos.myflorida.com/elections/for-voters/voter-registration/constitutional-amendment-4felon-voting-rights/" target="_blank">AMENDMENT 4: STANDARDS GOVERNING ELIGIBILITY TO VOTE AFTER A FELONY CONVICTION</a></span></p>
+</div>
+
+
+
+
+</div><!-- End_Module_5290 --></div>
+</div>
+</div></div>
+			</div>
+			<div id="dates">
+				<div id="datestop">Dates to Remember</div>
+				<div id="datesmiddle">
+					<div id="dnn_datescontentpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-30669 DnnVersionableControl"><a name="30669"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr30669_ContentPane"><!-- Start_Module_30669 --><div id="dnn_ctr30669_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr30669_HtmlModule_lblContent"><h5 style="margin: 0in 0in 7.5pt; background-position: initial; background-color: white;">Presidential Preference Primary Election</h5>
+
+<h5 class="xmsonormal"><span new="" roman="" times="">March 19 <sup>th</sup>, 2024</span></h5>
+
+<h5 class="xmsonormal"><span style="color:#ff3300;">Deadline to register: February 20, 2024</span></h5>
+
+<h6 class="xmsonormal">&nbsp;</h6>
+
+<h5 class="xmsonormal"><span new="" roman="" times="">Primary Election </span></h5>
+
+<h5 class="xmsonormal"><span new="" roman="" times="">August 20 <sup>th</sup>, 2024</span></h5>
+
+<h5 class="xmsonormal"><span style="color:#ff0000;">Deadline to register: July 22, 2024</span></h5>
+
+<p class="xmsonormal">&nbsp;</p>
+
+<h5 class="xmsonormal"><span new="" roman="" times="">General Election </span></h5>
+
+<h5 class="xmsonormal"><span new="" roman="" times="">November 5 <sup>th</sup>, 2024 </span></h5>
+
+<h5 class="xmsonormal"><span style="color:#ff0000;">Deadline to register: October 7, 2024</span></h5>
+
+<h5 class="xmsonormal">&nbsp;</h5>
+
+<div>
+<div>
+<div>
+<div>
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div><!-- End_Module_30669 --></div>
+</div>
+</div></div>
+				</div>
+			</div>
+		</div>
+		<div style="clear: both"></div>
+	</div>
+</div>
+<div style="clear: both"></div>
+<div id="footer">
+	<div id="footertop"></div>
+	<div id="footermiddle">
+		<img alt="Best Places to Work Award" src="/portals/stlucie/skins/stlucie/images/NewBPTWemblem.png" class="bestplaces" height="102" width="107" />
+		<div id="officehours">
+			<img alt="locations" src="/portals/stlucie/skins/stlucie/images/wf_locations.jpg" class="locations" height="21" width="123" />
+			<div id="dnn_hours" class="hourscontentpane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5291 DnnVersionableControl"><a name="5291"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr5291_ContentPane"><!-- Start_Module_5291 --><div id="dnn_ctr5291_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5291_HtmlModule_lblContent"><p><span style="color:#ffffff;"><strong>OFFICE HOURS:</strong></span>
+</p>
+<p>Monday - Friday 8:30 a.m. - 5:00 p.m. <br><span>Email:elections@slcelections.com</span>
+</p></div>
+
+
+
+
+</div><!-- End_Module_5291 --></div>
+</div>
+</div></div>
+		</div>
+		<img alt="bottom border" src="/portals/stlucie/skins/stlucie/images/wf_footerbar2.jpg" height="1" width="762" class="locationsfooterbar" />
+		<div id="dnn_footercontentpane" class="footertext"><div class="DnnModule DnnModule-DNN_HTML DnnModule-5292 DnnVersionableControl"><a name="5292"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr5292_ContentPane"><!-- Start_Module_5292 --><div id="dnn_ctr5292_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr5292_HtmlModule_lblContent"><table>
+ <tbody>
+ </tbody>
+</table>
+
+<table>
+ <tbody>
+  <tr>
+   <td style="color: white; border-right: 1px solid #ffffff;"><span style="font-size:11px;"><strong>Renaissance Business Park</strong><br />
+   (Formerly Orange Blossom Business Center)<br />
+   4132 Okeechobee Rd.<br />
+   Fort Pierce, Florida 34947<br />
+   <strong>PHONE</strong>: (772) 462-1500<br />
+   <strong>FAX: </strong>(772) 462-1439&nbsp;</span></td>
+   <td style="color: white; border-right: 1px solid #ffffff;"><span style="font-size:11px;"><strong>St. Lucie West<br />
+   South County&nbsp;Annex</strong><br />
+   250 NW Country Club Dr.<br />
+   Port St. Lucie, Florida 34986<br />
+   <strong>PHONE</strong>: (772) 871-5410</span><br />
+   <br />
+   &nbsp;</td>
+   <td style="color: white; border-right: 1px solid #ffffff;"><span style="font-size:11px;"><strong>Walton Rd County<br />
+   Administration Annex</strong><br />
+   1664 SE Walton Rd.<br />
+   Port St. Lucie, Florida 34952<br />
+   <strong>PHONE</strong>: (772) 337-5623</span><br />
+   &nbsp;</td>
+   <td><span style="font-size:11px;"><span style="color: #ffffff;"><strong>Tradition</strong><br />
+   Located inside the<br />
+   Tax Collectors office<br />
+   10264 SW Village Parkway<br />
+   Port St. Lucie, FL 34987</span></span></td>
+  </tr>
+ </tbody>
+</table>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<div>&nbsp;</div>
+</div>
+
+
+
+
+</div><!-- End_Module_5292 --></div>
+</div>
+</div></div>
+	</div>
+	<div id="footerbottom"></div>
+</div>
+<div id="copyrighttext">
+	<div id="dnn_copyrightcontentpane" class="copyrighttext"><div class="DnnModule DnnModule-DNN_HTML DnnModule-19393 DnnVersionableControl"><a name="19393"></a>
+<div class="WFContainer_noTitle SpacingBottom">
+    <div id="dnn_ctr19393_ContentPane"><!-- Start_Module_19393 --><div id="dnn_ctr19393_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr19393_HtmlModule_lblContent"><p style="text-align: center;">Copyright St. Lucie County Supervisor of Elections</p></div>
+
+
+
+
+</div><!-- End_Module_19393 --></div>
+</div>
+</div></div>
+</div>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`trackLinks`:`false`,`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`2392`,`evoq_TabId`:`2392`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`https%3a%2f%2fwww.slcelections.com%2f`,`evoq_UrlQuery`:`%3fTabId%3d2392%26language%3den-US`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="DDOZ9xix8YaUaA9DtkDOz-Ex7SJ8E1q8-RbgBp1wcYk0vzbf7Cyv7_QI1RFMo8FeYOYfNA2" />
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadToolTipManager, {"_cssClass":"Eventtooltip","_manualCloseButtonText":"Close","_updatePanelUniqueId":"dnn$ctr5518$Events$EventList$toolTipManagerRTMPanel","clientStateFieldID":"dnn_ctr5518_Events_EventList_toolTipManager_ClientState","formID":"Form","hideEvent":8,"isToolTipFactory":true,"loadOnDemand":false,"renderMode":0,"showCallout":false,"skin":"Default","targetControls":"[]"}, null, null, $get("dnn_ctr5518_Events_EventList_toolTipManager"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr5518_Events_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr5518_Events_UP_Prog"));
+});
+//]]>
+</script>
+</form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=981|DnnBodyProvider|100)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=981|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/StLucie/Skins/StLucie/skin.css?cdv=981|DnnPageHeaderProvider|15)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/DesktopModules/Events/module.css?cdv=981|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/Events/module.css?cdv=981|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Css|/Portals/StLucie/Containers/StLucie/container.css?cdv=981|DnnPageHeaderProvider|25)--><!--CDF(Javascript|/js/dnn.js?cdv=981|DnnBodyProvider|12)--><!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=981|DnnBodyProvider|100)--><!--CDF(Css|/Portals/StLucie/Skins/StLucie/jQueryToolsAccordion/tabs-accordion.css?cdv=981|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=981|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=981|DnnPageHeaderProvider|6)-->
+    
+</body>
+</html>

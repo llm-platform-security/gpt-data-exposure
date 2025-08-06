@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script type="text/html" id="tmpl-bb-link-preview">
+<% if ( link_scrapping ) { %>
+	<% if ( link_loading ) { %>
+		<span class="bb-url-scrapper-loading bb-ajax-loader"><i class="bb-icon-l bb-icon-spinner animate-spin"></i>Cargando la vista previa...</span>
+	<% } %>
+	<% if ( link_success || link_error ) { %>
+		<a title="Cancelar la vista previa" href="#" id="bb-close-link-suggestion">Eliminar la vista previa</a>
+		<div class="bb-link-preview-container">
+
+			<% if ( link_images && link_images.length && link_success && ! link_error && '' !== link_image_index ) { %>
+				<div id="bb-url-scrapper-img-holder">
+					<div class="bb-link-preview-image">
+						<div class="bb-link-preview-image-cover">
+							<img src="<%= link_images[link_image_index] %>"/>
+						</div>
+						<div class="bb-link-preview-icons">
+							<%
+							if ( link_images.length > 1 ) { %>
+								<a data-bp-tooltip-pos="up" data-bp-tooltip="Cambiar la imagen" href="#" class="icon-exchange toolbar-button bp-tooltip" id="icon-exchange"><i class="bb-icon-l bb-icon-exchange"></i></a>
+							<% } %>
+							<% if ( link_images.length ) { %>
+								<a data-bp-tooltip-pos="up" data-bp-tooltip="Quitar la imagen" href="#" class="icon-image-slash toolbar-button bp-tooltip" id="bb-link-preview-remove-image"><i class="bb-icon-l bb-icon-image-slash"></i></a>
+							<% } %>
+							<a data-bp-tooltip-pos="up" data-bp-tooltip="Confirmar" class="toolbar-button bp-tooltip" href="#" id="bb-link-preview-select-image">
+								<i class="bb-icon-check bb-icon-l"></i>
+							</a>
+						</div>
+					</div>
+					<% if ( link_images.length > 1 ) { %>
+						<div class="bb-url-thumb-nav">
+							<button type="button" id="bb-url-prevPicButton"><span class="bb-icon-l bb-icon-angle-left"></span></button>
+							<button type="button" id="bb-url-nextPicButton"><span class="bb-icon-l bb-icon-angle-right"></span></button>
+							<div id="bb-url-scrapper-img-count">
+								Imagen <%= link_image_index + 1 %>&nbsp;de&nbsp;<%= link_images.length %>
+							</div>
+						</div>
+					<% } %>
+				</div>
+			<% } %>
+
+			<% if ( link_success && ! link_error && link_url ) { %>
+				<div class="bb-link-preview-info">
+					<% var a = document.createElement('a');
+						a.href = link_url;
+						var hostname = a.hostname;
+						var domainName = hostname.replace('www.', '' );
+					%>
+
+					<% if ( 'undefined' !== typeof link_title && link_title.trim() && link_description ) { %>
+						<p class="bb-link-preview-link-name"><%= domainName %></p>
+					<% } %>
+
+					<% if ( link_success && ! link_error ) { %>
+						<p class="bb-link-preview-title"><%= link_title %></p>
+					<% } %>
+
+					<% if ( link_success && ! link_error ) { %>
+						<div class="bb-link-preview-excerpt"><p><%= link_description %></p></div>
+					<% } %>
+				</div>
+			<% } %>
+			<% if ( link_error && ! link_success ) { %>
+				<div id="bb-url-error" class="bb-url-error"><%= link_error_msg %></div>
+			<% } %>
+		</div>
+	<% } %>
+<% } %>
+</script>
+
+            <style id="bb_learndash_30_custom_colors">
+
+                
+                
+                
+                .learndash-wrapper .ld-item-list .ld-item-list-item.ld-item-lesson-item .ld-item-name .ld-item-title .ld-item-components span.ld-status-waiting,
+                .learndash-wrapper .ld-item-list .ld-item-list-item.ld-item-lesson-item .ld-item-name .ld-item-title .ld-item-components span.ld-status-waiting span.ld-icon,
+                .learndash-wrapper .ld-status-waiting {
+                    background-color: #ffd200 !important;
+                }
+
+                
+            </style>
+
+			
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Aviso legal y política de privacidad - HiveAgile</title>
+<meta name="description" content="AVISO LEGAL"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://hiveagile.com/privacy-policy/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Aviso legal y política de privacidad - HiveAgile" />
+<meta property="og:description" content="AVISO LEGAL" />
+<meta property="og:url" content="https://hiveagile.com/privacy-policy/" />
+<meta property="og:site_name" content="HiveAgile" />
+<meta property="og:updated_time" content="2021-09-19T23:03:42+02:00" />
+<meta property="og:image" content="https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png" />
+<meta property="og:image:secure_url" content="https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png" />
+<meta property="og:image:width" content="1241" />
+<meta property="og:image:height" content="432" />
+<meta property="og:image:alt" content="Aviso legal y política de privacidad" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:published_time" content="2021-08-27T13:23:41+02:00" />
+<meta property="article:modified_time" content="2021-09-19T23:03:42+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Aviso legal y política de privacidad - HiveAgile" />
+<meta name="twitter:description" content="AVISO LEGAL" />
+<meta name="twitter:image" content="https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png" />
+<meta name="twitter:label1" content="Tiempo de lectura" />
+<meta name="twitter:data1" content="13 minutos" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["ProfessionalService","Organization"],"@id":"https://hiveagile.com/#organization","name":"HiveAgile","url":"https://hiveagile.com","email":"tuxedlinux@redaven.com","logo":{"@type":"ImageObject","@id":"https://hiveagile.com/#logo","url":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png","contentUrl":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png","caption":"HiveAgile","inLanguage":"es","width":"1241","height":"432"},"openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-17:00"],"image":{"@id":"https://hiveagile.com/#logo"}},{"@type":"WebSite","@id":"https://hiveagile.com/#website","url":"https://hiveagile.com","name":"HiveAgile","publisher":{"@id":"https://hiveagile.com/#organization"},"inLanguage":"es"},{"@type":"ImageObject","@id":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png","url":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png","width":"1241","height":"432","inLanguage":"es"},{"@type":"WebPage","@id":"https://hiveagile.com/privacy-policy/#webpage","url":"https://hiveagile.com/privacy-policy/","name":"Aviso legal y pol\u00edtica de privacidad - HiveAgile","datePublished":"2021-08-27T13:23:41+02:00","dateModified":"2021-09-19T23:03:42+02:00","isPartOf":{"@id":"https://hiveagile.com/#website"},"primaryImageOfPage":{"@id":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png"},"inLanguage":"es"},{"@type":"Person","@id":"https://hiveagile.com/author/hiveagile/","name":"hiveagile","url":"https://hiveagile.com/author/hiveagile/","image":{"@type":"ImageObject","@id":"https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/images/profile-avatar-buddyboss-50.png","url":"https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/images/profile-avatar-buddyboss-50.png","caption":"hiveagile","inLanguage":"es"},"sameAs":["https://hiveagile.com"],"worksFor":{"@id":"https://hiveagile.com/#organization"}},{"@type":"Article","headline":"Aviso legal y pol\u00edtica de privacidad - HiveAgile","datePublished":"2021-08-27T13:23:41+02:00","dateModified":"2021-09-19T23:03:42+02:00","author":{"@id":"https://hiveagile.com/author/hiveagile/","name":"hiveagile"},"publisher":{"@id":"https://hiveagile.com/#organization"},"description":"AVISO LEGAL","name":"Aviso legal y pol\u00edtica de privacidad - HiveAgile","@id":"https://hiveagile.com/privacy-policy/#richSnippet","isPartOf":{"@id":"https://hiveagile.com/privacy-policy/#webpage"},"image":{"@id":"https://hiveagile.com/wp-content/uploads/2021/08/logo-1.png"},"inLanguage":"es","mainEntityOfPage":{"@id":"https://hiveagile.com/privacy-policy/#webpage"}}]}</script>
+<!-- /Plugin Rank Math WordPress SEO -->
+
+<link rel="alternate" type="application/rss+xml" title="HiveAgile &raquo; Feed" href="https://hiveagile.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HiveAgile &raquo; Feed de los comentarios" href="https://hiveagile.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hiveagile.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='dce-animations-css' href='https://hiveagile.com/wp-content/plugins/dynamic-content-for-elementor/assets/css/animations.css?ver=2.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-nouveau-icons-map-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/icons/css/icons-map.min.css?ver=2.4.20' type='text/css' media='screen' />
+<link rel='stylesheet' id='bp-nouveau-bb-icons-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/icons/css/bb-icons.min.css?ver=1.0.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='dashicons-css' href='https://hiveagile.com/wp-includes/css/dashicons.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-nouveau-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/css/buddypress.min.css?ver=2.4.20' type='text/css' media='screen' />
+<style id='bp-nouveau-inline-css' type='text/css'>
+.list-wrap .bs-group-cover a:before{ background:unset; }
+</style>
+<link rel='stylesheet' id='buddyboss_legacy-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/inc/plugins/buddyboss-menu-icons/vendor/kucrut/icon-picker/css/types/buddyboss_legacy.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elusive-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/inc/plugins/buddyboss-menu-icons/vendor/kucrut/icon-picker/css/types/elusive.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://hiveagile.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='foundation-icons-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/inc/plugins/buddyboss-menu-icons/vendor/kucrut/icon-picker/css/types/foundation-icons.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/inc/plugins/buddyboss-menu-icons/vendor/kucrut/icon-picker/css/types/genericons.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://hiveagile.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='protected-video-protected-video-style-css' href='https://hiveagile.com/wp-content/plugins/protected-video/build/style-index.css?ver=1.10.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bb_theme_block-buddypanel-style-css-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/blocks/buddypanel/build/style-buddypanel.css?ver=a43481f57c3cc73f6cce06223a569c14' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bb-pro-enqueue-scripts-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/assets/css/index.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bb-access-control-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/includes/access-control/assets/css/bb-access-control.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-mentions-css-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/css/mentions.min.css?ver=2.4.20' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css' href='https://hiveagile.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://hiveagile.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pmpro_frontend-css' href='https://hiveagile.com/wp-content/plugins/paid-memberships-pro/css/frontend.css?ver=2.12.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='pmpro_print-css' href='https://hiveagile.com/wp-content/plugins/paid-memberships-pro/css/print.css?ver=2.12.2' type='text/css' media='print' />
+<link rel='stylesheet' id='theme-my-login-css' href='https://hiveagile.com/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-coupons-styles-css' href='https://hiveagile.com/wp-content/plugins/wp-coupons/css/style.min.css?ver=1.7.8' type='text/css' media='all' />
+<link rel='stylesheet' id='affwp-forms-css' href='https://hiveagile.com/wp-content/plugins/affiliate-wp/assets/css/forms.min.css?ver=2.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//hiveagile.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.8.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-dropdown-css-css' href='//hiveagile.com/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.8.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash_lesson_video-css' href='//hiveagile.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.8.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-fonts-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/fonts/fonts.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash-front-css' href='//hiveagile.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.8.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-lazyload-css' href='https://hiveagile.com/wp-content/plugins/elementor/assets/css/modules/lazyload/frontend.min.css?ver=3.16.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-zoom-css' href='https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/includes/integrations/zoom/assets/css/bp-zoom.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-magnific-popup-css-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/vendors/magnific-popup.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-select2-css-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/vendors/select2.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-css-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/theme.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-template-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/template-v2.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-buddypress-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/buddypress.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-forums-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/bbpress.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-learndash-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/learndash.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-elementor-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/elementor.min.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='buddyboss-theme-pmpro-css' href='https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/css/pmpro.min.css?ver=2.4.10' type='text/css' media='all' />
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/widget-members.min.js?ver=2.4.20" id="bp-widget-members-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/jquery-query.min.js?ver=2.4.20" id="bp-jquery-query-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/jquery-cookie.min.js?ver=2.4.20" id="bp-jquery-cookie-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/jquery-scroll-to.min.js?ver=2.4.20" id="bp-jquery-scroll-to-js"></script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#61a229","button_1_button_hover":"#4e8221","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.1.4" id="cookie-law-info-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/wp-coupons/js/clipboard.min.js?ver=6.4.3" id="clipboard-js-js"></script>
+<script type="text/javascript" id="jquery-cookie-js-extra">
+/* <![CDATA[ */
+var affwp_scripts = {"ajaxurl":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/affiliate-wp/assets/js/jquery.cookie.min.js?ver=1.4.0" id="jquery-cookie-js"></script>
+<script type="text/javascript" id="affwp-tracking-js-extra">
+/* <![CDATA[ */
+var affwp_debug_vars = {"integrations":{"pmp":"Paid Memberships Pro"},"version":"2.7.4","currency":"EUR","ref_cookie":"affwp_ref","visit_cookie":"affwp_ref_visit_id","campaign_cookie":"affwp_campaign"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js?ver=2.7.4" id="affwp-tracking-js"></script>
+<link rel="https://api.w.org/" href="https://hiveagile.com/wp-json/" /><link rel="alternate" type="application/json" href="https://hiveagile.com/wp-json/wp/v2/pages/10" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hiveagile.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.3" />
+<link rel='shortlink' href='https://hiveagile.com/?p=10' />
+<link rel="alternate" type="application/json+oembed" href="https://hiveagile.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiveagile.com%2Fprivacy-policy%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hiveagile.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhiveagile.com%2Fprivacy-policy%2F&#038;format=xml" />
+
+	<script>var ajaxurl = 'https://hiveagile.com/wp-admin/admin-ajax.php';</script>
+
+			<script type="text/javascript">
+		var AFFWP = AFFWP || {};
+		AFFWP.referral_var = 'ref';
+		AFFWP.expiration = 1;
+		AFFWP.debug = 0;
+
+
+		AFFWP.referral_credit_last = 0;
+		</script>
+<meta name="framework" content="Redux 4.3.1" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-disabled, font_display-block">
+			<meta name="theme-color" content="#F5F5F5">
+			<link rel="icon" href="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-270x270.png" />
+		<style id="buddyboss_theme-style">
+
+			:root{--bb-primary-color:#000000;--bb-primary-color-rgb:0, 0, 0;--bb-body-background-color:#FAFBFD;--bb-body-background-color-rgb:250, 251, 253;--bb-content-background-color:#FFFFFF;--bb-content-alternate-background-color:#F2F4F5;--bb-content-border-color:#D6D9DD;--bb-content-border-color-rgb:214, 217, 221;--bb-cover-image-background-color:#647385;--bb-headings-color:#1E2132;--bb-headings-color-rgb:30, 33, 50;--bb-body-text-color:#5A5A5A;--bb-body-text-color-rgb:90, 90, 90;--bb-alternate-text-color:#9B9C9F;--bb-alternate-text-color-rgb:155, 156, 159;--bb-primary-button-background-regular:#385DFF;--bb-primary-button-background-hover:#F4A422;--bb-primary-button-border-regular:#385DFF;--bb-primary-button-border-hover:#F4A422;--bb-primary-button-text-regular:#FFFFFF;--bb-primary-button-text-regular-rgb:255, 255, 255;--bb-primary-button-text-hover:#FFFFFF;--bb-primary-button-text-hover-rgb:255, 255, 255;--bb-secondary-button-background-regular:#F2F4F5;--bb-secondary-button-background-hover:#385DFF;--bb-secondary-button-border-regular:#F2F4F5;--bb-secondary-button-border-hover:#385DFF;--bb-secondary-button-text-regular:#1E2132;--bb-secondary-button-text-hover:#FFFFFF;--bb-header-background:#FFFFFF;--bb-header-alternate-background:#F2F4F5;--bb-header-links:#1E2132;--bb-header-links-hover:#385DFF;--bb-header-mobile-logo-size:120px;--bb-header-height:76px;--bb-sidenav-background:#FFFFFF;--bb-sidenav-text-regular:#1E2132;--bb-sidenav-text-hover:#1E2132;--bb-sidenav-text-active:#FFFFFF;--bb-sidenav-menu-background-color-regular:#FFFFFF;--bb-sidenav-menu-background-color-hover:#F2F4F5;--bb-sidenav-menu-background-color-active:#385DFF;--bb-sidenav-count-text-color-regular:#1E2132;--bb-sidenav-count-text-color-hover:#FFFFFF;--bb-sidenav-count-text-color-active:#385DFF;--bb-sidenav-count-background-color-regular:#F2F4F5;--bb-sidenav-count-background-color-hover:#385DFF;--bb-sidenav-count-background-color-active:#FFFFFF;--bb-footer-background:#FAFBFD;--bb-footer-widget-background:#FAFBFD;--bb-footer-text-color:#5A5A5A;--bb-footer-menu-link-color-regular:#5A5A5A;--bb-footer-menu-link-color-hover:#385DFF;--bb-footer-menu-link-color-active:#1E2132;--bb-admin-screen-bgr-color:#FFFFFF;--bb-admin-screen-txt-color:#1E2132;--bb-login-register-link-color-regular:#5A5A5A;--bb-login-register-link-color-hover:#1E42DD;--bb-login-register-button-background-color-regular:#385DFF;--bb-login-register-button-background-color-hover:#1E42DD;--bb-login-register-button-border-color-regular:#385DFF;--bb-login-register-button-border-color-hover:#1E42DD;--bb-login-register-button-text-color-regular:#FFFFFF;--bb-login-register-button-text-color-hover:#FFFFFF;--bb-label-background-color:#D7DFFF;--bb-label-text-color:#385DFF;--bb-tooltip-background:#1E2132;--bb-tooltip-background-rgb:30, 33, 50;--bb-tooltip-color:#FFFFFF;--bb-default-notice-color:#385DFF;--bb-default-notice-color-rgb:56, 93, 255;--bb-success-color:#14B550;--bb-success-color-rgb:20, 181, 80;--bb-warning-color:#ED9615;--bb-warning-color-rgb:237, 150, 21;--bb-danger-color:#DB222A;--bb-danger-color-rgb:219, 34, 42;--bb-login-custom-heading-color:#FFFFFF;--bb-button-radius:100px;--bb-block-radius:10px;--bb-option-radius:5px;--bb-block-radius-inner:6px;--bb-input-radius:6px;--bb-label-type-radius:6px;--bb-checkbox-radius:5.4px;--bb-primary-button-focus-shadow:0px 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 2px rgba(0, 0, 0, 0.08);--bb-secondary-button-focus-shadow:0px 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 2px rgba(0, 0, 0, 0.08);--bb-outline-button-focus-shadow:0px 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px 0px 0px 2px rgba(0, 0, 0, 0.08);--bb-input-focus-shadow:0px 0px 0px 2px rgba(var(--bb-primary-color-rgb), 0.1);--bb-input-focus-border-color:var(--bb-primary-color);--bb-widget-title-text-transform:none;}.bb-style-primary-bgr-color {background-color:#000000;}.bb-style-border-radius {border-radius:100px;}#site-logo .site-title img {max-height:inherit;}.site-header-container .site-branding {min-width:157px;}#site-logo .site-title .bb-logo img,#site-logo .site-title img.bb-logo,.buddypanel .site-title img {width:157px;}.llms-sidebar.bb-dark-theme .site-title img.bb-mobile-logo.bb-mobile-logo-dark,.bb-sfwd-aside.bb-dark-theme:not(.bb-custom-ld-logo-enabled) .site-title img.bb-mobile-logo.bb-mobile-logo-dark {display:inline;}.site-title img.bb-mobile-logo.bb-mobile-logo-dark,.llms-sidebar.bb-dark-theme .site-title img.bb-mobile-logo,.bb-sfwd-aside.bb-dark-theme:not(.bb-custom-ld-logo-enabled) .site-title img.bb-mobile-logo {display:none;}.llms-sidebar.bb-dark-theme .site-title img.bb-mobile-logo.bb-mobile-logo-dark,.bb-sfwd-aside.bb-dark-theme .site-title img.bb-mobile-logo.bb-mobile-logo-dark {width:120px;}.site-title img.bb-mobile-logo {width:120px;}.site-header-container #site-logo .bb-logo img,.site-header-container #site-logo .site-title img.bb-logo,.site-title img.bb-mobile-logo {max-height:76px}.sticky-header .site-content,body.buddypress.sticky-header .site-content,.bb-buddypanel.sticky-header .site-content,.single-sfwd-quiz.bb-buddypanel.sticky-header .site-content,.single-sfwd-lessons.bb-buddypanel.sticky-header .site-content,.single-sfwd-topic.bb-buddypanel.sticky-header .site-content {padding-top:76px}.site-header .site-header-container,.header-search-wrap,.header-search-wrap input.search-field,.header-search-wrap form.search-form {height:76px;}.sticky-header .bp-feedback.bp-sitewide-notice {top:76px;}@media screen and (max-width:767px) {.bb-mobile-header {height:76px;}#learndash-content .lms-topic-sidebar-wrapper .lms-topic-sidebar-data {height:calc(90vh - 76px);}}[data-balloon]:after,[data-bp-tooltip]:after {background-color:rgba( 30,33,50,1 );box-shadow:none;}[data-balloon]:before,[data-bp-tooltip]:before {background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba( 30,33,50,1 )%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");background-size:100% auto;}[data-bp-tooltip][data-bp-tooltip-pos="right"]:before,[data-balloon][data-balloon-pos='right']:before {background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba( 30,33,50,1 )%22%20transform%3D%22rotate(90 6 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");background-size:100% auto;}[data-bp-tooltip][data-bp-tooltip-pos="left"]:before,[data-balloon][data-balloon-pos='left']:before {background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba( 30,33,50,1 )%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");background-size:100% auto;}[data-bp-tooltip][data-bp-tooltip-pos="down-left"]:before,[data-bp-tooltip][data-bp-tooltip-pos="down"]:before,[data-balloon][data-balloon-pos='down']:before {background:no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba( 30,33,50,1 )%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");background-size:100% auto;}
+		</style>
+				<style id="buddyboss_theme-bp-style">
+
+		#buddypress #header-cover-image.has-default,#buddypress #header-cover-image.has-default .guillotine-window img,.bs-group-cover.has-default a {background-color:#647385;}.login-split {background-image:url(https://hiveagile.com/wp-content/uploads/2022/05/jakob-owens-1_0KyvVdtP4-unsplash-scaled.jpeg);background-size:cover;background-position:50% 50%;}body.buddypress.register.login-split-page .login-split .split-overlay,body.buddypress.activation.login-split-page .login-split .split-overlay {opacity:0.4;}body.buddypress.register .register-section-logo img,body.buddypress.activation .activate-section-logo img {width:234px;}
+		</style>
+				<style id="buddyboss_theme-forums-style">
+
+		.bbpress .widget_display_forums > ul.bb-sidebar-forums > li a:before {border-color:#bf5e63;}.bbpress .widget_display_forums > ul.bb-sidebar-forums > li a:before {background-color:rgba( 191,94,99,0.5 );}
+		</style>
+		
+		<style id="buddyboss_theme-learndash-style">
+
+		.learndash-wrapper .bb-ld-tabs #learndash-course-content {top:-86px;}html[dir="rtl"] .learndash_next_prev_link a.next-link,html[dir="rtl"] .learndash_next_prev_link span.next-link {border-radius:100px 0 0 100px;}html[dir="rtl"] .learndash_next_prev_link a.prev-link,html[dir="rtl"] .learndash_next_prev_link span.prev-link {border-radius:0 100px 100px 0;}
+		</style>
+		
+		<style id="buddyboss_theme-custom-style">
+
+		a.bb-close-panel i {top:21px;}
+		</style>
+		<style id="learndash-focus-mode-style">.ld-in-focus-mode .learndash-wrapper .learndash_content_wrap{max-width: 960px}.ld-in-focus-mode .learndash-wrapper .bb-lms-header .lms-header-title, .ld-in-focus-mode .learndash-wrapper .bb-lms-header .lms-header-instructor{max-width: 960px}</style>		<style type="text/css" id="wp-custom-css">
+			/* Estilo para la posición del GTranslate Switcher en escritorios y grandes pantallas */
+.gt_switcher_wrapper {
+    top: 22px !important;
+    right: 100px !important;
+}
+
+/* Opcional: Estilos específicos para dispositivos móviles si es necesario */
+@media (max-width: 767px) {
+    .gt_switcher_wrapper {
+        /* Ajusta estos valores según cómo desees que se vea en móviles */
+        top: 20px !important;
+        right: 15px !important;
+    }
+}
+		</style>
+		<style>#pmpro_account {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .pmpro_box {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+    h3 {
+        margin-top: 0;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+    .pmpro_actionlinks {
+        margin-top: 10px;
+    }</style>
+	</head>
+
+	<body class="bp-nouveau page-template-default page page-id-10 pmpro-body-has-access buddyboss-theme bb-template-v2 bb-buddypanel bb-buddypanel-left buddypanel-logo-off bb-custom-typo  header-style-4  menu-style-standard sticky-header e-lazyload elementor-default elementor-kit-4417 no-js learndash-theme">
+
+        
+		<aside class="buddypanel buddypanel--toggle-on">
+			<header class="panel-head">
+			<a href="#" class="bb-toggle-panel"><i class="bb-icon-l bb-icon-sidebar"></i></a>
+		</header>
+				<div class="buddypanel-site-icon buddypanel_off_close_site_icon">
+			<a href="https://hiveagile.com/" class="buddypanel-site-icon-link">
+				<img src="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-50x50.png" class="buddypanel-site-icon-src"/>
+			</a>
+		</div>
+			<div class="side-panel-inner">
+		<div class="side-panel-menu-container">
+			<ul id="buddypanel-menu" class="buddypanel-menu side-panel-menu"><li id="menu-item-4738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4738"><a href="https://hiveagile.com" class="bb-menu-item" data-balloon-pos="right" data-balloon="Inicio"><i class="_mi _before bb-icon-l buddyboss bb-icon-home" aria-hidden="true"></i><span>Inicio</span></a></li>
+<li id="menu-item-3684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3684"><a href="https://hiveagile.com/dockers/" class="bb-menu-item" data-balloon-pos="right" data-balloon="Dockers"><img width="1" height="1" src="https://hiveagile.com/wp-content/uploads/2023/11/NoniconsDocker16-1.svg" class="_mi _before _image" alt="" aria-hidden="true" decoding="async" /><span>Dockers</span></a></li>
+<li id="menu-item-3685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3685"><a href="https://hiveagile.com/blog/" class="bb-menu-item" data-balloon-pos="right" data-balloon="Blog"><i class="_mi _before bb-icon-l buddyboss bb-icon-article" aria-hidden="true"></i><span>Blog</span></a></li>
+<li id="menu-item-4324" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4324"><a href="https://hiveagile.com/membership/pago-de-membresia/?level=2" class="bb-menu-item" data-balloon-pos="right" data-balloon="Registro"><i class="_mi _before bb-icon-l buddyboss bb-icon-user-arrow-up" aria-hidden="true"></i><span>Registro</span></a></li>
+<li id="menu-item-4318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4318"><a href="https://hiveagile.com/login/" class="bb-menu-item" data-balloon-pos="right" data-balloon="Acceder"><i class="_mi _before bb-icon-l buddyboss bb-icon-sign-in" aria-hidden="true"></i><span>Acceder</span></a></li>
+</ul>		</div>
+	</div>
+</aside>
+
+
+		<div id="page" class="site">
+
+			
+			<header id="masthead" class="site-header site-header--bb">
+				<div class="container site-header-container flex default-header">
+    <a href="#" class="bb-toggle-panel"><i class="bb-icon-l bb-icon-sidebar"></i></a>
+    
+<div id="site-logo" class="site-branding buddypanel_logo_display_off">
+	<div class="site-title">
+		<a href="https://hiveagile.com/" rel="home">
+			<img width="512" height="512" src="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png" class="bb-logo" alt="" decoding="async" fetchpriority="high" srcset="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png 512w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-300x300.png 300w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-150x150.png 150w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-50x50.png 50w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-100x100.png 100w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-270x270.png 270w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-192x192.png 192w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-180x180.png 180w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px" />		</a>
+	</div>
+</div>	<div class="header-search-wrap header-search-primary">
+		<div class="container">
+			
+<form role="search" method="get" class="search-form" action="https://hiveagile.com/">
+	<label>
+		<span class="screen-reader-text">Buscar:</span>
+		<input type="search" class="search-field-top" placeholder="Buscar " value="" name="s" />
+	</label>
+</form>
+		</div>
+	</div>
+		
+<div id="header-aside" class="header-aside name_and_avatar">
+	<div class="header-aside-inner">
+
+		
+							<div class="bb-header-buttons">
+					<a href="https://hiveagile.com/login/" class="button small outline signin-button link">Acceder</a>
+
+											<a href="https://hiveagile.com/membership/pago-de-membresia/?level=2" class="button small signup">Subscríbete</a>
+									</div>
+			
+	</div><!-- .header-aside-inner -->
+</div><!-- #header-aside -->
+</div>
+<div class="bb-mobile-header-wrapper bb-single-icon">
+	<div class="bb-mobile-header flex align-items-center">
+		<div class="bb-left-panel-icon-wrap">
+			<a href="#" class="push-left bb-left-panel-mobile"><i class="bb-icon-l bb-icon-bars"></i></a>
+		</div>
+
+		<div class="flex-1 mobile-logo-wrapper">
+			
+			<div class="site-title">
+
+				<a href="https://hiveagile.com/" rel="home">
+					<img width="512" height="512" src="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png" class="bb-mobile-logo" alt="" decoding="async" srcset="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png 512w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-300x300.png 300w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-150x150.png 150w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-50x50.png 50w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-100x100.png 100w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-270x270.png 270w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-192x192.png 192w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-180x180.png 180w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px" /><img width="512" height="512" src="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png" class="bb-mobile-logo bb-mobile-logo-dark" alt="" decoding="async" srcset="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png 512w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-300x300.png 300w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-150x150.png 150w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-50x50.png 50w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-100x100.png 100w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-270x270.png 270w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-192x192.png 192w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-180x180.png 180w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px" />				</a>
+
+			</div>
+		</div>
+		<div class="header-aside">
+					</div>
+	</div>
+
+	<div class="header-search-wrap">
+		<div class="container">
+			
+<form role="search" method="get" class="search-form" action="https://hiveagile.com/">
+	<label>
+		<span class="screen-reader-text">Buscar:</span>
+		<input type="search" class="search-field-top" placeholder="Buscar " value="" name="s" />
+	</label>
+</form>
+			<a data-balloon-pos="left" data-balloon="Cerrar" href="#" class="close-search"><i class="bb-icon-l bb-icon-times"></i></a>
+		</div>
+	</div>
+</div>
+
+<div class="bb-mobile-panel-wrapper left light closed">
+	<div class="bb-mobile-panel-inner">
+		<div class="bb-mobile-panel-header">
+							<div class="logo-wrap">
+					<a href="https://hiveagile.com/" rel="home">
+						<img width="512" height="512" src="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png" class="bb-mobile-logo" alt="" decoding="async" srcset="https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile.png 512w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-300x300.png 300w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-150x150.png 150w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-50x50.png 50w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-100x100.png 100w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-270x270.png 270w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-192x192.png 192w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-180x180.png 180w, https://hiveagile.com/wp-content/uploads/2023/09/cropped-hiveagile-32x32.png 32w" sizes="(max-width: 512px) 100vw, 512px" />					</a>
+				</div>
+						<a href="#" class="bb-close-panel"><i class="bb-icon-l bb-icon-times"></i></a>
+		</div>
+
+		<nav class="main-navigation" data-menu-space="120">
+			<ul id="menu-notloged" class="bb-primary-menu mobile-menu buddypanel-menu side-panel-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4738"><a href="https://hiveagile.com"><i class="_mi _before bb-icon-l buddyboss bb-icon-home" aria-hidden="true"></i><span>Inicio</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3684"><a href="https://hiveagile.com/dockers/"><img width="1" height="1" src="https://hiveagile.com/wp-content/uploads/2023/11/NoniconsDocker16-1.svg" class="_mi _before _image" alt="" aria-hidden="true" decoding="async" /><span>Dockers</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3685"><a href="https://hiveagile.com/blog/"><i class="_mi _before bb-icon-l buddyboss bb-icon-article" aria-hidden="true"></i><span>Blog</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4324"><a href="https://hiveagile.com/membership/pago-de-membresia/?level=2"><i class="_mi _before bb-icon-l buddyboss bb-icon-user-arrow-up" aria-hidden="true"></i><span>Registro</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4318"><a href="https://hiveagile.com/login/"><i class="_mi _before bb-icon-l buddyboss bb-icon-sign-in" aria-hidden="true"></i><span>Acceder</span></a></li>
+</ul>		</nav>
+
+	</div>
+</div>
+<div class="header-search-wrap">
+	<div class="container">
+		
+<form role="search" method="get" class="search-form" action="https://hiveagile.com/">
+	<label>
+		<span class="screen-reader-text">Buscar:</span>
+		<input type="search" class="search-field-top" placeholder="Buscar " value="" name="s" />
+	</label>
+</form>
+		<a href="#" class="close-search"><i class="bb-icon-l bb-icon-times"></i></a>
+	</div>
+</div>			</header>
+
+			
+			
+			<div id="content" class="site-content">
+
+				
+				<div class="container">
+					<div class="bb-grid site-content-grid">
+    <div id="primary" class="content-area bb-grid-cell">
+        <main id="main" class="site-main">
+
+			
+<article id="post-10" class="post-10 page type-page status-publish hentry pmpro-has-access">
+            <header class="entry-header"><h1 class="entry-title">Aviso legal y política de privacidad</h1></header>
+    
+	<div class="entry-content">
+		
+<p><br><strong>AVISO LEGAL</strong></p>
+
+
+
+<p>Si estás aquí es porque quieres saber más acerca del Aviso Legal de esta web. Este documento tiene el objetivo de informarte de tus derechos y obligaciones como usuario de este sitio web. Aquí encontrarás toda la información que necesitas sobre este sitio web, su actividad, los datos personales que recaba y su finalidad, así como las normas de uso que regulan el uso de esta web.</p>
+
+
+
+<p>Cuando visitas TU hiveagile.com, asumes la condición de usuario, por lo que el contenido de este documento te afecta directamente. Por ello, es imprescindible que lo leas para disipar cualquier duda que puedas tener y tener conocimiento de causa sobre las condiciones que estás aceptando.</p>
+
+
+
+<p>Lo primero que tienes que saber que este sitio web cumple con las normativas vigentes en materia de protección de datos, con el objetivo de aportarte las garantías, la seguridad y la transparencia que, como usuario te corresponden, a la hora de utilizar esta web.</p>
+
+
+
+<p>El RGPD (Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas) que es la nueva normativa de la Unión Europea que unifica la regulación del tratamiento de los datos personales en los distintos países de la UE.</p>
+
+
+
+<p>La LOPD (Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y Real Decreto 1720/2007, de 21 de diciembre, el Reglamento de desarrollo de la LOPD) que regula el tratamiento de los datos personales y las obligaciones que debemos asumir los responsables de una web o un blog a la hora de gestionar esta información.</p>
+
+
+
+<p>La LSSI (Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico) que regula las transacciones económicas mediante medios electrónicos, como es el caso de este blog.</p>
+
+
+
+<p><strong>Datos del Responsable</strong></p>
+
+
+
+<p>Nombre: REDAVEN S.C.P<br>NIF/CIF: J25765785<br>Domicilio Calle Hostal de la Bordeta, 24 &#8211; 2 3, Lleida, 25001 , Lerida<br>Contacto: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="18707774795870716e7d797f71747d367b7775">[email&#160;protected]</a><br>Actividad: distribución de contenido relacionado con la temática de la web, muestra de publicidad y recomendación de productos de afiliado.<br>Cualquier dato que nos facilites con tu consentimiento, y de acuerdo al uso establecido en nuestra Política de Privacidad, será incorporado a un fichero automatizado debidamente inscrito en la Agencia Española de Protección de Datos, en el que el responsable de dicho fichero es: hiveagile.com. Esto quiere decir que tus datos están seguros, de acuerdo a lo que establece la ley.</p>
+
+
+
+<p><strong>NORMATIVA DE ACCESO AL SITIO WEB</strong></p>
+
+
+
+<p>Todos los usuarios de nuestra página web tienen una serie de obligaciones que detallamos a continuación. Leelas cuidadosamente:</p>
+
+
+
+<p>No podrás utilizar este sitio web para la realización de actividades contrarias a las leyes, a la moral, al orden público y, en general, a hacer un uso conforme a las condiciones establecidas en el presente documento.</p>
+
+
+
+<p>No podrás realizar actividades publicitarias o de explotación comercial remitiendo mensajes que utilicen una identidad falsa.</p>
+
+
+
+<p>Tú serás el único responsable de la veracidad y exactitud de los contenidos que introduzcas en esta web y de los datos personales que nos facilites con las finalidades previstas en nuestra Política de Privacidad.</p>
+
+
+
+<p>También serás el único responsable de la realización de cualquier tipo de actuación ilícita, lesiva de derechos, nociva y/o perjudicial en los sitios de terceros a los que te podamos derivar desde este sitio web para el desarrollo de nuestra actividad.</p>
+
+
+
+<p>Como responsable del sitio web, podremos interrumpir el servicio de la página que esté siendo utilizado por el usuario y resolver de modo inmediato la relación si detecta un uso de la web o de cualquiera de los servicios que en la mismo se ofertan que pueda considerarse contrario a lo expresado en el presente documento.</p>
+
+
+
+<p><strong>PROPIEDAD INTELECTUAL E INDUSTRIAL</strong></p>
+
+
+
+<p>La totalidad de este sitio web (texto, imágenes, marcas, gráficos, logotipos, botones, archivos de software, combinaciones de colores, así como la estructura, selección, ordenación y presentación de sus contenidos) se encuentra protegida por las leyes vigente sobre Propiedad Intelectual e Industrial, quedando prohibida su reproducción, distribución, comunicación pública y transformación, salvo para uso personal y privado.</p>
+
+
+
+<p>Como titular de este sitio web, hiveagile.com no garantiza que los contenidos sean precisos o libres de error o que el libre uso de los mismos por parte de los usuarios no infrinja los derechos de terceras partes. El buen o mal uso de esta página y de sus contenidos es responsabilidad del usuario.</p>
+
+
+
+<p>Asimismo, queda prohibida la reproducción, retransmisión, copia, cesión o redifusión, total o parcial, de la información contenida en la página, cualquiera que fuera su finalidad y el medio utilizado para ello, sin autorización previa de hiveagile.com.</p>
+
+
+
+<p><strong>ENLACES O LINKS</strong></p>
+
+
+
+<p>Este sitio web incluye enlaces o links a sitios de terceros. Las páginas pertenecientes a estos terceros no han sido revisadas ni son objeto de controles por nuestra parte, por lo que hiveagile.com no podrá ser considerado responsable de los contenidos de estos sitios web, ni de las medidas que se adopten relativas a su privacidad o al tratamiento de sus datos de carácter personal u otros que pudieran derivarse.</p>
+
+
+
+<p>Por todo ello, te recomendamos la lectura detenida de las condiciones de uso, política de privacidad, avisos legales y/o similares de estos sitios.</p>
+
+
+
+<p><strong>ENLACES DE AFILIACIÓN DE AMAZON</strong></p>
+
+
+
+<p>Este sitio web, de acuerdo a su finalidad, utiliza enlaces de afiliado de Amazon.</p>
+
+
+
+<p>Esto quiere decir que encontrarás enlaces de productos de Amazon a los que podrás acceder directamente desde nuestro sitio web pero que, en su caso, la compra la realizarás en Amazon, bajo sus propias condiciones en ese momento.</p>
+
+
+
+<p><strong>LIMITACIÓN DE RESPONSABILIDAD</strong></p>
+
+
+
+<p>En ejercicio de su derecho como titular de esta web, te informamos de que hiveagile.com no se hace responsable en ningún caso de lo siguiente:</p>
+
+
+
+<p>La calidad del servicio, la velocidad de acceso, el correcto funcionamiento ni la disponibilidad ni continuidad de funcionamiento de la página.</p>
+
+
+
+<p>La existencia de virus, malware, programas maliciosos o dañinos en los contenidos.</p>
+
+
+
+<p>El uso ilícito, negligente, fraudulento o contrario a este Aviso Legal.</p>
+
+
+
+<p>La falta de licitud, calidad, fiabilidad, utilidad y disponibilidad de los servicios prestados por terceros y puestos a disposición de los usuarios en este sitio web.</p>
+
+
+
+<p>De los daños que pudieran provenir del uso ilegal o indebido de este blog.</p>
+
+
+
+<p><strong>CONDICIONES DE USO</strong></p>
+
+
+
+<p>Para tu tranquilidad, tienes que saber que siempre te pidamos tu consentimiento expreso para recabar tus datos con la correspondiente finalidad especificada en cada caso, lo que implica que, en caso de otorgar ese consentimiento, has leído y aceptado esta Política de Privacidad.</p>
+
+
+
+<p>En el momento en que accedas y utilices esta web, asumes tu condición de usuario con tus correspondientes derechos y obligaciones.</p>
+
+
+
+<p>Si eres mayor de 13 años, podrás registrarte como usuario en este sitio web sin el previo consentimiento de tus padres o tutores.</p>
+
+
+
+<p>Si eres menor de 13 años, necesitarás el consentimiento de tus padres o tutores para el tratamiento de tus datos personales.</p>
+
+
+
+<p><strong>REGISTRO Y FINALIDAD DE TUS DATOS</strong></p>
+
+
+
+<p>En función del formulario o sección a la que accedas, te solicitaremos exclusivamente los datos necesarios con las finalidades descritas a continuación. En todo momento, deberás dar tu consentimiento expreso, cuando te solicitemos información personal con las siguientes finalidades:</p>
+
+
+
+<p>Las finalidades concretas que particularmente se indiquen en cada una de las páginas o secciones donde aparezca el formulario de registro o contacto electrónico.</p>
+
+
+
+<p>Con carácter general, para atender tus solicitudes, comentarios, consultas o cualquier tipo de petición que realices como usuario a través de cualquiera de las formas de contacto que ponemos a tu disposición.</p>
+
+
+
+<p>Para informarte sobre consultas, peticiones, actividades, productos, novedades y/o servicios; vía e-mail, fax, Whatsapp, Skype, teléfono proporcionado, sms y mms.</p>
+
+
+
+<p>Para enviarte comunicaciones comerciales o publicitarias a través de cualquier otro medio electrónico o físico, que posibilite realizar comunicaciones.</p>
+
+
+
+<p>Estas comunicaciones, siempre serán relacionadas con nuestros productos, servicios, novedades o promociones, así como aquellos productos o servicios que podamos considerar de tu interés y que puedan ofrecer colaboradores, empresas o “partners” con los que mantengamos acuerdos de promoción o colaboración comercial.</p>
+
+
+
+<p>De ser así, te garantizamos que estos terceros nunca tendrán acceso a tus datos personales, con las excepciones reflejadas a continuación, siendo en todo caso estas comunicaciones realizadas por parte de hiveagile.com, como titular de la web.</p>
+
+
+
+<p>Este sitio web muestra productos de afiliado de terceros. Concretamente de AMAZON.</p>
+
+
+
+<p>Esto quiere decir que al hacer clic en “Ver oferta” o similar, se te redireccionará a la página en la que se ofertan los productos.</p>
+
+
+
+<p>En este caso, debes saber que únicamente proporcionamos y facilitamos los enlaces a las páginas y/o plataformas de estos terceros donde pueden adquirirse los productos que mostramos, en aras a facilitar la búsqueda y fácil adquisición de los mismos.</p>
+
+
+
+<p>Estas páginas enlazadas y pertenecientes a terceros no han sido revisadas ni son objeto de controles, ni recomendación por nuestra parte, por lo que en ningún caso hiveagile.com será considerada responsable de los contenidos de estos sitios web, de las responsabilidades derivadas de su uso en todos los ámbitos, ni por las medidas que se adopten relativas a la privacidad del usuario, tratamiento de sus datos de carácter personal u otras que pudieran establecerse.</p>
+
+
+
+<p>Por todo ello, te recomendamos la lectura detenida y anticipada de todas las condiciones de uso, condiciones de compra, políticas de privacidad, avisos legales y/o similares de estos sitios enlazados antes de proceder a la adquisición de estos productos o uso de las webs.</p>
+
+
+
+<p><strong>EXACTITUD Y VERACIDAD DE LOS DATOS</strong></p>
+
+
+
+<p>Como usuario, eres el único responsable de la veracidad y modificación de los datos que remitas a hiveagile.com, exonerándonos de cualquier responsabilidad al respecto.</p>
+
+
+
+<p>Es decir, a ti te corresponde garantizar y responder en cualquier caso de la exactitud, vigencia y autenticidad de los datos personales facilitados, y te comprometes a mantenerlos debidamente actualizados.</p>
+
+
+
+<p>De acuerdo a lo expresado en esta Política de Privacidad, aceptas proporcionar información completa y correcta en el formulario de contacto o suscripción.</p>
+
+
+
+<p><strong>BAJAS DE SUSCRIPCIÓN Y DERECHO DE REVOCACIÓN</strong></p>
+
+
+
+<p>Como titular de los datos que nos hayas facilitado, podrás ejercer en cualquier momento tus derechos de acceso, rectificación, cancelación y oposición, enviándonos un correo electrónico a <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="721b1c141d321a1b041713151b1e175c111d1f">[email&#160;protected]</a> y adjuntándonos una fotocopia de tu documento de identidad como prueba válida.</p>
+
+
+
+<p>Igualmente, podrás darte de baja en cualquier momento para dejar de recibir nuestra newsletter o cualquier otra comunicación comercial, directamente desde el mismo email que hayas recibido o enviándonos un correo a <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cba2a5ada48ba3a2bdaeaaaca2a7aee5a8a4a6">[email&#160;protected]</a> .</p>
+
+
+
+<p><strong>ACCESO A DATOS POR CUENTA DE TERCEROS</strong></p>
+
+
+
+<p>Para poder prestar servicios estrictamente necesarios para el funcionamiento y desarrollo de las actividades de este sitio web, te informamos de que compartimos datos con los siguientes prestadores de servicio bajo sus correspondientes condiciones de privacidad.</p>
+
+
+
+<p>Puedes tener la total tranquilidad de que estos terceros no podrán utilizar dicha información para ningún otro fin que no esté regulado específicamente en nuestras relaciones con ellos en virtud de la normativa aplicable en materia de protección de datos de carácter personal.</p>
+
+
+
+<p>Esta página web está alojada en el hosting X. Puedes consultar la política de privacidad y demás aspectos legales de esta empresa en el siguiente enlace: <strong>ENLACE A POLíTICA DEL HOSTING</strong></p>
+
+
+
+<p>Nuestra web utiliza servidores publicitarios con el fin de facilitar los contenidos comerciales que visualizas en nuestras páginas. Dichos servidores publicitarios utilizan cookies que le permiten adaptar los contenidos publicitarios a los perfiles demográficos de los usuarios:</p>
+
+
+
+<p><strong>Google Analytics:</strong></p>
+
+
+
+<p>Google Analytics es un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”).</p>
+
+
+
+<p>Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar al website a analizar el uso que hacen los usuarios del sitio web.</p>
+
+
+
+<p>La información que genera la cookie acerca de tu uso del website (incluyendo tu dirección IP) será directamente transmitida y archivada por Google. Google usará esta información por cuenta nuestra con el propósito de seguir la pista de su uso del website, recopilando informes de la actividad del website y prestando otros servicios relacionados con la actividad del website y el uso de Internet.</p>
+
+
+
+<p>Google podrá transmitir dicha información a terceros cuando así se lo requiera la legislación, o cuando dichos terceros procesen la información por cuenta de Google. Google no asociará su dirección IP con ningún otro dato del que disponga.</p>
+
+
+
+<p>Como usuario, y en ejercicio de tus derechos, puedes rechazar el tratamiento de los datos o la información rechazando el uso de cookies mediante la selección de la configuración apropiada de tu navegador, sin embargo, debes saber que si lo hace puede que no puedas usar la plena funcionabilidad de este sitio web.</p>
+
+
+
+<p>Al utilizar esta web, de acuerdo a la información facilitada en esta Política de Privacidad, aceptas el tratamiento de datos por parte de Google en la forma y para los fines indicados.</p>
+
+
+
+<p>Para más información, puedes consultar la política de privacidad de Google en https://www.google.com/intl/es/policies/privacy/.</p>
+
+
+
+<p><strong>Google Adsense:</strong></p>
+
+
+
+<p>Google, como proveedor asociado, utiliza cookies para publicar anuncios en este sitio web. Puedes inhabilitar el uso de la cookie de DART a través del anuncio de Google y accediendo a la política de privacidad de la red de contenido: https://www.google.com/intl/es/policies/privacy/.</p>
+
+
+
+<p>Google utiliza empresas publicitarias asociadas para publicar anuncios cuando visita nuestro sitio web. Es posible que estas empresas usen la información que obtienen de tus visitas a este y otros sitios web (sin incluir hiveagile.com, dirección, dirección de correo electrónico o número de teléfono) para ofrecerte anuncios sobre productos y servicios que te resulten de interés.</p>
+
+
+
+<p>Al utilizar esta web, consientes el tratamiento de datos por parte de Google en la forma y para los fines indicados.</p>
+
+
+
+<p>Si quieres saber más sobre el uso de cookies y las prácticas de recopilación de información y los procedimientos de aceptación o rechazo, consulta nuestra POLÍTICA DE COOKIES.</p>
+
+
+
+<p><strong>MEDIDAS DE SEGURIDAD</strong></p>
+
+
+
+<p>Como titular de la web, hiveagile.com ha adoptado todas las medidas técnicas y de organización necesaria para garantizar la seguridad e integridad de los datos de carácter personal que trate, así como para evitar su pérdida, alteración y/o acceso por parte de terceros no autorizados.</p>
+
+
+
+<p>Te recordamos que, para más información, puedes consultar nuestras páginas de Aviso Legal y Política de Cookies.</p>
+
+
+
+<p><strong>POLÍTICA DE COOKIES</strong></p>
+
+
+
+<p>Tal y como te informamos nada más acceder a nuestra web, este sitio utiliza cookies propias y de terceros con el objetivo de proporcionarte la mejor experiencia de usuario y desarrollar nuestra actividad.</p>
+
+
+
+<p>En cualquier momento, tendrás la opción de configurar tu navegador para desestimar el uso de estas cookies que, en algún caso, afectarán a tu experiencia de usuario.</p>
+
+
+
+<p>Para acceder a la información completa sobre el uso de cookies en este sitio web, su finalidad y su desestimación, puedes consultar nuestra POLÍTICA DE COOKIES.</p>
+
+
+
+<p><strong>LEGISLACIÓN APLICABLE Y JURISDICCIÓN COMPETENTE</strong></p>
+
+
+
+<p>El presente documento se encuentra sometido a la legislación española vigente.</p>
+
+
+
+<p>En caso necesario, ante cualquier tipo de controversia de carácter legal, hiveagile.com y el usuario, con renuncia expresa a cualquier otro fuero, se someterán a los Juzgados y Tribunales del domicilio del Usuario para cualquier controversia que pudiera derivarse.</p>
+	</div><!-- .entry-content -->
+
+	
+</article>
+
+        </main><!-- #main -->
+    </div><!-- #primary -->
+
+
+
+
+</div><!-- .bb-grid -->
+</div><!-- .container -->
+</div><!-- #content -->
+
+
+
+
+	<footer class="footer-bottom bb-footer style-1">
+		<div class="container flex">
+			<div class="footer-bottom-left"><div class="footer-copyright-wrap">				<div class="copyright">© 2024 - HiveAgile</div>
+				<ul id="menu-footer" class="footer-menu secondary"><li id="menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-1064"><a href="https://hiveagile.com/privacy-policy/"><i class='bb-icon-file'></i><span class='link-text'>Aviso legal y política de privacidad</span></a></li>
+<li id="menu-item-1065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1065"><a href="https://hiveagile.com/terms-of-service/"><i class='bb-icon-file'></i><span class='link-text'>Política de cookies</span></a></li>
+</ul></div></div><div class="footer-bottom-right push-right"><ul class="footer-socials"><li><a href="https://github.com/aitorroma" target="_blank" data-balloon-pos="up" data-balloon="github" ><i class="bb-icon-f bb-icon-brand-github"></i></a></li><li><a href="https://linkedin.com/in/tuxed" target="_blank" data-balloon-pos="up" data-balloon="linkedin" ><i class="bb-icon-f bb-icon-brand-linkedin"></i></a></li><li><a href="https://t.me/aitorroma" target="_blank" data-balloon-pos="up" data-balloon="telegram" ><i class="bb-icon-f bb-icon-brand-telegram"></i></a></li><li><a href="https://twitter.com/HiveAgile" target="_blank" data-balloon-pos="up" data-balloon="twitter" ><i class="bb-icon-f bb-icon-brand-twitter"></i></a></li></ul></div>		</div>
+	</footer>
+
+</div><!-- #page -->
+
+
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">Utilizamos cookies en este sitio web. Si clicas en aceptar, estarás consintiendo el uso de todas las cookies.</div><div class="cli-bar-btn_container"><a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button" style="margin:0px 5px 0px 0px">Configurar cookies</a><a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">ACEPTAR</a></div></div></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Cerrar</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Mostrar más" role="button" data-readmore-text="Mostrar más" data-readless-text="Mostrar menos"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"  />
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">Siempre activado</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duración</th><th class="cookielawinfo-column-4">Descripción</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table>								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+								Functional							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox"  data-id="checkbox-functional" />
+									<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Activado" data-cli-disable="Desactivado"><span class="wt-cli-sr-only">Functional</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="functional">
+								<div class="wt-cli-cookie-description">
+									Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+								Performance							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox"  data-id="checkbox-performance" />
+									<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Activado" data-cli-disable="Desactivado"><span class="wt-cli-sr-only">Performance</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="performance">
+								<div class="wt-cli-cookie-description">
+									Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+								Analytics							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox"  data-id="checkbox-analytics" />
+									<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Activado" data-cli-disable="Desactivado"><span class="wt-cli-sr-only">Analytics</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analytics">
+								<div class="wt-cli-cookie-description">
+									Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+								Advertisement							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox"  data-id="checkbox-advertisement" />
+									<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Activado" data-cli-disable="Desactivado"><span class="wt-cli-sr-only">Advertisement</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="advertisement">
+								<div class="wt-cli-cookie-description">
+									Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+								Others							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox"  data-id="checkbox-others" />
+									<label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Activado" data-cli-disable="Desactivado"><span class="wt-cli-sr-only">Others</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="others">
+								<div class="wt-cli-cookie-description">
+									Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">GUARDAR Y ACEPTAR</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><div class="gtranslate_wrapper" id="gt-wrapper-72207256"></div>		<!-- Memberships powered by Paid Memberships Pro v2.12.2. -->
+				<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const dataAttribute = 'data-e-bg-lazyload';
+					const lazyloadBackgrounds = document.querySelectorAll( `[${ dataAttribute }]:not(.lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+					entries.forEach( ( entry ) => {
+						if ( entry.isIntersecting ) {
+							let lazyloadBackground = entry.target;
+							const lazyloadSelector = lazyloadBackground.getAttribute( dataAttribute );
+							if ( lazyloadSelector ) {
+								lazyloadBackground = entry.target.querySelector( lazyloadSelector );
+							}
+							if( lazyloadBackground ) {
+								lazyloadBackground.classList.add( 'lazyloaded' );
+							}
+							lazyloadBackgroundObserver.unobserve( entry.target );
+						}
+					});
+					}, { rootMargin: '100px 0px 100px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='cookie-law-info-table-css' href='https://hiveagile.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.1.4' type='text/css' media='all' />
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/isInViewport.min.js?ver=2.4.20" id="isInViewport-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="bp-nouveau-js-extra">
+/* <![CDATA[ */
+var BP_Nouveau = {"ajaxurl":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php","only_admin_notice":"Como eres el \u00fanico organizador de este grupo, no puedes abandonarlo. Puedes eliminar el grupo o promover a otro miembro para que sea organizador primero y luego dejar el grupo.","is_friend_confirm":"\u00bfEst\u00e1s seguro de que quieres eliminar tu conexi\u00f3n con este miembro?","confirm":"\u00bfEst\u00e1 seguro?","confirm_delete_set":"\u00bfEst\u00e1 seguro de que quiere eliminar este conjunto? Esto no se puede deshacer.","show_x_comments":"Ver comentarios anteriores","unsaved_changes":"Tu perfil tiene cambios sin guardar. Si abandonas la p\u00e1gina, los cambios se perder\u00e1n.","object_nav_parent":"#buddypress","anchorPlaceholderText":"Pegar o escribir un enlace","empty_field":"Campo nuevo","close":"Cerrar","objects":["activity","members","groups","xprofile","friends","media","document","video","messages","settings","notifications","group_members","group_requests","group_subgroups"],"nonces":{"activity":"3a7c54f159","members":"9a252f6c51","groups":"faee9d21fc","xprofile":"afc18d6867","friends":"2ac60093df","media":"95c24760fb","document":"9c57223f6c","video":"f393ad847f","messages":"8c9de9eff2","settings":"b00da5eae5","notifications":"1fb9930de9"},"forums":{"params":{"bb_current_user_id":0,"link_preview":true},"nonces":{"post_topic_reply_draft":"9123c0b4f2"},"strings":{"discardButton":"Descartar borrador"},"draft":[]},"nonce":{"bp_moderation_content_nonce":"9a153d1f12"},"current":{"message_user_id":0},"archived_threads":[],"activity":{"params":{"user_id":0,"object":"user","backcompat":false,"post_nonce":"af8a20e60a","post_draft_nonce":"e2b471021d","excluded_hosts":[],"user_can_post":false,"is_activity_edit":false,"displayed_user_id":0,"errors":{"empty_post_update":"Lo sentimos, su actualizaci\u00f3n no puede estar vac\u00eda.","post_fail":"Se ha producido un error al guardar tu mensaje.","media_fail":"Para cambiar el tipo de medio, elimine el medio existente de su publicaci\u00f3n."},"avatar_url":"https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform\/bp-core\/images\/profile-avatar-buddyboss-50.png","avatar_width":150,"avatar_height":150,"user_display_name":false,"user_domain":"","avatar_alt":"Foto de perfil de ","objects":{"profile":{"text":"Publicar en: Perfil","autocomplete_placeholder":"","priority":5},"group":{"text":"Publicar en: Grupo","autocomplete_placeholder":"Grupos de b\u00fasqueda","priority":10,"loading_group_placeholder":"Cargando grupos...","finding_group_placeholder":"Encontrar grupos...","no_groups_found":"No se han encontrado grupos."},"group_list":[{"id":1,"name":"Descubrimientos OpenSource","avatar_url":"https:\/\/hiveagile.com\/wp-content\/uploads\/group-avatars\/1\/6127c1cc6905e-bpthumb.png","object_type":"group","is_public":true,"group_media":false,"group_document":false,"group_video":false},{"id":4,"name":"HestiaCP","avatar_url":"https:\/\/hiveagile.com\/wp-content\/uploads\/group-avatars\/4\/615849b00e9c1-bpthumb.png","object_type":"group","is_public":true,"group_media":false,"group_document":false,"group_video":false},{"id":2,"name":"Marketing","avatar_url":"https:\/\/hiveagile.com\/wp-content\/uploads\/group-avatars\/2\/612e3f1fb7315-bpthumb.png","object_type":"group","is_public":true,"group_media":false,"group_document":false,"group_video":false},{"id":6,"name":"Meetings","avatar_url":"https:\/\/hiveagile.com\/wp-content\/uploads\/group-avatars\/6\/61cc6e65edfd4-bpthumb.png","object_type":"group","is_public":true,"group_media":false,"group_document":false,"group_video":false},{"id":3,"name":"WordPress","avatar_url":"https:\/\/hiveagile.com\/wp-content\/uploads\/group-avatars\/3\/615848b60b4a3-bpthumb.jpg","object_type":"group","is_public":true,"group_media":false,"group_document":false,"group_video":false}],"group_count":5,"group_total_page":1},"draft_activity":false,"access_control_settings":{"can_create_activity":true,"can_create_activity_media":true,"can_create_activity_document":true}},"strings":{"whatsnewPlaceholder":"Comparte lo que tienes en mente, ...","whatsnewLabel":"Publicar las novedades","whatsnewpostinLabel":"Publicar en","postUpdateButton":"Publicar","updatePostButton":"Puesto de actualizaci\u00f3n","cancelButton":"Cancelar","commentLabel":"%d Comentario","commentsLabel":"%d Comentarios","loadingMore":"Cargando...","discardButton":"Descartar borrador"}},"group_messages":{"page":1,"type_message":"Mensaje de tipo","group_no_member":"No hay m\u00e1s miembros en este grupo. Por favor, a\u00f1ada algunos miembros antes de enviar un mensaje.","group_no_member_pro":"No est\u00e1 permitido enviar mensajes privados a ning\u00fan miembro de este grupo.","loading":"Cargando miembros. Por favor, espere.","remove_recipient":"Eliminar a un miembro","add_recipient":"A\u00f1adir miembro","no_content":"Por favor, a\u00f1ada algo de contenido a su mensaje.","no_recipient":"Por favor, a\u00f1ada al menos un destinatario.","select_default_text":"Todos los miembros del grupo","select_default_value":"todo","no_member":"No se ha encontrado ning\u00fan miembro. Prueba con otro filtro.","invites_form_all":"Este mensaje se enviar\u00e1 a todos los miembros de este grupo a los que puedas enviar un mensaje.","invites_form_separate":"Selecciona a los miembros del grupo para enviarles un mensaje haciendo clic en el bot\u00f3n + junto a cada uno de ellos. Una vez hecha la selecci\u00f3n, haz clic en \"Enviar mensaje\" para crear un nuevo mensaje de grupo.","invites_form_reset":"Invitaciones de grupo despejadas. Por favor, utilice una de las pesta\u00f1as disponibles para seleccionar los miembros a invitar.","invites_sending":"Enviando invitaciones de grupo. Por favor, espere.","removeUserInvite":"Cancelar invitaci\u00f3n %s","feedback_select_all":"Este mensaje se enviar\u00e1 a todos los miembros de este grupo a los que puedas enviar un mensaje.","feedback_individual":"Seleccione los destinatarios individuales haciendo clic en el bot\u00f3n + junto a cada miembro.","group_id":0,"is_group_create":false,"nonces":{"unmessage":"013861dfc2","send_messages":"14a21f1224","retrieve_group_members":"5f18834e91","send_messages_users":"a109e8fae9"}},"media":{"max_upload_size":1280,"profile_media":false,"profile_album":true,"group_media":false,"group_album":true,"messages_media":false,"messages_media_active":false,"dropzone_media_message":"<strong>A\u00f1adir fotos<\/strong> O arrastrar y soltar","media_select_error":"Este tipo de archivo no es compatible con la subida de fotos.","empty_media_type":"Los archivos multimedia vac\u00edos no se cargar\u00e1n.","invalid_media_type":"No se puede cargar el archivo","media_size_error_header":"Archivo demasiado grande","media_size_error_description":"Este tipo de archivo es demasiado grande.","dictFileTooBig":"El archivo es demasiado grande ({{filesize}} MB). Tama\u00f1o m\u00e1ximo del archivo: {{maxFilesize}} MB. ","cover_photo_size_error_header":"No se puede reposicionar la imagen","cover_photo_size_error_description":"Para reposicionar su foto de portada, cargue una imagen m\u00e1s grande y vuelva a intentarlo.","maxFiles":10,"is_media_directory":"no","create_album_error_title":"Por favor, introduzca el t\u00edtulo del \u00e1lbum","current_album":0,"current_type":"","move_to_id_popup":0,"media_dict_file_exceeded":"S\u00f3lo puedes subir 10 fotos a la vez.","can_manage_media":false,"create_album_title":"Crear \u00e1lbum","dictCancelUploadConfirmation":"\u00bfEst\u00e1s seguro de que quieres cancelar esta subida?","connection_lost_error":"Se ha perdido la conexi\u00f3n con el servidor.","emoji":{"profile":false,"groups":false,"messages":false,"forums":false,"document":false},"emoji_filter_url":"https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform\/bp-core\/images\/emojifilter\/","gif":{"profile":false,"groups":false,"messages":false,"forums":false,"document":false},"gif_api_key":"","i18n_strings":{"select":"Seleccione","unselect":"Deseleccionar","selectall":"Seleccionar todo","unselectall":"Deseleccionar todo","no_photos_found":"Lo sentimos, no se encontraron fotos","upload":"Subir a","uploading":"Cargando","upload_status":"%1$d de %2$d cargados","album_delete_confirm":"\u00bfEst\u00e1s seguro de que quieres eliminar este \u00e1lbum? Las fotos de este \u00e1lbum tambi\u00e9n se eliminar\u00e1n.","album_delete_error":"Hubo un problema al borrar el \u00e1lbum.","media_delete_confirm":"\u00bfEst\u00e1s seguro de que quieres eliminar este medio?","folder_delete_confirm":"\u00bfEst\u00e1 seguro de que quiere eliminar esta carpeta? \u00bfLos documentos de esta carpeta tambi\u00e9n se eliminar\u00e1n?","document_delete_confirm":"\u00bfEst\u00e1 seguro de que quiere eliminar este documento?","folder_delete_error":"Hubo un problema al borrar la carpeta.","folder_move_error":"Seleccione la carpeta de destino."},"profile_document":false,"group_document":false,"messages_document":false,"messages_document_active":false,"document_type":"application\/x-abiword,text\/xml,application\/x-ace-compressed,application\/postscript,application\/pdf,application\/vnd.android.package-archive,application\/java-archive,text\/css,text\/plain,text\/csv,application\/msword,application\/vnd.ms-word.document.macroenabled.12,application\/vnd.openxmlformats-officedocument.wordprocessingml.document,application\/vnd.ms-word.template.macroenabled.12,image\/x-eps,image\/gif,application\/x-gzip,application\/gzip,text\/html,image\/x-icon,text\/calendar,application\/octet-stream,image\/jpeg,application\/javascript,audio\/mpeg,application\/vnd.oasis.opendocument.spreadsheet,application\/vnd.oasis.opendocument.text,image\/png,application\/vnd.ms-powerpoint.template.macroenabled.12,application\/vnd.openxmlformats-officedocument.presentationml.template,application\/vnd.openxmlformats-officedocument.presentationml.presentation,application\/vnd.ms-powerpoint,application\/vnd.openxmlformats-officedocument.presentationml.slideshow,application\/vnd.ms-powerpoint.presentation.macroenabled.12,image\/vnd.adobe.photoshop,application\/x-rar-compressed,application\/x-rar,application\/rss+xml,application\/rtf,application\/x-sqlite3,image\/svg+xml,application\/x-tar,image\/tiff,text\/x-vcard,text\/vcard,audio\/x-wav,application\/vnd.ms-excel.sheet.binary.macroenabled.12,application\/vnd.ms-excel,application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application\/vnd.ms-excel.sheet.macroenabled.12,application\/vnd.ms-excel.template.macroenabled.12,application\/vnd.openxmlformats-officedocument.spreadsheetml.template,text\/yaml,application\/zip,application\/x-7z-compressed,video\/mp4,video\/webm,video\/ogg,video\/quicktime,.abw,.ace,.ai,.apk,.css,.csv,.doc,.docm,.docx,.dotm,.dotx,.eps,.gif,.gz,.gzip,.htm,.html,.ico,.ics,.ipa,.jar,.jpeg,.jpg,.js,.mp3,.ods,.odt,.pdf,.png,.potm,.potx,.pps,.ppsx,.ppt,.pptm,.pptx,.psd,.rar,.rss,.rtf,.sketch,.svg,.tar,.tiff,.txt,.vcf,.wav,.xlam,.xls,.xlsb,.xlsm,.xlsx,.xltm,.xltx,.xml,.yaml,.zip,.7z,.mp4,.webm,.ogg,.mov","empty_document_type":"Los documentos vac\u00edos no se cargar\u00e1n.","current_folder":0,"current_user_id":0,"current_group_id":0,"target_text":"Documentos","create_folder_error_title":"Por favor, introduzca el t\u00edtulo de la carpeta","invalid_file_type":"No se puede cargar el archivo","document_select_error":"Por favor, cargue s\u00f3lo los siguientes tipos de archivos<br \/><div class=\"bb-allowed-file-types\">.abw, .ace, .ai, .apk, .css, .csv, .doc, .docm, .docx, .dotm, .dotx, .eps, .gif, .gz, .gzip, .htm, .html, .ico, .ics, .ipa, .jar, .jpeg, .jpg, .js, .mp3, .ods, .odt, .pdf, .png, .potm, .potx, .pps, .ppsx, .ppt, .pptm, .pptx, .psd, .rar, .rss, .rtf, .sketch, .svg, .tar, .tiff, .txt, .vcf, .wav, .xlam, .xls, .xlsb, .xlsm, .xlsx, .xltm, .xltx, .xml, .yaml, .zip, .7z, .mp4, .webm, .ogg, .mov<\/div>","dropzone_document_message":"<strong>A\u00f1adir archivos<\/strong> O arrastrar y soltar","is_document_directory":"no","document_preview_error":"Lo siento, algo ha ido mal y no podemos ver la vista previa.","move_to_folder":"Mover carpeta a...","move_to_file":"Mover el documento a...","copy_to_clip_board_text":"Copiado en el portapapeles","download_button":"Descargar","document_size_error_header":"Archivo demasiado grande","document_size_error_description":"Este tipo de archivo es demasiado grande.","sidebar_download_text":"Descargar","sidebar_view_text":"Ver","create_folder":"Crear carpeta","document_dict_file_exceeded":"S\u00f3lo puede cargar 10 documentos a la vez.","can_manage_document":false},"video":{"max_upload_size":1280,"video_type":"video\/mp4,video\/webm,video\/ogg,video\/quicktime,.mp4,.webm,.ogg,.mov","profile_video":false,"profile_album":true,"group_video":false,"group_album":true,"messages_video":false,"messages_video_active":false,"dropzone_video_message":"<strong>A\u00f1adir v\u00eddeos<\/strong> O arrastrar y soltar","dropzone_video_thumbnail_message":"Cargar la imagen en miniatura","video_select_error":"Este tipo de archivo no es compatible con la subida de v\u00eddeos.","empty_video_type":"El archivo de v\u00eddeo vac\u00edo no se cargar\u00e1.","invalid_video_type":"No se puede cargar el archivo","video_size_error_header":"Archivo demasiado grande","video_size_error_description":"Este tipo de archivo es demasiado grande.","dictFileTooBig":"El archivo es demasiado grande ({{filesize}} MB). Tama\u00f1o m\u00e1ximo del archivo: {{maxFilesize}} MB.","maxFiles":10,"is_video_directory":"no","create_album_error_title":"Por favor, introduzca el t\u00edtulo del \u00e1lbum","cover_video_size_error_header":"No se puede reposicionar la imagen","cover_video_size_error_description":"Para reposicionar su v\u00eddeo de portada, cargue una imagen m\u00e1s grande y vuelva a intentarlo.","current_album":0,"current_type":"","move_to_id_popup":0,"video_dict_file_exceeded":"S\u00f3lo puedes subir 10 v\u00eddeos a la vez.","thumb_dict_file_exceeded":"S\u00f3lo se puede subir una imagen a la vez.","dictInvalidFileType":"Por favor, cargue s\u00f3lo los siguientes tipos de archivos<br \/><div class=\"bb-allowed-file-types\">video\/mp4, video\/webm, video\/ogg, video\/quicktime, .mp4, .webm, .ogg, .mov<\/div>","is_ffpmeg_installed":false,"generating_thumb":"Generating thumbnail\u2026","dictCancelUploadConfirmation":"\u00bfEst\u00e1s seguro de que quieres cancelar esta subida?","i18n_strings":{"select":"Seleccione","unselect":"Deseleccionar","selectall":"Seleccionar todo","unselectall":"Deseleccionar todo","no_videos_found":"Lo sentimos, no se ha encontrado ning\u00fan v\u00eddeo","upload":"Subir a","upload_thumb":"Cambiar la imagen en miniatura","uploading":"Cargando","upload_status":"%1$d de %2$d cargados","album_delete_confirm":"\u00bfEst\u00e1s seguro de que quieres eliminar este \u00e1lbum? Los v\u00eddeos de este \u00e1lbum tambi\u00e9n se eliminar\u00e1n.","album_delete_error":"Hubo un problema al borrar el \u00e1lbum.","video_delete_confirm":"\u00bfEst\u00e1s seguro de que quieres borrar este v\u00eddeo?","video_enlarge_text":"Ampliar","video_fullscreen_text":"Pantalla completa","video_play_text":"Juega a","video_pause_text":"Pausa","video_uploaded_text":"Subido a","video_volume_text":"Volumen","video_miniplayer_text":"Miniplayer","video_speed_text":"Velocidad","video_skip_back_text":"Paso atr\u00e1s (5)","video_skip_forward_text":"Paso adelante (5)","video_picture_in_text":"Este v\u00eddeo se reproduce en el minirreproductor."}},"document":{"dictInvalidFileType":"Por favor, cargue s\u00f3lo los siguientes tipos de archivos<br \/><div class=\"bb-allowed-file-types\">.abw, .ace, .ai, .apk, .css, .csv, .doc, .docm, .docx, .dotm, .dotx, .eps, .gif, .gz, .gzip, .htm, .html, .ico, .ics, .ipa, .jar, .jpeg, .jpg, .js, .mp3, .ods, .odt, .pdf, .png, .potm, .potx, .pps, .ppsx, .ppt, .pptm, .pptx, .psd, .rar, .rss, .rtf, .sketch, .svg, .tar, .tiff, .txt, .vcf, .wav, .xlam, .xls, .xlsb, .xlsm, .xlsx, .xltm, .xltx, .xml, .yaml, .zip, .7z, .mp4, .webm, .ogg, .mov<\/div>","max_upload_size":1280,"maxFiles":10,"mp3_preview_extension":"mp3,wav,ogg"}};
+var BB_Nouveau_Presence = {"heartbeat_enabled":"1","presence_interval":"60","presence_default_interval":"60","presence_time_span":"20","idle_inactive_span":"180","rest_nonce":"87d91bb7d9","native_presence":"","native_presence_url":"https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform\/bp-core\/bb-core-native-presence.php","presence_rest_url":"https:\/\/hiveagile.com\/wp-json\/buddyboss\/v1\/members\/presence"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/js/buddypress-nouveau.min.js?ver=2.4.20" id="bp-nouveau-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-templates/bp-nouveau/js/jquery.guillotine.min.js?ver=2.4.20" id="guillotine-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/comment-reply.min.js?ver=6.4.3" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" id="heartbeat-js-extra">
+/* <![CDATA[ */
+var heartbeatSettings = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/heartbeat.min.js?ver=6.4.3" id="heartbeat-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/draggabilly.min.js?ver=2.4.10" id="draggabilly-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/plugins/bbp-scrubber.min.js?ver=2.4.10" id="buddyboss-theme-bbp-scrubber-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/jquery.caret.min.js?ver=2.4.20" id="jquery-caret-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/jquery.atwho.min.js?ver=2.4.20" id="jquery-atwho-js"></script>
+<script type="text/javascript" id="bp-mentions-js-extra">
+/* <![CDATA[ */
+var BP_Mentions_Options = {"selectors":[".bp-suggestions","#comments form textarea",".wp-editor-area",".bbp-the-content"],"insert_tpl":"@${ID}","display_tpl":"<li data-value=\"@${ID}\"><img src=\"${image}\" \/><span class=\"username\">@${ID}<\/span><small>${name}<\/small><\/li>","extra_options":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/mentions.min.js?ver=2.4.20" id="bp-mentions-js"></script>
+<script type="text/javascript" id="theme-my-login-js-extra">
+/* <![CDATA[ */
+var themeMyLogin = {"action":"","errors":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.1.6" id="theme-my-login-js"></script>
+<script type="text/javascript" id="learndash-front-js-extra">
+/* <![CDATA[ */
+var ldVars = {"postID":"10","videoReqMsg":"Debes ver el video antes de acceder a este contenido","ajaxurl":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="//hiveagile.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=4.8.0.1" id="learndash-front-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform/bp-core/js/vendor/magnific-popup.js?ver=2.4.20" id="bp-nouveau-magnific-popup-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/assets/js/vendor/jquery.mask.js?ver=5.0.4" id="bp-zoom-mask-js-js"></script>
+<script type="text/javascript" id="bp-zoom-js-js-extra">
+/* <![CDATA[ */
+var bp_zoom_vars = {"ajax_url":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/hiveagile.com\/privacy-policy","is_single_meeting":"","is_single_webinar":"","group_id":"","group_meetings_url":"","group_meetings_past_url":"","group_webinars_url":"","group_webinar_past_url":"","bp_staple":"eFh4TVF3N2JRMnktdVBwcWJPSXRIdw==","meeting_delete_nonce":"5c17fa1bbd","meeting_confirm_msg":"\u00bfEst\u00e1s seguro de que quieres borrar esta reuni\u00f3n?","webinar_delete_nonce":"fe1fbf47c3","webinar_confirm_msg":"\u00bfEst\u00e1 seguro de que quiere eliminar este seminario web?","user":{"name":"Invitado","email":"guest@domain.com"},"scripts":["https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/react.production.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/react-dom.production.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/redux.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/redux-thunk.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/lodash.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/jquery.min.js","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/zoom-meeting-2.6.0.min.js"],"styles":["https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/bootstrap.css","https:\/\/hiveagile.com\/wp-content\/plugins\/buddyboss-platform-pro\/includes\/integrations\/zoom\/assets\/js\/zoom-web-sdk\/react-select.css"],"strings":{"day":"d\u00eda","month":"mes","week":"semana"},"lang":"es","is_zoom_sdk":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/includes/integrations/zoom/assets/js/bp-zoom.min.js?ver=2.4.10" id="bp-zoom-js-js"></script>
+<script type="text/javascript" id="bb-countdown-js-js-extra">
+/* <![CDATA[ */
+var bb_countdown_vars = {"daysStr":"D\u00edas","hoursStr":"Horas","minutesStr":"Minutos","secondsStr":"Segundos"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/plugins/buddyboss-platform-pro/assets/js/bb-countdown.min.js?ver=1.0.1" id="bb-countdown-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/menu.js?ver=2.4.10" id="boss-menu-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/fitvids.js?ver=2.4.10" id="boss-fitvids-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/slick.min.js?ver=2.4.10" id="boss-slick-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/panelslider.min.js?ver=2.4.10" id="boss-panelslider-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/sticky-kit.js?ver=2.4.10" id="boss-sticky-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/jssocials.min.js?ver=2.4.10" id="boss-jssocials-js-js"></script>
+<script type="text/javascript" id="buddyboss-theme-main-js-js-extra">
+/* <![CDATA[ */
+var bs_data = {"jm_ajax":"https:\/\/hiveagile.com\/jm-ajax\/","ajaxurl":"https:\/\/hiveagile.com\/wp-admin\/admin-ajax.php","show_notifications":"1","show_messages":"1","facebook_label":"Compartir en Facebook","twitter_label":"Tweet","translation":{"comment_posted":"Su comentario ha sido publicado.","comment_btn_loading":"Por favor, espere...","choose_a_file_label":"Escoge un archivo","email_validation":"Introduzca una direcci\u00f3n de correo electr\u00f3nico v\u00e1lida."},"gamipress_badge_label":"Insignia","learndash":{"nonce_get_courses":"d7a24f962a","course_archive_url":"https:\/\/hiveagile.com\/courses\/"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/main.min.js?ver=2.4.10" id="buddyboss-theme-main-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/validate.min.js?ver=2.4.10" id="boss-validate-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/select2.full.min.js?ver=2.4.10" id="select2-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/progressbar.min.js?ver=2.4.10" id="progressbar-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/vendors/mousewheel.min.js?ver=2.4.10" id="mousewheel-js-js"></script>
+<script type="text/javascript" id="buddyboss-theme-learndash-js-js-extra">
+/* <![CDATA[ */
+var BBTHEME_LEARNDASH_FRONT_VIDEO = {"hide_wrapper":"show","video_progression_enabled":"off","video_type":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/plugins/learndash.min.js?ver=2.4.10" id="buddyboss-theme-learndash-js-js"></script>
+<script type="text/javascript" src="https://hiveagile.com/wp-content/themes/buddyboss-theme/assets/js/plugins/elementor.min.js?ver=2.4.10" id="buddyboss-theme-elementor-js-js"></script>
+<script type="text/javascript" id="gt_widget_script_72207256-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['72207256'] = {"default_language":"es","languages":["en","fr","de","it","pt","es"],"url_structure":"none","native_language_names":1,"detect_browser_language":1,"flag_style":"2d","flag_size":24,"wrapper_selector":"#gt-wrapper-72207256","alt_flags":{"pt":"brazil"},"custom_css":"\/* Estilo para la posici\u00f3n del GTranslate Switcher en escritorios y grandes pantallas *\/\r\n.gt_switcher_wrapper {\r\n    top: 22px !important;\r\n    right: 100px !important;\r\n}\r\n\r\n\/* Opcional: Estilos espec\u00edficos para dispositivos m\u00f3viles si es necesario *\/\r\n@media (max-width: 767px) {\r\n    .gt_switcher_wrapper {\r\n        \/* Ajusta estos valores seg\u00fan c\u00f3mo desees que se vea en m\u00f3viles *\/\r\n        top: 15px !important;\r\n        right: 15px !important;\r\n    }\r\n}\r\n\r\n","horizontal_position":"right","vertical_position":"top"};
+/* ]]> */
+</script><script src="https://cdn.gtranslate.net/widgets/latest/popup.js?ver=6.4.3" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/privacy-policy/" data-gt-orig-domain="hiveagile.com" data-gt-widget-id="72207256" defer></script><script defer data-domain="hiveagile.com" src="https://plausible.hiveagile.dev/js/script.js"></script>
+</body>
+</html>

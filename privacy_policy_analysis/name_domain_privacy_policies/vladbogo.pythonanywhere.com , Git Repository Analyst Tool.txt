@@ -1,0 +1,23 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy Policy</title>
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+            h1 { color: #333; }
+            p { color: #555; }
+        </style>
+    </head>
+    <body>
+        <h1>Privacy Policy</h1>
+        <p><strong>Data Collection:</strong> No personal data is collected.</p>
+        <p><strong>Repository Data:</strong> Only the git repositories provided by the user are cloned for the operation of the service.</p>
+        <p><strong>Data Usage:</strong> The cloned repositories are only used to provide the service features such as commit differences, and are not shared with any third parties.</p>
+        <p><strong>Data Storage:</strong> The cloned repositories are stored locally within the service's infrastructure.</p>
+        <p><strong>Data Removal:</strong> Repositories can be removed upon request or after a certain period of inactivity.</p>
+    </body>
+    </html>
+    

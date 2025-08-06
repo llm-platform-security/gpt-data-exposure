@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/static/logo2.png" type="image/x-icon">
+<title>Privacy Policy - OS it</title>
+<style>
+    /* Custom styles */
+    body {
+        background: linear-gradient(to right, #654ea3, #eaafc8); /* Gradient background */
+        font-family: 'Arial', sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 60%; /* Adjust width as needed */
+        margin: 20px auto; /* Center the container with automatic margins and add spacing */
+        background: rgba(47, 48, 64, 0.7); /* Semi-transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    /* You can add more styling for p tags or other elements as needed */
+</style>
+</head>
+<body>
+
+<!-- Welcome Section -->
+<div class="container">
+    <h1>Welcome to OS it Privacy Policy</h1>
+</div>
+
+<!-- Privacy Policy Section -->
+<div class="container">
+    <h2>Our Privacy Policy</h2>
+    <p>
+        This Privacy Policy outlines how we handle your information. Your privacy is important to us, and we are committed to protecting your personal data. At OS it, we understand the significance of privacy in the digital age and strive to be transparent about our data practices.
+    </p>
+    
+    <h3>Information Collection</h3>
+    <p>
+        We collect information to provide better services to all our users. The information collected by OS it includes:
+    </p>
+    <ul>
+        <li>API keys used for identifying the requests made to our service.</li>
+        <li>Usage data that includes search queries, timestamps, and frequency of use to improve our service.</li>
+    </ul>
+
+    <h3>Use of Information</h3>
+    <p>
+        The information we collect allows us to provide, maintain, protect, and improve our services. We also use this information to offer you tailored content – like giving you more relevant search results.
+    </p>
+
+    <h3>Data Protection</h3>
+    <p>
+        We work hard to protect OS it and our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:
+    </p>
+    <ul>
+        <li>We encrypt our services using SSL.</li>
+        <li>We review our information collection, storage, and processing practices, including physical security measures, to guard against unauthorized access to systems.</li>
+        <li>Access to personal data within O S it is stringently limited to personnel who require this information to perform their job functions. We enforce strict confidentiality agreements with our employees, contractors, and agents, demanding adherence to our privacy standards. Non-compliance with these obligations can result in severe disciplinary action, up to and including termination of employment or contracts.</li>
+    </ul>
+
+    <h3>Your Data Rights</h3>
+    <p>
+        You have the right to access, update, and delete your personal information. Our service allows you to review and update your information at any time. If you wish to delete your information, please contact us directly.
+    </p>
+
+    <!-- Continue with more sections as necessary... -->
+
+</div>
+
+
+</body>
+</html>

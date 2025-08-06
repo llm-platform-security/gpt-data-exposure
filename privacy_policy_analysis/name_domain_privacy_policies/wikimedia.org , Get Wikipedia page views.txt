@@ -1,0 +1,549 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lte IE 9]><html class="ie ie9 lte9" lang="en"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+<head dir="ltr">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  
+      <title>
+       Privacy Policy | Wikimedia Formations
+      </title>
+  
+
+      <script type="text/javascript">
+        /* immediately break out of an iframe if coming from the marketing website */
+        (function(window) {
+          if (window.location !== window.top.location) {
+            window.top.location = window.location;
+          }
+        })(this);
+      </script>
+
+  
+
+  <script type="text/javascript" src="/static/js/i18n/en/djangojs.414b87adc480.js"></script>
+  <script type="text/javascript" src="/static/js/ie11_find_array.bd1c6dc7a133.js"></script>
+  
+  <link rel="icon" type="image/x-icon" href="/static/wikimedia-i-theme/images/favicon.c134d9c25224.ico" />
+
+  
+  
+
+    <link href="/static/wikimedia-i-theme/css/lms-style-vendor.68e48093f5dd.css" rel="stylesheet" type="text/css" />
+
+
+
+    
+  
+
+    <link href="/static/wikimedia-i-theme/css/lms-main-v1.39547a746304.css" rel="stylesheet" type="text/css" />
+
+
+
+
+    
+    <script type="text/javascript" src="/static/js/lms-main_vendor.a04b73033169.js" charset="utf-8"></script>
+
+
+    
+    <script type="text/javascript" src="/static/js/lms-application.7bec85e7ca02.js" charset="utf-8"></script>
+
+
+
+  
+    
+    
+    <script type="text/javascript" src="/static/bundles/commons.3118842e0e605e74e92f.edec8ecf1ce9.js" ></script>
+
+
+
+  <script>
+    window.baseUrl = "/static/";
+    (function (require) {
+      require.config({
+          baseUrl: window.baseUrl
+      });
+    }).call(this, require || RequireJS.require);
+  </script>
+  <script type="text/javascript" src="/static/lms/js/require-config.38226099c6ad.js"></script>
+  
+    <script type="text/javascript">
+        (function (require) {
+          require.config({
+              paths: {
+                'js/courseware/courseware_factory': 'js/courseware/courseware_factory.1504fc10caef',
+'draggabilly': 'js/vendor/draggabilly.26caba6f7187',
+'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.d5f10bc65ed0',
+'hls': 'common/js/vendor/hls.8f15a0109b05',
+'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
+'moment': 'common/js/vendor/moment-with-locales.084396f4103c',
+'moment-timezone': 'common/js/vendor/moment-timezone-with-data.60142e6c4416',
+'js/student_account/logistration_factory': 'js/student_account/logistration_factory.80f9f366e2ae',
+'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.7f46663f97b4',
+'js/dateutil_factory': 'js/dateutil_factory.841c29e02056',
+'course_bookmarks/js/views/bookmark_button': 'course_bookmarks/js/views/bookmark_button.d4cfaf3361fa',
+'js/courseware/accordion_events': 'js/courseware/accordion_events.6064c7809de5',
+'js/views/message_banner': 'js/views/message_banner.bc5a1361d5f5',
+'js/groups/discussions_management/discussions_dashboard_factory': 'js/discussions_management/views/discussions_dashboard_factory.2e10d9097343',
+'js/courseware/course_info_events': 'js/courseware/course_info_events.2fc35b57627f'
+            }
+          });
+        }).call(this, require || RequireJS.require);
+    </script>
+  
+
+  
+  
+
+  
+
+
+  
+
+
+<script type="application/json" id="user-metadata">
+    {"username": "", "enrollment_mode": null, "upgrade_link": null, "user_id": null, "course_start": null, "upgrade_deadline": null, "partition_groups": null, "has_non_audit_enrollments": null, "pacing_type": null, "upgrade_price": null, "course_id": null, "has_staff_access": null, "forum_roles": null, "enrollment_time": null, "schedule_start": null, "course_end": null}
+</script>
+
+  
+
+  <link rel="stylesheet" href="/static/wikimedia-i-theme/css/main.b6276fbaa0ff.css" type="text/css">
+  
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+<style>
+	:root {
+    --color-button: #000000;
+    --color-link: #5976d3;
+    --dark: #000000;
+    --color-footer: #333333;
+    --font-family-sans-serif: Open Sans, serif;
+    --font-family-monospace: Montserrat, sans serif;
+}
+</style>
+
+  
+
+
+  
+
+
+<!-- dummy Segment -->
+<script type="text/javascript">
+  var analytics = {
+    track: function() { return; },
+    trackLink: function() { return; },
+    pageview: function() { return; },
+    page: function() { return; }
+  };
+</script>
+<!-- end dummy Segment -->
+
+
+  <meta name="path_prefix" content="">
+  
+  
+
+  <meta name="openedx-release-line" content="ironwood" />
+
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA\u002D162680996\u002D1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+
+
+</head>
+
+<body class="ltr  lang_en">
+
+<div class="loader"></div>
+
+
+<div id="page-prompt"></div>
+
+  <div class="window-wrap" dir="ltr">
+    <a class="nav-skip sr-only sr-only-focusable" href="#main">Skip to main content</a>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="global-header ">
+    <div class="main-header">
+        
+
+
+
+
+
+
+
+
+
+
+<h1 class="hd logo-header">
+  <div class="logo">
+    <a href="/dashboard" itemprop="url">
+        <img class="logo-image" src="/static/wikimedia-i-theme/images/logo.4c608f26162b.png" alt="Wikimedia Formations Home Page" itemprop="logo" />
+    </a>
+  </div>
+  
+</h1>
+        <div class="hamburger-menu" role="button" aria-label=Options Menu aria-expanded="false" aria-controls="mobile-menu" tabindex="0">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+            
+
+
+
+
+
+
+
+
+<nav class="nav-links" aria-label=Supplemental Links>
+  <div class="main">
+      
+
+
+
+  </div>
+  <div class="secondary">
+    <div>
+      <div class="mobile-nav-item hidden-mobile nav-item">
+          <a class="register-in-btn" href="/register?next=%2Fprivacy">Register</a>
+      </div>
+      <div class="mobile-nav-item hidden-mobile nav-item">
+          <a class="sign-in-btn" href="/login?next=%2Fprivacy">Sign in</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    </div>
+    <div class="mobile-menu hidden" aria-label=More Options role="menu" id="mobile-menu"></div>
+</header>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="marketing-hero">
+    </div>
+
+    <div class="content-wrapper main-container" id="content" dir="ltr">
+      
+
+
+
+
+
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+
+<h2>Politique de confidentialité sur le respect de la vie privée</h2>
+<p><em>Date de dernière mise à jour : 18 février 2020</em></p>
+
+<p>La présente Politique de Confidentialité sur le respect de la vie privée (la « Politique de Confidentialité ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet https://formations.wikimedia.fr/ (le « Site ») exploité par Wikimédia France</p>
+
+<p><strong>La Politique de Confidentialité et les Conditions Générales d’Utilisation et le Code de conduite du Site forment un ensemble contractuel. Tous les termes en majuscules non-définis dans la présente Politique de Confidentialité sont définis dans les Conditions Générales et le code de conduite consultables ici : https://formations.wikimedia.fr/honor.</strong></p>
+
+<p>Dans le cadre de la mise à disposition de notre Site, nous traitons vos données à caractère personnel dans le respect du Règlement Général sur la Protection des Données 2016/679 du 27 avril 2016 (« RGPD ») et dans les conditions exposées ci-après.</p>
+
+<p>Une donnée à caractère personnel désigne toute information se rapportant à une personne physique identifiée ou identifiable. Nous collectons et traitons des données à caractère personnel dans le cadre de la fourniture de nos Services ou de la communication à propose de ces Services exclusivement, en stricte conformité avec le RGPD.</p>
+
+<p>Nous collectons uniquement des données à caractère personnel adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités pour lesquelles elles sont traitées. Ainsi, il ne vous sera jamais demandé de renseigner des données à caractère personnel considérées comme « sensibles », telles que vos origines raciales ou ethniques, vos opinions politiques, philosophiques ou religieuses.</p>
+
+<p>En vous enregistrant sur le Site, vous nous autorisez à traiter vos données à caractère personnel conformément à la Politique de Confidentialité. <strong>Si vous refusez les termes de cette Politique de Confidentialité, veuillez-vous abstenir d’utiliser le Site ainsi que les Services.</strong></p>
+
+<h3>1. Dans quels cas collectons-nous vos données à caractère personnel et quelles données sont collectées ?</h3>
+<p>Nous sommes susceptibles de recueillir et de conserver vos données à caractère personnel, notamment lorsque vous :
+<ul>
+<li>Inscrivez sur le site</li>
+<li>Naviguez sur le Site</li>
+<li>Publiez dans les forums internes au Site</li>
+<li>Répondez aux quiz</li>
+<li>Nous contactez.</li>
+</ul>
+</p>
+
+<p>Nous utilisons vos données à caractère personnel pour permettre la mise en œuvre et la gestion des Services du Site et répondre à vos demandes spécifiques. Nous utilisons également vos données à caractère personnel dans le but d'exploiter et d'améliorer nos Services, notre Site et notre démarche. Ces informations sont utilisées uniquement par nos soins et nous permettent de mieux adapter nos Services à vos attentes.</p>
+
+<p>Si vous avez décidé de recevoir des courriels et messages de notre part lors de la création de votre Compte, vous recevrez alors des messages électroniques et alphanumériques portant sur nos produits et promotions. Nous utiliserons alors les données à caractère personnel que vous avez fournies lors de votre enregistrement. Vous pouvez vous désabonner de ces envois à tout moment.</p>
+
+<h4>1.1 Navigation sur le Site</h4>
+<p><strong>Données de connexion</strong>. À chaque fois que vous vous connectez à notre Site, nous recueillons des données à caractère personnel telles que, notamment, votre adresse IP et l’adresse MAC de votre ordinateur, la date et l'heure de connexion, ainsi que des informations sur le navigateur que vous utilisez.</p>
+<p><strong>Données de navigation</strong>. Nous recueillons également les informations permettant d'identifier de quelle façon vous accédez au Site, quelles sont les pages consultées et pendant combien de temps, la durée de visionnage des vidéos pédagogiques. Dans ce cadre, nous pouvons avoir recours à l'utilisation de Cookies tel que précisé au paragraphe 6 ci-dessous.</p>
+
+<h4>1.2 Création d’un Compte</h4>
+<p>L’accès à certains de nos Services nécessite la création préalable d’un Compte. Conformément aux Conditions Générales, il vous sera demandé de renseigner un certain nombre de données à caractère personnel lors de la création de votre Compte, <strong>notamment vos noms et prénoms, votre adresse email et un nom d’utilisateur</strong>.</p>
+
+<h4>1.3 Adhésion à notre Newsletter</h4>
+<p>Lors de la création de votre Compte, vous pouvez donner votre consentement préalable à la réception de nos lettres d’information concernant des actualités, des nouveaux produits, services et promotions, dans le cadre des Services.</p>
+
+<p>Vous pouvez également consentir directement à la réception de nos lettres d’information en renseignant votre adresse email aux endroits prévus à cet effet sur le Site.</p>
+<p>En tout état de cause, vous disposez du droit de retirer votre consentement à la réception de telles lettres d’information à tout moment et sans frais dans les conditions prévues au paragraphe 6 de la Politique de Confidentialité.</p>
+
+<h4>1.4 Contacts</h4>
+<p>Afin de donner suite aux demandes que vous pourriez effectuer auprès de notre Service Client et de confirmer les informations vous concernant, nous pourrons utiliser vos nom, prénom, adresse de courrier électronique.</p>
+
+<h3>2. Comment protégeons-nous vos données à caractère personnel ?</h3>
+<p>Nous avons mis en place des mesures de sécurité techniques et organisationnelles en vue de garantir la sécurité, l’intégrité et la confidentialité de toutes vos données à caractère personnel, afin d’empêcher que celles-ci soient déformées, endommagées ou que des tiers non autorisés y aient accès. Nous assurons un niveau de sécurité approprié, compte tenu de l'état des connaissances, des coûts de mise en œuvre et de la nature, de la portée, du contexte et des finalités du traitement ainsi que des risques et de leur probabilité.</p>
+
+<p>Toutefois, il est précisé qu’aucune mesure de sécurité n’étant infaillible, nous ne sommes pas en mesure de garantir une sécurité absolue à vos données à caractère personnel.</p>
+
+<p>Par ailleurs, il vous incombe d'assurer la confidentialité du mot de passe vous permettant d’accéder à votre Compte. Ne communiquez cette information à personne. Si vous partagez votre ordinateur, n'oubliez pas de vous déconnecter avant de quitter un Service.</p>
+
+<h3>3. Dans quels cas partageons-nous vos données à caractère personnel ?</h3>
+<h4>3.1 Partage de vos données personnelles avec des sociétés tierces</h4>
+<p>Lors de votre navigation sur le Site, vos données à caractère personnel peuvent être transmises à des prestataires extérieurs. Ces tiers assurent un service pour notre compte et en notre nom dans le but de permettre le bon fonctionnement des paiements en ligne et autres Services.</p>
+
+<p>Vos données personnelles vous concernant collectées sur la plateforme Formations Wikimédia peuvent éventuellement être transmises à ou transiter par des partenaires dans le cadre du fonctionnement de la formation. Il s’agit au niveau européen de :
+<ul>
+<li><a href="https://moocit.fr">MOOCit</a> notre partenaire technique pour la solution Open Edx;</li>
+<li>Sendinblue notre partenaire emailing pour les invitations, relance et communications ;</li>
+<li>L’association Wikimédia France</li>
+</ul>
+</p>
+<p>Nous faisons appel à ces services pour répondre aux besoins de la formation à savoir:
+<ul>
+<li>D’annoncer les ouvertures/fermetures de cours</li>
+<li>Dans le cadre de l’exécution des Formations Wikimédia pour : Gestion de votre compte utilisateur ; Identification et authentification des utilisateurs ou clients ; Communications avec les utilisateurs ou clients (assistance technique et commerciale, envoi d'emails d'informations, notifications du déroulement, des échéances et des résultats); Gestion des droits et des demandes d’exercice des droits des personnes ; Fourniture et fonctionnement des services ; Hébergement des données du client ou utilisateur ; Administration et gestion du réseau et des services ; Édition des attestations de réussite et certificats</li>
+<li>À des fins d’intérêts légitimes ou, le cas échéant, sur la base de votre consentement pour : Lutter contre la fraude ; La fourniture de contenus et de recommandations personnalisées basés sur l’analyse des usages ; Le développement et/ou l’amélioration des produits et services ; La réalisation d’études statistiques, d’analyses et de mesures d’audience ; Le déploiement et exploitation du MOOC ; La sécurisation.</li>
+<li>À des fins de recherche : Les données recueillies seront également utilisées par l’équipe de Wikimédia France. Ces données pourront être utilisées pour divers aspects :</li>
+<ul>
+<li>recueillir les expériences utilisateurs et en suivre la progression ;</li>
+<li>mettre en place un suivi et des statistiques de votre motivation (mesure de l’attrition) ;</li>
+<li>utilisation de données agrégées d’une cohorte pour prédire la performance d’étudiants dans une session suivante ;</li>
+<li>analyser les interactions entre apprenants pour identifier des liens avec la performance ;</li>
+<li>identifier des corrélations entre la réussite et les réponses à certaines questions des questionnaires recherche dans le but de soutenir davantage les futurs apprenants.</li>
+</ul>
+<li>Ces analyses ne seront jamais utilisées pour affecter négativement la note d’apprenants, passés ou futurs, ou pour effectuer une discrimination en fonction des profils d’apprenants pouvant être créés ou déduits.</li>
+<li>Pour assurer le respect de nos obligations légales et règlementaires telles que définies par la législation en vigueur.</li>
+</ul>
+</p>
+
+<p>Conformément au RGPD, tous les transferts de données à caractère personnel vers un pays situé hors de l’Union Européenne et/ou n’offrant pas un niveau de protection considéré comme suffisant par la Commission européenne ont fait l’objet de conventions de flux transfrontière conformes aux clauses contractuelles types édictées par la Commission européenne.</p>
+
+<p>Les transferts de données à caractère personnel vers les Etats-Unis sont régis par le E.U. – U.S. PRIVACY SHIELD (Bouclier de protection des Données Union Européenne-Etats-Unis): <a href="https://www.cnil.fr/fr/le-privacy-shield">cliquez ici pour plus d’informations</a>.</p>
+
+<p><a href="https://www.privacyshield.gov/participant?id=a2zt0000000TRKIAA4&status=Active">PSI Services LLC</a></p>
+<p><a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active">Google</a></p>
+<p>Sauf dans le cas où un tiers vous demande d’accepter une Politique de Confidentialité de confidentialité et des conditions d’utilisations qui lui sont propres, les sociétés tierces ayant reçu communication de vos données à caractère personnel se sont engagées à traiter vos données à caractère personnel uniquement pour la mise en œuvre de nos Services.</p>
+
+<p>Nous ne partagerons jamais, sans avoir obtenu votre consentement préalable, vos données à caractère personnel avec des sociétés tierces à des fins marketings et/ou commerciales.</p>
+
+<h4>3.2 Partage avec les autorités</h4>
+<p>Nous pouvons être amené à divulguer vos données à caractère personnel aux autorités administrative ou judiciaire lorsque leur divulgation est nécessaire à l'identification, l'interpellation ou la poursuite en justice de tout individu susceptible de porter préjudice à nos droits, de tout autre utilisateur ou d’un tiers. Nous pouvons enfin être légalement tenu de divulguer vos données à caractère personnel et ne pouvons dans ce cas nous y opposer.</p>
+
+<h3>4. Combien de temps conservons-nous vos données à caractère personnel ?</h3>
+<p>Nous ne conserverons vos données à caractère personnel que le temps de votre inscription sur le Site afin d'assurer votre identification lors de votre connexion à votre Compte et de permettre la fourniture des Services.</p>
+<p>Ainsi, si vous procédez à votre désinscription du Site, vos données à caractère personnel seront effacées et uniquement conservées sous forme d’archive aux fins d’établissement de la preuve d’un droit ou d’un contrat.</p>
+<p>En tout état de cause, nous conserverons vos données à caractère personnel pendant une durée n'excédant pas celle nécessaire au regard des finalités pour lesquelles elles sont traitées conformément aux utilisations exposées dans la présente Politique de Confidentialité et dans le respect des lois et règlements.</p>
+
+<h3>5. Cookies : comment les utilisons-nous ?</h3>
+<h4>5.1 Qu’est-ce qu’un cookie ?</h4>
+<p>Un cookie est un fichier texte susceptible d’être déposé dans un terminal lors de la consultation d’un service en ligne avec un logiciel de navigation. Un fichier cookie permet notamment à son émetteur, pendant sa durée de validité, de reconnaître le terminal concerné à chaque fois que ce terminal accède à un contenu numérique comportant des cookies du même émetteur.</p>
+
+<p>En tout état de cause, les cookies déposés sur votre terminal de navigation avec votre accord sont détruits 13 mois après leur dépôt sur votre terminal.</p>
+
+<h4>5.2 A quoi servent les cookies émis sur notre Site ?</h4>
+<p>Les cookies que nous émettons nous permettent :
+<ul>
+<li>d'établir des statistiques et volumes de fréquentation et d'utilisation des divers éléments composant notre Site (rubriques et contenus visités, parcours), nous permettant d'améliorer l'intérêt et l'ergonomie du Site et, le cas échéant, de nos produits et services ;</li>
+<li>d'adapter la présentation de notre Site aux préférences d'affichage de votre terminal (langue utilisée, résolution d'affichage, système d'exploitation utilisé, etc.) lors de vos visites sur notre Site, selon les matériels et les logiciels de visualisation ou de lecture que votre terminal comporte ;</li>
+<li>de mémoriser des informations relatives à un formulaire que vous avez rempli sur notre Site (inscription ou accès à votre compte) ou à des produits, services ou informations que vous avez choisis sur notre Site (service souscrit, contenu d'un panier de commande, etc.) ;</li>
+<li>de vous permettre d'accéder à des espaces réservés et personnels de notre Site, tels que votre Compte, grâce à des identifiants ou des données que vous nous avez éventuellement antérieurement confiées et de mettre en œuvre des mesures de sécurité, par exemple lorsqu’il vous est demandé de vous connecter à nouveau à un contenu ou à un service après une certain laps de temps.</li>
+</ul>
+</p>
+<p>Lors de votre navigation sur le Site, des cookies des réseaux sociaux peuvent être générés notamment par l’intermédiaire des boutons de partage qui collectent des données à caractère personnel.</p>
+
+<h4>5.3 Comment pouvez-vous contrôler les cookies utilisés ?</h4>
+<p>Vous pouvez à tout moment configurer votre logiciel de navigation de manière à ce que des cookies soient enregistrés dans votre terminal ou, au contraire, qu'ils soient rejetés (soit systématiquement, soit selon leur émetteur). Vous pouvez également configurer votre logiciel de navigation de manière à ce que l'acceptation ou le refus des cookies vous soit proposé ponctuellement, avant qu'un cookie puisse être enregistré dans votre terminal.</p>
+
+<p>Attention : tout paramétrage est susceptible de modifier votre navigation sur Internet et vos conditions d'accès à certains services nécessitant l'utilisation de cookies. Nous déclinons toute responsabilité s’agissant des conséquences liées au fonctionnement dégradé de nos services résultant de l'impossibilité d'enregistrer ou de consulter les cookies nécessaires à leur fonctionnement et que vous auriez refusés ou supprimés. Tel serait le cas si vous tentiez d'accéder à nos contenus ou services qui nécessitent de vous identifier. Tel serait également le cas lorsque nous (ou nos prestataires) ne pourrions pas reconnaître, à des fins de compatibilité technique, le type de navigateur utilisé par votre terminal, ses paramètres de langue et d'affichage ou le pays depuis lequel votre terminal semble connecté à Internet.</p>
+
+<h4>5.4 Comment configurer votre logiciel de navigation ?</h4>
+<p>Vous pouvez activer dans votre navigateur l’option « Do not track » afin d’indiquer aux sites que vous consultez que vous ne souhaitez pas être suivi.</p>
+
+<p><strong>Comment activer l’option « Do not track » ?</strong></p>
+
+<p>Mozilla Firefox : <a href="://support.mozilla.org/fr/kb/comment-activer-option-ne-pas-pister">https://support.mozilla.org/fr/kb/comment-activer-option-ne-pas-pister</a></p>
+<p>Google Chrome : <a href="https://support.google.com/chrome/answer/114836">https://support.google.com/chrome/answer/114836</a></p>
+<p>Apple Safari : <a href="http://support.apple.com/kb/PH11952">http://support.apple.com/kb/PH11952</a></p>
+<p>Microsoft Internet Explorer : <a href="https://support.microsoft.com/fr-fr/help/17288/windows-internet-explorer-11-use-do-not-track">https://support.microsoft.com/fr-fr/help/17288/windows-internet-explorer-11-use-do-not-track</a></p>
+<p>Microsoft Edge : <a href="://privacy.microsoft.com/fr-fr/windows-10-microsoft-edge-and-privacy">https://privacy.microsoft.com/fr-fr/windows-10-microsoft-edge-and-privacy</a></p>
+
+<p>Pour la gestion des cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d'aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de cookies. Vous trouverez ci-dessous des informations concernant les principaux navigateurs.</p>
+
+<p>Internet Explorer / Edge: Dans Internet Explorer, cliquez sur le bouton Outils, puis sur Options Internet. Sous l'onglet Général, sous Historique de navigation, cliquez sur Paramètres. Cliquez sur le bouton Afficher les fichiers.</p>
+
+<p>Firefox: Allez dans l'onglet Outils du navigateur puis sélectionnez le menu Options. Dans la fenêtre qui s'affiche, choisissez Vie privée et cliquez sur Affichez les cookies</p>
+
+<p>Safari: Accédez aux Paramètres via le menu du navigateur (Safari > Préférences). Cliquez sur Confidentialité.</p>
+
+<p>Google Chrome : Accédez aux Paramètres via le bouton à droite de la barre d’URL ou via le menu du navigateur (Chrome > Préférences). Sélectionnez Paramètres Avancées. Cliquez sur Paramètres du contenu puis sur Cookies.</p>
+
+<p>Pour obtenir plus d’information sur les cookies, vous pouvez consulter le site internet de la CNIL.</p>
+
+<h3>6. Quels sont vos droits ?</h3>
+<p>Vous êtes seuls à nous avoir communiqué les données en notre possession, par l’intermédiaire du Site. Vous disposez de droits sur vos données à caractère personnel. Conformément à la réglementation en matière de protection des données à caractère personnel, notamment les articles 15 à 22 du RGPD, et après avoir justifié de votre identité, vous avez le droit de nous demander l'accès aux données à caractère personnel vous concernant, la rectification ou l'effacement de celles-ci.</p>
+
+<p>En outre, dans les limites posées par la loi, vous disposez également du droit de vous opposer au traitement, de le limiter, de décider du sort post-mortem de vos données, de retirer votre consentement à tout moment et du droit à la portabilité des données à caractère personnel fournies.</p>
+
+<p>Vous pouvez contactez nos Services afin d’exercer vos droits à l’adresse électronique suivante : formation@wikimedia.fr ou à l’adresse postale suivante : Wikimédia France, 40 rue de cléry 75002 Paris en joignant à votre demande une copie d’un titre d’identité.</p>
+
+<p>Par ailleurs, vous pouvez à tout moment vous désabonner de nos communications en cliquant sur le lien qui permet le désabonnement en bas de chaque email. Vous pouvez également vous désabonner en envoyant un message à l’adresse suivante : formation@wikimedia.fr </p>
+
+<h3>7. Pouvons-nous modifier la Politique de Confidentialité ?</h3>
+<p>Nous nous réservons le droit de modifier la Politique de Confidentialité à tout moment. Il est vous est donc recommandé de la consulter régulièrement. En cas de modification, nous publierons ces changements sur cette page et aux endroits que nous jugerons appropriés en fonction de l’objet et de l’importance des changements apportés.</p>
+<p>Votre utilisation du Site après toute modification signifie que vous acceptez ces modifications. Si vous n'acceptez pas certaines modifications substantielles apportées à la présente Politique de Confidentialité, vous devez arrêter d'utiliser le Site.</p>
+
+<h3>8. Délégué à la Protection des Données et contact</h3>
+<p>Pour toute question concernant vos données à caractère personnel ou si vous souhaitez supprimer votre Compte, merci de nous contacter à l’adresse postale suivante Wikimédia France, 40 rue de cléry 75002 Paris, (en indiquant "Vie Privée - Protection des Données"), ou par email à privacy@wikimedia.fr </p>
+
+<h3>9. La Commission Nationale de l'Informatique et des Libertés ("CNIL")</h3>
+<p>Nous vous rappelons que vous pouvez contacter la CNIL directement sur le site internet de la CNIL ou par courrier à l’adresse suivante : Commission Nationale de l'Informatique et des Libertés (CNIL), 3 Place de Fontenoy - TSA 80715, 75334 PARIS CEDEX 07.</p>
+
+
+    </section>
+</main>
+
+      
+    </div>
+
+        
+
+
+
+
+<div class="container-fluid wrapper-footer ">
+<footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/honor">Terms of Service</a></li>
+        <li><a href="/about">Contacts</a></li>
+      </ul>
+    </div>
+</footer>
+<p id="copyright">
+  <span class="reserved">© Wikimedia Formations - All rights reserved</span>
+    <span class="powered">Powered by <a target="_blank" title="moocit.fr" href="https://moocit.fr">MOOCit</a> on <a target="_blank" title="open.edx.org" href="https://open.edx.org">Open edX</a>
+    </span>
+</p>
+</div>
+
+
+
+  </div>
+
+  
+  
+
+  
+
+
+
+  <script type="text/javascript" src="/static/js/vendor/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
+  <script type="text/javascript" src="/static/js/utils/navigation.08930e16ab3d.js" charset="utf-8"></script>
+  <script type="text/javascript" src="/static/js/header/header.309a1243e175.js"></script>
+  
+
+
+  <script src="/static/wikimedia-i-theme/js/popper.min.36affe2ca6cb.js"></script>
+  <script src="/static/wikimedia-i-theme/js/bootstrap.min.e1d98d47689e.js"></script>
+
+  <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.wikimedia.fr"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.wikimedia.fr/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://matomo.wikimedia.fr/matomo.php?idsite=9&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+  <script>
+  $(document).ready(function() {
+    // Animate loader off screen
+    $(".loader").fadeOut("slow");;
+  });
+</script>
+
+</body>
+</html>
+
+

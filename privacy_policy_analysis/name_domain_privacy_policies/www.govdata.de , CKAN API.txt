@@ -1,0 +1,2775 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="aui ltr" dir="ltr" lang="de-DE">
+
+<head>
+  <title>Datenschutzerklärung - GovData</title>
+
+  <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+  <link rel="shortcut icon" href="https://www.govdata.de/o/govdatastyle-theme/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="https://www.govdata.de/o/govdatastyle-theme/images/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://www.govdata.de/o/govdatastyle-theme/images/favicons/ms-icon-144x144.png">
+  <meta name="msapplication-config" content="https://www.govdata.de/o/govdatastyle-theme/images/favicons/IEconfig.xml" />
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:image" content="https://www.govdata.de/o/govdatastyle-theme/images/logo-socialmedia.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="importmap">{"imports":{"react-dom":"/o/frontend-js-react-web/__liferay__/exports/react-dom.js","@clayui/breadcrumb":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$breadcrumb.js","@clayui/form":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$form.js","@clayui/popover":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$popover.js","@clayui/charts":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$charts.js","@clayui/shared":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$shared.js","@clayui/localized-input":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$localized-input.js","@clayui/modal":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$modal.js","@clayui/empty-state":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$empty-state.js","react":"/o/frontend-js-react-web/__liferay__/exports/react.js","@clayui/color-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$color-picker.js","@clayui/navigation-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$navigation-bar.js","@clayui/pagination":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination.js","@clayui/icon":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$icon.js","@clayui/table":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$table.js","@clayui/autocomplete":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$autocomplete.js","@clayui/slider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$slider.js","@clayui/management-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$management-toolbar.js","@clayui/multi-select":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-select.js","@clayui/nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$nav.js","@clayui/time-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$time-picker.js","@clayui/provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$provider.js","@clayui/upper-toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$upper-toolbar.js","@clayui/loading-indicator":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$loading-indicator.js","@clayui/panel":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$panel.js","@clayui/drop-down":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$drop-down.js","@clayui/list":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$list.js","@clayui/date-picker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$date-picker.js","@clayui/label":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$label.js","@clayui/data-provider":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$data-provider.js","@liferay/frontend-js-api/data-set":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api$data-set.js","@clayui/core":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$core.js","@clayui/pagination-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$pagination-bar.js","@clayui/layout":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$layout.js","@clayui/multi-step-nav":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$multi-step-nav.js","@liferay/frontend-js-api":"/o/frontend-js-dependencies-web/__liferay__/exports/@liferay$js-api.js","@clayui/css":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$css.js","@clayui/toolbar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$toolbar.js","@clayui/alert":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$alert.js","@clayui/badge":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$badge.js","@clayui/link":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$link.js","@clayui/card":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$card.js","@clayui/progress-bar":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$progress-bar.js","@clayui/tooltip":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tooltip.js","@clayui/button":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$button.js","@clayui/tabs":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$tabs.js","@clayui/sticker":"/o/frontend-taglib-clay/__liferay__/exports/@clayui$sticker.js"},"scopes":{}}</script><script data-senna-track="temporary">var Liferay = window.Liferay || {};Liferay.Icons = Liferay.Icons || {};Liferay.Icons.controlPanelSpritemap = 'https://www.govdata.de/o/admin-theme/images/clay/icons.svg';Liferay.Icons.spritemap = 'https://www.govdata.de/o/govdatastyle-theme/images/clay/icons.svg';</script>
+<script data-senna-track="permanent" type="text/javascript">window.Liferay = window.Liferay || {}; window.Liferay.CSP = {nonce: ''};</script>
+<link data-senna-track="temporary" href="https://www.govdata.de/datenschutz" rel="canonical" />
+<link data-senna-track="temporary" href="https://www.govdata.de/datenschutz" hreflang="de-DE" rel="alternate" />
+<link data-senna-track="temporary" href="https://www.govdata.de/datenschutz" hreflang="x-default" rel="alternate" />
+
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:site_name" content="GovData">
+<meta property="og:title" content="Datenschutzerklärung - GovData">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.govdata.de/datenschutz">
+
+
+<link href="https://www.govdata.de/o/govdatastyle-theme/images/favicon.ico" rel="apple-touch-icon" />
+<link href="https://www.govdata.de/o/govdatastyle-theme/images/favicon.ico" rel="icon" />
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.govdata.de/o/govdatastyle-theme/css/clay.css?browserId=other&amp;themeId=govdatastyle_WAR_govdatastyletheme&amp;minifierType=css&amp;languageId=de_DE&amp;t=1714053716000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	<link href="/combo?browserId=other&amp;minifierType=css&amp;themeId=govdatastyle_WAR_govdatastyletheme&amp;languageId=de_DE&amp;com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F:%2Fo%2Fjournal-content-web%2Fcss%2Fmain.css&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fo%2Fportal-search-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fo%2Fproduct-navigation-product-menu-web%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fo%2Fproduct-navigation-user-personal-bar-web%2Fcss%2Fmain.css&amp;com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet:%2Fo%2Fsite-navigation-menu-web%2Fcss%2Fmain.css&amp;t=1714053716000" rel="stylesheet" type="text/css"
+ data-senna-track="temporary" id="ea619e2e" />
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return false;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 16.2;
+			},
+
+			getRevision: function() {
+				return '605.1';
+			},
+			getVersion: function() {
+				return '16.2';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return false;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return true;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return true;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return true;
+			},
+			isSafari: function() {
+				return true;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return true;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			
+		];
+
+		(function () {
+			var available = {};
+
+			var direction = {};
+
+			
+
+				available['de_DE'] = 'Deutsch\x20\x28Deutschland\x29';
+				direction['de_DE'] = 'ltr';
+
+			
+
+			Liferay.Language = {
+				available,
+				direction,
+				get: function(key) {
+					return key;
+				}
+			};
+		})();
+
+		var featureFlags = {"LPS-195263":false,"LPS-193884":false,"LPS-157988":false,"LPS-178642":false,"LPS-193005":false,"LPS-187284":false,"LPS-189187":false,"LPS-187285":false,"LPS-114786":false,"COMMERCE-8087":false,"LRAC-10757":false,"LPS-197408":false,"LPS-180090":false,"LPS-170809":false,"LPS-178052":false,"LPS-189856":false,"LPS-187436":false,"LPS-182184":false,"LPS-185892":false,"LPS-186620":false,"LPS-159650":false,"COMMERCE-11026":false,"LPS-197692":false,"LPS-184404":false,"LPS-180328":false,"COMMERCE-11028":false,"LPS-169923":false,"LPS-198183":false,"LPS-171364":false,"COMMERCE-11181":false,"LPS-196766":false,"LPS-153714":false,"LPS-96845":false,"COMMERCE-10890":false,"LPS-170670":false,"LPS-169981":false,"LPS-177027":false,"LPS-172416":false,"LPS-196724":false,"LPS-163118":false,"LPS-135430":false,"LPS-164563":false,"LPS-134060":false,"LPS-122920":false,"LPS-148856":false,"LPS-173135":false,"LPS-194395":false,"COMMERCE-9599":false,"LPS-195205":false,"LPS-187142":false,"LPS-197307":false,"LPS-196935":true,"LPS-187854":false,"LPS-197909":false,"LPS-165346":false,"LPS-144527":false,"COMMERCE-8949":false,"LPS-165481":false,"LPS-174455":false,"LPS-153813":false,"LPS-149256":false,"LPS-194763":false,"COMMERCE-11287":false,"LPS-165482":false,"LPS-193551":false,"LPS-196420":false,"LPS-197477":false,"LPS-174816":false,"LPS-186360":false,"LPS-153332":false,"LPS-179669":false,"LPS-174417":false,"LPS-183882":false,"LPS-155284":false,"LPS-186558":false,"LPS-158675":false,"LPS-159643":false,"LPS-179035":false,"LPS-181663":false,"LPS-161033":false,"LPS-164948":false,"LPS-184255":false,"LPS-188058":false,"LPS-129412":false,"LPS-198573":false,"LPS-183727":false,"LPS-166126":false,"LPS-182512":false,"LPS-169837":false,"LPS-180855":false};
+
+		Liferay.FeatureFlags = Object.keys(featureFlags).reduce(
+			(acc, key) => ({
+				...acc, [key]: featureFlags[key] === 'true' || featureFlags[key] === true
+			}), {}
+		);
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '18';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/web/guest/datenschutz';
+				},
+				getLayoutURL: function() {
+					return 'https://www.govdata.de/web/guest/datenschutz';
+				},
+				getParentLayoutId: function() {
+					return '0';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'de-DE';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https\x3a\x2f\x2fwww\x2egovdata\x2ede\x2fdatenschutz';
+			},
+			getCDNBaseURL: function() {
+				return 'https://www.govdata.de';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '10156';
+			},
+			getCompanyId: function() {
+				return '1';
+			},
+			getDefaultLanguageId: function() {
+				return 'de_DE';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'de_DE';
+			},
+			getParentGroupId: function() {
+				return '19';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://www.govdata.de/o/govdatastyle-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/govdatastyle-theme';
+			},
+			getPlid: function() {
+				return '14810';
+			},
+			getPortalURL: function() {
+				return 'https://www.govdata.de';
+			},
+			getRealUserId: function() {
+				return '5';
+			},
+			getRemoteAddr: function() {
+				return '128.252.48.9';
+			},
+			getRemoteHost: function() {
+				return '128.252.48.9';
+			},
+			getScopeGroupId: function() {
+				return '19';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '19';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://www.govdata.de/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '19';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=14810';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fwww\x2egovdata\x2ede\x2fweb\x2fguest\x2fhome';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '5';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+
+			isStagedPortlet: function() {
+				
+					
+						return false;
+					
+				
+			},
+
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=de_DE&t=1714053928899&';
+			},
+			getDateFormat: function() {
+				return '%d.%m.%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=de_DE&t=1714053928899';
+			}
+		};
+
+		Liferay.authToken = 'Nlt31N7T';
+
+		
+
+		Liferay.currentURL = '\x2fweb\x2fguest\x2fdatenschutz';
+		Liferay.currentURLEncoded = '\x252Fweb\x252Fguest\x252Fdatenschutz';
+	// ]]>
+</script>
+
+<script data-senna-track="temporary" type="text/javascript">window.__CONFIG__= {basePath: '',combine: true, defaultURLParams: null, explainResolutions: false, exposeGlobal: false, logLevel: 'warn', moduleType: 'module', namespace:'Liferay', nonce: '', reportMismatchedAnonymousModules: 'warn', resolvePath: '/o/js_resolve_modules', url: '/combo/?browserId=other&minifierType=js&languageId=de_DE&t=1714053928899&', waitTimeout: 60000};</script><script data-senna-track="permanent" src="/o/frontend-js-loader-modules-extender/loader.js?&mac=9WaMmhziBCkScHZwrrVcOR7VZF4=&browserId=other&languageId=de_DE&minifierType=js" type="text/javascript"></script><script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=de_DE&t=1714053928899&/o/frontend-js-aui-web/aui/aui/aui-min.js&/o/frontend-js-aui-web/liferay/modules.js&/o/frontend-js-aui-web/liferay/aui_sandbox.js&/o/frontend-js-aui-web/aui/attribute-base/attribute-base-min.js&/o/frontend-js-aui-web/aui/attribute-complex/attribute-complex-min.js&/o/frontend-js-aui-web/aui/attribute-core/attribute-core-min.js&/o/frontend-js-aui-web/aui/attribute-observable/attribute-observable-min.js&/o/frontend-js-aui-web/aui/attribute-extras/attribute-extras-min.js&/o/frontend-js-aui-web/aui/event-custom-base/event-custom-base-min.js&/o/frontend-js-aui-web/aui/event-custom-complex/event-custom-complex-min.js&/o/frontend-js-aui-web/aui/oop/oop-min.js&/o/frontend-js-aui-web/aui/aui-base-lang/aui-base-lang-min.js&/o/frontend-js-aui-web/liferay/dependency.js&/o/frontend-js-aui-web/liferay/util.js&/o/oauth2-provider-web/js/liferay.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js" type="text/javascript"></script>
+<script data-senna-track="temporary" type="text/javascript">window.Liferay = Liferay || {}; window.Liferay.OAuth2 = {getAuthorizeURL: function() {return 'https://www.govdata.de/o/oauth2/authorize';}, getBuiltInRedirectURL: function() {return 'https://www.govdata.de/o/oauth2/redirect';}, getIntrospectURL: function() { return 'https://www.govdata.de/o/oauth2/introspect';}, getTokenURL: function() {return 'https://www.govdata.de/o/oauth2/token';}, getUserAgentApplication: function(externalReferenceCode) {return Liferay.OAuth2._userAgentApplications[externalReferenceCode];}, _userAgentApplications: {}}</script><script data-senna-track="temporary" type="text/javascript">try {var MODULE_MAIN='@liferay/frontend-taglib@13.1.0/index';var MODULE_PATH='/o/frontend-taglib';AUI().applyConfig({groups:{"frontend-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-management-bar":{path:"management_bar/js/management_bar.js",requires:["aui-component","liferay-portlet-base"]},"liferay-sidebar-panel":{path:"sidebar_panel/js/sidebar_panel.js",requires:["aui-base","aui-debounce","aui-parse-content","liferay-portlet-base"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='item-selector-taglib@6.0.2/index.es';var MODULE_PATH='/o/item-selector-taglib';AUI().applyConfig({groups:{"item-selector-taglib":{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-image-selector":{path:"image_selector/js/image_selector.js",requires:["aui-base","liferay-item-selector-dialog","liferay-portlet-base","uploader"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-editor-alloyeditor-web@5.0.43/index';var MODULE_PATH='/o/frontend-editor-alloyeditor-web';AUI().applyConfig({groups:{alloyeditor:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-alloy-editor":{path:"alloyeditor.js",requires:["aui-component","liferay-portlet-base","timers"]},"liferay-alloy-editor-source":{path:"alloyeditor_source.js",requires:["aui-debounce","liferay-fullscreen-source-editor","liferay-source-editor","plugin"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='contacts-web@5.0.53/index';var MODULE_PATH='/o/contacts-web';AUI().applyConfig({groups:{contactscenter:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-contacts-center":{path:"main.js",requires:["aui-io-plugin-deprecated","aui-toolbar","autocomplete-base","datasource-io","json-parse","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-workflow-task-web@5.0.63/index';var MODULE_PATH='/o/portal-workflow-task-web';AUI().applyConfig({groups:{workflowtasks:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-workflow-tasks":{path:"main.js",requires:["liferay-util-window"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='invitation-invite-members-web@5.0.31/index';var MODULE_PATH='/o/invitation-invite-members-web';AUI().applyConfig({groups:{"invite-members":{base:MODULE_PATH+"/invite_members/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-portlet-invite-members":{path:"main.js",requires:["aui-base","autocomplete-base","datasource-io","datatype-number","liferay-portlet-base","liferay-util-window","node-core"]}},root:MODULE_PATH+"/invite_members/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='exportimport-web@5.0.80/index';var MODULE_PATH='/o/exportimport-web';AUI().applyConfig({groups:{exportimportweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-processes-web@5.0.53/index';var MODULE_PATH='/o/staging-processes-web';AUI().applyConfig({groups:{stagingprocessesweb:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-staging-processes-export-import":{path:"js/main.js",requires:["aui-datatype","aui-dialog-iframe-deprecated","aui-modal","aui-parse-content","aui-toggler","liferay-portlet-base","liferay-util-window"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='calendar-web@5.0.82/index';var MODULE_PATH='/o/calendar-web';AUI().applyConfig({groups:{calendar:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-calendar-a11y":{path:"calendar_a11y.js",requires:["calendar"]},"liferay-calendar-container":{path:"calendar_container.js",requires:["aui-alert","aui-base","aui-component","liferay-portlet-base"]},"liferay-calendar-date-picker-sanitizer":{path:"date_picker_sanitizer.js",requires:["aui-base"]},"liferay-calendar-interval-selector":{path:"interval_selector.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-interval-selector-scheduler-event-link":{path:"interval_selector_scheduler_event_link.js",requires:["aui-base","liferay-portlet-base"]},"liferay-calendar-list":{path:"calendar_list.js",requires:["aui-template-deprecated","liferay-scheduler"]},"liferay-calendar-message-util":{path:"message_util.js",requires:["liferay-util-window"]},"liferay-calendar-recurrence-converter":{path:"recurrence_converter.js",requires:[]},"liferay-calendar-recurrence-dialog":{path:"recurrence.js",requires:["aui-base","liferay-calendar-recurrence-util"]},"liferay-calendar-recurrence-util":{path:"recurrence_util.js",requires:["aui-base","liferay-util-window"]},"liferay-calendar-reminders":{path:"calendar_reminders.js",requires:["aui-base"]},"liferay-calendar-remote-services":{path:"remote_services.js",requires:["aui-base","aui-component","liferay-calendar-util","liferay-portlet-base"]},"liferay-calendar-session-listener":{path:"session_listener.js",requires:["aui-base","liferay-scheduler"]},"liferay-calendar-simple-color-picker":{path:"simple_color_picker.js",requires:["aui-base","aui-template-deprecated"]},"liferay-calendar-simple-menu":{path:"simple_menu.js",requires:["aui-base","aui-template-deprecated","event-outside","event-touch","widget-modality","widget-position","widget-position-align","widget-position-constrain","widget-stack","widget-stdmod"]},"liferay-calendar-util":{path:"calendar_util.js",requires:["aui-datatype","aui-io","aui-scheduler","aui-toolbar","autocomplete","autocomplete-highlighters"]},"liferay-scheduler":{path:"scheduler.js",requires:["async-queue","aui-datatype","aui-scheduler","dd-plugin","liferay-calendar-a11y","liferay-calendar-message-util","liferay-calendar-recurrence-converter","liferay-calendar-recurrence-util","liferay-calendar-util","liferay-scheduler-event-recorder","liferay-scheduler-models","promise","resize-plugin"]},"liferay-scheduler-event-recorder":{path:"scheduler_event_recorder.js",requires:["dd-plugin","liferay-calendar-util","resize-plugin"]},"liferay-scheduler-models":{path:"scheduler_models.js",requires:["aui-datatype","dd-plugin","liferay-calendar-util"]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/document-library-web@6.0.170/document_library/js/index';var MODULE_PATH='/o/document-library-web';AUI().applyConfig({groups:{dl:{base:MODULE_PATH+"/document_library/js/legacy/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"document-library-upload-component":{path:"DocumentLibraryUpload.js",requires:["aui-component","aui-data-set-deprecated","aui-overlay-manager-deprecated","aui-overlay-mask-deprecated","aui-parse-content","aui-progressbar","aui-template-deprecated","liferay-search-container","querystring-parse-simple","uploader"]}},root:MODULE_PATH+"/document_library/js/legacy/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='portal-search-web@6.0.120/index';var MODULE_PATH='/o/portal-search-web';AUI().applyConfig({groups:{search:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-search-custom-filter":{path:"custom_filter.js",requires:[]},"liferay-search-facet-util":{path:"facet_util.js",requires:[]},"liferay-search-modified-facet":{path:"modified_facet.js",requires:["aui-form-validator","liferay-search-facet-util"]},"liferay-search-modified-facet-configuration":{path:"modified_facet_configuration.js",requires:["aui-node"]},"liferay-search-sort-configuration":{path:"sort_configuration.js",requires:["aui-node"]},"liferay-search-sort-util":{path:"sort_util.js",requires:[]}},root:MODULE_PATH+"/js/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='dynamic-data-mapping-web@5.0.96/index';var MODULE_PATH='/o/dynamic-data-mapping-web';!function(){const a=Liferay.AUI;AUI().applyConfig({groups:{ddm:{base:MODULE_PATH+"/js/",combine:Liferay.AUI.getCombine(),filter:a.getFilterConfig(),modules:{"liferay-ddm-form":{path:"ddm_form.js",requires:["aui-base","aui-datatable","aui-datatype","aui-image-viewer","aui-parse-content","aui-set","aui-sortable-list","json","liferay-form","liferay-map-base","liferay-translation-manager","liferay-util-window"]},"liferay-portlet-dynamic-data-mapping":{condition:{trigger:"liferay-document-library"},path:"main.js",requires:["arraysort","aui-form-builder-deprecated","aui-form-validator","aui-map","aui-text-unicode","json","liferay-menu","liferay-translation-manager","liferay-util-window","text"]},"liferay-portlet-dynamic-data-mapping-custom-fields":{condition:{trigger:"liferay-document-library"},path:"custom_fields.js",requires:["liferay-portlet-dynamic-data-mapping"]}},root:MODULE_PATH+"/js/"}}})}();
+} catch(error) {console.error(error);}try {var MODULE_MAIN='staging-taglib@8.0.1/index';var MODULE_PATH='/o/staging-taglib';AUI().applyConfig({groups:{stagingTaglib:{base:MODULE_PATH+"/",combine:Liferay.AUI.getCombine(),filter:Liferay.AUI.getFilterConfig(),modules:{"liferay-export-import-management-bar-button":{path:"export_import_entity_management_bar_button/js/main.js",requires:["aui-component","liferay-search-container","liferay-search-container-select"]}},root:MODULE_PATH+"/"}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-state-web@1.0.18/index';var MODULE_PATH='/o/frontend-js-state-web';AUI().applyConfig({groups:{state:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='@liferay/frontend-js-react-web@5.0.32/index';var MODULE_PATH='/o/frontend-js-react-web';AUI().applyConfig({groups:{react:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}try {var MODULE_MAIN='frontend-js-components-web@2.0.57/index';var MODULE_PATH='/o/frontend-js-components-web';AUI().applyConfig({groups:{components:{mainModule:MODULE_MAIN}}});
+} catch(error) {console.error(error);}</script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+				<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stat.govdata.de/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 4]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stat.govdata.de/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://www.govdata.de/o/govdatastyle-theme/css/main.css?browserId=other&amp;themeId=govdatastyle_WAR_govdatastyletheme&amp;minifierType=css&amp;languageId=de_DE&amp;t=1714053716000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_gdsearchfield_WAR_gdsearch_ .portlet-content {
+background-color: #;
+border-color: #;
+color: #
+}
+
+
+
+
+				
+
+			
+
+		
+
+	</style>
+
+
+<script data-senna-track="temporary">var Liferay = window.Liferay || {}; Liferay.CommerceContext = {"commerceAccountGroupIds":[],"accountEntryAllowedTypes":["person"],"commerceChannelId":"0","currency":{"currencyId":"548869","currencyCode":"USD"},"showSeparateOrderItems":false,"commerceSiteType":0};</script><link href="/o/commerce-frontend-js/styles/main.css" rel="stylesheet" type="text/css" />
+<style data-senna-track="temporary" type="text/css">
+</style>
+<script>
+Liferay.Loader.require(
+'@liferay/frontend-js-state-web@1.0.18',
+function(FrontendJsState) {
+try {
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script type="text/javascript">
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title:event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					formPageTitle: event.formPageTitle,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://www.govdata.de/o/govdatastyle-theme/js/modernizr.js"></script>
+</head>
+
+<body class="other controls-visible  yui3-skin-sam guest-site signed-out public-page site">
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+      <h1 class="offscreen">Govdata - Das Datenportal für Deutschland</h1>
+
+      <aside class="right-off-canvas-menu">
+        <h2 class="offscreen">Off-Canvas Seitenmenü</h2>
+        <div class="off-canvas-inner-wrap">
+          <a class="off-canvas-close sbi-close" href="#">
+            <span class="offscreen">close menu</span>
+          </a>
+          <div class="off-canvas-container" id="off-canvas-container"></div>
+          <div class="off-canvas-container" id="off-canvas-mainmenu">
+<div class="oc-languagechooser">
+  <!--<span class="buttongroup">
+    <a class="linkbutton selected" href="#">de</a><a class="linkbutton" href="#">en</a>
+  </span>-->
+    <a class="linkbutton rounded" href="https://www.govdata.de/c/portal/login?p_l_id=14810">Anmelden / Registrieren</a>
+</div>
+
+
+<ul aria-label="Seiten der Site" class="off-canvas-nav" role="menubar">
+
+
+
+
+      <li class=""  role="presentation">
+        <a title="Daten"  href="https://www.govdata.de/web/guest/daten"  role="menuitem">
+          <span> Daten</span>
+        </a>
+      </li>
+
+
+
+
+
+      <li class=""  role="presentation">
+        <a title="Showroom"  href="https://www.govdata.de/web/guest/showroom"  role="menuitem">
+          <span> Showroom</span>
+        </a>
+      </li>
+
+
+
+
+
+      <li class=""  role="presentation">
+        <a title="SPARQL"  href="https://www.govdata.de/web/guest/schnittstellen"  role="menuitem">
+          <span> SPARQL</span>
+        </a>
+      </li>
+
+
+
+
+
+      <li class=" dropdown"  role="presentation">
+        <button aria-haspopup='true' class="dropdown-toggle" title="Informationen" role="menuitem">
+          <span> Informationen</span>
+        </button>
+
+        <ul class="child-menu" role="menu">
+
+
+            <li class=""  role="presentation">
+              <a title="Open Government" href="https://www.govdata.de/web/guest/open-government"  role="menuitem">Open Government</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Open Government Data" href="https://www.govdata.de/web/guest/datenbereitsteller"  role="menuitem">Open Government Data</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Datenlizenz Deutschland" href="https://www.govdata.de/web/guest/lizenzen"  role="menuitem">Datenlizenz Deutschland</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Fragen und Antworten" href="https://www.govdata.de/web/guest/faq"  role="menuitem">Fragen und Antworten</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Hochwertige Datensätze" href="https://www.govdata.de/web/guest/hochwertige-datensaetze"  role="menuitem">Hochwertige Datensätze</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Das Portal" href="https://www.govdata.de/web/guest/hilfe"  role="menuitem">Das Portal</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Metadaten-Struktur" href="https://www.govdata.de/web/guest/metadatenschema"  role="menuitem">Metadaten-Struktur</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Termine" href="https://www.govdata.de/web/guest/termine"  role="menuitem">Termine</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="OGD-DACHLI" href="https://www.govdata.de/web/guest/ogd-dachli"  role="menuitem">OGD-DACHLI</a>
+            </li>
+
+
+            <li class=""  role="presentation">
+              <a title="Datenbereitstellung GovData" href="https://www.govdata.de/web/guest/datenbereitstellungaufgovdata"  role="menuitem">Datenbereitstellung GovData</a>
+            </li>
+        </ul>
+      </li>
+
+
+
+
+
+      <li class=""  role="presentation">
+        <a title="Blog"  lang='en' href="https://www.govdata.de/web/guest/neues"  role="menuitem">
+          <span> Blog</span>
+        </a>
+      </li>
+
+</ul>
+
+<ul class="oc-meta-menu">
+  <li><a href="/">Startseite</a></li>
+  <li><a href="/web/guest/faq">FAQ</a></li>
+  <li><a href="/web/guest/kontakt">Kontakt</a></li>
+</ul>
+          </div>
+        </div>
+      </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav aria-label="Schnell-Links" class="bg-dark cadmin quick-access-nav text-center text-white" id="dyxe_quickAccessNav">
+		
+			
+				<a class="d-block p-2 sr-only sr-only-focusable text-reset" href="#main-content">
+		Zum Hauptinhalt springen
+	</a>
+			
+			
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-flex flex-column min-vh-100">
+
+      <div class="d-flex flex-column flex-fill position-relative" id="wrapper">
+      <header id="banner" role="banner">
+        <div class="portlet-dockbar">
+          <div class="navbar navbar-top dockbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <span>
+                  <a id="_145_navSiteNavigationNavbarBtn" class="btn btn-navbar" tabindex="0">
+                    <i class="icon-reorder fa-solid"></i>
+                  </a>
+                </span>
+                <span>
+                  <a class="brand show-for-medium-down" href="/">
+                    <img alt="zur Startseite" height="40" src="https://www.govdata.de/o/govdatastyle-theme/images/logo.png" width="154" />
+                  </a>
+                  <div class="collapse nav-collapse">
+                    <ul aria-label="Werkzeugleiste" class="nav nav-account-controls" role="menubar">
+                      <li id="topnavi-home"><a href="/">Startseite</a></li>
+                        <li class="sign-in">
+                          <a data-redirect="false" href="https://www.govdata.de/c/portal/login?p_l_id=14810" id="sign-in" class="sign-in" rel="nofollow" title="Anmelden / Registrieren">
+                            <i class="sbi-eingeloggter-user"></i>
+                            <span class="nav-item-label">Anmelden / Registrieren</span>
+                          </a>
+                        </li>
+                      <li id="topnavi-faq"><a href="/web/guest/faq">FAQ</a></li>
+                      <li id="topnavi-contact"><a href="/web/guest/kontakt">Kontakt</a></li>
+                    </ul>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+<nav aria-label="Seiten der Site" class="sort-pages modify-pages navbar site-navigation" id="navigation" role="navigation">
+  <h2 class="offscreen">Navigation</h2>
+  <div class="navbar-inner">
+    <div class="collapse nav-collapse">
+      <a class="brand" href="/"><img alt="zur Startseite" height="40" src="https://www.govdata.de/o/govdatastyle-theme/images/logo.png" width="154" /></a>
+
+      <ul class="nav nav-collapse" role="menubar">
+
+
+
+          <li class="lfr-nav-item" id="layout_3"  role="presentation">
+            <a aria-labelledby="layout_3"   class="" title="Daten" href="https://www.govdata.de/web/guest/daten"  role="menuitem">
+              <span> Daten </span>
+            </a>
+          </li>
+
+
+
+          <li class="lfr-nav-item" id="layout_7"  role="presentation">
+            <a aria-labelledby="layout_7"   class="" title="Showroom" href="https://www.govdata.de/web/guest/showroom"  role="menuitem">
+              <span> Showroom </span>
+            </a>
+          </li>
+
+
+
+          <li class="lfr-nav-item" id="layout_47"  role="presentation">
+            <a aria-labelledby="layout_47"   class="" title="SPARQL" href="https://www.govdata.de/web/guest/schnittstellen"  role="menuitem">
+              <span> SPARQL </span>
+            </a>
+          </li>
+
+
+
+          <li class="lfr-nav-item" id="layout_9"  role="presentation">
+            <a aria-labelledby="layout_9"   class="" title="Informationen" href="https://www.govdata.de/web/guest/bibliothek"  role="menuitem">
+              <span> Informationen </span>
+            </a>
+          </li>
+
+
+
+          <li class="lfr-nav-item" id="layout_8"  role="presentation">
+            <a aria-labelledby="layout_8"  lang='en'  class="" title="Blog" href="https://www.govdata.de/web/guest/neues"  role="menuitem">
+              <span> Blog </span>
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>      </header>
+
+      <section id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<style type="text/css">
+			.master-layout-fragment .portlet-header {
+				display: none;
+			}
+		</style>
+
+		
+
+		<div class="columns-1" id="main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_gdsearchfield_WAR_gdsearch_  portlet-static portlet-static-end portlet-barebone gd-search-field-portlet " id="p_p_id_gdsearchfield_WAR_gdsearch_">
+		<span id="p_gdsearchfield_WAR_gdsearch"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_gdsearchfield_WAR_gdsearch">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		<div class="gd-search-container">
+  <div class="gd-search show-small-header"
+    style="background-image: url(https://www.govdata.de/o/govdatastyle-theme/images/datavisuals/connectionmap.jpg);">
+    
+    <form id="searchfieldform" enctype="application/x-www-form-urlencoded"
+      method="post" action="https://www.govdata.de/web/guest/datenschutz?p_p_id=gdsearchfield_WAR_gdsearch&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_auth=Nlt31N7T" data-saytCompletionUrl="https://www.govdata.de/web/guest/datenschutz?p_p_id=gdsearchfield_WAR_gdsearch&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_resource_id=saytCompletion&amp;p_p_cacheability=cacheLevelPage" data-saytHintTpl="%1 Vervollständigungs-Vorschläge wurden gefunden. Benutzen Sie die Pfeiltasten um durch die Ergebnisse zu scrollen.">
+      <input type="hidden" name="boundingbox" value="" /><input type="hidden" name="s" value="relevance_desc" /><input type="hidden" name="f" value="" /><input type="hidden" name="start" value="" /><input type="hidden" name="end" value="" />
+
+      
+
+      <div class="gd-search-searchbox">
+        <div class="gd-search-searchrow1">
+          <div class="gd-search-q">
+          <label for="searchfield" class="offscreen">Suchbegriff</label>
+            <input autocomplete="off" type="search" id="searchfield"
+              data-dropdown="searchfield-dropdown" aria-expanded="false" aria-controls="searchfield-dropdown" class="dropdown input-search"
+              name="q" placeholder="Nach Datensätzen suchen" title="Suchbegriff" value="" />
+            <span class="offscreen" aria-live="polite" role="status" id="searchfield-hint"></span>
+          </div>
+          <div class="gd-search-submit">
+            <button class="button-search label-Suchen" type="submit" title="Suchen" name="submitSearch">
+              <span class="show-for-medium-up">Suchen</span>
+              <span class="show-for-small-only offscreen">Suchen</span>
+              <span class="show-for-small-only sbi-lupe"></span>
+            </button>
+          </div>
+        </div>
+        <div class="gd-search-searchrow2">
+          <a id="btnextendedsearch" href="https://www.govdata.de/web/guest/erweitertesuche/-/searchext/s/relevance_desc" class="button-mapsearch">Erweiterte Suche</a>
+        </div>
+        <div class="gd-search-searchrow2">
+          <a id="btnmapsearch" href="/kartensuche" class="button-mapsearch">Kartensuche</a>
+        </div>
+      </div>
+
+      
+    </form>
+  </div>
+</div>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_  portlet-static portlet-static-end portlet-borderless portlet-journal-content standalone-page" id="p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F_">
+		<span id="p_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F">
+
+
+	<div class="portlet-content">
+
+		<div class="autofit-float autofit-row portlet-header">
+			<div class="autofit-col autofit-col-expand">
+				<h1 class="portlet-title-text">Datenschutzerklärung</h1>
+			</div>
+
+			<div class="autofit-col autofit-col-end">
+				<div class="autofit-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="visible-interaction">
+
+	
+
+	
+</div>				</div>
+			</div>
+		</div>
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			
+			
+				
+					
+					
+					
+					
+
+						
+
+						<div class="" data-fragments-editor-item-id="10103-14803" data-fragments-editor-item-type="fragments-editor-mapped-item" >
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		<div class="journal-content-article " data-analytics-asset-id="14801" data-analytics-asset-title="Datenschutzerklärung" data-analytics-asset-type="web-content">
+			
+
+			<p style="text-align: center;"><br />
+<strong>Datenschutzerklärung<br />
+und<br />
+allgemeine Informationen zur Umsetzung der datenschutzrechtlichen Vorgaben der Artikel 12 bis 14 der Datenschutz-Grundverordnung auf GovData.de und DCAT-AP.de&nbsp;</strong></p>
+
+<p> </p>
+
+<p>Die Nutzung von GovData ist so ausgestaltet, dass möglichst wenig personenbezogene Daten erhoben und verarbeitet werden.<br />
+Im Folgenden informieren wir Sie darüber, welche personenbezogenen Daten wir erheben, bei wem wir sie erheben und was wir mit diesen Daten machen. Außerdem informieren wir Sie über Ihre Rechte in Datenschutzfragen und an wen Sie sich diesbezüglich wenden können.&nbsp;</p>
+
+<p> </p>
+
+<p><strong>1. Wer sind wir?&nbsp;</strong></p>
+
+<p>Verantwortlich für die Verarbeitung Ihrer personenbezogenen Daten ist die</p>
+
+<p>FITKO (Föderale IT-Kooperation)<br />
+Zum Gottschalkhof 3<br />
+60594 Frankfurt am Main<br />
+E-Mail: <a href="mailto:info@govdata.de">info@govdata.de</a></p>
+
+<p>Die FITKO ist eine Anstalt des öffentlichen Rechts. Sie wird vertreten durch den Präsident Dr. André Göbel.</p>
+
+<p> </p>
+
+<p><strong>2. Wer sind Ihre Ansprechpartner?</strong>&nbsp;</p>
+
+<p>Den Datenschutzbeauftragten der FITKO erreichen Sie per Mail unter&nbsp;<a data-mailto-token="ocknvq,fcvgpuejwvbBhkvmq0fg" data-mailto-vector="2" href="https://www.fitko.de/datenschutz#">datenschutz@fitko.de</a>.</p>
+
+<p> </p>
+
+<p>Falls Sie Fragen zur Registrierung oder Anmeldung haben oder uns Ihre Anregungen oder Hinweise zum GovData.de oder DCAT-AP.de mitteilen möchten, nehmen Sie bitte unter der E-Mail-Adresse info@govdata.de mit uns Kontakt auf.</p>
+
+<p style="margin-left: 40px;"><br />
+GovData<br />
+FITKO (Föderale IT-Kooperation)<br />
+Zum Gottschalkhof 3<br />
+60594 Frankfurt am Main<br />
+E-Mail: info@govdata.de</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><strong>3. Zu welchem Zweck verarbeiten wir Ihre personenbezogenen Daten?&nbsp;</strong></p>
+
+<div>Personenbezogene Daten werden verarbeitet für die folgenden Zwecke:</div>
+
+<p style="margin-left: 40px;"> </p>
+
+<p style="margin-left: 40px;">a.<span style="white-space:pre"> </span>Besuch des Portals</p>
+
+<p style="margin-left: 40px;">b.<span style="white-space:pre"> </span>Im Rahmen eines Registrierungsvorgangs als Nutzer</p>
+
+<p style="margin-left: 40px;">c.<span style="white-space:pre"> </span>Nutzung des Kontaktformulars</p>
+
+<p> </p>
+
+<p><strong>Beispiel zur Verarbeitung:</strong><br />
+zu a: Die Erhebung und Verarbeitung dieser Daten erfolgt zum Zwecke der Bereitstellung der Plattform (Verbindungsaufbau), zur dauerhaften Gewährleistung der Systemsicherheit und -stabilität, zur technischen Administration der Netzinfrastruktur, zur Optimierung des Internetangebots sowie zur allgemeinen, statistischen Auswertung. Ein Personenbezug ist auf Grund der Anonymisierung der IP-Adresse nicht möglich.<br />
+zu b: Der Betreiber erhebt und speichert diese Daten, um die Verwaltung der Nutzer und die Abwicklung der mit ihren Rollen verbundenen Prozesse sicherzustellen.<br />
+zu c: Wendet sich ein Nutzer mittels der im Impressum angegebenen Kontaktdaten an den Betreiber, erfolgt eine Verarbeitung personenbezogener Daten.</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><strong>4. Welche personenbezogenen Daten verarbeiten wir?&nbsp;</strong></p>
+
+<p>Wir verarbeiten insbesondere folgende personenbezogene Daten:&nbsp;</p>
+
+<p>a.) Beim Besuch des Portals speichern die Webserver des Betreibers temporär jeden Zugriff in einer Protokolldatei. Hierbei können folgende Daten ohne Zutun des Nutzers erfasst und bis zur automatisierten Löschung vom Betreiber gespeichert werden:</p>
+
+<ul>
+	<li>die (durch Löschung des letzten Bytes anonymisierte) IP-Adresse des anfragenden Rechners,</li>
+	<li>das Datum und die Uhrzeit des Zugriffs,</li>
+	<li>der Name und die URL der abgerufenen Datei,</li>
+	<li>die übertragene Datenmenge,</li>
+	<li>die Meldung, ob der Abruf erfolgreich war,</li>
+	<li>die Informationen zum verwendeten Browser- und Betriebssystem,</li>
+	<li>die URL der Webseite, von der aus der Aufruf erfolgt ist,</li>
+	<li>der Name des Internet-Zugangs-Providers.</li>
+</ul>
+
+<p> </p>
+
+<p>Die Erhebung und Verarbeitung dieser Daten erfolgt zum Zwecke der Bereitstellung der Plattform (Verbindungsaufbau), zur dauerhaften Gewährleistung der Systemsicherheit und -stabilität, zur technischen Administration der Netzinfrastruktur, zur Optimierung des Internetangebots sowie zur allgemeinen, statistischen Auswertung. Ein Personenbezug ist auf Grund der Anonymisierung der IP-Adresse nicht möglich.</p>
+
+<p> </p>
+
+<p>b.) Im Rahmen eines Registrierungsvorgangs als Nutzer speichert der Betreiber folgende vom Nutzer angegebene Daten:</p>
+
+<ul>
+	<li>Name (Nachname, Vorname), bei Personengesellschaften oder juristischen Personen die des gesetzlichen Vertreters und die des Ansprechpartners,</li>
+	<li>E-Mail-Adresse,</li>
+	<li>Login-Name (Nutzerkennung),</li>
+	<li>Passwort.</li>
+</ul>
+
+<p> </p>
+
+<p>Der Betreiber erhebt und speichert diese Daten, um die Verwaltung der Nutzer und die Abwicklung der mit ihren Rollen verbundenen Prozesse sicherzustellen.</p>
+
+<p>c.) Wendet sich ein Nutzer mittels der im Impressum angegebenen Kontaktdaten an den Betreiber, erfolgt eine Verarbeitung personenbezogener Daten. In diesem Fall speichert der Betreiber die vom Nutzer zur Kontaktaufnahme angegebenen personenbezogenen Daten, wie beispielsweise den Namen und die E-Mail-Adresse für die Verwendung zur weiteren Korrespondenz mit diesem.</p>
+
+<p> </p>
+
+<p><strong>5. Wie verarbeiten wir diese Daten?&nbsp;</strong></p>
+
+<p>Ihre personenbezogenen Daten werden bei uns gespeichert.<br />
+Jegliche Nutzung der personenbezogenen Daten erfolgt nur zu den vorstehend genannten Zwecken und nur in dem zur Erreichung dieser Zwecke erforderlichen Umfang. Wir setzen dabei technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre personenbezogenen Daten gegen unbeabsichtigte oder unrechtmäßige Vernichtung, Verlust oder Veränderung sowie gegen unbefugte Offenlegung oder unbefugten Zugang zu schützen. Unsere Sicherheitsstandards entsprechen stets den aktuellsten technologischen Entwicklungen.</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><strong>6. Unter welchen Voraussetzungen dürfen wir Ihre Daten an Dritte weitergeben?&nbsp;</strong></p>
+
+<p>(1) Ohne die ausdrückliche Zustimmung des Nutzers wird der Betreiber dessen personenbezogene Daten nicht an Dritte weitergeben.</p>
+
+<p>(2) Etwas anderes gilt, soweit die Übermittlung an staatliche Einrichtungen oder Behörden durch eine zwingende nationale Rechtsvorschrift geboten ist oder wenn die Weitergabe im Fall von Angriffen auf die Netzinfrastruktur des Betreibers zur Rechts- oder Strafverfolgung erforderlich ist.<br />
+(3) Bei der Einbindung von Social Media Plugins werden die datenschutzrechtlichen Maßgaben durch die Implementierung der durch den Heise-Verlag entwickelten und bereitgestellten Shariff-Bibliothek&nbsp; berücksichtigt. Die Kommunikation mit den sozialen Netzwerken übernimmt beim Shariff ein auf dem Server des Webseitenbetreibers abgelegtes Skript. Der Server steht zunächst als Vermittler zwischen dem Nutzer und Facebook, Google oder Twitter. Erst wenn der Nutzer einen Share- oder Like-Button betätigt, entsteht eine direkte Verbindung. So können die Dienste auch keine Daten über den Nutzer erfassen, bevor er aktiv wird.</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><strong>7. Cookies</strong></p>
+
+<p>Das Portal macht Gebrauch von Cookies, um Daten lokal zwischenzuspeichern. Eine Nutzung ist jedoch auch ohne Cookies möglich. Mit dem Gebrauch von Cookies werden durch das Portal erweiterte Funktionen bereitstellt. Die Deaktivierung von Cookies kann dazu führen, dass der Nutzer nicht alle Funktionen des Portals nutzen kann. Durch die Speicherung von Cookies werden keine personenbezogenen Daten an den Betreiber übermittelt.</p>
+
+<p> </p>
+
+<p><strong>8. Wie lange speichern wir Ihre Daten?&nbsp;</strong></p>
+
+<p>Wir speichern Ihre im Rahmen der Registrierung erhobenen Daten, solange Sie diese Registrierung nutzen. Nach Abmeldung der Registrierung werden diese Daten gelöscht. Jeder Nutzer kann die Löschung seines Accounts selber durchführen. Wenn Sie mit dem Verfahren nicht einverstanden sind, nehmen Sie bitte Kontakt mit uns auf, so dass wir die Löschung ihres Accounts durchführen.&nbsp;</p>
+
+<p> </p>
+
+<p><strong>9. Welche Rechte (Auskunftsrecht, Widerspruchsrecht usw.) haben Sie?&nbsp;</strong></p>
+
+<p>Sie haben nach der Datenschutz-Grundverordnung verschiedene Rechte. Einzelheiten ergeben sich insbesondere aus Artikel 15 bis 18 und 21 der Datenschutz-Grundverordnung.&nbsp;<br />
+<strong>• Recht auf Auskunft&nbsp;</strong><br />
+Sie können Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten verlangen. In Ihrem Auskunftsantrag sollten Sie Ihr Anliegen präzisieren, um uns das Zusammenstellen der erforderlichen Daten zu erleichtern. Daher sollten in dem Antrag möglichst Angaben zum konkreten Verwaltungsverfahren und zum Verfahrensabschnitt gemacht werden.&nbsp;<br />
+• Recht auf Berichtigung&nbsp;<br />
+Sollten die Sie betreffenden Angaben nicht (mehr) zutreffend sein, können Sie eine Berichtigung verlangen. Sollten Ihre Daten unvollständig sein, können Sie eine Vervollständigung verlangen.&nbsp;<br />
+<strong>• Recht auf Löschung</strong>&nbsp;<br />
+Sie können die Löschung Ihrer personenbezogenen Daten verlangen. Ihr Anspruch auf Löschung hängt u. a. davon ab, ob die Sie betreffenden Daten von uns zur Erfüllung unserer gesetzlichen Aufgaben noch benötigt werden.<br />
+• Recht auf Einschränkung der Verarbeitung&nbsp;<br />
+Sie haben das Recht, eine Einschränkung der Verarbeitung der Sie betreffenden Daten zu verlangen. Die Einschränkung steht einer Verarbeitung nicht entgegen, soweit an der Verarbeitung ein wichtiges öffentliches Interesse besteht.&nbsp;<br />
+<strong>• Recht auf Widerspruch&nbsp;</strong><br />
+Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit der Verarbeitung der Sie betreffenden Daten zu widersprechen. Allerdings können wir dem nicht nachkommen, wenn an der Verarbeitung ein überwiegendes öffentliches Interesse besteht oder eine Rechtsvorschrift uns zur Verarbeitung verpflichtet.<br />
+<strong>• Recht auf Beschwerde</strong>&nbsp;<br />
+Wenn Sie der Auffassung sind, dass wir Ihrem Anliegen nicht oder nicht in vollem Umfang nachgekommen sind, können Sie bei der zuständigen Datenschutzaufsichtsbehörde Beschwerde einlegen:</p>
+
+<p> </p>
+
+<p>Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br />
+Postfach 3163<br />
+65021 Wiesbaden<br />
+<a href="https://datenschutz.hessen.de/" rel="noreferrer" target="_blank">https://datenschutz.hessen.de</a></p>
+
+<p> </p>
+
+<p><strong>Allgemeine Hinweise zu diesen Rechten&nbsp;</strong></p>
+
+<p>In einigen Fällen können oder dürfen wir Ihrem Anliegen nicht entsprechen. Sofern dies gesetzlich zulässig ist, teilen wir Ihnen in diesem Fall immer den Grund für die Verweigerung mit.&nbsp;<br />
+Wir werden Ihnen aber grundsätzlich innerhalb eines Monats nach Eingang Ihres Anliegens antworten. Sollten wir länger als einen Monat für eine abschließende Klärung brauchen, erhalten Sie eine Zwischennachricht.&nbsp;</p>
+
+<p> </p>
+
+<p> </p>
+
+<p style="text-align: right;"><span style="font-family: 'Crimson Text'; font-size: 16px; line-height: 22px; background-color: rgb(255, 255, 255);">(Stand: 14.12.2023)</span></p>
+
+			
+		</div>
+
+		
+
+	
+
+
+
+						</div>
+					
+				
+			
+		
+	
+
+
+
+
+	
+
+	
+		<div class="asset-links content-metadata-asset-addon-entries">
+			<div class="content-metadata-asset-addon-entry content-metadata-asset-addon-entry-links">
+				
+			</div>
+		</div>
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+	
+
+
+<form action="#" aria-hidden="true" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><button hidden type="submit">Verborgen</button></form>
+
+	
+      </section>
+
+      <div class="share-section row">
+        <div class="share-borderbox">
+          <div class="share-container">
+            <h2 class="share-label">Weiterempfehlen</h2>
+            <span class="shariff"
+              data-services="[&quot;twitter&quot;, &quot;mastodon&quot;, &quot;facebook&quot;, &quot;diaspora&quot;, &quot;mail&quot;]"
+              data-title="Datenschutzerklärung - GovData"
+              data-mail-url="mailto:"
+              data-mail-subject="Datenschutzerklärung - GovData"></span>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <footer>
+        <h2 class="offscreen">weiterführende Links / Soziales</h2>
+        <div class="row row-margin">
+          <div class="column small-12 medium-7 medium-push-5">
+            <ul class="footer-links h2-metainfo">
+              <li>
+                <a href="/web/guest/nutzungsbestimmungen">Nutzungshinweise</a>
+              </li>
+              <li>
+                <a href="/web/guest/datenschutz">Datenschutzerklärung</a>
+              </li>
+              <li>
+                <a href="/web/guest/erklaerung-zur-barrierefreiheit">Erklärung zur Barrierefreiheit</a>
+              </li>
+              <li>
+                <a href="/web/guest/impressum">Impressum</a>
+              </li>
+              <li>
+                <a href="/web/guest/sitemap">Sitemap</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column small-12 medium-5 medium-pull-7">
+            <h2 class="footer-text">
+              Besuchen Sie unsere Social-Media-Kanäle
+            </h2>
+            <ul class="social-icons">
+              <li>
+                <a href="https://twitter.com/govdata_de" target="_blank" title="Twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <span class="offscreen">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://mastodon.social/@opendata@social.bund.de" target="_blank" title="Mastodon">
+                  <i class="fa-brands fa-mastodon"></i>
+                  <span class="offscreen">Mastodon</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <a class="exit-off-canvas">
+        <span class="offscreen">close menu</span>
+      </a>
+
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/jquery.js"></script>
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/foundation.js"></script>
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/foundation.offcanvas.js"></script>
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/foundation.dropdown.js"></script>
+      <script>
+        $(document).foundation();
+      </script>
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/shariff.min.js?t=1714053716000"></script>
+      <script src="https://www.govdata.de/o/govdatastyle-theme/js/customize.js?t=1714053716000"></script>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+</script><script>
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2fweb\x2fguest\x2fdatenschutz';
+		Liferay.currentURLEncoded = '\x252Fweb\x252Fguest\x252Fdatenschutz';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+				
+
+				
+
+				
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script type="text/javascript">
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function (data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+
+	function getValueByAttribute(node, attr) {
+		return (
+			node.dataset[attr] ||
+			(node.parentElement && node.parentElement.dataset[attr])
+		);
+	}
+
+	function sendAnalyticsEvent(anchor) {
+		var fileEntryId = getValueByAttribute(anchor, 'analyticsFileEntryId');
+		var title = getValueByAttribute(anchor, 'analyticsFileEntryTitle');
+		var version = getValueByAttribute(anchor, 'analyticsFileEntryVersion');
+
+		if (fileEntryId) {
+			Analytics.send('documentDownloaded', 'Document', {
+				groupId: themeDisplay.getScopeGroupId(),
+				fileEntryId,
+				preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+				title,
+				version,
+			});
+		}
+	}
+
+	function handleDownloadClick(event) {
+		if (window.Analytics) {
+			if (event.target.nodeName.toLowerCase() === 'a') {
+				sendAnalyticsEvent(event.target);
+			}
+			else if (
+				event.target.parentNode &&
+				event.target.parentNode.nodeName.toLowerCase() === 'a'
+			) {
+				sendAnalyticsEvent(event.target.parentNode);
+			}
+			else {
+				var target = event.target;
+				var matchTitle =
+					target.title && target.title.toLowerCase() === 'download';
+				var matchAction = target.action === 'download';
+				var matchLexiconIcon = !!target.querySelector(
+					'.lexicon-icon-download'
+				);
+				var matchLexiconClassName = target.classList.contains(
+					'lexicon-icon-download'
+				);
+				var matchParentTitle =
+					target.parentNode &&
+					target.parentNode.title &&
+					target.parentNode.title.toLowerCase() === 'download';
+				var matchParentLexiconClassName =
+					target.parentNode &&
+					target.parentNode.classList.contains('lexicon-icon-download');
+
+				if (
+					matchTitle ||
+					matchParentTitle ||
+					matchAction ||
+					matchLexiconIcon ||
+					matchLexiconClassName ||
+					matchParentLexiconClassName
+				) {
+					var selectedFiles = document.querySelectorAll(
+						'.form .custom-control-input:checked'
+					);
+
+					selectedFiles.forEach(({value}) => {
+						var selectedFile = document.querySelector(
+							'[data-analytics-file-entry-id="' + value + '"]'
+						);
+
+						sendAnalyticsEvent(selectedFile);
+					});
+				}
+			}
+		}
+	}
+
+	Liferay.once('destroyPortlet', () => {
+		document.body.removeEventListener('click', handleDownloadClick);
+	});
+
+	Liferay.once('portletReady', () => {
+		document.body.addEventListener('click', handleDownloadClick);
+	});
+
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function (event) {
+		if (window.Analytics) {
+			let title = event.contentTitle;
+
+			if (!title) {
+				const dmNode = document.querySelector(
+					'[data-analytics-file-entry-id="' + event.classPK + '"]'
+				);
+
+				if (dmNode) {
+					title = dmNode.dataset.analyticsFileEntryTitle;
+				}
+			}
+
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score,
+				title,
+			});
+		}
+	};
+
+	var onDestroyPortlet = function () {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function () {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function (event) {
+		if (window.Analytics) {
+			const eventProperties = {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text,
+			};
+
+			const blogNode = document.querySelector(
+				'[data-analytics-asset-id="' + event.classPK + '"]'
+			);
+
+			const dmNode = document.querySelector(
+				'[data-analytics-file-entry-id="' + event.classPK + '"]'
+			);
+
+			if (blogNode) {
+				eventProperties.title = blogNode.dataset.analyticsAssetTitle;
+			}
+			else if (dmNode) {
+				eventProperties.title = dmNode.dataset.analyticsFileEntryTitle;
+			}
+
+			Analytics.send('posted', 'Comment', eventProperties);
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();
+(function() {var $ = AUI.$;var _ = AUI._;
+	function showDialog(uri, title) {
+		Liferay.Util.openModal({
+			id: 'sharingDialog',
+			iframeBodyCssClass: 'sharing-dialog',
+			height: '475px',
+			size: 'md',
+			title: title,
+			url: uri,
+		});
+	}
+
+	var Sharing = {
+		copyLink: function (link) {
+			navigator.clipboard.writeText(link);
+
+			Liferay.Util.openToast({
+				message:
+					'Link in die Zwischenablage kopiert.',
+			});
+		},
+
+		manageCollaborators: function (classNameId, classPK) {
+			var manageCollaboratorsParameters = {
+				classNameId: classNameId,
+				classPK: classPK,
+			};
+
+			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
+				'https://www.govdata.de/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=OqurZVWp',
+				manageCollaboratorsParameters
+			);
+
+			showDialog(
+				manageCollaboratorsURL.toString(),
+				'Mitarbeiter verwalten'
+			);
+		},
+
+		share: function (classNameId, classPK, title) {
+			var sharingParameters = {
+				classNameId: classNameId,
+				classPK: classPK,
+			};
+
+			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
+				'https://www.govdata.de/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_auth=Wpyq7bel',
+				sharingParameters
+			);
+
+			showDialog(sharingURL.toString(), title);
+		},
+	};
+
+	Liferay.Sharing = Sharing;
+})();
+
+	if (window.svg4everybody && Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				polyfill: true,
+				validate: function (src, svg, use) {
+					return !src || !src.startsWith('#');
+				}
+			}
+		);
+	}
+
+
+	
+		Liferay.Portlet.register('gdsearchfield_WAR_gdsearch');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_gdsearchfield_WAR_gdsearch_',
+			portletId: 'gdsearchfield_WAR_gdsearch',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14810\x26p_p_id\x3dgdsearchfield_WAR_gdsearch\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fguest\x252Fdatenschutz',
+			refreshURLData: {}
+		}
+	);
+
+
+	
+		Liferay.Portlet.register('com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 1,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F_',
+			portletId: 'com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d14810\x26p_p_id\x3dcom_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_ZuQvbc8TYq9F\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d2\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fweb\x252Fguest\x252Fdatenschutz',
+			refreshURLData: {}
+		}
+	);
+
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-web/index',
+'layout-taglib@16.1.3/render_layout_structure/js/InfoItemActionHandler',
+function(frontendJsWeb, InfoItemActionHandler) {
+try {
+AUI().use(
+  'liferay-menu',
+function(A) {
+(function() {
+Liferay.component('infoItemActionComponent', new InfoItemActionHandler.default({"executeInfoItemActionURL":"https:\/\/www.govdata.de\/c\/portal\/execute_info_item_action?p_l_mode=view&plid=14810","namespace":"","spritemap":"https:\/\/www.govdata.de\/o\/govdatastyle-theme\/images\/clay\/icons.svg"}), { destroyOnNavigate: true, portletId: ''});
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	var {delegate} = frontendJsWeb;
+
+	delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.add('open');
+		}
+	);
+
+	delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			event.delegateTarget.closest('.portlet').classList.remove('open');
+		}
+	);
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 0; i < liferayNotices.length; i++) {
+		Liferay.Util.openToast(liferayNotices[i]);
+	}
+
+})();
+(function() {
+var $ = AUI.$;var _ = AUI._;
+		var {openToast} = frontendJsWeb;
+
+		AUI().use(
+			'liferay-session',
+			function() {
+				Liferay.Session = new Liferay.SessionBase(
+					{
+						autoExtend: true,
+						redirectOnExpire: false,
+						redirectUrl: 'https\x3a\x2f\x2fwww\x2egovdata\x2ede\x2fweb\x2fguest\x2fhome',
+						sessionLength: 900,
+						sessionTimeoutOffset: 70,
+						warningLength: 60
+					}
+				);
+
+				
+			}
+		);
+	
+})();
+});
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://www.govdata.de/o/govdatastyle-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=de_DE&amp;t=1714053716000" type="text/javascript"></script>
+
+
+
+
+<script>
+Liferay.Loader.require(
+'frontend-js-tabs-support-web@2.0.14/index',
+function(TabsProvider) {
+try {
+(function() {
+TabsProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-dropdown-support-web@2.0.13/index',
+function(DropdownProvider) {
+try {
+(function() {
+DropdownProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-tooltip-support-web@4.0.22/index',
+function(TooltipSupport) {
+try {
+(function() {
+TooltipSupport.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-alert-support-web@2.0.12/index',
+function(AlertProvider) {
+try {
+(function() {
+AlertProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script>
+Liferay.Loader.require(
+'frontend-js-collapse-support-web@2.0.17/index',
+function(CollapseProvider) {
+try {
+(function() {
+CollapseProvider.default()
+})();
+} catch (err) {
+	console.error(err);
+}
+});
+
+</script><script type="text/javascript">
+Liferay.CustomDialogs = {enabled: false};
+
+</script><script>
+
+</script>
+</body>
+
+<!-- Version: 6.8.0 | git-commit-hash: 10220d5c60fb592a3edeb59740120c14f4fd158d -->
+
+</html>
+		
+	
+

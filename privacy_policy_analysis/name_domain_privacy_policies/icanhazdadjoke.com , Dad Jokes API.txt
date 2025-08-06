@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta name="description" content="The largest collection of dad jokes on the internet" />
+<meta name="author" content="C653 Labs" />
+<meta name="keywords" content="dad,joke,funny,slack,alexa" />
+<meta property="og:site_name" content="icanhazdadjoke" />
+<meta property="og:title" content="icanhazdadjoke" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://icanhazdadjoke.com/about" />
+<meta property="og:description" content />
+<title>icanhazdadjoke</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/static/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/static/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/static/manifest.json">
+<link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#1fc8db">
+<link rel="shortcut icon" href="/static/favicon.ico">
+<meta name="msapplication-config" content="/static/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="slack-app-id" content="A214NCJF2">
+<link rel="stylesheet" href="/static/dist/style.css?55f4ea12">
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://icanhazdadjoke.com/",
+        "name": "icanhazdadjoke",
+        "description": "The largest collection of dad jokes on the internet",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://icanhazdadjoke.com/search?term={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://icanhazdadjoke.com/",
+        "logo": "https://icanhazdadjoke.com/static/smile.png",
+        "name": "icanhazdadjoke",
+        "description": "The largest collection of dad jokes on the internet",
+        "email": "support@icanhazdadjoke.com"
+      }
+    </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+      (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-3200991035275362", enable_page_level_ads: true});
+    </script>
+</head>
+<body>
+<nav class="nav has-shadow">
+<div class="container">
+<div class="nav-left">
+<a class="nav-item is-brand" href="/">
+<img src="/static/smile.svg" alt="icanhazdadjoke logo" />
+<span class="subtitle pushhalf--left">
+icanhazdadjoke
+</span>
+</a>
+</div>
+<span id="nav-toggle" class="nav-toggle">
+<span></span>
+<span></span>
+<span></span>
+</span>
+<div id="nav-menu" class="nav-right nav-menu">
+<a class="nav-item is-tab" href="/">
+<span class="icon is-small">
+<i class="fa fa-random"></i>
+</span>
+<span class="pushquarter--left">
+Random joke
+</span>
+</a>
+<a class="nav-item is-tab" href="/search">
+<span class="icon is-small">
+<i class="fa fa-search"></i>
+</span>
+<span class="pushquarter--left">
+Search jokes
+</span>
+</a>
+<a class="nav-item is-tab" href="/submit">
+<span class="icon is-small">
+<i class="fa fa-pencil-square-o"></i>
+</span>
+<span class="pushquarter--left">
+Submit new joke
+</span>
+</a>
+<div class="nav-item">
+<a href="/slack-add" style="height:40px; max-width:139px">
+<img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" style="width:139px; height:40px; max-height: 40px" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
+</a>
+</div>
+<div class="nav-item">
+<a class="button" target="_blank" href="https://www.amazon.com/Brett-Langdon-icanhazdadjoke/dp/B01N6CQ3NZ/" style="background-color: #ffffff; color: #5ebfe4; border-radius: 6px; font-weight: 500; height:40px; width:139px; max-width:139px">
+<img src="/static/alexa-logo.png" style="margin-left: -0.5em;">
+Add to <strong style="margin-left: 0.25em">Alexa</strong>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<section class="section">
+<div class="container">
+<div class="content">
+<h2>About</h2>
+<p>
+<i>icanhazdadjoke.com</i> is the internet's largest selection of dad jokes.
+</p>
+<p>
+This site was written and is maintained by <a href="https://brett.is/">Brett Langdon</a>.
+</p>
+<h2>Contact</h2>
+<p>
+For any questions, comments, or concerns about <i>icanhazdadjoke.com</i> you can contact <a href="/cdn-cgi/l/email-protection#81f2f4f1f1eef3f5c1e8e2e0efe9e0fbe5e0e5ebeeeae4afe2eeec"><span class="__cf_email__" data-cfemail="f5868085859a8781b59c96949b9d948f9194919f9a9e90db969a98">[email&#160;protected]</span></a>.
+</p>
+<h2>Slack integration</h2>
+<p>
+By adding the <i>icanhazdadjoke</i> Slack app to your team, you will be adding a <code>/dadjoke</code> slash command which will provide you with a random joke from <i>icanhazdadjoke.com</i>.
+</p>
+<p>
+This app will only add a slash command to your team. We do not store any information about the Slack teams that integrate with this app, and we do not track or store any messages from that Slack team. We only respond to the request for </code>/dadjoke</code>.
+</p>
+<h2>HipChat integration</h2>
+<p>
+By adding the <i>icanhazdadjoke</i> HipChat app to your team, you will be adding a <code>/dadjoke</code> slash command which will provide you with a random joke from <i>icanhazdadjoke.com</i>.
+</p>
+<p>
+This app will only add a slash command to your team. We do not store any information about the HipChat teams that integrate with this app, and we do not track or store any messages from that HipChat team. We only respond to messages that start with </code>/dadjoke</code>.
+</p>
+<h2>Twist integration</h2>
+<p>
+Adding the <i>icanhazdadjoke</i> Twist integration to your team, will provide you with a <code>/dadjoke <term></code> slash command that you can use to fetch a dad joke for a specific topic.
+</p>
+<p>
+<i>Note:</i> You must provide <code>/dadjoke</code> with a search term, e.g. <code>/dadjoke movie</code>.
+</p>
+<h2>Logo</h2>
+<img src="/static/smile.svg" width="48" height="48" />
+<p>
+By Original by <a href="https://en.wikipedia.org/wiki/User:User:East718">User:East718</a>,
+SVG conversion: This vector image was created with Inkscape by Howcheng,
+and then manually edited by <a href="https://commons.wikimedia.org/wiki/User:Giro720">Giro720</a>. (Own work)
+<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</a>, via <a href="https://commons.wikimedia.org">Wikimedia Commons</a>.
+</p>
+</div>
+<div class="content pushwhole--top">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3200991035275362" data-ad-slot="5324903139" data-ad-format="auto"></ins>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+</div>
+</section>
+<footer class="footer">
+<div class="container">
+<div class="columns">
+<div class="column is-5">
+<div class="content">
+<p>
+<strong>icanhazdadjoke.com</strong> by <a href="https://c653labs.com/">C653 Labs</a>.
+</p>
+<p>
+<i>icanhazdadjoke.com</i> is the largest selection of dad jokes on the internet.
+Now supporting many different integrations to ensure you can access the dad jokes that you need wherever you are.
+</p>
+</div>
+</div>
+<div class="column is-3"></div>
+<div class="column is-2">
+<aside class="menu">
+<ul class="menu-list">
+<li><a href="/cdn-cgi/l/email-protection#1d6e686d6d726f695d747e7c73757c67797c7977727678337e7270" target="_blank">Contact</a></li>
+<li><a href="https://twitter.com/icanhazdadjoke" target="_blank">Twitter</a></li>
+<li><a href="https://slack.com/apps/A214NCJF2-icanhazdadjoke" target="_blank">Slack app</a></li>
+<li><a href="https://www.amazon.com/Brett-Langdon-icanhazdadjoke/dp/B01N6CQ3NZ/" target="_blank">Alexa skill</a></li>
+<li><a href="https://discordapp.com/api/oauth2/authorize?client_id=467365247921946626&permissions=0&scope=bot" target="_blank">Discord bot</a></li>
+<li><a href="https://marketplace.atlassian.com/plugins/com.icanhazdadjoke/cloud/overview" target="_blank">HipChat plugin</a></li>
+<li><a href="https://twistapp.com/integrations/install/20_901fa9d3df5b8784d3ddc56e" target="_blank">Twist integration</a></li>
+</ul>
+</aside>
+</div>
+<div class="column is-2">
+<aside class="menu">
+<ul class="menu-list">
+<li><a href="/about">About</a></li>
+<li><a href="/api">API</a></li>
+<li><a href="/">Random joke</a></li>
+<li><a href="/search">Search jokes</a></li>
+<li><a href="/submit">Submit new joke</a></li>
+</ul>
+</aside>
+</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-82372853-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+<script>
+      document.addEventListener('click', function (evt) {
+        if (evt.target.id === 'nav-toggle' || evt.target.parent.id === 'nav-toggle') {
+          document.getElementById('nav-menu').classList.toggle('is-active');
+        }
+      });
+    </script>
+
+<script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 855658655;
+      var google_conversion_language = "en";
+      var google_conversion_format = "3";
+      var google_conversion_color = "ffffff";
+      var google_conversion_label = "gdOKCMjzmHAQn6GBmAM";
+      var google_remarketing_only = false;
+      /* ]]> */
+    </script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+      <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/855658655/?label=gdOKCMjzmHAQn6GBmAM&amp;guid=ON&amp;script=0"/>
+      </div>
+    </noscript>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+<link rel="shortcut icon" href="/favicons/favicon.ico" />
+<meta name="msapplication-TileColor" content="#113f67" />
+<meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+<meta name="theme-color" content="#113f67" />
+<link href="./_app/immutable/assets/_layout.ca7d1d31.css" rel="stylesheet">
+<link href="./_app/immutable/assets/Indicator.1d121e74.css" rel="stylesheet"><title>Data Privacy | AI Finder</title><meta name="description" content="Datenschutzerklärung (Fassung 05.02.2023-312401509)"><meta property="og:type" name="og:type" content="website"><meta name="twitter:title" content="Data Privacy | AI Finder"><meta property="og:title" content="Data Privacy | AI Finder"><meta name="twitter:description" content="Datenschutzerklärung (Fassung 05.02.2023-312401509)"><meta property="og:description" name="og:description" content="Datenschutzerklärung (Fassung 05.02.2023-312401509)"><meta name="og:url" content="https://ai-finder.com/dp"><meta name="og:image" property="og:image" content="https://ai-finder.fra1.cdn.digitaloceanspaces.com/ai-finder-logo-favicon.png"><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+</head>
+<body>
+<div id="starter" class="dark:bg-[#151515] min-w-full max-w-full">
+<div class="bg-white dark:bg-black min-w-full max-w-full relative"><header><nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-[#101010]"><div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"><a href="/" class="flex items-center"><img src="https://ai-finder.fra1.cdn.digitaloceanspaces.com/ai-finder-logo-trans.png" class="mr-3 h-9" alt="Ai Finder Logo" height="36px" width="auto">
+</a>
+<div class="flex items-center lg:order-3">
+<button class="text-gray-800 dark:text-white hover:bg-gray-300 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-1 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</button>
+<a href="/add" class="text-gray-800 dark:text-white bg-primary-700 hover:bg-gray-300 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Add your AI / GPT</a>
+<a href="/discord" class="text-gray-800 dark:text-white bg-primary-700 hover:bg-gray-300 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Discord</a>
+<button aria-label="Toggle Dark Mode" type="button" class="sticky-theme-mode-button w-10 h-10 p-3 bg-gray-200 rounded-full dark:bg-gray-800"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" class="w-4 h-4 text-gray-800 dark:text-gray-200"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg></button></div></div></nav></header>
+<div id="banner" tabindex="-1" class="relativ flex gap-8 justify-between items-start py-3 px-4 w-full bg-gray-50 border border-b border-gray-200 sm:items-center dark:border-gray-700 lg:py-4 dark:bg-gray-800"><p class="text-sm font-light text-gray-500 dark:text-gray-400 w-full text-center">Due to an AWS Error all Logos / Reviews are not available at the moment. Some features may also be not working at the moment</p>
+<button data-collapse-toggle="banner" type="button" aria-label="Close notification" class="flex items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div>
+<main class="w-full bg-white dark:bg-[#111111] min-w-full min-h-full max-h-full pb-64"><div class="relative flex flex-col justify-center items-start w-full p-0 h-full overflow-y-hide">
+<div class="2xl:mx-80 mx-10 mt-2"><nav aria-label="breadcrumb navigation" class="flex"><ol class="inline-flex items-center space-x-1 md:space-x-3"><li class="inline-flex items-center"><a class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/"><svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+Home</a></li>
+<li class="inline-flex items-center"><svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+<a class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white" href="/dp">Data Privacy</a></li></ol></nav></div>
+<p class="dark:text-white my-auto p-5">You should be redirected shortly, if not please click <a href="https://www.iubenda.com/privacy-policy/76151299" rel="noopener noreferrer">here</a></p></div></main>
+<footer><section class="bg-white dark:bg-transparent overflow-hidden overflow-x-hidden w-full absolute bottom-0"><div class="max-full px-4 py-12 mx-auto space-y-8 overflow-hidden overflow-x-hidden sm:px-6 lg:px-8"><nav class="flex flex-wrap justify-center -mx-5 -my-2"><div class="px-5 py-2"><a href="/about" class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:hover:text-gray-400">About
+</a></div>
+<div class="px-5 py-2">
+<a href="https://www.iubenda.com/privacy-policy/76151299" class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:hover:text-gray-400" title="Privacy Policy ">Privacy Policy</a></div>
+<div class="px-5 py-2"><a href="/imprint" class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:hover:text-gray-400">Imprint
+</a></div>
+<div class="px-5 py-2"><a href="/ToS" class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:hover:text-gray-400">Terms of Service
+</a></div>
+<div class="px-5 py-2"><a href="/copyright" class="text-base leading-6 text-gray-500 hover:text-gray-900 dark:hover:text-gray-400">Copyright Infringement
+</a></div></nav>
+<div class="flex justify-center mt-8 space-x-6"><a href="https://discord.gg/s5qUc4rQf7" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noreferrer"><span class="sr-only">Discord</span>
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 h-8" viewBox="0 0 24 24" fill-rule="evenodd" aria-hidden="true" clip-rule="evenodd"><path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path></svg></a>
+<a href="https://www.tiktok.com/@aifinder.net" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noreferrer"><span class="sr-only">TikTok</span>
+<svg class="w-7 h-7" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"></path></svg></a>
+<a href="https://github.com/AI-Finder" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noreferrer"><span class="sr-only">GitHub</span>
+<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg></a></div>
+<div style="display: flex; justify-content: center;">
+<p class="mr-2"></p>
+<a href="https://www.producthunt.com/products/ai-finder/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-ai-finder" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=525695&theme=neutral" alt="AI Finder - Discover the AI tool that fits your needs | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54"></a>
+<p class="mr-2"></p>
+</div></div></section></footer></div>
+<script nonce="msm3D3vGm564zozwlL4nNQ==">
+				{
+					__sveltekit_1ogg8yk = {
+						env: {"PUBLIC_USE_IMAGEKIT":"0","PUBLIC_API_URL":"https://api.ai-finder.net","PUBLIC_IMAGE_URL":"https://ik.imagekit.io/aifinder/","PUBLIC_NEWEST_X_AIS":"40","PUBLIC_GIVEAWAY_COMMENTS":"0","PUBLIC_CUSTOMGPT_LINK":"https://chat.openai.com/g/g-L8d0V9m7b-ai-finder-net","PUBLIC_BANNER":"1","PUBLIC_BANNER_TEXT":"Due to an AWS Error all Logos / Reviews are not available at the moment. Some features may also be not working at the moment"},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [{"type":"data","data":{session:null,admin:false},"uses":{}},null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.0eb2d3de.js"),
+						import("./_app/immutable/entry/app.521dfb4c.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1ogg8yk.element, {
+							node_ids: [0, 17],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+</div>
+
+
+
+<script async defer src="https://sa.ai-finder.net/latest.js" nonce="msm3D3vGm564zozwlL4nNQ=="></script>
+<noscript><img
+				src="https://sa.ai-finder.net/noscript.gif"
+				alt=""
+				referrerpolicy="no-referrer-when-downgrade"
+		/></noscript>
+<script nonce="msm3D3vGm564zozwlL4nNQ==">(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'880c44c4380f633c',t:'MTcxNTIwMDg2Ni40MjUwMDA='};_cpo=document.createElement('script');_cpo.nonce='msm3D3vGm564zozwlL4nNQ==',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = 'msm3D3vGm564zozwlL4nNQ==';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+<noscript>
+		<div class="flex flex-col max-h-full min-h-full h-full w-full min-w-full max-w-full">
+			<p>Please enable JavaScript to continue using this application.</p>
+		</div>
+	</noscript>
+</html>

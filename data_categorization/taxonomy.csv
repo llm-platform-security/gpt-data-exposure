@@ -1,0 +1,197 @@
+﻿Category,Category description,Data Type,Data type description
+Location,"A geographical point, area, route, or place identified by coordinates, altitude, address components, descriptive names, or relative descriptions. It represents where something is situated, occurs, originates, or is destined, including precise addresses, general locations, regions, paths, landmarks, and other location-related information.",,
+Location,,Altitude,"The elevation of a location above sea level, typically measured in meters or feet."
+Location,,Exact address,"Detailed information about a location, including street name and number, unit (apartment or suite), city, state/province, postal code, and country."
+Location,,City,"An urban area defined by administrative boundaries, often with its own local government."
+Location,,Street,The name and number of the street or road where a location is situated.
+Location,,State/province,"A regional division within a country, often with its own local government."
+Location,,Country,A distinct territorial entity recognized as an independent nation with its own government and borders.
+Location,,Postcode,The postal code or ZIP code used for mail delivery in a specific area.
+Location,,Place of interest,"Notable locations significant for tourism, culture, or local importance, such as landmarks, restaurants, or parks."
+Location,,GPS coordinates,The specific geographic latitude and longitude that pinpoint a location.
+Location,,Relative location,A description of a place's position in relation to other landmarks or locations.
+Location,,Route,The path or course taken to travel from one location to another.
+Location,,General location,The name of a specific location or place without detailed address information.
+Location,,Origin/destination,"The starting point (origin) or ending point (destination) of a journey, route, or transaction."
+Location,,Region,"A geographical area larger than a city or county, such as a district or area within a country, often used for administrative or statistical purposes."
+Location,,Other,Any other location-related information not covered by the above sub-data types.
+Time,"A measurement or reference point that specifies when events occur, durations between events, or periods during which events take place, encompassing moments, intervals, and cycles.",,
+Time,,Year,"A unit of time consisting of 12 months, used to specify a particular calendar year or mark the passage of years."
+Time,,Time period,"An interval or length of time that specifies when something occurs, exists, or is valid. It encompasses specific durations expressed in units like seconds, minutes, hours, or days, as well as spans between two points in time."
+Time,,Season,"A division of the year marked by specific weather patterns and daylight hours, such as spring, summer, autumn (fall), or winter; can also refer to periods like 'the rainy season' or 'harvest season.'"
+Time,,Month,"One of the twelve divisions of the calendar year, each lasting between 28 and 31 days."
+Time,,Week,"A seven-day period, often starting on a specific day, used to segment time within a month."
+Time,,Time of day,"Specific times within a day, ranging from general hours like '3 PM' to exact moments like '1:23 PM.'"
+Time,,Date,"A specific day identified by the calendar, including day, month, and possibly year (e.g., 'July 4th,' 'Monday, March 3rd')."
+Time,,Relative time,"Information describing the timing of an event in relation to another time or event. For example, \""2 hours before sunset\"" or \""30 minutes after the meeting starts.\"""
+Time,,Timezone,"A geographical region where the same standard time is used, defined as an offset from Coordinated Universal Time (UTC). Timezones help specify local time, accounting for variations in time across different parts of the world due to the Earth's rotation. Examples include 'UTC-5:00' (Eastern Standard Time) and 'UTC+1:00' (Central European Time)."
+Time,,Frequency,"Specifies how often an event occurs or data is collected, such as daily, weekly, monthly, quarterly, annually, etc."
+Time,,Timestamp,"An exact point in time, represented in formats like ISO 8601 or RFC 3339 date-time, indicating a specific date and time."
+Time,,Other,Any other time-related information not covered by the above sub-data types.
+Event information,"Data representing scheduled activities or appointments, encompassing comprehensive details such as the event's name, description, date, time, location, participants, reminders, and any other relevant information. This includes all aspects of an event from its identification and scheduling to logistical details and participant notifications.",,
+Event information,,Event name,The title or label assigned to a calendar event that identifies and describes it.
+Event information,,Event description,A brief overview or summary of the event details.
+Event information,,Participants,The individuals or groups invited to or expected at the event.
+Event information,,Reminders,Notifications or alerts set to remind participants of the event at specified times.
+Event information,,Other,Any other event-related information not covered by the above sub-data types.
+Personal information,"Data that uniquely identifies or relates to an individual, encompassing personal identifiers, contact details, demographic information, social connections, beliefs, and sensitive data. This includes names and nicknames; age and birthday; gender and sexual orientation; relationships and social connections; languages spoken; education and work history; race and ethnicity; political or religious beliefs; unique identifiers like Social Security Numbers, passport numbers, and driver's license numbers; contact information such as email addresses, phone numbers, social media handles, and mailing addresses; and any other personal details not covered by the above categories.",,
+Personal information,,Relationship,"Information about an individual's personal connections, including family members, friends, and colleagues, and the nature of these relationships."
+Personal information,,Age,"Information related to a person's age, such as specific age (e.g., \""25-year-old\""), life stage (e.g., \""teenager\""), or age range (e.g., \""in their 30s\"")."
+Personal information,,Birthday,Information about a person's birthday.
+Personal information,,Race and ethnicity,Information about a user's race or ethnicity.
+Personal information,,Sexual orientation,Information about a user's sexual orientation.
+Personal information,,Name,"An individual's full name, including first name, middle name(s), and last name."
+Personal information,,Gender,The gender identity of an individual.
+Personal information,,Education,"Details about an individual's educational background, including degrees obtained, institutions attended, fields of study, certifications, and academic achievements."
+Personal information,,Work,"Information about an individual's professional life, including current and past job titles, employers, roles, responsibilities, and career history. For example, 'Software Engineer at ABC Corp.'"
+Personal information,,Email address,"An individual's electronic mail address used for sending and receiving emails. For example, 'example@example.com.'"
+Personal information,,Phone number,"A sequence of digits assigned to an individual's telephone line, enabling voice calls or text messaging. For example, '+1-234-567-8901.'"
+Personal information,,Social media handle,"An individual's public username or identifier on social media platforms, used for communication and interaction. For example, 'Twitter: @username,' 'Instagram: @username.'"
+Personal information,,Mailing address,"The physical location where an individual receives postal mail, including street address, city, state or province, postal code, and country. For example, '123 Main Street, Apt 4B, Springfield, IL, 62704, USA.'"
+Personal information,,Nickname,"An alternative name used by an individual, typically informal or personal in nature. For example, “Mike” for “Michael.”"
+Personal information,,Other,Any additional personal information not covered by the above categories.
+Finance information,"Information pertaining to an individual's financial status, accounts, transactions, and assets, including bank accounts, credit cards, loans, income, investments, insurance policies, tax records, property ownership, and purchase history.",,
+Finance information,,Purchase history,"Records of transactions or purchases an individual has made, including dates, amounts, items or services purchased, and merchants involved."
+Finance information,,Insurance,"Information about an individual's insurance policies, including policy types (health, auto, life), coverage details, premiums, and policy expiration dates."
+Finance information,,Property ownership,"Details about real estate properties owned by an individual, including property addresses, types (residential, commercial), and ownership percentages."
+Finance information,,Loans,"Information about loans an individual has taken out, including loan amounts, interest rates, borrowers' info, loaners' info, repayment schedules, and outstanding balances."
+Finance information,,Income information,"Data regarding an individual's earnings from various sources, including salaries, wages, bonuses, dividends, rental income, and other revenue streams."
+Finance information,,Investments,"Details about an individual's financial investments, such as stocks, bonds, mutual funds, retirement accounts, and other securities, including investment amounts and performance."
+Finance information,,Other,"Any additional financial information not covered by the above categories, such as inheritance details, financial planning documents, or charitable contributions."
+Health information,"Data related to an individual's physical and mental health status, including medical history, medications, allergies, fitness activities, treatments, diagnoses, and other health-related details.",,
+Health information,,Medical record,"Comprehensive details about a person's health history, including diagnoses, treatments, surgeries, lab results, and doctor's notes."
+Health information,,Fitness information,"Data related to an individual's physical activities and exercise routines, such as types of exercises performed, frequency and duration of workouts, fitness goals, progress metrics (e.g., steps taken, calories burned), and participation in sports or fitness programs."
+Health information,,Other,"Any additional health-related information not encompassed by the above categories, such as genetic data, mental health records, or lifestyle factors."
+App usage data,"Information related to an application's performance, settings, user preferences, and interactions that enhance or influence the user experience. This includes user status within the app, subscription details, crash logs, diagnostics, current session settings, system resource configurations, response fields, user interaction data, and any other app-related usage information.",,
+App usage data,,Status,"The user's current state or activity within the app, such as online, offline, busy, or away."
+App usage data,,Subscription information,"Details about a person's subscriptions related to an app, including subscription type, start date, renewal date, and status."
+App usage data,,Diagnostics,"Performance-related data about the app, such as battery usage, loading times, latency, and frame rates."
+App usage data,,Current session setting,"Temporary configurations and preferences active only during a user's current session within an application or system. These may include session-specific language choices, temporary display options, or one-time privacy settings that revert after the session ends."
+App usage data,,Response fields,"Specifies the data fields to be included in API responses, such as metrics or attributes to return."
+App usage data,,User interaction data,"Data encompassing instructions, feedback, evaluations, opinions, tasks, styles, summaries, sentiments, moods, categories, and other qualitative assessments guiding content creation or processing."
+App usage data,,Other,"Any additional app usage data not covered by the above categories, such as user preferences, app settings, or feature usage statistics."
+App metadata,"Descriptive information about an application's characteristics and properties, including its name, version, function description, language support, publisher, policies, integrated applications, and any other relevant details. This encompasses the app's functionalities, supported languages, developer information, terms and conditions, external integrations, and additional attributes such as regional availability, copyright details, or release date.",,
+App metadata,,Function description,A brief explanation of the specific tasks or operations that an application is designed to perform.
+App metadata,,Name or version,"The official name of the app and its version number, identifying it and tracking updates."
+App metadata,,Publisher,The developer or organization responsible for creating and distributing the app.
+App metadata,,Policies,The terms and conditions for using the app
+App metadata,,Integrated applications,"The set of external applications integrated or utilized within the primary application, such as app names for filtering actions."
+App metadata,,Other,"Any additional descriptive information about the application's characteristics and properties that do not fall under the specified categories, such as regional availability, copyright details, or release date."
+Files and documents,"Data related to digital files and documents, including their metadata (such as file paths, types, sizes, timestamps), content, descriptions, and origins.",,
+Files and documents,,File path,"The complete directory path specifying where a file is located within a file system, including all parent directories and the file name. For example, 'C:\Users\Username\Documents\Report.docx' or '/home/username/documents/report.pdf'."
+Files and documents,,File name,The name of the file.
+Files and documents,,File hash,"A unique fixed-size alphanumeric string generated by applying a cryptographic hash function (e.g., MD5, SHA-256) to the file's content. It serves as a digital fingerprint, allowing for the verification of file integrity and detection of changes or corruption."
+Files and documents,,File type,"The format or file extension that indicates the type of data the file contains, such as PDF, Word document, spreadsheet, image, or audio file. For example, '.pdf', '.docx', '.xlsx', '.jpg', '.mp3'."
+Files and documents,,File description,"A concise summary or metadata providing details about the file's content, purpose, or context. For example, 'Annual financial report for 2023', 'Project proposal draft', or 'Family vacation photos'."
+Files and documents,,File size,"The amount of digital storage space a file occupies on a storage device, typically measured in bytes, kilobytes (KB), megabytes (MB), or gigabytes (GB). For example, '15.2 MB' or '3.5 GB'."
+Files and documents,,File content,"The actual data contained within the file, which could include text, images, audio, video, code, or any other form of digital information."
+Files and documents,,Source,"Information about the origin of the file or document, such as the author, creator, or the system from which it was obtained. For example, 'Created by John Doe', 'Downloaded from www.example.com', or 'Generated by Sales Report System'."
+Files and documents,,File list,"A collection or list of files, specifying multiple files as a group. For example, a list of files to include in an application, deployment, or submission."
+Files and documents,,Other,Any additional file-related information not covered by the above categories.
+Web and network data,"Information related to online activities, network interactions, and digital content. This encompasses browsing history, URLs, domain names, IP addresses, related links, connection logs, blockchain data, cookies, web page content, user-agent strings, database information, multimedia data, and any other relevant web or network-related information.",,
+Web and network data,,URLs,"The complete web address used to access a specific resource on the internet, encompassing the protocol (e.g., http, https), domain name, path, and query parameters. For example, 'URL: https://www.example.com/page?query=123'."
+Web and network data,,IP addresses,"The numerical label assigned to a device connected to a computer network that uses the Internet Protocol for communication. It identifies devices like servers, computers, and smartphones on the network. For example, 'IP Address: 192.168.1.1'."
+Web and network data,,Domain names,"The primary part of a web address that identifies the website, typically consisting of a name and a top-level domain (TLD). For example, 'Domain Name: example.com'."
+Web and network data,,Related links,Hyperlinks found on a webpage that direct users to other related or affiliated online locations or resources.
+Web and network data,,Connection logs,"Records of network connections made by a device or application, including details such as IP addresses, port numbers, timestamps, duration, and protocols used."
+Web and network data,,Blockchain data,"Information recorded on a blockchain network, including transaction details (e.g., sender, receiver, amount), block metadata (e.g., block number, timestamp, hash), smart contract data, wallet addresses, and decentralized application interactions. This data is immutable, decentralized, and publicly accessible on many blockchain platforms."
+Web and network data,,Cookies,"Small pieces of data stored by a web browser that record user-specific information or preferences for websites visited, including key-value pairs."
+Web and network data,,Web page content,"HTML or other content of web pages, capturing the information presented to the user, including full-page captures."
+Web and network data,,User-Agent strings,"Identifiers sent by a web browser or other client application, indicating the application type, operating system, software vendor, or software version."
+Web and network data,,Database information,"Names and identifiers of databases being accessed, including source or target databases in queries or data retrieval operations."
+Web and network data,,Multimedia data,"Data related to multimedia content, including audio, speech, image generation, diagrams, visual prompts, rendering parameters, chart types, axis data, labels, titles, song titles, chords, lyrics, song texts, descriptions, audio processing, text-to-speech conversions, and other media-related parameters."
+Web and network data,,Other,"Any additional web and network-related information not covered by the specified categories, such as cookies, digital certificates, HTTP headers, or data from decentralized web services."
+Message,"Information related to the exchange of messages and interactions across various platforms, including emails, text messages, messaging apps, social media, and feedback mechanisms. This encompasses message content, participants involved, attachments and media files, user feedback such as comments and reviews, and any other relevant communication details.",,
+Message,,Text messages,"A piece of communication typically sent between individuals or systems via messaging apps, SMS, or social media, primarily composed of text but may also include emojis, links, or simple multimedia."
+Message,,Emails,"Electronic mail messages exchanged over the internet, including the subject line, body content, and any associated metadata such as sender, recipient, and timestamps."
+Message,,Participants,"Individuals, groups, or entities involved in the communication exchange, including senders, recipients, and any participants in group messages or email threads."
+Message,,User feedback,"Feedback, comments, or reviews provided by users, often used to improve services, products, or content, and can include text feedback submitted via forms, reviews, or comments sections."
+Message,,Other,"Any additional message-related information not covered by the above categories, such as message metadata (timestamps, read receipts) or encrypted content."
+Query,"User inputs utilized to search, retrieve, filter, or generate information within systems, applications, or on the web. This includes search queries, filters, prompts for AI systems, and any other query-related parameters or inputs.",,
+Query,,Query filter,"Parameters used to narrow down search results or specify conditions in queries, including tags, field selectors, and other criteria."
+Query,,Generative prompt,User-provided input designed to instruct AI systems in creating or generating specific content or responses.
+Query,,Search query,Text input provided by a user to search or retrieve information in systems or applications.
+Query,,Other,"Any additional query-related information not covered by the above categories, such as search parameters, query results, or query history."
+Identifier,"A unique identifier (ID) used to distinguish a specific entity, object, or record, such as vehicles, devices, reservations, or other items that require unique identification.",,
+Identifier,,Vehicle identification number (VIN),"A unique 17-character alphanumeric code assigned to a motor vehicle by the manufacturer, used to identify specific vehicles globally."
+Identifier,,License plate number,"A unique combination of letters and numbers displayed on a vehicle's license plate, assigned by governmental authorities for registration and identification purposes."
+Identifier,,Device IDs,"Unique identifiers assigned to electronic devices, such as serial numbers, MAC addresses, IMEI numbers, or device-specific IDs like UDID or Android ID, used for device recognition and authentication."
+Identifier,,Resource IDs,"Unique identifiers assigned to resources such as documents, models, projects, or other entities within a system."
+Identifier,,Project and issue identifiers,"Unique identifiers used in project management and issue tracking systems, such as issue IDs, project IDs, and task IDs."
+Identifier,,Account identifiers,"Unique identifiers assigned to user accounts, profiles, or credentials within systems or applications."
+Identifier,,Media identifiers,"Unique identifiers for media resources such as videos, images, presentations, or documents."
+Identifier,,Geographical area codes,"Codes representing specific geographical areas or locations, such as postal codes, LSOA codes, or region codes."
+Identifier,,Financial instrument identifiers,"Unique identifiers assigned to financial instruments, such as stocks, bonds, funds, including ISINs, CUSIPs, FIGIs, and CIKs, used for identification and tracking in financial systems."
+Identifier,,Product and item identifiers,"Unique identifiers assigned to products, items, or goods, including SKUs, product IDs, and catalog numbers."
+Identifier,,Ticket and order identifiers,"Unique identifiers assigned to tickets, orders, or reservations for tracking and management purposes."
+Identifier,,Organization identifiers,"Unique identifiers for organizations, companies, or entities, such as organization numbers or SIREN numbers."
+Identifier,,User identifiers,"Unique identifiers assigned to users, such as user IDs or usernames, used for user recognition and authentication."
+Identifier,,Other,"Any additional unique identifiers not covered by the above categories, such as product serial numbers, account IDs, or membership numbers."
+Market data,"Information related to financial markets and instruments, including stocks, cryptocurrencies, and exchanges. This encompasses ticker symbols (individual or lists), company names, exchange names, currency details (exchange rates, currency codes, symbols, and currency pairs), financial ratios and metrics used for analysis and investment decisions, and any other relevant market information such as trends, trading volumes, performance indicators, or historical data.",,
+Market data,,Ticker symbol,The stock or cryptocurrency ticker symbol used to identify a specific stock or crypto asset in trading and market data.
+Market data,,Company name,The name of a company used for retrieving information when a ticker symbol is not provided.
+Market data,,Exchange,"The financial market or exchange where a financial instrument is traded, such as NYSE, NASDAQ, BMV, etc."
+Market data,,List of ticker symbols,A list of stock or cryptocurrency ticker symbols used to retrieve data for multiple assets at once.
+Market data,,Currency information,"Data related to currencies and their exchange, encompassing details such as currency exchange rates, currency codes, currency symbols, and currency pair symbols used in forex or cryptocurrency markets (e.g., EUR/USD, BTC/ETH)."
+Market data,,Financial ratios and metrics,"Data related to various financial ratios, financial metrics, and market capitalization, used for financial analysis and investment decisions."
+Market data,,Other,"Any additional stock-related information not covered by the above categories, such as market indices, stock performance indicators, or historical stock data."
+Weather information,"Data related to meteorological conditions, including temperature, humidity, precipitation, wind speed, forecasts, and weather alerts, as relevant to weather-focused domains.",,
+Weather information,,Weather data parameters,"Parameters specifying the types of weather data to fetch, including temperature, humidity, wind speed, units of measurement, forecast products, and specific options."
+Weather information,,Weather data timeframe,"Parameters specifying the time-related aspects of weather data, including current versus forecast data, forecast cycles, and time granularity such as hourly or daily data."
+Weather information,,Other,"Any additional weather-related information not covered by the above categories, such as weather alerts, UV index, air quality, or historical weather data."
+Vehicle information,"Information specific to vehicles, such as make and model maintenance records, fuel consumption, or tracking details, as managed by vehicle-related apps.",,
+Vehicle information,,Vehicle make,The manufacturer of the vehicle.
+Vehicle information,,Vehicle model,The specific model of the vehicle.
+Vehicle information,,Vehicle type,"The type of the vehicle such as aircraft, bus, train, car, etc."
+Vehicle information,,Vehicle color,The color of the vehicle.
+Vehicle information,,Vehicle mileage,The total distance traveled by the vehicle.
+Vehicle information,,Vehicle fuel type,The type of fuel the vehicle uses.
+Vehicle information,,Vehicle specifications,"Other vehicle specifications such as body style, transmission type, power, number of seats, year, price, doors, and fuel consumption."
+Vehicle information,,Other,Any additional vehicle-related information not covered by the above categories.
+Security credentials,"Sensitive data used for authentication and access control in digital systems, including codes, passwords, and tokens, which help ensure security and privacy.",,
+Security credentials,,API key,"A unique alphanumeric code associated with a user or application, used to authenticate requests and provide access to APIs and services, typically static and included in API requests."
+Security credentials,,Password,"A confidential string of characters, words, or phrases used by an individual to verify their identity and gain access to an app or account, providing security and privacy."
+Security credentials,,Access tokens,"Temporary, dynamically generated tokens used to access protected resources in applications, often issued after successful authentication to maintain a secure session for a limited duration."
+Security credentials,,Cryptographic key,"A secret piece of information used within cryptographic algorithms to encrypt or decrypt data, including private keys and secret keys used for encryption, decryption, or signing operations."
+Security credentials,,Verification code,"A temporary code, often numeric, sent to a user to verify identity during authentication processes, such as account activation or password reset, typically used once and then expires."
+Security credentials,,Other,"Any additional security-related credentials not covered by the above categories, such as encryption keys, PINs, or biometric data."
+Food and nutrition information,"Data related to food and nutrition, including nutrients, ingredients, recipes, servings, dietary preferences, intolerances, and other food-related parameters.",,
+Food and nutrition information,,Nutrients,"Information about nutrients in foods, including lists of nutrients and nutrient details."
+Food and nutrition information,,Recipes,"Details about recipes, including titles, ingredients, and preparation instructions."
+Food and nutrition information,,Food type filters,"Parameters and options for including or excluding specific types of foods, such as branded and common foods."
+Food and nutrition information,,Meal planning,"Data related to meal planning, including meal plans, target macronutrients, and budgets."
+Food and nutrition information,,Other,"Any additional food and nutrition information not covered by the above categories, such as food labels, allergen information, or food safety details."
+Real estate data,"Data related to real estate properties, including property types, operation types, amenities, and other housing-related parameters.",,
+Real estate data,,Property details,"Comprehensive information about a property's fundamental characteristics and physical features. This includes operation type, property type, duplex status, usage type, number of bedrooms, number of bathrooms, property size, floor level, and any other relevant property attributes."
+Real estate data,,Amenities,"Additional features and facilities available with the property, such as elevator, garage, garden, terrace, included electronics, car park, pet allowance, smoking allowance, and other amenities."
+Real estate data,,Furnishing status,"Information about the furnishing status of the property, including whether it is furnished and specific furnishing details."
+Real estate data,,Other,"Any additional real estate information not covered by the above categories, such as property prices, location details, or property history."
+E-commerce data,"Data related to marketing content, product descriptions, promotions, online commercial transactions, products, prices, availability, shipping details, and other e-commerce parameters.",,
+E-commerce data,,Parcel dimensions,"Dimensions and weight of parcels including length, width, height, and weight."
+E-commerce data,,Product details,"Information about products including names, descriptions, types, categories, attributes, pricing, and images."
+E-commerce data,,Company information,Information about companies including names and related contexts.
+E-commerce data,,Business metrics,"Metrics related to business performance such as advertising spend, sales data, customer data, and competitor activities."
+E-commerce data,,E-commerce transaction details,"Details related to e-commerce transactions including store codes, payment methods, listings, campaign details, promo codes, and shipping methods."
+E-commerce data,,Other,"Any additional e-commerce information not covered by the above categories, such as customer reviews, ratings, or order history."
+Gaming data,"Data related to games and gaming activities, including game titles, platforms, in-game items, player statistics, and other game-related details.",,
+Gaming data,,In-game data,General game information including game titles and platforms.
+Gaming data,,Player statistics,"Data related to player statistics and progress, such as scores, levels, and loyalty."
+Gaming data,,Other,"Any additional gaming information not covered by the above categories, such as game genres, achievements, or in-game chat logs."
+Legal and law enforcement data,"Data related to legal information and law enforcement activities, including laws, regulations, legal questions, crime types, outcomes, context, policing operations, legislation, search details, and other legal and law enforcement parameters.",,
+Legal and law enforcement data,,Crime details,"Information pertaining to the specifics of a crime, including type, context, and related policing operations."
+Legal and law enforcement data,,Case outcomes and evidence,Details about the outcomes of cases and associated evidence.
+Legal and law enforcement data,,Legal provisions,"Information on laws, legislation, and legal provisions relevant to cases and inquiries."
+Legal and law enforcement data,,Legal inquiries,"Questions and inquiries posed regarding legal matters, including immigration requests and congress-related questions."
+Legal and law enforcement data,,Other,"Any additional legal and law enforcement information not covered by the above categories, such as court records, legal documents, or law enforcement reports."
+Travel information,"Data related to travel arrangements and preferences, including luggage information, cabin selections, itineraries, and other travel-related parameters.",,
+Travel information,,Baggage information,"Information related to baggage preferences and allowances, including cabin bags and checked bags for adults and children."
+Travel information,,Cabin preferences,Data pertaining to preferred cabin classes and options for combining cabin classes.
+Travel information,,Passenger counts,"The number of passengers associated with travel bookings, including adults, children, infants, and other passenger categories."
+Travel information,,Other,"Any additional travel information not covered by the above categories, such as travel destinations, flight details, or accommodation preferences."
+Sports information,"Data related to sports events and betting, including tours, sports types, markets, slates, odds, and other sports-related parameters.",,
+Sports information,,Markets,Types of markets in betting.
+Sports information,,Teams,Team-specific parameters and identifiers.
+Sports information,,Leagues,Parameters related to leagues within sports.
+Sports information,,Statistics,"Statistical data related to players, teams, and games."
+Sports information,,Other,"Any additional sports information not covered by the above categories, such as player profiles, game schedules, or sports news."
+Other,,,

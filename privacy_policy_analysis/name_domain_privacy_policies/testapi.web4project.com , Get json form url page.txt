@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Cookie
+</title><script src="/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+<link href="/Content/css?v=V7LOgEVW03drpKSlSUxA3MPw02-VTW7upJhCvQ6H1sw1" rel="stylesheet"/>
+<link id="FaviconLink" href="favicon.ico" rel="shortcut icon" type="image/x-icon" /></head>
+<body>
+    <form method="post" action="./PagePrivacy" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="BlBOduEX7QGYismNVmMfGNsncDba/qtryA/2BND4vSlkdnT9s1vyDfFVduVum9CIg6dWBW7LSj+0yFVe1ajL0UKQb3/jzAQX3b3XOV1L5IkVkfnXfXtESK33DiRwsqZ6yZhpkiWkyW1AkKeAHY6N9J7SLaSrwkvqUbTO8j6YAiXm7Amx4Prte/gol/M2ypPDtIp1zgvrbrfDGTpkJ7uHag==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/bundles/MsAjaxJs?v=D6VN0fHlwFSIWjbVzi6mZyE9Ls-4LNrSSYVGRU46XF81" type="text/javascript"></script>
+<script src="Scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="Scripts/respond.min.js" type="text/javascript"></script>
+<script src="/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB5E25FB" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl07', 'ctl01', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="./" class="navbar-brand">Web4Project</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="PageContatti" id="PageContattiHref">Contatti</a></li>
+                    </ul>
+                    
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="Account/Login">Accedi</a></li>
+                            </ul>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <h6 style="text-align: right;">&copy;2024&nbsp;<img src="/Icons/NestedIco.png" id="Web4ProjectImg" alt="Web4Project" title="Web4Project" />&nbsp;Web4Project&nbsp;-&nbsp;<a href="PagePrivacy.aspx" target="_self">Cookie</a>
+            </h6>
+            
+    <h3>
+        <img src="Icons/NestedIco.png" id="MainContent_PrivacyCookieImg" alt="Web4Project" />&nbsp;Informativa sull'uso dei cookie.</h3>
+    <ul>
+        <li>Questo sito web utilizza cookie e tecnologie simili per garantire il corretto funzionamento delle procedure e migliorare l'esperienza di uso delle applicazioni online. Il presente documento fornisce informazioni dettagliate sull'uso dei cookie e di tecnologie similari, su come sono utilizzati su questo sito e su come gestirli.</li>
+    </ul>
+    <ul>
+        <li>Definizioni - I cookie sono brevi frammenti di testo (lettere e/o numeri) che permettono al server web di memorizzare sul client (il browser) informazioni da riutilizzare nel corso della medesima visita al sito (cookie di sessione) o in seguito, anche a distanza di giorni (cookie persistenti). I cookie vengono memorizzati, in base alle preferenze dell'utente, dal singolo browser sullo specifico dispositivo utilizzato (computer, tablet, smartphone).</li>
+    </ul>
+    <ul>
+        <li>Nel seguito di questo documento faremo riferimento ai cookie e a tutte le tecnologie similari utilizzando semplicemente il termine “cookie”.</li>
+    </ul>
+    <ul>
+        <li>Tipologie di cookie - In base alle caratteristiche e all'utilizzo dei cookie possiamo distinguere diverse categorie:</li>
+    </ul>
+    <ul>
+        <li>Cookie strettamente necessari - Si tratta di cookie indispensabili per il corretto funzionamento dei siti e sono utilizzati per gestire eventuali login e l'accesso alle funzioni riservate del sito.<b>Il sito utilizza cookie di questo tipo.</b></li>
+    </ul>
+    <ul>
+        <li>Cookie di analisi e prestazioni - Sono cookie utilizzati per raccogliere e analizzare il traffico e l'utilizzo del sito in modo anonimo. Questi cookie, pur senza identificare l'utente, consentono, per esempio, di rilevare se il medesimo utente torna a collegarsi in momenti diversi. Permettono inoltre di monitorare il sistema e migliorarne le prestazioni e l'usabilità. La disattivazione di tali cookie può essere eseguita senza alcuna perdita di funzionalità. l sito non utilizzano cookie di questo tipo.</li>
+    </ul>
+    <ul>
+        <li>Cookie di profilazione - Si tratta di cookie permanenti utilizzati per identificare (in modo anonimo e non) le preferenze dell'utente e migliorare la sua esperienza di navigazione. Il sito non utilizzano cookie di questo tipo.</li>
+    </ul>
+    <ul>
+        <li>Cookie di terze parti - Visitando un sito web si possono ricevere cookie sia dal sito visitato (“proprietari”), sia da siti gestiti da altre organizzazioni (“terze parti”). Un esempio notevole è rappresentato dalla presenza dei “social plugin” per Facebook, Twitter, Google+ e LinkedIn. Si tratta di parti della pagina visitata generate direttamente dai suddetti siti ed integrati nella pagina del sito ospitante. L'utilizzo più comune dei social plugin è finalizzato alla condivisione dei contenuti sui social network. l sito non utilizzano cookie di questo tipo.</li>
+    </ul>
+    <ul>
+        <li>Durata dei cookie - Alcuni cookie (cookie di sessione) restano attivi solo fino alla chiusura del browser o all'esecuzione del comando di logout. Altri cookie “sopravvivono” alla chiusura del browser e sono disponibili anche in successive visite dell'utente. Questi cookie sono detti persistenti e la loro durata è fissata dal server al momento della loro creazione. In alcuni casi è fissata una scadenza, in altri casi la durata è illimitata.</li>
+    </ul>
+    <ul>
+        <li>Gestione dei cookie - L'utente può decidere se accettare o meno i cookie utilizzando le impostazioni del proprio browser. Attenzione: la disabilitazione totale o parziale dei cookie tecnici può compromettere l'utilizzo delle funzionalità del sito riservate agli utenti registrati. Al contrario, la fruibilità dei contenuti pubblici è possibile anche disabilitando completamente i cookie. La disabilitazione dei cookie “terze parti” non pregiudica in alcun modo la navigabilità. L'impostazione può essere definita in modo specifico per i diversi siti e applicazioni web. Inoltre i migliori browser consentono di definire impostazioni diverse per i cookie “proprietari” e per quelli di “terze parti”.</li>
+    </ul>
+
+            <p class="text-danger">
+                
+            </p>
+        </div>
+    </form>
+</body>
+</html>

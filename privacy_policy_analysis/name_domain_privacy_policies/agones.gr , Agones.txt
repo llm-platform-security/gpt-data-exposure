@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<script></script> <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Στοιχημα - Livescore - Stoixima</title>
+<meta property="og:title" content="Στοιχημα - Livescore - Stoixima">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="all">
+<meta name="keywords" content="στοίχημα, αποτελέσματα, livescore, live scores, live score, αγώνες, stoixima, pame stoixima, opap, οπαπ">
+<meta name="description" content="Στοίχημα - Stoixima: Live scores με ολόκληρο το δελτίο του Πάμε Στοίχημα - Stoixima. Προγνωστικά, ειδήσεις και ψηφοφορίες.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://agones.gr/terms">
+<meta property="og:url" content="https://agones.gr/terms">
+<meta property="og:image" content="https://agones.gr/static/img/default_og_image.png?v=764fe1aebf1838198a1b7442b5ebf2c1"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://agones.gr/m/terms">
+<link rel="alternate" title="Agones.gr RSS" href="https://agones.gr/rss.php" type="application/rss+xml">
+
+<link rel="icon" type="image/png" sizes="192x192" href="/static/img/favicon/android-chrome-192x192.png?v=76eb6083fd5ddf94baae0916582b771c">
+<link rel="manifest" href="/static/img/favicon/site.webmanifest?v=a332d558114e5132a7d66b69a4f94242">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicon/apple-touch-icon.png?v=b93c42ee41325b3ba73e5ac45d0e0757">
+<link rel="mask-icon" href="/static/img/favicon/safari-pinned-tab.svg?v=741cf780fea3d3400dd83e30ff75473d" color="#33980C">
+<meta name="msapplication-TileColor" content="#33980C">
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek" as="style" onload="this.onload=null;this.rel='stylesheet';">
+<noscript><link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=greek" rel="stylesheet"></noscript>
+<link rel="preload" href="/static/fonts/css/fontawesome-pruned.min.css?v=7e115d5c062f331ac886db68d2be9189" as="style" onload="this.onload=null;this.rel='stylesheet';">
+<noscript><link href="/static/fonts/css/fontawesome-pruned.min.css?v=7e115d5c062f331ac886db68d2be9189" rel="stylesheet"></noscript>
+
+<link rel="stylesheet" href="/static/css/bootstrap.desktop.min.css?v=732aae2d3a4a12893cdf3b4bbd6b459e">
+<link rel="stylesheet" href="/static/css/desktop.css?v=2e19e276b566574759a5327606c3604d">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WFLTRKFHPE"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WFLTRKFHPE');
+    </script>
+</head>
+<body class="page">
+<header class="header">
+<div class="container container--full">
+<div class="header__left">
+<button class="btn-clean header__menu-trigger header__button ii__menu_trigger" type="button">
+<svg role="img" class="icon-svg icon-menu"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-menu"></use></svg>
+</button>
+<a href="/" class="header__logo">
+<img src="/static/img/logo.svg?v=ae4d96a9d46499ff8f63f80ac0ef2500" alt="Στοίχημα - Livescore">
+</a>
+<div class="header__nav">
+<a href="/">Stoixima</a> στο ποδόσφαιρο
+<h1>
+<a href="/">Στοίχημα</a>
+<a href="/">Stoixima</a>
+<a href="/">Live Scores</a>
+</h1>
+</div>
+</div>
+<form class="search-n header__searchbox" id="search_form">
+<button class="btn-clean btn-search" type="button" id="search_btn">
+<svg role="img" class="icon-svg icon-search"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-search"></use></svg>
+</button>
+<button class="btn-clean search-reset" id="search_reset_btn" type="reset">
+<svg role="img" class="icon-svg icon-close"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-close"></use></svg>
+</button>
+<input type="search" data-type="search" placeholder="Αναζητήστε ομάδα, αγώνα, διοργάνωση, παίκτη..." class="form-control search-n-input" autocomplete="off" id="globalsearch">
+<div class="search-n__menu">
+<div class="search-n__content ii__search_content">
+<div id="default_search_content">
+<div id="pinned_results_content">
+<h4 class="search-n__title">Δημοφιλείς</h4>
+<a href="https://agones.gr/analyseis" class="search-n__item ii__search_item">
+<img src="/static/img/placeholder2.png?v=4ab52771e9067b523e39e1ab6d6ed3ad" srcset="/static/img/placeholder2.png?v=4ab52771e9067b523e39e1ab6d6ed3ad 2x" alt="Αναλύσεις" class="disbable-chrome-smoothing" loading="lazy">
+<span>Αναλύσεις</span></a><a href="https://agones.gr/news/" class="search-n__item ii__search_item">
+<img src="/static/img/placeholder2.png?v=4ab52771e9067b523e39e1ab6d6ed3ad" srcset="/static/img/placeholder2.png?v=4ab52771e9067b523e39e1ab6d6ed3ad 2x" alt="Αθλητικές Ειδήσεις" class="disbable-chrome-smoothing" loading="lazy">
+<span>Αθλητικές Ειδήσεις</span></a><a href="/vathmologia/t/66/%CE%A3%CE%BF%CF%8D%CF%80%CE%B5%CF%81+%CE%9B%CE%B9%CE%B3%CE%BA+1" class="search-n__item ii__search_item"><img src="https://s3assets.agones.gr/thumbnails/e5fbe3f227df4fb0fd9a403f5582dbc5" srcset="https://s3assets.agones.gr/thumbnails/f8784eb2a2770330fc0d907e27c166df 2x" title="ΕΛΛΑΔΑ: Σούπερ Λιγκ 1" class="flag radius2 img--tour disable-chrome-smoothing" alt loading="lazy"><span>Σούπερ Λιγκ 1</span></a><a href="/team/3514/mantsester_giounaitent" class="search-n__item ii__search_item">
+<img src="https://s3assets.agones.gr/en_team_logos/3514.png?v=8ab71893825379f387ed2fd2b22f61b2" srcset="https://s3assets.agones.gr/en_team_logos/3514_2x.png?v=f8f6a451e1748e231c1b6c9aa0ddf19d 2x" alt="Μάντσεστερ Γιουνάιτεντ" class="disbable-chrome-smoothing" loading="lazy">
+<span>Μάντσεστερ Γιουνάιτεντ</span></a><a href="/vathmologia/t/8/%CE%A0%CF%81%CE%AD%CE%BC%CE%B9%CE%B5%CF%81+%CE%9B%CE%B9%CE%B3%CE%BA" class="search-n__item ii__search_item"><img src="https://s3assets.agones.gr/thumbnails/5c6dea5493cb330d1775e5de87e7901c" srcset="https://s3assets.agones.gr/thumbnails/db9dd3170632885354f3f1130204e239 2x" title="ΑΓΓΛΙΑ: Πρέμιερ Λιγκ" class="flag radius2 img--tour disable-chrome-smoothing" alt loading="lazy"><span>Πρέμιερ Λιγκ</span></a></div><div id="recent_searches_content"></div></div><div id="results_content"></div></div></div></form> <div class="header__right">
+<a class="btn-clean header__button badge-wrap badge-wrap--chat" href="/chat">
+<svg role="img" class="icon-svg icon-send"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-send"></use></svg>
+<span class="ii__unread_cnt badge badge-pill badge-danger" style="display:none;">0</span><span class="ii__chat_cnt badge badge-pill badge-success">12</span> </a>
+<a class="btn header__primary-btn" data-target="#login_modal" data-toggle="modal">
+<svg role="img" class="icon-svg icon-login"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-login"></use></svg>
+<span>Είσοδος</span>
+</a>
+</div>
+</div>
+
+</header>
+<div class="menu">
+<div class="menu__list-wrap">
+<div class="menu__list">
+<a href="/" class="menu__list-item ">
+<span>Stoixima Live</span>
+</a>
+<a href="/analyseis" class="menu__list-item ii__submenu-trigger " data-submenu="#predictions_menu">
+<span>Προγνωστικά</span>
+<svg role="img" class="icon-svg icon-dropdown"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dropdown"></use></svg>
+</a>
+<a href="/news/" class="menu__list-item ii__submenu-trigger " data-submenu="#news_menu">
+<span>Ειδήσεις</span>
+<svg role="img" class="icon-svg icon-dropdown"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dropdown"></use></svg>
+</a>
+<a href="/vathmologia" class="menu__list-item ii__submenu-trigger " data-submenu="#tools_menu">
+<span>Στατιστικά</span>
+<svg role="img" class="icon-svg icon-dropdown"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dropdown"></use></svg>
+</a>
+<a href="/stoiximatikes-etairies" class="menu__list-item menu__list-item--highlighted ii__submenu-trigger " data-submenu="#companies_menu">
+<span>Στοιχηματικές</span>
+<svg role="img" class="icon-svg icon-dropdown"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dropdown"></use></svg>
+</a>
+<a href="/casino" class="menu__list-item ">
+<span>Live Casino</span>
+</a>
+<a href="/basket" class="menu__list-item ">
+<span>Μπάσκετ</span>
+</a>
+<a href="/chat" class="menu__list-item ">
+<span>Chat</span>
+</a>
+<a href="/bet-academy" class="menu__list-item ">
+<span>Bet Academy</span>
+</a>
+<a href="javascript:void(0);" class="menu__list-item ii__submenu-trigger " data-submenu="#more_menu">
+<span>Άλλα</span>
+<svg role="img" class="icon-svg icon-dropdown"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dropdown"></use></svg>
+</a>
+</div>
+</div>
+<div class="menu__footer">
+<button type="button" class="ii__theme theme-switch">
+<svg role="img" class="icon-svg icon-light"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-light"></use></svg>
+<svg role="img" class="icon-svg icon-dark"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-dark"></use></svg>
+</button>
+</div>
+</div>
+<div class="submenu" id="predictions_menu">
+<a class="submenu__item" href="/analyseis">Αναλύσεις</a>
+<a class="submenu__item" href="/prognostika">Δημοφιλή</a>
+<a class="submenu__item" href="/problepseis">Ανά σημείο</a>
+<a class="submenu__item" href="/protaseis">Ανά παίκτη</a>
+</div>
+<div class="submenu" id="news_menu">
+<a class="submenu__item" href="/news/">Αθλητικές Ειδήσεις</a>
+<a class="submenu__item" href="/newstag/869/Αφιερώματα">Αφιερώματα</a>
+<a class="submenu__item" href="/stoiximatika-nea">Νέα Στοιχηματικών</a>
+<a class="submenu__item" href="/protoselida">Πρωτοσέλιδα</a>
+<a class="submenu__item" href="/videos">Videos</a>
+</div>
+<div class="submenu" id="tools_menu">
+<a class="submenu__item" href="/vathmologia">Βαθμολογίες</a>
+<a class="submenu__item" href="/1_x_2">Ανά σημείο</a>
+<a class="submenu__item" href="/facts">Top Facts</a>
+<a class="submenu__item" href="/ptosi-apodoseon">Πτώση αποδόσεων</a>
+<a class="submenu__item" href="/tziros">Τζίροι</a>
+<a class="submenu__item" href="/tipsters">Tipsters</a>
+</div>
+<div class="submenu" id="companies_menu">
+<a href="/bwin?itc=topmenu" class="submenu__item country-filtered c-DE ">Bwin</a><a href="/pamestoixima?itc=topmenu" class="submenu__item country-filtered c-GR ">Pamestoixima.gr</a><a href="/novibet?itc=topmenu" class="submenu__item country-filtered c-CY ">Novibet</a><a href="/novibet?itc=topmenu" class="submenu__item country-filtered c-GR ">Novibet</a><a href="/bet365?itc=topmenu" class="submenu__item country-filtered c-CY c-BG c-AL c-GB ">Bet365</a><a href="/bwin?itc=topmenu" class="submenu__item country-filtered c-GR ">Bwin</a><a href="/stoiximan?itc=topmenu" class="submenu__item country-filtered c-CY ">Stoiximan</a><a href="/stoiximan?itc=topmenu" class="submenu__item country-filtered c-GR ">Stoiximan</a><a href="/betsson?itc=topmenu" class="submenu__item country-filtered c-GR ">Betsson</a><a href="/sportingbet?itc=topmenu" class="submenu__item country-filtered c-GR ">Sportingbet</a><a href="/n1casino?itc=topmenu" class="submenu__item country-filtered c-GR ">N1 Casino</a><a href="/bet365?itc=topmenu" class="submenu__item country-filtered c-GR ">Bet365</a><a href="/vistabet?itc=topmenu" class="submenu__item country-filtered c-GR ">Vistabet</a><a href="/betshop?itc=topmenu" class="submenu__item country-filtered c-GR ">Betshop</a><a href="/interwetten?itc=topmenu" class="submenu__item country-filtered c-GR ">Interwetten</a> </div>
+<div class="submenu" id="more_menu">
+<a class="submenu__item" href="/tv">Πρόγραμμα TV</a>
+<a class="submenu__item" href="/ticker">Widgets</a>
+</div>
+<main class="main">
+<div class="container">
+<div class="wrap"><h1>Όροι χρήσης</h1>
+<h3>Γενικά</h3>
+Ο ιστοτόπος agones.gr δημιουργήθηκε από την εταιρεία "Sidebar".
+<br/><br/>
+H Sidebar παρέχει τις υπηρεσίες του διαδικτυακού τόπου agones.gr με τους πιο κάτω όρους χρήσης, τους οποίους ο χρήστης καλείται να διαβάσει προσεκτικά και να προβεί στη συνέχεια σε χρήση των υπηρεσιών μόνο εφόσον τους αποδέχεται πλήρως και μόνο εφόσον συναινέσει ανεπιφυλάκτως στην εφαρμογή τους.
+<br/><br/>
+Οιαδήποτε συναλλαγή μέσω της ιστοσελίδας agones.gr συνεπάγεται την πλήρη αποδοχή των όρων χρήσης από πλευράς του χρήστη, οι οποίοι αποτελούν την μοναδική δεσμευτική συμφωνία ανάμεσα στον χρήστη και την Sidebar, ισχύοντες σαν να έχουν υπογραφεί εγγράφως.
+<br/><br/>
+Η Sidebar μπορεί οποτεδήποτε να τροποποιεί τους πιο κάτω όρους χρήσης χωρίς ειδοποίηση των χρηστών. Σε οποιαδήποτε τροποποίηση αυτών των όρων χρήσης, η χρήση εκ μέρους σας του agones.gr σε επόμενο της τροποποίησης χρόνο, σημαίνει και την εκ νέου πλήρη αποδοχή εκ μέρους σας των νέων όρων χρήσης.
+<h3>Όροι</h3>
+Η Sidebar διατηρεί το δικαίωμα να απενεργοποιήσει οποιοδήποτε λογαριασμό, οποτεδήποτε και χωρίς καμία προειδοποίηση προς τον χρήστη. Αν ο χρήστης δεν κάνει χρήση των υπηρεσιών ή του λογαριασμού του για χρονικό διάστημα 12 μηνών, τότε απενεργοποιούμε το λογαριασμό και αφαιρούμε όλα τα προσωπικά δεδομένα.
+<br/><br/>
+Η Sidebar διατηρεί το δικαίωμα να σβήσει οποιοδήποτε σχόλιο ή άλλου είδους περιεχόμενο χρήστη, οποτεδήποτε και χωρίς καμία προειδοποίηση προς τον χρήστη που έχει δημιουργήσει το συγκεκριμένο περιεχόμενο.
+<br/><br/>
+Η Sidebar θεωρεί ότι όσα πρόσωπα συμμετέχουν στο agones.gr και συναλλάσσονται με την Sidebar μέσω αυτού είναι ικανά προς δικαιοπραξία και ότι η υποβολή παραγγελίας συνιστά έγκυρη δήλωση βούλησης.
+<h3>Εμπορικά σήματα και δικαιώματα πνευματικής ιδιοκτησίας</h3>
+Ο δικτυακός τόπος agones.gr δημιουργήθηκε, ανήκει και αποτελεί πνευματική ιδιοκτησία της Sidebar, σύμφωνα με το νόμο 2121/1993 (όπως αυτός έχει τροποποιηθεί και ισχύει σήμερα) και τις διεθνείς συμβάσεις που έχει υπογράψει η Ελλάδα. Η Sidebar διατηρεί τα αποκλειστικά δικαιώματα πνευματικής ιδιοκτησίας στον σχεδιασμό, στον πηγαίο κώδικα, στη βάση δεδομένων και στο σύνολο του περιεχομένου του δικτυακού τόπου (συμπεριλαμβανομένων εικόνων, γραφικών, φωτογραφιών, σχεδίων, κειμένων, των παρεχομένων υπηρεσιών και γενικά όλων των αρχείων αυτού του δικτυακού τόπου). Τυχόν παραβίαση των δικαιωμάτων αυτών, καθ'οιονδήποτε τρόπο, επισύρει όσες ευθύνες και ποινές ορίζει ο νόμος. Ενδεικτικά και όχι περιοριστικά απαγορεύεται η αντιγραφή, επεξεργασία, τροποποίηση, δημοσίευση, διανομή καθ' οιονδήποτε τρόπο, των κειμένων, φωτογραφιών και του περιεχομένου της βάσης δεδομένων του agones.gr, χωρίς την έγγραφη άδεια της Sidebar. Επίσης απαγορεύεται η αντιγραφή, η επεξεργασία, η αποσυμπίληση ή η καθ' οιονδήποτε τρόπο μη εξουσιοδοτημένη χρήση του λογισμικού του agones.gr.
+<br/><br/>
+Τα εμπορικά σήματα που περιέχονται στο agones.gr αποτελούν κατατεθειμένα εμπορικά σήματα της Sidebar και των τρίτων οργανισμών, εταιρειών ή φορέων που είναι δικαιούχοι και προστατεύονται από τις σχετικές διατάξεις του ελληνικού και ευρωπαϊκού δικαίου, των διεθνών συμβάσεων και συνθηκών. Η χρήση αυτών των εμπορικών σημάτων απαγορεύεται απολύτως.
+<h3>Απουσία εγγύησης</h3>
+Το περιεχόμενο του agones.gr παρέχεται "όπως ακριβώς είναι", χωρίς καμία εγγύηση, ρητή ή τεκμαιρόμενη, καθ' οιονδήποτε τρόπο, σχετικά με την εμπορευσιμότητα και την καταλληλότητα του για συγκεκριμένο σκοπό. Η Sidebar δεν παρέχει καμία ρητή εγγύηση ότι οι σελίδες, οι υπηρεσίες, οι λειτουργίες, οι επιλογές και τα περιεχόμενά του θα παρέχονται χωρίς διακοπή, χωρίς σφάλματα και ότι τα λάθη θα επιδιορθώνονται. Επίσης η Sidebar δεν εγγυάται ότι το ίδιο ή οιοσδήποτε άλλος συνεργαζόμενος διαδικτυακός τόπος (site) ή οι εξυπηρετητές (servers) μέσω των οποίων αυτά τίθενται στη διάθεσή των χρηστών δεν περιέχουν "ιούς" ή άλλα επιζήμια συστατικά. Σε καμία περίπτωση το agones.gr, η Sidebar, οι μέτοχοι, εκπρόσωποι και εργαζόμενοι σε αυτήν ή τα πρόσωπα που συνδέονται με αυτήν δεν φέρουν ευθύνη απέναντί σας για οιαδήποτε τυχόν ζημία σας ήθελε προκληθεί από τη χρήση του agones.gr.
+<h3>Βλάβη - αποζημίωση</h3>
+Ο χρήστης του agones.gr ευθύνεται απέναντι στην Sidebar και τους συνεργάτες της, για οιαδήποτε βλάβη ή ζημία προκαλέσει από τη χρήση εκ μέρους του των υπηρεσιών του agones.gr με αθέμιτο τρόπο ή μη σύμφωνο με τους παρόντες όρους χρήσης.
+<h3>Δωσιδικία, εφαρμοστέο δίκαιο και λοιποί όροι</h3>
+Οι ανωτέρω όροι και προϋποθέσεις χρήσης του agones.gr, καθώς και οιαδήποτε μεταγενέστερη τροποποίησή των, διέπονται και συμπληρώνονται από το ελληνικό δίκαιο. Αποδεχόμενοι τους παρόντες όρους χρήσης αποδέχεστε και την αποκλειστική δωσιδικία των Δικαστηρίων των Αθηνών για την ερμηνεία ή επίλυση οιασδήποτε διαφωνίας ή διαφοράς ήθελε προκύψει από την επίσκεψη ή τη χρήση του agones.gr.
+<br/><br/>
+Όλοι οι ανωτέρω όροι συνομολογούνται ως ουσιώδεις. Οιαδήποτε διάταξη των ανωτέρω όρων καταστεί αντίθετη προς το νόμο, παύει αυτοδικαίως να ισχύει και αφαιρείται από το παρόν, χωρίς να θίγεται η ισχύς των λοιπών όρων.
+<h1>Πολιτική απορρήτου και δήλωση προστασίας προσωπικών δεδομένων</h1>
+Σεβόμαστε τα προσωπικά δεδομένα του κάθε επισκέπτη της ιστοσελίδας agones.gr. Το κείμενο αυτό (το οποίο ονομάζεται Πολιτική Απορρήτου και Δήλωση Προστασίας Προσωπικών Δεδομένων – εφεξής η "Δήλωση") εξηγεί με απλά λόγια, αλλά και με σαφήνεια πώς επεξεργαζόμαστε τα προσωπικά δεδομένα τα οποία συλλέγουμε από εσάς ή τα οποία εσείς μας παρέχετε.
+<br/><br/>
+Παρακαλούμε να μελετήσετε προσεκτικά την παρούσα Δήλωση προκειμένου να ενημερωθείτε σχετικά με τον τρόπο που συλλέγουμε, αποθηκεύουμε, χρησιμοποιούμε, διαβιβάζουμε και προστατεύουμε τις πληροφορίες/προσωπικά δεδομένα που λαμβάνουμε από εσάς:
+<h3>Γενικά</h3>
+Η Sidebar συλλέγει και τηρεί αποκλειστικά και μόνο τα προσωπικά δεδομένα που εσείς της γνωστοποιείτε με την εισαγωγή των αιτουμένων προσωπικών πληροφοριών στα αντίστοιχα πεδία ή/και των απαντήσεών σας στο πλαίσιο συγκεκριμένων ενεργειών που διεξάγει η Sidebar και οικειοθελώς δύνασθε να συμμετέχετε και είναι τα ελάχιστα απαραίτητα για σωστή λειτουργία της.
+<br/><br/>
+Στα πλαίσια της υποχρέωσης διαφύλαξης και προστασίας των πληροφοριών των πελατών της, η Sidebar δεσμεύεται να προστατεύει και να χρησιμοποιεί κατά τον αρμόζοντα τρόπο τις προσωπικές πληροφορίες (εφεξής "προσωπικά δεδομένα") που συλλέγονται είτε διαδικτυακά από τον παρόντα δικτυακό τόπο είτε μέσω της επικοινωνίας/συνεργασίας με κάθε τρίτο.
+<br/><br/>
+Στο πλαίσιο της διαδικασίας εγγραφής, συλλέγουμε και επεξεργαζόμαστε τα παρακάτω στοιχεία: username, email
+<h3>Συλλογή και σκοποί χρήσης των προσωπικών δεδομένων</h3>
+Η λήψη των προσωπικών δεδομένων πραγματοποιείται μόνο εφόσον εσείς επιλέξετε αυτοβούλως να τα παρέχετε — για παράδειγμα, εάν επικοινωνήσετε με email ή αν εγγραφείτε ως πελάτες των υπηρεσιών μας.
+<br/><br/>
+Με την εγγραφή σας στις υπηρεσίες που παρέχονται από το agones.gr συναινείτε επίσης στην αποθήκευση και χρήση των προσωπικών δεδομένων σας, σύμφωνα με την παρούσα Δήλωση. Επιτρέπεται να επεξεργαζόμαστε τα προσωπικά σας δεδομένα, προκειμένου να παρέχουμε προσωποποιημένες υπηρεσίες, βάσει του νόμου (άρθρο 6(1β) του Κανονισμού (ΕΕ) 2016/679). Τα προσωπικά σας δεδομένα δεν χρησιμοποιούνται για άλλους σκοπούς, πλην των όσων περιγράφονται στη Δήλωση, εκτός αν λάβουμε την προηγούμενη άδειά σας, ή εκτός αν κάτι τέτοιο απαιτείται ή επιτρέπεται από το νόμο.
+<br/><br/>
+Σκοπός της συλλογής, χρήσης και επεξεργασίας των προσωπικών σας δεδομένων , αποτελεί (α) η παροχή των υπηρεσιών που αιτείστε μέσω του website, για την λήψη των οποίων απαιτείται η χρήση ή/και η επεξεργασία τους, (β) η προώθηση των υπηρεσιών που παρέχονται μέσω του agones.gr, (γ) η παροχή εξατομικευμένων υπηρεσιών με σκοπό την ευκολία του χρήστη και η διασφάλιση ότι το περιεχόμενο του δικτυακού τόπου παρουσιάζεται με τον πιο αποδοτικό τρόπο για εσάς και τον υπολογιστή σας.
+<br/><br/>
+Η Sidebar συλλέγει "ευαίσθητα" προσωπικά δεδομένα μόνο όταν εσείς μας προσφέρετε οικειοθελώς αυτά τα δεδομένα ή όταν αυτά τα δεδομένα απαιτούνται ή η συλλογή τους επιτρέπεται από το νόμο. Σας συμβουλεύουμε να απόσχετε από την παροχή ευαίσθητων δεδομένων, εκτός εάν αυτό απαιτείται για το σκοπό της παροχής των προσωπικών δεδομένων ή αν δια της παρούσας συναινείτε στη χρήση από την Sidebar αυτών των δεδομένων για τους σκοπούς της.
+<br/><br/>
+Η Sidebar μπορεί να ζητήσει από εσάς να της παρέχετε ορισμένα προσωπικά δεδομένα για την αποστολή ενημερωτικών μηνυμάτων σχετικά με τις υπηρεσίες ή/και σχετικών προσφορών και ανακοινώσεων. Η Sidebar μπορεί επίσης να ζητά την άδειά σας για ορισμένες χρήσεις των προσωπικών σας δεδομένων και μπορείτε είτε να συναινέσετε ή να αρνηθείτε αυτές τις χρήσεις. Εάν επιθυμείτε συγκεκριμένες υπηρεσίες ή επικοινωνίες, όπως ένα ηλεκτρονικό ενημερωτικό φυλλάδιο (newsletter), θα έχετε τη δυνατότητα να διαγραφείτε από τον σχετικό κατάλογο παραληπτών οποτεδήποτε ακολουθώντας τις οδηγίες που περιέχονται σε κάθε επικοινωνία. Εάν αποφασίσετε να διαγραφείτε από κάποια υπηρεσία ή επικοινωνία, θα προσπαθήσουμε να διαγράψουμε τα δεδομένα σας το συντομότερο δυνατό, παρόλο που μπορεί να χρειαστούμε ορισμένο χρόνο ή/και πληροφορίες πριν μπορέσουμε να επεξεργαστούμε το αίτημά σας.
+<br/><br/>
+<h3>Πρόσβαση στα προσωπικά δεδομένα και Δικαιώματα</h3>
+Εφόσον το επιθυμείτε, μπορείτε να αιτηθείτε οποτεδήποτε να ενημερωθείτε σχετικά με τα προσωπικά σας δεδομένα που τηρούνται από την Sidebar, τους αποδέκτες τους, το σκοπό της τήρησης και της επεξεργασίας τους καθώς και την τροποποίηση, διόρθωση ή τη διαγραφή τους, αποστέλλοντας σχετικό ηλεκτρονικό μήνυμα στην διεύθυνση <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="80e9eee6efc0e1e7efeee5f3aee7f2">[email&#160;protected]</a> από την ηλεκτρονική διεύθυνση επικοινωνίας την οποία έχετε δηλώσει, επισυνάπτοντας αντίγραφο της αστυνομικής σας ταυτότητας. Επίσης, έχετε το δικαίωμα να αναθεωρήσετε τα προσωπικά δεδομένα που τηρούμε και γενικά να ασκήσετε κάθε δικαίωμα που προβλέπεται από τη νομοθεσία για την προστασία δεδομένων προσωπικού χαρακτήρα.
+<br/><br/>
+Tα προσωπικά δεδομένα που γνωστοποιείτε στην Sidebar μέσω του agones.gr, είτε κατά την εγγραφή σας είτε και σε μεταγενέστερο στάδιο, συλλέγονται και τυγχάνουν χρήσης και επεξεργασίας σύμφωνα με τις εκάστοτε ισχύουσες διατάξεις περί προστασίας δεδομένων προσωπικού χαρακτήρα. και συγκεκριμένα, σύμφωνα με την τις διατάξεις του Ν. 2472/1997 και του Ν. 3471/2006, ως ισχύουν αλλά και του νέου Ευρωπαϊκού Γενικού Κανονισμού Προστασίας Δεδομένων (ΕΕ) 2016/679 καθώς και της οδηγίας 95/46/ΕΚ, περί προστασίας προσωπικών δεδομένων.
+<br/><br/>
+<b>Διατηρείτε τα εξής δικαιώματα αναλυτικά:</b>
+Δικαίωμα ενημέρωσης σχετικά με τα προσωπικά δεδομένα σας: Μετά από σχετικό αίτημά σας, θα σας παρέχουμε πληροφορίες σχετικά με τα προσωπικά δεδομένα που τηρούμε για εσάς.
+<br/><br/>
+Δικαίωμα διόρθωσης και συμπλήρωσης των προσωπικών δεδομένων σας: Εφόσον μας ειδοποιήσετε σχετικά, θα διορθώσουμε τυχόν ανακριβή προσωπικά δεδομένα που σας αφορούν. Θα συμπληρώσουμε ατελή δεδομένα εφόσον μας ειδοποιήσετε σχετικά, υπό την προϋπόθεση ότι τα δεδομένα αυτά είναι αναγκαία για τους σκοπούς επεξεργασίας των δεδομένων σας.
+<br/><br/>
+Δικαίωμα για διαγραφή των προσωπικών δεδομένων σας: Μετά από σχετικό αίτημά σας, θα διαγράψουμε τα προσωπικά δεδομένα που τηρούμε για εσάς. Ωστόσο, ορισμένα δεδομένα θα διαγράφονται μόνο μετά από μια καθορισμένη περίοδο διακράτησης, για παράδειγμα επειδή σε ορισμένες περιπτώσεις υποχρεούμαστε εκ του νόμου να διατηρούμε τα δεδομένα, ή επειδή τα δεδομένα απαιτούνται για την εκπλήρωση των συμβατικών μας υποχρεώσεων απέναντι σε εσάς.
+<br/><br/>
+Δικαίωμα δέσμευσης των προσωπικών δεδομένων σας: Σε ορισμένες περιπτώσεις που προβλέπονται από το νόμο, θα δεσμεύσουμε τα δεδομένα σας, εάν μας το ζητήσετε. Περαιτέρω επεξεργασία δεσμευμένων δεδομένων γίνεται μόνο σε πολύ περιορισμένη έκταση.
+<br/><br/>
+Δικαίωμα ανάκλησης της συγκατάθεσής σας: Μπορείτε ανά πάσα στιγμή να ανακαλέσετε τη συγκατάθεσή σας για την επεξεργασία των προσωπικών δεδομένων σας στο μέλλον. Η νομιμότητα της επεξεργασίας των δεδομένων σας παραμένει ανεπηρέαστη από την ενέργεια αυτή, έως το σημείο ανάκλησης της συγκατάθεσής σας.
+<br/><br/>
+Δικαίωμά σας για προβολή αντιρρήσεων κατά της επεξεργασίας των δεδομένων σας: Μπορείτε ανά πάσα στιγμή να προβάλετε αντιρρήσεις κατά της επεξεργασίας των προσωπικών δεδομένων σας στο μέλλον, εάν επεξεργαζόμαστε τα δεδομένα σας στη βάση μίας εκ των νομικών αιτιολογήσεων που προβλέπονται στο άρθρο 6 (1ε ή 1στ) του Κανονισμού (ΕΕ) 2016/679. Εάν προβάλετε αντιρρήσεις, θα σταματήσουμε την επεξεργασία των δεδομένων σας, υπό την προϋπόθεση ότι δεν συντρέχουν νόμιμοι λόγοι για περαιτέρω επεξεργασία τους. Η επεξεργασία των δεδομένων σας για σκοπούς διαφήμισης δεν συνιστά νόμιμο λόγο.
+<h3>Διαβίβαση Προσωπικών Δεδομένων</h3>
+Η Sidebar δεν μοιράζεται ούτε διαβιβάζει προσωπικά δεδομένα με τρίτους, εκτός αν κάτι τέτοιο απαιτείται για τους νόμιμους επαγγελματικούς σκοπούς και τις επιχειρηματικές ανάγκες, προκειμένου να ανταποκριθεί στα αιτήματά σας ή/και εφόσον επιβάλλεται ή επιτρέπεται από το νόμο. Σε κάθε περίπτωση, η πρόσβαση στα προσωπικά σας δεδομένα επιτρέπεται μόνο σε εξουσιοδοτημένα πρόσωπα τα οποία απαιτείται να έχουν πρόσβαση προκειμένου να είναι δυνατή η ολοκλήρωση των σκοπών της συλλογής, χρήσης και επεξεργασίας τους, όπως αυτή γνωστοποιείται με την παρούσα Δήλωση.
+<br/><br/>
+Σε ορισμένες περιπτώσεις, η Sidebar ενδέχεται να μοιραστεί τα προσωπικά σας δεδομένα με διάφορες εταιρείες ή παρόχους υπηρεσιών που συνεργάζονται μαζί της, προκειμένου να ανταποκριθεί στα αιτήματά σας ή σε φυσικά ή νομικά πρόσωπα στα οποία έχει ανατεθεί η εκτέλεση της επεξεργασίας, υπό την προϋπόθεση ότι θα σας ενημερώσουμε εκ των προτέρων και θα λάβουμε την προηγούμενη συναίνεσή σας. Τα άτομα που έχουν πρόσβαση στα δεδομένα είναι υποχρεωμένα να τηρούν την εμπιστευτικότητα αυτών των δεδομένων.
+<br/><br/>
+Η Sidebar επιφυλάσσεται του δικαιώματος της να χρησιμοποιήσει τα στοιχεία που της γνωστοποιείτε μέσω του agones.gr κατά τρόπο που να μην είναι δυνατή η ταυτοποίηση ή η αποκάλυψη του προσώπου που αυτά αφορούν, για στατιστικούς, προωθητικούς, ερευνητικούς ή και διαφημιστικούς σκοπούς, γνωστοποιώντας αυτά και σε τρίτα πρόσωπα π.χ. εταιρείες ερευνών αρμόδια για την ολοκλήρωση των ανωτέρω σκοπών.
+<br/><br/>
+Η Sidebar ενδέχεται να μεταφέρει ορισμένα προσωπικά δεδομένα εκτός γεωγραφικών συνόρων σε άλλες εταιρείες που συνεργάζονται με αυτή ή/και να αποθηκεύει προσωπικά δεδομένα σε κάποια δικαιοδοσία διαφορετική από αυτήν όπου βρίσκεστε. Με το να παρέχουν τα προσωπικά δεδομένα τους μέσω διαδικτύου, οι επισκέπτες συναινούν στη μεταφορά αυτή ή/και στην αποθήκευση των προσωπικών τους δεδομένων στο εξωτερικό.
+<br/><br/>
+Η Sidebar ενδέχεται να αποθηκεύει τα προσωπικά σας δεδομένα σε cloud. Αυτό σημαίνει ότι η επεξεργασία των προσωπικών σας δεδομένων μπορεί να γίνεται από μια υπηρεσία παροχής υπηρεσιών cloud για λογαριασμό της Sidebar και τα προσωπικά σας δεδομένα μπορεί να αποθηκεύονται σε διαφορετικές τοποθεσίες ανά τον κόσμο. Η Εταιρεία χρησιμοποιεί οργανωτικά και συμβατικά μέτρα για την προστασία των προσωπικών δεδομένων και για την επιβολή παρόμοιων, αλλά σε καμία περίπτωση λιγότερο περιοριστικών, απαιτήσεων στους παρόχους μας υπηρεσιών cloud, συμπεριλαμβάνοντας απαιτήσεις σχετικά με την αποκλειστική επεξεργασία των προσωπικών σας δεδομένων για τους στην παρούσα Δήλωση αναφερθέντες σκοπούς.
+<h3>Ασφάλεια των Προσωπικών Δεδομένων</h3>
+Η Sidebar εφαρμόζει συγκεκριμένες διαδικασίες τεχνικής και οργανωτικής ασφαλείας, προκειμένου να προστατεύει τα προσωπικά δεδομένα και πληροφορίες από απώλεια, κακή χρήση, μεταβολή ή καταστροφή. Οι συνεργάτες μας που μας υποστηρίζουν στη λειτουργία αυτού του διαδικτυακού τόπου επίσης συμμορφώνονται με αυτές τις διατάξεις.
+<br/><br/>
+Η Sidebar καταβάλλει κάθε εύλογη προσπάθεια να τηρεί τα προσωπικά δεδομένα που συλλέγονται μόνο για το χρονικό διάστημα για το οποίο χρειάζεται τα δεδομένα αυτά για τον σκοπό για τον οποίο συνελέγησαν ή μέχρις ότου ζητηθεί η διαγραφή τους (εάν αυτό συμβεί νωρίτερα), εκτός εάν συνεχίσει να τα τηρεί κατά τα προβλεπόμενα στην κείμενη νομοθεσία.
+<h3>Αναθεωρήσεις της Δήλωσης</h3>
+Η Sidebar διατηρεί το δικαίωμα να τροποποιεί ή να την αναθεωρεί περιοδικά την παρούσα Δήλωση, κατά την απόλυτη διακριτική της ευχέρεια. Σε περίπτωση που πραγματοποιηθούν αλλαγές, η Sidebar θα καταγράφει την ημερομηνία τροποποίησης ή αναθεώρησης στην παρούσα Δήλωση και η επικαιροποιημένη Δήλωση θα ισχύει για εσάς από την ημερομηνία αυτή. Σας ενθαρρύνουμε να μελετάτε κατά περιόδους την παρούσα Δήλωση προκειμένου να εξετάζετε εάν υπάρχουν τυχόν αλλαγές στον τρόπο με τον οποίο διαχειριζόμαστε τα προσωπικά σας δεδομένα. Η παρούσα Δήλωση ενημερώθηκε για τελευταία φορά την 4η Μαΐου 2018.
+<h1>Cookies</h1>
+(Τελευταία αναθεώρηση στις 4 Μαΐου 2018)
+<br/><br/>
+Η πολιτική αυτή εξηγεί το πώς η Sidebar χρησιμοποιεί τα Cookies κατά την περιήγησή σας στο agones.gr και στην mobile έκδοση σε mobile και tablet συσκευές. Με την αποδοχή της Πολιτικής αυτής επιβεβαιώνετε πως έχετε αποδεχθεί και έχετε ενημερωθεί για την χρησιμοποίηση των Cookies μας στον browser που χρησιμοποιείτε.
+<h3>Τι είναι τα Cookies;</h3>
+Τα cookies είναι αρχεία ή κομμάτια των πληροφοριών που μπορούν να αποθηκευτούν στον υπολογιστή σας. Χρησιμοποιούμε cookies για να κάνουμε το agones.gr πιο λειτουργικό και πιο ευκολόχρηστο. Συνεργαζόμαστε με προμηθευτές που μπορούν επίσης να τοποθετήσουν cookies στον υπολογιστή σας, κυρίως το Google.
+<h3>Μπορώ να μην δεχθώ την χρήση Cookies;</h3>
+Μπορείτε να επιλέξετε να απενεργοποιήσετε τα cookies μέσα από τις ρυθμίσεις του browser σας καθώς και διαγράψετε όλα τα cookies που έχουν αποθηκευτεί πρόσφατα στον browser. Μπορείτε να βρείτε περισσότερες οδηγίες πατώντας Βοήθεια στο menu του browser. Ωστόσο, θα πρέπει να γνωρίζετε πως απενεργοποιώντας τα cookies από τον browser σας, μπορεί να μην σας επιτρέπει να αξιοποιήσετε όλες τις δυνατότητες του site και ορισμένες από τις λειτουργίες του site μπορεί να μην λειτουργήσουν όπως θα έπρεπε καθώς βασίζουν την λειτουργία τους στα cookies.
+<h3>Χρήση Cookies από το agones.gr</h3>
+Στο agones.gr χρησιμοποιούμε Cookies, χωρίς ωστόσο να συγκεντρώνουμε, να επεξεργαζόμαστε ή να αποθηκεύουμε προσωπικά δεδομένα από την χρήση του. Χρησιμοποιούμε την τεχνολογία των cookies και τις διευθύνσεις IP για να λαμβάνουμε μη προσωπικά δεδομένα από τους επισκέπτες μας και για να προσφέρουμε στους εγγεγραμμένους μας επισκέπτες την καλύτερη δυνατή εξατομικευμένη online εμπειρία. Με την περιήγηση στο site μας συγκεντρώνουμε απλές πληροφορίες αναγνώρισης και μετρήσεων, όπως για παράδειγμα το πόσοι χρήστες επισκέφθηκαν συγκεκριμένα σημεία του site μας. Η χρήση των cookies δεν βλάπτει σε καμία περίπτωση τον υπολογιστή σας ή την mobile συσκευή σας. Τα cookies μπορούν να χρησιμοποιηθούν και για επαναληπτικό marketing στο διαδίκτυο.
+<h3>Cookies Αρχικού Κατασκευαστή</h3>
+Τα cookies Αρχικού Κατασκευαστή είναι cookies που χρησιμοποιεί είτε το agones.gr είτε από τρίτα μέρη που χρησιμοποιούν το domain του site μας. Για παράδειγμα το agones.gr χρησιμοποιεί cookies από το Google Analytics.
+<h3>Cookies Τρίτου Μέρους</h3>
+Τα Cookies τρίτου μέρους δημιουργούνται στον browser σας από διαφορετικό site από το site στο οποίο περιηγήστε (σε αυτή την περίπτωση διαφορετικό από το agones.gr). Τέτοια Cookies μπορεί να είναι cookies από το DoubleClick για την αξιολόγηση των ενεργειών marketing μέσω τρίτων sites ή από το Facebook ώστε να δείχνουμε τα Likes που έχει η σελίδα μας στο Facebook.
+<br/><br/>
+Επιτρέπεται να επεξεργαζόμαστε δεδομένα σε αυτό το τεχνολογικό πλαίσιο βάσει του νόμου (άρθρο 6(1στ) του Κανονισμού (ΕΕ) 2016/679). Αποθηκεύουμε αυτά τα δεδομένα, έως ότου το εκάστοτε cookie λήξει ή το διαγράψετε.
+<br/>
+<h1>Επικοινωνία</h1>
+Εάν έχετε ερωτήσεις, σχόλια ή καταγγελίες σχετικά με την διαχείριση ή την προστασία από εμάς των προσωπικών σας δεδομένων ή εάν επιθυμείτε να τροποποιήσετε τα προσωπικά σας δεδομένα ή να εξασκήσετε οποιοδήποτε δικαίωμά σας ως υποκείμενο των δεδομένων, παρακαλείστε να επικοινωνήσετε μαζί μας στη διεύθυνση <a href="/cdn-cgi/l/email-protection#3f565159507f5e5850515a4c11584d"><span class="__cf_email__" data-cfemail="741d1a121b3415131b1a11075a1306">[email&#160;protected]</span></a>.
+<hr>
+Το παρόν αποτελεί τη συνολική συμφωνία μεταξύ της Sidebar και του χρήστη υπηρεσιών του agones.gr και δεν δεσμεύει παρά μόνο αυτούς. Καμία τροποποίηση των όρων αυτών δεν θα λαμβάνεται υπόψη και δεν θα αποτελεί τμήμα της συμφωνίας αυτής, εάν δεν θα έχει γίνει σύμφωνα με τους παρόντες όρους χρήσης, δεν θα έχει διατυπωθεί εγγράφως στο διαδίκτυο κα δεν θα έχει ενσωματωθεί σε αυτή.
+<br/><br/>
+</div><div class="platform-wrap country-filtered c-GR">
+<a href="/pamestoixima?itc=news-condensed" class="footer_prs platform platform--pamestoixima">
+<img src="https://s3assets.agones.gr/bet_company_logos/ps-logo.png?v=unknown" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Αναλυτικές οδηγίες εγγραφής και αξιολόγηση στοιχηματικής</p></div>
+</a>
+<a href="/news/76003/sti_novibet_blepeis_xoris_proypotheseis_eyroligka" class="footer_prs platform platform--novibet">
+<img src="https://s3assets.agones.gr/bet_company_logos/novibet5.png?v=unknown" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Στη Novibet βλέπεις χωρίς προϋποθέσεις* Ευρωλίγκα!</p></div>
+</a>
+<a href="/news/75999/bwin_souper_prosfora_sti_euroleague" class="footer_prs platform platform--bwin">
+<img src="https://s3assets.agones.gr/bet_company_logos/bwin-23e062d5c1.png?v=23e062d5c17729a2e344129284cefa8e" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">bwin - Σούπερ προσφορά* στη EuroLeague!</p></div>
+</a>
+<a href="/news/76004/mpartselona_olympiakos_me_ektelestes_kanaan_kai_piters_sto_4_80" class="footer_prs platform platform--stoiximan">
+<img src="https://s3assets.agones.gr/bet_company_logos/stoiximan6.png?v=unknown" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Μπαρτσελόνα - Ολυμπιακός με εκτελεστές Κάνααν και Πίτερς στο 4.80</p></div>
+</a>
+<a href="/news/75997/sportingbet_souper_epathla_sti_euroleague" class="footer_prs platform platform--sportingbet">
+<img src="https://s3assets.agones.gr/bet_company_logos/sportingbet-c557304eae.png?v=c557304eae45ddde7bbd035332cf24b3" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Sportingbet - Σούπερ έπαθλα* στη EuroLeague!</p></div>
+</a>
+<a href="/bet365?itc=news-condensed" class="footer_prs platform platform--bet365">
+<img src="https://s3assets.agones.gr/bet_company_logos/bet3654.png?v=unknown" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Αναλυτικές οδηγίες εγγραφής και αξιολόγηση στοιχηματικής</p></div>
+</a>
+<a href="/news/75998/vistabet_prosfora_sti_euroleague" class="footer_prs platform platform--vistabet">
+<img src="https://s3assets.agones.gr/bet_company_logos/vistabet-a88ac32a6d.png?v=a88ac32a6deda037d162491fa300aa2d" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Vistabet - Προσφορά* στη EuroLeague!</p></div>
+</a>
+<a href="/news/76006/betshop_prizes_monadika_dorean_epathla_kathimerina" class="footer_prs platform platform--betshop">
+<img src="https://s3assets.agones.gr/bet_company_logos/betshop_wide.png?v=unknown" alt class="platform__logo">
+<div class="platform__info"><p style="margin-bottom:5px;">Betshop Prizes: Μοναδικά δωρεάν έπαθλα καθημερινά!</p></div>
+</a>
+<div class="rypos_stripe">
+<span>ΕΕΕΠ | 21+ | ΠΑΙΞΕ ΥΠΕΥΘΥΝΑ</span>
+</div>
+</div>
+<div class="window" id="sticky-comp-list" style="display:none;">
+<button type="button" class="window__title" data-toggle="collapse" data-target="#windowBox" aria-expanded="true" aria-controls="windowBox">
+<span>Στοιχηματικές</span>
+<i class="icon fal fa-angle-down" aria-hidden="true"></i>
+</button>
+<div class="window__collapse collapse show" id="windowBox">
+<div class="window__box">
+<div class="country-filtered c-GR " style>
+<a href="/pamestoixima?itc=smallbadge-stickybox" title="Pamestoixima" class="platform platform-new country-filtered c-GR   platform--pamestoixima" style>
+<img src="https://s3assets.agones.gr/thumbnails/8be5f7794f52a96455382413b53ba566" srcset="https://s3assets.agones.gr/thumbnails/d70839e0642a4323df7b6ebc51b390c5 2x" alt="Pamestoixima" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Pamestoixima
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Το παιχνίδι ορίζεται από την αρχή!
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR c-CY " style>
+<a href="/novibet?itc=smallbadge-stickybox" title="Novibet" class="platform platform-new country-filtered c-GR c-CY   platform--novibet" style>
+<img src="https://s3assets.agones.gr/thumbnails/114ce3af5766d5703ef5023d1550f78e" srcset="https://s3assets.agones.gr/thumbnails/478db327ea35c8fca59edd57cfc4db66 2x" alt="Novibet" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Novibet
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Το στοίχημά σου
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR c-DE " style>
+<a href="/bwin?itc=smallbadge-stickybox" title="Bwin" class="platform platform-new country-filtered c-GR c-DE   platform--bwin" style>
+<img src="https://s3assets.agones.gr/thumbnails/bdd6af243a95a72de53969978b2808fe" srcset="https://s3assets.agones.gr/thumbnails/ae1b75b6f3cdc52730491bfc94cfe6ec 2x" alt="Bwin" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Bwin
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Το παιχνίδι σε άλλο επίπεδο
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR c-CY " style>
+<a href="/stoiximan?itc=smallbadge-stickybox" title="Stoiximan" class="platform platform-new country-filtered c-GR c-CY   platform--stoiximan" style>
+<img src="https://s3assets.agones.gr/thumbnails/d1a2bddc1a9763590504dcda2f5cae54" srcset="https://s3assets.agones.gr/thumbnails/0c4634881a4b9db2058e7c12f6613f47 2x" alt="Stoiximan" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Stoiximan
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Παίξε νόμιμα
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/betsson?itc=smallbadge-stickybox" title="Betsson" class="platform platform-new country-filtered c-GR   platform--betsson" style>
+<img src="https://s3assets.agones.gr/thumbnails/8ae3487bd8bb9414c0c5f22e958363b1" srcset="https://s3assets.agones.gr/thumbnails/a104037e7a70648c74322457324206cb 2x" alt="Betsson" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Betsson
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Σουηδική εγγύηση
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/sportingbet?itc=smallbadge-stickybox" title="Sportingbet" class="platform platform-new country-filtered c-GR   platform--sportingbet" style>
+<img src="https://s3assets.agones.gr/thumbnails/3f833447acc5e7ce1eca4191da889282" srcset="https://s3assets.agones.gr/thumbnails/ada0732a21fb07c96d2cd2d7f3be3c40 2x" alt="Sportingbet" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Sportingbet
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Όχι τυχαία επιλογή
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/n1casino?itc=smallbadge-stickybox" title="N1Casino" class="platform platform-new country-filtered c-GR   platform--n1casino" style>
+<img src="https://s3assets.agones.gr/thumbnails/26e50b90a5d6967328052dfcdeded0af" srcset="https://s3assets.agones.gr/thumbnails/e2b42cc09b95317a3565ccf2dee93cc2 2x" alt="N1Casino" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">N1Casino
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Ασφαλής εμπειρία καζίνο
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR c-CY c-BG c-AL c-GB " style>
+<a href="/bet365?itc=smallbadge-stickybox" title="Bet365" class="platform platform-new country-filtered c-GR c-CY c-BG c-AL c-GB   platform--bet365" style>
+<img src="https://s3assets.agones.gr/thumbnails/9fe523142862cb565655a65e4eef98be" srcset="https://s3assets.agones.gr/thumbnails/4f46cab50795726d8f9b86e03b209aa1 2x" alt="Bet365" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Bet365
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Το αγαπημένο στοιχηματικό όνομα στον κόσμο
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/vistabet?itc=smallbadge-stickybox" title="Vistabet" class="platform platform-new country-filtered c-GR   platform--vistabet" style>
+<img src="https://s3assets.agones.gr/thumbnails/e69714091b22425e27d6cec1449f33e5" srcset="https://s3assets.agones.gr/thumbnails/940b74513388c429c9db77602324bcf6 2x" alt="Vistabet" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Vistabet
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Στοίχημα στους αγώνες
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/betshop?itc=smallbadge-stickybox" title="Betshop" class="platform platform-new country-filtered c-GR   platform--betshop" style>
+<img src="https://s3assets.agones.gr/thumbnails/e27317c715647c563a38349ec55ee316" srcset="https://s3assets.agones.gr/thumbnails/bbbd45c91f156ca32acd4d38cab7fa84 2x" alt="Betshop" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Betshop
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Παίξε νόμιμα
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+<div class="country-filtered c-GR " style>
+<a href="/interwetten?itc=smallbadge-stickybox" title="Interwetten" class="platform platform-new country-filtered c-GR   platform--interwetten" style>
+<img src="https://s3assets.agones.gr/thumbnails/0d0f6fd8b806c3f2ea2251de6f460a21" srcset="https://s3assets.agones.gr/thumbnails/af6fb8cafa3b61f9299756a345b53edb 2x" alt="Interwetten" class="platform__logo">
+<div class="platform__info">
+<h4 class="platform__title platform__title__sm">Interwetten
+</h4>
+<p style="line-height:1;margin-top:2px;margin-right:3px;">Κάθε δευτερόλεπτο μία απόφαση
+</p>
+</div>
+<div class="rypos_container rypos_container__no_divider">
+<div class="rypos_content">
+<img src="/static/img/EEEP_symbol_RGB.svg?v=da7223c7cc3751d5f98705870ee27b96">
+<span>21+</span>
+</div>
+</div>
+</a></div>
+</div></div></div></div>
+<footer class="footer">
+<div class="container">
+<h4 class="title title--light">Στοιχηματικές</h4>
+<div class="footer__content footer__content--bordered">
+<nav class="footer__nav">
+<a href="/pamestoixima">Pamestoixima</a><a href="/novibet">Novibet</a><a href="/bwin">Bwin</a><a href="/stoiximan">Stoiximan</a><a href="/betsson">Betsson</a><a href="/sportingbet">Sportingbet</a><a href="/n1casino">N1Casino</a><a href="/bet365">Bet365</a><a href="/vistabet">Vistabet</a><a href="/betshop">Betshop</a><a href="/interwetten">Interwetten</a> </nav>
+<div class="footer__applogos">
+<a href="https://apps.apple.com/app/agones/id1519990864#?platform=iphone" target="_blank" rel="nofollow noopener">
+<img src="/static/img/app-store.svg?v=6146776b2ba5970f7cab151defdce906" class="footer__grayimg" alt="Download on the App Store" loading="lazy">
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.agones.agones" target="_blank" rel="nofollow noopener">
+<img src="/static/img/google-play.svg?v=c36bb24f86dd4fd89665a4a0b2d2cc85" class="footer__grayimg" alt="Get it on Google Play" loading="lazy">
+</a>
+</div>
+</div>
+<div class="footer__content mb-4">
+<div class="footer__links">
+<a href="/cdn-cgi/l/email-protection#bbd2d5ddd4fbdadcd4d5dec895dcc9" title="email agones.gr">Επικοινωνία</a>
+&bull;
+<a href="/ticker">Webmasters</a>
+&bull;
+<a href="/terms">Όροι χρήσης</a>
+&bull;
+<a href="/m/">Έκδοση για κινητά</a>
+</div>
+<div class="footer__socials">
+<a href="https://twitter.com/agonesgr" target="_blank" rel="nofollow noopener">
+<svg role="img" class="icon-svg"><use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-twitter-x"></use></svg>
+</a>
+<a href="https://www.facebook.com/AgonesGr" target="_blank" rel="nofollow noopener">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="https://www.instagram.com/agonesgr_/" target="_blank" rel="nofollow noopener">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+</div>
+<p>
+Το agones.gr ξεκίνησε τη λειτουργία του το Φεβ 2009 και από τότε βελτιώνεται διαρκώς.
+</p>
+<p>
+Ο διαδικτυακός τόπος "agones.gr" παρέχει αποτελέσματα, αναλύσεις, προγνωστικά, στατιστικά ομάδων καθώς και
+μια μεγάλη κοινότητα φίλων του ποδοσφαίρου. Δεν σχετίζεται, ούτε με οποιοδήποτε τρόπο συνδέεται με την εταιρεία ΟΠΑΠ ΑΕ.
+Τα σήματα "Πάμε Στοίχημα" και "ΟΠΑΠ" καθώς και η απόδοσή τους στα Αγγλικά, αποτελούν αποκλειστική ιδιοκτησία της ΟΠΑΠ ΑΕ.
+Οποιαδήποτε αναφορά σε σήμα τρίτου προσώπου γίνεται αποκλειστικά και μόνο για να δηλωθεί ο προορισμός και η προέλευση του.
+</p>
+<p>
+Το "agones.gr" είναι ενημερωτικός διαδικτυακός τόπος και όλες οι πληροφορίες που αναρτώνται σε αυτόν έχουν ως σκοπό την
+ενημέρωση του κοινού. Καταβάλουμε κάθε δυνατή προσπάθεια έτσι ώστε οι πληροφορίες που δημοσιεύουμε να είναι σωστές.
+Σε καμία περίπτωση δεν εγγυόμαστε την ακρίβεια του περιεχομένου και για τον λόγο αυτό κάθε χρήστης
+του παρόντος διαδικτυακού τόπου οφείλει να ελέγχει στα πρακτορεία του ΟΠΑΠ για τυχόν αλλαγές σε οποιαδήποτε
+αναρτηθείσα πληροφορία (π.χ. πρόγραμμα αγώνων, αποδόσεις, αποτελέσματα κλπ).
+</p>
+<p>
+Οι αποδόσεις παρέχονται για αποκλειστικά ενημερωτικούς σκοπούς.
+</p>
+<a href="https://certifications.gamingcommission.gov.gr/publicRecordsOnline/SitePages/AffiliatesOnline.aspx" target="_blank" rel="nofollow" class="rypos_footer">
+<img width="80" height="80" src="/static/img/EEEP_symbol_BW.svg?v=c0b5d53b98d874ca566b76076da15617">
+<span>
+21+ | ΑΡΜΟΔΙΟΣ ΡΥΘΜΙΣΤΗΣ ΕΕΕΠ | ΚΙΝΔΥΝΟΣ ΕΘΙΣΜΟΥ & ΑΠΩΛΕΙΑΣ ΠΕΡΙΟΥΣΙΑΣ |
+ΓΡΑΜΜΗ ΒΟΗΘΕΙΑΣ ΚΕΘΕΑ: 210 9237777 | ΠΑΙΞΕ ΥΠΕΥΘΥΝΑ
+</span>
+</a>
+<div class="footer__content">
+<p class="footer__copy">
+&copy; AGONES.GR 2009 - 2024 <br>
+<small>{s40}</small>
+</p>
+</div>
+</div>
+</footer>
+</main>
+<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="login_modal_label">Είσοδος</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">X</span>
+</button>
+</div>
+<div class="modal-body">
+<form action="javascript:void(0);" class="form">
+<div class="row row--border">
+<div class="col-sm-6">
+<label class="mb-1">Με λογαριασμό:</label>
+<a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=1011557560194-som5vp4f48ass95m3v29g3cc983i6b63.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fagones.gr%2Fgoauth2&access_type=online&response_type=code&scope=email+profile" class="btn btn--google btn-block ii__oauth_btn">
+<i class="icon fab fa-google"></i>
+<span>Google</span>
+<i class="icon fa fal fa-angle-right ml-auto"></i>
+</a>
+<a href="https://www.facebook.com/v2.12/dialog/oauth?client_id=482448232277487&redirect_uri=https%3A%2F%2Fagones.gr%2Ffoauth2&scope=email&state=" class="btn btn--facebook btn-block ii__oauth_btn">
+<i class="icon fab fa-facebook-f"></i>
+<span>&nbsp;&nbsp;Facebook</span>
+<i class="icon fa fal fa-angle-right ml-auto"></i>
+</a>
+<a href="/twitterlogin" class="btn btn--twitter btn-block ii__oauth_btn">
+<svg role="img" class="icon-svg">
+<use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-twitter-x"></use>
+</svg>
+<span>Twitter</span>
+<i class="icon fa fal fa-angle-right ml-auto"></i>
+</a>
+</div>
+<div class="col-sm-6">
+<label class="mb-1">Με username ή email:</label>
+<input type="text" class="form-control mb-2" id="login_username" placeholder="Username / Email" autocomplete="off">
+<input type="password" class="form-control mb-2" id="login_password" placeholder="Password">
+<button type="button" id="login_btn" class="btn btn-block btn-primary mb-1">
+<i class="icon fal fa-sign-in"></i>
+<span>Είσοδος</span>
+<i class="icon fa fal fa-angle-right ml-auto"></i>
+</button>
+<span id="cred_prompt" class="clr-red text-sm"></span>
+<br>
+<a href="#" class="link text-sm" data-toggle="modal" data-target="#forgot_pwd_modal" data-dismiss="modal">
+Υπενθύμιση password
+</a>
+<br>
+<a href="#" class="link text-sm" data-toggle="modal" data-target="#register_modal" data-dismiss="modal">
+Δημιουργία λογαριασμού
+</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="forgot_pwd_modal" tabindex="-1" role="dialog" aria-labelledby="forgot_pwd_modal_label" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="forgot_pwd_modal_label">Υπενθύμιση username και password</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">X</span>
+</button>
+</div>
+<div class="modal-body" id="forgot_pwd_modal_body">
+<p>Εισάγετε το email σας για να σας στείλουμε το username σας και να δώσετε νέο password.</p>
+<div class="row">
+<div class="col-9">
+<form action="javascript:void(0);" class="form form--box needs-validation" id="reset_form" novalidate>
+<label>e-mail:</label>
+<input type="email" id="forgot_pass_email" class="form-control mb-1" required>
+<div class="invalid-feedback mb-2">
+Συμπληρώστε σωστά το email σας.
+</div>
+<button type="button" id="reset_pwd_btn" class="btn btn-block btn-primary">Reset Password</button>
+</form>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div>
+<div>
+<span class="text-sm mr-1">Έχετε ήδη λογαριασμό;</span>
+<a href="#" class="link text-sm" data-toggle="modal" data-target="#login_modal" data-dismiss="modal">
+Σύνδεση
+</a>
+</div>
+<div>
+<span class="text-sm mr-1">Δεν έχετε λογαριασμό;</span>
+<a href="#" class="link text-sm" data-toggle="modal" data-target="#register_modal" data-dismiss="modal">
+Εγγραφή
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="register_modal" tabindex="-1" role="dialog" aria-labelledby="register_modal_label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="register_modal_label">Δημιουργία λογαριασμού</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">X</span>
+</button>
+</div>
+<div class="modal-body">
+<div class="container-fluid">
+<a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=1011557560194-som5vp4f48ass95m3v29g3cc983i6b63.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fagones.gr%2Fgoauth2&access_type=online&response_type=code&scope=email+profile" role="button" rel="nofollow noopener" class="btn btn--google btn-block col-sm-6 ii__oauth_btn">
+<i class="fab fa-google" style="margin-right:10px;"></i>
+Εγγραφή με Google
+</a>
+<hr>
+<a href="https://www.facebook.com/v2.12/dialog/oauth?client_id=482448232277487&redirect_uri=https%3A%2F%2Fagones.gr%2Ffoauth2&scope=email&state=" role="button" rel="nofollow noopener" class="btn btn--facebook btn-block col-sm-6 ii__oauth_btn">
+<i class="fab fa-facebook ml-3" style="margin-right:10px;"></i>
+Εγγραφή με Facebook
+</a>
+<hr>
+<a href="/twitterlogin" role="button" rel="nofollow noopener" class="btn btn--twitter btn-block col-sm-6 ii__oauth_btn">
+<svg role="img" class="icon-svg" style="margin-right:10px;">
+<use xlink:href="/static/icons/icons.svg?v=5d07555d28e82f9e26a97cbe7980f719#icon-twitter-x"></use>
+</svg>
+Εγγραφή με Twitter
+</a>
+<hr>
+<label class="my-2 col p-0">Δημιουργία λογαριασμού με e-mail</label>
+<form name="frm" id="register_form" action="javascript:void(0);" class="form">
+<span id="check_email" class="ii__register_checks" style="color: red;"></span>
+<input type="email" class="form-control mb-2 col" id="email-input" name="email" placeholder="Email" autocomplete="off">
+<span id="check_username" class="ii__register_checks" style="color: red;"></span>
+<input type="text" class="form-control mb-2 col" id="username-input" name="username" placeholder="Username" autocomplete="off">
+<input type="password" class="form-control mb-2 col" id="register_password" name="password" placeholder="Password">
+<span id="check_password2" class="ii__register_checks" style="color: red;"></span>
+<input type="password" class="form-control mb-2 col" id="register_password2" name="password2" placeholder="Password ξανά">
+<div class="form-check">
+<input id="newsletter" name="newsletter" type="checkbox" class="form-check-input" value="1">
+<label for="newsletter" class="form-check-label text-sm">
+Συμφωνώ να λαμβάνω νέα από το Agones.gr μέσω ηλεκτρονικής αλληλογραφίας
+</label>
+</div>
+<div class="form-check">
+<input id="optin" name="optin" type="checkbox" class="form-check-input" value="1">
+<label for="optin" class="form-check-label text-sm">
+Συμφωνώ με τους <a href="/terms" target="_blank">Όρους χρήσης</a> και την <a href="/terms" target="_blank">Πολιτική χρήσης δεδομένων</a>
+</label>
+</div>
+<br>
+<button type="button" id="register_btn" class="btn btn-block btn-primary mt-1 col-6">
+<span>Εγγραφή</span>
+</button>
+<br>
+</form>
+</div>
+</div>
+<div class="modal-footer">
+<span class="text-sm">Έχετε ήδη λογαριασμό;</span>
+<a href="#" class="link text-sm" data-toggle="modal" data-target="#login_modal" data-dismiss="modal">
+Σύνδεση
+</a>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/js/ext.min.js?v=2300d27f4bec5456f7707fca5d2ff2dd"></script>
+<script src="/static/js/desktop_ext.min.js?v=d89da98ae9cc858819446938866b75e0"></script>
+<script src="/static/js/ext/bootstrap.desktop.min.js?v=0e3519db7fbb46d859bc653fb52e1fe8"></script>
+<script src="/static/js/desktop_bundle.min.js?v=d1df416f8d4caed439fcaaeca3e32198"></script>
+<script>
+window.googlechartlib_ready = 0;
+window.defaultTzOffsetHours = 3; // make it a const if DST is abolished
+$(document).ready(function(){
+    Generic.init(
+        'US',
+        0,
+        0,
+        [0,66,249,76,265,8,38,14,13,15,3,31,10,1807,34,474,475,476,477,513],
+        'https://fc36ef6321834422b2591247c95d1717@sentry.io/1412669',
+        0.05,
+        0,
+        'hnuppNolg7PIpxxLdGBPDa79R9Ut3xWL'
+    );
+    DesktopGeneric.init();
+    });
+</script>
+<audio id="sound_goal1"><source src="/static/sounds/crowd.mp3?v=8e96c1b87ce06a9c1f3f1ecd6545657d" type="audio/mpeg"></audio>
+<div class="ii__progress_line progress-line"></div>
+<div class="ii__feedback feedback"></div>
+</body>
+</html>

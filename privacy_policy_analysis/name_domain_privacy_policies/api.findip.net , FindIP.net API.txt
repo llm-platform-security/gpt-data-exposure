@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta charset="utf-8" />
+    <title>Washington Metropolitan Area Transit Authority Developer Portal</title>
+    
+<script type="text/javascript">
+    var apiphany = {
+        globals: {
+            amChartsImageUrl: '/Themes/Portals.Themes.Bootstrap/Styles/AmCharts/',
+            amMapsImageUrl: '/Themes/Portals.Themes.Bootstrap/Styles/AmMaps/',
+            activityId: 'ff415239-c2e9-4a43-bbe6-0bd3440666ba',
+            appPath: '/',
+            antiForgeryToken: 'TW4vGNNh8JO-KFw33UAp_lCG_VxbSu8LVhiVXbgSTAxWZeak1eksFyyrZeriFjCFWhKT6mMymPHeahrpv03Q6MGC8xRhXyH29EkZchWm_t4fEV-Cxs1cKeBpLKh3oGy-D7OaalJmq7pzpmsDZbXGsA2'
+        }
+    };
+</script>
+
+    <link rel="stylesheet" type="text/css" href="//i.s-microsoft.com/fonts/segoe-ui/west-european/normal/latest.css">
+    <link rel="stylesheet" type="text/css" href="//i.s-microsoft.com/fonts/segoe-ui/west-european/light/latest.css">
+    <link rel="stylesheet" type="text/css" href="//i.s-microsoft.com/fonts/segoe-ui/west-european/semilight/latest.css">
+    <link rel="stylesheet" type="text/css" href="//i.s-microsoft.com/fonts/segoe-ui/west-european/semibold/latest.css">
+    <link rel="stylesheet" type="text/css" href="//i.s-microsoft.com/fonts/segoe-ui/west-european/bold/latest.css">
+
+    <script src="/Modules/Portals.Web.Core/Scripts/ko?v=5xJ-o7uqL91NL4lnxsbkECSRGwBK8cntUU3zzvoZ1Hk1" type="text/javascript"></script>
+<script src="/Modules/Portals.Web.Core/scripts/jquery/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="/Modules/Portals.Web.Core/scripts/jquery/jquery-migrate-3.3.2.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Themes/Portals.Themes.Bootstrap/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/Themes/Portals.Themes.Bootstrap/scripts/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<link href="/themes/portals.themes.bootstrap/styles/bootstrap.published.less" rel="stylesheet" type="text/css" />
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create','UA-47505795-1','auto');ga('require','linkid','linkid.js');ga('send','pageview');
+</script>
+
+
+</head>
+<body>
+    
+    
+<script type="text/javascript">
+    (function () {
+        var browserInfo = (function () {
+            try {
+                var ua = navigator.userAgent,
+                    tem,
+                    M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if (/trident/i.test(M[1])) {
+                    tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return 'IE ' + (tem[1] || '');
+                }
+                if (M[1] === 'Chrome') {
+                    tem = ua.match(/\bOPR\/(\d+)/)
+                    if (tem != null) return 'Opera ' + tem[1];
+                }
+                M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
+                if ((tem = ua.match(/version\/(\d+)/i)) != null) M.splice(1, 1, tem[1]);
+                return M.join(' ');
+            } catch (e) {
+                return "undefined";
+            }
+        })();
+
+        $(window).on('load', function () {
+            var timing = performance.timing;
+            var servertime = timing.responseEnd - timing.requestStart;
+            var pageRendertime = new Date().getTime() - timing.responseEnd;
+            var url = '/log/';
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                header: {
+                    activityId: 'ff415239-c2e9-4a43-bbe6-0bd3440666ba'
+                },
+                data: {
+                    __RequestVerificationToken: 'biuZj4tlaT1E_G2uZ22oczZuyyS1mbgTyj-EGDFUYHsRwWKByS0_4Ze8ApgS_FBYCJU1IowGT7R-hBNR--HItvuyv9YC-8xEixCNkUZFhxiLtkQC--f0yniex9laMRq6cVX8MypHYPfXYUXzcJ0E-Q2',
+                    service: window.location.hostname,
+                    path: window.location.pathname,
+                    serverTime: servertime,
+                    pageRenderTime: pageRendertime,
+                    activityId: 'ff415239-c2e9-4a43-bbe6-0bd3440666ba',
+                    browserInfo: browserInfo
+                },
+            });
+        });
+    })()
+</script>
+
+    
+
+
+<div id="ap-container" class="layout">
+        <div class="layout-row">
+            <div class="zone-header layout">
+                <header role="heading">
+                    
+<h1 class="hidden-xs"><img src="https://apimgmtstjtqflqnegmezxlj.blob.core.windows.net/content/MediaLibrary/Resources/wmata_logo.png" alt="WMATA Logo" style="float: left; margin-top: -10px; margin-right: 10px" /> Washington Metropolitan Area Transit Authority API</h1>
+<h1 class="visible-xs">WMATA API</h1>
+
+                </header>
+            </div>
+        </div>
+
+        <div class="zone-navigation layout-row">
+            <nav id="navigation" role="navigation">
+                <div class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        
+<ul class="nav navbar-nav" role="menu" aria-label="Main">
+    
+<li><a href="/">Home</a>
+</li>
+<li><a href="/docs/services/">APIs</a>
+</li>
+<li><a href="/Products">Products</a>
+</li>
+<li><a href="http://www.wmata.com/">Metro Home Page</a>
+</li>
+</ul>
+
+                        
+<ul class="nav navbar-nav pull-right" role="navigation" aria-label="Account menu">
+        <li role="presentation">
+            <a href="/signin?ReturnUrl=%2Flicense" role="menuitem">Sign in</a>
+        </li>
+</ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    
+    <div class="layout-row layout-row-content">
+        <div class="layout">
+            <div class="zone-content col-md-12 layout-column">
+                <main role="main">
+                                        
+<article class="page content-item">
+<header>
+    
+</header>
+<h1>WMATA Transit Data Terms of Use</h1>
+<hr />
+<h5>Last Revised on November 19, 2019</h5>
+
+<h3>1. Scope and Intent</h3>
+<p>Pursuant to these Transit Data Terms of Use (the Terms) the Washington Metropolitan Area Transit Authority (WMATA) makes certain data regarding its transit services available as a public service.  The WMATA transit information may include, but is not necessarily limited to, (a) bus/train locations; (b) bus routes; (c) bus schedules; (d) bus stops; (e) Metrorail Lines; (f) Rail Elevator/Escalator Incidents; (g) Train Arrivals; Rail Incidents, etc. (each separately or taken together, Transit Data).</p>
+
+<h3>2. API and GTFS</h3>
+<p>WMATA makes Transit Data available to certain users and developers via an Application Programming Interface (API) and a General Transit Feed Specification (GTFS), each described in more detail below.</p>
+<p><u>API</u>. The WMATA API allows users and developers to receive Transit Data and use it for testing purposes or in the developer’s own software application, website, product or service (each an Application). For the sake of clarity, an Application explicitly does not include a user’s or developer’s application programming interface. Re-use of the API Transit Data in a user’s or developer’s application programming interface is strictly prohibited subject to the exceptions provided for in Section 8 below.</p>
+<p><u>GTFS</u>. The GTFS provides users and developers certain Transit Data either statically through a series of text files collected in a downloadable .Zip file or through a real-time GTFS feed.  The static GTFS provides the same schedule data that supports WMATA’s online trip planner. The real-time GTFS contains arrival predictions, vehicle positions and service advisories. GTFS is an open data specification format that allows the incorporation of transit information into Applications, like Google Maps, that include geographic data.</p>
+
+<h3>3. Binding Agreement</h3>
+<p>By obtaining, using or otherwise developing Applications that utilize WMATA's Transit Data through GTFS and/or the API, you acknowledge that you are entering into a legally binding agreement with WMATA and that these Terms govern your use of the Transit Data, the GTFS and the API. If you are a developer and developing on behalf of a company or other entity, you represent and warrant that you have full legal authority to do so on behalf of that entity and bind it to these Terms. If you are not authorized, you may not accept these Terms or create a developer account on behalf of someone else.</p>
+
+<h3>4. Test Users</h3>
+<p>Users who would like access to the WMATA API for limited testing purposes only may utilize WMATA’s public use key.</p>
+
+<h3>5. Developer Account</h3>
+<p>For all other uses, You must create a developer account with WMATA and subscribe to one or more Transit Data service tiers. Each subscription will generate two security keys (Keys) that will enable you to access the service tier to which you are subscribed. The Keys enable WMATA to associate your API activity with your Application. All activities that occur using the Keys issued to you are your responsibility. You are responsible for maintaining the secrecy and security of the Keys issued to you. The Keys, while issued to you as part of your subscription, remain WMATA’s property and may be revoked or otherwise limited at any time and at WMATA’s sole discretion. You cannot sell, transfer, or sublicense them. Do not try to circumvent them and do not require your users to obtain their own keys from WMATA to use your Application (for example, in an attempt to circumvent call limits). WMATA reserves the right to limit the number of Keys and service tiers to which you may subscribe in its sole discretion.</p>
+<p>You are responsible for maintaining your Application’s compatibility with WMATA's API and GTFS, as applicable and as updated from time to time, in order to continue to receive WMATA's Transit Data.</p>
+<p>You agree to use the API, GTFS and Transit Data only for purposes that are legal and in accordance with these Terms, any other applicable policies or guidance that WMATA may issue from time to time, and applicable law.</p>
+
+<h3>6. Prohibited Activites/Conduct</h3>
+<p>You and/or your end users or agents are prohibited from using the API, GTFS or Transit Data in the following ways:</p>
+<ol>
+    <li>To interfere with or disrupt WMATA services or servers.</li>
+    <li>To circumvent or modify any Keys or security mechanisms employed by WMATA or the API, including without limitation any authentication technologies.</li>
+    <li>To request, collect, solicit or otherwise obtain access to sign-in names, passwords, API Keys, or other authentication credentials for WMATA other than what WMATA provides to you for your own account.</li>
+    <li>To impersonate or obtain access to WMATA's Transit Data, API, GTFS or other WMATA services without authorization.</li>
+    <li>To create user accounts by automated means or under false or fraudulent pretenses.</li>
+    <li>To distribute or allow access to the WMATA API to any third party, or create an application programming interface that enables access to the Transit Data outside of the WMATA API.</li>
+    <li>To enable any other person to personally identify any user of your Application that uses WMATA's Transit Data without the user's express consent.</li>
+    <li>To state or imply affiliation, sponsorship or endorsement of your Application by WMATA.</li>
+    <li>To state or imply that you own or have created the WMATA Transit Data, API, or GTFS.</li>
+    <li>To state or imply that the data you provide through your Application is accurate, complete, or timely, or that it is more accurate, more complete or more timely with respect to the underlying Transit Data provided through the API or GTFS.</li>
+    <li>To promote or provide instructional information about illegal activities or promote physical harm or injury against any group or individual.</li>
+    <li>To defame, abuse, stalk, harass, threaten or otherwise violate the legal rights (such as the right to privacy) of others.</li>
+    <li>To upload, post, email or transmit or otherwise make available with, in or in connection with your Application, any infringing, obscene or unlawful content.</li>
+    <li>To upload, post, email or transmit or otherwise make available with, in or in connection with your Application, any content that infringes any patent, trademark, service mark, copyright, trade secret or any other intellectual property or proprietary right of any party, unless you are the owner of the content or have the permission of the owner to post such content.</li>
+    <li>To transmit any viruses, worms, defects, Trojan horses, or any items of a destructive nature.</li>
+</ol>
+
+<h3>7. Ownership</h3>
+<p><u>WMATA Property</u> As between you and WMATA, WMATA maintains all ownership, rights, title, and interest, including all intellectual property rights, in and to, the (1) Transit Data, API, and all elements, components, and executables of the API; (2) any other WMATA-provided content; (3) the WMATA website; and (4) WMATA trademarks and copyrighted materials (Intellectual Property). Except for the express licenses granted in these Terms, WMATA does not grant you any right, title, or interest in WMATA property. You agree to take such actions as WMATA may reasonably request to perfect WMATA’s rights to all WMATA property. You are prohibited from using WMATA Intellectual Property, including any confusingly similar variants, in association with the Transit Data or API unless you have entered into a separate, written license agreement with WMATA for use of such Intellectual Property. Please contact WMATA for further details.</p>
+<p><u>Transit Data License</u> Subject to your compliance with these Terms, WMATA grants you a limited, non-exclusive, non-assignable, non-transferrable, non-sublicensable, revocable license to download, use, reproduce, and redistribute WMATA's Transit Data within your Application.</p>
+<p><u>API License</u> Subject to your compliance with these Terms, WMATA grants you a limited, non-exclusive, non-assignable, non-transferrable, non-sublicensable, revocable license to access and use WMATA's API to develop, test, and support your Application, and to let your end users use your integration of the API within your Application.</p>
+<p><u>GTFS License</u> The static GTFS and real-time GTFS extension are open and freely available data specification formats created and shared by Google under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 License</a>. Source code samples are licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>.</p>
+<p><u>Contributions to WMATA</u> By submitting suggestions or other feedback regarding the WMATA Transit Data, API, or other WMATA provided materials to WMATA (Contributions) regardless of the medium in which such Contributions may be provided, you acknowledge and agree that: (1) WMATA is not under any obligation of confidentiality with respect to the Contributions; (2) WMATA may use or disclose (or choose not to use or disclose) such Contributions for any purpose, in any way, in any media worldwide; (3) you irrevocably, non-exclusively license to WMATA rights to exploit your Contributions; and (4) you are not entitled to any compensation or reimbursement of any kind from WMATA under any circumstances for your Contributions.</p>
+
+<h3>8. Re-use of Transit Data</h3>
+<p>(a) Except as expressly provided in sub-section (b) of this provision, you are prohibited from:
+<ol>
+    <li>sharing (except with your Application's users), transferring, sublicensing, selling or leasing any Transit Data, directly or indirectly (e.g., through multiple tiers of distribution or your own application programming interface), to any other person; or</li>
+    <li>distributing or allowing access to the stand-alone API to anyone other than the company on whose behalf you agreed to these Terms, or creating an application programming interface that enables access to Transit Data. Anyone who wants to access WMATA API and Transit Data must agree to be bound by the applicable terms of use.</li>
+</ol>
+</p>
+
+<p>(b) In the event you desire to re-use the Transit Data for the purpose of providing that data to third parties through your own application programming interface, you must:
+<ol>
+    <li>receive prior written authorization from WMATA to do so;</li>
+    <li>only use the Key provided to you by WMATA to access the API and Transit Data, not the Key of any other person;</li>
+    <li>not provide WMATA Transit Data to third parties unless the Transit Data has been inseparably commingled with or supplemented by additional data that you have provided (for example, by crowd sourcing or your own predictive algorithms);</li>
+    <li>be able to identify and block third parties using your application programming interface upon WMATA’s request; </li>
+    <li>make your user data available to WMATA, upon request, for purposes of statistical research; and</li>
+    <li>abide by any additional requirements WMATA may impose (hereinafter, referred to as Supplemental API Terms).</li>
+</ol>
+</p>
+
+<h3>9. Term and Termination</h3>
+<p>The term of these Terms will commence on the date upon which you agree to these Terms and will continue until terminated as set forth below. You may terminate these Terms by discontinuing use of WMATA Transit Data, API, and GTFS. WMATA reserves the right to terminate your access to, alter and/or no longer provide the Transit Data, API, and/or GTFS, either temporarily or permanently, at any time without prior notice. WMATA reserves the right to terminate these Terms if WMATA determines, in its sole discretion, that you are engaged in unauthorized use of the API, GTFS or Transit Data as outlined in these Terms or that you are using WMATA's API or Transit Data in any activity that threatens/compromises the safety and/or security of the Metrorail/bus system or WMATA's networks.  For avoidance of doubt, nothing herein obligates WMATA to make its API, GTFS or Transit Data available to you, and you agree and acknowledge that any access to the API, GTFS or Transit Data is within the sole and absolute discretion of WMATA. All of WMATA’s rights in these Terms may be exercised without prior notice or liability to you.</p>
+<p>Upon termination of these Terms (i) all rights and licenses granted to you will terminate immediately; (ii) you will promptly destroy WMATA confidential information in your possession or control; (iii) neither party is liable to the other party just because these Terms have been terminated; and (iv) unless WMATA agrees otherwise in writing or as stated in these Terms, you must permanently delete all Transit Data or other data which you stored pursuant to your use of the API or GTFS. WMATA may request that you certify in writing your compliance with this section.</p>
+
+<h3>10. General Terms</h3>
+<p><u>Support and Modifications</u>: WMATA may provide you with support or modifications for the API and GTFS feed in its sole discretion and WMATA may stop providing support or modifications to you in its sole discretion at any time without notice or liability to you. WMATA may release subsequent versions of the API or make structural modifications to the GTFS feed and require that you use those subsequent versions. Your continued use of the API or GTFS feed following a subsequent modification will be deemed your acceptance of such modifications.</p>
+<p><u>Publicity</u>: You may promote your Application, including talking to traditional and online media and your users about your Application, so long as you do so truthfully and without implying that your Application is created or endorsed by WMATA (or otherwise embellishing your relationship with WMATA).   Additionally, you may not issue any formal press release via traditional or online media referring to WMATA without WMATA’s prior consent.  WMATA may publicly refer to you, orally or in writing, as a licensee or unaffiliated third-party developer that utilizes WMATA Transit Data, the API or the GTFS, without additional consent from you.</p>
+<p><u>Monitoring</u>: You agree to assist WMATA in verifying your compliance with these Terms by providing WMATA with information about your Application, which may also include access to your Application and other materials related to your use of the Transit Data, API and GTFS, upon request. If you do not demonstrate full compliance with these Terms, WMATA may restrict or terminate your access to the Transit Data, API and GTFS.</p>
+<p><u>Severability and Waiver</u>: The invalidity of any term or provision of these Terms will not affect the validity of any other provision. Waiver by WMATA of strict performances of any provision of these Terms will not be a waiver of or prejudice WMATA's right to require strict performance of the same provision in the future or of any other provision of these Terms.</p>
+<p><u>License Fee</u>: WMATA currently provides the Transit Data, API and GTFS for free, but WMATA reserves the right to charge for the Transit Data, API and/or GTFS in the future. If WMATA does charge a fee for use of the Transit Data, API, GTFS, or any developer tools and features, you do not have any obligation to continue to use WMATA’s developer resources.</p>
+<p><u>WMATA Independent Development</u>: You understand and acknowledge that WMATA may independently create Applications, content, and other products or services that may be similar to or competitive with your Application. Nothing in these Terms will be construed as restricting or preventing WMATA from creating and fully exploiting any Applications, content, and other items, without any obligation to you.</p>
+<p><u>Sovereign Immunity</u>: You acknowledge that WMATA is an interstate compact agency of the District of Columbia, the State of Maryland and the Commonwealth of Virginia; that WMATA has sovereign immunity; and that by entering into these Terms, WMATA does not waive such sovereign immunity. You understand and agree that you may not assert for your own benefit any immunity from claims available to WMATA under the WMATA Compact.</p>
+<p><u>DISCLAIMER OF WARRANTY</u>: THE TRANSIT DATA, API, GTFS, AND ANY OTHER MATERIAL IS PROVIDED BY WMATA ON AN "AS IS" AND "AS AVAILABLE" BASIS AND YOUR USE OF THE SAME IS AT YOUR OWN RISK. WMATA MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. WMATA DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. WMATA AND ITS EMPLOYEES, OFFICERS, DIRECTORS AND AGENTS WILL NOT BE LIABLE FOR DAMAGES OF ANY KIND ARISING FROM THE USE OF THE TRANSIT DATA INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE AND CONSEQUENTIAL DAMAGES.</p>
+<p><u>Limitation of Liability</u>: WITHOUT LIMITING WMATA’S SOVEREIGN IMMUNITY IN ANY WAY, NEITHER WMATA NOR ANY OF ITS AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSEES, OR CONTRACTORS, SHALL BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE, OR CONSEQUENTIAL DAMAGES OR LOSS OF USE, PROFIT, REVENUE OR DATA TO YOU OR ANY THIRD PERSON ARISING FROM YOUR USE OF WMATA TRANSIT DATA, API, GTFS OR ANY OTHER MATERIAL ACCESSED THROUGH OR DOWNLOADED FROM WMATA.  THIS LIMITATION OF LIABILITY SHALL APPLY REGARDLESS OF WHETHER (A) YOU BASE YOUR CLAIM ON CONTRACT, TORT, STATUTE, OR ANY OTHER LEGAL THEORY, (B) WMATA KNEW OR SHOULD HAVE KNOWN ABOUT THE POSSIBILITY OF SUCH DAMAGES, OR (C) THE LIMITED REMEDIES PROVIDED IN THIS SECTION FAIL OF THEIR ESSENTIAL PURPOSE. IN NO EVENT SHALL WMATA’S TOTAL LIABILITY TO YOU IN CONNECTION WITH THE TRANSIT DATA, API, GTFS OR ANY OTHER MATERIAL ACCESSED THROUGH OR DOWNLOADED FROM WMATA FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION EXCEED $100.</p>
+<p><u>Indemnification</u>: You will defend, hold harmless, and indemnify WMATA and its affiliates, directors, officers, employees, agents, licensees, or contractors from any claim or action brought by a third party, including all damages, liabilities, costs and expenses, including reasonable attorneys’ fees, to the extent resulting from, alleged to have resulted from, or in connection with: (1) your breach of your obligations herein; or (2) the violation of any copyright, trademark, service mark, trade secret or United States patent by the Application, Contributions or your development activities.</p>
+<p><u>Assignment and Delegation</u>: You may not assign or delegate any rights or obligations under these Terms, including in connection with a change of control. Any purported assignment and delegation shall be ineffective. In the event a third party acquires you, your Application(s), or any authorized application programming interface(s) developed by you, the acquiring entity must agree to be bound by these Terms and any Supplemental API Terms, if applicable, in order to have access to or use WMATA’s Transit Data, API or GTFS. WMATA may freely assign or delegate all rights and obligations under these Terms, fully or partially without notice to you.</p>
+<p><u>Applicable Law</u>: The laws of the District of Columbia shall govern all rights and obligations under these Terms, without giving effect to any principles of conflicts of laws, unless such laws conflict with the WMATA Compact, in which case the WMATA Compact shall govern.</p>
+<p><u>Entire Agreement</u>: These Terms, along with any Supplemental API terms, if applicable, constitute the complete and exclusive agreement between WMATA and you with respect to the subject matter hereof and supersede all prior oral or written understandings, communications, or agreements not specifically incorporated herein. WMATA reserves the right to modify or revoke these Terms or any Supplemental API Terms, if applicable, at any time.</p>
+</article>                                    </main>
+            </div>
+
+        </div>
+    </div>
+
+
+
+        <div class="layout-row">
+            <div class="zone-footer layout">
+                <footer role="contentinfo">
+                        <div class="row">
+                                                                                                            </div>
+                    
+
+<div class="pull-right hidden-xs">
+Subscribe to our <a href="http://feeds.feedburner.com/WMATA_API_Updates">news feed</a> or contact us at <a href="mailto:api-support@wmata.com">api-support@wmata.com</a>
+<br />
+<span class="pull-right"><a href="/license">Developer License Agreement</a></span>
+<br />
+<span class="pull-right">&copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.wmata.com">WMATA</a></span>
+</div>
+<div class="visible-xs">
+    <a class="pull-left" href="http://feeds.feedburner.com/WMATA_API_Updates">News Feed</a>
+    <a class="pull-right" href="mailto:api-support@wmata.com">Contact Us</a>
+</div>
+                </footer>
+            </div>
+        </div>
+</div>
+
+    <script src="/Modules/Portals.Web.Core/scripts/bootstrap/bootstrap.js" type="text/javascript"></script>
+
+    
+
+<script type="text/html" id="scopePickerTemplate">
+    <div class="row">
+        <div class="col-md-6">
+            <label data-bind="text: local.scopePickerHelper.policyPickerProductLabelTextShortcut('products', 'product', selectedProduct())"></label>
+            <select class="col-md-6 form-control" data-bind="options: products, optionsText: 'name', value: selectedProduct, optionsCaption: local.scopePickerHelper.policyPickerProductCaptionTextShortcut(selectedProduct())" id="scopePickerProduct"></select>
+        </div>
+        <div class="col-md-6">
+            <label data-bind="text: local.scopePickerHelper.policyPickerApiLabelTextShortcut('APIs', 'API', selectedApi(), selectedProduct())"></label>
+            <select class="col-md-6 form-control" data-bind="options: apis, optionsText: 'name', value: selectedApi, optionsCaption: local.scopePickerHelper.policyPickerApiCaptionTextShortcut(selectedApi())" id="scopePickerApi"></select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <label data-bind="text: local.scopePickerHelper.policyPickerOperationLabelTextShortcut('operations', 'operation', selectedOperation(), selectedApi())"></label>
+            <select class="col-md-12 form-control" data-bind="options: operations, optionsText: $data.getOperationName.bind($data), value: selectedOperation, optionsCaption: local.scopePickerHelper.policyPickerOperationCaptionTextShortcut(selectedOperation())" id="scopePickerOperation"></select>
+        </div>
+    </div>
+</script>
+<script type="text/html" id="emptyTemplate">
+    <table class="ap-empty-frame">
+        <tbody>
+            <tr>
+                <td class="ap-empty-content-container" data-bind="here: 'content'"></td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script type="text/html" id="curtainTemplate">
+    <div class="ap-curtain-background"></div>
+    <table class="ap-curtain-foreground">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="ap-curtain-content-container" data-bind="here: 'content'"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+<script type="text/html" id="menuTemplate">
+    <div class="btn-group" data-bind="foreach: items">
+        <button class="btn btn-default" data-bind="
+            css: { 'active' : isPicked(), 'ap-is-disabled':  !isEnabled() },
+            enable: isEnabled(),
+            text: text,
+            event: { mouseover: activate, mouseout: deactivate },
+            click: pick,
+            attr: { title: tooltipOpt }"></button>
+    </div>
+</script>
+<script type="text/html" id="emptyTemplate">
+    <table class="ap-empty-frame">
+        <tbody>
+            <tr>
+                <td class="ap-empty-content-container" data-bind="here: 'content'"></td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script type="text/html" id="curtainTemplate">
+    <div class="ap-curtain-background"></div>
+    <table class="ap-curtain-foreground">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="ap-curtain-content-container" data-bind="here: 'content'"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script type="text/html" id="validationSummaryTemplate">
+    <!-- ko if: hasIssues() -->
+    <div class="alert alert-danger" role="alert">
+        <ul data-bind="foreach: issues">
+            <!-- ko template: { name: template, data: templateData } --><!-- /ko -->
+        </ul>
+    </div>
+    <!-- /ko -->
+    <!-- ko if: hasWarnings() -->
+    <div class="alert alert-warning" role="alert">
+        <ul data-bind="foreach: warnings">
+            <!-- ko template: { name: template, data: templateData } --><!-- /ko -->
+        </ul>
+    </div>
+    <!-- /ko -->
+    <!-- ko if: hasNotifications() -->
+    <div class="alert alert-info" role="alert">
+        <ul data-bind="foreach: notifications">
+            <!-- ko template: { name: template, data: templateData } --><!-- /ko -->
+        </ul>
+    </div>
+    <!-- /ko -->
+</script>
+
+<script type="text/html" id="simpleValidationSummaryItemTemplate">
+    <li data-bind="html: $data"></li>
+</script>
+<script type="text/html" id="dateRangePickerBundleTemplate">
+    <div class="row">
+        <div class="col-md-6">
+            <input class="ap-textbox form-control" type="text" data-bind="value: value, valueUpdate: 'afterkeydown', event: { mousedown: show, focus: show, blur: considerLeaving }" id="dateRangePickerRange" />
+            <div class="ap-date-range-picker-placeholder">
+                <div class="ap-date-range-picker-container" data-bind="template: { name: 'dateRangePickerTemplate', data: responder, if: visible() }, event: { mousedown: preventHiding }"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="dateRangePickerTemplate">
+    <div class="ap-date-range-picker">
+        <div class="ap-date-range-pickers">
+            <div class="ap-date-range-pickers-all">
+                <div class="ap-date-range-picker-one-date-picker-container" data-bind="template: { name: 'datePickerTemplate', data: oneDatePicker }"></div>
+                <div class="ap-date-range-picker-another-date-picker-container" data-bind="template: { name: 'datePickerTemplate', data: anotherDatePicker }"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="datePickerTemplate">
+    <div class="ap-date-picker">
+        <div data-bind="template: { name: 'monthPickerTemplate', data: monthPicker }"></div>
+        <div data-bind="template: { name: 'calendarTemplate', data: calendar }"></div>
+    </div>
+</script>
+
+<script type="text/html" id="monthPickerTemplate">
+    <div class="ap-month-picker">
+        <div class="ap-month-picker-previous-action-container" data-bind="click: previousMonth"><a class="ap-month-picker-previous-action"></a></div>
+        <div class="ap-month-picker-current">
+            <div class="ap-month-picker-current-month-container">
+                <span class="ap-month-picker-current-month-text" data-bind="text: month"></span>,
+            </div>
+            <div class="ap-month-picker-current-year-container">
+                <span class="ap-month-picker-current-year-text" data-bind="text: year"></span>
+            </div>
+        </div>
+        <div class="ap-month-picker-next-action-container" data-bind="click: nextMonth"><a class="ap-month-picker-next-action"></a></div>
+    </div>
+</script>
+
+<script type="text/html" id="calendarTemplate">
+    <table class="ap-calendar" border="0" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr data-bind="foreach: dayOfWeekNames">
+                <th data-bind="text: $data"></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: weeks">
+            <tr data-bind="foreach: $data">
+                <td class="ap-calendar-day" data-bind="css: $parents[1].states.areEnabled($data, {
+                    'weekend day': 'ap-is-weekend',
+                    'from another month': 'ap-is-another-month-day',
+                    'active': 'ap-is-active',
+                    'picked': 'ap-is-picked',
+                    'disabled': 'ap-is-disabled',
+                    'selected': 'ap-is-selected'
+                })">
+                    <a class="ap-calendar-day-action" href="#" data-bind="
+                    text: dayOfMonth,
+                    event: {
+                        mouseover: function() { return $parents[1].states.tryEnable(this, 'active'); },
+                        mouseout: function() { return $parents[1].states.tryDisable(this, 'active'); }
+                    },
+                    click: function() { return $parents[1].states.tryEnable(this, 'picked'); }"></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+
+
+<script type="text/html" id="pagerTemplate">
+    <!-- ko call: { addPageSizes: [[10,50,100]] } --><!-- /ko -->
+    <!-- ko if: pageCount() > 1 -->
+    <div class="clearfix">
+        <ul class="pagination pull-left" role="navigation">
+            <!-- ko if: page() > 1 -->
+            <li data-bind="visible: page() > 1">
+                <a href="#" rel="prev" data-bind="click: setPage.bind($data, 0)">&lt;&lt;</a>
+            </li>
+            <!-- /ko -->
+            <!-- ko if: page() > 0 -->
+            <li data-bind="visible: page() > 0">
+                <a href="#" rel="prev" data-bind="click: setPage.bind($data, page() - 1)">&lt;</a>
+            </li>
+            <!-- /ko -->
+            <!-- ko foreach: pages -->
+            <li data-bind="css: { active: $data == $parent.page() }">
+                <a href="#" data-bind="text: $data+1, click: $parent.setPage, attr: { 'aria-selected': $data == $parent.page() }"></a>
+            </li>
+            <!-- /ko -->
+            <!-- ko if: page() < pageCount()-1 -->
+            <li data-bind="visible: page() < pageCount() - 1">
+                <a href="#" rel="next" data-bind="click: setPage.bind($data, page() + 1)" id="usersNextPage">&gt;</a>
+            </li>
+            <!-- /ko -->
+            <!-- ko if: page() < pageCount()-2 -->
+            <li data-bind="visible: page() < pageCount() - 2">
+                <a href="#" rel="next" data-bind="click: setPage.bind($data, pageCount()-1)">&gt;&gt;</a>
+            </li>
+            <!-- /ko -->
+        </ul>
+        <!--ko if: pageSizes().length > 1 -->
+        <ul class="pagination pull-right" role="navigation">
+            <!-- ko foreach: { data: pageSizes, as: 'pageSizeOption' } -->
+            <li data-bind="visible: $parent.isPageSizeOptionAvailable(pageSizeOption), css: { active: $parent.isPageSizeOptionSelected(pageSizeOption) }">
+                <a href="#" data-bind="click: $parent.setPageSize, text: pageSizeOption, attr: { 'aria-selected': $parent.isPageSizeOptionSelected(pageSizeOption) }"></a>
+            </li>
+            <!-- /ko -->
+            <li data-bind="visible: isShowAllOptionAvailable(), css: { active: isShowAllOptionSelected() }">
+                <a href="#" data-bind="click: setPageSize.bind($data, 0)">All</a>
+            </li>
+        </ul>
+        <!-- /ko -->
+    </div>
+    <!-- /ko -->
+</script>
+
+</body>
+</html>

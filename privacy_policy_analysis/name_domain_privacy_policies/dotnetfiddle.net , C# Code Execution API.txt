@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html style="font-size: 100%;">
+	<head>
+		<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+		<meta name="msapplication-TileImage" content="/content/images/logo.png">
+		<link rel="icon" href="/content/images/icon_24.png">
+		<meta charset="utf-8" />
+		<title>Privacy Policy | C# Online Compiler | .NET Fiddle</title>
+		
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+	
+
+		<meta name="keywords" content=".NET, DotNet, C#, VB.NET, F#, CSharp, VbNet, FSharp, SandBox, Visual Studio, Fiddle, Code Snippet" />
+		<meta name="description" content="Test your C# code online with .NET Fiddle code editor." />
+		<meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0">
+		
+	<link href="/Content/packages/bootstrap-3.0.2/css/bootstrap.min.css?v=2" rel="stylesheet"/>
+
+	<link href="/content/css/desktop?v=qeETA7M4VrrYiioZRLhrsY1FysAfo1nqbV6Rpr9e79s1" rel="stylesheet"/>
+
+
+	<style type="text/css">
+		.ui-menu {
+			display: inline-block;
+			position: absolute;
+			top: 360px;
+			left: 15px;
+			max-width: 350px;
+			z-index: 1000;
+		}
+
+		.tab-content {
+			padding-top: 40px;
+		}
+
+		.container {
+			padding-top: 15px;
+		}
+
+		.vcenter {
+			display: inline-block;
+			vertical-align: middle;
+			float: none;
+			margin-right: -4px;
+		}
+
+		.vtop {
+			display: inline-block;
+			vertical-align: top;
+			/*margin-top: 20px;*/
+			float: none;
+			margin-right: -4px;
+		}
+
+        #login-modal .modal-body > a {
+            font-size: 17px;
+            color: #333;
+            width: 100%;
+            display: block;
+            text-align: center;
+            border: 1px solid #efefef;
+            border-radius: 10px;
+            padding: 5px;
+            background: #f7f7f7;
+            margin-bottom: 5px
+        }
+		
+        #login-modal .modal-body > a:hover {
+            color: #0077CF;
+            transition: .3s
+        }
+
+        .welly {
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            border: 1px solid #efefef;
+            margin-top: 5px;
+            padding: 9px
+        }
+
+        .access-type-container button {
+            text-align: left;
+        }
+        .share-link {
+            margin-top: 6px;
+            margin-bottom: 10px;
+        }
+        .share-widget-output {
+            margin-top: 6px;
+        }
+
+		.brand-logo {
+			margin: 0;
+			margin-top: 1px;
+		}
+
+	</style>
+	
+	
+	
+
+
+	</head>
+<body>
+	<div class="container">
+		
+
+
+
+
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label" aria-hidden="true">
+			<div class="modal-dialog" style="width: 400px;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="login-modal-label">Log in</h4>
+					</div>
+					<div class="modal-body">
+						<span class="danger" id="login-message"></span>
+						<a href="/Account/LogIn?loginType=3" class="remote-login" data-type="3" rel="nofollow">
+	<i class="fa fa-twitter"></i>
+	Twitter
+</a>
+<a href="/Account/LogIn?loginType=2" class="remote-login" data-type="2" rel="nofollow">
+	<i class="fa fa-envelope-o"></i>
+	Gmail
+</a>
+<a href="/Account/LogIn?loginType=1" class="remote-login" data-type="1" rel="nofollow">
+	<i class="fa fa-facebook-square"></i>
+	Facebook
+</a>
+<br />
+<div class="welly">
+	<span style="font-size: 17px; width:100%;text-align: center;display: inline-block;">
+		<i class="dnf-icon"> </i><a href="https://dotnetfiddle.net/" target="_blank">.NET Fiddle</a> and <i class="dna-icon"> </i><a href="https://dotnetcademy.net/" target="_blank">.NET Academy</a><br/> shared account
+	</span>
+<form action="/Account/LocalLogin" data-ajax="true" data-ajax-begin="loginRequest" data-ajax-method="POST" data-ajax-success="loginResponse" id="form0" method="post">		<div class="form-group">
+			<input class="form-control" data-val="true" data-val-email="Invalid email format." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="text" value="" />
+			<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+		</div>
+		<div class="form-group">
+			<input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password" />
+			<span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+		</div>
+		<div class="row form-group" style="padding-top: 0;">
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<div class="checkbox">
+					<label>
+						<input data-val="true" data-val-required="The Remember me field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" /> Remember me
+						<span class="field-validation-valid" data-valmsg-for="RememberMe" data-valmsg-replace="true"></span>
+					</label>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-right">
+				<button type="submit" class="btn btn-default" data-loading-text="Logging in...">Log in</button>
+			</div>
+		</div>
+</form></div>
+
+						<div class="row text-center">
+							<a href="/SignUp">Sign up</a>&nbsp;or&nbsp;<a href="/PasswordReset" rel="nofollow">Reset password</a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="navbar navbar-default navbar-fixed-top" id="top-navbar">
+	<div class="navbar-left-container hidden-xs hidden-sm hidden-md">
+		<h1 class="brand-logo"><a href="/" class="logo navbar-brand"><img src="/content/images/logo.png" alt=".NET Fiddle"/></a></h1>
+	</div>
+	<div class="navbar-center-container">
+				<div class="btn-group navbar-btn">
+					<a class="btn btn-default" href="/">
+						<span class="glyphicon glyphicon-chevron-left"></span> Back To Editor
+					</a>
+				</div>
+	</div>
+	<div class="navbar-right-container navbar-right">
+		<div class="btn-group navbar-btn user-info">
+				
+					
+				
+		</div>
+		<span class="navbar-name-separator">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+		<div class="btn-group navbar-btn">
+			
+				<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+			<ul class="dropdown-menu academy-dropdown-menu">
+
+					<li><a href="/about" id="about-btn" data-href="/Home/GetAboutCode">About</a></li>
+					<li><a href="https://twitter.com/dotnetfiddle" id="twitter-btn" target="_blank">Twitter</a></li>
+					<li><a href="https://dotnetcademy.net/" id="academy-btn" target="_blank">.NET Academy</a></li>
+					<li><a href="https://chrome.google.com/webstore/detail/net-fiddle/ohjcieidjalbkdciooknjhkfemfajpjc" id="chrome-ext-btn" target="_blank">Chrome Ext</a></li>
+					<li><a href="javascript:void(0);" id="support-btn" onclick=" showClassicWidget() ">Support</a></li>
+					<li><a href="/Roadmap">Roadmap</a></li>
+					<li><a href="/Terms">Terms</a></li>
+					<li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+					<li><a href="/contact">Contact Us</a></li>
+
+			</ul>
+			
+		</div>
+	</div>
+</div>
+<div class="main docked">
+	<div class="container">
+    
+		
+
+<h2>Privacy Policy</h2>
+
+<hr>
+<div class="row">
+	<div class="col-xs-12">
+		<p>
+			THE SERVICE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+			OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+			SOFTWARE.
+		</p>
+	</div>
+</div>
+<BR>
+<div class="row">
+	<div class="col-xs-12">
+		<p>
+			This page is used to inform visitors regarding our
+			policies with the collection, use, and disclosure of Personal
+			Information if anyone decided to use our Service.
+		</p>
+		<p>
+			If you choose to use our Service, then you agree to
+			the collection and use of information in relation to this
+			policy. The Personal Information that We collect is
+			used for providing and improving the Service. We will not use or share your information with
+			anyone except as described in this Privacy Policy.
+		</p>
+		<p>
+			The terms used in this Privacy Policy have the same meanings
+			as in our Terms and Conditions, which is accessible at
+			dotnetfiddle.net.
+		</p>
+		<p>
+			<strong>Information Collection and Use</strong>
+		</p>
+		<p>
+			For a better experience, while using our Service, We
+			may require you to provide us with certain personally
+			identifiable information, including but not limited to Email. The information that
+			We request will be retained by us and used as described in this privacy policy.
+		</p>
+		
+		<p>
+			You may request deletion of your personal information via <a href="mailto:admin@dotnetfiddle.net" class="button">admin@dotnetfiddle.net</a>. 
+			We will perform the deletion within one month (30 calendar days) and will send you a confirmation once the information has been deleted. 
+			Wherever possible, we will aim to complete the request in advance of the deadline.
+		</p>
+
+
+		<p>
+			<strong>Information from Third-Party Social Media Services</strong>
+		</p>
+		<p>The service allows You to create an account and log in to use the Service through the following Third-party Social Media Services:</p>
+		<ul>
+			<li>Google</li>
+			<li>Facebook</li>
+			<li>Twitter</li>
+		</ul>
+		<p>If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service's account, such as Your name and Your email address associated with that account.</p>
+
+		<p>
+			<strong>Cookies and Web Beacons</strong>
+		</p>
+		<p>
+			Like any other website, dotnetfiddle.net uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+		</p>
+		<p>
+			<strong>Changes to This Privacy Policy</strong>
+		</p>
+		<p>
+			We may update our Privacy Policy from
+			time to time. Thus, you are advised to review this page
+			periodically for any changes. We will
+			notify you of any changes by posting the new Privacy Policy on
+			this page.
+		</p>
+		<p>This policy is effective as of 2021-02-17</p>
+		<p>
+			<strong>Contact Us</strong>
+		</p>
+		<p>
+			If you have any questions or suggestions about our
+			Privacy Policy, do not hesitate to contact us at <a href="mailto:admin@dotnetfiddle.net" class="button">admin@dotnetfiddle.net</a>
+		</p>
+	</div>
+</div>
+
+	</div>
+</div>
+
+
+
+	</div>
+
+	<script>
+		if (!window.location.origin) {
+			window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+		}
+		function copyToClipboard(element) {
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val($(element).val()).select();
+			document.execCommand("copy");
+			$temp.remove();
+		}
+	</script>
+	<script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+
+	<script src="/bundles/jqueryval?v=uGU96Je1z8LG2_PzLPMjBJ2v03RgJhQZjQZLGOWBzpM1"></script>
+
+
+	
+    <script src="/bundles/utils?v=DG6S1LVYLBzhp-8AWPGB2sCat3YRoqackHFy60l9tu01"></script>
+
+	
+	<script src="/Content/packages/bootstrap-3.0.2/js/bootstrap.js"></script>
+
+
+
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-45542977-1', 'dotnetfiddle.net');
+			ga('send', 'pageview');
+		</script>
+
+	
+	<style id="profiler-minimizer-css">
+		.profiler-results {
+			display: none;
+		}
+	</style>
+	<script type="text/javascript" id="profiler-minimizer">
+		$(document).ready(function () {
+			 var e = function () {
+			 	var e = $(".profiler-results");
+			 	if (e.length == 0) return false;
+			 	e.addClass("profiler-min");
+				 return true;
+			 };
+			
+			var t = function () {
+				var n = e();
+				if (n) {
+					$("#profiler-minimizer").remove(); $("#profiler-minimizer-css").remove();
+					return;
+				}
+				setTimeout(t, 50);
+			};
+			t();
+		})
+	</script>
+	
+	<script>
+		// script to dramatically reduce bounce rate
+		setTimeout(gaIsActive, 20000);
+		setTimeout(gaIsActive, 60000);
+		setTimeout(gaIsActive, 90000);
+		setTimeout(gaIsActive, 120000);
+		setTimeout(gaIsActive, 150000);
+
+		function gaIsActive() {
+			if (!document.hidden) ga('send', 'event', { eventAction: 'TimeOnPage' });
+		}
+	</script>
+
+</body>
+</html>

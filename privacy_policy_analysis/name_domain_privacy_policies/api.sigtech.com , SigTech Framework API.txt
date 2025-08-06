@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}}); 
+/* ]]> */
+</script>
+
+
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>API terms of service | SigTech</title>
+	<link rel="canonical" href="https://sigtech.com/api-terms-of-service/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="API terms of service | SigTech" />
+	<meta property="og:url" content="https://sigtech.com/api-terms-of-service/" />
+	<meta property="og:site_name" content="SigTech" />
+	<meta property="article:modified_time" content="2023-10-10T16:35:03+00:00" />
+	<meta property="og:image" content="https://sigtech.com/wp-content/uploads/2023/10/Metadata_Image_v2.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="600" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@sigtechltd" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="SigTech &raquo; Feed" href="https://sigtech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SigTech &raquo; Comments Feed" href="https://sigtech.com/comments/feed/" />
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='sigtech-css' href='https://sigtech.com/wp-content/themes/sigtech/dist/css/app.min.css?ver=1702027899' type='text/css' media='all' />
+<script type="text/javascript" src="https://sigtech.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-P3P22MLZ6P" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["sigtech.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-P3P22MLZ6P");
+/* ]]> */
+</script>
+
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://sigtech.com/wp-json/" /><link rel="alternate" type="application/json" href="https://sigtech.com/wp-json/wp/v2/pages/3579" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sigtech.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://sigtech.com/?p=3579' />
+<link rel="alternate" type="application/json+oembed" href="https://sigtech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsigtech.com%2Fapi-terms-of-service%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://sigtech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsigtech.com%2Fapi-terms-of-service%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.126.0" />
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"Nicolas Holzapfel"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5F86R79');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><script type="text/javascript" src="//sigtech.com/?wordfence_syncAttackData=1715201171.32" async></script>    <script type="text/javascript">
+        /* <![CDATA[ */
+            const SlateAjax = {
+                "ajax_admin_url": "https://sigtech.com/wp-admin/admin-ajax.php",
+            };
+        /* ]]> */
+    </script>
+    
+<!-- Schema & Structured Data For WP v1.31 - -->
+<script type="application/ld+json" class="saswp-schema-markup-output">
+[{"@context":"https://schema.org/","@graph":[{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Platform","url":"https://sigtech.com/products/platform/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Docs","url":"http://guide.sigtech.com"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"SDK","url":"https://sigtech.com/products/api/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Python SDK","url":"https://github.com/SIGTechnologies/sigtech-python"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"SigTech AI","url":"https://sigtech.com/products/chatgpt/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Client stories","url":"/clients/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Emerging manager","url":"https://sigtech.com/client-stories/truepenny-capital-management/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Australian superannuation fund","url":"https://sigtech.com/client-stories/superannuation/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Global asset manager","url":"https://sigtech.com/client-stories/global-asset-manager/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Global bank","url":"https://sigtech.com/client-stories/global-bank/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Insights","url":"https://sigtech.com/insights/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Newsroom","url":"https://sigtech.com/newsroom/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Risk premia strategies","url":"https://sigtech.com/solutions/research/risk-premia-strategies/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Careers","url":"https://sigtech.com/careers/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Contact","url":"https://sigtech.com/contact/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"About","url":"https://sigtech.com/about/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Partnerships","url":"https://sigtech.com/partnerships/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"Enterprise platform","url":"https://platform.sigtech.com/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://sigtech.com#Primary","name":"API","url":"https://dashboard.sigtech.com/register"}]}]
+</script>
+
+<link rel="icon" href="https://sigtech.com/wp-content/uploads/2023/01/cropped-Sigtech-favicon-green-on-black-512-1-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://sigtech.com/wp-content/uploads/2023/01/cropped-Sigtech-favicon-green-on-black-512-1-200x200.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sigtech.com/wp-content/uploads/2023/01/cropped-Sigtech-favicon-green-on-black-512-1-200x200.png" />
+<meta name="msapplication-TileImage" content="https://sigtech.com/wp-content/uploads/2023/01/cropped-Sigtech-favicon-green-on-black-512-1-300x300.png" />
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3P22MLZ6P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P3P22MLZ6P');
+</script>
+
+<!-- Hotjar Tracking Code for www.sigtech.com -->
+<script>
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {hjid: 2564067, hjsv: 6};
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer
+        src="//js.hs-scripts.com/8647283.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script type=“text/javascript”>
+    (function(i,s,o,g,r,a,m){i[‘SLScoutObject’]=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,‘script’,‘https://scout-cdn.salesloft.com/sl.js','slscout’);
+    slscout([“init”, “eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0IjoxMDc1NTZ9.uMLyYkmrh2jj1cazB4_uPG0kGDbUX8GdIHb9RtrgpE8”]);
+</script>            </head>
+    <body class="page-template page-template-templates page-template-core page-template-templatescore-php page page-id-3579 no-touch no-js site-scroll--inactive transition-pages transition-pages--loading">
+                
+        <div class="page-wrap">
+            
+            <header class="site-header">
+    
+    <div class="site-header__inner">
+        <a class="site-header__logo site-logo" href="https://sigtech.com" aria-label="SigTech">
+            <?xml version="1.0" encoding="UTF-8"?><svg id="uuid-f55dc19a-99c2-4648-bfb2-472f6f3f5fcb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 54.56"><g id="uuid-3c15d1ef-ade3-4620-b382-062f651739f4"><path d="M181.97,15.36v5.12h15.89v22.62h5.14V17.96l-2.53-2.6h-18.5Z" fill="#0f0f0f"/><path d="M181.97,20.48h-5.14v22.62h5.14V20.48Z" fill="#0f0f0f"/><path d="M181.97,0h-5.14V15.36h5.14V0Z" fill="#0f0f0f"/><path d="M148.05,37.98V20.48h20.72v-5.12h-23.33l-2.53,2.6v22.54l2.53,2.6h23.33v-5.12h-20.72Z" fill="#0f0f0f"/><path d="M118.88,26.67v5.12h13.43l2.53-2.6v-11.23l-2.53-2.6h-21.11l-2.53,2.6v22.54l2.53,2.6h23.64v-5.12h-21.03V20.48h15.89v6.19h-10.82Z" fill="#0f0f0f"/><path d="M88.57,20.48h-5.14v20.02l2.61,2.6h14.58v-5.12h-12.05V20.48Z" fill="#0f0f0f"/><path d="M88.57,15.36V5.12h-5.14V15.36h5.14v5.12h12.05v-5.12h-12.05Z" fill="#0f0f0f"/><path d="M51.88,15.36l-2.61,2.6v22.54l2.61,2.6h13.28v-5.12h-10.74V20.48h15.89v28.96h-21.03v5.12l23.64-.08,2.53-2.6V17.96l-2.53-2.6h-21.03Z" fill="#0f0f0f"/><path d="M40.29,15.36h-5.14v27.66h5.14V15.36Z" fill="#0f0f0f"/><path d="M2.61,15.36l-2.61,2.6v11.23l2.61,2.6H21.03v6.19H0v5.12H23.64l2.53-2.6v-11.31l-2.53-2.52H5.14v-6.19H26.17v-5.12H2.61Z" fill="#0f0f0f"/><path d="M40.27,5.27h-5.14v5.12h5.14V5.27Z" fill="#96fb9a"/></g></svg>        </a>
+
+        <div class="site-header__menu" data-site-menu="target">
+            <div class="site-header__menu-inner">
+                <span class="site-header__menu-overlay" data-site-menu="opener"></span>
+
+                <div class="site-header__menu-header">
+                    <a class="site-header__header-logo site-logo" href="https://sigtech.com" aria-label="SigTech">
+                        <?xml version="1.0" encoding="UTF-8"?><svg id="uuid-f55dc19a-99c2-4648-bfb2-472f6f3f5fcb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 54.56"><g id="uuid-3c15d1ef-ade3-4620-b382-062f651739f4"><path d="M181.97,15.36v5.12h15.89v22.62h5.14V17.96l-2.53-2.6h-18.5Z" fill="#0f0f0f"/><path d="M181.97,20.48h-5.14v22.62h5.14V20.48Z" fill="#0f0f0f"/><path d="M181.97,0h-5.14V15.36h5.14V0Z" fill="#0f0f0f"/><path d="M148.05,37.98V20.48h20.72v-5.12h-23.33l-2.53,2.6v22.54l2.53,2.6h23.33v-5.12h-20.72Z" fill="#0f0f0f"/><path d="M118.88,26.67v5.12h13.43l2.53-2.6v-11.23l-2.53-2.6h-21.11l-2.53,2.6v22.54l2.53,2.6h23.64v-5.12h-21.03V20.48h15.89v6.19h-10.82Z" fill="#0f0f0f"/><path d="M88.57,20.48h-5.14v20.02l2.61,2.6h14.58v-5.12h-12.05V20.48Z" fill="#0f0f0f"/><path d="M88.57,15.36V5.12h-5.14V15.36h5.14v5.12h12.05v-5.12h-12.05Z" fill="#0f0f0f"/><path d="M51.88,15.36l-2.61,2.6v22.54l2.61,2.6h13.28v-5.12h-10.74V20.48h15.89v28.96h-21.03v5.12l23.64-.08,2.53-2.6V17.96l-2.53-2.6h-21.03Z" fill="#0f0f0f"/><path d="M40.29,15.36h-5.14v27.66h5.14V15.36Z" fill="#0f0f0f"/><path d="M2.61,15.36l-2.61,2.6v11.23l2.61,2.6H21.03v6.19H0v5.12H23.64l2.53-2.6v-11.31l-2.53-2.52H5.14v-6.19H26.17v-5.12H2.61Z" fill="#0f0f0f"/><path d="M40.27,5.27h-5.14v5.12h5.14V5.27Z" fill="#96fb9a"/></g></svg>                    </a>
+                </div>
+            
+                                    <ul class="site-menu" data-lenis-prevent>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu__item menu__item--depth-0 menu__item--submenu-simple-divides menu__item--submenu-divides">
+        <div class="menu__item-inner">
+            
+            <a href='#' >Products</a>
+            
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><div class='sub-menu-header'><a href='#'><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-762ad65e-f862-4407-a0e5-40f84139da71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.71 19.41"><polygon points="8.29 19.41 0 11.12 0 8.29 8.29 0 9.71 1.41 2 9.12 2 10.29 9.71 18 8.29 19.41" id="uuid-e783830b-5309-4145-ba66-6fcb5dec0c8f"/></svg>Main menu</a></div><ul class="sub-menu">    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/products/platform/' >Platform<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>Comprehensive Python-based quant infrastructure.</p>
+</div>
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><ul class="sub-menu">    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-2">
+        <div class="menu__item-inner">
+            
+            <a href='http://guide.sigtech.com' target='_blank'>Docs<span class="menu-item__icon menu-item__icon--box"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-83f15b6d-ed3b-4881-bced-db669900139f" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11"><g id="uuid-d47febd3-3283-472c-a072-7986b53c061d" data-name="Layer 1"><polygon points="10.71 1 10.01 .3 9.71 0 5.5 0 5.5 1 9.29 1 9.3 1.01 4.15 6.15 4.85 6.85 10 1.71 10 5.5 11 5.5 11 1.29 10.71 1" stroke-width="0"/><polygon points="9 11 0 11 0 2 3.5 2 3.5 3 1 3 1 10 8 10 8 7.5 9 7.5 9 11" stroke-width="0"/></g></svg></span></a>
+            
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/products/api/' >SDK<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>Complete flexibility with a streamlined feature set.</p>
+</div>
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><ul class="sub-menu">    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-2">
+        <div class="menu__item-inner">
+            
+            <a href='https://github.com/SIGTechnologies/sigtech-python' target='_blank'>Python SDK<span class="menu-item__icon menu-item__icon--box"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-83f15b6d-ed3b-4881-bced-db669900139f" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11"><g id="uuid-d47febd3-3283-472c-a072-7986b53c061d" data-name="Layer 1"><polygon points="10.71 1 10.01 .3 9.71 0 5.5 0 5.5 1 9.29 1 9.3 1.01 4.15 6.15 4.85 6.85 10 1.71 10 5.5 11 5.5 11 1.29 10.71 1" stroke-width="0"/><polygon points="9 11 0 11 0 2 3.5 2 3.5 3 1 3 1 10 8 10 8 7.5 9 7.5 9 11" stroke-width="0"/></g></svg></span></a>
+            
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/products/chatgpt/' >SigTech AI<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>No code — just ask for data and test ideas!</p>
+</div>
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu__item menu__item--depth-0 menu__item--submenu-simple">
+        <div class="menu__item-inner">
+            
+            <a href='/clients/' >Client stories</a>
+            
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><div class='sub-menu-header'><a href='#'><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-762ad65e-f862-4407-a0e5-40f84139da71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.71 19.41"><polygon points="8.29 19.41 0 11.12 0 8.29 8.29 0 9.71 1.41 2 9.12 2 10.29 9.71 18 8.29 19.41" id="uuid-e783830b-5309-4145-ba66-6fcb5dec0c8f"/></svg>Main menu</a></div><ul class="sub-menu">    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/client-stories/truepenny-capital-management/' >Emerging manager</a>
+            
+        </div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/client-stories/superannuation/' >Australian superannuation fund</a>
+            
+        </div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/client-stories/global-asset-manager/' >Global asset manager</a>
+            
+        </div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/client-stories/global-bank/' >Global bank</a>
+            
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu__item menu__item--depth-0 menu__item--submenu-simple">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/insights/' >Insights</a>
+            
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><div class='sub-menu-header'><a href='#'><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-762ad65e-f862-4407-a0e5-40f84139da71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.71 19.41"><polygon points="8.29 19.41 0 11.12 0 8.29 8.29 0 9.71 1.41 2 9.12 2 10.29 9.71 18 8.29 19.41" id="uuid-e783830b-5309-4145-ba66-6fcb5dec0c8f"/></svg>Main menu</a></div><ul class="sub-menu">    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/newsroom/' >Newsroom<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p class="site-banner__title" data-animate="words">The latest research and industry coverage</p>
+</div>
+        </div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/solutions/research/risk-premia-strategies/' >Risk premia strategies<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>Explore 25 risk premia strategies as interactive widgets</p>
+</div>
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu__item menu__item--depth-0 menu__item--submenu-simple">
+        <div class="menu__item-inner">
+            
+            <a href='#' >Company</a>
+            
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><div class='sub-menu-header'><a href='#'><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-762ad65e-f862-4407-a0e5-40f84139da71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.71 19.41"><polygon points="8.29 19.41 0 11.12 0 8.29 8.29 0 9.71 1.41 2 9.12 2 10.29 9.71 18 8.29 19.41" id="uuid-e783830b-5309-4145-ba66-6fcb5dec0c8f"/></svg>Main menu</a></div><ul class="sub-menu">    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/careers/' >Careers<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>Join the team</p>
+</div>
+        </div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/contact/' >Contact<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            <div class='menu__item-txt txt-tiny txt-styles'><p>Connect with an expert</p>
+</div>
+        </div></li>
+</ul></div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-0">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/about/' >About</a>
+            
+        </div></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu__item menu__item--depth-0">
+        <div class="menu__item-inner">
+            
+            <a href='https://sigtech.com/partnerships/' >Partnerships</a>
+            
+        </div></li>
+    <li class="menu__item--login menu__item--align-right txt-right menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu__item menu__item--depth-0 menu__item--submenu-simple">
+        <div class="menu__item-inner">
+            
+            <a href='#' ><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-fd6a84fa-8b29-493e-b9a4-1d28b8269a5d" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.41 19.71"><g id="uuid-9aaabde5-64a1-4e0b-8010-6426ef58cdc2"><path d="M9.71,12c-3.31,0-6-2.69-6-6S6.4,0,9.71,0s6,2.69,6,6-2.69,6-6,6Zm0-10c-2.21,0-4,1.79-4,4s1.79,4,4,4,4-1.79,4-4-1.79-4-4-4Z"/><path d="M18,19.71l-3.71-3.71H5.12l-3.71,3.71-1.41-1.41,4-4c.19-.19,.44-.29,.71-.29H14.71c.27,0,.52,.11,.71,.29l4,4-1.41,1.41Z"/></g></svg>Login</a>
+            
+        </div><div class='sub-menu-wrapper' data-lenis-prevent><div class='sub-menu-header'><a href='#'><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-762ad65e-f862-4407-a0e5-40f84139da71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.71 19.41"><polygon points="8.29 19.41 0 11.12 0 8.29 8.29 0 9.71 1.41 2 9.12 2 10.29 9.71 18 8.29 19.41" id="uuid-e783830b-5309-4145-ba66-6fcb5dec0c8f"/></svg>Main menu</a></div><ul class="sub-menu">    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://platform.sigtech.com/' >Enterprise platform<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            
+        </div></li>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu__item menu__item--depth-1">
+        <div class="menu__item-inner">
+            
+            <a href='https://dashboard.sigtech.com/register' >API<div class="menu__item-arrow"><?xml version="1.0" encoding="UTF-8"?><svg id="uuid-bb2e29e3-3510-451d-8157-c66a8235b4ac" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 15.41"><polygon points="13.71 0 12.29 1.41 17.59 6.71 0 6.71 0 8.71 17.59 8.71 12.29 14 13.71 15.41 20 9.12 20 6.29 13.71 0" id="uuid-e6145812-7a79-4086-a107-4704f4de11d3"/></svg></div></a>
+            
+        </div></li>
+</ul></div></li>
+                    </ul>
+                            </div>
+        </div>
+
+        <div class="site-header__toggle">
+            <a class="toggle-menu" href="#" data-site-menu="opener" aria-label="Menu">
+    <div class="toggle-menu__inner">
+        <span class="toggle-menu__line"></span>
+        <span class="toggle-menu__line"></span>
+        <span class="toggle-menu__line"></span>
+    </div>
+</a>
+        </div>
+    </div>
+
+    
+    </header>
+
+
+
+            
+                <section class='site-banner site-banner--simple section-bg--white txt-on-white' >
+                
+        <div class="site-banner__inner">
+            <div class="site-banner__content">
+                                <h1 class='site-banner__title'>API terms of service</h1>                                
+                                                                </div>
+
+            
+                    </div>
+    </section>
+
+                <section id="section-1" class="section-bg--white pv-large txt-on-white" >
+        
+
+        <div class="txt-content txt-content--align-center txt-content--width-std section section--large">
+            <div class="txt-content__inner txt-styles">
+                <p><em>Arrived here via the ChatGPT plugin store? Explore data and features: <a href="https://sigtech.com/products/chatgpt-plugin/">SigTech ChatGPT plugin</a>.</em></p>
+<hr />
+<p><b>Last Updated August 2023</b></p>
+<p><b>About Us</b></p>
+<p><span style="font-weight: 400;">We are Sig Technologies Limited, a private limited company registered in England and Wales (registered number 11686070) with its registered office at 4</span><span style="font-weight: 400;">th</span><span style="font-weight: 400;"> Floor Phoenix House, 1 Station Hill, Reading, Berkshire, United Kingdom, RG1 1NB (“SigTech”, “we” or “us”). We operate the website </span><a href="https://sigtech.com/"><span style="font-weight: 400;">https://sigtech.com/</span></a><span style="font-weight: 400;">&nbsp;</span></p>
+<p><b>1. Our contract with you</b></p>
+<p><span style="font-weight: 400;">1.1 These terms of service (</span><b>Terms</b><span style="font-weight: 400;">) apply to your use of the Services.&nbsp; They apply to the exclusion of any other terms that you seek to impose or incorporate, or which are implied by trade, custom, practice or course of dealing.&nbsp; You should print a copy of these Terms or save them to your device for future reference.&nbsp;&nbsp;</span></p>
+<p><span style="font-weight: 400;">1.2 You agree to enter into these Terms to use the Services. Your legal rights are not affected by these Terms, which apply in addition to them and do not replace them.</span><span style="font-weight: 400;"> &nbsp;</span></p>
+<p><b>2. Eligibility to use the Services&nbsp;</b></p>
+<p><span style="font-weight: 400;">2.1 To use the Services, you must meet the following requirements and such other requirements as we may notify you from time to time.&nbsp; You must:&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) register for an account by: (i) completing the sign-up form available at https://sigtech.com/products/apis/ and provide such information as we require, including your name and your email address; and (ii) then activate your account by following the prompts set out in the welcome email you receive from us and setting up an account password; and</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) upon accessing your account generate one or more API Key(s) by following the relevant prompts set out in your account dashboard; and&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(c) have accepted these Terms and our </span><a href="https://www.sigtech.com/legal/privacy-notice"><span style="font-weight: 400;">Privacy Notice.</span></a></p>
+<p><b>3. Our Services&nbsp;</b></p>
+<p>3.1 <b>Licence.</b><span style="font-weight: 400;"> Subject to the restrictions below, we grant you a non-exclusive, worldwide, non-transferable limited license to access the Services and the Materials only as necessary to: (i) cleanse and validate Customer Data provided independently by you; and/or (ii) develop trading signals and/or strategies for use by you separately and independently of SigTech; and/or (iii) for such other use case(s) as we may determine from time to time,. You may not sell, rent, lease, sublicense or redistribute any of our Services or any of the outputs resulting from your use of our Services or Materials.&nbsp;</span></p>
+<p>3.2<b> Beta Services Offering. </b><span style="font-weight: 400;">From time to time, we will communicate to you that one or more of our Services is a Beta Service Offering.&nbsp; We may discontinue the Beta Service Offering at any time, in our sole discretion, or decide not to make a Beta Service Offering generally available. To the extent you use any Beta Offerings that are only made available to a limited number of customers on an invitation basis in a non-public or private manner (collectively, &#8220;</span><b>Private Beta Offerings</b><span style="font-weight: 400;">&#8220;), such Private Beta Offerings are made available to you are strictly for testing and experimentation purposes only. You acknowledge that, by their nature, Private Beta Offerings may (a) not meet speed or performance benchmarks or expectations or results; (b) have gaps in functionality; and (c) contain bugs. Private Beta Offerings, and any information related to such Private Beta Offerings, including their existence, are considered our Confidential Information.</span></p>
+<p>3.3 <b>Availability.</b><span style="font-weight: 400;"> We shall use commercially reasonable endeavours to make the Services available 24 hours a day, seven days a week, except for:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) planned maintenance carried out during the maintenance window which is usually 6.00 am to 10.00 am UK time on Saturdays; and&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) unscheduled maintenance performed outside Normal Business Hours, provided that we have used reasonable endeavours to give you at least 1 Normal Business Hour’s notice in advance.&nbsp;</span></p>
+<p>3.4. <b>Fair use. </b><span style="font-weight: 400;">When accessing and using the Services, you shall comply with our </span><a href="https://sigtech.com/fair-usage-policy/"><span style="font-weight: 400;">Fair Usage Policy</span></a><span style="font-weight: 400;">.&nbsp;&nbsp;&nbsp;</span></p>
+<p>3.5 <b>Feedback.</b><span style="font-weight: 400;"> &nbsp;We&nbsp;own all rights, titles, and interests in any Feedback provided by&nbsp;you and&nbsp;you hereby grant to&nbsp;us a non-exclusive, non-transferable, worldwide, royalty-free, fully paid-up, perpetual, and irrevocable right and license to use such Feedback in any form and incorporate any Feedback into our products and services.&nbsp;</span></p>
+<p><b>4. Your obligations&nbsp;</b></p>
+<p><span style="font-weight: 400;">4.1 You agree to: (1) be solely responsible for all use of the Services and Materials under your account; (2)&nbsp; ensuring that you have all rights and necessary consents to use the Customer Data in connection with the Services and the quality and accuracy of the Customer Data; (3) use the Services only in accordance with these Terms, the Privacy Notice, Fair Use Policy, the applicable Materials and applicable law or regulation; (4) use commercially reasonable efforts to prevent unauthorized access to or use of the Services or the API Key and notify us promptly of any such access or use; and (5) unless you are using a Beta Service Offering, ensure that the credit card(s) you use to make payments to our third party payment provider in connection to your use of the Services remains valid in force and that you have sufficient credit on such card(s) to enable your payment for any fees or costs incurred by you;&nbsp; .&nbsp;&nbsp;&nbsp;</span></p>
+<p><b>5. Fees</b></p>
+<p><span style="font-weight: 400;">5.1 If we have communicated to you that you form part of the Beta Service Offering, your usage of the Services is provided free of charge until such time as the Beta Service Offering expires or otherwise ends.&nbsp;</span></p>
+<p><span style="font-weight: 400;">5.2 If you are paying for the Services, fees are payable via Stripe (or such other provider as we may designate from time to time), and you shall provide valid payment details in order to pay the applicable fees relevant to Data Usage of the Services.&nbsp;</span></p>
+<p><span style="font-weight: 400;">5.3 The fees for the use of the Services are charged monthly in arrears and will be deducted automatically from your credit card at the end of each month.&nbsp;</span></p>
+<p><span style="font-weight: 400;">5.4 If your account does not have sufficient funds or your credit card declines a charge for the fees due, we may suspend the provision of the Services to your account until the fees due are paid in full.&nbsp; We may, in our absolute discretion, terminate your account at any time should you fail to pay any fees incurred by you in connection with the Services.&nbsp;</span></p>
+<p><span style="font-weight: 400;">5.5 You will notify us in writing within sixty (60) days of the date Stripe bills you for any fees that you wish to dispute. Where you are disputing any fees, you must act reasonably and in good faith and will cooperate diligently with us to resolve the dispute.&nbsp;</span></p>
+<p><span style="font-weight: 400;">5.6 All sums payable are exclusive of taxes (including withholding taxes, value added tax (VAT), or other taxes, but excluding income taxes imposed on us) for which you shall be liable and charged in addition thereto. If you are obliged to withhold any portion of the fees, then we shall be entitled to receive from you such amounts as will ensure that the net receipt, after tax and duties, to us in respect of the fees is the same as it would have been had the relevant payment not been subject to tax or duties.</span></p>
+<p><span style="font-weight: 400;">5.7 We reserve the right to increase the charges and we will use reasonable endeavours to give you not less than 60 (sixty) days’ prior notice in writing of any increase to the charges. If you do not agree with the increase in charges, you must stop using the Services immediately.&nbsp;</span></p>
+<p><b>6. Disclaimers&nbsp;</b></p>
+<p><span style="font-weight: 400;">6.1 Except as expressly provided for herein, the Services, the API Key, the Materials and all related components and information are provided by us on an ‘as is’ and ‘as available’ basis without any warranties of any kind, and we expressly disclaim any and all warranties, whether express or implied, including the implied warranties of merchantability, title, fitness for a particular purpose, and non-infringement. You acknowledge that we do not warrant that the Services will be uninterrupted, timely, secure or error-free.</span></p>
+<p><span style="font-weight: 400;">6.2 Nothing contained in the Services, or any Outputs constitutes a solicitation, recommendation or offer by us or any of our third party service providers to buy or sell financial instruments or securities. The Services and the Outputs do not comprise financial or investment advice. The Services and any Outputs are provided for informational purposes only. By using the Services, you assume sole responsibility for the use by you or others of any information provided to you in connection with the Services, including the Outputs.</span></p>
+<p><b>7. Limitations of Liability</b></p>
+<p><span style="font-weight: 400;">7.1 Except as expressly and specifically provided under these Terms:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) you assume sole responsibility for results obtained from your use of the Services and Outputs and for the conclusions drawn from such use;&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) we shall have no responsibility for any transactions or decisions you make based on the Outputs and;&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(c) all warranties, representations, conditions, and all other terms of any kind whatsoever implied by statute or common law are, to the fullest extent permitted by applicable law, excluded from these Terms.</span></p>
+<p><span style="font-weight: 400;">7.2 Subject to clauses 7.3 and 7.4, the maximum aggregate liability of us to you, whether in contract, tort or otherwise in connection with these Terms, shall not exceed the amounts paid by you hereunder for the Services giving rise to the liability during the twelve (12) month period preceding the first incident out of which the liability arose.&nbsp;</span></p>
+<p><span style="font-weight: 400;">7.3 Subject to clause 7.4, and to the extent permitted by law, we will not be liable for any of the following:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) any Losses suffered as a result of any inability to access or use the Services;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) any Losses resulting from or in connection with the Outputs and;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(c) any special, indirect, incidental or consequential damages, loss of profits, loss of anticipated savings, loss of business or business opportunities, loss of goodwill or loss of data, in each case, regardless of whether we were aware of the possibility of such loss or damage occurring, and, in the case of (a) and (b) above, arising out of your and/or any User’s use of and/or reliance on the Services, the Outputs or otherwise in connection with these Terms.&nbsp;</span></p>
+<p><span style="font-weight: 400;">7.4 Nothing in these Terms excludes our liability:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) for death or personal injury caused by out negligence our employees, agents or subcontractors; or</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) fraud or fraudulent misrepresentation; or</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(c) to use reasonable care and skill; or</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(d) for the breach of your legal rights in relation to the Services.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We are not responsible for any loss or damage that you suffer as a result of your own breach of these Terms, or as a result of any software failure by us or any third party.&nbsp;</span></p>
+<p><span style="font-weight: 400;">7.5 We will be liable to you if we did not provide the Services with reasonable care or skill, if this is the case, we will either perform the Services again free of charge and if that fails, provide you with an option of a (i) refund or (ii) account credit.&nbsp; However, we will not be liable for damage that you could have avoided by following our advice.&nbsp;</span></p>
+<p><span style="font-weight: 400;">7.6 We are not liable for business losses. The Services are for individual use. If you use the Services for any commercial, business or resale purpose we will have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity.</span></p>
+<p><span style="font-weight: 400;">7.7 You acknowledge that the Services have not been developed to meet your individual requirements, and that it is therefore your responsibility to ensure that the facilities and functions of the Services as described in the Materials meet your requirements.</span></p>
+<p><b>8. Customer Data&nbsp;</b></p>
+<p><span style="font-weight: 400;">8.1 You shall have sole responsibility for the legality, reliability, integrity, accuracy and quality of all such Customer Data. We shall not be responsible for any loss, destruction, alteration or disclosure of Customer Data caused by any third party or us.</span></p>
+<p><b>9. Intellectual Property Rights&nbsp;</b></p>
+<p><span style="font-weight: 400;">9.1 You acknowledge that all Intellectual Property Rights in the Services and Materials shall vest in us and you agree that you shall not have any rights in respect of the Intellectual Property Rights in, or in relation to, the Services or the Materials. No rights are granted to you other than as set forth in these Terms.&nbsp;</span></p>
+<p><span style="font-weight: 400;">9.2 You will own the Intellectual Property Rights in the Outputs and the Customer Data, we acknowledge that we shall neither own, nor have any rights in respect of, the Intellectual Property Rights in, or in relation to, the Outputs.</span></p>
+<p><b>10. Third Party Providers and Market Data</b></p>
+<p><span style="font-weight: 400;">10.1 Any Market Data which is used by us when providing the Services is subject to the rights, licences and permissions obtained by us from Third Party Providers. A Third Party Provider may impose restrictions, such as amending, suspending the usage or revocation of its Market Data and may change them from time to time.&nbsp; We shall not be in breach these Terms or otherwise liable for any failure or delay in the performance of the Services if such delay or failure results from the suspension or revocation of our access to Market Data by a Third-Party Provider.&nbsp;</span></p>
+<p><b>11. Changes, Suspension and Termination&nbsp;</b></p>
+<p>11.1 <b>Changes.</b><span style="font-weight: 400;"> You acknowledge that the features and functions of the Services may change over time; provided, however, we will not materially decrease the overall functionality of the Services. It is your responsibility to ensure the Outputs are compatible with your application(s) and/or software you intend to use for the Services.&nbsp; If any such changes become necessary, we will use commercially reasonable efforts to notify you at least thirty (30) days prior to implementation unless such material updates result from changes in laws, regulations, or requirements from third party service providers.</span></p>
+<p>11.2 <b>Suspension and Termination by Us</b><span style="font-weight: 400;">. We may automatically terminate your access to the Services without notice if you fail to comply with these Terms. We may terminate these Terms or restrict, suspend, or terminate your use of the Services at any time, including if we determine that your use violates these Terms, is improper, substantially exceeds or differs from normal use by other users, involves fraud or misuse of the Services, harms our interests or infringes our Intellectual Property Rights. If your account does not have sufficient funds or your credit card declines a charge for the charges due, we may suspend the provision of the Services to your account until the charges due are paid in full. You are prohibited from creating new accounts until the Fees due are paid in full.</span></p>
+<p>11.3 <b>Termination by you</b><span style="font-weight: 400;">. You may cancel your account at any time by revoking your API key(s). We are not liable for any failure with respect to cancelling the Services.&nbsp;</span></p>
+<p><b>12. Consequences of Termination</b></p>
+<p><span style="font-weight: 400;">12.1 On termination of these Terms for any reason:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) all rights granted to you under these Terms shall cease; and&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) you shall cease all use of the Services and the Materials.&nbsp;</span></p>
+<p><span style="font-weight: 400;">12.2 Termination of our contract with you shall not affect or prejudice any of the parties’ accrued or outstanding rights or obligations at the time of termination; and the provisions of these Terms which expressly, or by their nature, survive termination.</span></p>
+<p><b>13. Data Protection</b></p>
+<p><span style="font-weight: 400;">13.1 In this clause 13:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) “</span><b>Account&nbsp;Data</b><span style="font-weight: 400;">” means personal data that relates to your relationship with us, including your name and contact information to access your account.&nbsp; Account Data also includes any personal data we may need to collect for the purpose of identity verification (including providing the API Key(s)).&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) “</span><b>Data Protection Legislation</b><span style="font-weight: 400;">” shall mean the Data Protection Act 2018, GDPR and the UK GDPR (as applicable) and any other applicable laws relating to the protection of personal data and the privacy of individuals (all as amended, updated or re-enacted from time to time);</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(c) “</span><b>GDPR</b><span style="font-weight: 400;">” means the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation);</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(d) “</span><b>Personal Data</b><span style="font-weight: 400;">” and “</span><b>Controller</b><span style="font-weight: 400;">” shall have the same meaning as in the Data Protection Legislation; and&nbsp;</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(e) “</span><b>UK GDPR</b><span style="font-weight: 400;">” means the GDPR as it forms part of the law of England and Wales, Scotland and Northern Ireland by virtue of section 3 of the European Union (Withdrawal) Act 2018 and as amended by the Data Protection, Privacy and Electronic Communications (Amendments etc.) (EU Exit) Regulations 2019 (SI 2019/419).</span></p>
+<p><span style="font-weight: 400;">13.2 The parties acknowledge that we act as a Controller in respect of our use of Personal Data relating to you. With regard to the processing of the Account Data, you are a controller, and we are an independent controller, not a joint controller with you. We will process Account Data as a controller in order to (a) manage the relationship with you; (b) carry out core business operations, such as accounting and filing taxes; (c) detect, prevent, or investigate security incidents, fraud, and other abuse or misuse of the Services; (d) perform identity verification via the API Key(s) and; (e) as otherwise permitted under Data Protection Laws and in accordance with this these Terms and the Privacy Notice.</span></p>
+<p><span style="font-weight: 400;">13.3 We may use Cookies to monitor your use of the Services in accordance with the terms of the </span><a href="https://sigtech.com/cookie-policy/"><span style="font-weight: 400;">Cookie Policy</span></a><span style="font-weight: 400;"> (which shall be incorporated herein by reference) and to ensure compliance with the terms of these Terms.&nbsp;</span></p>
+<p><b>14. Confidentiality&nbsp;</b></p>
+<p><span style="font-weight: 400;">14.1 Neither party shall disclose the other party’s Confidential Information to a third party, except that each party may disclose the other’s Confidential Information:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) to its employees, officers, representatives, service providers, subcontractors or advisers who need to know such information for the purposes of carrying out the party’s obligations under these Terms, provided always that such recipients shall be made aware of the confidential nature of the Confidential Information they receive and shall agree to reasonable confidentiality undertakings to protect such Confidential Information; or</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) as may be required by law, a court of competent jurisdiction or any governmental or regulatory authority;&nbsp;</span></p>
+<p><span style="font-weight: 400;">14.2 Neither party shall use the other party’s Confidential Information for any purpose other than to perform its obligations under these Terms and you will on our written request or on termination of these Terms:</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(a) cease to use our Confidential Information; and</span></p>
+<p style="padding-left: 40px;"><span style="font-weight: 400;">(b) as soon as reasonably practicable return to us or securely destroy (or in respect of information held electronically permanently delete (to the extent technically feasible) all of our Confidential Information in your possession.</span></p>
+<p><span style="font-weight: 400;">14.3 You acknowledge that details of the Services, and the results of any performance tests of the Services, constitutes our Confidential Information.</span></p>
+<p><span style="font-weight: 400;">14.4 The above provisions of this clause 14 shall survive termination of these Terms, however arising.</span></p>
+<p><b>15. General</b></p>
+<p>15.1 <b>Notices. </b><span style="font-weight: 400;">Notices to us will be provided via email to&nbsp;</span><a href="/cdn-cgi/l/email-protection#1e727b797f725e6d77796a7b7d76307d7173"><span style="font-weight: 400;"><span class="__cf_email__" data-cfemail="d1bdb4b6b0bd91a2b8b6a5b4b2b9ffb2bebc">[email&#160;protected]</span></span></a><span style="font-weight: 400;">. All notices to you will be provided via email to the relevant email address you designate in your account.</span></p>
+<p>15.2 <b>Waiver.</b><span style="font-weight: 400;"> No failure or delay by either party to exercise or enforce any right or remedy under these Terms shall constitute a waiver, or prejudice or restrict that party’s further right to exercise that, or any other, right or remedy.</span></p>
+<p>15.3 <b>Severability. </b><span style="font-weight: 400;">If any provision of these Terms is held to be invalid or unenforceable (in whole or in part) by any law, rule, order or regulation of any government or by the final determination of any court of competent jurisdiction, such invalidity or unenforceability shall not affect the other part of that provision or the other provisions of these Terms which shall remain in full force and effect.</span></p>
+<p>15.4 <b>Revision of terms. </b><span style="font-weight: 400;">We may update these Terms from time to time. We will provide you with written notice of any&nbsp;material&nbsp;updates at least thirty (30) days prior to the date we make the material update, unless such material updates result from changes in laws, regulations, or requirements from third party service providers. Notices for material updates to these Terms will be given in accordance with clause 15.1. Following such notice, your continued use of the Services on or after the date the updated version of these Terms is effective and binding, as indicated at the top of these Terms, constitutes your acceptance of the updated version of these Terms. The updated version of these Terms supersedes all prior versions.&nbsp; If you do not agree to the updated version of the Terms, you must stop using the Services immediately.</span></p>
+<p>15.5 <b>Governing law and jurisdiction. </b><span style="font-weight: 400;">These Terms (including any relevant non-contractual obligations) shall be governed by and construed in accordance with the laws of England and Wales and each party irrevocably agrees that all proceedings arising out of or in connection with these Terms (including any non-contractual disputes or claims) shall be subject to the exclusive jurisdiction of the courts of England and Wales.</span></p>
+<p><b>16. Definitions&nbsp;</b></p>
+<p><span style="font-weight: 400;">The following definitions and rules of interpretation in this clause apply to these Terms:</span></p>
+<p><b>API(s) </b><span style="font-weight: 400;">means our application programming interface allowing you to send and receive data.&nbsp;</span></p>
+<p><b>API Keys </b><span style="font-weight: 400;">means a unique identifier of numbers and letters used to (i) access, connect to, or perform, an API call in connection with the Services and; (ii) track your billing via Data Usage within your account.&nbsp;&nbsp;</span></p>
+<p><b>Beta Service Offering</b><span style="font-weight: 400;">: means Services that are identified as alpha, beta, not generally available, limited release, developer preview, or any similar Services offered by us.&nbsp;</span></p>
+<p><b>Business Day </b><span style="font-weight: 400;">means a day other than a Saturday, Sunday or public holiday, on which banks are open for business in the United Kingdom.</span></p>
+<p><b>Confidential Information:&nbsp;</b><span style="font-weight: 400;"> means any information of a confidential nature (regardless of whether or not such information is recorded in any physical, electronic or other media) concerning either you or us which is confidential, commercially sensitive and not in the public domain (whether or not marked confidential).</span></p>
+<p><b>Cookie Policy </b><span style="font-weight: 400;">means our cookie policy as published online at </span><a href="https://sigtech.com/cookie-policy/"><span style="font-weight: 400;">https://sigtech.com/cookie-policy/</span></a><span style="font-weight: 400;"> and as may be updated or amended from time to time.</span></p>
+<p><b>Cookies </b><span style="font-weight: 400;">means small data files on a device that store a user’s account, password and potentially other information.</span></p>
+<p><b>Customer Data </b><span style="font-weight: 400;">means any data, including code, financial and/or transactional data or data files, you submit to your application(s) and/or software by you or on your behalf for the purpose of using the Services.</span></p>
+<p><b>Data Usage </b><span style="font-weight: 400;">means the calculation of your cloud computing usage of the Services via your API Keys, which is used to calculate the fees payable by you under these Terms.&nbsp;</span></p>
+<p><b>Fair Usage Policy </b><span style="font-weight: 400;">means</span> <span style="font-weight: 400;">Schedule 1 of these Terms.</span></p>
+<p><b>Feedback </b><span style="font-weight: 400;">means any suggestions, enhancement requests, recommendations, corrections, or other feedback provided by you relating to the Platform or the Services or any other products and/or services we may offer to you.&nbsp;</span></p>
+<p><b>Intellectual Property Rights</b><span style="font-weight: 400;"> means</span> <span style="font-weight: 400;">patents, trade marks, rights (registered or unregistered) in any designs, applications for any of the foregoing, trade or business names, copyright (including rights in computer software) and topography rights, know-how, processes, names of customers, suppliers and third parties, and other proprietary knowledge and information, internet domain names, rights protecting goodwill and reputation, database rights (including rights of extraction) and all rights and forms of protection of a similar nature to any of the foregoing or having equivalent effect anywhere in the world and all rights under licences and consents in respect of any of the rights and forms of protection mentioned in this definition.</span></p>
+<p><b>Losses </b><span style="font-weight: 400;">means all losses, liabilities, damages, costs, expenses (including reasonable legal fees) and charges of every description arising from or in connection with these Terms.</span></p>
+<p><b>Market Data </b><span style="font-weight: 400;">means financial data licensed to us by Third Party Providers for use in connection with the Services.&nbsp;</span></p>
+<p><b>Materials </b><span style="font-weight: 400;">means the manuals or usage guides on how to use the Services as made available by us to you from time to time.</span></p>
+<p><b>Normal Business Hours </b><span style="font-weight: 400;">means 8.00 am to 5.00 pm local UK time on Business Days.</span><b>&nbsp;</b></p>
+<p><b>Output </b><span style="font-weight: 400;">means the resulting data as a result of combining, processing, changing, converting or calculating the Market Data or any portion thereof and the Customer Data, returning data to you. Outputs does not include: (1) Market Data, (2) does not bear resemblance to the underlying Market Data (3) cannot be readily reverse engineered, disassembled or decompiled so that a third party may access the Market Data via the Outputs.&nbsp;</span></p>
+<p><b>Personal Data </b><span style="font-weight: 400;">means the definition given to it in clause 13.1.</span></p>
+<p><b>Privacy Notice </b><span style="font-weight: 400;">means</span> <span style="font-weight: 400;">our privacy notice as published online at&nbsp;</span><a href="https://www.sigtech.com/legal/privacy-notice"><span style="font-weight: 400;">https://www.sigtech.com/legal/privacy-notice</span></a><span style="font-weight: 400;">, and as may be updated or amended from time to time.</span><b>&nbsp;</b></p>
+<p><b>Services</b><span style="font-weight: 400;"> means data validations services, financial strategy services and any other services we provide to you as a result of the Outputs using the API Keys.&nbsp;&nbsp;</span></p>
+<p><b>Stripe </b><span style="font-weight: 400;">means Stripe Payments UK, Ltd, a limited company, with company registered office: 7th Floor, The Bower Warehouse, 211 Old Street, London, EC1V 9NR United Kingdom and is regulated by the Financial Conduct Authority as a payment services provider with its firm reference number: 900461.&nbsp;</span></p>
+<p><b>Third Party Providers </b><span style="font-weight: 400;">means any third party which from time to time provides Market Data, information, data, content, hardware, software or other services to us.</span></p>
+            </div>
+        </div>
+    </section>
+            <footer class="site-footer pv-medium section-bg--gray txt-on-gray">
+    <div class="site-footer__inner section section--large">
+        <div class="site-footer__top">
+                            <div class="site-footer__top-txt txt-styles">
+                    <h6 class="subtitle">Stay Connected</h6>
+<h3>Join our mailing list</h3>
+                </div>
+            
+                            <div class="site-footer__top-main">
+                                            <div class="site-footer__top-form">
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript"></script>
+                <div class='gf_browser_safari gform_wrapper gravity-theme gform-theme--no-framework inline-form_wrapper' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_3' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_3' id='gform_3' class='inline-form' action='/api-terms-of-service/' data-formid='3' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6LdU_F0jAAAAAOCLxhYWEkMVwORqlc515BJgejlp' data-tabindex='0'><input id="input_254475cdb88ecb567660fd9e2f4750d0" class="gfield_recaptcha_response" type="hidden" name="input_254475cdb88ecb567660fd9e2f4750d0" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_3' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_3_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--has-description field_description_below hidden_label field_validation_below gfield_visibility_visible gfield_type_email"  data-field-class="gfield_type_email" data-js-reload="field_3_1" ><label class='gfield_label gform-field-label' for='input_3_1'>Email Address<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_3_1' type='email' value='' class='large'   placeholder='Enter email address' aria-required="true" aria-invalid="false" aria-describedby="gfield_description_3_1" />
+                        </div><div class='gfield_description' id='gfield_description_3_1'>At SigTech we are committed to your privacy. By subscribing to our mailing list, you confirm that you would like to receive email updates from us about our news, content, products and services we think may interest you. You may unsubscribe from these communications at any time. For more information, please check out our <a href="/privacy" target="_blank">Privacy Notice</a>. </div></div></div></div>
+        <div class='gform_footer top_label'> <button class='gform_button' id='gform_submit_button_3' data-gf-id='3'><span>Submit</span></button> <input type='hidden' name='gform_ajax' value='form_id=3&amp;title=&amp;description=&amp;tabindex=0&amp;theme=gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='is_submit_3' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='3' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_3' value='WyJbXSIsImQ4Y2I5MzliNjY5ZmFhNzZiY2EzYWJhZWE0MWFlNTE4Il0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_3' id='gform_target_page_number_3' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_3' id='gform_source_page_number_3' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_3' id='gform_ajax_frame_3' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 3, 'https://sigtech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_3').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_3');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_3').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_3').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_3').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_3').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_3').val();gformInitSpinner( 3, 'https://sigtech.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [3, current_page]);window['gf_submitting_3'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_3').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [3]);window['gf_submitting_3'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_3').text());}, 50);}else{jQuery('#gform_3').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "3", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_3" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_3";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_3" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [3, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 3, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+                        </div>
+                                        
+                    <ul class='social site-footer__top-social'>    <li class="social__item social__item--linkedin">
+        <a href='https://www.linkedin.com/company/sigtechltd/' target='_blank' aria-label="Linkedin profile" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="19.99919" height="19.99973" viewBox="0 0 19.99919 19.99973"><g id="fe136b25-4881-49b9-94a5-b6a03d4ecc6f" data-name="Layer 2"><path d="M18.51968,0H1.47513A1.45943,1.45943,0,0,0,0,1.442V18.55657a1.46037,1.46037,0,0,0,1.47513,1.44316H18.51968a1.46312,1.46312,0,0,0,1.47951-1.44316V1.442A1.46219,1.46219,0,0,0,18.51968,0ZM5.93254,17.04187H2.96328V7.49773H5.93254ZM4.44872,6.19373A1.7202,1.7202,0,1,1,6.168,4.47341,1.71943,1.71943,0,0,1,4.44872,6.19373ZM17.04245,17.04187h-2.966V12.40055c0-1.10676-.019-2.53062-1.54132-2.53062-1.54345,0-1.77894,1.20631-1.77894,2.45141v4.72053H7.79341V7.49773h2.84338V8.80247h.04069A3.116,3.116,0,0,1,13.484,7.26088c3.00339,0,3.55847,1.97622,3.55847,4.54669Z" id="ba72ab1a-fa22-4263-a27c-4c2c29ed7c4f" data-name="Layer 1"/></g></svg>
+        </a>
+    </li>    <li class="social__item social__item--twitter">
+        <a href='https://twitter.com/sigtech_ai' target='_blank' aria-label="Twitter profile" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1226.37" viewBox="0 0 1200 1226.37"><g id="ef84c031-f57a-421c-9daf-ec8d09810474" data-name="Layer 2"><path d="M714.163,519.284,1160.89,0H1055.03L667.137,450.887,357.328,0H0L468.492,681.821,0,1226.37H105.866L515.491,750.218,842.672,1226.37H1200L714.137,519.284ZM569.165,687.828l-47.468-67.894L144.011,79.6944H306.615L611.412,515.685l47.468,67.894,396.2,566.72107H892.476L569.165,687.854Z" id="bf39af53-3d8d-4b83-b55f-15a0d6ac2854" data-name="Layer 1"/></g></svg>
+        </a>
+    </li>    <li class="social__item social__item--youtube">
+        <a href='https://www.youtube.com/channel/UCMU8sA9zIibTfTQ5xPJexbg' target='_blank' aria-label="Youtube profile" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.09088" viewBox="0 0 20 14.09088"><g id="a7849c78-2bbf-4450-9472-d56a866078e3" data-name="Layer 2"><path d="M19.58208,2.20032A2.51307,2.51307,0,0,0,17.8139.42062C16.25419,0,10,0,10,0S3.74581,0,2.18615.42062A2.513,2.513,0,0,0,.41792,2.20032,26.36191,26.36191,0,0,0,0,7.04542a26.36226,26.36226,0,0,0,.41792,4.84514,2.513,2.513,0,0,0,1.76823,1.7797C3.74581,14.09088,10,14.09088,10,14.09088s6.25419,0,7.8139-.42062a2.51307,2.51307,0,0,0,1.76818-1.7797A26.36226,26.36226,0,0,0,20,7.04542,26.36191,26.36191,0,0,0,19.58208,2.20032ZM7.95454,10.01918V4.0717l5.22727,2.97385Z" id="efaaf8f9-0793-4d33-9aba-b6c66e066349" data-name="Layer 1"/></g></svg>
+        </a>
+    </li></ul>                </div>
+                    </div>
+
+                    
+                            <nav class="site-footer__menu-cols">
+                                                                    <div class="site-footer__menu-col">
+                            <h6 class="site-footer__menu-title" data-mobile-toggle-target="footer-col-1">
+                                Products                            </h6>
+
+                            <ul class="site-footer__menu" data-mobile-toggle="footer-col-1">
+                                <li id="menu-item-3181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3181"><a href="https://sigtech.com/products/platform/">Platform</a></li>
+<li id="menu-item-3700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700"><a href="https://sigtech.com/products/api/">SDK</a></li>
+<li id="menu-item-3955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3955"><a href="https://sigtech.com/products/chatgpt/">ChatGPT integration</a></li>
+                            </ul>
+                        </div>
+                                                                    <div class="site-footer__menu-col">
+                            <h6 class="site-footer__menu-title" data-mobile-toggle-target="footer-col-2">
+                                Client stories                            </h6>
+
+                            <ul class="site-footer__menu" data-mobile-toggle="footer-col-2">
+                                <li id="menu-item-3701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3701"><a href="https://sigtech.com/client-stories/truepenny-capital-management/">Emerging manager</a></li>
+<li id="menu-item-3702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3702"><a href="https://sigtech.com/client-stories/superannuation/">Superannuation fund</a></li>
+<li id="menu-item-3703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3703"><a href="https://sigtech.com/client-stories/global-asset-manager/">Asset manager</a></li>
+<li id="menu-item-3704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3704"><a href="https://sigtech.com/client-stories/global-bank/">Bank</a></li>
+                            </ul>
+                        </div>
+                                                                    <div class="site-footer__menu-col">
+                            <h6 class="site-footer__menu-title" data-mobile-toggle-target="footer-col-3">
+                                Resources                            </h6>
+
+                            <ul class="site-footer__menu" data-mobile-toggle="footer-col-3">
+                                <li id="menu-item-3750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3750"><a target="_blank" rel="noopener" href="http://guide.sigtech.com">Platform docs</a></li>
+<li id="menu-item-3751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3751"><a target="_blank" rel="noopener" href="https://api.sigtech.com/docs">API docs</a></li>
+<li id="menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1133"><a href="https://sigtech.com/insights/">Insights</a></li>
+<li id="menu-item-1132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1132"><a href="https://sigtech.com/glossary/">Glossary</a></li>
+<li id="menu-item-1234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1234"><a href="https://sigtech.com/newsroom/">Newsroom</a></li>
+<li id="menu-item-3182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3182"><a href="https://sigtech.com/security/">Security</a></li>
+                            </ul>
+                        </div>
+                                                                    <div class="site-footer__menu-col">
+                            <h6 class="site-footer__menu-title" data-mobile-toggle-target="footer-col-4">
+                                Company                            </h6>
+
+                            <ul class="site-footer__menu" data-mobile-toggle="footer-col-4">
+                                <li id="menu-item-1134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1134"><a href="https://sigtech.com/about/">About</a></li>
+<li id="menu-item-3006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="https://sigtech.com/careers/">Careers</a></li>
+<li id="menu-item-1235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1235"><a href="https://sigtech.com/contact/">Contact</a></li>
+                            </ul>
+                        </div>
+                                                                    <div class="site-footer__menu-col">
+                            <h6 class="site-footer__menu-title" data-mobile-toggle-target="footer-col-5">
+                                Legal                            </h6>
+
+                            <ul class="site-footer__menu" data-mobile-toggle="footer-col-5">
+                                <li id="menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1157"><a href="https://sigtech.com/customer-terms-of-service/">Platform terms</a></li>
+<li id="menu-item-3705" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3579 current_page_item menu-item-3705"><a href="https://sigtech.com/api-terms-of-service/" aria-current="page">API terms</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150"><a href="https://sigtech.com/website-terms-of-use/">Website terms</a></li>
+<li id="menu-item-2770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2770"><a rel="privacy-policy" href="https://sigtech.com/privacy/">Privacy</a></li>
+                            </ul>
+                        </div>
+                                    </nav>
+                    
+                    <div class="site-footer__bottom">
+                                    <div class="site-footer__award-logo">
+                        <img class="img-full" src='https://sigtech.com/wp-content/uploads/2023/03/hedgeweek_awards_logos_1.svg' alt="" width='0' height='0' loading="lazy">                    </div>
+                
+                                    <div class="site-footer__award-logo">
+                        <img class="img-full" src='https://sigtech.com/wp-content/uploads/2023/03/hedgeweek_awards_logos_2.svg' alt="" width='0' height='0' loading="lazy">                    </div>
+                
+                <p class="site-footer__copyright">
+                    © 2024 SIG Technologies Limited                </p>
+            </div>
+            </div>
+</footer>
+        </div><!--end .page-wrap-->
+
+        <!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/8647283.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/themes/sigtech/dist/js/app.min.js?ver=1701869405" id="sigtech-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/themes/sigtech/dist/js/ajax.min.js?ver=1701869405" id="sigtech-ajax-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-extra">
+/* <![CDATA[ */
+var gforms_recaptcha_recaptcha_strings = {"site_key":"6LdU_F0jAAAAAOCLxhYWEkMVwORqlc515BJgejlp","ajaxurl":"https:\/\/sigtech.com\/wp-admin\/admin-ajax.php","nonce":"4cc34c54b2"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://www.google.com/recaptcha/api.js?render=6LdU_F0jAAAAAOCLxhYWEkMVwORqlc515BJgejlp&amp;ver=1.5.0" id="gforms_recaptcha_recaptcha-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-after">
+/* <![CDATA[ */
+(function($){grecaptcha.ready(function(){$('.grecaptcha-badge').css('visibility','hidden');});})(jQuery);
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://sigtech.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://sigtech.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://sigtech.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.8.9" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/sigtech.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/sigtech.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/sigtech.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"0a0a1220c0c71fab177e6953373faa71","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.8.9" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.8.9" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=50c7bea9c2320e16728e44ae9fde5f26" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=54e7080aa7a02c83aa61fae430b9d869" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"0a0a1220c0c71fab177e6953373faa71"}}},"hmr_dev":"","public_path":"https:\/\/sigtech.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=bab19fd84843dabc070e73326d787910" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" defer src="https://sigtech.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=1.5.0" id="gforms_recaptcha_frontend-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 3) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "3", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_3" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_3";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_3" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [3, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 3, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+
+                
+        <svg height="0" style="height: 0;">
+    <filter id="pixelate" x="0" y="0">
+        <feFlood x="4" y="4" height="1" width="1"/>
+        <feComposite width="10" height="10" id="pixelateComposite"/>
+        <feTile result="a"/>
+        <feComposite in="SourceGraphic" in2="a" operator="in"/>
+        <feMorphology operator="dilate" radius="5" id="pixelateMorph"/>
+    </filter>
+</svg>
+    </body>
+</html>

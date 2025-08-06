@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/dist/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 禁止页面缩放 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="baidu-site-verification" content="codeva-BRDDkKUc5Y" />
+    <title>LuckyCola</title>
+    <meta name="description" content="费图床是一款提供高质量图片上传与分享的平台，为用户提供免费的图片托管服务。聊天AI是一款领先的智能对话机器人，旨在为用户提供全面式人工智能交互体验通过免费图床，您可以将您的图片快速上传到云端，并生成独一无二的链接方便分享。站监控与API提供可靠的网站运行状态监测与管理解决方案，帮助用户实时了解网站的运行情况并及时处理潜在问题。此外，我们还提供灵活易用的API接口，方便用户进行自定义监控和集成。选择网站监控与API，保障您的网站始终高效稳定运行！">
+    <meta name="keywords" content="免费图床,图片托管服务,聊天AI,智能对话机器人,ChatGPT,网站监控与免费API,文心一言,AI绘画绘图,免费api">
+    <script src="//pv.sohu.com/cityjson?ie=utf-8" defer></script>
+    <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/css/pluginsCss.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/plugins.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/css/luckysheet.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/assets/iconfont/iconfont.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/expendPlugins/chart/chartmix.css' /> -->
+    <style>
+      #preloader-wrapper-box {
+        position: fixed;
+        z-index: 9999999999;
+        background-color: rgba(0, 0, 0, .8);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      .preloader-wrapper {
+        position: absolute;
+        display: inline-block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        /* margin: 50px; */
+      }
+      .preloader-wrapper:before {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background: blue;
+        content: "";
+        position: absolute;
+        background: #9b59b6;
+        animation: preloader_before 2s infinite ease-in-out;
+      }
+
+      .preloader-wrapper:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background: blue;
+        content: "";
+        position: absolute;
+        background: #2ecc71;
+        left: 22px;
+        animation: preloader_after 1.5s infinite ease-in-out;
+      }
+
+      @keyframes preloader_before {
+        0% {
+          transform: translateX(0px) rotate(0deg);
+        }
+        50% {
+          transform: translateX(50px) scale(1.2) rotate(260deg);
+          background: #2ecc71;
+          border-radius: 0px;
+        }
+        100% {
+          transform: translateX(0px) rotate(0deg);
+        }
+      }
+      @keyframes preloader_after {
+        0% {
+          transform: translateX(0px);
+        }
+        50% {
+          transform: translateX(-50px) scale(1.2) rotate(-260deg);
+          background: #9b59b6;
+          border-radius: 0px;
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
+    </style>
+    <link href="https://cdn.bootcdn.net/ajax/libs/reseter.css/2.0.0/minireseter.css" rel="stylesheet" rel="prefetch">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="prefetch"/>
+    <script type="module" crossorigin src="/public/dist/assets/index-5bc77a0f.js"></script>
+    <link rel="stylesheet" href="/public/dist/assets/index-48f59de8.css">
+  </head>
+  <body>
+    <div id="preloader-wrapper-box">
+       <div class="preloader-wrapper" ></div>
+    </div>
+    <div id="app"></div>
+    
+    <script>
+      try {
+        function initCfgFn() {
+          // ip获取
+          window.ipJsonFn = function (ipJson) {
+              // console.log('获取到的网络IP', ipJson);
+              //可以把结果存在window上，方便调用
+              window.ipJson = ipJson;
+          };
+          // document.addEventListener("DOMContentLoaded", function() {
+          //     let preLoadEle = document.getElementById('preloader-wrapper-box');
+          //     preLoadEle && (preLoadEle.style.display = 'none');
+          // });
+          window.onload = function() {
+            let preLoadEle = document.getElementById('preloader-wrapper-box');
+            preLoadEle && (preLoadEle.style.display = 'none');
+            //  web性能监控
+            !(function(c,i,e,b){var h = i.createElement("script");var f = i.getElementsByTagName("script")[0];h.type = "text/javascript";h.crossorigin = true;h.onload = function(){try {c[b]||(c[b] = new c.wpkReporter({bid: 'j8rmhtlo-97mos3pn',spa: true,  rel: '',  plugins: []}));c[b].installAll();} catch (e) {console.error('init wpkReporter fail', e);}};f.parentNode.insertBefore(h, f);h.src = e})(window, document, "https://g.alicdn.com/woodpeckerx/jssdk??wpkReporter.js", "__wpk");
+          }
+        }
+        initCfgFn();
+      } catch (error) {
+        console.log('initCfgFn err:', error);
+      }
+    </script>
+    <script src="//whois.pconline.com.cn/ipJson.jsp?callback=ipJsonFn" type="text/javascript" defer></script>
+    <script type="text/javascript"  charset="utf-8"
+        src="//connect.qq.com/qc_jssdk.js"
+        data-appid="102056163"
+        data-redirecturi="http://luckycola.com.cn/public/dist/#/qqOauth"
+        charset="utf-8"
+        defer
+    ></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5126800548923104" crossorigin="anonymous"></script> -->
+    <!-- 在线excel -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/js/plugin.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/luckysheet.umd.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/expendPlugins/chart/chartmix.umd.min.js"></script> -->
+  </body>
+</html>

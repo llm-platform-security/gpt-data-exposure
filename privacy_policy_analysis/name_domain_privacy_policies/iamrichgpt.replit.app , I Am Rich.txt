@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>I Am Rich - a plugin for ChatGPT</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+    }
+
+    .card {
+      background-color: #333;
+    }
+
+    .footer {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card mt-5">
+          <img src="iamrich.jpg" class="card-img-top" alt="I am Rich">
+          <div class="card-body">
+            <h1 class="card-title">I Am Rich</h1>
+            <h3 class="card-subtitle mb-2 text-muted">A plugin for ChatGPT from OpenAI</h3>
+            <p class="card-text">The 'I Am Rich' plugin for ChatGPT was inspired by the "I Am Rich" iOS app created in
+              2008 by Armin Heinrich.</p>
+            <p class="card-text">By creating this plugin, I hoped to carry on this tradition for the ChatGPT plugin
+              store.
+              Thanks so much for trying it out and I hope you enjoyed the plugin!</p>
+            <p class="card-text">Christopher Symonds<br>
+              chris@visionstudios.com<br>
+              https://www.visionstudioshub.com</p>
+            <h3 class="card-subtitle mb-2 text-muted">A note on privacy</h3>
+            <p class="card-text">The 'I Am Rich' plugin and GPT are not designed to accept user input and therefore user data is not accessed, used, or stored by the developer.</p>
+          </div>
+          <div class="card-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/saTjQbuNuI4"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer text-center mt-4">
+          <p>copyright 2023 Christopher Symonds</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<title>Privacy Policy - Hub Split</title>
+<meta name="description" content="Your Privacy is critically important to us, that’s why we are committed to ensuring that your data is secured and handled accordingly within the guidelines of" />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://hubsplit.com/wpautoterms/privacy-policy/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Privacy Policy - Hub Split" />
+<meta property="og:description" content="Your Privacy is critically important to us, that’s why we are committed to ensuring that your data is secured and handled accordingly within the guidelines of" />
+<meta property="og:url" content="https://hubsplit.com/wpautoterms/privacy-policy/" />
+<meta property="og:site_name" content="Hub Split" />
+<meta property="article:publisher" content="https://www.facebook.com/hubsplit" />
+<meta property="og:updated_time" content="2023-12-16T10:56:45-05:00" />
+<meta property="og:image" content="https://hubsplit.com/wp-content/uploads/2023/09/Logo-013-instasize_512x330.png" />
+<meta property="og:image:secure_url" content="https://hubsplit.com/wp-content/uploads/2023/09/Logo-013-instasize_512x330.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="330" />
+<meta property="og:image:alt" content="Hub Split" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Privacy Policy - Hub Split" />
+<meta name="twitter:description" content="Your Privacy is critically important to us, that’s why we are committed to ensuring that your data is secured and handled accordingly within the guidelines of" />
+<meta name="twitter:site" content="@hub_split" />
+<meta name="twitter:creator" content="@hub_split" />
+<meta name="twitter:image" content="https://hubsplit.com/wp-content/uploads/2023/09/Logo-013-instasize_512x330.png" />
+
+<link rel="dns-prefetch" href="//maps.google.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="alternate" type="application/rss+xml" title="Hub Split &raquo; Feed" href="https://hubsplit.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hub Split &raquo; Comments Feed" href="https://hubsplit.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hubsplit.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style type="text/css" media="all">
+.wpautoterms-footer{background-color:#ffffff;text-align:center;}
+.wpautoterms-footer a{color:#000000;font-family:Arial, sans-serif;font-size:14px;}
+.wpautoterms-footer .separator{color:#cccccc;font-family:Arial, sans-serif;font-size:14px;}</style>
+<link rel="stylesheet" id="wc-blocks-integration-css" href="https://hubsplit.com/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/build/index.css?ver=7.0.0" type="text/css" media="all" />
+<link rel="stylesheet" id="bdt-uikit-css" href="https://hubsplit.com/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.17.11" type="text/css" media="all" />
+<link rel="stylesheet" id="ep-helper-css" href="https://hubsplit.com/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css?ver=7.12.1" type="text/css" media="all" />
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://hubsplit.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.3" type="text/css" media="all" />
+<style id="rank-math-toc-block-style-inline-css" type="text/css">
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="wpautoterms_css-css" href="https://hubsplit.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/css/wpautoterms.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="contact-form-7-css" href="https://hubsplit.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.4" type="text/css" media="all" />
+<link rel="stylesheet" id="listeo_core-frontend-css" href="https://hubsplit.com/wp-content/plugins/listeo-core/assets/css/frontend.css?ver=1.8.33" type="text/css" media="all" />
+<link rel="stylesheet" id="listeo-core-fullcalendar-css" href="https://hubsplit.com/wp-content/plugins/listeo-core/assets/css/fullcalendar.min.css?ver=1.0" type="text/css" media="all" />
+<link rel="stylesheet" id="buttons-css" href="https://hubsplit.com/wp-includes/css/buttons.min.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="dashicons-css" href="https://hubsplit.com/wp-includes/css/dashicons.min.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="editor-buttons-css" href="https://hubsplit.com/wp-includes/css/editor.min.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="wpsc-framework-css" href="https://hubsplit.com/wp-content/plugins/supportcandy/framework/style.css?ver=3.2.7" type="text/css" media="all" />
+<link rel="stylesheet" id="wpsc-select2-css" href="https://hubsplit.com/wp-content/plugins/supportcandy/asset/css/select2.css?ver=3.2.7" type="text/css" media="all" />
+<link rel="stylesheet" id="gpopover-css" href="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/gpopover/jquery.gpopover.css?ver=3.2.7" type="text/css" media="all" />
+<link rel="stylesheet" id="flatpickr-css-css" href="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/flatpickr/flatpickr.min.css?ver=3.2.7" type="text/css" media="all" />
+<link rel="stylesheet" id="fullcalendar-css" href="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/fullcalendar/lib/main.min.css?ver=3.2.7" type="text/css" media="all" />
+<link rel="stylesheet" id="datatables-css" href="https://hubsplit.com/wp-content/plugins/bdthemes-element-pack/assets/css/datatables.css?ver=7.12.1" type="text/css" media="all" />
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="bootstrap-css" href="https://hubsplit.com/wp-content/themes/listeo/css/bootstrap-grid.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="font-awesome-5-css" href="https://hubsplit.com/wp-content/themes/listeo/css/all.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="font-awesome-5-shims-css" href="https://hubsplit.com/wp-content/themes/listeo/css/v4-shims.min.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="simple-line-icons-css" href="https://hubsplit.com/wp-content/themes/listeo/css/simple-line-icons.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="listeo-woocommerce-css" href="https://hubsplit.com/wp-content/themes/listeo/css/woocommerce.min.css?ver=6.5.3" type="text/css" media="all" />
+<link rel="stylesheet" id="listeo-style-css" href="https://hubsplit.com/wp-content/themes/listeo/style.css?ver=1.9.40" type="text/css" media="all" />
+<style id="listeo-style-inline-css" type="text/css">
+        .custom-menu-colors .mobile-navigation-wrapper, .custom-menu-colors #mobile-nav .open-submenu > .sub-menu { background: ; }.custom-menu-colors  .mobile-navigation-list li a, .custom-menu-colors #mobile-nav .sub-menu-back-btn, .custom-menu-colors .textwidget { color: ; }/* Header Background Color  */#header.custom-header.cloned,#header.custom-header {  background-color: #005792;}/* Header Font Color */#header.custom-header .user-name,#header.custom-header #navigation.style-1>ul>li>a {  color: #ffffff;}#header.custom-header button.button.border,#header.custom-header a.button.border {    color: #ffffff;    border-color: #ffffff;}/* Header Hover Color */#header.custom-header #navigation.style-1 > ul > li.current-menu-ancestor > a, #header.custom-header #navigation.style-1 > ul > li.current-menu-item > a, #header.custom-header #navigation.style-1 > ul > li:hover > a {        color: #ffffff;}/* Footer Background Color */#footer.custom-footer {  background: #005792;}/* Footer Headliens Color */#footer.custom-footer ul.menu li:before,#footer.custom-footer h4 { color: #ffffff; }/* Footer Text Color */#footer.custom-footer ul.menu li a,#footer.custom-footer, #footer.custom-footer a, #footer.custom-footer .copyrights{ color: #ffffff; }#footer.custom-footer .new-footer-social-icons li a,#footer.custom-footer .textwidget, #footer.custom-footer .footer-new-bottom-left { color: #ffffff; }input[type='checkbox'].switch_1:checked,.time-slot input:checked ~ label:hover,div.datedropper:before,div.datedropper .pick-submit,div.datedropper .pick-lg-b .pick-sl:before,div.datedropper .pick-m,body.no-map-marker-icon .face.front,body.no-map-marker-icon .face.front:after,div.datedropper .pick-lg-h {  background-color: #00b2a9 !important;}#booking-date-range-enabler:after,.nav-links div a:hover, #posts-nav li a:hover,.hosted-by-title a:hover,.sort-by-select .select2-container--default .select2-selection--single .select2-selection__arrow b:after,.claim-badge a i,.search-input-icon:hover i,.listing-features.checkboxes a:hover,div.datedropper .pick-y.pick-jump,div.datedropper .pick li span,div.datedropper .pick-lg-b .pick-wke,div.datedropper .pick-btn,#listeo-coupon-link,.total-discounted_costs span,.widget_meta ul li a:hover, .widget_categories ul li a:hover, .widget_archive ul li a:hover, .widget_recent_comments ul li a:hover, .widget_recent_entries ul li a:hover,.booking-estimated-discount-cost span {  color: #00b2a9 !important;}.comment-by-listing a:hover,.browse-all-user-listings a i,.hosted-by-title h4 a:hover,.style-2 .trigger.active a,.style-2 .ui-accordion .ui-accordion-header-active:hover,.style-2 .ui-accordion .ui-accordion-header-active,#posts-nav li a:hover,.plan.featured .listing-badge,.post-content h3 a:hover,.add-review-photos i,.show-more-button i,.listing-details-sidebar li a,.star-rating .rating-counter a:hover,.more-search-options-trigger:after,.header-widget .sign-in:hover,#footer a,#footer .footer-links li a:hover,#navigation.style-1 .current,#navigation.style-1 ul li:hover a,.user-menu.active .user-name:after,.user-menu:hover .user-name:after,.user-menu.active .user-name,.user-menu:hover .user-name,.main-search-input-item.location a:hover,.chosen-container .chosen-results li.highlighted,.input-with-icon.location a i:hover,.sort-by .chosen-container-single .chosen-single div:after,.sort-by .chosen-container-single .chosen-default,.panel-dropdown a:after,.post-content a.read-more,.post-meta li a:hover,.widget-text h5 a:hover,.about-author a,button.button.border.white:hover,a.button.border.white:hover,.icon-box-2 i,button.button.border,a.button.border,.style-2 .ui-accordion .ui-accordion-header:hover,.style-2 .trigger a:hover ,.plan.featured .listing-badges .featured,.list-4 li:before,.list-3 li:before,.list-2 li:before,.list-1 li:before,.info-box h4,.testimonial-carousel .slick-slide.slick-active .testimonial:before,.sign-in-form .tabs-nav li a:hover,.sign-in-form .tabs-nav li.active a,.lost_password:hover a,#top-bar .social-icons li a:hover i,.listing-share .social-icons li a:hover i,.agent .social-icons li a:hover i,#footer .social-icons li a:hover i,.headline span i,vc_tta.vc_tta-style-tabs-style-1 .vc_tta-tab.vc_active a,.vc_tta.vc_tta-style-tabs-style-2 .vc_tta-tab.vc_active a,.tabs-nav li.active a,.wc-tabs li.active a.custom-caption,#backtotop a,.trigger.active a,.post-categories li a,.vc_tta.vc_tta-style-tabs-style-3.vc_general .vc_tta-tab a:hover,.vc_tta.vc_tta-style-tabs-style-3.vc_general .vc_tta-tab.vc_active a,.wc-tabs li a:hover,.tabs-nav li a:hover,.tabs-nav li.active a,.wc-tabs li a:hover,.wc-tabs li.active a,.testimonial-author h4,.widget-button:hover,.widget-text h5 a:hover,a,a.button.border,a.button.border.white:hover,button.button.border,button.button.border.white:hover,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-1 .vc_tta-tab.vc_active>a,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-2 .vc_tta-tab.vc_active>a,#add_payment_method .cart-collaterals .cart_totals tr th,.woocommerce-cart .cart-collaterals .cart_totals tr th, .woocommerce-checkout .cart-collaterals .cart_totals tr th,#add_payment_method table.cart th, .woocommerce-cart table.cart th, .woocommerce-checkout table.cart th,.woocommerce-checkout table.shop_table th,.uploadButton .uploadButton-button:before,.time-slot input ~ label:hover,.time-slot label:hover span,#titlebar.listing-titlebar span.listing-tag a, .rating-box-footer h5 a:hover,.booking-loading-icon {    color: #00b2a9;}.listing-details li i {    background-color: #00b2a926;    color: #00b2a9;} body .feature-svg-icon svg g,body .feature-svg-icon svg circle,body .feature-svg-icon svg rect,body .feature-svg-icon svg path,body .icon-box-2 svg g,body .icon-box-2 svg circle,body .icon-box-2 svg rect,body .icon-box-2 svg path,body .listeo-svg-icon-box-grid svg g,body .listeo-svg-icon-box-grid svg circle,body .listeo-svg-icon-box-grid svg rect,body .listeo-svg-icon-box-grid svg path,.listing-type:hover .listing-type-icon svg g,.listing-type:hover .listing-type-icon svg circle,.listing-type:hover .listing-type-icon svg rect,.listing-type:hover .listing-type-icon svg path,.marker-container .front.face svg g,.marker-container .front.face svg circle,.marker-container .front.face svg rect,.marker-container .front.face svg path { fill: #00b2a9; }.qtyTotal,.mm-menu em.mm-counter,.mm-counter,.category-small-box:hover,.option-set li a.selected,.pricing-list-container h4:after,#backtotop a,.chosen-container-multi .chosen-choices li.search-choice,.select-options li:hover,button.panel-apply,.layout-switcher a:hover,.listing-features.checkboxes li:before,.comment-by a.comment-reply-link:hover,.add-review-photos:hover,.office-address h3:after,.post-img:before,button.button,.booking-confirmation-page a.button.color,input[type="button"],input[type="submit"],a.button,a.button.border:hover,button.button.border:hover,table.basic-table th,.plan.featured .plan-price,mark.color,.style-4 .tabs-nav li.active a,.style-5 .tabs-nav li.active a,.dashboard-list-box .button.gray:hover,.change-photo-btn:hover,.dashboard-list-box  a.rate-review:hover,input:checked + .slider,.add-pricing-submenu.button:hover,.add-pricing-list-item.button:hover,.custom-zoom-in:hover,.custom-zoom-out:hover,#geoLocation:hover,#streetView:hover,#scrollEnabling:hover,.code-button:hover,.category-small-box-alt:hover .category-box-counter-alt,#scrollEnabling.enabled,#mapnav-buttons a:hover,#sign-in-dialog .mfp-close:hover,.button.listeo-booking-widget-apply_new_coupon:before,#small-dialog .mfp-close:hover,.numInputWrapper span:hover,.daterangepicker td.end-date.in-range.available,.radio input[type='radio'] + label .radio-label:after,.radio input[type='radio']:checked + label .radio-label,.daterangepicker .ranges li.active, .day-slot-headline, .add-slot-btn button:hover, .daterangepicker td.available:hover, .daterangepicker th.available:hover, .time-slot input:checked ~ label, .daterangepicker td.active, .daterangepicker td.active:hover, .daterangepicker .drp-buttons button.applyBtn,.uploadButton .uploadButton-button:hover {    background-color: #00b2a9;}.rangeslider__fill,span.blog-item-tag ,.testimonial-carousel .slick-slide.slick-active .testimonial-box,.listing-item-container.list-layout span.tag,.tip,.search .panel-dropdown.active a,#getDirection:hover,.home-search-slide h3 a:before, .home-search-slide h3 strong:before,.loader-ajax-container,.mfp-arrow:hover {    background: #00b2a9;}.icon-box-v3 .ibv3-icon i, .icon-box-v3 .ibv3-icon svg g, .icon-box-v3 .ibv3-icon svg circle, .icon-box-v3 .ibv3-icon svg rect, .icon-box-v3 .ibv3-icon svg path{    fill:  #00b2a9;}#titlebar.listing-titlebar span.listing-tag { background:  #00b2a912; }.ibv3-icon {    background:  #00b2a910;}.icon-box-v3:hover .ibv3-icon {    background:  #00b2a9;    box-shadow:  0 3px 8px #00b2a950;}.radio input[type='radio']:checked + label .radio-label,.rangeslider__handle { border-color: #00b2a9; }.layout-switcher a.active {    color: #00b2a9;    border-color: #00b2a9;}#titlebar.listing-titlebar span.listing-tag a,#titlebar.listing-titlebar span.listing-tag {    border-color: #00b2a9;  }.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.single-service .qtyInc:hover, .single-service .qtyDec:hover,.services-counter,.listing-slider .slick-next:hover,.listing-slider .slick-prev:hover {    background-color: #00b2a9;}.single-service .qtyInc:hover, .single-service .qtyDec:hover{    -webkit-text-stroke: 1px #00b2a9;}.listing-nav-container.cloned .listing-nav li:first-child a.active,.listing-nav-container.cloned .listing-nav li:first-child a:hover,.listing-nav li:first-child a,.listing-nav li a.active,.listing-nav li a:hover {    border-color: #00b2a9;    color: #00b2a9;}.pricing-list-container h4 {    color: #00b2a9;    border-color: #00b2a9;}.sidebar-textbox ul.contact-details li a { color: #00b2a9; }button.button.border,a.button.border {    color: #00b2a9;    border-color: #00b2a9;}.trigger.active a,.ui-accordion .ui-accordion-header-active:hover,.ui-accordion .ui-accordion-header-active {    background-color: #00b2a9;    border-color: #00b2a9;}.numbered.color ol > li::before {    border-color: #00b2a9;;    color: #00b2a9;}.numbered.color.filled ol > li::before {    border-color: #00b2a9;    background-color: #00b2a9;}.info-box {    border-top: 2px solid #00b2a9;    background: linear-gradient(to bottom, rgba(255,255,255,0.98), rgba(255,255,255,0.95));    background-color: #00b2a9;    color: #00b2a9;}.info-box.no-border {    background: linear-gradient(to bottom, rgba(255,255,255,0.96), rgba(255,255,255,0.93));    background-color: #00b2a9;}.tabs-nav li a:hover { border-color: #00b2a9; }.tabs-nav li a:hover,.tabs-nav li.active a {    border-color: #00b2a9;    color: #00b2a9;}.style-3 .tabs-nav li a:hover,.style-3 .tabs-nav li.active a {    border-color: #00b2a9;    background-color: #00b2a9;}.woocommerce-cart .woocommerce table.shop_table th,.vc_tta.vc_general.vc_tta-style-style-1 .vc_active .vc_tta-panel-heading,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-2 .vc_tta-tab.vc_active>a,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-2 .vc_tta-tab:hover>a,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-1 .vc_tta-tab.vc_active>a,.wpb-js-composer .vc_tta.vc_general.vc_tta-style-tabs-style-1 .vc_tta-tab:hover>a{        border-bottom-color: #00b2a9}.checkboxes input[type=checkbox]:checked + label:before {    background-color: #00b2a9;    border-color: #00b2a9;}.listing-item-container.compact .listing-item-content span.tag { background-color: #00b2a9; }.dashboard-nav ul li.current_page_item,.dashboard-nav ul li.active,.dashboard-nav ul li:hover { border-color: #00b2a9; }.dashboard-list-box .comment-by-listing a:hover { color: #00b2a9; }.opening-day:hover h5 { color: #00b2a9 !important; }.map-box h4 a:hover { color: #00b2a9; }.infoBox-close:hover {    background-color: #00b2a9;    -webkit-text-stroke: 1px #00b2a9;}.select2-container--default .select2-selection--multiple .select2-selection__choice,body .select2-container--default .select2-results__option--highlighted[aria-selected], body .select2-container--default .select2-results__option--highlighted[data-selected],body .woocommerce .cart .button, body .woocommerce .cart input.button,body .woocommerce #respond input#submit, body .woocommerce a.button, body .woocommerce button.button, body .woocommerce input.button,body .woocommerce #respond input#submit.alt:hover, body .woocommerce a.button.alt:hover, body .woocommerce button.button.alt:hover, body .woocommerce input.button.alt:hover,.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div,.cluster-visible {    background-color: #00b2a9 !important;}.marker-cluster div:before {    border: 7px solid #00b2a9;    opacity: 0.2;    box-shadow: inset 0 0 0 4px #00b2a9;}.cluster-visible:before {    border: 7px solid #00b2a9;    box-shadow: inset 0 0 0 4px #00b2a9;}.marker-arrow {    border-color: #00b2a9 transparent transparent;}.face.front {    border-color: #00b2a9;    color: #00b2a9;}.face.back {    background: #00b2a9;    border-color: #00b2a9;}.custom-zoom-in:hover:before,.custom-zoom-out:hover:before  { -webkit-text-stroke: 1px #00b2a9;  }.category-box-btn:hover {    background-color: #00b2a9;    border-color: #00b2a9;}.message-bubble.me .message-text {    color: #00b2a9;    background-color: rgba(0,178,169,0.05);}.time-slot input ~ label:hover {    background-color: rgba(0,178,169,0.08);   }.message-bubble.me .message-text:before {    color: rgba(0,178,169,0.05);}.booking-widget i, .opening-hours i, .message-vendor i {    color: #00b2a9;}.opening-hours.summary li:hover,.opening-hours.summary li.total-costs span { color: #00b2a9; }.payment-tab-trigger > input:checked ~ label::before { border-color: #00b2a9; }.payment-tab-trigger > input:checked ~ label::after { background-color: #00b2a9; }#navigation.style-1 > ul > li.current-menu-ancestor > a,#navigation.style-1 > ul > li.current-menu-item > a,#navigation.style-1 > ul > li:hover > a {     background: rgba(0,178,169, 0.06);    color: #00b2a9;}.img-box:hover span {  background-color: #00b2a9; }body #navigation.style-1 ul ul li:hover a:after,body #navigation.style-1 ul li:hover ul li:hover a,body #navigation.style-1 ul li:hover ul li:hover li:hover a,body #navigation.style-1 ul li:hover ul li:hover li:hover li:hover a,body #navigation.style-1 ul ul li:hover ul li a:hover { color: #00b2a9; }.filter-tabs .filter-tab::after,.headline.headline-box span:before {    background: #00b2a9;}.main-search-inner .highlighted-category {    background-color:#00b2a9;    box-shadow: 0 2px 8px rgba(0,178,169, 0.2);}.category-box:hover .category-box-content span {    background-color: #00b2a9;}.user-menu ul li a:hover {    color: #00b2a9;}.icon-box-2 i {    background-color: #00b2a9;}@keyframes iconBoxAnim {    0%,100% {        box-shadow: 0 0 0 9px rgba(0,178,169, 0.08);    }    50% {        box-shadow: 0 0 0 15px rgba(0,178,169, 0.08);    }}.listing-type:hover {box-shadow: 0 3px 12px rgba(0,0,0,0.1);background-color: #00b2a9;}.listing-type:hover .listing-type-icon {color: #00b2a9;}.listing-type-icon {background-color: #00b2a9;box-shadow: 0 0 0 8px rgb(0,178,169, 0.1);}#chart-date-range span:after,#footer ul.menu li a:hover {    color: #00b2a9;}#booking-date-range span::after, .time-slot label:hover span, .daterangepicker td.in-range, .time-slot input ~ label:hover, .booking-estimated-cost span, .time-slot label:hover span {    color: #00b2a9;}.daterangepicker td.in-range {    background-color: rgba(0,178,169, 0.05);    color: #00b2a9;}.leaflet-control-zoom-in:hover, .leaflet-control-zoom-out:hover {    background-color: #00b2a9;;    -webkit-text-stroke: 1px #00b2a9;    }.transparent-header #header:not(.cloned) #navigation.style-1 > ul > li.current-menu-ancestor > a, .transparent-header #header:not(.cloned) #navigation.style-1 > ul > li.current-menu-item:first-child > a, .transparent-header #header:not(.cloned) #navigation.style-1 > ul > li:hover > a {    background: #00b2a9;}.transparent-header #header:not(.cloned) .header-widget .button:hover,.transparent-header #header:not(.cloned) .header-widget .button.border:hover {    background: #00b2a9;}.transparent-header.user_not_logged_in #header:not(.cloned) .header-widget .sign-in:hover {    background: #00b2a9;}.best-value-plan .pricing-package-header span,.best-value-plan .pricing-package-header h4,.owned-packages label input:checked+span i:before,.category-small-box-alt i,.category-small-box i {    color: #00b2a9;}.best-value-plan .pricing-package-header,.owned-packages label input:checked+span i{    background-color: rgba(0,178,169, 0.08);}.best-value-plan,#listeo_otp-inputs input:focus  {    border-color: #00b2a9;}.account-type input.account-type-radio:checked ~ label {    background-color: #00b2a9;}.pricing-package-details ul li svg path{    stroke: #00b2a9;}.pricing-package-details ul li svg circle{    fill: rgba(0,178,169, 0.08);}.pricing-package [type='radio']:checked+label {    background-color: #00b2a9;    border-color: #00b2a9;}.category-small-box:hover {    box-shadow: 0 3px 12px rgba(0,178,169, 0.22);}.transparent-header.user_not_logged_in #header.cloned .header-widget .sign-in:hover,.user_not_logged_in .header-widget .sign-in:hover {    background: #00b2a9;}.nav-links div.nav-next a:hover:before,.nav-links div.nav-previous a:hover:before,#posts-nav li.next-post a:hover:before,#posts-nav li.prev-post a:hover:before { background: #00b2a9; }.slick-current .testimonial-author h4 span {   background: rgba(0,178,169, 0.06);   color: #00b2a9;}body .icon-box-2 i {   background-color: rgba(0,178,169, 0.07);   color: #00b2a9;}.headline.headline-box:after,.headline.headline-box span:after {background: #00b2a9;}.listing-item-content span.tag {   background: #00b2a9;}.message-vendor div.wpcf7 .ajax-loader,body .message-vendor input[type='submit'],body .message-vendor input[type='submit']:focus,body .message-vendor input[type='submit']:active {  background-color: #00b2a9;}   .message-vendor .wpcf7-form .wpcf7-radio input[type=radio]:checked + span:before {   border-color: #00b2a9;}.message-vendor .wpcf7-form .wpcf7-radio input[type=radio]:checked + span:after {   background: #00b2a9;}#show-map-button,.slider-selection {background-color:#00b2a9;}.listeo-cart-container:hover .mini-cart-button{    color: #00b2a9;    background: #00b2a91f;}.listeo-cart-container .mini-cart-button .badge {    background: #00b2a9;}.transparent-header #header:not(.cloned) .header-widget .woocommerce-mini-cart__buttons a.button.checkout, .listeo-cart-container .woocommerce-mini-cart__buttons a.button.checkout {background: #00b2a9;}.slider-handle {border-color:#00b2a9;}.bookable-services .single-service:hover h5,.bookable-services .single-service:hover .single-service-price {    color: #00b2a9;} .bookable-services .single-service:hover .single-service-price {    background-color: rgba(0,178,169, 0.08);    color: #00b2a9;}  .classifieds-widget-buttons a.call-btn {    border: 1px solid #00b2a9;    color: #00b2a9;}.bookable-services input[type='checkbox'] + label:hover {    background-color: rgba(0,178,169, 0.08);    color: #00b2a9;}.services-counter,.bookable-services input[type='checkbox']:checked + label {    background-color: #00b2a9;}.bookable-services input[type='checkbox']:checked + label .single-service-price {    color: #00b2a9;}.taxonomy-box-wrapper:hover .taxonomy-box-right {        border-color:: #00b2a9;    background:  rgba(0,178,169, 0.1);}.taxonomy-box-wrapper:hover .taxonomy-box-right path {    fill:#00b2a9;}.bootstrap-select .dropdown-menu li.selected a span.check-mark:before { color:#f91942; }.dropdown-menu>li>a:hover, .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover {    color: #00b2a9;    background-color:  rgba(0,178,169, 0.1);}.bootstrap-select .dropdown-menu li.selected a span.check-mark:before, .bootstrap-select .dropdown-menu li.selected:hover a span.check-mark:before {  color: #00b2a9; }input[type='submit'].dokan-btn-theme:hover, a.dokan-btn-theme:hover, .dokan-btn-theme:hover, input[type='submit'].dokan-btn-theme:focus, a.dokan-btn-theme:focus, .dokan-btn-theme:focus, input[type='submit'].dokan-btn-theme:active, a.dokan-btn-theme:active, .dokan-btn-theme:active, input[type='submit'].dokan-btn-theme.active, a.dokan-btn-theme.active, .dokan-btn-theme.active, .open .dropdown-toggleinput[type='submit'].dokan-btn-theme, .open .dropdown-togglea.dokan-btn-theme, .open .dropdown-toggle.dokan-btn-theme {        background-color: #00b2a9 !important;    border-color: #00b2a9 !important;}body.dokan-dashboard input[type='submit'].dokan-btn-theme, body.dokan-dashboard a.dokan-btn-theme, body.dokan-dashboard .dokan-btn-theme{        background-color: #00b2a9 !important;;    border-color: #00b2a9 !important;;}body input[type='submit'].dokan-btn-theme,body a.dokan-btn-theme, body .dokan-btn-theme {    background-color: #00b2a9;    border-color: #00b2a9;}#dokan-store-listing-filter-wrap .right .toggle-view .active {    color: #00b2a9;}body #dokan-store-listing-filter-wrap .right .toggle-view .active {    border-color: #00b2a9;}.photo-box:hover .photo-box-content span{  background: #00b2a9;}#dokan-store-listing-filter-wrap .right .toggle-view .active {    color: #00b2a9;}.dokan-store-products-ordeby-select .select2-container--default .select2-selection--single .select2-selection__arrow b:after {   color: #00b2a9;}.main-search-inner {                    text-align: center;                    }body .main-search-container:not(.elementor-main-search-container):before {    background: linear-gradient(to right, rgba(51,51,51,0.99) 20%, rgba(51,51,51,0.7) 70%, rgba(51,51,51,0) 95%)}.solid-bg-home-banner .main-search-container:before,body.transparent-header .main-search-container:not(.elementor-main-search-container):before {background: rgba(51,51,51,0.75) ;}.loader-ajax-container {   box-shadow: 0 0 20px rgba( 0,178,169, 0.4);}.page-id-89 #listeo-registration-btn { display: none; }.main-search-inner {                    text-align: center;                    }  li.dokan-product-category-li[data-term-id="15"] {                                display: none !important;                              }  li.dokan-product-category-li[data-term-id="51"] {                                display: none !important;                              }  li.dokan-product-category-li[data-term-id="49"] {                                display: none !important;                              }  li.dokan-product-category-li[data-term-id="52"] {                                display: none !important;                              }  li.dokan-product-category-li[data-term-id="50"] {                                display: none !important;                              }  li.dokan-product-category-li[data-term-id="48"] {                                display: none !important;                              }@media (min-width: 1240px) { #header:not(.sticky) ul.menu, #header:not(.sticky) .header-widget { margin-top: 0px; margin-bottom: 0px; } }.range-output:after {    content: 'miles';}.template-file.main-search-container.plain-color { background-color: #ffffff;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23fffaf5' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23fff5ec' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23ffefe2' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23ffead9' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23ffe5cf' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23ffead9' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23ffefe2' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23fff5ec' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23fffaf5' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23ffffff' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");	background-attachment: fixed;	background-size: cover; } 
+</style>
+<link rel="stylesheet" id="google-fonts-raleway-css" href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" type="text/css" media="all" />
+<link rel="stylesheet" id="google-fonts-open-sans-css" href="//fonts.googleapis.com/css?family=Open+Sans:500,600,700" type="text/css" media="all" />
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/js/base.js?ver=2.5.1" id="wpautoterms_base-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/leaflet.js?ver=6.5.3" id="leaflet.js-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/leaflet-googlemutant.js?ver=1.8.33" id="listeo_core-leaflet-google-maps-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/control.geocoder.js?ver=1.8.33" id="listeo_core-leaflet-geocoder-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/leaflet.markercluster.js?ver=1.8.33" id="listeo_core-leaflet-markercluster-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/leaflet-gesture-handling.min.js?ver=1.8.33" id="listeo_core-leaflet-gesture-handling-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/listeo.leaflet.js?ver=1.8.33" id="listeo_core-leaflet-js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyB0mmWYFdpv5A11YJ6W3gj2kAsRo5cUgck&amp;libraries=places&amp;callback=Function.prototype&amp;ver=6.5.3" id="google-maps-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/listeo.google.autocomplete.js?ver=1.8.33" id="listeo_core-google-autocomplete-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/pwstrength-bootstrap.min.js?ver=1.8.33" id="listeo_core-pwstrength-bootstrap-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" id="listeo_core-frontend-js-extra">
+/* <![CDATA[ */
+var listeo_core = {"ajax_url":"\/wp-admin\/admin-ajax.php","payout_not_valid_email_msg":"The email address is not valid. Please add a valid email address.","is_rtl":"0","lang":"","_price_min":null,"_price_max":null,"currency":"USD","currency_position":"before","currency_symbol":"$","submitCenterPoint":"42.5295,-83.7802","centerPoint":"42.5295,-83.7802","country":"","upload":"https:\/\/hubsplit.com\/wp-admin\/admin-ajax.php?action=handle_dropped_media","delete":"https:\/\/hubsplit.com\/wp-admin\/admin-ajax.php?action=handle_delete_media","color":"#00b2a9","dictDefaultMessage":"Drop files here to upload","dictFallbackMessage":"Your browser does not support drag'n'drop file uploads.","dictFallbackText":"Please use the fallback form below to upload your files like in the olden days.","dictFileTooBig":"File is too big ({{filesize}}MiB). Max filesize: {{maxFilesize}}MiB.","dictInvalidFileType":"You can't upload files of this type.","dictResponseError":"Server responded with {{statusCode}} code.","dictCancelUpload":"Cancel upload","dictCancelUploadConfirmation":"Are you sure you want to cancel this upload?","dictRemoveFile":"Remove file","dictMaxFilesExceeded":"You can not upload any more files.","areyousure":"Are you sure?","maxFiles":"15","maxFilesize":"15","clockformat":"","prompt_price":"Set price for this date","menu_price":"Price (optional)","menu_desc":"Description","menu_title":"Title","applyLabel":"Apply","cancelLabel":"Cancel","clearLabel":"Clear","fromLabel":"From","toLabel":"To","customRangeLabel":"Custom","mmenuTitle":"Menu","pricingTooltip":"Click to make this item bookable in booking widget","today":"Today","yesterday":"Yesterday","last_7_days":"Last 7 Days","last_30_days":"Last 30 Days","this_month":"This Month","last_month":"Last Month","map_provider":"osm","address_provider":"google","mapbox_access_token":"","mapbox_retina":"on","mapbox_style_url":"https:\/\/api.mapbox.com\/styles\/v1\/mapbox\/streets-v11\/tiles\/{z}\/{x}\/{y}@2x?access_token=","bing_maps_key":"","thunderforest_api_key":"bfa7b01b63c443d1b65e071270057a36","here_app_id":"","here_app_code":"","maps_reviews_text":"reviews","maps_noreviews_text":"Not rated yet","category_title":"Category Title","day_short_su":"Su","day_short_mo":"Mo","day_short_tu":"Tu","day_short_we":"We","day_short_th":"Th","day_short_fr":"Fr","day_short_sa":"Sa","radius_state":"enabled","maps_autofit":"on","maps_autolocate":"","maps_zoom":"9","maps_single_zoom":"9","autologin":"on","no_results_text":"No results match","no_results_found_text":"No results found","placeholder_text_single":"Select an Option","placeholder_text_multiple":"Select Some Options ","january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December","opening_time":"Opening Time","closing_time":"Closing Time","remove":"Remove","extra_services_options_type":["byguest","bydays","byguestanddays"],"onetimefee":"One time fee","bookable_quantity_max":"Max quantity","multiguest":"Multiply by guests","multidays":"Multiply by days","multiguestdays":"Multiply by guest & days","quantitybuttons":"Quantity Buttons","booked_dates":"Those dates are already booked","replied":"Replied","recaptcha_status":"","recaptcha_version":"v2","recaptcha_sitekey3":"6LejamcjAAAAAJDhXgfWEjNFWyimn7CZxk38uoHc","elementor_single_gallery":"Gallery","elementor_single_overview":"Overview","elementor_single_details":"Details","elementor_single_pricing":"Pricing","elementor_single_store":"Store","elementor_single_video":"Video","elementor_single_location":"Location","elementor_single_reviews":"Reviews","otp_status":"on","review_criteria":"service,value-for-money,location,cleanliness,listing-quality"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/frontend.js?ver=1.8.33" id="listeo_core-frontend-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/bookings.js?ver=1.8.33" id="listeo_core-bookings-js"></script>
+<script type="text/javascript" id="listeo_core-static-login-js-extra">
+/* <![CDATA[ */
+var listeo_login = {"ajaxurl":"https:\/\/hubsplit.com\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/hubsplit.com","loadingmessage":"Sending user info, please wait..."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/static-login-script-otp.js?ver=1.0" id="listeo_core-static-login-js"></script>
+<script type="text/javascript" id="say-what-js-js-extra">
+/* <![CDATA[ */
+var say_what_data = {"replacements":{"listeo_core|Choose Listing Type|":"Select Your Rental Listing Type","listeo_core|Rent|":"An Item or Housing ","listeo_core|Click here or drop files to upload|":"Click here or drag and drop files to upload. (Please wait until image thumbnails visually appear here until continuing to the next step.) ","listeo_core|Choose your Package|":"Choose Your Hub Listing Package","listeo_core|Or Purchase New Package|":"Or Purchase New Hub Package","listeo_core|Not verified. Claim this listing!|":"Hub Owner ID Unverified","listeo_core|Verified Listing|":"Owner's identity has been successfully verified by the Trust and Safety team at Hubsplit.com. (Click here for details on the verification process.)","listeo_core|Listing has been verified and belongs to the business owner or manager.|":"This HUB owner has been thoroughly verified by our Trust and Safety team using three or more methods: Payment, Government ID, and\/or Email\/SMS\/other. While we prioritize safety, always review and double-check sellers before finalizing any HUB rental. Note: ID verification ensures the HUB owner has provided multiple forms of identification, but it doesn't guarantee the accuracy of the listing's details. Your safety is our top concern. Visit our knowledge base at the bottom of the page for more information. ","listeo_core|Sorry, you can't view this page as Guest, register Owner account to get access.|":"You need to change your role from Guest to Owner to list items for rent. Click \"Dashboard Navigation\" (above)  then click \"My Profile\", change role to Owner and click \"save\".  ","listeo|PayPal email missing!|":"Payment Method Missing!","listeo|Please add your PayPal email address. This is required to get your payments for booking using PayPal Payout service.|":"After you choose a listing package please add a PayPal e-mail address or Stripe account to your wallet so you can get paid. This is required to get your payment for bookings.","listeo|Your order has been received.|":"All Pro Package users on Hub Split are required to verify their identity. Please click the blue 'Verify With Trust Swiftly' button below. Note: This requirement does not apply to Free account holders.","listeo|Congratulations|":"Congratulations, Your order has been received","listeo_core|Withdrawable Balance|":"Most payouts are instant, but some may take up to 5 business days.","listeo_core|Town|":"City","listeo_core|Rental Category|":"Meeting Locations","listeo_core|Service Category|":"Meeting Locations","listeo|Or browse featured categories:|":".","listeo_core|Free|":"TBD","listeo_core|Fee|":"Free Member Commission: 12% | Paid Member Rate","listeo_core|Buy New Package|":"Browse Packages (Starting at FREE)","listeo_core|Upload Avatar|":"Upload Profile Picture"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/say-what/assets/build/frontend.js?ver=fd31684c45e4d85aeb4e" id="say-what-js-js"></script>
+<script type="text/javascript" id="utils-js-extra">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1715196869","secure":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/utils.min.js?ver=6.5.3" id="utils-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.8.3" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_770a9c09a32dbbb50277e0ed232de8eb","fragment_name":"wc_fragments_770a9c09a32dbbb50277e0ed232de8eb","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.8.3" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.8.3" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.8.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="WCPAY_ASSETS-js-extra">
+/* <![CDATA[ */
+var wcpayAssets = {"url":"https:\/\/hubsplit.com\/wp-content\/plugins\/woocommerce-payments\/dist\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/select2.min.js?ver=1.9.40" id="select2-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/bootstrap-select.min.js?ver=1.9.40" id="bootstrap-select-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/counterup.min.js?ver=1.9.40" id="counterup-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/datedropper.js?ver=1.9.40" id="datedropper-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/dropzone.js?ver=1.9.40" id="dropzone-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/magnific-popup.min.js?ver=1.9.40" id="magnific-popup-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/slick.min.js?ver=1.9.40" id="slick-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/quantityButtons.js?ver=1.9.40" id="quantityButtons-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/rangeslider.min.js?ver=1.9.40" id="rangeslider-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/timedropper.js?ver=1.9.40" id="timedropper-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/jquery.scrollto.js?ver=1.9.40" id="jquery-scrollto-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/tooltips.min.js?ver=1.9.40" id="tooltips-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/waypoints.min.js?ver=1.9.40" id="waypoints-min-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js"></script>
+<script type="text/javascript" id="moment-js-after">
+/* <![CDATA[ */
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"m\/d\/Y","LLL":"F j, Y g:i a","LLLL":null}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/daterangepicker.js?ver=1.9.40" id="daterangerpicker-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/bootstrap-slider.min.js?ver=1.9.40" id="bootstrap-slider-min-js"></script>
+<link rel="https://api.w.org/" href="https://hubsplit.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hubsplit.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.3" />
+<link rel="shortlink" href="https://hubsplit.com/?p=350" />
+<link rel="alternate" type="application/json+oembed" href="https://hubsplit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhubsplit.com%2Fwpautoterms%2Fprivacy-policy%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hubsplit.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhubsplit.com%2Fwpautoterms%2Fprivacy-policy%2F&#038;format=xml" />
+<script>
+			document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+		</script>
+<style>
+			.no-js img.lazyload {
+				display: none;
+			}
+
+			figure.wp-block-image img.lazyloading {
+				min-width: 150px;
+			}
+
+						.lazyload, .lazyloading {
+				opacity: 0;
+			}
+
+			.lazyloaded {
+				opacity: 1;
+				transition: opacity 400ms;
+				transition-delay: 0ms;
+			}
+
+					</style>
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<meta name="generator" content="Elementor 3.21.4; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-swap">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-573NBZ2Z');</script>
+
+<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #faf9f6; }
+</style>
+<script type="text/javascript" id="google_gtagjs" src="https://www.googletagmanager.com/gtag/js?id=G-DEM13PESWZ" async="async"></script>
+<script type="text/javascript" id="google_gtagjs-inline">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-DEM13PESWZ', {} );
+/* ]]> */
+</script>
+<link rel="icon" href="https://hubsplit.com/wp-content/uploads/2023/08/cropped-Filled-Logo_transparent-05-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hubsplit.com/wp-content/uploads/2023/08/cropped-Filled-Logo_transparent-05-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hubsplit.com/wp-content/uploads/2023/08/cropped-Filled-Logo_transparent-05-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hubsplit.com/wp-content/uploads/2023/08/cropped-Filled-Logo_transparent-05-270x270.png" />
+<style type="text/css" id="wp-custom-css">
+			bdi,ins { text-decoration: none !Important; } 
+.mwai-open-button > img {
+    margin: 1 50px 60px 0;
+}
+.mwai-open-button > img {
+    width: 20px;
+    height: 20px;
+}
+.price-container {
+    display: flex;
+    flex-direction: row;  /* Change from column to row */
+    justify-content: space-between;  /* To space out the price items */
+    align-items: center;
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;  /* Use full available width */
+    margin-top: 10px;  /* Adds a space between title and price */
+}
+
+.price-item {
+    display: flex;
+    justify-content: flex-start;  /* Aligns content to the start */
+    align-items: center;
+    margin-bottom: 10px;  /* Space between each price item */
+}
+
+.price-label {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;  /* Adjust this value as needed to get the desired spacing between the label and the price */
+}
+
+.price-value {
+    color: #007BFF;
+    font-weight: bold;
+}
+.wpautoterms-footer {
+    position: relative; /* or absolute, depending on your layout */
+    z-index: 1; /* adjust this number as needed */
+}		</style>
+<style id="kirki-inline-styles">#logo img{max-height:58px;}#header.cloned #logo img{max-width:58px;}body{font-family:Raleway;font-size:15px;font-weight:400;line-height:27px;text-align:left;text-transform:none;color:#707070;}h1,h2,h3,h4,h5,h6{font-family:Raleway;font-weight:400;}#navigation ul > li > a{font-family:Raleway;font-size:16px;font-weight:400;line-height:32px;text-align:left;text-transform:none;color:#444;}/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrEHJA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrEHJA.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrEHJA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrEHJA.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://hubsplit.com/wp-content/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+</head>
+<body class="wpautoterms_page-template-default single single-wpautoterms_page postid-350 custom-background theme-listeo woocommerce-no-js group-blog user_not_logged_in solid-header listeo elementor-default elementor-kit-9">
+<div class="clearfix"></div>
+
+
+<nav class="mobile-navigation-wrapper">
+<div class="mobile-nav-header">
+<div class="menu-logo">
+<a href="https://hubsplit.com/" class title="Hub Split" rel="home"><img id="listeo_logo" data-src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-rjs="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" alt="Hub Split" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" style="--smush-placeholder-width: 300px; --smush-placeholder-aspect-ratio: 300/176;" /><noscript><img id="listeo_logo" src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-rjs="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" alt="Hub Split" /></noscript></a>
+</div>
+<a href="#" class="menu-icon-toggle"></a>
+</div>
+<div class="mobile-navigation-list">
+<ul id="mobile-nav" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://hubsplit.com/add-listing/">Add Listing &#8211; List &#038; Earn: Rent Your Items!</a></li>
+<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="https://hubsplit.com/my-profile/">My Profile</a></li>
+<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="https://hubsplit.com/my-listings/">My Listings</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://hubsplit.com/bookmarks/">Bookmarks</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="https://hubsplit.com/hubsplit-knowledge-base/">Knowledge Base</a></li>
+</ul> </div>
+<div class="mobile-nav-widgets">
+<aside id="text-5" class="mobile-menu-widget widget widget_text"><h4>Our Office</h4> <div class="textwidget"><p>Phone: (855) Hub-Chat</p>
+<p>(855) 482-2428</p>
+<p>118 W Grand River Rd</p>
+<p>Brighton, MI 48116</p>
+<p>E-Mail: <a href="#"><span class="__cf_email__" data-cfemail="5635393822373522163e233425263a3f227835393b">[email&#160;protected]</span></a></p>
+</div>
+</aside> <aside id="listeo_side_social_icons" class="mobile-menu-widget widget ">
+<ul class="new-footer-social-icons"><li><a target="_blank" title href><i class="icon-brand-"></i></a></li></ul> </aside>
+</div>
+</nav>
+
+<div id="wrapper">
+
+<header id="header-container" class="sticky-header ">
+
+<div id="header" class="custom-header">
+<div class="container">
+
+<div class="left-side">
+<div id="logo" data-logo-transparent="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-logo="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-logo-sticky="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png">
+<a href="https://hubsplit.com/" title="Hub Split" rel="home"><img id="listeo_logo" data-src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-rjs alt="Hub Split" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload" style="--smush-placeholder-width: 300px; --smush-placeholder-aspect-ratio: 300/176;" /><noscript><img id="listeo_logo" src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" data-rjs="" alt="Hub Split" /></noscript></a>
+</div>
+
+<div class="mmenu-trigger ">
+<button class="hamburger hamburger--collapse" type="button">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</button>
+</div>
+
+<nav id="navigation" class="style-1">
+<ul id="responsive" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-764 parentid0 depth0 dropdown"><a href="https://hubsplit.com/add-listing/"><i class=" sl sl-icon-check"></i> Add Listing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113431 parentid0 depth0 dropdown"><a href="https://hubsplit.com/my-profile/">My Profile</a></li>
+</ul>
+</nav>
+<div class="clearfix"></div>
+
+</div>
+
+
+<div class="right-side">
+<div class="header-widget">
+
+<a href="https://hubsplit.com/my-profile/" class="sign-in"><i class="sl sl-icon-login"></i> Sign In</a>
+<a href="https://hubsplit.com/add-listing/" class="button border with-icon">Add Listing <i class="sl sl-icon-plus"></i></a>
+</div>
+</div>
+
+</div>
+</div>
+
+</header>
+
+
+<div id="titlebar" class="gradient">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h2>Hub Split Blog</h2>
+<span>Latest Hubs</span>
+
+<nav id="breadcrumbs">
+<ul>
+
+<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Hub Split." href="https://hubsplit.com" class="home"><span property="name">Hub Split</span></a><meta property="position" content="1"></span></li>
+<li class="archive post-wpautoterms_page-archive"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Legal Pages." href="https://hubsplit.com/wpautoterms/" class="archive post-wpautoterms_page-archive"><span property="name">Legal Pages</span></a><meta property="position" content="2"></span></li>
+<li class="post post-wpautoterms_page current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-wpautoterms_page current-item">Privacy Policy</span><meta property="url" content="https://hubsplit.com/wpautoterms/privacy-policy/"><meta property="position" content="3"></span></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container ">
+
+<div class="blog-page">
+<div class="row">
+
+<div class="col-lg-9 col-md-8 padding-right-30">
+<div class="blog-post single-post" id="post-350">
+
+<div class="post-content">
+<a href="https://hubsplit.com/wpautoterms/privacy-policy/"><h1>Privacy Policy</h1></a>
+<ul class="post-meta"><li itemscope itemtype="http://data-vocabulary.org/Person">By <a class="author-link" href="https://hubsplit.com/author/fxphil/">hubsplit.com</a></li><li><time class="entry-date published" datetime="2022-12-10T09:31:12-05:00">12/10/2022</time><time class="updated" datetime="2023-12-16T10:56:45-05:00">12/16/2023</time></li><li><span class="comments-link">Comments are off</span></li></ul>
+<h2><b>Privacy Policy</b></h2>
+<p>Your Privacy is critically important to us, that’s why we are committed to ensuring that your data is secured and handled accordingly within the guidelines of the global data protection regulations.</p>
+<p>It is Hubsplit  Ltd policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to www.Hubsplit.com (hereinafter, “us”, “we”, or “www.Hubsplit.com”). We respect your privacy and are committed to protecting personally identifiable information you may provide us through the Website. We have adopted this privacy policy (“Privacy Policy”) to explain what information may be collected on our Website, how we use this information, and under what circumstances we may disclose the information to third parties. This Privacy Policy applies only to information we collect through the Website and does not apply to our collection of information from other sources.</p>
+<p>This Privacy Policy, together with the Terms and conditions posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms and conditions.</p>
+<p><b>Website Visitors</b></p>
+<p>Like most website operators, Hubsplit  Ltd collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Hubsplit  purpose in collecting non-personally identifying information is to better understand how Hubsplit  visitors use its website. From time to time, Hubsplit  may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.</p>
+<p>Hubsplit  also collects potentially personally-identifying information like Internet Protocol (IP) addresses for logged in users, visitors and for users leaving comments on https://hubsplit.com. Hubsplit  Ltd only discloses logged in user and commenter IP addresses under the same circumstances that it uses and discloses personally-identifying information as described below. We record IP addresses to monitor the statistics, improve our services and to prevent fraud.</p>
+<p><b>Gathering of Personally-Identifying Information</b></p>
+<p>Certain visitors to Hubsplit  Ltd websites choose to interact with Hubsplit  in ways that require Hubsplit  to gather personally-identifying information. The amount and type of information that Hubsplit  gathers depends on the nature of the interaction. For example, we ask visitors who sign up to the website at https://hubsplit.com to provide a username, email address, first name and last name. We use this data to monitor the services and products, which we offer from our partners that we work with. We also use your email address to send marketing material – new offers or services that our partners offer. We will send you newsletters only after you double opt-in to our email subscription. We won’t use your email address for marketing purposes when you register with us, the email that you will register with is for activation of profile only. If you wish not to receive any communications from us via email, you can always click on the “Unsubscribe” feature included on each newsletter email message we send.</p>
+<p>We will never send you unwanted spam. We will never sell or disclose your personal information to other companies without your prior consent.</p>
+<p><b>How we Disclose Personal Data</b></p>
+<p>By making an inquiry to the property of your choice through our website, we will send your data from the enquiry form that you will fill in, so that the property or owner can contact you with an offer. The data will include: your first name, your last name, your contact number and your email address.</p>
+<p>No other data will be disclosed without your consent.</p>
+<p><b>Security</b></p>
+<p>Your data is stored securely using modern software, which is kept up to date. The access to personal data is limited to personnel and appropriate security is in place to avoid unauthorized access. By giving us your personal data, you agree to this arrangement. We are doing the best we can to keep your data safe.</p>
+<p>The security of your Personal Information is very important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+<p><b>Links To External Sites</b></p>
+<p>Our Service may contain links to external sites that are not operated by us. If you click on a third party link, you will be directed to that third party’s site. We strongly advise you to review the Privacy Policy and terms and conditions of every site you visit.</p>
+<p>We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites, products or services.</p>
+<p><b>Aggregated Statistics</b></p>
+<p>Hubsplit  may collect statistics about the behavior of visitors to its website. Hubsplit  may display this information publicly or provide it to others. However, Hubsplit  does not disclose your personally-identifying information.</p>
+<p><b>Privacy Policy Changes</b></p>
+<p>Although most changes are likely to be minor, Hubsplit  may change its Privacy Policy from time to time, and at Hubsplit  sole discretion. Hubsplit  encourages visitors to frequently check this page for any changes to its Privacy Policy. We will post the last date of any change to the Privacy Policy and Cookie Policy at the bottom of this page. Your continued use of this site after any change in this Privacy Policy and Cookie Policy will constitute your acceptance of such change.</p>
+<p><b>Email Subscription</b></p>
+<p>We use Elastic Email as our marketing platform. By clicking the subscribe button, you acknowledge that your information will be transferred to Elastic Email for processing. Learn more about Elastic Email privacy practices here: https://elasticemail.com/resources/usage-policies/privacy-policy/</p>
+<h2><b>Social Login</b></h2>
+<p><b>What is social login?</b></p>
+<p>Social login is a form of single sign-on that uses existing login information from a social-networking service such as Facebook, Google or Twitter to sign in to a third-party website (in this case, Hubsplit .com) instead of creating a new login account specifically for that website. It is designed to simplify logins.</p>
+<p><b>Why does Hubsplit  offer social login?</b></p>
+<p>Although you always have the option to create a unique account for Hubsplit , social login makes it easier to login and register. When you choose to use social login, you will link your account on our website with a third-party social-networking site such as Facebook, Google or Twitter.</p>
+<p>These social-networking sites verify your identity, allow you to log in (and register) to Hubsplit  and share personal information you allow us to collect.</p>
+<p>Your email address from your social-networking account will be used to verify whether you have an existing account on Hubsplit . If there is no matching email address, a new Hubsplit  account will be created using the email address collected from your social-networking account. If the email address from your social-networking account matches an existing email address on Hubsplit , your existing Hubsplit  account will be connected to that social-networking account.</p>
+<p>Once you have linked your social-networking account to your Hubsplit  account, you will automatically be logged in on our site if you are logged in on the linked social-networking site. However, if you log out of Hubsplit , you will remain logged out until you log in again on a subsequent visit.</p>
+<p>You don’t have to use social login. We offer registration that uses your email address instead and is not linked with an existing social-networking account.</p>
+<p>Kids are valuable community members on our site. We don’t allow social login for kids under 18.</p>
+<p><b>What information do the social-networking sites collect or use?</b></p>
+<p>Third-party social-networking sites gather information when you visit Hubsplit , so they can personalize your experience on their sites, and they might target ads based on the information they collect about your use on our site. Social-networking sites also may notify your connections about your use of our site. Thus, even though we won’t post information about you on your social network, it is possible that Facebook, Google or Twitter will.</p>
+<p><b>Do you post information about me on my social network?</b></p>
+<p>No. We will not share any information about you or your activities collected by Hubsplit .com with a linked social-networking service without your approval. This means we will not post anything to your Facebook wall, Google account, or Twitter feed unless you give us permission to do so, and we will not contact your friends or followers at any time.</p>
+<p><b>What information does Hubsplit  collect when I use social login?</b></p>
+<p>When you choose social login, you will be presented with an authorization screen asking your permission for us to collect certain information from your existing social-networking account. If you confirm, we will collect your email address, first name, last name, gender, birth date (month and year), region (city, state, country, ZIP code), and photo.</p>
+<p>We do not store or utilize the names of your friends or followers even if they are given to us by a social-login service in the initial registration process.</p>
+<p>You can control what data you would like to make public and share through the privacy controls and settings on some third-party social-networking sites. We encourage you to review the privacy policies and terms of use on these third-party social-networking sites and to explore how to customize your privacy settings.</p>
+<p><b>Can I edit or delete information on my Hubsplit .com account that’s been collected from a social-networking site?</b></p>
+<p>Yes, you can edit or delete any information collected from a social-networking account that appears on your Hubsplit  profile and account pages. We will not repopulate any deleted data during subsequent logins on the social-networking account. If you connect to an additional social-networking account, we will only populate empty fields, which you can edit or delete, and we will not repopulate those fields during any subsequent logins on that newly connected social-networking account. If you delete any data, we will not use that information for any purposes on our website, nor will it be available to anyone through us; however, that data may remain in our system, such as in backups of our website data.</p>
+<p><b>How does Hubsplit  use the data it collects when I use social login?</b></p>
+<p>We will use the information we are allowed to collect from your social-networking sites to pre-populate some data fields on your account and profile pages. For example, we will pre populate your first and last names on your profile page. In addition:</p>
+<ul>
+<li aria-level="1">Your email address will be used to send you newsletters and other communications if you opt in for them. We will never publicly display your email address on our site.</li>
+<li aria-level="1">Your name (first name and the first initial of your last name) and photo will be displayed on your public profile page and next to any reviews or comments you post on our site.</li>
+<li aria-level="1">You have the option not to display your name on our site. We will instead display your username, which can be anonymous.</li>
+<li aria-level="1">You also have the option not to publicly display your profile picture. We will instead display an image of a user’s silhouette.</li>
+<li aria-level="1">Your gender, birth date, and location information will not be publicly displayed on our site but may be used for aggregate demographic reporting so we can better understand our users and improve the user experience on our site.</li>
+<li aria-level="1">We may also use your gender, birth date, or location information to send you targeted newsletters and communications and to display certain content based on what other users similar to you like on our site.</li>
+</ul>
+<p><b>Can I link an existing Hubsplit  account with a social-networking account if the email address on the social-networking account is different?</b></p>
+<p>Yes. Log in to the site, visit your account page, go to the “My Account” tab, and click the button for the social-networking account you would like to connect to. From that page, you can connect to the social-networking account even if your email address on that account is different from the email address on Hubsplit . The email address on your Hubsplit  account will remain the same.</p>
+<p><b>Can I unlink my Hubsplit  account from my social-networking account?</b></p>
+<p>Yes, if you decide you would like to unlink your social-networking account from your Hubsplit  account, you can do this at any time on your account page on the site.</p>
+<p>To unlink a social account, log in to the site, visit your account page, and click the “Unlink My Account” or “Delete” link next to the social account you would like to unlink.</p>
+<p>If you only registered with a social-networking site, you cannot convert that account to an unlinked Hubsplit  account, but you can unlink from that social-networking site and connect to another social-networking site, or you can delete your Hubsplit  account and create a new one not linked to any social-networking sites.</p>
+<p><b>Can I delete my Hubsplit  account?</b></p>
+<p>Yes, you can delete your Hubsplit  account at any time.</p>
+<p>To delete your account, log in to the site, visit your account page, and click the “Settings” button toward the bottom of the page.</p>
+<p>Once you delete your account, all your personal information stored in your account and profile pages will be removed. However, that data may remain in our system, such as in backups of our website data. Any reviews or comments you posted will remain on the site, but the author name will switch to “Anonymous,” so your name will no longer be connected with your content. If you would like to delete your posted reviews or comments, log in to your account, view the review or comment, and click the “Delete” link. If you would like to delete your posted reviews and comments and delete your account, you should delete your reviews and comments first and then close your account. Also, you can contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7b12151d143b330e19080b17120f55181416">[email&#160;protected]</a> and request that we delete your content and account for you.</p>
+<h2><b>Cookie Policy</b></h2>
+<p>This is the Cookie Policy for Hubsplit  Ltd, accessible from www.Hubsplit.com</p>
+<p><b>What Are Cookies</b></p>
+<p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or ‘break’ certain elements of the sites functionality.</p>
+<p>For more general information on cookies see the Wikipedia article on HTTP Cookies.</p>
+<p><b>How We Use Cookies</b></p>
+<p>We use cookies for a variety of reasons detailed below. Unfortunately, in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</p>
+<p><b>Disabling Cookies</b></p>
+<p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of this website. Therefore, it is recommended that you do not disable cookies.</p>
+<p><b>The Cookies We Set</b></p>
+<p><b>Account related cookies</b></p>
+<p>If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases they may remain afterwards to remember your site preferences when logged out.</p>
+<p><b>Login related cookies</b></p>
+<p>We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in.</p>
+<p><b>Email newsletters related cookies</b></p>
+<p>This site offers newsletter or email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users.</p>
+<p><b>Forms related cookies</b></p>
+<p>When you submit data through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p>
+<p><b>Third Party Cookies</b></p>
+<p>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.</p>
+<p>Our service providers use cookies and those cookies may be stored on your computer when you visit our website.</p>
+<p>This site uses <b>Google Analytics</b> which is one of the most widespread and trusted analytics solutions on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p>
+<p>Google’s privacy policy is available at: https://www.google.com/policies/privacy/</p>
+<p>From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features, these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.</p>
+<p>The <b>Google AdSense</b> service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you. These are tailored by Google to reflect your interests. To determine your interests, Google will track your behavior on our website and on other websites across the web using cookies. You can view, delete or add interest categories associated with your browser by visiting: https://adssettings.google.com. You can install a browser plugin to keep your preference to opt out of personalized ads. To do this you may wish to consider the Google browser plug-ins available at: https://support.google.com/ads/answer/7395996.</p>
+<p>For more information on Google AdSense visit https://safety.google/intl/en/privacy/ads-and-data/</p>
+<p>We also use <b>Social Media Buttons</b> and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; <b>Facebook, Instagram, Linked In, Twitter, Pinterest</b>, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.</p>
+<p><b>More Information</b></p>
+<p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren’t sure whether you need or not it’s usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</p>
+<p>However, if you are still looking for more information, then you can contact us through one of our preferred contact methods: Email: <b><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="046d6a626b444c71667774686d702a676b69">[email&#160;protected]</a></b></p>
+<p><i>Page Last updated – 14th of December 2022.</i></p>
+<p>&nbsp;</p>
+<ul class="share-buttons margin-top-40 margin-bottom-0">
+<li><a target="_blank" class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhubsplit.com%2Fwpautoterms%2Fprivacy-policy%2F"><i class="fa fa-facebook"></i> Share</a></li> <li><a target="_blank" class="twitter-share" href="https://twitter.com/share?url=https%3A%2F%2Fhubsplit.com%2Fwpautoterms%2Fprivacy-policy%2F&amp;text=" title="Twitter"><i class="fa fa-twitter"></i> Tweet</a></a></li>
+<li><a target="_blank" class="pinterest-share" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fhubsplit.com%2Fwpautoterms%2Fprivacy-policy%2F&amp;description=&media=" onclick="window.open(this.href); return false;"><i class="fa fa-pinterest-p"></i> Pin</a></a></li> </ul>
+</div> </div>
+<nav class="navigation post-navigation" aria-label="Post navigation">
+<h2 class="screen-reader-text">Post navigation</h2>
+<div class="nav-links"><div class="nav-next"><a href="https://hubsplit.com/wpautoterms/terms-and-conditions/" rel="next"><span>Next Post</span> Terms and Conditions </a></div></div>
+</nav> <div class="margin-top-40"></div>
+<div class="margin-top-50"></div>
+</div>
+
+<div class="col-lg-3 col-md-4">
+<div class="sidebar right">
+<aside id="secondary" class="widget-area" role="complementary">
+<section id="search-2" class="widget  margin-top-40 widget_search"><div class="search-blog-input">
+<form method="get" class="search-form" action="https://hubsplit.com/" role="search">
+<div class="input"><input class="search-field" type="text" name="s" placeholder="To search type and hit enter" value /></div>
+<div class="clearfix"></div>
+</form>
+</div>
+<div class="clearfix"></div></section><section id="text-4" class="widget  margin-top-40 widget_text"><h3 class="widget-title">Have a Question?</h3> <div class="textwidget"><div class="info-box margin-bottom-10">
+<p>If you are having any questions, please feel free to ask.</p>
+<p><a class="button fullwidth margin-top-20" href="/contact/"><i class="fa fa-envelope-o"></i> Drop Us a Line</a></p>
+</div>
+</div>
+</section><section id="text-6" class="widget  margin-top-40 widget_text"><h3 class="widget-title">Get Listing! Get Earning!</h3> <div class="textwidget"><div class="info-box margin-bottom-5" style="text-align: center;">Start earning today and enjoy the world of rental income. Any Service, Any Item!</p>
+<p style="margin-top: 20px;"><a class="sign-in popup-with-zoom-anim button" href="#sign-in-dialog">Join Today!</a></p>
+</div>
+</div>
+</section> <div class="margin-top-40"></div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="footer" class="custom-footer  ">
+
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-sm-6 col-xs-12">
+<aside id="text-2" class="footer-widget widget widget_text"> <div class="textwidget"><p><a href="https://hubsplit.com"><img decoding="async" class="alignnone wp-image-112954 lazyload" data-src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" alt="Hub Split (Rental Community)" width="100" height="59" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/59;" /><noscript><img decoding="async" class="alignnone wp-image-112954" src="https://hubsplit.com/wp-content/uploads/2023/11/Hub-Split-Rental-Logo.png" alt="Hub Split (Rental Community)" width="100" height="59" /></noscript></a></p>
+<p><a href="https://hubsplit.com">Hubsplit.com</a> is an open space peer-to-peer platform born out of the necessity for short-term anything rentals. At <a href="https://hubsplit.com">Hubsplit.com</a> you can earn money by renting out your properties, items and services. You can also find properties to rent out on short notice. Hub Split offers office space, camp grounds, storage, boat docks and slips, and many many other rental hubs. If you need space <a href="https://hubsplit.com">Hubsplit.com</a> is the place.</p>
+</div>
+</aside> </div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<aside id="nav_menu-4" class="footer-widget widget widget_nav_menu"><h4>Helpful Links</h4><div class="menu-helpful-links-2-container"><ul id="menu-helpful-links-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://hubsplit.com/add-listing/">Add Listing &#8211; List &#038; Earn: Rent Your Items!</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="https://hubsplit.com/my-profile/">My Profile</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="https://hubsplit.com/my-listings/">My Listings</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://hubsplit.com/bookmarks/">Bookmarks</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="https://hubsplit.com/hubsplit-knowledge-base/">Knowledge Base</a></li>
+</ul></div></aside><aside id="nav_menu-5" class="footer-widget widget widget_nav_menu"><div class="menu-helpful-links-1-container"><ul id="menu-helpful-links-1" class="menu"><li id="menu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-312"><a href="https://hubsplit.com/reviews/">Reviews</a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a href="https://hubsplit.com/bookmarks/">Bookmarks</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://hubsplit.com/bookings/">Bookings</a></li>
+<li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="https://hubsplit.com/faqs/">FAQs</a></li>
+<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://hubsplit.com/support/">Support</a></li>
+<li id="menu-item-123988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123988"><a href="https://hubsplit.com/contact/">Live Chat</a></li>
+<li id="menu-item-123989" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-123989"><a href="https://hubsplit.com/blog/">The Hubsplit.com Blog</a></li>
+</ul></div></aside> </div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<aside id="text-3" class="footer-widget widget widget_text"><h4>Contact Us</h4> <div class="textwidget"><div>
+<div>
+<div class="vk_sh vk_bk">Hub Split Addiction Hotline/ Support Phone: (855) Hub-Chat</div>
+<div>(855) 482-2428</div>
+<div class="vk_sh vk_bk">E-Mail: <a href="/cdn-cgi/l/email-protection#8fece0e1fbeeecfbcfe7faedfcffe3e6fba1ece0e2"><span class="__cf_email__" data-cfemail="5f3c30312b3e3c2b1f372a3d2c2f33362b713c3032">[email&#160;protected]</span></a></div>
+</div>
+<div>
+<div></div>
+<div class="desktop-title-content">118 W Grand River Rd</div>
+<p><span class="desktop-title-subcontent">Brighton, MI 48116</span></p>
+<div style="display: flex; justify-content: center; align-items: center;"><a style="margin-right: 10px;" href="https://play.google.com/store/apps/details?id=hubsplit.com&amp;pli=1"><br/>
+<img decoding="async" class="wp-image-113540 aligncenter lazyload" data-src="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1-300x100.jpg" alt="Hubsplit.com Google Droid APP" width="108" height="36" data-srcset="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1-300x100.jpg 300w, https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1.jpg 325w" data-sizes="(max-width: 108px) 100vw, 108px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="--smush-placeholder-width: 108px; --smush-placeholder-aspect-ratio: 108/36;" /><noscript><img decoding="async" class="wp-image-113540 aligncenter" src="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1-300x100.jpg" alt="Hubsplit.com Google Droid APP" width="108" height="36" srcset="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1-300x100.jpg 300w, https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-1-1.jpg 325w" sizes="(max-width: 108px) 100vw, 108px" /></noscript><br/>
+</a><a href="https://apps.apple.com/us/app/hub-split-rental-community/id6468771531"><br/>
+<img decoding="async" class="wp-image-113541 aligncenter lazyload" style="--smush-placeholder-width: 109px; --smush-placeholder-aspect-ratio: 109/39;margin-top: 1px;" data-src="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2-300x107.jpg" alt="Hubsplit.com Apple APP" width="109" height="39" data-srcset="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2-300x107.jpg 300w, https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2.jpg 326w" data-sizes="(max-width: 109px) 100vw, 109px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img decoding="async" class="wp-image-113541 aligncenter" style="margin-top: 1px;" src="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2-300x107.jpg" alt="Hubsplit.com Apple APP" width="109" height="39" srcset="https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2-300x107.jpg 300w, https://hubsplit.com/wp-content/uploads/2023/10/Android-and-Apple-Icon-450x377-2.jpg 326w" sizes="(max-width: 109px) 100vw, 109px" /></noscript> <br/>
+</a></div>
+</div>
+</div>
+</div>
+</aside> </div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<div class="footer-new-bottom-inner">
+<div class="footer-new-bottom-left">©2024 Hubsplit.com. All Rights Reserved.
+<a href="https://hubsplit.com/contact/">Contact</a>
+<a href="https://hubsplit.com/sitemap_index.xml">Sitemap</a> </div>
+<div class="footer-new-bottom-right">
+<ul class="new-footer-social-icons"><li><a target="_blank" title href><i class="icon-brand-"></i></a></li></ul> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="backtotop"><a href="#"></a></div>
+</div> 
+
+
+<div class="wpsc-modal" style="display:none">
+<div class="overlay"></div>
+<div class="loader">
+<img data-src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/images/loader-white.gif" alt="Loading..." src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload"><noscript><img 
+						src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/images/loader-white.gif" 
+						alt="Loading..."></noscript>
+</div>
+<div class="inner-container">
+<div class="modal">
+<div class="wpsc-modal-header"></div>
+<div class="wpsc-modal-body"></div>
+<div class="wpsc-modal-footer"></div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+
+				// Register functions to call for responsive behaviour changes
+				function wpsc_apply_responsive_styles(){
+
+					wpsc_close_humbargar();
+					wpsc_el_reset_visible();
+					wpsc_el_reset_hidden();
+									}
+
+				// Register functions to call on document ready
+				function wpsc_document_ready() {
+									}
+
+				// after ticket reply
+				function wpsc_after_ticket_reply(ticket_id) {
+									}
+
+				// after close ticket
+				function wpsc_after_close_ticket(ticket_id) {
+									}
+
+				// after change create as
+				function wpsc_after_change_create_as() {
+					wpsc_get_create_as_customer_fields('ae2806d66e');
+					wpsc_woo_change_customer_orders('74405261f6');
+				}
+			</script>
+<style type="text/css">
+				.wpsc-modal .overlay,
+				.wpsc-humbargar-overlay {
+					z-index: 900000000;
+				}
+				.wpsc-modal .loader,
+				.wpsc-modal .inner-container,
+				.wpsc-humbargar-menu {
+					z-index: 900000001;
+				}
+				.select2-container--open {
+					z-index: 900000002;
+				}
+				.wpsc-header {
+					background-color: #d8968f !important;
+				}
+				.wpsc-menu-list {
+					color: #fff;
+				}
+				.wpsc-shortcode-container {
+					background-color: #fff !important;
+					border: 1px solid #d8968f !important;
+					color: #2c3e50;
+				} 
+				.wpsc-humbargar, 
+				.wpsc-humbargar-title {
+					color: #fff !important;
+				}
+				.wpsc-humbargar-overlay {
+					z-index: 900000000;
+				}
+				.wpsc-humbargar-menu {
+					z-index: 900000001;
+					background-color: #fff !important;
+				}
+				.wpsc-humbargar-menu-item:hover, 
+				.wpsc-humbargar-menu-item.active,
+				.wpsc-setting-nav:hover,
+				.wpsc-setting-nav.active {
+					background-color: #d8968f !important;
+				}
+
+				/* Ticket list */
+				.wpsc-search input {
+					color: #8a8a8a !important;
+				}
+				.wpsc-ticket-list-tbl th {
+					background-color: #2c3e50;
+					color: #fff;
+				}
+				.wpsc-ticket-list-tbl tr:nth-child(even){
+					background-color: #f2f2f2;
+					color: #2c3e50;
+				}
+				.wpsc-ticket-list-tbl tr:nth-child(odd){
+					background-color: #fff;
+					color: #2c3e50;
+				}
+				.wpsc-ticket-list-tbl tbody tr:hover {
+					background-color: #dfe4ea;
+					color: #2c3e50;
+				}
+
+				/* Individual Ticket */
+				.wpsc-thread.reply,
+				.wpsc-thread.reply h2 {
+					color: #2c3e50;
+				}
+				.wpsc-thread.reply .thread-time,
+				.wpsc-thread.reply .wpsc-thread-logs {
+					color: #777777;
+				}
+				.wpsc-thread.reply .actions {
+					color: #777777;
+				}
+				.wpsc-thread.note,
+				.wpsc-thread.note h2 {
+					color: #8e6600;
+				}
+				.wpsc-thread.note .email-address,
+				.wpsc-thread.note .thread-time,
+				.wpsc-thread.note .wpsc-thread-logs {
+					color: #8e8d45;
+				}
+				.wpsc-thread.note .actions {
+					color: #8e8d45;
+				}
+				.wpsc-thread.log .thread-body {
+					color: #2c3e50;
+				}
+				.wpsc-widget-header {
+					background-color: #fff8e5;
+					color: #ff8f2b;
+				}
+				.wpsc-widget-header h2 {
+					color: #ff8f2b;
+				}
+				.wpsc-widget-body {
+					background-color: #f9f9f9;
+					color: #2c3e50;
+				}
+				.wpsc-widget-body .info-list-item .info-label, .wpsc-lg-label  {
+					color: #777;
+				}
+				.wpsc-popover-menu > .wpsc-reply-close {
+					background-color: #fff;
+					color: #707070;
+				}
+
+				/* Input fields */
+				#wpsc-container input[type=text]:focus,
+				#wpsc-container input[type=text],
+				#wpsc-container input[type=password]:focus,
+				#wpsc-container input[type=password],
+				.wpsc-modal input[type=text]:focus,
+				.wpsc-modal input[type=text],
+				.wpsc-modal input[type=password]:focus,
+				.wpsc-modal input[type=password],
+				#wpsc-container select,
+				#wpsc-container select:focus,
+				.wpsc-modal select,
+				.wpsc-modal select:focus,
+				#wpsc-container textarea,
+				#wpsc-container textarea:focus,
+				.wpsc-modal textarea,
+				.wpsc-modal textarea:focus,
+				#wpsc-container .checkbox-container label:before,
+				.wpsc-modal .checkbox-container label:before,
+				#wpsc-container .radio-container label:before,
+				.wpsc-modal .radio-container label:before {
+					border: 1px solid #8a8a8a !important;
+					color: #000 !important;
+				}
+
+				/* Buttons */
+				.wpsc-button.primary {
+					border: 1px solid #d8968f !important;
+					background-color: #d8968f !important;
+					color: #fff !important;
+				}
+
+				.wpsc-button.secondary {
+					border: 1px solid #d8968f !important;
+					background-color: #fff !important;
+					color: #d8968f !important;
+				}
+
+				/* Links */
+				.wpsc-link {
+					color: #2271b1;
+				}
+
+				/* Modal popup */
+				.wpsc-modal-header {
+					background-color: #fff8e5;
+					color: #ff8f2b;
+				}
+				.wpsc-modal-body {
+					background-color: #fff;
+					color: #2c3e50;
+				}
+				.wpsc-modal-footer {
+					background-color: #fff;
+				}
+				.wpsc-modal-body .info-label {
+					color: #777;
+				}
+
+				/* Misc */
+				.wpsc-section-header,
+				.wpsc-it-subject-container h2 {
+					color: #2c3e50;
+				}
+				.wpsc-popover-menu-item:hover,
+				.wpsc-ap-nav.active,
+				.wpsc-ap-nav:hover,
+				.wpsc-popover-menu > .wpsc-reply-close:hover {
+					background-color: #d8968f;
+				}
+
+				/* Agent Collision */
+				.wpsc-ac-agent {
+					color: #2c3e50;
+					background-color: #e6e6e6;
+				}
+
+				/* Ticket tags */
+				.wpsc-add-ticket-tag {
+					position: relative;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 25px;
+					height: 25px;
+					color: #fff !important;
+					background-color: #d8968f !important;
+					border: 1px solid #d8968f !important;
+					outline: none;
+					border-radius: 5px;
+					cursor: pointer;
+					margin: 0px 0px 0px 3px;
+					padding: 5px;
+					box-sizing: border-box;
+				}
+
+				.wpsc-close-ticket-tag {
+					position: relative;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 25px;
+					height: 25px;
+					color: #d8968f !important;
+					background-color: #fff !important;
+					border: 1px solid #d8968f !important;
+					outline: none;
+					border-radius: 5px;
+					cursor: pointer;
+					margin: 0px 0px 0px 3px;
+					padding: 5px;
+					box-sizing: border-box;
+				}
+
+				.wpsc-ticket-tags-action {
+					display: flex;
+					margin: 5px 0px 10px 0px;
+					flex-direction: row-reverse;
+				}
+
+				/* User profile starts */
+				.wpsc-up-tab > .active {
+					border-top: 3px solid #d8968f !important;
+				}
+				/* User profile ends */
+			</style>
+<script>
+				/**
+ * Get basepress kb
+ */
+function wpsc_get_basepress_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_basepress_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get basepress kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_basepress_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_basepress_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Basepress kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_basepress_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_basepress_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get betterdocs kb
+ */
+function wpsc_get_betterdocs_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_betterdocs_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get betterdocs kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_betterdocs_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_betterdocs_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Betterdocs kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_betterdocs_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_betterdocs_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get wedocs kb
+ */
+function wpsc_get_wedocs_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_wedocs_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get wedocs kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_wedocs_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_wedocs_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Wedocs kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_wedocs_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_wedocs_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get bwl kb
+ */
+function wpsc_get_bwl_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_bwl_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get bwl kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_bwl_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_bwl_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Bwl kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_bwl_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_bwl_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get echo kb
+ */
+function wpsc_get_echo_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_echo_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get echo kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_echo_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_echo_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Echo kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_echo_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_echo_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get helpguru kb
+ */
+function wpsc_get_helpguru_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_helpguru_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get helpguru kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_helpguru_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_helpguru_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Helpguru kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_helpguru_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_helpguru_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get helpdesk kb
+ */
+function wpsc_get_helpdesk_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_helpdesk_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get helpdesk kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_helpdesk_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_helpdesk_kb_insert_link', post_id, _ajax_nonce:nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Helpdesk kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_helpdesk_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_helpdesk_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get pressapp kb
+ */
+function wpsc_get_pressapp_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_pressapp_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get pressapp kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_pressapp_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_pressapp_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Pressapp kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_pressapp_kb_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_pressapp_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get wp kb
+ */
+function wpsc_get_wp_kb(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_wp_kb', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get wp kb insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_wp_kb_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_wp_kb_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * WP kb insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_wp_kb_insert_text(post_id, nonce){
+
+	var data = { action: 'wpsc_wp_kb_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+
+// Report public JS.
+
+
+/**
+ * View sla log
+ */
+ function wpsc_view_sla_logs(ticket_id, nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_view_sla_logs', ticket_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+// onclick load respective card ticket list
+function wpsc_get_sla_dbc_ticket_list(element, card) {
+	
+	var count = parseInt( jQuery( element ).find('.wpsc-dbc-sla-count').text(), 10);
+	if ( count === 0 ) {
+		return;
+	}
+	var data = { action: 'wpsc_dash_sla_card_count_filter', card : card, view: supportcandy.is_frontend, _ajax_nonce: supportcandy.nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+			if( response.url ) {
+				window.location = response.url;
+			}
+		}
+	);
+}
+
+/**
+ * Get ultimate faq
+ */
+function wpsc_get_ultimate_faq(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_ultimate_faq', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get ultimate faq insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_ultimate_faq_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_ultimate_faq_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Ultimate faq insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_ultimate_faq_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_ultimate_faq_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Get acronix faq
+ */
+function wpsc_get_acronix_faq(nonce) {
+
+	wpsc_show_modal();
+	var data = { action: 'wpsc_get_acronix_faq', _ajax_nonce: nonce };
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( res.title );
+			jQuery( '.wpsc-modal-body' ).html( res.body );
+			jQuery( '.wpsc-modal-footer' ).html( res.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * Get acronix faq insert link
+ *
+ * @param {INT} post_id
+ */
+function wpsc_acronix_faq_insert_link(post_id, nonce) {
+
+	var data = { action: 'wpsc_acronix_faq_insert_link', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+/**
+ * Acronix faq insert text
+ *
+ * @param {*} post_id
+ */
+function wpsc_acronix_faq_insert_text(post_id, nonce) {
+
+	var data = { action: 'wpsc_acronix_faq_insert_text', post_id, _ajax_nonce: nonce };
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (res) {
+			var is_tinymce = (typeof tinyMCE != "undefined") && tinyMCE.activeEditor && ! tinyMCE.activeEditor.isHidden();
+			if (is_tinymce) {
+				tinymce.activeEditor.execCommand( 'mceInsertContent', false, res );
+			} else {
+				var txt         = jQuery( ".wpsc_textarea" );
+				var caretPos    = txt[0].selectionStart;
+				var textAreaTxt = txt.val();
+				txt.val( textAreaTxt.substring( 0, caretPos ) + res + textAreaTxt.substring( caretPos ) );
+			}
+			wpsc_close_modal();
+		}
+	);
+}
+
+
+/**
+ * Get edit WooCommerce widget
+ */
+function wpsc_view_woo_order(ticket_id, order_id, nonce) {
+
+	wpsc_show_modal();
+	var data = {
+		action: 'wpsc_view_woo_order',
+		ticket_id,
+		order_id,
+		_ajax_nonce: nonce
+	};
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * View more WooCommerce orders
+ */
+function wpsc_view_more_woo_orders(ticket_id, nonce) {
+
+	wpsc_show_modal();
+	var data = {
+		action: 'wpsc_view_more_woo_orders',
+		ticket_id,
+		_ajax_nonce: nonce
+	};
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * View WooCommerce order from all orders list
+ */
+function wpsc_view_woo_order_tbl(ticket_id, order_id, nonce) {
+
+	wpsc_close_modal();
+	setTimeout(
+		function () {
+			wpsc_view_woo_order( ticket_id, order_id, nonce );
+		},
+		500
+	);
+}
+
+/**
+ * Change customer orders in WooCommerce Order custom fields while creating ticket create-as
+ */
+function wpsc_woo_change_customer_orders(nonce) {
+
+	var curCustomer   = jQuery( '.wpsc-create-ticket input.email' ).val().trim();
+	var url           = new URL( window.location.href );
+	var search_params = url.searchParams;
+	url.search        = search_params.toString();
+
+	var data = {
+		action: 'wpsc_woo_get_create_as_orders',
+		email: curCustomer,
+		_ajax_nonce: nonce
+	};
+
+	search_params.forEach(
+		function (value, key) {
+			data[key] = value;
+		}
+	);
+
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			jQuery.each(
+				response,
+				function (key, field) {
+					var currentEl = jQuery( '.wpsc-tff.' + field.slug );
+					var nextEl    = currentEl.next();
+					currentEl.remove();
+					nextEl.before( field.html );
+				}
+			);
+		}
+	);
+}
+
+/**
+ * Get view WooCommerce subscription
+ */
+function wpsc_view_woo_subscription(ticket_id, order_id, nonce) {
+
+	wpsc_show_modal();
+	var data = {
+		action: 'wpsc_view_woo_subscription',
+		ticket_id,
+		order_id,
+		_ajax_nonce: nonce
+	};
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * View more WooCommerce subscriptions
+ */
+function wpsc_view_more_woo_subscriptions(ticket_id) {
+
+	wpsc_show_modal();
+	var data = {
+		action: 'wpsc_view_more_woo_subscriptions',
+		ticket_id
+	};
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+/**
+ * View WooCommerce subscription from all orders list
+ */
+function wpsc_view_woo_subscription_tbl(ticket_id, order_id) {
+
+	wpsc_close_modal();
+	setTimeout(
+		function () {
+			wpsc_view_woo_subscription( ticket_id, order_id );
+		},
+		500
+	);
+}
+
+/**
+ * Get purchase details of customer order
+ *
+ * @param {INT} ticket_id
+ * @param {INT} order_id
+ */
+function wpsc_woo_customer_get_order_details(customer_id, order_id, nonce) {
+
+	wpsc_show_modal();
+	var data = {
+		action: 'wpsc_woo_customer_get_order_details',
+		customer_id,
+		order_id,
+		_ajax_nonce: nonce
+	};
+	jQuery.post(
+		supportcandy.ajax_url,
+		data,
+		function (response) {
+
+			// Set to modal.
+			jQuery( '.wpsc-modal-header' ).text( response.title );
+			jQuery( '.wpsc-modal-body' ).html( response.body );
+			jQuery( '.wpsc-modal-footer' ).html( response.footer );
+			// Display modal.
+			wpsc_show_modal_inner_container();
+		}
+	);
+}
+
+
+			</script>
+<style>
+				/* KB Notice */
+.wpsc_kb_notice {
+	color: #b72929;
+}
+/* kb warning */
+.kb-warning {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+/* Reports public js file */
+
+
+/* FAQ Notice */
+.wpsc_faq_notice {
+	color: #b72929;
+	margin-top: 3px;
+}
+
+/* FAQ warning */
+.faq-warning {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+.wpsc-modal .woo-table {
+	width: 100%;
+}
+.wpsc-modal .woo-table th {
+	text-align: left;
+}
+.wpsc-modal .woo-table th,
+.wpsc-modal .woo-table td {
+	padding: 5px;
+}
+
+/* required */
+.required-indicator {
+	color: #ff0000;
+	margin-left: 5px;
+}
+
+.wpsc-woo {
+	width: 100% !important;
+}
+.wpsc-woo table th td {
+	border: none !important;
+}
+
+
+			</style>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-573NBZ2Z"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script type="text/javascript">
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+<link rel="stylesheet" id="wc-blocks-style-css" href="https://hubsplit.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-8.8.3" type="text/css" media="all" />
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.4" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/hubsplit.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.2" id="jquery-ui-menu-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/dist/a11y.min.js?ver=d90eebea464f6c09bfd5" id="wp-a11y-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.2" id="jquery-ui-autocomplete-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.2" id="jquery-ui-sortable-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/uploads.min.js?ver=1.8.33" id="uploads-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/listeo-core/assets/js/ajax.search.min.js?ver=1.8.33" id="ajaxsearch-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-admin/js/editor.min.js?ver=6.5.3" id="editor-js"></script>
+<script type="text/javascript" id="editor-js-after">
+/* <![CDATA[ */
+window.wp.oldEditor = window.wp.editor;
+/* ]]> */
+</script>
+<script type="text/javascript" id="quicktags-js-extra">
+/* <![CDATA[ */
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/quicktags.min.js?ver=6.5.3" id="quicktags-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-admin/js/common.min.js?ver=6.5.3" id="common-js"></script>
+<script type="text/javascript" id="wplink-js-extra">
+/* <![CDATA[ */
+var wpLinkL10n = {"title":"Insert\/edit link","update":"Update","save":"Add Link","noTitle":"(no title)","noMatchesFound":"No results found.","linkSelected":"Link selected.","linkInserted":"Link inserted.","minInputLength":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/wplink.min.js?ver=6.5.3" id="wplink-js"></script>
+<script type="text/javascript" id="thickbox-js-extra">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/hubsplit.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105" id="thickbox-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/shortcode.min.js?ver=6.5.3" id="shortcode-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-admin/js/media-upload.min.js?ver=6.5.3" id="media-upload-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.13.2" id="jquery-effects-core-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.13.2" id="jquery-effects-slide-js"></script>
+<script type="text/javascript" id="wpsc-framework-js-extra">
+/* <![CDATA[ */
+var supportcandy = {"ajax_url":"https:\/\/hubsplit.com\/wp-admin\/admin-ajax.php","urls":{"support":"https:\/\/hubsplit.com\/support\/","open_ticket":""},"plugin_url":"https:\/\/hubsplit.com\/wp-content\/plugins\/supportcandy\/","version":"3.2.7","loader_html":"\t\t\t<div class=\"wpsc-loader\">\n\t\t\t\t<img src=\"https:\/\/hubsplit.com\/wp-content\/plugins\/supportcandy\/asset\/images\/loader.gif\" alt=\"Loading...\" \/>\n\t\t\t<\/div>\n\t\t\t","inline_loader":"\t\t\t<img class=\"wpsc-inline-loader\" src=\"https:\/\/hubsplit.com\/wp-content\/plugins\/supportcandy\/asset\/images\/loader.gif\" alt=\"Loading...\" \/>\n\t\t\t","is_frontend":"1","is_reload":"1","reply_form_position":"top","allowed_file_extensions":["jpg","jpeg","png","gif","pdf","doc","docx","ppt","pptx","pps","ppsx","odt","xls","xlsx","mp3","m4a","ogg","wav","mp4","m4v","mov","wmv","avi","mpg","ogv","3gp","3g2","zip","eml"],"nonce":"f436a0cde7","translations":{"req_fields_error":"Required fields can not be empty!","datatables":{"emptyTable":"No Records","zeroRecords":"No Records","info":"Showing _START_ to _END_ of _TOTAL_ records","infoEmpty":"","loadingRecords":"","processing":"","infoFiltered":"","search":"Search:","paginate":{"first":"First","previous":"Previous","next":"Next","last":"Last"}},"please_wait":"Please wait...","req_fields_missing":"Required fields missing!","confirm":"Are you sure?","something_wrong":"Something went wrong!","view_more":"View more!","view_less":"View less!","warning_message":"There is unposted text in the reply area. Are you sure you want to discard and proceed?","incorrect_login":"Incorrect username or password!","incorrect_password":"Incorrect password!","unsername_unavailable":"Username is already taken!","incorrect_email":"Incorrect email address!","copy_url":"Ticket URL copied!","invalidEmail":"Invalid email address!","customer_delete_warn":"Deleting a customer will permanently remove all associated customer information and tickets!","req_term_cond":"Please accept terms and conditions!","req_gdpr":"Please accept GDPR policy!"},"temp":[],"home_url":"https:\/\/hubsplit.com","humbargar_titles":[],"current_section":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/framework/scripts.js?ver=3.2.7" id="wpsc-framework-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/js/selectWoo/selectWoo.full.min.js?ver=3.2.7" id="wpsc-selectWoo-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/gpopover/jquery.gpopover.js?ver=3.2.7" id="gpopover-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/jquery-circle-progress/circle-progress.min.js?ver=3.2.7" id="jquery-circle-progress-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/flatpickr/flatpickr.js?ver=3.2.7" id="flatpickr-js-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/fullcalendar/lib/main.min.js?ver=3.2.7" id="fullcalendar-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/fullcalendar/lib/locales-all.min.js?ver=3.2.7" id="fullcalendar-locales-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/bdthemes-element-pack/assets/vendor/js/datatables.min.js" id="datatables-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/supportcandy/asset/libs/chartjs/dist/chart.min.js?ver=3.2.7" id="chartjs-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.8.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/hubsplit.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.8.3" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?ver=4.1.4" id="flatpickr-js"></script>
+<script type="text/javascript" id="listeo-custom-js-extra">
+/* <![CDATA[ */
+var wordpress_date_format = {"date":"MM\/DD\/YYYY","day":"1","raw":"m\/d\/Y","time":"g:i a"};
+var listeo = {"ajaxurl":"\/wp-admin\/admin-ajax.php","theme_url":"https:\/\/hubsplit.com\/wp-content\/themes\/listeo","menu_back":"Back"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/themes/listeo/js/custom.js?ver=20220821" id="listeo-custom-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.16.2" id="smush-lazy-load-js"></script>
+<script type="text/javascript">
+		window.wp = window.wp || {};
+		window.wp.editor = window.wp.editor || {};
+		window.wp.editor.getDefaultSettings = function() {
+			return {
+				tinymce: {theme:"modern",skin:"lightgray",language:"en",formats:{alignleft: [{selector: "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li", styles: {textAlign:"left"}},{selector: "img,table,dl.wp-caption", classes: "alignleft"}],aligncenter: [{selector: "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li", styles: {textAlign:"center"}},{selector: "img,table,dl.wp-caption", classes: "aligncenter"}],alignright: [{selector: "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li", styles: {textAlign:"right"}},{selector: "img,table,dl.wp-caption", classes: "alignright"}],strikethrough: {inline: "del"}},relative_urls:false,remove_script_host:false,convert_urls:false,browser_spellcheck:true,fix_list_elements:true,entities:"38,amp,60,lt,62,gt",entity_encoding:"raw",keep_styles:false,cache_suffix:"wp-mce-49110-20201110",resize:"vertical",menubar:false,branding:false,preview_styles:"font-family font-size font-weight font-style text-decoration text-transform",end_container_on_empty_block:true,wpeditimage_html5_captions:true,wp_lang_attr:"en-US",wp_keep_scroll_position:false,wp_shortcut_labels:{"Heading 1":"access1","Heading 2":"access2","Heading 3":"access3","Heading 4":"access4","Heading 5":"access5","Heading 6":"access6","Paragraph":"access7","Blockquote":"accessQ","Underline":"metaU","Strikethrough":"accessD","Bold":"metaB","Italic":"metaI","Code":"accessX","Align center":"accessC","Align right":"accessR","Align left":"accessL","Justify":"accessJ","Cut":"metaX","Copy":"metaC","Paste":"metaV","Select all":"metaA","Undo":"metaZ","Redo":"metaY","Bullet list":"accessU","Numbered list":"accessO","Insert\/edit image":"accessM","Insert\/edit link":"metaK","Remove link":"accessS","Toolbar Toggle":"accessZ","Insert Read More tag":"accessT","Insert Page Break tag":"accessP","Distraction-free writing mode":"accessW","Add Media":"accessM","Keyboard Shortcuts":"accessH"},content_css:"https://hubsplit.com/wp-includes/css/dashicons.min.css?ver=6.5.3,https://hubsplit.com/wp-includes/js/tinymce/skins/wordpress/wp-content.css?ver=6.5.3",toolbar1:"bold,italic,bullist,numlist,link",wpautop:false,indent:true,elementpath:false,plugins:"charmap,colorpicker,hr,lists,paste,tabfocus,textcolor,fullscreen,wordpress,wpautoresize,wpeditimage,wpemoji,wpgallery,wplink,wptextpattern"},
+				quicktags: {
+					buttons: 'strong,em,link,ul,ol,li,code'
+				}
+			};
+		};
+
+					var tinyMCEPreInit = {
+				baseURL: "https://hubsplit.com/wp-includes/js/tinymce",
+				suffix: ".min",
+				mceInit: {},
+				qtInit: {},
+				load_ext: function(url,lang){var sl=tinymce.ScriptLoader;sl.markDone(url+'/langs/'+lang+'.js');sl.markDone(url+'/langs/'+lang+'_dlg.js');}
+			};
+					</script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/tinymce/tinymce.min.js?ver=49110-20201110" id="wp-tinymce-root-js"></script>
+<script type="text/javascript" src="https://hubsplit.com/wp-includes/js/tinymce/plugins/compat3x/plugin.min.js?ver=49110-20201110" id="wp-tinymce-js"></script>
+<script type="text/javascript">
+tinymce.addI18n( 'en', {"Ok":"OK","Bullet list":"Bulleted list","Insert\/Edit code sample":"Insert\/edit code sample","Url":"URL","Spellcheck":"Check Spelling","Row properties":"Table row properties","Cell properties":"Table cell properties","Cols":"Columns","Paste row before":"Paste table row before","Paste row after":"Paste table row after","Cut row":"Cut table row","Copy row":"Copy table row","Merge cells":"Merge table cells","Split cell":"Split table cell","Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off.":"Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off.\n\nIf you are looking to paste rich content from Microsoft Word, try turning this option off. The editor will clean up text pasted from Word automatically.","Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help":"Rich Text Area. Press Alt-Shift-H for help.","You have unsaved changes are you sure you want to navigate away?":"The changes you made will be lost if you navigate away from this page.","Your browser doesn't support direct access to the clipboard. Please use the Ctrl+X\/C\/V keyboard shortcuts instead.":"Your browser does not support direct access to the clipboard. Please use keyboard shortcuts or your browser\u2019s edit menu instead.","Edit|button":"Edit"});
+tinymce.ScriptLoader.markDone( 'https://hubsplit.com/wp-includes/js/tinymce/langs/en.js' );
+</script>
+<div id="wp-link-backdrop" style="display: none"></div>
+<div id="wp-link-wrap" class="wp-core-ui" style="display: none" role="dialog" aria-labelledby="link-modal-title">
+<form id="wp-link" tabindex="-1">
+<input type="hidden" id="_ajax_linking_nonce" name="_ajax_linking_nonce" value="ec9cd34dc5" /> <h1 id="link-modal-title">Insert/edit link</h1>
+<button type="button" id="wp-link-close"><span class="screen-reader-text">
+Close </span></button>
+<div id="link-selector">
+<div id="link-options">
+<p class="howto" id="wplink-enter-url">Enter the destination URL</p>
+<div>
+<label><span>URL</span>
+<input id="wp-link-url" type="text" aria-describedby="wplink-enter-url" /></label>
+</div>
+<div class="wp-link-text-field">
+<label><span>Link Text</span>
+<input id="wp-link-text" type="text" /></label>
+</div>
+<div class="link-target">
+<label><span></span>
+<input type="checkbox" id="wp-link-target" /> Open link in a new tab</label>
+</div>
+</div>
+<p class="howto" id="wplink-link-existing-content">Or link to existing content</p>
+<div id="search-panel">
+<div class="link-search-wrapper">
+<label>
+<span class="search-label">Search</span>
+<input type="search" id="wp-link-search" class="link-search-field" autocomplete="off" aria-describedby="wplink-link-existing-content" />
+<span class="spinner"></span>
+</label>
+</div>
+<div id="search-results" class="query-results" tabindex="0">
+<ul></ul>
+<div class="river-waiting">
+<span class="spinner"></span>
+</div>
+</div>
+<div id="most-recent-results" class="query-results" tabindex="0">
+<div class="query-notice" id="query-notice-message">
+<em class="query-notice-default">No search term specified. Showing recent items.</em>
+<em class="query-notice-hint screen-reader-text">
+Search or use up and down arrow keys to select an item. </em>
+</div>
+<ul></ul>
+<div class="river-waiting">
+<span class="spinner"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="submitbox">
+<div id="wp-link-cancel">
+<button type="button" class="button">Cancel</button>
+</div>
+<div id="wp-link-update">
+<input type="submit" value="Add Link" class="button button-primary" id="wp-link-submit" name="wp-link-submit">
+</div>
+</div>
+</form>
+</div>
+<div class="wpautoterms-footer"><p>
+<a href="https://hubsplit.com/wpautoterms/the-a-i-rental-peer-to-peer-platform/">The A.I. Rental Peer to Peer Platform</a><span class="separator"> - </span><a href="https://hubsplit.com/wpautoterms/liability-waiver-and-release/">Liability Waiver and Release</a><span class="separator"> - </span><a href="https://hubsplit.com/wpautoterms/terms-and-conditions/">Terms and Conditions</a><span class="separator"> - </span><a href="https://hubsplit.com/wpautoterms/privacy-policy/">Privacy Policy</a></p>
+</div>
+</body>
+</html>
+

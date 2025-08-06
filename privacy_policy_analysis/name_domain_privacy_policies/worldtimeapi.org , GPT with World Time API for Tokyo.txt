@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preload" href="/assets/fonts/ibm-plex/sans/IBMPlexSans-Light.woff2"
+          as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/fonts/ibm-plex/sans/IBMPlexSans-Medium.woff2"
+          as="font" type="font/woff2" crossorigin="anonymous" />
+
+    <title>  World Time API: Simple JSON/plain-text API to obtain the current
+  time in, and related data about, a timezone.
+</title>
+
+    <meta
+      name="description"
+      content="World Time API: Simple JSON/plain-text API to obtain the current
+  time in, and related data about, a timezone."
+    />
+
+    <meta
+      name="keywords"
+      content="world time api, world clock api, world time, world clock, api,
+  current time in, current time, now, time zone, timezone, json,
+  text, txt, ip"
+    />
+<style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:'';content:none}q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;src:url("/assets/fonts/ibm-plex/sans/IBMPlexSans-Light.woff2") format("woff2")}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:300;src:url("/assets/fonts/ibm-plex/sans/IBMPlexSans-LightItalic.woff2") format("woff2")}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;src:url("/assets/fonts/ibm-plex/sans/IBMPlexSans-Medium.woff2") format("woff2")}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:500;src:url("/assets/fonts/ibm-plex/sans/IBMPlexSans-MediumItalic.woff2") format("woff2")}html{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";background:#FAFAFA;min-height:100%;box-sizing:border-box;scroll-padding-top:6.2rem;scroll-margin-top:6.2rem;--underline-width: .2em;--underline-block-width: 20px;--underline-transition: 0.5s;--content-width: 1080px}@media (max-width: 1100px){html{--content-width: 768px}}@media (max-width: 780px){html{--content-width: 320px}}body{-webkit-text-size-adjust:100%;color:#0d1117;display:grid;grid-template-areas:". header header ." ". intro intro ." ". alert alert ." ". main sponsors ." ". footer footer .";grid-template-columns:auto 600px 480px auto;grid-template-rows:6rem minmax(0, auto) minmax(0, auto) auto auto;min-height:100vh;min-width:100vw}@media (max-width: 1100px){body{grid-template-areas:". header ." ". intro ." ". alert ." ". main ." ". sponsors ." ". footer .";grid-template-columns:auto var(--content-width) auto;grid-template-rows:6em minmax(0, auto) minmax(0, auto) auto auto;font-size:.85rem}}@media (max-width: 780px){body{grid-template-rows:8em minmax(0, auto) minmax(0, auto) auto auto;font-size:.75rem}}h1{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:2.3em;font-weight:400;letter-spacing:.05rem;margin:1em 0 .5em 0;padding-bottom:.5rem}h2{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1.7em;font-weight:600;margin:1em 0 .5em 0}h2 code{font-size:.9em !important;margin:0 .3em}h3{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1.4em;font-weight:500;letter-spacing:-.05rem;margin:1em 0 .5em 0}h4{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1.5em;line-height:1.4;font-weight:500;margin:3rem 0 .3rem 0;text-shadow:1px 1px 2px rgba(13,17,23,0.1)}@media (max-width: 1100px){h4{margin:1.6rem 0 .3rem 0}}h5{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1.1em;letter-spacing:-.01rem;line-height:1.4;font-weight:bold;margin:2em 0 0 0;text-shadow:1px 1px 5px #0d1117}h1 a:target,h2 a:target,h3 a:target,h4 a:target,h5 a:target{position:relative}h1 a:target:before,h2 a:target:before,h3 a:target:before,h4 a:target:before,h5 a:target:before{content:"";display:block;background:#44A;width:.6em;height:.6em;position:absolute;left:-1em;top:30%;border-radius:1em}p{line-height:1.5}strong{font-weight:bold}ul{list-style:disc;padding:0 0 0 1.5em}ul li{line-height:2}dl{margin:2em}dl dt{margin:1em 0;font-weight:bold}dl dd{margin:1em 1em 1.5em 1em;font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,"Courier-New",monospace}.centered{text-align:center}header{top:0;grid-area:header;display:flex;justify-content:space-between;align-items:center;text-align:center;position:relative;z-index:1000;position:sticky}header:before{display:block;content:"";background-color:#FAFAFA;width:100vw;position:absolute;z-index:-1;top:0;bottom:0;left:calc(-50vw + (var(--content-width) / 2))}header:before{box-shadow:0 0 1.2em 0 rgba(250,250,250,0.6)}@media (max-width: 780px){header{flex-direction:column;justify-content:space-around}}header h1{color:#000;font-size:2em;font-weight:500;margin:0;word-spacing:-100%;border-bottom:none;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";letter-spacing:-.04em;word-spacing:-.2em}header h1 a,header h1 a:visited,header h1 a:hover{color:inherit;border-bottom:none;text-decoration:none}@media (max-width: 780px){header h1{width:100%;margin-top:.5em}}header nav{grid-area:navigation;text-align:center;display:flex;font-weight:600;font-size:1.3em}header nav a,header nav a:visited,header nav a:hover{display:block;color:#0d1117;word-spacing:1em;text-decoration:none;margin-left:2em;color:#0d1117;text-decoration:none;background-image:linear-gradient(90deg, #FAFAFA, #FAFAFA),linear-gradient(90deg, #D1DBE3, #D1DBE3);background-size:var(--underline-block-width) var(--underline-width),100% var(--underline-width);background-repeat:no-repeat;background-position-x:calc(var(--underline-block-width) * -1),0;background-position-y:110%;transition:background-position-x var(--underline-transition);padding-bottom:0.4%}header nav a:hover,header nav a:visited:hover,header nav a:hover:hover{background-image:linear-gradient(90deg, #FAFAFA, #FAFAFA),linear-gradient(90deg, blue, blue);background-position-x:calc(110% + var(--underline-block-width)),0}@media (max-width: 780px){header nav{width:100%;justify-content:space-between}header nav a,header nav a:visited,header nav a:hover{margin-left:0}}header nav #register{background:#005bac;color:#fff;box-shadow:0 0 5px rgba(13,17,23,0.3);margin-left:1.5em}header nav #register:hover{filter:brightness(1.2);text-decoration:none}section.intro{grid-area:intro;display:flex;justify-content:space-between;align-items:center;margin:1em 0;padding:3em 0;position:relative}section.intro:before{display:block;content:"";width:100vw;position:absolute;z-index:-1;top:0;bottom:0;left:calc(-50vw + (var(--content-width) / 2));background-color:#FAFAFA}section.intro:before{background-image:url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23728da6' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");background-position:50% 0}@media (max-width: 780px){section.intro{flex-direction:column}}section.intro p{flex:1 1 35%;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:2.4em;line-height:1.3;font-weight:300;margin:1.75rem .5em 1em 0}@media (max-width: 1100px){section.intro p{flex:1 1 40%}}section.intro p .logo{font-weight:500;font-size:1.1em;letter-spacing:-.04em;margin-right:.3em}aside.example{grid-area:example;flex:1 1 45%;display:flex;flex-direction:column}@media (max-width: 1100px){aside.example{align-items:center;justify-content:center;flex:1 1 45%}}aside.example a{border-bottom:0}aside.example section.window{position:relative;border-radius:6px;overflow:hidden;background:#1c1b1b;padding:26px 5px 10px 5px;font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,"Courier-New",monospace;font-size:.8em;line-height:1.2;box-shadow:8px 8px 0 0 rgba(13,17,23,0.1)}@media (max-width: 1100px){aside.example section.window{box-shadow:6px 6px 0 0 rgba(13,17,23,0.1)}}aside.example section.window>span{position:absolute;top:10px;width:10px;height:10px;border-radius:10px;display:inline-block}aside.example section.window>span.close{left:10px;background:#d55359}aside.example section.window>span.minimize{left:25px;background:#d8b454}aside.example section.window>span.zoom{left:40px;background:#7db24f}aside.sponsorship{grid-area:sponsors;display:flex;flex-direction:column;align-items:center;margin:4em 0 0 0}@media (min-width: 1100px){aside.sponsorship{margin-top:8.2em}#pages-home aside.sponsorship{margin-top:0}}main{grid-area:main}main h1{position:relative;padding-bottom:0.42em;margin-bottom:1.4em}main h1:before{position:absolute;bottom:0;left:0;content:"";display:block;height:.06em;width:10%;background:#000}main p{margin:1rem 0}main p.notice{font-style:italic}main p strong{font-weight:600;color:#111}main p em{font-style:italic}main p.bigger{font-size:110%;text-align:justify;margin:1.5em 0;line-height:1.5}main a[href]{color:#0d1117;text-decoration:none;background-image:linear-gradient(90deg, #FAFAFA, #FAFAFA),linear-gradient(90deg, #D1DBE3, #D1DBE3);background-size:var(--underline-block-width) var(--underline-width),100% var(--underline-width);background-repeat:no-repeat;background-position-x:calc(var(--underline-block-width) * -1),0;background-position-y:110%;transition:background-position-x var(--underline-transition);padding-bottom:0.4%}main a[href]:hover{background-image:linear-gradient(90deg, #FAFAFA, #FAFAFA),linear-gradient(90deg, blue, blue);background-position-x:calc(110% + var(--underline-block-width)),0}main blockquote{border:1px solid #DDD;border-left:none;border-right:none;padding:0 1em;margin:1.5em 0;font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,"Courier-New",monospace}main blockquote p{font-size:.9em;line-height:1.5;color:#555;letter-spacing:-0.03em}main table{width:100%;border:2px solid #DDD;border-radius:15px;font-size:.9em}main table thead{background:#DDD}main table thead th{padding:0.4em 0;font-weight:bold}main table tbody tr:hover{background:#FEA}main table tbody tr:hover th{background:#FE0}main table tbody th{width:33%;padding:0.4em 0;background:#EEE}main table tbody td{padding:0.4em 0;text-align:center}main code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,"Courier-New",monospace;font-size:.75rem}main code.format,main code.call{display:block;margin:.5em 0;background-color:#0d1117;border-radius:5px;padding:.8em 1em;color:#FAFAFA}@media (max-width: 780px){main code.format,main code.call{overflow:scroll;white-space:nowrap;font-size:.6rem}}main code.format var,main code.call var{color:#FEA;margin:0 .2em 0 .1em;border-bottom:1px dotted #369;cursor:help}main code.format .optional,main code.call .optional{opacity:.9}main code.format{background:rgba(13,17,23,0.95);margin-bottom:.7em}main code.format:before{content:"Spec: "}main code.call{position:relative;background-color:#0d1117;color:#FFF;box-shadow:0 0 0 4px rgba(13,17,23,0.3);line-height:1.4;margin:.5em .3em}main code a,main code a:visited,main code a:hover{color:#FFF;border-bottom:none}.result{grid-area:result;display:flex;align-items:center;justify-content:center}.result h4{display:none}.result p{flex:1 1;text-align:center;background:#EEE;padding:.8em 0;border-radius:5px;line-height:1.8;box-shadow:0 1px 5px #CCC}.result var{cursor:help;font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,Courier,"Courier-New",monospace;margin:0 .5em;border-bottom:1px dotted #CCC}footer{grid-area:footer}footer section:nth-child(1){position:relative;display:flex;justify-content:space-between;align-items:center;padding:2em 0;margin-top:3em;font-weight:400;font-size:.9em}footer section:nth-child(1):before{display:block;content:"";width:100vw;position:absolute;z-index:-1;top:0;bottom:0;left:calc(-50vw + (var(--content-width) / 2));background-color:#FAFAFA}footer section:nth-child(1):before{background-image:url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23036' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")}footer section:nth-child(1) a{color:#0d1117}footer section:nth-child(1) nav a{margin-left:1em}@media (max-width: 780px){footer section:nth-child(1){flex-direction:column}footer section:nth-child(1) nav{margin:1em 0 0 0;width:100%;display:flex;justify-content:space-between}footer section:nth-child(1) nav a{margin:0}}footer section:nth-child(2){font-size:.7rem;display:flex;justify-content:space-between;padding:1em 0;color:#1D211E}
+</style>
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/stackoverflow-dark.min.css">
+    <script defer src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
+    <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+  </head>
+
+  <body id="pages-privacypolicy">
+    <header>
+      <h1><a href="/" title="Back to the overview about the World Time API">World Time API</a></h1>
+      <nav>
+        <a href="/pages/examples">Examples</a>
+        <a href="/pages/schema">Schema</a>
+        <a href="/api" target="_blank">Spec</a>
+        <a href="/pages/faqs">FAQs</a>
+      </nav>
+    </header>
+<main>
+<h1>Privacy Policy</h1>
+<p>The Plain-Language Privacy Policy of WorldTimeAPI.</p>
+<h2>We do not...</h2>
+<p>WorldTimeAPI is a simple service, and there is no requirement for us to persist any information about our visitors. Therefore:</p>
+<ul>
+<li><strong>we do not</strong> issue Cookies or any other form of tracking tokens</li>
+<li><strong>we do not</strong> &quot;fingerprint&quot; visitors</li>
+</ul>
+<p>We do not use Google Analytics or any other browser-based tracking service.</p>
+<h2>We do...</h2>
+<p>We do log a small amount of information about the requests made to the service. This information includes the date and time of requests, the IP the request came from, and it's location. Some of this information is temporary; for example we keep the IP of the request only for a few minutes so we can guard against attacks from malicious agents.</p>
+<p>We also store details about system errors so they can be investigated and rectified.</p>
+<p>Any information we do store long-term is purely to allow us plan for future enhancements to the system, and there is <strong>no</strong> identifying information, pseudo or otherwise.</p>
+<h2>We do not...</h2>
+<p>We do not share the information we do log with 3rd parties.</p>
+<p>Any information collected by our hosting platform is outside our control.</p>
+<h2>Further information</h2>
+<p>If you feel this policy needs to be clarified in any way, please feel free to contact us at <a href="mailto:hello@worldtimeapi.org?subject=Privacy+Policy">hello@worldtimeapi.org</a></p>
+
+</main>
+
+    <aside class="sponsorship">
+      <div id="ea" class="horizontal bordered" data-ea-publisher="worldtimeapi-org" data-ea-type="image"></div>
+    </aside>
+
+    <footer>
+      <section>
+        <p>🍪 We don't use cookies! More details in our <a href="/pages/privacypolicy">Privacy Policy</a>.</p>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/api" target="_blank">Spec</a>
+          <a href="/pages/examples">Examples</a>
+          <a href="/pages/schema">Schema</a>
+          <a href="/pages/faqs">FAQs</a>
+          <a href="/pages/privacypolicy">Privacy</a>
+          <a href="/pages/changelog">Changelog</a>
+          <a href="https://flattr.com/@WorldTimeAPI" rel="nofollow" target="_blank">Donate</a>
+        </nav>
+      </section>
+      <section>
+        <p class="version">Version: 0.6.9</p>
+        <p class="copyright">Copyright &#169; 2024. All rights reserved.</p>
+      </section>
+    </footer>
+    <script>
+     document.addEventListener('DOMContentLoaded', () => hljs.highlightAll());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <title>Miday | Privacy Policy</title>
+
+        <meta name="description" property="og:description" content="Miday | Privacy Policy">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" type="text/css" href="/public/css/min/styles.min.css?v=1709618147">
+
+        <link rel="canonical" href="https://miday.io/privacy-policy">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HC4WW7PX7H"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-HC4WW7PX7H');
+        </script>
+
+        <!-- Hotjar Tracking Code for https://miday.io/ -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3629978,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+        
+                    <meta name="title" property="og:title" content="Miday | Privacy Policy">
+            <meta property="og:image:type" content="image/jpeg">
+            <meta property="og:url" content="https://miday.io/public/img/og/miday.jpg">
+            <meta property="og:image" content="https://miday.io/public/img/og/miday.jpg">
+            <meta property="og:image:width" content="1000">
+            <meta property="og:image:height" content="525">
+        
+
+
+    </head>
+    <body >  <link rel="stylesheet" href="/public/css/min/marketing.min.css?v3" /><nav class="container-fluid " id="marketing-nav">
+    <div class="row">
+        <div class="col-12 px-0">
+            <div class="container-fluid d-flex justify-content-center">
+                <div class="container px-0 px-lg-3">
+                    <div class="row py-2">
+                        <div class="col-3 text-lg-center text-center d-flex align-items-center">
+                                                        <a href="/"><img src="/public/img/logo.png" alt="Miday Logo" class="img-fluid" style="width:120px;"></a>
+                                                    </div>
+
+                        <div class="d-none d-lg-flex col-auto mx-1 ms-auto text-end d-flex align-items-center">
+                            <!-- Features dropdown -->
+                            <div class="dropdown">
+                                <a href="#" class="dropdown-toggle no-underline fw-boldish f-14 fc blue ms-auto w-lg-25 " id="featuresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu bg-blue mt-3" aria-labelledby="featuresDropdown">
+                                    <li class="px-2"><a class="dropdown-item text-white my-2" href="/time-tracking">Time Tracking</a></li>
+                                    <li class="px-2"><a class="dropdown-item text-white my-2" href="/invoicing">Invoicing</a></li>
+                                    <li class="px-2"><a class="dropdown-item text-white my-2" href="/team-management">Team Management</a></li>
+                                    <li class="px-2"><a class="dropdown-item text-white my-2" href="/blog/miday-expense-tracking">Expense Tracking</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="d-none d-lg-flex col-lg-auto col mx-1 d-flex align-items-center">
+                            <a href="/blog" class="no-underline fw-boldish f-14 fc blue ms-auto w-lg-25 ">Blog</a>
+                        </div>
+
+                        <!-- <div class="d-none d-lg-flex col-lg-auto col me-4 d-flex align-items-center">
+                            <a href="/guides" class="no-underline fw-boldish f-14 fc blue ms-auto w-lg-25 </?=($this->style == 'dark') ? 'text-white' : ''?>">Guides</a>
+                        </div> -->
+
+                        <div class="d-none d-lg-flex col-lg-auto col-auto mx-1 d-flex align-items-center">
+                            <a href="/login" rel="nofollow" class="no-underline fw-boldish f-14 fc blue ms-auto w-lg-25 ">Sign In</a>
+                        </div>
+
+                        <div class="d-none d-lg-flex col-lg-auto col mx-1">
+                            <a href="/sign-up" rel="nofollow" class="btn cta x-small primary">Join Free</a>
+                        </div>
+
+                        <div class="col-auto ms-auto d-lg-none d-flex ">
+                            <button class="d-lg-none d-flex h-100 align-items-center text-white not-btn mx-lg-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <span class="material-icons ">menu</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" aria-modal="true" role="dialog">
+	<div class="container">
+		<div class="row">
+			<div class="col-auto ms-auto">
+				<button type="button" class="py-2 my-1 mx-1 px-4 btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+					<span class="material-icons text-white">close</span>
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="ps-2">
+
+                    <small class="text-white fw-boldy">Solutions</small>
+
+					<a class="dropdown-item py-3 pe-5 mt-2" href="/time-tracking">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+								<span class="material-icons text-white">schedule</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Time Tracking</p>
+								<small class="text-light-grey">Time tracking solutions for freelancers.</small>
+							</div>
+						</div>
+					</a>
+
+					<a class="dropdown-item py-3 pe-5" href="/invoicing">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+                                <span class="material-icons text-white">receipt</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Invoicing</p>
+								<small class="text-light-grey">Invoicing solutions for freelancers.</small>
+							</div>
+						</div>
+					</a>
+
+					<a class="dropdown-item py-3 pe-5" href="/team-management">
+						<div class="d-flex">
+                            <div class="me-3 d-flex align-items-center">
+                                <span class="material-icons text-white">groups</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Team Management</p>
+								<small class="text-light-grey">Team management solutions for freelancers.</small>
+							</div>
+						</div>
+					</a>
+
+					<a class="dropdown-item py-3 pe-5 mb-4" href="/blog/miday-expense-tracking">
+						<div class="d-flex">
+                            <div class="me-3 d-flex align-items-center">
+                                <span class="material-icons text-white">account_balance_wallet</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Expense Tracking</p>
+								<small class="text-light-grey">Expense tracking solutions for freelancers.</small>
+							</div>
+						</div>
+					</a>
+
+                    <small class="text-white fw-boldy">Resources</small>
+
+					<a class="dropdown-item py-3 pe-5 mt-2" href="/blog">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+								<span class="material-icons text-white">newspaper</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Blog</p>
+								<small class="text-light-grey">The latest Miday news.</small>
+							</div>
+						</div>
+					</a>
+
+                    <!-- <a class="dropdown-item py-3 pe-5" href="/guides">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+								<span class="material-icons text-white">help_center</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Guides</p>
+								<small class="text-light-grey">Guides for using Miday to its full potential.</small>
+							</div>
+						</div>
+					</a> -->
+
+                    <hr style="background-color:white;">
+
+                    <a class="dropdown-item py-3 pe-5" href="/login">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+								<span class="material-icons text-white">login</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Login</p>
+							</div>
+						</div>
+					</a>
+
+                    <a class="dropdown-item py-3 pe-5" href="/sign-up">
+						<div class="d-flex">
+							<div class="me-3 d-flex align-items-center">
+								<span class="material-icons text-white">light_mode</span>
+							</div>
+							<div>
+								<p class="mb-0 text-white">Sign up for free</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="container my-5 text-white px-5 pb-5">
+  <h1 class="mb-4">Privacy Policy</h1>
+  <p><i>Last Updated: 09/16/2023</i></p>
+  
+  <div class="my-5">
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>Miday</strong> ("we", "our", or "us").</p>
+    <p>We are committed to respecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website and use our application.</p>
+  </div>
+
+  <div class="my-5">
+    <h2>2. Information We Collect</h2>
+    <p>We collect information that you provide voluntarily when you register on our site and use our services. The categories of information we collect can include:</p>
+
+    <h3 class="mt-5">2.1 Personal and Company Identification Information</h3>
+    <p>When you register an account or use our services, we may collect the following information:</p>
+    <ul>
+      <li>Name</li>
+      <li>Email</li>
+      <li>Job title</li>
+      <li>Profile image</li>
+      <li>Timezone</li>
+      <li>Industry</li>
+      <li>Company name</li>
+      <li>Company size</li>
+      <li>Company address</li>
+      <li>Company phone number</li>
+      <li>Company email</li>
+      <li>Company logo</li>
+    </ul>
+
+    <h3 class="mt-5">2.2 Client Information</h3>
+    <p>To facilitate your use of our services, we may collect client details that can include:</p>
+    <ul>
+      <li>Client name</li>
+      <li>Client contact name</li>
+      <li>Client email</li>
+      <li>Client phone number</li>
+      <li>Client address</li>
+    </ul>
+
+    <h3 class="mt-5">2.3 Team Members Information</h3>
+    <p>If you invite team members to use our services, we may collect their information which includes but is not limited to:</p>
+    <ul>
+      <li>Name</li>
+      <li>Email</li>
+      <li>Job title</li>
+      <li>Billable rate/Salary</li>
+    </ul>
+
+    <h3 class="mt-5">2.4 Invoice and Time Tracking Information</h3>
+    <p>We collect details regarding the time logged using our services and the details of the invoices you send, including:</p>
+    <ul>
+      <li>Time logs</li>
+      <li>Invoice details</li>
+    </ul>
+
+    <h3 class="mt-5">2.5 Analytics and Usage Information</h3>
+    <p>We use Google Analytics and Hotjar to collect data about your usage of our site and services. This can include:</p>
+    <ul>
+      <li>Browser type</li>
+      <li>Operating system</li>
+      <li>IP address</li>
+      <li>Actions performed on the app</li>
+    </ul>
+  </div>
+
+  <div class="my-5">
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Provide and maintain our services</li>
+      <li>Improve the usability of our services</li>
+      <li>Personalize your experience</li>
+      <li>Communicate with you</li>
+      <li>For analytics and performance monitoring</li>
+    </ul>
+  </div>
+
+  <div class="my-5">
+    <h2>4. How We Protect Your Information</h2>
+    <p>We implement a variety of security measures to maintain the safety of your personal and company information.</p>
+  </div>
+
+  <div class="my-5">
+    <h2>5. Sharing Your Information</h2>
+    <p>We do not sell your personal information to third parties. However, we do share your information with trusted third-party service providers to facilitate various services on our behalf, including:</p>
+    <ul>
+      <li>Stripe and PayPal: to facilitate subscription management and transactions between you and your clients.</li>
+      <li>SendGrid: to facilitate email communications.</li>
+    </ul>
+    <p>We ensure that these third parties are contractually obligated to maintain the confidentiality and security of your data, and they can only use the data to the extent necessary to perform the services on our behalf.</p>
+    <p>We may also share aggregated or de-identified information, which cannot reasonably be used to identify you, with other parties as we deem appropriate.</p>
+  </div>
+
+  <div class="my-5">
+    <h2>6. Your Choices</h2>
+    <p>Most of the information you provide to us is optional. You have choices regarding the information we collect and how it is used. You may, at any time:</p>
+    <ul>
+      <li>Update or correct your personal information</li>
+      <li>Opt-out of receiving communications from us</li>
+    </ul>
+  </div>
+
+  <div class="my-5">
+    <h2>7. Children’s Privacy</h2>
+    <p>Our services are not designed for children under 13, and we do not knowingly collect information from children under 13. If we learn we have collected or received personal information from a child under 13, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us.</p>
+  </div>
+
+  <div class="my-5">
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at:</p>
+    <ul>
+      <li>Email: support@miday.io</li>
+    </ul>
+  </div>
+
+  <div class="my-5">
+    <h2>9. Third-Party Websites and Services</h2>
+    <p>Our website and services may contain links to third-party websites and integrate with third-party services. We are not responsible for the privacy practices or content of these third-party sites and services. We encourage you to read the privacy policies of any third-party sites and services that you visit or use.</p>
+  </div>
+</div>
+
+<script src="/public/js/min/marketing.min.js?v1"></script>
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-12" style="margin: 0 auto;">
+            <div class="container pt-5 mt-3">
+                <div class="row">
+                    <div class="col-lg-12 col-12" style="margin:0 auto;">
+                        <div class="row contact-info d-flex align-items-center">
+                            <div class="contact-item col-12 col-lg-4 d-flex align-items-center justify-content-lg-start justify-content-center flex-row py-3 py-lg-0">
+                                <div class="mb-0 contact-title d-flex align-items-center">
+                                    <img src="/public/img/logo-white.png" alt="Untitled One Logo" height="44px">
+                                </div>
+                            </div>
+                            <div class="d-lg-flex d-none contact-item col-12 col-lg-4 d-flex align-items-center justify-content-center flex-row py-3 py-lg-0">
+                                <div class="mb-0 contact-title d-flex align-items-center">
+                                </div>
+                            </div>
+                            <div class="contact-item col-12 col-lg-4 d-flex align-items-center justify-content-lg-end justify-content-center flex-row py-3 py-lg-0">
+                                <div class="mb-0 contact-title d-flex align-items-center">
+                                    <p class="mb-0 d-flex align-items-center"><span class="material-icons icon pe-2 text-white">email</span>
+                                    <span><a class="text-white" href="mailto:miday@miday.io">miday@miday.io</a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-column-reverse flex-lg-row">
+                            <div class="col-lg-8 col-12">
+                                <div class="ps-0 ps-lg-0 ml-5">
+                                    <div class="links d-flex flex-column flex-wrap row overflow-hidden">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-12">
+                                                <h3 class="text-white font-weight-bold pb-2 pt-4 pt-lg-0">Features</h3>
+                                                <ul class="links p-0">
+                                                    <li><a href="/time-tracking">Time Tracking</a></li>
+                                                    <li><a href="/invoicing">Invoicing</a></li>
+                                                    <li><a href="/blog/miday-client-profile">Client Management</a></li>
+                                                    <li><a href="/team-management">Team Management</a></li>
+                                                    <li><a href="/blog/miday-expense-tracking">Expense Tracking</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12">
+                                                <h3 class="text-white font-weight-bold pb-2 pt-4 pt-lg-0">Resources</h3>
+                                                <ul class="links p-0">
+                                                    <li><a href="/blog">Blog</a></li>
+                                                    <li><a href="/guides">Guides</a></li>
+                                                    <li><a href="/pomodoro-timer">Pomodoro Timer</a></li>
+                                                    <li><a target="_blank" rel="noopener" href="https://chat.openai.com/g/g-d5lDL34wo-miday">ChatGPT Bot</a></li>
+                                                    <li><a target="_blank" rel="noopener" href="https://chromewebstore.google.com/detail/miday-time-tracker/eobbgmahdhjkmnkccgbljjmalccgifae?hl=en">Chrome Extension</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12">
+                                                <h3 class="text-white font-weight-bold pb-2 pt-4 pt-lg-0">Solutions</h3>
+                                                <ul class="links p-0">
+                                                    <li><a href="/">Freelancers</a></li>
+                                                    <li><a href="/solutions/time-tracking-app-for-contractors">Contractors</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12">
+                                                <h3 class="text-white font-weight-bold pb-2 pt-4 pt-lg-0">Legal</h3>
+                                                <ul class="links p-0">
+                                                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                                                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12 ps-lg-5">
+                                <div class="social ps-lg-5">
+                                    <h3 class="text-white pb-4 font-weight-bold">Connect with us</h3>
+                                    <div class="d-flex">
+                                        <ul class="footer_ul mb-50 p-0">
+                                            <li class="footer_list">
+                                                <a target="_blank" class="me-3" aria-label="Facebook Page" rel="noopener" href="https://www.facebook.com/midayio">
+                                                    <img src="/public/img/icons/fb-icon.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="footer_list">
+                                                <a target="_blank" class="me-3" aria-label="Instagram" rel="noopener" href="https://www.instagram.com/miday.io/">
+                                                    <img src="/public/img/icons/ig-icon.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="footer_list">
+                                                <a target="_blank" class="me-3" aria-label="Twitter" rel="noopener" href="https://twitter.com/midayio">
+                                                    <img src="/public/img/icons/x-icon.svg" height="40px" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="footer_list">
+                                                <a target="_blank" class="me-3" aria-label="Linkedin" rel="noopener" href="https://www.linkedin.com/company/midayio">
+                                                    <img src="/public/img/icons/linkedin-icon.svg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row footer-bottom d-flex align-items-center justify-content-center">
+                            <div class="col-12">
+                                <p class="text-center mb-0 f-14 text-light-grey">© 2023 - 2024 Miday LLC.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

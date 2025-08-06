@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teemill</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+  <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
+  <script type="module" crossorigin="" src="/assets/index.3b26a214.js"></script>
+  <link rel="modulepreload" crossorigin="" href="/assets/vue.c56c9b6c.js">
+  <link rel="modulepreload" crossorigin="" href="/assets/gtm.a9fbbb0b.js">
+  <link rel="modulepreload" crossorigin="" href="/assets/sentry.13e8e62e.js">
+  <link rel="stylesheet" href="/assets/index.9545df0a.css">
+<link rel="manifest" href="/manifest.webmanifest"><title>Teemill | Sustainable Print on Demand</title><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://images.teemill.com" rel="preconnect"><link as="fetch" href="/omnis/v3/initial-state/teemill/" rel="preload"><link as="fetch" href="/omnis/v3/divisions/12/pages/109769/?imageType=object" rel="preload"><link as="image" href="https://images.teemill.com/o5dghzfackmeyp2filzeejtrcqn1smyd3xxyje3wdyxnxsw0.jpeg.webp?w=1920&h=768&v=2" rel="preload"><script>window.division_key = '12';</script><meta data-vue-meta="1" vmid="author" content="Teemill | Sustainable Print on Demand" name="author"><meta data-vue-meta="1" vmid="url" content="https://teemill.com/" name="url"><meta data-vue-meta="1" vmid="description" content="Our print on demand software and products offer sustainable solutions to grow businesses of all sizes from corporate brands to scale-ups and start-ups." name="description"><meta data-vue-meta="1" vmid="og:type" content="website" property="og:type"><meta data-vue-meta="1" vmid="og:url" content="https://teemill.com/" property="og:url"><meta data-vue-meta="1" vmid="og:title" content="Teemill | Sustainable Print on Demand" property="og:title"><meta data-vue-meta="1" vmid="og:description" content="Our print on demand software and products offer sustainable solutions to grow businesses of all sizes from corporate brands to scale-ups and start-ups." property="og:description"><meta data-vue-meta="1" vmid="og:image" content="https://images.teemill.com/kv2qvo0grtnif2j5zd3a01gp2vkscm7cdmfivbl2zxm6qlob.png.png?w=1200&h=auto" property="og:image"><meta vmid="og:site_name" content="Teemill" property="og:site_name"><meta data-vue-meta="1" vmid="twitter:card" content="photo" property="twitter:card"><meta data-vue-meta="1" vmid="twitter:description" content="Our print on demand software and products offer sustainable solutions to grow businesses of all sizes from corporate brands to scale-ups and start-ups." property="twitter:description"><meta data-vue-meta="1" vmid="twitter:title" content="Teemill | Sustainable Print on Demand" property="twitter:title"><meta data-vue-meta="1" vmid="twitter:image" content="https://images.teemill.com/kv2qvo0grtnif2j5zd3a01gp2vkscm7cdmfivbl2zxm6qlob.png.png?w=1200&h=auto" property="twitter:image"><meta vmid="apple-mobile-web-app-capable" content="yes" property="apple-mobile-web-app-capable"><meta vmid="apple-mobile-web-app-status-bar-style" content="black" property="apple-mobile-web-app-status-bar-style"><meta vmid="apple-mobile-web-app-title" content="Teemill" property="apple-mobile-web-app-title"><meta content="QgwOyjVeQmGxEE6HEDZAT-U7Ud8Igo-JI8Ipn-m0MEU" name="google-site-verification"><style>@font-face {
+  font-family: "Poppins Fallback: Arial";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}
+@font-face {
+  font-family: "Poppins Fallback: Roboto";
+  src: local('Roboto');
+  ascent-override: 92.4281%;
+  descent-override: 30.8094%;
+  line-gap-override: 8.8027%;
+  size-adjust: 113.6018%;
+}@font-face {
+  font-family: "Source Sans Pro Fallback: Arial";
+  src: local('Arial');
+  ascent-override: 104.4096%;
+  descent-override: 28.9673%;
+  size-adjust: 94.2442%;
+}
+@font-face {
+  font-family: "Source Sans Pro Fallback: Roboto";
+  src: local('Roboto');
+  ascent-override: 104.5251%;
+  descent-override: 28.9993%;
+  size-adjust: 94.1401%;
+}</style></head>
+
+<body>
+  <div id="app"></div>
+  
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH6RJHM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript>This site relies on JavaScript to do awesome things, please enable it in your browser</noscript></body>
+
+<script>
+  (() => {
+    var activeWorker = navigator.serviceWorker?.controller;
+    var appVersion = window.localStorage.getItem('appVersion');
+    var validVersion = 'v1';
+
+    if (!activeWorker) {
+      window.localStorage.setItem('appVersion', validVersion);
+
+      return;
+    }
+
+    if (!appVersion || appVersion !== validVersion) {
+      window.localStorage.setItem('appVersion', validVersion);
+
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker
+          .getRegistrations()
+          .then(function (registrations) {
+            var promises = [];
+
+            registrations.forEach(registration => {
+              promises.push(registration.unregister());
+            });
+
+            if (window.caches) {
+              caches.keys().then(cachedFiles => {
+                cachedFiles.forEach(cache => {
+                  promises.push(caches.delete(cache));
+                });
+              });
+            }
+
+            Promise.all(promises).then(function () {
+              window.location.reload();
+            });
+          });
+      }
+    }
+  })();
+</script>
+
+</html>

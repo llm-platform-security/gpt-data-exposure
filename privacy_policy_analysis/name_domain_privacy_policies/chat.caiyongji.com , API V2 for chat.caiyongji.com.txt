@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .policy-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="policy-container">
+        <div class="header">
+            Privacy Policy
+        </div>
+        <div class="section">
+            This Privacy Policy outlines the privacy practices of the applications published by CAIYONGJI ("we", "our" or "us") concerning our mobile application (“the App”). We value our users' privacy and ensure that our App operates in a way that respects and protects individuals' personal information.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                1. Personal Information
+            </div>
+            We do not collect, store, or share any personal information. The App does not require users to provide any personal information.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                2. Permissions
+            </div>
+            Our App does not request any permissions upon installation or during its usage.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                3. Third-Party Services
+            </div>
+            Our App does not integrate with any third-party services and does not share data with any external entities.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                4. Data Security
+            </div>
+            Since we do not collect any personal information, there is no data that could be at risk. However, we are committed to ensuring the highest level of security and protection for our users.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                5. Changes to This Privacy Policy
+            </div>
+            We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+        </div>
+        <div class="section">
+            <div class="section-title">
+                6. Contact Us
+            </div>
+            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at i@caiyongji.com.
+        </div>
+    </div>
+</body>
+</html>

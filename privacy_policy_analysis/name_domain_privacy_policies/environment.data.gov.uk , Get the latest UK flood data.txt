@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="ajs-local-base-url" content="https://jira-general.refined.site">
+  <meta name="ajs-host-base-url" content="">
+  <meta name="ajs-locale" content="en_US">
+  <meta name="ajs-atlassian-jwt-token" content="">
+  <meta name="ajs-commit-sha" content="c19469ea99513ec897b947547b11b357096db3c9">
+  <meta name="ajs-base-url" content="https://dsp-support.atlassian.net">
+  <meta name="csrf-token" content="vePyTIk4-w7aWIANsxV6vPe8oMYsG44Gp5Z4">
+
+  <meta name="kb-show-article-link" content="true">
+  <meta name="kb-article-width" content="wide">
+  <meta name="show-assignee-field" content="false">
+  
+
+
+  <meta name="cookie-latest-version" content="2">
+
+
+  <!--[if IE 9]>
+  <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.10.1/css/aui-ie9.css" media="all"><![endif]-->
+  <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.10.1/css/aui.min.css" media="all">
+  <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.10.1/css/aui-iconfonts.min.css" media="all">
+
+  <link rel="stylesheet" href="//aui-cdn.atlassian.com/aui-adg/5.10.1/css/aui-experimental.min.css" type="text/css"/>
+
+  <link rel="icon" sizes="128x128" type="image/png" href="/images/1b3fd47d-3321-477f-80e6-cf0e1c8652bd"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/09a8ce1d-7b80-46a0-a34e-92d1f930bbcd"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/09a8ce1d-7b80-46a0-a34e-92d1f930bbcd"/>
+  <link rel="apple-touch-icon" sizes="167x167" href="/images/09a8ce1d-7b80-46a0-a34e-92d1f930bbcd"/>
+  <link rel="apple-touch-icon-precomposed" href="/images/09a8ce1d-7b80-46a0-a34e-92d1f930bbcd"/>
+
+  <link rel="preconnect" href="https://static.refinedwiki.com" crossorigin>
+  <link href="https://d285xo09kboqfo.cloudfront.net/gen/css/roboto-condensed.cfedc8473d715da304c3.css" type="text/css" rel="stylesheet">
+  <link href="https://d285xo09kboqfo.cloudfront.net/gen/css/poppins.1222cf230e5c945b6ed7.css" type="text/css" rel="stylesheet">
+  <link href="https://d285xo09kboqfo.cloudfront.net/gen/css/cormorant.3ef189468531e1d2181b.css" type="text/css" rel="stylesheet">
+  <link href="https://d285xo09kboqfo.cloudfront.net/gen/css/playfair-display.f483c4cf7ec13d2c8299.css" type="text/css" rel="stylesheet">
+  <link href="https://d285xo09kboqfo.cloudfront.net/gen/css/ibm-plex-mono.95f721d3c7cefef94cfc.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://d285xo09kboqfo.cloudfront.net/gen/css/jquery.minicolors.cb15836cccc78cad2f2e.css" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.7/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://d285xo09kboqfo.cloudfront.net/gen/css/site.c2ae569b28b947675332.css" type="text/css" media="all">
+  <style>.flex-container {
+    display: flex;
+    align-items: end;
+}
+
+.flex-child:first-child {
+    margin-right: 50px;
+}
+
+/*
+Remove the filter options that exist on
+the seach pop-up page
+*/
+
+.filter_container {
+    display: none;
+}
+
+* {
+ font-family: GDS Transport, Arial, Helvetica, sans-serif !important
+}
+
+.rw_desktop_navigation {
+    font-weight: bold;
+}
+
+.logo{
+    pointer-events: none;
+}
+
+/*
+Logo height
+*/
+a.logo {
+    height: 60px;
+    --logo-height: 4rem;
+    logo-height: 4rem;
+}
+
+a.logo img[data-v-688962fb] {
+    height: 100%;
+    width: auto;
+    max-width: 24rem;
+}</style>
+
+  <!-- Sets up the Keen.io client and sends the page view event. This code should only be included from the base layout. -->
+    <script crossorigin src="https://cdn.jsdelivr.net/npm/keen-tracking@4"></script>
+    <script type="text/javascript" nonce="0TCxCgIHPpfNYZ3/NLuq2yGIupLmSJc2">
+  
+      // Configure a client instance
+      let client;
+  
+      if (!client) {
+          //Keen IO RefinedTheme for JSD Cloud
+          client = new Keen({
+              projectId: '5992aa6ac9e77c0001a20ae3',
+              writeKey: '9C8DA57A7A6BB35C95FE484F1D8D87B3CEB1CDB60DBF6F00BE4C1F0076BB6EA82C3D6495C701E45B7B4BC2A560079220588D87017F40743DBF2CE3B238D9D980DB65062546682F50DDB82B3901C8B2818665E329EAE4CED403661A7382176965'
+          });
+          window.isProduction = true;
+      }
+  
+      // We put the client on the global scope to make sure we can send events from anywhere
+      window.keenClient = client;
+  
+      client.defaultData = {
+        adminUser: 'false',
+        customerId: '11260',
+        loggedIn: 'false',
+        uniqueKey: '0c746427ffd3e01e454b115e5b807788623d9dc721687b642e8816f4ebeed2b656d2054f43972df6f0a9116dfddd68d75ee05164a43f42a406a1b0075cc8b14d',
+        siteId: '18231',
+        ipAddress: '6274217d7216af637f9197c590603872',
+        userAgent: '${keen.user_agent}',
+        continent: 'NA',
+        country: 'US',
+        realm: 'GENERAL',
+      }
+  
+      client.siteConfig = {
+        hasCustomCss: 'true',
+        hasCustomHtml: 'false',
+        nrSpaces: '2',
+        nrPortals: '1',
+      }
+  
+      /**
+       * Creates an event and appends our data to it. You can use the key unique containing either client or user to make properties that are unique to each user or client.
+       * (For example if you want to uniquely identify a space key globally, pass it in as <code>event.unique.client</code>)
+       * @param eventName The name of the event, for example pageviews
+       * @param event Any event data that should be submitted.
+       * @private
+       */
+      client._rwAddEvent = function(eventName, event) {
+        event = { ...client.defaultData, ...event };
+        event.siteConfig = client.siteConfig;
+        const keen = event.keen || {};
+        const addons = keen && keen.addons || [];
+        addons.push({
+          'name': 'keen:ua_parser',
+          'input': {
+            'ua_string': 'userAgent'
+          },
+          'output': 'parsedUserAgent'
+        });
+        keen.addons = addons;
+        event.keen = keen;
+        client.recordEvent(eventName, event);
+      };
+    </script>
+</head>
+<body>
+  
+
+  
+
+  
+    <script src="https://cdn.ravenjs.com/3.16.0/raven.min.js"></script>
+    <script nonce="0TCxCgIHPpfNYZ3/NLuq2yGIupLmSJc2">
+      function _getTrace(data) {
+        try {
+          return data.exception.values[0].stacktrace.frames;
+        } catch {
+          return null;
+        }
+      }
+  
+      function _isHTMLModule(data) {
+        const trace = _getTrace(data);
+        return trace && trace[trace.length-1].function === 'DOMEval';
+      }
+  
+      function _isLookAndFeelCustomHtml(data) {
+        const trace = _getTrace(data);
+        return trace && trace[0].function === '?' && data.breadcrumbs == undefined;
+      }
+  
+      Raven.config('https://6717174f5c2c44ea8373165aeef8f000@sentry.io/199572', {
+        release: 'c19469ea99513ec897b947547b11b357096db3c9',
+        environment: 'production',
+        realm: 'GENERAL',
+        tags: {
+          customerId: '11260',
+          baseUrl: '',
+        },
+        dataCallback: (data) => {
+          data.tags.custom = _isHTMLModule(data) || _isLookAndFeelCustomHtml(data);
+          return data;
+        }
+      }).install();
+  
+    </script>
+
+  <script src="https://d285xo09kboqfo.cloudfront.net/gen/js/vendor-bundle.72b2dab363e3a89ebf4a.js"></script>
+  <script src="https://d285xo09kboqfo.cloudfront.net/gen/js/element-ui-bundle.c08f0b0d999a928430cf.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aui/7.9.11/aui/js/aui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aui/7.9.11/aui/js/aui-soy.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aui/7.9.11/aui/js/aui-experimental.min.js"></script>
+
+  <script nonce="0TCxCgIHPpfNYZ3/NLuq2yGIupLmSJc2">
+      window.contextPath = '';
+  </script>
+
+  <script src="https://d285xo09kboqfo.cloudfront.net/gen/js/translations_en_US.628632a195300d5848a9.js"></script>
+  <script src="https://d285xo09kboqfo.cloudfront.net/gen/js/soy-bundle.4069c79b6aa4a8fd8dc6.js"></script>
+  <script src="https://d285xo09kboqfo.cloudfront.net/gen/js/site-bundle.f0698291a663ebd56388.js"></script>
+  <script nonce="0TCxCgIHPpfNYZ3/NLuq2yGIupLmSJc2">
+    window.dataLayer = window.dataLayer || [];
+    window.gaTrackingCode = 'G-12JL3WT6ZY';
+    function gtag(){dataLayer.push(arguments);}
+  </script>
+
+  
+</body>
+</html><div id="rw_layout_draft_preview" class="rw_hidden"></div>
+<div id="rw_license_information"></div>
+<div id="rw_announcements"></div>
+<div id="rw_customer_portal" data-refined-theme-version="Cloud-version" data-jira-service-desk-version="3.3"></div>

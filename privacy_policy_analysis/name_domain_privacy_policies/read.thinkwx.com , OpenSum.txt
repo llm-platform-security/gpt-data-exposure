@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="referrer" content="never" />
+    <title>知了 - AI 知识助理</title>
+    <meta
+      name="keywords"
+      content="知了,知了zKnown,知了阅读,知了Known,ReadKnown,个人知识库,AI-Native,AI总结,AI摘要,知识助手,AI思维导图"
+    />
+    <meta
+      name="description"
+      content="知了zKnown，AI-Native 构建的，致力于信息降噪 / 阅读提效的个人知识助手。"
+    />
+    <script type="module" crossorigin src="/assets/index-ebe42f07.js"></script>
+    <link rel="stylesheet" href="/assets/index-eddc62b8.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <script src="https://res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    <script
+      async
+      src="https://tongji.thinkwx.com/script.js"
+      data-website-id="455c7d6a-55b7-4c40-97dd-80cf90b5957b"
+    ></script>
+  </body>
+</html>

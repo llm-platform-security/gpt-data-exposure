@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta id="_csrf" name="_csrf" content="8f8fdd4b-f63b-49ce-82e1-4f568d4bb451"/>
+    <meta id="_csrf_header" name="_csrf_header" content="X-XSRF-TOKEN"/>
+    <link rel="icon" type="image/x-icon" href="/assets/icons/DATA.ico">
+    <title>공공데이터포털 통합 로그인</title>
+    <script src="/js/ext/simple-datatables@latest.js"></script>
+    <link href="/css/styles.css" rel="stylesheet" />
+</head>
+<body class="bg-black bg-opacity-10" style="background-image: url('/assets/backgrounds/common.png');">
+    <div class="container-sm">
+        <div class="d-flex flex-column mt-2">
+            <div class="text-white"><img alt="누리집 아이콘" src="/assets/logos/nuri_icon.png"/>이 누리집은 대한민국 공식 전자정부 누리집입니다.</div>
+            <div class="mt-1">
+                <img alt="포털 아이콘" src="/assets/logos/datagokr_lcon.png" onclick="location.href = 'http://www.data.go.kr'" style="cursor: pointer"/>
+            </div>
+        </div>
+        <main>
+            
+
+
+
+
+
+
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-12 d-flex flex-column">
+      <div class="text-center">
+        <h2 class="text-white mt-md-0 mt-4">공공데이터포털 로그인</h2>
+      </div>
+      <div class="text-center text-white mb-md-3">국민과 함께 하는 <span class="fw-bold">공공데이터포털</span>에 오신 것을 환영합니다</div>
+      <div class="card custom-card shadow-lg border-0 rounded-lg mt-4 p-md-4 ">
+        
+          <div class="card-body color-9E9E9E">
+            
+            
+
+
+
+
+<form id="login-form" class="form-horizontal mt-3" action="/sso/common-login?client_id=hagwng3yzgpdmbpr2rxn&amp;redirect_url=https://data.go.kr/sso/profile.do" method="post">
+    <input type="hidden" name="redirectUrl" value="https://data.go.kr/sso/profile.do"/>
+    <input type="hidden" name="clientId" value="hagwng3yzgpdmbpr2rxn"/>
+    <div class="form-floating mb-3">
+        <input id="inputUsername" name="username" placeholder="아이디" type="text" class="form-control form-control-lg" aria-label="Username" value=""/>
+        <label for="inputUsername">아이디</label>
+    </div>
+    <div>
+        <div class="form-floating mb-3">
+            <input id="inputPassword" name="password" placeholder="비밀번호" type="password" class="form-control form-control-lg pt-4" aria-label="Password" value=""/>
+            <label for="inputPassword">비밀번호</label>
+            <div id="eye-icon-wrapper">
+                <div class="d-flex h-100 justify-content-end align-items-center">
+                    <i id="eye-icon" class="fa-regular fa-eye-slash me-2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <div class="form-check mb-3">
+            <input class="form-check-input" id="inputRememberPassword" type="checkbox" value=""/>
+            <label class="form-check-label" for="inputRememberPassword">아이디 저장</label>
+        </div>
+        <a class="text-black-50 text-decoration-none" href="/sso/common/find-id">아이디·비밀번호 찾기</a>
+    </div>
+
+    <div>
+        <button class="btn btn-primary next-step-btn btn-block btn-lg login-btn mt-md-2 mt-1 w-100" type="button" id="login-btn">로그인</button>
+    </div>
+<div>
+<input type="hidden" name="_csrf" value="8f8fdd4b-f63b-49ce-82e1-4f568d4bb451" />
+</div></form>
+
+            <div>
+              <div class="horizontal-line mt-4"></div>
+              <div class="d-flex justify-content-center horizontal-line-text-warp mb-3">
+                <div class="horizontal-line-text-w100 text-center">간편 로그인</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="socialLoginButton colorNaver" OnClick="location.href ='https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=ggZUWJcRfY2oV9nZH7la&redirect_uri=https%3A%2F%2Fauth.data.go.kr%2Fsso%2Fauth%2Fn%2Fcallback&state=1283737209085910441861757587310542275424'">
+                  <div class="wrapper">
+                    <img class="social-logo" alt="네이버 아이콘" src="/assets/logos/naver_icon.png"/>
+                    <label class="ms-4">네이버 로그인</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="socialLoginButton colorKakao" OnClick="location.href ='https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=d03e021cb31c4dd3c15c10d2767c8723&redirect_uri=https%3A%2F%2Fauth.data.go.kr%2Fsso%2Fauth%2Fk%2Fcallback'">
+                  <div class="wrapper">
+                    <img class="social-logo" alt="카카오 아이콘" src="/assets/logos/kakao_icon.png"/>
+                    <label class="ms-4">카카오 로그인</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mt-4">
+
+              <span>공공데이터포털 회원이 아니신가요?</span>
+              <a class="ms-2 text-decoration-none" href="/sso/common-signup">회원가입</a>
+            </div>
+          </div>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+<script src="/js/ext/jquery-3.6.0.min.js"></script>
+<script src="/js/sso/CommonLogin.js"></script>
+<script type="text/javascript">
+
+  $(window).on("load", function () {
+    const commonLogin = new CommonLogin();
+    jQuery.fn.serializeObject = function () {
+      var obj = null;
+      try {
+        if (this[0].tagName && this[0].tagName.toUpperCase() == "FORM") {
+          var arr = this.serializeArray();
+          if (arr) {
+            obj = {};
+            jQuery.each(arr, function () {
+              obj[this.name] = this.value;
+            });
+          }
+        }
+      } catch (e) {
+        alert(e.message);
+      } finally {
+      }
+      return obj;
+    }
+
+    const DEFAULT_ERROR_MESSAGE = "문제가 발생하였습니다. 관리자에게 문의하여주세요.";
+    // Meta에서 csrf 정보 가지고 오기
+    const token = document.querySelector("meta[name='_csrf']").content;
+    const header = document.querySelector("meta[name='_csrf_header']").content;
+
+    let button = $("#login-btn")
+    button.click((e) => {
+      let form = document.getElementById("login-form");
+      let formData = new FormData(form);
+      let password = formData.get('password');
+      formData.set('password', btoa(password));
+
+      let object = {};
+      formData.forEach(function(value, key){
+        object[key] = value;
+      });
+      let json = JSON.stringify(object);
+
+      $.ajax({
+        cache: false,
+        url: "/sso/login",
+        type: "post",
+        contentType: "application/json",
+        data: json,
+        beforeSend : function(xhr){
+          xhr.setRequestHeader(header, token);
+        }
+      }).then((response) => {
+        if(!response || !response.redirectUrl) {
+          return alert(DEFAULT_ERROR_MESSAGE);
+        }
+        commonLogin.saveUsernameToCookie();
+        const redirectUrl = response.redirectUrl;
+        window.location.href = redirectUrl;
+      }).catch((response) => {
+        if(response && response.responseText) {
+          return alert(response.responseText)
+        }
+
+        return alert(DEFAULT_ERROR_MESSAGE);
+      })
+    });
+  })
+</script>
+<script src="/js/ext/naverLogin_implicit-1.0.3.js" charset="utf-8"></script> <!-- body -->
+        </main>
+    </div>
+    
+
+<!-- bootsrap setting -->
+<link href="/css/app.css" rel="stylesheet" />
+
+
+    
+
+<script src="/js/prompt-scripts.js"></script>
+<script src="/js/ext/bootstrap.bundle.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/ext/simple-datatables@latest.js"></script>
+<script src="/js/ext/handlebars.js"></script>
+
+</body>
+</html>

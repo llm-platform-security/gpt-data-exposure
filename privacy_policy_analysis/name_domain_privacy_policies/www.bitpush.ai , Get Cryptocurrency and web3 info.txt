@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5PJ5ZR77C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S5PJ5ZR77C');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitpush</title>
+    <meta name="description" content="Bitpush" />
+    <meta name="keywords" content="Bitpush, based in New York, deploys decentralized crypto news network and develops cypto trading data analysis and tools.Like Bloomberg providing data service for Wall Street traders and analysts, Bitpush provides crypto users customized crypto currency trading charts, price, historical data and quantitative analysis. Bitpush users easily get access to major crypto exchanges and execute trades in one shop." />
+    <link rel="Shortcut Icon" href="/wp-content/themes/Gztro/images/favicon.ico" type="image/x-icon"/>
+
+    <meta property="og:title" content="Bitpush News">
+    <meta property="og:url" content="https://en.bitpush.news" />
+    <meta property="og:image" content="https://en.bitpush.news/wp-content/themes/Gztro/assets/img/logo.png" />
+    <meta property="og:description" content="Bitpush, based in New York, deploys decentralized crypto news network and develops cypto trading data analysis and tools" />
+    <meta property="og:site_name" content="Bitpush News" />
+    <meta property="og:type" content="article" />
+    <meta property="og:article:author" content="Bitpush.news" />
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:image" content="https://en.bitpush.news/wp-content/themes/Gztro/assets/img/logo.png">
+    <meta property="twitter:title" content="Bitpush News">
+    <meta property="twitter:creator" content="Bitpush">
+    <meta property="twitter:site" content="en.Bitpush.news">
+    <meta property="twitter:description" content="Bitpush, based in New York, deploys decentralized crypto news network and develops cypto trading data analysis and tools" />
+
+    <link rel="stylesheet" id="wpforms-full-css" href="/wp-content/themes/Gztro/assets/css/wpforms-full.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mvp-custom-style-css" href="/wp-content/themes/Gztro/assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mvp-custom-style-inline-css" type="text/css" href="/wp-content/themes/Gztro/assets/css/index.css">
+    <link rel="stylesheet" id="fontawesome-css" href="/wp-content/themes/Gztro/assets/fontawesome/css/fontawesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/themes/Gztro/assets/fontawesome/css/brands.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/wp-content/themes/Gztro/assets/fontawesome/css/solid.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mvp-fonts-css" href="//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C900%7COswald%3A400%2C700%7CAdvent+Pro%3A700%7COpen+Sans%3A700%7CAnton%3A400Fira+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPlayfair+Display%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CEncode+Sans+Semi+Condensed%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CNoto+Serif%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CNoto+Serif%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CFira+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26subset%3Dlatin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese" type="text/css" media="all">
+    <link rel="stylesheet" id="mvp-media-queries-css" href="/wp-content/themes/Gztro/assets/css/media-queries.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" id="wp-custom-css" href="/wp-content/themes/Gztro/assets/css/custom.css">
+    <script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+</head>
+<body>
+	<body class="home page-template page-template-page-home page-template-page-home-php page page-id-8 wp-embed-responsive zox-news elementor-default elementor-kit-106986 aa-prefix-visua-" style="transform: none;">
+    <!-- header -->
+    <!-- 大屏左侧隐藏导航栏 -->
+
+<div id="mvp-site" class="left relative" style="transform: none;">
+  <!-- 大屏搜索隐藏框· -->
+  <div id="mvp-search-wrap">
+    <div id="mvp-search-box">
+      <form method="get" id="searchform" action="/">
+        <input type="text" name="s" id="s" value="Search" autofocus="" onfocus="if (this.value == &quot;Search&quot;) { this.value = &quot;&quot;; }" onblur="if (this.value == &quot;&quot;) { this.value = &quot;Search&quot;; }">
+        <input type="hidden" id="searchsubmit" value="Search">
+      </form>
+    </div>
+    <div class="mvp-search-but-wrap mvp-search-click">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="mvp-site-wall" class="left relative" style="transform: none;">
+    <!-- main body 开始 -->
+    <div id="mvp-site-main" class="left relative" style="transform: none;">
+    <!-- 大屏左侧+中间 -->
+    <header id="mvp-main-head-wrap" class="left relative">
+    <nav id="mvp-main-nav-wrap" class="left relative">
+      <!-- 大屏top banner -->
+              <div id="mvp-main-nav-top" class="left relative">
+              <div class="mvp-main-box">
+          <div id="mvp-nav-top-wrap" class="left relative">
+            <div class="mvp-nav-top-right-out left relative">
+              <div class="mvp-nav-top-right-in">
+                <div class="mvp-nav-top-cont left relative">
+                  <div class="mvp-nav-top-left-out relative">
+                    <div class="mvp-nav-top-left">
+                      <div class="mvp-nav-soc-wrap">
+                        <a href="https://www.facebook.com/Bitpush-426650351448448" target="_blank"><span class="mvp-nav-soc-but fa-brands fa-facebook-f"></span></a>
+                        <a href="https://twitter.com/bitpushnews" target="_blank"><span class="mvp-nav-soc-but fa-brands fa-twitter"></span></a>
+                        <a href="https://link.medium.com/3mFW3VSpM7" target="_blank"><span class="mvp-nav-soc-but fa-brands fa-medium"></span></a>
+                        <a href="https://discord.gg/QSvv7MZ2tz" target="_blank"><span class="mvp-nav-soc-but fa-brands fa-discord"></span></a>
+                        <a href="https://t.me/bitpush" target="_blank"><span class="mvp-nav-soc-but fa-brands fa-telegram"></span></a>
+                      </div><!--mvp-nav-soc-wrap-->
+                      <div class="mvp-fly-but-wrap mvp-fly-but-click left relative">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div><!--mvp-fly-but-wrap-->
+                    </div><!--mvp-nav-top-left-->
+                    <div class="mvp-nav-top-left-in">
+                      <div class="mvp-nav-top-mid left relative">
+                        <a class="mvp-nav-logo-reg" itemprop="url" href="/">
+                          <img itemprop="logo" style="height: 49px;" src="/wp-content/themes/Gztro/assets/img/bitpushenlogo.png" alt="Bitpush" data-rjs="2">
+                        </a>
+                        <a class="mvp-nav-logo-small" href="#">
+                          <img style="height: 49px;" src="/wp-content/themes/Gztro/assets/img/bitpushenlogo.png" alt="Bitpush" data-rjs="2">
+                        </a>
+                        <h1 class="mvp-logo-title">Bitpush</h1>
+                      </div><!--mvp-nav-top-mid-->
+                    </div><!--mvp-nav-top-left-in-->
+                  </div><!--mvp-nav-top-left-out-->
+                </div><!--mvp-nav-top-cont-->
+              </div><!--mvp-nav-top-right-in-->
+
+              <div class="mvp-nav-top-right">
+                <div class="wpforms-container wpforms-container-full vc-subscribe-header" id="wpforms-140394">
+                  <a href="https://www2.bitpush.news/newsletter/en-subscription" target="_blank" id="doSubscribe">Subscribe</a>
+                  <!-- <button type="submit" class="vc-subscribe-header-button">Subscribe</button> -->
+                  <!-- <form id="wpforms-form-140394" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="140394" method="post" enctype="multipart/form-data" action="javascript:void(0)" data-token="bd0ad1010d0f9a647548e6f234d1e959" novalidate="novalidate"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                    <div class="wpforms-field-container">
+                      <div id="wpforms-140394-field_1-container" class="wpforms-field wpforms-field-email vc-subscribe-header-email" data-field-id="1">
+                        <label class="wpforms-field-label" for="wpforms-140394-field_1">Subscribe <span class="wpforms-required-label">*</span></label>
+                        <input type="email" id="wpforms-140394-field_1" class="wpforms-field-small wpforms-field-required" name="wpforms[fields][1]" placeholder="Your email address" required="">
+                      </div>
+                    </div>
+                    <input type="hidden" name="wpforms[recaptcha]" value="">
+                      <div class="wpforms-submit-container">
+                        <input type="hidden" name="wpforms[id]" value="140394">
+                        <input type="hidden" name="wpforms[author]" value="1025">
+                        <input type="hidden" name="wpforms[post_id]" value="8">
+                        <button type="submit" name="wpforms[submit]" id="wpforms-submit-140394" class="wpforms-submit vc-subscribe-header-button" data-alt-text="-" data-submit-text=">" aria-live="assertive" value="wpforms-submit">&gt;</button>
+                        <img src="/wp-content/themes/Gztro/assets/img/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading">
+                      </div>
+                      <span class="wpa_hidden_field" style="display:none;height:0;width:0;">
+                      <input type="text" name="gaurww2191" value="959430"></span>
+                  </form> -->
+                </div>  <!-- .wpforms-container -->											
+                <span class="mobile-subscribe">
+                  <a href="/subscribe/">Subscribe</a>
+                </span>
+              </div><!--mvp-nav-top-right-->
+
+            </div><!--mvp-nav-top-right-out-->
+          </div><!--mvp-nav-top-wrap-->
+        </div><!--mvp-main-box-->
+      </div><!--mvp-main-nav-top-->
+      
+     
+
+      <!-- 大屏menu -->
+      <div id="mvp-main-nav-bot" class="left relative">
+        <div id="mvp-main-nav-bot-cont" class="left">
+          <div class="mvp-main-box">
+            <div id="mvp-nav-bot-wrap" class="left">
+              <div class="mvp-nav-bot-right-out left">
+                <div class="mvp-nav-bot-right-in">
+                  <div class="mvp-nav-bot-cont left">
+                    <div class="mvp-nav-bot-left-out">
+
+                      
+
+                      <div class="mvp-nav-bot-left-in">
+                        <div class="mvp-nav-menu left">
+                          <div class="menu-header-menu-container">
+                                                        <ul id="menu-header-menu" class="menu">
+                              <li class="cat-item">
+                                <a href="/">Home</a>
+                              </li>
+                              <li class="cat-item cat-item-2"><a href="/articles/category/xnews" title="News articles.">News</a>
+</li>
+	<li class="cat-item cat-item-155"><a href="/articles/category/wnewsflash">Express</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="/articles/category/press" title="Press release">Press Release</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="/articles/category/market" title="Market">Market</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="/articles/category/column" title="Column">Column</a>
+</li>
+                                                            <li id="menu-item-148356" class="cp-main-nav-menu menu-invert menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-148356">
+                                <a href="https://market.bitpush.news/">Bitpush Data</a>
+                              </li>
+                              <li id="menu-item-127822" class="menu-invert menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-127822">
+                                <a href="https://bitpushterminal.com/index.html">Bitpush Terminal</a>
+                              </li>
+                              <li id="menu-item-16191" class="menu-invert menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16191">
+                                <a href="https://bitpush.news/?from=en"> &nbsp;&nbsp;中文&nbsp;&nbsp; </a>
+                              </li>
+                                                            <li id="menu-item-161911" class="menu-invert menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16191">
+                                <a href="/wp-login.php?action=register" style="background-color: #91bb46;"> Register </a>
+                              </li>
+                              <li id="menu-item-161912" class="menu-invert menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16191">
+                                <a href="/wp-login.php" style="background-color: #91bb46;"> Login </a>
+                              </li>
+                                                          </ul>
+                          </div>
+                        </div><!--mvp-nav-menu-->
+                      </div><!--mvp-nav-bot-left-in-->
+                    </div><!--mvp-nav-bot-left-out-->
+                  </div><!--mvp-nav-bot-cont-->
+                </div><!--mvp-nav-bot-right-in-->
+                <div class="mvp-nav-bot-right left relative">
+                  <span class="mvp-nav-search-but fa fa-search fa-2 mvp-search-click"></span>
+                </div><!--mvp-nav-bot-right-->
+              </div><!--mvp-nav-bot-right-out-->
+            </div><!--mvp-nav-bot-wrap-->
+          </div><!--mvp-main-nav-bot-cont-->
+        </div><!--mvp-main-box-->
+      </div><!--mvp-main-nav-bot-->
+    </nav><!--mvp-main-nav-wrap-->
+    </header><!--mvp-main-head-wrap-->
+        <!-- main -->
+
+		<!-- 大屏右侧 -->
+    <div id="mvp-main-body-wrap" class="left relative">
+			<article id="mvp-article-wrap" itemscope="" itemtype="http://schema.org/NewsArticle" style="transform: none;">
+				<div id="mvp-article-cont" class="left relative" style="transform: none;">
+					<div class="mvp-main-box" style="transform: none;">
+						<div id="mvp-post-main" class="left relative" style="transform: none;">
+							<header id="mvp-post-head" class="left relative">
+																<h1 class="mvp-post-title left entry-title" itemprop="headline">Privacy Policy</h1>
+							</header>
+
+							<div class="mvp-post-main-out left relative" style="transform: none;">
+								<div class="mvp-post-main-in">
+									<div id="mvp-post-content" class="left relative">
+										<div id="mvp-content-wrap" class="left relative">
+                      <div id="mvp-content-body" class="left relative">
+                        <div id="mvp-content-body-top" class="left relative">
+                          <!-- Main Content -->
+                          <div id="mvp-content-main" class="left relative">
+
+							<p style=";text-autospace:none"><strong>Privacy Policy</strong></p>
+<p style=";text-autospace:none">This policy is a part of the Bitpush member agreement, but it controls over any conflicts with that agreement. This policy only addresses our practices associated with the Bitpush.news website and the associated iPhone and Android apps. Other websites, apps and services we operate may be subject to other policies and practices.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none"><strong>General Practices (also applicable to non-members)</strong></p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Server Logs.</p>
+<p style=";text-autospace:none">We automatically collect information about your visits to our website, usage of the service, and your interaction with the messages we send, including the browser you are using, the URLs you came from and go to, your operating system, your IP address, and usage and browsing habits. We use this information to diagnose and resolve server problems, analyze trends, help target offers and other ads, track user movement in the aggregate, and gather broad demographic information.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Cookies.</p>
+<p style=";text-autospace:none">Like most websites, our website uses "cookies," small data files stored on your computer which include a unique identifier. These include cookies from us and from our business partners. Most web browsers automatically accept cookies. You can configure your browser to reject cookies, but doing so will prevent you from logging into our website. Our systems are not configured to accept browsers’ Do Not Track signals.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Web Beacons.</p>
+<p style=";text-autospace:none">Our website and emails may contain "web beacons" that help us measure and track member activity. Some of these web beacons come from us; others come from our service providers.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none"><strong> </strong></p>
+<p style=";text-autospace:none"><strong>Using the Service</strong></p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Profile Information</p>
+<p style=";text-autospace:none">We allow you to create a personal profile and submit information such as your motto, photo, expertise and personal interests.</p>
+<p style=";text-autospace:none">Communications with Other Members</p>
+<p style=";text-autospace:none">We give you a variety of ways to communicate with other users and share Content (as defined in the member agreement). Some of these communications are visible to the entire app, although we may give users ways to block your communications. In some cases, we may limit your ability to edit or remove Content from Bitpush.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Third Party Offers</p>
+<p style=";text-autospace:none">We know that you do not want marketing from third parties just because you use the app, so we do not turn over your personally identifiable information to third party marketers without your express consent.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none"><strong>Other Provisions (applicable to both members and non-members)</strong></p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Service Providers</p>
+<p style=";text-autospace:none">Some of Bitpush’s functionality may be operated by third party service providers, and in the course of providing this functionality, these service providers may have access to some of your personal data to facilitate your usage of this service.</p>
+<p style=";text-autospace:none">We may allow third parties to place or recognize a cookie and, using the cookie or otherwise, collect and use data (including, possibly, personally identifiable information) from your visits to this and other websites to provide us with analytics services and to serve ads to you.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Our "Corporate Family."</p>
+<p style=";text-autospace:none">We may share your data with any parent company, subsidiaries, other entities under a common control or third party acquirers. We expect these other entities will honor this policy. Also, we may allow a potential acquirer or merger partner to review our data, although we would restrict their use and disclosure of this data during the diligence phase.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Government Relations and Lawsuits</p>
+<p style=";text-autospace:none">We may disclose data about you to the government if we are required to do so or as we think is prudent for safety or security reasons; and you authorize us to make these disclosures. We may also disclose data about you in connection with actual or potential legal proceedings (a) in response to judicial or other government subpoenas, warrants or orders, (b) if we are required to do so in other ways, (c) if such disclosures might mitigate our liability, or (d) to enforce our rights.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Limits on Our Abilities</p>
+<p style=";text-autospace:none">While we work hard to respect your privacy, like any other complex online service, we might inadvertently use or disclose your data in ways inconsistent with this policy. For example, a temporary software glitch could lead to public display of your personal data despite your contrary preferences. We might also make ad hoc uses of your data in ways not mentioned here. In these anomalous situations, we will try to rectify the anomaly as soon as we can.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Data Retention</p>
+<p style=";text-autospace:none">Subject to any legal obligations to delete data, we may choose to retain information in our server logs, our databases and our records indefinitely.</p>
+<p style=";text-autospace:none"> </p>
+<p style=";text-autospace:none">Security</p>
+<p style=";text-autospace:none">Bitpush uses https on its web pages to reduce the risk of unauthorized interception of your communications during your visits to the website or app. However, we cannot guarantee that your personal data won’t be intercepted or improperly accessed.</p>
+<p> </p>
+<p>Children’s Privacy</p>
+<p>Our Service does not address anyone under the age of 18 (“Children”).</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<p> </p>
+<p>Contact Us</p>
+<p>If you have any questions about this Privacy Policy, please contact us: privacy@bitpush.news</p>
+<p></p>
+<p></p>
+
+            
+              
+					
+
+
+													</div><!--mvp-content-main-->
+                        </div><!--mvp-content-body-top-->
+                      </div><!--mvp-content-body-->
+										</div><!--mvp-content-wrap-->
+									</div><!--mvp-post-content-->
+								</div><!--mvp-post-main-in-->
+
+								
+								<!-- 底部右侧栏 -->
+<div id="mvp-side-wrap" class="left relative theiaStickySidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+              <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: relative; transform: none;">
+                
+
+                <!-- 栏目 -->
+                <section id="wpforms-widget-6" class="mvp-side-widget wpforms-widget">
+                  <div class="mvp-widget-home-head">
+                    <h4 class="mvp-widget-home-title">
+                      <span class="mvp-widget-home-title">Columns</span>
+                    </h4>
+                  </div>
+                  <div class="wpforms-container wpforms-container-full vc-subscribe-sidebar-form">
+                    <div class="s3-box">
+                    
+                          <div class="s3">
+                            <div class="s3-left fl">
+                              <a href="/?author=16515" ><img src="https://bitpushnews.s3.amazonaws.com/en/wp-content/uploads/2023/04/23134439/16a51527f4e83ac8ebfe4920e997b85c.png" width="96" height="96" alt="Huobi Research" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo" /></a>
+                            </div>
+                            <div class="s3-right fr">
+                              <div class="s3-title">
+                                  <a style="font-size:20px"  href="/articles/author/huobi-research">Huobi Research</a>
+                              </div>
+                              <div class="s3-title" ><a href="https://en.bitpush.news/articles/4100203" >Huobi Wallet Won One Of The World’s Most Prestigious Design Awards</a></div>
+                              <div class="s3-time" data="1650024566"></div>
+                            </div>
+                          </div>
+                        
+                          <div class="s3">
+                            <div class="s3-left fl">
+                              <a href="/?author=660" ><img src="https://bitpushnews.s3.amazonaws.com/en/wp-content/uploads/2020/06/17024042/WechatIMG75-144x144.png" width="96" height="96" alt="deeper.network" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo" /></a>
+                            </div>
+                            <div class="s3-right fr">
+                              <div class="s3-title">
+                                  <a style="font-size:20px"  href="/articles/author/deeper-network">deeper.network</a>
+                              </div>
+                              <div class="s3-title" ><a href="https://en.bitpush.news/articles/1032952" >Deeper Network's Products Will Soon Be On Canada BestBuy</a></div>
+                              <div class="s3-time" data="1593043101"></div>
+                            </div>
+                          </div>
+                        
+                          <div class="s3">
+                            <div class="s3-left fl">
+                              <a href="/?author=12" ><img src="https://bitpushnews.s3.amazonaws.com/en/wp-content/uploads/2019/03/22023208/WechatIMG9-144x144.jpeg" width="96" height="96" alt="coinscious" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo" /></a>
+                            </div>
+                            <div class="s3-right fr">
+                              <div class="s3-title">
+                                  <a style="font-size:20px"  href="/articles/author/coinscious">coinscious</a>
+                              </div>
+                              <div class="s3-title" ><a href="https://en.bitpush.news/articles/75019" >Bitcoin Climbs Amid Altcoins’ Failed Recovery</a></div>
+                              <div class="s3-time" data="1565391081"></div>
+                            </div>
+                          </div>
+                        
+                          <div class="s3">
+                            <div class="s3-left fl">
+                              <a href="/?author=109" ><img src="https://bitpushnews.s3.amazonaws.com/en/wp-content/uploads/2019/06/25005930/WechatIMG8-144x144.jpeg" width="96" height="96" alt="Benjamin Gu" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo" /></a>
+                            </div>
+                            <div class="s3-right fr">
+                              <div class="s3-title">
+                                  <a style="font-size:20px"  href="/articles/author/gu">Benjamin Gu</a>
+                              </div>
+                              <div class="s3-title" ><a href="https://en.bitpush.news/articles/49344" >How to Build a Stablecoin To Compete with Libra?</a></div>
+                              <div class="s3-time" data="1562770468"></div>
+                            </div>
+                          </div>
+                        
+                          <div class="s3">
+                            <div class="s3-left fl">
+                              <a href="/?author=62" ><img src="https://bitpushnews.s3.amazonaws.com/en/wp-content/uploads/2019/04/23074025/WechatIMG908-144x144.jpeg" width="96" height="96" alt="Jeffrey Wernick" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo" /></a>
+                            </div>
+                            <div class="s3-right fr">
+                              <div class="s3-title">
+                                  <a style="font-size:20px"  href="/articles/author/jeffrey-wernick">Jeffrey Wernick</a>
+                              </div>
+                              <div class="s3-title" ><a href="https://en.bitpush.news/articles/1385" >Why Bitcoin Matters to You — Reject Crony Capitalism</a></div>
+                              <div class="s3-time" data="1556112689"></div>
+                            </div>
+                          </div>
+                                            </div>
+                  </div>
+                </section>
+
+                <!-- 标签 -->
+                <section id="wpforms-widget-7" class="mvp-side-widget wpforms-widget">
+                  <div class="mvp-widget-home-head">
+                    <h4 class="mvp-widget-home-title">
+                      <span class="mvp-widget-home-title">Tags</span>
+                    </h4>
+                  </div>
+
+                  <div class="wpforms-container wpforms-container-full vc-subscribe-sidebar-form">
+                    <div class="s4-box">
+                      <a href="https://en.bitpush.news/articles/tag/bitcoin" class="tag-cloud-link tag-link-31 tag-link-position-1" style="font-size: 18px;" aria-label="Bitcoin (2,681 items)">Bitcoin</a>
+<a href="https://en.bitpush.news/articles/tag/cryptocurrency" class="tag-cloud-link tag-link-22 tag-link-position-2" style="font-size: 16.171875px;" aria-label="Cryptocurrency (1,103 items)">Cryptocurrency</a>
+<a href="https://en.bitpush.news/articles/tag/ethereum" class="tag-cloud-link tag-link-116 tag-link-position-3" style="font-size: 16.078125px;" aria-label="Ethereum (1,037 items)">Ethereum</a>
+<a href="https://en.bitpush.news/articles/tag/blockchain" class="tag-cloud-link tag-link-38 tag-link-position-4" style="font-size: 15.46875px;" aria-label="Blockchain (769 items)">Blockchain</a>
+<a href="https://en.bitpush.news/articles/tag/crypto" class="tag-cloud-link tag-link-1663 tag-link-position-5" style="font-size: 14.484375px;" aria-label="Crypto (474 items)">Crypto</a>
+<a href="https://en.bitpush.news/articles/tag/btc" class="tag-cloud-link tag-link-115 tag-link-position-6" style="font-size: 14.34375px;" aria-label="BTC (444 items)">BTC</a>
+<a href="https://en.bitpush.news/articles/tag/defi" class="tag-cloud-link tag-link-1846 tag-link-position-7" style="font-size: 14.109375px;" aria-label="DeFi (400 items)">DeFi</a>
+<a href="https://en.bitpush.news/articles/tag/sec" class="tag-cloud-link tag-link-44 tag-link-position-8" style="font-size: 13.875px;" aria-label="SEC (356 items)">SEC</a>
+<a href="https://en.bitpush.news/articles/tag/nft" class="tag-cloud-link tag-link-4340 tag-link-position-9" style="font-size: 13.734375px;" aria-label="NFT (331 items)">NFT</a>
+<a href="https://en.bitpush.news/articles/tag/coinbase" class="tag-cloud-link tag-link-119 tag-link-position-10" style="font-size: 13.59375px;" aria-label="Coinbase (308 items)">Coinbase</a>
+<a href="https://en.bitpush.news/articles/tag/binance" class="tag-cloud-link tag-link-9 tag-link-position-11" style="font-size: 13.5px;" aria-label="Binance (293 items)">Binance</a>
+<a href="https://en.bitpush.news/articles/tag/eth" class="tag-cloud-link tag-link-105 tag-link-position-12" style="font-size: 12.984375px;" aria-label="ETH (228 items)">ETH</a>
+<a href="https://en.bitpush.news/articles/tag/regulation" class="tag-cloud-link tag-link-147 tag-link-position-13" style="font-size: 12.703125px;" aria-label="Regulation (198 items)">Regulation</a>
+<a href="https://en.bitpush.news/articles/tag/ripple" class="tag-cloud-link tag-link-81 tag-link-position-14" style="font-size: 12.1875px;" aria-label="Ripple (153 items)">Ripple</a>
+<a href="https://en.bitpush.news/articles/tag/xrp" class="tag-cloud-link tag-link-150 tag-link-position-15" style="font-size: 12px;" aria-label="XRP (141 items)">XRP</a>                    </div>
+                  </div>
+                </section>
+                <!--ad-->        
+                <section id="wpforms-widget-7" class="mvp-side-widget wpforms-widget">
+                  <!-- Bitpush -->
+                  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <ins class="adsbygoogle"
+                                style="display:block;width:300px;height:300px"
+                                data-ad-client="ca-pub-8211126797345278"
+                                data-ad-slot="1159384330"
+                                data-ad-format="auto"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                </section>
+    
+                <div class="resize-sensor" style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                  <div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                    <div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 330px; height: 766px;"></div>
+                  </div>
+                  <div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                    <div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div>
+                  </div>
+                </div>
+              </div>
+            </div><!--mvp-side-wrap-->
+							</div><!--mvp-post-main-out-->
+						</div><!--mvp-post-main-->
+					</div><!--mvp-main-box-->
+				</div><!--mvp-article-cont"-->
+			</article><!--mvp-article-wrap-->
+		</div><!--mvp-main-body-wrap-->
+
+
+    <!-- footer -->
+    <!-- 最底部banner -->
+<footer id="mvp-foot-wrap" class="left relative">
+  <div id="mvp-foot-top" class="left relative">
+    <div class="mvp-main-box">
+      <div id="mvp-foot-logo" class="left relative">
+        <a href="#"><img src="/wp-content/themes/Gztro/assets/img/bitpush-white.png" alt="Bitpush" data-rjs="2"></a>
+      </div><!--mvp-foot-logo-->
+      <div id="mvp-foot-soc" class="left relative">
+        <ul class="mvp-foot-soc-list left relative">
+          <li><a href="https://www.facebook.com/Bitpush-426650351448448" target="_blank" class="fa-brands fa-facebook-f"></a></li>
+          <li><a href="https://www.twitter.com/bitpushnews" target="_blank" class="fa-brands fa-twitter"></a></li>
+          <li><a href="https://link.medium.com/3mFW3VSpM7" target="_blank" class="fa-brands fa-medium"></a></li>
+          <li><a href="https://discord.gg/QSvv7MZ2tz" target="_blank" class="fa-brands fa-discord"></a></li>
+          <li><a href="https://t.me/bitpush" target="_blank" class="fa-brands fa-telegram"></a></li>
+        </ul>
+      </div><!--mvp-foot-soc-->
+      <div id="mvp-foot-menu-wrap" class="left relative">
+        <div id="mvp-foot-menu" class="left relative">
+          <div class="menu-footer-01-container">
+            <ul id="menu-footer-01" class="menu">
+              <li id="menu-item-125893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125893">
+                <a href="/about">About</a>
+              </li>
+              <li id="menu-item-125895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-125895">
+                <a href="/use">Terms of use</a>
+              </li>
+              <li id="menu-item-125896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125896">
+                <a href="/privacypolicy">Privacy policy</a>
+              </li>
+              <li id="menu-item-125897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125897">
+                <a href="/contact">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div><!--mvp-foot-menu-->
+      </div><!--mvp-foot-menu-wrap-->
+    </div><!--mvp-main-box-->
+  </div><!--mvp-foot-top-->
+  <div id="mvp-foot-bot" class="left relative">
+    <div class="mvp-main-box">
+      <div id="mvp-foot-copy" class="left relative">
+        <p>Copyright © 2023 Bitpush</p>
+      </div><!--mvp-foot-copy-->
+    </div><!--mvp-main-box-->
+  </div><!--mvp-foot-bot-->
+</footer>
+
+</div><!--mvp-site-main-->
+</div><!--mvp-site-wall-->
+<!--mvp-site-->
+<!-- 核心内容结束 -->
+
+<div class="mvp-fly-top back-to-top">
+  <i class="fa fa-angle-up fa-3"></i>
+</div><!--mvp-fly-top-->
+<div class="mvp-fly-fade mvp-fly-but-click">
+</div><!--mvp-fly-fade-->
+
+<div data-theiastickysidebar-sidebarselector="&quot;#mvp-side-wrap&quot;" data-theiastickysidebar-options="{&quot;containerSelector&quot;:&quot;#mvp-post-main-out&quot;,&quot;additionalMarginTop&quot;:160,&quot;additionalMarginBottom&quot;:0,&quot;updateSidebarHeight&quot;:false,&quot;minWidth&quot;:1000,&quot;sidebarBehavior&quot;:&quot;modern&quot;,&quot;disableOnResponsiveLayouts&quot;:true}"></div>
+<div data-theiastickysidebar-sidebarselector="&quot;.vce-sidebar-block&quot;" data-theiastickysidebar-options="{&quot;containerSelector&quot;:&quot;.wp-block-columns&quot;,&quot;additionalMarginTop&quot;:50,&quot;additionalMarginBottom&quot;:0,&quot;updateSidebarHeight&quot;:false,&quot;minWidth&quot;:751,&quot;sidebarBehavior&quot;:&quot;modern&quot;,&quot;disableOnResponsiveLayouts&quot;:true}"></div>
+
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/theia-sticky-sidebar.min.js" id="theia-sticky-sidebar/theia-sticky-sidebar.js-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/jquery.validate.min.js" id="wpforms-validation-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/mailcheck.min.js" id="wpforms-mailcheck-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/punycode.min.js" id="wpforms-punycode-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/wpforms.min.js" id="wpforms-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/assets/js/jquery.infinitescroll.min.js" id="infinitescroll-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/js/main.js" id="mvp-custom-js-after"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/js/scripts.js" id="zoxnews-js"></script>
+<script type="text/javascript" src="/wp-content/themes/Gztro/js/currency_custom.js" id="zoxnews-js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?30f1b701401252410d49d53d43c4bc51";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+			jQuery(".single-timestamp").each(function () {
+            var timestamp = $(this).attr('data');
+            if (!isNaN(timestamp)) {
+                var formatDate = formatUnixtimestamp(timestamp, true);
+                $(this).html(formatDate);
+            } else {
+                $(this).html(timestamp);
+            }
+        });
+    });
+    </script>
+</body>
+</html>

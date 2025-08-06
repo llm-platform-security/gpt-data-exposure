@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Random Music Generator for Spotify</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body class="colContainer">
+  <div class="container">
+    <div class="innerContainer left info" style="display: none">
+      <img class="icon logo" id="backButton" src="img/logo.svg" alt="" style="cursor: pointer">
+      <h1 id="homeButton2" style="cursor: pointer;"> Random Music Generator </h1>
+      <div class="colContainer">
+        <div class="colContainer">
+          <h2>Get inspired by the world of music! </h2>
+          <p class="appDescription">
+            Here you can find randomly chosen songs, albums and artists.
+            You can filter the results by e.g. genres or time to match your musical taste or you start a journey into unknown rhythms and melodies.
+            By logging in to your Spotify account you can listen to it immediately and if you like a track you can add it to your library or your playlists.
+          </p>
+        </div>
+        <div class="colContainer">
+          <h2> Legal information </h2>
+          <div class="rowContainer table">
+            <div class="colContainer table"> Operator </div>
+            <div class="colContainer table"> Peer Duensing </div>
+          </div>
+          <div class="rowContainer table">
+            <div class="colContainer table"> Contact </div>
+            <a class="colContainer table" href="mailto:info@random-song.com"> info@random-song.com </a>
+          </div>
+          <div class="rowContainer table">
+            <p>No personal information or usage data is stored or used by this website during your visit.
+              If you contact me, your data will be stored only for the inquiry processing. These will be deleted upon request. 
+              (This does not apply to the use of data by Spotify after you login to your Spotify account.
+              <a href="https://www.spotify.com/us/legal/privacy-policy/" target="_blank" style="display: inline-flex; text-decoration: underline;"> More information </a>)</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright"> ©2023 Peer Duensing </div>
+    </div>
+    <div class="innerContainer left randomMusicGenerator">
+      <div class="loginContainer history">
+        <div class="login history">
+          <img class="closeButton" src="img/closeButton.svg">
+          <div class="toggleSwitch history">
+            <div class="on active">Search History</div>
+            <div class="off">Recently played</div>
+          </div>
+
+          <div class="historyContainer"></div>
+        </div>
+      </div>
+
+      <div class="interactionMessage"></div>
+
+      <img class="icon logo" id="appIcon1" src="img/logo.svg" alt="">
+
+      <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer" style="z-index: 100">
+        <img class="icon" src="img/Spotify_Icon_RGB_White.png" alt="">
+      </a>
+
+      <div class="button showHistoryButton absolute"> History </div>
+
+      <h1> Random Music Generator </h1>
+      <div class="menuContainer colContainer">
+        <div class="innerMenuContainer">
+          <div class="searchTypeSelect">
+            <div class="selection trackSelect active"> <p>Song</p> </div>
+            <div class="selection albumSelect"> <p>Album</p> </div>
+            <div class="selection artistSelect"> <p>Artist</p> </div>
+          </div>
+        </div>
+        <div class="horizontal-line"></div>
+      </div>
+      <div class="rowContainer content">
+          <div class="inputSection colContainer">
+            <div class="colContainer upperInput">
+              <div class="button searchButton" id="getTrackButton"> Get Song </div>
+              <div class="button searchButton" id="getAlbumButton"> Get Album </div>
+              <div class="button searchButton" id="getArtistButton"> Get Artist </div>
+
+              <div class="colContainer searchOptions">
+                <!-- decade select menu -->
+                <div class="select-box decade">
+                <div class="options-container decade"> <!-- + class active-->
+                  <div class="option decade" >
+                    <input type="radio" class="radio" id="allDecades" name="category">
+                    <label for="allDecades"> all decades </label>
+                  </div>
+                  <div class="option decade" >
+                    <input type="radio" class="radio" id="randomDecades" name="category">
+                    <label for="randomDecades"> random decade </label>
+                  </div>
+                </div>
+                <div class="selected decade"> all decades </div>
+              </div>
+
+                <!-- Genre select menu -->
+                <div class="select-box genre">
+                <div class="options-container genre"> <!-- + class active-->
+                  <div class="option genre" >
+                    <input type="radio" class="radio" id="none" name="category">
+                    <label for="none"> no genre </label>
+                  </div>
+                  <div class="option genre" >
+                    <input type="radio" class="radio" id="randomGenre" name="category">
+                    <label for="randomGenre"> random genre </label>
+                  </div>
+                </div>
+                <div class="selected genre"> random genre </div>
+                <div class="search-box genre">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+                <!-- Market select menu -->
+                <div class="select-box market">
+                <div class="options-container market"> <!-- + class active-->
+                  <div class="option market" >
+                    <input type="radio" class="radio" id="randomMarket" name="category">
+                    <label for="randomMarket"> random market </label>
+                  </div>
+                </div>
+                <div class="selected market"> random market </div>
+                <div class="search-box market">
+                  <input type="text" placeholder="Search...">
+                </div>
+              </div>
+
+                <div class="button optionButton" id="newReleasesButton"> New releases? </div>
+                <div class="button optionButton active" id="excludeSinglesButton"> Exclude singles? </div>
+              </div>
+            </div>
+
+            <div class="button showHistoryButton"> Show History </div>
+          </div>
+
+          <!-- TRACK Output -->
+          <div class="outputSection welcome">
+            <div class="colContainer">
+              <h2> Get inspired by the world of music!</h2>
+              <p class="appDescription">
+                Here you can find randomly chosen songs, albums and artists.
+                You can filter the results by e.g. genres or time to match your musical taste or you start a journey into unknown rhythms and melodies.
+                By logging in to your Spotify account you can listen to the music immediately and add it to your library or your playlists.
+              </p>
+            </div>
+          </div>
+          <div class="outputSection track song" style="display: none">
+            <div>
+              <div class="outputHeader colContainer track">
+                <img class="cover track" src="img/blank.svg" alt="" />
+                <div class="rowContainer track searchControls" style="display: none">
+                  <img class="likeButton" src="img/heart.svg">
+                  <img class="play_state" src="img/play.svg" alt="play/pause">
+                </div>
+                <div class="colContainer trackText">
+                  <a class="name track" id="trackName" href="" target="_blank" rel="noopener noreferrer"></a>
+                  <a class="trackAlbum track" id="trackAlbum" href="" target="_blank" rel="noopener noreferrer"></a>
+                  <div class="artists track"></div>
+                </div>
+                <div class="rowContainer infos track">
+                  <div class="duration"></div>
+                  <div class="release_date"></div>
+                </div>
+              </div>
+            </div>
+            <div class="genresContainer">
+              <div class="genres"></div>
+            </div>
+          </div>
+
+          <!-- Album Output -->
+          <div class="outputSection album" style="display: none">
+
+              <div class="colContainer">
+                <div class="outputHeader">
+                  <img class="cover" src="img/blank.svg" alt="" />
+                  <div class="colContainer trackText">
+                    <a class="name" id="albumName" href="" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="artists"></div>
+                    <div class="rowContainer infos">
+                      <div class="trackCount"></div>
+                      <div class="duration"></div>
+                      <div class="release_date"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rowContainer album searchControls" style="display: none">
+                  <img class="likeButton" src="img/heart.svg">
+                  <img class="play_state" src="img/play.svg" alt="play/pause">
+                </div>
+              </div>
+
+              <div class="tracksContainer"></div>
+            <div class="genresContainer">
+              <div class="genres"></div>
+            </div>
+          </div>
+
+          <!-- Artist Output -->
+          <div class="outputSection artist" style="display: none">
+              <div class="colContainer">
+                <div class="outputHeader">
+                  <img class="cover" src="img/blank.svg" alt="" />
+                  <div class="colContainer trackText">
+                    <a class="name" id="artistName" href="" target="_blank" rel="noopener noreferrer"></a>
+                  </div>
+                </div>
+
+                <div class="rowContainer artist searchControls" style="display: none">
+                  <img class="likeButton" src="img/heart.svg">
+                  <img class="play_state" src="img/play.svg" alt="play/pause">
+                </div>
+              </div>
+
+              <div class="tracksContainer"></div>
+            <div class="genresContainer">
+              <div class="genres"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="viewSwitchContainer">
+      <div class="viewSwitch"> Player </div>
+    </div>
+
+    <div class="innerContainer player">
+        <div class="loginContainer" id="login" style="display: none">
+          <div class="login spotifyLogin">
+            <a href="https://open.spotify.com" target="_blank" style="z-index: 1000">
+              <img id="spotifyLogo" src="img/Spotify_Logo_RGB_White.png" alt="">
+            </a>
+            <p> Premium </p>
+            <a href="https://europe-west1-randommusicgenerator-34646.cloudfunctions.net/app/spotifyLogin" class="button" id="loginButton">Login</a>
+
+            <div class="infoContainer">
+              <div class="infoButton"> i </div>
+              <div class="infoText moreMenu"> You will be redirected to Spotify to sign in your account. <br> No personal information and no usage data will be stored externally. <br> (Spotify excluded) </div>
+            </div>
+          </div>
+
+          <div class="login deviceSelection"></div>
+
+          <div class="login playlistManager">
+            <h3 style="margin-bottom: 20px; font-family: Roboto_Bold, sans-serif">Add to Playlist</h3>
+            <img class="closeButton" src="img/closeButton.svg">
+            <div class="text-input">
+              <input type="text" placeholder="Search...">
+              <img class="clearInput" src="img/closeButton.svg">
+            </div>
+            <div class="playlistMenuContainer">
+              <div class="moreMenu active large playlistMenu"></div>
+            </div>
+            <img class="newPlaylistButton" src="img/closeButton.svg">
+          </div>
+
+          <div class="login createPlaylist">
+            <h3 style="margin-bottom: 20px; font-family: Roboto_Bold, sans-serif">Create Playlist</h3>
+            <img class="closeButton" src="img/closeButton.svg">
+            <div class="text-input playlist_name"> <input type="text" placeholder="Name..."> </div>
+            <div class="text-input playlist_description"> <input type="text" placeholder="Description..."> </div>
+            <div class="toggleSwitch playlist_visibility">
+              <div class="on active">public</div>
+              <div class="off">private</div>
+            </div>
+            <img class="newPlaylistButton" src="img/closeButton.svg">
+          </div>
+
+          <div class="login noPremium" style="padding: 50px 20px; display: none">
+            <h3> Spotify Premium required to use the player.</h3>
+            <div class="button noPremiumButton"> Logout </div>
+          </div>
+        </div>
+
+        <div class="loggedIn" id="loggedIn">
+          <div class="interactionMessage"></div>
+
+          <img id="profileImage" src="img/history_artist.svg" alt="">
+          <div class="moreMenu large" id="profileMenu">
+            <div class="more-option description" id="userName"></div>
+            <div class="more-option" id="devicesButton"> Switch Device </div>
+            <div class="more-option" id="logoutButton"> Logout </div>
+          </div>
+
+          <div class="innerPlayer">
+            <h1> Player </h1>
+            <div class="playerContainer">
+              <img class="playerCover" src="img/blank.svg" alt="">
+              <div class="infoContainer1">
+                <div class="currentTrackDate"></div>
+                <div class="albumContainer colContainer">
+                  <a target="_blank" class="currentTrackAlbum"></a>
+                  <div class="albumType"></div>
+                </div>
+              </div>
+              <div class="infoContainer2">
+                <div class="rowContainer currentGenres"></div>
+                <div class="colContainer recommendations"></div>
+              </div>
+            </div>
+            <div class="playerBox rowContainer currentContainer">
+              <div class="currentContainer2 colContainer">
+                <a class="currentTrack" target="_blank" rel="noopener noreferrer"></a>
+                <div class="currentArtists"></div>
+              </div>
+              <div class="rowContainer playerOptions1">
+                <img class="likeButton" src="img/heart.svg">
+              </div>
+            </div>
+            <div class="playerBox rowContainer" style="max-height: 20px;">
+              <div class="current number"> 0:00 </div>
+              <div class="line durationBar">
+                <div class="total">
+                  <div class="seeker"></div>
+                </div>
+                <div class="current"></div>
+              </div>
+              <div class="total number"> 3:45 </div>
+            </div>
+            <div class="controls rowContainer">
+              <img class="previous" src="img/next.svg" alt="previous">
+              <img class="play_state" src="img/play.svg" alt="play/pause">
+              <img class="next" src="img/next.svg" alt="next">
+            </div>
+
+            <div class="spacing" style="display: flex; flex-grow: 1;">&nbsp</div>
+            <div class="playerBox rowContainer preview">
+              <div class="colContainer" style="width: 40px; height: 100%; justify-content: flex-end;">
+                <div class="previewNext visible">next:</div>
+                <div style="height: 14px;">&nbsp</div>
+              </div>
+              <div class="queueContainer colContainer"></div>
+              <div class="colContainer" style="width: 40px; height: 100%; justify-content: flex-end;">
+                <div class="queueIconContainer">
+                  <img class="queueIcon" src="img/queue.svg">
+                  <img class="queueIcon" src="img/queue.svg">
+                  <img class="queueIcon" src="img/queue.svg">
+                </div>
+                <div style="height: 12px;">&nbsp</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rowContainer playerFooter">
+            <div class="volume" id="volumeSection">
+              <div class="volume" id="volumeButton">
+                <img class="speaker" src="img/speaker.svg">
+                <img class="volume1" src="img/volume.svg">
+                <img class="volume2" src="img/volume2.svg">
+              </div>
+              <div class="line volumeBar">
+                <div class="total">
+                  <div class="seeker"></div>
+                </div>
+                <div class="current"></div>
+              </div>
+            </div>
+            <div class="right">
+              <img class="shuffle" src="img/shuffle.svg">
+              <img class="repeat" src="img/repeat_off.svg">
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <div class="rowContainer" style="max-height: fit-content;">
+    <a class="footer" href="mailto:info@random-song.com">Send feedback!</a>
+    <span class="footer" id="legal"> Legal information </span>
+  </div>
+
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+  <script src="base.js"></script>
+  <script src="player.js"></script>
+  <script src="client.js"></script>
+  </body>
+</html>

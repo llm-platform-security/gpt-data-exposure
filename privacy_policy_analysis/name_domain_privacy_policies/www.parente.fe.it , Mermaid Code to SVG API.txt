@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [Your GPT Model Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <h2>1. No Data Retention</h2>
+        <p>This GPT does not store or retain any user data, including personal or statistical information.</p>
+
+        <h2>2. Data Usage</h2>
+        <p>As no data is retained, there is no use of data for any purpose, including analysis or service improvement.</p>
+
+        <h2>3. Data Security</h2>
+        <p>We maintain secure interactions but do not store any user data.</p>
+
+        <h2>4. No Third-Party Sharing</h2>
+        <p>We do not share data with third parties, as no data is retained.</p>
+    </div>
+</body>
+</html>

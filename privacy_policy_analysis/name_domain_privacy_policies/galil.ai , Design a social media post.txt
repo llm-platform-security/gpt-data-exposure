@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Privacy Policy | GalilAI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Read our privacy policy to learn more about how we use your data.">
+  <link rel="stylesheet" href="https://galilai-assets.b-cdn.net/assets/css/theme.min.css">
+  <meta property="og:site_name" content="GalilAI">
+  <meta property="og:type" content="article">
+  
+  
+  
+  
+  <meta property='og:site_name' content='GalilAI' />
+  <meta property="og:title" content="Privacy Policy | GalilAI">
+  <meta property="og:description" content="Read our privacy policy to learn more about how we use your data.">
+  
+  
+  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://galilai-assets.b-cdn.net/assets/images/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://galilai-assets.b-cdn.net/assets/images/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://galilai-assets.b-cdn.net/assets/images/ico/favicon-16x16.png">
+  <link rel="manifest" href="https://galilai-assets.b-cdn.net/assets/images/ico/site.webmanifest">
+  <link rel="mask-icon" href="https://galilai-assets.b-cdn.net/assets/images/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <style type="text/css">
+    .toc ol { counter-reset: item }
+    .toc li { display: block }
+    .toc li:before { content: counters(item, ".") " "; counter-increment: item }
+    .toc {
+      margin-bottom: 20px;
+      background: #f3f3f3;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .blockquote {
+      border-left: 5px solid #ccc;
+      padding-left: 15px;
+    }
+    .img-full {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  
+  
+	<link rel="alternate" hreflang="en" href="https://galil.ai/privacy"/>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window._START = new Date().getTime()
+
+    let css = [
+      'https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.4.47/css/materialdesignicons.min.css',
+      'https://galilai-assets.b-cdn.net/assets/fonts/feather/feather.css',
+      'https://galilai-assets.b-cdn.net/assets/libs/bootstrap-icons/font/bootstrap-icons.css',
+    ]
+    window.addEventListener('load', function() {
+      // Load CSS
+      css.forEach(function(href) {
+        let link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+      });
+    });
+  </script>
+</head>
+
+<body class="bg-white">
+  
+  
+
+    
+      
+      
+
+	<nav class="navbar navbar-expand-lg navbar-transparent navbar-default shadow-none">
+		
+		<div class="container px-0">
+			<a class="navbar-brand" href="https://galil.ai/"><img style="width: 100px" src="/assets/images/brand/logo/logo.png" alt=""></a>
+
+			<!-- Button -->
+			<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="icon-bar top-bar mt-0"></span>
+				<span class="icon-bar middle-bar"></span>
+				<span class="icon-bar bottom-bar"></span>
+			</button>
+			<!-- Collapse -->
+			<div class="collapse navbar-collapse" id="navbar-default">
+				<ul class="navbar-nav">
+					
+						
+						<li  class="nav-item ">
+							<a class="nav-link" href="https://galil.ai/magic-editor">
+								Magic Editor
+							</a>
+						</li>
+						
+					
+						
+						<li  class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLanding" data-bs-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Tools
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarLanding">
+								<li>
+									<h4 class="dropdown-header">Tools</h4>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/digital-ad-copy" class="dropdown-item d-flex justify-content-between">
+										Digital Ad Copy
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/social-media-tools" class="dropdown-item d-flex justify-content-between">
+										Social Media Tools
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/blog-tools" class="dropdown-item d-flex justify-content-between">
+										Blog Tools
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/brainstorming-tools" class="dropdown-item d-flex justify-content-between">
+										Brainstorming Tools
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+					
+						
+						<li  class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLanding" data-bs-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Learn more
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarLanding">
+								<li>
+									<h4 class="dropdown-header">Learn more</h4>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/affiliate-program" class="dropdown-item d-flex justify-content-between">
+										Affiliate Program
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/blog" class="dropdown-item d-flex justify-content-between">
+										Blog
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/help-center" class="dropdown-item d-flex justify-content-between">
+										Help center
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-lawyers-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Lawyers
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-doctors-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Doctors
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-accountants-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Accountants
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-psychologists-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Psychologists
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-personal-trainers-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Personal Trainers
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/posts-dentists-ai-instagram" class="dropdown-item d-flex justify-content-between">
+										Posts for Dentists
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+					
+						
+						<li  class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLanding" data-bs-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Support
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarLanding">
+								<li>
+									<h4 class="dropdown-header">Support</h4>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/help-center" class="dropdown-item d-flex justify-content-between">
+										Knowledge base
+									</a>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/contact" class="dropdown-item d-flex justify-content-between">
+										Contact us
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+					
+						
+						<li  class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLanding" data-bs-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								Product
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarLanding">
+								<li>
+									<h4 class="dropdown-header">Product</h4>
+								</li>
+								
+								<li>
+									<a href="https://galil.ai/pricing-magic-editor" class="dropdown-item d-flex justify-content-between">
+										Pricing Magic Editor
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						
+					
+						
+						<li  id="account-menu"  class="nav-item d-none">
+							<a class="nav-link" href="https://galil.ai/profile">
+								Account
+							</a>
+						</li>
+						
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLanding" data-bs-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							🌎
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarLanding">
+							<li>
+								<h4 class="dropdown-header">
+									Language
+								</h4>
+							</li>
+							
+							<li>
+								<a href="https://galil.ai/privacy" class="dropdown-item d-flex justify-content-between">
+									English
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+				</ul>
+
+				<div class="ms-auto mt-3 mt-lg-0">
+					
+					<a  id="login-button"  href="https://galil.ai/auth" class="btn btn-primary">Login</a>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+    
+  
+    
+      
+      
+<div  class="hero3  pt-7 pb-2 ">
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="row">
+        <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12">
+          <div class="mb-4 mb-xl-0 text-center">
+
+            <!-- Caption -->
+            
+            <h1 class="display-3 ls-sm mt-2 fw-bold">
+              Privacy Policy
+            </h1>
+            
+            
+            
+            
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+    
+  
+    
+      
+      
+
+<div class="py-4 py-lg-4 pb-14">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-12 mb-2">
+                <p class="fs-4">This privacy policy will help you understand how we use and protect the data you provide to us when you visit and use our website.</p>
+<p class="fs-4">We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.</p>
+<h2 id="heading-2"> What User Data We Collect</h2>
+<p class="fs-4">When you visit the website, we may collect the following data:</p>
+<p class="fs-4">* Your IP address.</p>
+<p class="fs-4">* Your contact information and email address.</p>
+<p class="fs-4">* Other information such as interests and preferences.</p>
+<p class="fs-4">* Data profile regarding your online behavior on our website.</p>
+<h2 id="heading-8"> Why We Collect Your Data</h2>
+<p class="fs-4">We are collecting your data for several reasons:</p>
+<p class="fs-4">* To better understand your needs.</p>
+<p class="fs-4">* To improve our services and products.</p>
+<p class="fs-4">* To send you promotional emails containing the information we think you will find interesting.</p>
+<p class="fs-4">* To contact you to fill out surveys and participate in other types of market research.</p>
+<p class="fs-4">* To customize our website according to your online behavior and personal preferences.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+  
+    
+      
+      
+
+
+    
+  
+    
+      
+      
+<div class="pt-lg-10 pt-5 footer bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+              <!-- about company -->
+          <div class="mb-4">
+            
+            <img style="width: 100px" src="/assets/images/brand/logo/logo.png" alt="logo" class="mb-2" />
+            
+            <div class="mt-4">
+              
+              <p>Our AI Creates, Designs, and Publish social media posts for an Entire Month in seconds</p>
+              
+              
+              <!-- social media -->
+              <div class="fs-4 mt-4">
+                
+                  <a href="https://www.facebook.com/people/Galilai/100086151828118/" class="mdi mdi-facebook fs-4 text-muted me-2"></a>
+                
+                  <a href="https://www.instagram.com/_galilai/" class="mdi mdi-instagram fs-4 text-muted me-2"></a>
+                
+                  <a href="https://www.linkedin.com/company/galilai-assistant/" class="mdi mdi-linkedin fs-4 text-muted me-2"></a>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="offset-lg-1 col-lg-2 col-md-3 col-6">
+          <div class="mb-4">
+                <!-- list -->
+            <h3 class="fw-bold mb-3">Learn more</h3>
+            <ul class="list-unstyled nav nav-footer flex-column nav-x-0">
+              
+              <li><a href="https://galil.ai/affiliate-program" class="nav-link">Affiliate Program</a></li>
+              
+              <li><a href="https://galil.ai/blog" class="nav-link">Blog</a></li>
+              
+              <li><a href="https://galil.ai/help-center" class="nav-link">Help center</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        <div class=" col-lg-2 col-md-3 col-6">
+          <div class="mb-4">
+                <!-- list -->
+            <h3 class="fw-bold mb-3">Support</h3>
+            <ul class="list-unstyled nav nav-footer flex-column nav-x-0">
+              
+              <li><a href="https://galil.ai/help-center" class="nav-link">Knowledge base</a></li>
+              
+              <li><a href="https://galil.ai/contact" class="nav-link">Contact us</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-3 col-md-12">
+              <!-- contact info -->
+          <div class="mb-4">
+            <h3 class="fw-bold mb-3">Get in touch</h3>
+            
+            <p class="mb-1">Email: <a href="mailto:hello@galil.ai">hello@galil.ai</a></p>
+            
+            
+            
+            <p>Rua Capitão Romualdo de Barros, 966, Florianópolis, SC, Brazil, 88040600</p>
+            
+            
+            <p><span class="text-muted">Newex Programas de Realidade Aumentada LTDA, 14756788000175</span></p>
+            
+            
+
+          </div>
+        </div>
+        
+      </div>
+      <div class="row align-items-center g-0 border-top py-2 mt-6">
+        <!-- Desc -->
+        
+        <div class="col-lg-4 col-md-5 col-12">
+            <span>© 2024 GalilAI</span>
+        </div>
+        
+
+        
+    </div>
+    </div>
+  </div>
+
+    
+  
+    
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SBPFVBYM1F"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SBPFVBYM1F', {'allow_enhanced_conversions':true});
+</script>
+ <script>
+  window.intercomSettings = {
+    app_id: "ecb2jz88"
+  };
+</script>
+
+
+<!-- Add mixpanel -->
+<script type="text/javascript">
+  (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+  for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+  MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+
+  
+  mixpanel.init('6d262eb4c8af525b07b2236ea44dd329', {debug: false});
+  
+</script>
+<script type="text/javascript">
+  
+  const _env_ = 'PROD';
+  
+
+  function getCampaignInfo() {
+    let data = {
+      campaign: localStorage.getItem('galilai_campaign'),
+      source: localStorage.getItem('galilai_source'),
+      medium: localStorage.getItem('galilai_medium'),
+    }
+    // Check if any of the data is set
+    if (data.campaign || data.source || data.medium) {
+      return data
+    }
+    return null
+  }
+
+  function shouldTrack() {
+    if (localStorage.getItem('galilai.ignore.tracking')) {
+      return false
+    }
+    if (_env_ !== 'PROD' || window.origin.indexOf('localhost') !== -1) {
+      return false
+    }
+    return true
+  }
+  function track(event, properties) {
+    if (!shouldTrack()) {
+      return
+    }
+    if (!properties) {
+      properties = {}
+    }
+
+    let instagram = localStorage.getItem('auth.user.instagram')
+    let email = localStorage.getItem('auth.user.email')
+    if (instagram) {
+      properties['instagram'] = instagram
+    }
+    if (email) {
+      properties['email'] = email
+    }
+    try {
+      let campaign = getCampaignInfo()
+      if (campaign) {
+        for (let key in campaign) {
+          properties['utm_' + key] = campaign[key]
+        }
+      }
+    } catch (e) {
+      console.log('Error getting campaign info', e)
+    }
+    try {
+      let keys = Object.keys(localStorage)
+      keys.map((key) => {
+        if (key.indexOf('galilai.experiment') === 0) {
+          let value = localStorage.getItem(key)
+          key = 'exp_' + key.replace('galilai.experiment.', '').replace(/-/g, '_')
+          properties[key] = value
+        }
+      })
+    } catch (e) {
+      console.log('Error getting localstorage', e)
+    }
+    if (mixpanel) {
+      try {
+        mixpanel.track(event, properties);
+      } catch (e) {
+        console.log('[MixPanel] Error tracking', e)
+      }
+    }
+    if (window.Intercom && false) {
+      window.Intercom('trackEvent', event, properties);
+    }
+    console.log('Track', event, properties)
+
+    let authToken = localStorage.getItem('auth.token')
+    if (!authToken) {
+      return
+    }
+
+    let source = window.location.pathname
+    if (window.location.pathname.indexOf('/editor-magico') !== -1 || window.location.pathname.indexOf('/magic-editor') !== -1) {
+      source = 'editor'
+    }
+    properties['_source'] = source
+    try {
+      fetch('/api/status/' +event, {
+        headers: {
+          'Authorization': 'Bearer ' + authToken,
+          'Content-Type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify(properties)
+      }).catch((e) => {
+        console.log('Error tracking', e)
+      })
+    } catch (e) {
+      console.log('[App] Error tracking', e)
+    }
+  }
+  function getUserInfo() {
+    let authToken = localStorage.getItem('auth.token')
+    if (!authToken) {
+      return Promise.resolve(null)
+    }
+    return fetch(window.origin + '/api/config?info=e30=', {
+        headers: {
+            'Authorization': 'Bearer ' + authToken
+        }
+    }).then(response => response.json())
+  }
+  function identifyUser() {
+    if (!shouldTrack()) {
+      return
+    }
+    let hash = window.location.hash
+    if (hash && hash.indexOf('#config') == -1) {
+      try {
+        let decoded = atob(hash.substring(1))
+        let userId = decoded
+        if (userId) {
+          mixpanel.identify(userId)
+        }
+        // Remove hash
+        window.location.hash = ''
+      } catch (e) {
+        console.log('Error decoding hash', e)
+      }
+    }
+  }
+  async function identifyLoggedInUser() {
+    if (!shouldTrack()) {
+      return
+    }
+    let info = null
+    try {
+      info = await getUserInfo()
+    } catch (e) {
+      console.log('Error getting user info', e)
+    }
+    if (!info) {
+      return
+    }
+    if (!info.user || !info.user.id) {
+      return
+    }
+    console.log('Identifying user', info.user.id)
+    mixpanel.identify(info.user.id)
+  }
+  identifyUser()
+  identifyLoggedInUser()
+  // Track current page
+  track('View Page', {
+    page: window.location.pathname,
+  })
+
+  if (window._TRACK) {
+    window._TRACK.map((event) => {
+      track(event.name, event.properties || {})
+    })
+    window._TRACK = []
+  }
+</script>
+
+<script type="text/javascript">
+  function getCurrentLanguage() {
+        let language = 'en';
+        // Translate - i18n
+        let pathNames = {
+            '/pt': 'pt',
+            '/es': 'es',
+            '/fr': 'fr',
+            '/de': 'de',
+            '/it': 'it',
+            '/en': 'en',
+            '/nl': 'nl',
+            '/da': 'da',
+            '/sv': 'sv',
+            '/pl': 'pl',
+        }
+        let domains = {
+            '.br': 'pt',
+            '.es': 'es',
+            '.fr': 'fr',
+            '.de': 'de',
+            '.it': 'it',
+            '.nl': 'nl',
+            '.da': 'da',
+            '.se': 'sv',
+            '.pl': 'pl',
+        }
+        for (let path in pathNames) {
+            if (window.location.pathname.indexOf(path) === 0) {
+                language = pathNames[path];
+            }
+        }
+        for (let domain in domains) {
+            if (window.location.hostname.indexOf(domain) != -1) {
+                language = domains[domain];
+            }
+        }
+        return language;
+  }
+  let language = getCurrentLanguage()
+  let messages = {
+    'en': {
+      'login': 'Login or create account',
+      'login-message': 'We sent you an email with a link to login. Please check your inbox.',
+      'login-error': 'Error logging in. Please try again.',
+      'your-email': 'Your email',
+      'login-cta': 'Login',
+      'close': 'Close',
+      'cancel': 'Cancel',
+      'confirm': 'Confirm',
+    },
+    'pt': {
+      'login': 'Login ou criar conta',
+      'login-message': 'Enviamos um email com um link para fazer login. Por favor verifique sua caixa de entrada.',
+      'login-error': 'Erro ao fazer login. Por favor tente novamente.',
+      'your-email': 'Seu email',
+      'login-cta': 'Entrar',
+      'close': 'Fechar',
+      'cancel': 'Cancelar',
+      'confirm': 'Confirmar',
+    },
+    'es': {
+      'login': 'Iniciar sesión o crear cuenta',
+      'login-message': 'Le enviamos un correo electrónico con un enlace para iniciar sesión. Por favor revise su bandeja de entrada.',
+      'login-error': 'Error al iniciar sesión. Por favor, inténtelo de nuevo.',
+      'your-email': 'Tu correo electrónico',
+      'login-cta': 'Iniciar sesión',
+      'close': 'Cerrar',
+      'cancel': 'Cancelar',
+      'confirm': 'Confirmar',
+    },
+    'fr': {
+      'login': 'Se connecter ou créer un compte',
+      'login-message': 'Nous vous avons envoyé un e-mail avec un lien pour vous connecter. Veuillez vérifier votre boîte de réception.',
+      'login-error': 'Erreur de connexion. Veuillez réessayer.',
+      'your-email': 'Votre email',
+      'login-cta': 'Se connecter',
+      'close': 'Fermer',
+      'cancel': 'Annuler',
+      'confirm': 'Confirmer',
+    },
+    'de': {
+      'login': 'Anmelden oder Konto erstellen',
+      'login-message': 'Wir haben Ihnen eine E-Mail mit einem Link zum Anmelden gesendet. Bitte überprüfen Sie Ihr Postfach.',
+      'login-error': 'Fehler beim Anmelden. Bitte versuchen Sie es erneut.',
+      'your-email': 'Deine E-Mail',
+      'login-cta': 'Anmelden',
+      'close': 'Schließen',
+      'cancel': 'Stornieren',
+      'confirm': 'Bestätigen',
+    },
+    'it': {
+      'login': 'Accedi o crea un account',
+      'login-message': 'Ti abbiamo inviato un\'email con un link per accedere. Controlla la tua posta in arrivo.',
+      'login-error': 'Errore di accesso. Riprova.',
+      'your-email': 'La tua email',
+      'login-cta': 'Accedi',
+      'close': 'Chiudere',
+      'cancel': 'Annulla',
+      'confirm': 'Confermare',
+    },
+    'nl': {
+      'login': 'Inloggen of account aanmaken',
+      'login-message': 'We hebben u een e-mail gestuurd met een link om in te loggen. Controleer uw inbox.',
+      'login-error': 'Fout bij het inloggen. Probeer het opnieuw.',
+      'your-email': 'Uw e-mail',
+      'login-cta': 'Inloggen',
+      'close': 'Sluiten',
+      'cancel': 'Annuleren',
+      'confirm': 'Bevestigen',
+    },
+    'da': {
+      'login': 'Log ind eller opret konto',
+      'login-message': 'Vi har sendt dig en e-mail med et link til at logge ind. Tjek din indbakke.',
+      'login-error': 'Fejl ved login. Prøv igen.',
+      'your-email': 'Din e-mail',
+      'login-cta': 'Log ind',
+      'close': 'Luk',
+      'cancel': 'Afbestille',
+      'confirm': 'Bekræfte',
+    },
+    'sv': {
+      'login': 'Logga in eller skapa konto',
+      'login-message': 'Vi har skickat dig ett e-postmeddelande med en länk för att logga in. Vänligen kontrollera din inkorg.',
+      'login-error': 'Fel vid inloggning. Försök igen.',
+      'your-email': 'Din e-post',
+      'login-cta': 'Logga in',
+      'close': 'Stänga',
+      'cancel': 'Avbryta',
+      'confirm': 'Bekräfta',
+    },
+    'pl': {
+      'login': 'Zaloguj się lub utwórz konto',
+      'login-message': 'Wysłaliśmy Ci e-mail z linkiem do logowania. Sprawdź swoją skrzynkę odbiorczą.',
+      'login-error': 'Błąd logowania. Spróbuj ponownie.',
+      'your-email': 'Twój e-mail',
+      'login-cta': 'Zaloguj się',
+      'close': 'Zamknij',
+      'cancel': 'Anuluj',
+      'confirm': 'Potwierdzać',
+    },
+  }
+
+  function showSuccess(message, title, cb) {
+    let modalContent = `
+      <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">`
+            + (title ? `<div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">${title}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>` : '') +
+            `
+            <div class="modal-body">
+                <p>${message}</p>
+                <button type="button" class="btn btn-success w-100" data-bs-dismiss="modal">${messages[language]['close']}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    // Check if modal already exists
+    if (document.getElementById('successModal')) {
+      // Dismiss and then remove it
+      let successModal = bootstrap.Modal.getInstance(document.getElementById('successModal'));
+      successModal.hide();
+      document.getElementById('successModal').remove();
+    }
+    document.body.insertAdjacentHTML('beforeend', modalContent);
+    let successModal = new bootstrap.Modal(document.getElementById('successModal'));
+    // Add callback when modal is hidden
+    successModal._element.addEventListener('hidden.bs.modal', function (event) {
+      if (cb) {
+        cb()
+      }
+    })
+    successModal.show();
+  }
+
+  function showConfirm(message, title, cb) {
+    let modalContent = `
+      <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">`
+            + (title ? `<div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">${title}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>` : '') +
+            `
+            <div class="modal-body">
+                <p>${message}</p>
+                <div class="row">
+                  <div class="col-6">
+                    <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">${messages[language]['cancel']}</button>
+                  </div>
+                  <div class="col-6">
+                    <button type="button" class="btn btn-success w-100" id="confirmModalConfirm">${messages[language]['confirm']}</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    // Check if modal already exists
+    if (document.getElementById('confirmModal')) {
+      // Dismiss and then remove it
+      let confirmModal = bootstrap.Modal.getInstance(document.getElementById('confirmModal'));
+      confirmModal.hide();
+      document.getElementById('confirmModal').remove();
+    }
+    document.body.insertAdjacentHTML('beforeend', modalContent);
+    let confirmModal = new bootstrap.Modal(document.getElementById('confirmModal'));
+    let confirmed = false
+    // Add callback when modal is hidden
+    confirmModal._element.addEventListener('hidden.bs.modal', function (event) {
+      if (cb) {
+        cb(confirmed)
+      }
+    })
+    confirmModal.show();
+    document.getElementById('confirmModalConfirm').addEventListener('click', function() {
+      confirmModal.hide();
+      confirmed = true
+    })
+  }
+
+  function showError(message, title, cb) {
+    let modalContent = `
+      <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">`
+            + (title ? `<div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">${title}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>` : '') +
+            `
+            <div class="modal-body">
+                <p>${message}</p>
+                <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">${messages[language]['close']}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    // Check if modal already exists
+    if (document.getElementById('errorModal')) {
+      // Dismiss and then remove it
+      let errorModal = bootstrap.Modal.getInstance(document.getElementById('errorModal'));
+      errorModal.hide();
+      document.getElementById('errorModal').remove();
+    }
+    document.body.insertAdjacentHTML('beforeend', modalContent);
+    let errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+    errorModal.show();
+
+    // Add callback when modal is hidden
+    errorModal._element.addEventListener('hidden.bs.modal', function (event) {
+      if (cb) {
+        cb()
+      }
+    })
+  }
+
+  function showLoginModal(cb, autoDismiss, initialData, autoSubmit=false) {
+    let modalContent = `
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">${messages[language].login}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form id="loginForm" action="/login" method="POST">
+                <div class="mb-3">
+                  <label for="email" class="form-label">${messages[language]['your-email']}</label>
+                  <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-primary">${messages[language]['login-cta']}</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    // Check if modal already exists
+    if (document.getElementById('loginModal')) {
+        document.getElementById('loginModal').remove();
+    }
+    document.body.insertAdjacentHTML('beforeend', modalContent);
+    let loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+
+    // On click submit, call API and change message
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      // Change button to disabled and add loading icon mdi
+      document.getElementById('loginForm').querySelector('button[type="submit"]').innerHTML = `
+        <i class="mdi mdi-loading mdi-spin"></i>
+        ${messages[language]['login-cta']}
+      `;
+      // Disable button
+      document.getElementById('loginForm').querySelector('button[type="submit"]').disabled = true;
+
+      e.preventDefault();
+      let email = document.getElementById('email').value;
+      let data = {
+        email: email,
+        refCode: getReferalCode(),
+        language: getCurrentLanguage(),
+        origin: window.location.origin,
+      };
+      if (initialData) {
+        data = Object.assign(data, initialData)
+      }
+      // Add campaign info
+      let campaign = getCampaignInfo()
+      if (campaign) {
+        data.utm = campaign
+      }
+      try {
+        data.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+      } catch (e) {
+        console.log('Error getting timezone', e)
+      }
+      fetch('/login/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(response => response.json())
+      .then(data => {
+        monitorLogin(function() {
+          if (autoDismiss) {
+            loginModal.hide();
+          }
+          cb();
+        })
+        if (data.status === 'pending') {
+          document.getElementById('loginForm').innerHTML = `
+            <div class="alert alert-success" role="alert">
+              ${messages[language]['login-message']}
+            </div>
+          `;
+        } else {
+          document.getElementById('loginForm').innerHTML = `
+            <div class="alert alert-danger" role="alert">
+              ${messages[language]['login-error']}
+            </div>
+          `;
+        }
+      }).catch(error => {
+        document.getElementById('loginForm').innerHTML = `
+          <div class="alert alert-danger" role="alert">
+            ${messages[language]['login-error']}
+          </div>
+        `;
+      });
+    });
+    loginModal.show();
+
+    if (autoSubmit && initialData && initialData.email) {
+      document.getElementById('email').value = initialData.email
+      setTimeout(function() {
+
+        document.getElementById('loginForm').querySelector('button[type="submit"]').click()
+      }, 50)
+    }
+  }
+
+  function goHome() {
+    if (getCurrentLanguage() == 'en') {
+      window.location.href = '/';
+    } else {
+      window.location.href = '/' + getCurrentLanguage();
+    }
+  }
+
+  function monitorLogin(cb) {
+    let interval = setInterval(function() {
+      if (localStorage.getItem('auth.token')) {
+        localStorage.setItem('auth.token.confirm', true);
+        clearInterval(interval);
+        setTimeout(function() {
+          cb()
+        }, 10);
+      }
+    }, 50);
+  }
+
+  function logout() {
+    localStorage.removeItem('auth.token');
+    localStorage.removeItem('auth.token.confirm');
+  }
+
+  function isLoggedIn() {
+    return localStorage.getItem('auth.token') ? true : false;
+  }
+
+  function getUserInfo() {
+    if (!isLoggedIn()) {
+      return new Promise(function(resolve, reject) {
+        reject('Not logged in');
+      });
+    }
+    return fetch('/api/users/info', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + localStorage.getItem('auth.token')
+      }
+    }).then(response => response.json())
+  }
+
+  function checkLogin(cb, autoDismiss, initialData) {
+    if (!isLoggedIn()) {
+      showLoginModal(cb, autoDismiss, initialData);
+    } else {
+      cb();
+    }
+  }
+
+  function setupMenus() {
+
+    if (isLoggedIn()) {
+      document.getElementById('account-menu').classList.remove('d-none');
+
+      if (document.getElementById('login-button')) {
+        document.getElementById('login-button').classList.add('d-none');
+      }
+    }
+    if (window.location.hostname.indexOf('galil.ai') !== -1) {
+      //document.getElementById('login-button').href = '/user/login';
+    }
+  }
+  function setupReferal() {
+    // Get referal code from url and set local storage
+    let urlParams = new URLSearchParams(window.location.search);
+    let referal = urlParams.get('ref');
+    if (referal) {
+      localStorage.setItem('referalCode', referal);
+    }
+  }
+  function getReferalCode() {
+    return localStorage.getItem('referalCode')
+  }
+  function setupCampaigns() {
+    let urlParams = new URLSearchParams(window.location.search);
+    let campaign = urlParams.get('utm_campaign');
+    if (campaign) {
+      localStorage.setItem('galilai_campaign', campaign);
+    }
+    let source = urlParams.get('utm_source');
+    if (source) {
+      localStorage.setItem('galilai_source', source);
+    }
+    let medium = urlParams.get('utm_medium');
+    if (medium) {
+      localStorage.setItem('galilai_medium', medium);
+    }
+  }
+  setupCampaigns()
+  setupReferal()
+  setupMenus()
+
+</script>
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"97096692", enableAutoSpaTracking: true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+
+<script>function microsoftReportSubscribe() {window.uetq = window.uetq || [];window.uetq.push('event', 'subscribe', {});}</script>
+<script>function microsoftReportBeginCheckout() {window.uetq = window.uetq || [];window.uetq.push('event', 'begin_checkout', {});}</script>
+
+<script type="text/javascript">
+  function setupTawk() {
+    var Tawk_API=Tawk_API||{};
+    let userEmail = localStorage.getItem('auth.user.email')
+    let userInstagram = localStorage.getItem('auth.user.instagram')
+    let visitor = {}
+    if (userEmail) {
+      visitor.email = userEmail
+    }
+    if (userInstagram) {
+      visitor.name = userInstagram
+    }
+
+    Tawk_API.visitor = visitor
+    window.Tawk_API = Tawk_API;
+
+    var Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65491fb1f2439e1631ec3e46/1heiq7j9a';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  }
+  function startChat() {
+    // Find all elements with id #chat-start and add onclick event
+    let chatStarts = document.querySelectorAll('#chat-start')
+    for (let i = 0; i < chatStarts.length; i++) {
+      chatStarts[i].addEventListener('click', function(e) {
+        e.preventDefault()
+        Tawk_API.toggle()
+      })
+    }
+  }
+  function shouldIncludeTawk() {
+    if (location.hostname.indexOf('.br') == -1) {
+      return false
+    }
+    let pathsIgnore = ['editor-magico', 'magic-editor']
+    let pathname = window.location.pathname
+    for (let i = 0; i < pathsIgnore.length; i++) {
+      if (pathname.indexOf(pathsIgnore[i]) !== -1) {
+        return false
+      }
+    }
+    return true
+  }
+  if (shouldIncludeTawk()) {
+    setupTawk()
+    startChat()
+  }
+</script>
+
+    
+  
+    
+  
+
+
+  <script>
+    try {
+      if (typeof isLoggedIn == 'function' && isLoggedIn()) {
+        let landingItems = document.querySelectorAll('[data-ref="landing-items"]');
+        landingItems.forEach(function(item) {
+          // remove the landing items
+          item.remove();
+        });
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    window.addEventListener('load', function() {
+      let images = document.querySelectorAll('img[data-src]');
+      images.forEach(function(img) {
+        img.src = img.getAttribute('data-src');
+      });
+      let videos = document.querySelectorAll('video[data-src]');
+      videos.forEach(function(video) {
+        video.src = video.getAttribute('data-src');
+      });
+    });
+  </script>
+</body>
+</html>

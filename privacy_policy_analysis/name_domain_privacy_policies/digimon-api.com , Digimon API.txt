@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<link rel="canonical" href="https://digi-api.com/" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.7c70d3b0.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.4f2d59cd.css" rel="stylesheet"><title>DAPI: Digimon API</title><!-- HEAD_svelte-1bwed5o_START --><meta name="G_ANALYTICS_ID" content="G-WWWL0273R1"><script async src="https://www.googletagmanager.com/gtag/js?id=G-WWWL0273R1"></script><script>var url = document.querySelector('meta[name=G_ANALYTICS_ID]')
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			window.dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', url.getAttribute('content'));
+	</script><!-- HEAD_svelte-1bwed5o_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+
+
+<header class="inner-padding svelte-gxrs95"><nav class="navbar svelte-gxrs95"><main class="svelte-gxrs95"><a href="/" class="logo svelte-gxrs95"><img src="/logo.png" alt="Logo" class="svelte-gxrs95"></a>
+            <button id="dropdown-button" class="svelte-gxrs95"><img src="/images/site/hamburger-menu.png" alt="dropdown-button" class="svelte-gxrs95"></button></main>
+        <ul class="navbar-links svelte-gxrs95"><li class="svelte-gxrs95"><a href="#docs" class="svelte-gxrs95">Documentation</a>    
+                </li><li class="svelte-gxrs95"><a href="#about" class="svelte-gxrs95">About</a>    
+                </li></ul></nav>
+</header>
+<main class="svelte-11r3f4p"><section class="inner-margin inner-padding svelte-1pioho"><div class="search inner-padding svelte-1pioho"><form class="search-cmds round-border svelte-1pioho"><a id="search-url" class="search-url round-border-left svelte-1pioho" href="https://digi-api.com/api/v1/digimon/169" target="_blank">digi-api.com/api/v1/digimon/</a>
+			<input type="text" name="search" class="svelte-1pioho" value="169">
+			<button id="search" class="round-border-right svelte-1pioho">Search</button></form>
+		<div class="payload svelte-1pioho"><pre class="svelte-1pioho">                
+            </pre></div></div>
+	<div class="card inner-padding round-border svelte-1pioho"></div>
+</section>
+	<main class="inner-padding"><section class="svelte-1gy00s1"><h1 class="svelte-1gy00s1">Changelog</h1></section>
+</main>
+	<section class="inner-margin inner-padding svelte-15olm64"><div class="changelog svelte-15olm64"><div class="changelog-headers inner-padding svelte-15olm64"><h3 class="date svelte-15olm64">DATE</h3><h3 class="change svelte-15olm64">CHANGE</h3></div>
+        <div class="changelog-data-container inner-padding svelte-15olm64"><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Changed: Digimons IDs changed</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Changed: Consistency between prior and next evolutions across digimons</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Changed: Digimon IDs are now ordered by year of debut</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Changed: Complete API Data overhaul</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Fixed: Evolution URL when GET Digimon is used with the name</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Yolkmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Cendrillmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Shoemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Shoesshoemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Chaperomon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Erlangmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Fluffymon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Pteromon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Galemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Grand Galemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Zephagamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Added: Takutoumon (Wrath Mode)</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Heshouwushou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Jinsihoushou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Mu'oushou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: PalaPandashou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Shoujishou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Suannishou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: TafaPandashou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Xiongmaoshou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Zhuhuanshou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Daxiongmaoshou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Kuileishou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Daxuerenshou, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Danmon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Kandoushichaundamon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Earthdramon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Zombiemon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Urashimamon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Kita Kitsunemon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Nikkorimon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Beso Bombmon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Kyukanchoumon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Huntermon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Kaminarimon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Punch Narabimon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Metal Garurumon (Red), Reason: Recolor with no Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Shoutmon Y, Reason: Recolor with no Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Skull Knightmon (Blue), Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Gigantic Pumpmon, Reason: Only a boss com the vital bracelet</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Jyureimon (Christmas_Tree), Reason: Just a promo</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Okunimon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Cheer Galmon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Gallantmon Chaos Mode, Reason: Recolor with no Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Gaiamon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">20-04-2024</span><span class="change svelte-15olm64">Removed: Mirror Ballmon, Reason: No Info</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">18-04-2024</span><span class="change svelte-15olm64">Changed: Removed spaces from field image name</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">23-03-2024</span><span class="change svelte-15olm64">Changed: Preview now shows correct json</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Amphimon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Arcturusmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Arkhai Angemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Baalmon (X-Antibody)</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Big Ukkomon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Bombermon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Bowmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Brigadramon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Cargodramon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Chamblemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Cthyllamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Diarbbitmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Dijiangmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Espimon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Fenriloogamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Fenriloogamon: Takemikazuchi</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Fumamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Fusamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Ghilliedhumon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Greymon (Blue) (X-Antibody)</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Gyukimon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Helloogarmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Hi-Commandramon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Hover Espimon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Huanglongmon: Ruin Mode</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Huankunmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Lianpumon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Loogamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Loogarmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Luxmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Master</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Oboromon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Oleamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Takutoumon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Plutomon (Fusion)</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Proximamon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Publimon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Quantumon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Regulusmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Shin Monzaemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Siriusmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Soloogarmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Tlalocmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Ukkomon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Voltobautamon (Fusion)</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Xiangpengmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Xingtianmon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Xiquemon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">19-01-2024</span><span class="change svelte-15olm64">Added digimon: Zanmetsumon</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">17-01-2024</span><span class="change svelte-15olm64">Added 'exact' as a parameter on 'GET DIGIMON LIST'.</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">14-01-2024</span><span class="change svelte-15olm64">Removing links refering to digimons outside of the api.</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">13-01-2024</span><span class="change svelte-15olm64">Skill retrieve by id returns name translation</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">01-12-2023</span><span class="change svelte-15olm64">Removed redirect from digi-api.com to www.digi-api.com</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">28-11-2023</span><span class="change svelte-15olm64">Fixed field, attribute, level, skill and type query by name</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">15-11-2023</span><span class="change svelte-15olm64">UI Changes</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">15-11-2023</span><span class="change svelte-15olm64">Changelog added</span></div><div class="changelog-data svelte-15olm64"><span class="date svelte-15olm64">22-12-2021</span><span class="change svelte-15olm64">Project started</span></div></div></div>
+</section>
+	<main class="inner-padding"><section class="svelte-1gy00s1"><h1 class="svelte-1gy00s1">Documentation</h1></section>
+</main>
+	<section class="inner-margin documentation svelte-ivmjzm" id="docs"><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET DIGIMON</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/digimon/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a digimon and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Digimon unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Digimon's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET DIGIMON LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/digimon</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of digimons in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of digimons that have a similar name to the value</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>exact</h4>
+            <p>Will search for the exact string passed in the 'name' parameter</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>attribute</h4>
+            <p>Returns a list of digimons with the attribute equal to value (Case Insensitive)</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>xAntibody</h4>
+            <p>Returns a list of digimons with the xAntibody equal to value (boolean)</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>level</h4>
+            <p>Returns a list of digimons with the level equal to value (Case Insensitive)</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>pageSize</h4>
+            <p>Changes the quantity of rows returned for each page</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET ATTRIBUTE</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/attribute/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a attribute and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Attribute unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Attribute's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET ATTRIBUTE LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/attribute</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of atributes in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of attributes that have a similar name to the value</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET FIELD</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/field/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a field and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Field unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Field's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET FIELD LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/field</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of fields in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of fields that have a similar name to the value</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET LEVEL</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/level</h4>
+    <p class="svelte-c41qbh"><p>This will return a levels and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Level unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Level's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET LEVEL LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/level/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of levels in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of levels that have a similar name to the value</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET TYPE</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/type</h4>
+    <p class="svelte-c41qbh"><p>This will return a types and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Type unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Type's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET TYPE LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/type/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of types in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of types that have a similar name to the value</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET SKILL</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/skill</h4>
+    <p class="svelte-c41qbh"><p>This will return a skills and all its information.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>id</h4>
+            <p>Skill unique id</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Skill's name</p></div>
+    </li></ul>
+        </p></div><div class="doc-section inner-padding svelte-c41qbh"><h2 class="svelte-c41qbh">GET SKILL LIST</h2>
+    <h4 class="svelte-c41qbh">Endpoint: digi-api.com/api/v1/skill/{id} or {name}</h4>
+    <p class="svelte-c41qbh"><p>This will return a paged list of skills in this API.</p>
+            <ul class="inner-padding default-list"><h4>Query Parameters:</h4>
+    <li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>page</h4>
+            <p>Used to navigate to a specific page</p></div>
+    </li><li class="svelte-1eq7l26"><div class="svelte-1eq7l26"><h4>name</h4>
+            <p>Returns a list of skills that have a similar name to the value</p></div>
+    </li></ul>
+        </p></div>
+</section>
+	<main class="inner-padding"><section class="svelte-1gy00s1"><h1 class="svelte-1gy00s1">About</h1></section>
+</main>
+	<section class="about inner-margin inner-padding svelte-10njxsg" id="about"><p>DAPI is an free Digimon API, it uses data from oficial and fan based sources (mainly <a href="https://wikimon.net" target="_blank" rel="external" class="svelte-10njxsg">Wikimon.net</a>). DAPI is not affiliated with nor claims ownership to material produced by Bandai.</p></section>
+</main>
+<section class="footer inner-margin svelte-1bw0s8a" id="footer"><div class="container inner-margin svelte-1bw0s8a"><a href="https://www.linkedin.com/in/vinícius-brito-costa/" target="_blank" rel="external" class="svelte-1bw0s8a"><img class="profile svelte-1bw0s8a" src="https://github.com/Vinicius-Brito-Costa.png" alt="Vinicius Brito Costa">
+                <h4 class="svelte-1bw0s8a">Vinicius Brito Costa</h4>
+                <span>Dev</span>
+            </a>
+        <p>Digimon and other media relating to the franchise are registered trademarks of Bandai.</p>
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="external" class="svelte-1bw0s8a"><img class="cc svelte-1bw0s8a" src="/images/site/CC-BY-SA.png" alt="Creative Commons CC-BY-SA"></a></div></section>
+
+
+			
+			<script>
+				{
+					__sveltekit_3pirx8 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.397d483f.js"),
+						import("./_app/immutable/entry/app.7a42cbf6.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

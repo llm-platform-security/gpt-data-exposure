@@ -1,0 +1,1512 @@
+ 
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+       Avian - Privacy
+
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta
+      property="og:description"
+      name="description"
+      content=" Avian is the natural language data OS for business, enabling Generative BI for Enterprise in one unified platform. "
+    />
+    <meta property="og:url" content="https://avian.io/" />
+    <meta property="og:site_name" content="Avian" />
+    <meta property="og:title" content="Avian.io" />
+    <!-- <meta
+      property="og:image"
+      content=""
+    /> -->
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Avian.io" />
+    <!-- <meta
+      name="twitter:image"
+      content=""
+    /> -->
+    <meta
+      name="twitter:description"
+      content="Avian is the natural language data OS for business, enabling Generative BI for Enterprise analytics in one unified platform."
+    />
+
+    <meta
+      property="og:image"
+      content="https://avian.io/static/images/avian_meta.b590e9c072c4.jpg"
+    />
+    <meta name="author" content="Avian" />
+    <link
+      rel="icon"
+      href="
+    /static/images/favicons/favicon.3092db2f6109.ico"
+    />
+    
+
+    <!-- This file stores project-specific CSS -->
+
+    <link
+      href="/static/bundles/css/external_routes.97578a042967.css"
+      rel="stylesheet"
+    />
+    
+    <!-- Le javascript
+    ================================================== -->
+     
+    <!-- Your stuff: Third-party javascript libraries go here -->
+
+    <!-- place project specific Javascript in this file -->
+    <script
+      defer
+      src="/static/bundles/js/ext_routes_bundle.7da928b1789d.js"
+    ></script>
+
+    
+
+    
+
+<script>
+  (function (w, r) {
+    w._rwq = r;
+    w[r] =
+      w[r] ||
+      function () {
+        (w[r].q = w[r].q || []).push(arguments);
+      };
+  })(window, "rewardful");
+</script>
+<script async src="https://r.wdfl.co/rw.js" data-rewardful="b6ae79"></script>
+
+
+
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-5Q3267F");
+</script>
+<!-- End Google Tag Manager -->
+
+ 
+  </head>
+
+  <style>
+    .rounded-4 {
+    border-radius: 0.75rem !important;
+  }
+    .underline-hover:hover {
+      border-bottom: 1px solid;
+    }
+  </style>
+
+  <body>
+     
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-5Q3267F"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden"
+  ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+ 
+    
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-light" style="z-index: 99">
+  <div class="container">
+    <a href="/" class="navbar-brand">
+      <span class="d-none">Logo</span>
+      <svg width="100px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 160 45">
+        <path fill="#000"
+          d="M66.7609 34.4243c-1.4833 0-2.8295-.2794-4.0385-.8381-1.209-.569-2.1691-1.3868-2.8802-2.4536-.7112-1.0769-1.0668-2.3774-1.0668-3.9013 0-1.3411.2641-2.4282.7924-3.2612.5283-.8433 1.2344-1.5037 2.1183-1.9812.8839-.4775 1.8593-.8331 2.926-1.0667 1.0769-.2439 2.1589-.4369 3.246-.5791 1.4224-.1829 2.5755-.3201 3.4594-.4115.894-.1016 1.5443-.2692 1.9506-.5029.4166-.2337.6249-.6401.6249-1.2192v-.1219c0-1.5036-.4115-2.672-1.2344-3.5051-.8128-.8331-2.0472-1.2496-3.7032-1.2496-1.717 0-3.0632.3759-4.0385 1.1277-.9753.7518-1.6611 1.5544-2.0573 2.4079l-3.4137-1.2192c.6096-1.4224 1.4224-2.5298 2.4383-3.3222 1.0262-.8026 2.1437-1.3614 3.3527-1.6764 1.2192-.3251 2.418-.4876 3.5966-.4876.7518 0 1.6153.0914 2.5907.2743.9855.1727 1.9354.5334 2.8497 1.082.9246.5486 1.6916 1.3766 2.3012 2.484.6096 1.1074.9144 2.5907.9144 4.45v15.4223H73.893v-3.1698h-.1829c-.2438.508-.6502 1.0515-1.2192 1.6306-.5689.5791-1.3258 1.0719-2.2707 1.4783-.9448.4063-2.0979.6095-3.4593.6095Zm.5486-3.2307c1.4224 0 2.6212-.2794 3.5965-.8382.9855-.5588 1.7272-1.2801 2.225-2.164.508-.8839.762-1.8135.762-2.7888v-3.2918c-.1524.1829-.4877.3505-1.0058.5029-.508.1423-1.0973.2693-1.7678.381-.6604.1016-1.3055.1931-1.9354.2743-.6198.0712-1.1227.1321-1.5087.1829-.9347.1219-1.8085.32-2.6212.5943-.8027.2642-1.4529.6655-1.9507 1.204-.4877.5283-.7315 1.2496-.7315 2.164 0 1.2496.4623 2.1945 1.3868 2.8345.9347.6299 2.1183.9449 3.5508.9449Zm35.0475-20.7257-8.6565 23.4078H90.043l-8.656-23.4078h3.9013l6.4615 18.6531h.2439l6.4615-18.6531h3.9018Zm4.747 23.4078V10.4679h3.596v23.4078h-3.596Zm17.072.5486c-1.484 0-2.83-.2794-4.039-.8381-1.209-.569-2.169-1.3868-2.88-2.4536-.711-1.0769-1.067-2.3774-1.067-3.9013 0-1.3411.264-2.4282.793-3.2612.528-.8433 1.234-1.5037 2.118-1.9812.884-.4775 1.859-.8331 2.926-1.0667 1.077-.2439 2.159-.4369 3.246-.5791 1.422-.1829 2.575-.3201 3.459-.4115.894-.1016 1.545-.2692 1.951-.5029.416-.2337.625-.6401.625-1.2192v-.1219c0-1.5036-.412-2.672-1.235-3.5051-.812-.8331-2.047-1.2496-3.703-1.2496-1.717 0-3.063.3759-4.038 1.1277-.976.7518-1.661 1.5544-2.058 2.4079l-3.413-1.2192c.609-1.4224 1.422-2.5298 2.438-3.3222 1.026-.8026 2.144-1.3614 3.353-1.6764 1.219-.3251 2.418-.4876 3.596-.4876.752 0 1.616.0914 2.591.2743.985.1727 1.935.5334 2.85 1.082.924.5486 1.691 1.3766 2.301 2.484.609 1.1074.914 2.5907.914 4.45v15.4223h-3.596v-3.1698h-.183c-.244.508-.65 1.0515-1.219 1.6306-.569.5791-1.326 1.0719-2.271 1.4783-.945.4063-2.098.6095-3.459.6095Zm.548-3.2307c1.423 0 2.621-.2794 3.597-.8382.985-.5588 1.727-1.2801 2.225-2.164.508-.8839.762-1.8135.762-2.7888v-3.2918c-.153.1829-.488.3505-1.006.5029-.508.1423-1.097.2693-1.768.381-.66.1016-1.305.1931-1.935.2743-.62.0712-1.123.1321-1.509.1829-.935.1219-1.808.32-2.621.5943-.803.2642-1.453.6655-1.951 1.204-.487.5283-.731 1.2496-.731 2.164 0 1.2496.462 2.1945 1.386 2.8345.935.6299 2.119.9449 3.551.9449Zm20.341-11.3992v14.0813h-3.596V10.4679h3.474v3.6574h.305c.549-1.1886 1.382-2.1436 2.499-2.865 1.118-.7315 2.561-1.0972 4.328-1.0972 1.585 0 2.972.3251 4.161.9753 1.188.6401 2.113 1.6154 2.773 2.926.661 1.3004.991 2.9463.991 4.9376v14.8737h-3.597V19.2458c0-1.8389-.477-3.2714-1.432-4.2975-.955-1.0363-2.266-1.5544-3.932-1.5544-1.148 0-2.174.2489-3.078.7467-.894.4978-1.6 1.2242-2.119 2.1792-.518.955-.777 2.1132-.777 3.4746Z" />
+        <rect width="44.6831" height="44.6831" fill="#fff" rx="20" />
+        <path fill="url(#a)"
+          d="M3.43716 0C1.53887 0 0 1.53887 0 3.43716V27.6253l3.9708-5.6709c.67987-.9709 1.6715-1.5939 2.74491-1.8283 1.803-.508 3.80729.143 4.94259 1.7642L20.1866 34.07c.6842.9772 2.1313.9772 2.8155 0l9.5009-13.5687c1.4359-2.0506 4.2623-2.549 6.3129-1.1131 2.0507 1.4359 2.5491 4.2623 1.1132 6.3129l-13.2914 18.982H41.246c1.8983 0 3.4371-1.5388 3.4371-3.4371V3.43716C44.6831 1.53887 43.1443 0 41.246 0H3.43716Z" />
+        <path fill="url(#b)"
+          d="M16.551 44.6831 9.24475 34.2488c-.68419-.9772-2.13137-.9772-2.81556 0L.400792 42.8582c.577697 1.0857 1.720708 1.8249 3.036368 1.8249H16.551Z" />
+        <defs>
+          <linearGradient id="a" x1="44.6831" x2="-3.02294" y1="48.7538" y2="6.03623" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0172FC" />
+            <stop offset="1" stop-color="#01FFD1" />
+          </linearGradient>
+          <linearGradient id="b" x1="44.6831" x2="-3.02294" y1="48.7538" y2="6.03623" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0172FC" />
+            <stop offset="1" stop-color="#01FFD1" />
+          </linearGradient>
+        </defs>
+      </svg></a>
+
+    <!-- secondary -->
+    <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+      <li class="nav-item d-lg-none">
+        <a class="nav-link nav-icon px-0" href="" role="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-menu">
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item d-none d-lg-block">
+
+        <a href="/accounts/signup" class="btn btn-primary text-white rounded-4 btn-sm ms-2"
+          id="signup_btn">
+          Sign Up
+        </a>
+      </li>
+
+
+      <li class="nav-item d-none d-lg-block">
+        <a href="/accounts/login" class="btn   btn-outline-light rounded-4 btn-sm ms-1" id="login_btn">
+          Log In
+        </a>
+      </li>
+                  <li class="nav-item d-none d-lg-block">
+        <a href="meeting" class="btn btn-dark rounded-4  btn-sm ms-1" id="login_btn">
+          Book Demo
+        </a>
+      </li>
+    </ul>
+
+    <!-- primary -->
+    <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item dropdown dropdown-hover">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Product
+          </a>
+          <div class="dropdown-menu dropdown-menu-custom custom-dropdown-menu rounded-3"
+            aria-labelledby="navbarDropdown-2">
+            <div class="row g-0">
+              <div class="col-7">
+                <div class="p-3">
+                  <p class="text-small eyebrow uppercase" style="color: #737373">
+                    Products
+                  </p>
+                  <a class="ps-0 dropdown-item" href="/product/avian-chatgpt-plugin/"><svg class="me-1"
+                      style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0" y="0" width="29" height="29" rx="3.09375" fill="white" stroke="#DBE4EE"
+                        stroke-width="0.4125" />
+                      <path transform="scale(0.06) translate(85,85)" fill="#000000"
+                        d="M297.06 130.97a79.712 79.712 0 0 0-6.85-65.48c-17.46-30.4-52.56-46.04-86.84-38.68A79.747 79.747 0 0 0 143.24 0C108.2-.08 77.11 22.48 66.33 55.82a79.754 79.754 0 0 0-53.31 38.67c-17.59 30.32-13.58 68.54 9.92 94.54a79.712 79.712 0 0 0 6.85 65.48c17.46 30.4 52.56 46.04 86.84 38.68a79.687 79.687 0 0 0 60.13 26.8c35.06.09 66.16-22.49 76.94-55.86a79.754 79.754 0 0 0 53.31-38.67c17.57-30.32 13.55-68.51-9.94-94.51zM176.78 299.08a59.77 59.77 0 0 1-38.39-13.88c.49-.26 1.34-.73 1.89-1.07l63.72-36.8a10.36 10.36 0 0 0 5.24-9.07v-89.83l26.93 15.55c.29.14.48.42.52.74v74.39c-.04 33.08-26.83 59.9-59.91 59.97zM47.94 244.05a59.71 59.71 0 0 1-7.15-40.18c.47.28 1.3.79 1.89 1.13l63.72 36.8c3.23 1.89 7.23 1.89 10.47 0l77.79-44.92v31.1c.02.32-.13.63-.38.83L129.87 266c-28.69 16.52-65.33 6.7-81.92-21.95zM31.17 104.96c7-12.16 18.05-21.46 31.21-26.29 0 .55-.03 1.52-.03 2.2v73.61c-.02 3.74 1.98 7.21 5.23 9.06l77.79 44.91L118.44 224c-.27.18-.61.21-.91.08l-64.42-37.22c-28.63-16.58-38.45-53.21-21.95-81.89zm221.26 51.49-77.79-44.92 26.93-15.54c.27-.18.61-.21.91-.08l64.42 37.19c28.68 16.57 38.51 53.26 21.94 81.94a59.94 59.94 0 0 1-31.2 26.28v-75.81c.03-3.74-1.96-7.2-5.2-9.06zm26.8-40.34c-.47-.29-1.3-.79-1.89-1.13l-63.72-36.8a10.375 10.375 0 0 0-10.47 0l-77.79 44.92V92c-.02-.32.13-.63.38-.83l64.41-37.16c28.69-16.55 65.37-6.7 81.91 22a59.95 59.95 0 0 1 7.15 40.1zm-168.51 55.43-26.94-15.55a.943.943 0 0 1-.52-.74V80.86c.02-33.12 26.89-59.96 60.01-59.94 14.01 0 27.57 4.92 38.34 13.88-.49.26-1.33.73-1.89 1.07L116 72.67a10.344 10.344 0 0 0-5.24 9.06l-.04 89.79zM125.35 140 160 119.99l34.65 20V180L160 200l-34.65-20z">
+                      </path>
+                    </svg>
+
+                    Avian GPT</a>
+                  <a class="ps-0 dropdown-item" href="/product/looker-studio/">
+                    <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                        stroke="#DBE4EE" stroke-width="0.4125" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-3 -3 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-bar-chart">
+                        <line x1="12" x2="12" y1="20" y2="10" />
+                        <line x1="18" x2="18" y1="20" y2="4" />
+                        <line x1="6" x2="6" y1="20" y2="16" />
+                      </svg>
+                    </svg>
+
+                    Avian Data Platform</a>
+                  <a class="ps-0 dropdown-item" href="/product/google-sheets/">
+                    <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                        stroke="#DBE4EE" stroke-width="0.4125" />
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="-5 -5 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-lightbulb">
+                        <path
+                          d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                        <path d="M9 18h6" />
+                        <path d="M10 22h4" />
+                      </svg>
+                    </svg>
+                    AI Data Studio</a>
+                  <a class="ps-0 dropdown-item" href="/connector/google_analytics/">
+                    <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                        stroke="#DBE4EE" stroke-width="0.4125" />
+                      <path
+                        d="M18.3008 6.50686V21.2698C18.3008 22.9217 19.4416 23.8422 20.6494 23.8422C21.7679 23.8422 22.9981 23.0593 22.9981 21.2698V6.6187C22.9981 5.10437 21.8797 4.1582 20.6494 4.1582C19.4192 4.1582 18.3008 5.20168 18.3008 6.50686Z"
+                        fill="#F9AB00" />
+                      <path
+                        d="M12.1504 14.001V21.2706C12.1504 22.9225 13.2912 23.843 14.4991 23.843C15.6175 23.843 16.8477 23.0601 16.8477 21.2706V14.1128C16.8477 12.5985 15.7293 11.6523 14.4991 11.6523C13.2688 11.6523 12.1504 12.6958 12.1504 14.001Z"
+                        fill="#E37400" />
+                      <path
+                        d="M8.34867 23.8438C9.6458 23.8438 10.6973 22.7923 10.6973 21.4951C10.6973 20.198 9.6458 19.1465 8.34867 19.1465C7.05153 19.1465 6 20.198 6 21.4951C6 22.7923 7.05153 23.8438 8.34867 23.8438Z"
+                        fill="#E37400" />
+                    </svg>
+
+                    Avian for Google Analytics</a>
+                  <a class="ps-0 dropdown-item" href="/connector/facebook_ads/"><svg class="me-1"
+                      style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                        stroke="#DBE4EE" stroke-width="0.4125" />
+                      <g clip-path="url(#clip0_1738_37924)">
+                        <path
+                          d="M13.0975 22.915C9.06 22.1925 6 18.7075 6 14.5C6 9.825 9.825 6 14.5 6C19.175 6 23 9.825 23 14.5C23 18.7075 19.94 22.1925 15.9025 22.915L15.435 22.5325H13.565L13.0975 22.915Z"
+                          fill="url(#paint0_linear_1738_37924)" />
+                        <path
+                          d="M17.8156 16.8795L18.1981 14.4995H15.9456V12.842C15.9456 12.162 16.2006 11.652 17.2206 11.652H18.3256V9.48445C17.7306 9.39945 17.0506 9.31445 16.4556 9.31445C14.5006 9.31445 13.1406 10.5045 13.1406 12.6295V14.4995H11.0156V16.8795H13.1406V22.872C13.6081 22.957 14.0756 22.9995 14.5431 22.9995C15.0106 22.9995 15.4781 22.957 15.9456 22.872V16.8795H17.8156Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <linearGradient id="paint0_linear_1738_37924" x1="14.5004" y1="22.4088" x2="14.5004"
+                          y2="5.99687" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#0062E0" />
+                          <stop offset="1" stop-color="#19AFFF" />
+                        </linearGradient>
+                        <clipPath id="clip0_1738_37924">
+                          <rect width="17" height="17" fill="white" transform="translate(6 6)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    Avian for Facebook Ads</a>
+                  <a class="ps-0 dropdown-item" href="/accounts/signup"><svg class="me-1" style="margin-bottom: 3px"
+                      width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                        stroke="#DBE4EE" stroke-width="0.4125" />
+                      <path
+                        d="M11.1251 8.34823C11.2991 7.89153 11.5383 7.47107 11.8935 7.13036C13.3144 5.74577 15.6631 6.09373 16.6273 7.83353C17.3522 9.15289 18.1206 10.4432 18.8673 11.7481C20.1141 13.9156 21.3755 16.0831 22.6078 18.2579C23.6445 20.0774 22.5209 22.3754 20.4621 22.6871C19.2007 22.8756 18.0191 22.2957 17.3667 21.1648C16.272 19.2583 15.1702 17.3517 14.0755 15.4524C14.0538 15.4089 14.0248 15.3727 13.9958 15.3365C13.8798 15.2422 13.8291 15.1045 13.7566 14.9812C13.2709 14.1258 12.7707 13.2777 12.285 12.4295C11.9733 11.8786 11.6471 11.3349 11.3353 10.784C11.0526 10.291 10.9221 9.75457 10.9366 9.18913C10.9584 8.89917 10.9946 8.6092 11.1251 8.34823Z"
+                        fill="#3C8BD9" />
+                      <path
+                        d="M11.1253 8.34766C11.06 8.60863 11.002 8.8696 10.9875 9.14507C10.9658 9.754 11.118 10.3194 11.4225 10.8486C12.2199 12.2187 13.0173 13.5961 13.8075 14.9734C13.88 15.0967 13.9379 15.2199 14.0104 15.3359C13.5755 16.0898 13.1405 16.8365 12.6983 17.5904C12.0894 18.6415 11.4805 19.6999 10.8643 20.751C10.8353 20.751 10.828 20.7365 10.8208 20.7148C10.8135 20.6568 10.8353 20.606 10.8498 20.5481C11.147 19.4607 10.9005 18.4965 10.1539 17.6701C9.69717 17.1699 9.11723 16.8872 8.45031 16.793C7.5804 16.6697 6.81199 16.8945 6.12332 17.4381C6.00008 17.5324 5.92034 17.6701 5.77535 17.7426C5.74636 17.7426 5.73186 17.7281 5.72461 17.7064C6.07257 17.1047 6.41328 16.503 6.76124 15.9013C8.19659 13.4076 9.63193 10.9139 11.0745 8.4274C11.089 8.3984 11.1108 8.37665 11.1253 8.34766Z"
+                        fill="#FABC04" />
+                      <path
+                        d="M5.75376 17.7291C5.89149 17.6058 6.02198 17.4753 6.16696 17.3593C7.92852 15.9675 10.5745 16.9751 10.9587 19.1789C11.0529 19.7081 11.0022 20.2155 10.8427 20.723C10.8354 20.7665 10.8282 20.8027 10.8137 20.8462C10.7485 20.9622 10.6905 21.0854 10.618 21.2014C9.97279 22.2671 9.02314 22.7962 7.77628 22.7165C6.34819 22.615 5.22456 21.5421 5.02884 20.1213C4.9346 19.4326 5.07233 18.7874 5.42754 18.193C5.50003 18.0625 5.58702 17.9465 5.66677 17.816C5.70301 17.787 5.68851 17.7291 5.75376 17.7291Z"
+                        fill="#34A852" />
+                      <path
+                        d="M5.75482 17.7283C5.72578 17.7573 5.72578 17.8081 5.67496 17.8154C5.6677 17.7646 5.69674 17.7355 5.72578 17.6992L5.75482 17.7283Z"
+                        fill="#FABC04" />
+                      <path
+                        d="M10.8128 20.8461C10.7838 20.7953 10.8128 20.759 10.8418 20.7227C10.8491 20.7299 10.8636 20.7444 10.8709 20.7517L10.8128 20.8461Z"
+                        fill="#E1C025" />
+                    </svg>
+                    Avian for Google Ads</a>
+                </div>
+              </div>
+              <div style="
+                  background-color: #354454;
+                  border-radius: 0 0.3rem 0.3rem 0;
+                " class="col-5 p-3">
+                <p class="text-small eyebrow uppercase" style="color: #ccd7e2">
+                  Try Avian
+                </p>
+                <h6 class="text-white">Chat with your business data</h6>
+                <p class="text-white text-small" style="font-size: 14px">
+                  Avian offers a 7 day free trial, no credit card required.
+                  With 24/7 Customer service.
+                </p>
+                <a href="/accounts/signup">
+                  <button class="btn btn-outline-white mt-2 rounded-pill" style="border: 1.9px solid white">
+                    Try it out <span class="fe fe-arrow-right"></span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pricing" id="navbarDropdown-2" role="button">
+            Pricing
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Resources
+          </a>
+          <div style="
+              min-width: 650px;
+              transform: translate(-40%);
+              left: 40%;
+              border-radius: 0.4rem 0 0 0.4rem;
+            " class="dropdown-menu dropdown-menu-custom rounded-3" aria-labelledby="navbarDropdown-2">
+            <div class="row g-0">
+              <div class="col-7">
+                <div class="p-3">
+                  <p class="text-small eyebrow uppercase mb-1" style="color: #737373">
+                    Resources
+                  </p>
+                  <a class="ps-0 dropdown-item" href="/contact/">
+                    <i style="color: black; font-size: 18px" class="fe fe-message-circle fe-lg mb-2 me-1"></i>
+                    Contact</a>
+                  <a class="ps-0 dropdown-item" href="/contact/">
+                    <i style="color: black; font-size: 18px" class="fe fe-headphones fe-lg me-1"></i>
+                    Support</a>
+               <a class="ps-0 dropdown-item" href="https://intercom.help/avian-5a40f33c8b48/en/">
+                    <i style="color: black; font-size: 18px" class="fe fe-help-circle fe-lg me-1"></i>
+                    Help Center</a>
+                  <a class="ps-0 dropdown-item" href="https://www.linkedin.com/company/avianio/">
+                    <i style="color: black; font-size: 18px" class="fe fe-briefcase fe-lg me-1"></i>
+                    Jobs
+                    <span class="badge bg-secondary-soft"> We are hiring </span>
+                  </a>
+                  <hr style="color: #dfdfdf" class="m-0 mb-2" />
+                  <a class="ps-0 dropdown-item" href="/privacy">
+                    <i style="color: black; font-size: 18px" class="fe fe-book-open fe-lg me-1"></i>
+                    Privacy Policy</a>
+                  <a class="ps-0 dropdown-item" href="/terms">
+                    <i style="color: black; font-size: 18px" class="fe fe-book-open fe-lg me-1"></i>
+                    Terms of Service
+                  </a>
+                  <a class="ps-0 dropdown-item" href="/security">
+                    <i style="color: black; font-size: 18px" class="fe fe-book-open fe-lg me-1"></i>
+
+
+                    Security
+                  </a>
+                </div>
+              </div>
+              <div style="
+                  background-color: #e3e8ee;
+                  border-radius: 0 0.3rem 0.3rem 0;
+                " class="col-5 p-3">
+                <p class="text-small eyebrow uppercase" style="color: #737373">
+                  CHAT WITH US
+                </p>
+                <h6 class="text-black">Have a question?</h6>
+                <p class="text-black text-small" style="font-size: 14px">
+                  The quickest way to get an answer is to chat with us. We aim
+                  to respond quickly, 24/7.
+                </p>
+                <a href="/contact">
+                  <button class="btn btn-outline-black mt-2 rounded-pill" style="border: 1.9px solid black">
+                    Chat with us <span class="fe ms-4 fe-arrow-right"></span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://chat.avian.io/chat/26-FZKoQYlHPPmIVvw7-6" id="navbarDropdown-2" role="button">
+            Demo
+          </a>
+        </li>
+
+        <li class="nav-item d-lg-none">
+          <a href="/accounts/signup" class="navbar-btn btn btn-dark btn-block btn-sm">Sign Up</a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a href="/accounts/login" class="navbar-btn btn btn-dark btn-block btn-sm mt-1">Sign In </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- mobile user menu -->
+  </div>
+</nav>
+
+
+    <div class="">
+
+<section class="py-15 py-xl-20 pb-xl-15">
+  <div class="container mt-10">
+    <h1>Privacy</h1>
+  </div>
+</section>
+
+<section class="py-10 py-xl-15 border-top">
+  <div class="container">
+    <div class="row g-4 justify-content-between">
+      <div class="col-md-4">
+        <h2 class="fs-5">Privacy Policy</h2>
+      </div>
+      <div class="col-md-8">
+        <p>API Data Privacy</p>
+
+      At Avian, safeguarding your personal and operational data is not just a policy; it's our
+foundational principle. We conscientiously abide by  <a href = "https://developers.google.com/terms/api-services-user-data-policy" target="_blank"> Google's API Services User Data
+Policy </a> , which encompasses the Limited Use requirements, to guarantee that your data
+is utilized solely for the enhancement of user-facing features that are visibly integral
+to our application's functionality. We are vigilant in ensuring that your information is
+not subject to unauthorized sharing or transfer without your explicit, informed
+consent. We enforce strict data access protocols. Our teams are prohibited from
+reading your data unless it is absolutely necessary for service improvement or if we
+have received your express agreement for specific cases. <br/> <br/>
+ We have put in place comprehensive training programs to ensure all our employees and contractors adhere
+rigorously to these guidelines, safeguarding your data against any form of misuse. In
+the realm of data protection regulations, we not only comply with the stringent
+requirements of the <strong> General Data Protection Regulation (GDPR) </strong> but are also in the
+progressive phase of acquiring the <strong>  AICPA/SOC2 Type 2 certification </strong>. This is a testament
+to our unwavering dedication to implementing and maintaining a robust and reliable
+set of data security controls. Our architectural design philosophy ensures that
+connector data is processed in real-time without being stored on Avian's servers or
+databases. We manage live data, which is encrypted and securely routed directly to
+your designated systems, ensuring that your information remains confidential and
+integral during its journey.  <br/> <br/>
+
+Advanced encryption is at the core of our security strategy.
+Access tokens, the keys to your data conduits, are protected by state-of-the-art
+encryption methods, significantly enhancing data security during transmission. In
+addition, our caching systems—vital for efficient data handling—are fortified with
+stringent encryption protocols, providing an extra layer of security to our already
+formidable defense against data breaches and unauthorized access. Our commitment
+to your privacy extends to how we handle your Google Account. <br/> <br/> Access to your profile
+is strictly for <a href = "https://developers.google.com/identity/protocols/oauth2/javascript-implicit-flow#:~:text=The%20user%20can%20authenticate%20with,uses%20to%20make%20API%20requests" target = "_blank"> authentication purposes </a>, ensuring that you are the only one operating
+within your account on our service. With your permission, we may use your profile
+picture to represent you as an avatar on our platform, but only at your discretion.For
+users employing our Google Analytics connector,
+we assure you that the access we require is confined to enabling you to
+retrieve and analyze your Google Analytics data. <br/> <br/>
+<a href = "https://developers.google.com/analytics/devguides/reporting/core/v4" target = "_blank"> The Google Analytics Reporting API </a> is a powerful tool that we harness to help you
+query your analytics data effectively, without overreaching into your personal data.
+We understand the importance of not just adhering to, but exceeding industry
+standards when it comes to data privacy and security. We continuously refine our
+protocols, conduct rigorous security audits, and adapt our practices to the evolving
+landscape of data protection to provide you with the safest possible environment for
+your data. At Avian, we are committed to being your trusted partner in data analytics,
+with a promise of transparency, control, and above all, an unwavering commitment to
+safeguarding your data at every turn.
+        </p>
+       <strong> 1. Introduction </strong> <br/> <br/>
+     <p>   <strong> AVIAN HOLDINGS Ltd. </strong> , which operates <a href = "https://avian.io" target = "_blank"> https://avian.io </a>
+and its owner/s respect the privacy of anyone who uses this
+website. This Privacy Policy was created to demonstrate
+commitment to privacy. This website - <a href = "https://avian.io" target = "_blank"> https://avian.io </a> ("the
+website") gathers important information from its visitors and
+customers. This Privacy Policy is published to communicate
+how the information about the website users is gathered,
+used and protected. Any services provided to you by the
+website are subject to this Privacy Policy (the "policy").
+References in the Privacy Policy to the avian.io, "we", "us",
+"our", "site", "website" or similar refer to the website avian.io
+and any of its affiliates. <br/> <br/>
+Any client or visitor, by using this site
+and using our services agrees to this Privacy Policy, our our
+Terms and Conditions. If you do not agree to this Privacy
+Policy, you must stop using <a href = "https://avian.io" target = "_blank"> https://avian.io </a>. We use your data
+to provide and improve our services. By using the services,
+you agree to the collection and use of information in
+accordance with this Policy. Unless otherwise defined in this
+Privacy Policy, terms used in this Privacy Policy have the same
+meanings as in our Terms and Conditions, accessible from
+<a href = "https://avian.io" target = "_blank"> https://avian.io</a>.</p>
+
+<p> <strong> One of our main priorities is the privacy of
+our visitors</strong>, This Privacy Policy document contains types of
+information that is collected and recorded by <a href = "https://avian.io" target = "_blank"> https://avian.io </a>
+and how we use it. This Privacy Policy applies only to our
+online activities and is valid for visitors to our website with
+regards to the information that they shared and/or collect in
+<a href = "https://avian.io" target = "_blank"> https://avian.io </a> .
+This Policy is not applicable to any information collected offline or via channels other than this
+website. </p>
+<p>
+<strong>
+Please contact us for further inquiries: <br />
+</strong>
+Our contact details are as follows: <br/> <br/>
+
+<strong> Our UK address is: </strong> <br/>
+<strong> AVIAN HOLDINGS Ltd.</strong> <br/>
+Fora Brick Lane, <br/>
+42-46 Princelet  Street, </br>
+London, England, E1 5LP<br/> <br/>
+<strong> Our US address is:</strong> <br/>
+<strong> AVIAN HOLDINGS Ltd.</strong> <br/>
+315 W 36th St. </br>
+5th floor, New York, </br>
+NY 10018, </br>
+United States
+</p>
+This Privacy Policy applies to any and all of the services accessible
+through this website ("Services") that are available, unless it is
+expressly stated that a separate Privacy Policy applies to a particular
+Service, in which case that other Privacy Policy only applies. This
+Policy sets out the basis on which any personal data we collect from
+you, or that you provide to us, will be processed by us. </br> </br>
+
+<strong> Other websites: </strong> Any other website or platform advertised or otherwise
+linked on this website might be owned or operated by another
+corporate. You are responsible for making sure that you have also
+read and understood the relevant website's or the relevant Appstore's
+Privacy Policy as well as our Privacy Policy. </br> </br>
+
+<strong> Children: </strong> This website is
+not intended for children under the age of 18 and we do not
+knowingly collect data relating to children. Please read the following
+carefully to understand our practices regarding your personal data
+and how we will treat it. This Policy complies with the General Data
+Protection Regulation ((EU) 2016/679) (GDPR) and the Data
+Protection Act 2018 (2018). Under data protection laws, we are
+required to provide you with certain information about who we are,
+how we process your personal data and for what purposes, and your
+rights in relation to your personal data. This information is provided
+in this Policy and it is important that you read the information below:
+</br> </br>
+      <strong><p>2. Consent</p> </strong>
+        <p class="text-gray-800">
+          By using our website, you hereby consent to our Privacy Policy and the
+          Terms and Conditions and agree to its terms.
+        </p>
+       <strong> <p>3. Information we collect</p> </strong>
+        <p class="text-gray-800">
+          The personal information that you are asked to provide, and the
+          reasons why you are asked to provide it, will be made clear to you at
+          the point we ask you to provide your personal information.
+        </p>
+        <p class="text-gray-800">
+          If you contact us directly, we may receive additional information
+          about you such as your name, email address, phone number, the contents
+          of the message and/or attachments you may send us, and any other
+          information you may choose to provide.
+        </p>
+        <p class="text-gray-800">
+          When you register for an Account, in accordance with our Terms and
+          Conditions we may ask for your contact information, including, without
+          limitation, items such as name, company name, address, email address,
+          and telephone number.
+        </p>
+        <p class="text-gray-800">
+          Please read below for more detailed information on what we collect
+          and why.
+        </p>
+       <strong>Data collected:</strong>
+       <ul>
+        <li>
+          We may process data about your use of our website and services ("usage
+          data"). The usage data may include your IP address, geographical
+          location, browser type and version, operating system, referral source,
+          length of visit, page views and website navigation paths, as well as
+          information about the timing, frequency and pattern of your use of our
+          website or services. The source of the usage data is Google Analytics.
+          This usage data may be processed for the purposes of analysing the use
+          of our website and services. The legal basis for this processing is
+          the legitimate interest of our agency, namely the monitoring and
+          improvement of our website and services.
+        </li> <br/>
+        <li>
+          We may process information needed to set up and maintain an account
+          with us in order to provide you with our services ("account data").
+          This account data may include your name and email address. The source
+          of the account data is the information you provide. The account data
+          may be processed for the purposes of, providing our services, ensuring
+          the security of our website and services, maintaining back-ups of our
+          databases and communicating with you. The legal bases for this
+          processing is to allow the performance of a contract between you and
+          us and/or taking steps, at your request, to enter into such a
+          contract.
+        </li> <br/>
+        <li>
+          We may process information to be included in your personal client
+          profile on our website ("profile data"). This profile data may include
+          your name, address, telephone number, email address, gender, date of
+          birth and employment details. Profile data may be processed for the
+          purposes of enabling your use of our services. The legal basis for
+          this processing is to allow the performance of a contract between you
+          and us and/or taking steps, at you request, to enter into such a
+          contract.
+        </li> <br/>
+        <li>
+          We may process your personal data that are provided in the course of
+          the use of our services ("service data"). This service data may
+          include information about your academic performance and any factors
+          relevant to this, your current, past or future academic institutions,
+          your availability for tuition sessions, your preferred tuition
+          location, and your experience or qualifications. We gather this
+          information directly from you. Service data may be processed for the
+          purpose of effectively providing our services. The legal basis for
+          this processing to facilitate the performance of a contract between
+          you and us and/or taking steps, at your request, to enter into such a
+          contract.
+        </li> <br/>
+        <li>
+          We may process information that you post for publication on our
+          website or through our services ("publication data"). The publication
+          data may be processed for the purposes of enabling such publication
+          and administering our website and services. The legal basis for this
+          processing is consent.
+        </li> <br/>
+        <li>
+          We may process information contained in any enquiry you submit to us
+          regarding our services ("enquiry data"). Enquiry data may be processed
+          for the purposes of offering or providing relevant services to you.
+          The legal basis for this processing is the legitimate interest of our
+          agency, namely to respond to enquiries concerning our services and to
+          make our services available to potential clients.
+        </li> <br/>
+        <li>
+          We may process information relating to our customer relationships,
+          including customer contact information ("customer relationship data").
+          The customer relationship data may include your name, your contact
+          details, and information contained in communications between us and
+          you. The source of the customer relationship data is you. The customer
+          relationship data may be processed for the purposes of managing our
+          relationships with customers, communicating with customers, keeping
+          records of those communications and promoting our services to
+          customers. The legal basis for this processing is the legitimate
+          interest of our agency, namely the proper management of our customer
+          relationships.
+        </li> <br/>
+        <li>
+          We may process information relating to transactions, including
+          purchases of goods and services, that you enter into with us and/or
+          through our website ("transaction data"). Transaction data may include
+          your contact details, details of the payment method used, including
+          details of specific payment cards, your billing address, and the
+          details of the transaction itself. The transaction data may be
+          processed for the purpose of supplying the purchased goods and
+          services and keeping proper records of those transactions. The legal
+          basis for this processing is the performance of a contract between you
+          and us and/or taking steps, at your request, to enter into such a
+          contract and our legitimate interests, namely the proper
+          administration of our website and business.
+        </li> <br/>
+        <li>
+          We may process information that you provide to us for the purpose of
+          subscribing to our email notifications ("notification data"). The
+          notification data may be processed for the purposes of sending you the
+          relevant notifications. The legal basis for this processing is the
+          legitimate interests of our agency, namely the need to inform clients
+          of relevant developments in relation to their use of our services, for
+          example any charges to be levied in respect of those services.
+        </li> <br/>
+        <li>
+          We may process information that you provide to us for the purpose of
+          subscribing to our email newsletters, and/or promotional information
+          ("marketing data"). This marketing data may be processed for the
+          purposes of sending you the relevant newsletters. The legal basis for
+          this processing is consent.
+        </li> <br/>
+        <li>
+          We may process information contained in or relating to any
+          communication that you send to us ("correspondence data"). The
+          correspondence data may include the communication content and metadata
+          associated with the communication. Our website will generate the
+          metadata associated with communications made using the website contact
+          forms. The correspondence data may be processed for the purposes of
+          communicating with you and record-keeping. The legal basis for this
+          processing is our legitimate interests, namely the proper
+          administration of our website and business and communications with
+          users.
+        </li> <br/>
+        <li>
+          We may process any of your personal data identified in this Privacy
+          Policy where necessary for the establishment, exercise or defence of
+          legal claims, whether in court proceedings or in an administrative or
+          out-of-court procedure. The legal basis for this processing is our
+          legitimate interests, namely the protection and assertion of our legal
+          rights, your legal rights and the legal rights of others.
+        </li> <br/>
+        <li>
+          We may process any of your personal data identified in this Privacy
+          Policy where necessary for the purposes of obtaining or maintaining
+          insurance coverage, managing risks, or obtaining professional advice.
+          The legal basis for this processing is our legitimate interests,
+          namely the proper protection of our business against risk.
+        </li> <br />
+        </ul>
+    <p>
+          In addition to the specific purposes for which we may process your
+          personal data set out above, we may also process any of your personal
+          data where such processing is necessary for compliance with a legal
+          obligation to which we are subject, or in order to protect your vital
+          interests or the vital interests of another natural person.
+    </p>
+       <strong> 4. How we use your information </strong>
+         <p> We use the information we collect in various ways, including to:
+        <ul>
+        <li>Provide, operate, and maintain our website</li>
+        <li>Improve, personalize, and expand our website</li>
+        <li>Understand and analyze how you use our website</li>
+        <li>Develop new products, services, features, and functionality</li>
+        <li>
+          Communicate with you, either directly or through one of our partners,
+          including for customer service, to provide you with updates and other
+          information relating to the website, and for marketing and promotional
+          purposes
+        </li>
+        <li>Send you emails</li>
+        <li>Find and prevent fraud</li>
+        </ul>
+        </p>
+       <strong>  <p>5. International Transfers of your Personal Data</p> </strong>
+        <p class="text-gray-800">
+          Our website usage Analytics provider,  <a href = "https://marketingplatform.google.com/intl/en_uk/about/analytics/" target = "_blank"> Google Analytics</a>, is situated in
+          the USA. Google Analytics is a web Analytics service offered by Google
+          that tracks and reports website traffic. Google uses the data
+          collected to track and monitor the use of our Service. This data is
+          shared with other Google services. Google may use the collected data
+          to contextualize and personalize the ads of its own advertising
+          network.
+        </p>
+        <p class="text-gray-800">
+          You can opt-out of having made your activity on the Service available
+          to Google Analytics by installing the Google Analytics opt-out browser
+          add-on. The add-on prevents the Google Analytics JavaScript (ga.js,
+          Analytics.js, and dc.js) from sharing information with Google
+          Analytics about visits activity.
+        </p>
+        <p class="text-gray-800">
+          For more information on the privacy practices of Google, please visit
+          the <a href = "https://policies.google.com/privacy?hl=en" target = "_blank">Google Privacy &amp; Terms </a>.
+
+        </p>
+        <p class="text-gray-800">
+          The European Commission has made an "adequacy decision" with respect
+          to the data protection laws of the USA. Transfers to the USA will be
+          protected by appropriate safeguards, namely the use of standard data
+          protection clauses adopted or approved by the European Commission.
+        </p>
+        <p class="text-gray-800">
+          Some of our preferred Social Media platforms may also be situated in
+          the USA. The European Commission has made an "adequacy decision" with
+          respect to the data protection laws of the USA. Transfers to the USA
+          will be protected by appropriate safeguards, namely the use of
+          standard data protection clauses adopted or approved by the European
+          Commission.
+        </p>
+        <p class="text-gray-800">
+          Your information, including Personal Data, may be transferred to — and
+          maintained on — computers located outside of your state, province,
+          country or other governmental jurisdiction where the data protection
+          laws may differ than those from your jurisdiction.
+        </p>
+        <p class="text-gray-800">
+          If you are located outside United Kingdom and choose to provide
+          information to us, please note that we transfer the data, including
+          Personal Data, to United Kingdom and process it there.
+        </p>
+        <p class="text-gray-800">
+          Your consent to this Privacy Policy followed by your submission of
+          such information represents your agreement to that transfer.
+        </p>
+        <p class="text-gray-800">
+          We will take all steps reasonably necessary to ensure that your data
+          is treated securely and in accordance with this Privacy Policy and no
+          transfer of your Personal Data will take place to an organization or a
+          country unless there are adequate controls in place including the
+          security of your data and other personal information.
+        </p>
+        <p class="text-gray-800">
+          We take commercially reasonable steps to protect the Personal Data you
+          provide to us from misuse, disclosure or unauthorized access. We only
+          share your Personal Data with trusted third parties who use the same
+          level of care in processing your Personal Data. That being said, we
+          cannot guarantee that your Personal Data will always be secure due to
+          technology or security breaches. Should there be a data breach of
+          which we are aware, we will inform you immediately.
+        </p>
+        <p class="text-gray-800">
+          You acknowledge that personal data that you submit for publication
+          through our website or services may be available, via the internet,
+          around the world. We cannot prevent the use (or misuse) of such
+          personal data by others.
+        </p>
+        <strong>
+        <p>6. Third Party Privacy Policies</p> </strong>
+        <p class="text-gray-800">
+          Our Privacy Policy does not apply to other advertisers or websites.
+          Thus, we are advising you to consult the respective Privacy Policies
+          of these third-party ad servers for more detailed information. It may
+          include their practices and instructions about how to opt-out of
+          certain options.
+        </p>
+        <p class="text-gray-800">
+          You can choose to disable cookies through your individual browser
+          options. To know more detailed information about cookie management
+          with specific web browsers, it can be found at the browsers'
+          respective websites.
+        </p>
+        <strong>
+        <p>7. GDPR Data Protection Rights</p>
+        </strong>
+        <p class="text-gray-800">
+          The General Data Protection Regulation (<a href = "https://gdpr-info.eu/" target ="_blank">GDPR</a>) is a European Union (EU)
+          privacy law that regulates how we will store, process and use the
+          personal information of people located in the EU. Personal data is
+          defined as any piece of data that, used alone or with other data,
+          could identify a person.
+        </p>
+        <p class="text-gray-800">
+          If you are an EU/UK citizen, under the GDPR, you have the right to ask
+          us for details about the way we use your personal data and you can ask
+          us to do certain things with that data. These include:
+        </p>
+        <ul>
+        <li>to correct your personal data;</li>
+        <li>prohibit the use of your personal data for certain tasks;</li>
+        <li>remove your personal data from our records completely; or</li>
+        <li>ask how your personal data is being used.</li>
+        </ul>
+        <p class="text-gray-800">
+          You may do so by reading this Privacy Policy and contacting us at:
+         <a href="mailto:support@avian.io" target="_blank">support@avian.io</a>
+
+
+        </p>
+        <p class="text-gray-800">
+          We are the data controllers under the GDPR, as we are collecting and
+          using your Personal Data. We use trusted third parties as our data
+          processors for technical and organizational purposes, including for
+          payments and email marketing. We use reasonable efforts to make sure
+          our data processors are GDPR- compliant.
+        </p>
+        <p class="text-gray-800">
+          We may process personal data belonging to certain <strong> 'special categories' </strong>
+          as defined under the European Union's General Data Protection
+          Regulation. This data may include your ethnicity, religious views, and
+          state of health, both physical and mental.[ The source of this data
+          is you, the data subject.] This data may be processed for the purposes
+          of more accurately and effectively providing our services, and only
+          insofar as it is necessary to achieve those purposes. The legal basis
+          for this processing is consent, and the essential purpose of
+          processing is the provision of confidential advice.
+        </p>
+        <p class="text-gray-800">
+          We would like to make sure you are fully aware of all of your data
+          protection rights. Every user is entitled to the following:
+       <ul>
+
+          <li> <strong> The right to access </strong> – You have the right to request copies of your
+          personal data. We may charge you a small fee for this service. </li>
+
+      <li>
+         <strong> The right to rectification  </strong> – You have the right to request that we
+          correct any information you believe is inaccurate. You also have the
+          right to request that we complete the information you believe is
+          incomplete.
+      </li>
+     <li>
+          <strong> The right to erasure </strong> – You have the right to request that we erase
+          your personal data, under certain conditions.
+ </li>
+       <li>
+         <strong> The right to restrict processing </strong> – You have the right to request that
+          we restrict the processing of your personal data, under certain
+          conditions.
+ </li>
+  <li>
+          <strong> The right to object to processing </strong> – You have the right to object to
+          our processing of your personal data, under certain conditions.
+</li>
+        <li>
+           <strong> The right to data portability </strong> – You have the right to request that we
+          transfer the data that we have collected to another organization, or
+          directly to you, under certain conditions.
+  </li>
+  </ul>
+          If you make a request, we have one month to respond to you. If you
+          would like to exercise any of these rights, please contact us.
+</p>
+
+        <strong>
+        <p>8. Retaining data</p>
+        </strong>
+        <p class="text-gray-800">
+          When storing data, we aim to retain the data for no longer than is
+          necessary for the purpose in which it was obtained, with the objective
+          to ensure the highest level of data accuracy. Where identified as
+          inaccurate, data is either rectified or destroyed in a secure manner.
+        </p>
+        <p class="text-gray-800">
+          Data retention periods may vary between operational activities, with
+          the business providing consideration as to the length of time data is
+          held for on a case by case basis.
+        </p>
+        <p class="text-gray-800">
+          Regarding storage, there are several ways in which your data may be
+          stored:
+          <ul>
+         <li>  <strong> Within cloud servers: </strong> When utilising platforms to fulfil our
+          operational requirements, third party solutions may be used to store
+          the data. As a company, we aim to utilise partners who have data
+          centres within the European Economic Area (EEA). </li>
+
+           <li> <strong> Within physical servers: </strong>  We maintain several physical servers which are securely
+          located at our Head Office. Hard copy, where hard copies of data are
+          retained, they are kept in a secure and clean environment. </li>
+       </ul>
+       </p>
+        <strong>
+        <p>9. Data sharing and providing your data to others</p>
+        </strong>
+        <p class="text-gray-800">
+          We avoid sharing your personal data with third parties for marketing
+          purposes, unless you have provided explicit consent for us to do so.
+
+
+          We may disclose your information in the following cases:
+         <ul>
+        <li>
+          To develop and create an improved customer experience. Often, this
+          data is anonymised anyway.
+        </li>
+        <li>For a supplier to fulfil your experience gift operationally.</li>
+        <li>
+          We can disclose it if we have a legal obligation to do so, or to
+          protect your or other people's property, safety or rights.
+        </li>
+        <li>
+          We can exchange information with specific third parties to protect
+          against fraud or credit risks.
+        </li>
+        <li>
+          Where data is transferred between systems, we ensure an encrypted
+          connection is utilised. We are <strong> PCI (The Payment Card Industry
+          Standard) </strong> compliant when taking payments via the web, with all payment
+          partners meeting the highest level of compliance (Level 1). All of our
+          associated websites maintain valid SSL certificates to allow secure
+          connections from the web server to your browser, you will notice the
+          padlock symbol is present within your search bar when browsing.
+        </li>
+         <li>
+          We may disclose your personal data to any member of our group of
+          companies (this means our subsidiaries, our ultimate holding company
+          and all its subsidiaries) insofar as reasonably necessary for the
+          purposes, and on the legal bases, set out in this policy.
+        </li>
+       <li>
+          We may disclose your personal data to our insurers and/or professional
+          advisers insofar as reasonably necessary for the purposes of obtaining
+          or maintaining insurance coverage, managing risks, obtaining
+          professional advice, or the establishment, exercise or defence of
+          legal claims, whether in court proceedings or in an administrative or
+          out-of-court procedure.
+        </li>
+     <li>
+          We may disclose your transaction data to our accountant(s) for the
+          purpose of enabling them to manage our financial records. This third
+          party will act as a data controller in relation to the data that we
+          supply to it.
+         </li>
+</ul>
+          In addition to the specific disclosures of personal data set out in
+          this Section, we may disclose your personal data where such disclosure
+          is necessary for compliance with a legal obligation to which we are
+          subject, or in order to protect your vital interests or the vital
+          interests of another natural person. We may also disclose your
+          personal data where such disclosure is necessary for the
+          establishment, exercise or defence of legal claims, whether in court
+          proceedings or in an administrative or out-of-court procedure.
+        </p>
+        <strong>
+        <p>10. Our Partners</p>
+        </strong>
+        <p class="text-gray-800">
+          You may consult this list to find the Privacy Policy for each of the
+          partners of <a href = "https://avian.io" target = "_blank">https://avian.io </a>.
+      <br/>
+          You agree that we may use your personal information in relation to our
+          services and tools, deliver targeted marketing and promotional offers.
+          You agree that we will use and collect your information and we may
+          share it with our Partners to facilitate the provision of our
+          services.
+        </p>
+        <strong>
+        <p>Shopify</p>
+        </strong>
+        <p class="text-gray-800">
+          We partnered with  <a href = "https://www.shopify.com" target = "_blank">Shopify</a>, an
+          e-commerce platform. Shopify is situated in Canada and the relevant
+          laws may apply. Please check their website and their Terms of Service
+          and Privacy Policy. It is your responsibility to check whether the
+          relevant legal Terms and the Privacy Policy provided by Shopify. We
+          are not responsible of any policies, terms or information posted by
+          Shopify. Shopify may use the collected data to contextualize and
+          personalize the ads of its own advertising network.
+        </p>
+        <strong>
+        <p>11. Amendments</p>
+        </strong>
+        <p class="text-gray-800">
+          This Policy is effective from 05/02/2021. The website reserves the
+          right to change this Privacy Policy statement to reflect any changes
+          to our privacy practices in accordance with changes to legislation,
+          best practice of website enhancement.
+        </p>
+        <p class="text-gray-800">
+          Any changes will be immediately posted on our home page and we will
+          contact you directly in this event to notify you we have updated our
+          Privacy Policy. You are deemed to have accepted the terms of the
+          Policy on your first use of this Website following the alterations.
+        </p>
+        <p class="text-gray-800">
+          You are advised to review this Privacy Policy periodically for any
+          changes. Changes to this Privacy Policy are effective when they are
+          posted on this page.
+        </p>
+        <strong>
+        <p>12. Your data protection rights and Opt-out Policy</p>
+        </strong>
+        <p class="text-gray-800">
+          If, at any time after registering for information or ordering the
+          Services, you change your mind about receiving information from us or
+          about sharing information with third parties, send us a request
+          specifying your new choice at  <a href="mailto:support@avian.io">Support</a>.
+        </p>
+       <strong>  <p class="text-gray-800">Got a concern?</p> </strong>
+        <p class="text-gray-800">
+         If you're worried about how we handle your personal information, feel free to reach out to us at
+         <a href="mailto:support@avian.io">Support</a>.
+        </p>
+     <strong>13. Cookies Policy </strong>
+        <p class="text-gray-800"><strong> What are Cookies? </strong></br>
+          Cookies are files that can be downloaded and saved to your computer,
+          mobile, tablet or other electronic devise when you visit a website.
+          Cookies are used by many websites and can do a number of things, such
+          as remembering your preferences, recording what you have put in your
+          shopping basket, and counting the number of people looking at a
+          website. The rules on cookies are covered by the Privacy and
+          Electronic Communications Regulations 2003 (<a href = "https://www.legislation.gov.uk/uksi/2003/2426/contents/made" target = "_blank">PECR</a>). PECR also covers
+          the use of similar technologies for storing or accessing information,
+          such as 'Flash cookies' and 'Device fingerprint'. You can find out
+          more about cookies at <a href = "https://allaboutcookies.org/" target = "_blank">All about cookies</a> and
+          <a href = "https://www.aboutcookies.org.uk/" target = "_blank"> About cookies </a>.
+        </p>
+        <p class="text-gray-800">
+          A cookie is a file containing an identifier (a string of letters and
+          numbers) that is sent by a web server to a web browser and is stored
+          by the browser. The identifier is then sent back to the server each
+          time the browser requests a page from the server.
+        </p>
+        <ul>
+        <li>
+          Cookies may be either "persistent" cookies or "session" cookies: a
+          persistent cookie will be stored by a web browser and will remain
+          valid until its set expiry date, unless deleted by the user before the
+          expiry date; a session cookie, on the other hand, will expire at the
+          end of the user session, when the web browser is closed.
+        </li>
+        <li>
+          Cookies do not typically contain any information that personally
+          identifies a user, but personal information that we store about you
+          may be linked to the information stored in and obtained from cookies.
+        </li>
+</ul>
+<ul>
+       <li> <strong>Cookies and Web Beacons</strong> </li>
+        <p class="text-gray-800">
+          Like any other website, avian.io uses 'cookies'. These cookies are
+          used to store information including visitors' preferences, and the
+          pages on the website that the visitor accessed or visited. The
+          information is used to optimize the users' experience by customizing
+          our web page content based on visitors' browser type and/or other
+          information.
+        </p>
+      <li>  <strong>Google DoubleClick DART Cookie </strong> </li>
+        <p class="text-gray-800">
+          Google is one of a third-party vendor on our site. It also uses
+          cookies, known as DART cookies, to serve ads to our site visitors
+          based upon their visit to www.website.com and other sites on the
+          internet. However, visitors may choose to decline the use of DART
+          cookies by visiting the Google Ads and Content network <a href = " https://policies.google.com/technologies/ads" target = "_blank" >Privacy Policy</a>.
+        </p>
+     <li>   <strong>Our Advertising Partners</strong> </li>
+        <p class="text-gray-800">
+          Some of advertisers on our site may use cookies and web beacons. Our
+          advertising partners are listed below. Each of our advertising
+          partners has their own Privacy Policy for their policies on user data.
+          For easier access, we hyperlinked to their Privacy Policies below.
+        </p>
+        <li>Google <a href = "https://policies.google.com/technologies/ads" target = "_blank">Policies</a></li>
+        </ul>
+        <p class="text-gray-800">Cookies used by our service providers:</p>
+        <ul>
+        <li>
+          Our service providers use cookies and those cookies may be stored on
+          your computer when you visit our website.
+        </li>
+        <li>
+          We use Google Analytics to analyse the use of our website. Google
+          Analytics gathers information about website use by means of cookies.
+          The information gathered relating to our website is used to create
+          reports about the use of our website. Google's privacy policy is
+          available at <a href ="https://www.google.com/policies/privacy/" target = "_blank">here</a>.
+          The relevant cookies are: Google Analytics Tracking Code.
+        </li>
+        </ul>
+        <ul>
+         <strong> Managing cookies: </strong>
+        <p class="text-gray-800">
+          Most browsers allow you to refuse to accept cookies and to delete
+          cookies. The methods for doing so vary from browser to browser, and
+          from version to version. You can however obtain up-to-date information
+          about blocking and deleting cookies via these links:
+        </p>
+        <ul>
+        <li><a href = "https://support.google.com/chrome/answer/95647" target = "_blank">Google Chrome Help</a></li>
+        <li>
+          <a href = "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop?redirectslug=enable-and-disable-cookies-website-preferences&redirectlocale=en-US" target = "_blank">
+          Mozilla Support </a>
+        </li>
+        <li>
+        <a href = "https://help.opera.com/en/latest/security-and-privacy/" target ="_blank">Opera Help</a>
+        </li>
+        <li>
+          <a href = "https://support.microsoft.com/en-gb/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target = "_blank">
+          Microsoft Internet Explorer Support
+          </a>
+        </li>
+        <li> <a href = "https://support.apple.com/en-us/HT201265" target = "_blank">Apple Support</a></li>
+        <li>
+         <a href = "https://support.microsoft.com/en-gb/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd" target = "_blank"> Microsoft Egde Support</a> </li>
+        </li>
+        </ul>
+        </ul>
+        <p>
+          Blocking all cookies will have a negative impact upon the usability of
+          many websites. If you block cookies, you will not be able to use all the features on
+          our website.
+        </p>
+         <strong> Useful information </strong>
+         <ul>
+        <li>
+          A number of websites provide detailed information on cookies,
+          including  <a href = "https://allaboutcookies.org/" target = "_blank">All about cookies</a> and
+          <a href = "https://www.aboutcookies.org.uk/" target = "_blank"> About cookies </a>.
+        </li>
+        <li>
+          The European Interactive Digital Advertising Alliance (<a href = "https://edaa.eu/" target = "_blank">
+         your choices  </a>)allows you to install opt-out
+          cookies across different advertising networks.
+        </li>
+        <li>
+          Google has developed a browser add-on to allow users to&nbsp;opt-out
+          of Google Analytics&nbsp;across all websites which use it. This is
+          also&nbsp;available in the Chrome web store.
+        </li>
+        <li>
+          Some browsers include a feature known as <strong> 'Do Not Track'/ DNT </strong>. This
+          allows you to indicate a preference that websites should not track
+          you. However, whilst DNT is available in many browsers, websites are
+          not required to recognise its request, so it may not always work. You
+          can get help on how to use DNT in&nbsp;Microsoft Edge,&nbsp;Internet
+          Explorer,&nbsp;Firefox,&nbsp;Chrome,&nbsp;Safari&nbsp;and&nbsp;Opera.
+        </li>
+        <li>
+          Internet Explorer has a feature called&nbsp; <strong> Tracking Protection
+          Lists&nbsp;</strong>which allows you to import a list of websites you want to
+          block.
+        </li>
+        <li>
+          For more information on how private browsing works as well as its
+          limitations, visit the support pages for your browser:&nbsp;Microsoft
+          Edge,&nbsp;Internet Explorer,&nbsp;Firefox,&nbsp;Chrome, Safari
+          (mobile&nbsp;and&nbsp;desktop) and&nbsp;Opera.
+        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+    <!-- /container -->
+    
+
+<footer class="py-8 py-md-20">
+  <div class="container">
+    <div class="row justify-content-between g-5 mb-5 mb-lg-10">
+      <div class="col-lg-3">
+        <a href="/" class="navbar-brand">
+          <span class="d-none">Logo</span>
+          <svg width="100px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 160 45">
+            <path fill="#000"
+              d="M66.7609 34.4243c-1.4833 0-2.8295-.2794-4.0385-.8381-1.209-.569-2.1691-1.3868-2.8802-2.4536-.7112-1.0769-1.0668-2.3774-1.0668-3.9013 0-1.3411.2641-2.4282.7924-3.2612.5283-.8433 1.2344-1.5037 2.1183-1.9812.8839-.4775 1.8593-.8331 2.926-1.0667 1.0769-.2439 2.1589-.4369 3.246-.5791 1.4224-.1829 2.5755-.3201 3.4594-.4115.894-.1016 1.5443-.2692 1.9506-.5029.4166-.2337.6249-.6401.6249-1.2192v-.1219c0-1.5036-.4115-2.672-1.2344-3.5051-.8128-.8331-2.0472-1.2496-3.7032-1.2496-1.717 0-3.0632.3759-4.0385 1.1277-.9753.7518-1.6611 1.5544-2.0573 2.4079l-3.4137-1.2192c.6096-1.4224 1.4224-2.5298 2.4383-3.3222 1.0262-.8026 2.1437-1.3614 3.3527-1.6764 1.2192-.3251 2.418-.4876 3.5966-.4876.7518 0 1.6153.0914 2.5907.2743.9855.1727 1.9354.5334 2.8497 1.082.9246.5486 1.6916 1.3766 2.3012 2.484.6096 1.1074.9144 2.5907.9144 4.45v15.4223H73.893v-3.1698h-.1829c-.2438.508-.6502 1.0515-1.2192 1.6306-.5689.5791-1.3258 1.0719-2.2707 1.4783-.9448.4063-2.0979.6095-3.4593.6095Zm.5486-3.2307c1.4224 0 2.6212-.2794 3.5965-.8382.9855-.5588 1.7272-1.2801 2.225-2.164.508-.8839.762-1.8135.762-2.7888v-3.2918c-.1524.1829-.4877.3505-1.0058.5029-.508.1423-1.0973.2693-1.7678.381-.6604.1016-1.3055.1931-1.9354.2743-.6198.0712-1.1227.1321-1.5087.1829-.9347.1219-1.8085.32-2.6212.5943-.8027.2642-1.4529.6655-1.9507 1.204-.4877.5283-.7315 1.2496-.7315 2.164 0 1.2496.4623 2.1945 1.3868 2.8345.9347.6299 2.1183.9449 3.5508.9449Zm35.0475-20.7257-8.6565 23.4078H90.043l-8.656-23.4078h3.9013l6.4615 18.6531h.2439l6.4615-18.6531h3.9018Zm4.747 23.4078V10.4679h3.596v23.4078h-3.596Zm17.072.5486c-1.484 0-2.83-.2794-4.039-.8381-1.209-.569-2.169-1.3868-2.88-2.4536-.711-1.0769-1.067-2.3774-1.067-3.9013 0-1.3411.264-2.4282.793-3.2612.528-.8433 1.234-1.5037 2.118-1.9812.884-.4775 1.859-.8331 2.926-1.0667 1.077-.2439 2.159-.4369 3.246-.5791 1.422-.1829 2.575-.3201 3.459-.4115.894-.1016 1.545-.2692 1.951-.5029.416-.2337.625-.6401.625-1.2192v-.1219c0-1.5036-.412-2.672-1.235-3.5051-.812-.8331-2.047-1.2496-3.703-1.2496-1.717 0-3.063.3759-4.038 1.1277-.976.7518-1.661 1.5544-2.058 2.4079l-3.413-1.2192c.609-1.4224 1.422-2.5298 2.438-3.3222 1.026-.8026 2.144-1.3614 3.353-1.6764 1.219-.3251 2.418-.4876 3.596-.4876.752 0 1.616.0914 2.591.2743.985.1727 1.935.5334 2.85 1.082.924.5486 1.691 1.3766 2.301 2.484.609 1.1074.914 2.5907.914 4.45v15.4223h-3.596v-3.1698h-.183c-.244.508-.65 1.0515-1.219 1.6306-.569.5791-1.326 1.0719-2.271 1.4783-.945.4063-2.098.6095-3.459.6095Zm.548-3.2307c1.423 0 2.621-.2794 3.597-.8382.985-.5588 1.727-1.2801 2.225-2.164.508-.8839.762-1.8135.762-2.7888v-3.2918c-.153.1829-.488.3505-1.006.5029-.508.1423-1.097.2693-1.768.381-.66.1016-1.305.1931-1.935.2743-.62.0712-1.123.1321-1.509.1829-.935.1219-1.808.32-2.621.5943-.803.2642-1.453.6655-1.951 1.204-.487.5283-.731 1.2496-.731 2.164 0 1.2496.462 2.1945 1.386 2.8345.935.6299 2.119.9449 3.551.9449Zm20.341-11.3992v14.0813h-3.596V10.4679h3.474v3.6574h.305c.549-1.1886 1.382-2.1436 2.499-2.865 1.118-.7315 2.561-1.0972 4.328-1.0972 1.585 0 2.972.3251 4.161.9753 1.188.6401 2.113 1.6154 2.773 2.926.661 1.3004.991 2.9463.991 4.9376v14.8737h-3.597V19.2458c0-1.8389-.477-3.2714-1.432-4.2975-.955-1.0363-2.266-1.5544-3.932-1.5544-1.148 0-2.174.2489-3.078.7467-.894.4978-1.6 1.2242-2.119 2.1792-.518.955-.777 2.1132-.777 3.4746Z" />
+            <rect width="44.6831" height="44.6831" fill="#fff" rx="20" />
+            <path fill="url(#a)"
+              d="M3.43716 0C1.53887 0 0 1.53887 0 3.43716V27.6253l3.9708-5.6709c.67987-.9709 1.6715-1.5939 2.74491-1.8283 1.803-.508 3.80729.143 4.94259 1.7642L20.1866 34.07c.6842.9772 2.1313.9772 2.8155 0l9.5009-13.5687c1.4359-2.0506 4.2623-2.549 6.3129-1.1131 2.0507 1.4359 2.5491 4.2623 1.1132 6.3129l-13.2914 18.982H41.246c1.8983 0 3.4371-1.5388 3.4371-3.4371V3.43716C44.6831 1.53887 43.1443 0 41.246 0H3.43716Z" />
+            <path fill="url(#b)"
+              d="M16.551 44.6831 9.24475 34.2488c-.68419-.9772-2.13137-.9772-2.81556 0L.400792 42.8582c.577697 1.0857 1.720708 1.8249 3.036368 1.8249H16.551Z" />
+            <defs>
+              <linearGradient id="a" x1="44.6831" x2="-3.02294" y1="48.7538" y2="6.03623"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0172FC" />
+                <stop offset="1" stop-color="#01FFD1" />
+              </linearGradient>
+              <linearGradient id="b" x1="44.6831" x2="-3.02294" y1="48.7538" y2="6.03623"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0172FC" />
+                <stop offset="1" stop-color="#01FFD1" />
+              </linearGradient>
+            </defs>
+          </svg></a>
+      </div>
+      <div class="col-lg-9">
+        <div class="row g-3 g-xl-5">
+          <div class="col-6 col-md-5">
+            <span class="eyebrow text-muted mb-1 d-flex">Product</span>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/product/looker-studio/">
+                  <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <path
+                      d="M14.9564 4C14.6303 4.00014 14.3103 4.08893 14.0308 4.25687C13.7512 4.42481 13.5226 4.66559 13.3693 4.95344C13.216 5.2413 13.1439 5.5654 13.1606 5.89109C13.1773 6.21678 13.2822 6.53181 13.4641 6.80247L14.2325 6.03521C14.2071 5.95867 14.1943 5.87852 14.1945 5.79787C14.1945 5.64784 14.239 5.50117 14.3224 5.37642C14.4057 5.25167 14.5242 5.15444 14.6628 5.09702C14.8014 5.03961 14.954 5.02458 15.1011 5.05385C15.2483 5.08312 15.3834 5.15537 15.4895 5.26147C15.5956 5.36756 15.6679 5.50273 15.6971 5.64988C15.7264 5.79703 15.7114 5.94956 15.654 6.08818C15.5966 6.22679 15.4993 6.34527 15.3746 6.42862C15.2498 6.51198 15.1032 6.55647 14.9531 6.55647C14.8728 6.55665 14.7931 6.54384 14.7169 6.51854L13.9496 7.28581C14.1825 7.44374 14.4491 7.54481 14.7282 7.5809C15.0072 7.61698 15.2909 7.58707 15.5562 7.49357C15.8216 7.40007 16.0613 7.24558 16.2561 7.04255C16.4509 6.83951 16.5953 6.59359 16.6778 6.32457C16.7602 6.05555 16.7783 5.77093 16.7307 5.49363C16.6831 5.21632 16.5711 4.95405 16.4036 4.72794C16.2362 4.50182 16.018 4.31816 15.7666 4.19173C15.5153 4.0653 15.2377 3.99963 14.9564 4Z"
+                      fill="#B4CBF6" />
+                    <path
+                      d="M14.2405 9.24072C14.2417 8.6334 14.045 8.04222 13.6803 7.55664L12.6833 8.55257C12.8349 8.82987 12.8903 9.14961 12.8409 9.46177C12.7915 9.77393 12.64 10.0609 12.4102 10.2778L12.952 11.6021C13.3471 11.3477 13.6721 10.9982 13.8972 10.5856C14.1223 10.1731 14.2404 9.71068 14.2405 9.24072Z"
+                      fill="#6A97EF" />
+                    <path
+                      d="M11.4556 10.6683H11.4296C11.2067 10.6683 10.9868 10.6162 10.7876 10.5162C10.5884 10.4162 10.4153 10.271 10.2822 10.0922C10.149 9.91336 10.0595 9.70592 10.0208 9.48638C9.98203 9.26685 9.99513 9.0413 10.059 8.82773C10.1229 8.61415 10.2359 8.41847 10.3888 8.2563C10.5418 8.09412 10.7305 7.96994 10.94 7.89365C11.1495 7.81737 11.3739 7.7911 11.5953 7.81693C11.8167 7.84277 12.029 7.92 12.2153 8.04246L13.2026 7.0552C12.8532 6.77193 12.4409 6.57665 12.0004 6.48574C11.5598 6.39484 11.1039 6.41097 10.6709 6.53278C10.2379 6.65459 9.84051 6.87853 9.512 7.18578C9.18349 7.49303 8.9335 7.87463 8.78304 8.29852C8.63257 8.72241 8.58603 9.17622 8.6473 9.62183C8.70858 10.0674 8.87589 10.4918 9.13518 10.8594C9.39448 11.2269 9.73818 11.5269 10.1374 11.7341C10.5367 11.9412 10.9798 12.0496 11.4296 12.05C11.6203 12.0501 11.8105 12.0312 11.9975 11.9937L11.4556 10.6683Z"
+                      fill="#6A97EF" />
+                    <path
+                      d="M14.9952 11.8155C14.3712 11.8149 13.7505 11.9058 13.1529 12.0854L13.9429 14.0155C14.2868 13.9302 14.6398 13.8873 14.9941 13.8876C15.9896 13.8879 16.9543 14.2333 17.7237 14.8651C18.4932 15.4969 19.0197 16.3759 19.2137 17.3524C19.4077 18.3289 19.2572 19.3424 18.7877 20.2203C18.3182 21.0983 17.5589 21.7862 16.639 22.1671C15.7192 22.5479 14.6957 22.5981 13.7431 22.3089C12.7904 22.0198 11.9675 21.4093 11.4144 20.5815C10.8614 19.7537 10.6125 18.7597 10.7102 17.7689C10.8078 16.7782 11.2459 15.8519 11.9499 15.1479C12.2529 14.846 12.5987 14.5904 12.9762 14.3893L12.1949 12.4647C10.788 13.1537 9.68378 14.3362 9.09269 15.787C8.50159 17.2377 8.46492 18.8552 8.98966 20.3313C9.51439 21.8073 10.5639 23.0387 11.9381 23.7907C13.3123 24.5428 14.9151 24.763 16.4412 24.4093C17.9673 24.0556 19.3099 23.1529 20.2132 21.873C21.1165 20.5931 21.5174 19.0256 21.3393 17.4692C21.1613 15.9128 20.4169 14.4764 19.2479 13.4335C18.0789 12.3907 16.5671 11.8144 15.0006 11.8145L14.9952 11.8155Z"
+                      fill="#5285EC" />
+                  </svg>
+
+                  Avian for Looker Studio</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/product/google-sheets/">
+                  <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <g clip-path="url(#clip0_1738_37927)">
+                      <path
+                        d="M17.0666 5.00195L21.8166 9.75195L19.4416 10.1838L17.0666 9.75195L16.6348 7.37695L17.0666 5.00195Z"
+                        fill="#188038" />
+                      <path
+                        d="M17.0662 9.75195V5.00195H9.2935C8.57776 5.00195 7.99805 5.58167 7.99805 6.29741V22.7065C7.99805 23.4222 8.57776 24.002 9.2935 24.002H20.5208C21.2365 24.002 21.8162 23.4222 21.8162 22.7065V9.75195H17.0662Z"
+                        fill="#34A853" />
+                      <path
+                        d="M10.5879 12.3438V18.6051H19.2243V12.3438H10.5879ZM14.3663 17.5256H11.6674V16.0142H14.3663V17.5256ZM14.3663 14.9347H11.6674V13.4233H14.3663V14.9347ZM18.1447 17.5256H15.4458V16.0142H18.1447V17.5256ZM18.1447 14.9347H15.4458V13.4233H18.1447V14.9347Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1738_37927">
+                        <rect width="13.8182" height="19" fill="white" transform="translate(8 5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Avian for Google Sheets</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/connector/google_analytics/">
+                  <svg class="me-1" style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <path
+                      d="M18.748 5.625V22.125C18.748 23.9712 20.0231 25 21.3731 25C22.6231 25 23.9981 24.125 23.9981 22.125V5.75C23.9981 4.0575 22.7481 3 21.3731 3C19.9981 3 18.748 4.16625 18.748 5.625Z"
+                      fill="#F9AB00" />
+                    <path
+                      d="M11.875 14V22.125C11.875 23.9712 13.15 25 14.5 25C15.75 25 17.125 24.125 17.125 22.125V14.125C17.125 12.4325 15.875 11.375 14.5 11.375C13.125 11.375 11.875 12.5412 11.875 14Z"
+                      fill="#E37400" />
+                    <path
+                      d="M7.62501 25C9.07477 25 10.25 23.8247 10.25 22.375C10.25 20.9253 9.07477 19.75 7.62501 19.75C6.17526 19.75 5 20.9253 5 22.375C5 23.8247 6.17526 25 7.62501 25Z"
+                      fill="#E37400" />
+                  </svg>
+                  Avian for Google Analytics</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/connector/facebook_ads/"><svg class="me-1"
+                    style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <g clip-path="url(#clip0_1738_37924)">
+                      <path
+                        d="M13.0975 22.915C9.06 22.1925 6 18.7075 6 14.5C6 9.825 9.825 6 14.5 6C19.175 6 23 9.825 23 14.5C23 18.7075 19.94 22.1925 15.9025 22.915L15.435 22.5325H13.565L13.0975 22.915Z"
+                        fill="url(#paint0_linear_1738_37924)" />
+                      <path
+                        d="M17.8156 16.8795L18.1981 14.4995H15.9456V12.842C15.9456 12.162 16.2006 11.652 17.2206 11.652H18.3256V9.48445C17.7306 9.39945 17.0506 9.31445 16.4556 9.31445C14.5006 9.31445 13.1406 10.5045 13.1406 12.6295V14.4995H11.0156V16.8795H13.1406V22.872C13.6081 22.957 14.0756 22.9995 14.5431 22.9995C15.0106 22.9995 15.4781 22.957 15.9456 22.872V16.8795H17.8156Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <linearGradient id="paint0_linear_1738_37924" x1="14.5004" y1="22.4088" x2="14.5004" y2="5.99687"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#0062E0" />
+                        <stop offset="1" stop-color="#19AFFF" />
+                      </linearGradient>
+                      <clipPath id="clip0_1738_37924">
+                        <rect width="17" height="17" fill="white" transform="translate(6 6)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Avian for Facebook Ads</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/connector/tiktok_ads/"><svg class="me-1"
+                    style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <path
+                      d="M17.8573 12.4867C19.0247 13.3207 20.4548 13.8114 21.9993 13.8114V10.8408C21.707 10.8409 21.4154 10.8104 21.1295 10.7499V13.0882C19.5851 13.0882 18.1552 12.5974 16.9875 11.7635V17.8257C16.9875 20.8583 14.5278 23.3165 11.4939 23.3165C10.3618 23.3165 9.30961 22.9745 8.43555 22.3878C9.43314 23.4073 10.8244 24.0397 12.3635 24.0397C15.3977 24.0397 17.8575 21.5815 17.8575 18.5488V12.4867H17.8573ZM18.9304 9.48968C18.3338 8.83824 17.9421 7.99639 17.8573 7.06568V6.68359H17.0331C17.2405 7.86652 17.9482 8.87715 18.9304 9.48968ZM10.3545 20.0607C10.0212 19.6238 9.8411 19.0895 9.84191 18.5401C9.84191 17.1531 10.9669 16.0285 12.3549 16.0285C12.6136 16.0284 12.8707 16.068 13.1173 16.1462V13.1091C12.8292 13.0697 12.5384 13.0529 12.2478 13.0591V15.4229C12.0011 15.3448 11.7438 15.305 11.4851 15.3053C10.0971 15.3053 8.97213 16.4298 8.97213 17.817C8.97213 18.7978 9.53446 19.647 10.3545 20.0607Z"
+                      fill="#FF004F" />
+                    <path
+                      d="M16.9888 11.7634C18.1565 12.5974 19.5864 13.0881 21.1308 13.0881V10.7498C20.2687 10.5663 19.5055 10.116 18.9317 9.48968C17.9495 8.87709 17.2418 7.86646 17.0344 6.68359H14.8692V18.5486C14.8643 19.9318 13.7411 21.0519 12.3561 21.0519C11.54 21.0519 10.8149 20.663 10.3557 20.0607C9.53565 19.647 8.97331 18.7977 8.97331 17.817C8.97331 16.43 10.0983 15.3054 11.4863 15.3054C11.7522 15.3054 12.0085 15.3467 12.249 15.423V13.0591C9.26829 13.1207 6.87109 15.5549 6.87109 18.5487C6.87109 20.0432 7.46805 21.398 8.43692 22.3879C9.31097 22.9745 10.3632 23.3166 11.4952 23.3166C14.5293 23.3166 16.9889 20.8582 16.9889 17.8257V11.7634H16.9888Z"
+                      fill="#141A1A" />
+                    <path
+                      d="M21.1295 10.7503V10.118C20.3521 10.1192 19.5899 9.90162 18.9304 9.49012C19.5142 10.129 20.2831 10.5696 21.1295 10.7503ZM17.033 6.6841C17.0132 6.57105 16.998 6.45725 16.9875 6.34302V5.96094H13.9979V17.8261C13.9932 19.2091 12.8701 20.3291 11.485 20.3291C11.0783 20.3291 10.6944 20.2327 10.3543 20.0612C10.8136 20.6635 11.5386 21.0523 12.3548 21.0523C13.7397 21.0523 14.863 19.9324 14.8678 18.5492V6.6841H17.033ZM12.2478 13.0596V12.3865C11.998 12.3524 11.7461 12.3353 11.494 12.3354C8.45967 12.3354 6 14.7937 6 17.8261C6 19.7272 6.9667 21.4027 8.43566 22.3882C7.4668 21.3984 6.86984 20.0435 6.86984 18.5491C6.86984 15.5554 9.26697 13.1212 12.2478 13.0596Z"
+                      fill="#00F2EA" />
+                  </svg>
+                  Avian for TikTok Ads</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/looker-studio-templates"><svg class="me-1"
+                    style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <path
+                      d="M11.1251 8.34823C11.2991 7.89153 11.5383 7.47107 11.8935 7.13036C13.3144 5.74577 15.6631 6.09373 16.6273 7.83353C17.3522 9.15289 18.1206 10.4432 18.8673 11.7481C20.1141 13.9156 21.3755 16.0831 22.6078 18.2579C23.6445 20.0774 22.5209 22.3754 20.4621 22.6871C19.2007 22.8756 18.0191 22.2957 17.3667 21.1648C16.272 19.2583 15.1702 17.3517 14.0755 15.4524C14.0538 15.4089 14.0248 15.3727 13.9958 15.3365C13.8798 15.2422 13.8291 15.1045 13.7566 14.9812C13.2709 14.1258 12.7707 13.2777 12.285 12.4295C11.9733 11.8786 11.6471 11.3349 11.3353 10.784C11.0526 10.291 10.9221 9.75457 10.9366 9.18913C10.9584 8.89917 10.9946 8.6092 11.1251 8.34823Z"
+                      fill="#3C8BD9" />
+                    <path
+                      d="M11.1253 8.34766C11.06 8.60863 11.002 8.8696 10.9875 9.14507C10.9658 9.754 11.118 10.3194 11.4225 10.8486C12.2199 12.2187 13.0173 13.5961 13.8075 14.9734C13.88 15.0967 13.9379 15.2199 14.0104 15.3359C13.5755 16.0898 13.1405 16.8365 12.6983 17.5904C12.0894 18.6415 11.4805 19.6999 10.8643 20.751C10.8353 20.751 10.828 20.7365 10.8208 20.7148C10.8135 20.6568 10.8353 20.606 10.8498 20.5481C11.147 19.4607 10.9005 18.4965 10.1539 17.6701C9.69717 17.1699 9.11723 16.8872 8.45031 16.793C7.5804 16.6697 6.81199 16.8945 6.12332 17.4381C6.00008 17.5324 5.92034 17.6701 5.77535 17.7426C5.74636 17.7426 5.73186 17.7281 5.72461 17.7064C6.07257 17.1047 6.41328 16.503 6.76124 15.9013C8.19659 13.4076 9.63193 10.9139 11.0745 8.4274C11.089 8.3984 11.1108 8.37665 11.1253 8.34766Z"
+                      fill="#FABC04" />
+                    <path
+                      d="M5.75376 17.7291C5.89149 17.6058 6.02198 17.4753 6.16696 17.3593C7.92852 15.9675 10.5745 16.9751 10.9587 19.1789C11.0529 19.7081 11.0022 20.2155 10.8427 20.723C10.8354 20.7665 10.8282 20.8027 10.8137 20.8462C10.7485 20.9622 10.6905 21.0854 10.618 21.2014C9.97279 22.2671 9.02314 22.7962 7.77628 22.7165C6.34819 22.615 5.22456 21.5421 5.02884 20.1213C4.9346 19.4326 5.07233 18.7874 5.42754 18.193C5.50003 18.0625 5.58702 17.9465 5.66677 17.816C5.70301 17.787 5.68851 17.7291 5.75376 17.7291Z"
+                      fill="#34A852" />
+                    <path
+                      d="M5.75482 17.7283C5.72578 17.7573 5.72578 17.8081 5.67496 17.8154C5.6677 17.7646 5.69674 17.7355 5.72578 17.6992L5.75482 17.7283Z"
+                      fill="#FABC04" />
+                    <path
+                      d="M10.8128 20.8461C10.7838 20.7953 10.8128 20.759 10.8418 20.7227C10.8491 20.7299 10.8636 20.7444 10.8709 20.7517L10.8128 20.8461Z"
+                      fill="#E1C025" />
+                  </svg>
+                  Avian for Google Ads</a>
+              </li>
+              <li class="mb-1">
+                <a class="text-reset text-primary-hover" href="/looker-studio-templates"><svg class="me-1"
+                    style="margin-bottom: 3px" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.20625" y="0.20625" width="28.5875" height="28.5875" rx="3.09375" fill="white"
+                      stroke="#DBE4EE" stroke-width="0.4125" />
+                    <path
+                      d="M14.5029 5.5C10.7455 5.5 9.64662 5.50388 9.43301 5.5216C8.66193 5.58571 8.18212 5.70716 7.65938 5.96748C7.25653 6.16758 6.93882 6.39952 6.62526 6.72466C6.05422 7.3176 5.70813 8.04707 5.58284 8.9142C5.52194 9.33515 5.50421 9.421 5.50061 11.5712C5.49923 12.288 5.50061 13.2312 5.50061 14.4965C5.50061 18.2519 5.50476 19.35 5.52276 19.5632C5.58506 20.3137 5.70273 20.7859 5.95191 21.3024C6.42813 22.2911 7.33765 23.0333 8.40914 23.3103C8.78015 23.4058 9.18992 23.4585 9.71598 23.4834C9.93886 23.4931 12.2106 23.5 14.4837 23.5C16.7568 23.5 19.0299 23.4972 19.2473 23.4862C19.8564 23.4575 20.2101 23.41 20.6012 23.3089C21.6796 23.0306 22.5725 22.2994 23.0584 21.2969C23.3027 20.7928 23.4266 20.3026 23.4827 19.5913C23.4949 19.4362 23.5 16.9635 23.5 14.4941C23.5 12.0243 23.4945 9.55615 23.4823 9.40106C23.4255 8.67824 23.3016 8.1922 23.0494 7.67846C22.8424 7.25791 22.6126 6.94385 22.279 6.62274C21.6836 6.05389 20.9554 5.70771 20.0877 5.58253C19.6673 5.52174 19.5835 5.50373 17.4322 5.5H14.5029Z"
+                      fill="url(#paint0_radial_1738_37923)" />
+                    <path
+                      d="M14.5029 5.5C10.7455 5.5 9.64662 5.50388 9.43301 5.5216C8.66193 5.58571 8.18212 5.70716 7.65938 5.96748C7.25653 6.16758 6.93882 6.39952 6.62526 6.72466C6.05422 7.3176 5.70813 8.04707 5.58284 8.9142C5.52194 9.33515 5.50421 9.421 5.50061 11.5712C5.49923 12.288 5.50061 13.2312 5.50061 14.4965C5.50061 18.2519 5.50476 19.35 5.52276 19.5632C5.58506 20.3137 5.70273 20.7859 5.95191 21.3024C6.42813 22.2911 7.33765 23.0333 8.40914 23.3103C8.78015 23.4058 9.18992 23.4585 9.71598 23.4834C9.93886 23.4931 12.2106 23.5 14.4837 23.5C16.7568 23.5 19.0299 23.4972 19.2473 23.4862C19.8564 23.4575 20.2101 23.41 20.6012 23.3089C21.6796 23.0306 22.5725 22.2994 23.0584 21.2969C23.3027 20.7928 23.4266 20.3026 23.4827 19.5913C23.4949 19.4362 23.5 16.9635 23.5 14.4941C23.5 12.0243 23.4945 9.55615 23.4823 9.40106C23.4255 8.67824 23.3016 8.1922 23.0494 7.67846C22.8424 7.25791 22.6126 6.94385 22.279 6.62274C21.6836 6.05389 20.9554 5.70771 20.0877 5.58253C19.6673 5.52174 19.5835 5.50373 17.4322 5.5H14.5029Z"
+                      fill="url(#paint1_radial_1738_37923)" />
+                    <path
+                      d="M14.5029 5.5C10.7455 5.5 9.64662 5.50388 9.43301 5.5216C8.66193 5.58571 8.18212 5.70716 7.65938 5.96748C7.25653 6.16758 6.93882 6.39952 6.62526 6.72466C6.05422 7.3176 5.70813 8.04707 5.58284 8.9142C5.52194 9.33515 5.50421 9.421 5.50061 11.5712C5.49923 12.288 5.50061 13.2312 5.50061 14.4965C5.50061 18.2519 5.50476 19.35 5.52276 19.5632C5.58506 20.3137 5.70273 20.7859 5.95191 21.3024C6.42813 22.2911 7.33765 23.0333 8.40914 23.3103C8.78015 23.4058 9.18992 23.4585 9.71598 23.4834C9.93886 23.4931 12.2106 23.5 14.4837 23.5C16.7568 23.5 19.0299 23.4972 19.2473 23.4862C19.8564 23.4575 20.2101 23.41 20.6012 23.3089C21.6796 23.0306 22.5725 22.2994 23.0584 21.2969C23.3027 20.7928 23.4266 20.3026 23.4827 19.5913C23.4949 19.4362 23.5 16.9635 23.5 14.4941C23.5 12.0243 23.4945 9.55615 23.4823 9.40106C23.4255 8.67824 23.3016 8.1922 23.0494 7.67846C22.8424 7.25791 22.6126 6.94385 22.279 6.62274C21.6836 6.05389 20.9554 5.70771 20.0877 5.58253C19.6673 5.52174 19.5835 5.50373 17.4322 5.5H14.5029Z"
+                      fill="url(#paint2_radial_1738_37923)" />
+                    <path
+                      d="M14.5029 5.5C10.7455 5.5 9.64662 5.50388 9.43301 5.5216C8.66193 5.58571 8.18212 5.70716 7.65938 5.96748C7.25653 6.16758 6.93882 6.39952 6.62526 6.72466C6.05422 7.3176 5.70813 8.04707 5.58284 8.9142C5.52194 9.33515 5.50421 9.421 5.50061 11.5712C5.49923 12.288 5.50061 13.2312 5.50061 14.4965C5.50061 18.2519 5.50476 19.35 5.52276 19.5632C5.58506 20.3137 5.70273 20.7859 5.95191 21.3024C6.42813 22.2911 7.33765 23.0333 8.40914 23.3103C8.78015 23.4058 9.18992 23.4585 9.71598 23.4834C9.93886 23.4931 12.2106 23.5 14.4837 23.5C16.7568 23.5 19.0299 23.4972 19.2473 23.4862C19.8564 23.4575 20.2101 23.41 20.6012 23.3089C21.6796 23.0306 22.5725 22.2994 23.0584 21.2969C23.3027 20.7928 23.4266 20.3026 23.4827 19.5913C23.4949 19.4362 23.5 16.9635 23.5 14.4941C23.5 12.0243 23.4945 9.55615 23.4823 9.40106C23.4255 8.67824 23.3016 8.1922 23.0494 7.67846C22.8424 7.25791 22.6126 6.94385 22.279 6.62274C21.6836 6.05389 20.9554 5.70771 20.0877 5.58253C19.6673 5.52174 19.5835 5.50373 17.4322 5.5H14.5029Z"
+                      fill="url(#paint3_radial_1738_37923)" />
+                    <path
+                      d="M14.5017 7.81055C12.6841 7.81055 12.456 7.81849 11.7421 7.85095C11.0297 7.88355 10.5433 7.99627 10.1178 8.16165C9.67762 8.33246 9.30423 8.56095 8.93224 8.9328C8.55997 9.30453 8.33131 9.67763 8.15981 10.1173C7.99389 10.5427 7.88095 11.0288 7.84889 11.7405C7.81696 12.4538 7.80859 12.6819 7.80859 14.4981C7.80859 16.3144 7.81668 16.5416 7.84902 17.2549C7.8818 17.9669 7.99459 18.4528 8.15995 18.8781C8.33103 19.3179 8.55969 19.691 8.93182 20.0627C9.30368 20.4347 9.67707 20.6638 10.117 20.8346C10.5428 21 11.0292 21.1127 11.7416 21.1453C12.4554 21.1777 12.6834 21.1857 14.5008 21.1857C16.3186 21.1857 16.546 21.1777 17.2598 21.1453C17.9723 21.1127 18.4592 21 18.885 20.8346C19.325 20.6638 19.6979 20.4347 20.0697 20.0627C20.442 19.691 20.6707 19.3179 20.8422 18.8782C21.0067 18.4528 21.1196 17.9667 21.1531 17.2551C21.1852 16.5417 21.1935 16.3143 21.1935 14.4981C21.1935 12.6819 21.1852 12.4539 21.1531 11.7406C21.1196 11.0287 21.0067 10.5427 20.8422 10.1175C20.6707 9.67763 20.442 9.30452 20.0697 8.9328C19.6975 8.56081 19.3252 8.33231 18.8846 8.16164C18.4579 7.99627 17.9713 7.88355 17.2589 7.85095C16.545 7.81849 16.3177 7.81055 14.4996 7.81055H14.5017ZM13.9013 9.0157C14.0795 9.01543 14.2783 9.0157 14.5017 9.0157C16.2886 9.0157 16.5004 9.02211 17.206 9.05416C17.8585 9.08397 18.2127 9.19292 18.4486 9.28446C18.7609 9.40567 18.9836 9.55057 19.2177 9.78463C19.4519 10.0187 19.5969 10.2416 19.7185 10.5537C19.8101 10.7892 19.9193 11.143 19.949 11.7951C19.9811 12.5001 19.988 12.7118 19.988 14.4966C19.988 16.2813 19.9811 16.4931 19.949 17.1981C19.9191 17.8501 19.8101 18.204 19.7185 18.4395C19.5972 18.7515 19.4519 18.9738 19.2177 19.2077C18.9835 19.4418 18.7611 19.5867 18.4486 19.7079C18.213 19.7998 17.8585 19.9085 17.206 19.9383C16.5005 19.9704 16.2886 19.9773 14.5017 19.9773C12.7146 19.9773 12.5029 19.9704 11.7973 19.9383C11.1448 19.9082 10.7907 19.7993 10.5546 19.7077C10.2423 19.5865 10.0192 19.4416 9.78498 19.2076C9.55074 18.9735 9.40574 18.7511 9.28416 18.4389C9.19255 18.2034 9.08338 17.8496 9.05369 17.1975C9.02162 16.4925 9.0152 16.2808 9.0152 14.4949C9.0152 12.7091 9.02162 12.4984 9.05369 11.7934C9.08352 11.1414 9.19255 10.7875 9.28416 10.5518C9.40546 10.2397 9.55074 10.0167 9.78498 9.78269C10.0192 9.54862 10.2423 9.40372 10.5546 9.28223C10.7905 9.19027 11.1448 9.08161 11.7973 9.05165C12.4147 9.02378 12.654 9.01543 13.9013 9.01402L13.9013 9.0157ZM18.0741 10.1261C17.6307 10.1261 17.271 10.4852 17.271 10.9283C17.271 11.3714 17.6307 11.7309 18.0741 11.7309C18.5175 11.7309 18.8772 11.3714 18.8772 10.9283C18.8772 10.4853 18.5175 10.1258 18.0741 10.1258L18.0741 10.1261ZM14.5017 11.0638C12.6037 11.0638 11.0648 12.6015 11.0648 14.4981C11.0648 16.3947 12.6037 17.9318 14.5017 17.9318C16.3997 17.9318 17.938 16.3947 17.938 14.4981C17.938 12.6015 16.3996 11.0638 14.5015 11.0638H14.5017ZM14.5017 12.2689C15.7337 12.2689 16.7325 13.2669 16.7325 14.4981C16.7325 15.7292 15.7337 16.7273 14.5017 16.7273C13.2696 16.7273 12.2708 15.7292 12.2708 14.4981C12.2708 13.2669 13.2696 12.2689 14.5017 12.2689Z"
+                      fill="white" />
+                    <defs>
+                      <radialGradient id="paint0_radial_1738_37923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(22.9188 13.9368) rotate(164.25) scale(11.501 8.2859)">
+                        <stop stop-color="#FF005F" />
+                        <stop offset="1" stop-color="#FC01D8" />
+                      </radialGradient>
+                      <radialGradient id="paint1_radial_1738_37923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(10.2811 24.8864) rotate(-90) scale(14.3679 15.2441)">
+                        <stop stop-color="#FFCC00" />
+                        <stop offset="0.1242" stop-color="#FFCC00" />
+                        <stop offset="0.5672" stop-color="#FE4A05" />
+                        <stop offset="0.6942" stop-color="#FF0F3F" />
+                        <stop offset="1" stop-color="#FE0657" stop-opacity="0" />
+                      </radialGradient>
+                      <radialGradient id="paint2_radial_1738_37923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(14.9549 23.2462) rotate(-59.8703) scale(5.94127 7.73486)">
+                        <stop stop-color="#FFCC00" />
+                        <stop offset="1" stop-color="#FFCC00" stop-opacity="0" />
+                      </radialGradient>
+                      <radialGradient id="paint3_radial_1738_37923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(7.94221 6.23295) rotate(164.274) scale(11.3734 3.87491)">
+                        <stop stop-color="#780CFF" />
+                        <stop offset="1" stop-color="#820BFF" stop-opacity="0" />
+                      </radialGradient>
+                    </defs>
+                  </svg>
+
+                  Avian for Instagram Ads</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <span class="eyebrow text-muted mb-1 d-flex">Resources</span>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="/pricing" class="text-reset text-primary-hover">Pricing</a>
+              </li>
+              <li class="mb-1">
+                <a href="/terms" class="text-reset text-primary-hover">Terms of Service</a>
+              </li>
+              <li class="mb-1">
+                <a href="/privacy" class="text-reset text-primary-hover">Privacy Policy</a>
+              </li>
+              <li class="mb-1">
+                <a href="/contact" class="text-reset text-primary-hover">Contact</a>
+              </li>
+              <li class="mb-1">
+                <a href="/avian-partners" class="text-reset text-primary-hover">Partners</a>
+              </li>
+              <li class="mb-1">
+                <a href="https://intercom.help/avian-5a40f33c8b48/en/" class="text-reset text-primary-hover">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <span class="eyebrow text-muted mb-1 d-flex">Connect</span>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="https://www.linkedin.com/company/avianio/" class="text-reset text-primary-hover"
+                  target="_blank">LinkedIn</a>
+              </li>
+              <li class="mb-1">
+                <a href="https://twitter.com/avian_io" class="text-reset text-primary-hover" target="_blank">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-between g-2 g-lg-5">
+      <div class="col-md-6 col-lg-6 order-md-1">
+        <p class="small text-muted">
+          ©2023 Avian Holdings Ltd. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "zx3eo3i4",
+  };
+</script>
+
+
+
+<script>
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/zx3eo3i4'
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/zx3eo3i4';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+  </body>
+</html>

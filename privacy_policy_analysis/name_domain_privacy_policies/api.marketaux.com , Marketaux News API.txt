@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Free stock market and finance news API | marketaux</title>
+<meta name="description" content="Free finance and stock market news and analysis API in JSON format for over 80 markets and over 5,000 sources.">
+<meta name="keywords" content="stock news api,market news api,finance news api,business news api,json news api,stock market data">
+<meta name="author" content="marketaux">
+<meta itemprop="name" content="marketaux">
+<meta itemprop="description" content="Free finance and stock market news and analysis API in JSON format for over 80 markets and over 5,000 sources.">
+<meta name="og:title" content="marketaux">
+<meta name="og:description" content="Free finance and stock market news and analysis API in JSON format for over 80 markets and over 5,000 sources.">
+<meta name="og:url" content="https://www.marketaux.com">
+<meta name="og:site_name" content="marketaux">
+<meta name="og:locale" content="en_US">
+<meta name="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<meta name="csrf-token" content="XFagk35OivSpi810AD3D5JATnR2XTv5ptrl6nwBi">
+<link rel="canonical" href="https://www.marketaux.com">
+
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.marketaux.com/website_assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.marketaux.com/website_assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.marketaux.com/website_assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.marketaux.com/website_assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://www.marketaux.com/website_assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/vendor/prism/prism.css">
+
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/css/theme.css">
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/css/theme-elements.css">
+
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/css/demos/demo-sass.css">
+
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/css/skins/skin-sass.css">
+
+<link rel="stylesheet" href="https://www.marketaux.com/website_assets/css/custom.css">
+
+<script src="https://www.marketaux.com/website_assets/vendor/modernizr/modernizr.min.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+</head>
+<body data-spy="scroll" data-target=".header-nav-main nav" data-offset="100">
+<div class="body">
+<header id="header" class="header-transparent header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+<div class="header-body border-top-0">
+<div class="header-container container px-lg-4">
+<div class="header-row px-lg-3">
+<div class="header-column">
+<div class="header-row">
+<div class="header-logo header-logo-sticky-change" style="width: 200px; height: 60px;">
+<a href="https://www.marketaux.com">
+<img class="header-logo-non-sticky opacity-0" alt="marketaux" width="200" src="https://www.marketaux.com/website_assets/img/marketaux-light.svg">
+<img class="header-logo-sticky opacity-0" alt="marketaux" width="200" src="https://www.marketaux.com/website_assets/img/marketaux-dark.svg">
+</a>
+</div>
+</div>
+</div>
+<div class="header-column justify-content">
+<div class="header-row">
+<div class="header-nav header-nav-line header-nav-bottom-line header-nav-light-text justify-content">
+<div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+<nav class="collapse">
+<ul class="nav nav-pills" id="mainNav">
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com" class="dropdown-item active">HOME</a></li>
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com/documentation" class="dropdown-item ">DOCUMENTATION</a></li>
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com/pricing" class="dropdown-item ">PRICING</a></li>
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com/contact" class="dropdown-item ">CONTACT US</a></li>
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com/login" class="dropdown-item ">LOGIN</a></li>
+<li><a data-hash data-hash-offset="60" href="https://www.marketaux.com/register" class="dropdown-item ">SIGN UP</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="header-column d-lg-none">
+<div class="header-row justify-content-end">
+<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div role="main" class="main">
+<section class="section bg-primary curved-border position-relative border-0 m-0" style="height:100vh;" id="intro">
+<div class="position-absolute" style="top: 25%; left: 16%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-1.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" />
+</div>
+<div class="position-absolute" style="top: 42%; left: 10%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-2.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3.5, 'transition': true, 'horizontal': true}" />
+</div>
+<div class="position-absolute" style="top: 60%; left: 20%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-3.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 2.5, 'transition': true}" />
+</div>
+<div class="position-absolute" style="top: 22%; right: 25%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-4.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 2, 'transition': true, 'horizontal': true}" />
+</div>
+<div class="position-absolute" style="top: 49%; right: 16%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-5.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 3, 'transition': true}" />
+</div>
+<div class="position-absolute" style="top: 71%; right: 13%;">
+<img src="https://www.marketaux.com/website_assets/img/icons/icon-6.png" class="img-fluid" alt data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 2.5, 'transition': true, 'horizontal': true}" />
+</div>
+<div class="container pt-5 mt-5">
+<div class="row justify-content-center pt-5 mt-5">
+<div class="col-lg-7 text-center pt-3">
+<h1 class="text-color-light font-weight-extra-bold text-12 line-height-2">Free stock market and financial news API</h1>
+<div>
+<p class="text-color-light opacity-6 text-5 pb-3 mb-4">Instant access to global stock market and finance news also including funds, crypto and more along with comprehensive sentiment analysis.</p>
+</div>
+<a href="https://www.marketaux.com/register" class="btn btn-light text-color-dark custom-secondary-font font-weight-bold text-3 px-5 py-3">GET FREE API KEY</a>
+<a href="https://www.marketaux.com/documentation" class="btn btn-dark custom-secondary-font font-weight-bold text-3 px-5 py-3 ml-4">VIEW DOCUMENTATION</a>
+</div>
+</div>
+</div>
+<div class="custom-animated-circles">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+</section>
+<div class="custom-screens-carousel">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col">
+<div class="carousel-ipad pt-3 px-3">
+<div class="text-left ml-1">
+<div class="apple_dot bg-danger border border-color-danger"></div>
+<div class="apple_dot bg-warning border border-color-warning"></div>
+<div class="apple_dot bg-success border border-color-success"></div>
+</div>
+<div class="nav-style-1 m-0 scrollbar-style-1">
+<div>
+<pre class="code-dark mb-4 scrollbar-style-1" style="min-height:700px; max-height: 700px;">
+                                        <code class="language-json">
+                                            {
+    "meta": {
+        "found": 14812,
+        "returned": 5,
+        "limit": 5,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "bde07ef0-12de-473a-9555-0206a98143a3",
+            "title": "Amdocs Solution Deployed to Deliver Seamless User Experience on Hubbl, Australia's Newest Streaming Aggregation Product By Investing.com",
+            "description": "Amdocs Solution Deployed to Deliver Seamless User Experience on Hubbl, Australia's Newest Streaming Aggregation Product",
+            "keywords": "",
+            "snippet": "Amdocs (NASDAQ: ) Subscription Marketplace simplifies the subscription experience for customers and enables easy onboarding and integration of partner services ...",
+            "url": "https://www.investing.com/news/press-releases/amdocs-solution-deployed-to-deliver-seamless-user-experience-on-hubbl-australias-newest-streaming-aggregation-product-93CH-3429784",
+            "image_url": "https://i-invdn-com.investing.com/news/AmdocsofficesinIsrael_800x533_L_1635932101.jpg",
+            "language": "en",
+            "published_at": "2024-05-08T20:36:07.000000Z",
+            "source": "investing.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "DOX",
+                    "name": "Amdocs Limited",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 46.764957,
+                    "sentiment_score": 0.3405,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Amdocs</em> (NASDAQ: ) Subscription Marketplace simplifies the subscription experience for customers and enables easy onboarding and integration of partner services on Hubbl\n\nJERSEY CITY, NJ / ACCESSWIRE / May 8, 2024 / <em>Amdocs</em> (<em>NASDAQ:DOX</em>), a leading provider of software and services to communications and media companies, announced today that Foxtel Group",
+                            "sentiment": 0.4404,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": ", a leading Australian subscription TV and streaming provider, has successfully deployed <em>Amdocs</em> Subscription Marketplace onto Australia's newest streaming aggregation product, Hubbl, that fuses live TV and streaming into one simple viewing experience.",
+                            "sentiment": 0.4939,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Through <em>Amdocs</em> Subscription Marketplace, global streaming content apps are integrated on the Hubbl platform, alongside local broadcast video on-demand apps, driving a seamless user experience as well as operational efficiencies through simplified and accelerated partner onboarding.",
+                            "sentiment": 0.5719,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "\"The successful and speedy deployment of <em>Amdocs</em> Subscription Marketplace helped us integrate all the streaming apps onto one platform, enhancing the user experience for our customers.\"",
+                            "sentiment": 0.5859,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "\"Today's customers seek seamless, integrated digital experiences with the tap of a finger or click of a button,\" said Anthony Goonetilleke, Group President of Technology and Head of Strategy at <em>Amdocs</em>.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "See disclosureor\n\nSupporting Resources\n\nKeep up with <em>Amdocs</em> news by visiting the company's website\n\nFollow us on X , Facebook (NASDAQ: ) , LinkedIn and YouTube\n\nAbout <em>Amdocs</em>\n\n<em>Amdocs</em> helps those who build the future to make it amazing.",
+                            "sentiment": 0.8519,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Listed on the , <em>Amdocs</em> had revenue of $4.89 billion in fiscal 2023.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "For more information, visit www.amdocs.com\n\n<em>Amdocs</em>' Forward-Looking Statement\n\nThis press release includes information that constitutes forward-looking statements made pursuant to the safe harbor provision of the Private Securities Litigation Reform Act of 1995, including statements about <em>Amdocs</em>' growth and business results in future quarters and years",
+                            "sentiment": 0.7096,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Amdocs</em> may elect to update these forward-looking statements at some point in the future; however, <em>Amdocs</em> specifically disclaims any obligation to do so.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "See disclosureor\n\nMedia Contacts\n\nSwati Sharma\n\n<em>Amdocs</em> Public Relations\n\nE-mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ea999d8b9e83c499828b98878bdeaa8b878e858999c4898587">[email&#160;protected]</a>\n\nSOURCE: <em>Amdocs</em> Management Limited",
+                            "sentiment": -0.2263,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Amdocs</em> Solution Deployed to Deliver Seamless User Experience on Hubbl, Australia's Newest Streaming Aggregation Product By Investing.com",
+                            "sentiment": 0.3182,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                }
+            ],
+            "similar": []
+        },
+        {
+            "uuid": "af2d3189-7d27-4fcd-b5a6-5f3df7dcf65b",
+            "title": "Arm's quarterly revenue forecast beats Street; annual rev guidance misses By Reuters",
+            "description": "Arm's quarterly revenue forecast beats Street; annual rev guidance misses",
+            "keywords": "",
+            "snippet": "By Max A. Cherney and Stephen Nellis\n\n(Reuters) -Chip designer Arm Holdings (NASDAQ: ) gave a fiscal first-quarter revenue forecast on Wednesday that beat Wall ...",
+            "url": "https://www.investing.com/news/stock-market-news/arms-quarterly-revenue-forecast-beats-street-annual-rev-guidance-misses-3429530",
+            "image_url": "https://i-invdn-com.investing.com/news/LYNXNPEC0L0PD_L.jpg",
+            "language": "en",
+            "published_at": "2024-05-08T20:36:05.000000Z",
+            "source": "investing.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "NVDA",
+                    "name": "NVIDIA Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 13.661514,
+                    "sentiment_score": 0.296,
+                    "highlights": [
+                        {
+                            "highlight": "The shares recently traded at nearly 70 times expected earnings, compared with 35 times earnings for heavyweight chipmaker <em>Nvidia</em> (NASDAQ: ), according to LSEG data.\n\nArm's designs power nearly every smartphone in the world, and the company has attempted to make headway in data centers and other markets.",
+                            "sentiment": 0.296,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "COWN",
+                    "name": "Cowen Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 15.342527,
+                    "sentiment_score": 0.4019,
+                    "highlights": [
+                        {
+                            "highlight": "Chips with Arm technology generate $200 billion a year of revenue for the many chipmakers that sell them, according to research from TD <em>Cowen</em>.\n\nhere or remove ads . 3rd party Ad. Not an offer or recommendation by Investing.com.",
+                            "sentiment": 0.4019,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "COWNL",
+                    "name": "Cowen Inc",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "N/A",
+                    "match_score": 15.342507,
+                    "sentiment_score": 0.4019,
+                    "highlights": [
+                        {
+                            "highlight": "Chips with Arm technology generate $200 billion a year of revenue for the many chipmakers that sell them, according to research from TD <em>Cowen</em>.\n\nhere or remove ads . 3rd party Ad. Not an offer or recommendation by Investing.com.",
+                            "sentiment": 0.4019,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": []
+        },
+        {
+            "uuid": "e82ba929-49b1-4bea-b286-05c21ef72884",
+            "title": "Why Shopify (SHOP) Stock Is Falling Today By Stock Story",
+            "description": "Why Shopify (SHOP) Stock Is Falling Today",
+            "keywords": "",
+            "snippet": "What Happened: Shares of e-commerce software platform Shopify (NYSE: ) fell 19.9% in the morning session after the company reported first-quarter results and pr...",
+            "url": "https://www.investing.com/news/stock-market-news/why-shopify-shop-stock-is-falling-today-3429774",
+            "image_url": "https://i-invdn-com.investing.com/news/LYNXNPEB9606Q_L.jpg",
+            "language": "en",
+            "published_at": "2024-05-08T20:35:12.000000Z",
+            "source": "investing.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "GOOGL",
+                    "name": "Alphabet Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Communication Services",
+                    "match_score": 13.430491,
+                    "sentiment_score": 0.5267,
+                    "highlights": [
+                        {
+                            "highlight": "Microsoft (NASDAQ: ), <em>Alphabet</em> (NASDAQ: ) and Meta (NASDAQ: ) will report this week, and many other bellwethers will announce their results in the coming weeks. As a reminder, the driver of a stock's value is the sum of its future cash flows discounted back to today. With lower interest rates, investors can apply higher valuations to their stocks.",
+                            "sentiment": 0.5267,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "MSFT",
+                    "name": "Microsoft Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 11.840608,
+                    "sentiment_score": 0.5267,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Microsoft</em> (NASDAQ: ), Alphabet (NASDAQ: ) and Meta (NASDAQ: ) will report this week, and many other bellwethers will announce their results in the coming weeks. As a reminder, the driver of a stock's value is the sum of its future cash flows discounted back to today. With lower interest rates, investors can apply higher valuations to their stocks.",
+                            "sentiment": 0.5267,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [
+                {
+                    "uuid": "eef9987f-9246-4ffa-9603-adfd42f8ed33",
+                    "title": "Why Uber (UBER) Shares Are Trading Lower Today By Stock Story",
+                    "description": "Why Uber (UBER) Shares Are Trading Lower Today",
+                    "keywords": "",
+                    "snippet": "What Happened: Shares of ride sharing and on demand delivery service Uber (NYSE: NYSE: ) fell 8.9% in the afternoon session after the company reported first qua...",
+                    "url": "https://www.investing.com/news/stock-market-news/why-uber-uber-shares-are-trading-lower-today-3429334",
+                    "image_url": "https://i-invdn-com.investing.com/news/LYNXNPEB8506G_L.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T17:01:29.000000Z",
+                    "source": "investing.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "LYFT",
+                            "name": "Lyft, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 17.226057,
+                            "sentiment_score": 0.600167,
+                            "highlights": [
+                                {
+                                    "highlight": "The biggest move we wrote about over the last year was 3 months ago, when the company gained 12.1% on the news that peer, <em>Lyft</em> (NASDAQ: ) reported fourth-quarter results indicating growing users, enabling it to beat Wall Street's revenue and EPS estimates.",
+                                    "sentiment": 0.5106,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Lyft</em> reported that Rides growth accelerated for the fourth quarter in a row to 26% year on year in the quarter.",
+                                    "sentiment": 0.3818,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Lastly, <em>Lyft</em> expects to generate positive free cash flow for the full year 2024, converting roughly half of its forecasted full-year EBITDA into cash. This is a nice milestone.\n\nhere or remove ads . 3rd party Ad. Not an offer or recommendation by Investing.com.",
+                                    "sentiment": 0.9081,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "c2226829-86b4-4977-b7d6-e0193a9ebca3",
+                    "title": "Why Is Lyft (LYFT) Stock Rocketing Higher Today By Stock Story",
+                    "description": "Why Is Lyft (LYFT) Stock Rocketing Higher Today",
+                    "keywords": "",
+                    "snippet": "What Happened: Shares of ride sharing service Lyft (NASDAQ: NASDAQ: ) jumped 9.4% in the morning session after the company reported first quarter results that b...",
+                    "url": "https://www.investing.com/news/stock-market-news/why-is-lyft-lyft-stock-rocketing-higher-today-3429288",
+                    "image_url": "https://i-invdn-com.investing.com/news/LYNXMPED0C0KP_L.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T16:30:47.000000Z",
+                    "source": "investing.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "LYFT",
+                            "name": "Lyft, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 48.788757,
+                            "sentiment_score": 0.49995,
+                            "highlights": [
+                                {
+                                    "highlight": "What Happened: Shares of ride sharing service <em>Lyft</em> (NASDAQ: NASDAQ: ) jumped 9.4% in the morning session after the company reported first quarter results that blew past analysts' revenue expectations as its gross bookings and number of rides conducted outperformed.",
+                                    "sentiment": 0.296,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Is now the time to buy <em>Lyft</em>? Find out by reading the original article on StockStory, it's free.\n\nWhat is the market telling us: Lyft's shares are very volatile and over the last year have had 48 moves greater than 5%.",
+                                    "sentiment": 0.8519,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "See disclosureor\n\n<em>Lyft</em> is up 26.1% since the beginning of the year, but at $17.27 per share it is still trading 14.9% below its 52-week high of $20.28 from March 2024. Investors who bought $1,000 worth of Lyft's shares 5 years ago would now be looking at an investment worth $328.86.",
+                                    "sentiment": 0.8519,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Why Is <em>Lyft</em> (<em>LYFT</em>) Stock Rocketing Higher Today By Stock Story",
+                                    "sentiment": 0,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "f672e7b3-5940-4ce1-82e3-c35854c959e1",
+                    "title": "Fast-paced Momentum Stock eXp World Holdings (EXPI) Is Still Trading at a Bargain",
+                    "description": "eXp World Holdings (EXPI) could be a great choice for investors looking to buy stocks that have gained strong momentum recently but are still trading at reasonable prices. It is one of the several stocks that made it through our 'Fast-Paced Momentum at a Bargain' screen.",
+                    "keywords": "stock, stocks, investment, investment advice, investing, online trading, online investment, online stock trading, stock market, financial, financial planning, quote, quotes, stock quotes",
+                    "snippet": "This page has not been authorized, sponsored, or otherwise approved or endorsed by the companies represented herein. Each of the company logos represented herei...",
+                    "url": "https://www.zacks.com/stock/news/2270328/fast-paced-momentum-stock-exp-world-holdings-expi-is-still-trading-at-a-bargain?cid=CS-ZC-FT-tale_of_the_tape|fast_paced_momentum_at_a_bargain-2270328",
+                    "image_url": "https://staticx-tuner.zacks.com/images/default_article_images/default165.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T12:50:06.000000Z",
+                    "source": "zacks.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "EXPI",
+                            "name": "eXp World Holdings, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Real Estate",
+                            "match_score": 71.872795,
+                            "sentiment_score": 0.2023,
+                            "highlights": [
+                                {
+                                    "highlight": "Fast-paced Momentum Stock <em>eXp</em> <em>World</em> <em>Holdings</em> (EXPI) Is Still Trading at a Bargain",
+                                    "sentiment": 0.2023,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "97bfe3e8-e789-49b6-9c55-238fd25e9f14",
+                    "title": "Fast-paced Momentum Stock Celestica (CLS) Is Still Trading at a Bargain",
+                    "description": "Celestica (CLS) could be a great choice for investors looking to buy stocks that have gained strong momentum recently but are still trading at reasonable prices. It is one of the several stocks that made it through our 'Fast-Paced Momentum at a Bargain' screen.",
+                    "keywords": "stock, stocks, investment, investment advice, investing, online trading, online investment, online stock trading, stock market, financial, financial planning, quote, quotes, stock quotes",
+                    "snippet": "This page has not been authorized, sponsored, or otherwise approved or endorsed by the companies represented herein. Each of the company logos represented herei...",
+                    "url": "https://www.zacks.com/stock/news/2270331/fast-paced-momentum-stock-celestica-cls-is-still-trading-at-a-bargain?cid=CS-ZC-FT-tale_of_the_tape|fast_paced_momentum_at_a_bargain-2270331",
+                    "image_url": "https://staticx-tuner.zacks.com/images/default_article_images/default61.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T12:50:06.000000Z",
+                    "source": "zacks.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "CLS",
+                            "name": "Celestica Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 42.35698,
+                            "sentiment_score": 0.2023,
+                            "highlights": [
+                                {
+                                    "highlight": "Fast-paced Momentum Stock <em>Celestica</em> (CLS) Is Still Trading at a Bargain",
+                                    "sentiment": 0.2023,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uuid": "4ecec12e-5a54-4b1d-a49f-97dafaf89cb6",
+            "title": "Jamf's (NASDAQ:JAMF) Q1 Sales Top Estimates But Gross Margin Drops By Stock Story",
+            "description": "Jamf's (NASDAQ:JAMF) Q1 Sales Top Estimates But Gross Margin Drops",
+            "keywords": "",
+            "snippet": "Apple (NASDAQ: ) device management company, Jamf (NASDAQ: ) beat analysts' expectations in Q1 CY2024, with revenue up 15.1% year on year to $152.1 million. The ...",
+            "url": "https://www.investing.com/news/stock-market-news/jamfs-nasdaqjamf-q1-sales-top-estimates-but-gross-margin-drops-3429757",
+            "image_url": "https://i-invdn-com.investing.com/news/LYNXNPEC0Q1B5_L.jpg",
+            "language": "en",
+            "published_at": "2024-05-08T20:33:12.000000Z",
+            "source": "investing.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "AAPL",
+                    "name": "Apple Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 10.176653,
+                    "sentiment_score": 0,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Apple</em> (NASDAQ: ) device management company, Jamf (NASDAQ: ) beat analysts' expectations in Q1 CY2024, with revenue up 15.1% year on year to $152.1 million. The company expects next quarter's revenue to be around $151.5 million, in line with analysts' estimates.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [
+                {
+                    "uuid": "11a76d34-99a0-49b8-9e04-9d2ebb897e27",
+                    "title": "Earnings call: Marqeta surpasses Q1 expectations, eyes future growth By Investing.com",
+                    "description": "Earnings call: Marqeta surpasses Q1 expectations, eyes future growth",
+                    "keywords": "",
+                    "snippet": "Marqeta, the global modern card issuing platform, reported robust financial results for the first quarter of 2024, with key metrics such as net revenue, gross p...",
+                    "url": "https://www.investing.com/news/stock-market-news/earnings-call-marqeta-surpasses-q1-expectations-eyes-future-growth-93CH-3429486",
+                    "image_url": "https://i-invdn-com.investing.com/news/LYNXMPEDAF0IH_L.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T19:27:03.000000Z",
+                    "source": "investing.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "MQ",
+                            "name": "Marqeta, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 39.05419,
+                            "sentiment_score": 0.639418,
+                            "highlights": [
+                                {
+                                    "highlight": "<em>Marqeta</em> (ticker: <em>MQ</em>) has demonstrated strong performance in the first quarter of 2024, with its strategic focus on the fintech and embedded finance sectors yielding positive results.",
+                                    "sentiment": 0.7845,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "See disclosureor\n\nFull transcript - <em>Marqeta</em> (<em>MQ</em>) Q1 2024:\n\nOperator: Good afternoon ladies and gentlemen and thank you for standing by. Welcome to the <em>Marqeta</em> First Quarter 2024 Earnings Conference Call. At this time, lines have been placed on mute to prevent any background noise.",
+                                    "sentiment": 0.8176,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Our first quarter results demonstrate how the strong foundation we built in 2023 is leading to growth with new and existing <em>Marqeta</em> customers and speaks volumes to the strength and depth of the <em>Marqeta</em> platform. We started the year strong with net revenue, gross profit and adjusted EBITDA outpacing expectations.",
+                                    "sentiment": 0.9042,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Trade Republic uses <em>Marqeta</em> to power an innovative consumer debit card that combines spending and savings for their 4 million customers across 17 markets. The company chose <em>Marqeta</em> due to our ability to reliably deliver innovation and easy geographic expansion.",
+                                    "sentiment": 0.8658,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Beyond geographical expansion, our customers are growing with <em>Marqeta</em> by leveraging our deep payments and program management expertise.",
+                                    "sentiment": 0.1779,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "This relationship delivers value for <em>Marqeta</em> on 2 fronts. First, Rain will offer a plug-and-play AWA solution for employers, including the Rain spending card which <em>Marqeta</em> will power.",
+                                    "sentiment": 0.5719,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Second, we now expect the mix of our TPV to be more heavily weighted toward the Powered by <em>Marqeta</em> business which materially impacts net revenue but has a much lesser impact on gross profit. This will lower the revenue growth by approximately 1 point.",
+                                    "sentiment": 0.0772,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "And last one I'll layer in there is can you dig in on progress maybe penetration in <em>Marqeta</em>-in-a-box helping drive that down? I appreciate all the comments.\n\nSimon Khalaf: You're absolutely right.",
+                                    "sentiment": 0.7717,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We've made a lot of progress and I'll attribute all these to the <em>Marqeta</em>-in-a-box solution in addition to engaging our solutions team early on in the process and not when the MSA is signed.",
+                                    "sentiment": 0.802,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "I'm just curious, taking that in the broader context of <em>Marqeta</em>. What is the right way to think about that? And maybe another way to ask it is thinking about <em>Marqeta</em> wallet share or TPV share at customers today? Just curious if there are other opportunities in the future around this type of migration or if it was more of a onetime anomaly?",
+                                    "sentiment": 0.879,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Earnings call: <em>Marqeta</em> surpasses Q1 expectations, eyes future growth By Investing.com",
+                                    "sentiment": 0.3818,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BAC",
+                            "name": "Bank of America Corporation",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 3.396361,
+                            "sentiment_score": 0.4902,
+                            "highlights": [
+                                {
+                                    "highlight": "Operator: Our next question is from Cassie Chan with <em>Bank</em> <em>of</em> <em>America</em>.\n\nCassie Chan: So just want to ask any changes to your TPV growth expectations for the full year? I believe you previously said about 30%. Obviously, you're running slightly higher than that.",
+                                    "sentiment": 0.4902,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BCS",
+                            "name": "Barclays PLC",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 3.081339,
+                            "sentiment_score": 0.6369,
+                            "highlights": [
+                                {
+                                    "highlight": "See disclosureor\n\nOperator: Our next question comes from Ramsey El-Assal with <em>Barclays</em>.\n\nRamsey El-Assal: Maybe I'll follow up on Tim's question about earned-wage access. It was interesting how you contextualize that as maybe the fit into the wedge into more neobanking type services.",
+                                    "sentiment": 0.6369,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "WFC",
+                            "name": "Wells Fargo & Company",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 3.721582,
+                            "sentiment_score": 0.1154,
+                            "highlights": [
+                                {
+                                    "highlight": "See disclosureor\n\nOperator: Our next question comes from Andrew Bauch with <em>Wells</em> <em>Fargo</em>.\n\nAndrew Bauch: I wanted to speak about the expense management customer that you highlighted in the prepared remarks. You said that this one customer was looking at other competitors but then decided to come back to us.",
+                                    "sentiment": 0.1154,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "MCD",
+                            "name": "McDonald's Corporation",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Cyclical",
+                            "match_score": 3.273599,
+                            "sentiment_score": 0.5994,
+                            "highlights": [
+                                {
+                                    "highlight": "Rain's customers include global brands like <em>McDonald's</em> (NYSE: ), Taco Bell, Hilton and Marriott. Rain brings the technology and payroll acumen that come from integrating with multiple payroll providers to determine the proper withholdings along with what the employee has earned. This relationship delivers value for Marqeta on 2 fronts.",
+                                    "sentiment": 0.5994,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "GES",
+                            "name": "Guess', Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Cyclical",
+                            "match_score": 3.02852,
+                            "sentiment_score": 0.8337,
+                            "highlights": [
+                                {
+                                    "highlight": "So we're, I <em>guess</em>, encouraged by the first couple of months but the real value will be generated, say, 4 to 7, 8 months after the launch, when you really start to see what kind of momentum those programs have and what kind of volume they can generate. But we're off to a good start, a little bit ahead of schedule.",
+                                    "sentiment": 0.8337,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "WMT",
+                            "name": "Walmart Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Defensive",
+                            "match_score": 3.775237,
+                            "sentiment_score": 0.38465,
+                            "highlights": [
+                                {
+                                    "highlight": "While we've seen tremendous growth from early large adopters like Uber and <em>Walmart</em> (NYSE: )'s One finance, we're approaching other channels to bring our solution to a broader market.",
+                                    "sentiment": 0.7693,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "So I put the Ubers in that category and <em>Walmart</em> One. So that's one segment of the market. The other segment of the market and a fast-growing segment of the market would be open labor marketplaces in which a company goes in and rather than hire a shift worker, they had to shift and these labor marketplaces fill that shift on their behalf.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "8f74ca79-6569-460e-b556-6d710a1a9609",
+                    "title": "Earnings call: Confluent exceeds Q1 2024 expectations with strong revenue growth By Investing.com",
+                    "description": "Earnings call: Confluent exceeds Q1 2024 expectations with strong revenue growth",
+                    "keywords": "",
+                    "snippet": "Confluent, Inc. (CFLT), a leading data streaming platform, has reported robust financial results for the first quarter of 2024, surpassing its own guidance with...",
+                    "url": "https://www.investing.com/news/stock-market-news/earnings-call-confluent-exceeds-q1-2024-expectations-with-strong-revenue-growth-93CH-3429326",
+                    "image_url": "https://i-invdn-com.investing.com/news/LYNXMPEBBR0PM_L.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T16:58:22.000000Z",
+                    "source": "investing.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "AAPL",
+                            "name": "Apple Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 2.119262,
+                            "sentiment_score": 0.3612,
+                            "highlights": [
+                                {
+                                    "highlight": "Between the two events, we had more than 7,000 people joining us in person or registered virtually, spanning startups, enterprises and everything in between, including organizations like <em>Apple</em> (NASDAQ: ), Bloomberg, CERN, ING, Stripe, Uber (NYSE: ) and many others.",
+                                    "sentiment": 0.3612,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "COWN",
+                            "name": "Cowen Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 3.011426,
+                            "sentiment_score": 0.848,
+                            "highlights": [
+                                {
+                                    "highlight": "We’ll take our next question from Mike Cikos with Needham, followed by TD <em>Cowen</em>.\n\nMike Cikos: Hey. Thanks, Shane, and thanks, Jay. Thanks, Rohan. I wanted to come back to the multi-product adoption that you guys are citing today.",
+                                    "sentiment": 0.8271,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We’ll take our next question from Derrick Wood with TD <em>Cowen</em>, followed by Bernstein.\n\nDerrick Wood: Great. Thanks guys. Nice to chat with you. Jay, you mentioned having gone through some pricing changes recently. Can you remind us what changes you made and what kind of dividends you’re expecting to see as this gets absorbed in the market?",
+                                    "sentiment": 0.8689,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "COWNL",
+                            "name": "Cowen Inc",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "N/A",
+                            "match_score": 3.011404,
+                            "sentiment_score": 0.848,
+                            "highlights": [
+                                {
+                                    "highlight": "We’ll take our next question from Mike Cikos with Needham, followed by TD <em>Cowen</em>.\n\nMike Cikos: Hey. Thanks, Shane, and thanks, Jay. Thanks, Rohan. I wanted to come back to the multi-product adoption that you guys are citing today.",
+                                    "sentiment": 0.8271,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We’ll take our next question from Derrick Wood with TD <em>Cowen</em>, followed by Bernstein.\n\nDerrick Wood: Great. Thanks guys. Nice to chat with you. Jay, you mentioned having gone through some pricing changes recently. Can you remind us what changes you made and what kind of dividends you’re expecting to see as this gets absorbed in the market?",
+                                    "sentiment": 0.8689,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "DSPG",
+                            "name": "DSP Group, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 7.114704,
+                            "sentiment_score": 0.555125,
+                            "highlights": [
+                                {
+                                    "highlight": "Now, I would like to discuss our long-term opportunity with our data streaming platform or <em>DSP</em>. We have driven success with our cloud native streaming product, with Kafka accounting for the substantial majority of our cloud revenue. Over the last few years, we have added Connect, Process and Govern to complete our multi-product platform.",
+                                    "sentiment": 0.8689,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Connect is our first and largest <em>DSP</em> product after streaming and its revenue growth trajectory has been robust. For Govern, the increasing complexity around data, security, regulation, coupled with the rise of GenAI are driving the demand for our Governance products.",
+                                    "sentiment": 0.7096,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "The three <em>DSP</em> products, which include Connect, Process and Govern, are earlier in their S-curve of maturity and adoption than Kafka. But over time, we think their growth potential will be larger than Kafka itself. Second, our opportunity with our <em>DSP</em> products remain in very early days.",
+                                    "sentiment": 0.6597,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "In Q1 2024, the three <em>DSP</em> products accounted for approximately 10% of cloud revenue, but with a substantially faster growth rate than our overall Cloud business. We expect the three <em>DSP</em> products to remain the fastest growing part of our business and account for a much larger portion of our cloud revenue over time.",
+                                    "sentiment": 0.7066,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "In terms of the monetization strategy across the pillars of <em>DSP</em>, could you just outline that for us? And how does Tableflow potentially get monetized over time?\n\nJay Kreps: Yeah. Yeah. So each of those represents kind of a distinct monetization opportunity. So the connectors, we charge for each of these connectors.",
+                                    "sentiment": 0.7622,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "I think the kind of <em>DSP</em> components that Rohan outlined, our early contributors probably, Connect is the furthest along, followed by Governance and Flink just went GA, so that’s just starting to ramp to revenue contribution and we’ll contribute more coming into next year.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Is it just the streaming or is it some of the other elements of the <em>DSP</em>?\n\nJay Kreps: Yeah. Yeah. The -- so, as we described, I would say that’s ramping now, like, we are seeing customers that are adopting this. Usually, the digital natives are a little further ahead in their use cases. This is one of a number of use cases for us.",
+                                    "sentiment": 0.7351,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "And so the incentive to drive adoption of these <em>DSP</em> components was much less, right? Of course, if the customer adopts Flink, they’ll consume more. As it comes time for them to renew next year, they might commit to more, but that payoff could be a year out. It’s somewhat delayed.",
+                                    "sentiment": -0.0011,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "CFLT",
+                            "name": "Confluent, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 40.723362,
+                            "sentiment_score": 0.411809,
+                            "highlights": [
+                                {
+                                    "highlight": "<em>Confluent</em>, <em>Inc</em>. (<em>CFLT</em>), a leading data streaming platform, has reported robust financial results for the first quarter of 2024, surpassing its own guidance with a 25% increase in total revenue to $217 million.",
+                                    "sentiment": 0.5719,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "The company's cloud offering, <em>Confluent</em> Cloud, saw a significant revenue growth of 45% to $107 million, now constituting the majority of subscription revenue.",
+                                    "sentiment": 0.5267,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Confluent</em> is focused on driving efficient growth and capturing a significant market share.\n\nThe company anticipates Flink to materially contribute to revenue in fiscal year 2025.\n\n<em>Confluent</em> expects to achieve break-even margins for the full year.\n\nBearish Highlights\n\n<em>Confluent</em> Platform experienced a sequential step down in revenue.",
+                                    "sentiment": 0.875,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "InvestingPro Insights\n\n<em>Confluent</em>, <em>Inc</em>. (<em>CFLT</em>) has demonstrated strength in its Q1 2024 financial results, with a notable 25% increase in total revenue and a 45% growth in its cloud offering.",
+                                    "sentiment": 0.7964,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Full transcript - <em>Confluent</em> (<em>CFLT</em>) Q1 2024:\n\nShane Xie: Hello, everyone. Welcome to the <em>Confluent</em> Q1 2024 Earnings Conference Call. I’m Shane Xie from Investor Relations and I’m joined by Jay Kreps, Co-Founder and CEO; and Rohan Sivaram, CFO.",
+                                    "sentiment": 0.4588,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Already Kafka and <em>Confluent</em> are one of the most common feeds of data into the analytics system, but with Tableflow we can make that integration far deeper. Quora, our cloud native Kafka implementation, already heavily relied on cloud object storage for storing the streams of data in <em>Confluent</em> Cloud.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We’ll be adding Flink to our on-premise software offering, <em>Confluent</em> Platform. This helps our on-premise and hybrid customers adopt Flink for critical workloads running in their data centers. These are very exciting steps for <em>Confluent</em> and it cements our position as the only complete data streaming platform.",
+                                    "sentiment": 0.6666,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "So this customer turned to <em>Confluent</em> Cloud for fast and scalable data streaming. By integrating <em>Confluent</em> with other components of its architecture, the customer was able to significantly reduce latency for response times from over a minute down to as low as 10 milliseconds.",
+                                    "sentiment": -0.2732,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Within subscription, <em>Confluent</em> Platform revenue grew 15% to $100.1 million, representing 46% of total revenue. Customers rely on <em>Confluent</em> Platform to harness data streaming on-prem, on the edge and bridge to the cloud. We continue to see healthy demand for <em>Confluent</em> Platform, as most organizations are still early in their move to the cloud.",
+                                    "sentiment": 0.296,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "And that’s not a huge focus for us because what drives <em>Confluent</em> Cloud is the next unit of consumption.",
+                                    "sentiment": -0.0979,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Earnings call: <em>Confluent</em> exceeds Q1 2024 expectations with strong revenue growth By Investing.com",
+                                    "sentiment": 0.7096,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BCS",
+                            "name": "Barclays PLC",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 2.898426,
+                            "sentiment_score": 0.9033,
+                            "highlights": [
+                                {
+                                    "highlight": "We’ll take our next question from Matt Hedberg with RBC, followed by <em>Barclays</em>. Matt?\n\nMatt Hedberg: Hey. Thanks, guys. Congrats on the results. Really nice to see. Maybe as a follow-up to Sanjit’s question, you guys have a lot of company-specific drivers that are certainly seeming to be apparent in your numbers.",
+                                    "sentiment": 0.8948,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We’ll take our next question from Raimo Lenschow with <em>Barclays</em>, followed by William Blair.\n\nhere or remove ads . 3rd party Ad. Not an offer or recommendation by Investing.com. See disclosureor\n\nRaimo Lenschow: Hey. Thank you. Thanks for taking my question and congrats from me as well.",
+                                    "sentiment": 0.9118,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "WFC",
+                            "name": "Wells Fargo & Company",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 3.916039,
+                            "sentiment_score": 0.84935,
+                            "highlights": [
+                                {
+                                    "highlight": "We’ll take our next question from Jason Ader with William Blair, followed by <em>Wells</em> <em>Fargo</em>.\n\nJason Ader: Yeah. Thanks, Shane. Good afternoon, guys. Just wanted to ask about GenAI. You gave some customer examples where folks are using your technology as part of GenAI projects.",
+                                    "sentiment": 0.7906,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "We’ll take our next question from Michael Turrin with <em>Wells</em> <em>Fargo</em>, followed by Mizuho.\n\nhere or remove ads . 3rd party Ad. Not an offer or recommendation by Investing.com. See disclosureor\n\nMichael Turrin: Hey. Great. Thanks. I appreciate you taking the question.",
+                                    "sentiment": 0.9081,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "GES",
+                            "name": "Guess', Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Cyclical",
+                            "match_score": 2.814861,
+                            "sentiment_score": 0.688,
+                            "highlights": [
+                                {
+                                    "highlight": "And then just to follow up on the go-to-market, a bit of a two-porter here, but I <em>guess</em> to start with Jay, like, it’s interesting. One of the things that I think you guys are calling out is this attacher scene from even higher quality customers, despite the fact that you’re not pressing on commitments, right?",
+                                    "sentiment": 0.7636,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Mike Cikos: … I <em>guess</em> the second piece for Rohan, if you could just articulate, like, I know there was a lot of angst into the first half of this year, given the go-to-market changes, but like, what more is there to do on your front now that you guys are kind of clicking along here with, call it, four months and change behind you?",
+                                    "sentiment": 0.6124,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "SNOW",
+                            "name": "Snowflake Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 3.307773,
+                            "sentiment_score": 0.7733,
+                            "highlights": [
+                                {
+                                    "highlight": "Iceberg is an open source project that has near universal support across the open source systems like Apache Spark and Flink, as well as the data warehousing and data lake house world, including products like AWS Athena, Redshift, Google’s BigQuery and <em>Snowflake</em> (NYSE: ). Tableflow is more than just a connector.",
+                                    "sentiment": 0.8658,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "For Flink, it’s kind of the compute hours, very similar to the models you’d see for other processing services like <em>Snowflake</em>. For Governance, it’s an uplift that comes as kind of a flat fee as you move to our advanced Governance package, as well as something that scales up with your usage of the product. And Tableflow is new.",
+                                    "sentiment": 0.6808,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "MSCL.SN",
+                            "name": "MORGAN STANLEY",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "cl",
+                            "type": "equity",
+                            "industry": "N/A",
+                            "match_score": 2.917381,
+                            "sentiment_score": 0.8834,
+                            "highlights": [
+                                {
+                                    "highlight": "And today, our first question will come from Sanjit Singh with <em>Morgan</em> <em>Stanley</em>, followed by RBC. Sanjit, please go ahead.\n\nSanjit Singh: Yeah. Thank you for taking the questions. Congrats on a solid start to the year. Jay, I want to go back to the big macro environment in terms of just the pace of new software development projects.",
+                                    "sentiment": 0.8834,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "3ad3df8b-fc70-49f2-862c-784923e9e17c",
+                    "title": "Shopify's (NYSE:SHOP) Q1 Earnings Results: Revenue In Line With Expectations But Stock Drops 16.7% By Stock Story",
+                    "description": "Shopify's (NYSE:SHOP) Q1 Earnings Results: Revenue In Line With Expectations But Stock Drops 16.7%",
+                    "keywords": "",
+                    "snippet": "E-commerce software platform Shopify (NYSE: ) reported results in line with analysts' expectations in Q1 CY2024, with revenue up 23.4% year on year to $1.86 bil...",
+                    "url": "https://www.investing.com/news/stock-market-news/shopifys-nyseshop-q1-earnings-results-revenue-in-line-with-expectations-but-stock-drops-167-3428218",
+                    "image_url": "https://i-invdn-com.investing.com/news/LYNXNPEC0E0NI_L.jpg",
+                    "language": "en",
+                    "published_at": "2024-05-08T12:01:53.000000Z",
+                    "source": "investing.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "SHOP",
+                            "name": "Shopify Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Technology",
+                            "match_score": 49.399662,
+                            "sentiment_score": 0.247763,
+                            "highlights": [
+                                {
+                                    "highlight": "E-commerce software platform <em>Shopify</em> (NYSE: ) reported results in line with analysts' expectations in Q1 CY2024, with revenue up 23.4% year on year to $1.86 billion. It made a non-GAAP profit of $0.20 per share, improving from its profit of $0.01 per share in the same quarter last year.\n\nIs now the time to buy <em>Shopify</em>?",
+                                    "sentiment": 0.9001,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Shopify</em> (SHOP) Q1 CY2024 Highlights:\n\nRevenue: $1.86 billion vs analyst estimates of $1.85 billion (small beat)\n\n$1.86 billion vs analyst estimates of $1.85 billion (small beat) EPS (non-GAAP): $0.20 vs analyst estimates of $0.17 (18.3% beat)\n\n$0.20 vs analyst estimates of $0.17 (18.3% beat) Gross Margin (GAAP): 51.4%, up from 47.5% in the same quarter",
+                                    "sentiment": -0.4767,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "of $232 million, down 48% from the previous quarter Gross Merchandise Volume: $60.9 billion, up 23% year on year\n\n$60.9 billion, up 23% year on year Gross Payments Volume: $36.2 billion, up 60% year on year\n\n$36.2 billion, up 60% year on year Market Capitalization: $99.27 billion\n\nOriginally created as an internal tool for a snowboarding company, <em>Shopify</em>",
+                                    "sentiment": -0.6369,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "(<em>NYSE:SHOP</em>) provides a software platform for building and operating e-commerce businesses.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Shopify</em> has generated $1.05 billion in free cash flow over the last 12 months, a decent 14.2% of revenue. This FCF margin stems from its asset-lite business model and gives it a decent amount of cash to reinvest in its business.",
+                                    "sentiment": 0.5106,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Key Takeaways from Shopify's Q1 Results We enjoyed seeing <em>Shopify</em> materially improve its free cash flow margin this quarter, which doubled from 6% in the same quarter last year to 12%. We were also glad its gross margin improved and its EPS beat analysts' expectations.",
+                                    "sentiment": 0.91,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "On the other hand, its revenue guidance for next quarter was softer than expected - Wall Street was projecting 19% year-on-year growth while <em>Shopify</em> forecasted a \"high-teens\" growth rate. Overall, this quarter's results seemed fairly positive, but the company's quarterly outlook is giving shareholders shaky hands.",
+                                    "sentiment": 0.775,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Shopify's (<em>NYSE:SHOP</em>) Q1 Earnings Results: Revenue In Line With Expectations But Stock Drops 16.7% By Stock Story",
+                                    "sentiment": 0,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "uuid": "bf1bce86-6e0c-442e-aadc-7905a9479fb3",
+            "title": "Beyond Meat® Reports First Quarter 2024 Financial Results",
+            "description": "EL SEGUNDO, Calif., May  08, 2024  (GLOBE NEWSWIRE) --  Beyond Meat, Inc. (NASDAQ: BYND) (“Beyond Meat” or “the Company”), a leader in plant-based meat,...",
+            "keywords": "Nasdaq:BYND, Beyond Meat, Inc.",
+            "snippet": "EL SEGUNDO, Calif., May 08, 2024 (GLOBE NEWSWIRE) -- Beyond Meat, Inc. (NASDAQ: BYND) (“Beyond Meat” or “the Company”), a leader in plant-based meat, to...",
+            "url": "https://www.globenewswire.com/news-release/2024/05/08/2878313/0/en/Beyond-Meat-Reports-First-Quarter-2024-Financial-Results.html",
+            "image_url": "https://ml.globenewswire.com/Resource/Download/2fd5b30f-49db-45f5-9420-bdaccbecfe0c",
+            "language": "en",
+            "published_at": "2024-05-08T20:30:00.000000Z",
+            "source": "globenewswire.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "BYND",
+                    "name": "Beyond Meat, Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Consumer Defensive",
+                    "match_score": 69.76706,
+                    "sentiment_score": -0.032755,
+                    "highlights": [
+                        {
+                            "highlight": "., May 08, 2024 (GLOBE NEWSWIRE) -- <em>Beyond</em> <em>Meat</em>, <em>Inc</em>. (<em>NASDAQ</em>: <em>BYND</em>) (“<em>Beyond</em> <em>Meat</em>” or “the Company”), a leader in plant-based meat, today reported financial results for its first quarter ended March 30, 2024.\n\nFirst Quarter 2024 Financial Highlights1\n\nNet revenues were $75.6 million, a decrease of 18.0% year-over-year.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Meat</em> Jerky, which has been discontinued",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "About <em>Beyond</em> <em>Meat</em>\n\n<em>Beyond</em> <em>Meat</em>, <em>Inc</em>. (<em>NASDAQ</em>: <em>BYND</em>) is a leading plant-based meat company offering a portfolio of revolutionary plant-based meats made from simple ingredients without GMOs, no added hormones or antibiotics, and 0 mg of cholesterol per serving.",
+                            "sentiment": 0.0904,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Founded in 2009, <em>Beyond</em> <em>Meat</em> products are designed to have the same taste and texture as animal-based meat while being better for people and the planet.",
+                            "sentiment": 0.4404,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "While <em>Beyond</em> <em>Meat</em> believes that its assumptions are reasonable, it is very difficult to predict the impact of known factors and, of course, it is impossible to anticipate all factors that could affect actual results.",
+                            "sentiment": -0.4144,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Availability of Information on Beyond Meat’s Website and Social Media Channels\n\nInvestors and others should note that <em>Beyond</em> <em>Meat</em> routinely announces material information to investors and the marketplace using SEC filings, press releases, public conference calls, webcasts and the <em>Beyond</em> <em>Meat</em> Investor Relations website.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "While not all of the information that the Company posts to the <em>Beyond</em> <em>Meat</em> Investor Relations website or to social media accounts is of a material nature, some information could be deemed to be material.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Contacts\n\nMedia:\n\nShira Zackai\n\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c021f04051e0d42160d0f070d052c0e091503020801090d18420f0301">[email&#160;protected]</a>\n\nInvestors:\n\nRaphael Gross\n\<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="563834332f3938323b333722163f35243f38357835393b">[email&#160;protected]</a>\n\n<em>BEYOND</em> <em>MEAT</em>, <em>INC</em>.",
+                            "sentiment": -0.4767,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>MEAT</em>, <em>INC</em>.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>MEAT</em>, <em>INC</em>.",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Beyond</em> <em>Meat</em>® Reports First Quarter 2024 Financial Results",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                }
+            ],
+            "similar": [
+                {
+                    "uuid": "69a539a3-3b35-45e7-99a2-3c0fba975c5d",
+                    "title": "Southwest Gas Holdings, Inc. Reports First Quarter 2024 Financial Results, Affirms Guidance",
+                    "description": "Delivers Strong First Quarter Utility Earnings\nPositive Nevada Rate Case Outcome\nCenturi IPO Successfully Executed; Net Proceeds Used to Reduce Centuri Debt\nLAS VEGAS, May 8, 2024 /PRNewswire/ --...",
+                    "keywords": "Markets",
+                    "snippet": "Delivers Strong First Quarter Utility Earnings\n\nPositive Nevada Rate Case Outcome\n\nCenturi IPO Successfully Executed; Net Proceeds Used to Reduce Centuri Debt\n\n...",
+                    "url": "https://www.marketscreener.com/quote/stock/CENTURI-HOLDINGS-INC-168662789/news/Southwest-Gas-Holdings-Inc-Reports-First-Quarter-2024-Financial-Results-Affirms-Guidance-46664273/",
+                    "image_url": "https://www.marketscreener.com/images/twitter_MS_fdblanc.png",
+                    "language": "en",
+                    "published_at": "2024-05-08T12:31:11.000000Z",
+                    "source": "marketscreener.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "SWX",
+                            "name": "Southwest Gas Holdings, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Utilities",
+                            "match_score": 154.3963,
+                            "sentiment_score": 0.186927,
+                            "highlights": [
+                                {
+                                    "highlight": "Delivers Strong First Quarter Utility Earnings\n\nPositive Nevada Rate Case Outcome\n\nCenturi IPO Successfully Executed; Net Proceeds Used to Reduce Centuri Debt\n\nLAS VEGAS, May 8, 2024 /PRNewswire/ -- <em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>.",
+                                    "sentiment": 0.8225,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "(<em>NYSE</em>: <em>SWX</em>) (\"Southwest Gas\" or \"Company\") today reported first quarter 2024 consolidated net income of $87.7 million, or $1.22 per diluted share, and adjusted consolidated net income of $98.5 million, or $1.37 per diluted share.",
+                                    "sentiment": 0.5267,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>SOUTHWEST</em> <em>GAS</em> <em>HOLDINGS</em>, <em>INC</em>.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>., through its primary operating subsidiary Southwest Gas Corporation, engages in the business of purchasing, distributing and transporting natural gas.",
+                                    "sentiment": 0.5423,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "In addition, <em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>. is the majority owner of Centuri Holdings, Inc., which provides comprehensive utility infrastructure services across North America.",
+                                    "sentiment": 0.25,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Such statements include, without limitation, statements regarding <em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>. (the \"Company\"), Southwest Gas Corporation (the \"Utility\" or \"Southwest\"), Centuri Holdings, Inc. and Centuri Group, Inc. (\"Centuri\") and their expectations or intentions regarding the future.",
+                                    "sentiment": 0.0904,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Factors that could cause actual results to differ also include (without limitation) those discussed under the heading \"Risk Factors,\" \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" and \"Quantitative and Qualitative Disclosure about Market Risk\" in <em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>.'",
+                                    "sentiment": -0.4939,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>SOUTHWEST</em> <em>GAS</em> <em>HOLDINGS</em>, <em>INC</em>.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>SOUTHWEST</em> <em>GAS</em> <em>HOLDINGS</em>, <em>INC</em>.",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "View original content to download multimedia:https://www.prnewswire.com/news-releases/<em>southwest</em>-<em>gas</em>-<em>holdings</em>-<em>inc</em>-reports-first-quarter-2024-financial-results-affirms-guidance-302138978.html\n\nSOURCE <em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>.",
+                                    "sentiment": 0.3182,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Southwest</em> <em>Gas</em> <em>Holdings</em>, <em>Inc</em>. Reports First Quarter 2024 Financial Results, Affirms Guidance",
+                                    "sentiment": 0,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+                                        </code>
+                                    </pre>
+Example response
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container my-5">
+<div class="row text-center py-5">
+<div class="col px-5">
+<h1 class="word-rotator-title font-weight-bold text-9 mb-3">
+marketaux is Incredibly Powerful and Easy-to-Use
+</h1>
+<p class="lead px-5 mb-0">
+Get the latest financial and stock market news from top news sources. Use our API to access clean and relevant financial news and analysis.
+</p>
+</div>
+</div>
+</div>
+<section class="section m-0 mt-4 border-0 p-relative" id="features">
+<div class="container">
+<div class="row py-2 align-items-center justify-content-center">
+<div class="col-lg-6 text-center">
+<img class="img-fluid" src="https://www.marketaux.com/website_assets/img/home/43.png" alt="Entity tracking illustration">
+</div>
+<div class="col-lg-6 text-center text-lg-left">
+<h2 class="text-color-dark font-weight-bold text-6 mb-1">Over 200,000 entities tracked every minute</h2>
+<p class="lead">We track over 80 global markets with news from more than 5,000 quality sources in 30+ languages.</p>
+<p>Concise analysis of only relevant text allows us to generate superior analytics for stocks and other entities.</p>
+<a href="https://www.marketaux.com/news/country/us" class="btn btn-dark custom-secondary-font font-weight-bold text-3 px-5 py-3 mt-3">VIEW SUPPORTED ENTITIES</a>
+</div>
+</div>
+</div>
+<div class="custom-animated-circles custom-animated-circles-primary custom-animated-circles-pos-3 d-none d-block-md">
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+<div class="circle"></div>
+</div>
+</section>
+<section class="section bg-transparent m-0 border-0">
+<div class="container">
+<div class="row py-2 align-items-center justify-content-center">
+<div class="col-lg-6 text-center text-lg-left">
+<h2 class="text-color-dark font-weight-bold text-6 mb-1">Advanced language processing technology</h2>
+<p class="lead">Our NLP technology allows us to identify critical details within news articles.</p>
+<p>Our tracked entities include stocks, indices, ETFs, commodities, mutual funds, futures, currencies and crypto, complete with relevant analysis.</p>
+<a href="https://www.marketaux.com/register" class="btn btn-dark custom-secondary-font font-weight-bold text-3 px-5 py-3 mt-3">GET FREE API KEY</a>
+</div>
+<div class="col-lg-6 text-center">
+<img class="img-fluid" src="https://www.marketaux.com/website_assets/img/home/42.png" alt="Advanced natural language processing technology illustration">
+</div>
+</div>
+</div>
+</section>
+<section class="section section-height-3 curved-border curved-border-top m-0 border-0" id="faqs">
+<div class="container">
+<div class="row py-2">
+<div class="col text-center">
+<h2 class="text-color-dark font-weight-bold text-7 mb-1">Frequent Asked Questions</h2>
+</div>
+</div>
+<div class="row py-3 align-items-center justify-content-center">
+<div class="col-sm-9">
+<div class="toggle toggle-minimal toggle-primary" data-plugin-toggle>
+<section class="toggle active">
+<a class="toggle-title">Do I have to pay?</a>
+<div class="toggle-content">
+<p class="pb-3">Our service is 100% free to use on our free plan - no payment details are required.</p>
+</div>
+</section>
+<section class="toggle active">
+<a class="toggle-title">What counts as an API request?</a>
+<div class="toggle-content">
+<p class="pb-3">Each time the API is used to access financial news or analysis data, 1 API request is added to your daily usage. The number of requests allowed for your account depends on which subscription plan you are on.</p>
+</div>
+</section>
+<section class="toggle active">
+<a class="toggle-title">Can I pay annually?</a>
+<div class="toggle-content">
+<p class="pb-3">Yes, paying annually will provide you 2 months free per year (20% discount). To register for a yearly plan, simply go to our pricing page while logged in and select a plan and you will be prompted to pay monthly or annually.</p>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="row py-2">
+<div class="col text-center">
+<a href="https://www.marketaux.com/faq" class="btn btn-light text-color-dark custom-secondary-font font-weight-bold text-3 px-5 py-3">SEE ALL FAQs</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer id="footer" class="bg-color-secondary border-top-0 mt-0">
+<div class="footer-copyright bg-color-primary bg-color-scale-overlay bg-color-scale-overlay-1">
+<div class="bg-color-scale-overlay-wrapper">
+<div class="container py-2 px-0">
+<div class="row py-4">
+<div class="col-lg-5 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+<p class="text-color-light">marketaux © Copyright 2024</p>
+</div>
+<div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
+<nav id="sub-menu">
+<ul>
+<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a href="https://www.marketaux.com/news/country/us" class="ml-1 text-decoration-none text-color-light"> API Overview</a></li>
+<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a href="https://www.marketaux.com/faq" class="ml-1 text-decoration-none text-color-light"> FAQs</a></li>
+<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a href="https://www.marketaux.com/tos" class="ml-1 text-decoration-none text-color-light"> Terms and Conditions</a></li>
+<li class="border-0"><i class="fas fa-angle-right text-color-light"></i><a href="https://www.marketaux.com/privacy" class="ml-1 text-decoration-none text-color-light"> Privacy</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+<script src="https://www.marketaux.com/website_assets/vendor/bootstrap/js/bootstrap.min.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+
+
+<script src="https://www.marketaux.com/website_assets/js/theme.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+
+<script src="https://www.marketaux.com/website_assets/js/theme.init.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+<script src="https://www.marketaux.com/website_assets/vendor/prism/prism.js" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189747859-1" type="e9f9b75138c7e357af52f2cc-text/javascript"></script>
+<script type="e9f9b75138c7e357af52f2cc-text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-189747859-1');
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e9f9b75138c7e357af52f2cc-|49" defer></script></body>
+</html>

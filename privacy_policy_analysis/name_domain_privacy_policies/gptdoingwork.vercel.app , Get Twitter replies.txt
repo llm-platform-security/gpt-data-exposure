@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Basic Page Needs -->
+      <title>MakerDock Studio: Fast-Track Your Vision - Affordable MVPs Tailored to You</title>
+      <meta charset="utf-8">
+      <meta name="description" content="At MakerDock, we convert your innovative ideas into tangible, cost-effective, and intuitive MVPs. Your idea deserves more than just concept status; we'll build you the launchpad for success.">
+     
+      <!-- Open Graph / Facebook / LinkedIn -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.makerdock.xyz/">
+      <meta property="og:title" content="MakerDock Studio: Fast-Track Your Vision - Affordable MVPs Tailored to You">
+      <meta property="og:description" content="At MakerDock, we convert your innovative ideas into tangible, cost-effective, and intuitive MVPs. Your idea deserves more than just concept status; we'll build you the launchpad for success.">
+      <meta property="og:image" content="og.png">
+  
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://www.makerdock.xyz/">
+      <meta property="twitter:title" content="MakerDock Studio: Fast-Track Your Vision - Affordable MVPs Tailored to You">
+      <meta property="twitter:description" content="At MakerDock, we convert your innovative ideas into tangible, cost-effective, and intuitive MVPs. Your idea deserves more than just concept status; we'll build you the launchpad for success.">
+      <meta property="twitter:image" content="og.png">
+
+</head>
+
+<body>
+
+    <div class="bg-gray-50">
+        <section class="relative py-12 sm:py-16 lg:pb-40">
+            <div class="absolute bottom-0 right-0 overflow-hidden">
+                <img class="w-full h-auto origin-bottom-right transform scale-150 lg:w-auto lg:mx-auto lg:object-cover lg:scale-75"
+                    src="https://cdn.rareblocks.xyz/collection/clarity/images/hero/1/background-pattern.png" alt="" />
+            </div>
+
+            <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-y-4 lg:items-center lg:grid-cols-2 xl:grid-cols-2">
+                    <div class="text-center xl:col-span-1 lg:text-left md:px-16 lg:px-0 xl:pr-20">
+                        <div class="relative inline-flex my-10 group">
+                            <div
+                                class="absolute transitiona-all duration-1000 opacity-80 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-70 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                            </div>
+
+                            <div class="text-3xl font-bold mb-2 z-10 text-white px-2">Makerdock Studio</div>
+                        </div>
+                        <h1
+                            class="text-4xl font-bold leading-tight text-gray-900 sm:text-5xl sm:leading-tight lg:text-6xl lg:leading-tight font-pj">
+                            Fast-Track Your Vision: Affordable MVPs Tailored to You</h1>
+                        <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">Your idea deserves more than just concept status; we'll build the launchpad for your success".</p>
+
+                        <div class="relative inline-flex mt-10 group">
+                            <div
+                                class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                            </div>
+
+                            <a href="https://tally.so/r/wLzMOO" title=""
+                                class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                                role="button">
+                                Talk to us today!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="xl:col-span-1">
+                        <img class="w-full mx-auto" src="Group 1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="py-12 bg-gray-50 sm:py-16 lg:py-20">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
+                <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">What We Offer
+                </h2>
+                <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">We understand startups, their needs, and their
+                    constraints. And we are here to help you create that perfect MVP that brings your idea to life. </p>
+            </div>
+
+            <div
+                class="grid max-w-4xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 sm:mt-12 lg:mt-20 sm:text-left">
+                <div class="space-y-4 sm:space-y-8">
+                    <div class="overflow-hidden bg-white shadow-md rounded-xl">
+                        <div class="p-9">
+                            <svg class="w-12 h-12 mx-auto text-gray-400 sm:mx-0" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                    d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <h3 class="mt-8 text-2xl font-bold text-gray-900 sm:mt-10 font-pj">Websites & Landing Pages
+                            </h3>
+                            <p class="mt-6 text-base text-gray-600 font-pj">Create a compelling wesbsites or landing
+                                pages
+                                that builds your brand and entices your audience</p>
+                        </div>
+                    </div>
+
+                    <div class="overflow-hidden bg-white shadow-md rounded-xl">
+                        <div class="p-9">
+                            <svg class="w-12 h-12 mx-auto text-gray-400 sm:mx-0" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                            </svg>
+                            <h3 class="mt-8 text-2xl font-bold text-gray-900 sm:mt-10 font-pj">AI Apps</h3>
+                            <p class="mt-6 text-base text-gray-600 font-pj">Harness the power of AI with applications
+                                that
+                                enhance efficiency and provide insightful data.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-4 sm:space-y-8">
+                    <div class="relative">
+                        <div class="absolute -inset-1">
+                            <div class="w-full h-full rotate-180 opacity-30 blur-lg filter"
+                                style="background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)">
+                            </div>
+                        </div>
+
+                        <div class="relative overflow-hidden bg-white shadow-md rounded-xl">
+                            <div class="p-9">
+                                <svg class="w-12 h-12 mx-auto text-gray-400 sm:mx-0" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                                </svg>
+                                <h3 class="mt-8 text-2xl font-bold text-gray-900 sm:mt-10 font-pj">Web Apps</h3>
+                                <p class="mt-6 text-base text-gray-600 font-pj">We build intuitive, scalable, and secure
+                                    web
+                                    applications tailored to your specific needs.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="overflow-hidden bg-white shadow-md rounded-xl">
+                        <div class="p-9">
+                            <svg class="w-12 h-12 mx-auto text-gray-400 sm:mx-0" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                            </svg>
+                            <h3 class="mt-8 text-2xl font-bold text-gray-900 sm:mt-10 font-pj">Outsourced Team of
+                                Developers
+                            </h3>
+                            <p class="mt-6 text-base text-gray-600 font-pj">Our skilled developers
+                                can
+                                integrate with your team and work under your direction..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 bg-gray-50 sm:py-16 lg:py-20">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="text-left sm:mx-auto sm:text-center lg:max-w-2xl">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Why an MVP?</h2>
+                <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">Building a minimum viable
+                    product (MVP) is a crucial process for any startup. It helps to validate your business idea,
+                    minimizethe risk, and pave the way for scalable growth.</p>
+            </div>
+
+            <div class="relative mt-12 md:mt-16">
+                <div class="absolute -inset-4 lg:-inset-y-6 lg:-inset-x-8">
+                    <div class="w-full h-full max-w-4xl mx-auto opacity-20 blur-lg filter"
+                        style="background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)">
+                    </div>
+                </div>
+
+                <div class="relative mx-auto sm:flex items-streach sm:space-x-8 sm:justify-center">
+                    <div class="bg-white rounded-xl flex-1">
+                        <div class="px-6 py-8">
+                            <div class="flex items-start">
+                                <svg class="flex-shrink-0 w-6 h-6 mt-0.5 text-gray-900"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <div class="ml-5">
+                                    <h3 class="text-lg font-bold text-gray-900 font-pj">Quick Market Entry</h3>
+                                    <p class="mt-3 text-base text-gray-900 font-pj">An MVP helps you get your product to
+                                        the
+                                        market faster, allowing you to capitalize on opportunities and establish a
+                                        customer
+                                        base early.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl flex-1">
+                        <div class="px-6 py-8">
+                            <div class="flex items-start">
+                                <svg class="flex-shrink-0 w-6 h-6 mt-0.5 text-gray-900"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <div class="ml-5">
+                                    <h3 class="text-lg font-bold text-gray-900 font-pj">Cost-Effective</h3>
+                                    <p class="mt-3 text-base text-gray-900 font-pj">Developing an MVP requires less
+                                        capital
+                                        as it focuses on the core functionalities of your product. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl flex-1">
+                        <div class="px-6 py-8">
+                            <div class="flex items-start">
+                                <svg class="flex-shrink-0 w-6 h-6 mt-0.5 text-gray-900"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <div class="ml-5">
+                                    <h3 class="text-lg font-bold text-gray-900 font-pj">Product Validation</h3>
+                                    <p class="mt-3 text-base text-gray-900 font-pj">MVPs help in validating your product
+                                        idea in the market, letting you know if your product has the potential to
+                                        succeed
+                                        before you invest more resources in it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 sm:py-16 lg:py-20 bg-gray-50">
+        <div class="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
+            <div class="text-left sm:max-w-4xl sm:mx-auto sm:text-center">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Examples of MVPs We Have
+                    Built
+                </h2>
+                <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">Experience the quality of
+                    our
+                    work firsthand. From innovative AI apps to dynamic web applications, we have brought numerous ideas
+                    to
+                    life. Here are some of our creations:</p>
+            </div>
+
+            <div class="grid max-w-md grid-cols-1 gap-5 mx-auto mt-16 text-center lg:grid-cols-3 lg:max-w-none">
+
+                <div
+                    class="relative overflow-hidden transition-all duration-200 border rounded-lg border-neutral hover:bg-gray-300 group flex flex-col group">
+                    <div class="overflow-hidden aspect-w-16 aspect-h-9 flex-1">
+                        <img class="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
+                            src="coffee.png" alt="" />
+                    </div>
+                    <div class="p-6 xl:px-8 xl:py-6 flex flex-col flex-1">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900 font-pj">BuyMeCryptoCoffee</h3>
+                            <p class="mt-1 text-base text-gray-500 font-pj">Web3 version of BuyMeaCoffee, support a
+                                creator with
+                                cryptocurrency</p>
+                        </div>
+                        <a href="https://www.buymeacryptocoffee.xyz/" title=""
+                            class="inline-flex items-center justify-center font-sans text-base font-normal text-gray-700 md:opacity-100 group-hover:opacity-100 duration-300 transition-all">
+                            Check it out
+                            <div
+                                class="inline-flex items-center justify-center w-8 h-8 ml-2 transition-all duration-200 bg-transparent rounded-full group-hover:bg-neutral">
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                </svg>
+                            </div>
+                            <span class="absolute inset-0" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="relative overflow-hidden transition-all duration-200 border rounded-lg border-neutral hover:bg-gray-300 group flex flex-col group">
+                    <div class="overflow-hidden aspect-w-16 aspect-h-9 flex-1">
+                        <img class="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
+                            src="karya.png" alt="" />
+                    </div>
+                    <div class="p-6 xl:px-8 xl:py-6 flex flex-col flex-1">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900 font-pj">Karyahunt</h3>
+                            <p class="mt-1 text-base text-gray-500 font-pj">GPT-4 powered job application assistant to create customised cover letters and cold emails</p>
+                        </div>
+                        <a href="https://karyahunt.com/" title=""
+                            class="inline-flex items-center justify-center font-sans text-base font-normal text-gray-700 group-hover:opacity-100 duration-300 transition-all">
+                            Check it out
+                            <div
+                                class="inline-flex items-center justify-center w-8 h-8 ml-2 transition-all duration-200 bg-transparent rounded-full group-hover:bg-neutral">
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                </svg>
+                            </div>
+                            <span class="absolute inset-0" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div
+                    class="relative overflow-hidden transition-all duration-200 border rounded-lg border-neutral hover:bg-gray-300 group flex flex-col group">
+                    <div class="overflow-hidden aspect-w-16 aspect-h-9 flex-1">
+                        <img class="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
+                            src="noggin.png" alt="" />
+                    </div>
+                    <div class="p-6 xl:px-8 xl:py-6 flex flex-col flex-1">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900 font-pj">Noggin</h3>
+                            <p class="mt-1 text-base text-gray-500 font-pj">Notion course builder to
+                                turn
+                                expertise into bite-sized, dynamic courses</p>
+                            </p>
+                        </div>
+                        <a href="https://noggin.netlify.app/" title=""
+                            class="inline-flex items-center justify-center font-sans text-base font-normal text-gray-700 group-hover:opacity-100 duration-300 transition-all">
+                            Check it out
+                            <div
+                                class="inline-flex items-center justify-center w-8 h-8 ml-2 transition-all duration-200 bg-transparent rounded-full group-hover:bg-neutral">
+                                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                </svg>
+                            </div>
+                            <span class="absolute inset-0" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+            <!-- <div class="mt-10 text-center flex justify-center w-full">
+
+                <div class="relative inline-flex mt-10 group">
+                    <div
+                        class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                    </div>
+
+                    <a href="#" title=""
+                        class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                        role="button">
+                        Explore More
+                        <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <section class="py-12 bg-gray-50 sm:py-16 lg:py-20">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="px-8 py-10 overflow-hidden lg:px-24 md:py-20 bg-white rounded-3xl">
+                <div class="max-w-lg mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Ready to bring your MVP
+                        to
+                        life?</h2>
+                        <p class="mt-2 text-lg text-gray-600 sm:mt-6 font-inter">At Makerdock Studio, we
+                        specialize in turning your ideas into reality without breaking the bank. </p>
+                </div>
+
+                <div class="mt-8 text-center sm:mt-12">
+                    <div class="relative inline-flex group">
+                        <div class="absolute duration-1000 rotate-180 transitiona-all opacity-70 -inset-px rounded-xl blur-lg filter group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"
+                            style="background: linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)">
+                        </div>
+
+                        <a href="https://tally.so/r/wLzMOO" title=""
+                            class="relative inline-flex items-center justify-center py-3.5 text-base font-bold text-white transition-all duration-200 bg-gray-900 border border-transparent px-9 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-opacity-90 rounded-xl"
+                            role="button">
+                            Talk to us today!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

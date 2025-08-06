@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="Of8VBNxH90O0GH14q0FnEeLExwegyPnrTfELFHuL">
+
+    <title> Researcher Life | Privacy Policy </title>
+
+    <!-- Fonts -->
+    <link rel="icon" type="image/png" href="https://accounts.researcher.life/img/default/favicon.png">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&family=Oxygen:wght@300;400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- Styles -->
+    <link href="/css/default_app.css?id=f4b8f2aaa0091424e793" rel="stylesheet">
+    <style>
+        @font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://cdn.researcher.life/rlife/fonts/Lato-Regular.woff2)
+      format("woff2"),
+    url(https://cdn.researcher.life/rlife/fonts/Lato-Regular.woff)
+      format("woff");
+}
+@font-face { 
+  font-family: "Lato Bold";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://cdn.researcher.life/rlife/fonts/Lato-Bold.woff2)
+      format("woff2"),
+    url(https://cdn.researcher.life/rlife/fonts/Lato-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://cdn.researcher.life/rlife/fonts/Gilroy-Bold.woff2)
+      format("woff2"),
+    url(https://cdn.researcher.life/rlife/fonts/Gilroy-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://cdn.researcher.life/rlife/fonts/Gilroy-SemiBold.woff2)
+      format("woff2"),
+    url(https://cdn.researcher.life/rlife/fonts/Gilroy-SemiBold.woff)
+      format("woff");
+}
+
+    </style>
+            <!-- Tracking Scripts -->
+                    <script type="text/javascript">
+    (function(bi, gi, nt) {
+        window._bigint = {"track" : function(l, de, da) {
+                window._bigint._oB.push({"l": l, "de": de, "da": da});
+            }, "_oB": []
+        };
+        var _sD = ((/(test|local|dev|staging)[0-9]*\./gi).test(window.location.hostname)) ? "test1." : "";
+        _sD = (nt === undefined || nt === "") ? _sD : (nt + ".");
+        var _sE = (bi === undefined || bi === "") ? "cactusglobal.io" : bi;
+        var _aE = (gi === undefined || gi === "") ? "cactusglobal.io" : gi;
+        window.cactusglobal_io = {};
+        window.cactusglobal_io.endpoint = "https://" + _sD + _aE + "/v1/";
+        var d = new Date();
+        var jsElm = document.createElement("script");
+        jsElm.async = 1;
+        jsElm.type = "application/javascript";
+        jsElm.src = "https://" + _sD + _sE + "/assets/client-track.js?" + d.getFullYear() + '' + d.getMonth() + '' + d.getDate() + '' + d.getHours();
+        document.head.appendChild(jsElm);
+    })("cf.cactusglobal.io", "api.cactusglobal.io");
+</script>
+            <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-536JGF6');</script>
+<!-- End Google Tag Manager -->
+            <script src="https://www.datadoghq-browser-agent.com/datadog-rum-us.js" type="text/javascript"></script>
+<script>
+    window.DD_RUM && window.DD_RUM.init({
+        clientToken: 'pub793a134b6f4f49f81fe2a51628d115ac',
+        applicationId: '94055ec6-95b6-4852-9acf-0a79e59103ca',
+        sampleRate: 100,
+        trackInteractions: true
+    });
+</script>                            <!-- Global site tag (gtag.js) - Google Ads: 718661876 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-625346749"></script>
+    <script> window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('set', 'linker', {'accept_incoming': true});
+        gtag('js', new Date());
+        gtag('config', 'AW-625346749');
+    </script>
+            <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '535653360428652');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=535653360428652&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+                            <script type="text/javascript">
+    var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+    let cleverTapId = "869-599-495Z";
+    clevertap.account.push({"id": cleverTapId});
+    clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
+    clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agrees to share their IP data
+    (function () {
+        var wzrk = document.createElement('script');
+        wzrk.type = 'text/javascript';
+        wzrk.async = true;
+        wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/a.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wzrk, s);
+    })();
+</script>            <!-- Hotjar Tracking Code for researcher.life -->
+<script>
+    function _getCookie(name) {
+        let ca = document.cookie.split(';');
+        let caLen = ca.length;
+        let cookieName = name+'=';
+        let c;
+
+        for (let i = 0; i < caLen; i += 1) {
+            c = ca[i].replace(/^\s+/g, '');
+            if (c.indexOf(cookieName) == 0) {
+                return c.substring(cookieName.length, c.length);
+            }
+        }
+        return '';
+    }
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1883997,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    hj('tagRecording', ["rsso", "rlife"]);
+    setTimeout(function () {
+        let visitorId = _getCookie('__ivc') || null;
+        hj('identify', null, {
+            'visitorId': visitorId
+        });
+    },500);
+</script>
+                </head>
+<body class="static-page privacy-and-cookie-policy">
+
+
+<nav class="navbar w-100 navbar-light navbar-custom lighten-4">
+	<div class="container-fluid">
+		<div class="col-12">
+			<div class="logo-wrapp">
+				<span class="navbar-brand">
+				  <a href="https://researcher.life"> <img class="img-fluid" src="https://accounts.researcher.life/img/logo-blue.svg" alt="Logo"/></a>
+				</span>
+				<div class="editage-logo">
+			  <span class="editage-logo-span">
+				by
+				<img height="18" width="70" src="https://cdn.researcher.life/logos/editage-blue.svg" alt="Editahe 20 Year">
+			  </span>
+			  
+			  <div class="editage-tooltip">
+				<div class="editage-tooltip-inner">
+				 
+				  <p i18n="">
+					Researcher.Life is built on Editage's in-depth understanding of what researchers need during publication and
+					beyond, accumulated over 20 years.
+				  </p>
+				</div>
+			  </div>
+			</div>
+						  </div>
+		</div>
+	</div>
+</nav>
+<div class="container">
+<h1 class="text-center">Privacy Policy</h1>
+	<p>Thank you for visiting our website at <a href="https://researcher.life/">researcher.life</a> (“Website”). Your privacy is important to us, and Cactus Communications, including its subsidiaries and affiliates (“CACTUS,” “the Company,” “we,” “our,” or “us”) is committed to protecting your privacy whilst providing a personalized and valuable service.</p>
+	  <p>Here at CACTUS, we are committed to safeguarding your data while rendering our professional services. This Website comprises a portfolio of services and products offered by CACTUS that operates through various group entities including, but not limited to, entities located in Singapore, India, Japan, China, South Korea, Denmark, the United Kingdom, and the United States.</p>
+	  <p>This Privacy Policy governs our data collection, processing, and usage practices. It is designed to allow you to make an informed choice regarding use, access, and collection of your Personal Information.</p>
+
+
+	  <h2>Personal Data That We Collect</h2>
+		<p>We may collect from you your personal data when you provide us with it, for example in response to a survey, when you apply for a job, register for events, register for personalized services, request information about products, use our services, or request customer support. Personal Information such as full name, gender, date of birth, country location, postal address, zip code, job title, company information, e-mail addresses, telephone numbers, commercial information, such as purchase history and referral source, payment information (including bank and other details) billing address, and work and education profile. This data may include IP address, operating system, and browser type. We also collect data relating to your personal preferences with regard to the journals you like to read, your most preferred published papers, etc. (“Personal Information”). We do not intentionally collect more personal data than described here. However, if you at your choice, intentionally or unintentionally disclose some personal data other than the description provided in this paragraph then such data shall continue to be governed by this Privacy Policy. We may also have acquired your Personal Information from a third-party service provider or publicly available data source.</p>
+<p>We do not collect any special categories of personal data about you (such as details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offences.</p>
+	<p>The Website may contain links to other sites. CACTUS is not responsible for the privacy notices or the content of such third-party websites even if:</p>
+	<ul>
+		<li>You accessed the third-party website using links from our Website; or</li>
+		<li>You accessed our Website using links from a third-party website.</li>
+	</ul>
+
+	  <h2> How We Use Your Personal Data </h2>
+
+		<h3 class="sub-head">As a Data Controller:</h3>
+		<p>We use the Personal Information we collect only in compliance with this Privacy Policy. We will never sell your Personal Information to any third party without your explicit consent. In addition to the uses identified elsewhere in this Privacy Policy, we may use your Personal Information to (a) assist you with service, partnership, or employment request; (b) send to you information that we think may be of interest to you by post, email, or other means; (c) send you marketing communications relating to our business, current services, new services or promotions; (d) respond to an enquiry, question, or concern that you may have raised; (e) perform analytics and create a database to improve your browsing experience and enhance the functionality of our services; or (f) send you on email or by any other means a suggested reading list based on your personal preferences submitted to us. </p>
+        <p>We may share Personal Information with trusted service providers or our affiliates for payment processing, supplementing the information you provide us in order to provide you with better service, account administration, perform statistical analysis, provide marketing assistance, host the Website, index user profile pages and usernames as part of the URL, technical and customer support. Any third parties receiving your Personal Information from us are prohibited from using your Personal Information except for these purposes, and they are required to maintain the confidentiality of your information. </p>
+		<p>After you place an order on our Website, you may need to make payments for the services you have ordered. In order to process your payments, we use a number of third-party payment processors. Your payment will be processed by the payment provider you choose to process your payment via a payment gateway. If you give us banking or other payment mode details, we solely use such details to process payment refunds, if any, to you. The third-party payment processors we use also collect, use, and process your information, including payment information, in accordance with their respective privacy policies.</p>
+        <p>To ensure that the security and integrity of the Website is safeguarded, CACTUS may monitor your Personal Information. CACTUS may under certain circumstances engage a trusted third-party service provider for the purpose of managing the technical operations involved in hosting the Website. </p>
+        <p>We will share the Personal Information, if disclosure was required by law, rule or regulation or was in response to a valid order of a court or authorized agency of government or other legal process. We may be required to process Personal information for legal and compliance reasons, such as the prevention, detection, or investigation of a crime, loss prevention or prevention of fraud. We may also use Personal Information to meet our internal and external audit requirements and for information security purposes.</p>
+
+		<h3 class="sub-head">International Transfer of Personal Information:</h3>
+		<p>To facilitate our global operations, we may transfer and access your Personal Information across geographical borders to our subsidiaries or affiliates or service providers working on our behalf in other countries with different data protection laws that may not be on par with that of the origin country. A transfer of personal information has a broad meaning and occurs when information is communicated, moved, accessed or otherwise sent to another country. This Privacy Policy shall apply even if we transfer Personal Information to countries outside your country.</p>
+		<p>To the extent that it may be necessary, and solely for the purposes of providing the service available on the Website to you, we may disclose to such third party any of your Personal Information that may be necessary for the procurement of services from the third party.</p>
+	<p>In cases where personal information would need to be transferred outside of a country where CACTUS operates, towards other jurisdictions, specific requirements may apply for such Transfer to be allowed. We may also transfer personal information to a third party located outside your country of origin without having to implement the above measures if you have given consent to us for the transfer of your Personal Information.</p>
+	<p>As of now, your Personal Information is being transferred via internet to a third-party service provider Amazon Web Services in either Singapore, India, USA or Japan for hosting/back-up the data on cloud. The data is encrypted at rest and in transit.</p>
+	<p>By using the services, you expressly agree to the transfers of personal data to third countries where this requires your consent.</p>
+
+		<h3 class="sub-head">As a Data Processor:</h3>
+		<p>We shall use and process the information or data we collect through Data Controllers/Controllers (“Business Partners”) as per the instructions given by Controllers and in compliance with the terms and conditions applicable to Processors under the Controller/Processor Binding Agreement entered with the Controllers and applicable Regulations. We agree not to process such information to sub-processors (Sub-contractor), unless prior written consent is sought from the Controller, and in the event where general consent has been given by the Controller, we shall inform the Controller of any new sub-processor. We shall have the same contractual obligations reflected with the sub-processors as agreed with the Controller and assume complete responsibility for the actions and inactions of such sub-processors.</p>
+		<p>Upon written request from the Controller, we agree to delete or return all the Personal Information or data to the Controller after the end of the provision of services relating to processing, unless there is a legal obligation or basis for us to retain a copy of such information or data for further processing.</p>
+		<p>In addition to implementation of appropriate technical and organizational measures to ensure an appropriate level of security, we shall make available to the Controller all information necessary to demonstrate compliance with our obligations and allow the Controller or another auditor appointed by the Controller for conducting audits, including inspections, to demonstrate that processing meets the requirements of the Regulation, and ensure the protection of the rights of the data subject.</p>
+
+		<h2>Children’s Personal Information</h2>
+	  <p>CACTUS does not knowingly collect any Personal Information from children under the age of 18. If you are under the age of 18, please do not submit any Personal Information through our websites or service(s). We encourage parents and legal guardians to monitor their children’s Internet usage and to help enforce this policy by instructing their children never to provide Personal Information through our service(s) or websites without their permission. If you have reason to believe that a child under the age of 18 has provided Personal Information to us through our websites or service(s), please report to us and we will endeavor to delete that information and terminate the child’s account from our databases.</p>
+		<h2>Retention of Personal Information</h2>
+		<p>We retain Personal Information that you provide us as long as an account is active or as needed to provide the service(s) or as necessary to comply with our legal obligations, maintain accurate financial and other records, resolve disputes, and enforce our agreements. If you wish to terminate your account or request that we no longer use your Personal Information, please contact us.</p>
+		<p>We will retain your information for no longer than necessary, taking into account the following:</p>
+      <ul>
+            <li>the purpose(s) and use of your information both now and in the future (such as whether it is necessary to continue to store that information in order to continue to perform our obligations under a contract with you or to contact you in the future);</li>
+            <li>whether we have any legal obligation to continue to process your information (such as any record-keeping obligations imposed by relevant law or regulation);</li>
+            <li>whether we have any legal basis to continue to process your information (such as your consent);</li>
+            <li>how valuable your information is (both now and in the future);</li>
+            <li>any relevant agreed industry practices on how long information should be retained;</li>
+            <li>the levels of risk, cost, and liability involved with us continuing to hold the information;</li>
+            <li>how hard it is to ensure that the information can be kept up to date and accurate; </li>
+            <li>any relevant surrounding circumstances (such as the nature and status of our relationship with you); and</li>
+            <li>the time period your account remains active.</li>
+      </ul>
+     <h2>Use of Cookies & Similar Technologies</h2>
+     <p align="left">Cookies are data files that are sent from a website to a browser to record information about users for various purposes. We use cookies, including essential, functional, and analytical cookies. For further information on how we use cookies, please see our <a href="https://accounts.researcher.life/cookie-policy" target="_blank">cookies policy</a>.</p>
+     <p align="left">
+			<h2>Social Media Features</h2>
+
+		<p>Our Website may include integrations with social media sites, such as Facebook, LinkedIn, Twitter, and ORCID, the "Share This" button, or interactive mini- programs. Where we have your consent, these features may collect your IP address and which page you are visiting on our Websites and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our Websites. Your interactions with these features are governed by the privacy policy of the company providing them.</p>
+
+		<h2>Security of Your Personal Information</h2>
+		<p>CACTUS has put in place the following security practices and procedures to protect your Personal Information from unauthorized access, use, or disclosure:</p>
+	<ol class="lower-alpha">
+		<li>We secure the Personal Information you provide on computer servers in a controlled, secure environment, protected from unauthorized access, use, or disclosure</li>
+		<li>All our Information security processes are ISO/IEC 27001:2013 compliant.</li>
+		<li>All our employees and service providers have signed confidentiality agreements where they have undertaken that they will not make any Personal Information available to anyone, unless authorized in writing by the user.</li>
+		<li>Personal Information will not be made available to any third party, except as provided herein or by obtaining your prior written consent.</li>
+        <li>Wherever applicable all documents submitted are managed through a secure online job management system; the documents that are sent to us can only be viewed by service professionals working on your assignment.</li>
+		<li>Payment-related Personal Information:
+		<ol class="lower-roman">
+		    <li>The site uses Secure Socket Layer (SSL) encryption when accepting payment- related Personal Information, to ensure that your payment-related Personal Information is secure.</li>
+		    <li>In order to protect your credit card information, all online transactions are conducted using a secure 256-bit SSL encryption signed by VeriSign. Encryption ensures that no information is accessible to unknown parties. CACTUS hereby undertakes not to store your credit card information, thereby reducing the possibility of fraudulent charges being made by CACTUS.</li>
+      </ol>
+		</li>
+	</ol>
+
+<h2>Hyperlinks</h2>
+	  <p>Our Company websites contain links to other websites, including without limitation those websites of our affiliates. Their inclusion cannot be taken to imply any endorsement or validation by us of the content of the said websites. We are not responsible for the privacy practices, nor do we accept any liability about the content of such websites including those of our group companies that have their own privacy policies tailored for the business practices and sectors in which they operate.</p>
+		<h2>Testimonials & Public Forums</h2>
+		<p>We post on our Website customer testimonials/comments/reviews that may contain Personal Information. Prior to posting the testimonial, we obtain the customer’s consent to post their name along with their testimonial. If you want your testimonial removed, please contact us.</p>
+		<p>Our Websites offer publicly accessible blogs, community forums, or discussion board posts. You should be aware that any information you provide in these areas may be read, collected, and used by others who access them. You agree and acknowledge that the use of such information is not confidential, does not constitute Personal Information, and is not subject to protection under CACTUS’s Privacy Policy.</p>
+<h2>Corporate Events</h2>
+		<p>In the event CACTUS goes through a business transition, such as a merger or acquisition by another company, or sale of all or a portion of its assets, your user account and personal data will likely be among the assets transferred. You will be notified via a prominent notice of any such change in ownership or control. During such event, we may also disclose your Personal Information to any other third party with your prior consent.</p>
+
+		<h2> Responsibility with You</h2>
+		<p>When you submit any Personal Information to us, you represent that you have the lawful right to submit the Personal Information and agree that you will not submit any information unless you are legally entitled to do so and that such Personal Information is true, complete, and accurate. You may not use a false email address or other identifying information to impersonate any person or entity, or otherwise mislead as to the origin of any content.</p>
+
+
+		<p>Any improper collection or misuse of Personal Information is in violation of this Privacy Policy and of the applicable terms and conditions of use. You agree not to misuse any Personal Information available on our Website or to gather it or use robots or other automated scripts, codes, or functionalities to do so. We may immediately suspend or terminate your access to our Website without notice if we become aware that you are in breach of applicable terms and conditions of use or of this Privacy Policy.</p>
+
+		<h2>Opting Out and Unsubscribing</h2>
+	  <h3 class="sub-head">Reviewing, Correcting, and Deletion of Your Personal Information</h3>
+		<p>Upon request, CACTUS will provide you with information about whether we hold any of your Personal Information. We allow users of the service(s) or Website to access, update, or modify their information by clicking on the My account link in the CACTUS navigation menu. If you provide us with your Personal Information, you have the following rights with respect to that information:</p>
+
+		    <ul>
+		      <li>To review the user information that you have supplied to us</li>
+		      <li>To request that we correct any errors, outdated information, or omissions in user information that you have supplied to us</li>
+		      <li>To request that your user information not be used to contact you</li>
+		      <li>To request that your user information be deleted from our records</li>
+		      <li>To withdraw your consent to our use of your information; please note that if you withdraw your consent, this will not affect the lawfulness of our use and processing of your information on the basis of your consent before the point in time when you withdraw your consent. </li>
+	        </ul>
+
+<h3 class="sub-head">To Unsubscribe from Our Communications</h3>
+	  <p>Your registered email address will be automatically subscribed to our newsletters, which will contain information on industry updates, author resources, upcoming webinars, latest offers, and new services by CACTUS. You may unsubscribe from our marketing communications by clicking on the "unsubscribe" link located on the bottom of our e-mails, or by contacting us. Customers cannot opt out of receiving transactional emails related to their account with us.</p>
+		<h2>Sensitive Personal Information</h2>
+	  <p>What Is Sensitive Personal Information?</p>
+		<p>“Sensitive Personal Information” is information about an individual that reveals their racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic information, biometric information for the purpose of uniquely identifying an individual, information concerning health, or information concerning a person’s sex life or sexual orientation.</p>
+		<p>We do not knowingly or intentionally collect sensitive Personal Information from individuals, and you must not submit sensitive Personal Information to us.</p>
+	<p>If, however, you intentionally or unintentionally transmit sensitive Personal Information to us, you will be considered to have explicitly consented to us processing that sensitive Personal Information.</p>
+		<h2>Amendments to Privacy Policy</h2>
+		<p>We may update this Privacy Policy from time to time to keep up with changing legislation and best practices. We encourage you to check our Website frequently to see the current privacy policy so that you are informed of how CACTUS is using and protecting your Personal Information. If we make any significant change, we will place a prominent notice on the Website and provide an updated effective date. Your continued use of this Website or the service(s) following the posting of any amendment, modification, or change to this Policy shall constitute your acceptance of the amendments to this Policy. You can choose to discontinue use of the Websites or service(s) if you do not accept the terms of this policy or any modified version of this policy.</p>
+		<h2>Legal Disclosure</h2>
+	  <p>We reserve the right to disclose your personal data as required by applicable law, in response to lawful requests by public authorities, including meeting national security or law enforcement requirements and when we believe that disclosure is necessary to protect our rights and/or to comply with a judicial proceeding, court order, or other legal process served on us.</p>
+		<h2>Contact Us</h2>
+		<p>If you have any questions / requests about this Privacy Policy or Personal Information, please do not hesitate to contact our Data Protection Officer as under:</p>
+	<table style="width:100%;" class="privacy-table">
+		<tr>
+			<td><strong>Name of Data Protection Officer</strong></td>
+			<td>Mr. Uttam Sarkar</td>
+		</tr>
+		<tr>
+			<td><strong>Email</strong></td>
+			<td>privacy@cactusglobal.com</td>
+		</tr>
+	</table>
+<br/>
+
+	<table class="privacy-table" style="width:100%">
+		<tr>
+			<th><strong>Region</strong></th>
+			<th><strong>Address</strong></th>
+			<th><strong>Contact Number (available from 10am to 6pm on working days)</strong></th>
+		</tr>
+		<tr>
+			<td><strong>China</strong></td>
+			<td>10A, Shanghai International Ocean Shipping & Finance Center, No. 720 Pudong Anvenue, Shanghai, China 200120</td>
+			<td>400-120-3020</td>
+		</tr>
+		<tr>
+			<td><strong>South Korea</strong></td>
+			<td>4F, 22, World Cup buk-ro, Mapo-gu, Seoul 039992</td>
+			<td>02-3478-4396</td>
+		</tr>
+		<tr>
+			<td><strong>Brazil</strong></td>
+			<td>214 Carnegie Center, Suite 102, Princeton, NJ 08540, USA</td>
+			<td>0800 047 47 73</td>
+		</tr>
+		<tr>
+			<td><strong>Japan</strong></td>
+			<td>4F, TUG-I Building, 2-4-1 Misaki-cho, Chiyoda-ku, Tokyo, 101-0061</td>
+			<td>0120-50-2987</td>
+		</tr>
+		<tr>
+			<td><strong>India</strong></td>
+			<td>Cactus Communications Private Limited, A-703, Satellite Gazebo, Guru Hargovindji Marg, Andheri (East), Mumbai 400093, Maharashtra, India.</td>
+			<td rowspan="2" style="vertical-align: middle;">+1 (833) 979-0061</td>
+		</tr>
+		<tr>
+			<td><strong>Singapore and rest of the world</strong></td>
+			<td>4 Battery Road Bank of China Building, #25-01 Singapore 049908</td>
+		</tr>
+	</table>
+	<p class="mt-4 date">This Privacy Policy was last updated as of 19<sup>th</sup> November 2021.</p>
+	</div>
+
+<!-- Scripts -->
+<script type="text/javascript">
+    /**
+     * Set referralProduct and feature, for sending it to clevertap.
+     */
+    let referralProduct = 'default';
+    window.referralProduct = (referralProduct === 'default') ? 'r-life' : referralProduct;
+    window.feature = 'default';
+    window.countryCode = 'US';
+    window.clientIp = '128.252.48.9';
+    window.automation = '';
+</script>
+<script src="/js/app.js?id=7cf9eebce7fcd6eccc8b">
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-536JGF6"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</body>
+
+</html>

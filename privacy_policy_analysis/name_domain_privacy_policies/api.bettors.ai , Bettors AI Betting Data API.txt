@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bettors.ai - Hi', I'm Bettor, I aggregate data from over 100 analysts, news sources, and insiders...daily. Want some advice?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+          content="Get the latest betting insights and data from over 100 analysts, news sources, and insiders daily with Bettors.ai. Enhance your betting decisions with our premium data aggregation service." />
+    <meta name="keywords"
+          content="bootstrap 5, premium, marketing, multipurpose" />
+    <meta name="author" content="Themesdesign" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+          href="/static/css/bootstrap.min.css"
+          type="text/css" />
+    <!-- Material Icon -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="/static/css/materialdesignicons.min.css" />
+    <!-- tinyslider -->
+    <link rel="stylesheet" href="/static/css/tiny-slider.css">
+    <!-- Custom  sCss -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="/static/css/style.min.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="58">
+    
+    <nav id="navbar"
+         class="navbar navbar-expand-lg fixed-top sticky navbar-light">
+    
+    
+        
+
+    <!--Navbar Start-->
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="/static/images/logo-light.png"
+                 alt=""
+                 class="logo-light"
+                 height="20" />
+            <img src="/static/images/logo-dark.png"
+                 alt=""
+                 class="logo-dark"
+                 height="20" />
+        </a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
+                <li class="nav-item">
+                    <a href="/" class="nav-link" id="scrollElement">Coming soon.</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/privacypolicy/" class="nav-link">Privacy Policy</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+    
+    
+      
+
+  <!-- Start About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center mb-5">
+            <h3 class="mb-3">Privacy Policy</h3>
+            <!-- Insert the Effective Date here -->
+            <p class="text-muted">Effective Date: January 1st, 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>1. Introduction</h4>
+          <p>
+            This policy explains how Bettors.AI, a subsidiary of YP Group of
+            Companies, LLC, protects your privacy and handles your data.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>2. Information Collection</h4>
+          <p>
+            Personal Identification Information: We collect names, email addresses, and other relevant details through user interactions.
+            <br>
+            Betting Information: Besides enhancing user experience, this data helps in market analysis and service improvement.
+            <br>
+            Cookie Policy:
+          </p>
+          <ul>
+            <li>Session Cookies: For managing sessions on our site.</li>
+            <li>Persistent Cookies: To remember user preferences.</li>
+            <li>Third-Party Cookies: Used for analytics and advertising.</li>
+          </ul>
+          <p>Users can manage cookies through [direct link or instructions].</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>3. User Rights</h4>
+          <p>
+            Data Access and Correction: Users can access and correct their data by contacting <a href="/cdn-cgi/l/email-protection#d7beb9b1b897b5b2a3a3b8a5a4f9b6be"><span class="__cf_email__" data-cfemail="432a2d252c03212637372c31306d222a">[email&#160;protected]</span></a>.
+            <br>
+            Rights under Data Protection Laws: We adhere to laws like GDPR, where applicable, offering users rights over their data.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>4. Data Security</h4>
+          <p>
+            We use advanced encryption and secure storage methods. Regular security audits and compliance certifications ensure data safety.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>5. Age Restriction</h4>
+          <p>Age verification is conducted through [specific methods] to ensure compliance with our 21+ policy.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>6. International Data Transfer</h4>
+          <p>
+            In case of future international transfers, we will implement safeguards and comply with international data protection laws.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>7. Changes to This Privacy Policy</h4>
+          <p>
+            Users will be notified via email, website notifications, and in-service alerts [time frame before changes take effect].
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>8. Compliance with Laws</h4>
+          <p>
+            We comply with laws and regulations such as [list specific laws], especially regarding online betting and data protection.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>9. Additional Considerations</h4>
+          <p>
+            Data Use Opt-Out: Users can opt out of certain data uses.
+            <br>
+            Data Retention: We retain data for [specified period] or as required by law.
+            <br>
+            Third-Party Data Sharing: Information on third-party data sharing and protection measures is outlined.
+          </p>
+        </div>
+      </div>
+      <!-- Other policy sections go here... -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>10. Contacting Us</h4>
+          <p>
+            For any inquiries or concerns, reach us at
+            <a href="/cdn-cgi/l/email-protection#345d5a525b74565140405b46471a555d"><span class="__cf_email__" data-cfemail="8ee7e0e8e1ceecebfafae1fcfda0efe7">[email&#160;protected]</span></a>, [phone number],
+            or [physical mailing address].
+          </p>
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end About -->
+
+
+    
+    
+      
+
+    <!-- start footer -->
+    <footer class="footer bg-dark text-white-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#" class="d-block mb-3">
+                        <img src="/static/images/logo-light.png" alt="" height="20" />
+                    </a>
+                    <p>Your aggregated betting advice.</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</footer>
+<!-- end footer -->
+
+
+    
+    
+      
+
+    <!-- Start footer-alt -->
+    <section class="footer-alt py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center text-white-50">
+                        <p class="mb-0">
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> BETTORS.AI
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end footer-alt -->
+
+
+    
+    
+      
+
+
+    <!-- Javascript -->
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+
+    <!-- unicons -->
+    <script src="https://unicons.iconscout.com/release/v2.1.11/script/monochrome/bundle.js"></script>
+
+
+    <!-- testi-slider -->
+    <script src="/static/js/tiny-slider.js"></script>
+
+    <!-- app js -->
+    <script src="/static/js/app.js"></script>
+
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>TheSpaceDevs - Privacy</title>
+    <link rel="shortcut icon" href="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/images/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/js/base.js"></script>
+    <script src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/js/moment-with-locales.js"></script>
+    <script src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/js/moment-timezone-with-data.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/css/custom.css">
+    
+<meta name="title" content="TheSpaceDevs - Privacy"/>
+<meta property="og:title" content="TheSpaceDevs - Privacy"/>
+<meta property="og:type" content="website"/>
+<meta name="description"
+      content="A group of space enthusiast developers working on services to improve accessibility of spaceflight information.">
+<meta property="og:description"
+      content="A group of space enthusiast developers working on services to improve accessibility of spaceflight information.">
+<meta property="og:url" content="https://thespacedevs.com"/>
+<meta property="og:image" content="https://thespacedevs.com/static/thespacedevs/images/tsd_seo.png"/>
+
+<meta property="og:site_name" content="TheSpaceDevs"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="TheSpaceDevs - Privacy">
+<meta name="twitter:description"
+      content="A group of space enthusiast developers working on services to improve accessibility of spaceflight information.">
+<meta name="twitter:image" content="https://thespacedevs.com/static/thespacedevs/images/tsd_seo.png"/>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/" style="padding:0; margin: 0 .5em 0 .5em;">
+        <p style="font-size:1.5em;margin: 0;padding: 0;font-weight: 600;">The Space Devs</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle Navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    APIs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="/llapi">Launch Library 2</a>
+                    <a class="dropdown-item" href="/snapi">Spaceflight News API</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Network
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="/networkpartners">Partners</a>
+                    <a class="dropdown-item" href="/networkusers">Users</a>
+                </div>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/supportus">
+                    Support Us
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/about">
+                    About
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.reddit.com/r/TheSpaceDevs">
+                    <div>
+                        <img src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/images/navbar/reddit.svg" class="hideinfoimg"/>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://discord.gg/p7ntkNA">
+                    <div>
+                        <img src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/images/navbar/discord.svg" class="hideinfoimg"/>
+                    </div>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCCKiR4D6hbgk9lW9UwxZXxg">
+                    <div>
+                        <img src="https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/static/home/thespacedevs/images/navbar/youtube.svg" class="hideinfoimg" style="padding:2px;"/>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <div class="container main-body" style="padding-top: 2em;">
+        
+
+<h1>
+    Privacy
+</h1>
+<div class="card" style="margin-top: 2rem;">
+    <div class="card-body">
+        <p>
+            The Space Devs website and acompanying APIs are built free to use and do not use advertisements. The service is provided at no cost and is intended for use as it.
+            This page is used to inform our users regarding my policies with collection, use and disclosure of any personal information if anyone decides to use our services.
+            Any information collected it used for providing and improving the service. We will not use of share information with anyone except as described below.
+        </p>
+        <h4>Information Collection</h4>
+        <p>
+            For a better experience, while using our service we may collect some data through the use of Google Analytics which will allow us to see the number of people visiting our site.
+            The Google Analytics policy can be found here - https://policies.google.com/privacy?hl=en-US
+            The API will also collect your IP address, this is purely to allow us to use rate limiting and will not be shared with any third parties.
+        </p>
+        <h4>Log Data</h4>
+        <p>
+            We want to inform you that whenever you use our services we log your visits. This data may include information such as your IP address, and in some cases location data based off of this IP address.
+        </p>
+        <h4>Cookies</h4>
+        <p>
+            Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory.
+
+            This Service does not use these “cookies” explicitly. However, the website may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+        </p>
+        <h4>Security</h4>
+        <p>
+            I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage in 100% secure and reliable, and I cannot guarantee its absolute security.
+        </p>
+        <h4>Links to Other Sites</h4>
+        <p>
+            This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+        </p>
+        <h4>Children’s Privacy</h4>
+        <p>
+            These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I will immediately delete this from our servers. If you are a parent of guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+        </p>
+        <h4>Changes to This Privacy Policy</h4>
+        <p>
+            I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+        </p>
+        <h4>Contact Us</h4>
+        <p>
+            If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0c7f797c7c637e784c7864697f7c6d6f6968697a7f226f6361">[email&#160;protected]</a>
+        </p>
+    </div>
+</div>
+
+
+    </div>
+    <footer class="footer mt-auto py-3" style="padding: 15px 15px!important;margin-top:2%!important;">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <p><a href="/cdn-cgi/l/email-protection#a2d1d7d2d2cdd0d6e2d6cac7d1d2c3c1c7c6c7d4d18cc1cdcf"><span class="__cf_email__" data-cfemail="d1a2a4a1a1bea3a591a5b9b4a2a1b0b2b4b5b4a7a2ffb2bebc">[email&#160;protected]</span></a></p>
+            </div>
+            <div class="col-md-4 text-right">
+                <span class="text-muted">
+                    <div class="box" style="display:flex;align-items:center;justify-content: flex-end;">
+                         <i class="material-icons" style="padding-right: 0.25em;">copyright</i>
+                         <span>2020-2023 Copyright TheSpaceDevs</span>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script>
+    $( document ).ready(function() {
+        localDateTimeFormat();
+        localDateFormat();
+    });
+    $(".hideinfoimg").mousedown(function(e){
+        e.preventDefault();
+    });
+    $(".hideinfoimg").on("contextmenu", function(e){
+        return false;
+    });
+</script>
+</html>

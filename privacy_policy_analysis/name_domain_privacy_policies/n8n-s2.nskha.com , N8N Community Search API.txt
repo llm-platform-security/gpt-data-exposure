@@ -1,0 +1,715 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta name="description" content="N8N Assistant (Unofficial) Privacy Policy Effective date: January 7, 2024 Welcome to the Privacy Policy for the N8N Assistant (Unofficial) plugin (" plugin").="" this="" policy="" outlines="" how="" we..."="">
+<meta property="og:title" content="Legal">
+<meta property="og:description" content="N8N Assistant (Unofficial) Privacy Policy Effective date: January 7, 2024 Welcome to the Privacy Policy for the N8N Assistant (Unofficial) plugin (" plugin").="" this="" policy="" outlines="" how="" we..."="">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="n8n Assistant (Unofficial)">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Legal">
+<meta name="twitter:description" content="N8N Assistant (Unofficial) Privacy Policy Effective date: January 7, 2024 Welcome to the Privacy Policy for the N8N Assistant (Unofficial) plugin (" plugin").="" this="" policy="" outlines="" how="" we..."="">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","url":"https://n8n.nskha.com/legal-wrpck1vg36","name":"Legal","headline":"Legal","description":"N8N Assistant (Unofficial) Privacy Policy Effective date: January 7, 2024 Welcome to the Privacy Policy for the N8N Assistant (Unofficial) plugin (\"Plugin\"). This policy outlines how we...","inLanguage":"en","mainEntityOfPage":"https://n8n.nskha.com/legal-wrpck1vg36","image":"","publisher":{"@type":"Organization","name":"n8n Assistant (Unofficial)","logo":{"@type":"ImageObject","url":"https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/5a8d84ca-934f-4599-9d61-d050510d3b71.png"}},"datePublished":"","dateModified":""}</script>
+<link rel="icon" href="https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/5a8d84ca-934f-4599-9d61-d050510d3b71.png">
+<title>Legal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+<script type="text/javascript" src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer=""></script>
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js" async=""></script>
+<script src="https://www.unpkg.com/lit@2.0.0-rc.2/polyfill-support.js" async=""></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@n8n_io/n8n-demo-component/n8n-demo.bundled.js" async=""></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<style id="NTC_style-document">
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+overflow: auto;
+}
+
+.NTC_wrapper {
+min-height: 100vh;
+}
+</style>
+<style id="NTC_style-e94d83cd-5f62-4e3f-8ab1-99625c5c7d67">
+@keyframes fade_in{0%{opacity:0}to{opacity:1}}@keyframes fade_out{0%{opacity:1}to{opacity:0}}@keyframes rotation{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}@keyframes highlightBg{0%,to{background:var(--ntc-user-bg-color)}50%{background:var(--ntc-user-highlight-color)}}@keyframes zoom{0%{transform:scale(0)}to{transform:scale(1)}}@keyframes backdrop-fade-in{0%{opacity:0}to{opacity:1}}.NTC_wrapper[id=e94d83cd-5f62-4e3f-8ab1-99625c5c7d67]{--ntc-user-font-color:#333E48;--ntc-light-font-color:#5D7184;--ntc-user-accent-color:#FD6F57;--ntc-user-bg-color:#FFFFFF;--ntc-dark-bg-color:#D8DEE4;--ntc-light-bg-color:#E1E6EA;--ntc-user-highlight-color:#FEA99A;--ntc-user-border-color:#B2BEC8;--ntc-user-font-family:Rubik;--ntc-user-font-size:16px;--ntc-user-max-width:700px;--ntc-user-block-padding:0.5em;--ntc-user-border-radius:0.4em;--ntc-user-border-width:0.05em;--ntc-user-border-style:solid;--ntc-user-icon-stroke-width:1.8;--ntc-user-h1-size:25.6px;--ntc-user-h1-weight:700;--ntc-user-h2-size:20.8px;--ntc-user-h2-weight:700;--ntc-user-h3-size:17.6px;--ntc-user-h3-weight:700;--ntc-user-headings-padding:0.3em 0 0.3em 0;--ntc-user-expandable-header-size:calc(var(--ntc-user-font-size) * 1.3);--ntc-user-inline-code-color:#b44437;--ntc-user-inline-code-bg-color:rgba(250, 239, 240, 0.78);--ntc-modal-z-index:2147483643;--ntc-user-p-line-height:calc(1.05ex / 0.33);--ntc-user-letter-spacing:normal;--ntc-user-checkbox-border-radius:4px;--ntc-user-checkbox-border-color:rgb(211, 220, 228);--ntc-user-checkbox-bg-color:rgb(52, 109, 219);--ntc-user-text-direction:ltr}.NTC_wrapper{--ntc-app-border-radius-xs:2px;--ntc-app-border-radius-sm:4px;--ntc-app-border-radius-md:6px;--ntc-app-border-radius-lg:8px;--ntc-app-border-radius-round:50%;--ntc-app-spacing-xs:2px;--ntc-app-spacing-sm:4px;--ntc-app-spacing-md:8px;--ntc-app-spacing-lg:12px;--ntc-app-spacing-xl:16px;--ntc-app-spacing-2xl:24px;--ntc-app-spacing-3xl:32px;--ntc-app-sizing-xxs:12px;--ntc-app-sizing-xs:18px;--ntc-app-sizing-sm:24px;--ntc-app-sizing-md:34px;--ntc-app-sizing-lg:56px;--ntc-app-sizing-xl:90px;--ntc-app-sizing-2xl:200px;--ntc-app-sizing-3xl:300px;--ntc-app-width-half:49%;--ntc-app-page-cover-width-lg:135px;--ntc-app-page-cover-height-lg:110px;--ntc-app-page-cover-width-sm:80px;--ntc-app-page-cover-height-sm:56px;--ntc-app-font-weight-xs:300;--ntc-app-font-weight-sm:400;--ntc-app-font-weight-md:500;--ntc-app-font-weight-lg:600;--ntc-app-font-weight-xl:700;--ntc-app-zIndex-menu:2147483644;--ntc-app-error-color:#8c0002;--ntc-app-success-color:#355e3b;--ntc-app-top-pos-xs:50px;--ntc-app-top-pos-xxs:8px;width:100%;font-size:var(--ntc-user-font-size);background-color:var(--ntc-user-bg-color);display:grid;grid-template-columns:1fr minmax(100px,var(--ntc-user-max-width)) 1fr;grid-template-rows:auto auto auto 1fr auto auto;container-type:inline-size;container-name:wrapper;color:var(--ntc-user-font-color);overflow:visible}.NTC_wrapper p{margin:0}.NTC_wrapper *{box-sizing:border-box;font-family:var(--ntc-user-font-family),-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif!important;letter-spacing:var(--ntc-user-letter-spacing);line-height:var(--ntc-user-p-line-height);direction:var(--ntc-user-text-direction)!important}.NTC_wrapper h1,.NTC_wrapper h2,.NTC_wrapper h3,.NTC_wrapper h4,.NTC_wrapper h5,.NTC_wrapper h6{margin:0;color:var(--ntc-user-font-color)}.NTC_wrapper svg{fill:none!important;stroke:var(--ntc-user-font-color)}.NTC_wrapper svg[data-filled=""]{fill:var(--ntc-user-font-color)!important;stroke:none}.NTC_wrapper svg path{stroke:inherit;stroke-width:var(--ntc-user-icon-stroke-width);stroke-linecap:round;stroke-linejoin:round}.NTC_space-content{display:flex;flex-direction:column;grid-column:2;background-color:var(--ntc-user-bg-color);grid-row:4;color:var(--ntc-user-font-color);word-break:break-word;padding-bottom:var(--ntc-app-spacing-xl);padding-left:var(--ntc-app-spacing-xl);padding-right:var(--ntc-app-spacing-xl);padding-top:var(--ntc-app-spacing-2xl)}@container wrapper (min-width: 1240px){.NTC_space-content{padding-bottom:var(--ntc-app-spacing-md);padding-left:var(--ntc-app-spacing-md);padding-right:var(--ntc-app-spacing-md)}}.NTC_icon-button-container{cursor:pointer;height:var(--ntc-app-sizing-md);width:var(--ntc-app-sizing-md);background-color:transparent;border-radius:var(--ntc-app-border-radius-md);display:flex;justify-content:center;align-items:center;transition:background-color .2s ease-in-out}.NTC_icon-button-container:hover{background-color:var(--ntc-light-bg-color)}.NTC_icon-button-container svg{transition:all .2s ease-in-out}.NTC_icon-button-container:hover svg[data-filled=""]{fill:var(--ntc-user-accent-color)!important}.NTC_download-loader{border:2px solid var(--ntc-user-accent-color);border-bottom-color:transparent;border-radius:var(--ntc-app-border-radius-round);box-sizing:border-box;animation:rotation 1s linear infinite}.NTC_search-highlight{-webkit-animation:highlightBg 1s linear;-o-animation:highlightBg 1s linear;animation:highlightBg 1s linear;-webkit-animation-iteration-count:2;-o-animation-iteration-count:2;animation-iteration-count:2}.NTC_content-overflow-checker>:last-child{margin-bottom:var(--ntc-app-spacing-2xl)}.NTC_block-expandable{width:100%;box-sizing:border-box}.NTC_expandable-header{box-sizing:border-box;padding:var(--ntc-app-spacing-md);color:var(--ntc-user-font-color);cursor:pointer;display:flex;justify-content:space-between;align-items:center}.NTC_expandable-header h5{width:100%;color:inherit;font-weight:500;font-size:var(--ntc-user-expandable-header-size);padding-right:8px;white-space:pre-wrap;word-break:keep-all}.NTC_block-page:hover,.NTC_expandable-header:hover{color:var(--ntc-user-accent-color)}.NTC_block-page:hover svg,.NTC_expandable-header:hover svg,.NTC_header-anchor:hover svg{stroke:var(--ntc-user-accent-color)}.NTC_expandable-expand-icon{margin:0 calc(var(--ntc-app-spacing-md) + var(--ntc-app-spacing-xs));height:var(--ntc-app-sizing-sm);width:var(--ntc-app-sizing-sm);display:flex;justify-content:center;align-items:center}.NTC_block-expandable[aria-expanded=true] .NTC_expandable-expand-icon svg,.NTC_page-tree-item[aria-expanded=true]>.NTC_page-tree-link>.NTC_page-tree-button>.NTC_page-tree-expand-button svg{transform:rotate(180deg)}.NTC_expandable-expand-icon svg{transform:rotate(0);transition:transform .3s ease-in-out}.NTC_expandable-content{display:grid;grid-template-rows:0fr;transition:grid-template-rows 500ms;padding:0 var(--ntc-app-spacing-xl)}.NTC_content-overflow-checker{overflow:hidden}.NTC_block-expandable[aria-expanded=true] .NTC_expandable-content{grid-template-rows:1fr}.NTC_expandable-bottom-bordered{border-bottom:1px solid var(--ntc-dark-bg-color)}.NTC_expandable-fully-bordered{border:1px solid var(--ntc-dark-bg-color)}.NTC_expandable-top-bordered{border-top:1px solid var(--ntc-dark-bg-color)}.NTC_block-header:hover .NTC_header-anchor{display:inline-flex}.NTC_block-header{cursor:default;width:fit-content}.NTC_header-anchor{display:none;align-self:center;width:min-content;height:min-content;transition:all .2s;cursor:pointer}.NTC_header-1,.NTC_header-2,.NTC_header-3{font-size:var(--ntc-user-h1-size);font-weight:var(--ntc-user-h1-weight);padding:var(--ntc-user-headings-padding)}.NTC_header-2,.NTC_header-3{font-size:var(--ntc-user-h2-size);font-weight:var(--ntc-user-h2-weight)}.NTC_header-3{font-size:var(--ntc-user-h3-size);font-weight:var(--ntc-user-h3-weight)}.NTC_block-list-item{line-height:var(--ntc-user-p-line-height)}.NTC_block-bulleted-list,.NTC_block-numbered-list{margin:0;padding-top:var(--ntc-user-block-padding);padding-bottom:var(--ntc-user-block-padding)}.NTC_page-link-a{text-decoration:none;color:inherit;width:100%;height:fit-content;padding-bottom:var(--ntc-app-spacing-md);padding-top:var(--ntc-app-spacing-md)}.NTC_block-page{box-sizing:border-box;padding:var(--ntc-user-block-padding);border-radius:var(--ntc-app-border-radius-md);width:100%;height:100%;min-height:calc(var(--ntc-app-sizing-lg) + 4px);color:var(--ntc-user-font-color);transition:transform ease .25s;gap:var(--ntc-app-spacing-md);cursor:pointer;display:flex;align-items:center;justify-content:space-between}.NTC_block-page:hover{transform:translateY(-3px)}.NTC_border-page{border:var(--ntc-user-border-width) solid var(--ntc-user-border-color)}.NTC_border-page>.NTC_page-text-wrapper{padding:0 var(--ntc-app-spacing-xl)}.NTC_page-text-wrapper{display:flex;padding-right:var(--ntc-app-spacing-xl);flex-direction:column;align-items:flex-start;justify-content:flex-start;max-height:var(--ntc-app-page-cover-height);flex:1;gap:var(--ntc-app-spacing-md)}.NTC_page-link-title,.NTC_page-summary{overflow:hidden;text-overflow:ellipsis;white-space:initial;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.NTC_page-link-title{font-weight:var(--ntc-app-font-weight-xl);font-size:16px;color:inherit}.NTC_page-summary{font-weight:var(--ntc-app-font-weight-md);color:var(--ntc-light-font-color);opacity:.7;font-size:14px}.NTC_page-cover-image{box-sizing:border-box;position:relative;width:var(--ntc-app-page-cover-width-sm);height:var(--ntc-app-page-cover-height-sm);overflow:hidden}.NTC_page-img{width:100%;height:100%;object-fit:cover;background-color:transparent;border-radius:var(--ntc-app-border-radius-sm)}.NTC_page-icon{width:auto;height:auto;display:flex;justify-content:center;align-items:center;margin:auto;cursor:pointer}@container wrapper (min-width: 600px){.NTC_page-link-title{font-size:18px}.NTC_page-cover-image{width:var(--ntc-app-page-cover-width-lg);height:var(--ntc-app-page-cover-height-lg)}.NTC_page-summary{font-size:16px}}.NTC_block-paragraph{padding:var(--ntc-user-block-padding)0 var(--ntc-user-block-padding)0;line-height:var(--ntc-user-p-line-height)}.NTC_block-video{outline:0;margin:auto;width:100%;height:fit-content}.NTC_block-audio{margin:var(--ntc-user-block-padding)0}.NTC_block-image{display:flex;width:100%;padding-top:var(--ntc-user-block-padding);padding-bottom:var(--ntc-user-block-padding);box-sizing:content-box;cursor:zoom-in}.NTC_image-align-start{justify-content:flex-start}.NTC_image-align-center{justify-content:center}.NTC_image-align-flex-end{justify-content:flex-end}.NTC_image-img{object-fit:contain;width:100%;background-color:transparent}.NTC_block-document{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:var(--ntc-app-spacing-lg);padding:var(--ntc-app-spacing-md);width:100%;box-sizing:border-box;border:var(--ntc-user-border-width) solid var(--ntc-user-border-color);border-radius:var(--ntc-app-border-radius-md);margin:0 8px 8px 0}.NTC_block-document div:not(:nth-child(2)){flex-shrink:0}.NTC_icon-container{width:var(--ntc-app-sizing-md);height:var(--ntc-app-sizing-md);border-radius:var(--ntc-app-border-radius-md);background-color:var(--ntc-light-bg-color);display:flex;justify-content:center;align-items:center}.NTC_document-meta-container,.NTC_document-name,.NTC_document-size{width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_document-meta-container{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:var(--ntc-app-spacing-xs)}.NTC_document-name,.NTC_document-size{font-size:14px;font-weight:var(--ntc-app-font-size-sm);color:var(--ntc-user-font-color)}.NTC_document-size{font-size:12px;color:var(--ntc-light-font-color)}.NTC_download-loader{display:none;height:var(--ntc-app-sizing-sm);width:var(--ntc-app-sizing-sm)}.NTC_document-download-container[data-is-downloading=true] div:nth-child(2){display:block}.NTC_document-download-container[data-is-downloading=true] div:nth-child(1){display:none}.NTC_block-code{display:block;margin:0;white-space:nowrap!important;word-wrap:normal;height:fit-content;position:relative;padding-top:var(--ntc-user-block-padding);padding-bottom:var(--ntc-user-block-padding)}.NTC_code-content{display:block;border-radius:var(--ntc-app-border-radius-sm);font-size:14px;font-family:monospace!important;width:100%;height:100%;white-space:pre!important}.NTC_code-content span{font-size:14px;font-family:monospace,sans-serif!important}.NTC_code-actions{position:absolute;display:block;white-space:nowrap!important;width:fit-content;margin:0;top:calc(var(--ntc-app-top-pos-xxs) + 6px);right:calc(var(--ntc-app-top-pos-xxs) + 2px)}.NTC_block-code:hover .NTC_copy-action{display:flex}.NTC_copy-action,.NTC_idle-icon{justify-content:center;align-items:center}.NTC_copy-action{display:none;height:var(--ntc-app-sizing-sm);width:var(--ntc-app-sizing-sm);border-radius:var(--ntc-app-border-radius-sm);background-color:var(--ntc-light-bg-color);opacity:1;transition:opacity .2s;cursor:pointer}.NTC_copy-action:hover{opacity:.9}.NTC_idle-icon{display:flex;width:100%;height:100%}.NTC_idle-icon svg{stroke:var(--ntc-user-font-color)}.NTC_active-icon,.NTC_block-checkbox[aria-checked=false] .NTC_checkbox-input svg,.NTC_block-code[data-is-copied=true] .NTC_idle-icon{display:none}.NTC_block-code[data-is-copied=true] .NTC_active-icon{display:flex}.NTC_block-hint{box-sizing:border-box;display:flex;align-items:baseline;gap:var(--ntc-app-spacing-sm);padding:var(--ntc-app-spacing-xl)0;margin:var(--ntc-app-spacing-md)0;background-color:var(--ntc-light-bg-color);border-left:4px solid #000;border-radius:var(--ntc-app-border-radius-sm)}.NTC_hint-info{border-color:#00569d}.NTC_hint-warning{border-color:#f1c40f}.NTC_hint-danger{border-color:#e74c3c}.NTC_hint-tip{border-color:#07bc0c}.NTC_hint-icon{margin-left:var(--ntc-app-spacing-xl);margin-right:var(--ntc-app-spacing-md)}.NTC_hint-content{margin-top:var(--ntc-app-spacing-xs);padding-right:var(--ntc-app-spacing-xl);line-height:var(--ntc-user-p-line-height);cursor:text;width:100%}.NTC_block-divider{margin:var(--ntc-app-spacing-sm)0;width:100%;height:1px;color:var(--ntc-user-border-color);background-color:var(--ntc-user-border-color)}.NTC_block-checkbox,.NTC_block-quote{line-height:var(--ntc-user-p-line-height)}.NTC_block-quote{display:inline-block;width:100%;border-left:3px solid #6b7985;caret-color:#444756;margin:var(--ntc-user-block-padding)0 var(--ntc-user-block-padding)0;padding:var(--ntc-app-spacing-xs)0 var(--ntc-app-spacing-xs) var(--ntc-app-spacing-lg);word-break:normal}.NTC_block-checkbox{display:flex;flex-direction:row;align-items:center;min-height:var(--ntc-app-sizing-sm)}.NTC_checkbox-input{display:flex;justify-content:center;align-items:center;height:calc(var(--ntc-app-sizing-xs) - 2px);width:calc(var(--ntc-app-sizing-xs) - 2px);margin:0 var(--ntc-app-spacing-md);border-radius:var(--ntc-app-border-radius-sm);border-width:1px;border-style:solid;background-color:transparent;border-color:var(--ntc-user-checkbox-border-color)}.NTC_checkbox-input svg{stroke:#fff}.NTC_checkbox-text{color:var(--ntc-user-font-color)}.NTC_block-checkbox[aria-checked=true] .NTC_checkbox-input{background-color:var(--ntc-user-checkbox-bg-color);border-color:transparent}.NTC_block-checkbox[aria-checked=true] .NTC_checkbox-text{text-decoration:line-through;opacity:.666}.NTC_block-table{position:relative;overflow:auto;margin:var(--ntc-app-spacing-xs)0;width:100%;height:fit-content}.NTC_table{width:100%;box-sizing:border-box;border-collapse:collapse}.NTC_table-auto-layout{table-layout:auto}.NTC_table-fixed-layout{table-layout:fixed}.NTC_table-header-cell{padding:var(--ntc-app-spacing-lg) var(--ntc-app-spacing-xl);min-width:var(--ntc-app-sizing-2xl);text-align:start;border:0;background-color:var(--ntc-light-bg-color);border-bottom:1px solid var(--ntc-user-border-color);word-break:break-all}.NTC_table-header-cell:not(:first-child){border-left:1px solid var(--ntc-user-border-color)}.NTC_table-header-cell:not(:last-child){border-right:1px solid var(--ntc-user-border-color)}.NTC_table-row{border-bottom:1px solid var(--ntc-user-border-color)}.NTC_table-cell{overflow-wrap:anywhere;vertical-align:middle;padding:var(--ntc-app-spacing-md) var(--ntc-app-spacing-xl);height:calc(var(--ntc-app-sizing-md) - 2px);min-width:var(--ntc-app-sizing-2xl);margin:0;border:0;color:var(--NTCVAR-user-main-font-color)}.NTC_table-cell:not(:first-child){border-left:1px solid var(--ntc-user-border-color)}.NTC_table-cell:not(:last-child){border-right:1px solid var(--ntc-user-border-color)}.NTC_block-embed{margin:var(--ntc-app-spacing-lg)0;width:100%}.NTC_embed-iframe{top:0;left:0;border:0;width:100%;height:100%}.NTC_embed-vimeo,.NTC_embed-youtube{width:100%;aspect-ratio:16/9}.NTC_embed-coub{width:580px;height:320px}.NTC_embed-airtable{width:100%;height:500px}.NTC_embed-vine{width:580px;height:320px;aspect-ratio:16/9}.NTC_embed-imgur{width:540px;height:500px}.NTC_embed-gfycat{width:580px;height:436px}.NTC_embed-twitch-channel,.NTC_embed-twitch-video{width:600px;height:366px}.NTC_embed-yandex-music-album{width:540px;height:400px}.NTC_embed-yandex-music-track{width:540px;height:100px}.NTC_embed-yandex-music-playlist{width:540px;height:400px}.NTC_embed-codepen{width:300px;height:600px}.NTC_embed-instagram{width:505px;height:400px}.NTC_embed-twitter{width:550px;height:250px}.NTC_embed-facebook,.NTC_embed-pinterest{width:100%;aspect-ratio:16/9}.NTC_embed-aparat{width:600px;height:300px}.NTC_embed-miro{width:700px;height:500px}.NTC_embed-timeTonic{width:100%;height:800px}.NTC_embed-loom{width:100%;aspect-ratio:16/9}.NTC_text-bold{font-weight:var(--ntc-app-font-weight-xl)}.NTC_text-code{word-break:keep-all;white-space:break-spaces;padding:var(--ntc-app-spacing-xs) var(--ntc-app-spacing-sm);border-radius:var(--ntc-app-border-radius-md);margin:0 calc(var(--ntc-app-border-radius-xs) - 1px);font-weight:var(--ntc-app-font-weight-sm);font-family:monospace;background-color:rgba(250,239,240,.78);color:#b44437}.NTC_text-italic{font-style:italic}.NTC_text-link{text-decoration:none;color:var(--ntc-user-accent-color)}.NTC_text-strikethrough{text-decoration:line-through}.NTC_text-underline{text-decoration:underline}.NTC_space-bottom{grid-column:2;grid-row:5;height:fit-content;padding:var(--ntc-app-spacing-md)}.NTC_bottom-actions{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin:var(--ntc-app-spacing-lg)0;padding:0 var(--ntc-app-spacing-xs)}.NTC_bottom-navigation,.NTC_bottom-right-actions{display:flex;justify-content:flex-end;align-items:center;gap:var(--ntc-app-spacing-xs)}.NTC_bottom-navigation{width:100%;flex-direction:column;justify-content:center}.NTC_bottom-space-action-elements,.NTC_bottom-space-social-elements{display:flex;flex-direction:row;justify-content:flex-end;align-items:center}.NTC_bottom-space-action-elements{flex-wrap:wrap;margin:var(--ntc-app-spacing-lg)0;padding:0 var(--ntc-app-spacing-xs);width:100%}.NTC_bottom-space-social-elements{gap:var(--ntc-app-spacing-xs)}.NTC_bottom_space_info{font-size:.9em}.NTC_header-right-elements,.NTC_space-header{display:flex;flex-direction:row;align-items:center}.NTC_space-header{grid-column:1/span 3;grid-row:1;border-bottom:1px solid var(--ntc-dark-bg-color);padding:var(--ntc-app-spacing-lg);width:100%;height:fit-content;justify-content:space-between}.NTC_header-right-elements{align-self:flex-start;justify-content:flex-start;gap:var(--ntc-app-spacing-md)}.NTC_space-left{grid-column:1;grid-row:2/5;position:absolute}.NTC_page-tree-container{display:none;width:var(--ntc-app-sizing-3xl);height:100%;padding-top:var(--ntc-app-spacing-xl);padding-bottom:var(--ntc-app-spacing-3xl);padding-left:var(--ntc-app-spacing-lg);padding-right:var(--ntc-app-spacing-lg);border-right:1px solid var(--ntc-dark-bg-color);overflow:auto}@container wrapper (min-width: 1240px){.NTC_space-left{position:sticky;height:100vh;top:0}.NTC_page-tree-container{display:block}}.NTC_space-right{grid-column:2;grid-row:3;height:0}@container wrapper (min-width: 1240px){.NTC_space-right{grid-column:3;grid-row:2/5;height:auto}}.NTC_space-top,.NTC_top-space-first-row{display:flex;gap:var(--ntc-app-spacing-md)}.NTC_space-top{grid-column:2;grid-row:2;padding-top:var(--ntc-app-spacing-xl);padding-right:var(--ntc-app-spacing-md);padding-left:var(--ntc-app-spacing-md);font-size:.9em;height:fit-content;flex-direction:column}.NTC_top-space-first-row{flex-direction:row;justify-content:space-between;align-items:flex-start;width:100%}.NTC_top-space-first-row:first-child{align-self:flex-start}.NTC_top-space-title-logo{justify-content:center;align-items:center;gap:var(--ntc-app-spacing-md)}.NTC_hidden-in-desktop,.NTC_top-space-second-row,.NTC_top-space-title-logo{display:flex;flex-direction:row}.NTC_top-space-second-row{justify-content:center;align-items:center;flex-wrap:wrap}.NTC_top-space-meta-container,.NTC_top-space-social-elements{display:flex;flex-direction:row;justify-content:flex-start;align-items:center}.NTC_top-space-meta-container{flex-wrap:wrap;flex-grow:2}.NTC_top-space-social-elements{gap:var(--ntc-app-spacing-xs)}.NTC_hidden-in-mobile{display:none}.NTC_top-space-divider-circle{height:calc(var(--ntc-app-sizing-xxs) - 3px);width:calc(var(--ntc-app-sizing-xxs) - 3px);margin:auto var(--ntc-app-spacing-lg);border-radius:var(--ntc-app-border-radius-round);background-color:var(--ntc-dark-bg-color)}@container wrapper (min-width: 600px){.NTC_hidden-in-mobile{display:flex}.NTC_hidden-in-desktop{display:none}}@container wrapper (min-width: 1240px){.NTC_space-top{grid-column:2;grid-row:2;padding-top:calc(var(--ntc-app-spacing-3xl) + var(--ntc-app-spacing-md))}}.NTC_project-title-link{text-decoration:none}.NTC_project-title{font-weight:var(--ntc-user-h1-weight);font-size:1em;word-break:break-all;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:initial;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}@container wrapper (min-width: 768px){.NTC_project-title{font-size:1.3em}}@container wrapper (min-width: 1240px){.NTC_project-title{font-size:var(--ntc-user-h1-size)}}.NTC_logo-element{flex-shrink:0;height:var(--ntc-app-sizing-xs);width:var(--ntc-app-sizing-xs);border-radius:var(--ntc-app-border-radius-md);transition:opacity .2s ease-in-out}.NTC_logo-element[data-is-clickable=true]{cursor:pointer}.NTC_allow_click:hover{opacity:.8}.NTC_logo-img{width:100%;height:100%;object-fit:contain;background-color:transparent}@container wrapper (min-width: 768px){.NTC_logo-element{height:var(--ntc-app-sizing-sm);width:var(--ntc-app-sizing-sm)}}@container wrapper (min-width: 1240px){.NTC_logo-element{height:var(--ntc-app-sizing-md);width:var(--ntc-app-sizing-md)}}.NTC_burger-icon{display:flex;height:var(--ntc-app-sizing-sm);width:var(--ntc-app-sizing-sm);flex-shrink:0}.NTC_page-tree-dialog{overflow:hidden;background-color:transparent;border:0;margin:0;padding:0;width:100%;height:100%;max-width:100%;max-height:100%}.NTC_notice_dialog_modal[open]::backdrop,.NTC_page-tree-dialog[open]::backdrop{animation:backdrop-fade-in .2s ease-in-out;background-color:rgba(27,30,33,.77)}.NTC_page-tree-dialog-body{position:relative;width:100%;height:100%}.NTC_page-tree-drawer{width:100%;height:100%;overflow-y:auto;padding:var(--ntc-app-spacing-2xl) var(--ntc-app-spacing-lg);background-color:var(--ntc-user-bg-color);max-width:calc(var(--ntc-app-sizing-2xl)*2);transform:translateX(-100%);transition:transform .3s ease-in-out}.NTC_page-tree-drawer[data-is-active=true]{transform:translateX(0);transition:transform .3s ease-in-out}.NTC_page-tree-drawer-header{display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%;margin-bottom:var(--ntc-app-spacing-2xl);gap:var(--ntc-app-spacing-md)}.NTC_page-tree-drawer-header-title{cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_page-tree-drawer-close-button{transform:rotate(90deg);margin-left:auto;flex-shrink:0}.NTC_page-tree-drawer-nav{width:100%}@container wrapper (min-width: 1240px){.NTC_burger-icon{display:none}}.NTC_page-tree{gap:var(--ntc-app-spacing-md);width:100%;display:flex;flex-direction:column;align-items:flex-start}.NTC_page-tree-section{width:100%;font-weight:var(--ntc-app-font-weight-xl);font-size:.7em;padding:0 calc(var(--ntc-app-spacing-xl) + var(--ntc-app-spacing-sm));color:var(--ntc-user-font-color);margin-top:var(--ntc-app-spacing-md);margin-bottom:var(--ntc-app-spacing-md);user-select:none;text-transform:uppercase;text-align:start;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_page-tree-item{box-sizing:border-box;width:100%;height:auto}.NTC_page-tree-button,.NTC_page-tree-link{width:100%;text-decoration:none}.NTC_page-tree-button{cursor:pointer;padding:var(--ntc-app-spacing-sm) var(--ntc-app-spacing-lg);min-height:calc(var(--ntc-app-sizing-md) + 5px);border-radius:var(--ntc-app-border-radius-md);gap:var(--ntc-app-spacing-sm);color:var(--ntc-user-font-color);transition:all .2s ease;display:flex;flex-direction:row;justify-content:flex-start;align-items:center}.NTC_page-tree-button:hover{background-color:var(--ntc-light-bg-color)}.NTC_page-tree-button[data-is-active=true]{background-color:var(--ntc-light-bg-color);color:var(--ntc-user-accent-color)}.NTC_page-tree-expand-button{cursor:pointer;box-sizing:border-box;border-radius:var(--ntc-app-spacing-sm);transition:all .2s ease-in;margin-left:auto}.NTC_page-tree-expand-button:hover{background-color:var(--ntc-dark-bg-color)}.NTC_page-tree-expand-button svg{transition:transform .2s ease-in-out;border-radius:4px}.NTC_page-tree-button[data-is-active=true] .NTC_page-tree-expand-button svg,.NTC_page-tree-button[data-is-active=true] .NTC_page-tree-icon svg{stroke:var(--ntc-user-accent-color)}.NTC_page-tree-expand-button,.NTC_page-tree-icon{display:flex;justify-content:center;align-items:center}.NTC_page-tree-text{font-size:.9em;user-select:none;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_page-tree-icon svg{transition:stroke .2s ease-in}.NTC_page-tree-child{display:grid;grid-template-rows:0fr;transition:grid-template-rows 500ms;border-left:1px solid var(--ntc-light-bg-color);margin-left:var(--ntc-app-spacing-xl);padding-left:var(--ntc-app-spacing-md)}.NTC_page-tree-item[aria-expanded=true]>.NTC_page-tree-child{grid-template-rows:1fr;margin-bottom:var(--ntc-app-spacing-sm);margin-top:var(--ntc-app-spacing-sm)}.NTC_page-tree-overflow-checker{overflow:hidden}.NTC_page-title{font-size:23px;font-weight:var(--ntc-user-h1-weight);align-self:flex-start}@container wrapper (min-width: 768px){.NTC_page-title{font-size:23px}}@container wrapper (min-width: 1240px){.NTC_page-title{font-size:30px}}.NTC_breadcrumbs{box-sizing:border-box;height:var(--ntc-app-sizing-sm);width:100%;gap:var(--ntc-app-spacing-sm);overflow:auto;display:flex;flex-direction:row;justify-content:flex-start;align-items:center}.NTC_breadcrumb-link{text-decoration:none}.NTC_breadcrumb-button{height:100%;max-width:calc(var(--ntc-app-sizing-3xl)/2);border-radius:var(--ntc-app-spacing-sm);transition:all .2s;padding:0 calc(var(--ntc-app-spacing-sm) + 2px);flex-shrink:0;cursor:pointer;text-decoration:none;display:flex;justify-content:center;align-items:center}.NTC_breadcrumb-button:hover{background-color:var(--ntc-light-bg-color)}.NTC_breadcrumb-button-text{color:var(--ntc-user-font-color);font-size:1em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_breadcrumbs svg{transform:rotate(-90deg);flex-shrink:0;margin-top:var(--ntc-app-spacing-xs)}.NTC_breadcrumb-button[data-active-breadcrumb=true]{background-color:var(--ntc-dark-bg-color)}.NTC_action-selector-button{border-radius:var(--ntc-app-border-radius-round)}.NTC_action-selector-button:has(.NTC_action-menu[data-show=true]){background-color:var(--ntc-light-bg-color)}.NTC_action-menu,.NTC_action-menu-item{display:flex;gap:var(--ntc-app-spacing-md)}.NTC_action-menu{flex-direction:column;align-items:flex-start;display:none;cursor:pointer;background-color:var(--ntc-user-bg-color);box-shadow:rgb(0 0 0/10%)0 2px 7px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:none;max-height:calc(var(--ntc-app-sizing-2xl) + 100px);width:calc(var(--ntc-app-sizing-2xl) - var(--ntc-app-sizing-sm));padding:var(--ntc-app-spacing-sm);z-index:var(--ntc-app-zIndex-menu);border-radius:var(--ntc-app-border-radius-md)}.NTC_action-menu[data-show=true]{display:flex;animation:fade_in .1s ease-in}.NTC_action-menu[data-show=false]{animation:fade_out .1s ease-out}.NTC_action-menu-item{flex-direction:row;justify-content:flex-start;align-items:center;width:100%;padding:var(--ntc-app-spacing-md);border-radius:var(--ntc-app-border-radius-sm);background-color:transparent;transition:all .1s ease-in-out}.NTC_action-menu-item svg{stroke:var(--ntc-user-font-color)}.NTC_action-menu-item:hover{background-color:var(--ntc-light-bg-color)}.NTC_anchor-sticky-container{box-sizing:border-box;position:sticky;top:var(--ntc-app-spacing-xl);display:none;width:var(--ntc-app-sizing-3xl);height:fit-content;justify-content:center;margin:0 auto}.NTC_anchors-list-container{width:100%;height:auto;max-height:calc(var(--ntc-app-sizing-3xl) + var(--ntc-app-sizing-3xl));gap:var(--ntc-app-spacing-lg);overflow:auto;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;padding:var(--ntc-app-spacing-md);margin-top:var(--ntc-app-spacing-3xl);margin-left:calc(var(--ntc-app-spacing-3xl) + var(--ntc-app-spacing-2xl)*2)}.NTC_anchors-list-container h5{font-size:.8em;color:var(--ntc-light-font-color);font-weight:var(--ntc-app-font-weight-xl)}.NTC_anchor-link{flex-shrink:0;font-size:.9em;font-weight:var(--ntc-app-font-weight-sm);padding:0 var(--ntc-app-spacing-sm);height:auto;width:100%;max-width:calc(var(--ntc-app-sizing-2xl) + var(--ntc-app-sizing-lg));border-left:2px solid transparent;transition:all .2s;color:inherit;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_anchor-active,.NTC_anchor-link:hover{border-left:2px solid var(--ntc-user-accent-color);color:var(--ntc-user-accent-color)}.NTC_anchor-header-1{padding-left:var(--ntc-app-spacing-xl)}.NTC_anchor-header-2{padding-left:var(--ntc-app-spacing-2xl)}.NTC_anchor-header-3{padding-left:var(--ntc-app-spacing-3xl)}@container wrapper (min-width: 1240px){.NTC_anchor-sticky-container{display:flex}}.NTC_bottom_nav,.NTC_scroll-to-top-button{display:flex;justify-content:center;align-items:center}.NTC_scroll-to-top-button{gap:var(--ntc-app-spacing-sm);color:var(--ntc-user-font-color);transition:color .2s ease;cursor:pointer}.NTC_scroll-to-top-button svg{align-self:center;transition:stroke .2s ease}.NTC_scroll-to-top-button:hover{color:var(--ntc-user-highlight-color)}.NTC_scroll-to-top-button:hover svg{stroke:var(--ntc-user-highlight-color)}.NTC_bottom_nav{gap:var(--ntc-app-spacing-lg);margin-bottom:var(--ntc-app-spacing-lg);width:100%;flex-direction:row;flex-wrap:wrap}.NTC_bottom_page-link{text-decoration:none;width:var(--ntc-app-width-half);flex-grow:3}.NTC_bottom_page_button{width:100%;cursor:pointer;border-radius:var(--ntc-app-border-radius-md);text-decoration:none;border:var(--ntc-user-border-width) solid var(--ntc-user-border-color);padding:var(--ntc-app-spacing-xl);background-color:inherit;color:var(--ntc-user-font-color);transition:all .2s;gap:var(--ntc-app-spacing-lg);display:flex;flex-direction:row;justify-content:space-between;align-items:center}.NTC_bottom_page_button[data-direction=previous]{flex-direction:row-reverse}.NTC_bottom_page_button:hover{transform:translateY(-2px);color:var(--ntc-user-accent-color)}.NTC_bottom_page_button svg{transition:all .2s;flex-shrink:0}.NTC_bottom_page_button[data-direction=previous] svg{transform:rotate(180deg)}.NTC_bottom_page_button:hover svg{stroke:var(--ntc-user-accent-color)}.NTC_bottom_page_button_text_container{width:100%;gap:var(--ntc-app-spacing-md);min-width:0;display:flex;flex-direction:column}.NTC_bottom_page_button[data-direction=previous]>.NTC_bottom_page_button_text_container{align-items:flex-end}.NTC_bottom_page_button_title{font-size:.8em;color:var(--ntc-light-font-color)}.NTC_bottom_page_button_name{width:100%;font-weight:var(--ntc-app-font-weight-sm);font-size:.9em;color:inherit;min-width:0;text-align:start;flex-grow:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_bottom_page_button[data-direction=previous]>.NTC_bottom_page_button_text_container>.NTC_bottom_page_button_name{text-align:end}.NTC_search-dialog{overflow:hidden;background-color:transparent;border:0;margin:0;padding:0;max-width:100%;max-height:100%;width:100%;height:100%;animation:fade_in .2s;cursor:pointer}.NTC_search-dialog::backdrop{background-color:rgba(27,30,33,.77);backdrop-filter:blur(2px);animation:fade_in .1s}.NTC_search-wrapper{max-width:calc(var(--ntc-app-sizing-3xl)*2);width:100%;height:fit-content;margin:5%auto auto;border-radius:var(--ntc-app-border-radius-sm);background-color:var(--ntc-user-bg-color);cursor:default;display:flex;flex-direction:column;justify-content:center;align-items:center}.NTC_search-wrapper *{line-height:normal!important}.NTC_search-wrapper[data-has-results=true]>.NTC_search-bar{border-bottom-color:var(--ntc-dark-bg-color)}.NTC_search-bar{display:flex;flex-direction:row;align-items:center;width:100%;padding-left:var(--ntc-app-spacing-2xl);padding-right:var(--ntc-app-spacing-lg);border-bottom:1px solid;border-bottom-color:transparent;transition:all .2s ease-in-out}.NTC_search-bar>.NTC_icon-button-container{display:none}.NTC_search-bar>.NTC_icon-button-container[data-is-shown=true],.NTC_search-wrapper[data-has-results=true]>.NTC_search-results-panel{display:flex}.NTC_search-input{padding:var(--ntc-app-spacing-xl);background-color:transparent!important;border:0!important;outline:0!important;box-shadow:none!important;flex-shrink:0;flex-grow:1;font-size:1em!important;font-weight:var(--ntc-app-font-weight-sm)!important;color:var(--ntc-user-font-color)!important}.NTC_search-results-link,.NTC_search-results-panel{display:flex;flex-direction:column;width:100%;height:100%}.NTC_search-results-panel{max-height:calc(90px*5.5);display:none;align-items:center;box-sizing:border-box;overflow:auto;padding:var(--ntc-app-spacing-xl);gap:var(--ntc-app-spacing-md);cursor:default}.NTC_search-results-link{gap:var(--ntc-app-spacing-sm);padding:var(--ntc-app-spacing-lg);background-color:transparent;transition:all .1s ease-in-out;border-radius:var(--ntc-app-border-radius-sm);color:var(--ntc-user-font-color);cursor:pointer;align-items:flex-start}.NTC_search-results-link>h3,.NTC_search-results-text{width:100%;overflow:hidden;text-overflow:ellipsis;white-space:initial;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.NTC_search-results-link>h3{font-size:1em!important;font-weight:700!important}.NTC_search-results-link:hover{background-color:var(--ntc-light-bg-color)}.NTC_search-results-text{font-size:.9375em}.NTC_search-loader{width:var(--ntc-app-sizing-md);height:var(--ntc-app-sizing-md);border:3px solid var(--ntc-user-accent-color);border-bottom-color:transparent;border-radius:var(--ntc-app-border-radius-round);display:none;box-sizing:border-box;animation:rotation 1s linear infinite}.NTC_search-results-panel[data-is-loading=true]>.NTC_search-loader{display:inline-block}.NTC_search-contact-button,.NTC_search-is-empty{display:flex;justify-content:center;align-items:center}.NTC_search-is-empty{flex-direction:column;display:none;gap:var(--ntc-app-spacing-lg)}.NTC_search-is-empty span{font-size:1.1em;font-weight:var(--ntc-app-font-weight-md);color:var(--ntc-user-font-color)}.NTC_search-results-panel[data-is-empty=true]>.NTC_search-is-empty{display:flex}.NTC_search-contact-button{padding:var(--ntc-app-spacing-lg);border-radius:var(--ntc-app-border-radius-md);background-color:transparent;border:1px solid;border-color:var(--ntc-dark-bg-color);transition:all .2s;gap:var(--ntc-app-spacing-sm);color:var(--ntc-user-font-color);cursor:pointer}.NTC_search-contact-button:hover{background-color:var(--ntc-dark-bg-color);border-color:transparent}.NTC_search-has-error{display:none;font-size:1.1em;font-weight:var(--ntc-app-font-weight-md);color:var(--ntc-user-font-color)}.NTC_search-results-panel[data-has-error=true]>.NTC_search-has-error{display:inline-block}.NTC_contact-form-dialog{max-width:500px;width:100%;height:fit-content;padding:var(--ntc-app-spacing-xl);border:0;border-radius:var(--ntc-app-border-radius-sm);animation:fade_in .2s;background-color:var(--ntc-user-bg-color)}.NTC_contact-form-dialog::backdrop{background-color:rgba(27,30,33,.77);backdrop-filter:blur(2px);cursor:pointer;animation:fade_in .1s}.NTC_contact-form-container{width:100%;gap:var(--ntc-app-spacing-lg);display:flex;flex-direction:column;justify-content:center;align-items:center}.NTC_contact-form-header{width:100%;margin-bottom:var(--ntc-app-spacing-xl);display:flex;flex-direction:row;justify-content:space-between;align-items:center}.NTC_contact-form-header h2{font-size:1.5em!important;font-weight:700!important}.NTC_contact-form-dialog label{user-select:none;color:var(--ntc-user-font-color)!important}.NTC_contact-form{width:100%}.NTC_contact-form-dialog input[type=text],input[type=email],textarea{width:100%;padding:var(--ntc-app-spacing-md);border:1px solid var(--ntc-user-border-color);border-radius:var(--ntc-app-border-radius-sm);margin-bottom:var(--ntc-app-spacing-xl);color:var(--ntc-user-font-color)!important;background-color:transparent!important}.NTC_contact-form-dialog input::placeholder,textarea::placeholder{user-select:none}.NTC_contact-form-dialog textarea{resize:none!important;height:var(--ntc-app-sizing-xl)}.NTC_contact-form-footer{display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:0 var(--ntc-app-spacing-md)}.NTC_contact-form-submit{padding:var(--ntc-app-spacing-md) var(--ntc-app-spacing-lg);color:var(--ntc-user-font-color);background-color:transparent;border:1px solid;border-color:var(--ntc-user-border-color);border-radius:var(--ntc-app-border-radius-sm);cursor:pointer;transition:all .2s ease;display:flex;justify-content:center;align-items:center;gap:var(--ntc-app-spacing-sm);user-select:none}.NTC_contact-form-submit:hover{border-color:transparent;background-color:var(--ntc-light-bg-color)}.NTC_contact-form-response *{display:none;font-size:1em;font-weight:var(--ntc-app-font-weight-lg)!important;white-space:nowrap!important}.NTC_contact-form-response [data-should-display=true]{display:block;color:var(--ntc-app-error-color)}.NTC_contact-form-response>.NTC_form-success[data-should-display=true]{color:var(--ntc-app-success-color)}.NTC_selector-button:has(.NTC_language-menu[data-show=true]){background-color:var(--ntc-light-bg-color)}.NTC_read-more-separator{border:1px solid var(--ntc-dark-bg-color)}.NTC_read-more-text{font-weight:var(--ntc-app-font-weight-md);font-size:var(--ntc-user-h3-size);align-self:flex-start;margin:var(--ntc-app-spacing-2xl)0}.NTC_related-articles{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%;margin-bottom:var(--ntc-app-spacing-lg)}.NTC_created_with_notice_text_container{gap:var(--ntc-app-spacing-sm);align-self:center;padding:var(--ntc-app-spacing-2xl);color:inherit;grid-column:2;grid-row:6;display:flex;flex-direction:row;justify-content:center;align-items:center;text-decoration:none}.NTC_created_with_notice_box_container{padding:var(--ntc-app-spacing-md) var(--ntc-app-spacing-lg);border-radius:6px;background-color:var(--ntc-light-bg-color);color:var(--ntc-user-font-color);box-sizing:border-box;gap:var(--ntc-app-spacing-md);z-index:100;font-size:1em}.NTC_created_with_notice_text{font-size:.875em;margin-top:var(--ntc-app-spacing-sm)}.NTC_image-viewer{background:0 0!important;border:0;margin:0;padding:0;max-width:100%;max-height:100%;width:100%;height:100%;cursor:zoom-out;outline:0}.NTC_image-viewer::backdrop{background:rgba(0,0,0,.85)}.NTC_centered-img-wrapper{position:absolute;top:50%;left:50%;width:100%;height:calc(100% - 2*24px - 68px);transform:translate(-50%,-50%);padding:var(--ntc-app-spacing-2xl);overflow:auto;display:flex;justify-content:center;align-items:center;flex-grow:1}.NTC_expanded-img{max-width:100%;max-height:100%;animation-name:zoom;animation-duration:3ms}.NTC_image-toolbar{position:absolute;width:100%;padding:var(--ntc-app-spacing-xl);background:#232529;color:#fff;display:flex;flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap;cursor:default}.NTC_image-toolbar svg{stroke:#fff}.NTC_image-toolbar-tools,.NTC_toolbar-name-icon{display:flex;flex-direction:row;justify-content:flex-start;align-items:center}.NTC_toolbar-name-icon{user-select:none;gap:var(--ntc-app-spacing-sm);width:40%}.NTC_toolbar-name-icon span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.NTC_toolbar-name-icon svg{flex-shrink:0}.NTC_image-toolbar-tools{gap:var(--ntc-app-spacing-md)}.NTC_image-zoom-control,.NTC_tool-icon-container{display:flex;justify-content:center;align-items:center}.NTC_tool-icon-container{background:0 0;border-radius:var(--ntc-app-border-radius-round);padding:var(--ntc-app-spacing-md);transition:background-color .2s ease-in-out;cursor:pointer}.NTC_tool-icon-container:hover{background:#08090a}.NTC_image-toolbar-tools[data-is-loading=true] .NTC_download-button{display:none}.NTC_image-toolbar-tools[data-is-loading=true] .NTC_download-loader,.NTC_language-menu-item[data-is-selected=true]>.NTC_language-menu-outer-circle>.NTC_language-menu-inner-circle{display:block}.NTC_image-zoom-control{width:fit-content;height:fit-content;flex-direction:row;border:1px solid #fff;border-radius:var(--ntc-app-border-radius-xs);gap:var(--ntc-app-spacing-md);user-select:none}.NTC_notice_dialog_modal{overflow:hidden;background-color:transparent;border:0;margin:0;padding:0;max-width:100%;max-height:100%}.NTC_loader{display:inline-block;box-sizing:border-box;align-self:center;width:var(--ntc-app-sizing-md);height:var(--ntc-app-sizing-md);border:3px solid var(--ntc-user-highlight-color);border-bottom-color:transparent;border-radius:var(--ntc-app-border-radius-round);animation:rotation 1s linear infinite}.NTC_anchor_drop_down{cursor:pointer;display:flex;flex-direction:row;justify-content:space-between;align-items:center;gap:8px;padding:12px;border:1px solid var(--ntc-light-bg-color);border-radius:6px;width:100%;user-select:none}.NTC_selected_anchor{font-size:1em;font-weight:400;width:100%;margin:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.NTC_icon_wrapper{width:24px;height:24px;display:flex;align-items:center;justify-content:center}.NTC_language-menu{display:flex;flex-direction:column;align-items:flex-start;display:none;cursor:pointer;background-color:var(--ntc-user-bg-color);box-shadow:rgb(0 0 0/10%)0 2px 7px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:none;max-height:calc(var(--ntc-app-sizing-2xl) + 100px);width:calc(var(--ntc-app-sizing-2xl) - var(--ntc-app-sizing-sm));gap:var(--ntc-app-spacing-md);padding:var(--ntc-app-spacing-sm);z-index:var(--ntc-app-zIndex-menu);border-radius:var(--ntc-app-border-radius-md)}.NTC_language-menu[data-show=true]{display:flex;animation:fade_in .1s ease-in}.NTC_language-menu[data-show=false]{animation:fade_out .1s ease-out}.NTC_language-menu-item{display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:var(--ntc-app-spacing-md);width:100%;padding:var(--ntc-app-spacing-md);border-radius:var(--ntc-app-border-radius-sm);background-color:transparent;transition:all .1s ease-in-out}.NTC_language-menu-item:hover{background-color:var(--ntc-light-bg-color)}.NTC_language-menu-outer-circle{display:flex;justify-content:center;align-items:center;box-sizing:unset;border:2px solid var(--ntc-user-font-color);width:var(--ntc-app-sizing-xxs);height:var(--ntc-app-sizing-xxs);border-radius:var(--ntc-app-border-radius-round)}.NTC_language-menu-inner-circle{display:none;width:calc(var(--ntc-app-sizing-xxs) - 4px);height:calc(var(--ntc-app-sizing-xxs) - 4px);background-color:var(--ntc-user-font-color);border-radius:var(--ntc-app-border-radius-round);animation:fade_in .1s linear}.NTC_page-img:not(img[src$=".svg"]){object-fit:contain!important}
+</style>
+<script nonce="noticenonce" id="NTC_script-e94d83cd-5f62-4e3f-8ab1-99625c5c7d67">
+(window.$NTC==null||typeof window.$NTC!="object"||Array.isArray(window.$NTC))&&(window.$NTC={}),window.$NTC.onReady==null&&(window.$NTC.onReady=function(e,t,a=0){a>100||(document.querySelector('.NTC_wrapper[id="'+e+'"]')?t():setTimeout(()=>window.$NTC.onReady(e,t,a++),100))}),window.$NTC.onReady("e94d83cd-5f62-4e3f-8ab1-99625c5c7d67",function(){window.$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"]={wrapper:document.querySelector('.NTC_wrapper[id="e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"]'),blockId:"e7a311dd-c057-44fd-9c98-4d5427562d96",rootId:"e94d83cd-5f62-4e3f-8ab1-99625c5c7d67",serverURL:"https://bdn.notice.studio",lighthouseURL:"https://gandalf.notice.studio",navigationType:"slash",theme:"light",lang:"en",slugs:{"n8n-documentation-by-nskha-28tf042zlb":"e94d83cd-5f62-4e3f-8ab1-99625c5c7d67","automated-n8n-update-and-backup-workflow-with-docker-manager-coolify-v4-9d8klnlwlz":"df01e77b-1590-4afe-b212-e2911daafb64","kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr":"df858fdf-dfa2-4b48-b979-cfb09ee6009a","n8n-selfhosted-installation-47ch6tsp9k":"2da9583d-5663-416c-a52b-84c20924e8e6","kv-cloudflare-key-value-database-full-api-integration-workflow-9jvzpzhkx1":"9784a0a8-a4a3-4e8f-9e71-a365703a7015","our-n8n-templates-38g8pkp3c2":"a43000b2-ca2c-4966-87db-34c857155e95","advanced-telegram-bot-ticketing-system-livechat-user-management-broadcasting-6jcjjl0t55":"937d6a61-3f2e-4750-90a1-05b9bda653ea","share-your-workflow-7rdgz11zmj":"c4ae3c09-6b5c-43b6-a9e0-4b5d28572fef","email-notifications-to-telegram-using-temporary-html-hosting-via-github-gist-h32hsznhjw":"e1914977-6b1a-457e-8be6-6e8d428b2a05","legal-wrpck1vg36":"e7a311dd-c057-44fd-9c98-4d5427562d96","bulk-automated-google-drive-files-sharing-and-direct-download-link-generation-597zknrs7d":"7016af27-c61c-4c31-860e-deff1a8fef73","gpt-n8n-assistant-ml4c7kf62h":"e4a8c6b2-8285-4588-a452-94fb1a45b13c","crypto-market-alert-system-with-binance-and-telegram-integration-j6dk38x0pd":"77fe13a9-20dc-4949-acea-066ac576ef4e","usdt-and-trc20-wallet-tracker-api-workflow-for-n8n-s19jrkc754":"c3b83eea-1b0e-4e31-aeee-61662139e4a2"},integration:void 0,scrollToTop(){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.scrollIntoView({behavior:"smooth"})},stopPropagation(e){e.stopPropagation()},createURL(e,...t){const a=e.reduce((c,r,n)=>c+r+encodeURIComponent(t[n]??""),"");return new URL(a)},openURL(e){e!=null&&typeof e=="object"&&"href"in e?window.open(e.href,"_blank"):window.open(e,"_blank")},shareTo(e,t){t??=document.title;const a=new URL(document.location.href);a.searchParams.set("lang",$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lang),a.hash="";const c=a.href;let r;switch(e){case"twitter":r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].createURL`https://twitter.com/intent/tweet?text=${t}&url=${c}`;break;case"linkedin":r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].createURL`https://www.linkedin.com/shareArticle?mini=true&title=${t}&url=${c}`;break;case"facebook":r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].createURL`https://www.facebook.com/sharer/sharer.php?u=${c}`;break}r&&$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].openURL(r)},async navigateTo(e){let t;switch($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigationType){case"memory":$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].setBlockId(e);break;case"query":t=new URL($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].baseURL),t.searchParams.set($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].integration==="wordpress-plugin"?"article":"page",e);break;case"slash":t=new URL($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].baseURL),t.pathname+=`${t.pathname.at(-1)==="/"?"":"/"}${e}`;break}if(t!=null){const a=new URLSearchParams(location.search);for(const[r,n]of a.entries())t.searchParams.has(r)||t.searchParams.set(r,n);const c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].slugs[e]===$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId||$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId===e;window.history.pushState(null,"",c?$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].baseURL:t.href)}return $NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closePageTreeDrawer(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].scrollToTop(),new Promise(a=>{let c;const r=()=>{a(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.removeEventListener("NTC_navigation",r),clearTimeout(c)};c=setTimeout(r,5e3),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.addEventListener("NTC_navigation",r)})},async fetch(e,t={},a){const c=new URL(`${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].serverURL}${e}`);c.searchParams.set("theme",$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].theme),c.searchParams.set("lang",$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lang);for(let r in t)t[r]&&c.searchParams.set(r,t[r].toString());return await fetch(c.href,{signal:a}).then(r=>r.json())},async reload(){const e=document.getElementById(`NTC_style-${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId}`),t=await $NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].fetch(`/document/${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId}?format=fragmented`);e.innerHTML=t.style,$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.outerHTML=t.body,$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper=document.querySelector(`.NTC_wrapper[id="${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId}"]`)},async hydrateContent(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_space-top"),t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_space-content"),a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_space-bottom"),c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_space-right"),r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_created_with_notice_text_container");r?.style&&(r.style.display="none"),e&&(e.innerHTML=""),t&&(t.innerHTML='<span class="NTC_loader" style="margin-top: 30%;"></span>'),a&&(a.innerHTML=""),c&&(c.innerHTML="");const n=Date.now(),o=await $NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].fetch(`/body/${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId}?format=fragmented`);Date.now()-n<150&&await(d=>new Promise(i=>setTimeout(i,d)))(150-(Date.now()-n));try{r?.style&&(r.style.display="flex"),e&&o?.top&&(e.outerHTML=o.top),t&&o?.content&&(t.outerHTML=o.content),a&&o?.bottom&&(a.outerHTML=o.bottom),c&&o?.right&&(c.outerHTML=o.right)}catch{}$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].injectDynamicVars()},updateNavigationMenu(){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelectorAll('.NTC_page-tree[data-depth="0"]').forEach(t=>{t.querySelectorAll(".NTC_page-tree-item").forEach(c=>{const r=c.querySelector(".NTC_page-tree-button");if(!r)return;const n=c.getAttribute("id"),o=r.getAttribute("data-is-active");n===$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId?r.setAttribute("data-is-active","true"):o==="true"&&r.setAttribute("data-is-active","false")})})},async setBlockId(e){const t=e&&e!=="null"?e:$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId;$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].slugs[t]??t,$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].updateNavigationMenu(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].hydrateContent().then(()=>{$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.dispatchEvent(new Event("NTC_navigation"))})},async loadOnHistoryChanges(){const e=history.pushState;history.pushState=function(a,c,r){e.apply(history,arguments);const n=new CustomEvent("urlchange",{detail:{state:a,title:c,url:r}});window.dispatchEvent(n)},window.addEventListener("urlchange",t),window.addEventListener("popstate",t);function t(){const a=document.location.href;let c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId;if($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigationType!=="slash"){const r=new URLSearchParams(a.split("?")[1]);r.has($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].integration==="wordpress-plugin"?"article":"page")?c=r.get($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].integration==="wordpress-plugin"?"article":"page").match(/^[^#]*/)[0]:c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId}if($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigationType==="slash")if(document.location.pathname===new URL($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].baseURL).pathname)c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId;else{const r=document.location.pathname.split("/");c=r[r.length-1]}$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].slugs[c]&&(c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].slugs[c]),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId!==c&&$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].setBlockId(c)}},injectDynamicVars(){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelectorAll(".NTC_code-content").forEach(e=>{const t=/{{{(\w+)}}}/g;if(!t.test(e.innerHTML))return;const a=c=>new URLSearchParams(new URL(window.location.href).search).get(c);e.innerHTML=e.innerHTML.replace(t,(c,r)=>a(r)??c)})},defineBaseURL(){const e=new URL(document.location.href),t=e.pathname.split("/"),a=t[t.length-1];(/^[0-9a-f]{8}\b-[0-9a-f]{4}\b-[0-9a-f]{4}\b-[0-9a-f]{4}\b-[0-9a-f]{12}$/i.test(a)||$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].slugs[a]!=null)&&(e.pathname=t.slice(0,-1).join("/")),e.searchParams.delete("page"),e.hash="",$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].baseURL=e.href.at(-1)==="/"?e.href.slice(0,-1):e.href},toggleExpandable(e){const t=document.getElementById(e);if(!t)return null;t.getAttribute("aria-expanded")==="true"?t.setAttribute("aria-expanded","false"):t.setAttribute("aria-expanded","true")},async onDocumentDownload(e,t){const a=document.getElementById(e),c=a.querySelector(".NTC_document-download-container"),n=a.querySelector(".NTC_document-name").textContent;c.setAttribute("data-is-downloading","true");try{const s=await(await fetch(t)).blob(),d=URL.createObjectURL(s),i=document.createElement("a");i.href=d,i.download=n,document.body.appendChild(i),i.click(),document.body.removeChild(i),c.removeAttribute("data-is-downloading")}catch{c.removeAttribute("data-is-downloading"),console.log("sorry something went wrong !!!")}},async copyToClipBoard(e){const t=document.getElementById(e);if(!t)return null;try{await navigator.clipboard.writeText(t.innerText),t.setAttribute("data-is-copied","true"),setTimeout(()=>{t.setAttribute("data-is-copied","false")},3e3)}catch(a){console.error("Failed to copy:",a)}},openLeftSpaceDrawer(){},getLightBoxElements(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_image-viewer"),t=e.querySelector(".NTC_expanded-img"),a=e.querySelector(".NTC_toolbar-image-name"),c=e.querySelector(".NTC_image-toolbar-tools");return{imageDialog:e,expandedImage:t,imageName:a,toolBar:c}},expandImage(e,t,a){const{imageDialog:c,expandedImage:r,imageName:n}=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].getLightBoxElements(),o=n.getAttribute("data-placeholder");r.setAttribute("src",e),n.textContent=a||o,r.style.aspectRatio=t??"auto",c.showModal();const s=()=>{$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closeExpandedImage(),c.removeEventListener("close",s),c.addEventListener("close",s)}},closeExpandedImage(){const{imageDialog:e,expandedImage:t,imageName:a}=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].getLightBoxElements();e.close(),t.removeAttribute("src"),t.removeAttribute("style"),a.textContent=""},async onImageDownload(){const{expandedImage:e,imageName:t,toolBar:a}=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].getLightBoxElements(),c=e.getAttribute("src"),r=t.textContent;a.setAttribute("data-is-loading","true");try{const o=await(await fetch(c)).blob(),s=URL.createObjectURL(o),d=document.createElement("a");d.href=s,d.download=r,document.body.appendChild(d),d.click(),document.body.removeChild(d),a.removeAttribute("data-is-loading")}catch{a.removeAttribute("data-is-loading"),console.log("sorry something went wrong !!!")}},closeModal(e){const t=document.getElementById(e);if(e==="project_tree_modal"){const a=document.getElementById("notice_drawer");a.classList.remove("NTC_active"),a.classList.add("NTC_deactivate"),setTimeout(()=>{a.classList.remove("NTC_deactivate")},50),setTimeout(()=>{t.close()},300)}if(e==="search_modal"){this.clearSearch();const a=document.getElementById("search_wrapper");a.classList.remove("NTC_search_active"),a.classList.add("NTC_search_deactive"),this.removeSearchEventListener(),setTimeout(()=>{t.close()},190)}if(e==="contact_modal"){this.clearContactFrom();const a=document.getElementById("contact_form_wrapper");a.classList.remove("NTC_contact_active"),a.classList.add("NTC_contact_deactive"),setTimeout(()=>{t.close()},190)}},stopPropagation(e){e.stopPropagation()},selectLang(e){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lang=e,$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].updateLangSelector();const t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_language-menu");if(setTimeout(()=>t.setAttribute("data-show","false"),150),t.getAttribute("data-state-type")==="query"){const a=new URL(window.location.href);a.searchParams.set("lang",`${e}`),window.history.pushState(null,"",`${a.search}`)}$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].reload()},updateLangSelector(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelectorAll(".NTC_language-menu-item");if(!e)return null;e.forEach(t=>{const a=t.getAttribute("id").split("lang-")[1];t.setAttribute("data-is-selected",`${a===$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lang}`)})},intersection(){const e=document.querySelector(".bottom_action_element"),t=document.querySelector(".bottom_space"),a=r=>{r[0].isIntersecting?(e.classList.remove("bottom_action_floating"),e.classList.add("bottom_action_placed")):(e.classList.remove("bottom_action_placed"),e.classList.add("bottom_action_floating"))};new window.IntersectionObserver(a).observe(t)},openUserWebsite(e){e&&window.open(e,"_blank")},stopPropagation(e){e.stopPropagation()},openPageTreeDrawer(){const e=document.getElementById("page-tree-dialog"),t=e.querySelector(".NTC_page-tree-drawer");e.showModal(),t.setAttribute("data-is-active","true");const a=r=>{if(r.target.nodeName==="DIALOG"){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closePageTreeDrawer();return}},c=()=>{e.removeEventListener("click",a),e.removeEventListener("close",c)};e.addEventListener("click",a),e.addEventListener("close",c)},closePageTreeDrawer(){const e=document.getElementById("page-tree-dialog");if(!e||!e.open)return;const t=e.querySelector(".NTC_page-tree-drawer");t&&(t.setAttribute("data-is-active","false"),setTimeout(()=>{e.close()},300))},expandPageTreeItem(e,t){e&&e.stopPropagation(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelectorAll(".NTC_page-tree-item").forEach(c=>{c.getAttribute("id")===t&&(c.getAttribute("aria-expanded")==="true"?c.setAttribute("aria-expanded","false"):c.setAttribute("aria-expanded","true"))})},createActionPopperInstance(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#action-selector-button"),t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#action-menu");return Popper.createPopper(e,t,{placement:"bottom-start",modifiers:[{name:"offset",options:{offset:[0,8]}}]})},openActionSelectorMenu(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#action-menu"),t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#action-selector-button"),a=e.querySelector(".NTC_action-menu-item"),c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].createActionPopperInstance();e.setAttribute("data-show","true"),c.setOptions(n=>({...n,modifiers:[...n.modifiers,{name:"eventListeners",enabled:!0}]})),c.update();const r=n=>{const o=e.contains(n.target),s=t.contains(n.target);!o&&!s&&(e.setAttribute("data-show","false"),c.setOptions(d=>({...d,modifiers:[...d.modifiers,{name:"eventListeners",enabled:!1}]})))};$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.addEventListener("click",r)},highlightActiveAnchor(e){if(!e)return;document.querySelectorAll(".NTC_anchor-link").forEach(c=>{c.classList.remove("NTC_anchor-active")});const a=document.getElementById(`anchor_${e}`);a&&a.classList.add("NTC_anchor-active")},navigateToAnchor(e){const t=e??window.location.hash.slice(1);if(!t)return;$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].highlightActiveAnchor(t);const a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(`*[slug-id='${t}'`);a&&a.scrollIntoView({behavior:"smooth"})},navigateToAndSetAnchor(e){e&&(window.location.replace("#"+e.replace(/^#/,"")),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigateToAnchor(e))},openSearch(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#search-dialog"),t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#search-input"),a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].debounce(n=>$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].onSearchInput(n),400);e.showModal();const c=n=>{if(n.target.nodeName==="DIALOG"){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closeSearch();return}},r=()=>{e.removeEventListener("click",c),e.removeEventListener("close",r),t.removeEventListener("input",a)};e.addEventListener("click",c),e.addEventListener("close",r),t.addEventListener("input",a)},closeSearch(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#search-dialog");$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].clearSearchInput(),e.close()},debounce(e,t=100){let a;return(...r)=>{clearTimeout(a),a=setTimeout(()=>e(...r),t)}},clearSearchInput(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#search-input"),t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-bar > .NTC_icon-button-container");e.value="",t.removeAttribute("data-is-shown"),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].hideSearchResultsPanel()},onSearchInput(e){const t=e.target.value;$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].fetchSearchResults(t),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].toggleSearchClearButton(t)},async fetchSearchResults(e){const t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-wrapper"),a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-results-panel");if($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].cleanResultsContainer(),t.setAttribute("data-has-results","true"),a.setAttribute("data-is-loading","true"),e.length>2)try{const c=`${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lighthouseURL}/search/blocks/${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId}?query=${e}&lang=${$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lang}`;await fetch(c).then(r=>r.json()).then(r=>{r.data.length?r.data.forEach(n=>{const o=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].renderSearchResultsLink(n);a.appendChild(o)}):a.setAttribute("data-is-empty","true")}).catch(r=>{a.setAttribute("data-has-error","true")}),a.removeAttribute("data-is-loading")}catch{a.removeAttribute("data-is-loading"),a.setAttribute("data-has-error","true")}else $NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].hideSearchResultsPanel()},toggleSearchClearButton(e){const t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-bar > .NTC_icon-button-container"),a=t.getAttribute("data-is-shown");e.length>0&&!a&&t.setAttribute("data-is-shown","true"),!e.length&&a&&t.removeAttribute("data-is-shown")},hideSearchResultsPanel(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-wrapper");$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].cleanResultsContainer(),e.removeAttribute("data-has-results")},renderSearchResultsLink(e){const{context:t,data:a,type:c,pageId:r,blockId:n}=e??{},o=document.createElement("div"),s=document.createElement("h3"),d=document.createElement("div");o.className="NTC_search-results-link",o.onclick=function(){$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigateOnSearchSelection(r,n,t)},o.appendChild(s);const i=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].dataToLeaves(t.type,t.data);s.textContent=i;const l=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].dataToLeaves(c,a);return d.className="NTC_search-results-text",d.textContent=l,o.appendChild(d),o},dataToLeaves(e,t){switch(e){case"paragraph":case"quote":case"hint":case"list-item":case"checkbox":case"header-1":case"header-2":case"header-3":return $NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].leavesToText(t.leaves);case"page":return t.text??"";case"expandable":return t.title??"";default:return""}},leavesToText(e){return e?.reduce((t,a)=>t+a.text,"")},navigateOnSearchSelection(e,t,a){e===$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].blockId?($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closeSearch(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].scrollToAndHighlightBlock(t,a)):$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigateTo(e)?.then(()=>{$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].scrollToAndHighlightBlock(t,a)})},scrollToAndHighlightBlock(e,t){const a=document.getElementById(e);a&&(t&&t.type==="expandable"&&$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].expandParentExpandable(t.id),a.scrollIntoView({behavior:"smooth"}),a.classList.add("NTC_search-highlight"),setTimeout(()=>a.classList.remove("NTC_search-highlight"),2e3))},cleanResultsContainer(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_search-results-panel"),t=e.getAttribute("data-is-loading"),a=e.getAttribute("data-is-empty"),c=e.getAttribute("data-has-error"),r=e.querySelectorAll(".NTC_search-results-link");t&&e.removeAttribute("data-is-loading"),a&&e.removeAttribute("data-is-empty"),c&&e.removeAttribute("data-has-error"),r&&r.length&&r.forEach(n=>{n.remove()})},expandParentExpandable(e){const t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(`div[id="${e}"]`);t&&t.setAttribute("aria-expanded","true")},openContactForm(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#contact-form-dialog");e.showModal();const t=c=>{const r=c.target.getBoundingClientRect();(r.left>c.clientX||r.right<c.clientX||r.top>c.clientY||r.bottom<c.clientY)&&$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closeContactForm()},a=()=>{e.removeEventListener("click",t),e.removeEventListener("close",a)};e.addEventListener("click",t),e.addEventListener("close",a)},closeContactForm(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#contact-form-dialog");$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#ntc-contact-form").reset(),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].clearPreviousResponses(),e.close()},async validateAndSendMessage(e){e.preventDefault();const t=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#name").value,a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#email").value,c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#subject").value,r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#message").value,n=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_contact-form-response");if($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].clearPreviousResponses(),t==""){n.children[0].setAttribute("data-should-display","true");return}if(a==""){n.children[1].setAttribute("data-should-display","true");return}else if(!$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].validateEmail(a)){n.children[2].setAttribute("data-should-display","true");return}if(c===""){n.children[3].setAttribute("data-should-display","true");return}if(r==""){n.children[4].setAttribute("data-should-display","true");return}$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].sendContactMessage(t,a,c,r)},async sendContactMessage(e,t,a,c){const r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_contact-form-response");try{(await(await fetch($NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].lighthouseURL+"/contact",{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify({name:e,senderEmail:t,emailSubject:a,content:c,projectId:$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].rootId,projectTitle:document.title})})).json()).success?(r.children[5].setAttribute("data-should-display","true"),setTimeout(()=>{$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].closeContactForm()},750)):r.children[6].setAttribute("data-should-display","true")}catch{r.children[6].setAttribute("data-should-display","true")}},clearPreviousResponses(){const e=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(".NTC_contact-form-response");Array.from(e.children).forEach(a=>{a.setAttribute("data-should-display","false")})},validateEmail(e){return/\S+@\S+\.\S+/.test(e)},createPopperInstance(e){const t=e?"#action-menu-lang-button":"#language-selector-button",a=e?"left":"bottom",c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(t),r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#language-menu");return Popper.createPopper(c,r,{placement:a,modifiers:[{name:"offset",options:{offset:[0,8]}}]})},handleLanguageMenu(e){const t=e?"#action-menu-lang-button":"#language-selector-button",a=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector("#language-menu"),c=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.querySelector(t),r=$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].createPopperInstance(e);a.setAttribute("data-show","true"),r.setOptions(o=>({...o,modifiers:[...o.modifiers,{name:"eventListeners",enabled:!0}]})),r.update();const n=o=>{const s=a.contains(o.target),d=c.contains(o.target);!s&&!d&&(a.setAttribute("data-show","false"),r.setOptions(i=>({...i,modifiers:[...i.modifiers,{name:"eventListeners",enabled:!1}]})))};$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].wrapper.addEventListener("click",n)},toggleDarkMode(e){const t=e.currentTarget;if(t.getAttribute("data-loading")==="true")return;const a=localStorage.getItem("NTC_theme")==="dark";$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].theme=a?"light":"dark",localStorage.setItem("NTC_theme",$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].theme),t.setAttribute("data-loading","true"),$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].reload().then(()=>{t.removeAttribute("data-loading")})}},window.$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].defineBaseURL(),window.$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].loadOnHistoryChanges(),window.$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].injectDynamicVars(),setTimeout(()=>window.$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].navigateToAnchor(),100),setTimeout(()=>{fetch("https://gandalf.notice.studio/visits/e94d83cd-5f62-4e3f-8ab1-99625c5c7d67",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({url:location.href,integration:$NTC["e94d83cd-5f62-4e3f-8ab1-99625c5c7d67"].integration||void 0})})},500)});
+
+</script>
+</head>
+<body>
+
+<div id="e94d83cd-5f62-4e3f-8ab1-99625c5c7d67" class="NTC_wrapper">
+
+<div class="NTC_space-header">
+<div class="NTC_header-right-elements">
+
+<div class="NTC_icon-button-container NTC_burger-icon" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openPageTreeDrawer()">
+<svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 12H21M3 6H21M3 18H21"></path></svg>
+</div>
+<dialog id="page-tree-dialog" class="NTC_page-tree-dialog">
+<div class="NTC_page-tree-drawer" data-is-active="false">
+<div class="NTC_page-tree-drawer-header">
+<h3 class="NTC_page-tree-drawer-header-title" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('e94d83cd-5f62-4e3f-8ab1-99625c5c7d67')">
+n8n documentation by Nskha
+
+</h3>
+<span class="NTC_icon-button-container NTC_page-tree-drawer-close-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].closePageTreeDrawer()">
+<svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 9L12 15L18 9"></path></svg>
+</span>
+</div>
+<nav class="NTC_page-tree-drawer-nav"><div class="NTC_page-tree" data-depth="0"> <div id="e4a8c6b2-8285-4588-a452-94fb1a45b13c" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/gpt-n8n-assistant-ml4c7kf62h" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('gpt-n8n-assistant-ml4c7kf62h')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">GPT n8n Assistant.
+</span>
+
+</div>
+</a>
+
+</div> <div id="2da9583d-5663-416c-a52b-84c20924e8e6" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/n8n-selfhosted-installation-47ch6tsp9k" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('n8n-selfhosted-installation-47ch6tsp9k')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">n8n Selfhosted Installation
+</span>
+
+</div>
+</a>
+
+</div> <div id="a43000b2-ca2c-4966-87db-34c857155e95" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/our-n8n-templates-38g8pkp3c2" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('our-n8n-templates-38g8pkp3c2')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Our n8n Templates
+</span>
+
+<span class="NTC_page-tree-expand-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].expandPageTreeItem(event, 'a43000b2-ca2c-4966-87db-34c857155e95')">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M6 9L12 15L18 9"></path></svg>
+</span>
+  
+</div>
+</a>
+<div class="NTC_page-tree-child">
+<div class="NTC_page-tree-overflow-checker"><div class="NTC_page-tree" data-depth="1"> <div id="c4ae3c09-6b5c-43b6-a9e0-4b5d28572fef" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/share-your-workflow-7rdgz11zmj" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('share-your-workflow-7rdgz11zmj')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Share your workflow
+
+</span>
+
+</div>
+</a>
+
+</div> <div id="df01e77b-1590-4afe-b212-e2911daafb64" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/automated-n8n-update-and-backup-workflow-with-docker-manager-coolify-v4-9d8klnlwlz" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('automated-n8n-update-and-backup-workflow-with-docker-manager-coolify-v4-9d8klnlwlz')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Automated n8n Update and Backup Workflow With Docker Manager - Coolify V4
+</span>
+
+</div>
+</a>
+
+</div> <div id="77fe13a9-20dc-4949-acea-066ac576ef4e" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/crypto-market-alert-system-with-binance-and-telegram-integration-j6dk38x0pd" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('crypto-market-alert-system-with-binance-and-telegram-integration-j6dk38x0pd')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Crypto Market Alert System with Binance and Telegram Integration
+</span>
+
+</div>
+</a>
+
+</div> <div id="7016af27-c61c-4c31-860e-deff1a8fef73" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/bulk-automated-google-drive-files-sharing-and-direct-download-link-generation-597zknrs7d" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('bulk-automated-google-drive-files-sharing-and-direct-download-link-generation-597zknrs7d')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Bulk Automated Google Drive Files Sharing and Direct Download Link Generation
+</span>
+
+</div>
+</a>
+
+</div> <div id="937d6a61-3f2e-4750-90a1-05b9bda653ea" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/advanced-telegram-bot-ticketing-system-livechat-user-management-broadcasting-6jcjjl0t55" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('advanced-telegram-bot-ticketing-system-livechat-user-management-broadcasting-6jcjjl0t55')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Advanced Telegram Bot, Ticketing System, LiveChat, User Management, Broadcasting
+</span>
+
+</div>
+</a>
+
+</div> <div id="9784a0a8-a4a3-4e8f-9e71-a365703a7015" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/kv-cloudflare-key-value-database-full-api-integration-workflow-9jvzpzhkx1" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('kv-cloudflare-key-value-database-full-api-integration-workflow-9jvzpzhkx1')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">KV - Cloudflare Key-Value Database Full API Integration Workflow
+</span>
+
+</div>
+</a>
+
+</div> <div id="c3b83eea-1b0e-4e31-aeee-61662139e4a2" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/usdt-and-trc20-wallet-tracker-api-workflow-for-n8n-s19jrkc754" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('usdt-and-trc20-wallet-tracker-api-workflow-for-n8n-s19jrkc754')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">USDT And TRC20 Wallet Tracker API Workflow for n8n
+</span>
+
+</div>
+</a>
+
+</div> <div id="e1914977-6b1a-457e-8be6-6e8d428b2a05" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/email-notifications-to-telegram-using-temporary-html-hosting-via-github-gist-h32hsznhjw" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('email-notifications-to-telegram-using-temporary-html-hosting-via-github-gist-h32hsznhjw')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Email Notifications to Telegram using Temporary HTML Hosting via GitHub Gist
+</span>
+
+</div>
+</a>
+
+</div> <div id="df858fdf-dfa2-4b48-b979-cfb09ee6009a" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">KV - Cloudflare Key-Value Database Full API Integration Workflow
+</span>
+
+</div>
+</a>
+
+</div></div></div>
+  </div>
+</div> <div id="e7a311dd-c057-44fd-9c98-4d5427562d96" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/legal-wrpck1vg36" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="true" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('legal-wrpck1vg36')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Legal
+</span>
+
+</div>
+</a>
+
+</div></div></nav>
+</div>
+</dialog>
+
+
+<div data-is-clickable="true" class="NTC_logo-element" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openUserWebsite('https://n8n.io/creators/nskha')">
+<img src="https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/5a8d84ca-934f-4599-9d61-d050510d3b71.png" class="NTC_logo-img" alt="logo">
+</div>
+
+
+<a class="NTC_project-title-link" href="/e94d83cd-5f62-4e3f-8ab1-99625c5c7d67" onclick="return false;">
+<h1 class="NTC_project-title" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('e94d83cd-5f62-4e3f-8ab1-99625c5c7d67')">
+n8n Assistant (Unofficial)
+</h1>
+</a>
+
+</div>
+</div>
+
+
+<div class="NTC_space-left">
+<nav class="NTC_page-tree-container"><div class="NTC_page-tree" data-depth="0"> <div id="e4a8c6b2-8285-4588-a452-94fb1a45b13c" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/gpt-n8n-assistant-ml4c7kf62h" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('gpt-n8n-assistant-ml4c7kf62h')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">GPT n8n Assistant.
+</span>
+
+</div>
+</a>
+
+</div> <div id="2da9583d-5663-416c-a52b-84c20924e8e6" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/n8n-selfhosted-installation-47ch6tsp9k" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('n8n-selfhosted-installation-47ch6tsp9k')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">n8n Selfhosted Installation
+</span>
+
+</div>
+</a>
+
+</div> <div id="a43000b2-ca2c-4966-87db-34c857155e95" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/our-n8n-templates-38g8pkp3c2" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('our-n8n-templates-38g8pkp3c2')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Our n8n Templates
+</span>
+
+<span class="NTC_page-tree-expand-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].expandPageTreeItem(event, 'a43000b2-ca2c-4966-87db-34c857155e95')">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M6 9L12 15L18 9"></path></svg>
+</span>
+  
+</div>
+</a>
+<div class="NTC_page-tree-child">
+<div class="NTC_page-tree-overflow-checker"><div class="NTC_page-tree" data-depth="1"> <div id="c4ae3c09-6b5c-43b6-a9e0-4b5d28572fef" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/share-your-workflow-7rdgz11zmj" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('share-your-workflow-7rdgz11zmj')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Share your workflow
+
+</span>
+
+</div>
+</a>
+
+</div> <div id="df01e77b-1590-4afe-b212-e2911daafb64" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/automated-n8n-update-and-backup-workflow-with-docker-manager-coolify-v4-9d8klnlwlz" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('automated-n8n-update-and-backup-workflow-with-docker-manager-coolify-v4-9d8klnlwlz')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Automated n8n Update and Backup Workflow With Docker Manager - Coolify V4
+</span>
+
+</div>
+</a>
+
+</div> <div id="77fe13a9-20dc-4949-acea-066ac576ef4e" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/crypto-market-alert-system-with-binance-and-telegram-integration-j6dk38x0pd" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('crypto-market-alert-system-with-binance-and-telegram-integration-j6dk38x0pd')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Crypto Market Alert System with Binance and Telegram Integration
+</span>
+
+</div>
+</a>
+
+</div> <div id="7016af27-c61c-4c31-860e-deff1a8fef73" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/bulk-automated-google-drive-files-sharing-and-direct-download-link-generation-597zknrs7d" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('bulk-automated-google-drive-files-sharing-and-direct-download-link-generation-597zknrs7d')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Bulk Automated Google Drive Files Sharing and Direct Download Link Generation
+</span>
+
+</div>
+</a>
+
+</div> <div id="937d6a61-3f2e-4750-90a1-05b9bda653ea" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/advanced-telegram-bot-ticketing-system-livechat-user-management-broadcasting-6jcjjl0t55" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('advanced-telegram-bot-ticketing-system-livechat-user-management-broadcasting-6jcjjl0t55')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Advanced Telegram Bot, Ticketing System, LiveChat, User Management, Broadcasting
+</span>
+
+</div>
+</a>
+
+</div> <div id="9784a0a8-a4a3-4e8f-9e71-a365703a7015" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/kv-cloudflare-key-value-database-full-api-integration-workflow-9jvzpzhkx1" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('kv-cloudflare-key-value-database-full-api-integration-workflow-9jvzpzhkx1')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">KV - Cloudflare Key-Value Database Full API Integration Workflow
+</span>
+
+</div>
+</a>
+
+</div> <div id="c3b83eea-1b0e-4e31-aeee-61662139e4a2" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/usdt-and-trc20-wallet-tracker-api-workflow-for-n8n-s19jrkc754" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('usdt-and-trc20-wallet-tracker-api-workflow-for-n8n-s19jrkc754')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">USDT And TRC20 Wallet Tracker API Workflow for n8n
+</span>
+
+</div>
+</a>
+
+</div> <div id="e1914977-6b1a-457e-8be6-6e8d428b2a05" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/email-notifications-to-telegram-using-temporary-html-hosting-via-github-gist-h32hsznhjw" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('email-notifications-to-telegram-using-temporary-html-hosting-via-github-gist-h32hsznhjw')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Email Notifications to Telegram using Temporary HTML Hosting via GitHub Gist
+</span>
+
+</div>
+</a>
+
+</div> <div id="df858fdf-dfa2-4b48-b979-cfb09ee6009a" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="false" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">KV - Cloudflare Key-Value Database Full API Integration Workflow
+</span>
+
+</div>
+</a>
+
+</div></div></div>
+  </div>
+</div> <div id="e7a311dd-c057-44fd-9c98-4d5427562d96" class="NTC_page-tree-item" aria-expanded="false">
+<a class="NTC_page-tree-link" src="/legal-wrpck1vg36" onclick="return false;">
+<div class="NTC_page-tree-button" data-is-active="true" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('legal-wrpck1vg36')">
+<span class="NTC_page-tree-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M14 2v5l1 1h5m-4 5H8m8 4H8m2-8H8m6-7H6L4 4v16l2 2h12l2-2V8l-6-6Z"></path></svg></span>
+<span class="NTC_page-tree-text">Legal
+</span>
+
+</div>
+</a>
+
+</div></div></nav>
+</div>
+
+
+<div class="NTC_space-top">
+<div class="NTC_top-space-first-row">
+<div class="NTC_top-space-title-logo">
+
+
+<h1 class="NTC_page-title">Legal</h1>
+
+</div>
+
+<div class="NTC_hidden-in-desktop">
+
+<a src="/e94d83cd-5f62-4e3f-8ab1-99625c5c7d67" onclick="return false;">
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('e94d83cd-5f62-4e3f-8ab1-99625c5c7d67')">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M9 21V13.6C9 13.0399 9 12.7599 9.109 12.546C9.20487 12.3578 9.35785 12.2049 9.54601 12.109C9.75993 12 10.04 12 10.6 12H13.4C13.9601 12 14.2401 12 14.454 12.109C14.6422 12.2049 14.7951 12.3578 14.891 12.546C15 12.7599 15 13.0399 15 13.6V21M2 9.5L11.04 2.72C11.3843 2.46181 11.5564 2.33271 11.7454 2.28294C11.9123 2.23902 12.0877 2.23902 12.2546 2.28295C12.4436 2.33271 12.6157 2.46181 12.96 2.72L22 9.5M4 8V17.8C4 18.9201 4 19.4802 4.21799 19.908C4.40974 20.2843 4.7157 20.5903 5.09202 20.782C5.51985 21 6.0799 21 7.2 21H16.8C17.9201 21 18.4802 21 18.908 20.782C19.2843 20.5903 19.5903 20.2843 19.782 19.908C20 19.4802 20 18.9201 20 17.8V8L13.92 3.44C13.2315 2.92361 12.8872 2.66542 12.5091 2.56589C12.1754 2.47804 11.8246 2.47804 11.4909 2.56589C11.1128 2.66542 10.7685 2.92361 10.08 3.44L4 8Z"></path></svg>
+</div>
+</a>
+
+
+<div id="action-selector-button" class="NTC_icon-button-container NTC_action-selector-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openActionSelectorMenu()">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"></path><path d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z"></path><path d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z"></path></svg> 
+<div id="action-menu" data-show="false" class="NTC_action-menu">
+
+<div class="NTC_action-menu-item" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openSearch()">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"></path></svg> <span>Search</span>
+</div>
+   
+<div class="NTC_action-menu-item" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].toggleDarkMode(event)">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M22 15.8442C20.6866 16.4382 19.2286 16.7688 17.6935 16.7688C11.9153 16.7688 7.23116 12.0847 7.23116 6.30654C7.23116 4.77135 7.5618 3.3134 8.15577 2C4.52576 3.64163 2 7.2947 2 11.5377C2 17.3159 6.68414 22 12.4623 22C16.7053 22 20.3584 19.4742 22 15.8442Z"></path></svg>
+<span>Light Mode</span>
+</div>
+   
+<div class="NTC_action-menu-item" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openContactForm()">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M2 7L7.19384 10.4626C7.49349 10.6623 7.64331 10.7622 7.8054 10.833C7.94927 10.8958 8.10003 10.9414 8.25458 10.969C8.42869 11 8.60876 11 8.96888 11H15.0311C15.3912 11 15.5713 11 15.7454 10.969C15.9 10.9414 16.0507 10.8958 16.1946 10.833C16.3567 10.7622 16.5065 10.6623 16.8062 10.4626L22 7M6.8 20H17.2C18.8802 20 19.7202 20 20.362 19.673C20.9265 19.3854 21.3854 18.9265 21.673 18.362C22 17.7202 22 16.8802 22 15.2V8.8C22 7.11984 22 6.27976 21.673 5.63803C21.3854 5.07354 20.9265 4.6146 20.362 4.32698C19.7202 4 18.8802 4 17.2 4H6.8C5.11984 4 4.27976 4 3.63803 4.32698C3.07354 4.6146 2.6146 5.07354 2.32698 5.63803C2 6.27976 2 7.11984 2 8.8V15.2C2 16.8802 2 17.7202 2.32698 18.362C2.6146 18.9265 3.07354 19.3854 3.63803 19.673C4.27976 20 5.11984 20 6.8 20Z"></path></svg> <span>Contact Us</span>
+</div>
+   
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="NTC_top-space-second-row">
+<div class="NTC_top-space-meta-container">
+
+<div class="NTC_time-to-read">
+<p><span id="time-to-read-value">2</span> min to read</p>
+</div>
+  <span class="NTC_top-space-divider-circle"></span> 
+<div class="NTC_top-space-social-elements">
+
+<span class="NTC_social-twitter NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('twitter', 'n8n documentation by Nskha
+')">
+<svg data-filled="" width="16" height="16" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="12"></circle>
+<path d="M5.03407 5L10.4393 12.7218L5 19H6.22427L10.9865 13.5032L14.8341 19H19L13.2905 10.8439L18.3534 5H17.1292L12.7436 10.0623L9.2 5H5.03407ZM6.8344 5.96341H8.74821L17.1994 18.0366H15.2856L6.8344 5.96341Z" fill="white"></path>
+</svg> 
+</span>
+
+
+<span class="NTC_social-facebook NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('facebook')">
+<svg data-filled="" width="18" height="18" viewBox="0 0 24 24"><path d="M13.6874 22.669V15.1225H16.204L16.6824 11.9999H13.6874V9.9739C13.6874 9.12035 14.105 8.28654 15.4476 8.28654H16.81V5.62868C16.81 5.62868 15.5737 5.41758 14.3921 5.41758C11.9256 5.41758 10.3126 6.91205 10.3126 9.62002V11.9999H7.56974V15.1225H10.3126V22.669C5.14945 21.8589 1.20001 17.3907 1.20001 12C1.20001 6.03532 6.03534 1.2 12 1.2C17.9647 1.2 22.8 6.03532 22.8 12C22.8 17.3907 18.8506 21.8589 13.6874 22.669Z"></path></svg>
+</span>
+
+
+<span class="NTC_social-linkedin NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('linkedin', '')">
+<svg data-filled="" width="18" height="18" viewBox="0 0 24 24"><path d="M21.18 1.2H2.82C2.39035 1.2 1.97829 1.37068 1.67448 1.67448C1.37068 1.97829 1.2 2.39035 1.2 2.82V21.18C1.2 21.6096 1.37068 22.0217 1.67448 22.3255C1.97829 22.6293 2.39035 22.8 2.82 22.8H21.18C21.6096 22.8 22.0217 22.6293 22.3255 22.3255C22.6293 22.0217 22.8 21.6096 22.8 21.18V2.82C22.8 2.39035 22.6293 1.97829 22.3255 1.67448C22.0217 1.37068 21.6096 1.2 21.18 1.2ZM7.68 19.56H4.44V9.84H7.68V19.56ZM6.06 7.95C5.68867 7.93938 5.32871 7.81958 5.02509 7.60556C4.72146 7.39154 4.48764 7.09279 4.35284 6.74663C4.21803 6.40048 4.18822 6.02228 4.26713 5.65929C4.34604 5.29629 4.53017 4.96459 4.79652 4.70565C5.06286 4.4467 5.39961 4.27198 5.76469 4.20333C6.12976 4.13467 6.50697 4.17512 6.84919 4.31962C7.19141 4.46412 7.48346 4.70627 7.68884 5.0158C7.89423 5.32533 8.00385 5.68852 8.004 6.06C7.99547 6.56798 7.7862 7.05192 7.42193 7.40607C7.05766 7.76022 6.56801 7.95578 6.06 7.95ZM19.56 19.56H16.32V14.4408C16.32 12.9072 15.672 12.3564 14.8296 12.3564C14.5826 12.3728 14.3413 12.4379 14.1195 12.5479C13.8978 12.6579 13.6999 12.8106 13.5374 12.9972C13.3748 13.1839 13.2507 13.4008 13.1722 13.6356C13.0937 13.8703 13.0624 14.1183 13.08 14.3652C13.0746 14.4155 13.0746 14.4661 13.08 14.5164V19.56H9.84V9.84H12.972V11.244C13.2879 10.7634 13.722 10.372 14.2326 10.1072C14.7431 9.84248 15.3132 9.71328 15.888 9.732C17.562 9.732 19.5168 10.6608 19.5168 13.6848L19.56 19.56Z"></path></svg>
+</span>
+
+</div>
+</div>
+
+<div class="NTC_hidden-in-mobile">
+
+<a src="/e94d83cd-5f62-4e3f-8ab1-99625c5c7d67" onclick="return false;">
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('e94d83cd-5f62-4e3f-8ab1-99625c5c7d67')">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M9 21V13.6C9 13.0399 9 12.7599 9.109 12.546C9.20487 12.3578 9.35785 12.2049 9.54601 12.109C9.75993 12 10.04 12 10.6 12H13.4C13.9601 12 14.2401 12 14.454 12.109C14.6422 12.2049 14.7951 12.3578 14.891 12.546C15 12.7599 15 13.0399 15 13.6V21M2 9.5L11.04 2.72C11.3843 2.46181 11.5564 2.33271 11.7454 2.28294C11.9123 2.23902 12.0877 2.23902 12.2546 2.28295C12.4436 2.33271 12.6157 2.46181 12.96 2.72L22 9.5M4 8V17.8C4 18.9201 4 19.4802 4.21799 19.908C4.40974 20.2843 4.7157 20.5903 5.09202 20.782C5.51985 21 6.0799 21 7.2 21H16.8C17.9201 21 18.4802 21 18.908 20.782C19.2843 20.5903 19.5903 20.2843 19.782 19.908C20 19.4802 20 18.9201 20 17.8V8L13.92 3.44C13.2315 2.92361 12.8872 2.66542 12.5091 2.56589C12.1754 2.47804 11.8246 2.47804 11.4909 2.56589C11.1128 2.66542 10.7685 2.92361 10.08 3.44L4 8Z"></path></svg>
+</div>
+</a>
+
+
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openSearch()"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"></path></svg></div>
+
+
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].toggleDarkMode(event)">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M22 15.8442C20.6866 16.4382 19.2286 16.7688 17.6935 16.7688C11.9153 16.7688 7.23116 12.0847 7.23116 6.30654C7.23116 4.77135 7.5618 3.3134 8.15577 2C4.52576 3.64163 2 7.2947 2 11.5377C2 17.3159 6.68414 22 12.4623 22C16.7053 22 20.3584 19.4742 22 15.8442Z"></path></svg>
+</div>
+
+
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].openContactForm()"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M2 7L7.19384 10.4626C7.49349 10.6623 7.64331 10.7622 7.8054 10.833C7.94927 10.8958 8.10003 10.9414 8.25458 10.969C8.42869 11 8.60876 11 8.96888 11H15.0311C15.3912 11 15.5713 11 15.7454 10.969C15.9 10.9414 16.0507 10.8958 16.1946 10.833C16.3567 10.7622 16.5065 10.6623 16.8062 10.4626L22 7M6.8 20H17.2C18.8802 20 19.7202 20 20.362 19.673C20.9265 19.3854 21.3854 18.9265 21.673 18.362C22 17.7202 22 16.8802 22 15.2V8.8C22 7.11984 22 6.27976 21.673 5.63803C21.3854 5.07354 20.9265 4.6146 20.362 4.32698C19.7202 4 18.8802 4 17.2 4H6.8C5.11984 4 4.27976 4 3.63803 4.32698C3.07354 4.6146 2.6146 5.07354 2.32698 5.63803C2 6.27976 2 7.11984 2 8.8V15.2C2 16.8802 2 17.7202 2.32698 18.362C2.6146 18.9265 3.07354 19.3854 3.63803 19.673C4.27976 20 5.11984 20 6.8 20Z"></path></svg></div>
+
+
+</div>
+</div>
+
+ <div class="NTC_breadcrumbs"><a class="NTC_breadcrumb-link" href="/e94d83cd-5f62-4e3f-8ab1-99625c5c7d67" onclick="return false;">
+<div class="NTC_breadcrumb-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('e94d83cd-5f62-4e3f-8ab1-99625c5c7d67')" data-active-breadcrumb="false">
+<span class="NTC_breadcrumb-button-text">n8n documentation by Nskha
+</span>
+</div>
+</a>
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M6 9L12 15L18 9"></path></svg><a class="NTC_breadcrumb-link" href="/legal-wrpck1vg36" onclick="return false;">
+<div class="NTC_breadcrumb-button" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('legal-wrpck1vg36')" data-active-breadcrumb="true">
+<span class="NTC_breadcrumb-button-text">Legal</span>
+</div>
+</a>
+</div> 
+
+<dialog id="contact-form-dialog" class="NTC_contact-form-dialog">
+<div class="NTC_contact-form-container">
+<div class="NTC_contact-form-header">
+<h2>Contact us</h2>
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].closeContactForm()"><svg width="18" height="18" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6L18 18"></path></svg></div>
+</div>
+<form id="ntc-contact-form" method="post" class="NTC_contact-form">
+<label for="name">Name :</label>
+<input type="text" placeholder="Type your name here..." id="name" name="name">
+
+<label for="email">Email :</label>
+<input type="email" placeholder="Type your subject here..." id="email" name="email">
+<label for="subject">Subject :</label>
+<input type="text" id="subject" placeholder="Type your subject here..." name="subject" maxlength="128">
+
+<label for="message">Message :</label>
+<textarea id="message" placeholder="Type your message here..." name="message"></textarea>
+
+<div class="NTC_contact-form-footer">
+<div class="NTC_contact-form-response">
+<span class="NTC_name-error" data-should-display="false">
+Please enter a name.
+</span>
+<span class="NTC_email-error" data-should-display="false">
+Please enter an e-mail address
+</span>
+<span class="NTC_invalid-email-error" data-should-display="false">
+Invalid email address.
+</span>
+<span class="NTC_subject-error" data-should-display="false">
+Please enter a subject.
+</span>
+<span class="NTC_message-error" data-should-display="false">
+Please enter a message.
+</span>
+<span class="NTC_form-success" data-should-display="false">
+Message sent successfully!
+</span>
+<span class="NTC_form-error" data-should-display="false">
+Sorry, an unexpected error occurred
+</span>
+</div>
+<button type="submit" class="NTC_contact-form-submit" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].validateAndSendMessage(event)">
+<svg width="16" height="16" viewBox="0 0 24 24"><path d="M10.4995 13.5001L20.9995 3.00005M10.6271 13.8281L13.2552 20.5861C13.4867 21.1815 13.6025 21.4791 13.7693 21.566C13.9139 21.6414 14.0862 21.6415 14.2308 21.5663C14.3977 21.4796 14.5139 21.1821 14.7461 20.587L21.3364 3.69925C21.5461 3.16207 21.6509 2.89348 21.5935 2.72185C21.5437 2.5728 21.4268 2.45583 21.2777 2.40604C21.1061 2.34871 20.8375 2.45352 20.3003 2.66315L3.41258 9.25349C2.8175 9.48572 2.51997 9.60183 2.43326 9.76873C2.35809 9.91342 2.35819 10.0857 2.43353 10.2303C2.52043 10.3971 2.81811 10.5128 3.41345 10.7444L10.1715 13.3725C10.2923 13.4195 10.3527 13.443 10.4036 13.4793C10.4487 13.5114 10.4881 13.5509 10.5203 13.596C10.5566 13.6468 10.5801 13.7073 10.6271 13.8281Z"></path></svg> Send
+</button>
+</div>
+</form>
+</div>
+</dialog>
+
+
+<dialog id="search-dialog" class="NTC_search-dialog">
+<div class="NTC_search-wrapper">
+<div class="NTC_search-bar">
+<svg width="20" height="20" viewBox="0 0 24 24"><path d="M21 21L16.65 16.65M11 6C13.7614 6 16 8.23858 16 11M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"></path></svg>
+<input id="search-input" class="NTC_search-input" placeholder="Search Content..." type="text">
+<div class="NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].clearSearchInput()"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6L18 18"></path></svg></div>
+</div>
+
+<div class="NTC_search-results-panel">
+<div class="NTC_search-loader"></div>
+<div class="NTC_search-is-empty">
+<span>No results for your search.</span>
+</div>
+<div class="NTC_search-has-error">Sorry, an unexpected error occurred</div>
+</div>
+
+</div>
+</dialog>
+
+
+</div>
+
+<div class="NTC_space-content"><p class="NTC_block-paragraph" id="34d7161b-d75d-4e4c-ab31-c9936fa9f3ae">
+<br>
+</p><h1 id="d3482dd2-2fad-4295-b9fb-66adf32cb2ad" slug-id="n8n-assistant-unofficial-privacy-policy-d348" class="NTC_block-header NTC_header-1"> N8N Assistant (Unofficial) Privacy Policy  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('n8n-assistant-unofficial-privacy-policy-d348')">
+<svg width="18" height="18" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h1><p id="b4038835-95b5-4631-93ac-88421783ff3e" class="NTC_block-paragraph">Effective date: January 7, 2024</p><p id="0cd92a57-5a99-4867-a5f9-f225eb57bfaf" class="NTC_block-paragraph">Welcome to the Privacy Policy for the N8N Assistant (Unofficial) plugin ("Plugin"). This policy outlines how we collect, use, disclose, and protect your information in connection with the Plugin. By using the Plugin, you consent to the practices described in this policy.</p><h2 id="7c6ceaca-707c-4b00-b417-7b265b477648" slug-id="information-collection-and-use-7c6c" class="NTC_block-header NTC_header-2"> Information Collection and Use  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('information-collection-and-use-7c6c')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="937f4c60-3dd2-4adb-a1dc-2c8bae0a8443" class="NTC_block-paragraph"><b class="NTC_text-bold">What We Collect:</b></p>
+<ul id="dcffd46c-114d-49cf-bf0a-daf88bcf9b07" class="NTC_block-bulleted-list">
+<li id="c46996b5-f1f8-4a5d-834d-55acf3d2a85f" class="NTC_block-list-item">Personal Data: We may collect personal data that you voluntarily provide, such as your email address when seeking support or feedback.</li><li id="b212d7bb-5907-44b3-b27f-c88cf450c612" class="NTC_block-list-item">Usage Data: When you use the Plugin, we may automatically collect usage data like access times, pages viewed, and the routes taken when using our services.</li><li id="3344a898-ae54-4c1f-8646-6e2dc1a7b6ec" class="NTC_block-list-item">Cookies: The Plugin may use cookies to enhance your user experience, track usage patterns, and deliver personalized content.</li>
+</ul>
+<p id="80cf7715-bc58-48d8-b3fc-9f239d3ca738" class="NTC_block-paragraph"><b class="NTC_text-bold">How We Use Your Information:</b></p>
+<ul id="91678d2d-870f-4a30-a6f0-8397303b87d6" class="NTC_block-bulleted-list">
+<li id="527ef455-9169-405b-9636-34b88321d308" class="NTC_block-list-item">To operate and maintain the Plugin</li><li id="fce13a08-77bb-44bf-8aad-c50814233ad7" class="NTC_block-list-item">To provide customer support and respond to your requests and concerns</li><li id="b5f882db-80e1-40b1-857c-1aa60aedb7d0" class="NTC_block-list-item">To improve the Plugin's functionality and user experience</li><li id="4f67e501-59f6-4f16-b3a6-19e49fd14aa7" class="NTC_block-list-item">To monitor the usage of the Plugin for security purposes and to prevent fraud</li>
+</ul>
+<h2 id="1a8ec511-795e-4881-8783-49edf4315193" slug-id="data-storage-1a8e" class="NTC_block-header NTC_header-2"> Data Storage  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-storage-1a8e')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="ad9a81cc-357e-4f2f-a798-f7df1d987327" class="NTC_block-paragraph">The Plugin utilizes Cloudflare and Hetzner as hosting providers to facilitate its services. These providers are responsible for securely storing any data they process.</p><h2 id="d5bf6c5e-7a36-4b6d-805c-98fa5398360b" slug-id="data-security-d5bf" class="NTC_block-header NTC_header-2"> Data Security  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-security-d5bf')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="bcd18816-7cc9-4d30-b669-e918ef09bbdb" class="NTC_block-paragraph">We prioritize protecting your personal information and implement appropriate technical and organizational measures designed to secure your personal data from accidental loss and unauthorized access, use, alteration, or disclosure.</p><h2 id="94f29aba-48cc-416a-8853-a14adb139981" slug-id="data-retention-94f2" class="NTC_block-header NTC_header-2"> Data Retention  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-retention-94f2')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="d54dbe8e-76c4-4206-af16-4c9ada283300" class="NTC_block-paragraph">The Plugin retains personal data only for as long as necessary to provide the services requested by users and in accordance with any legal obligations or for the purposes of resolving disputes and enforcing our agreements.</p><h2 id="ecf4d307-44e5-489f-9109-3cba8fed0131" slug-id="data-deletion-ecf4" class="NTC_block-header NTC_header-2"> Data Deletion  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-deletion-ecf4')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="9d2bc341-9b80-4803-b3c2-6483f158e563" class="NTC_block-paragraph">We understand the importance of protecting your data. Generated files or any data processed by the Plugin are not retained beyond the duration necessary to fulfill the requested service. Users are encouraged to download any necessary files promptly after generation.</p><h2 id="4f44090e-d88b-4d8a-8f8c-077aeac71e7c" slug-id="third-party-services-4f44" class="NTC_block-header NTC_header-2"> Third-Party Services  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('third-party-services-4f44')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="c15a9d1e-3656-4fff-ba7e-14d683c98c06" class="NTC_block-paragraph">We may use third-party services such as OpenAI to provide certain functionalities within the Plugin. These services may have access to limited user data solely for the purpose of performing tasks on our behalf and are obligated not to disclose or use it for other purposes.</p><h2 id="3e2b17ee-8bca-4282-99f2-829c7da8abe4" slug-id="legal-disclosure-3e2b" class="NTC_block-header NTC_header-2"> Legal Disclosure  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('legal-disclosure-3e2b')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="a568d775-1651-45c5-84fc-563a909d57af" class="NTC_block-paragraph">We may disclose your personal data if required by law or if we believe that such action is necessary to comply with legal obligations, protect our rights or property, prevent fraud, or protect the safety of our users or the public.</p><h2 id="b90e178a-5240-4310-8fe1-1601ae60f95f" slug-id="changes-to-this-privacy-policy-b90e" class="NTC_block-header NTC_header-2"> Changes to This Privacy Policy  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('changes-to-this-privacy-policy-b90e')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="16bdd9c7-0619-4701-834a-ff954cf57316" class="NTC_block-paragraph">This Privacy Policy may be updated from time to time. We will notify users of any changes by posting the new Privacy Policy on the Plugin documentation site at <a class="NTC_text-link" target="_blank" href="http://n8n.nskha.com">n8n.nskha.com</a>. We encourage you to review this Privacy Policy periodically.</p><h2 id="c73568bf-5f6c-47cb-88dc-911c7fd1558b" slug-id="contact-us-c735" class="NTC_block-header NTC_header-2"> Contact Us  <span class="NTC_header-anchor" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('contact-us-c735')">
+<svg width="17" height="17" viewBox="0 0 24 24"><path d="M9 3 6 21M18 3l-3 18m6-13H4m16 8H3"></path></svg>
+
+  </span></h2><p id="7b0b3521-d80c-4aee-853a-0d048938fafe" class="NTC_block-paragraph">If you have any questions regarding this Privacy Policy or our data practices, please contact us at:</p><p id="7a855689-924b-4641-885d-292f41219322" class="NTC_block-paragraph">Email: <a class="NTC_text-link" target="_blank" href="mailto:N8N-Plugin@nskha.com">N8N-Plugin@nskha.com</a></p><p class="NTC_block-paragraph" id="20d0e3ec-1468-4a31-9b75-ec3f6ca7c6a8">
+<br>
+</p> </div>
+
+<div class="NTC_space-bottom">
+<div class="NTC_bottom-space-action-elements">
+<div class="NTC_bottom-space-social-elements">
+
+<span class="NTC_social-twitter NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('twitter', 'n8n documentation by Nskha
+')">
+<svg data-filled="" width="16" height="16" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="12"></circle>
+<path d="M5.03407 5L10.4393 12.7218L5 19H6.22427L10.9865 13.5032L14.8341 19H19L13.2905 10.8439L18.3534 5H17.1292L12.7436 10.0623L9.2 5H5.03407ZM6.8344 5.96341H8.74821L17.1994 18.0366H15.2856L6.8344 5.96341Z" fill="white"></path>
+</svg> 
+</span>
+
+
+<span class="NTC_social-facebook NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('facebook')">
+<svg data-filled="" width="18" height="18" viewBox="0 0 24 24"><path d="M13.6874 22.669V15.1225H16.204L16.6824 11.9999H13.6874V9.9739C13.6874 9.12035 14.105 8.28654 15.4476 8.28654H16.81V5.62868C16.81 5.62868 15.5737 5.41758 14.3921 5.41758C11.9256 5.41758 10.3126 6.91205 10.3126 9.62002V11.9999H7.56974V15.1225H10.3126V22.669C5.14945 21.8589 1.20001 17.3907 1.20001 12C1.20001 6.03532 6.03534 1.2 12 1.2C17.9647 1.2 22.8 6.03532 22.8 12C22.8 17.3907 18.8506 21.8589 13.6874 22.669Z"></path></svg>
+</span>
+
+
+<span class="NTC_social-linkedin NTC_icon-button-container" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].shareTo('linkedin', '')">
+<svg data-filled="" width="18" height="18" viewBox="0 0 24 24"><path d="M21.18 1.2H2.82C2.39035 1.2 1.97829 1.37068 1.67448 1.67448C1.37068 1.97829 1.2 2.39035 1.2 2.82V21.18C1.2 21.6096 1.37068 22.0217 1.67448 22.3255C1.97829 22.6293 2.39035 22.8 2.82 22.8H21.18C21.6096 22.8 22.0217 22.6293 22.3255 22.3255C22.6293 22.0217 22.8 21.6096 22.8 21.18V2.82C22.8 2.39035 22.6293 1.97829 22.3255 1.67448C22.0217 1.37068 21.6096 1.2 21.18 1.2ZM7.68 19.56H4.44V9.84H7.68V19.56ZM6.06 7.95C5.68867 7.93938 5.32871 7.81958 5.02509 7.60556C4.72146 7.39154 4.48764 7.09279 4.35284 6.74663C4.21803 6.40048 4.18822 6.02228 4.26713 5.65929C4.34604 5.29629 4.53017 4.96459 4.79652 4.70565C5.06286 4.4467 5.39961 4.27198 5.76469 4.20333C6.12976 4.13467 6.50697 4.17512 6.84919 4.31962C7.19141 4.46412 7.48346 4.70627 7.68884 5.0158C7.89423 5.32533 8.00385 5.68852 8.004 6.06C7.99547 6.56798 7.7862 7.05192 7.42193 7.40607C7.05766 7.76022 6.56801 7.95578 6.06 7.95ZM19.56 19.56H16.32V14.4408C16.32 12.9072 15.672 12.3564 14.8296 12.3564C14.5826 12.3728 14.3413 12.4379 14.1195 12.5479C13.8978 12.6579 13.6999 12.8106 13.5374 12.9972C13.3748 13.1839 13.2507 13.4008 13.1722 13.6356C13.0937 13.8703 13.0624 14.1183 13.08 14.3652C13.0746 14.4155 13.0746 14.4661 13.08 14.5164V19.56H9.84V9.84H12.972V11.244C13.2879 10.7634 13.722 10.372 14.2326 10.1072C14.7431 9.84248 15.3132 9.71328 15.888 9.732C17.562 9.732 19.5168 10.6608 19.5168 13.6848L19.56 19.56Z"></path></svg>
+</span>
+
+</div>
+</div>
+ <div class="NTC_bottom_nav">
+<a class="NTC_bottom_page-link" href="/kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr" onclick="return false;">
+<div class="NTC_bottom_page_button" data-direction="previous" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('kv-cloudflare-key-value-database-full-api-integration-workflow-grjb40ccxr')">
+<div class="NTC_bottom_page_button_text_container">
+<h5 class="NTC_bottom_page_button_title">Previous page</h5>
+<div class="NTC_bottom_page_button_name">
+KV - Cloudflare Key-Value Database Full API Integration Workflow
+</div>
+</div>
+<svg width="28" height="28" viewBox="0 0 24 24"><path d="M4 12H20M20 12L14 6M20 12L14 18"></path></svg>
+</div>
+</a>
+ </div> 
+
+<hr class="NTC_read-more-separator">
+<div class="NTC_read-more-text">Read more</div>
+<div class="NTC_related-articles">
+
+<a class="NTC_page-link-a" href="/our-n8n-templates-38g8pkp3c2" onclick="return false;">
+<div class="NTC_block-page NTC_border-page" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('our-n8n-templates-38g8pkp3c2')">
+<div class="NTC_page-text-wrapper">
+<div class="NTC_page-link-title">Our n8n Templates</div>
+
+</div>
+<div class="NTC_page-cover-image"><img class="NTC_page-img" src="https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/e16d41c6-46ff-4750-9a4c-9501116dbb2e.png" alt="page_cover"></div>
+</div>
+</a>
+
+<a class="NTC_page-link-a" href="/n8n-selfhosted-installation-47ch6tsp9k" onclick="return false;">
+<div class="NTC_block-page NTC_border-page" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('n8n-selfhosted-installation-47ch6tsp9k')">
+<div class="NTC_page-text-wrapper">
+<div class="NTC_page-link-title">n8n Selfhosted Installation</div>
+
+</div>
+<div class="NTC_page-cover-image"><img class="NTC_page-img" src="https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/38aee11f-568b-4d14-8d19-c8e51eb93ba8.svg" alt="page_cover"></div>
+</div>
+</a>
+
+<a class="NTC_page-link-a" href="/gpt-n8n-assistant-ml4c7kf62h" onclick="return false;">
+<div class="NTC_block-page NTC_border-page" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateTo('gpt-n8n-assistant-ml4c7kf62h')">
+<div class="NTC_page-text-wrapper">
+<div class="NTC_page-link-title">GPT n8n Assistant.</div>
+<div class="NTC_page-summary"></div>
+</div>
+<div class="NTC_page-cover-image"><img class="NTC_page-img" src="https://files.notice.studio/workspaces/8c8c2caf-fbf0-4d85-bcb7-8fb67110ece6/2d6313d8-6fdf-4d2d-bbab-99ba747ac612.png" alt="page_cover"></div>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<div class="NTC_space-right">
+<div class="NTC_anchor-sticky-container">
+<div class="NTC_anchors-list-container">
+<h5>On This Page</h5>
+
+<div id="anchor_n8n-assistant-unofficial-privacy-policy-d348" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('n8n-assistant-unofficial-privacy-policy-d348')" class="NTC_anchor-link NTC_anchor-header-1">
+N8N Assistant (Unofficial) Privacy Policy
+</div>
+
+<div id="anchor_information-collection-and-use-7c6c" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('information-collection-and-use-7c6c')" class="NTC_anchor-link NTC_anchor-header-2">
+Information Collection and Use
+</div>
+
+<div id="anchor_data-storage-1a8e" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-storage-1a8e')" class="NTC_anchor-link NTC_anchor-header-2">
+Data Storage
+</div>
+
+<div id="anchor_data-security-d5bf" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-security-d5bf')" class="NTC_anchor-link NTC_anchor-header-2">
+Data Security
+</div>
+
+<div id="anchor_data-retention-94f2" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-retention-94f2')" class="NTC_anchor-link NTC_anchor-header-2">
+Data Retention
+</div>
+
+<div id="anchor_data-deletion-ecf4" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('data-deletion-ecf4')" class="NTC_anchor-link NTC_anchor-header-2">
+Data Deletion
+</div>
+
+<div id="anchor_third-party-services-4f44" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('third-party-services-4f44')" class="NTC_anchor-link NTC_anchor-header-2">
+Third-Party Services
+</div>
+
+<div id="anchor_legal-disclosure-3e2b" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('legal-disclosure-3e2b')" class="NTC_anchor-link NTC_anchor-header-2">
+Legal Disclosure
+</div>
+
+<div id="anchor_changes-to-this-privacy-policy-b90e" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('changes-to-this-privacy-policy-b90e')" class="NTC_anchor-link NTC_anchor-header-2">
+Changes to This Privacy Policy
+</div>
+
+<div id="anchor_contact-us-c735" onclick="$NTC['e94d83cd-5f62-4e3f-8ab1-99625c5c7d67'].navigateToAndSetAnchor('contact-us-c735')" class="NTC_anchor-link NTC_anchor-header-2">
+Contact Us
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+</body></html>

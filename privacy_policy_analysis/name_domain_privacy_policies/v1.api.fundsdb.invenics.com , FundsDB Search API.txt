@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FundsDB</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- https://web.dev/uses-rel-preconnect -->
+    <link rel="preconnect" href="https://storage.googleapis.com" />
+
+    <meta
+      name="description"
+      content="Starter kit for modern web applications"
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="/" />
+    <link
+      rel="alternate icon"
+      href="/favicon.ico"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="mask-icon" href="/favicon.svg" color="#FFFFFF" />
+    <link rel="image_src" href="/cover2.png" color="#FFFFFF" />
+
+    <meta name="fragment" content="!" />
+    <meta
+      name="description"
+      content="FundsDB is a comprehensive, AI enriched, multidisciplinary funding data aggregator and search platform with advanced data filtering capabilities. It&#39;s a responsive web and mobile search platform for getting quick access to funding information that is complimented with specialized funding application services and innovation incentives consulting."
+      data-rh="true"
+    />
+    <meta name="twitter:card" content="summary" data-rh="true" />
+    <meta
+      name="twitter:title"
+      content="AI powered Funding Data Aggregator and Search platform"
+    />
+    <meta name="twitter:site_name" content="FundsDb" />
+    <meta
+      name="twitter:description"
+      content="FundsDB is a comprehensive, AI enriched, multidisciplinary funding data aggregator and search platform with advanced data filtering capabilities. It&#39;s a responsive web and mobile search platform for getting quick access to funding information that is complimented with specialized funding application services and innovation incentives consulting."
+    />
+    <meta name="twitter:image:src" content="/cover2.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="keywords" content="react, pwa, boilerplate, template" />
+
+    <meta
+      property="og:title"
+      content="AI powered Funding Data Aggregator and Search platform"
+      data-rh="true"
+    />
+    <meta property="og:site_name" content="FundsDB" data-rh="true" />
+    <meta
+      property="og:description"
+      content="FundsDB is a comprehensive, AI enriched, multidisciplinary funding data aggregator and search platform with advanced data filtering capabilities. It&#39;s a responsive web and mobile search platform for getting quick access to funding information that is complimented with specialized funding application services and innovation incentives consulting."
+      data-rh="true"
+    />
+    <meta property="og:image" content="/cover2.png" data-rh="true" />
+    <meta
+      property="og:url"
+      content="https://fundsdb.invenics.com/"
+      data-rh="true"
+    />
+    <meta property="og:type" content="website" data-rh="true" />
+
+    <!-- https://web.dev/defer-non-critical-css/ -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Inter:300,400,500,700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <script type="module" crossorigin src="/assets/index-246a9668.js"></script>
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>

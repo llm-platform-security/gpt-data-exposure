@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="-v7xDHJQj-HrJ19S012WltIKcDhgglsjzsnX4-_DWHWygYR5H_inC0hBrPz03hLMKM1j5aHYBbx7eJX3phjTew" />
+
+<title>Dylan Shade&#39;s personal website</title>
+<meta name="description" content="Dylan is a Software Engineer by day and a Life Long Learner &amp; Pianist by night. Currently working at JPMorgan Chase &amp; Co.">
+<link rel="canonical" href="https://www.polywork.com/dpshade">
+<meta property="og:title" content="Dylan Shade&#39;s personal website">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Dylan is a Software Engineer by day and a Life Long Learner &amp; Pianist by night. Currently working at JPMorgan Chase &amp; Co.">
+<meta property="og:image" content="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fpoly.work%2Fsocial_cards%2FDG4wLJBD%3Fversion%3De8b0231c28331614850c7e83c79a98e5?ixlib=rails-4.3.1&auto=format&s=438fca284c83a0d1360d4bb69eb62c0e">
+<meta property="og:url" content="https://www.dylanshade.com/">
+<meta property="og:site_name" content="Dylan Shade&#39;s personal website">
+<meta name="twitter:title" content="Dylan Shade&#39;s personal website">
+<meta name="twitter:type" content="website">
+<meta name="twitter:description" content="Dylan is a Software Engineer by day and a Life Long Learner &amp; Pianist by night. Currently working at JPMorgan Chase &amp; Co.">
+<meta name="twitter:image" content="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fpoly.work%2Fsocial_cards%2FDG4wLJBD%3Fversion%3De8b0231c28331614850c7e83c79a98e5?ixlib=rails-4.3.1&auto=format&s=438fca284c83a0d1360d4bb69eb62c0e">
+<meta name="twitter:url" content="https://www.dylanshade.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="image" content="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fpoly.work%2Fsocial_cards%2FDG4wLJBD%3Fversion%3De8b0231c28331614850c7e83c79a98e5?ixlib=rails-4.3.1&auto=format&s=438fca284c83a0d1360d4bb69eb62c0e">
+<meta name="url" content="https://www.dylanshade.com/">
+<meta name="request_variant" content="" />
+
+
+
+
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+      <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="60x60" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="144x144" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="152x152" />
+    <link rel="apple-touch-icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="180x180" />
+
+    <link rel="icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="96x96" />
+
+    <link rel="icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.dylanshade.com%2Fassets%2Ffavicon%2Fidentity-default-favicon-9817d7b6296883042633996b90775f32f72dbfabfbe493de9965328af3f0902e.png?ixlib=rails-4.3.1&w=32&h=32&fit=crop&auto=format&s=39ca62cb266380d3904fc9a9e4d2463d" sizes="48x48" />
+
+  <link rel="manifest" href="/manifest.json" />
+  <link href='cdn.iframe.ly' rel='preconnect'>
+  <link href="polywork.com" rel='preconnect'>
+  <link href="polywork-production.imgix.net" rel='preconnect'>
+  <link href="polywork-images-proxy.imgix.net" rel='preconnect'>
+      <script defer src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
+      <script>
+        Bugsnag.start({ apiKey: '18a06e58d9fb1d828b8f796cf83cc903', releaseStage: 'production' })
+      </script>
+    <link rel="stylesheet" href="/assets/tailwind-86853cd5b3562e2ef796f3d15b2354200d36b29d939bfa7e3114337cc74172a6.css" data-turbo-track="reload" media="screen" />
+      
+  <style type="text/css">
+  :root {
+    --template-background: rgb(255, 255, 255);
+    --template-surface: rgb(255, 255, 255);
+    --template-stroke: rgb(228, 232, 241);
+    --template-stroke-opacity-30: rgba(228, 232, 241, 0.3);
+    --template-text: rgb(51, 51, 66);
+    --template-text-opacity-20: rgba(51, 51, 66, 0.2);
+    --template-text-opacity-50: rgba(51, 51, 66, 0.5);
+    --template-text-inverse: rgb(255, 255, 255);
+    --template-lead: rgb(51, 51, 66);
+    --template-lead-dark: rgb(29, 29, 37);
+    --template-secondary: rgb(51, 51, 66);
+    --template-background-hex: #FFFFFF;
+    --template-surface-hex: #FFFFFF;
+    --template-stroke-hex: #E4E8F1;
+    --template-text-hex: #333342;
+    --template-text-inverse-hex: #FFFFFF;
+    --template-lead-hex: #333342;
+    --template-secondary-hex: #333342;
+  }
+</style>
+
+  <link rel="stylesheet" href="/assets/application-8fc5959715f11e200f29e4e7c0987e3c4eb2fa7ac1a2cf931f268a982bdea0a9.css" media="all" data-turbo-track="reload" />
+
+        <link rel="stylesheet" href="/assets/application-8fc5959715f11e200f29e4e7c0987e3c4eb2fa7ac1a2cf931f268a982bdea0a9.css" media="all" data-turbo-track="reload" />
+    <script src="/packs/js/application-a79181c4434bf43762a9.js" data-turbo-track="reload"></script>
+    
+    <style type="text/css">
+      :root { --display-1-font-family: DM Sans; --display-1-font-size: 32px; --display-1-font-weight: 700; --display-1-line-height: 110%; --display-1-font-style: normal; --display-1-mobile-font-size: 24px; --display-1-mobile-line-height: 110%; --display-2-font-family: Cormorant Garamond; --display-2-font-size: 34px; --display-2-font-weight: 400; --display-2-line-height: 120%; --display-2-mobile-font-size: 34px; --display-2-mobile-line-height: 120%; --h1-font-family: DM Sans; --h1-font-size: 24px; --h1-font-weight: 700; --h1-line-height: 120%; --h1-mobile-font-size: 24px; --h1-mobile-line-height: 120%; --h4-font-family: DM Sans; --h4-font-size: 14px; --h4-font-weight: 700; --h4-line-height: 150%; --body-font-family: DM Sans; --body-font-size: 14px; --body-font-weight: 400; --body-line-height: 150%; --default-font-family: DM Sans }
+</style>    <link rel="stylesheet" href="/assets/templated/typographies/dm-sans-5df33c2af2c75bd2b0937273d2bb3c6830f70e7ac75a6df86dd7d601aa139760.css" media="all" data-turbo-track="reload" />
+    <link rel="stylesheet" href="/assets/templated/typographies/sizing-926fbe0577043d51f08137e610ce52e021290d110b6e17182358947217d81413.css" media="all" data-turbo-track="reload" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7048VMS68" data-turbo-track="reload"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Z7048VMS68', {"user_properties":{"signed_in":false,"status":"unknown"},"signed_in":false,"user_status":"unknown"});
+  </script>
+<!-- Global site tag (gtag.js) - Google Analytics (poly.me) -->
+<!-- Global site tag (gtag.js) - Google Ads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10865685512" data-turbo-track="reload"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-10865685512', {
+      allow_enhanced_conversions: true,
+      user_data: {
+        email: ''
+      }
+    });
+  </script>
+<!-- Google Optimize -->
+  <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5BF4Z7C"></script>
+<!-- Conversion Tracking -->
+
+</head>
+
+  <body class="identity-body --template-the-o-g-profile --color-scheme-wireframe tw-bg-template-background" data-controller="profile-hover-card prevent-frames-reloading toast-insertion navbar-notifications facebook-sdk font-loader timezone-cookie scroll-to-top-button message-to-event-handler" data-font-loader-fonts-value="{&quot;Sohne&quot;:[400,600,700,800]}" data-profile-edit-modal-enable-modal-toggle-value="true" data-navbar-notifications-hide-icon-class="d-none" data-toast-insertion-toast-text-class="toast-text" data-scroll-to-top-button-show-button-class="btn-scroll-top-visible">
+    
+      
+
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId            : 3091356407778894,
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v12.0'
+          });
+        };
+      </script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+      <turbo-cable-stream-source __unsafe__="false" channel="Turbo::StreamsChannel" signed-stream-name="ImI3OTI0MGRiLWQwZjUtNGY2ZS04MjRhLTQ2OGVkMzJkODlkMzpuYXZiYXIi--fbfeb52f7384f43e04aa910d3b61b73477463869995e78a9182705b66e324035"></turbo-cable-stream-source>
+          <div></div>
+
+    <div id="profile_hover_card" class="popover-profile-card-container" data-profile-hover-card-target="container"></div>
+
+    <main class="w-100" role="main" style="" id="main-content" data-test="main-content">
+
+          <link rel="stylesheet" href="/assets/templated/templates/the-o-g-profile-80388af47f4677e2c31f2a9c2ceea0a61055bf9809bde7cfbc7a71e761cadd54.css" media="all" data-turbo-track="reload" />
+<nav class="navbar py-3 py-lg-5"></nav>
+
+<div class="identity__page-header">
+  <header class="w-100 mw-800px m-auto pt-8 px-4 px-md-0" data-controller="profile-template-preview-reveal-on-scroll">
+  <div class="d-flex flex-grow-1 justify-content-between tw-relative">
+    <div>
+      <div class="identity-header-section-wrapper identity-profile-details-section identity-profile-details-2566184-section  identity-profile-headline-section z-index-1000" data-controller="action-on-event" data-action-on-event-action-class="active" data-action="message-to-event-handler:activate-details-section@window-&gt;action-on-event#addClass message-to-event-handler:deactivate-details-section@window-&gt;action-on-event#removeClass">
+  <div class="">
+    
+          <div class="p-0 position-relative">
+                <div class="avatar-background avatar-background-size-xl-5 rounded-circle">
+    <div class="avatar rounded-circle avatar-size-xl-5 reveal--TTB-on-trigger reveal--color-FFF1F1">
+      <span class="avatar-image">
+        <img data-test="available-profile-avatar" data-controller="lazy-image-loader" data-lazy-image-loader-src-value="https://polywork-images-proxy.imgix.net/https%3A%2F%2Fwww.polywork.com%2Fdpshade%2Favatar%3Fversion%3Dc698f5c4cb101d753e18248424b6f321?ixlib=rails-4.3.1&w=512&h=512&fit=crop&auto=format&s=4b1e339ba09e4fe39b6d10115e095b6a">
+      </span>
+</div></div>
+
+</div>
+          <div class="d-flex justify-content-between mt-2">
+            <div class="d-inline-flex align-items-center reveal--RTL-on-trigger reveal--color-FFF1F1">
+              <turbo-frame id="profile_display_name">
+                <div id="profile-name" class="tw-text-template-lead display-1">Dylan Shade</div>
+</turbo-frame>              
+            </div>
+          </div>
+          <div class="tw-mt-2 tw-mb-4 width-fit-content reveal--LTR-on-trigger reveal--color-FFF1F1">
+            <ul class="list-inline tw-text-template-text mb-0">
+              <li class="list-inline-item d-inline" id="profile-username">
+                <span class="tw-text-template-text">@dpshade</span>
+              </li>
+
+                <li class="list-inline-item d-inline" id="profile-headline">Dylan is a Software Engineer by day and a Life Long Learner &amp; Pianist by night. Currently working at JPMorgan Chase &amp; Co.</li>
+
+                <li class="list-inline-item d-inline">Columbus, OH</li>
+
+            </ul>
+          </div>
+
+  </div>
+</div>
+
+        <div class="identity-header-section-wrapper identity-profile-badges-section identity-profile-badges-2566179-section  " >
+  <div class="">
+    
+            <div id='profile-badges-panel' class="min-w-0 d-flex justify-content-between align-items-baseline reveal--RTL-on-trigger reveal--color-FFF5E5">
+              <div class="badge-pill-group d-flex flex-wrap" data-controller="badges-list" data-action="resize@window-&gt;badges-list#screenResize" data-badges-list-target="badgesContainer" data-badges-list-max-row-count-value="2" data-badges-list-mobile-max-row-count-value="2" data-badges-list-expanded-value="false" data-badges-list-show-less-value="Show less" data-badges-list-hidden-badge-class="d-none">
+
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-blue pw-icon pw-icon-cross"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M344 104h-64V40c0-22.06-17.94-40-40-40h-96c-22.06 0-40 17.94-40 40v64H40c-22.06 0-40 17.94-40 40v96c0 22.06 17.94 40 40 40h64v192c0 22.06 17.94 40 40 40h96c22.06 0 40-17.94 40-40V280h64c22.06 0 40-17.94 40-40v-96c0-22.06-17.94-40-40-40zm-8 128H232v232h-80V232H48v-80h104V48h80v104h104v80z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Christian</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-light-red pw-icon pw-icon-brackets-curly"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M208 32h-48a96 96 0 0 0-96 96v37.48a32.06 32.06 0 0 1-9.38 22.65L9.37 233.37a32 32 0 0 0 0 45.26l45.25 45.25A32 32 0 0 1 64 346.51V384a96 96 0 0 0 96 96h48a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-48a32 32 0 0 1-32-32v-37.48a96 96 0 0 0-28.13-67.89L77.25 256l22.63-22.63A96 96 0 0 0 128 165.48V128a32 32 0 0 1 32-32h48a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zm358.63 201.37l-45.25-45.24a32.06 32.06 0 0 1-9.38-22.65V128a96 96 0 0 0-96-96h-48a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h48a32 32 0 0 1 32 32v37.47a96 96 0 0 0 28.13 67.91L498.75 256l-22.62 22.63A96 96 0 0 0 448 346.52V384a32 32 0 0 1-32 32h-48a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h48a96 96 0 0 0 96-96v-37.49a32 32 0 0 1 9.38-22.63l45.25-45.25a32 32 0 0 0 0-45.26z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Software Engineer</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-navy pw-icon pw-icon-watch-fitness"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M248.42 168.01c-15.76 0-35.02 6.7-56.42 27.74-21.4-21.04-40.66-27.74-56.42-27.74-16.47 0-29.11 7.31-36.38 13.22-28.27 22.95-29.75 64.17-4.45 89.04l87.08 85.59c5.61 5.52 14.73 5.53 20.36 0l87.08-85.59c25.3-24.87 23.81-66.09-4.46-89.04-7.28-5.91-19.93-13.22-36.39-13.22zm18.41 79.44L192 321l-74.83-73.55c-11.77-11.57-11.19-30.51 2.2-41.38 11.1-9.02 27.15-10.16 50.2 12.5L192 240.63l22.43-22.05c22.96-22.57 39.01-21.58 50.2-12.49 13.42 10.88 13.94 29.81 2.2 41.36zM320 81.61V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v49.61C27.48 89.03 0 121.3 0 160v192c0 38.7 27.48 70.97 64 78.39V480c0 17.67 14.33 32 32 32h192c17.67 0 32-14.33 32-32v-49.61c36.52-7.41 64-39.69 64-78.39V160c0-38.7-27.48-70.97-64-78.39zM96 32h192v48H96V32zm192 448H96v-48h192v48zm64-128c0 26.47-21.53 48-48 48H80c-26.47 0-48-21.53-48-48V160c0-26.47 21.53-48 48-48h224c26.47 0 48 21.53 48 48v192z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Fitness Addict</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-yellow pw-icon pw-icon-music"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Musician</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-red pw-icon pw-icon-drone"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M112 224a110.32 110.32 0 0 0 16.26-1.64l-35.93-49.77a63.82 63.82 0 1 1 80.26-80.26l49.77 35.93A110.45 110.45 0 0 0 224 112a112 112 0 1 0-112 112zM339.41 92.33a63.82 63.82 0 1 1 80.26 80.26l-35.93 49.77A110.32 110.32 0 0 0 400 224a112 112 0 1 0-112-112 110.32 110.32 0 0 0 1.64 16.26zM172.59 419.67a63.82 63.82 0 1 1-80.26-80.26l35.93-49.77A110.32 110.32 0 0 0 112 288a112 112 0 1 0 112 112 110.32 110.32 0 0 0-1.64-16.26zM400 288a110.32 110.32 0 0 0-16.26 1.64l35.93 49.77a63.82 63.82 0 1 1-80.26 80.25l-49.77-35.92A110.32 110.32 0 0 0 288 400a112 112 0 1 0 112-112zm1-144.2a31.91 31.91 0 1 0-32.8-32.8l-67.86 49h-88.68l-67.86-49a31.91 31.91 0 1 0-32.8 32.8l49 67.86v88.68l-49 67.86a31.91 31.91 0 1 0 32.8 32.8l67.86-49h88.68l67.86 49a31.91 31.91 0 1 0 32.8-32.8l-49-67.86v-88.68z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Drone Pilot</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-lilac pw-icon pw-icon-abacus"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><defs><style>.fa-secondary{opacity:.4}</style></defs><path d="M192 440h-32v-48h32zM160 72v48h32V72zm96 160v48h32v-48zm-96 0v48h32v-48zm96 208h160v-48H256zm96-160h128v-48H352zM544 0a32 32 0 0 0-32 32v464a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V32a32 32 0 0 0-32-32zM416 72H256v48h160zM32 0A32 32 0 0 0 0 32v464a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V32A32 32 0 0 0 32 0z" class="fa-secondary"></path><path d="M144 32h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zm96 0h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zm-96 160h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16zm192 0h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16zm-96 0h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16zM464 32h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM144 352h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16zm96 0h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16zm224 0h-32a16 16 0 0 0-16 16v96a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16v-96a16 16 0 0 0-16-16z" class="fa-primary"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Data Scientist</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-turquoise pw-icon pw-icon-book-alt"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M448 358.4V25.6c0-16-9.6-25.6-25.6-25.6H96C41.6 0 0 41.6 0 96v320c0 54.4 41.6 96 96 96h326.4c12.8 0 25.6-9.6 25.6-25.6v-16c0-6.4-3.2-12.8-9.6-19.2-3.2-16-3.2-60.8 0-73.6 6.4-3.2 9.6-9.6 9.6-19.2zM380.8 448H96c-19.2 0-32-12.8-32-32s16-32 32-32h284.8v64z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Life Long Learner</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-turquoise pw-icon pw-icon-mobile-android"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-64 452c0 6.6-5.4 12-12 12h-72c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v8z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Mobile Application Developer</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-red pw-icon pw-icon-heart-rate"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M480 224c-6.53 0-12.44 3.98-14.84 10.06l-45.62 114.05-84-335.98C333.72 4.86 327.69.17 319.62 0c-7.5.19-13.84 5.53-15.31 12.86l-82.06 410.23-46.72-186.97A16.005 16.005 0 0 0 160 224H8c-4.42 0-8 3.58-8 8v16c0 4.42 3.58 8 8 8h139.5l60.97 243.88c1.78 7.14 8.22 12.12 15.53 12.12h.38c7.5-.19 13.84-5.53 15.31-12.86l82.06-410.23 78.72 314.97c1.69 6.73 7.53 11.62 14.44 12.09 7.62.28 13.38-3.59 15.94-10.03l60-149.94H632c4.42 0 8-3.58 8-8v-16c0-4.42-3.58-8-8-8H480z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Fitness</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-lilac pw-icon pw-icon-piano"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M476.62,269.81l-57.24-28.62A64,64,0,0,1,384,184,184.45,184.45,0,0,0,199.55-.5h-15.1A184.45,184.45,0,0,0,0,184H0V479.5a32,32,0,0,0,32,32H480a32,32,0,0,0,32-32V327.05A64,64,0,0,0,476.62,269.81ZM448,447.5H64v-96H96v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8v-56h32v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8v-56h32v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8v-56h64v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8v-56h32v56a8,8,0,0,0,8,8h16a8,8,0,0,0,8-8v-56h32Z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Pianist</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-navy pw-icon pw-icon-box-check"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M240 0H98.6c-20.7 0-39 13.2-45.5 32.8L2.5 184.6c-.8 2.4-.8 4.9-1.2 7.4H240V0zm235.2 81.7l-16.3-48.8C452.4 13.2 434.1 0 413.4 0H272v157.4C315.9 109.9 378.4 80 448 80c9.2 0 18.3.6 27.2 1.7zM208 320c0-34.1 7.3-66.6 20.2-96H0v240c0 26.5 21.5 48 48 48h256.6C246.1 468.2 208 398.6 208 320zm240-192c-106 0-192 86-192 192s86 192 192 192 192-86 192-192-86-192-192-192zm114.1 147.8l-131 130c-4.3 4.3-11.3 4.3-15.6-.1l-75.7-76.3c-4.3-4.3-4.2-11.3.1-15.6l26-25.8c4.3-4.3 11.3-4.2 15.6.1l42.1 42.5 97.2-96.4c4.3-4.3 11.3-4.2 15.6.1l25.8 26c4.2 4.3 4.2 11.3-.1 15.5z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Product Management</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-green pw-icon pw-icon-app-store-ios"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM127 384.5c-5.5 9.6-17.8 12.8-27.3 7.3-9.6-5.5-12.8-17.8-7.3-27.3l14.3-24.7c16.1-4.9 29.3-1.1 39.6 11.4L127 384.5zm138.9-53.9H84c-11 0-20-9-20-20s9-20 20-20h51l65.4-113.2-20.5-35.4c-5.5-9.6-2.2-21.8 7.3-27.3 9.6-5.5 21.8-2.2 27.3 7.3l8.9 15.4 8.9-15.4c5.5-9.6 17.8-12.8 27.3-7.3 9.6 5.5 12.8 17.8 7.3 27.3l-85.8 148.6h62.1c20.2 0 31.5 23.7 22.7 40zm98.1 0h-29l19.6 33.9c5.5 9.6 2.2 21.8-7.3 27.3-9.6 5.5-21.8 2.2-27.3-7.3-32.9-56.9-57.5-99.7-74-128.1-16.7-29-4.8-58 7.1-67.8 13.1 22.7 32.7 56.7 58.9 102h52c11 0 20 9 20 20 0 11.1-9 20-20 20z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Apple Fan</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-green pw-icon pw-icon-cassette-tape"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M464 63H48a48 48 0 0 0-48 48v288a48 48 0 0 0 48 48h32l48-96h256l48 96h32a48 48 0 0 0 48-48V111a48 48 0 0 0-48-48zM128 255a32 32 0 1 1 32-32 32 32 0 0 1-32 32zm182.78 0H201.22a78.91 78.91 0 0 0 0-64h109.56a78.91 78.91 0 0 0 0 64zm73.22 0a32 32 0 1 1 32-32 32 32 0 0 1-32 32zM147.78 383l-32 64h280.44l-32-64z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Music Producer</span>
+</label>                  </div>
+                  <div class="ellipsable" data-badges-list-target="badge">
+                    <label class="badge badge-pill d-inline-flex align-items-center mw-100 tw-border-template-stroke">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill="currentColor" class="mr-2 badge-pill-icon pw-icon--wide text-red pw-icon pw-icon-drone-alt"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M288 136a24 24 0 0 0-24-24h-97.62a23.66 23.66 0 0 0-44.77 0H24a24 24 0 0 0 0 48h240a24 24 0 0 0 24-24zm328.4-23.93l-97.82.31a23.58 23.58 0 0 0-45 .14l-98 .31a23.55 23.55 0 0 0 .15 47.09l240.81-.77a23.54 23.54 0 0 0-.15-47.08zM472 237.65l-96.85-29.05a191.9 191.9 0 0 0-110.33 0L168 237.65V192h-48v64.05a32 32 0 0 0 32 32h45.4a179 179 0 0 0-53.33 110.24 16.14 16.14 0 0 0 16 17.71h16.25c8.34 0 14.76-6.58 15.68-14.87a130 130 0 0 1 53.67-91.38l32.92 32.93a32 32 0 0 0 22.63 9.37h37.49a32 32 0 0 0 22.63-9.37l32.92-32.93A130.06 130.06 0 0 1 448 401.13c.92 8.29 7.34 14.85 15.68 14.87h16.25a16.14 16.14 0 0 0 16-17.71 179 179 0 0 0-53.33-110.24H488a32 32 0 0 0 32-32V192h-48z"></path></svg>
+                      <span class="ellipsable tw-text-template-text">Drone Photography</span>
+</label>                  </div>
+
+                <div class='d-none' data-badges-list-target='overflowBadge' data-action='click->badges-list#toggleDisplayedBadges'>
+                  <label class='btn badge badge-pill badge-pill-light-gray d-inline-flex align-items-center tw-border-template-stroke'>
+                    <span data-badges-list-target='overflowBadgeCount' class="tw-text-template-text">+ 0</span>
+                  </label>
+                </div>
+</div>            </div>
+
+  </div>
+</div>
+
+        <div class="identity-header-section-wrapper identity-profile-bio-section identity-profile-bio-2566180-section  " >
+  <div class="">
+    
+            <div class="d-flex justify-content-between align-items-start">
+              <div class="text-expander-container mr-3 reveal--LTR-on-trigger reveal--color-E5F8EF" data-controller="text-expander" data-text-expander-max-height-value="160" data-text-expander-constrained-class-value="text-expander-container--constrained">
+                <div class="text-expander-body pb-3" data-text-expander-target="body">
+                  <div class="tw-text-template-text text-size-introduction rich-content">
+
+<div class="trix-content">
+  <p>Dylan's mission is to create and promote technologies that empower individuals to live purposeful and intentional lives, focused on loving God and sharing His love with others. He strives to develop solutions that leverage our God-given abilities and encourage mindful living while avoiding the pitfalls of technology like addiction, dependency and detachment. Through my work, I aim to contribute to a future where technology serves as a catalyst for spiritual growth, human connection, and the realization of our full potential in accordance with God's plan.</p>
+</div>
+
+</div>
+                </div>
+
+                <div class="text-expander-toggle position-absolute w-100 pointer-cursor tw-text-template-text font-weight-medium" data-text-expander-target="expander">
+                  <span>Read more</span>
+                </div>
+              </div>
+            </div>
+
+  </div>
+</div>
+
+        <div class="identity-header-section-wrapper identity-profile-collaboration-preferences-section identity-profile-collaboration-preferences-2566181-section  mb-4" >
+  <div class="">
+    
+            <div class="d-flex flex-wrap width-fit-content reveal--RTL-on-trigger reveal--color-EBF3FF" data-controller="badges-list" data-action="resize@window-&gt;badges-list#screenResize" data-badges-list-target="badgesContainer" data-badges-list-max-row-count-value="2" data-badges-list-mobile-max-row-count-value="2" data-badges-list-expanded-value="false" data-badges-list-show-less-value="" data-badges-list-hidden-badge-class="d-none" data-badges-list-overflow-prefix-value="and" data-badges-list-overflow-suffix-value="more." data-badges-list-hide-overflow-count-value="true">
+  <div class='tw-text-template-text font-weight-normal mr-1'>
+    I&#39;m open to
+  </div>
+
+    <a data-turbo-frame="_top" href="/contact?opportunity_id=15">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-purple">joining company boards,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=4">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-navy">open source contributions,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=1">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-navy">participating in user research,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=17">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-blue">speaking on podcasts,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=26">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-magenta">brainstorming,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=20">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-green">partnering on side projects,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=22">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-purple">beta testing new products,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=25">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-yellow">freelance roles,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=11">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-turquoise">advising companies,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=43">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-navy">co-founding a company,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=14">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-purple">investing,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=136">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-purple">becoming a vc scout,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=179">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-yellow">jam sessions,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=195">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-lilac">musical collaborations,</span>
+</div></a>    <a data-turbo-frame="_top" href="/contact?opportunity_id=34">
+      <div data-badges-list-target="badge">
+        <span class="mr-1 tw-text-template-text font-weight-bold bottom-dotted-border-with-hover-yellow">and studio sessions.</span>
+</div></a>
+  <div class='d-none' data-badges-list-target='overflowBadge' data-action='click->badges-list#toggleDisplayedBadges'>
+    <span class="tw-text-template-text font-weight-bold pointer-cursor" data-badges-list-target='overflowBadgeCount'></span>
+  </div>
+</div>
+
+  </div>
+</div>
+    </div>
+      <a data-turbo-frame="_top" class="btn btn-pill btn-lead border-none btn-lg px-6 tw-bg-template-lead tw-text-template-background hover:tw-bg-template-lead-dark text-nowrap height-fit-content reveal--LTR-on-trigger reveal--color-FFF1F1 tw-absolute lg:tw-relative tw-right-0 z-index-1000" href="/contact">Contact Me</a>
+  </div>
+    <div class="identity-header-section-wrapper identity-profile-social-links-section identity-profile-social-links-2566192-section  " >
+  <div class="">
+    
+        <div class="ml-n2 position-relative width-fit-content">
+          <div class="ml-2 position-absolute fill-parent-container pe-none reveal--RTL-on-trigger reveal--color-F3EDFF"></div>
+          
+
+<a class="icon-button hover:tw-bg-template-stroke-opacity-30" id="social-link-71465" alt="instagram.com" target="_blank" data-toggle="tooltip" data-placement="top" data-title="instagram.com" rel="nofollow" href="https://instagram.com/dylanshade_">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" class="tw-text-template-secondary">
+<path d="M12.0021 7.38503C9.44757 7.38503 7.3871 9.4455 7.3871 12C7.3871 14.5545 9.44757 16.615 12.0021 16.615C14.5566 16.615 16.6171 14.5545 16.6171 12C16.6171 9.4455 14.5566 7.38503 12.0021 7.38503ZM12.0021 15.0003C10.3513 15.0003 9.00174 13.6548 9.00174 12C9.00174 10.3452 10.3473 8.99967 12.0021 8.99967C13.6569 8.99967 15.0024 10.3452 15.0024 12C15.0024 13.6548 13.6529 15.0003 12.0021 15.0003ZM17.8823 7.19625C17.8823 7.79471 17.4003 8.27268 16.8058 8.27268C16.2074 8.27268 15.7294 7.79069 15.7294 7.19625C15.7294 6.60181 16.2114 6.11983 16.8058 6.11983C17.4003 6.11983 17.8823 6.60181 17.8823 7.19625ZM20.9388 8.28874C20.8705 6.84681 20.5412 5.56956 19.4848 4.51724C18.4325 3.46491 17.1553 3.13556 15.7133 3.06326C14.2272 2.97891 9.77291 2.97891 8.2868 3.06326C6.84888 3.13154 5.57163 3.46089 4.51529 4.51322C3.45894 5.56555 3.1336 6.8428 3.06131 8.28473C2.97696 9.77084 2.97696 14.2251 3.06131 15.7113C3.12959 17.1532 3.45894 18.4304 4.51529 19.4828C5.57163 20.5351 6.84487 20.8644 8.2868 20.9367C9.77291 21.0211 14.2272 21.0211 15.7133 20.9367C17.1553 20.8685 18.4325 20.5391 19.4848 19.4828C20.5372 18.4304 20.8665 17.1532 20.9388 15.7113C21.0232 14.2251 21.0232 9.77485 20.9388 8.28874ZM19.0189 17.3058C18.7056 18.093 18.0992 18.6995 17.3079 19.0168C16.123 19.4868 13.3115 19.3783 12.0021 19.3783C10.6927 19.3783 7.87711 19.4828 6.69626 19.0168C5.90902 18.7036 5.30252 18.0971 4.98522 17.3058C4.51529 16.1209 4.62373 13.3094 4.62373 12C4.62373 10.6906 4.5193 7.87504 4.98522 6.69419C5.29851 5.90695 5.905 5.30046 6.69626 4.98315C7.88113 4.51322 10.6927 4.62167 12.0021 4.62167C13.3115 4.62167 16.127 4.51724 17.3079 4.98315C18.0951 5.29644 18.7016 5.90293 19.0189 6.69419C19.4889 7.87906 19.3804 10.6906 19.3804 12C19.3804 13.3094 19.4889 16.125 19.0189 17.3058Z" fill="currentColor"></path>
+</svg>
+
+</a>
+
+
+<a class="icon-button hover:tw-bg-template-stroke-opacity-30" id="social-link-71466" alt="linkedin.com" target="_blank" data-toggle="tooltip" data-placement="top" data-title="linkedin.com" rel="nofollow" href="https://linkedin.com/in/dylan-shade">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" class="tw-text-template-secondary">
+<path d="M18.8571 4H5.13929C4.51071 4 4 4.51786 4 5.15357V18.8464C4 19.4821 4.51071 20 5.13929 20H18.8571C19.4857 20 20 19.4821 20 18.8464V5.15357C20 4.51786 19.4857 4 18.8571 4ZM8.83571 17.7143H6.46429V10.0786H8.83928V17.7143H8.83571ZM7.65 9.03571C6.88929 9.03571 6.275 8.41786 6.275 7.66071C6.275 6.90357 6.88929 6.28571 7.65 6.28571C8.40714 6.28571 9.025 6.90357 9.025 7.66071C9.025 8.42143 8.41071 9.03571 7.65 9.03571ZM17.725 17.7143H15.3536V14C15.3536 13.1143 15.3357 11.975 14.1214 11.975C12.8857 11.975 12.6964 12.9393 12.6964 13.9357V17.7143H10.325V10.0786H12.6V11.1214H12.6321C12.95 10.5214 13.725 9.88929 14.8786 9.88929C17.2786 9.88929 17.725 11.4714 17.725 13.5286V17.7143Z" fill="currentColor"></path>
+</svg>
+
+</a>
+
+        </div>
+
+  </div>
+</div>
+</header>
+
+</div>
+<div class="identity__page-container --the-o-g-profile --constrained ">
+  <div class="pb-6">
+    
+  <div class="identity-generic-sections --primary-page ">
+      
+      <div class="identity-generic-background-wrapper identity-profile-summaries-section identity-profile-summaries-2566193-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+    <h1 class="tw-text-template-text width-fit-content identity-generic-section-title reveal--LTR-on-trigger reveal--color-FFF0FB">Highlights</h1>
+    <div class="d-flex align-items-center justify-content-between pt-4 width-fit-content reveal--RTL-on-trigger reveal--color-FFF0FB">
+      <div class="w-100 d-grid grid-summaries-columns-4">
+        <div class="grid-item d-flex tw-text-template-text">
+  <div class="d-flex w-100 grid-summary-text">
+    <div class="d-flex flex-column">
+      <strong class="h1">3</strong>
+      <div class="mt-2 line-clamp-4">
+        Built a mobile app
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grid-item d-flex tw-text-template-text">
+  <div class="d-flex w-100 grid-summary-text">
+    <div class="d-flex flex-column">
+      <strong class="h1">2</strong>
+      <div class="mt-2 line-clamp-4">
+        Worked with Swift
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grid-item d-flex tw-text-template-text">
+  <div class="d-flex w-100 grid-summary-text">
+    <div class="d-flex flex-column">
+      <strong class="h1">3</strong>
+      <div class="mt-2 line-clamp-4">
+        Studied Data Science
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grid-item d-flex tw-text-template-text">
+  <div class="d-flex w-100 grid-summary-text">
+    <div class="d-flex flex-column">
+      <strong class="h1">1</strong>
+      <div class="mt-2 line-clamp-4">
+        Backend Systems Designed
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+      <div class="identity-generic-background-wrapper identity-profile-positions-section identity-profile-positions-2566189-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1 class="tw-text-template-text width-fit-content identity-generic-section-title reveal--LTR-on-trigger reveal--color-FFEDED">Resume</h1>
+          <a class="h6 tw-text-template-text width-fit-content reveal--LTR-on-trigger reveal--color-FFEDED" href="/positions">View all</a>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+        <article class="py-4 tw-border-t tw-border-template-stroke">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger reveal--color-FFEDED">
+    <div class="tw-text-template-text mb-2">Aug 2023 - Present</div>
+    <h4 class="tw-text-template-text">Software Engineer, JPMorgan Chase &amp; Co.</h4>
+  </div>
+</article>
+<article class="py-4 tw-border-t tw-border-template-stroke">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger reveal--color-FFEDED">
+    <div class="tw-text-template-text mb-2">Jan 2019 - May 2023</div>
+    <h4 class="tw-text-template-text">Computer Science, University of Kentucky</h4>
+  </div>
+</article>
+<article class="py-4 tw-border-t tw-border-template-stroke">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger reveal--color-FFEDED">
+    <div class="tw-text-template-text mb-2">Jan 2023 - May 2023</div>
+    <h4 class="tw-text-template-text">Data Science, Stantec</h4>
+  </div>
+</article>
+<article class="py-4 tw-border-t tw-border-template-stroke">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger reveal--color-FFEDED">
+    <div class="tw-text-template-text mb-2">May 2022 - Aug 2022</div>
+    <h4 class="tw-text-template-text">Software Developer, CSI</h4>
+  </div>
+</article>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <div class="identity-generic-background-wrapper identity-profile-primary-links-section identity-profile-primary-links-2566190-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1 class="tw-text-template-text identity-generic-section-title reveal--RTL-on-trigger reveal--color-EFF0FD">Links</h1>
+          <a class="h6 tw-text-template-text reveal--LTR-on-trigger reveal--color-EFF0FD" href="/primary_links">View all</a>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+        <a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" id="profile-primary-link-56961" target="_blank" rel="nofollow" href="https://apps.apple.com/us/app/chord-solver/id1564025162">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger reveal--color-EFF0FD">
+    <span>Chord Solver iOS: &#39;G Lydian Augmented?!?!&#39;</span><span class="tw-whitespace-nowrap">&#65279;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="ml-2.5 tw-text-template-text fixed-icon-size--14px mb-1 pw-icon pw-icon-external-link"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM474.67,0H316a28,28,0,0,0-28,28V46.71A28,28,0,0,0,316.79,73.9L384,72,135.06,319.09l-.06.06a24,24,0,0,0,0,33.94l23.94,23.85.06.06a24,24,0,0,0,33.91-.09L440,128l-1.88,67.22V196a28,28,0,0,0,28,28H484a28,28,0,0,0,28-28V37.33h0A37.33,37.33,0,0,0,474.67,0Z"></path></svg></span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" id="profile-primary-link-56962" target="_blank" rel="nofollow" href="https://apps.apple.com/us/app/vivace-theory/id1603885678">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger reveal--color-EFF0FD">
+    <span>Vivace Theory iOS: &#39;G B D F#?&#39;</span><span class="tw-whitespace-nowrap">&#65279;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="ml-2.5 tw-text-template-text fixed-icon-size--14px mb-1 pw-icon pw-icon-external-link"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM474.67,0H316a28,28,0,0,0-28,28V46.71A28,28,0,0,0,316.79,73.9L384,72,135.06,319.09l-.06.06a24,24,0,0,0,0,33.94l23.94,23.85.06.06a24,24,0,0,0,33.91-.09L440,128l-1.88,67.22V196a28,28,0,0,0,28,28H484a28,28,0,0,0,28-28V37.33h0A37.33,37.33,0,0,0,474.67,0Z"></path></svg></span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" id="profile-primary-link-56963" target="_blank" rel="nofollow" href="https://play.google.com/store/apps/details?id=com.dps.vivaceTheory&amp;hl=en_US&amp;gl=US">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger reveal--color-EFF0FD">
+    <span>Vivace Theory Android: &#39;Oh yes, Gmajor7&#39;</span><span class="tw-whitespace-nowrap">&#65279;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="ml-2.5 tw-text-template-text fixed-icon-size--14px mb-1 pw-icon pw-icon-external-link"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM474.67,0H316a28,28,0,0,0-28,28V46.71A28,28,0,0,0,316.79,73.9L384,72,135.06,319.09l-.06.06a24,24,0,0,0,0,33.94l23.94,23.85.06.06a24,24,0,0,0,33.91-.09L440,128l-1.88,67.22V196a28,28,0,0,0,28,28H484a28,28,0,0,0,28-28V37.33h0A37.33,37.33,0,0,0,474.67,0Z"></path></svg></span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" id="profile-primary-link-56964" target="_blank" rel="nofollow" href="https://www.youtube.com/@dylanshade3322/videos">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger reveal--color-EFF0FD">
+    <span>Drone Shots</span><span class="tw-whitespace-nowrap">&#65279;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="ml-2.5 tw-text-template-text fixed-icon-size--14px mb-1 pw-icon pw-icon-external-link"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM474.67,0H316a28,28,0,0,0-28,28V46.71A28,28,0,0,0,316.79,73.9L384,72,135.06,319.09l-.06.06a24,24,0,0,0,0,33.94l23.94,23.85.06.06a24,24,0,0,0,33.91-.09L440,128l-1.88,67.22V196a28,28,0,0,0,28,28H484a28,28,0,0,0,28-28V37.33h0A37.33,37.33,0,0,0,474.67,0Z"></path></svg></span>
+  </div>
+</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      
+      <div class="identity-generic-background-wrapper identity-profile-portfolio-section identity-profile-portfolio-2803183-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between mb-4">
+        <h1 class="tw-text-template-text reveal--LTR-on-trigger reveal--color-FFF1F1">Software Ambitions</h1>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+          <turbo-frame class="no-top-border-for-first-child no-top-padding-for-first-child" id="post_feed">
+    <a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/1a8EJYt4">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger ">
+    <span>Go Scripture Continued...</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/QjpZTzr4">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger ">
+    <span>Go Scripture &amp; OpenAI/Embeddings</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/j6Mgqcep">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger ">
+    <span>Discord Profiler Bot</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/yLqYFMhr">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger ">
+    <span>Chord Solver Website</span>
+  </div>
+</a>
+</turbo-frame>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <div class="identity-generic-background-wrapper identity-profile-portfolio-section identity-profile-portfolio-2803182-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between mb-4">
+        <h1 class="tw-text-template-text reveal--RTL-on-trigger reveal--color-FFF5E5">The Job Log</h1>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+          <turbo-frame class="no-top-border-for-first-child no-top-padding-for-first-child" id="post_feed">
+    <a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/7CPL8u44">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger ">
+    <span>Software Engineer @ JPMorgan Chase &amp; Co.</span>
+  </div>
+</a>
+</turbo-frame>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <div class="identity-generic-background-wrapper identity-profile-portfolio-section identity-profile-portfolio-2803181-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between mb-4">
+        <h1 class="tw-text-template-text reveal--RTL-on-trigger reveal--color-E5F8EF">My Mobile Apps</h1>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+          <turbo-frame class="no-top-border-for-first-child no-top-padding-for-first-child" id="post_feed">
+    <a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/EjwhVW9l">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger ">
+    <span>Vivace Theory (iOS and Android App)</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/fUjxKjls">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger ">
+    <span>Chord Solver iOS</span>
+  </div>
+</a>
+</turbo-frame>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <div class="identity-generic-background-wrapper identity-profile-portfolio-section identity-profile-portfolio-2803180-section  " >
+  <div class="">
+    
+    <div class="identity-generic-section" data-controller="profile-template-preview-reveal-on-scroll">
+      <div class="d-flex align-items-center justify-content-between mb-4">
+        <h1 class="tw-text-template-text reveal--LTR-on-trigger reveal--color-EBF3FF">Albums</h1>
+      </div>
+      <div class="no-top-border-for-first-child no-padding-bottom-for-last-child">
+          <turbo-frame class="no-top-border-for-first-child no-top-padding-for-first-child" id="post_feed">
+    <a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/VZBYz1Be">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger ">
+    <span>Glimpse Studio Album</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/7EfOcf0R">
+  <div class="identity-generic-section-text-content reveal--LTR-on-trigger ">
+    <span>Nightfall Studio Album</span>
+  </div>
+</a><a class="py-4 tw-border-t tw-border-template-stroke d-block identity-link tw-text-template-text" data-turbo-frame="_top" href="/posts/IhSQQzGo">
+  <div class="identity-generic-section-text-content reveal--RTL-on-trigger ">
+    <span>Pacific. My first studio album</span>
+  </div>
+</a>
+</turbo-frame>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+
+  </div>
+  <footer class="mw-800px w-100 position-absolute b-0 px-4 px-lg-0 horizontal-centered ">
+  <div class="d-flex flex-column flex-sm-row justify-content-between tw-border-t tw-border-template-stroke py-3 align-items-center">
+    <div class="identity-footer-section-wrapper identity-profile-details-section identity-profile-details-2566184-section  " >
+  <div class="">
+    
+        <ul class="list-inline subtitle-2 mb-0 mx-auto mx-sm-0">
+          <li class="list-inline-item d-inline caption-2 tw-text-template-text">Dylan Shade</li>
+          <li class="list-inline-item d-inline caption-2 tw-text-template-text">@dpshade</li>
+            <li class="list-inline-item d-inline caption-2 tw-text-template-text">Columbus, OH</li>
+        </ul>
+
+  </div>
+</div>
+
+      <div class="identity-footer-section-wrapper identity-profile-social-links-section identity-profile-social-links-2566192-section  " >
+  <div class="">
+    
+          <div class="d-flex flex-wrap justify-content-center justify-content-sm-end caption-2">
+            
+
+<a class="icon-button hover:tw-bg-template-stroke-opacity-30" id="social-link-71465" alt="instagram.com" target="_blank" data-toggle="tooltip" data-placement="top" data-title="instagram.com" rel="nofollow" href="https://instagram.com/dylanshade_">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" class="tw-text-template-secondary">
+<path d="M12.0021 7.38503C9.44757 7.38503 7.3871 9.4455 7.3871 12C7.3871 14.5545 9.44757 16.615 12.0021 16.615C14.5566 16.615 16.6171 14.5545 16.6171 12C16.6171 9.4455 14.5566 7.38503 12.0021 7.38503ZM12.0021 15.0003C10.3513 15.0003 9.00174 13.6548 9.00174 12C9.00174 10.3452 10.3473 8.99967 12.0021 8.99967C13.6569 8.99967 15.0024 10.3452 15.0024 12C15.0024 13.6548 13.6529 15.0003 12.0021 15.0003ZM17.8823 7.19625C17.8823 7.79471 17.4003 8.27268 16.8058 8.27268C16.2074 8.27268 15.7294 7.79069 15.7294 7.19625C15.7294 6.60181 16.2114 6.11983 16.8058 6.11983C17.4003 6.11983 17.8823 6.60181 17.8823 7.19625ZM20.9388 8.28874C20.8705 6.84681 20.5412 5.56956 19.4848 4.51724C18.4325 3.46491 17.1553 3.13556 15.7133 3.06326C14.2272 2.97891 9.77291 2.97891 8.2868 3.06326C6.84888 3.13154 5.57163 3.46089 4.51529 4.51322C3.45894 5.56555 3.1336 6.8428 3.06131 8.28473C2.97696 9.77084 2.97696 14.2251 3.06131 15.7113C3.12959 17.1532 3.45894 18.4304 4.51529 19.4828C5.57163 20.5351 6.84487 20.8644 8.2868 20.9367C9.77291 21.0211 14.2272 21.0211 15.7133 20.9367C17.1553 20.8685 18.4325 20.5391 19.4848 19.4828C20.5372 18.4304 20.8665 17.1532 20.9388 15.7113C21.0232 14.2251 21.0232 9.77485 20.9388 8.28874ZM19.0189 17.3058C18.7056 18.093 18.0992 18.6995 17.3079 19.0168C16.123 19.4868 13.3115 19.3783 12.0021 19.3783C10.6927 19.3783 7.87711 19.4828 6.69626 19.0168C5.90902 18.7036 5.30252 18.0971 4.98522 17.3058C4.51529 16.1209 4.62373 13.3094 4.62373 12C4.62373 10.6906 4.5193 7.87504 4.98522 6.69419C5.29851 5.90695 5.905 5.30046 6.69626 4.98315C7.88113 4.51322 10.6927 4.62167 12.0021 4.62167C13.3115 4.62167 16.127 4.51724 17.3079 4.98315C18.0951 5.29644 18.7016 5.90293 19.0189 6.69419C19.4889 7.87906 19.3804 10.6906 19.3804 12C19.3804 13.3094 19.4889 16.125 19.0189 17.3058Z" fill="currentColor"></path>
+</svg>
+
+</a>
+
+
+<a class="icon-button hover:tw-bg-template-stroke-opacity-30" id="social-link-71466" alt="linkedin.com" target="_blank" data-toggle="tooltip" data-placement="top" data-title="linkedin.com" rel="nofollow" href="https://linkedin.com/in/dylan-shade">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" class="tw-text-template-secondary">
+<path d="M18.8571 4H5.13929C4.51071 4 4 4.51786 4 5.15357V18.8464C4 19.4821 4.51071 20 5.13929 20H18.8571C19.4857 20 20 19.4821 20 18.8464V5.15357C20 4.51786 19.4857 4 18.8571 4ZM8.83571 17.7143H6.46429V10.0786H8.83928V17.7143H8.83571ZM7.65 9.03571C6.88929 9.03571 6.275 8.41786 6.275 7.66071C6.275 6.90357 6.88929 6.28571 7.65 6.28571C8.40714 6.28571 9.025 6.90357 9.025 7.66071C9.025 8.42143 8.41071 9.03571 7.65 9.03571ZM17.725 17.7143H15.3536V14C15.3536 13.1143 15.3357 11.975 14.1214 11.975C12.8857 11.975 12.6964 12.9393 12.6964 13.9357V17.7143H10.325V10.0786H12.6V11.1214H12.6321C12.95 10.5214 13.725 9.88929 14.8786 9.88929C17.2786 9.88929 17.725 11.4714 17.725 13.5286V17.7143Z" fill="currentColor"></path>
+</svg>
+
+</a>
+
+          </div>
+
+  </div>
+</div>
+  </div>
+</footer>
+
+</div>
+
+
+</main>
+    
+    <turbo-frame data-controller="turbo-frame-modal" id="modal_container"></turbo-frame>
+
+
+
+      
+
+      <turbo-frame id="toasts">
+        <ul class="toast-container list-unstyled text-center px-3" id="toasts-container" data-controller="toasts" data-toast-insertion-target="container"></ul>
+</turbo-frame>    <div class="d-none">
+      <li class="mb-2" data-toast-insertion-target="template">
+        
+<div class="toast bg-notice mb-2" data-autohide="true" data-delay="2500" data-animation="false" data-test="toast" aria-live="assertive" aria-atomic="true">
+  <div class='toast-header text-white' data-dismiss=toast aria-label=Close >
+    <div class='toast-text'></div>
+  </div>
+</div>
+</li></div>    <div data-controller="client-events"></div>
+
+</body></html>
+<div data-controller="action-on-event" data-action="message-to-event-handler:close-modal@window->action-on-event#closeModal">
+</div>
+

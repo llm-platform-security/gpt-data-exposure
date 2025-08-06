@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:,">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Sugra Systems, Inc., Sugra API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+            }
+        a   {
+            color: rgb(0, 0, 0); /* Make links white */
+            text-decoration: none; /* Optional: removes underline from links */
+            }
+    a:hover {
+                color: #000000; /* Optional: change link color on hover */
+                text-decoration: underline; /* Optional: underline link on hover */
+            }
+
+    h1, h2 {
+            color: #000000;
+            }
+      p, ul {
+            margin-bottom: 20px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Introduction</strong><br>
+    This Privacy Policy provides details on the handling of data by Sugra Systems, Inc. ("Sugra Systems") through its API, specifically designed to emphasizes our commitment to privacy by <strong>not</strong> collecting ANY personal data.</p>
+
+    <h2>Data Collection and Use</h2>
+    <ul>
+        <li><strong>No Personal Data Collection:</strong> Our API is designed not to collect any personal data from users. All data processed through our API is in the context of the request made by ANY system is not stored, ensuring complete anonymity of users.</li>
+        <li><strong>No Indirect Data Collection:</strong> We do not perform any indirect data collection, such as IP addresses or device information, ensuring users' privacy is maintained.</li>
+        <li><strong>Third-Party Integration:</strong> While our API integrates with third-party services, these integrations are technically designed not to collect data. Data flows from ANY system through our API and back without any collection or storage, ensuring user anonymity.</li>
+    </ul>
+
+    <h2>Data Sharing and Disclosure</h2>
+    <p>No data sharing or disclosure practices are applicable since no data is collected.</p>
+
+    <h2>Data Security</h2>
+    <p>Despite not collecting or storing user data, we employ industry-standard security measures to protect our API and infrastructure from unauthorized access and cyber threats.</p>
+
+    <h2>User Rights and Support</h2>
+    <p>Users seeking information about our privacy practices or who have privacy-related inquiries can contact us at <a href="mailto:support@sugra.systems">support@sugra.systems</a>.</p>
+
+    <h2>Policy Updates</h2>
+    <p>The latest version of this Privacy Policy will always be available, reflecting our current practices and ensuring users are informed about how we handle data (or the lack thereof).</p>
+
+    <h2>Compliance and Regulation</h2>
+    <p>Since no information is collected, our API is designed in a manner that inherently complies with privacy regulations such as GDPR and CCPA, as there are no user data concerns.</p>
+    <p>.</p>
+    <p><strong>Effective Date:</strong> This policy is effective as of 2024/01/01.</p>
+    <p>.</p>
+    <p>.</p>
+<!-- BEGIN Placeholder for the dynamic About section -->
+<div id="aboutsection">
+    
+    <!-- BEGIN aboutsection.html -->
+    <div id="aboutContent">
+      <h2>About</h2>
+      <p>Sugra Systems, Inc. is dedicated to advancing financial technology through innovative solutions. Our mission is to democratize access to financial data, enabling users worldwide to navigate the financial markets with confidence and insight.</p>
+      <h2>Contact</h2>
+      <p>For any questions or suggestions regarding Sugra API V1, please reach out to us at <a href="mailto:support@sugra.systems">support@sugra.systems</a> or visit our website at <a href="http://sugra.systems/">http://sugra.systems/</a>.</p>
+      <h2>License</h2>
+      <p>For detailed information on licensing and usage, please contact us directly.</p>
+      <h2>Privacy</h2>
+      <p>Our commitment to user privacy is paramount. For more information on our privacy practices, please visit our <a href="/v1/privacy/">Privacy Policy</a>.</p>
+      <p>.</p>
+      <!-- BEGIN Social Logos Section -->
+      <div class="social-logos">
+        <a href="https://api.sugra.ai/v1/about/" target="_blank">
+          <img src="./ss.png" alt="SugraAI">
+        </a>
+        <a href="https://www.linkedin.com/company/sugrasystems/" target="_blank">
+          <img src="./in.png" alt="LinkedIn">
+        </a>
+        <a href="https://twitter.com/sugrasystems/" target="_blank">
+          <img src="./x.png" alt="X">
+        </a>
+        <a href="https://www.youtube.com/c/SugraSystemsInc/" target="_blank">
+          <img src="./yt.png" alt="YouTube">
+        </a>
+        <a href="https://github.com/Sugra-Systems/" target="_blank">
+          <img src="./gh.png" alt="GitHub">
+        </a>
+        <a href="https://www.facebook.com/SugraAI/" target="_blank">
+          <img src="./fb.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com/sugra.ai/" target="_blank">
+          <img src="./is.png" alt="Instagram">
+        </a>
+        <!-- Add other social media links and logos similarly -->
+      </div>
+      <!-- END Social Logos Section -->
+
+      <p>© <b>2024 Sugra Systems, Inc.</b> All rights reserved.</p>
+    </div>
+    <!-- Styles for the Social Logos Section -->
+    <style>
+    .social-logos {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 8px; /* adjust the spacing between logos */
+    background: #ffffff; /* or any other preferred color */
+    padding: 5px 0; /* vertical padding */
+    }
+
+    .social-logos img {
+    height: 30px; /* adjust based on your preference */
+    width: auto;
+    opacity: 0.8; /* for the faded effect */
+    transition: opacity 0.3s ease;
+    }
+
+    .social-logos img:hover {
+    opacity: 1; /* full opacity on hover */
+    }
+
+    .footer-text {
+    text-align: left;
+    color: #000000; /* adjust the color as needed */
+    background: #ffffff; /* or any other preferred color */
+    padding: 0px 0; /* vertical padding */
+    }
+
+    .footer-text p {
+    margin: 1px 0; /* adjust the spacing between text lines */
+    }
+    </style>
+    <!-- END Styles for the Social Logos Section -->
+    <!-- END aboutsection.html -->
+    
+</div>
+<!-- END Placeholder for the dynamic About section -->
+</body>
+</html>

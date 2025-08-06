@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <form action="/files/" enctype="multipart/form-data" method="post">
+            <input name="files" type="file" multiple>
+            <input type="submit">
+        </form> -->
+    <div class="container">
+        <h1><a href="/">隐私策略</a></h1>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col col-md-12">
+                隐私策略
+
+                最后更新：[2024-01-01]
+
+                尊敬的用户：
+
+                在[BLUE AI]，我们致力于保护您的个人隐私和数据安全。我们理解数据是一种宝贵的资产，因此我们认真对待保护您的个人信息。本隐私策略旨在帮助您了解我们如何收集、使用、保护和共享您的个人信息，以及如何管理您的隐私偏好。
+
+                1. 我们收集的信息
+
+                我们可能会收集以下类型的信息：
+
+                个人身份信息：个人照片、和您为了使用我们的服务而提供给我们的任何其他信息。
+                使用信息：例如，您如何使用我们的服务，访问的页面类型，以及与我们服务的互动。
+                2. 如何使用您的信息
+
+                我们可能会使用您的信息来：
+
+                提供、维护和改进我们的服务。
+                响应您的评论、问题和提供客户服务。
+                向您发送技术通知、更新、安全警告和支持及管理消息。
+                与您沟通有关产品、服务、优惠、推广、抽奖、调查、新闻、即将发生的活动以及其他我们认为您可能感兴趣的信息。
+                3. 信息的共享
+
+                除非以下情况，否则我们不会与第三方共享您的个人信息：
+
+                获得您的同意。
+                为了提供您请求的服务，例如与支付处理商分享交易信息。
+                遵守法律义务，例如遵循法院命令、法律程序或其他法律要求。
+                保护我们的权利、财产或安全，以及我们的用户和公众的权利、财产或安全。
+                4. 数据的安全
+
+                我们采取合理的措施来保护您的个人信息免受未经授权的访问、更改、披露或销毁。这些措施包括内部审查我们的数据收集、存储和处理实践和安全措施，以及物理安全措施来保护免受系统和数据未经授权的访问。
+
+                5. 您的选择
+
+                您有权访问、更正、更新或请求删除您的个人信息。您也可以通过联系我们来行使这些权利。如果您决定不接收来自我们的营销通信，您可以随时通过点击营销电子邮件底部的“退订”链接来退订。
+
+                6. 联系我们
+
+                如果您对我们的隐私策略有任何疑问或担忧，请通过以下方式联系我们：
+
+                邮箱：admin@blueai.com
+
+                我们承诺尽快回应您的疑虑和问题。
+
+                7. 政策更新
+
+                我们可能会不时更新本隐私策略。我们会在本页面发布任何隐私策略的更改，并且如果更改是重大的，我们会提供更明显的通知（包括对某些服务的隐私策略更改可能会发送通知）。
+
+                请咨询专业法律顾问，以确保您的隐私策略符合所有适用的法律和规定，并且确保您的业务活动得到适当的保护。
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

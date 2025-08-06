@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="telephone=no,email=no,address=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+
+<title>
+		개인정보처리방침 ㅣ 
+		이용안내 ㅣ 
+		
+		한국전자통신연구원
+	</title>
+	<link rel="shortcut icon" href="/images/kor/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/css/kor/common.css" />
+<link rel="stylesheet" href="/js/kor/custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" href="/css/kor/layout_2019.css" media="all" />
+<link rel="stylesheet" href="/css/kor/main_2019.css" />
+<link rel="stylesheet" href="/css/kor/layout_rwd2.css" />
+<link rel="stylesheet" href="/css/kor/contents.css?version=1.0" />
+<link rel="stylesheet" href="/css/kor/board.css" />
+
+<script src="/js/kor/jquery-1.9.0.min.js"></script>
+<script src="/js/kor/new_2019.js"></script>
+<script src="/js/kor/custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+<script src="/js/print/jquery.printElement.js" ></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var jsImport = [
+	'/js/kor/jquery.easing.1.3.js',
+	'/js/kor/jquery.cycle.all.js',
+	'/js/kor/common.js',
+	'/js/kor/script.js',
+	'/js/kor/topmenu.js',
+	'/js/kor/jquery.touchSlider.custom.js',
+	'/js/kor/modernizr.custom.min.js',
+	'/js/kor/jquery.touchSwipe.min.js',
+	'/js/kor/html5.js',
+	'/js/kor/respond.min.js'
+];
+
+$(window).load(function(){
+	for(var i=0; i < jsImport.length; i++){	
+		$('<script type="text/javascript" src="'+jsImport[i]+'"><\/script>').appendTo($("head"));
+	}
+	
+	$('<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />').appendTo($("head"));
+	$('<link rel="stylesheet" href="/font/SpoqaHanSans/font.css" />').appendTo($("head"));
+});
+//]]>
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var kor_common = "/css/kor/common.css";
+	var layout = "/css/kor/layout.css";
+	var layout_rwd = "/css/kor/layout_rwd.css";	
+	var contents = "/css/kor/contents.css";
+	var kor_board = "/css/kor/board.css";
+	
+	var css = [kor_common, layout, layout_rwd, contents, kor_board];
+
+	// 프린트 기능
+	$("#print").bind("click",function(event){
+		$(".line_box").printElement({
+
+			printMode:'popup', //팝업설정 popup = 팝업창 , iframe = iframe
+			overrideElementCSS: css, //css경로
+			pageTitle:'Electronics and Telecommunications Research Institute', //인쇄 타이틀
+			printBodyOptions:{
+				//styleToAdd: 'width:'+$("#contents").width() //style attributes to add to the body of print document
+				styleToAdd: 'width:100%; background:#fff'
+				
+			},
+			leaveOpen:false //false = 인쇄후 창닫기
+		});
+		event.preventDefault();
+	});
+});
+	
+//]]>
+</script>
+</head>
+<body id="sub" class="user">
+	<dl class="skip"> 
+        <dt><strong>바로가기 메뉴</strong></dt> 
+        <dd><a href="#contents">본문 바로가기</a></dd> 
+        <dd><a href="#gnb">주요메뉴 바로가기</a></dd> 
+	</dl>
+
+	<div id="wrap">
+		<div class="js_mobile_check"></div>
+		<div id="header">
+	<h1 class="logo"><a href="/kor/main/main.etri"><img src="/images/kor/layout_2019/logo.svg" alt="ETRI 한국전자통신연구원" /></a></h1>
+	<a href="#" class="search_toggle">검색열기</a>
+	<div class="searchs">
+		<form name="search" action="https://etri.re.kr/mecsearch/search.do" method="post" target="_blank" rel="noopener noreferrer" onsubmit="return searchFunc()">
+			<div class="form">
+				<label for="search_input" class="hidden">검색어</label>
+				<input type="text" name="kw" id="search_input" placeholder="검색어 입력" />
+			</div>
+			<input type="submit" class="btns" value="검색" title="검색결과가 새창으로 열립니다." />
+		</form>
+	</div>
+
+
+	<div id="gnb">
+		<ul>
+			<li>
+				<a href="/korcon/sub1/sub1_0101.etri">정보공개</a>
+				<ul>
+					<li>
+						<a href="/korcon/sub1/sub1_0101.etri">정보공개제도안내</a>
+						<ul>
+							<li><a href="/korcon/sub1/sub1_0101.etri">정보공개제도란</a></li>
+							<li><a href="https://www.open.go.kr/pa/info/openInst/formula.do" target="_blank" rel="noopener noreferrer" title="새창열림">정보공개서식</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI28">정보공개 업무편람</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="/kor/sub1/sub1_04.etri">사전정보공개</a>
+					</li>
+					<li>
+						<a href="/kor/bbs/list.etri?b_board_id=ETRI23">정보목록</a>
+					</li>
+					<li>
+						<a href="/korcon/sub1/sub1_06.etri">정보공개청구</a>
+					</li>
+
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li><a href="/korcon/sub1/sub1_07.etri">공공데이터개방</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI33">사업실명제</a></li>		
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+					
+				</ul>
+			</li>
+			<li>
+				<a href="/kor/bbs/list.etri?b_board_id=ETRI01">ETRI 소식</a>
+				<ul>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI01">공지사항</a></li>
+					<li>
+						<a href="/kor/bbs/list.etri?b_board_id=ETRI06">보도자료</a>
+						<ul>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI06">연구개발보도자료</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI07">경영일반보도자료</a></li>
+						</ul>
+					</li>
+					<li><a href="/korcon/sub2/sub2_04.etri" >ETRI SNS</a></li>
+
+					</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub3/sub3_0401.etri">연구원 홍보</a>
+				<ul>
+					<li><a href="https://www.etri.re.kr/45th/index.html" target="_blank" rel="noopener noreferrer" title="새창열림">45년사</a></li>
+					<li>
+						<a href="/korcon/sub3/sub3_0401.etri">간행물</a>
+						<ul>
+							<li><a href="/korcon/sub3/sub3_0401.etri">Easy IT 시리즈</a></li>
+							<li><a href="/korcon/sub3/sub3_0404.etri">ETRI Brochure</a></li>
+							<li><a href="/korcon/sub3/sub3_0405.etri">ETRI Technology Report</a></li>
+							<li><a href="/korcon/sub3/sub3_0406.etri">ETRI 지속가능경영보고서</a></li>
+							<li><a href="/webzine/" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Webzine</a></li>
+							<li><a href="http://onlinelibrary.wiley.com/journal/10.4218/(ISSN)2233-7326" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Journal</a></li>
+							<li><a href="https://ettrends.etri.re.kr" target="_blank" rel="noopener noreferrer" title="새창이동">전자통신동향분석</a></li>
+							<li><a href="https://ksp.etri.re.kr/ksp/plan-report/search?size=20&sort=pubDate&direction=DESC&dataDivCd=01&keywords=" target="_blank" rel="noopener noreferrer" title="새창이동">ETRI Insight</a></li>
+							<li><a href="/korcon/sub3/sub3_0403.etri">ETRI 기술예고</a></li>
+							<li><a href="/korcon/sub3/sub3_0402.etri">좋은e웃(사보)</a></li>
+						</ul>
+					</li>
+
+
+
+					<li>
+						<a href="/korcon/sub3/sub3_1205.etri">정보통신 체험관</a>
+						<ul>
+							<li><a href="/korcon/sub3/sub3_1205.etri">관람안내</a></li>
+							<li><a href="/kor/sub3/sub3_1201.etri">관람신청</a></li>
+							<li><a href="/korcon/sub3/sub3_1207.etri">비대면 체험관</a></li>
+							</ul>
+					</li>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI12"> 홍보 동영상 </a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub4/sub4_0301.etri">클린 ETRI</a>
+				<ul>
+					<li>
+						<a href="https://csc.etri.re.kr/home/myVoc.do?method=executeGetMyVocList" target="_blank" rel="noopener noreferrer" title="새창열림">고객의소리</a>
+					</li>
+					<li>
+								<a href="/korcon/sub4/sub4_0901.etri">인권경영</a>
+								<ul>
+									<li><a href="/korcon/sub4/sub4_0901.etri">인권경영헌장</a></li>
+									<li><a href="/korcon/sub4/sub4_0902.etri">인권경영실천규정</a></li>
+								</ul>
+							</li>
+					
+							<li>
+						<a href="/korcon/sub4/sub4_0301.etri">윤리경영</a>
+						<ul>
+							<li><a href="/korcon/sub4/sub4_0301.etri">윤리헌장</a></li>
+							<li><a href="/korcon/sub4/sub4_0302.etri">윤리경영실천규정</a></li>
+							<li><a href="/korcon/sub4/sub4_0303.etri">임직원행동강령</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI19">반부패청렴자료방</a></li>
+							</ul>
+					</li>
+				
+					<li>
+						<a href="/korcon/sub4/sub4_0501.etri">e-신문고</a>
+						<ul>
+							<li><a href="/korcon/sub4/sub4_0501.etri">운영절차</a></li>
+							<li><a href="https://www3.etri.re.kr/korcon/sub4/sub4_0502.etri">제보</a></li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI27">예산낭비신고사례</a></li>
+						</ul>
+					</li>
+
+					
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li>
+								<a href="/korcon/sub4/sub4_0601.etri">공익신고</a>
+								<ul>
+									<li><a href="/korcon/sub4/sub4_0601.etri">공익신고접수</a></li>
+									<li><a href="/korcon/sub4/sub4_0602.etri">공익신고자 보호법</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/korcon/sub4/sub4_0701.etri">청렴포털 신고</a>
+								<ul>
+									<li><a href="/korcon/sub4/sub4_0701.etri">운영절차</a></li>
+									<li><a href="https://ncp.clean.go.kr/ancrp/selectMapInsttSumryList.do?insttCd=B551963&acsStmSumryNtarNo=1&pageNum=1">보고/신고</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/bbs/list.etri?b_board_id=ETRI32">감사결과공개</a>
+							</li>
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+
+					</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub5/sub5_01.etri">대표연구성과</a>
+				<ul>
+					<li>
+						<a href="/korcon/sub5/sub5_01.etri">ETRI 대표성과</a>
+					</li>
+					<li>
+						<a href="/korcon/sub5/sub5_0412.etri">연도별 우수성과</a>
+					</li>
+					<li>
+						<a href="/korcon/sub5/sub5_02.etri">R&amp;D 파급효과</a>
+					</li>
+					<li>
+						<a href="http://www.etri.re.kr/ksp" target="_blank" rel="noopener noreferrer" title="새창이동">지식공유플랫폼</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="menu-wide">
+				<a href="/kor/sub6/sub6_0101.etri">연구&middot;행정부서</a>
+				<ul>
+					<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=168">감사부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=168">감사부 소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=168">부서소개</a></li>
+								
+								</ul>
+							</li>
+					
+					
+							 <li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=10">인공지능컴퓨팅연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=10">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=10">부서소개</a></li>
+							</ul>
+					</li>
+
+
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=5">초지능창의연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=5">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=5">부서소개</a></li>
+						
+						</ul>
+					</li>
+
+					<li>
+						<a href="/kor/sub6/sub6_0101.etri?departCode=7">입체통신연구소</a>
+						<ul>
+							<li><a href="/kor/sub6/sub6_0101.etri?departCode=7">연구소소개</a></li>
+							<li><a href="/kor/sub6/sub6_01020101.etri?departCode=7">부서부소개</a></li>
+							</ul>
+					</li>
+
+
+					<li class="hide_menu">
+						<button class="more" title="클릭시 숨김메뉴 노출" onclick="hide_menu(this)">+</button>
+						<ul>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=170">초실감메타버스연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=170">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=170">부서소개</a></li>
+								
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=8">ICT전략연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=8">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=8">부서소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=9">디지털융합연구소</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=9">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=9">부서소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=69">대경권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=69">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=69">연구실소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=70">호남권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=70">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=70">연구실소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=71">수도권연구본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=71">연구소소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=71">부서소개</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=128">기획본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=128">본부소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=128">부서소개</a></li>
+								</ul>
+							</li>
+		
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=3">사업화본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=3">부문소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=3">부서소개</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=2">행정본부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=2">본부소개</a></li>
+									<li><a href="/kor/sub6/sub6_01020101.etri?departCode=2">부서소개</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="/kor/sub6/sub6_0101.etri?departCode=1">대외협력부</a>
+								<ul>
+									<li><a href="/kor/sub6/sub6_0101.etri?departCode=1">대외협력부</a></li>
+									<li><a href="/kor/sub6/sub6_0103.etri?departCode=1">홍보동영상</a></li>
+								</ul>
+							</li>
+								</ul>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<a href="/korcon/sub7/sub7_0101.etri">ETRI 소개</a>
+				<ul>
+					<li>
+						<a href="/korcon/sub7/sub7_0101.etri">인사말</a>
+						<ul>
+							<li><a href="/korcon/sub7/sub7_0101.etri">인사말</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="/korcon/sub7/sub7_02.etri">연구원소개</a>
+					</li>
+					<li>
+						<a href="/korcon/sub7/sub7_03.etri">연혁</a>
+					</li>
+					<li>
+						<a href="/korcon/sub7/sub7_07.etri">조직도</a>
+					</li>
+
+
+					<!-- 숨김메뉴 -->
+					<li class="hide_menu">
+						<button class="more" title="숨김메뉴열기">숨김메뉴 열기</button>
+						<ul>
+							<li>
+								<a href="/korcon/sub7/sub7_04.etri">기타 공개정보</a>
+								</li>
+							<li><a href="/kor/bbs/list.etri?b_board_id=ETRI21">원규 제·개정 예고</a></li>
+								
+							<li>
+								<a href="/korcon/sub7/sub7_12.etri">연구원 고객헌장</a>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_11.etri">ETRI CI</a>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_0801.etri">주요업무연락처</a>
+								<ul>
+									<li><a href="/korcon/sub7/sub7_0801.etri">본원관련부서 담당자</a></li>
+									<li><a href="/korcon/sub7/sub7_0802.etri">각 직할부서 행정업무 부서장</a></li>
+									</ul>
+							</li>
+							<li>
+								<a href="/korcon/sub7/sub7_0901.etri">찾아오시는길</a>
+								<ul>
+									<li><a href="/korcon/sub7/sub7_0901.etri">대전본원</a></li>
+									<li><a href="/korcon/sub7/sub7_0902.etri">서울사무소</a></li>
+									<li><a href="/korcon/sub7/sub7_0903.etri">수도권연구본부</a>
+									</li>
+									<li><a href="/korcon/sub7/sub7_0904.etri">호남권연구본부</a></li>
+									<li><a href="/korcon/sub7/sub7_0905.etri">대경권연구본부</a></li>
+									<li><a href="/korcon/sub7/sub7_0906.etri">북경연구센터</a></li>
+									<li><a href="/korcon/sub7/sub7_0907.etri">미주기술확산센터</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<!-- //숨김메뉴 -->
+
+
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+	<div class="toputil">
+		<a href="/eng/main/main.etri" target="_blank" rel="noopener noreferrer" title="새창이동" class="btn_eng">En<span>glish</span></a>
+		<a href="/korcon/etc/etc_05.etri" class="btn_sitemap">사이트맵</a>
+		<a href="#" class="btn_googles" target="_blank" rel="noopener noreferrer" title="새창이동"
+			onclick="window.open('https://translate.google.com/?rlz=1C1OKWM_koKR775KR775&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;client=tw-ob#view=home&amp;op=translate&amp;sl=ko&amp;tl=en','new','width=640,height=480,top=10,left=10,resizable=no, scrollbars=yes, location=no, menubar=no, toolbar=no, status=no'); return false"><span>Translate</span></a>
+		<a href="#" class="btn_allmenu"><span>전체메뉴열기</span></a>
+		<a href="/korcon/etc/etc_05.etri" class="btn_allmenu_desktop"><span>사이트맵</span></a>
+	</div>
+
+	<ul class="sns_link">
+		<li class="yt"><a href="https://www.youtube.com/user/etri9401/videos" target="_blank" rel="noopener noreferrer" title="새창이동">유튜브</a></li>
+		<li class="bl"><a href="https://blog.naver.com/etripr" target="_blank" rel="noopener noreferrer" title="새창이동">블로그</a></li>
+		<li class="fb"><a href="https://www.facebook.com/EtriNewsmaker/" target="_blank" rel="noopener noreferrer" title="새창이동">페이스북</a></li>
+
+	</ul>
+
+</div><div id="visual" class="bg_11">
+			<div class="lay">
+				<strong>이용안내</strong>
+				<span>상상을 현실로, 진화하는 ICT세상, 고객과 함께 ICT미래를 열어가겠습니다.</span>
+			</div>
+		</div>
+		
+		<div id="container">
+			<div class="al_box line_bg">
+				<div id="lnb">
+		<h2>이용안내</h2>
+			<nav>
+				<ul id="lm">
+					<li><a href="/kor/personal_data/short_content.etri" class="ov">개인정보처리방침</a></li>
+					<li><a href="/kor/bbs/list.etri?b_board_id=ETRI37" >개인정보 관련공시</a></li>
+                    <li><a href="/korcon/etc/etc_07.etri" >저작권정책</a></li>
+					<li><a href="/korcon/etc/etc_03.etri" >영상정보처리기기 <br>운영·관리 방침</a></li>
+					<li><a href="/korcon/etc/etc_04.etri" >이메일무단수집거부</a></li>
+					<li><a href="/korcon/etc/etc_05.etri" >사이트맵</a></li>
+					<li><a href="/kor/etc/etc_0601.etri" >팝업/배너 더보기</a>
+						<ul style="display:none;">
+							<li><a href="/kor/etc/etc_0601.etri" >팝업 더보기</a></li>
+							<li><a href="/korcon/etc/etc_0602.etri" >배너 더보기</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>  
+		
+<div id="contents">
+					<div class="line_box">
+						<script type="text/javascript">		
+		// 프린트 버튼을 클릭한 경우
+		
+		
+		//트위터
+		function twitter(url,msg) {
+			msg = '';
+			var href = "http://twitter.com/home?status=" + encodeURIComponent(msg) + " " + encodeURIComponent(url);
+			var a = window.open(href, 'twitter', '');
+			if ( a ) {
+				a.focus();
+			}			
+			return false;
+		}
+		
+		//페이스북
+		function facebook(url,msg) {
+			msg = '';
+			var href = "http://www.facebook.com/sharer.php?u=" + encodeURIComponent(url) + "&t=" + encodeURIComponent(msg);
+			var a = window.open(href, 'facebook', '');
+			if ( a ) {
+				a.focus();
+			}
+			
+			return false;
+		}		
+	</script>	
+
+	<div class="location">
+		<ul>
+			<li class="home"><span>홈</span></li>
+			<li><a href="/korcon/etc/etc_01.etri">이용안내</a></li>
+			<li><a href="/kor/personal_data/content.etri"><strong>개인정보처리방침</strong></a></li>
+			</ul>
+		<dl>
+			<dt>SNS 및 프린트</dt>
+			<dd class="fb"><a href="#facebook" onclick="return facebook(location.href);" title="새창연결"><span>facebook</span></a></dd>
+			<dd class="pr"><a href="#print" id="print" title="새프린트"><span>프린트</span></a></dd>
+		</dl>		
+	</div>
+	
+	<h3 class="cont_title">
+		개인정보처리방침</h3>
+	
+	<div class="content">
+
+		<div class="tab-default" style="margin-bottom: 20px;">
+			<ul>
+				<li><a href="/kor/personal_data/short_content.etri" >이해하기 쉬운 개인정보처리방침</a></li>
+				<li><a href="/kor/personal_data/content.etri"  class="on">개인정보처리방침(전문)</a></li>
+			</ul>
+		</div>
+
+		<!-- content :s -->
+			<div class="cont_tip_pattern">
+    <div class="box pri-box">
+        <p>한국전자통신연구원(이하 "연구원"이라고 한다.)은 정보주체의 자유와 권리 보호를 위해「개인정보 보호법」및 관계법령이 정한바를 준수하여, 적법하게 개인정보를 처리하고 안전하게 관리하고 있습니다. 이에 「개인정보 보호법」제30조에 따라 정보주체에게 개인정보 처리에 관한 절차 및 기준을 안내하고, 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p><br>
+
+        <p style="text-align: center;">[주요 개인정보 처리 표시(라벨링)]</p>
+        <p style="text-align: center;"><img src="/userfiles/image/cb99a975-e469-42b8-b6ef-cf7e501681f6.png" class="txc-image" style="clear:none;float:none;"></p><br><br>
+
+        <p style="text-align: center;">
+            <table class="txc-table" width="839" cellspacing="0" cellpadding="0" border="0" style="border: none; border-collapse: collapse; font-family: 굴림; font-size: 13.3333px; width: 839px;" align="center">
+                <tbody>
+                    <tr>
+                        <td style="width: 838px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);" colspan="2" rowspan="1">
+                            <p style="text-align: center;"><span style="font-size: 12pt;"><b> 목&nbsp; 차</b></span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제1조(개인정보의 처리목적)</p>
+                        </td>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제10조(개인정보의 안전성 확보조치)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제2조(개인정보의 처리 및 보유기간)</p>
+                        </td>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제11조(개인정보 자동 수집 장치의 설치·운영 및 거부에 관한 사항</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제3조(처리하는 개인정보 항목)</p>
+                        </td>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제12조(가명정보의 처리)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제4조( 개인정보파일 등록 현황)</p>
+                        </td>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제13조(개인정보 보호책임자)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제5조(개인정보 영향평가의 수행 결과)&nbsp;</p>
+                        </td>
+                        <td style="width: 419px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제14조(개인정보 열람청구)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 0px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제6조(개인정보의 제3자 제공)&nbsp;</p>
+                        </td>
+                        <td style="width: 419px; height: 0px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제15조(권익침해 구제방법)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 5px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제7조(개인정보 처리의 위탁)&nbsp;</p>
+                        </td>
+                        <td style="width: 419px; height: 5px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제16조(개인정보 관리수준진단 결과)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 9px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제8조(정보주체와 법정대리인의 권리·의무 및 행사방법</p>
+                        </td>
+                        <td style="width: 419px; height: 9px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제17조(개인정보 처리방침 변경)&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 419px; height: 12px; border-bottom: 1px solid rgb(95, 142, 239); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;제9조(개인정보의 파기 절차 및 방법)</p>
+                        </td>
+                        <td style="width: 419px; height: 12px; border-bottom: 1px solid rgb(95, 142, 239); border-right: 1px solid rgb(95, 142, 239); background-color: transparent; color: rgb(0, 0, 0);">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+        <p style="text-align: center;"><br></p>
+        <p style="text-align: center;"><span style="font-size: 10pt;"><br></span></p>
+    </div>
+</div>
+
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제1조(개인정보의 처리목적)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 다음의 목적을 위하여 개인정보를 처리하고 있으며, 개인정보파일별 개인정보의 처리목적은 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=18775" target="_top">"개인정보의 처리목적 게시판 바로가기"
+            </a>
+        </p>
+        <p style="margin:2px 2px">② 연구원이 처리하고 있는 개인정보는 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는「개인정보 보호법」제18조에 따라&nbsp;별도의 동의를 받는 등 필요한 조치를 이행하겠습니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제2조(개인정보의 처리 및 보유기간)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 법령에 따른 개인정보 보유⋅이용 기간 또는 정보주체로부터 개인정보를 수집 시 동의 받은 개인정보 보유⋅이용기간 내에서 개인정보를 처리하고 있으며, 개인정보파일별 개인정보의 처리 및 보유기간은 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=18776" target="_top">"개인정보의 처리 및 보유기간 게시판 바로가기"
+            </a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제3조(처리하는 개인정보 항목)
+        </span>
+        <p style="margin:2px 2px">① 연구원이 처리하고 있는 개인정보 항목은 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=18777" target="_top">"처리하는 개인정보 항목 게시판 바로가기"
+            </a>
+        </p>
+        <p style="margin:2px 2px">② 인터넷 서비스 이용과정에서 아래 개인정보 항목이 자동으로 생성되어 수집될 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">&nbsp;&nbsp;- IP주소, 쿠키, MAC주소, 서비스 이용기록, 방문기록, 불량 이용기록
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제4조(개인정보파일 등록 현황)
+        </span>
+        <p style="margin:2px 2px">① 연구원이「개인정보 보호법」제32조에 따라 등록⋅공개하는 개인정보파일의 처리목적⋅보유기간 및 항목은 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보보포 포털 페이지로 이동합니다." class="btn-go" href="https://privacy.go.kr/wcp/dcl/per/personalInfoFileList.do" target="_top">"개인정보보호 포털에서 조회하기"
+            </a>
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=16779" target="_top">"개인정보파일 등록현황 게시판 바로가기"
+            </a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제5조(개인정보 영향평가의 수행 결과)
+        </span>
+        <p>① 연구원은「개인정보 보호법 시행령」제35조에 따라 개인정보 영향평가의 대상이 아닙니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제6조(개인정보의 제3자 제공)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 정보주체의 개인정보를 제1조에서 명시한 범위 내에서만 처리하며, 정보주체의 동의를 받거나 법률의 특별한 규정 등 개인정보 보호법 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다.
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;1. 정보주체로부터 별도의 동의를 받는 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;2. 법률에 특별한 규정이 있거나 법령상 의무를 준수하기 위하여 불가피한 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;3. 정보주체 또는 그 법정대리인이 의사표시를 할 수 없는 상태에 있거나 주소불명 등으로 사전 동의를 받을 수 없는 경우로서 명백히 정보주체 또는 제3자의 급박한 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;생명, 신체, 재산의 이익을 위하여 필요하다고 인정되는 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;4. 개인정보를 목적 외의 용도로 이용하거나 이를 제3자에게 제공하지 아니하면 다른 법률에서 정하는 소관 업무를 수행할 수 없는 경우로서 보호위원회의 심의·의결을 거친 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;5. 조약, 그 밖의 국제협정의 이행을 위하여 외국정부 또는 국제기구에 제공하기 위하여 필요한 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;6. 범죄의 수사와 공소의 제기 및 유지를 위하여 필요한 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;7. 법원의 재판업무 수행을 위하여 필요한 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;8. 형(形) 및 감호, 보호처분의 집행을 위하여 필요한 경우
+        </p>
+        <p style="margin:2px 2px">② 연구원은 개인정보의 제3자 제공 현황을 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=17509" target="_top">"개인정보의 제3자 제공 현황 게시판 바로가기"
+            </a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제7조(개인정보 처리의 위탁)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 원활한 개인정보 업무처리를 위하여 개인정보 처리업무를 위탁하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">② 연구원은 위탁계약 체결 시「개인정보 보호법」제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적·관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독합니다. 
+        </p>
+        <p style="margin:2px 2px">③ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체 없이 본 개인정보처리방침을 통하여 공개하도록 하겠습니다. 
+        </p>
+        <p style="margin:2px 2px">④ 연구원의 개인정보 위탁사항은 다음의 항목으로 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=16787" target="_top">"개인정보 처리업무 위탁현황 게시판 바로가기"
+            </a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제8조(정보주체와 법정대리인의 권리·의무 및 행사방법)
+        </span>
+        <p style="margin:2px 2px">① 정보주체는 연구원에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있으며, 만 14세 미만 아동의 법정대리인은 그 아동의 개인정보에 대한 열람, 정정·삭제, 처리정지를 요구할 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;1. 개인정보 열람요구
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;정보주체(만14세 미만인 경우에는 법정 대리인을 말함)는「개인정보 보호법」제35조(개인정보의 열람)에 따라 자신의 개인정보에 대한 열람을 요구할 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">&nbsp;&nbsp;&nbsp;&nbsp;다만, 개인정보 열람 요구는 법 제35조 4항에 의하여 다음과 같이 제한될 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 법률에 따라 열람이 금지되거나 제한되는 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 다른 사람의 생명·신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 공공기관이 다음 각 목의 어느 하나에 해당하는 업무를 수행할 때 중대한 지장을 초래하는 경우 
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 조세의 부과·징수 또는 환급에 관한 업무 
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 「초·중등교육법」및「고등교육법」에 따른 각급 학교,「평생교육법」에 따른 평생교육시설, 그 밖의 다른 법률에 따라 설치된 고등교육기관에서의 성적 평가 또는 입학자
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;선발에 관한 업무
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 학력·기능 및 채용에 관한 시험, 자격 심사에 관한 업무
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 보상금·급부금 산정 등에 대하여 진행 중인 평가 또는 판단에 관한 업무
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 다른 법률에 따라 진행 중인 감사 및 조사에 관한 업무
+        </p>
+
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;2. 개인정보 정정·삭제 요구
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;정보주체(만14세 미만인 경우에는 법정 대리인을 말함)는「개인정보 보호법」제36조(개인정보의 정정·삭제)에 따라 정정·삭제를 요구할 수 있습니다. 
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;다만 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.
+        </p>
+
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;3. 개인정보 처리정지 요구
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;정보주체(만14세 미만인 경우에는 법정 대리인을 말함)는「개인정보 보호법」제36조(개인정보의 정정·삭제)에 따라 처리정지를 요구할 수 있습니다. 
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;다만 개인정보 처리정지 요구 시 법 제37조 2항에 의하여 처리정지 요구가 거절될 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 법률에 특별한 규정이 있거나 법령상 의무를 준수하기 위하여 불가피한 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 다른 사람의 생명·신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보를 처리하지 아니하면 정보주체와 약정한 서비스를 제공하지 못하는 등 계약의 이행이 곤란한 경우로서 정보주체가
+        </p>
+        <p style="margin:2px 2px">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;그 계약의 해지 의사를 명확하게 밝히지 아니한 경우
+        </p>
+
+        <p style="margin:2px 2px">② 제1항에 따른 권리 행사는「개인정보 처리 방법에 관한 고시」별지 제8호 서식에 따라 작성 후 서면, 전화, 전자우편, 모사전송(FAX) 또는 &lt;개인정보보호 포털(www.privacy.go.kr)&gt;의 "개인정보 열람⋅정정⋅삭제⋅처리정지 요구"" 등을 통하여 하실 수 있으며, 연구원은 권리행사를 요구 받은 날로부터 10일 이내에 정보주체의 요구에 상응 하는 조치를 취하고 그 결과를 정보주체에게 알리겠습니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보보포 포털 페이지로 이동합니다." class="btn-go" href="https://privacy.go.kr/wcp/dcl/per/personalInfoFileList.do" target="_top">"개인정보보호 포털 개인정보 열람⋅정정⋅삭제⋅처리정지 요구 바로가기"
+            </a>
+        </p>
+        <p style="margin:2px 2px">③ 정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 연구원은 정정 또는 삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다.
+        </p>
+        <p style="margin:2px 2px">④ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우「개인정보 처리 방법에 관한 고시」별지 제11호 서식에 따른 위임장을 제출하셔야 합니다. 
+        </p>
+        <p style="margin:2px 2px">⑤ 개인정보 열람 및 처리정지 요구는 개인정보보호법 제35조 제4항, 제37조 제2항에 의하여 정보주체의 권리가 제한 될 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">⑥ 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.
+        </p>
+        <p style="margin:2px 2px">⑦ 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구, 처리정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인합니다.
+        </p>
+        <p style="margin:2px 2px">⑧ 정보주체는 개인정보 보호법 등 관계법령을 위반하여 연구원이 처리하고 있는 정보주체 본인이나 타인의 개인정보 및 사생활을 침해하여서는 아니됩니다. 
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 [개인정보 처리 방법에 관한 고시 별지 제8호] 개인정보(열람, 정정·삭제, 처리정지)요구서페이지로 이동합니다." class="btn-go down" href="https://etri.re.kr/file/bbsFileDownJSON.etri?b_board_id=ETRI37&amp;f_idx=11254" target="_self">
+                        [개인정보 처리 방법에 관한 고시 별지 제8호] 개인정보(열람, 정정·삭제, 처리정지)요구서</a>
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 [개인정보 처리 방법에 관한 고시 별지 제11호] 위임장페이지로 이동합니다." class="btn-go down" href="https://etri.re.kr/file/bbsFileDownJSON.etri?b_board_id=ETRI37&amp;f_idx=11255" target="_self">
+                        [개인정보 처리 방법에 관한 고시 별지 제11호] 위임장</a>
+        </p>
+        <p style="margin:2px 2px">⑨ '정보주체의 권리행사 방법 및 절차' 및 '이의 제기 절차'에 대하여 별도 게시합니다.
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://www.etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=18233" target="_top">"정보주체의 권리행사 방법 및 절차 바로가기"</a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제9조(개인정보의 파기 절차 및 방법)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체 없이 해당 개인정보를 파기합니다. 다만, 다른 법률에 따라 보존하여야 하는 경우에는 그러하지 않습니다.
+        </p>
+        <p style="margin:2px 2px">② 정보주체로부터 동의 받은 개인정보 보유기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보(또는 개인정보파일)를 별도의 데이터베이스(DB)로 옮기거나 보관 장소를 달리하여 보존합니다. 
+        </p>
+        <p style="margin:2px 2px">③ 개인정보 파기의 절차 및 방법은 다음과 같습니다. 
+        </p>
+
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;1. 파기절차
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;연구원은 파기 사유가 발생한 개인정보(또는 개인정보파일)를 선정하고, 개인정보보호 책임자의 승인을 받아 개인정보(또는 개인정보파일)를 파기합니다. 
+        </p>
+
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;2. 파기방법
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;연구원은 전자적 파일 형태로 기록·저장된 개인정보는 기록을 재생할 수 없는 방법을 이용하여 파기하며, 종이 문서에 기록·저장된 개인정보는 분쇄기로 분쇄하거나
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;소각하여 파기합니다. 
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보 관련공시페이지로 이동합니다." class="btn-go" href="https://etri.re.kr/kor/bbs/view.etri?keyField=&amp;keyWord=&amp;nowPage=1&amp;b_board_id=ETRI37&amp;year_gubun=&amp;b_idx=16788" target="_top">"개인정보파일 파기 관리대장 게시판 바로가기"</a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제10조(개인정보의 안전성 확보조치)
+        </span>
+        <p style="margin:2px 2px">① 연구원은「개인정보 보호법」제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적, 관리적, 물리적 조치를 하고 있습니다.
+        </p>
+
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;1. 내부관리계획의 수립 및 시행
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;연구원은「개인정보의 안전성 확보조치 기준」에 의거하여 내부관리계획을 수립 및 시행합니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;2. 개인정보취급자 지정의 최소화 및 교육
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;개인정보취급자의 지정을 최소화하고 정기적인 교육을 시행하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;3. 개인정보에 대한 접근 제한
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;개인정보를 처리하는 데이터베이스시스템에 대한 접근권한의 부여, 변경, 말소를 통하여 개인정보에 대한 접근을 통제하고, 침입차단시스템과 침입방지시스템을 이용하여
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;외부로부터의 무단 접근을 통제하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;4. 접속기록의 보관 및 위변조 방지
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;개인정보처리시스템에 접속한 기록(웹 로그, 요약정보 등)을 최소 1년 이상 보관, 관리하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;5. 개인정보의 암호화
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;이용자의 개인정보는 암호화 되어 저장 및 관리되고 있습니다. 또한 중요한 데이터는 저장 및 전송 시 암호화하여 사용하는 등의 별도 보안기능을 사용하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;6. 해킹 등에 대비한 기술적 대책
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;연구원은 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신·점검을 하며 외부로부터 접근이
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;통제된 구역에 시스템을 설치하고 기술적, 물리적으로 감시 및 차단하고 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;7. 비인가자에 대한 출입 통제
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;개인정보를 보관하고 있는 개인정보시스템의 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제11조(개인정보 자동 수집장치의 설치·운영 및 거부에 관한 사항)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 이용자에게 개인형 서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다.
+        </p>
+        <p style="margin:2px 2px">② 쿠키는 웹사이트를 운영하는데 이용되는 서버(https)가 이용자의 컴퓨터 브라우저에게 보내는 소량의 정보이며 이용자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;1. 쿠키의 사용 목적: 자주 찾는 서비스를 설정할 수 있도록 하여 이용자에게 최적화된 정보 제공을 위해 사용됩니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;2. 쿠키의 설치·운영 및 거부: 웹브라우저 상단의 도구 &gt; 인터넷 옵션 &gt; 개인정보 메뉴의 옵션 설정을 통해 쿠키 저장을 거부할 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;3. 쿠키 저장을 거부할 경우 개인형 서비스 이용에 어려움이 발생할 수 있습니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제12조(가명정보의 처리)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 가명정보를 처리하고 있지 않습니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제13조(개인정보 보호책임자)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다. 
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보보호 책임자
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 성명: 강성원</p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 직위: 부원장
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 직급: 책임연구원</p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 연락처: (전화번호) 042-860-5288</p>
+        
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보보호 담당자
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 부서명: 정보보안실
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 담당자: 김연경 선임기술원
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 연락처: (전화번호) 042-860-1771,  (팩스) 042-860-6994, <a class="mailto" href="mailto:kimyeonkyung@etri.re.kr"><span class="hidden">메일보내기</span></a> 
+        </p>
+        <p style="margin:2px 2px">② 정보주체는 연구원의 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다. 연구원은 정보주체의 문의에 대해 지체 없이 답변 및 처리해 드릴 것입니다.  
+        </p>
+    </li>
+</ul>
+
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제14조(개인정보 열람청구)
+        </span>
+        <p style="margin:2px 2px">① 정보주체는「개인정보 보호법」제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. 연구원은 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다. 
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보 열람청구 접수·처리 부서
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 부서명: 정보보안실
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 담당자: 김연경 선임기술원
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 연락처: (전화번호) 042-860-1771,  (팩스) 042-860-6994, <a class="mailto" href="mailto:kimyeonkyung@etri.re.kr"><span class="hidden">메일보내기</span></a> 
+        </p>
+        <p style="margin:2px 2px">② 정보주체는 제1항의 열람청구 접수·처리부서 이외에, ‘개인정보보호 포털’ 웹사이트(www.privacy.go.kr)를 통하여서도 개인정보 열람청구를 하실 수 있습니다. 
+        </p>
+        <p>
+            <a title="개인정보처리방침에서 개인정보보포 포털 페이지로 이동합니다." class="btn-go" href="https://privacy.go.kr/wcp/dcl/per/personalInfoFileList.do" target="_top">"개인정보보호 포털 개인정보 열람⋅정정⋅삭제⋅처리정지 요구 바로가기"
+            </a>
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제15조(권익침해 구제방법)
+        </span>
+        <p style="margin:2px 2px">정보주체는 아래의 기관에 대해 개인정보 침해에 대한 피해구제, 상담 등을 문의하실 수 있습니다. 
+        </p>
+        <p style="margin:2px 2px">① 아래의 기관은 연구원과는 별개의 기관으로서, 연구원의 자체적인 개인정보 불만처리, 피해구제 결과에 만족하지 못하시거나 보다 자세한 도움이 필요하시면 문의하여 주시기 바랍니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보 침해신고센터(한국인터넷진흥원 운영) 
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 소관업무: 개인정보 침해사실 신고, 상담신청
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 홈페이지: privacy.kisa.or.kr
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 전화: (국번없이)118
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보 분쟁조정위원회
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 소관업무: 개인정보 분쟁조정신청, 집단분쟁조정(민사적 해결)
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 홈페이지: www.kopico.go.kr
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 전화: (국번없이) 1833-6972
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 대검찰청
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 홈페이지: www.spo.go.kr
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 전화: (국번없이) 1301
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 경찰청
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 홈페이지: ecrm.cyber.go.kr
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 전화: (국번없이) 182
+        </p>
+        <p style="margin:2px 2px">② 연구원은 정보주체의 개인정보자기결정권을 보장하고, 개인정보침해로 인한 상담 및 피해 구제를 위해 노력하고 있으며, 신고나 상담이 필요한 경우 아래의 담당부서로 연락해 주시기 바랍니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 개인정보보호 관련 상담 및 신고
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 부서명: 정보보안실
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 담당자: 김연경 선임기술원
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 연락처: (전화번호) 042-860-1771,  (팩스) 042-860-6994, <a class="mailto" href="mailto:kimyeonkyung@etri.re.kr"><span class="hidden">메일보내기</span></a> 
+        </p>
+        <p style="margin:2px 2px">③「개인정보 보호법」제35조(개인정보의 열람), 제36조(개인정보의 정정·삭제), 제37조(개인정보의 처리정지 등)의 규정에 의한 요구에 대하여 공공기관의 장이 행한 처분 또는 부작위로 인하여 권리 또는 이익을 침해 받은 자는 행정심판법이 정하는 바에 따라 행정심판을 청구할 수 있습니다.
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;▶ 중앙행정심판위원회
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 홈페이지: www.simpan.go.kr
+        </p>
+        <p style="margin:2px 2px">
+            &nbsp;&nbsp;&nbsp;&nbsp;- 전화: (국번없이) 110
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제16조(개인정보 관리수준진단 결과)
+        </span>
+        <p style="margin:2px 2px">① 연구원은 정보주체의 개인정보를 안전하게 관리하기 위해「개인정보 보호법」제11조에 따라 매년 개인정보보호위원회에서 실시하는 "공공기관 개인정보 관리수준진단"을 받고 있습니다.
+        </p>
+        <p style="margin:2px 2px">② 연구원은 "2022년도 개인정보 관리수준진단 평가"에서 "S" 등급을 획득하였습니다.
+        </p>
+    </li>
+</ul>
+
+<ul class="h5_ul">
+    <li>
+        <span class="blue">제17조(개인정보 처리방침 변경)
+        </span>
+        <p style="margin:2px 2px">① 이 개인정보 처리방침은 2023. 3. 15.부터 적용됩니다.
+        </p>
+        <p style="margin:2px 2px">② 이전의 개인정보 취급방침은 별도 게시합니다.
+        </p>
+    </li>
+</ul>
+<p><br></p><!-- content :e -->
+		
+		<ul class="ul-default-type2">
+			<li><a title="2023.03.15 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=177" target="_blank" class="btn-go blank">2023.03.15 이전(개인정보처리방침)</a></li>
+			<li><a title="2023.02.01 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=175" target="_blank" class="btn-go blank">2023.02.01 이전(개인정보처리방침)</a></li>
+			<li><a title="2023.01.01 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=174" target="_blank" class="btn-go blank">2023.01.01 이전(개인정보처리방침)</a></li>
+			<li><a title="2022.05.09 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=130" target="_blank" class="btn-go blank">2022.05.09 이전(개인정보처리방침)</a></li>
+			<li><a title="2021.05.21 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=67" target="_blank" class="btn-go blank">2021.05.21 이전(개인정보처리방침)</a></li>
+			<li><a title="2021.07.06 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=64" target="_blank" class="btn-go blank">2021.07.06 이전(개인정보처리방침)</a></li>
+			<li><a title="2020.06.12 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=62" target="_blank" class="btn-go blank">2020.06.12 이전(개인정보처리방침)</a></li>
+			<li><a title="2019.07.10 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=60" target="_blank" class="btn-go blank">2019.07.10 이전(개인정보처리방침)</a></li>
+			<li><a title="2019.06.12 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=56" target="_blank" class="btn-go blank">2019.06.12 이전(개인정보처리방침)</a></li>
+			<li><a title="2019.01.02 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=53" target="_blank" class="btn-go blank">2019.01.02 이전(개인정보처리방침)</a></li>
+			<li><a title="2017.03.06 이전(개인정보처리방침)페이지로 이동합니다." href="/kor/personal_data/old_content.etri?c_idx=36" target="_blank" class="btn-go blank">2017.03.06 이전(개인정보처리방침)</a></li>
+			</ul>
+	</div>
+</div>
+					<a href="#top" class="top_btn">TOP</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+
+	<div class="layout">
+		<ul class="site_link">
+			<li><a href="/korcon/sub4/sub4_0301.etri">클린ETRI</a></li>
+			<li><a href="/korcon/sub4/sub4_0501.etri">e-신문고</a></li>
+			<li><a href="/korcon/sub4/sub4_0401.etri">e-클린신고센터</a></li>
+			<li><a href="/korcon/sub4/sub4_0601.etri">공익신고</a></li>
+		</ul>
+		<ul class="infor_link">
+			<li><a href="/korcon/sub7/sub7_0801.etri">주요업무연락처</a></li>
+			<li><a href="/korcon/sub7/sub7_0901.etri">찾아오시는길</a></li>
+		</ul>
+		<ul class="footer_link">
+			<li><a href="/kor/personal_data/content.etri">개인정보처리방침</a></li>
+			<li><a href="/kor/personal_data/short_content.etri"/>이해하기 쉬운 개인정보처리방침</a></li>
+            <li><a href="/korcon/etc/etc_07.etri">저작권정책</a></li>
+			<li><a href="/korcon/etc/etc_03.etri">영상정보처리기기 운영ㆍ관리 방침</a></li>
+			<li><a href="http://210.104.33.10/kor/main.html"  >부설연구소공고</a></li>
+		</ul>
+		<address>(34129) 대전광역시 유성구 가정로 218, TEL <a href="tel:1466-38">1466-38</a></address>
+		<p class="copy">Electronics and Telecommunications Research Institute. <span>All rights reserved.</span></p>
+		<p>본 홈페이지에 게시된 이메일 주소가 자동수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</p>
+		<div class="right_box">
+			
+			<p class="wa_mark"><a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" target="_blank" rel="noopener noreferrer" title="새창이동"><img src="/images/kor/layout_2019/wa_mark.png" alt="과학기술정보통신부  WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" /></a></p>
+			<p class="open_mark"><a href="http://www.kogl.or.kr/index.do" target="_blank" rel="noopener noreferrer" title="새창이동"><img src="/images/kor/layout_2019/open_mark.png" alt="OPEN 공공누리 공공제작물 자유이용허락" /></a></p>				
+		</div>
+	</div>
+</div>
+
+
+
+
+</div>
+	
+	<!-- <script type="text/javascript">	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25467888-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();	
+	</script> -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=UA-25467888-3" integrity="sha384-FZ687Ur3ILkshR0cYxSl2QcI2dDNkKrN/iv3B40c5daTnF3TR0pgNZmueHGls73/" crossorigin="anonymous"></script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EK8DFC7QD"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-8EK8DFC7QD');
+	</script>
+</body>
+</html>

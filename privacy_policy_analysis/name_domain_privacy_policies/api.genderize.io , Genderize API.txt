@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="OxsXAlIYIzgSTA4yNAEcRicLPgAMMwodisdmjMMnCyFxZnU2IrOu_JzT">
+    <meta name="description" content="Complete reference documentation for the Genderize API. Includes request and response examples.">
+    <meta http-equiv="content-language" content="en-gb">
+    <meta name="msvalidate.01" content="6DDDB9E3D7128AE1F1E427B1185D5914">
+    <title>API Documentation for Genderize.io</title>
+    <link rel="canonical" href="https://genderize.io/documentation">
+    <link rel="preconnect" href="https://www.google.com/">
+    <link rel="preconnect" href="https://www.googletagmanager.com/">
+    <link rel="preconnect" href="https://cdn.cookie-script.com/">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/genderize/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/genderize/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/genderize/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/genderize/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/genderize/safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- Fonts -->
+    <link rel="preload" as="font" href="/fonts/KFOmCnqEu92Fr1Mu4mxKKTU1Kg-1f6d3cf6d38f25d83d95f5a800b8cac3.woff2?vsn=d" crossorigin>
+    <link rel="preload" as="font" href="/fonts/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ-5e22a46c04d947a36ea0cad07afcc9e1.woff2?vsn=d" crossorigin>
+    <link rel="preload" as="font" href="/fonts/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD-17e694a0b8c65a1cc2b0206f83baccc9.woff2?vsn=d" crossorigin>
+    <link rel="preload" as="font" href="/fonts/wlpzgwTPBVpjpCuwkuEB3kZKQipeCw-1d9a6c2c926ee5c8e7037c29d30f6adf.woff2?vsn=d" crossorigin>
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+{"@type":"Organization","address":{"@type":"PostalAddress","addressCountry":"Denmark","addressLocality":"Roskilde","postalCode":"4000","streetAddress":"Eriksvej 30, 1 th."},"description":"Demografix ApS runs the API services genderize.io, agify.io and nationalize.io. Together these services are able to infer gender, age and nationality based on names for use in academic research and commercial analysis and targeting.","email":"info@genderize.io","legalName":"Demografix ApS","logo":{"@type":"ImageObject","height":"400px","url":"https://genderize.io/images/genderize-logo.png","width":"400px"},"taxID":"DK40697179"}
+    </script>
+    <script type="application/ld+json">
+{"@context":"http://schema.org","@type":"SoftwareApplication","aggregateRating":{"@type":"AggregateRating","ratingCount":"1","ratingValue":"5","reviewCount":"1"},"applicationCategory":"BusinessApplication","creator":{"@id":"https://genderize.io/#organization","@type":"Organization"},"name":"Genderize.io - Determine the gender of a name","offers":{"@type":"AggregateOffer","highPrice":"270.00","lowPrice":"0","offerCount":"5","offeredBy":{"@id":"https://genderize.io/#organization","@type":"Organization"},"priceCurrency":"USD","priceSpecification":[{"@type":"UnitPriceSpecification","description":"100 requests/day","name":"Genderize.io Free","price":"0.00","priceCurrency":"USD"},{"@type":"UnitPriceSpecification","description":"25.000 requests/month","name":"Genderize.io Basic","price":"10.00","priceCurrency":"USD"},{"@type":"UnitPriceSpecification","description":"250.000 requests/month","name":"Genderize.io Standard","price":"30.00","priceCurrency":"USD"},{"@type":"UnitPriceSpecification","description":"2.500.000 requests/month","name":"Genderize.io Plus","price":"90","priceCurrency":"USD"},{"@type":"UnitPriceSpecification","description":"25.000.000 requests/month","name":"Genderize.io Premium","price":"270","priceCurrency":"USD"}]},"operatingSystem":"Web","url":"https://genderize.io"}
+    </script>
+    
+
+    <link phx-track-static rel="stylesheet" href="/assets/app-5c4f2c3d22d61d72cbb5fd6fcfce3cfd.css?vsn=d">
+    <script defer phx-track-static type="text/javascript" src="/assets/app-f067c9846e9b8ca7fc5767d82a2b9652.js?vsn=d"></script>
+    <script defer data-domain="genderize.io" src="https://plausible.io/js/script.revenue.tagged-events.js"></script>
+    <script defer type="text/javascript" charset="UTF-8" src="https://cdn.cookie-script.com/s/9ad4a95e455a052f1e699a6bcf7ecce2.js"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-S85F2SY4R0"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied'
+    });
+    gtag('config', 'G-S85F2SY4R0');
+    gtag('config', 'AW-1043987484');
+</script>
+  </head>
+  <body class="light-theme bg-stone-100 text-app-text text-base antialiased">
+<div id="phx-F82erOS1wWf7EFeD" data-phx-main data-phx-session="SFMyNTY.g2gDaAJhBXQAAAAIdwJpZG0AAAAUcGh4LUY4MmVyT1Mxd1dmN0VGZUR3BHZpZXd3HUVsaXhpci5EZW1vZ3JhZml4V2ViLkRvY3NMaXZldwpwYXJlbnRfcGlkdwNuaWx3B3Nlc3Npb250AAAAAHcGcm91dGVydxtFbGl4aXIuRGVtb2dyYWZpeFdlYi5Sb3V0ZXJ3CXJvb3Rfdmlld3cdRWxpeGlyLkRlbW9ncmFmaXhXZWIuRG9jc0xpdmV3CHJvb3RfcGlkdwNuaWx3DGxpdmVfc2Vzc2lvbmgCdwRvcGVubggAkmTrYMOIzRduBgCK3flZjwFiAAFRgA.YcEQeWviD2K0Y6tfkel8xuhxbLMi0mSWR-V1s_0AeaA" data-phx-static="SFMyNTY.g2gDaAJhBXQAAAADdwJpZG0AAAAUcGh4LUY4MmVyT1Mxd1dmN0VGZUR3BWZsYXNodAAAAAB3CmFzc2lnbl9uZXdsAAAAAXcMY3VycmVudF91c2Vyam4GAIrd-VmPAWIAAVGA.AGetmTcf_aVBYIVDHqnIEASVpCy540g4Qg92sjAn4Hk"><div class="current-product w-full" id="genderize">
+    <header class="bg-background border-b-1 border-stone-300/50 h-16">
+  <nav class="mx-auto h-full flex max-w-7xl justify-between px-4 sm:px-8 items-center" aria-label="Global">
+    <div class="group relative flex lg:flex-1 items-center">
+      <a href="https://genderize.io" class="bg-brand w-48 h-16 justify-center flex items-center px-8 font-serif text-white font-semibold text-lg">genderize.io</a>
+      <span class="hero-chevron-down-mini ml-2"></span>
+      <div class="absolute overflow-visible top-full z-20 w-screen max-w-sm overflow-hidden hidden group-hover:block pt-3 left-0">
+  <div class="rounded-xl bg-white shadow-lg ring-1 ring-stone-300/50">
+    
+        
+        <a href="https://genderize.io" class="h-16 justify-left flex items-center px-8 font-serif text-app-text font-semibold text-lg hover:bg-genderize-600/10">
+    <span class="w-3 h-3 mr-2 rounded bg-genderize-600"></span>
+    genderize.io
+  </a>
+        
+        <a href="https://agify.io" class="h-16 justify-left flex items-center px-8 font-serif text-app-text font-semibold text-lg hover:bg-agify-600/10">
+    <span class="w-3 h-3 mr-2 rounded bg-agify-600"></span>
+    agify.io
+  </a>
+        
+        <a href="https://nationalize.io" class="h-16 justify-left flex items-center px-8 font-serif text-app-text font-semibold text-lg hover:bg-nationalize-600/10">
+    <span class="w-3 h-3 mr-2 rounded bg-nationalize-600"></span>
+    nationalize.io
+  </a>
+        
+      
+  </div>
+</div>
+    </div>
+
+    <button type="button" class="lg:hidden rounded-md w-[40px] h-[40px] text-app-text hover:bg-background-secondary" phx-hook="VisibilityToggle" data-target="side-menu" data-action="open" id="side-menu-open">
+      <span class="hero-bars-3"></span>
+    </button>
+
+    <div class="hidden lg:flex h-full items-center">
+      <a href="/documentation" class="text-sm justify-around text-center font-medium text-app-text min-w-[110px] h-full flex items-center hover:bg-background-secondary font-mono bg-brand-600/10 text-brand hover:bg-brand-600/10">API Docs</a>
+<div class="group relative h-full">
+  <button class="text-sm justify-around font-medium text-app-text min-w-[120px] h-full flex items-center hover:bg-background-secondary font-mono">Tools</button>
+  <div class="absolute overflow-visible top-full z-20 w-screen max-w-sm overflow-hidden hidden group-hover:block pt-3 right-0">
+  <div class="rounded-xl bg-white shadow-lg ring-1 ring-stone-300/50">
+    
+    <div class="flex flex-col gap-6 p-8">
+      
+        
+          <a href="/tools/csv" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-document-text-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">CSV Upload</p>
+              <p class="text-sm">Add gender, age and nationality to CSV</p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="/tools/zapier" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-star-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Zapier</p>
+              <p class="text-sm">Integrate with any tool</p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="https://apipheny.io" target="_blank" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-link-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Apipheny</p>
+              <p class="text-sm">Google Sheets through Apipheny</p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="https://mixedanalytics.com/knowledge-base/importapi-custom-sheets-function/" target="_blank" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-adjustments-horizontal-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Mixed Analytics</p>
+              <p class="text-sm">Google Sheets through Mixed Analytics</p>
+            </div>
+          </a>
+        
+      
+    </div>
+  
+  </div>
+</div>
+</div><div class="group relative h-full">
+  <button class="text-sm justify-around font-medium text-app-text min-w-[120px] h-full flex items-center hover:bg-background-secondary font-mono">Resources</button>
+  <div class="absolute overflow-visible top-full z-20 w-screen max-w-sm overflow-hidden hidden group-hover:block pt-3 right-0">
+  <div class="rounded-xl bg-white shadow-lg ring-1 ring-stone-300/50">
+    
+    <div class="flex flex-col gap-6 p-8">
+      
+        
+          <a href="/libraries" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-book-open-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Libraries</p>
+              <p class="text-sm"></p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="/our-data" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-circle-stack-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Our Data</p>
+              <p class="text-sm"></p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="/case-studies" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-beaker-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">Case Studies</p>
+              <p class="text-sm"></p>
+            </div>
+          </a>
+        
+      
+        
+          <a href="/faq" class="flex items-center gap-4 hover:text-brand">
+            <span class="hero-question-mark-circle-solid text-brand-300"></span>
+            <div>
+              <p class="font-mono font-medium text-sm mb-[2px]">FAQ</p>
+              <p class="text-sm"></p>
+            </div>
+          </a>
+        
+      
+    </div>
+  
+  </div>
+</div>
+</div><a href="/pricing" class="text-sm justify-around text-center font-medium text-app-text min-w-[110px] h-full flex items-center hover:bg-background-secondary font-mono">Pricing</a>
+
+
+      
+    <a href="/login" target="_self" class="border-brand border-1 box-border text-brand hover:bg-brand-600 hover:text-white disabled:bg-white disabled:text-brand px-[1rem] h-[36px] px-5 text-sm font-semibold rounded inline-flex items-center text-center disabled:opacity-75 font-mono uppercase ml-4">
+      Log in
+    </a>
+  
+      
+    </div>
+  </nav>
+
+  <div class="lg:hidden hidden" role="dialog" aria-modal="true" id="side-menu">
+  <!-- Background backdrop, show/hide based on slide-over state. -->
+  <div class="fixed inset-0 z-10"></div>
+  <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-8 pt-[10px] sm:max-w-sm sm:ring-1 sm:ring-app-border">
+    <div class="flex items-center justify-between">
+      <div></div>
+      <button type="button" class="rounded-md w-[40px] h-[40px] text-app-text hover:bg-background-secondary" phx-hook="VisibilityToggle" data-target="side-menu" data-action="close" id="side-menu-close">
+        <span class="hero-x-mark"></span>
+      </button>
+    </div>
+    <div class="mt-6 -my-6">
+      
+        
+          <a href="/documentation" class="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">API Docs</a>
+          
+        
+      
+        
+          <button type="button" phx-hook="VisibilityToggle" data-target="Tools-menu" id="Tools-dropdown" class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-base font-semibold leading-7 text-app-text hover:bg-background-secondary" aria-controls="disclosure-1" aria-expanded="false">
+            Tools
+            <span class="hero-chevron-down"></span>
+          </button>
+          <div class="mt-2 space-y-2 hidden" id="Tools-menu">
+            
+              <a href="/tools/csv" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">CSV Upload</a>
+              
+            
+              <a href="/tools/zapier" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">Zapier</a>
+              
+            
+              
+              <a href="https://apipheny.io" target="_blank" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary">Apipheny</a>
+            
+              
+              <a href="https://mixedanalytics.com/knowledge-base/importapi-custom-sheets-function/" target="_blank" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary">Mixed Analytics</a>
+            
+          </div>
+        
+      
+        
+          <button type="button" phx-hook="VisibilityToggle" data-target="Resources-menu" id="Resources-dropdown" class="flex w-full items-center justify-between rounded-lg px-3 py-2 text-base font-semibold leading-7 text-app-text hover:bg-background-secondary" aria-controls="disclosure-1" aria-expanded="false">
+            Resources
+            <span class="hero-chevron-down"></span>
+          </button>
+          <div class="mt-2 space-y-2 hidden" id="Resources-menu">
+            
+              <a href="/libraries" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">Libraries</a>
+              
+            
+              <a href="/our-data" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">Our Data</a>
+              
+            
+              <a href="/case-studies" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">Case Studies</a>
+              
+            
+              <a href="/faq" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">FAQ</a>
+              
+            
+          </div>
+        
+      
+        
+          <a href="/pricing" class="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-app-text hover:bg-background-secondary" target="_self">Pricing</a>
+          
+        
+      
+      
+    <a href="/login" target="_self" class="border-brand border-1 box-border text-brand hover:bg-brand-600 hover:text-white disabled:bg-white disabled:text-brand px-[1rem] h-[40px] text-sm font-semibold rounded-md inline-flex items-center text-center disabled:opacity-75 font-mono uppercase h-[36px] my-3 ml-3">
+      Log in
+    </a>
+  
+    </div>
+  </div>
+</div>
+</header>
+
+    
+
+<div id="client-error" phx-click="[[&quot;push&quot;,{&quot;value&quot;:{&quot;key&quot;:&quot;error&quot;},&quot;event&quot;:&quot;lv:clear-flash&quot;}],[&quot;hide&quot;,{&quot;time&quot;:200,&quot;to&quot;:&quot;#client-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-in&quot;,&quot;duration-200&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;]]}]]" role="alert" class="fixed top-2 right-2 w-80 sm:w-96 z-50 rounded-lg p-3 ring-1 bg-rose-50 text-rose-900 shadow-md ring-rose-500 fill-rose-900" hidden phx-connected="[[&quot;hide&quot;,{&quot;time&quot;:200,&quot;to&quot;:&quot;#client-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-in&quot;,&quot;duration-200&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;]]}]]" phx-disconnected="[[&quot;show&quot;,{&quot;to&quot;:&quot;.phx-client-error #client-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-out&quot;,&quot;duration-300&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;]]}]]">
+  <p class="flex items-center gap-1.5 text-sm font-semibold leading-6">
+    
+    <span class="hero-exclamation-circle-mini h-4 w-4"></span>
+    We can&#39;t find the internet
+  </p>
+  <p class="mt-2 text-sm leading-5">
+  Attempting to reconnect <span class="hero-arrow-path ml-1 h-3 w-3 animate-spin"></span>
+</p>
+  <button type="button" class="group absolute top-1 right-1 p-2" aria-label="close">
+    <span class="hero-x-mark-solid h-5 w-5 opacity-40 group-hover:opacity-70"></span>
+  </button>
+</div>
+
+<div id="server-error" phx-click="[[&quot;push&quot;,{&quot;value&quot;:{&quot;key&quot;:&quot;error&quot;},&quot;event&quot;:&quot;lv:clear-flash&quot;}],[&quot;hide&quot;,{&quot;time&quot;:200,&quot;to&quot;:&quot;#server-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-in&quot;,&quot;duration-200&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;]]}]]" role="alert" class="fixed top-2 right-2 w-80 sm:w-96 z-50 rounded-lg p-3 ring-1 bg-rose-50 text-rose-900 shadow-md ring-rose-500 fill-rose-900" hidden phx-connected="[[&quot;hide&quot;,{&quot;time&quot;:200,&quot;to&quot;:&quot;#server-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-in&quot;,&quot;duration-200&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;]]}]]" phx-disconnected="[[&quot;show&quot;,{&quot;to&quot;:&quot;.phx-server-error #server-error&quot;,&quot;transition&quot;:[[&quot;transition-all&quot;,&quot;transform&quot;,&quot;ease-out&quot;,&quot;duration-300&quot;],[&quot;opacity-0&quot;,&quot;translate-y-4&quot;,&quot;sm:translate-y-0&quot;,&quot;sm:scale-95&quot;],[&quot;opacity-100&quot;,&quot;translate-y-0&quot;,&quot;sm:scale-100&quot;]]}]]">
+  <p class="flex items-center gap-1.5 text-sm font-semibold leading-6">
+    
+    <span class="hero-exclamation-circle-mini h-4 w-4"></span>
+    Something went wrong!
+  </p>
+  <p class="mt-2 text-sm leading-5">
+  Hang in there while we get back on track
+  <span class="hero-arrow-path ml-1 h-3 w-3 animate-spin"></span>
+</p>
+  <button type="button" class="group absolute top-1 right-1 p-2" aria-label="close">
+    <span class="hero-x-mark-solid h-5 w-5 opacity-40 group-hover:opacity-70"></span>
+  </button>
+</div>
+    <main class="relative min-h-screen w-full">
+<div class="mx-auto justify-between py-20 max-w-7xl flex px-4 sm:px-8">
+  
+  <aside class="hidden md:block min-w-[200px] mr-8">
+    <nav id="docs-navigation" class="flex flex-col gap-1 data-[sticky]:fixed data-[sticky]:top-[24px] data-[sticky]:w-[200px]" phx-hook="DocsNavigation">
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#overview">Overview</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#basic-usage">Basic Usage</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#authentication">Authentication</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#localization">Localization</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#batch-usage">Batch Usage</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#fallbacks">Input Fallbacks</a>
+  
+  <a class="px-3 py-2 text-app-text rounded font-medium text-sm hover:bg-brand-600/10 data-[active]:text-brand data-[active]:bg-brand-600/10 font-mono" href="#responses">Responses &amp; Errors</a>
+  
+</nav>
+  </aside>
+
+  <div>
+    
+      <div>
+  <section class="mb-20">
+  <h1 id="overview" class="block text-app-text text-5xl font-bold font-mono max-w-xl" data-scrollable>
+  
+    Genderize API reference
+  
+</h1>
+  <h2 class="block text-app-text text-4xl font-light font-mono max-w-xl mt-2">
+  
+    A simple API that predicts the gender of a person based on a first name
+  
+</h2>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 lg:grid-cols-2">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  The Genderize API allows you to check the statistical probability of a name being male or female.
+</p>
+    <p class="block text-app-text text-base ">
+  The API exposes a single endpoint that accepts a <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">name</span> and returns a payload with the prediction. It uses query parameters for requests and returns <a href="http://www.json.org/" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700" target="_BLANK">JSON-encoded</a> responses.
+</p>
+    <p class="block text-app-text text-base ">
+  The API is free for up to 100 names/day. No sign-up or API key is needed. So go ahead and try it out. You can <a href="/register" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">sign up for an API key</a> if you need more requests.
+</p>
+    <p class="block text-app-text text-base ">
+  We support <a href="#batch-usage" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">batch processing</a> to reduce the overhead of many HTTP calls.
+</p>
+    <p class="block text-app-text text-base ">
+  The endpoint also supports <a href="#localization" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">localization</a>, allowing you to scope the gender prediction to a single country for higher accuracy.
+</p>
+    <p class="block text-app-text text-base ">
+  The API is built for high-volume processing, and as such, there is no rate limiting except your daily or monthly limit. You can keep track of that through <a href="#rate-limiting" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">rate-limiting headers</a> or <a href="/store" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">your account</a>.
+</p>
+    
+    </div>
+    
+      <div class="flex flex-col gap-4">
+        
+      <div class="bg-stone-400/10 border-1 border-stone-300/50 rounded p-4">
+  <h4 class="text-xl font-bold font-mono opacity-90">Client libraries</h4>
+  <p class="block text-app-text text-sm mt-2 mb-6 opacity-80">
+  Not looking to write your own client code? Our amazing community has open sourced <a href="/libraries" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">libraries and SDK's</a> for almost every programming language.
+</p>
+  <div class="grid grid-cols-5 gap-6">
+    <div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/ruby.svg" alt="Python icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Python</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/r.svg" alt="R icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">R</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/javascript.svg" alt="Javascript icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Javascript</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/php.svg" alt="PHP icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">PHP</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/go.svg" alt="Go icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Go</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/c_sharp.svg" alt="C# icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">C#</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/ruby.svg" alt="Ruby icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Ruby</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/scala.svg" alt="Scala icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Scala</p>
+    </div><div class="flex flex-col items-center gap-2">
+      <img src="/images/languages/java.svg" alt="Java icon" class="w-[35px] h-[35px]">
+      <p class="text-xs font-bold font-mono opacity-80">Java</p>
+    </div>
+  </div>
+</div>
+    
+      </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="basic-usage" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Basic Usage
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    Predicting the gender of a single name
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 lg:grid-cols-2">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  For basic usage you just need to pass a name as the <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">name</span> parameter. It's recommended to always use a <b>first name</b> if you have it available. If not, the API will attempt to <a href="#fallbacks" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">parse the input</a> as a full name and pick out the first name.
+</p>
+    <p class="block text-app-text text-base ">
+  The response includes a <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">gender</span>, <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">probability</span>, and a <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">count</span>. The <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">probability</span> indicates the ratio of males to females in our dataset, and the count indicates the amount of data rows examined for the response. You can read more about <a href="/our-data" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">our data</a> here.
+</p>
+    <p class="block text-app-text text-base ">
+  It's worth noting that demographics can influence naming conventions, so check out <a href="#localization" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">how to classify genders from a specific country</a>.
+</p>
+    
+    </div>
+    
+      <div class="flex flex-col gap-4">
+        
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <div class="border-b-1 border-stone-300/50 p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2">
+  Request
+</span>
+    <div class="flex justify-between items-center">
+      <code class="block text-app-text text-xs font-mono w-[calc(100%-75px)] overflow-x-hidden">
+  https://api.genderize.io?name=peter
+</code>
+      <a class="text-brand uppercase hover:bg-brand-600/10 font-bold px-4 py-2 text-xs whitespace-nowrap rounded-md plausible-event-name=Test+API" href="https://api.genderize.io?name=peter" id="https://api.genderize.io?name=peter" target="_BLANK" phx-hook="GEvent" data-event="AW-1043987484/u2RqCOqc2IkZEJz45_ED" nofollow>
+  Try me
+</a>
+    </div>
+  </div>
+  <div class="p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2 truncate">
+  Response
+</span>
+    <code class="block text-app-text text-xs font-mono ">
+  <span class="whitespace-pre" phx-hook="JSONContent" id="49e0874cbd" data-json="{&quot;count&quot;:1094417,&quot;name&quot;:&quot;peter&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;probability&quot;:1}"></span>
+</code>
+  </div>
+
+</div>
+
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <dl>
+    
+        
+    <div class="border-stone-300/50 p-4 border-b-1">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          name
+          <span class="font-mono text-xs font-medium italic">string</span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">The processed name.</p></dd>
+    </div><div class="border-stone-300/50 p-4 border-b-1">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          gender
+          <span class="font-mono text-xs font-medium italic">string</span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">Whether the predicted gender is male or female.</p></dd>
+    </div><div class="border-stone-300/50 p-4 border-b-1">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          probability
+          <span class="font-mono text-xs font-medium italic">float</span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">The certainty with which the gender was predicted.</p></dd>
+    </div><div class="border-stone-300/50 p-4 ">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          count
+          <span class="font-mono text-xs font-medium italic">integer</span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">The amount of datapoints examined for the prediction.</p></dd>
+    </div>
+  </dl>
+
+</div>
+    
+      </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="authentication" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Authentication
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    Accessing the API
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 lg:grid-cols-2">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  The API is free to use for up to 100 requests/day. If you need to do more predictions than that, you can obtain an API key from the <a href="/store" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">store</a>.
+</p>
+<p class="block text-app-text text-base ">
+  You should append the key to every request using the <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">apikey</span> parameter.
+</p>
+<p class="block text-app-text text-base ">
+  To keep track of the number of requests you have left for a given period, you can use the following HTTP headers returned in the response. If you're using an API key, you can also check <a href="/store" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">your account</a> to keep track of your usage.
+</p>
+<div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <dl>
+    
+  
+    <div class="border-stone-300/50 p-4 border-b-1">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          X-Rate-Limit-Limit
+          <span class="font-mono text-xs font-medium italic"></span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">The total amount of names available in the current time window. For free usage, this will be 100 predictions and for subscriptions it will follow your tier.</p></dd>
+    </div><div class="border-stone-300/50 p-4 border-b-1">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          X-Rate-Limit-Remaining
+          <span class="font-mono text-xs font-medium italic"></span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">The remaining amount of names available in the current time window.</p></dd>
+    </div><div class="border-stone-300/50 p-4 ">
+      <dt class="">
+        <p class="font-mono font-semibold text-xs mb-1 opacity-90">
+          X-Rate-Limit-Reset
+          <span class="font-mono text-xs font-medium italic"></span>
+        </p>
+      </dt>
+      <dd class=""><p class="text-sm opacity-80">Seconds remaining until a new time window open. Free usage runs on a daily window and subscriptions follow the monthly billing period.</p></dd>
+    </div>
+  </dl>
+
+</div>
+    
+    </div>
+    
+      <div class="flex flex-col gap-4">
+        
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded p-4">
+  
+        <code class="block text-app-text text-xs font-mono ">
+  https://api.genderize.io?name=peter&apikey={YOUR_API_KEY}
+</code>
+      
+</div>
+    
+      </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="localization" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Localization
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    Classification in the scope of a specific country
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 lg:grid-cols-2">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  Naming conventions can rely heavily on demographics, so specifying a country for the lookup will, in many cases, make the prediction better.
+</p>
+<p class="block text-app-text text-base ">
+  The API accepts an optional <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">country_id</span> parameter. The API will return a prediction specifically for the provided country when used. We recommend using it whenever you have the data available.
+</p>
+<p class="block text-app-text text-base ">
+  The dataset might be smaller for some countries, so it is worth checking the <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">count</span> and redoing the request globally if it's too low.
+</p>
+<p class="block text-app-text text-base ">
+  The service follows <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700" target="_BLANK">ISO 3166-1 alpha-2</a> for country codes. See our <a href="/our-data" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">list of supported countries</a> to understand the coverage for each country.
+</p>
+    
+    </div>
+    
+      <div class="flex flex-col gap-4">
+        
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <div class="border-b-1 border-stone-300/50 p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2">
+  Request
+</span>
+    <div class="flex justify-between items-center">
+      <code class="block text-app-text text-xs font-mono w-[calc(100%-75px)] overflow-x-hidden">
+  https://api.genderize.io?name=kim&amp;country_id=US
+</code>
+      <a class="text-brand uppercase hover:bg-brand-600/10 font-bold px-4 py-2 text-xs whitespace-nowrap rounded-md plausible-event-name=Test+API" href="https://api.genderize.io?name=kim&amp;country_id=US" id="https://api.genderize.io?name=kim&amp;country_id=US" target="_BLANK" phx-hook="GEvent" data-event="AW-1043987484/u2RqCOqc2IkZEJz45_ED" nofollow>
+  Try me
+</a>
+    </div>
+  </div>
+  <div class="p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2 truncate">
+  Response
+</span>
+    <code class="block text-app-text text-xs font-mono ">
+  <span class="whitespace-pre" phx-hook="JSONContent" id="bc3243c776" data-json="{&quot;count&quot;:28672,&quot;name&quot;:&quot;kim&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;country_id&quot;:&quot;US&quot;,&quot;probability&quot;:0.95}"></span>
+</code>
+  </div>
+
+</div>
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <div class="border-b-1 border-stone-300/50 p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2">
+  Request
+</span>
+    <div class="flex justify-between items-center">
+      <code class="block text-app-text text-xs font-mono w-[calc(100%-75px)] overflow-x-hidden">
+  https://api.genderize.io?name=kim&amp;country_id=DK
+</code>
+      <a class="text-brand uppercase hover:bg-brand-600/10 font-bold px-4 py-2 text-xs whitespace-nowrap rounded-md plausible-event-name=Test+API" href="https://api.genderize.io?name=kim&amp;country_id=DK" id="https://api.genderize.io?name=kim&amp;country_id=DK" target="_BLANK" phx-hook="GEvent" data-event="AW-1043987484/u2RqCOqc2IkZEJz45_ED" nofollow>
+  Try me
+</a>
+    </div>
+  </div>
+  <div class="p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2 truncate">
+  Response
+</span>
+    <code class="block text-app-text text-xs font-mono ">
+  <span class="whitespace-pre" phx-hook="JSONContent" id="16ffda4866" data-json="{&quot;count&quot;:3626,&quot;name&quot;:&quot;kim&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;country_id&quot;:&quot;DK&quot;,&quot;probability&quot;:0.96}"></span>
+</code>
+  </div>
+
+</div>
+    
+      </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="batch-usage" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Batch Usage
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    Checking the gender of multiple names in a request
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 lg:grid-cols-2">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  The API allows you to infer the gender of up to ten names per request. To do so, send a list of names as the <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">name</span> parameter. The response will be a list of predictions.
+</p>
+    <p class="block text-app-text text-base ">
+  Using <a href="#localization" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">localization</a> on a batch request will apply the given <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">country_id</span> to every name in the batch.
+</p>
+    <p class="block text-app-text text-base ">
+  Each name will count as a request towards <a href="#rate-limiting" class="font-inherit decoration-1 underline-offset-2 text-sky-600 underline hover:text-sky-700">rate limiting</a>. If you don't have enough requests to process every name, an error will be returned.
+</p>
+    
+    </div>
+    
+      <div class="flex flex-col gap-4">
+        
+      <div class="bg-stone-400/10 border-stone-300/50 border-1 rounded ">
+  
+  <div class="border-b-1 border-stone-300/50 p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2">
+  Request
+</span>
+    <div class="flex justify-between items-center">
+      <code class="block text-app-text text-xs font-mono w-[calc(100%-75px)] overflow-x-hidden">
+  https://api.genderize.io?name[]=peter&amp;name[]=lois&amp;name[]=stewie
+</code>
+      <a class="text-brand uppercase hover:bg-brand-600/10 font-bold px-4 py-2 text-xs whitespace-nowrap rounded-md plausible-event-name=Test+API" href="https://api.genderize.io?name[]=peter&amp;name[]=lois&amp;name[]=stewie" id="https://api.genderize.io?name[]=peter&amp;name[]=lois&amp;name[]=stewie" target="_BLANK" phx-hook="GEvent" data-event="AW-1043987484/u2RqCOqc2IkZEJz45_ED" nofollow>
+  Try me
+</a>
+    </div>
+  </div>
+  <div class="p-4">
+    <span class="block text-app-text text-sm font-bold font-mono text-xs mb-2 truncate">
+  Response
+</span>
+    <code class="block text-app-text text-xs font-mono ">
+  <span class="whitespace-pre" phx-hook="JSONContent" id="2bbbf31aa6" data-json="[{&quot;count&quot;:1094417,&quot;name&quot;:&quot;peter&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;probability&quot;:1},{&quot;count&quot;:50141,&quot;name&quot;:&quot;lois&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;probability&quot;:0.98},{&quot;count&quot;:361,&quot;name&quot;:&quot;stewie&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;probability&quot;:0.94}]"></span>
+</code>
+  </div>
+
+</div>
+    
+      </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="fallbacks" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Input Fallbacks
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    How input fallbacks work
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 ">
+    <div class="flex flex-col gap-4">
+      
+    <p>The API uses a few fallbacks to find a match in our database for cases where the input name is not directly found.</p>
+<p>The first fallback will remove all diacritics from the input name and make an attempt to find a match without it. The second fallback will attempt to parse the name in case it's a full name and use the found first name.</p>
+<p>So the lookup priority looks like this.</p>
+<ul class="list-decimal list-inside">
+  <li><p class="inline-block">Direct look up of the input name</p></li>
+  <li><p class="inline-block">Look up of the input name with diacritics removed</p></li>
+  <li><p class="inline-block">Attemp to parse the name into it's parts and look up the first name</p></li>
+</ul>
+<p>Even though we support name parsing, it's recommended to always use a first name if you have it available. Naming conventions are different across cultures and contexts and the parsing will never be perfect.</p>
+  
+    </div>
+    
+  </div>
+</section>
+
+  <section class="mb-20">
+  <span id="responses" class="block text-app-text text-base font-bold font-mono max-w-xl text-brand" data-scrollable>
+  
+    Responses &amp; Errors
+  
+</span>
+  <h3 class="block text-app-text text-3xl font-bold font-mono max-w-xl mt-2">
+  
+    How to understand your gender checking requests
+  
+</h3>
+  <div class="grid grid-cols-1 gap-x-8 gap-y-4 mt-8 ">
+    <div class="flex flex-col gap-4">
+      
+    <p class="block text-app-text text-base ">
+  All responses wil be in <span class="inline-flex bg-zinc-100 text-sm px-1 py-0.5 rounded text-zinc-600 font-system font-bold border-1 border-zinc-200 mx-[0.15rem] leading-4">content-type: application/json, charset=utf-8</span>.
+</p>
+<p class="block text-app-text text-base ">
+  Here's a list of possible error codes and their explanation.
+</p>
+<div class="overflow-y-auto px-4 sm:overflow-visible sm:px-0">
+  <table class="w-full table-auto">
+    <thead class="text-sm text-left leading-6 text-zinc-500">
+      <tr>
+        <th class="p-0 pr-6 pb-4 font-normal whitespace-nowrap">
+          <span class="flex gap-1 items-center">
+            Code
+            
+            
+          </span>
+        </th><th class="p-0 pr-6 pb-4 font-normal whitespace-nowrap">
+          <span class="flex gap-1 items-center">
+            Description
+            
+            
+          </span>
+        </th><th class="p-0 pr-6 pb-4 font-normal whitespace-nowrap">
+          <span class="flex gap-1 items-center">
+            Response
+            
+            
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody id="response_table" class="relative divide-y divide-zinc-100 border-t border-zinc-200 text-sm leading-6 text-zinc-700">
+      <tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              401
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Unauthorized
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Invalid API key&quot; }
+            </span>
+          </div>
+        </td>
+      </tr><tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              402
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Payment Required
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Subscription is not active&quot; }
+            </span>
+          </div>
+        </td>
+      </tr><tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              422
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Unprocessable Content
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Missing &#39;name&#39; parameter&quot; }
+            </span>
+          </div>
+        </td>
+      </tr><tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              422
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Unprocessable Content
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Invalid &#39;name&#39; parameter&quot; }
+            </span>
+          </div>
+        </td>
+      </tr><tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              429
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Too many requests
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Request limit reached&quot; }
+            </span>
+          </div>
+        </td>
+      </tr><tr class="group hover:bg-zinc-50 whitespace-nowrap">
+        <td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              429
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              Too many requests
+            </span>
+          </div>
+        </td><td class="relative p-0 ">
+          <div class="block py-4 pr-6">
+            <span class="absolute -inset-y-px right-0 -left-4 group-hover:bg-zinc-50 sm:rounded-l-xl"></span>
+            <span class="relative">
+              { &quot;error&quot;: &quot;Request limit too low to process request&quot; }
+            </span>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+    </div>
+    
+  </div>
+</section>
+</div>
+    
+
+    
+
+    
+  </div>
+
+</div>
+    </main>
+    <footer class="w-full justify-between border-t-1 border-app-border">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 w-full max-w-7xl mx-auto px-4 sm:px-8 py-8">
+            <address class="not-italic col-span-1 md:col-span-4 order-2 md:order-1">
+                <p class="block text-app-text text-xs leading-4 font-mono font-bold">
+  Demografix ApS
+</p>
+                <p class="block text-app-text text-xs leading-4 font-mono ">
+  Eriksvej 30, 4000 Roskilde
+</p>
+                <p class="block text-app-text text-xs leading-4 font-mono ">
+  Denmark
+</p>
+                <p class="block text-app-text text-xs leading-4 font-mono ">
+  DK40697179
+</p>
+                <a class="text-xs" href="mailto:info@genderize.io">info@genderize.io</a>
+            </address>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 col-span-1 md:col-span-8 order-1 md:order-2 justify-end font-mono text-sm">
+                <ul>
+                    <li><a href="/login">Log in</a></li>
+                    <li><a href="/register">Register</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://genderize.io">Genderize Docs</a></li>
+                    <li><a href="https://agify.io">Agify Docs</a></li>
+                    <li><a href="https://nationalize.io">Nationalize Docs</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/libraries">Libraries</a></li>
+                    <li><a href="/tools/csv">CSV Tool</a></li>
+                    <li><a href="/our-data">Our Data</a></li>
+                    <li><a href="/case-studies">Case Studies</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/terms">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div></div>
+  </body>
+</html>

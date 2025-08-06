@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Data API | Effortless Random Data at Your Fingertips</title>
+<meta name="description" content="Random Data API Landing Page">
+<meta name="keywords" content="random data api, random data generator, fake data, random user data, fake json, dummy json">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="EBySPXsbMvw48uxIVDFIbMRNdT-BTJy37Pi09VqHsH5LJ4Gajj4RqQ1e_71XAshp5VS31OhDAkUvw-AfBJZgyQ" />
+    
+
+    <script src="https://kit.fontawesome.com/9066adbf51.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/application-e45b6744d5dd519d9cb1b1f9a32151ba3d06f0fbb5a4fdfc2a9865b6ed1de5db.css" data-turbo-track="reload" />
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-90883868af4e376a805a3a029e66cc8cc092601d63dbc349cf468852c79ac677.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-fcb683144a7bcb99720c2a5325259ae33a534c66f030618d91bb306a3bb6efd2.js",
+    "@hotwired/stimulus": "/assets/@hotwired--stimulus-379f09adbcd004e5b2c2793635d128b6e72c08d1ef5337bf8a5d1e260aaa403e.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js",
+    "popper": "/assets/popper-003a40d80fd205e1fa00da117d5bdc19720ba330706eaa17f9ba9513fa502304.js",
+    "bootstrap": "/assets/bootstrap.min-9ee0fd7380316889d8d5f8283a48a5595b96b58408b4058855a3b84db5c599a2.js",
+    "stimulus-content-loader": "/assets/stimulus-content-loader-ef2e71eb19af478f7fb73133a781e0e0177080196ca2cab2e69aa4b35e8dccda.js",
+    "apexcharts": "/assets/apexcharts-a6390f547dd3c2e4a19215a84ccbc7dc17948587a0e1f879441fcc6258fcf89b.js",
+    "chartkick": "/assets/chartkick-8eb76e6cbdb540d495739fce84049fd038e59e7fd55c9e08e47b0b5a74b62db4.js",
+    "Chart.bundle": "/assets/Chart.bundle-c5bdf938fbc6fe19dcc4ce77047008b5686a04ceeae22ba312e3610aba0832e7.js",
+    "stimulus-clipboard": "/assets/stimulus-clipboard-6ff714c3c4abe0c488dc36919b681db9dd91db78ad17931327fa2f4377b953f0.js",
+    "stimulus-color-picker": "/assets/stimulus-color-picker-f39053dec0d4bfa996451a0cf3d1625adef117c2d5a27377c3098e02fd477e32.js",
+    "@simonwep/pickr": "/assets/@simonwep--pickr-1475165534036995e4195fcda4049084e0b3551f74925a7c57e9cd22869b539b.js",
+    "stimulus-notification": "/assets/stimulus-notification-a14bc6758570491e272ead3eb563aab2d145300f4cd403aeaac977cc093b1b5c.js",
+    "hotkeys-js": "/assets/hotkeys-js-49b527c9f6018a272d53d595363afbe23ff6d4c8becef316166830365276770f.js",
+    "stimulus-use": "/assets/stimulus-use-8b0ae74337c38828f34f74e6e7a8eef10090e122ab782d33db0efbec84f3d6d4.js",
+    "controllers/analytics_controller": "/assets/controllers/analytics_controller-5c841ef1a6f323cc58e5d311a7d09718640f7e6f9cc99dc9fd19369537c4c58f.js",
+    "controllers/application": "/assets/controllers/application-60d30e079cc4325924962a874827a2bc60a03d2a89c47ffce5d9ac61f50a8f18.js",
+    "controllers/demo_request_controller": "/assets/controllers/demo_request_controller-18d3fdb22917e95698306c6208dd4de469834c08e4b9dab5815a1ff81b28212c.js",
+    "controllers/dropdown_controller": "/assets/controllers/dropdown_controller-2b80f031b5e6960c3c75ca7acda63e56312b52ecf6e754ad67c7dafcd947b6ce.js",
+    "controllers/hello_controller": "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js",
+    "controllers": "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js",
+    "controllers/row_collapse_controller": "/assets/controllers/row_collapse_controller-6431fd2d0b6c3acd58e4f4df2e08a58d4c3150ea7bffd6f0addcf8452f186d31.js",
+    "controllers/toast_controller": "/assets/controllers/toast_controller-960675f9ce9fe34875c7d6f10f8f52d77b06a701b4d5f957c63321ffe75777e4.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-90883868af4e376a805a3a029e66cc8cc092601d63dbc349cf468852c79ac677.js">
+<link rel="modulepreload" href="/assets/turbo.min-fcb683144a7bcb99720c2a5325259ae33a534c66f030618d91bb306a3bb6efd2.js">
+<link rel="modulepreload" href="/assets/@hotwired--stimulus-379f09adbcd004e5b2c2793635d128b6e72c08d1ef5337bf8a5d1e260aaa403e.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js">
+<link rel="modulepreload" href="/assets/popper-003a40d80fd205e1fa00da117d5bdc19720ba330706eaa17f9ba9513fa502304.js">
+<link rel="modulepreload" href="/assets/bootstrap.min-9ee0fd7380316889d8d5f8283a48a5595b96b58408b4058855a3b84db5c599a2.js">
+<link rel="modulepreload" href="/assets/stimulus-content-loader-ef2e71eb19af478f7fb73133a781e0e0177080196ca2cab2e69aa4b35e8dccda.js">
+<link rel="modulepreload" href="/assets/apexcharts-a6390f547dd3c2e4a19215a84ccbc7dc17948587a0e1f879441fcc6258fcf89b.js">
+<link rel="modulepreload" href="/assets/chartkick-8eb76e6cbdb540d495739fce84049fd038e59e7fd55c9e08e47b0b5a74b62db4.js">
+<link rel="modulepreload" href="/assets/Chart.bundle-c5bdf938fbc6fe19dcc4ce77047008b5686a04ceeae22ba312e3610aba0832e7.js">
+<link rel="modulepreload" href="/assets/stimulus-clipboard-6ff714c3c4abe0c488dc36919b681db9dd91db78ad17931327fa2f4377b953f0.js">
+<link rel="modulepreload" href="/assets/stimulus-color-picker-f39053dec0d4bfa996451a0cf3d1625adef117c2d5a27377c3098e02fd477e32.js">
+<link rel="modulepreload" href="/assets/@simonwep--pickr-1475165534036995e4195fcda4049084e0b3551f74925a7c57e9cd22869b539b.js">
+<link rel="modulepreload" href="/assets/stimulus-notification-a14bc6758570491e272ead3eb563aab2d145300f4cd403aeaac977cc093b1b5c.js">
+<link rel="modulepreload" href="/assets/hotkeys-js-49b527c9f6018a272d53d595363afbe23ff6d4c8becef316166830365276770f.js">
+<link rel="modulepreload" href="/assets/stimulus-use-8b0ae74337c38828f34f74e6e7a8eef10090e122ab782d33db0efbec84f3d6d4.js">
+<link rel="modulepreload" href="/assets/controllers/analytics_controller-5c841ef1a6f323cc58e5d311a7d09718640f7e6f9cc99dc9fd19369537c4c58f.js">
+<link rel="modulepreload" href="/assets/controllers/application-60d30e079cc4325924962a874827a2bc60a03d2a89c47ffce5d9ac61f50a8f18.js">
+<link rel="modulepreload" href="/assets/controllers/demo_request_controller-18d3fdb22917e95698306c6208dd4de469834c08e4b9dab5815a1ff81b28212c.js">
+<link rel="modulepreload" href="/assets/controllers/dropdown_controller-2b80f031b5e6960c3c75ca7acda63e56312b52ecf6e754ad67c7dafcd947b6ce.js">
+<link rel="modulepreload" href="/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js">
+<link rel="modulepreload" href="/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js">
+<link rel="modulepreload" href="/assets/controllers/row_collapse_controller-6431fd2d0b6c3acd58e4f4df2e08a58d4c3150ea7bffd6f0addcf8452f186d31.js">
+<link rel="modulepreload" href="/assets/controllers/toast_controller-960675f9ce9fe34875c7d6f10f8f52d77b06a701b4d5f957c63321ffe75777e4.js">
+<script type="module">import "application"</script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="HRHOELBE" defer></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-okaidia.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-ruby.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-elixir.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-go.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/> <!-- 'classic' theme -->
+  </head>
+
+  <body class="d-flex flex-column h-100 body-background">
+    
+
+    <div class="container-fluid" style="height: 5px; background-color: #feca57;"></div>
+<div class="container py-2">
+  <a href="https://www.producthunt.com/posts/random-data-api?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-random&#0045;data&#0045;api" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=363052&theme=light" alt="Random&#0032;Data&#0032;API - Random&#0032;fake&#0032;data&#0032;for&#0032;easier&#0032;development&#0032;and&#0032;testing | Product Hunt" style="width: 200px; height: 40px;" width="200" height="40" /></a>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3 sticky-top">
+  <div class="container">
+    <a class="navbar-brand" data-turbo="false" href="/">
+      <span>RandomData<strong>API</strong></span>
+</a>    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!--<li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Solutions
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><h6 class="dropdown-header">By use case</h6></li>
+            <li>
+            </li>
+            <li>
+                Testing &amp; QA <span class="badge rounded-pill text-bg-warning">coming soon</span>
+            </li>
+          </ul>
+          </li>-->
+        <!--<li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+                JSON Designer
+            </li>
+            <li>
+                Database Workspaces
+            </li>
+            <li><hr class="dropdown-divider"></li>
+            <li><h6 class="dropdown-header">Predefined Datasets</h6></li>
+            <li>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </li>-->
+        <!--<li class="nav-item">
+          </li>-->
+      </ul>
+      <div class="text-end">
+        <a class="btn btn-link me-2 text-decoration-none text-dark" href="/developers/sign_in">Sign in</a>
+        <a class="btn btn-dark me-2" href="/developers/sign_up">Design Your Data</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid bg-light">
+  <div class="container">
+    <div class="px-4 py-5 my-5">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h1 class="display-5 fw-bold">Effortless Random Data at Your Fingertips</h1>
+          <p class="lead mb-4">Say goodbye to static datasets and manual data entry. Our robust platform breathes life into your applications, making development and testing not just easier, but also more effective.</p>
+          <a class="btn btn-dark shadow" style="padding: 0.85rem 1.5rem;" href="/developers/sign_up">Design Your Data</a>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/b5c3c8e887714462b846db7d29168d1a?sid=9e5403fe-977b-4be2-99e8-afa3107c4571" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="px-4 py-3 text-center">
+    <div class="d-flex flex-column flex-sm-row justify-content-around align-items-center">
+      <img class="logo-height" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542492/Microsoft_logo__2012_krdji9.svg" />
+      <img class="logo-height" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542015/W3Schools_logo_xuv2ja.svg" />
+      <img class="logo-height" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542015/1024px-Telegram_Messenger_rlzcnh.png" />
+      <img class="logo-height" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542102/Slack_Technologies_Logo_x1qs7a.svg" />
+      <img class="logo-height-umbraco" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542213/umbraco_logo_blue05_zyyiee.webp" />
+      <img class="logo-height" ssl_detected="true" src="https://res.cloudinary.com/manoylo/image/upload/v1708542385/Moodle-logo_skxfec.svg" />
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 5rem;">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="mb-0">
+        Why Choose RandomData<strong>API</strong>?
+      </h3>
+    </div>
+  </div>
+
+  <div class="row mt-2 mb-3">
+    <div class="col-md-3 text-center">
+      <div class="mb-3">
+        <i class="fa-solid fa-check" style="font-size: 2rem; color: #c8d6e5;"></i>
+      </div>
+      <h5 class="fw-bold">Diverse Data Types</h5>
+      <p>From names and emails to complex business scenarios, access a vast array of data types tailored to your needs</p>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <div class="mb-3">
+        <i class="fa-solid fa-check" style="font-size: 2rem; color: #c8d6e5;"></i>
+      </div>
+      <h5 class="fw-bold">Real-Time Generation</h5>
+      <p>Fetch fresh, randomized data instantly, ensuring your tests cover a broad spectrum of real-world scenarios</p>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <div class="mb-3">
+        <i class="fa-solid fa-check" style="font-size: 2rem; color: #c8d6e5;"></i>
+      </div>
+      <h5 class="fw-bold">Simplified Integration</h5>
+      <p>With our straightforward API, integrating dynamic data into your projects is a breeze, saving you time and hassle</p>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <div class="mb-3">
+        <i class="fa-solid fa-check" style="font-size: 2rem; color: #c8d6e5;"></i>
+      </div>
+      <h5 class="fw-bold">Enhance Testing Accuracy</h5>
+      <p>Elevate your testing with data that mirrors real-world complexity, uncovering potential issues before they escalate</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-light py-5" style="margin-top: 5rem;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>
+          Why Choose RandomData<strong>API</strong>?
+        </h2>
+        <hr class="yellow-hr" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="fw-bold">JSON Designer</h3>
+        <p>
+          Structure your data to align with the requirements of your project and retrieve it through APIs. Additionally, you can craft a JSON body for your POST requests that includes built-in validations. Designate elements as required; if a value is not provided or a key is absent, the system will alert you. This functionality is ideal for those exploring API design, as it offers the flexibility to experiment with various data implementation strategies.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/04794d2420fb434aa49219d6cfe902e0?sid=7483efe0-e35c-48ef-8493-988e9d1f6493" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 4rem;">
+      <div class="col-md-6">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c754e98ffb0b478788efebced24f87ce?sid=da4f9d68-5fda-4d4f-9b5e-4637e719e2c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">Database Workspaces</h3>
+        <p>
+          Our database workspaces provide a streamlined way for you to access realistic, de-identified data sets that accurately represent production environments. These workspaces are designed to be efficient, allowing for quick deployment and easy scaling down to meet your local development needs. The key advantage of utilizing such workspaces lies in their ability to save your time and accelerate release cycles.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row mt-5 py-5">
+      <div class="col-md-6 offset-md-3 text-center mb-0">
+        <h4>Your Development, <span class="fw-bold">Supercharged</span></h4>
+        <p>
+          Whether you're crafting user interfaces, fine-tuning user experiences, seeding a local database, or rigorously testing functionality, Random Data API stands by to elevate your workflow. Embrace the power of randomness and watch your development cycle transform.
+        </p>
+
+        <a class="btn btn-dark shadow" style="padding: 0.85rem 1.5rem;" href="/developers/sign_up">Design Your Data</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mb-5">
+  <footer class="pt-4 my-md-5 pt-md-5">
+    <hr class="yellow-hr" />
+    <div class="row">
+      <div class="col-md-3">
+        <a href="https://manoylo.ca" target="_blank">
+          <img src="https://res.cloudinary.com/manoylo/image/upload/v1583284399/manoylome_dhxyc0.png" style="width: 80px;">
+        </a>
+        <p class="text-muted"><small>&copy; 2017-2024</small></p>
+      </div>
+      <div class="col-md-9 text-end">
+        <h5 class="my-0 mr-md-auto">Random Data <strong>API</strong></h5>
+        <a href="https://random-data-api.appsignal-status.com/" target="_blank" class="btn btn-link text-decoration-none">Status page</a>
+        <p class="text-muted"><small>Built with &#10084;, &#9749; and lots of &#127850; in Montreal, QC</small></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-end">
+        <p class="lead mb-0">Are you looking for pre-made datasets?</p>
+        <a class="btn btn-link text-decoration-none" data-turbo="false" href="/documentation">Check out our v2 documentation</a>
+        <a class="btn btn-link text-decoration-none" data-turbo="false" href="/legacy_documentation">Check out our v1 Documentation</a>
+      </div>
+    </div>
+  </footer>
+</div><ul>
+  <li>
+
+  </li>
+  <li>
+
+  </li>
+</ul>
+
+
+  </body>
+</html>

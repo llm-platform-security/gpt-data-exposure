@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Manasav - Listas de regalos con alertas de precios</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta
+    name="description"
+    content="Manasav - Listas de regalos con alertas de precios"
+  />
+  <meta
+    name="keywords"
+    content="Listas de regalos, ofertas amazon, ofertas pccomponentes, alertas de precios, pricetracker, pccomponetes pricetracker"
+  />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Rubik:300,400,500"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="30">
+    <!-- Nav Menu -->
+
+
+    <nav class="nav-menu fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+          <a class="navbar-brand" href="/">Manasav</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/#home"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-features">Características</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-start">Cómo empezar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-stores">Tiendas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-channels">Canales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#sec-contact">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/plugin.html">Plugin para WP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://blog.manasav.com">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</nav>
+    <header class="bg-gradient" id="home">
+  <div class="container mt-5 mb-5">
+    <h1>Manasav</h1>
+    <p class="tagline">
+      Listas de regalos y seguidor de precios todo en uno<br />
+      <a
+        style="padding: 1rem 3rem"
+        class="btn btn-primary btn-lg mt-4"
+        href="https://app.manasav.com"
+      >
+        Entrar
+      </a>
+    </p>
+  </div>
+  <!-- <div class="img-holder mt-3 mb-3"> -->
+  <!-- <img src="images/iphonex.png" alt="phone" class="img-fluid"> -->
+  <!-- </div> -->
+</header>
+
+    <div class="section" id="sec-privacy">
+      <div class="container">
+        <div class="section-title">
+          <h3>Política de privacidad</h3>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-12">
+            <p>
+              Esta es la política de privacidad de Manasav para cumplir con
+              todos los reglamentos y leyes establecidas. Está redactado de la
+              manera más legible posible pero ante cualquier duda
+              <a href="#sec-contact">contacta con nosotros</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              ¿Quién es el responsable del tratamiento de mis datos?
+            </h4>
+            <ul class="light-font mb-5" style="list-style: none">
+              <li>Nombre: Javier de la Rubia</li>
+              <li>Dirección: Gerardo Diego 7, 5D Madrid</li>
+              <li>Teléfono: 648506010</li>
+              <li>Correo electrónico: contacto@manasav.com</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Que datos personales se recogen en Manasav?</h4>
+            <p class="light-font mb-5">
+              Básicamente el correo electrónico, para realizar el registro y
+              poder llevar a cabo las comunicaciones y alertas de precios; el
+              nombre de usuario de Twitter en caso de que quieras que se te
+              notifique a través de Twitter de las bajadas de precio y en caso
+              de iniciar sesión con una cuenta de Google, al iniciar sesión
+              recibimos el nombre que aparece en la cuenta, pero ese nombre no
+              se usa para nada ni queda almacenado en nuestros servidores.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Para qué se recogen los datos?</h4>
+            <p class="light-font mb-5">
+              Todos los datos que se recogen y se almacenan tienen su
+              finalidad.<br />El correo electrónico se usa para identificar al
+              usuario de manera única y para enviarle notificaciones de precios
+              y comunicaciones relativas a novedades dentro de Manasav. El
+              usuario tiene total libertad de limitar las comunicaciones que
+              quiera recibir en su dirección de correo electrónico en cualquier
+              momento. <br />
+              La dirección de Twitter se emplea únicamente para realizar
+              notificaciones de bajadas de precio a través de la red social.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Dónde se almacenan mis datos?</h4>
+            <p class="light-font mb-5">
+              El proveedor de servicios de Manasav es Firebase, una empresa de
+              Google, y la base de datos se encuentra en los servidores de
+              Estados Unidos, nos gustaría traerla a los servidores de Europa
+              pero no es posible al momento de redactar estas líneas, aunque la
+              transladaremos en cuanto sea posible.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Cómo puedo modificarlos?</h4>
+            <p class="light-font mb-5">
+              Empecemos por el sencillo, la cuenta de Twitter, se puede
+              modificar desde la propia aplicación web de manera directa. <br />
+              La dirección de correo es mas complicado ya que no se puede
+              modificar de manera manual por parte del usuario puesto que es su
+              propio identificador, pero
+              <a href="#sec-contact">contacta con nosotros</a> para que veamos
+              cómo podemos hacerlo o migrar una cuenta a otra.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Cómo puedo eliminar mis datos?</h4>
+            <p class="light-font mb-5">
+              Desde la propia aplicación web de Manasav, en la barra de
+              preferencias del usuario en la página principal, abajo del todo
+              hay un botón para eliminar la cuenta de usuario, borrandose todos
+              los datos que tenemos almacenados del usuario.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Durante cuánto tiempo se conservan los datos?</h4>
+            <p class="light-font mb-5">
+              Hasta que el usuario decida eliminar su cuenta, cosa que se puede
+              hacer desde la aplicación web en cualquier momento.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Con quién se comparten mis datos?</h4>
+            <p class="light-font mb-5">
+              Los datos no se comparten de manera activa con ninguna empresa a
+              parte de estar almacenados en la nube de Google para el correcto
+              funcionamiento de la plataforma.<br />
+              En ningún momento nos planteamos compartir ni los datos personales
+              ni los no personales, como productos en seguimiento o listas de
+              productos, con otras empresas.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              ¿Qué cookies se instalan en mi navegador?¿Manasav usa Google
+              Analytics?
+            </h4>
+            <p class="light-font mb-5">
+              Manasav no emplea cookies para funcionar, pero sí que utilizamos
+              Google Analytics para sacar estadísticas de uso de la aplicación
+              web.<br />
+              El uso de Google Analytics es totalmente voluntario por parte del
+              usuario, y cada vez que entra desde un navegador nuevo o borra los
+              datos almacenados en el navegador, se le preguntará si está de
+              acuerdo en usar Google Analytics para compartir la información de
+              uso de la página web.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              ¿Qué información se monitoriza con Google Analytics?
+            </h4>
+            <p class="light-font mb-5">
+              Utilizamos Google Analytics para monitorizar los eventos del
+              usuario cuando interacciona con la aplicación, esos eventos son
+              tales como añadir un producto a seguimiento, crear una lista,
+              obtener un enlace de una lista, buscar un producto. Es decir, toda
+              acción que realice el usuario genera un evento anónimo que se
+              envía a Google Analytics para que posteriormente podamos entender
+              cómo se usa la aplicación. Todos estos eventos son anónimos, es
+              decir, podemos saber que un usuario ha añadido X producto a
+              seguimiento, luego ha creado una lista, lo ha añadido y ha copiado
+              el enlace de la lista, pero no podemos saber qué usuario lo ha
+              hecho sin tener que cruzar esa información que está en Google
+              Analytics con nuestra base de datos, cosa que tampoco vamos a
+              hacer porque para saber cómo se usa la plataforma y mejorarla no
+              es interesante quién hace qué, si no cómo se usa en general y
+              cuáles son los datos agregados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="sec-terms">
+      <div class="container">
+        <div class="section-title">
+          <h3>Términos y condiciones</h3>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-12">
+            <p>
+              Estos son los términos y condiciones de Manasav, todo usuario se
+              compromete a seguirlos para el correcto uso y disfrute de Manasav
+              por parte de él mismo y del resto de usuarios.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Que puedo hacer en Manasav como usuario?</h4>
+            <p class="light-font">
+              Todo aquello que permita la propia aplicación web de manera
+              "natural", esto es, sin modificar el código o el comportamiento
+              para el que fué diseñada y programada la aplicación:
+            </p>
+            <ul>
+              <li>Poner productos en seguimiento.</li>
+              <li>Quitar productos de seguimiento.</li>
+              <li>Ajustar notificaciones.</li>
+              <li>
+                Añadir, modificar, gestionar y eliminar listas de productos.
+              </li>
+              <li>Configurar la privacidad del propio usuario.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Que no se puede hacer con Manasav?</h4>
+            <p class="light-font">
+              No se puede hacer un uso de la plataforma para algo que no fué
+              pensada, ya sea modificando el código fuente de la misma,
+              interceptando las comunicaciones cliente-servidor o haciendo un
+              uso inadecuado de las mismas comunicaciones.<br />
+              Tampoco se permite el uso de los datos ofrecidos por Manasav para
+              otras empresas o aplicaciones, algunos ejemplos serían:
+            </p>
+            <ul>
+              <li>
+                Si eres un vendedor o tienes relacion con una tienda, no está
+                permitido usar Manasav para monitorizar precios de la
+                competencia.
+              </li>
+              <li>
+                No está permitido usar las alertas de Manasav para alimentar
+                canales o webs de ofertas.
+              </li>
+              <li>
+                No está permitido hacer uso de los históricos de precios de
+                Manasav para realizar análisis de precios o tendencias, en caso
+                de querer usar esos datos para algo ponte en contacto primero.
+              </li>
+              <li>
+                No está permitido usar el sistema de notificaciones de Manasav
+                para realizar spam a terceras personas registrándose con cuentas
+                de correo o Twitter que no pertenezcan al usuario.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              ¿Quién se responsabiliza de los datos introducidos en Manasav?
+            </h4>
+            <p class="light-font mb-5">
+              El usuario es el que se compromete y responsabiliza de que los
+              datos introducidos al crear una cuenta y ajustar las
+              notificaciones son válidos y le pertenecen, no está permitido
+              registrarse con cuentas de correo electrónico ajenas o usar
+              cuentas de Twitter de otros usuarios para las notificaciones.
+              <br />
+              El usuario también es responsable de las fotos subidas a Manasav
+              al crear productos de manera manual, haciéndose responsable de las
+              fotos que sube.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">Fotos subidas al crear un producto</h4>
+            <p class="light-font mb-5">
+              La función de subir fotos esta pensada única y exclusivamente para
+              subir fotos de productos que interesan al usuario, para poder
+              identificar el producto de manera clara y concisa.<br />
+              Está totalmente prohibido subir fotos de cualquier otra índole o
+              con cualquier otro fin, además en caso de que una foto subida al
+              sistema fuera ilegal por cualquier motivo, se denunciará y se
+              colaborará de manera total con las autoridades competentes para
+              identificar al usuario que subió dicha foto.<br />
+              En caso de que detectes cualquier problema con una foto en nuestro
+              sistema por favor
+              <a href="#sec-contact">contáctanos lo antes posible</a>.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">¿Qué pasa si hago algo que no está permitido?</h4>
+            <p class="light-font mb-5">
+              Dependiendo de la gravedad de la acción se tomarán unas medidas u
+              otras, pero nos reservamos el derecho a eliminar totalmente una
+              cuenta en caso de que se haya realizado una acción que atente
+              contra el buen uso de la plataforma, y por supuesto de comunicar a
+              las autoridades competentes cualquier conducta que sea
+              denunciable.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              Vericidad de la información expuesta en Manasav
+            </h4>
+            <p class="light-font mb-5">
+              En Manasav monitorizamos de manera automática los precios de
+              múltiples productos, pero eso no implica que actualicemos esos
+              precios en tiempo real. El tiempo que se tarda en volver a
+              comprobar el precio de un producto es depende de la carga del
+              sistema, de la tienda y de otros factores, lo que puede producir
+              que el precio mostrado en Manasav no coincida con el precio real
+              en la tienda, por este motivo siempre que mostramos un precio
+              indicamos el momento en el que fué visto por nuestros sitemas.<br />
+              Por esto los datos que se muestran en Manasav pueden no estar
+              actualizados, y no nos hacemos responsables del precio actual del
+              producto, nosotros hacemos nuestros mayores esfuerzos para ofrecer
+              la información lo más actualizada posible dentro de las
+              limitaciones existentes.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mb-3">Relación de Manasav con las tiendas</h4>
+            <p class="light-font mb-5">
+              Toda compra realizada en una tienda online siguiendo un enlace a
+              través de Manasav es un acuerdo entre el usuario y la tienda
+              online, Manasav no tiene nada que ver con dicha compra ni es parte
+              activa en la misma. <br />
+              Manasav no puede ofrecer ningún tipo de garantía puesto que nos
+              limitamos a agregar enlaces y dar información sobre el precio de
+              los productos en determinados momentos, pero no tenemos nada que
+              ver con el proceso de compra.<br />
+              La única relación que existe entre Manasav y algunas tiendas es
+              que recibimos una comisión por las ventas que se realizan en la
+              tienda online que llegan a través de Manasav, pero esa comisión no
+              se repercute en el precio final al cliente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section bg-gradient" id="sec-contact">
+  <div class="container">
+    <div class="call-to-action">
+      <h2>Contacto</h2>
+      <p class="tagline">
+        ¿Tienes alguna duda o petición especial? Envíanosla con este formulario de contacto
+      </p>
+      <div
+        class="justify-content-md-center row"
+        style="height: 400px; align-items: center"
+      >
+        <div class="my-4 col-12 col-lg-6">
+          <form id="contact-form" action="#">
+            <div class="form-group">
+              <label for="subject">Asunto</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender"
+                class="form-control"
+              />
+              <small class="form-text" style="text-align: start"
+                >Añade tu correo electrónico para que podamos responderte, si no
+                esperas respuesta no es necesario</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                name="message"
+                placeholder="Este es el único campo obligatorio"
+              ></textarea>
+            </div>
+            <label><input type="checkbox" id="privacy-checkbox"> Acepto la <a href="terms-and-privacy.html#sec-privacy">política de privacidad</a></label><br>
+            <input
+              disabled
+              style="cursor: pointer"
+              id="contact-submit"
+              type="submit"
+              class="btn btn-primary btn-lg btn-block"
+              value="Enviar"
+            />
+          </form>
+          <p id="sent-success" class="hidden tagline">
+            Muchas gracias por tu mensaje
+          </p>
+          <p id="sent-error" class="hidden tagline">
+            Ha ocurrido un error al enviar el formulario, por favor vuelve a
+            intentarlo<br />
+            <button
+              class="btn btn-primary my-2"
+              id="retry-btn"
+              style="cursor: pointer"
+            >
+              Reintentar
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="my-5 text-center">
+  <!-- Copyright removal is not prohibited! -->
+  <p class="mb-2">
+    <small>COPYRIGHT © 2022. ALL RIGHTS RESERVED.</small>
+  </p>
+
+  <small>
+    <!-- <a href="#" class="m-2">PRESS</a> -->
+    <a href="terms-and-privacy.html#sec-terms" class="m-2">Términos de uso</a>
+    <a href="terms-and-privacy.html#sec-privacy" class="m-2"
+      >Política de privacidad</a
+    >
+  </small>
+</footer>
+
+        <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <!-- Contact -->
+    <script src="js/custom.js"></script>F  </body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-background">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="icon" href="/images/askmemologo.png">
+    <title>Privacy</title>
+</head>
+
+<body class="h-full">
+    <header class="bg-background">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Ask Memo</span>
+                    <img class="h-8 w-auto" src="/images/askmemologo.png"
+                        alt="">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="mobile-menu-btn-open">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Ask a Question</a>
+                <a href="/formulas" class="text-sm font-semibold leading-6 text-gray-900">Write a Formula</a>
+                <a href="/databases" class="text-sm font-semibold leading-6 text-gray-900">Create a Database</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <a href="/register" class="text-sm font-semibold leading-6 text-gray-900">Register<span
+                        aria-hidden="true">&rarr;</span></a>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden hidden mobile-menu" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-10"></div>
+            <div
+                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Ask Memo</span>
+                        <img class="h-8 w-auto" src="/images/askmemologo.png"
+                            alt="">
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="mobile-menu-btn-close">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a href="/"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Ask a Question</a>
+                            <a href="/formulas"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Write a Formula</a>
+                            <a href="/databases"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Create a Database</a>
+                        </div>
+                        <div class="py-6">
+                            <a href="/register"
+                                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN BODY AREA -->
+
+    <div class="flex flex-col justify-center px-6 py-4 lg:px-2">
+        <img class="mx-auto h-20 w-auto" src="/images/askmemologo.png" alt="AskMemo">
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h1 class="mt-10 text-left text-3xl font-bold leading-10 tracking-tight text-gray-900">Privacy Policy</h1>
+        </div>
+
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                        Effective Date: May 13, 2023
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      Welcome to AskMemo ("we", "us", or "our"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy informs you about how we collect, use, and protect your personal information when you use our services or interact with us. Please read this Privacy Policy carefully to understand our practices regarding your personal data and how we will treat it. If you have any questions or concerns, please contact us at hello@matthiasfrank.de.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">1. Personal Data we collect
+            </h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      When you use our services or interact with us, we only collect the following personal data from you: Your Email address. If you log in using your Notion Account, we process your corresponding Notion Account Email Address and save an access token to perform actions like inserting databases into your workspace when you use these parts of our services. We collect this information directly from you when you sign up for our service.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">2. How we use your personal data</h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      We only use your personal data for the purpose of sending you updates about AskMemo, to process your login requests and to perform your requested actions in AskMemo. We do not use your personal data for any other purposes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">3. Sharing your personal Data</h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      We do not share your personal data with any third parties, except as required by law or with your explicit consent.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">4. Data Security</h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      We take the security of your personal data very seriously. We have implemented appropriate technical and organizational measures to protect your personal data from unauthorized access, use, alteration, and disclosure.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">5. Data Retention</h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      We will only retain your personal data for as long as necessary to fulfill the purpose for which it was collected, or as required by law. You can unsubscribe from our updates at any time, after which your email address will be deleted from our database.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">6. Your rights under GDPR
+              </h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                  <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                    Under the General Data Protection Regulation (GDPR), you have the following rights:
+                  </p>
+
+                  <ul class="list-disc ml-5 mt-4 text-gray-700">
+                      <li class="mb-2">Right to access: You have the right to request access to your personal data.</li>
+                      <li class="mb-2">Right to rectification: You have the right to request that we correct any inaccuracies in your personal data.</li>
+                      <li class="mb-2">Right to erasure: You have the right to request that we delete your personal data, subject to certain conditions.</li>
+                      <li class="mb-2">Right to restrict processing: You have the right to request that we restrict the processing of your personal data, subject to certain conditions.</li>
+                      <li class="mb-2">Right to data portability: You have the right to request that we transfer your personal data to another organization or directly to you, where feasible.</li>
+                      <li class="mb-2">Right to object: You have the right to object to the processing of your personal data, subject to certain conditions.</li>
+                  </ul>
+                  
+                  <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                    To exercise any of these rights, please contact us at hello at matthiasfrank.de.
+                  </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <h2 class="mt-10 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">7. Changes to this Privacy Policy</h2>
+        </div>
+        
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                      We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. We encourage you to check this page regularly to stay informed about our privacy practices.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+            <div>
+                <div class="mt-2">
+                    <p class="block w-full py-1.5 text-justify text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+                        By using the Service, you are agreeing to this Privacy Policy. Please review it carefully and ensure that you understand each provision. Your use of the Service is at your own risk.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+        
+            
+    </div>
+
+    <footer class="bg-background">
+        <div class="mx-auto max-w-7xl overflow-hidden py-10 sm:py-10 text-gray-400 hover:text-gray-500">
+            <div class="mt-10 flex flex-col items-center space-y-2">
+                <p> 
+                    Made with ❤️ by <a class="text-primary-100" href="https://twitter.com/MFreihaendig" target="_blank" rel="noopener noreferrer">Matthias Frank</a> and <a class="text-primary-100" href="https://mobile.twitter.com/aNotioneer" target="_blank" rel="noopener noreferrer">aNotioneer</a>
+                  </p>
+                  <p>
+                    Find more Resources about Notion on <a class="text-primary-100" href="https://matthiasfrank.de/youtube/">Youtube</a> or the <a class="text-primary-100" href="https://matthiasfrank.de/">blog</a>
+                  </p>
+                  <p>
+                    <a class="text-primary-100" href="/terms">Terms and Conditions</a> | <a class="text-primary-100" href="/privacy">Privacy Policy</a> | <a class="text-primary-100" href="/impressum">Impressum</a>
+                  </p>
+            </div>
+ 
+              </div>
+      </footer>
+      
+
+    <script>
+      const openButton = document.getElementById("mobile-menu-btn-open");
+      const closeButton = document.getElementById("mobile-menu-btn-close");
+      const menu = document.querySelector(".mobile-menu");
+
+      openButton.addEventListener("click", function() {
+        menu.classList.remove("hidden");
+      });
+
+      closeButton.addEventListener("click", function() {
+        menu.classList.add("hidden");
+      });
+
+    </script>
+    <script src="/login.js"></script>
+</body>
+
+</html>

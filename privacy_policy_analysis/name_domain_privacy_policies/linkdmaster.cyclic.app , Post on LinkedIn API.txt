@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            border-bottom: 2px solid #e9e9e9;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        strong {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Legal Information</h1>
+        <p><strong>Note:</strong> This plugin is a sub-part of the <a href="https://thumbnailai.online">THUMBNAILAI.ONLINE </a> website.</p>
+        <p>THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.</p>
+        <p>IN NO EVENT SHALL <a href="https://thumbnailai.online">THUMBNAILAI.ONLINE </a>, ITS REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+        <p><a href="https://thumbnailai.online">THUMBNAILAI.ONLINE </a> DOES NOT STORE ANY USER DATA. USERS ARE SOLELY RESPONSIBLE FOR THE CONTENT THEY POST THROUGH THIS Plugin. <a href="https://thumbnailai.online">THUMBNAILAI.ONLINE </a> SHALL NOT BE LIABLE FOR ANY HARMFUL OR ILLEGAL CONTENT PUBLISHED FROM OUR PLATFORM, AND USERS AGREE TO INDEMNIFY AND HOLD HARMLESS THUMBNAILAI.ONLINE AGAINST ANY CLAIMS, DAMAGES, OR LIABILITIES ARISING FROM CONTENT THEY POST THROUGH THIS PLUGIN.</p>
+    </div>
+
+</body>
+
+</html>

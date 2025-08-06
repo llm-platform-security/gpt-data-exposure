@@ -1,0 +1,727 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<script>
+ dataLayer = []
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+ (function (w, d, s, l, i) {
+     w[l] = w[l] || []
+     w[l].push({
+         'gtm.start':
+         new Date().getTime(), event: 'gtm.js'
+     })
+     var f = d.getElementsByTagName(s)[0],
+         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+     j.async = true
+     j.src =
+         '//www.googletagmanager.com/gtm.js?id=' + i + dl
+     f.parentNode.insertBefore(j, f)
+ })(window, document, 'script', 'dataLayer', 'GTM-5L322W')
+</script>
+<!-- End Google Tag Manager -->
+
+<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/pager.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/select2/dist/css/select2.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>St. Louis Fed Web Services: API Key</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/css/styles.css?1">
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<!--googleoff: snippet-->
+<a href="#content-container" class="skip-to">Skip to main content</a>
+<!--googleon: snippet-->
+<a name="top" id="top"></a>
+<div id="container" class="container">
+    <header style="display:block;height:auto;background:inherit;">
+        <h1 class="visually-hidden">Federal Reserve Economic Data: Your trusted data source since 1991</h1>
+        <nav class="navbar navbar-expand-lg header-not-home py-0 EL-nonhomepage-header EL-header-and-subheader">
+            <div id="hidden-user" class='hide'></div>
+            <div id="action-modal"></div>
+            <div class="container-fluid align-items-stretch gx-0">
+                <div class="col-3" style="padding-left: 15px; padding-right: 15px;">
+                    <a class="research-logo-gtm" target="_" href="https://www.stlouisfed.org">
+                        <img class="header-logo-eagle d-none d-lg-block" src="//fred.stlouisfed.org/images/masthead.svg" alt="Federal Reserve bank of St. Louis logo">
+                        <img class="header-logo-eagle d-lg-none" src="//fred.stlouisfed.org/images/logo-eagle.png" alt="Eagle Logo">
+                    </a>
+                </div>
+                <div class="fred-logo-div col-6 d-lg-none">
+                    <a class="fred-logo-gtm" href="//fred.stlouisfed.org/">
+                        <picture>
+                            <img class="header-logo" src="//fred.stlouisfed.org/images/fred-masthead-mobile-2x.png" alt="mini fred logo">
+                        </picture>
+                    </a>
+                </div>
+                <div class="col-lg-8 col-3 d-flex justify-content-end" style="padding-left: 15px; padding-right: 0px;">
+                    <nav id="blueheader-navbar-nav" style="height:100%">
+                        <ul id="blueheader-navbar" class="nav float-end">
+                            <li class="blueheader-navbar-item center-content-vertically d-none d-lg-block">
+                                <span id="research-resources-popover-container" class="research-resources-dropdown-gtm header-popover research-resources-popover-container">
+    <span id="research-resources-link" data-toggle="popover" class="align-icon" tabindex="0" style="cursor: pointer">Economic Research Resources
+        <i class="fas fa-angle-down fa-lg header-icon-padding" alt="Open Research Resources Menu Icon"></i>
+    </span>
+</span>
+
+<div class="hide">
+    <div id="research-resources-popover">
+        <div class="container research-resources" style="padding: 7px 25px 0px 25px;">
+            <div class="row">
+                <div class="col-7 research-resources-left-column">
+                    <div class="research-resources-text">Explore resources provided by the Research Division at the Federal Reserve Bank of St. Louis</div>
+                    <div>
+                        <a rel="noopener" target="_blank" class="errd-research-link-gtm" href="https://research.stlouisfed.org" style="color: #364E71; font-family: Roboto; font-weight: 700px">research.stlouisfed.org <i class="fas fa-external-link-alt" aria-hidden="true" style="font-size: 12px"></i></a>
+                    </div>
+                </div>
+                <div class="col-5 research-resources-right-column">
+                    <ul class="header-list-popover list-group flush-list">
+                        <li class="list-group-item">
+                            <a rel="noopener" target="_blank" class="errd-research-news-gtm" href="https://research.stlouisfed.org/publications/research-news/">Research News</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a rel="noopener" target="_blank" class="errd-economists-gtm" href="https://research.stlouisfed.org/econ/">Economists</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a rel="noopener" target="_blank" class="errd-publications-gtm"  href="https://research.stlouisfed.org/publications/">Publications</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a rel="noopener" target="_blank" class="errd-working-papers-gtm" href="https://research.stlouisfed.org/wp/">Working Papers</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a rel="noopener" target="_blank" class="errd-info-services-gtm" href="https://research.stlouisfed.org/info-services.html">Information Services</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                            </li>
+                            <li class="blueheader-navbar-item center-content-vertically d-none d-lg-block">
+                                <span id="switchprod-popover-container" class="Switch-Products-gtm header-popover switchprod-popover-container">
+  <span id="switchProd" data-toggle="popover" data-toggle="popover" class="align-icon" tabindex="0" style="cursor: pointer"> Switch Products
+    <i class="fas fa-angle-down fa-lg header-icon-padding" alt="Open Switch Products Menu Icon"></i>
+  </span>
+</span>
+
+<div class="hide">
+  <div id="switchprod-popover">
+    <ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li id="ham-fred-dev" class="list-group-item product-fred">
+        <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+            <span class="w-100 fred-ultra-selected fred-ultra burger-fred-gtm">FRED</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-fred-gtm"><img src="//fred.stlouisfed.org/images/favicon.ico" width="16" height="16"></span>
+        </a>
+      </li>
+      <li id="ham-alfred" class="hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+            <span class="fred-thin burger-alfred-gtm">AL</span>
+            <span class="w-100 fred-ultra burger-alfred-gtm">FRED</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-alfred-gtm"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+      </li>
+      <li id="ham-fraser" class="hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+            <span class="w-100 fred-ultra burger-fraser-gtm">FRASER</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-fraser-gtm"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+      </li>
+      <li id="ham-ecolowdown" class="hover-nav-econ hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://www.econlowdown.org/">
+            <span class="w-100 fred-ultra-econ burger-econlowdown-gtm">ECON<br>LOWDOWN</span>
+              <span class="flex-shrink-1 float-end burger-econlowdown-gtm" style="padding-top: 15px"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+    </li>
+</ul>
+  </div>
+</div>                            </li>
+                            <li class="blueheader-navbar-item center-content-vertically d-none d-lg-block">
+                                <div class="hidden-xs" id="signin-wrap">
+                                    <div id="user-nav" class="EL-my-account-link"></div>
+                                </div>
+                            </li>
+                            <li class="blueheader-navbar-item center-content-vertically d-lg-none">
+                                <a class="hamburger-popover-container header-popover hamburger-gtm" href="#">
+    <i id="hamburger" data-toggle="popover" class="fas fa-bars hamburger-header" alt="Open Mobile Hamburger Menu"></i>
+</a>
+
+<div class="hide">
+    <div id="hamburger-popover">
+        <div class="hamburger-search-padding">
+            <div class='input-group'>
+                <input type="text" class="form-control search-input nav-search" placeholder="Search FRED data...">
+                <button class="btn search-submit nav-search-button" type="submit">
+                    <i class="fa fa-search" alt="Submit Mobile Hamburger Search"></i>
+                </button>
+            </div>
+        </div>
+        <div id="hamburger-navigation">
+            <div id="hamburger-home">
+                <ul class="list-group flush-list hamburger-list col-12" style="padding-bottom: 20px;">
+                    <li class="list-group-item">
+                        <a class="burger-calendar-gtm" href="https://fred.stlouisfed.org/releases/calendar">Release Calendar</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-tools')">
+                        <a class="burger-tools-gtm" href="#">FRED Tools
+                            <i class="fas fa-angle-right hamburger-nxt-page-icon" alt="FRED Tools Hamburger Submenu Icon"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-blog-gtm" href="https://fredblog.stlouisfed.org">FRED Blog</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-news-gtm" href="https://news.research.stlouisfed.org/category/fred-announcements/">FRED News</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-about-fred')">
+                        <a class="burger-about-gtm" href="#">About FRED
+                            <i class="fas fa-angle-right hamburger-nxt-page-icon" alt="About FRED Hamburger Submenu Icon"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-myaccount-gtm" href="https://fredaccount.stlouisfed.org">My Account</a>
+                    </li>
+                </ul>
+                <ul class="list-group flush-list hamburger-list col-12" style="padding-bottom: 0px;">
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-products')">
+                        <a class="burger-switch-gtm" href="#">
+                            Switch Products<i class="fas fa-angle-right hamburger-nxt-page-icon" alt="Switch Products Hamburger Submenu Icon"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-research')">
+                        <a class="burger-resources-gtm" href="#">
+                            Economic Research Resources<i class="fas fa-angle-right hamburger-nxt-page-icon" alt="Economic Research Resources Hamburger Submenu Icon"></i>
+                        </a>
+                        <p>Explore resources provided by the Research Division at the Federal Reserve Bank of St. Louis.</p>
+                    </li>
+                </ui>
+            </div>
+            
+            <div id="hamburger-about-fred" class="hide">
+                <ul class="list-group hamburger-submenu-list col-12">
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-home')">
+                        <i class="fas fa-angle-left hamburger-previous-page-icon" alt="Return to Mobile/Hamburger Main Menu Icon"></i>
+                        About FRED
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-fred-about-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/"> What is FRED</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-tutorials-gtm" href="https://fredhelp.stlouisfed.org"> Tutorials</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-data-literacy-gtm" href="https://www.stlouisfed.org/education/digital-badges/fred-data-practitioner">
+                        Data Literacy
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-contact-us-gtm" href="https://fred.stlouisfed.org/contactus/"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="hamburger-tools" class="hide">
+                <ul class="list-group hamburger-submenu-list col-12">
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-home')">
+                            <i class="fas fa-angle-left hamburger-previous-page-icon" alt="Return to Mobile/Hamburger Main Menu Icon"></i>
+                            FRED Tools
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-fred-excel-add-in-gtm" href="https://fred.stlouisfed.org/fred-addin"> FRED Add-in for Excel</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred"> FRED API</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-fred-mobile-apps-gtm" href="https://fred.stlouisfed.org/fred-mobile"> FRED Mobile Apps</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="hamburger-research" class="hide">
+                <ul class="list-group hamburger-submenu-list col-12">
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-home')">
+                        <span>
+                            <i class="fas fa-angle-left hamburger-previous-page-icon" alt="Return to Mobile/Hamburger Main Menu Icon"></i>
+                            Economic Research Resources
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <a rel="noopener" target="_blank" class="burger-research-news-gtm" href="https://research.stlouisfed.org/publications/research-news"> Research News</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a rel="noopener" target="_blank" class="burger-economists-gtm" href="https://research.stlouisfed.org/econ/"> Economists</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a rel="noopener" target="_blank" class="burger-publications-gtm" href="https://research.stlouisfed.org/publications/"> Publications</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a rel="noopener" target="_blank" class="burger-working-papers-gtm" href="https://research.stlouisfed.org/wp/"> Working Papers</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a rel="noopener" target="_blank" class="burger-info-services-gtm" href="https://research.stlouisfed.org/info-services.html"> Information Services</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="hamburger-products" class="hide">
+                <ul class="list-group hamburger-submenu-list col-12" style="padding-bottom: 0px !important">
+                    <li class="list-group-item hamburger-menu-item" onclick="hamburgerMenuNavigation('hamburger-home')">
+                            <i class="fas fa-angle-left hamburger-previous-page-icon" alt="Return to Mobile/Hamburger Main Menu Icon"></i>
+                            Switch Products
+                    </li>
+                </ul>
+                <ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li id="ham-fred-dev" class="list-group-item product-fred">
+        <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+            <span class="w-100 fred-ultra-selected fred-ultra burger-fred-gtm">FRED</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-fred-gtm"><img src="//fred.stlouisfed.org/images/favicon.ico" width="16" height="16"></span>
+        </a>
+      </li>
+      <li id="ham-alfred" class="hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+            <span class="fred-thin burger-alfred-gtm">AL</span>
+            <span class="w-100 fred-ultra burger-alfred-gtm">FRED</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-alfred-gtm"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+      </li>
+      <li id="ham-fraser" class="hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+            <span class="w-100 fred-ultra burger-fraser-gtm">FRASER</span>
+            <span class="flex-shrink-1 float-end switch-icon-padding burger-fraser-gtm"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+      </li>
+      <li id="ham-ecolowdown" class="hover-nav-econ hover-nav list-group-item">
+          <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://www.econlowdown.org/">
+            <span class="w-100 fred-ultra-econ burger-econlowdown-gtm">ECON<br>LOWDOWN</span>
+              <span class="flex-shrink-1 float-end burger-econlowdown-gtm" style="padding-top: 15px"><div style="width: 16px; height: 16px; background-color: #364e71; border-radius: 2px;"></div></span>
+        </a>
+    </li>
+</ul>
+            </div>
+        </div>
+    </div>
+</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        <div id="notifications-container"></div>
+    </nav>
+    <div class='navbar navbar-expand-lg sub-header EL-header-and-subheader'>
+        <div class="container-fluid gx-0">
+            <div class="col-lg-3 col-md-3 d-none d-lg-block" style="padding-left: 15px; padding-right: 15px;" >
+                <a class="fred-logo-gtm" href="//fred.stlouisfed.org/">
+                        <img id="fred-logo-subheader" src="//fred.stlouisfed.org/images/fred-logo-2x.png" alt="FRED Economic Data, St. Louis FED">
+                </a>
+            </div>
+            <h1 class="col-lg-2 fred-trust-text d-none d-xl-block d-flex align-self-center" role="presentation" style="padding: 45px 0px 45px; margin-left: -1px; font-weight:400">
+                <p class="mb-0">Your trusted data source</p> <p>since 1991.</p>
+            </h1>
+            <div class="col d-flex justify-content-end" style="padding-left: 15px; padding-right: 15px;">
+                <div class="container-fluid gx-0">
+                    <div class="search-header-div float-end col-8 d-none d-lg-block">
+                        <div class='input-group EL-header-search-container' id="search-container-header">
+                            <select id="head-search" class='EL-header-search' style="
+                                border-radius: 25px 0 0 25px;
+                                background-color: #5e88a2;
+                                border-right: 0;
+                                color: #fff;
+                                font-family: Roboto,sans-serif;
+                                border: none;
+                                height: 45px;
+                            ">
+                                <option></option>
+                            </select>
+                            <input type="hidden" name="st" class="search-text-input">
+                            <button class="btn search-submit-select2" id="select2-nav-search-button" aria-label="search" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="row col-12 navbar EL-main-nav navbar-expand-sm d-none d-lg-flex" id="subheader-nav" role="navigation">
+    <div class="navbar-padding navbar-collapse collapse d-flex justify-content-end">
+        <ul id="subheader-navbar" class="nav float-end navbar-nav">
+            <li class="nav-li-subheader">
+                <a href="https://fred.stlouisfed.org/releases/calendar" class="nav-releasecal-subheader-gtm">Release Calendar</a>
+            </li>
+            <li class="nav-li-subheader">
+              <span class="sub-header-nav-tools-gtm  header-popover fred-tools-container" tabindex="0" aria-labelledby="fred-tools-link">
+  <span id="fred-tools-link" data-toggle="popover" class="align-icon">FRED Tools
+    <i class="fas fa-angle-down header-icon-padding" alt="Open FRED Tools Menu Icon"></i>
+  </span>
+</span>
+
+<div class="hide">
+  <div id="fred-tools-popover">
+    <ul class="header-list-popover list-group flush-list">
+      <li class="list-group-item">
+        <a class="homepage-nav-tools-fred-excel-addin-gtm" href="https://fred.stlouisfed.org/fred-addin">FRED Add-in for Excel</a>
+      </li>
+      <li class="list-group-item">
+        <a class="homepage-nav-tools-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred">FRED API</a>
+      </li>
+      <li class="list-group-item">
+        <a class="homepage-nav-tools-fred-mobile-gtm" href="https://fred.stlouisfed.org/fred-mobile">FRED Mobile Apps</a>
+      </li>
+    </ul>
+  </div>
+</div>            </li>
+            <li class="nav-li-subheader">
+                <a href="https://news.research.stlouisfed.org/category/fred-announcements/" class="nav-news-subheader-gtm">FRED News</a>
+            </li>
+            <li class="nav-li-subheader">
+                <a href="https://fredblog.stlouisfed.org/" class="nav-fredblog-subheader-gtm">FRED Blog</a>
+            </li>
+            <li class="nav-li-subheader">
+              
+<span class="subheader-nav-about-gtm header-popover about-fred-container" tabindex="0" aria-labelledby="about-fred-link">
+  <span id="about-fred-link" data-toggle="popover" class="align-icon">About FRED
+    <i class="fas fa-angle-down header-icon-padding" alt="Open About FRED Menu Icon"></i>
+  </span>
+</span>
+
+<div class="hide">
+  <div id="about-fred-popover">
+      <ul class="header-list-popover list-group flush-list">
+        <li class="list-group-item">
+          <a class="about-fred-what-is-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/">
+            What is FRED
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="about-fred-tutorials-gtm" href="https://fredhelp.stlouisfed.org">
+            Tutorials
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="about-research-data-literacy-gtm" href="https://www.stlouisfed.org/education/digital-badges/fred-data-practitioner">
+            Data Literacy
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="about-fred-contact-gtm" href="https://fred.stlouisfed.org/contactus/ ">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+  </div>
+</div>
+            </li>
+        </ul>
+    </div>
+</nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+  <div class="clear row gx-0" id="content-container">
+
+
+
+<div class="col-12 gx-4">
+
+<div style="float: right;">
+	<a href="/docs/api/api_key.html">API Keys</a> |
+	<a href="/docs/api/terms_of_use.html">Terms of Use</a>
+</div>
+
+<h1>FRED&reg; API Terms of Use</h1>
+
+<p>By using the FRED&reg; application programming interface (the “FRED&reg; API”), you agree to the FRED&reg; API Terms of Use (“Terms of Use”) below. The Terms of Use define your download and use of the FRED&reg; API and other materials provided by the Federal Reserve Bank of St. Louis, all updates, revisions, modifications, and copies of the FRED&reg; API made by or for you, and your use of the FRED&reg; API to develop, reproduce and distribute applications that interoperate with the  FRED&reg; API. If you disagree with any of the Terms of Use, the Federal Reserve Bank of St. Louis does not grant you a license to use the FRED&reg; API. </p>
+
+<p>The Terms of Use shall include:</p>
+
+<ol><li>These terms and conditions set forth in this document;</li>
+<li>The Federal Reserve Bank of St. Louis web site Legal Terms; and</li>
+<li>The Federal Reserve Bank of St. Louis Privacy Policy.</li></ol>
+
+<p>Before you use the FRED&reg; API, you should read each of the documents comprising the Terms of Use, and print or save a local copy for your records.</p>
+
+<p>The Terms of Use may be amended only by a writing executed by the Federal Reserve Bank of St. Louis and we reserve the right to update and change the Terms of Use from time to time without notice.  You understand and agree that if you use the FRED&reg; API after the date on which the Terms of Use have changed, the Federal Reserve Bank of St. Louis will treat your use as acceptance of the updated Terms of Use. If a modification is unacceptable to you, you may terminate the agreement by ceasing use of the FRED&reg; API.</p>
+
+<p>You represent that you have full power, capacity and authority to accept these Terms of Use. If you are accepting on behalf of your employer or another entity, you represent that you have full legal authority to bind your employer or such entity to these Terms of Use. If you don't have the legal authority to bind, please ensure that an authorized person from your entity consents to and accepts these Terms of Use.</p>
+ 
+<h2>Term and Termination</h2>
+<p>Your license to the FRED&reg; API under these terms continues until it is terminated by either party. You may terminate the license by discontinuing use of the FRED&reg; API. The Federal Reserve Bank of St. Louis may terminate the license at any time for any reason. Your rights to use the FRED&reg; API terminate automatically if (i) you violate any of these terms, (ii) the Federal Reserve Bank of St. Louis publicly posts a written notice of termination on https://research.stlouisfed.org/docs/api/, (iii) the Federal Reserve Bank of St. Louis sends a written notice of termination to you, or (iv) the Federal Reserve Bank of St. Louis disables access to the FRED&reg; API to you. Upon termination of this Agreement for any reason, you shall destroy and remove from all computers, hard drives, networks, and other storage media all copies of the FRED&reg; API, and shall so certify to the Federal Reserve Bank of St. Louis that such actions have occurred.</p>
+
+<h2>Property Rights</h2>
+<p>
+Data series available through the FRED&reg; API, may be owned by third parties and subject to copyright restrictions. Although the FRED&reg; API can be used to provide you with access to FRED&reg;, ALFRED&reg; , or other data series, neither the Federal Reserve Bank of St. Louis's provision of the FRED&reg; API to you nor your use of the FRED&reg; API override the data series owners' copyrights, requirements and restrictions. You are solely responsible for complying with any requirements or restrictions imposed on usage of the data series by their respective owners.
+
+Before using data series owned by third parties for anything other than your own personal use, you must contact the data owner to obtain permission.  
+The Federal Reserve Bank of St. Louis cannot give you such permission and making the data series available through the FRED® API does not constitute such permission.  
+</p>
+
+<p>
+Copyrighted series contain the word 'Copyright' in their notes.  
+The list of copyrighted series can be found by either <a href="https://fred.stlouisfed.org/search/?st=copyright">searching for the word 'copyright' on the FRED&reg; website</a> or 
+searching for the word 'copyright' using the <a href="fred/series_search.html">fred/series/search api request</a>.
+</p>
+
+<p>The FRED&reg; API, the FRED&reg; and ALFRED&reg; web sites, and certain data series available through the FRED&reg; API may be protected by copyrights, trademarks, service marks, international treaties, and/or other proprietary rights and laws of the U.S. and other countries.   You agree to abide by all applicable proprietary rights laws and other laws, as well as any additional copyright notices or restrictions contained in these terms.</p>
+
+<p>The FRED&reg; API and all intellectual property rights in and to the FRED&reg;  API is and shall at all times remain the sole and exclusive property of the Federal Reserve Bank of St. Louis and are protected by applicable intellectual property laws and treaties. The Federal Reserve Bank of St. Louis's rights apply to all output and executables of the FRED&reg; API, excluding any software components developed by you which do not themselves incorporate the FRED&reg; API or any output or executables of the FRED&reg; API. These terms grant you no right, title, or interest in any intellectual property owned or licensed by the Federal Reserve Bank of St. Louis, including (but not limited to) the FRED&reg; API and the FRED&reg; and ALFRED&reg; trademarks.  All rights not expressly granted to you are reserved by the Federal Reserve Bank of St. Louis. </p>
+
+<h2>Changes and Upgrades</h2>
+<p>The Federal Reserve Bank of St. Louis may change, suspend, or discontinue any aspect of the FRED&reg; API at any time, including the availability of the FRED&reg; API. The Federal Reserve Bank of St. Louis may release subsequent versions of the FRED&reg; API and to require you to obtain and use the most recent version.</p>
+
+<h2>Limitations</h2>
+<p>The Federal Reserve Bank of St. Louis may impose limits on certain features and services or restrict your access to parts or all of the FRED&reg; API or the Federal Reserve Bank of St. Louis web site or web services without notice or liability.  You acknowledge and agree that the Federal Reserve Bank of St. Louis may impose or adjust the limit on the amount of bandwidth you may use or the number of transactions you may send or receive through the FRED&reg; API; such fixed upper limits may be set by the Federal Reserve Bank of St. Louis at any time, at the Federal Reserve Bank of St. Louis’s discretion.</p>
+
+<h2>Prohibitions</h2>
+<p>You may not:</p>
+
+<ul><li>Use the FRED&reg; API for any application that replicates or attempts to replace the essential user experience of the FRED&reg; API,  or the FRED&reg; or ALFRED&reg; web sites.</li>
+
+<li>Attempt to cloak or conceal your identity or your application's identity when requesting authorization to use the FRED&reg; API.</li>
+ 
+<li>Use an unreasonable amount of bandwidth, or use the FRED&reg; API in a manner that adversely impacts the stability of Federal Reserve Bank of St. Louis servers or adversely impacts the behavior of other applications using the FRED&reg; API, the Federal Reserve Bank of St. Louis web site or web services.</li>
+
+<li>Use FRED&reg; API for any application, product, service, or material that constitutes, promotes or is used in connection with: spyware, adware, viruses, worms, defects, Trojan horses, or other malicious programs or code, counterfeit goods, items subject to U.S. embargo, unsolicited mass distribution of email ("spam"), multi-level marketing proposals, hate materials, hacking, surveillance, interception, descrambling equipment, libelous, defamatory, harassing, obscene, pornographic, abusive or otherwise offensive content, prostitution, body parts and bodily fluids, stolen products and items used for theft, fireworks, explosives, and hazardous materials, government IDs, police items, gambling, professional services regulated by state licensing regimes, non-transferable items such as airline tickets or event tickets, weapons and accessories.</li>
+
+<li>Use FRED&reg; API in any manner or for any purpose that violates any law or regulation, any right of any person, including but not limited to intellectual property rights, rights of privacy, or rights of personality.</li>
+
+<li>Use "FRED&reg;" or  "ALFRED&reg;" or “Federal Reserve Bank” or any variation thereof in the hostname of your application, i.e. FRED.mydomain.com.</li>
+
+<li>Use the Federal Reserve Bank of St. Louis logo or any trademark, service mark, trade name or any other mark of the Federal Reserve Bank of St. Louis. No rights or licenses are granted except as expressly and unambiguously set forth herein.</li>
+
+<li>Remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to data accessed or provided through the FRED&reg; API.</li>
+
+<li>State or in any way imply that your application, web site or product is endorsed, recommended or favored by the Federal Reserve Bank of St. Louis.</li></ul>
+
+<h2>Requirements</h2>
+<p>You must: </p>
+
+<ul><li>Place the following notice prominently on your application: "This product uses the FRED&reg; API but is not endorsed or certified by the Federal Reserve Bank of St. Louis." </li>
+
+<li>Comply with all export laws and restrictions and regulations of the Department of Commerce, the United States Department of Treasury Office of Foreign Assets Control ("OFAC"), or other United States or foreign agency or authority, and you shall not export, or allow the export or re-export of the FRED&reg; API in violation of any such restrictions, laws or regulations. By downloading or using the FRED&reg; API, you agree to the foregoing and represents and warrants that you are not located in, under the control of, or a national or resident of any restricted country.</li>
+
+<li>Use the FRED&reg; API only for purposes (a) that are permitted by the Terms of Use; (b) that are permitted by any applicable third party contract, law, or regulation in the relevant jurisdictions; and (c) that comply with all applicable policies or guidelines made available by the Federal Reserve Bank of St. Louis.</li>
+
+<li>If you develop a FRED&reg; API application for use by other users, display to the users of your application the link to these Terms of Use, and  explicitly state in your application's terms of use that, by using your application, your users are agreeing to be bound by the FRED&reg; API Terms of Use; and</li>
+
+<li>If you develop a FRED&reg; API application for use by other users, protect the privacy and legal rights of those users. If your FRED&reg; API application enables you or any party to gain access to information about users of the FRED&reg; API, including but not limited to personally identifying information or non-personally identifying usage information, you or the party receiving the information must make publicly available, and must abide by, an appropriate privacy policy in your FRED&reg; API application.</li></ul>
+ 
+<h2>API Key</h2>
+
+<p>In order to use the FRED&reg; API, you must have register for an API Key. You agree that any information you give to the Federal Reserve Bank of St. Louis in connection with your registration or your continued use of the FRED&reg; API will always be accurate, correct and up to date.</p>
+
+<p>After supplying the Federal Reserve Bank of St. Louis with your registration information, you will be issued an alphanumeric key assigned to you by the Federal Reserve Bank of St. Louis that is uniquely associated with you. Your FRED&reg; API implementation must use this key, and the Federal Reserve Bank of St. Louis will block requests with an invalid key. You may only obtain and use a key in accordance with these Terms of Use and the FRED&reg; API Documentation.</p>
+
+<p>You agree that you will be solely responsible to the Federal Reserve Bank of St. Louis for your use of the FRED&reg; API. If you become aware of any unauthorized use of your password, your account, or your API key, you agree to notify the Federal Reserve Bank of St. Louis immediately.</p>
+
+<h2>Support</h2>
+<p>The Federal Reserve Bank of St. Louis may elect to provide you with support or modifications for the FRED&reg; API, in its sole discretion, and may terminate such support at any time without notice to you. This Agreement does not entitle you to any support for the FRED&reg; API.</p>
+
+<h2>Disclaimer</h2>
+<p>SOME OF THE FRED&reg; API MAY BE EXPERIMENTAL AND NOT TESTED IN ANY MANNER. THE FEDERAL RESERVE BANK OF ST. LOUIS DOES NOT REPRESENT OR WARRANT THAT THE FRED&reg; API IS FREE OF INACCURACIES, ERRORS, BUGS, OR INTERRUPTIONS, OR IS RELIABLE, ACCURATE, COMPLETE, OR OTHERWISE VALID.</p>
+
+<p>THE FRED&reg; API IS PROVIDED "AS IS" WITH NO WARRANTY, EXPRESS OR IMPLIED, OF ANY KIND AND THE FEDERAL RESERVE BANK OF ST. LOUIS EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES AND CONDITIONS, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, SECURITY, TITLE AND/OR NON-INFRINGEMENT.</p>
+
+<p>YOUR USE OF THE FRED&reg; API IS AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE THAT RESULTS FROM THE USE OF THE FRED&reg; API INCLUDING, BUT NOT LIMITED TO, ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA.</p>
+
+<h2>Limitation of Liability</h2>
+<p>THE FEDERAL RESERVE BANK OF ST. LOUIS SHALL NOT, UNDER ANY CIRCUMSTANCES, BE LIABLE TO YOU FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH USE OF THE FRED&reg; API, WHETHER BASED ON BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE, PRODUCT LIABILITY OR OTHERWISE) OR OTHER LEGAL OR EQUITABLE THEORY, FOR ANY LOST PROFITS, LOST OR CORRUPTED DATA, COMPUTER FAILURE OR MALFUNCTION, INTERRUPTION OF BUSINESS, OR OTHER SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES, OR ANY OTHER PECUNIARY LOSS OF ANY KIND ARISING OUT OF THE USE OR INABILITY TO USE THE FRED&reg; API, EVEN IF THE FEDERAL RESERVE BANK OF ST. LOUIS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGES AND WHETHER OR NOT SUCH LOSS OR DAMAGES ARE FORESEEABLE.  UNDER NO CIRCUMSTANCES SHALL THE FEDERAL RESERVE BANK OF ST. LOUIS BE LIABLE TO YOU FOR ANY AMOUNT.</p>
+
+<h2>Exclusions and Limitations</h2>
+<p>SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS LIABILITY AND DISCLAIMERS MAY NOT APPLY TO YOU.</p>
+
+<h2>Release and Waiver</h2>
+<p>To the maximum extent permitted by applicable law, you hereby release and waive all claims against The Federal Reserve Bank of St. Louis, and its officers, agents, and employees from any and all liability for claims, damages (actual and/or consequential), costs and expenses (including litigation costs and attorneys' fees) of every kind and nature, arising from or in any way related to your use of FRED&reg; API. If you are a California resident, you waive your rights under California Civil Code &sect; 1542, which states, "A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which if known by him must have materially affected his settlement with the debtor." You understand that any fact relating to any matter covered by this release may be found to be other than now believed to be true and you accept and assume the risk of such possible differences in fact. In addition, you expressly waive and relinquish any and all rights and benefits which you may have under any other state or federal statute or common law principle of similar effect, to the fullest extent permitted by law.</p>
+
+<h2>Hold Harmless and Indemnity</h2>
+<p>You agree that the Federal Reserve Bank of St. Louis shall have no liability whatsoever for any use you make of the FRED&reg; API. You agree to indemnify and hold harmless the Federal Reserve Bank of St. Louis and its officers, agents, and employees from and against any and all claims, damages, liabilities, costs and fees (including reasonable attorneys' fees) arising from or in any way related to your use of the FRED&reg; API, including any liability or expense arising from all claims, losses, damages (actual and/or consequential), suits, judgments, litigation costs and attorneys' fees, of every kind and nature. </p>
+
+<h2>Relationship of the Parties</h2> 
+<p>Notwithstanding any provision hereof, for all purposes of the Terms of Use, you and the Federal Reserve Bank of St. Louis shall be and act independently and not as partner, joint venturer, agent, employee or employer of the other. You shall not have any authority to assume or create any obligation for or on behalf of the Federal Reserve Bank of St. Louis, express or implied, and you shall not attempt to bind the Federal Reserve Bank of St. Louis to any contract.</p>
+
+<h2>Invalidity of Specific Terms </h2>
+<p>If any provision of the Terms of Use is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties' intentions as reflected in the provision and the other provisions of such documents remain in full force and effect.</p>
+ 
+<h2>Location of Lawsuit and Choice of Law</h2>
+<p>The Terms of Use and the relationship between you and the Federal Reserve Bank of St. Louis shall be governed by the laws of the State of Missouri without regard to its conflict of law provisions or the United Nations Conventions for the International Sale of Goods.  The exclusive venue and jurisdiction of any dispute or suit arising between the parties hereto shall be the Federal District Court for the Eastern District of Missouri, each party irrevocably submits to the jurisdiction and venue of any such court in any such action or proceeding.</p>
+
+<h2>No Waiver of Rights</h2>
+<p>The Federal Reserve Bank of St. Louis's failure to exercise or enforce any right or provision of the Terms of Use shall not constitute a waiver of such right or provision.</p>
+
+<h2>Government Use</h2>
+<p>If you are part of an agency, department, or other entity of the United States Government ("Government"), the use, duplication, reproduction, release, modification, disclosure or transfer of the FRED&reg; API is restricted in accordance with the Federal Acquisition Regulations as applied to civilian agencies and the Defense Federal Acquisition Regulation Supplement as applied to military agencies. The FRED&reg; API is a "commercial item," "commercial computer software" and "commercial computer software documentation." In accordance with such provisions, any use of the FRED&reg; API by the Government shall be governed solely by the terms of these Terms of Use.</p>
+ 
+<h2>Miscellaneous </h2>
+<p>The section headings and subheadings contained in this agreement are included for convenience only, and shall not limit or otherwise affect the terms of the Terms of Use. Any construction or interpretation to be made of the Terms of Use shall not be construed against the drafter. The Terms of Use constitute the entire agreement between the Federal Reserve Bank of St. Louis and you with respect to the subject matter hereof.</p>
+
+</div>
+
+<style>
+    .h2-508 {
+        font-size: 1em !important;
+        margin-top: 2px !important;
+        margin-bottom: 2px !important
+    }
+</style>
+
+<br class="clear">
+</div>
+
+<div class="footer2 hidden-print row EL-footer2" style="padding-top: 20px;">
+    <div class="col-12 col-md-3">
+        <h3>Need Help?</h3>
+        <div>
+            <a class="footer-questions-gtm" href="//fred.stlouisfed.org/contactus/" class="q-and-a-link-gtm">Questions or
+                Comments</a>
+        </div>
+        <div style="padding: 10px 0 20px 0;">
+            <a class="footer-fredhelp-gtm" href="//fredhelp.stlouisfed.org/">FRED Help</a>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <div class="col-12">
+            <h3>Subscribe to the FRED newsletter</h3>
+            <form id="subscribe-div" class="form-horizontal form-control newsletter-form" style="padding:0;margin:0">
+                <div class="col-12" style="padding-left: 0;">
+                    <div class="input-group">
+                        <input id="subscribe-email-input" type="text" name="email" placeholder="Email"
+                            class="form-control email" style="padding: 4px 0px 4px 14px;" aria-label="email">
+                        <button id="subscribe-email-btn" type="button"
+                            class="btn btn-default subscribe-newsletter-btn-gtm"
+                            style="color: #333; border-radius: 4px; border-color: #cccccc; padding: 0 7px 0px 7px; font-size: 14px;">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr class="d-md-none" style="border: none;">
+    <div class="col-12 col-md-3">
+        <h3 style="width: 100%; text-align: center;">Follow us</h3>
+        <div class="col-12" style="text-align: center;">
+            <a aria-label="Saint Louis Fed X page" href="http://bit.ly/9ngC3L"><img class="x-logo" src="//fred.stlouisfed.org/images/x-logo.svg"></a>
+            <a aria-label="Saint Louis Fed facebook page" href="http://bit.ly/HeaderFB"><i
+                    class="fab fa-fw fa-2x fa-facebook"></i></a>
+            <a aria-label="Saint Louis Fed youtube page" href="http://bit.ly/aY9TVF"><i
+                    class="fab fa-fw fa-2x fa-youtube"></i></a>
+            <a aria-label="Saint Louis Fed linkedin page" href="http://bit.ly/d056zL"><i
+                    class="fab fa-fw fa-2x fa-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="hidden-print d-md-none">
+    <a style="margin: 5px; display: block; padding:5px 10px; text-align: center" href="#top">Back to Top</a>
+</div>
+
+<div id="footer-bottom" class="row EL-footer-bottom">
+    <div id="address" class="col-12 col-md-8 d-none d-sm-block">
+        Federal Reserve Bank of St. Louis,
+        One Federal Reserve Bank Plaza,
+        St. Louis, MO 63102
+    </div>
+    <div id="legal-and-privacy" class="col-12 col-md-4 d-none d-sm-block">
+        <a class="me-4" href="//fred.stlouisfed.org/legal/">Legal</a>
+        <a href="//research.stlouisfed.org/privacy.html">Privacy Notice & Policy</a>
+    </div>
+    <div class="col-12 d-block d-sm-none text-center">
+        <div>Federal Reserve Bank of St. Louis, One Federal Reserve Bank Plaza, St. Louis, MO 63102</div>
+        <div class="mt-3"><a href="//fred.stlouisfed.org/legal/">Legal</a></div>
+        <div class="mt-3"><a href="//research.stlouisfed.org/privacy.html">Privacy Notice & Policy</a></div>
+    </div>
+</div>
+
+<script>
+    // function to parse cookies, and return the value
+    function getCookie(name) {
+        var cookies = document.cookie.split(';');
+        for (var i in cookies) {
+            var cookie = cookies[i].trim().split('=');
+            if (cookie[0] == name) {
+                return cookie[1];
+            }
+        }
+        return null;
+    }
+    // certain pages in FRED set a custom tag variable
+    // this gets sent to Google Analytics so we can see what tags people are using
+    if (window.tags) {
+        dataLayer.push({ 'tags': tags });
+
+    }
+
+    // if the user is logged in, send the value of the liruid cookie to Google Analytics
+    var researchLiruid = getCookie('research-liruid');
+    dataLayer.push({ 'userId': researchLiruid });
+
+</script>
+<script src="//fred.stlouisfed.org/assets/jquery/dist/1709058721.jquery.min.js" type="text/javascript"></script>
+<script src="//fred.stlouisfed.org/assets/popperjs/dist/umd/1709058722.popper.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/bootstrap/dist/js/1713537010.bootstrap.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/select2/dist/js/1686149278.select2.full.min.js"></script>
+<script>
+    // force expire the .fred.stlouisfed.org _ga cookie
+    document.cookie = document.cookie + '_ga=;domain=.fred.stlouisfed.org;expires=Sat, 01-Jan-2000 00:00:00 GMT';
+</script>
+
+<script defer src="//fred.stlouisfed.org/assets/jquery-menu-aim/1715110903.jquery.menu-aim.min.js"></script>
+
+<script src="//fred.stlouisfed.org/js/1715110905.common.min.js"></script>
+
+<script src="//fred.stlouisfed.org/assets/js-cookie/src/js.cookie.js"></script>
+<script src="//fred.stlouisfed.org/js/1715110903.508.min.js"></script>
+
+<script>
+    var appConfig = {
+        uapi_host: 'https://fred.stlouisfed.org/uapi',
+        research_host: 'https://research.stlouisfed.org',
+        fred_host: 'https://fred.stlouisfed.org',
+        alfred_host: 'https://alfred.stlouisfed.org',
+        gsi_client_id: '115290014367-vpb89b600koe9kn0njeeq38c1unfr3gk.apps.googleusercontent.com',
+        fred_account_host: 'https://fredaccount.stlouisfed.org',
+    };
+
+    var domain_suffix = (window.location.hostname.split(".")[0].split("-")[1] || '');
+    appConfig.logged_in = Cookies.get('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== null && Cookies.get('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== undefined;
+    var getAuth = function (callback) {
+        if (typeof callback === 'function') {
+            callback();
+        }
+        return;
+    };
+    window.getAuth = getAuth;
+
+</script>
+<script defer src="//fred.stlouisfed.org/js/1711050338.banner.js"></script>
+<script src="//accounts.google.com/gsi/client" async defer></script>
+<script src="//fred.stlouisfed.org/assets/research/fred-account-react/dist/1713533330.main.dist.js"></script>
+<script src="//fred.stlouisfed.org/assets/research/fred-account-react/dist/1713533331.vendor.dist.js"></script>
+
+<script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", function () {
+        $(document).ready(function () {
+            // handle tabbing into and out of the subscribe text box
+            $('#subscribe-email-input').on('focusout', function () {
+                $(this).css('outline-color', 'white');
+            });
+
+            $('#subscribe-email-input').on('keyup', function (e) {
+                if (e.key == 'Tab') { // tab into search input
+                    $('#subscribe-email-input').css({ 'outline-color': '#364E71' });
+                }
+            });
+
+
+        });
+    });
+</script>
+
+</body>
+</html>
+

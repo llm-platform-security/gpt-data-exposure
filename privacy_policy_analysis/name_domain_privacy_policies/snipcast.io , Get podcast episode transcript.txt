@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="keywords"
+      content="podcast,podcasts,video,videos,youtube,summary,summaries,transcript,transcribe,AI,OpenAI,GPT,Whisper,ChatGPT"
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png?v=2"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png?v=2"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png?v=2"
+    />
+    <link rel="manifest" href="/site.webmanifest?v=2" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#7e22ce" />
+    <link rel="shortcut icon" href="/favicon.ico?v=2" />
+    <meta name="apple-mobile-web-app-title" content="Snipcast" />
+    <meta name="application-name" content="Snipcast" />
+    <meta name="msapplication-TileColor" content="#7e22ce" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Snipcast.io" />
+    <meta name="application-name" content="Snipcast.io" />
+    <meta name="msapplication-TileColor" content="#9f00a7" />
+    <meta name="theme-color" content="#fafafa" />
+    
+		<link href="../_app/immutable/assets/0.xbhQkyrm.css" rel="stylesheet">
+  </head>
+  <body class="min-h-screen text-gray-800" data-sveltekit-preload-data="hover">
+    <div style="display: contents">  <article class="prose mx-auto max-w-2xl px-4 py-12" data-svelte-h="svelte-1c704st"><h2>PodGPT Privacy Policy</h2> <p>This privacy policy outlines how PodGPT collects, uses, protects, and shares
+    information gathered through our service.</p> <h3>Information Collection and Use</h3> <p>When you use our service, we collect the URL you provide from podcast
+    players. Our backend service downloads the audio file associated with this
+    URL for summarization purposes.</p> <p>The audio files are used solely to provide summaries of the podcast content.
+    We do not use this data for any other purpose.</p> <h3>Third-Party Data Sharing and Transcription Services</h3> <p>We partner with a third-party service to aid with audio processing. This
+    service does not have access to any other data than the audio file of the
+    content you submit to PodGPT.</p> <h3>User Consent</h3> <p>By using our service, you consent to the collection, processing, and use of
+    data as described in this policy. If you do not agree with our policies and
+    practices, please refrain from using our service.</p></article> 
+			
+			<script>
+				{
+					__sveltekit_quoygg = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [{"type":"data","data":{session:null,version:"ab6b9a7"},"uses":{}},null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.nQMP76lW.js"),
+						import("../_app/immutable/entry/app.6DOmH1Qv.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 19],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>

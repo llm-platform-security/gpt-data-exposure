@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no"><!-- 아이폰 전화번호 스타일 초기화 -->
+<meta name="copyright" content="Copyright(c) KERIS. ALL RIGHTS  RESERVED">
+<title>학술연구정보서비스 개인정보처리방침</title>
+<link rel="stylesheet" type="text/css" href="/commons/css/base.css">
+<link rel="stylesheet" type="text/css" href="/commons/css/common.css">
+<link rel="stylesheet" type="text/css" href="/commons/css/popup.css?version=20220905">
+<script src="/commons/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/commons/js/jquery/jquery.easing.1.3.js"></script>
+<script src="/commons/js/jquery/jquery.mCustomScrollbar.min.js"></script>
+<script src="/commons/js/common.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".boardSelectBox .optList ul li").on("click", function(e) {
+                var val = $(this).index();
+                if(val == "23") {
+                    document.location = "/etc/safe_policy_20050531.html";
+                } 
+                if(val == "22") {
+                    document.location = "/etc/safe_policy_20080317.html";
+                }
+                if(val == "21") {
+                    document.location = "/etc/safe_policy_20090921.html";
+                }
+                if(val == "20") {
+                    document.location = "/etc/safe_policy_20100514.html";
+                }
+                if(val == "19") {
+                    document.location = "/etc/safe_policy_20150519.html";
+                }
+                if(val == "18") {
+                    document.location = "/etc/safe_policy_20160830.html";
+                }
+                if(val == "17") {
+                    document.location = "/etc/safe_policy_20170105.html";
+                }
+                if(val == "16") {
+                    document.location = "/etc/safe_policy_20170310.html";
+                }
+                if(val == "15") {
+                    document.location = "/etc/safe_policy_20180116.html";
+                }
+                if(val == "14") {
+                    document.location = "/etc/safe_policy_20190117.html";
+                }
+                if(val == "13") {
+                    document.location = "/etc/safe_policy_20190312.html";
+                }
+                if(val == "12") {
+                    document.location = "/etc/safe_policy_20190604.html";
+                }
+                if(val == "11") {
+                    document.location = "/etc/safe_policy_20200114.html";
+                }
+                if(val == "10") {
+                    document.location = "/etc/safe_policy_20200225.html";
+                }
+                if(val == "9") {
+                    document.location = "/etc/safe_policy_20200507.html";
+                }
+                if(val == "8") {
+                    document.location = "/etc/safe_policy_20200526.html";
+                }
+                if(val == "7") {
+                    document.location = "/etc/safe_policy_20210121.html";
+                }
+                if(val == "6") {
+                    document.location = "/etc/safe_policy_20210427.html";
+                }
+                if(val == "5") {
+                    document.location = "/etc/safe_policy_20210603.html";
+                }
+                if(val == "4") {
+                    document.location = "/etc/safe_policy_20220726.html";
+                }
+                if(val == "3") {
+                    document.location = "/etc/safe_policy_20220905.html";
+                }
+                if(val == "2") {
+                    document.location = "/etc/safe_policy_20230127.html";
+                }
+                if(val == "1") {
+                    document.location = "/etc/safe_policy.html";
+                }
+             });
+        });
+    </script>
+</head>
+<body>
+<div id="wrap">
+    <div class="divPopup myPop" style="width:693px">
+        <div class="popHeader">
+            <p class="title">학술연구정보서비스 개인정보처리방침</p>
+        </div>
+        <div class="popCont">
+            <div class="popInnerCont" style="position:relative;">
+                <h3 class="tit">Ver 8.6 (2023년 1월 31일 ~ )</h3>
+                <div class="boardSelect type2 ib version">
+                    <div class="selectBoxW">
+                        <label for="dirId">이전 버전 보기</label>
+                        <!--selectbox display:none-->
+                        <select id="dirId" title="이전 버전 보기">                
+                            <option value="" selected="selected">이전 버전 보기</option>
+                            <option value="1">Ver 8.6</option>
+                            <option value="2">Ver 8.5</option>
+                            <option value="3">Ver 8.4</option>
+                            <option value="4">Ver 8.3</option>
+                            <option value="5">Ver 8.2</option>
+                            <option value="6">Ver 8.1</option>
+                            <option value="7">Ver 8.0</option> 
+                            <option value="8">Ver 7.9</option> 
+                            <option value="9">Ver 7.8</option> 
+                            <option value="10">Ver 7.7</option> 
+                            <option value="11">Ver 7.6</option> 
+                            <option value="12">Ver 7.5</option>
+                            <option value="13">Ver 7.4</option>
+                            <option value="14">Ver 7.3</option>
+                            <option value="15">Ver 7.2</option>
+                            <option value="16">Ver 7.1</option>
+                            <option value="17">Ver 7.0</option>
+                            <option value="18">Ver 6.0</option>
+                            <option value="19">Ver 5.0</option>
+                            <option value="20">Ver 4.0</option>
+                            <option value="21">Ver 3.0</option>
+                            <option value="22">Ver 2.0</option>
+                            <option value="23">Ver 1.0</option>
+                        </select>
+                        <!--//selectbox display:none-->
+                    </div>
+                    <div class="boardSelectBox"> 
+                        <div class="optList on"> 
+                            <ul> 
+                                <li><a href="#">이전 버전 보기</a></li>
+                                <li><a href="#">Ver 8.6</a></li>
+                                <li><a href="#">Ver 8.5</a></li>
+                                <li><a href="#">Ver 8.4</a></li>
+                                <li><a href="#">Ver 8.3</a></li>
+                                <li><a href="#">Ver 8.2</a></li>
+                                <li><a href="#">Ver 8.1</a></li>
+                                <li><a href="#">Ver 8.0</a></li> 
+                                <li><a href="#">Ver 7.9</a></li>  
+                                <li><a href="#">Ver 7.8</a></li> 
+                                <li><a href="#">Ver 7.7</a></li> 
+                                <li><a href="#">Ver 7.6</a></li>
+                                <li><a href="#">Ver 7.5</a></li>
+                                <li><a href="#">Ver 7.4</a></li>
+                                <li><a href="#">Ver 7.3</a></li>
+                                <li><a href="#">Ver 7.2</a></li>
+                                <li><a href="#">Ver 7.1</a></li>
+                                <li><a href="#">Ver 7.0</a></li>
+                                <li><a href="#">Ver 6.0</a></li>
+                                <li><a href="#">Ver 5.0</a></li>
+                                <li><a href="#">Ver 4.0</a></li>
+                                <li><a href="#">Ver 3.0</a></li>
+                                <li><a href="#">Ver 2.0</a></li>
+                                <li><a href="#">Ver 1.0</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner">
+                    <div class="protection">
+                        <p><b>학술연구정보서비스(이하 RISS)는 정보주체의 자유와 권리 보호를 위해 「개인정보 보호법」 및 관계 법령이 정한 바를 준수하여, 적법하게 개인정보를 처리하고 안전하게 관리하고 있습니다. 이에 「개인정보 보호법」 제30조에 따라 정보주체에게 개인정보 처리에 관한 절차 및 기준을 안내하고, 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.</b></p>
+                        <br>
+                      
+                        <!-- 개인정보처리방침 라벨링 추가 -->
+                        <div class="policyLabel">
+                            <p>주요 개인정보 처리 표시(라벨링)</p>
+                            <ul>
+                                <li>
+                                    <a href="#article1">
+                                        <img src="/commons/images/policy1.png" alt="처리목적">
+                                        <p class="policysbj">처리 목적</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article2">
+                                        <img src="/commons/images/policy2.png" alt="보유 기간">
+                                        <p class="policysbj">보유 기간</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article3">
+                                        <img src="/commons/images/policy3.png" alt="처리 항목">
+                                        <p class="policysbj">처리 항목</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article4">
+                                        <img src="/commons/images/policy4.png" alt="개인 정보">
+                                        <p class="policysbj">개인 정보</p>
+                                    </a>
+                                </li>
+                                <li class="br">
+                                    <a href="#article5">
+                                        <img src="/commons/images/policy5.png" alt="제3자 제공">
+                                        <p class="policysbj">제3자 제공</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article6">
+                                        <img src="/commons/images/policy6.png" alt="처리 위탁">
+                                        <p class="policysbj">처리 위탁</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article7">
+                                        <img src="/commons/images/policy7.png" alt="파기">
+                                        <p class="policysbj">파기</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article8">
+                                        <img src="/commons/images/policy8.png" alt="정보주체의 권리의무">
+                                        <p class="policysbj">정보주체의 권리의무</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article9">
+                                        <img src="/commons/images/policy9.png" alt="안전성확보조치">
+                                        <p class="policysbj">안전성확보조치</p>
+                                    </a>
+                                </li>
+                                <li class="br">
+                                    <a href="#article10">
+                                        <img src="/commons/images/policy10.png" alt="자동화 수집">
+                                        <p class="policysbj">자동화 수집</p>
+                                    </a>
+                                </li>
+                                <li class="bb">
+                                    <a href="#article11">
+                                        <img src="/commons/images/policy11.png" alt="개인정보보호책임자">
+                                        <p class="policysbj">개인정보보호책임자</p>
+                                    </a>
+                                </li>
+                                <li class="bb">
+                                    <a href="#article12">
+                                        <img src="/commons/images/policy12.png" alt="열람 청구">
+                                        <p class="policysbj">열람 청구</p>
+                                    </a>
+                                </li>
+                                <li class="bb">
+                                    <a href="#article13">
+                                        <img src="/commons/images/policy13.png" alt="권익침해 구제">
+                                        <p class="policysbj">권익침해 구제</p>
+                                    </a>
+                                </li>
+                                <li class="bb">
+                                    <a href="#article14">
+                                        <img src="/commons/images/policy14.png" alt="처리방침 변경">
+                                        <p class="policysbj">추가적 이용</p>
+                                    </a>
+                                </li>
+                                <li class="bb br">
+                                    <a href="#article15">
+                                        <img src="/commons/images/policy15.png" alt="처리방침 변경">
+                                        <p class="policysbj">처리방침 변경</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- //개인정보처리방침 라벨링 추가 -->
+
+                        <!-- 라벨링 목차 -->
+                        <div class="policyIndex">
+                            <p>목&nbsp;&nbsp;&nbsp;&nbsp;차</p>
+                            <ul>
+                                <li>
+                                    <a href="#article1">
+                                        <img src="/commons/images/policy1.png" alt="처리목적">
+                                        <span>제1조(개인정보의 처리 목적)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article2">
+                                        <img src="/commons/images/policy2.png" alt="보유 기간">
+                                        <span>제2조(개인정보의 처리 및 보유 기간)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article3">
+                                        <img src="/commons/images/policy3.png" alt="처리 항목">
+                                        <span>제3조(처리하는 개인정보의 항목)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article4">
+                                        <img src="/commons/images/policy4.png" alt="개인 정보">
+                                        <span>제4조(개인정보파일 등록 현황)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article5">
+                                        <img src="/commons/images/policy5.png" alt="제3자 제공">
+                                        <span>제5조(개인정보의 제3자 제공)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article6">
+                                        <img src="/commons/images/policy6.png" alt="처리 위탁">
+                                        <span>제6조(개인정보 처리업무의 위탁)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article7">
+                                        <img src="/commons/images/policy7.png" alt="파기">
+                                        <span>제7조(개인정보의 파기 절차 및 방법)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article8">
+                                        <img src="/commons/images/policy8.png" alt="정보주체의 권리의무">
+                                        <span>제8조(정보주체와 법정대리인의 권리·의무 및 그 행사 방법)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article9">
+                                        <img src="/commons/images/policy9.png" alt="안전성확보조치">
+                                        <span>제9조(개인정보의 안전성 확보조치)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article10">
+                                        <img src="/commons/images/policy10.png" alt="자동화 수집">
+                                        <span>제10조(개인정보 자동 수집 장치의 설치·운영 및 거부)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article11">
+                                        <img src="/commons/images/policy11.png" alt="개인정보보호책임자">
+                                        <span>제11조(개인정보 보호책임자)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article12">
+                                        <img src="/commons/images/policy12.png" alt="열람 청구">
+                                        <span>제12조(개인정보의 열람청구를 접수·처리하는 부서)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article13">
+                                        <img src="/commons/images/policy13.png" alt="권익침해 구제">
+                                        <span>제13조(정보주체의 권익침해에 대한 구제방법)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article14">
+                                        <img src="/commons/images/policy14.png" alt="추가적 이용">
+                                        <span>제14조(추가적 이용·제공 판단기준)</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#article15">
+                                        <img src="/commons/images/policy15.png" alt="처리방침 변경">
+                                        <span>제15조(개인정보 처리방침의 변경)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- //라벨링 목차 -->
+
+                        <dl class="type02">
+                            <dt><a name="a1" id="article1"><img src="/commons/images/policy1.png" alt="처리목적"> 제1조(개인정보의 처리 목적)</a></dt>
+                            <dd>RISS는 개인정보를 다음의 목적을 위해 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 「개인정보 보호법」 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</dd>
+                            
+                             
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                 가. 서비스 제공 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 콘텐츠 제공, 문헌배송 및 결제, 요금정산 등 서비스 제공           <br>            
+                                 나. 회원관리 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 회원제 서비스 이용에 따른 본인확인, <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 만14세 미만 아동 개인 정보 수집 시 법정 대리인 동의여부 확인, 추후 법정 대리인 본인확인 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 분쟁 조정을 위한 기록보존, 불만처리 등을 위한 원활한 의사소통 경로의 확보, 공지사항 전달 <br>                       
+                                 다. 서비스 개선 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 신규 서비스 개발 및 특화 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 통계학적 특성에 따른 서비스 제공 및 광고 게재, 이벤트 등 정보 전달 및 참여 기회 제공 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 서비스 이용에 대한 통계 
+                            </dd>
+                            
+                            
+                            <dt><a name="a1" id="article2"><img src="/commons/images/policy2.png" alt="보유 기간">제2조(개인정보의 처리 및 보유 기간)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                가. 처리기간 및 보유 기간: <p style="color:#000;display:inline;font-size:16px;font-weight:bold;">3년</p> 또는 회원탈퇴시까지 <br>
+                                나. 다만, 다음의 사유에 해당하는 경우에는 해당 사유 종료시 까지 정보를 보유 및 열람합니다. <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 신청 중인 서비스가 완료 되지 않은 경우 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 보존 이유 : 진행 중인 서비스 완료(예:원문복사 등) <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 보존 기간 : 서비스 완료 시까지 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 열람 예정 시기 : 수시(RISS에서 신청된 서비스의 처리내역 및 진행상태 확인 요청 시) <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 관련법령에 의한 정보보유 사유 및 기간 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 대금결제 및 재화 등의 공급에 관한 기록 : <p style="color:#000;display:inline;font-size:16px;font-weight:bold;">5년</p>(「전자상거래 등에서의 소비자보호에 관한 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 법률」 제 6조 및 시행령 제 6조) <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 소비자의 불만 또는 분쟁 처리에 관한 기록 : <p style="color:#000;display:inline;font-size:16px;font-weight:bold;">3년</p>(「전자상거래 등에서의 소비자보호에 관한 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 법률」 제 6조 및 시행령 제 6조) <br>
+                                <!-- 신규추가 -->
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 접속에 관한 기록 : <p style="color:#000;display:inline;font-size:16px;font-weight:bold;">2년</p> 이상(개인정보보호위원회 : 개인정보의 안전성 확보조치 기준)
+                                <!-- //신규추가 -->
+                            </dd>
+                            
+                            <!-- 수정 -->
+                            <dt><a name="a1" id="article3"><img src="/commons/images/policy3.png" alt="처리 항목">제3조(처리하는 개인정보의 항목)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                            가. 필수 항목 : ID, 이름, 생년월일, 신분(직업구분), 이메일, 소속분야, <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보호자 성명(어린이회원), 보호자 이메일(어린이회원)<br>
+                            나: 선택 항목 : 소속기관명, 학과/부서명, 학번/직원번호, 전화, 주소, 장애인 여부<br>
+                            다. 자동수집항목 : IP주소, ID, 서비스 이용기록, 방문기록
+                            </dd>
+                            <!-- //수정 -->
+
+                            <!-- 수정 -->
+                            <dt><a name="a1" id="article4"><img src="/commons/images/policy4.png" alt="개인 정보">제4조(개인정보파일 등록 현황)</a></dt>
+                            <dd>
+                                <table class="tableType1 tableStyle1 fz">
+                                    <caption></caption>
+                                    <colgroup>
+                                        <col style="width:25%;">
+                                        <col style="width:25%;">
+                                        <col style="width:25%;">
+                                        <col style="width:25%;">
+                                    </colgroup>
+                                    <thead> 
+                                        <tr>
+                                            <th scope="col">개인정보파일의 명칭</th>
+                                            <th scope="col">운영근거 / 처리목적</th>
+                                            <th colspan="2" scope="col">개인정보파일에 기록되는 개인정보의 항목</th>
+                                            <th scope="col">보유기간</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">학술연구정보서비스 이용자 가입정보 파일</td>
+                                            <td rowspan="2">한국교육학술정보원법</td>
+                                            <td>필수</td>
+                                            <td>ID, 비밀번호, 성명, 생년월일, 신분(직업구분), 이메일, 소속분야, 웹진메일 수신동의 여부</td>
+                                            <td rowspan="2">3년<br>또는<br>탈퇴시</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border-left:1px solid #cdcdcd;">선택</td>
+                                            <td>소속기관명, 소속도서관명, 학과/부서명, 학번/직원번호, 휴대전화, 주소</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </dd>
+                            <!-- //수정 -->
+
+                            <!-- 수정 -->
+                            <dt><a name="a1" id="article5"><img src="/commons/images/policy5.png" alt="제3자 제공">제5조(개인정보의 제3자 제공)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px 4px;line-height:23px;">
+                                가. RISS는 원칙적으로 정보주체의 개인정보를 제1조(개인정보의 처리 목적)에서 명시한 범위 내에서 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;처리하며, 정보주체의 사전 동의 없이는 본래의 범위를 초과하여 처리하거나 제3자에게 제공하지 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;않습니다. 단, 정보주체의 동의, 법률의 특별한 규정 등 개인정보 보호법 제17조 및 제18조에 해당하는 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;경우에만 개인정보를 제3자에게 제공합니다.<br>
+                                나. RISS는 원활한 서비스 제공을 위해 다음의 경우 정보주체의 동의를 얻어 필요 최소한의 범위로만 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제공합니다. <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 복사/대출 배송 서비스를 위해서 아래와 같이 개인정보를 제공합니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 개인정보 제공 대상 : 제공도서관, ㈜이니시스(선불결제 시) <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 개인정보 제공 목적 : 복사/대출 서비스 제공 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 개인정보 제공 항목 : 이름, 전화번호, 이메일 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 개인정보 보유 및 이용 기간 : 신청건 발생일 후 5년 <br>
+                                ▶ 개인정보 제공에 동의하지 않을 권리가 있으며, 거부하는 경우 서비스 이용이 불가합니다.
+                            </dd>
+                            
+                            <dt><a name="a1" id="article6"><img src="/commons/images/policy6.png" alt="처리 위탁">제6조(개인정보 처리업무의 위탁)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px 4px;line-height:23px;">
+                               RISS는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.
+                            </dd>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                            가. 위탁하는 업무 내용 : 회원 개인정보 처리 <br>
+                            나. 수탁업체명 : ㈜퓨쳐누리
+                            </dd>
+                            <dd>RISS는 위탁계약 체결 시 「개인정보 보호법」 제26조에 따라 위탁업무 수행 목적 외 개인정보 처리금지, 안전성 확보조치, 재위탁 제한, 수탁자에 대한 관리·감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.</dd>
+                            <dd>위탁업무의 내용이나 수탁자가 변경될 경우에는 지체 없이 본 개인정보 처리방침을 통하여 공개하도록 하겠습니다.</dd>
+                                                         
+                            <dt><a name="a1" id="article7"><img src="/commons/images/policy7.png" alt="파기">제7조(개인정보의 파기 절차 및 방법)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                가. 파기절차<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보의 파기 : 보유기간이 경과한 개인정보는 종료일로부터 지체 없이 파기<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보파일의 파기 : 개인정보파일의 처리 목적 달성, 해당 서비스의 폐지, 사업의 종료 등 그 <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 개인정보파일이 불필요하게 되었을 때에는 개인정보의 처리가 불필요한 것으로 인정되는 날로부터<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 지체 없이 그 개인정보파일을 파기.<br>
+                                나. 파기방법<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 전자적 형태의 정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 파기.<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기.
+                            </dd>
+                            
+                            <dt><a name="a1" id="article8"><img src="/commons/images/policy8.png" alt="정보주체의 권리의무">제8조(정보주체와 법정대리인의 권리·의무 및 그 행사 방법)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px 4px;line-height:23px;">
+                                정보주체(만 14세 미만인 경우에는 법정대리인을 말함)는 개인정보주체로서 다음과 같은 권리를 행사할 수 있습니다. <br>
+                                가. 권리 행사 항목 및 방법 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 권리 행사 항목: 개인정보 열람 요구, 오류 정정 요구, 삭제 요구, 처리정지 요구 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 권리 행사 방법: 개인정보 처리 방법에 관한 고시 별지 제8호(대리인의 경우 제11호) 서식에 따라 <br>
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 작성 후 서면, 전자우편, 모사전송(FAX), 전화, 인터넷(홈페이지 고객센터) 제출 <br>
+                                나. 개인정보 열람 및 처리정지 요구는 「개인정보 보호법」 제35조 제5항, 제37조 제2항에 의하여<br> 
+                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 정보주체의 권리가 제한 될 수 있음 <br>
+                                다. 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 그 삭제를 요구할 수 없음  <br>
+                                라. RISS는 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구, 처리정지의 요구 시<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인함.<br>
+                                마. 정보주체의 권리행사 요구 거절 시 불복을 위한 이의제기 절차는 다음과 같습니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) 해당 부서에서 열람 등 요구에 대한 연기 또는 거절 시 요구 받은 날로부터 10일 이내에 정당한 사유<br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;및 이의제기 방법 등을 통지<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) 해당 부서에서 정보주체의 이의제기 신청 및 접수(서면, 유선, 이메일 등)하여 개인정보보호 담당자가<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;내용 확인<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) 개인정보관리책임자가 처리결과에 대한 최종 검토<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4) 해당부서에서 정보주체에게 처리결과 통보<br>
+                                *. [교육부 개인정보 보호지침 별지 제1호] 개인정보 (열람, 정정·삭제, 처리정지) 요구서<br>
+                                *. [교육부 개인정보 보호지침 별지 제2호] 위임장<br>
+                            </dd> 
+
+                            <dt><a name="a1" id="article9"><img src="/commons/images/policy9.png" alt="안전성확보조치">제9조(개인정보의 안전성 확보조치)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                가. 내부관리계획의 수립 및 시행 : RISS의 내부관리계획 수립 및 시행은 한국교육학술정보원의 내부<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 관리 지침을 준수하여 시행.<br>
+                                나. 개인정보 취급 담당자의 최소화 및 교육<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보를 취급하는 분야별 담당자를 지정․운영<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 한국교육학술정보원의 내부 관리 지침에 따른 교육 실시<br>
+                                다. 개인정보에 대한 접근 제한<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보를 처리하는 데이터베이스시스템에 대한 접근권한의 부여, 변경, 말소를 통하여<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;개인정보에 대한 접근통제 실시<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 침입차단시스템, ID/패스워드 및 공인인증서 확인을 통한 접근 통제 등 보안시스템 운영<br>
+                                라. 접속기록의 보관 및 위변조 방지<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보처리시스템에 접속한 기록(웹 로그, 요약정보 등)을 2년 이상 보관, 관리<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 접속 기록이 위변조 및 도난, 분실되지 않도록 보안기능을 사용<br>
+                                마. 개인정보의 암호화 : 이용자의 개인정보는 암호화 되어 저장 및 관리<br>
+                                바. 해킹 등에 대비한 기술적 대책<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 보안프로그램을 설치하고 주기적인 갱신·점검 실시<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 외부로부터 접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단<br>
+                                사. 비인가자에 대한 출입 통제 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보를 보관하고 있는 개인정보시스템의 물리적 보관 장소를 별도 설치․운영<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 물리적 보관장소에 대한 출입통제, CCTV 설치․운영 절차를 수립, 운영<br>
+                            </dd>
+
+                            <dt><a name="a1" id="article10"><img src="/commons/images/policy10.png" alt="자동화 수집">제10조(개인정보 자동 수집 장치의 설치·운영 및 거부)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                가. 정보주체의 이용정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다.<br>
+                                나. 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터브라우저에게 보내는 소량의 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;정보이며 이동자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) 쿠키의 사용목적 : 이용자에게 보다 편리한 서비스 제공하기 위해 사용됩니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) 쿠키의 설치·운영 및 거부 : 브라우저 옵션 설정을 통해 쿠키 허용, 쿠키 차단 등의 설정을 할 수<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;있습니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Internet Explorer : 웹브라우저 우측 상단의 도구 메뉴 &gt; 인터넷 옵션 &gt; 개인정보 &gt; 설정 &gt; 고급<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Edge : 웹브라우저 우측 상단의 설정 메뉴 &gt; 쿠키 및 사이트 권한 &gt; 쿠키 및 사이트 데이터<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관리 및 삭제<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Chrome : 웹브라우저 우측 상단의 설정 메뉴 &gt; 보안 및 개인정보 보호 &gt; 쿠키 및 기타 사이트<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;데이터<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) 쿠키 저장을 거부 또는 차단할 경우 서비스 이용에 어려움이 발생할 수 있습니다. 
+                            </dd>    
+                            
+                            <dt><a name="a1" id="article11"><img src="/commons/images/policy11.png" alt="개인정보보호책임자">제11조(개인정보 보호책임자)</a></dt> 
+                            <dd>
+                                가. RISS는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.<br>
+                                <table class="tableType1 tableStyle1 fz">
+                                    <caption></caption>
+                                    <colgroup>
+                                        <col style="width:35%;">
+                                        <col style="width:30%;">
+                                        <col style="width:35%;">
+                                    </colgroup>
+                                    <thead> 
+                                        <tr>
+                                            <th scope="col">구분</th>
+                                            <th scope="col">담당자</th>
+                                            <th scope="col">연락처</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>KERIS 개인정보 보호책임자</td>
+                                            <td>정보보호본부 김태우</td>
+                                            <td rowspan="2" class="taL">
+                                                - 이메일 : lsy@keris.or.kr<br>
+                                                - 전화번호 : 053-714-0439<br>
+                                                - 팩스번호 : 053-714-0195
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>KERIS 개인정보 보호담당자</td>
+                                            <td>개인정보보호부 이상엽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>RISS 개인정보 보호책임자</td>
+                                            <td>대학학술본부 장금연</td>
+                                            <td rowspan="2" class="taL"> 
+                                                - 이메일 : giltizen@keris.or.kr<br>
+                                                - 전화번호 : 053-714-0149<br>
+                                                - 팩스번호 : 053-714-0194
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>RISS 개인정보 보호담당자</td>
+                                            <td>학술진흥부 길원진</td>
+                                        </tr>
+                                    </tbody>
+                                </table><br>
+                                나. 정보주체는 RISS의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리,<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의 할 수 있습니다.<br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RISS는 정보주체의 문의에 대해 답변 및 처리해드릴 것입니다.
+                            </dd>
+                            
+                            <dt><a name="a1" id="article12"><img src="/commons/images/policy12.png" alt="열람 청구">제12조(개인정보의 열람청구를 접수·처리하는 부서)</a></dt> 
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                가. 자체 개인정보 열람청구 접수ㆍ처리 창구 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부서명 : 대학학술본부/학술진흥부<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;담당자 : 길원진 <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이메일 : giltizen@keris.or.kr<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전화번호 : 053-714-0149<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;팩스번호 : 053-714-0194 <br>
+                                나. 개인정보 열람청구 접수ㆍ처리 창구<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보보호 포털 웹사이트(<a href="http://www.privacy.go.kr" target="_blank" title="개인정보보호 종합지원 포털사이트 바로가기">www.privacy.go.kr</a>)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 개인정보보호 포털 → 민원마당 → 개인정보 열람 등 요구(본인확인을 위한 <br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  휴대전화·아이핀(I-PIN) 등이 있어야 함)
+                            </dd>
+                             
+                            <dt><a name="a1" id="article13"><img src="/commons/images/policy13.png" alt="권익침해 구제">제13조(정보주체의 권익침해에 대한 구제방법)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                              ‣  정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 <br>
+                              &nbsp;&nbsp;&nbsp;개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다. 이 밖에 기타 개인정보 <br>
+                              &nbsp;&nbsp;&nbsp;침해의 신고, 상담에 대하여는 아래의 기관에 문의하시기 바랍니다.<br><br>
+                              
+                              &nbsp;&nbsp;&nbsp;가. 개인정보분쟁조정위원회 : (국번없이) 1833-6972(<a href="http://www.kopico.go.kr" target="_blank" title="개인정보 분쟁조정위원회 바로가기">www.kopico.go.kr</a>)<br>
+                              &nbsp;&nbsp;&nbsp;나. 개인정보침해신고센터 : (국번없이) 118(<a href="http://privacy.kisa.or.kr" target="_blank" title="한국인터넷진흥원 바로가기">privacy.kisa.or.kr</a>)<br>
+                              &nbsp;&nbsp;&nbsp;다. 대검찰청 : (국번없이) 1301 (<a href="http://www.spo.go.kr" target="_blank" title="대검찰청 사이버수사과 바로가기">www.spo.go.kr</a>)<br>
+                              &nbsp;&nbsp;&nbsp;라. 경찰청 : (국번없이) 182 (<a href="http://ecrm.cyber.go.kr" target="_blank" title="대검찰청 사이버수사과 바로가기">ecrm.cyber.go.kr</a>)<br><br>
+
+                              ‣RISS는 정보주체의 개인정보자기결정권을 보장하고, 개인정보침해로 인한 상담 및 피해 구제를<br> 
+                              &nbsp;&nbsp;&nbsp; 위해 노력하고 있으며, 신고나 상담이 필요한 경우 아래의 담당부서로 연락해 주시기 바랍니다.<br> 
+                              &nbsp;&nbsp;&nbsp;▶ 개인정보 관련 고객 상담 및 신고<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부서명 : 학술진흥부<br> 
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;담당자 : 길원진<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연락처 : ☎053-714-0149 / (Mail) giltizen@keris.or.kr / (Fax) 053-714-0194<br>
+                              
+                              ‣「개인정보 보호법」제35조(개인정보의 열람), 제36조(개인정보의 정정·삭제), 제37조(개인정보의 <br> 
+                              &nbsp;&nbsp;&nbsp;처리정지 등)의 규정에 의한 요구에 대하여 공공기관의 장이 행한 처분 또는 부작위로 인하여 권리 <br> 
+                              &nbsp;&nbsp;&nbsp;또는 이익의 침해를 받은 자는 행정심판법이 정하는 바에 따라 행정심판을 청구할 수 있습니다.<br>
+                              &nbsp;&nbsp;&nbsp;※ 행정심판에 대해 자세한 사항은 중앙행정심판위원회(www.simpan.go.kr) 홈페이지를 참고<br> 
+                              &nbsp;&nbsp;&nbsp;하시기 바랍니다.
+                            </dd>  
+                            
+                            <dt><a name="a1" id="article14"><img src="/commons/images/policy14.png" alt="처리방침 변경">제14조(추가적인 이용ㆍ제공 판단기준)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                RISS는 「개인정보 보호법」제15조제3항 및 제17조제4항에 따라 「개인정보 보호법 시행령」<br> 
+                                제14조의2에 따른 사항을 고려하여 정보주체의 동의 없이 개인정보를 추가적으로 이용 · 제공할 수 있습니다.<br>
+                                이에 따라 RISS는 정보주체의 동의 없이 추가적인 이용 · 제공을 하는 경우, 본 개인정보처리방침을<br>
+                                통해 아래와 같은 추가적인 이용 · 제공을 위한 고려사항에 대한 판단기준을 안내드리겠습니다.<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 개인정보를 추가적으로 이용 · 제공하려는 목적이 당초 수집 목적과 관련성이 있는지 여부<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 개인정보를 수집한 정황 또는 처리 관행에 비추어 볼 때 추가적인 이용 · 제공에 대한 예측<br> 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가능성이 있는지 여부<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 개인정보의 추가적인 이용 · 제공이 정보주체의 이익을 부당하게 침해하는지 여부<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶ 가명처리 또는 암호화 등 안전성 확보에 필요한 조치를 하였는지 여부
+                            </dd>
+                                                         
+                            <dt><a name="a1" id="article15"><img src="/commons/images/policy14.png" alt="처리방침 변경">제15조(개인정보 처리방침의 변경)</a></dt>
+                            <dd style="border:1px solid #ddd;padding:10px;line-height:23px;">
+                                RISS는 「개인정보 보호법」제30조에 따라 개인정보 처리방침을 변경하는 경우 정보주체가 쉽게<br> 
+                                확인할 수 있도록 홈페이지에 공개하고 변경이력을 관리하고 있습니다.<br>
+                                ‣ 이 개인정보처리방침은 2023. 1. 31. 부터 적용됩니다.<br>
+                                ‣ 이전의 개인정보처리방침은 상단에서 확인할 수 있습니다.
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

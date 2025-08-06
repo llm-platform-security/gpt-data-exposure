@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Clinical Table Search Service</title>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-59GQ6JK');</script>
+<!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="/site.min.css">
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans:400,700'
+     rel='stylesheet' type='text/css'/>
+    <link href='/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.css' rel="stylesheet">
+  </head>
+  <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59GQ6JK" height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="sharedHeader"></div>
+
+    <div id="header">
+
+      <a href="https://lhcforms.nlm.nih.gov" title="LHC FHIR Tools" id="site-logo">
+        <img src="/projectLogo.svg" alt="LHC FHIR Tools" />
+      </a>
+      <div id="siteNameBox">
+        <a href="/"><span id=siteName>Clinical Table Search Service</span><br>
+          <span id=tagline>A web API service for use with autocomplete-lhc &amp; LHC-Forms</span></a>
+      </div>
+    </div>
+    <!-- end page header -->
+
+
+    <div id="content">
+
+      <h1>API for ICD-10-CM</h1>
+      <p> ICD-10-CM (International Classification of Diseases, 10th Revision,
+        Clinical Modification) is a medical coding system for classifying diagnoses and
+        reasons for visits in U.S. health care settings.
+        <a href="https://www.cdc.gov/nchs/icd/icd-10-cm.htm">Learn more about ICD-10-CM</a>.
+      </p>
+
+      <p id=versionNote style="display: none"><b>Currently using:</b> ICD-10-CM <span
+      id=versionNum></span></p>
+
+            <b>This service is provided "as is"</b> and free of charge. Please see the
+      <a href="/faq.html">Frequently Asked Questions</a> page for more
+      details on terms of service, etc.
+
+      <h2>API Demo</h2>
+      <p>The following demo shows how this API might be used with an
+        <a href='http://lhncbc.github.io/autocomplete-lhc/'>autocompleter</a> we've
+        developed.
+
+      </p>
+
+            <script
+       src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.js"></script>
+
+                  <div class="acim_container">
+                <div class="acim_input">
+                    <input type="text" id="icd10" placeholder="Code or name">
+
+                    <script>
+                      new Def.Autocompleter.Search('icd10', '/api/icd10cm/v3/search?sf=code,name',
+ {tableFormat: true, valueCols: [0], colHeaders: ['Code', 'Name']});
+
+                    </script>
+                </div>
+                <div class="acim_links_container">
+                                <form style="display: inline" method="post"
+                action="https://jsfiddle.net/api/post/library/pure/" target=_blank>
+              <button type="submit" class="link">Source&nbsp;code</button>
+              <textarea name="html" style="display: none"
+                ><link href='/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.css' rel="stylesheet">
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.js'></script>
+
+<input type="text" id="icd10" placeholder="Code or name">
+              </textarea>
+              <textarea name="js" style="display: none"
+                >new Def.Autocompleter.Search('icd10', '/api/icd10cm/v3/search?sf=code,name',
+ {tableFormat: true, valueCols: [0], colHeaders: ['Code', 'Name']});
+              </textarea>
+              <input name=wrap type="hidden" value='b'>
+            </form>
+
+
+                    <div class="acim_customize"><a href="/demo.html?db=icd10cm">Customize</a></div>
+                </div>
+                <div style="float:none"></div>
+            </div>
+
+
+      <p>For further experimentation with the autocompleter and this API,
+         try the <a href="/demo.html?db=icd10cm">autocompleter demo page</a>.</p>
+
+      <h2>API Documentation</h2>
+      <p><b>API Base URL:</b>
+        https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search
+        (+ <a href="#params">query string parameters</a>)</p>
+
+            <p>
+        This data set may also be accessed through the <a href="/valueSetExpand.html">FHIR ValueSet $expand operation</a>.
+      </p>
+      <p>In addition to the base URL, you will need to specify other parameters.
+        See the <a href="#params">query string parameters</a> section below for details.
+
+
+
+            <h3><a name="params"></a>Query String Parameters and Default Values</h3>
+      <p>At a minimum, when using the above base URL, you will need to specify
+        the "terms" parameter containing a word or partial word to match.</p>
+      <table>
+          <thead><tr><th>Parameter Name</th><th>Default Value</th><th>Description</th></tr></thead>
+        <tbody>
+                    <tr><td>terms</td><td></td><td>(Required.)  The search string (e.g.,
+            just a part of a word) for which to find matches in the list.  More than one
+            partial word can be present in "terms", in which case there is an implicit AND
+            between them.</td></tr>
+
+
+          <tr><td>maxList</td><td>7</td><td>
+            Optional, with a default of 7. Specifies the number of results requested, up to the upper
+            limit of 500. If present but the value is empty, 500 will be used. Note that this parameter
+            does not support pagination, see "count" and "offset" below for details on pagination support.
+          </td></tr>
+          <tr><td>count</td><td>7</td>
+            <td>The number of results to retrieve (page size). The maximum count allowed is 500,
+              see "offset" below on pagination support.</td>
+          </tr>
+          <tr><td>offset</td><td>0</td>
+            <td>The starting result number (0-based) to retrieve. Use offset and count together for pagination.
+              Note that the current limit on the total number of results that can be retrieved (offset + count)
+              is 7,500. We reserve the right to decrease or increase this limit based on system capacity and/or
+              other factors. Please see the <a href="/faq.html"><b>FAQ page</b></a> on how to sign up to our
+              email list to be notified of any changes or new features.
+            </td>
+          </tr>
+          <tr><td>q</td><td></td><td>An optional, additional query string
+            used to further constrain the results returned by the "terms" field.
+            Unlike the terms field, "q" is not automatically wildcarded, but
+            can include wildcards and can specify field names.  See the Elasticsearch
+            <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax">query
+            string</a> page for documentation of supported syntax.</td></tr>
+
+          <tr><td>df</td><td>code, name</td><td>A comma-separated list of display
+fields (from the <a href="#fields">fields</a> section below) which are
+intended for the user to see when looking at the results.
+
+            </td></tr>
+          <tr><td>sf</td><td>code</td><td>A comma-separated list of fields to be searched.
+                 </td></tr>
+          <tr><td>cf</td><td>code</td><td>A field to regard as the "code" for the returned item
+                  data.</td></tr>
+          <tr><td>ef</td><td></td><td>A comma-separated list of additional fields to be
+returned for each retrieved list item.  (See the <a
+href="#output">Output format</a> section for how the data for fields
+is returned.)  If you wish the keys in the returned data hash to be something
+other than the field names, you can specify an alias for the field name by
+separating it from its field name with a colon, e.g.,
+"ef=field_name1:alias1,field2,field_name3:alias3,etc.  Note that not
+every field specified in the ef parameter needs to have an alias.
+
+            </td></tr>
+        </tbody>
+      </table>
+
+      <h3><a name="fields"></a>ICD-10-CM Field Descriptions</h3>
+      <table>
+        <thead>
+            <tr><th>Field</th><th>Field Description</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>code</td><td>The ICD-10-CM unique disease code containing 3, 4, 5, 6 or 7 digits.</td></tr>
+<tr><td>name</td><td>The long description of the diagnosis string(s).</td></tr>
+
+        </tbody>
+      </table>
+
+            <h3><a name="output"></a>Output format</h3>
+      <p>Output for an API query is an array of the following elements:</p>
+      <ol>
+        <li>The total number of results on the server, which can be more than the
+          number of results returned. This reported total number of results may also be
+          significantly less than the actual number of results and is limited to
+          10,000, which may significantly improve the service response time.</li>
+        <li>An array of codes for the returned items.  (This is the field
+  specified with the cf query parameter above.)</li>
+        <li>A hash of the "extra" data requested via the "ef" query parameter
+  above.  The keys on the hash are the fields (or their requested aliases) named
+  in the "ef" parameter, and the value for a field is an array of that field's
+  values in the same order as the returned codes.</li>
+        <li>An array, with one element for each returned code, where each element
+  is an array of the display strings specified with the "df" query parameter.</li>
+        <li>An array, with one element for each returned code, where each element is the "code system" for
+  the returned code. Note that only code-system aware APIs will return this array.</li>
+      </ol>
+
+
+
+            <h3>Sample API Queries</h3>
+      <table>
+        <thead>
+          <tr><th>Query</th><th>Result</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+
+            <tr><td>https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search?sf=code,name&terms=tuberc</td><td>[71,["A15.0","A15.4","A15.5","A15.6","A15.7","A15.8","A15.9"],null,[["A15.0","Tuberculosis of lung"],
+                    ["A15.4","Tuberculosis of intrathoracic lymph nodes"],["A15.5","Tuberculosis of larynx, trachea and bronchus"],["A15.6","Tuberculous pleurisy"],
+                    ["A15.7","Primary respiratory tuberculosis"],["A15.8","Other respiratory tuberculosis"],["A15.9","Respiratory tuberculosis unspecified"]]]</td><td>Returns a complete count of the 71 diagnoses that match the string "tuberc",
+                    displaying both the ICD-10-CM code and its associated term for the first 7 terms.</td></tr>
+            <tr><td>https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search?sf=code,name&terms=A15</td><td>[7,["A15.0","A15.4","A15.5","A15.6","A15.7","A15.8","A15.9"],null,[["A15.0","Tuberculosis of lung"],["A15.4","Tuberculosis of intrathoracic lymph nodes"],["A15.5","Tuberculosis of larynx, trachea and bronchus"],["A15.6","Tuberculous pleurisy"],["A15.7","Primary respiratory tuberculosis"],["A15.8","Other respiratory tuberculosis"],["A15.9","Respiratory tuberculosis unspecified"]]]</td>
+                <td> Returns a list of all ICD-10-CM codes beginning with "A15" and their associated terms.</td></tr>
+        </tbody>
+      </table>
+
+<script src='/showVersion.js'></script>
+<script>showVersion('icd10cm', 'v3');</script>
+    </div>
+
+    <!-- page footer -->
+    <div id="sharedFooter"></div>
+    <!-- end page footer -->
+
+    <!-- extra space to allow a named anchor to move that portion to the top of
+    the window. -->
+    <div id="blankspace"></div>
+    <script src="/javascript/sourceLinkInit.min.js"></script>
+    <script src="/shared/loadShared.min.js"></script>
+  </body>
+</html>
+

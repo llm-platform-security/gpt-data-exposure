@@ -1,0 +1,147 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>BuilderPlace</title><meta name="robots" content="index,follow"/><meta name="description" content="Empower opens-source contributors to help you achieve your goals"/><meta property="og:title" content="BuilderPlace"/><meta property="og:description" content="Empower opens-source contributors to help you achieve your goals"/><meta property="og:url" content="https://builder.place"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:site_name" content="BuilderPlace"/><link rel="canonical" href="https://builder.place"/><style>
+          :root {
+            --primary: #FF71A2;
+            --primary-50: #FF71A260;
+            --primary-focus: #FFC2D1;
+            --primary-content: #ffffff;
+
+            --base-100: #ffffff;
+            --base-200: #fefcfa;
+            --base-300: #fae4ce;
+            --base-content: #000000;
+            --base-content-50: #00000090;
+
+            --info: #f4dabe;
+            --info-content: #000000;
+
+            --success: #C5F1A4;
+            --success-50: #C5F1A460;
+            --success-content: #000000;
+
+            --warning: #FFE768;
+            --warning-content: #000000;
+
+            --error: #FFC2D1;
+            --error-content: #000000;
+          }
+
+          html .bg-primary {
+            background-color: var(--primary);
+          }
+
+          html .bg-primary-focus {
+            background-color: var(--primary-focus);
+          }
+
+          html .bg-primary-50 {
+            background-color: var(--primary-50);
+          }
+
+          html .text-primary {
+            color: var(--primary-content);
+          }
+
+          html .text-primary-focus {
+            color: var(--primary-focus);
+          }
+
+          html .border-primary {
+            border-color: var(--primary);
+          }
+
+          html .border-primary-focus {
+            border-color: var(--primary-focus);
+          }
+
+          html .bg-base-100 {
+            background-color: var(--base-100);
+          }
+
+          html .bg-base-200, html .hover\:bg-base-200:hover {
+            background-color: var(--base-200);
+          }
+
+          html .bg-base-300 {
+            background-color: var(--base-300);
+          }
+
+          html .border-base-100 {
+            border-color: var(--base-100);
+          }
+
+          html .border-base-200 {
+            border-color: var(--base-200);
+          }
+
+          html .border-base-300 {
+            border-color: var(--base-300);
+          }
+
+          html .text-base-content {
+            color: var(--base-content);
+          }
+
+          html .text-base-content-50 {
+            color: var(--base-content-50);
+          }
+
+          html .bg-info {
+            background-color: var(--info);
+          }
+
+          html .text-info {
+            color: var(--info-content);
+          }
+
+          html .border-info {
+            border-color: var(--info);
+          }
+
+          html .bg-success {
+            background-color: var(--success);
+          }
+
+          html .bg-success-50 {
+            background-color: var(--success-50);
+          }
+
+          html .text-success {
+            color: var(--success-content);
+          }
+
+          html .text-alone-success {
+            color: var(--success);
+          }
+
+          html .border-success {
+            border-color: var(--success);
+          }
+
+          html .bg-warning {
+            background-color: var(--warning);
+          }
+
+          html .text-warning {
+            color: var(--warning-content);
+          }
+
+          html .border-warning {
+            border-color: var(--warning);
+          }
+
+          html .bg-error {
+            background-color: var(--error);
+          }
+
+          html .text-error {
+            color: var(--error-content);
+          }
+
+          html .text-alone-error {
+            color: var(--error);
+          }
+
+          html .border-error {
+            border-color: var(--error);
+          }
+        </style><meta name="next-head-count" content="13"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><meta name="application-name" content="BuilderPlace"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="apple-mobile-web-app-title" content="BuilderPlace"/><meta name="description" content="Best BuilderPlace in the world"/><meta name="format-detection" content="telephone=no"/><meta name="mobile-web-app-capable" content="yes"/><meta name="msapplication-config" content="/images/browserconfig.xml"/><meta name="msapplication-TileColor" content="#11112a"/><meta name="msapplication-tap-highlight" content="no"/><meta name="theme-color" content="#11112a"/><link rel="apple-touch-icon" href="/images/touch-icon-iphone.png"/><link rel="apple-touch-icon" sizes="152x152" href="/images/touch-icon-ipad.png"/><link rel="apple-touch-icon" sizes="180x180" href="/images/touch-icon-iphone-retina.png"/><link rel="apple-touch-icon" sizes="167x167" href="/images/touch-icon-ipad-retina.png"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#000000"/><link rel="shortcut icon" href="/favicon.ico"/><link rel="preload" href="/_next/static/css/66651cd8acc7aded.css" as="style" crossorigin=""/><link rel="stylesheet" href="/_next/static/css/66651cd8acc7aded.css" crossorigin="" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-4aab7bfb227b1ac2.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/framework-6ac65891eef7d8fb.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/main-dd3a8eb8d8600ef4.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/_app-8b9a7808e4b32251.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/landing/terms-0d4c5518ab130c15.js" defer="" crossorigin=""></script><script src="/_next/static/1IL2CScX3VXQygvgOZNLy/_buildManifest.js" defer="" crossorigin=""></script><script src="/_next/static/1IL2CScX3VXQygvgOZNLy/_ssgManifest.js" defer="" crossorigin=""></script></head><body class="bg-base-200 min-h-screen"><div id="__next"><div class="pt-16"><div class="flex justify-center items-center"><div class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-primary !border-r-transparent align-[-0.125em] text-primary motion-reduce:animate-[spin_1.5s_linear_infinite]" role="status"><span class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span></div></div></div><div class="Toastify"></div><!--$--><!--/$--></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{}},"page":"/landing/terms","query":{},"buildId":"1IL2CScX3VXQygvgOZNLy","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>

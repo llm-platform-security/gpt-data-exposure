@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="eo">
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="theme-color" content="#e84d15"/>
+		<title>Plena Ilustrita Vortaro de Esperanto 2020 - Klarigoj</title>
+		<meta name="description" content="Tiu ĉi TTT-ejo estas la interreta versio de la Plena Ilustrita Vortaro de Esperanto 2020."/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:site_name" content="vortaro.net"/>
+		<meta property="og:title" content="Plena Ilustrita Vortaro de Esperanto 2020"/>
+		<meta property="og:description" content="La interreta versio de la Plena Ilustrita Vortaro de Esperanto 2020."/>
+		<meta property="og:url" content="https://s.vortaro.net/"/>
+		<meta property="og:image" content="https://s.vortaro.net/bildoj/PIV-2020.png"/>
+		<meta property="og:image:alt" content="La kovrilo de la libroeldono de PIV 2020."/>
+		<link rel="stylesheet" href="/stilo/css/piv.css?v=739"/>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+		<link rel="manifest" href="/manifest.json"/>
+	</head>
+
+	<body class="shargita">
+
+		<main>
+
+			<h1><span title="Plena Ilustrita Vortaro de Esperanto 2020">PIV 2020</span></h1>
+
+			<div id="klarigojdiv" class="sekcio" data-hash="_klarigoj">
+
+				<h2 id="_klarigoj">Klarigoj</h2>
+
+				<ul id="klarigojmenuo">
+
+					<li><a href="#_klarigoj-laenhavo">Enhavo</a></li>
+
+					<li><a href="#_klarigoj-blogo">PIV-blogo</a></li>
+
+					<li><a href="#_klarigoj-gheneralaj"><em>Ĝeneralaj rekomendoj por uzantoj</em></a></li>
+
+					<li><a href="#_klarigoj-libro">PIV 2020 kiel libro</a></li>
+
+					<li><a href="#_klarigoj-serchiloj">Du serĉiloj: plena kaj simpla</a></li>
+
+					<li><a href="#_klarigoj-sekcioj">Sekcioj</a></li>
+
+					<li><a href="#_klarigoj-mallongigoj-kaj-simboloj">Mallongigoj kaj simboloj</a></li>
+
+					<li><a href="#_klarigoj-laserchilo">La serĉilo</a></li>
+
+					<li><a href="#_klarigoj-laelektiloj">Elektiloj</a></li>
+
+					<li><a href="#_klarigoj-serchorezultoj">Serĉorezultoj</a></li>
+
+					<li><a href="#_klarigoj-multajtrafoj">Multaj trafoj</a></li>
+
+					<li><a href="#_klarigoj-referencoj">Vortoreferencoj</a></li>
+
+					<li><a href="#_klarigoj-specialsignoj">Specialsignoj kaj serĉoreguloj</a></li>
+
+					<li><a href="#_klarigoj-foliumado">Foliumado</a></li>
+
+					<li><a href="#_klarigoj-serchadodevortoenteksto">Serĉado de vorto en artikoloteksto</a></li>
+
+					<li><a href="#_klarigoj-klavopremoj">Uzi klavopremojn (fulmoklavojn)</a></li>
+
+					<li><a href="#_klarigoj-proponoj">Aŭtomataj proponoj</a></li>
+
+					<li><a href="#_klarigoj-kopiado-unuopaj-vortoj">Kopiado de unuopaj vortoj</a></li>
+
+					<li><a href="#_klarigoj-filtrado">Filtrado laŭ fakoj kaj oficialeco</a></li>
+
+					<li><a href="#_klarigoj-diferencoj">Diferencoj inter la papera kaj interreta versioj</a></li>
+
+					<li><a href="#_klarigoj-raporti">Raporti problemojn</a></li>
+
+				</ul>
+
+				<h2 id="_klarigoj-laenhavo">Enhavo</h2>
+
+				<p>Tiu ĉi TTT-ejo estas la interreta versio de la vortaro <cite>Plena Ilustrita Vortaro de Esperanto 2020</cite> (= PIV 2020) <a href="#_klarigoj-diferencoj"><strong>kun kelkaj diferencoj</strong>, kiuj estas prezentataj fine de tiuj ĉi klarigoj</a>.</p>
+
+				<h2 id="_klarigoj-blogo">PIV-blogo</h2>
+
+				<p><a id="blogoligilo"a class="ekstera" href="https://vortaro.net/blogo/" target="pivblogo">Novaĵojn pri PIV, precipe pri tiu ĉi interreta versio de PIV, vi povas legi en la PIV-blogo</a>.</p>
+
+				<h2 id="_klarigoj-libro">PIV 2020 kiel libro</h2>
+
+				<a href="/bildoj/PIV-2020.png" target="_blank"><img src="/bildoj/PIV-2020.png" id="pivbildo"/></a>
+
+				<p id="pivbildoalineo">PIV 2020 aperis ankaŭ kiel libro. Ĝi estas <a class="ekstera" href="http://www.satesperanto.org/spip.php?article4699">mendebla de <strong>SAT-Amikaro</strong> kaj aliaj gravaj libroservoj</a>. Oni ankaŭ povas skribi rekte al <a target="_blank" href="mailto:kontakto@satesperanto.org">kontakto@satesperanto.org</a>.</p>
+
+				<h2 id="_klarigoj-serchiloj">Du serĉiloj: plena kaj simpla</h2>
+
+				<p>La TTT-ejo enhavas du serĉilojn: <strong>plene kapablan serĉilon</strong>, kiu uzas multe da Javaskripto, kaj <strong>simplan serĉilon</strong>, kiu funkcias tute sen Javaskripto.</p>
+
+				<p>Tiuj ĉi klarigoj temas precipe pri la plene kapabla serĉilo farita por modernaj TTT-legiloj. Ĝi estas atingebla ĉe la adreso <a href="https://vortaro.net">vortaro.net</a>.</p>
+
+				<p>La simpla serĉilo, kiun oni atingas ĉe la adreso <a href="https://vortaro.net/simpla">vortaro.net/simpla</a>, taŭgas ankaŭ por malnovaj TTT-legiloj kaj por tiaj uzantoj, kiuj elektis malŝalti la uzon de Javaskripto en sia TTT-legilo. La simpla serĉilo ne provizas ĉiujn eblojn de serĉado. Interalie mankas la sekcio “Foliumi”, kaj ne eblas serĉi en la cetera teksto. La simpla serĉilo estas sufiĉe nova kaj ankoraŭ ne estas multe testita. Se vi uzas ĝin kaj renkontas problemojn, skribu al <span class="retadreso">“bertilow” ĉe “gmail.com”</span>. Pro tio, ke la simpla serĉilo eble ankoraŭ estos ŝanĝita, tiuj ĉi klarigoj ankoraŭ ne donas multe da informoj pri ĝi. Plejparte ĝia uzo estas sufiĉe memkomprenebla.</p>
+
+				<h2 id="_klarigoj-gheneralaj">Ĝeneralaj rekomendoj por uzantoj</h2>
+
+				<p>Tiu ĉi TTT-ejo donas abundajn eblojn por priserĉi la enhavon de PIV, kaj por foliumi tra ĝi. La ebloj kaj funkcioj estas sufiĉe kompleksaj, kaj kelkaj el ili povas esti malfacile kompreneblaj, se oni ne legas la ĉi-subajn klarigojn tre atente. Sed la bazajn funkciojn oni povas uzi eĉ sen legado de la klarigoj. Tiam estas rekomendinde lasi la diversajn elektilojn en la baza (defaŭlta) stato:</p>
+
+				<ul>
+
+					<li>La elektiloj <strong>kapvortoj</strong>, <strong>derivaĵoj</strong> kaj <strong>apartigi</strong> estu <em>aktivaj</em>.</li>
+
+					<li>La elektiloj <strong>cetere</strong>, <strong>uskle</strong> kaj <strong>tildoj</strong> estu <em>neaktivaj</em>.</li>
+
+					<li>La elektilon <strong>filtri</strong> oni <em>ne alklaku</em>.</li>
+
+				</ul>
+
+				<p>Se aperas dekstre de la supra titolo “PIV 2020” unu aŭ pli da simboloj (vinjetoj), tiam la filtradofunkcio estas aktiva. Se tio okazis sen via intenco, vi povas forigi tiujn simbolojn per duobla alklako sur ĉiu el ili, aŭ per la menuo, kiun vi atingas per la butono <strong>filtri</strong>.</p>
+
+				<h2 id="_klarigoj-sekcioj">Sekcioj</h2>
+
+				<p>La paĝo enhavas du sekciojn alireblajn per du butonoj supre de la paĝo:</p>
+
+				<ul>
+
+					<li><span class="sekcibutono">Serĉi</span> - ĉi tie oni faras serĉojn en la vortaro</li>
+
+					<li><span class="sekcibutono">Foliumi</span> - ĉi tie oni povas foliumi tra la vortaro</li>
+
+				</ul>
+
+				<p>Krome estas du butonoj por aliri klarigojn:</p>
+
+				<ul>
+
+					<li><span class="sekcibutono">?</span> - detalaj klarigoj pri la serĉilo (tiu ĉi paĝo)</li>
+
+					<li><span class="sekcibutono">B</span> - blogo pri PIV</li>
+
+				</ul>
+
+				<p>Poste estas ankaŭ butono <span class="sekcibutono">S</span>, per kiu oni povas salti al <a href="#_klarigoj-serchiloj">la simpla serĉilo</a>. (Se oni jam estas en la simpla serĉilo, tie estas anstataŭe butono <span class="sekcibutono">P</span>, per kiu oni povas salti al <a href="#_klarigoj-serchiloj">la plene kapabla serĉilo</a>.)</p>
+
+				<p>Kaj fine estas butono kun serurosimbolo, &#x1F512;, per kiu oni povas malŝalti ĉiujn <a href="#_klarigoj-klavopremoj">“fulmoklavojn”, kiuj estas markitaj per substrekita litero sur la koncerna klavo</a>.</p>
+
+				<h2 id="_klarigoj-mallongigoj-kaj-simboloj">Mallongigoj kaj simboloj</h2>
+
+				<p><a class="ekstera" href="/mallongigoj_simboloj.html" target="piv_mallongigoj_simboloj">La diversaj mallongigoj, simboloj kaj vinjetoj uzataj en la vortaro estas listigitaj en aparta paĝo.</a></p>
+
+				<h2 id="_klarigoj-laserchilo">La serĉilo</h2>
+
+				<p>Per la serĉilo en la sekcio “Serĉi” oni povas serĉi kapvortojn kaj derivaĵojn kaj aldone ankaŭ vortojn en la cetera teksto de la vortaraj artikoloj (difinoj, ekzemploj, rimarkoj...). Oni simple entajpu vorton en la tekstokampon, kaj poste premu la “Ek”-butonon aŭ uzu la enigoklavon.</p>
+
+				<p>Oni notu, ke serĉado en kapvortoj/derivaĵoj kaj serĉado en la cetera teksto funkcias en iom malsamaj manieroj. Legu pli detale ĉi-poste pri <a href="#_klarigoj-specialsignoj">specialsignoj en serĉesprimoj kaj pri serĉado en la cetera teksto</a>.</p>
+
+				<p>Oni povas uzi la ikso-sistemon en la tekstokampo: cx = ĉ, gx = ĝ, hx = ĥ, jx = ĵ, sx = ŝ, ux = ŭ.</p>
+
+				<h2 id="_klarigoj-laelektiloj">Elektiloj</h2>
+
+				<p>En la sekcio “Serĉi”, sub la kampo, kie oni enskribas serĉesprimon, estas kvin elektiloj:</p>
+
+				<ol>
+
+					<li><strong>kapvortoj</strong> elektas serĉadon en kapvortoj</li>
+
+					<li><strong>derivaĵoj</strong> elektas serĉadon en derivaĵoj</li>
+
+					<li><strong>cetere</strong> elektas serĉadon de unuopaj vortoj en la cetera teksto de la vortaro (difinoj, ekzemploj, rimarkoj...), sed nur vortoj longaj je almenaŭ tri signoj estas trovataj</li>
+
+					<li><strong>uskle</strong> elektas, ĉu la serĉo atentu la diferencon inter minuskloj kaj majuskloj</li>
+
+				</ol>
+
+				<p><strong>Por ordinara uzado la du elektiloj “kapvortoj” kaj “derivaĵoj” estu aktivaj, dum “cetere” kaj “uskle" estu neaktivaj.</strong></p>
+
+				<p>Ŝanĝoj ĉe tiuj kvar elektiloj efikas post serĉado.</p>
+
+				<p>La elektilo “cetere” povas iafoje esti <strong>markata per <span class="grizafono">griza fono</span></strong>. Tiam la elektilo estas sen efiko, kvankam ĝi estas aktivigita. Tio povas okazi, kiam oni uzas <a href="#_klarigoj-jhokersignoj">ĵokersignon</a> aŭ <a href="#_klarigoj-radikosigno">radiko-signon</a> en la serĉesprimo, aŭ kiam oni uzas <a href="#_klarigoj-filtrado">filtrilojn laŭ fako aŭ oficialeco</a>.</p>
+
+				<p>Apud la butono “uskle” estas ankaŭ speciala butono <strong>Hazarda</strong>, per kiu oni povas serĉi hazardan artikolon.</p>
+
+				<p>Supre, apud la sekciaj butonoj “Serĉi” kaj “Foliumi”, estas ankoraŭ tri elektiloj:</p>
+
+				<ol>
+
+					<li><strong>tildoj</strong> elektas, ĉu estu uzataj la klasikaj vortaraj tildo-signoj aŭ efektiva teksto por la koncerna kapvorta radiko.</li>
+
+					<li>
+
+						<p><strong>apartigi</strong> apartigas sekciojn, derivaĵojn kaj sencojn kiel memstarajn blokojn en la artikoloprezentado, kio povas faciligi la legadon.</p>
+
+						<p class="noto">La apartigado ankoraŭ ne estas ideala, ĉar la diversaj sekcioj de la artikoloj ankoraŭ ne estas perfekte markitaj en la baza kodo de la artikoloj. Tio estos iom post iom korektita.</p>
+
+
+					</li>
+
+					<li><p><strong>filtri</strong> fermas aŭ malfermas la menuon de <a href="#_klarigoj-filtrado">filtrado laŭ fakoj aŭ oficialeco</a>.</p></li>
+
+				</ol>
+
+				<p>Ŝanĝoj de la du elektiloj <strong>tildoj</strong> kaj <strong>apartigi</strong> tuj efikas al montrado de la aktuala serĉorezulto (se oni uzas la plene kapablan serĉilon - en <a href="#_klarigoj-serchiloj">la simpla serĉilo</a>, la efiko aperas nur post nova serĉo). Ili efikas same ankaŭ al montrado de artikoloj sub “Foliumi”.</p>
+
+				<p><strong>Plej multaj uzantoj verŝajne preferas, ke la elektilo “apartigi” estu aktiva, dum “tildoj” estu neaktiva.</strong></p>
+
+				<h2 id="_klarigoj-serchorezultoj">Serĉorezultoj</h2>
+
+				<p>La rezultoj de serĉo prezentiĝas kiel listo de artikoloj el la vortaro kun la koncernaj trafoj <span class="markitatrafo">markitaj</span>. Se estas multaj artikoloj en tiu prezento, oni devas rulumi tiun liston suben. Antaŭ tiu listo de artikoloj aperas aparta <strong>trafomenuo</strong>, kiu estas listo de ĉiuj trafoj en la montrataj artikoloj: unue la kapvortaj kaj derivaĵaj trafoj kaj poste la trafoj en cetera teksto. En tiu listo ĉefvortaj trafoj aspektas kiel <span class="trafovorto_kap">kapvorto</span>, derivaĵaj trafoj aspektas kiel <span class="trafovorto_der">derivaĵo</span>, kaj trafo en cetera teksto aspektas kiel <span class="trafovorto_cet">cetere</span>. Alklako de ero en tiu listo rulumas la prezenton de artikoloj al la koncerna trafo, kiu tiam estas pli elstare <span class="markitatrafo fokuso">markita</span>. La unua trafo estas aŭtomate tiel montrata. La trafoj en cetera teksto povas ofte konsisti el listo de ripetataj vortoj, ĉar la sama vorto povas aperi samforme en pluraj lokoj, dum ordinare estas ne pli ol unu kapvorta trafo, kaj ne pli ol unu derivaĵa trafo.</p>
+
+				<p>Maldekstre de ĉiu artikolo en serĉorezultoj aperas la simbolo <span class="vinjeto">📖</span>. Ĝi donas la eblon foliumi tra la vortaro ekde la koncerna artikolo. Tio okazas aŭtomate en la sekcio “Foliumi”.</p>
+
+				<p id="_klarigoj-sagoj-serchi">Dekstre supre en la prezento de serĉorezultoj aperas <strong>kvar sagoj</strong>, per kiuj oni povas moviĝi tra la serĉorezultoj. Per la sago <kbd class="sago">&#8657;</kbd> oni iras al la komenco de la serĉorezulto. Per la sago <kbd class="sago">&#8659;</kbd> oni iras al la fino. Per la sago <kbd class="sago">&uarr;</kbd> oni moviĝas al la komenco de la unua videbla artikolo aŭ al la artikolo antaŭ tiu. Per la sago <kbd class="sago">&darr;</kbd> oni moviĝas al la posta artikolo (post la unua videbla artikolo). Atentu, ke tiu moviĝado koncernas artikolojn, ne serĉotrafojn. Kompreneble oni ankaŭ povas moviĝi per muso, per la ruluma listelo k.s., sed iafoje la kvar sagoj povas esti oportunaj.</p>
+
+				<p>Se oni <strong>ŝanĝas la staton</strong> de iu el la elektiloj sub la kampo de serĉesprimo, aŭ ŝanĝas la staton de <a href="#_klarigoj-filtrado">la filtriloj</a>, tiam jam videblaj serĉorezultoj iom griziĝas por montri, ke la videblaj serĉorezultoj ne estas faritaj laŭ la aktuala stato de tiuj diversaj elektiloj. Se oni tiam faras novan serĉon, aperas nova serĉorezulto, kiu ja kongruas kun tiu stato.</p>
+
+				<p>Oni povas <strong>ŝanĝi la larĝon de la prezento de serĉorezultoj</strong>: La dekstra rando (kun ruluma listelo) estas tirebla dekstren aŭ maldekstren per muso (aŭ per tuŝpremo ĉe tuŝekrano).</p>
+
+				<h2 id="_klarigoj-multajtrafoj">Multaj trafoj</h2>
+
+				<p>Prezentiĝas samtempe 10 artikoloj (iafoje iomete pli ol 10). Se estas trafoj en pliaj artikoloj, aperas sago por antaŭeniri al la sekva grupo de artikoloj. Kiam iu el la sekvaj artikologrupoj estas prezentata, aperas sago por reeniri al la antaŭa grupo. Krome haveblas falmenuo, per kiu oni povas salti rekte al iu ajn el la diversaj artikologrupoj.</p>
+
+				<p>La artikoloj estas prezentataj en alfabeta ordo (laŭ la kapvorto). Sed se oni serĉis kaj kapvortojn/derivaĵojn, kaj ankaŭ en la cetera teksto, trafoj en kapvortoj kaj derivaĵoj ĉiam estas montrataj unue. Tiam povas okazi, ke estas prezentataj iom pli ol 10 artikoloj en la unua grupo. En tia situacio povas okazi, ke la koncernaj artikoloj kun kapvortaj aŭ derivaĵaj trafoj reaperas, kiam oni antaŭeniras al la sekvaj grupoj, ĉar en tiuj artikoloj povas esti ankaŭ trafoj en cetera teksto.</p>
+
+				<p>Kiam la listo de artikoloj estas tre longa, oni devas rulumi ĝin suben por vidi ĉiujn artikolojn. Se oni uzas poŝtelefonon (aŭ alian aparaton kun tre malgranda ekrano), aperas suba strekita bordero de la artikololisto por indiki, ke ekzistas pli da teksto por montri. Se oni uzas grandan ekranon, la neceso rulumi suben estas montrata per la apero de rulumilo (ordinare dekstre).</p>
+
+				<p>Kiam oni serĉas en cetera teksto, povas iafoje esti, ke estas samtempe tre multe da trafoj en la trafomenuo, kiu tiam eble ne povas montri samtempe ĉiujn trafojn. Tiam oni devas mem rulumi la trafomenuon suben por vidi la lastajn trafojn. Tio estas montrata same kiel ĉe la listo de artikoloj (vidu tuj ĉi-antaŭe).</p>
+
+				<h2 id="_klarigoj-referencoj">Vortoreferencoj</h2>
+
+				<p>En multaj lokoj en la artikoloj de la vortaro aperas referencoj al aliaj vortoj per la mansimbolo <span class="vinjeto">☞</span> (por “vorto, apartenanta al la sama semantika kampo”) aŭ la sagosimbolo <span class="vinjeto">➞</span> (por “esprimo, ligita kun la koncerna vorto, aŭ al vorto, elvokanta najbaran nocion”). En la antaŭa versio de tiu ĉi TTT-ejo vortoj post tiuj referencaj simboloj estis alklakeblaj ligiloj al la koncernaj artikoloj. Ĉi tie ne aperas tiaj ligiloj. Anstataŭe oni povas <a href="#_klarigoj-serchadodevortoenteksto">duoble alklaki la vortojn, kaj tiam ili estas aŭtomate serĉataj</a>. Fakte oni povas tiamaniere salti al preskaŭ ĉiu ajn vorto en la artikolotekstoj, ne nur tiuj kun mansimbolo aŭ sago. Tia aŭtomata serĉado funkcias plej bone, se ambaŭ elektiloj “kapvortoj” kaj ”derivaĵoj” estas aktivaj.</p>
+
+				<h2 id="_klarigoj-specialsignoj">Specialsignoj kaj serĉoreguloj</h2>
+
+				<ul>
+
+					<li id="_klarigoj-jhokersignoj">
+
+						<p>En priserĉado de kapvortoj kaj derivaĵoj oni povas uzi ĵokerajn signojn: <kbd>?</kbd> tiam reprezentas unu signon, dum <kbd>*</kbd> reprezentas nul aŭ pli da signoj. Ekz. <kbd>?iam</kbd> trovas “ĉiam”, “kiam” kaj “tiam”, dum <kbd>*iam</kbd> trovas “ĉiam”, ”iam”, “kiam”, “neniam” kaj “tiam”. En serĉado de la cetera teksto tiaj ĵokeraj signoj tamen tute ne estas uzeblaj.</p>
+
+					</li>
+
+					<li id="_klarigoj-radikosigno">
+
+						<p>En serĉesprimoj oni povas uzi radiko-signon: <kbd>/</kbd>, per kiu oni indikas, ke oni serĉas nudan radikon sen finaĵo aŭ derivaĵon sen finaĵo, ekz. <kbd>tabl/</kbd> aŭ <kbd>malbon/</kbd>. Uzado de <kbd>/</kbd>-signo povas esti utila, kiam oni ne estas certa, kiun finaĵon la koncerna vorto havas en la vortaro. La radiko-signo ĉiam estu la lasta signo en la serĉesprimo. Kiam oni uzas radiko-signon, oni trovas nur tiajn radikojn aŭ derivaĵojn, kiuj bezonas finaĵon. Do, se oni serĉas ekz. <kbd>ĉiel/</kbd>, oni trovas la vortojn “ĉielo” (kapvorton) kaj “ĉiela” (derivaĵon), sed ne la tabelvorton “ĉiel”, ĉar ĝi ne bezonas finaĵon.</p>
+
+						<p>En serĉado en cetera teksto la radiko-signo ne estas uzebla.</p>
+
+						<p>Oni povas uzi ĵokerajn signojn kaj radiko-signon kune. Ekz. <kbd>ka*/</kbd> trovas ĉiujn vortojn, kiuj komenciĝas per “ka” kaj bezonas finaĵon, do interalie “kajo” kaj “kaŝangulo” (sed ne la vorteton “kaj”, kiu ne bezonas finaĵon).</p>
+
+					</li>
+
+					<li>
+
+						<p>En serĉado de la cetera teksto, ĉiu vorto estas aparte traktata. Ekz. la serĉesprimo <kbd>granda vortaro</kbd> trovas artikolojn kun la vorto “granda” kaj artikolojn kun la vorto “vortaro”, sed la frazeto “granda vortaro” ne estas aparte serĉata. Krome mallongaj vortoj kun malpli ol tri signoj (ekz. “la”, “de” k.s.) estas plene ignorataj en tia serĉado.</p>
+
+						<p class="noto">Aparta vorto estas <strong>vico de literoj aŭ ciferoj</strong>. Se oni do enskribas ekzemple “mem-evidenta” kiel serĉesprimon, tio estos traktata kiel du vortoj: “mem” kaj ”evidenta”, ĉar la dividostreko estas nek litero, nek cifero. Tio krome signifas, ke ne eblas serĉi en la cetera teksto vortojn kun apostrofo. Ekz. <kbd>bat’</kbd> estas traktata same kiel <kbd>bat</kbd> sen apostrofo. Ambaŭ donas la samajn serĉorezultojn en serĉado de cetera teksto.</p>
+
+					</li>
+
+					<li>
+
+						<p id="_klarigoj-j-finajho">Se <strong>kapvorto aŭ derivaĵo aperas kun J-finaĵo</strong> en la vortaro (kiel ekz. “amfibioj”, “atestaĵoj” kaj “ĉokoladaj lentoj”), la serĉilo trovas ĝin ankaŭ se oni serĉas la vorton sen J-finaĵo.</p>
+
+						<p id="_klarigoj-eldivenado">Se oni enskribas kiel serĉesprimon <strong>vorton kun finaĵoj</strong>, kiujn la koncerna vorto ne havas en la vortaro (kiel kapvorto aŭ derivaĵo), ekz. <kbd>tablojn</kbd> anstataŭ la baza formo <kbd>tablo</kbd>, la serĉado tamen plej ofte sukcesas, ĉar la serĉilo mem forigas la superfluajn finaĵojn. Ankaŭ se oni uzas por verbo alian finaĵon ol “-i”, la serĉilo tion korektas. Ankaŭ participajn formojn kiel <kbd>faratajn</kbd> la serĉilo korektas al la responda verbo, ĉi-okaze <kbd>fari</kbd>.</p>
+
+						<p>La eldivenado de baza formo (per forigado de superfluaj finaĵoj) estas aparte utila, kiam oni <a href="#_klarigoj-serchadodevortoenteksto">serĉas vorton en artikoloteksto per duobla alklako</a>.</p>
+
+						<p>Tamen, se oni uzas <a href="#_klarigoj-jhokersignoj">ĵokersignojn</a> aŭ <a href="#_klarigoj-radikosigno">radiko-signon</a> en la serĉesprimo, la serĉilo ne provas eldiveni la bazan formon.</p>
+
+						<p>Serĉado en la cetera teksto ĉiam uzas tiun vortformon, kiun oni efektive enskribis (ne la eventualan bazan formon, kiu estis eldivenita por serĉado en kapvortoj aŭ derivaĵoj).</p>
+
+						<p class="noto">La eldivenado de baza formo estas sufiĉe nova funkcio, kaj povas esti, ke ĝi ankoraŭ ne perfekte funkcias.</p>
+
+					</li>
+
+				</ul>
+
+				<h2 id="_klarigoj-foliumado">Foliumado</h2>
+
+				<p>En la sekcio “Foliumi” oni povas foliumi tra la vortaro elektante la diversajn sekciojn laŭ la komencliteroj. Oni povas ekigi tian foliumadon ankaŭ en la sekcio “Serĉi” pere de la simbolo 📖 apud artikolo en serĉorezulto (sed se iu el <a href="#_klarigoj-filtrado">la filtriloj</a> estas aktiva, povas esti, ke la elektita vorto mem tute ne aperas, se ĝi ne kongruas kun la elektitaj filtriloj).</p>
+
+				<p>En la fino de la menuo de komencliteroj estas ronda simbolo, per kiu oni povas rerulumi la prezenton al tiu loko, kie oni komencis la foliumadon.</p>
+
+				<p>La elektiloj “tildoj” kaj “apartigi” efikas ankaŭ al montrado de artikoloj en la sekcio “Foliumi”.</p>
+
+				<p id="_klarigoj-sagoj-foliumi">Dekstre supre en la foliuma prezento de serĉorezultoj aperas <strong>kvar sagoj</strong>, per kiuj oni povas moviĝi tra la artikoloj. Tiuj sagoj funkcias esence same kiel <a href="#_klarigoj-sagoj-serchi">la sagoj en la serĉorezultoj de la sekcio “Serĉi”</a>.</p>
+
+				<p>Se oni <strong>ŝanĝas la staton</strong> de  <a href="#_klarigoj-filtrado">la filtriloj</a>, tiam jam videblaj artikoloj foliumataj iom griziĝas por montri, ke la videbla foliumado ne estas farita laŭ la aktuala stato de la filtriloj. Se oni tiam alklakas komencliteron, la foliumilo reŝargiĝas laŭ la stato de tiuj filtriloj.</p>
+
+				<p>Oni povas <strong>ŝanĝi la larĝon de la prezento de la vortaraj artikoloj</strong>: La dekstra rando (kun ruluma listelo) estas tirebla dekstren aŭ maldekstren per muso (aŭ per tuŝpremo ĉe tuŝekrano).</p>
+
+				<h2 id="_klarigoj-serchadodevortoenteksto">Serĉado de vorto en artikoloteksto</h2>
+
+				<p>Se en la teksto de montrata artikolo oni vidas vorton, kiun oni volas serĉi, oni povas simple duoble alklaki ĝin (aŭ marki ĝin per la muso). Ĝi tiam estas tuj aŭtomate serĉata.</p>
+
+				<p>Se oni nur volas marki vorton (eble por poste kopii ĝin), sed ne volas ĝin aŭtomate serĉi, oni premu la <strong>Stir-klavon</strong>, kiam oni markas la vorton. Tiam ne okazas aŭtomata serĉado. Vidu tiurilate ankaŭ la klarigojn pri <a href="#_klarigoj-kopiado-unuopaj-vortoj">Kopiado de unuopaj vortoj</a>.</p>
+
+				<p>Se la serĉo ne donas rezulton, oni eble bezonas aktivigi la elektilon “kapvortoj” aŭ la elektilon “derivaĵoj”, aŭ ambaŭ, kaj poste reprovi la serĉon. Iafoje indas ŝanĝi la finaĵon de la serĉota vorto, por ke ĝi estu en pli baza formo, sed ofte la serĉilo mem sukcesas eldiveni la bazan formon. Oni ankaŭ povas laŭbezone anstataŭigi la finaĵon per <a href="#_klarigoj-jhokersignoj">ĵokera signo</a> (<kbd>?</kbd> aŭ <kbd>*</kbd>). Eventuale necesas malŝalti eventualajn <a href="#_klarigoj-filtrado">filtrilojn</a>.</p>
+
+				<p>Tia serĉado de vortoj en artikoloteksto funkcias kaj en serĉorezultoj de la sekcio “Serĉi", kaj en artikoloj montrataj en la sekcio “Foliumi”.</p>
+
+				<p>Se oni uzas <strong>tuŝekranon</strong>, necesas uzi la kopifunkcion de la legilo. Oni unue marku la koncernan vorton (ekz. per longa tuŝado de la teksto). Ordinare tiam aŭtomate aperas la eblo kopii ĝin. Tuj post la kopiado, la koncerna vorto estas aŭtomate serĉata.</p>
+
+				<p>Se oni markas plurajn vortojn, aŭ tekston, kiu ne estas nura vorto, nenio okazas.</p>
+
+				<h2 id="_klarigoj-klavopremoj">Uzi klavopremojn (fulmoklavojn)</h2>
+
+				<p>Multajn funkciojn de la serĉilo oni povas regi per klavopremoj anstataŭ per muso, per t.n. fulmoklavoj:</p>
+
+				<ul>
+					<li><kbd>s</kbd> aŭ <kbd>Eskapa klavo</kbd> = meti fokuson al la tekstokampo por serĉesprimoj</li>
+					<li><kbd>k</kbd> = ŝalti/malŝalti la elektilon “kapvortoj”</li>
+					<li><kbd>d</kbd> = ŝalti/malŝalti la elektilon “derivaĵoj”</li>
+					<li><kbd>c</kbd> = ŝalti/malŝalti la elektilon “cetere”</li>
+					<li><kbd>u</kbd> = ŝalti/malŝalti la elektilon “uskle”</li>
+					<li><kbd>t</kbd> = ŝalti/malŝalti la elektilon “tildoj”</li>
+					<li><kbd>a</kbd> = ŝalti/malŝalti la elektilon “apartigi”</li>
+					<li><kbd>f</kbd> = fermi/malfermi la elektilon de serĉofiltrado laŭ fakoj kaj oficialeco</li>
+					<li><kbd>Enigo-klavo</kbd> = ekigi serĉon</li>
+					<li><kbd>S</kbd> (majuskle) = aktivigi la sekcion “Serĉi”</li>
+					<li><kbd>F</kbd> (majuskle) = aktivigi la sekcion “Foliumi”</li>
+				</ul>
+
+				<p>Multaj el la butonoj havas substrekitan literon (ekz. <span>“<span class="klavo">S</span>erĉi”</span>), kiu montras la klavon uzeblan anstataŭ la koncerna butono.</p>
+
+				<p>En <a href="#_klarigoj-filtrado">la menuo de filtrado</a> estas kelkaj pliaj elektiloj aktivigeblaj per klavopremoj. La koncernaj signoj estas tie markitaj per substrekita litero aŭ cifero.</p>
+
+				<p>Se la fokuso estas en la tekstokampo por serĉesprimoj, la <kbd>eskapa klavo</kbd> elektas la tutan jam entajpitan tekston, sed la literaj klavoj (<kbd>s</kbd>, <kbd>k</kbd>, <kbd>d</kbd>, <kbd>c</kbd>, <kbd>u</kbd>, <kbd>t</kbd>, <kbd>a</kbd>, <kbd>S</kbd> kaj <kbd>F</kbd>) tiam simple enmetas la koncernajn literojn. Se oni volas uzi ilin por la ĉi-antaŭe menciitaj funkcioj, oni devas unue eliri el la tekstokampo, ekz. per la <kbd>tabo</kbd>-klavo.</p>
+
+				<p>Per la <strong>serurosimbolo</strong>, &#x1F512; oni povas malŝalti ĉiujn “fulmoklavojn”, kiuj estas markitaj per substrekita litero sur la koncerna klavo. Iuj uzantoj trovas tiujn fulmoklavojn pli ĝenaj ol helpaj.</p>
+
+				<h2 id="_klarigoj-kopiado-unuopaj-vortoj">Kopiado de unuopaj vortoj</h2>
+
+				<p>Ĉi-antaŭe estas klarigoj pri <a href="#_klarigoj-serchadodevortoenteksto">Serĉado de vortoj en artikoloteksto</a>. Tie estas klarigite, ke estas uzata la kopifunkcio de la legilo por ke la aŭtomata serĉado funkciu ankaŭ kiam oni uzas tuŝekranon. Tio bedaŭrinde havas la sekvon, ke fariĝas malfacile kopii unupajn vortojn en artikoloteksto (ekz. per la klavo <kbd>Stir-C</kbd>). Se oni provas fari tion, okazas anstataŭe aŭtomata serĉado de la vorto, kiun oni provis kopii. Se oni ne uzas tuŝekranon, oni povas ebligi tian kopiadon, se oni uzas la ŝaltilon “Ebligi kopiadon”, &#x1F4CB;, kiu troviĝas laste en la plej supra vico de butonoj (apud la serurosimbolo). Kiam ĝi estas ŝaltita, la kopifunkcio ne estas uzata por aŭtomata serĉado. Se oni ne uzas tuŝekranon, oni kredeble aktivigu tiun ŝaltilon.</p>
+
+				<p>Aldone, por entute marki vorton, kiun oni volas kopii, necesas <a href="#_klarigoj-serchadodevortoenteksto">teni la <strong>Stir-klavon</strong>, dum oni markas la vorton</a>, alie okazas aŭtomata serĉado.</p>
+
+				<h2 id="_klarigoj-proponoj">Aŭtomataj proponoj</h2>
+
+				<p>Kiam oni entajpas serĉesprimon en la tekstokampo en la sekcio “Serĉi”, aŭtomate aperas (en falmenuo sub la tekstokampo) proponoj pri vortoj serĉeblaj. Se oni aktivigis la elektilon “kapvortoj”, aperas kapvortoj kiel proponoj. Se oni aktivigis la elektilon “derivaĵoj”, aperas derivaĵoj kiel proponoj. Vortoj el la cetera teksto neniam estas proponataj.</p>
+
+				<p>Kiam aperas taŭga propono, oni povas ĝin elekti (alklaki), kaj tiu vorto estas aŭtomate serĉata. Proponoj aperas ankaŭ, kiam oni uzas <a href="#_klarigoj-jhokersignoj">ĵokersignojn</a>, sed <a href="#_klarigoj-radikosigno">radiko-signoj</a> (<kbd>/</kbd>) estas ignorataj en tia proponado de vortoj.</p>
+
+				<p>En tia listo de proponoj aperas ankaŭ fakaj vinjetoj (<span class="vinjeto">𝅘𝅥𝅰</span> = <em>Muziko</em>, <span class="vinjeto">Φ</span> = <em>Filozofio</em> k.t.p - vidu <a class="ekstera" href="/mallongigoj_simboloj.html#vinjetotabelo" target="piv_mallongigoj_simboloj">la klarigojn pri vinjetoj</a>), kaj indikoj pri oficialeco (<span class="vinjeto">★</span> = <em>Fundamenta</em>, 1 = <em>Unua Oficiala Aldono al la Universala Vortaro</em>, k.t.p.).</p>
+
+				<h2 id="_klarigoj-filtrado">Filtrado laŭ fakoj kaj oficialeco</h2>
+
+				<p>Per la elektilo <strong>filtri</strong> oni povas malfermi menuon, en kiu eblas ŝalti diversajn filtrilojn laŭ fakoj aŭ la oficialeco. <em>La filtradofunkcioj estas novaj kaj iom eksperimentaj. Tute povas esti, ke la filtradosistemo estos ankoraŭ grave modifita.</em> <strong>Uzado de la filtriloj povas esti sufiĉe kompleksa afero, kaj indas zorge legi la klarigojn antaŭ ol uzi tiun funkcion. La eblo uzi filtradon estas celita al specialaj bezonoj de esplorantoj, kaj kredeble ne multe utilas al ordinaraj uzantoj.</strong></p>
+
+				<p>Plej supre en la menuo estas kvin butonoj por filtri laŭ <strong>oficialeco</strong>:</p>
+
+				<ol>
+
+					<li><strong>ĉiuj</strong> = ĉiaj vortoj/elementoj - tio signifas, ke oni ne filtras laŭ oficialeco</li>
+
+					<li><strong>Fundamentaj kaj oficialaj</strong> = nur vortoj/elementoj, kiuj estas en la Fundamento de Esperanto (= Fundamentaj) aŭ en iu el la Oficialaj Aldonoj al la Universala Vortaro (= oficialaj)</li>
+
+					<li><strong>Fundamentaj</strong> = nur vortoj/elementoj, kiuj estas en la Fundamento de Esperanto</li>
+
+					<li><strong>oficialaj</strong> = nur vortoj/elementoj, kiuj estas en iu el la Oficialaj Aldonoj al la Universala Vortaro</li>
+
+					<li><strong>neoficialaj</strong> = nur vortoj/elementoj, kiuj estas nek en la Fundamento, nek en iu el la Oficialaj Aldonoj al la Universala Vortaro</li>
+
+				</ol>
+
+				<p>Poste sekvas elektiloj por filtri laŭ <strong>fakoj</strong>, t.e. laŭ <a class="ekstera" href="/mallongigoj_simboloj.html#lavinjetoj" target="piv_mallongigoj_simboloj">tiuj fakaj vinjetoj, kiuj estas uzataj en PIV 2020</a>. Per alklako oni povas ŝalti aŭ malŝalti la deziratajn fakojn. Ankaŭ eblas moviĝi inter la fakoj per la <kbd>tabo</kbd>-klavo. Kiam faka linio havas fokuson, oni povas ĝin ŝalti aŭ malŝalti ankaŭ per la <kbd>e</kbd>-klavo (por "elekti"). Kiam unu aŭ pli da fakoj estas elektitaj, aperas ankaŭ butono “malelekti ĉiujn fakojn”, per kiu oni povas per unu alklako forigi ĉiujn elektitajn fako-elektojn. Alternative oni povas la samon fari per la <kbd>m</kbd>-klavo (por “malelekti”).</p>
+
+				<p>Kiam filtrilo estas aktiva, ties simbolo (vinjeto) aperas apud la titolo “PIV 2020” plej supre. Oni povas forigi filtrilon per duobla alklako sur la koncerna simbolo (aŭ, kompreneble, per la filtrada menuo).</p>
+
+				<p>Kiam oni uzas filtradon en la sekcio <strong>Serĉi</strong>, la serĉilo trovas vortojn, kiuj <em>mem</em> havas iun el la elektitaj fakovinjetoj, aŭ <em>mem</em> havas la elektitan oficialecon. La filtrado do sekvas rigore tiujn indikojn, kiuj estas en PIV 2020. Kiam unu aŭ pli da filtriloj estas aktiva, oni ne povas serĉi en la cetera teksto, sed nur en kapvortoj kaj derivaĵoj.</p>
+
+				<p class="noto">Antaŭe la filtrado estis aplikita pli vaste: La serĉilo tiam trovis ankaŭ derivaĵojn, kies kapvorto havis la koncernan fakan vinjeton aŭ oficialecon, kaj ankaŭ kapvortojn, ĉe kiuj iu el la derivaĵoj havis la koncernan vinjeton aŭ oficialecon.</p>
+
+				<p>En la sekcio <strong>Foliumi</strong> la filtrado elektas tiajn artikolojn, en kiuj ie aperas iu el la elektitaj fakovinjeto, aŭ en kiu ie estas vorto kun la elektita oficialeco. Pro tio, ke preskaŭ ĉiu artikolo enhavas almenaŭ unu vorton sen indiko pri oficialeco, filtrado laŭ “neoficialaj” ne donas tre utilan rezulton en la sekcio Foliumi.</p>
+
+				<p>La filtradan menuon oni povas fermi per la elektilo “filtri” (aŭ per premo de "f"-klavo), sed ĝi ankaŭ fermiĝas aŭtomate, se oni ekigas novan serĉon.</p>
+
+				<p>Se la rezulto de jam farita serĉo estas videbla, kaj se oni ŝanĝas la filtrilojn (aldonas aŭ forigas filtrilon), la tuta jam farita serĉorezulto iom griziĝas, se ĝi ne plu kongruas kun la aktivaj filtriloj. Se oni faras novan serĉon, kiu tiam ja kongruas kun la aktivaj filtriloj, la grizeco malaperas. La samo okazas en la sekcio Foliumi.</p>
+
+				<p>Kiam oni uzas filtradon en la sekcio <strong>Foliumi</strong>, la rezultoj povas iafoje esti iom surprizaj. Povas esti, ke tutaj literosekcioj mankas. Se oni ekzemple elektas filtri laŭ la fako <i>Anatomio</i>, kaj alklakas la literon <strong>Ĵ</strong>, tiam aperas neniom da trafoj kun la komenca litero Ĵ, ĉar hazarde neniu el la artikoloj kun la komenclitero Ĵ enhavas la fakan vinjeton por anatomio.</p>
+
+				<p class="noto" id="_klarigoj-oficialeconoto">Oni atentu, ke klasado de vortoj kaj elementoj laŭ oficialeco estas iom tikla afero. En PIV 2020 estas principe markitaj kiel Fundamentaj aŭ oficialaj nur efektivaj vortoj, kiuj troviĝas en la Fundamento aŭ la Oficialaj Aldonoj respektive. Tial ekz. la kapvorto “gluo” ne estas en la filtrado klasata kiel Fundamenta, ĉar la steleto, kiu indikas Fundamentecon, aperas nur ĉe ties derivaĵo “glui”, tiu vorto, kiu efektive estas en la Fundamento. La Akademio de Esperanto tamen klasas kiel Fundamentajn aŭ oficialajn la radikojn de tiaj vortoj. <a class="ekstera" target="_blank" href="https://akademio-de-esperanto.org/akademia_vortaro/klarigoj.html">Pri Fundamenteco kaj oficialigoj oni povas legi detale en la TTT-ejo de la Akademio de Esperanto.</a></p>
+
+				<p class="noto">La filtrado laŭ fakoj atentas nur rektajn indikojn per la diversaj fakaj vinjetoj. Ekzemple ĉe “handikapo” la unua senco havas la fakan vinjeton por sporto, kaj la dua havas la fakan vinjeton por medicino kaj kirurgio. Poste la verbo “handikapi” havas du sencojn, kies difinoj mencias tiujn du fakajn sencojn de “handikapo”, sed kiuj mem ne havas la respektivajn fakajn vinjetojn. Logike tiuj du sencoj de “handikapi” do apartenas al la du koncernaj fakoj, sed filtrado laŭ fakoj tion ne atentas. Iam estonte la du unuaj sencoj de “handikapi” espereble estos ĝuste markitaj per siaj respektivaj fakaj vinjetoj.</p>
+
+				<h2 id="_klarigoj-diferencoj">Diferencoj inter la papera kaj interreta versioj</h2>
+
+				<p>Estas kelkaj diferencoj inter la teksto de la papera versio de PIV 2020 kaj tiu ĉi interreta versio:</p>
+
+				<ul>
+
+					<li>Malgrandaj sensignifaj eraretoj pri interpunkcio, krampoj, grasa stilo, kursivo k.s. estas korektitaj.</li>
+
+					<li>Tie, kie en la libra eldono aperas tildo-signo (⁓), kiu simbolas la aktualan kapvortan radikon, aperas tie ĉi anstataŭe la koncerna radiko mem kiel teksto, sed kolore <span class="radikoteksto">distingigita</span>. Se oni preferas la klasikan vortaran prezenton, oni povas aperigi tildo-signojn per la elektilo “tildoj”. Vidu pli pri tiu temo ĉi-poste ĉe <a href="#_klarigoj-usklecoshangho">Usklecoŝanĝo ene de artikolo</a>.</li>
+
+					<li>En kelketaj lokoj en tiu ĉi versio de la vortaro tia tildo-signo estas korekte aldonita tie, kie en la libra eldono aperas la kapvorta radiko kontraŭ la principoj de PIV.</li>
+
+					<li>En sufiĉe multaj lokoj la libra versio de PIV prezentas kunigitajn derivaĵojn, ekz. “<strong>bovina</strong> aŭ <strong>Jenera ~o</strong>” (la tildo tie reprezentas la radikon “vakcin”). En tiaj okazoj aperas ĉi tie anstataŭe ĉiu el tiuj derivaĵoj aparte: “<strong>bovina ⁓o</strong> aŭ <strong>Jenera ~o</strong>”, por ke ĉiu formo estu aparte trovebla per la serĉilo. Simile ekz. “<strong>(A)~io, ~ujo</strong>” (la tildo reprezentas la radikon “aŭstr/”) fariĝis ĉi tie “<strong>(A)~io</strong>, <strong>(A)~ujo</strong> kun aldono de “(A)” ĉe la dua formo. Alian tre oftan kunigon povas ekzempligi “<strong>amin(o)⁓o</strong>“ (kie la tildo reprezentas “acid”), kiu en la libra PIV esprimas kune la du variantojn “aminacido" kaj “aminoacido”. Tio fariĝis ĉi tie du apartaj derivaĵoj: “<strong>amin⁓o</strong>” kaj “<strong>amino⁓o</strong>”.</li>
+
+					<li>En la artikoloj pri kvin sufiksoj, kelkaj derivaĵoj estas eksplicite aldonitaj kiel grase skribitaj vortoj por ebligi serĉadon. Temas pri la derivaĵoj: <strong>ade</strong>, <strong>adsubstantivo</strong>, <strong>ejo</strong>, <strong>ema</strong>, <strong>emo</strong>, <strong>emi</strong>, <strong>emigi</strong>, <strong>ido</strong> kaj <strong>ilo</strong> (la respektivaj difinoj kaj ekzemploj jam ĉeestis). Tiel la prezento de tiuj derivaĵoj nun sekvas la modelon de similaj derivaĵoj de aliaj sufiksoj, ekz. <strong>aĵo</strong>, <strong>eta</strong> kaj <strong>indi</strong>. Ĉe la sufiksaj derivaĵoj <strong>igi</strong> kaj <strong>iĝi</strong> la prezento de la derivaĵo estas korektita kaj nun uzas tildon kiel normale.</li>
+
+					<li>Kelkaj formuloj (ĥemiaj k.s.) devis ĉi tie esti iom alie skribitaj ol en la libro, ĉar prezentado de komplikitaj formuloj ne estas ĉiam ideale farebla en HTML.</li>
+
+					<li>Ĉiuj ilustraĵoj kaj tabeloj en la libra versio dume forestas el tiu ĉi reta versio de PIV.</li>
+
+					<li>En PIV 2020 devus aperi en la artikolo pri <strong>numero</strong> la nove aldonita kunmetaĵo <strong>atomnumero</strong>. Bedaŭrinde en la redaktado tiu derivaĵo akcidente estis enmetita anstataŭe en la artikolon pri <strong>nukleo</strong>, tiel ke ĝi ŝajnas esti <strong>atomnukleo</strong>. La difino tamen klare temas pri <strong>atomnumero</strong>. Tiu eraro estas ĝustigita per movo de la tuta derivaĵo en la artikolon pri <strong>numero</strong>. Samtempe en unu loko en la difino la vorto “numero” estis anstataŭigita per la pli trafa vorto “nombro”. Tiun korekton aprobis Klaŭdo Roux, kiu finredaktis la libran version de PIV 2020.</li>
+
+					<li>En la artikolo <strong>Niĝero</strong> la derivaĵo <strong>Niĝerlando</strong> aperas en la libro interkrampe ene de la difino de <strong>Niĝero 2</strong>, kiu havas la saman sencon. Ĉi tie ĝi aperas anstataŭe kiel aparta derivaĵo, ĉar derivaĵoj tiamaniere menciataj ene de difino de alia vorto estas problemaj por la artikolostrukturo kaj la serĉilo. Ĉiuj similaj lokoj estos iom post iom normaligitaj, sed ili ne estas multaj.</li>
+
+					<li>En ankoraŭ kelkaj okazoj, kie en la presita libro derivaĵoj aperas ene de difino de alia vorto aŭ simile, la strukturo estis tiom neordinara, ke necesis tute reorganizi la tekston. Unu ekzemplo estas la artikolo “rubuso”. La efektiva senco de ĉiu tia artikolo restas tamen la sama kiel en la libro.</li>
+
+					<li>
+
+						<p id="_klarigoj-usklecoshangho">En la libra versio de PIV <strong>usklecoŝanĝo ene de artikolo</strong> estas montrata per interkrampa litero antaŭ tildo. Ekz. ĉe “abisen/o" aperas la derivaĵoj ”<strong>(A)⁓io</strong>” kaj “<strong>⁓ujo</strong>”, kie la interkrampa majuskla "A" indikas, ke estu komenca majuskla A en tiuj derivaĵoj (= “Abisenio” kaj “Abisenujo”), kvankam la kapvorto havas komencan minusklon. Ankaŭ la inversa ŝanĝo iafoje aperas. Ekz. ĉe “Adison/o” aperas la derivaĵo “<strong>(a)⁓a</strong>” (= “adisona”), kie la interkrampa minuskla "a" montras, ke estu komenca minuskla "a" en tiu derivaĵo.</p>
+
+						<p>Ĉi tie aperas similaj interkrampaj literoj antaŭ tildo, se oni aktivigis la elektilon “tildoj”. Alie aperas la efektiva teksto de la koncerna radiko kun majuskla aŭ minuskla komenclitero. Krome ĉi tie aperas tia indiko pri majuskleco ankaŭ kiam kapvorta radiko aperas komence de frazo (en difino). Vidu ekzemple la difinon de “abelisto”, kiu estas “Abelbredisto” kun komenca majuskla “A”. La vorto “abelbredisto” per si mem ne bezonas majusklan komencliteron. Ĝi havas tion en tiu difino nur ĉar ĝi estas la unua vorto de (unuvorta) frazo. Tiaj okazoj de ŝanĝo al majuskla komenclitero tute ne estas indikitaj en la libra versio de PIV.</p>
+
+						<p>En la libro tamen estas multaj okazoj, en kiuj estas pli ol unu varianto de derivaĵo, kiel en la ĉi-antaŭa ekzemplo “<strong>(A)⁓io</strong> kaj <strong>⁓ujo</strong>”. Tiam en la libro la interkrampa litero aperas nur ĉe la unua varianto de la derivaĵo, kvankam ĝi validas por ĉiuj variantoj. Ĉi tie tamen la interkrampa litero aperas ĉe ĉiu varianto, por ke la serĉado povu funkcii ĝuste: “<strong>(A)⁓io</strong> kaj <strong>(A)⁓ujo</strong>”. En la libro la samo validas ankaŭ por postaj ekzemploj de la koncerna derivaĵo, kie mankas la interkrampa litero, kvankam la usklecoŝanĝo validas ankaŭ tie. En tiaj okazoj la interkrampaĵo devas aperi ĉi tie ankaŭ ĉe ĉiu mencio de la koncerna derivaĵo ene de la ekzemploj. Tio tamen ankoraŭ ne estas ĝuste realigita ĉie, ĉar estas malfacile trovi ĉiujn tiajn okazojn. Iom post iom tio espereble estos ĝustigita.</p>
+
+						<p>Bedaŭrinde la reguloj kaj principoj en la libra versio de PIV pri tiaj interkrampaj literoj, kiuj indikas usklecoŝanĝon, estas sufiĉe komplikitaj, kaj ne estas ĉiam tute facile interpreti ilin. Iafoje la praktiko eble eĉ estas erara (ne laŭ la principoj prezentitaj en la libro mem).</p>
+
+					</li>
+
+				</ul>
+
+				<h2 id="_klarigoj-raporti">Raporti problemojn</h2>
+
+				<p>Raportoj pri eraroj aŭ alispecaj problemoj estos tre bonvenaj. Skribu al <span class="retadreso">“bertilow” ĉe “gmail.com”</span>.</p>
+
+			</div>
+
+		</main>
+
+	</body>
+
+</html>

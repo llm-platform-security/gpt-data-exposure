@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>
+            SightGo Plugin for ChatGPT
+        </title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <style>
+      html {
+        background: #E5E5E5;
+      }
+
+      body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto 24px auto;
+        width: 100%;
+        max-width: 666px;
+      }
+
+      img {
+        margin-top: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    </style>
+    <body>
+        <img src="https://sightgo-plugin.chatbot.so/assets/SightGo.png" width="48" height="48" alt="SightGo" />
+        <h2 style="margin-top: 48px; margin-bottom: 24px;">
+            <b>Privacy Policy</b>
+        </h2>
+        <p>
+            This Privacy Policy describes how the SightGo Plugin for ChatGPT ("we", "our", "us") collects, uses, and discloses your information.
+        </p>
+        <h2>
+            1. Information We Collect
+        </h2>
+        <p>
+            Our plugin does not collect any personal data from users. All we require is the address provided by the user to fetch a street view image, which is not stored after the session ends.
+        </p>
+        <h2>
+            2. Use of Information
+        </h2>
+        <p>
+            The address information provided by users is utilized solely for the purpose of retrieving a street view image to provide a visual representation of the desired location.
+        </p>
+        <h2>
+            3. Information Sharing
+        </h2>
+        <p>
+            Since we do not store personal data, we do not share any such data with third parties.
+        </p>
+        <h2>
+            4. Changes to This Policy
+        </h2>
+        <p>
+            We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page.
+        </p>
+        <h2 style="margin-top: 48px; margin-bottom: 24px;">
+            <b>Terms of Service</b>
+        </h2>
+        <p>
+            Welcome to SightGo Plugin for ChatGPT. By using our plugin, you are agreeing to these Terms of Service.
+        </p>
+        <h2>
+            1. Acceptance of Terms
+        </h2>
+        <p>
+            By accessing or using the SightGo Plugin, you confirm that you have read, understood, and agreed to be bound by these Terms.
+        </p>
+        <h2>
+            2. Use of the Plugin
+        </h2>
+        <p>
+            You agree to use our plugin for lawful purposes only and in a way that does not infringe the rights of, restrict, or inhibit anyone else’s use and enjoyment of the plugin.
+        </p>
+        <h2>
+            3. Disclaimers
+        </h2>
+        <p>
+            The SightGo Plugin provides visual street view images from provided addresses. We are not responsible for any inaccuracies in the images fetched, nor do we guarantee the accuracy or completeness of any given location.
+        </p>
+        <h2>
+            4. Changes to These Terms
+        </h2>
+        <p>
+            We may revise these Terms of Service at any time by amending this page. You are expected to check this page from time to time to take notice of any changes we made, as they are legally binding on you.
+        </p>
+    </body>
+</html>

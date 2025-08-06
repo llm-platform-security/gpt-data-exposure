@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+  <title>math.js web service</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="contents">
+  <a href="http://mathjs.org">
+    <img src="mathjs_330x100.png" width="330" height="100" alt="logo">
+  </a>
+
+  <h1>math.js web service</h1>
+
+  <p>
+    <a href="http://mathjs.org">math.js</a> is available as a RESTful API. Evaluations can be done via <a href="#get">GET</a> or <a href="#post">POST</a> requests. The duration per evaluation of this free service is limited to 10 seconds, with a maximum of 10,000 requests per day.
+  </p>
+
+  <h2 id="get">GET</h2>
+
+  <h3>HTTP Request</h3>
+
+  <code>GET http://api.mathjs.org/v4/</code>
+
+  <h3>Query parameters</h3>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>expr</td>
+      <td>string</td>
+      <td>yes</td>
+      <td>
+        The expression to be evaluated. The expression must be
+        <a href="http://www.w3schools.com/tags/ref_urlencode.asp">url encoded</a>.
+      </td>
+    </tr>
+    <tr>
+      <td>precision</td>
+      <td>number</td>
+      <td>no</td>
+      <td>Number of significant digits in formatted output. Undefined by default.</td>
+    </tr>
+  </table>
+
+  <h3>Response</h3>
+
+  On success, the response will have status 200 and the body contains the result of the expression.
+  On failure, the response will have status 400 with an error message in the body.
+
+  <h3>Examples</h3>
+
+  <ul>
+    <li><a href="/v4/?expr=2*(7-3)">http://api.mathjs.org/v4/?expr=2*(7-3)</a></li>
+    <li><a href="/v4/?expr=2%2F3">http://api.mathjs.org/v4/?expr=2%2F3</a></li>
+    <li><a href="/v4/?expr=2%2F3&precision=3">http://api.mathjs.org/v4/?expr=2%2F3&precision=3</a></li>
+  </ul>
+
+
+  <h3>Try it</h3>
+
+  <p>
+    <label for="expr1">To try it, enter an expression below, then click the
+      generated url.</label>
+  </p>
+
+  <table>
+    <tr>
+      <th>Expression</th>
+      <td><form id="form1"><input type="text" id="expr1" value="2+3*sqrt(4)" /></form></td>
+    </tr>
+    <tr>
+      <th>Url</th>
+      <td><a id="link"><span style="color: gray;">loading...</span></a></td>
+    </tr>
+  </table>
+
+  <h2 id="post">POST</h2>
+
+  <h3>HTTP Request</h3>
+
+  <code>POST http://api.mathjs.org/v4/</code>
+
+  <h3>Headers</h3>
+
+  <p>
+    Must contain the following header:
+  </p>
+  <p>
+    <code>content-type: application/json</code>
+  </p>
+
+  <h3>Request Body</h3>
+
+  <p>
+    The request body must contain a JSON Object with the following fields:
+  </p>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>expr</td>
+      <td>string or string[]</td>
+      <td>yes</td>
+      <td>A string containing the expression to be evaluated, or an array
+      with strings to be evaluated</td>
+    </tr>
+    <tr>
+      <td>precision</td>
+      <td>number</td>
+      <td>no</td>
+      <td>Number of significant digits in formatted output. Undefined by default.</td>
+    </tr>
+  </table>
+
+  <h3>Response</h3>
+
+  <p>
+    The response is a JSON object containing the following fields:
+  </p>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>result</td>
+      <td>string, string[], or null</td>
+      <td>
+        On success, the field <code>result</code> contains a string with
+        the results of the expression. If an array with expressions was provided,
+        the result will be a an array with a string for each expression.
+        On failure, <code>result</code> will be <code>null</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>error</td>
+      <td>string or null</td>
+      <td>On failure, <code>error</code> will contain an error message.
+        On success, <code>error</code> will be <code>null</code>.
+      </td>
+    </tr>
+  </table>
+
+
+  <h3>Try it</h3>
+
+  <p>
+    <label for="expr2">To try it, enter one or multiple expressions below, then
+      click button "Evaluate".</label>
+  </p>
+
+  <textarea id="expr2" name="expr">
+  {
+    "expr": [
+      "a = 1.2 * (2 + 4.5)",
+      "a / 2",
+      "5.08 cm in inch",
+      "sin(45 deg) ^ 2",
+      "9 / 3 + 2i",
+      "b = [-1, 2; 3, 1]",
+      "det(b)"
+    ],
+    "precision": 14
+  }
+  </textarea><br>
+
+  <button id="postButton">Evaluate</button>
+
+  <div id="result2"></div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

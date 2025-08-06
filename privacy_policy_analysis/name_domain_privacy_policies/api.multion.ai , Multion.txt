@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — MultiOn AI</title>
+<meta name="description" content="We are a technology and design group exploring novel ways to use AI to expand what people are capable of.">
+<meta name="csrf-token" content="fCH1kgtqcH6HFGbZySFXiRI33ukb7hBzlpwxxsnE">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MultiOn AI">
+<meta property="og:url" content="https://www.multion.ai/privacy">
+<meta property="og:locale" content="en">
+<meta property="og:title" content="Privacy Policy — MultiOn AI">
+<meta property="og:description" content="We are a technology and design group exploring novel ways to use AI to expand what people are capable of.">
+<meta property="og:image" content="https://www.multion.ai/cover.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@MultiON_AI">
+<meta name="twitter:creator" content="MultiOn">
+<meta name="twitter:title" content="Privacy Policy — MultiOn AI">
+<meta name="twitter:description" content="We are a technology and design group exploring novel ways to use AI to expand what people are capable of.">
+<meta name="twitter:image" content="https://www.multion.ai/cover.jpg">
+    <meta name="theme-color"
+      content="#ffffff">
+<link href="https://www.multion.ai/favicon.svg"
+      rel="icon" />
+<link href="https://www.multion.ai/mask-icon.svg"
+      rel="mask-icon"
+      color="#111111" />
+<link href="https://www.multion.ai/apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180" />
+<link type="image/png"
+      href="https://www.multion.ai/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32" />
+<link type="image/png"
+      href="https://www.multion.ai/favicon-16x16.png"
+      rel="icon"
+      sizes="16x16" />
+<link href="https://www.multion.ai/site.webmanifest"
+      rel="manifest" />
+<link type="text/plain"
+      href="https://www.multion.ai/humans.txt"
+      rel="author" />
+        <link type="font/woff2"
+          href="https://www.multion.ai/build/assets/MessinaSansWeb-Book-qcV97M6E.woff2"
+          rel="preload"
+          as="font">
+
+    <link type="font/woff2"
+          href="https://www.multion.ai/build/assets/MessinaSansMonoWeb-Book-pNZCmcXW.woff2"
+          rel="preload"
+          as="font">
+
+<!-- Styles -->
+<link rel="preload" as="style" href="https://www.multion.ai/build/assets/app-yPa2Ad6s.css" /><link rel="stylesheet" href="https://www.multion.ai/build/assets/app-yPa2Ad6s.css" /></head>
+
+<body class="page-generic flex flex-col min-h-screen">
+    <a class="flex items-center f-ui-01 !leading-none effect-color disabled:cursor-not-allowed inert:cursor-not-allowed disabled:opacity-25 inert:opacity-25 h-40 rounded-full effect-focus px-20 py-12 bg-brand hover:bg-brand-medium active:bg-brand-medium backdrop-blur-xl w-fit z-99999 absolute left-[-99999px] top-20 focus:left-20"
+     href="#main"     >
+
+    
+            <span class="uppercase">Skip to main content</span>
+    
+        </a>
+
+    <div class="flex flex-grow flex-col"
+         id="pjax-wrapper"
+         >
+        <header data-behavior="BurgerMenu Header Menu"
+        data-main-menu=""
+        data-Menu-media="lg+"
+        data-BurgerMenu-media="md-"
+        class="grid-layout group container py-24 fixed top-0 inset-x-0 z-99">
+    <div class="grid-col-span-12 lg:grid-col-span-8 lg:grid-col-start-3 group-data-[open]:bg-tertiary bg-fade-gray relative flex min-h-64 flex-wrap items-center justify-between rounded-lg px-12 py-10 pr-24 backdrop-blur-sm lg:flex-nowrap lg:items-start lg:pr-12"
+         data-Menu-wrapper=""
+         data-header-content="">
+        <a class="focus-visible:outline-brand group relative flex items-center gap-x-4 lg:focus-visible:outline-none"
+           href="/">
+            <svg aria-hidden="true"
+             class="left-12 w-44"
+             xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 44 44">
+            <g clip-path="url(#clip-logo)">
+                <path fill="#000"
+                      d="M13.262 28.418c2.058-1.4 4.172-3.718 5.872-6.642 1.7-2.924 2.667-5.91 2.866-8.391l8.738 2.313a8.738 8.738 0 0 0-17.476 0v12.72Zm16.863 1.063c-2.243-1.082-5.307-1.754-8.689-1.764-3.382-.01-6.451.645-8.7 1.713l-2.366-8.723a8.738 8.738 0 0 0 8.738 15.135l11.017-6.361Zm3.505-8.774-11.017-6.36c.185 2.482 1.134 5.471 2.817 8.406 1.682 2.934 3.784 5.264 5.834 6.677l-6.371 6.41a8.738 8.738 0 1 0 8.737-15.133Z" />
+            </g>
+            <defs>
+                <clipPath id="clip-logo">
+                    <path fill="currentColor"
+                          d="M6 6.96h32v30.08H6z" />
+                </clipPath>
+            </defs>
+        </svg>
+    
+            <svg aria-hidden="true"
+     class="group-focus-visible:lg:border-brand w-[98px] rounded border-2 border-transparent lg:w-[104px] lg:p-4"
+     viewBox="0 0 98 28"
+     fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.2576 20.8954L7.99788 4.32449H4V23.6463H6.61905V7.98505L11.5277 23.4859H14.9892L19.8979 7.98505V23.6482H22.517V4.32449H18.5191L13.2594 20.8954H13.2576ZM34.6798 17.213C34.6798 19.9876 33.2128 21.7814 30.9447 21.7814C29.0367 21.7814 27.9855 20.4853 27.9855 18.1336V9.74606H25.3916V18.7571C25.3916 21.9911 27.2115 24 30.1401 24C32.4046 24 33.9274 22.8114 34.678 21.5882V23.6463H37.2971V9.74606H34.678V17.2112L34.6798 17.213ZM40.4669 23.6482H43.113V4.32449H40.4669V23.6463V23.6482ZM50.2645 5.67897H47.9407V7.50196C47.9407 9.4088 47.5519 9.84814 45.8652 9.84814H45.0768V12.0685H47.6185V20.3285C47.6185 22.4997 48.8533 23.6482 51.1897 23.6482H54.455V21.2765H51.9116C50.4697 21.2765 50.2645 20.777 50.2645 19.5811V12.0685H54.788V9.74606H50.2645V5.67897ZM57.1587 23.6482H59.8047V9.74606H57.1587V23.6482ZM70.9127 4C68.4737 4 66.1156 4.87503 64.7206 6.53213C63.2554 8.27491 62.512 10.7833 62.512 13.9863C62.512 17.1893 63.1924 19.7324 64.7206 21.4551C66.184 23.1049 68.4413 24 70.9127 24C73.3842 24 75.7296 23.1195 77.1283 21.4551C78.5971 19.7069 79.3405 17.1948 79.3405 13.9863C79.3405 10.7779 78.5953 8.27308 77.1283 6.53213C75.7314 4.87503 73.3644 4 70.9145 4H70.9127ZM70.9127 21.4496C67.4693 21.4496 65.239 18.9777 65.239 13.9863C65.239 8.99499 67.4693 6.36442 70.9127 6.36442C74.3562 6.36442 76.6135 8.99499 76.6135 13.9863C76.6135 18.9777 74.3742 21.4496 70.9127 21.4496ZM89.1453 9.42157C86.8053 9.42157 85.2356 10.6393 84.4994 11.8097V9.74606H81.8534V23.6482H84.4994V16.2104C84.4994 13.4194 86.0078 11.6146 88.3407 11.6146C89.7159 11.6146 91.3539 12.2472 91.3539 15.2624V23.65H94V14.639C94 11.4214 92.1388 9.42339 89.1435 9.42339L89.1453 9.42157ZM57.1605 7.03345H59.8335V4.32631H57.1605V7.03345Z"
+          fill="black" />
+</svg>
+            <span class="sr-only">MultiOn</span>
+        </a>
+        <nav class="hidden min-h-44 lg:flex"
+             data-Menu-nav="">
+            <ul class="f-ui-01 flex items-center gap-x-32">
+                                    <li class="relative"
+                        data-Menu-item="">
+                                                                                                                    <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary  whitespace-nowrap" data-Menu-item-btn=""
+     href="https://www.multion.ai/api"     >
+
+    
+            <span class="">API</span>
+    
+        </a>
+                                                        <ul class="absolute -left-12 top-full hidden space-y-8 px-12 pb-32 pt-24"
+                                data-Menu-item-sub-menu="">
+                                                                                                                                                    <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary  whitespace-nowrap"
+     href="https://www.multion.ai/api"     >
+
+    
+            <span class="">Overview</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary  whitespace-nowrap"
+     href="https://www.multion.ai/api/pricing"     >
+
+    
+            <span class="">Pricing</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary after:content-[&#039;&gt;&#039;] whitespace-nowrap"
+     href="https://docs.multion.ai/"      target="_blank" >
+
+    
+            <span class="">Docs</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary after:content-[&#039;&gt;&#039;] whitespace-nowrap"
+     href="https://app.multion.ai/login"      target="_blank" >
+
+    
+            <span class="">Login</span>
+    
+        </a>
+                                        </li>
+                                                                                                </ul>
+                                            </li>
+                                    <li class="relative"
+                        data-Menu-item="">
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary" data-Menu-item-btn=""
+     href="https://www.multion.ai/about"     >
+
+    
+            <span class="">About</span>
+    
+        </a>
+                                            </li>
+                                    <li class="relative"
+                        data-Menu-item="">
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary" data-Menu-item-btn=""
+     href="https://www.multion.ai/blog"     >
+
+    
+            <span class="">Blog</span>
+    
+        </a>
+                                            </li>
+                                    <li class="relative"
+                        data-Menu-item="">
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary" data-Menu-item-btn=""
+     href="https://www.multion.ai/careers"     >
+
+    
+            <span class="">Careers</span>
+    
+        </a>
+                                            </li>
+                
+                                                        <li data-Menu-item="">
+                        <a class="flex items-center f-ui-01 !leading-none effect-color disabled:cursor-not-allowed inert:cursor-not-allowed disabled:opacity-25 inert:opacity-25 h-40 rounded-full effect-focus px-20 py-12 bg-overlay hover:bg-brand active:bg-brand backdrop-blur-xl w-fit" data-Menu-item-btn=""
+     href="https://www.multion.ai/contact"     >
+
+    
+            <span class="uppercase">Contact</span>
+    
+        </a>
+                    </li>
+                            </ul>
+        </nav>
+
+        <div class="relative lg:hidden">
+            <button class="flex items-center f-ui-01 !leading-none effect-color disabled:cursor-not-allowed inert:cursor-not-allowed disabled:opacity-25 inert:opacity-25 h-20 text-primary hover:text-secondary active:text-secondary effect-focus-brand-before !p-0 pr-12" data-BurgerMenu-open-btn="" aria-label="Open menu"
+        >
+
+    
+    
+            <svg
+    width="20"
+    height="20"
+    fill="none"
+            class=""
+        viewBox="0 0 20 20"
+            aria-hidden="true"
+    >
+    <use xlink:href="#menu-20"></use>
+</svg>
+        </button>
+            <button class="flex items-center f-ui-01 !leading-none effect-color disabled:cursor-not-allowed inert:cursor-not-allowed disabled:opacity-25 inert:opacity-25 h-20 text-primary hover:text-secondary active:text-secondary effect-focus-brand-before !p-0 pr-12 hidden" data-BurgerMenu-close-btn="" aria-label="Close menu"
+        >
+
+    
+    
+            <svg
+    width="20"
+    height="20"
+    fill="none"
+            class=""
+        viewBox="0 0 20 20"
+            aria-hidden="true"
+    >
+    <use xlink:href="#close-20"></use>
+</svg>
+        </button>
+        </div>
+
+        <nav class="mb-20 mt-40 hidden flex-1 basis-full px-10"
+             data-BurgerMenu-nav="">
+            <ul class="f-ui-01 grid grid-cols-2 gap-32">
+                                    <li>
+                                                                                                                    <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary  text-secondary"
+     href="https://www.multion.ai/api"     >
+
+    
+            <span class="">API</span>
+    
+        </a>
+                                                        <ul class="mt-8 space-y-8">
+                                                                                                                                                    <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/api"     >
+
+    
+            <span class="">Overview</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/api/pricing"     >
+
+    
+            <span class="">Pricing</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary after:content-[&#039;&gt;&#039;]"
+     href="https://docs.multion.ai/"      target="_blank" >
+
+    
+            <span class="">Docs</span>
+    
+        </a>
+                                        </li>
+                                                                                                                                                                                        <li class="">
+                                            <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary after:content-[&#039;&gt;&#039;]"
+     href="https://app.multion.ai/login"      target="_blank" >
+
+    
+            <span class="">Login</span>
+    
+        </a>
+                                        </li>
+                                                                                                </ul>
+                                            </li>
+                                    <li>
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/about"     >
+
+    
+            <span class="">About</span>
+    
+        </a>
+                                            </li>
+                                    <li>
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/blog"     >
+
+    
+            <span class="">Blog</span>
+    
+        </a>
+                                            </li>
+                                    <li>
+                                                                                <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/careers"     >
+
+    
+            <span class="">Careers</span>
+    
+        </a>
+                                            </li>
+                            </ul>
+        </nav>
+    </div>
+</header>
+        <div class="transition-page mt-header flex h-full flex-grow flex-col">
+            <main class="flex flex-col relative z-10 bg-secondary flex-grow"
+                  id="main"
+                  data-behavior="LazyImages CardLink"
+                  data-BottomFooter-target="">
+                    <div class="mt-space-header container">
+    <div class="grid-layout">
+        <div class="grid-col-span-10 grid-col-start-2 lg:grid-col-span-6 lg:grid-col-start-4">
+    <h1 class="wrap-balance f-heading-02">
+    Privacy Policy
+</h1>
+            <time class="f-ui-01 mt-space-03"
+                  datetime="2023-12-13 15:30:33">Last updated: 12.13.2023</time>
+    </div>
+    </div>
+            <div class="grid-layout container gap-y-0 gap-y-0 blocks blocks--primary blocks--grid mt-60 lg:mt-80">
+    <div class="grid-layout container gap-y-0 block-el block-el-text">
+    <div class="grid-col-span-10 grid-col-start-2 lg:grid-col-span-6 lg:grid-col-start-4">
+    <div class="wysiwyg">
+    <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p><p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p><h3>Interpretation and Definitions</h3><p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p><p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p><h5>Definitions</h5><p>For the purposes of this Privacy Policy:</p><ul><li><p><strong>Account</strong>&nbsp;means a unique account created for You to access our Service or parts of our Service.</p></li><li><p><strong>Affiliate</strong>&nbsp;means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p></li><li><p><strong>Application</strong>&nbsp;refers to MULTION, the software program provided by the Company.</p></li><li><p><strong>Business</strong>, for the purpose of the CCPA (California Consumer Privacy Act), refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California.</p></li><li><p><strong>Company</strong>&nbsp;(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Foobarbaz Inc., 251 Little Falls Drive, Wilmington DE 19808. For the purpose of the GDPR, the Company is the Data Controller.</p></li><li><p><strong>Consumer</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose.</p></li><li><p><strong>Cookies</strong>&nbsp;are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p></li><li><p><strong>Country</strong>&nbsp;refers to: Delaware, United States</p></li><li><p><strong>Data Controller</strong>, for the purposes of the GDPR (General Data Protection Regulation), refers to the Company as the legal person which alone or jointly with others determines the purposes and means of the processing of Personal Data.</p></li><li><p><strong>Device</strong>&nbsp;means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p></li><li><p><strong>Do Not Track</strong>&nbsp;(DNT) is a concept that has been promoted by US regulatory authorities, in particular the U.S. Federal Trade Commission (FTC), for the Internet industry to develop and implement a mechanism for allowing internet users to control the tracking of their online activities across websites.</p></li><li><p><strong>Personal Data</strong>&nbsp;is any information that relates to an identified or identifiable individual. For the purposes of GDPR, Personal Data means any information relating to You such as a name, an identification number, location data, online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity. For the purposes of the CCPA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You.</p></li><li><p><strong>Sale</strong>, for the purpose of the CCPA (California Consumer Privacy Act), means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer's personal information to another business or a third party for monetary or other valuable consideration.</p></li><li><p><strong>Service</strong>&nbsp;refers to the Application or the Website or both.</p></li><li><p><strong>Service Provider</strong>&nbsp;means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used. For the purpose of the GDPR, Service Providers are considered Data Processors.</p></li><li><p><strong>Third-party Social Media Service</strong>&nbsp;refers to any website or any social network website through which a User can log in or create an account to use the Service.</p></li><li><p><strong>Usage Data</strong>&nbsp;refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p></li><li><p><strong>Website</strong>&nbsp;refers to MULTION, accessible from <a target="_blank" rel="noopener noreferrer nofollow" href="http://multion.ai">multion.ai</a></p></li><li><p><strong>You</strong>&nbsp;means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable. Under GDPR (General Data Protection Regulation), You can be referred to as the Data Subject or as the User as you are the individual using the Service.</p></li></ul><h4>Collecting and Using Your Personal Data</h4><h5>Types of Data Collected</h5><h5>Personal Data</h5><p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p><ul><li><p>Email address</p></li><li><p>First name and last name</p></li><li><p>Phone number</p></li><li><p>Address, State, Province, ZIP/Postal code, City</p></li><li><p>Usage Data</p></li></ul><h5>Usage Data</h5><p>Usage Data is collected automatically when using the Service.</p><p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p><p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p><p>We may also collect information that Your browser sends whenever You visit or use our Service or when You access the Service by or through a mobile device.</p><h5>Information from Third-Party Social Media Services</h5><p>The Company allows You to create an account and log in to use the Service through the following Third-party Social Media Services:</p><ul><li><p>Google</p></li></ul><p>If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service's account, such as Your name, Your email address, Your activities or Your contact list associated with that account.</p><p>You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service's account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.</p><h5>Information Collected while Using the Application</h5><p>While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:</p><ul><li><p>Information from your contacts</p></li><li><p>Information from your calendar</p></li><li><p>Information from your email</p></li></ul><p>We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company's servers and/or a Service Provider's server or it may be simply stored on Your device.</p><p>You can enable or disable access to this information at any time, through Your Device settings.</p><h5>Tracking Technologies and Cookies</h5><p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p><ul><li><p><strong>Cookies or Browser Cookies.</strong>&nbsp;A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</p></li><li><p><strong>Web Beacons.</strong>&nbsp;Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</p></li></ul><p>Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" class="framer-text" href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies">TermsFeed website</a>&nbsp;article. You can manage your cookies preferences <a target="" rel="noopener noreferrer nofollow" href="#cookies-management">here</a>.</p><p>We use both Session and Persistent Cookies for the purposes set out below:</p><ul><li><p><strong>Necessary / Essential Cookies</strong></p><p>Type: Session Cookies</p><p>Administered by: Us</p><p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p></li><li><p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p><p>Type: Persistent Cookies</p><p>Administered by: Us</p><p>Purpose: These Cookies identify if users have accepted the use of cookies on the Website.</p></li><li><p><strong>Functionality Cookies</strong></p><p>Type: Persistent Cookies</p><p>Administered by: Us</p><p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p></li><li><p><strong>Tracking and Performance Cookies</strong></p><p>Type: Persistent Cookies</p><p>Administered by: Third-Parties</p><p>Purpose: These Cookies are used to track information about traffic to the Website and how users use the Website. The information gathered via these Cookies may directly or indirectly identify you as an individual visitor. This is because the information collected is typically linked to a pseudonymous identifier associated with the device you use to access the Website. We may also use these Cookies to test new pages, features or new functionality of the Website to see how our users react to them.</p></li></ul><p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p><p>You can manage your cookies preferences <a target="" rel="noopener noreferrer nofollow" href="#cookies-management">here</a>.</p><h5>Use of Your Personal Data</h5><p>The Company may use Personal Data for the following purposes:</p><ul><li><p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p></li><li><p><strong>To manage Your Account:</strong>&nbsp;to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p></li><li><p><strong>For the performance of a contract:</strong>&nbsp;the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p></li><li><p><strong>To contact You:</strong>&nbsp;To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p></li><li><p><strong>To provide You</strong>&nbsp;with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p></li><li><p><strong>To manage Your requests:</strong>&nbsp;To attend and manage Your requests to Us.</p></li><li><p><strong>For business transfers:</strong>&nbsp;We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p></li><li><p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p></li></ul><p>We may share Your personal information in the following situations:</p><ul><li><p><strong>With Service Providers:</strong>&nbsp;We may share Your personal information with Service Providers to monitor and analyze the use of our Service, for payment processing, to contact You.</p></li><li><p><strong>For business transfers:</strong>&nbsp;We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</p></li><li><p><strong>With Affiliates:</strong>&nbsp;We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</p></li><li><p><strong>With business partners:</strong>&nbsp;We may share Your information with Our business partners to offer You certain products, services or promotions.</p></li><li><p><strong>With other users:</strong>&nbsp;when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile.</p></li><li><p><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</p></li></ul><h5>Retention of Your Personal Data</h5><p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p><p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p><h5>Transfer of Your Personal Data</h5><p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p><p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p><p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p><h5>Delete Your Personal Data</h5><p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p><p>Our Service may give You the ability to delete certain information about You from within the Service.</p><p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p><p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p><h4>Disclosure of Your Personal Data</h4><h5>Business Transactions</h5><p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p><h5>Law enforcement</h5><p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p><h5>Other legal requirements</h5><p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p><ul><li><p>Comply with a legal obligation</p></li><li><p>Protect and defend the rights or property of the Company</p></li><li><p>Prevent or investigate possible wrongdoing in connection with the Service</p></li><li><p>Protect the personal safety of Users of the Service or the public</p></li><li><p>Protect against legal liability</p></li></ul><h5>Security of Your Personal Data</h5><p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p><h5>Detailed Information on the Processing of Your Personal Data</h5><p>The Service Providers We use may have access to Your Personal Data. These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies.</p><h5>Analytics</h5><p>We may use third-party Service providers to monitor and analyze the use of our Service.</p><ul><li><p><strong>Google Analytics</strong></p><p>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</p><p>You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js and dc.js) from sharing information with Google Analytics about visits activity.</p><p>You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy:&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p><p>For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page:&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p></li></ul><h5>Email Marketing</h5><p>We may use Your Personal Data to contact You with newsletters, marketing or promotional materials and other information that may be of interest to You. You may opt-out of receiving any, or all, of these communications from Us by following the unsubscribe link or instructions provided in any email We send or by contacting Us.</p><p>We may use Email Marketing Service Providers to manage and send emails to You.</p><ul><li><p><strong>Mailgun</strong></p><p>Their Privacy Policy can be viewed at&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="http://mailgun.com/legal/privacy-policy/">mailgun.com/legal/privacy-policy/</a></p></li></ul><h5>Payments</h5><p>We may provide paid products and/or services within the Service. In that case, we may use third-party services for payment processing (e.g. payment processors).</p><p>We will not store or collect Your payment card details. That information is provided directly to Our third-party payment processors whose use of Your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.</p><ul><li><p><strong>Stripe</strong></p><p>Their Privacy Policy can be viewed at&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="http://stripe.com/us/privacy">stripe.com/us/privacy</a></p></li></ul><p></p><h5>Google API</h5><p>(App’s) use and transfer of information received from Google APIs to any other app will adhere to<a target="_blank" rel="noopener noreferrer nofollow" href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes"> Google API Services User Data Policy</a>, including the Limited Use requirements.</p><p></p><p><strong>Third-party AI providers</strong></p><p>Such as OpenAI, that we use to help support our AI-powered assistant. We require these providers to use your information only for the purpose of facilitating our AI-powered tool, and we do not allow these providers to train their AI models using your personal information.</p><p></p><h4>GDPR Privacy</h4><h5>Legal Basis for Processing Personal Data under GDPR</h5><p>We may process Personal Data under the following conditions:</p><ul><li><p><strong>Consent:</strong>&nbsp;You have given Your consent for processing Personal Data for one or more specific purposes.</p></li><li><p><strong>Performance of a contract:</strong>&nbsp;Provision of Personal Data is necessary for the performance of an agreement with You and/or for any pre-contractual obligations thereof.</p></li><li><p><strong>Legal obligations:</strong>&nbsp;Processing Personal Data is necessary for compliance with a legal obligation to which the Company is subject.</p></li><li><p><strong>Vital interests:</strong>&nbsp;Processing Personal Data is necessary in order to protect Your vital interests or of another natural person.</p></li><li><p><strong>Public interests:</strong>&nbsp;Processing Personal Data is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Company.</p></li><li><p><strong>Legitimate interests:</strong>&nbsp;Processing Personal Data is necessary for the purposes of the legitimate interests pursued by the Company.</p></li></ul><p>In any case, the Company will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.</p><h5>Your Rights under the GDPR</h5><p>The Company undertakes to respect the confidentiality of Your Personal Data and to guarantee You can exercise Your rights.</p><p>You have the right under this Privacy Policy, and by law if You are within the EU, to:</p><ul><li><p><strong>Request access to Your Personal Data.</strong>&nbsp;The right to access, update or delete the information We have on You. Whenever made possible, you can access, update or request deletion of Your Personal Data directly within Your account settings section. If you are unable to perform these actions yourself, please contact Us to assist You. This also enables You to receive a copy of the Personal Data We hold about You.</p></li><li><p><strong>Request correction of the Personal Data that We hold about You.</strong>&nbsp;You have the right to have any incomplete or inaccurate information We hold about You corrected.</p></li><li><p><strong>Object to processing of Your Personal Data.</strong>&nbsp;This right exists where We are relying on a legitimate interest as the legal basis for Our processing and there is something about Your particular situation, which makes You want to object to our processing of Your Personal Data on this ground. You also have the right to object where We are processing Your Personal Data for direct marketing purposes.</p></li><li><p><strong>Request erasure of Your Personal Data.</strong>&nbsp;You have the right to ask Us to delete or remove Personal Data when there is no good reason for Us to continue processing it.</p></li><li><p><strong>Request the transfer of Your Personal Data.</strong>&nbsp;We will provide to You, or to a third-party You have chosen, Your Personal Data in a structured, commonly used, machine-readable format. Please note that this right only applies to automated information which You initially provided consent for Us to use or where We used the information to perform a contract with You.</p></li><li><p><strong>Withdraw Your consent.</strong>&nbsp;You have the right to withdraw Your consent on using your Personal Data. If You withdraw Your consent, We may not be able to provide You with access to certain specific functionalities of the Service.</p></li></ul><h5>Exercising of Your GDPR Data Protection Rights</h5><p>You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us. Please note that we may ask You to verify Your identity before responding to such requests. If You make a request, We will try our best to respond to You as soon as possible.</p><p>You have the right to complain to a Data Protection Authority about Our collection and use of Your Personal Data. For more information, if You are in the European Economic Area (EEA), please contact Your local data protection authority in the EEA.</p><h5>CCPA Privacy</h5><p>This privacy notice section for California residents supplements the information contained in Our Privacy Policy and it applies solely to all visitors, users, and others who reside in the State of California.</p><h5>Categories of Personal Information Collected</h5><p>We collect information that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular Consumer or Device. The following is a list of categories of personal information which we may collect or may have been collected from California residents within the last twelve (12) months.</p><p>Please note that the categories and examples provided in the list below are those defined in the CCPA. This does not mean that all examples of that category of personal information were in fact collected by Us, but reflects our good faith belief to the best of our knowledge that some of that information from the applicable category may be and may have been collected. For example, certain categories of personal information would only be collected if You provided such personal information directly to Us.</p><ul><li><p><strong>Category A: Identifiers.</strong></p><p>Examples: A real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, driver's license number, passport number, or other similar identifiers.</p><p>Collected: Yes.</p></li><li><p><strong>Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)).</strong></p><p>Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.</p><p>Collected: Yes.</p></li><li><p><strong>Category C: Protected classification characteristics under California or federal law.</strong></p><p>Examples: Age (40 years or older), race, color, ancestry, national origin, citizenship, religion or creed, marital status, medical condition, physical or mental disability, sex (including gender, gender identity, gender expression, pregnancy or childbirth and related medical conditions), sexual orientation, veteran or military status, genetic information (including familial genetic information).</p><p>Collected: No.</p></li><li><p><strong>Category D: Commercial information.</strong></p><p>Examples: Records and history of products or services purchased or considered.</p><p>Collected: Yes.</p></li><li><p><strong>Category E: Biometric information.</strong></p><p>Examples: Genetic, physiological, behavioral, and biological characteristics, or activity patterns used to extract a template or other identifier or identifying information, such as, fingerprints, faceprints, and voiceprints, iris or retina scans, keystroke, gait, or other physical patterns, and sleep, health, or exercise data.</p><p>Collected: No.</p></li><li><p><strong>Category F: Internet or other similar network activity.</strong></p><p>Examples: Interaction with our Service or advertisement.</p><p>Collected: Yes.</p></li><li><p><strong>Category G: Geolocation data.</strong></p><p>Examples: Approximate physical location.</p><p>Collected: No.</p></li><li><p><strong>Category H: Sensory data.</strong></p><p>Examples: Audio, electronic, visual, thermal, olfactory, or similar information.</p><p>Collected: No.</p></li><li><p><strong>Category I: Professional or employment-related information.</strong></p><p>Examples: Current or past job history or performance evaluations.</p><p>Collected: No.</p></li><li><p><strong>Category J: Non-public education information (per the Family Educational Rights and Privacy Act (20 U.S.C. Section 1232g, 34 C.F.R. Part 99)).</strong></p><p>Examples: Education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, student financial information, or student disciplinary records.</p><p>Collected: No.</p></li><li><p><strong>Category K: Inferences drawn from other personal information.</strong></p><p>Examples: Profile reflecting a person's preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.</p><p>Collected: No.</p></li></ul><p>Under CCPA, personal information does not include:</p><ul><li><p>Publicly available information from government records</p></li><li><p>Deidentified or aggregated consumer information</p></li><li><p>Information excluded from the CCPA's scope, such as:</p><ul><li><p>Health or medical information covered by the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the California Confidentiality of Medical Information Act (CMIA) or clinical trial data</p></li><li><p>Personal Information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver's Privacy Protection Act of 1994</p></li></ul></li></ul><h5>Sources of Personal Information</h5><p>We obtain the categories of personal information listed above from the following categories of sources:</p><ul><li><p><strong>Directly from You</strong>. For example, from the forms You complete on our Service, preferences You express or provide through our Service, or from Your purchases on our Service.</p></li><li><p><strong>Indirectly from You</strong>. For example, from observing Your activity on our Service.</p></li><li><p><strong>Automatically from You</strong>. For example, through cookies We or our Service Providers set on Your Device as You navigate through our Service.</p></li><li><p><strong>From Service Providers</strong>. For example, third-party vendors to monitor and analyze the use of our Service, third-party vendors for payment processing, or other third-party vendors that We use to provide the Service to You.</p></li></ul><h5>Use of Personal Information for Business Purposes or Commercial Purposes</h5><p>We may use or disclose personal information We collect for "business purposes" or "commercial purposes" (as defined under the CCPA), which may include the following examples:</p><ul><li><p>To operate our Service and provide You with our Service.</p></li><li><p>To provide You with support and to respond to Your inquiries, including to investigate and address Your concerns and monitor and improve our Service.</p></li><li><p>To fulfill or meet the reason You provided the information. For example, if You share Your contact information to ask a question about our Service, We will use that personal information to respond to Your inquiry. If You provide Your personal information to purchase a product or service, We will use that information to process Your payment and facilitate delivery.</p></li><li><p>To respond to law enforcement requests and as required by applicable law, court order, or governmental regulations.</p></li><li><p>As described to You when collecting Your personal information or as otherwise set forth in the CCPA.</p></li><li><p>For internal administrative and auditing purposes.</p></li><li><p>To detect security incidents and protect against malicious, deceptive, fraudulent or illegal activity, including, when necessary, to prosecute those responsible for such activities.</p></li></ul><p>Please note that the examples provided above are illustrative and not intended to be exhaustive. For more details on how we use this information, please refer to the "Use of Your Personal Data" section.</p><p>If We decide to collect additional categories of personal information or use the personal information We collected for materially different, unrelated, or incompatible purposes We will update this Privacy Policy.</p><h5>Disclosure of Personal Information for Business Purposes or Commercial Purposes</h5><p>We may use or disclose and may have used or disclosed in the last twelve (12) months the following categories of personal information for business or commercial purposes:</p><ul><li><p>Category A: Identifiers</p></li><li><p>Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e))</p></li><li><p>Category D: Commercial information</p></li><li><p>Category F: Internet or other similar network activity</p></li></ul><p>Please note that the categories listed above are those defined in the CCPA. This does not mean that all examples of that category of personal information were in fact disclosed, but reflects our good faith belief to the best of our knowledge that some of that information from the applicable category may be and may have been disclosed.</p><p>When We disclose personal information for a business purpose or a commercial purpose, We enter a contract that describes the purpose and requires the recipient to both keep that personal information confidential and not use it for any purpose except performing the contract.</p><h5>Share of Personal Information</h5><p>We may share Your personal information identified in the above categories with the following categories of third parties:</p><ul><li><p>Service Providers</p></li><li><p>Payment processors</p></li><li><p>Our affiliates</p></li><li><p>Our business partners</p></li><li><p>Third party vendors to whom You or Your agents authorize Us to disclose Your personal information in connection with products or services We provide to You</p></li></ul><h5>Your Rights under the CCPA</h5><p>The CCPA provides California residents with specific rights regarding their personal information. If You are a resident of California, You have the following rights:</p><ul><li><p><strong>The right to notice.</strong>&nbsp;You have the right to be notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used.</p></li><li><p><strong>The right to request.</strong>&nbsp;Under CCPA, You have the right to request that We disclose information to You about Our collection, use, sale, disclosure for business purposes and share of personal information. Once We receive and confirm Your request, We will disclose to You:</p><ul><li><p>The categories of personal information We collected about You</p></li><li><p>The categories of sources for the personal information We collected about You</p></li><li><p>Our business or commercial purpose for collecting or selling that personal information</p></li><li><p>The categories of third parties with whom We share that personal information</p></li><li><p>The specific pieces of personal information We collected about You</p></li><li><p>If we sold Your personal information or disclosed Your personal information for a business purpose, We will disclose to You:</p><ul><li><p>The categories of personal information categories sold</p></li><li><p>The categories of personal information categories disclosed</p></li></ul></li></ul></li><li><p><strong>The right to say no to the sale of Personal Data (opt-out).</strong>&nbsp;You have the right to direct Us to not sell Your personal information. To submit an opt-out request please contact Us.</p></li><li><p><strong>The right to delete Personal Data.</strong>&nbsp;You have the right to request the deletion of Your Personal Data, subject to certain exceptions. Once We receive and confirm Your request, We will delete (and direct Our Service Providers to delete) Your personal information from our records, unless an exception applies. We may deny Your deletion request if retaining the information is necessary for Us or Our Service Providers to:</p><ul><li><p>Complete the transaction for which We collected the personal information, provide a good or service that You requested, take actions reasonably anticipated within the context of our ongoing business relationship with You, or otherwise perform our contract with You.</p></li><li><p>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for such activities.</p></li><li><p>Debug products to identify and repair errors that impair existing intended functionality.</p></li><li><p>Exercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law.</p></li><li><p>Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 et. seq.).</p></li><li><p>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information's deletion may likely render impossible or seriously impair the research's achievement, if You previously provided informed consent.</p></li><li><p>Enable solely internal uses that are reasonably aligned with consumer expectations based on Your relationship with Us.</p></li><li><p>Comply with a legal obligation.</p></li><li><p>Make other internal and lawful uses of that information that are compatible with the context in which You provided it.</p></li></ul></li><li><p><strong>The right not to be discriminated against.</strong>&nbsp;You have the right not to be discriminated against for exercising any of Your consumer's rights, including by:</p><ul><li><p>Denying goods or services to You</p></li><li><p>Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties</p></li><li><p>Providing a different level or quality of goods or services to You</p></li><li><p>Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services</p></li></ul></li></ul><h5>Exercising Your CCPA Data Protection Rights</h5><p>In order to exercise any of Your rights under the CCPA, and if You are a California resident, You can contact Us:</p><ul><li><p>By email:&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="mailto:info@multion.ai">info@multion.ai</a></p></li></ul><p>Only You, or a person registered with the California Secretary of State that You authorize to act on Your behalf, may make a verifiable request related to Your personal information.</p><p>Your request to Us must:</p><ul><li><p>Provide sufficient information that allows Us to reasonably verify You are the person about whom We collected personal information or an authorized representative</p></li><li><p>Describe Your request with sufficient detail that allows Us to properly understand, evaluate, and respond to it</p></li></ul><p>We cannot respond to Your request or provide You with the required information if We cannot:</p><ul><li><p>Verify Your identity or authority to make the request</p></li><li><p>And confirm that the personal information relates to You</p></li></ul><p>We will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonably necessary and with prior notice.</p><p>Any disclosures We provide will only cover the 12-month period preceding the verifiable request's receipt.</p><p>For data portability requests, We will select a format to provide Your personal information that is readily usable and should allow You to transmit the information from one entity to another entity without hindrance.</p><h5>"Do Not Track" Policy as Required by California Online Privacy Protection Act (CalOPPA)</h5><p>Our Service does not respond to Do Not Track signals.</p><p>However, some third party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.</p><h5>Children's Privacy</h5><p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p><p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p><h5>Your California Privacy Rights (California's Shine the Light law)</h5><p>Under California Civil Code Section 1798 (California's Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties' direct marketing purposes.</p><p>If you'd like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below.</p><h5>California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)</h5><p>California Business and Professions Code Section 22581 allows California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.</p><p>To request removal of such data, and if You are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.</p><p>Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.</p><h5>Links to Other Websites</h5><p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p><p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p><h5>Changes to this Privacy Policy</h5><p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p><p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p><p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p><h5>Contact Us</h5><p>If you have any questions about this Privacy Policy, You can contact us:</p><ul><li><p>By email:&nbsp;<a target="_blank" rel="noopener noreferrer nofollow" href="mailto:info@multion.ai">info@multion.ai</a></p></li></ul>
+</div>
+    </div>
+    </div>
+    </div>
+    </div>
+                <div data-modal-wrapper>
+                                    </div>
+            </main>
+
+                            <footer class="container bg-secondary -translate-z-1 pb-72 lg:pb-24 mt-160" data-BottomFooter-footer="">
+    <svg aria-hidden="true"
+             class="text-light mx-auto w-[170px] mix-blend-multiply lg:w-[284px]"
+             xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 284 269">
+            <g fill="currentColor">
+                <path
+                      d="M219.437 83.701V79.08c0-43.442-35.197-78.661-78.611-78.661s-78.611 35.22-78.611 78.66V194.76c69.372-50.906 78.611-134.02 78.611-134.02v-.094l78.611 23.056Z" />
+                <path
+                      d="m242.555 123.165-99.419-59.053c10.565 85.424 78.574 134.038 78.574 134.038h.037l-58.428 57.461 4.052 2.254c37.904 21.2 85.787 7.635 106.973-30.293 21.187-37.928 6.173-83.492-31.789-104.426v.019Z" />
+                <path
+                      d="m61.06 198.226-19.426-75.857-4.24 2.519C.434 147.68-11.077 196.142 11.7 233.123c22.776 36.981 68.974 45.241 106.613 23.132l99.987-58.086c-79.69-32.397-157.222.057-157.222.057h-.02Z" />
+            </g>
+        </svg>
+        <div class="grid-layout container gap-y-0 lg:mt-120 mt-80">
+    <div class="grid-col-span-10 grid-col-start-2 lg:grid-col-span-6 lg:grid-col-start-4">
+    <p class="f-body-02 text-secondary text-center">The latest from MultiOn </p>
+        <form data-behavior="Form"
+       data-Form-with-session-token=""        data-Form-with-recaptcha=""        data-Form-reset=""       action="https://www.multion.ai/forms/newsletter"
+      method="post"
+      class="mt-20">
+    <div class="relative">
+                <div
+    data-behavior="Input"
+    class="relative space-y-4 [inert]:opacity-25 [inert]:cursor-not-allowed [inert]:pointer-events-none [&amp;.s-disabled]:pointer-events-none [&amp;.s-disabled]:opacity-25 [&amp;.s-disabled]:cursor-not-allowed s-inner-label newsletter-input" inner-label="Email"
+    
+>
+    <div class="">
+                    </div>
+
+    <div class="relative w-full gap-12">
+        
+                        <input type="email"
+    class="flex items-center w-full h-64 f-body-02 placeholder:text-primary px-24 py-12 [.v-pill_&amp;]:pr-120 appearance-none effect-focus rounded-sm [.v-pill_&amp;]:rounded-full border border-primary hover:border-secondary effect-color effect-focus focus-visible:border-secondary [.s-error_&amp;]:border-error [.s-error_&amp;]:text-error [.s-readonly_&amp;]:border-light  [.s-readonly_&amp;]:bg-quaternary [.s-inner-label_&amp;]:pt-28" data-input-input="" aria-describedby="errorID3KWp"
+     id="WvMc"      name="email"                                                 
+    
+    
+    
+     required
+/>
+                    <label
+    class="f-body-02 text-secondary absolute top-20 left-24 h-24 flex items-center f-body-02 text-secondary anim-all origin-top-left [.s-filled_&amp;]:-translate-y-8 [.s-filled_&amp;]:scale-75 [.s-error_&amp;]:-translate-y-8 [.s-error_&amp;]:scale-75 [.s-error_&amp;]:text-error" for="WvMc"
+    >
+            Email*
+        </label>
+    </div>
+
+    
+    <p id="errorID3KWp" aria-live="assertive" aria-relevant="additions removals" class="pt-12 f-body-02 text-error" style="display: none;" data-Input-error>
+        
+    </p>
+</div>
+                <button class="flex items-center f-ui-01 !leading-none effect-color disabled:cursor-not-allowed inert:cursor-not-allowed disabled:opacity-25 inert:opacity-25 h-40 rounded-full effect-focus px-20 py-12 bg-overlay hover:bg-brand active:bg-brand backdrop-blur-xl w-fit absolute right-12 top-1/2 -translate-y-1/2" type="submit"
+        >
+
+    
+            <span class="uppercase">Notify</span>
+    
+        </button>
+            </div>
+    <div class="mt-4"
+         data-form-response></div>
+    </form>
+    </div>
+    </div>
+    <div class="grid-layout lg:mt-120 mt-80 lg:flex lg:items-center lg:justify-between">
+                    <ul class="grid-col-span-5 grid-col-start-2 flex flex-col gap-x-36 gap-y-16 lg:flex-row lg:items-center">
+                <li class="flex">
+                    <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/contact"     >
+
+    
+            <span class="">Contact</span>
+    
+        </a>
+                </li>
+                                    <li class="flex">
+                        <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://twitter.com/MultiON_AI"      target="_blank" >
+
+    
+            <span class="">X</span>
+    
+        </a>
+                    </li>
+                                    <li class="flex">
+                        <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.linkedin.com/company/multionai/"      target="_blank" >
+
+    
+            <span class="">LinkedIn</span>
+    
+        </a>
+                    </li>
+                                    <li class="flex">
+                        <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://discord.gg/multion"      target="_blank" >
+
+    
+            <span class="">Discord</span>
+    
+        </a>
+                    </li>
+                            </ul>
+                <p class="f-ui-01 hidden justify-self-center uppercase lg:flex">
+            © 2024 MultiOn
+        </p>
+                    <ul class="grid-col-span-5 flex flex-col gap-x-36 gap-y-16 lg:flex-row lg:items-center">
+                                    <li class="flex">
+                        <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/privacy"     >
+
+    
+            <span class="">Privacy Policy</span>
+    
+        </a>
+                    </li>
+                                    <li class="flex">
+                        <a class="inline-flex inline-flex items-center f-ui-01 effect-color effect-focus-brand-before text-primary hover:text-secondary"
+     href="https://www.multion.ai/terms"     >
+
+    
+            <span class="">Terms of Use</span>
+    
+        </a>
+                    </li>
+                            </ul>
+            </div>
+    <p class="f-ui-01 mt-60 text-center uppercase lg:hidden">
+        © 2024 MultiOn
+    </p>
+</footer>
+                    </div>
+        <div data-global-modal-wrapper>
+                    </div>
+
+        <div id="icon-sprite">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 hidden>
+                <defs>
+                        <g id="menu-20">
+        <path d="M1 5.5H19M1 14.5H19"
+              stroke="currentColor"
+              stroke-width="1.5" />
+    </g>
+    <g id="close-20">
+        <path d="M17 3L3 17M17 17L3 3"
+              stroke="currentColor"
+              stroke-width="1.5" />
+    </g>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+    <script>
+        // Add configuration for cookie consent solution
+        window.axeptioEnabled = true;
+        window.axeptioSettings = {
+            clientId: '65701571d49a22ab9220c515',
+            cookiesVersion: '',
+        };
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script>
+        window.ga4ID = "G-TTLTKZYR56";
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        window.adsbygoogle.pauseAdRequests = 1;
+        gtag("js", new Date());
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            analytics_storage: "denied"
+        });
+    </script>
+    <script async
+            defer
+            src="https://www.googletagmanager.com/gtag/js?id=G-TTLTKZYR56"></script>
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments);
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "k2n2gsxu4f");
+    </script>
+
+    <!-- Scripts -->
+<script src="https://www.recaptcha.net/recaptcha/api.js?render=6LerczApAAAAALLN8Ntxv9BP2w2PAmcHUrQJC7Bu"></script>
+    <style>
+        .grecaptcha-badge {
+            visibility: hidden;
+        }
+    </style>
+    <script>
+        window.A17 = window.A17 || {};
+        window.A17.recaptchaSiteKey = "6LerczApAAAAALLN8Ntxv9BP2w2PAmcHUrQJC7Bu"
+    </script>
+
+
+<script>
+    window.A17 = window.A17 || {};
+    window.A17.breakpoints = ["sm","md","lg","xl","xxl","xxxl"];
+    window.A17.sliderConfigurations = {
+        'cards-carousel': {"slidesPerView":1,"spaceBetween":12,"breakpoints":{"600":{"slidesPerView":1,"spaceBetween":16},"900":{"slidesPerView":4,"spaceBetween":16},"1100":{"slidesPerView":4,"spaceBetween":24}}},
+        'people-carousel': {"slidesPerView":1,"spaceBetween":12,"breakpoints":{"600":{"slidesPerView":1,"spaceBetween":16},"900":{"slidesPerView":3,"spaceBetween":16},"1100":{"slidesPerView":3,"spaceBetween":24}}},
+    };
+</script>
+
+<link rel="modulepreload" href="https://www.multion.ai/build/assets/app-1ypSz25K.js" /><script type="module" src="https://www.multion.ai/build/assets/app-1ypSz25K.js"></script>
+    </body>
+
+</html>

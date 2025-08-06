@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="el" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="el" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="el" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="el"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2015-06-11T11:11:40/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-06-11T11:11:40/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2015-06-11T11:15:28/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-06-11T11:11:40/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2015-06-11T11:11:40/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.3" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Θεσμικό Πλαίσιο - data.gov.gr</title>
+
+    
+    
+  <link rel="shortcut icon" href="/images/icons/datagovgr.ico" />
+    
+  
+    
+<!-- Snippet googleanalytics/snippets/googleanalytics_header.html start -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-64778337-1']);
+  _gaq.push(['_setDomainName', 'auto']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- Snippet googleanalytics/snippets/googleanalytics_header.html end -->
+
+  
+
+  
+      
+    
+
+<link rel="stylesheet" type="text/css" href="/kostas.css" />
+
+
+
+    
+      
+      
+    <style>
+        /* Remove the feature image */
+div.hero-primary section.featured.media-overlay {
+display: none;
+}
+      </style>
+    
+  </head>
+
+  
+  <body data-site-root="http://repository.data.gov.gr/" data-locale-root="http://repository.data.gov.gr/" >
+
+    
+    <div class="hide"><a href="#content">Skip to content</a></div>
+  
+
+  
+    
+
+  <header class="account-masthead">
+{
+    <div class="container">
+      
+        
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+              <li><a href="/user/login">Συνδεθείτε</a></li>
+              
+              
+            </ul>
+          </nav>
+        
+      
+    </div>
+}
+  </header>
+
+<header class="navbar navbar-static-top masthead">
+  
+    
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+        
+          <a class="logo" href="/"><img src="/base/images/datagovgr-logo.png" alt="data.gov.gr" title="data.gov.gr" /></a>
+        
+      
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+
+      
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            
+              <li><a href="/dataset">Σύνολα Δεδομένων</a></li><li><a href="/organization">Φορείς</a></li><li><a href="/group">Ομάδες</a></li><li><a href="/about">Σχετικά</a></li><li class="active"><a href="/pages/thesmikoplaisio">Θεσμικό Πλαίσιο</a></li>
+            
+          </ul>
+        </nav>
+      
+
+      
+        <form class="section site-search simple-input" action="/dataset" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">Αναζήτηση Συνόλων Δεδομένων</label>
+            <input id="field-sitewide-search" type="text" name="q" placeholder="Αναζήτηση" />
+            <button class="btn-search" type="submit"><i class="icon-search"></i></button>
+          </div>
+        </form>
+      
+
+    </div>
+  </div>
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+              
+            </div>
+          
+
+          <div class="row wrapper no-nav">
+
+            
+            
+            
+
+            
+  <section class="module-content">
+    
+    <h1 class="page-heading">Θεσμικό Πλαίσιο</h1>
+    
+      <div class="ckanext-pages-content">
+          <p>Το data.gov.gr αποτελεί εργαλείο υλοποίησης της πολιτικής των ανοικτών δεδομένων κατ' εφαρμογή της σχετικής νομοθεσίας, μετά και την ενσωμάτωση της Οδηγίας 2013/37/ΕΕ.<br />
+
+</p>
+<p>Το θεσμικό πλαίσιο που διέπει τη συγκεκριμένη δράση είναι:
+</p>
+<p><strong>1.</strong> Ν. <a href="http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wEc63YDhn5AeXdtvSoClrL8oeKAuTKOuiV5MXD0LzQTLWPU9yLzB8V68knBzLCmTXKaO6fpVZ6Lx3UnKl3nP8NxdnJ5r9cmWyJWelDvWS_18kAEhATUkJb0x1LIdQ163nV9K--td6SIubMfH2r_a2DXjO6MJnF-5f9_LW7pRMszX0fGIINVmMIh" title="4305/2014">4305/2014</a> (ΦΕΚ 237/Α΄) «Ανοικτή διάθεση και περαιτέρω χρήση εγγράφων, πληροφοριών και δεδομένων του δημόσιου τομέα, τροποποίηση του ν. 3448/2006 (Α΄ 57), προσαρμογή της εθνικής νομοθεσίας στις διατάξεις της Οδηγίας 2013/37/ΕΕ του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου, περαιτέρω ενίσχυση της διαφάνειας, ρυθμίσεις θεμάτων Εισαγωγικού Διαγωνισμού Ε.Σ.Δ.Δ.Α. και άλλες διατάξεις».
+</p>
+<p><strong>2.</strong> Ν. <a href="http://www.et.gr/idocs-nph/search/pdfViewerForm.html?args=5C7QrtC22wFGQ40gSLPFOXdtvSoClrL8KoqaERu8wDDtIl9LGdkF53UIxsx942CdyqxSQYNuqAGCF0IfB9HI6qSYtMQEkEHLwnFqmgJSA5WIsluV-nRwO1oKqSe4BlOTSpEWYhszF8P8UqWb_zFijM7pZ0uAVJnEIRDT8gfgjDrktnVRzo5d-fi1RvYPzP-4" title="3448/2006">3448/2006</a> (ΦΕΚ  57/Α΄) «Για την περαιτέρω χρήση πληροφοριών του δημόσιου τομέα και τη ρύθμιση θεμάτων αρμοδιότητας Υπουργείου Εσωτερικών, Δημόσιας Διοίκησης και Αποκέντρωσης».
+</p>
+<p><strong>3.</strong> <a href="http://www.hellenicparliament.gr/UserFiles/2f026f42-950c-4efc-b950-340c4fb76a24/a-diafeg-eis-sunolo.pdf" title="Αιτιολογική έκθεση">Αιτιολογική έκθεση</a> Ν. 4305/2014.
+</p>
+<p><strong>4.</strong> Αριθ. ΔΗΔ/Φ.40/407/8.1.2015 εγκύκλιος με θέμα «Εφαρμογή των διατάξεων του Κεφαλαίου Α’ του ν. 4305/2014 (ΦΕΚ 237/Α΄ ) σχετικά με την «ανοικτή διάθεση και περαιτέρω χρήση εγγράφων, πληροφοριών και δεδομένων του δημόσιου τομέα, την τροποποίηση των διατάξεων του πρώτου κεφαλαίου του ν. 3448/2006, προσαρμογή της εθνικής νομοθεσίας στις διατάξεις της οδηγίας 2013/37 του Ευρωπαϊκού Κοινοβουλίου και του Συμβουλίου και την περαιτέρω ενίσχυση της διαφάνειας στο δημόσιο τομέα». (ΑΔΑ: <a href="https://diavgeia.gov.gr/decision/view/%CE%A9%CE%A9%CE%A1%CE%9C%CE%A7-%CE%9C%CE%92%CE%9B" title="ΩΩΡΜΧ-ΜΒΛ">ΩΩΡΜΧ-ΜΒΛ</a>).
+</p>
+<p><strong>5.</strong> Αριθ. ΔΗΔ. Φ./ 19710/16.6.2015 εγκύκλιος (ΑΔΑ:<a href="https://diavgeia.gov.gr/decision/view/7%CE%A7%CE%A9%CE%A8465%CE%A6%CE%98%CE%95-%CE%922%CE%99" title="7ΧΩΨ465ΦΘΕ-Β2Ι">7ΧΩΨ465ΦΘΕ-Β2Ι</a>) με θέμα «Ανοικτή διάθεση και περαιτέρω χρήση εγγράφων, πληροφοριών και δεδομένων του δημόσιου τομέα σύμφωνα με το κεφ. Α΄ του Ν. 4305/2014».
+</p>
+<p><strong>6.</strong> Αριθμ. Πρωτ.: ΔΗΔ/Φ.40/2369/24.1.2017 εγκύκλιος  (ΑΔΑ: <a href="https://diavgeia.gov.gr/decision/view/6%CE%9307465%CE%A7%CE%98%CE%A8-473" title="6Γ07465ΧΘΨ-473">6Γ07465ΧΘΨ-473</a>) με θέμα «Επίσπευση ενεργειών από τους υπόχρεους φορείς για τη διάθεση και περαιτέρω χρήση των ανοικτών δεδομένων σε εφαρμογή του ν. 4305/2014 (ΦΕΚ 237 Α΄)».
+</p>
+<p><strong>7.</strong> Αριθμ. Πρωτ.: ΔΗΔ/17544/11.5.2018 εγκύκλιος (ΑΔΑ: <a href="https://diavgeia.gov.gr/decision/view/676%CE%9D465%CE%A7%CE%98%CE%A8-%CE%9A%CE%95%CE%98" title=" 676Ν465ΧΘΨ-ΚΕΘ">676Ν465ΧΘΨ-ΚΕΘ</a>) με θέμα «Επικαιροποίηση απόφασης του άρθρου 10 του Ν. 4305/2014».
+</p>
+<p><strong>8.</strong> Αριθμ. Πρωτ.: ΔΗΔ/3274/22.1.2019 <a href="https://drive.google.com/file/d/1j_y37dG33ptlkBL8o1Dod8WcpG4FnaoB/view?usp=sharing" title=" εγκύκλιος">εγκύκλιος</a> με θέμα «Ανοικτή διάθεση των δεδομένων σε εφαρμογή του ν. 4305/2014».
+</p>
+      </div>
+    
+  </section>
+
+
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="container">
+    
+    <div class="row">
+      <div class="span8 footer-links">
+        
+          <ul class="unstyled">
+            
+              <li><a href="/about">Σχετικά με data.gov.gr</a></li>
+            
+          </ul>
+          <ul class="unstyled">
+            
+              
+              <li><a href="/apihelper">API</a></li>
+              <li><a href="http://www.mindigital.gr/" target="_blank">Υπουργείο Ψηφιακής Διακυβέρνησης</a></li>
+              <li><a href="http://www.opendefinition.org/okd/"><img src="/base/images/od_80x15_blue.png"></a></li>
+            
+          </ul> 
+		
+      </div>
+      <div class="span4 attribution">
+        
+          <p><strong>Λειτουργεί με </strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a></p>
+        
+        
+          
+<!-- Snippet snippets/language_selector.html start -->
+
+
+<form class="form-inline form-select lang-select" action="/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Γλώσσα</label>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+      <option value="/el/pages/thesmikoplaisio" selected="selected">
+        Ελληνικά
+      </option>
+    
+  </select>
+  <button class="btn js-hide" type="submit">Πάμε</button>
+</form>
+<!-- Snippet snippets/language_selector.html end -->
+
+        
+      </div>
+    </div>
+    
+  </div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+  
+  
+    
+  
+    
+    <div class="js-hide" data-module="google-analytics"
+      data-module-googleanalytics_resource_prefix="">
+    </div>
+  
+
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-06-11T11:11:40/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2015-06-11T11:11:40/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2015-06-11T11:15:28/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/related-item.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2015-07-04T12:42:20/googleanalytics_event_tracking.js"></script></body>
+</html>

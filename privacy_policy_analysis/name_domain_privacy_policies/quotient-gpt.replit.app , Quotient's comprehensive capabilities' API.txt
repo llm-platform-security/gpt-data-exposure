@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js anvil-runner runner">
+<head>
+  <base href="https://pulse-finance.com/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="expires" content="0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="never"> <!-- Yes, this is "legacy", but Safari and Edge don't support 'no-referrer' yet -->
+
+  <meta name="og:title" content="pulse-finance">
+  <meta name="title" content="pulse-finance">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="https://pulse-finance.com">
+  <meta name="og:image" content="https://pulse-finance.com/_/theme/65f84379-3f9d-4c13-ada8-9c28db6fea18.png">
+  <!--<xmeta name="og:image:width" content="400">-->
+  <!--<xmeta name="og:image:height" content="400">-->
+  <!--<xmeta name="og:site_name" content="Anvil">-->
+  <meta name="og:description" content="This app is built with Anvil, the platform for building full-stack web apps quickly and robustly.">
+  <meta name="description" content="This app is built with Anvil, the platform for building full-stack web apps quickly and robustly.">
+
+
+  <title>pulse-finance</title>
+
+  <!-- <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/bootstrap.css?sha=adc8ee1e2b08f322404a" crossorigin/> -->
+  <!-- <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/bootstrap-theme.min.css?sha=f2e1cc227d6bbb4192e4" crossorigin/> -->
+  <style>
+  .anvil-spinner{width:70px;height:70px}
+  .anvil-spinner{color:black}
+  </style>
+  <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/bootstrap.css?sha=c72a0381af84afb75234" crossorigin/>
+<link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/bootstrap-theme.min.css?sha=42cf18f709a52a7f4a0a" crossorigin/>
+<link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/node_modules/animate.css/animate.min.css?sha=b99997f8705218b0610b" crossorigin/>
+  <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/dist/runner.min.css?sha=adc877189c16a1666010" crossorigin/>
+  <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/dist/runner-v3.min.css?sha=501367bdc109953061fc" crossorigin/>
+  <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/daterangepicker.min.css?sha=b6274449b2fdd072220a" crossorigin/>
+  <!-- <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/node_modules/animate.css/animate.min.css?sha=8fe3fa119255adb5e0c1" crossorigin/> -->
+
+  <link rel="stylesheet" href="https://pulse-finance.com/_/static/runtime/css/font-awesome.min.css?sha=b1d7cc003eb49d03092a" crossorigin/>
+
+  <!-- Favicon things -->
+  <link rel="icon" href="https://pulse-finance.com/_/theme/65f84379-3f9d-4c13-ada8-9c28db6fea18.png">
+  <link rel="manifest" href="https://pulse-finance.com/_/manifest.json?buildTime=0">
+  <link rel="apple-touch-icon" href="https://pulse-finance.com/_/theme/65f84379-3f9d-4c13-ada8-9c28db6fea18.png">
+  <meta name="apple-mobile-web-app-title" content="pulse-finance">
+  <meta name="application-name" content="pulse-finance">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-TileImage" content="https://pulse-finance.com/_/theme/65f84379-3f9d-4c13-ada8-9c28db6fea18.png">
+  <meta name="theme-color" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <style></style>
+  <style>:root {
+--anvil-color-Secondary-Container-3a56:#E8DEF8;
+--anvil-color-Tertiary-Container-d1d2:#FFD8E4;
+--anvil-color-On-Background-60f4:#1C1B1F;
+--anvil-color-Disabled-Container-445f:rgba(28, 27, 31, 0.12);
+--anvil-color-On-Tertiary-78d1:#FFFFFF;
+--anvil-color-Outline-e757:#79747E;
+--anvil-color-On-Primary-Container-f383:#21005E;
+--anvil-color-Dark-Overlay-2-d528:rgba(30, 25, 43, 0.12);
+--anvil-color-On-Secondary-5fc6:#FFFFFF;
+--anvil-color-On-Secondary-Container-f6a5:#1E192B;
+--anvil-color-Primary-Container-d99b:#EADDFF;
+--anvil-color-Secondary-62b9:#625B71;
+--anvil-color-On-Surface-Variant-e44f:#49454E;
+--anvil-color-Surface-Variant-2aee:#E7E0EC;
+--anvil-color-Light-Overlay-1-f9f1:rgba(255, 255, 255, 0.08);
+--anvil-color-Tertiary-c16a:#7D5260;
+--anvil-color-Light-Overlay-2-e8ee:rgba(255, 255, 255, 0.12);
+--anvil-color-Primary-Overlay-2-da46:rgba(103, 80, 164, 0.08);
+--anvil-color-Primary-aeef:black;
+--anvil-color-On-Tertiary-Container-848a:#370B1E;
+--anvil-color-Primary-Overlay-3-4c8a:rgba(103, 80, 164, 0.11);
+--anvil-color-Primary-Overlay-1-9b4d:rgba(103, 80, 164, 0.05);
+--anvil-color-On-Surface-5b41:#1C1B1F;
+--anvil-color-On-Disabled-1285:rgba(28, 27, 31, 0.38);
+--anvil-color-Error-50c5:#B3261E;
+--anvil-color-Background-a24f:#FFFBFE;
+--anvil-color-Dark-Overlay-1-ebca:rgba(30, 25, 43, 0.08);
+--anvil-color-Surface-7970:#FFFBFE;
+--anvil-color-On-Primary-0ca8:black;
+}</style>
+  
+<style>
+/**
+ This CSS implements the Material Design 3 look and feel for Anvil apps.
+ **/
+
+/* Stop panel-cols cutting off drop shadows */
+.anvil-panel-col {
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+.content > .placeholder {
+  margin: 16px;
+  color: #888;
+  font-size: 18px;
+  outline: 1px dotted;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Put things on a 4px grid (none of this 7px nonsense) */
+.has-text .anvil-component-icon.left-icon { margin-right: 8px; }
+.has-text .anvil-component-icon.right-icon { margin-left: 8px; }
+
+a>.anvil-component-icon.left_edge-icon,
+a>.anvil-component-icon.right_edge-icon,
+.anvil-label>.anvil-component-icon.left_edge-icon,
+.anvil-label>.anvil-component-icon.right_edge-icon {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.anvil-label>.label-text, a>.link-text {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.file-loader>label {
+    padding: 8px;
+}
+.checkbox label, .radio label {
+    padding-top: 8px; padding-right: 8px; padding-bottom: 8px;
+}
+
+/*TODO: see if this spacing stuff needs to be changed*/
+.anvil-spacing-above-none { margin-top: 0px; }
+.anvil-spacing-above-small { margin-top: 4px; }
+.anvil-spacing-above-medium { margin-top: 8px; }
+.anvil-spacing-above-large { margin-top: 16px; }
+.anvil-spacing-below-none { margin-bottom: 0px; }
+.anvil-spacing-below-small { margin-bottom: 4px; }
+.anvil-spacing-below-medium { margin-bottom: 8px; }
+.anvil-spacing-below-large { margin-bottom: 16px; }
+
+
+.col-padding.col-padding-tiny { padding: 0 2px; }
+.column-panel.col-padding-tiny > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter { margin: 0 -2px; }
+
+.col-padding.col-padding-small { padding: 0 4px; }
+.column-panel.col-padding-small > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter { margin: 0 -4px; }
+
+.col-padding.col-padding-medium { padding: 0 8px; }
+.column-panel.col-padding-medium > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter { margin: 0 -8px; }
+
+.col-padding.col-padding-large { padding: 0 12px; }
+.column-panel.col-padding-large > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter { margin: 0 -12px; }
+
+.col-padding.col-padding-huge { padding: 0 20px; }
+.column-panel.col-padding-huge > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter { margin: 0 -20px; }
+
+.flow-panel.flow-spacing-tiny > .flow-panel-gutter { margin: 0 -2px; }
+.flow-panel.flow-spacing-tiny > .flow-panel-gutter > .flow-panel-item { 
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.flow-panel.flow-spacing-small > .flow-panel-gutter { margin: 0 -4px; }
+.flow-panel.flow-spacing-small > .flow-panel-gutter > .flow-panel-item { 
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.flow-panel.flow-spacing-medium > .flow-panel-gutter { margin: 0 -8px; }
+.flow-panel.flow-spacing-medium > .flow-panel-gutter > .flow-panel-item { 
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.flow-panel.flow-spacing-large > .flow-panel-gutter { margin: 0 -12px; }
+.flow-panel.flow-spacing-large > .flow-panel-gutter > .flow-panel-item { 
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.flow-panel.flow-spacing-huge > .flow-panel-gutter { margin: 0 -20px; }
+.flow-panel.flow-spacing-huge > .flow-panel-gutter > .flow-panel-item{ 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+/* Typography */
+body {
+  font-family: Roboto, Noto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4286;
+  color: var(--anvil-color-On-Surface-5b41);
+  background-color: black;
+  min-height: calc(100vh - 56px)
+}
+
+@media print {
+  body {
+    background-color: black;
+  }
+}
+
+a, a:focus {
+  text-decoration: none;
+  color: var(--anvil-color-Primary-aeef);
+}
+
+a:hover, a:active {
+color: var(--anvil-color-On-Primary-Container-f383);
+}
+
+.anvil-role-display {
+  font-size: 57px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+.anvil-role-headline {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.anvil-role-title {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.anvil-role-body {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.anvil-role-input-prompt {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.anvil-role-body > .label-text, .anvil-role-body .link-text {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Page structure: App bar with optional left nav */
+.structure {
+/*   display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+  min-height: calc(100vh - 0px);
+/*   height: 0; /* To make flex-grow work in IE */
+}
+
+/* However, this breaks the designer's height measurement. IE isn't supported for the designer, so set it back. */
+.designer .structure {
+  height: initial;
+}
+
+.app-bar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  top: 0px;
+  right: 0;
+  left: 0;
+/*   flex: 0 0;
+  flex-basis: auto;
+  flex-basis: content; */
+}
+
+.nav-holder {
+  display: flex;
+/*   flex-grow: 1;
+  overflow-y: initial; */
+}
+
+@media print {
+  .nav-holder {
+    overflow-y: initial;
+  }
+}
+
+
+/* Mobile and desktop margins for content */
+.content > * > .anvil-container {
+  padding: 8px;
+}
+
+@media(min-width:991px) {
+  .content > * > .anvil-container {
+    padding: 16px 24px;
+  }
+}
+
+.content .anvil-measure-this {
+  padding-bottom: 1px; /* Prevent margin collapse messing up embedding */
+}
+
+/* Allow overflows to show drop shadows in ColumnPanels
+   This can create unwanted scrollbars; we compensate for this at the top level with .nav-holder .content {overflow-x: hidden;}
+*/
+.anvil-container-overflow {
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+/* Desktop: Nav bar pinned */
+
+.nav-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-holder .left-nav {
+  position: fixed;
+/*   top: 0; */
+  left: 0;
+  flex-shrink: 0;
+  min-width: 240px;
+  max-width: 400px;
+}
+
+.nav-shield {
+  display: none;
+}
+
+/* Mobile: Nav bar is a modal overlay */
+
+@media(max-width:998px) {
+  html:not(.designer) .nav-holder {
+    display: block;
+  }
+  html:not(.designer) .nav-holder .left-nav {
+    top: 0;
+    bottom: 0;
+    width: calc(100% - 56px);
+    max-width: 360px;
+    z-index: 3;
+    border-right: none;
+    border-radius: 0 20px 20px 0;
+  /* 16dp */ box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+    display: none;
+    transition: right 0.5s;
+    height: 100%;
+  }
+  
+  html:not(.designer) .nav-holder .left-nav.shown {
+    display: block;
+  }
+  .nav-shield.shown {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.2);
+  }
+ }
+
+.nav-holder .left-nav, .left-nav-placeholder {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, var(--anvil-color-Primary-Overlay-1-9b4d), var(--anvil-color-Primary-Overlay-1-9b4d)), var(--anvil-color-Background-a24f);
+/*   border-right: 1px solid #e0e0e0; */
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--anvil-color-On-Surface-Variant-e44f);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+/*   top: 54px; */
+  height: calc(100% - 54px); /*todo: fix on mobile*/
+}
+
+
+.left-nav-placeholder {
+  display: block;
+  padding: 8px;
+  line-height: 1;
+  width: 58px;
+}
+.left-nav-placeholder .prompt {
+  display: inline-block;
+  white-space: nowrap;
+  transform: translate(-50%,0) rotate(-90deg) translate(-50%,0) translate(15px,16px);
+  padding: 16px 16px;
+  color: #888;
+  outline: 1px dotted #888;
+  visibility: hidden;
+}
+.anvil-highlight .left-nav-placeholder .prompt {
+  visibility: visible;
+}
+
+.left-nav > .column-panel {
+  padding: 24px 0;
+}
+.left-nav > .column-panel > .anvil-panel-section > .anvil-panel-section-container:not(.full-width-row) {
+  margin: 0 16px;
+  width: initial;
+  max-width: initial;
+  overflow-x: visible;
+}
+.left-nav > .column-panel > .anvil-panel-section:first-child > .anvil-panel-section-container.full-width-row {
+  margin-top: -24px;
+}
+.left-nav > .column-panel > .anvil-panel-section > .anvil-panel-section-container > .anvil-panel-section-gutter > .anvil-panel-row > .anvil-panel-col {
+  overflow-x: visible;
+}
+
+/* Make all the sidebar icons look nice */
+
+.left-nav .anvil-component-icon.left-icon {
+  width: 0;
+  margin-right: 24px;
+  position: relative;
+}
+
+.left-nav .anvil-component-icon.left_edge-icon, .left-nav .anvil-component-icon.right_edge-icon {
+  left: 16px;
+  padding-top: 2px;
+  width: 0;
+}
+
+.left-nav .anvil-component-icon.right_edge-icon {
+  left: initial;
+  right: 16px;
+  top: 0;
+  padding-top: 2px;
+}
+
+/* Sidebar links (and labels with edge icons) go +16px wider
+   (Top-level columns in ColumnPanels get overflow-x visible [see above]to enable this)
+*/
+
+.left-nav a, .left-nav .anvil-label, .left-nav .anvil-label.left_edge-icon, .left-nav .anvil-label.right_edge-icon {
+  color: var(--anvil-color-On-Surface-Variant-e44f);
+  margin: 0 -8px;
+  padding: 4px 16px;
+  border-radius: 100px;
+}
+
+.left-nav .anvil-component.left_edge-icon {
+  padding-left: 72px;
+}
+
+.left-nav a:hover, .app-bar a:hover, .app-bar a:active {
+  background: linear-gradient(0deg, var(--anvil-color-Dark-Overlay-1-ebca), var(--anvil-color-Dark-Overlay-1-ebca)), linear-gradient(0deg, var(--anvil-color-Primary-Overlay-1-9b4d), var(--anvil-color-Primary-Overlay-1-9b4d)), var(--anvil-color-Background-a24f);
+  opacity: 100%;
+}
+
+.left-nav a.anvil-role-selected, .app-bar a.anvil-role-selected  {
+  background-color: var(--anvil-color-Secondary-Container-3a56);
+  color: var(--anvil-color-On-Secondary-Container-f6a5);
+}
+
+.left-nav a.anvil-role-selected:hover, .app-bar a.anvil-role-selected:hover {
+  background: linear-gradient(0deg, var(--anvil-color-Dark-Overlay-1-ebca), var(--anvil-color-Dark-Overlay-1-ebca)), var(--anvil-color-Secondary-Container-3a56);
+}
+
+.designer .nav-holder .left-nav {
+  min-width: 56px;
+}
+
+.designer .nav-holder .left-nav > .anvil-component {
+  min-width: 160px;
+}
+
+.nav-holder .left-nav > .anvil-component {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav-holder {
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+/* Components: App Bar */
+.app-bar {
+  min-height: 56px;
+  padding: 0 16px 0 72px;
+  position: fixed;
+  width: 100%;
+  
+  line-height: 40px;
+  font-size: 20px;
+
+  background-color: black;
+  transition: background-color 250ms;
+  -webkit-transition: background-color 250ms;
+  -moz-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
+  
+  z-index: 1;
+}
+
+.app-bar.scrolled {
+/*   background: linear-gradient(0deg, var(--anvil-color-Primary-Overlay-2-da46), var(--anvil-color-Primary-Overlay-2-da46)), var(--anvil-color-Background-a24f); */
+  background: black;
+  transition: background 250ms;
+  -webkit-transition: background 250ms;
+  -moz-transition: background 250ms;
+  -o-transition: background 250ms;
+}
+
+.app-bar .anvil-component {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.app-bar > .sidebar-toggle { display:block; float:left;  margin-left: -61px; }
+.app-bar > .top-left-btn { float: left; margin-left: -60px; margin-right: -40px; }
+.app-bar > .title { float: left; }
+.app-bar > .title > .placeholder { outline: 1px dotted; padding-left: 16px; padding-right: 16px; margin: 8px 8px 0; display:none; }
+.app-bar > .app-bar-nav { float: right; font-weight: normal; }
+.app-bar > .app-bar-nav .placeholder { margin-top: 8px; padding: 0 8px; }
+.anvil-highlight .app-bar > .app-bar-nav .placeholder { outline: 1px dotted #ccc; }
+.anvil-highlight .app-bar > .title > .placeholder { display:block; }
+
+.app-bar a, .app-bar .anvil-component {
+  display: block;
+  color: var(--anvil-color-On-Surface-5b41);
+/*   color: black */
+  line-height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  margin: 5px 4px 0;
+}
+
+.app-bar .title .anvil-component {
+  margin-left: 0;
+}
+
+.app-bar input.anvil-component, .app-bar .anvil-component input {
+  line-height: 30px;
+  color: black;
+}
+
+.app-bar select.form-control {
+  height: 43px; /* 30px line height + 12px padding + 1px border */
+}
+
+.app-bar .anvil-component-icon-present .anvil-component-icon, .app-bar .sidebar-toggle .fa {
+  width: 30px;
+  text-align: center;
+}
+
+/* Don't put spacing on the top-level container (eg FlowPanel) */
+.app-bar-nav > .anvil-container {
+  margin: 0;
+  padding: 0;
+  min-height: 56px;
+}
+
+.anvil-highlight .app-bar-nav > .anvil-container:not(.has-components):not(a) {
+  outline: 1px dotted #fff;
+  margin-top: 8px;
+  min-height: 40px;
+  padding: 5px 8px;
+}
+
+.anvil-highlight .app-bar-nav > .anvil-container:not(.has-components):not(a)::after {  
+  content: "Drop Links here"
+}
+
+/* Rejig margin vs padding to give links the halo */
+.app-bar a, .app-bar a.anvil-component {
+  padding: 5px;
+  margin: 8px 0 0;
+  border-radius: 20px;
+}
+
+.app-bar a .link-text {
+  padding: 0 4px;
+}
+.app-bar a.has-text .anvil-component-icon.left {
+  margin-right: 4px;
+}
+.app-bar a.has-text .anvil-component-icon.right {
+  margin-left: 4px;
+}
+
+
+/* Component: Dialog (alert), Notification */
+.modal-content, body>div[data-notify="container"] {
+  border-radius: 28px;
+  background: linear-gradient(0deg, var(--anvil-color-Primary-Overlay-3-4c8a), var(--anvil-color-Primary-Overlay-3-4c8a)), var(--anvil-color-Background-a24f);
+  box-shadow: none;
+  border: none;
+}
+
+.modal-header {
+  padding: 24px 24px 0px;
+  font-size: 24px;
+  line-height: 32px;
+  border: 0;
+  color: var(--anvil-color-On-Surface-5b41);
+}
+
+.modal-body {
+  padding: 24px;
+  font-size: 16px;
+  color: var(--anvil-color-On-Surface-Variant-e44f);
+}
+
+.modal-footer {
+  padding: 0px 8px 14px 24px;
+  border: 0;
+}
+
+.modal-footer .btn, .modal-footer .btn:focus, .modal-footer .btn:active {
+  box-shadow: none;
+  top: 0;
+}
+
+/* Notifications */
+body>div[data-notify="container"] {
+  background: linear-gradient(0deg, var(--anvil-color-Primary-Overlay-3-4c8a), var(--anvil-color-Primary-Overlay-3-4c8a)), var(--anvil-color-Background-a24f);
+  border: none;
+  padding: 24px;
+  /* 24dp */ box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+}
+
+body>div[data-notify="container"]>span[data-notify="title"] {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--anvil-color-On-Surface-5b41);
+}
+
+body>div[data-notify="container"]>span[data-notify="message"] {
+  display: block;
+  padding: 20px 0 0;
+  font-size: 16px;
+  color: var(--anvil-color-On-Surface-Variant-e44f);  
+}
+
+body>div[data-notify="container"].alert-success{
+  background-color: #d4edda;
+}
+
+body>div[data-notify="container"].alert-success>span[data-notify="title"]{
+  color: #155724;
+}
+
+body>div[data-notify="container"].alert-danger{
+  background-color: #f8d7da;
+}
+
+body>div[data-notify="container"].alert-danger>span[data-notify="title"]{
+  color: #721c24;
+}
+
+body>div[data-notify="container"].alert-warning{
+  background-color: #fff3cd;
+}
+
+body>div[data-notify="container"].alert-warning>span[data-notify="title"]{
+  color: #856404;
+}
+
+button.close > span, button.close {
+  color:var(--anvil-color-On-Background-60f4);
+  text-shadow: 0 1px 0 var(--anvil-color-Background-a24f);
+}
+
+/* Component: Button */
+
+.btn, .btn-default, .file-loader>label {
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 24px;
+  min-height: 40px;
+  letter-spacing: 0.1px;
+
+  border: 0;
+  background-image: none;
+  background-color: transparent;
+  color: var(--anvil-color-Primary-aeef);
+  text-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  
+  position: relative;
+}
+
+.btn:hover,.file-loader>label:hover {
+  background-color: var(--anvil-color-Light-Overlay-1-f9f1);
+  background-image: none;
+  outline: none;
+  color: var(--anvil-color-Primary-aeef);
+}
+
+.btn:active, .btn:focus, .btn:active:focus, .file-loader>label:active, .file-loader>label:focus, .file-loader>label:active:focus {
+  background-color: var(--anvil-color-Light-Overlay-2-e8ee);
+  background-image: none;
+  outline: none;
+  box-shadow: none;
+  color: var(--anvil-color-Primary-aeef);
+}
+
+
+.anvil-role-outlined-button > .btn, .anvil-role-outlined-button.file-loader>label {
+  color: var(--anvil-color-Primary-aeef);
+  border: solid 1px var(--anvil-color-Outline-e757);
+}
+
+.anvil-role-outlined-button > .btn:hover, .anvil-role-outlined-button.file-loader>label:hover {
+  background-color: var(--anvil-color-Light-Overlay-1-f9f1);
+}
+
+.anvil-role-outlined-button > .btn:focus, .anvil-role-outlined-button > .btn:active, 
+.anvil-role-outlined-button.file-loader>label:focus, .anvil-role-outlined-button.file-loader>label:active{
+  background-color: var(--anvil-color-Light-Overlay-2-e8ee);
+  color: var(--anvil-color-Primary-aeef);
+}
+
+.anvil-role-filled-button > .btn, .btn-primary, .anvil-role-filled-button.file-loader>label {
+  background-color: var(--anvil-color-Primary-aeef);
+  color: var(--anvil-color-On-Primary-0ca8); 
+}
+
+.anvil-role-filled-button > .btn:hover, .btn-primary:hover, .anvil-role-filled-button.file-loader>label:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-1-f9f1), var(--anvil-color-Light-Overlay-1-f9f1)), var(--anvil-color-Primary-aeef);
+  color: var(--anvil-color-On-Primary-0ca8); 
+}
+
+.anvil-role-filled-button > .btn:focus, .btn-primary:focus, .anvil-role-filled-button > .btn:active, 
+.btn-primary:active, .anvil-role-filled-button > .btn:active:hover, .btn-primary:active:hover,
+.anvil-role-filled-button.file-loader>label:focus, .anvil-role-filled-button.file-loader>label:active, 
+.anvil-role-filled-button.file-loader>label:active:focus
+{
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-2-e8ee), var(--anvil-color-Light-Overlay-2-e8ee)), var(--anvil-color-Primary-aeef);
+  color: var(--anvil-color-On-Primary-0ca8); 
+}
+
+.anvil-role-elevated-button > .btn, .anvil-role-elevated-button.file-loader>label {
+  color: var(--anvil-color-Primary-aeef);
+  background-color: var(--anvil-color-Surface-7970);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.anvil-role-elevated-button > .btn:focus, .anvil-role-elevated-button > .btn:active, 
+.anvil-role-elevated-button > .btn:active:focus, .anvil-role-elevated-button.file-loader>label:focus, 
+.anvil-role-elevated-button.file-loader>label:active, .anvil-role-elevated-button.file-loader>label:active:focus {
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-2-e8ee), var(--anvil-color-Light-Overlay-2-e8ee)), var(--anvil-color-Surface-7970);
+  color: var(--anvil-color-Primary-aeef);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.anvil-role-elevated-button > .btn:hover, .anvil-role-elevated-button.file-loader>label:hover {
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-1-f9f1), var(--anvil-color-Light-Overlay-1-f9f1)), var(--anvil-color-Surface-7970);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.anvil-role-tonal-button > .btn, .anvil-role-tonal-button.file-loader>label {
+  color: var(--anvil-color-On-Secondary-Container-f6a5);
+  background-color: var(--anvil-color-Secondary-Container-3a56);
+}
+
+.anvil-role-tonal-button > .btn:focus, .anvil-role-tonal-button > .btn:active, .anvil-role-tonal-button > .btn:active:focus, 
+.anvil-role-tonal-button.file-loader>label:focus, .anvil-role-tonal-button.file-loader>label:active, .anvil-role-tonal-button.file-loader>label:focus:active {
+  background: linear-gradient(0deg, var(--anvil-color-Dark-Overlay-2-d528), var(--anvil-color-Dark-Overlay-2-d528)), var(--anvil-color-Secondary-Container-3a56);
+  color: var(--anvil-color-On-Secondary-Container-f6a5);
+}
+
+.anvil-role-tonal-button > .btn:hover, .anvil-role-tonal-button.file-loader>label:hover{
+  background: linear-gradient(0deg, var(--anvil-color-Dark-Overlay-1-ebca), var(--anvil-color-Dark-Overlay-1-ebca)), var(--anvil-color-Secondary-Container-3a56);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  color: var(--anvil-color-On-Secondary-Container-f6a5);
+}
+
+.btn-default[disabled], .btn-default[disabled]:hover, .file-loader.anvil-disabled>label, .file-loader.anvil-disabled>label:hover {
+  background: transparent;
+  color: var(--anvil-color-On-Disabled-1285);
+}
+
+.anvil-role-tonal-button > .btn[disabled], .anvil-role-tonal-button> .btn[disabled]:hover, 
+.anvil-role-tonal-button.file-loader.anvil-disabled>label, .anvil-role-tonal-button.file-loader.anvil-disabled>label:hover, 
+.anvil-role-filled-button > .btn[disabled], .anvil-role-filled-button > .btn[disabled]:hover, 
+.anvil-role-filled-button.file-loader.anvil-disabled>label, .anvil-role-filled-button.file-loader.anvil-disabled>label:hover, 
+.anvil-role-elevated-button > .btn[disabled], .anvil-role-elevated-button > .btn[disabled]:hover, 
+.anvil-role-elevated-button.file-loader.anvil-disabled>label, .anvil-role-elevated-button.file-loader.anvil-disabled>label:hover { 
+  background: var(--anvil-color-Disabled-Container-445f);
+  color: var(--anvil-color-On-Disabled-1285);
+  box-shadow: none;
+}
+
+.anvil-role-outlined-button > .btn[disabled], .anvil-role-outlined-button.file-loader.anvil-disabled>label {
+  border-color: var(--anvil-color-On-Disabled-1285);
+  background-color: transparent;
+}
+
+
+/* Component: Card */
+
+.anvil-role-outlined-card {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--anvil-color-Surface-7970);
+  border: solid 1px var(--anvil-color-Outline-e757);
+  padding: 15px;
+}
+
+.anvil-role-elevated-card {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--anvil-color-Surface-7970);
+  /* 2dp */  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+
+.anvil-role-tonal-card {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--anvil-color-Surface-Variant-2aee);
+  padding: 15px;
+}
+
+
+/* full_width_row sections go full bleed */
+.column-panel.anvil-role-card > .anvil-panel-section > .anvil-panel-section-container.full-width-row {
+  margin-left: -12px;
+  margin-right: -12px;
+  width: initial;
+  max-width: initial;
+}
+
+/* If the first row of a card is a full_width_row, it goes to the top */
+.column-panel.anvil-role-card > .anvil-panel-section:first-child > .anvil-panel-section-container.full-width-row {
+  margin-top: -8px;
+}
+.column-panel.anvil-role-card > .anvil-panel-section:last-child > .anvil-panel-section-container.full-width-row {
+  margin-bottom: -8px;
+}
+
+
+
+/* Component: TextBox + TextArea */
+
+/*this affects dropdowns, text boxes and text areas:*/
+input.anvil-component, textarea.anvil-component, .anvil-component select, .anvil-datepicker input {
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px 4px 0 0;
+  background-color: var(--anvil-color-Surface-Variant-2aee);
+  color: var(--anvil-color-On-Surface-Variant-e44f);
+  box-shadow: none;
+}
+
+.anvil-dropdown {
+  font-size: 16px;
+}
+
+.anvil-component select {
+  font-size: inherit;
+}
+
+input.anvil-component, .anvil-component select, .anvil-datepicker input, textarea.anvil-component {
+  padding: 8px 16px;
+  border: 0;
+  border-bottom: 1px solid var(--anvil-color-Outline-e757);
+}
+
+.anvil-dropdown select.form-control {
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+/*   padding: 8px 2em 4px 0; */
+  
+  /* ew ew ew - select elements are weird and don't obey line-height, so we just
+     set the height explicitly. Ugh. */
+  height: calc(1.5em + 13px); /* 8px + 4px padding + 1px border = 13px */
+}
+
+.anvil-dropdown {
+  position: relative;
+}
+/* Select arrow styling */
+.anvil-dropdown form:before {
+    content: "\25BC";
+    position: absolute;
+    right: 0;
+    font-size: 80%;
+    line-height: calc(1.8em + 8px);
+    color: var(--anvil-color-Outline-e757);
+    pointer-events:none;
+    padding: 4px 4px;
+}
+
+.anvil-component select, .anvil-datepicker input { margin-bottom: 4px; }
+input.anvil-component.anvil-spacing-below-none { margin-bottom: 4px; }
+input.anvil-component.anvil-spacing-below-small { margin-bottom: 8px; }
+input.anvil-component.anvil-spacing-below-medium { margin-bottom: 12px; }
+input.anvil-component.anvil-spacing-below-large { margin-bottom: 20px; }
+
+input.anvil-component::-webkit-input-placeholder, textarea.anvil-component::-webkit-input-placeholder {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+input.anvil-component::-moz-placeholder, textarea.anvil-component::-moz-placeholder {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+input.anvil-component::placeholder, textarea.anvil-component::placeholder  {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+
+.app-bar input.anvil-component::-webkit-input-placeholder, .app-bar textarea.anvil-component::-webkit-input-placeholder {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+.app-bar input.anvil-component::-moz-placeholder, .app-bar textarea.anvil-component::-moz-placeholder {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+.app-bar input.anvil-component::placeholder, .app-bar textarea.anvil-component::placeholder  {
+  color: var(--anvil-color-On-Surface-5b41);
+}
+
+input.anvil-component:hover, input.anvil-component:focus, textarea.anvil-component:hover, textarea.anvil-component:focus, 
+.anvil-component select:hover, .anvil-component select:focus, .anvil-datepicker input:hover, .anvil-datepicker input:focus {
+  border-bottom: 2px solid var(--anvil-color-Primary-aeef);
+  padding-bottom: 7px;
+  box-shadow: none;
+}
+
+
+input.anvil-component[disabled], .anvil-component select[disabled], .anvil-datepicker input[disabled], textarea.anvil-component[disabled], 
+textarea.anvil-component.anvil-role-input-error[disabled], input.anvil-component.anvil-role-input-error[disabled], 
+.anvil-component.anvil-role-input-error select[disabled], .anvil-datepicker.anvil-role-input-error input[disabled] {
+  background-color: var(--anvil-color-Dark-Overlay-1-ebca);
+  color: var(--anvil-color-On-Disabled-1285);
+  border-bottom: 1px solid var(--anvil-color-On-Disabled-1285);
+  padding-bottom: 8px;
+}
+
+.anvil-component select:hover, .anvil-component select:focus {
+  padding-bottom: 3px;
+}
+
+/* Outlined role for text areas, text boxes, drop downs and date pickers */
+textarea.anvil-component.anvil-role-outlined, input.anvil-component.anvil-role-outlined, 
+.anvil-component.anvil-role-outlined select, .anvil-datepicker.anvil-role-outlined input {
+  background-color: transparent;
+  border: 1px solid var(--anvil-color-Outline-e757);
+  border-radius: 4px;
+  color: var(--anvil-color-On-Surface-5b41);
+}
+
+textarea.anvil-component.anvil-role-outlined:hover, textarea.anvil-component.anvil-role-outlined:focus, 
+input.anvil-component.anvil-role-outlined:hover, input.anvil-component.anvil-role-outlined:focus,
+.anvil-component.anvil-role-outlined select:hover, .anvil-component.anvil-role-outlined select:focus,
+.anvil-datepicker.anvil-role-outlined input:hover, .anvil-datepicker.anvil-role-outlined input:focus{
+  border: 2px solid var(--anvil-color-Primary-aeef);
+  padding: 7px 15px;
+}
+
+textarea.anvil-component.anvil-role-outlined-error:hover, textarea.anvil-component.anvil-role-outlined-error:focus, 
+input.anvil-component.anvil-role-outlined-error:hover, input.anvil-component.anvil-role-outlined-error:focus,
+.anvil-component.anvil-role-outlined-error select:hover, .anvil-component.anvil-role-outlined-error select:focus,
+.anvil-datepicker.anvil-role-outlined-error input:hover, .anvil-datepicker.anvil-role-outlined-error input:focus{
+  border: 2px solid var(--anvil-color-Error-50c5);
+  padding-bottom: 6px;
+}
+
+textarea.anvil-component.anvil-role-outlined[disabled], input.anvil-component.anvil-role-outlined[disabled], 
+.anvil-component.anvil-role-outlined select[disabled], .anvil-datepicker.anvil-role-outlined input[disabled], 
+textarea.anvil-component.anvil-role-outlined-error[disabled], input.anvil-component.anvil-role-outlined-error[disabled], 
+.anvil-component.anvil-role-outlined-error select[disabled], .anvil-datepicker.anvil-role-outlined-error input[disabled] {
+  border: 1px solid var(--anvil-color-On-Disabled-1285);
+  color: var(--anvil-color-On-Disabled-1285);
+  padding-bottom: 8px;
+}
+
+.daterangepicker td.active {
+  background: var(--anvil-color-Primary-aeef);
+}
+
+.daterangepicker td.available:hover {
+  background: var(--anvil-color-Dark-Overlay-2-d528);
+}
+
+.daterangepicker td.active:hover {
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-1-f9f1), var(--anvil-color-Light-Overlay-1-f9f1)), var(--anvil-color-Primary-aeef);
+}
+
+.daterangepicker td.off {
+  color: var(--anvil-color-On-Disabled-1285);
+}
+
+textarea.anvil-component.anvil-role-outlined-error, input.anvil-component.anvil-role-outlined-error, 
+.anvil-component.anvil-role-outlined-error select, .anvil-datepicker.anvil-role-outlined-error input {
+  color: var(--anvil-color-Error-50c5);
+  background-color: transparent;
+  border: 1px solid var(--anvil-color-Error-50c5);;
+  border-radius: 4px;
+}
+
+textarea.anvil-component.anvil-role-input-error, input.anvil-component.anvil-role-input-error, 
+.anvil-component.anvil-role-input-error select, .anvil-datepicker.anvil-role-input-error input {
+  color: var(--anvil-color-Error-50c5);
+  border-color: var(--anvil-color-Error-50c5); 
+}
+
+/*TODO: figure out what this is used for*/
+/* .daterangepicker .btn-success {
+  color: %color:Primary 500%;
+} */
+
+/* Component: CheckBox, RadioButton */
+.checkbox input, .radio input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 1px;
+  background-color: var(--anvil-color-Surface-Variant-2aee); 
+/*   color: var(--anvil-color-On-Surface-Variant-e44f); */
+}
+
+.radio input {
+  border-radius : 50%;
+}
+
+.checkbox input:hover, .radio input:hover {
+  background: linear-gradient(0deg, var(--anvil-color-Light-Overlay-1-f9f1), var(--anvil-color-Light-Overlay-1-f9f1)), var(--anvil-color-Surface-Variant-2aee);
+}
+
+.checkbox input:focus, .radio input:focus {
+  outline: 0;
+}
+
+.radio input:focus {
+  border-radius: 10px;
+}
+
+.checkbox input[type="checkbox"][disabled]:hover, .radio input[type="radio"][disabled]:hover, 
+.checkbox input[type="checkbox"][disabled], .radio input[type="radio"][disabled] {
+  background: var(--anvil-color-Disabled-Container-445f); 
+}
+
+input[disabled] ~ span {
+  cursor: not-allowed;
+  color: var(--anvil-color-On-Disabled-1285);
+}
+
+.checkbox input, .radio input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox input:checked, .radio input:checked {
+  background-color: var(--anvil-color-Primary-Container-d99b);
+  color: var(--anvil-color-On-Primary-Container-f383);
+}
+
+.checkbox input:checked:before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  font-size: 10px;
+}
+
+.radio input:checked:before {
+  font-family: "FontAwesome";
+  content: "\f111";
+  font-size: 8px;
+}
+
+.checkbox, .radio {
+  font-size: 16px;
+}
+
+/* Data Grids */
+.anvil-role-tonal-data-grid.anvil-data-grid > .data-grid-child-panel>div.auto-grid-header {
+  background: linear-gradient(0deg, var(--anvil-color-Primary-Overlay-2-da46), var(--anvil-color-Primary-Overlay-2-da46)), var(--anvil-color-Background-a24f);
+  border-bottom: 1px solid var(--anvil-color-Surface-Variant-2aee);
+  border-radius: 24px 24px 0 0;
+}
+
+.anvil-role-tonal-data-grid.anvil-data-grid > .data-grid-child-panel>div.auto-grid-header div.data-row-col > div {
+  padding: 12px;
+  text-align: center !important;
+}
+
+.anvil-role-tonal-data-grid.anvil-data-grid {
+  border-radius: 24px;
+  border: 1px solid var(--anvil-color-Surface-Variant-2aee);
+}
+
+.anvil-role-tonal-data-grid.anvil-data-grid .data-grid-child-panel div.data-row-col {
+  border-left: 1px solid var(--anvil-color-Surface-Variant-2aee);
+  border-bottom: 1px solid var(--anvil-color-Surface-Variant-2aee);
+}
+
+.anvil-role-tonal-data-grid.anvil-data-grid .data-grid-child-panel div.data-row-col:first-child {
+  border-left: 0;
+}
+
+.anvil-role-tonal-data-grid.anvil-data-grid > .data-grid-child-panel>div.auto-grid-header div.data-row-col {
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+
+/*Plots*/
+
+div.plot-container.plotly svg.main-svg {
+  border: 1px solid var(--anvil-color-Surface-Variant-2aee);
+  border-radius: 12px;
+}
+
+.plot-container.plotly .main-svg .parcoords .y-axis .axis .tick > text {
+  text-shadow: none !important;
+}
+
+.plot-container.plotly .main-svg .parcoords .y-axis .axis > path.domain {
+  stroke: var(--anvil-color-Outline-e757);
+}
+
+/* .anvil-spinner { */
+/*     --anvil-spinner-bg: var(--anvil-color-Surface-Variant-2aee); */
+/* } */
+
+
+.anvil-spinner {
+  
+    color: transparent;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;/*0px 0px 10px 10px #fcfcfc;*/
+    background-color: transparent;
+    color: white;
+/*     padding: 100px; */
+
+    box-sizing: border-box;
+
+    z-index: 1000;
+}
+
+
+
+
+
+/* @keyframes fadeInOut {
+    0% {opacity:0;}
+    50% {opacity:1;}
+    100% {opacity:0;}
+} */
+</style>
+
+
+  <script src="https://pulse-finance.com/_/static/runtime/node_modules/jquery/dist/jquery.min.js?sha=f7f6a5894f1d19ddad6f" crossorigin></script>
+  <script src="https://pulse-finance.com/_/static/runtime/node_modules/jquery-migrate/dist/jquery-migrate.min.js?sha=106fcd8d723eda7d92a2" crossorigin></script>
+
+  
+</head>
+<body class="">
+<div id="anvil-header">
+  <a href="https://anvil.works/?utm_source=app_banner" target="_blank" class="cta"><span class="anvil-banner-hidden-xs">Build web apps for free with</span><span class="anvil-banner-xs">Built with</span> Anvil</a>
+  <a href="https://anvil.works/?utm_source=app_banner" target="_blank"><span class="anvil-banner-hidden-xs">Built with </span><img src="https://pulse-finance.com/_/static/runtime/img/logo-35.png?sha=5f59d191b2294cd7ce36" crossorigin></a>
+</div>
+
+<a id="anvil-badge" href="https://anvil.works/?utm_source=app_banner" target="_blank">
+  <img src="https://pulse-finance.com/_/static/runtime/img/made-with-anvil.png?sha=4bc58b691e1babd9e6a3" crossorigin>
+</a>
+
+<div id="appGoesHere"></div>
+
+<div id="loadingSpinner" class="anvil-spinner">
+    <svg class="anvil-spinner-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>@keyframes anvil-chase{to{transform: rotate(360deg)}}@keyframes anvil-chase-dot{80%,to{transform: rotate(360deg)}}@keyframes anvil-scale-dot{0%,100%{transform: scale(1)}50%{transform: scale(.4)}}.anvil-spinner-g circle{transform-origin: 12px 2.5px;animation: anvil-scale-dot 2s ease-in-out infinite}.anvil-spinner-g > g{transform-origin: center;animation: anvil-chase-dot 2s ease-in-out infinite}.anvil-spinner-svg{fill:currentColor;stroke:currentColor}</style><g class="anvil-spinner-g" style="transform-origin:center;animation:anvil-chase 2.5s infinite linear both"><g style="animation-delay:-1.1s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-1.1s"/></g><g style="animation-delay:-1s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-1s"/></g><g style="animation-delay:-.9s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-.9s"/></g><g style="animation-delay:-.8s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-.8s"/></g><g style="animation-delay:-.7s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-.7s"/></g><g style="animation-delay:-.6s"><circle cx="12" cy="2.5" r="1.5" style="animation-delay:-.6s"/></g></g></svg>
+</div>
+
+
+<div id="error-indicator">
+  <div style="float:left; width: 40px">
+    <i class="glyphicon glyphicon-warning-sign" style="float:left; width: 40px;"></i>
+  </div>
+  <div style="float:right;">
+    <a class="glyphicon glyphicon-remove" href="#" onclick="$('#error-indicator').hide(); return false;"></a>
+  </div>
+  <div class="headline">This app has experienced an error</div>
+  <div class="message">Click for more information</div>
+  <pre class="output"></pre>
+  <div style="clear:both"></div>
+</div>
+<script>
+  (function () {
+    const spinner = document.getElementById("loadingSpinner");
+    const getBgImage = (pseudo) => getComputedStyle(spinner, pseudo).backgroundImage;
+    for (const pseudo of [undefined, "::after", "::before"]) {
+        if (getBgImage(pseudo) !== "none") {
+            const svg = spinner.querySelector("svg")
+            svg && svg.style.setProperty("display", "none");
+            return;
+        }
+    }
+  }());
+</script>
+
+<script src="https://pulse-finance.com/_/static/runtime/node_modules/html5-boilerplate/dist/js/vendor/modernizr-3.8.0.min.js?sha=99722b17ae2646a10f43" crossorigin></script>
+
+<!--<script src="https://pulse-finance.com/_/static/runtime/node_modules/bootstrap/dist/js/bootstrap.min.js?sha=9ee2fcff6709e4d0d24b" crossorigin></script>-->
+<script src="https://pulse-finance.com/_/static/runtime/node_modules/bootstrap/dist/js/bootstrap.min.js?sha=14a09c1d8116fd5b43e4" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/node_modules/moment/min/moment.min.js?sha=e22419e8154be2a34a95" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/node_modules/moment-timezone/builds/moment-timezone-with-data-2012-2022.min.js?sha=20dc5916fdb1faed3c66" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/js/lib/daterangepicker.min.js?sha=199b8e522dcfc5716064" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/js/lib/b64.js?sha=6ad16e1a53852095268b" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/js/lib/bootstrap-notify.min.js?sha=2db9de4f5fc27837d429" crossorigin></script>
+
+<script src="https://pulse-finance.com/_/static/runtime/node_modules/js-yaml/dist/js-yaml.min.js?sha=af2ea794b435266465e5" crossorigin></script>
+
+<!--   <script src="https://pulse-finance.com/_/static/runtime/node_modules/core-js-bundle/minified.js?sha=90d19e92b7cd38fee6c8" crossorigin></script>
+ -->
+
+<script src="https://pulse-finance.com/_/static/runtime/js/lib/skulpt.min.js?sha=2ed9bf98f1ed5bc6d686" crossorigin></script>
+<script src="https://pulse-finance.com/_/static/runtime/js/lib/skulpt-stdlib.js?sha=1572023b6b7442702565" crossorigin></script>
+
+<script src="https://pulse-finance.com/_/static/runtime/dist/runner2.bundle.js?sha=5e624b068d720c1949eb" crossorigin></script>
+
+
+<script>
+  window.anvilCDNOrigin = "https://anvil.works/runtime-new";
+  window.anvilAppOrigin = "https://pulse-finance.com";
+  window.anvilEnvironmentOrigin = "https://pulse-finance.com";
+  window.anvilSessionToken = "ASJIRHX2RFNWNZEUJYCGGKKMIPDY6YXX=ti8VFuseegPB47XvuuBdMT2JQdBA";
+  window.anvilVersion = "df15f165cb92016391d6e643f97bc5becad27ad5";
+  window.anvilAppInfo = {"id":"SLQPXZTXBKXN26QZ","branch":null,"environment":{"description":"Published","tags":["default_published"]}};
+  window.anvilGoogleApiKey = "AIzaSyCn8yc8dmMNcmAn-e_K5HT7NX19csXUGUA";
+  // docker-platform-server-base script adds sha's in html files - we put this variable here so that we can aggrissively cache the std-lib files
+  // the std-lib is loaded dynamically in runner.js
+  window.anvilSkulptLib = {
+    1: "https://pulse-finance.com/_/static/runtime/js/lib/skulpt-stdlib-1.json?sha=a402eb8840d2b2160634",
+    2: "https://pulse-finance.com/_/static/runtime/js/lib/skulpt-stdlib-2.json?sha=9a4e8e92ffeceafad9dc",
+    3: "https://pulse-finance.com/_/static/runtime/js/lib/skulpt-stdlib-3.json?sha=5a72749d3007fec4b08b"
+  };
+
+  // NB: We will need to preserve things other than ?s= at some point.
+  window.history.replaceState(window.history.state || {}, "Anvil App", document.location.origin + document.location.pathname + document.location.hash);
+
+  // 
+$(function() {var anvilServicePreloadModules=[];Sk.builtinFiles.files["anvil-services\/tables\/__init__.py"] = "from anvil.tables import *\nfrom anvil.tables import _page_size\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/__init__.py"] = "import time\n\nimport anvil.server\n\nfrom ._base_classes import Row, SearchIterator, Table\nfrom . import _config\nfrom ._errors import NoSuchColumnError, QuotaExceededError, RowDeleted, TableError, TransactionConflict\nfrom ._helpers import _hash_wrapper\n\n# Hack: Force ourselves into the top-level package, even\n# if we were loaded into a runtime-v1 per-app Anvil package\n__package__ = \"anvil.tables\"\n__name__ = \"anvil.tables\"\n\n\n# Use old app tables by default\nclass AppTables(object):\n    cache = None\n\n    def __getattr__(self, name):\n        if AppTables.cache is None:\n            AppTables.cache = anvil.server.call(\"anvil.private.tables.get_app_tables\")\n\n        tbl = AppTables.cache.get(name)\n        if tbl is not None:\n            return tbl\n\n        raise AttributeError(\"No such app table: '%s'\" % name)\n\n    def __setattr__(self, name, val):\n        raise Exception(\"app_tables is read-only\")\n    \n    def __iter__(self):\n        return AppTableIterator()\n    \n\nclass AppTableIterator:\n    def __init__(self):\n        self._it = None\n\n    def __iter__(self):\n        return self\n    \n    def __next__(self):\n        # because __iter__ can't suspend\n        if AppTables.cache is None:\n            AppTables.cache = anvil.server.call(\"anvil.private.tables.get_app_tables\")\n        if self._it is None:\n            self._it = AppTables.cache.keys().__iter__()\n        return next(self._it)\n    \n    next = __next__\n\n\n_set_class = object.__dict__[\"__class__\"].__set__\n\ndef _lazy_replace_class(self):\n    if _config.get_client_config().get(\"enable_v2\"):\n        from . import v2\n        v2._app_tables._clear_cache()\n        _set_class(self, type(v2.app_tables))\n    else:\n        AppTables.cache = None\n        _set_class(self, AppTables)\n\n\n\ndef _wrap_dunder(method):\n    def wrapped(self, *args, **kws):\n        _lazy_replace_class(self)\n        return getattr(self, method)(*args, **kws)\n\n    return wrapped\n\n\nclass _LazyAppTables(object):\n    def __getattribute__(self, name):\n        _lazy_replace_class(self)\n        return getattr(self, name)\n\n    __setattr__ = _wrap_dunder(\"__setattr__\")\n    __getitem__ = _wrap_dunder(\"__getitem__\")\n    __dir__ = _wrap_dunder(\"__dir__\")\n    __iter__ = AppTables.__iter__\n\n\nclass _LazyContext(object):\n    def __enter__(self):\n        global batch_update, batch_delete\n        if not _config.get_client_config().get(\"enable_v2\"):\n            batch_update.__class__ = batch_delete.__class__ = type(None)\n            return self.__enter__()\n\n        from .v2 import _batcher as _b\n\n        for obj, orig in zip((batch_update, batch_delete), (\"batch_update\", \"batch_delete\")):\n            obj.__class__ = type(getattr(_b, orig))\n            obj.__init__()\n            setattr(_b, orig, obj)\n        return self.__enter__()\n\n    def __exit__(self, *args):\n        assert not isinstance(self, _LazyContext)\n        return self.__exit__(*args)\n\n\ndef _clear_cache():\n    _config.reset_config()\n    _set_class(app_tables, _LazyAppTables)\n\n\nanvil.server._on_invalidate_client_objects(_clear_cache)\n\n\n#!defModuleAttr(anvil.tables)!1:\n# {\n# \tname: \"app_tables\",\n# \ttype: \"any\",\n# \tanvil$helpLink: \"\/docs\/data-tables\/data-tables-in-code\",\n# \t$doc: \"Access Table objects from the datatables services. You can access a Table object with dot notation e.g. `app_tables.my_table`. To access a table with strings use `getattr(app_tables, 'my_table')`. If no table is present an AttributeError will be thrown.\"\n# }\n#\napp_tables = _LazyAppTables()\nbatch_update = _LazyContext()\nbatch_delete = _LazyContext()\n# Not very nice but these references exist in uplink code\n# before we have a chance to know if we're using the v1\/v2 config option\n# we can't call anvil.server until the uplink has made a connetion\n\n\ndef get_table_by_id(table_id):\n    if _config.get_client_config().get(\"enable_v2\"):\n        from .v2 import get_table_by_id\n\n        return get_table_by_id(table_id)\n    raise TableError(\"get_table_by_id is only available in Accelerated Tables beta\")\n\n\n#!defModuleAttr(anvil.tables)!1:\n# {\n# \tname: \"app_tables\",\n# \ttype: \"any\",\n# \tanvil$helpLink: \"\/docs\/data-tables\/data-tables-in-code\",\n# \t$doc: \"Access Table objects from the datatables services. You can access a Table object with dot notation e.g. `app_tables.my_table`. To access a table with strings use `getattr(app_tables, 'my_table')`. If no table is present an AttributeError will be thrown.\"\n# }\n#\n\n\nclass Transaction:\n    def __init__(self, relaxed=False):\n        self._aborting = False\n        self._isolation = \"relaxed\" if relaxed else None\n\n    #!defMethod(anvil.tables.Transaction instance)!2: \"Begin the transaction\" [\"__enter__\"]\n    def __enter__(self):\n        anvil.server.call(\"anvil.private.tables.open_transaction\", isolation=self._isolation)\n        return self\n\n    #!defMethod(_)!2: \"End the transaction\" [\"__exit__\"]\n    def __exit__(self, e_type, e_val, tb):\n        anvil.server.call(\"anvil.private.tables.close_transaction\", self._aborting or e_val is not None)\n\n    #!defMethod(_)!2: \"Abort this transaction. When it ends, all write operations performed during it will be cancelled\" [\"abort\"]\n    def abort(self):\n        self._aborting = True\n\n\n#!defClass(anvil.tables,%Transaction)!:\n\n\n#!defFunction(anvil.tables,%,function,server_function)!2:\n# {\n# \t$doc: \"When applied to a function (as a decorator), the whole function will run in a data tables transaction. If it conflicts with another transaction, it will retry up to five times.\",\n# anvil$helpLink: \"\/docs\/data-tables\/transactions\"\n#  } [\"in_transaction\"]\ndef in_transaction(maybe_f=None, relaxed=None):\n    def wrap(f):\n        def new_f(*args, **kwargs):\n            n = 0\n            while True:\n                try:\n                    with Transaction(relaxed=relaxed):\n                        return f(*args, **kwargs)\n                except TransactionConflict:\n                    # lazy load random incase we make random.js a slow path on the client\n                    import random\n\n                    n += 1\n                    if n == 18:\n                        raise\n                    # print(f\"RETRYING TXN {n}\")\n                    # Max total sleep time is a little under 150 seconds (avg 75), so server calls will timeout before this finishes usually.\n                    sleep_amt = random.random() * (1.5**n) * 0.05\n                    try:\n                        time.sleep(sleep_amt)\n                    except:\n                        anvil.server.call(\"anvil.private._sleep\", sleep_amt)\n\n        try:\n            reregister = f._anvil_reregister\n        except AttributeError:\n            pass\n        else:\n            reregister(new_f)\n\n        new_f.__name__ = f.__name__\n\n        return new_f\n\n    if maybe_f is None:\n        return wrap\n    else:\n        return wrap(maybe_f)\n\n\n#!defFunction(anvil.tables,_,column_name,ascending=)!2: \"Sort the results of this table search by a particular column. Default to ascending order.\" [\"order_by\"]\n@anvil.server.portable_class\nclass order_by(object):\n    def __init__(self, column_name, ascending=True):\n        self.column_name = column_name\n        self.ascending = ascending\n\n    __hash__, __eq__ = _hash_wrapper(\"column_name\", \"ascending\")\n\n\n# backward compatability\nfrom .query import fetch_only\nfrom .query import page_size as _page_size\n\n\n#!defFunction(anvil.tables,%,[via_host=],[via_port=])!2: \"Get a Postgres connection string for accessing this app's Data Tables via SQL.\\n\\nThe returned string includes temporary login credentials and sets the search path to a schema representing this app's Data Table environment.\\n\\nYou can override the host and port for the database connection to connect via a secure tunnel.\\n\\n(Available on the Dedicated Plan only.)\" [\"get_connection_string\"]\ndef get_connection_string(via_host=None, via_port=None):\n    return anvil.server.call(\n        \"anvil.private.get_direct_postgres_connection_string\", via_host=via_host, via_port=via_port\n    )\n\n\n#!defMethod(table row, **column_values)!2: \"Add a row to the data table. Use keyword arguments to specify column values.\" [\"add_row\"]\n#!defMethod(client readable view)!2: \"Return a view on the table that can be read by client code. Use keyword arguments to specify view restrictions\" [\"client_readable\"]\n#!defMethod(client writable view)!2: \"Return a view on the table that can be written by client code. Use keyword arguments to specify view restrictions. This does not give the client write access to other tables referred to by the table.\" [\"client_writable\"]\n#!defMethod(client writable view)!2: \"Return a view on this table that can be written by client code. Use keyword arguments to specify view restrictions.\" [\"client_writable_cascade\"]\n#!defMethod(_)!2: \"Delete all the rows from the data table\" [\"delete_all_rows\"]\n#!defMethod(_)!2: \"Get a single matching row from the data table whose columns match the keyword arguments. Returns None if no matching row exists, and raises an exception if more than one row matches.\\n\\nEg: app_tables.table_1.get(name='John Smith')\" [\"get\"]\n#!defMethod(row,id)!2: \"Get the matching row from this data table, by its unique ID\" [\"get_by_id\"]\n#!defMethod(bool,row)!2: \"Returns true if the table (or view) contains the provided row.\" [\"has_row\"]\n#!defMethod(list of dicts)!2: \"Get the spec for the table as a list of dicts. Each dict contains the name and type of a column.\" [\"list_columns\"]\n#!defMethod(Row or None)!2: \"Get rows from a data table. If you specify keyword arguments, you will retrieve only rows whose columns match those values.\\n\\nEg: app_tables.table_1.search(name='John Smith')\" [\"search\"]\n#!defMethod(Media object, [escape_for_excel=False])!2: \"Get the table in CSV format, optionally escaped for use in Excel. Returns a downloadable Media object; use its url property.\" [\"to_csv\"]\n#!defClassNoConstructor(anvil.tables,#Table)!1: \"A table returned from app_tables\"\n\n#!defMethod(Media object, [escape_for_excel=False])!2: \"Get the results of the SearchIterator in CSV format, optionally escaped for use in Excel. Returns a downloadable Media object; use its url property.\" [\"to_csv\"]\n#!defClassNoConstructor(anvil.tables,#SearchIterator)!1: \"An iterator of table rows returned from a search()\";\n\n\n#!defMethod(_)!2: \"Delete the row from its data table\" [\"delete\"]\n#!defMethod(id)!2: \"Get the unique ID of the table row\" [\"get_id\"]\n#!defMethod(_,**column_values)!2: \"update the data for multiple columns\" [\"update\"]\n#!defClassNoConstructor(anvil.tables,#Row)!1: \"A table row\";\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/query.py"] = "from anvil.server import portable_class\n\nfrom ._helpers import _hash_wrapper\n\n# Don't load v2 code unless v2 is imported. v2._load_hacks will inject this for us.\n# from .v2._refs import make_refs as _make_refs\n_make_refs = lambda x: x\n\n\n# Hack: Force ourselves into the top-level package, even\n# if we were loaded into a runtime-v1 per-app Anvil package\n__package__ = \"anvil.tables\"\n__name__ = \"anvil.tables.query\"\n\n\nclass _pattern_query(object):\n    def __init__(self, pattern):\n        self.pattern = pattern\n\n    __hash__, __eq__ = _hash_wrapper(\"pattern\")\n\n\nclass _value_query(object):\n    def __init__(self, value):\n        self.value = value\n\n    __hash__, __eq__ = _hash_wrapper(\"value\")\n\n\nclass _of_query(object):\n    def __init__(self, *args, **kwargs):\n        self.args = _make_refs(args)\n        self.kwargs = _make_refs(kwargs)\n\n    def __hash__(self):\n        return hash(self.args + tuple(sorted(self.kwargs.items())))\n\n    def __eq__(self, other):\n        if type(other) is not type(self):\n            return NotImplemented\n        return self.args == other.args and self.kwargs == other.kwargs\n\n\n#!defFunction(anvil.tables.query,_,pattern)!2: \"Match values using a case-sensitive LIKE query, using the % wildcard character.\" [\"like\"]\n@portable_class\nclass like(_pattern_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,pattern)!2: \"Match values using a case-insensitive ILIKE query, using the % wildcard character.\" [\"ilike\"]\n@portable_class\nclass ilike(_pattern_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,value)!2: \"Match values greater than the provided value.\" [\"greater_than\"]\n@portable_class\nclass greater_than(_value_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,value)!2: \"Match values less than the provided value.\" [\"less_than\"]\n@portable_class\nclass less_than(_value_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,value)!2: \"Match values greater than or equal to the provided value.\" [\"greater_than_or_equal_to\"]\n@portable_class\nclass greater_than_or_equal_to(_value_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,value)!2: \"Match values less than or equal to the provided value.\" [\"less_than_or_equal_to\"]\n@portable_class\nclass less_than_or_equal_to(_value_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,min,max,[min_inclusive=True],[max_inclusive=False])!2: \"Match values between the provided min and max, optionally inclusive.\" [\"between\"]\ndef between(min, max, min_inclusive=True, max_inclusive=False):\n    return all_of(\n        greater_than_or_equal_to(min) if min_inclusive else greater_than(min),\n        less_than_or_equal_to(max) if max_inclusive else less_than(max),\n    )\n\n\n#!defFunction(anvil.tables.query,_,query,[raw=False])!2: \"Match values that match the provided full-text search query.\" [\"full_text_match\"]\n@portable_class\nclass full_text_match(object):\n    def __init__(self, query, raw=False):\n        self.query = query\n        self.raw = raw\n\n    __hash__, __eq__ = _hash_wrapper(\"query\", \"raw\")\n\n\n#!defFunction(anvil.tables.query,_,*query_expressions)!2: \"Match all query parameters given as arguments and keyword arguments\" [\"all_of\"]\n@portable_class\nclass all_of(_of_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,*query_expressions)!2: \"Match any query parameters given as arguments and keyword arguments\" [\"any_of\"]\n@portable_class\nclass any_of(_of_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,*query_expressions)!2: \"Match none of the query parameters given as arguments and keyword arguments\" [\"none_of\"]\n@portable_class\nclass none_of(_of_query):\n    pass\n\n\n#!defFunction(anvil.tables.query,_,*query_expressions)!2: \"Match none of the query parameters given as arguments and keyword arguments\" [\"not_\"]\nnot_ = none_of\n\n#!defFunction(anvil.tables.query,_,rows)!2: \"Define the number of rows that are fetched per round trip to the server.\" [\"page_size\"]\n@portable_class\nclass page_size(object):\n    def __init__(self, rows):\n        self.rows = rows\n\n    __hash__, __eq__ = _hash_wrapper(\"rows\")\n\n\n@portable_class(\"anvil.tables.fetch_only\")\nclass fetch_only(object):\n    def __init__(self, *only_cols, **linked_cols):\n        spec = {}\n        for col in only_cols:\n            if not isinstance(col, str):\n                raise TypeError(\"columns must be strings\")\n            spec[col] = True\n        for col, only in linked_cols.items():\n            if not isinstance(only, fetch_only):\n                raise TypeError(\"keyword arguments must use q.fetch_only()\")\n            spec[col] = only.spec\n        self.spec = spec\n\n    def _hashable(self, val):\n        if val is True:\n            return val\n        return self._as_tuple(val)\n\n    def _as_tuple(self, spec):\n        return tuple((col_name, self._hashable(val)) for col_name, val in sorted(spec.items()))\n\n    def __hash__(self):\n        return hash(self._as_tuple(self.spec))\n\n    def __eq__(self, other):\n        if type(other) is not type(self):\n            return NotImplemented\n        return other.spec == self.spec\n\n\n@portable_class\nclass only_cols(object):\n    def __init__(self, *cols):\n        self.cols = tuple(sorted(cols))\n\n    __hash__, __eq__ = _hash_wrapper(\"cols\")\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/_helpers.py"] = "def _hash_wrapper(*params):\n    # this makes query objects cachable as keys of dictionaries\n    def _mk_tuple(self):\n        return tuple(getattr(self, param) for param in params)\n\n    def __hash__(self):\n        return hash(_mk_tuple(self))\n\n    def __eq__(self, other):\n        if type(other) is not type(self):\n            return NotImplemented\n        return _mk_tuple(self) == _mk_tuple(other)\n\n    return __hash__, __eq__\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/_errors.py"] = "import anvil.server\n\n\n#!defMethod()!2: \"Superclass of all table exceptions\" [\"__init__\"]\n#!defClass(anvil.tables,TableError,__builtins__..Exception)!:\nclass TableError(anvil.server.AnvilWrappedError):\n    pass\n\n\n#!defMethod()!2: \"Raised when attempting to accessing a table row that has been deleted - for example, accessing a row after calling its delete() method, or following a link to a deleted row.\" [\"__init__\"]\n#!defClass(anvil.tables,RowDeleted,anvil.tables.TableError)!:\nclass RowDeleted(TableError):\n    pass\n\n\n#!defMethod()!2: \"Raised when attempting to access a column that does not exist in this table.\" [\"__init__\"]\n#!defClass(anvil.tables,NoSuchColumnError,anvil.tables.TableError)!:\nclass NoSuchColumnError(TableError):\n    pass\n\n\n#!defMethod()!2: \"Raised when a transaction conflicts and has been aborted.\" [\"__init__\"]\n#!defClass(anvil.tables,TransactionConflict,anvil.tables.TableError)!:\nclass TransactionConflict(TableError):\n    pass\n\n\n#!defMethod()!2: \"Raised when an app has exceeded its quota.\" [\"__init__\"]\n#!defClass(anvil.tables,QuotaExceededError,anvil.tables.TableError)!:\nclass QuotaExceededError(TableError):\n    pass\n\n\nanvil.server._register_exception_type(\"anvil.tables.TransactionConflict\", TransactionConflict)\nanvil.server._register_exception_type(\"anvil.tables.TableError\", TableError)\nanvil.server._register_exception_type(\"anvil.tables.RowDeleted\", RowDeleted)\nanvil.server._register_exception_type(\"anvil.tables.NoSuchColumnError\", NoSuchColumnError)\nanvil.server._register_exception_type(\"anvil.tables.QuotaExceededError\", QuotaExceededError)\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/_config.py"] = "import anvil\n\n_config = None\n\n\ndef get_client_config():\n    global _config\n    if _config is not None:\n        return _config\n    _config = anvil.server.call(\"anvil.private.get_client_config\", \"\/runtime\/services\/tables.yml\") or {}\n    return _config\n\ndef reset_config():\n    global _config\n    _config = None";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/_base_classes.py"] = "class AppTables(object):\n    def __repr__(self):\n        return \"<anvil.tables.{} object>\".format(type(self).__name__)\n\n\nclass AbstractTableClass(object):\n    _instead = None\n\n    def __init__(self, *args, **kwargs):\n        raise TypeError(\"Can't instantiate a {} object. Use {} instead.\".format(type(self).__name__, self._instead))\n\n    def __repr__(self):\n        return \"<anvil.tables.{} object>\".format(type(self).__name__)\n\n    def __dir__(self):\n        # TODO should we keep this?\n        # remove private attributes and methods from the dir\n        return [key for key in object.__dir__(self) if (not key.startswith(\"_\")) or key.startswith(\"__\")]\n\n\nclass Table(AbstractTableClass):\n    _instead = \"app_tables.my_table\"\n\n\nclass SearchIterator(AbstractTableClass):\n    _instead = \"app_tables.my_table.search()\"\n\n\nclass Row(AbstractTableClass):\n    _instead = \"app_tables.my_table.add_row()\"\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/__init__.py"] = "from .._base_classes import Row, SearchIterator, Table\nfrom . import _load_hacks\nfrom ._app_tables import app_tables, get_table_by_id\n\n# from ._batcher import batch_delete, batch_update\n\n__all__ = [\"app_tables\", \"get_table_by_id\"]\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_app_tables.py"] = "import anvil.server\r\n\r\nfrom .._base_classes import AppTables as BaseAppTables\r\nfrom ._constants import SERVER_PREFIX\r\nfrom ._table import Table\r\n\r\n_table_cache = None\r\n\r\n\r\ndef _fill_cache():\r\n    global _table_cache\r\n    if _table_cache is None:\r\n        _table_cache = anvil.server.call(SERVER_PREFIX + \"get_app_tables\")\r\n    return _table_cache\r\n\r\n\r\ndef _clear_cache():\r\n    global _table_cache\r\n    _table_cache = None\r\n\r\n\r\nclass AppTableIterator:\r\n    def __init__(self):\r\n        self._it = None\r\n\r\n    def __iter__(self):\r\n        return self\r\n    \r\n    def __next__(self):\r\n        if self._it is None:\r\n            self._it = _fill_cache().__iter__()\r\n        return next(self._it)\r\n    \r\n    next = __next__\r\n\r\n\r\nclass AppTables(BaseAppTables):\r\n    def __getattribute__(self, name):\r\n        # use __getattribute__ so that we prioritise the table name\r\n        try:\r\n            return self[name]\r\n        except KeyError:\r\n            return object.__getattribute__(self, name)\r\n\r\n    def __getitem__(self, name):\r\n        cache = _fill_cache()\r\n        table_args = cache[name]\r\n        return Table._create(*table_args)\r\n\r\n    def __setattr__(self, name, val):\r\n        raise AttributeError(\"app_tables is read-only\")\r\n\r\n    def __dir__(self):\r\n        return object.__dir__(self) + list(_fill_cache().keys())\r\n    \r\n    def __iter__(self):\r\n        return AppTableIterator()\r\n\r\n\r\n\r\ndef get_table_by_id(table_id):\r\n    table_args = anvil.server.call(SERVER_PREFIX + \"get_table_by_id\", table_id)\r\n    return table_args and Table._create(*table_args)\r\n\r\n\r\napp_tables = AppTables()\r\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_batcher.py"] = "import anvil.server\n\nfrom ._constants import SERVER_PREFIX, NOT_FOUND\n\nPREFIX = SERVER_PREFIX + \"row.\"\n_make_refs = None  # Circular import\n\n\nclass _Batcher:\n    _name = \"\"\n    _instance = None\n\n    def __new__(cls):\n        if cls._instance is None:\n            cls._instance = object.__new__(cls)\n        return cls._instance\n\n    def __init__(self):\n        self._active = False\n        self._updates = []\n        self._buffer = {}\n        self._func = PREFIX + self._name\n\n    @property\n    def active(self):\n        return self._active\n\n    def push(self, cap, update=False):\n        self._updates.append((cap, update))\n\n    def reset(self):\n        self._active = False\n        self._updates.clear()\n        self._buffer.clear()\n\n    def __enter__(self):\n        if self._active:\n            raise RuntimeError(\"nested batching is not suppported\")\n        self._active = True\n\n    def get_args(self, updates):\n        raise NotImplementedError\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        updates = self._updates\n        try:\n            if exc_value is None and updates:\n                anvil.server.call(self._func, self.get_args(updates))\n                for cap, update in updates:\n                    cap.send_update(update)\n        finally:\n            self.reset()\n\n\nclass BatchUpdate(_Batcher):\n    _name = \"batch_update\"\n\n    def push(self, cap, update):\n        self._updates.append((cap, update))\n        self._buffer.setdefault(cap, {}).update(update)\n\n    def get_updates(self, cap):\n        return self._buffer.get(cap, {})\n\n    def read(self, cap, key):\n        return self.get_updates(cap).get(key, NOT_FOUND)\n\n    def get_args(self, updates):\n        global _make_refs\n        if _make_refs is None:\n            from ._refs import make_refs  # circular import\n\n            _make_refs = make_refs\n\n        return [(cap, _make_refs(update)) for cap, update in updates]\n\n\nclass BatchDelete(_Batcher):\n    _name = \"batch_delete\"\n\n    def get_args(self, updates):\n        return [cap for cap, _ in updates]\n\n\nbatch_update = BatchUpdate()\nbatch_delete = BatchDelete()\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_constants.py"] = "import anvil.server\n\n# USED as an argument to the \"create_view\" private method\nREAD = \"r\"\nWRITE = \"rw\"\nCASCADE = \"rwc\"\nKNOWN_PERMS = (READ, WRITE, CASCADE)\n\nNOT_FOUND = object()\nCAP_KEY = \"c\"\n\nSINGLE = \"link_single\"\nMULTIPLE = \"link_multiple\"\nDATETIME = \"datetime\"\nMEDIA = \"media\"\n\nSHARED_DATA_KEY = \"anvil.tables\"\n\nSERVER_PREFIX = \"anvil.private.tables.v2.\"\n\n\n@anvil.server.portable_class(\"anvil.tables.v2.UNCACHED\")\nclass _UncachedType(object):\n    _instance = None\n\n    def __new__(cls):\n        self = cls._instance\n        if self is None:\n            cls._instance = self = object.__new__(cls)\n        return self\n\n    def __repr__(self):\n        return \"UNCACHED\"\n\n    @classmethod\n    def __new_deserialized__(cls, data, info):\n        return UNCACHED\n\n    def __serialize__(self, info):\n        return None\n\n\nUNCACHED = _UncachedType()\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_load_hacks.py"] = "# For the sake of a soft roll-out, we don't want to load v2 code implicitly\n# from anvil.tables.query, but that module needs access to `make_refs` if we're\n# using v2. So we inject it (only) when v2 loads.\n\nfrom .. import query\nfrom . import _refs\n\nquery._make_refs = _refs.make_refs\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_refs.py"] = "from anvil.server import portable_class\n\nfrom ._row import Row\n\n# Helpful classes for table methods that include Rows\/SearchIterators\n# But sending the Row across the wire is unnecessary\n# We shouldn't be deserializing these objects but we include __deserialize__ for completeness\n\n\nclass _Ref(object):\n    def __init__(self, cap):\n        self.cap = cap\n\n    def __hash__(self):\n        return hash(self.cap)\n\n    def __serialize__(self, info):\n        return self.cap\n\n    def __deserialize__(self, cap, info):\n        self.cap = cap\n\n    def __eq__(self, other):\n        if type(self) is not type(other):\n            return NotImplemented\n        return self.cap == other.cap\n\n\n@portable_class(\"anvil.tables.v2._RowRef\")\nclass RowRef(_Ref):\n    pass\n\n\n@portable_class\nclass SearchIteratorRef(_Ref):\n    pass\n\n\ndef to_ref(obj):\n    ob_type = type(obj)\n    if ob_type in (list, tuple):\n        return tuple(to_ref(item) for item in obj)\n    elif ob_type is Row:\n        return RowRef(obj._cap)\n    return obj\n\n\ndef make_refs(args_or_kws):\n    if type(args_or_kws) is dict:\n        return {key: to_ref(val) for key, val in args_or_kws.items()}\n    else:\n        return tuple(to_ref(val) for val in args_or_kws)\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_row.py"] = "import anvil.server\nfrom anvil.server import Capability\n\nfrom .._base_classes import Row as BaseRow\nfrom .._errors import NoSuchColumnError, RowDeleted, TableError\nfrom . import _batcher\nfrom ._constants import CAP_KEY, DATETIME, MEDIA, MULTIPLE, NOT_FOUND, SERVER_PREFIX, SHARED_DATA_KEY, SINGLE, UNCACHED\nfrom ._utils import check_serialized, clean_local_datetime, init_spec_rows, init_view_data, merge_row_data, validate_cap\n\nPREFIX = SERVER_PREFIX + \"row.\"\n_make_refs = None  # for circular imports\n_auto_create_is_enabled = None\n\n\ndef _copy(so):\n    if type(so) is list:\n        return [_copy(o) for o in so]\n    if type(so) is dict:\n        return {k: _copy(v) for k, v in so.items()}\n    return so\n\n\n@anvil.server.portable_class\nclass Row(BaseRow):\n    @classmethod\n    def _create(cls, view_key, table_id, row_id, spec=None, cap=None):\n        row = object.__new__(cls)\n        row._view_key = view_key\n        row._table_id = table_id\n        row._id = row_id\n        row._cap = cap\n        row._cache = {}\n        row._spec = spec  # None when we are deserialized without access to table_data\n        row._cache_spec = spec[\"cache\"] if spec is not None else []\n        row._has_uncached = True\n        row._exists = True\n        row._dirty_spec = False  # used for serialization\n        if cap is not None:\n            cap.set_update_handler(row._cap_update_handler)\n        return row\n\n    @classmethod\n    def _create_from_untrusted(cls, view_key, table_id, row_id, cap, local_data):\n        # check that we can trust the data that was sent!\n        row = local_data.get(cap)\n        if row is None:\n            row = local_data[cap] = cls._create(view_key, table_id, row_id, None, cap)\n        return row\n\n    @classmethod\n    def _create_from_trusted(cls, view_key, table_id, row_id, table_data):\n        table_id, row_id = str(table_id), str(row_id)\n        view_data = table_data[view_key]\n        rows = view_data[\"rows\"]\n        row_data = rows[row_id]\n        if isinstance(row_data, Row):\n            # prevent circular and use the created row from view_data\n            return row_data\n        spec = view_data[\"spec\"]\n        row = rows[row_id] = cls._create(view_key, table_id, row_id, spec)\n        # Replace the compact row_data with ourself\n        # This prevents circular references and has the benefit that\n        # we create the same rows and linked rows when creating Row objects from the same data\n        row._unpack(table_data, row_data)\n        if view_data.get(\"dirty_spec\"):\n            # a serialized row marked its spec as dirty after an update\n            row._clear_cache()\n        return row\n\n    @classmethod\n    def _create_from_local_values(cls, view_key, table_id, row_id, spec, cap, local_items):\n        # the basic idea here is that we need to clean datetime objects and UNCACHE any linked rows\n        # where the view_key doesn't match what we expect from the col_spec\n        table_id, row_id = str(table_id), str(row_id)\n        row = cls._create(view_key, table_id, row_id, spec, cap)\n        clean_items = row._walk_local_items(local_items, missing=None)\n        row._cache.update(clean_items)\n        row._check_has_cached()\n        return row\n\n    # DESERIALIZE\n    @classmethod\n    def __new_deserialized__(cls, data, info):\n        table_data, local_data = info.shared_data(SHARED_DATA_KEY)\n        view_key, table_id, row_id, cap = data\n        if not info.remote_is_trusted:\n            validate_cap(cap, view_key, table_id, row_id)\n            table_data = None  # just incase\n        if not table_data:\n            # table_data None is not enough because we may be sending rows back and forward\n            # i.e. passing from client to server to client goes untrusted -> trusted -> client\n            return cls._create_from_untrusted(view_key, table_id, row_id, cap, local_data)\n        return cls._create_from_trusted(view_key, table_id, row_id, table_data)\n\n    def _unpack(self, table_data, row_data):\n        assert type(row_data) in (list, dict), \"Unable to create Row object, bad row_data\"\n        spec = table_data[self._view_key][\"spec\"]\n        if self._spec is None:\n            self._spec = spec\n        cols = spec[\"cols\"] if spec is not None else []\n        initial_load = not bool(self._cache)\n        row_data_type = type(row_data)\n        # if the spec is None we must have a dict data type with a single cap key\n        # this potentially happens in (and is enforced by) serialization\n        if row_data_type is list:\n            unpacked_cache, cap = self._unpack_compact(table_data, spec, cols, row_data, initial_load)\n        elif row_data_type is dict:\n            unpacked_cache, cap = self._unpack_dict(table_data, cols, row_data, initial_load)\n        else:\n            raise TableError(\"the row data is invalid\")\n\n        assert type(cap) is Capability, \"invalid row_data\"\n        if self._cap is None:\n            self._cap = cap\n            cap.set_update_handler(self._cap_update_handler)\n        self._cache.update(unpacked_cache)\n        self._check_has_cached()\n\n    def _unpack_compact(self, table_data, spec, cols, row_data, initial_load):\n        # spec[\"cache\"] 1s matches the len(row_data) (+cap)\n        iter_row_data = iter(row_data)\n        unpacked_cache = {}\n        for col, is_cached in zip(cols, spec[\"cache\"]):\n            if is_cached:\n                val = self._unpack_linked(next(iter_row_data), col, table_data)\n            elif initial_load:\n                val = UNCACHED  # there's nothing there yet so fill it\n            else:\n                continue\n            unpacked_cache[col[\"name\"]] = val\n        return unpacked_cache, next(iter_row_data)\n\n    def _unpack_dict(self, table_data, cols, row_data, initial_load):\n        unpacked_cache = {}\n        for i, col in enumerate(cols):\n            val = row_data.pop(str(i), UNCACHED)\n            if val is UNCACHED and not initial_load:\n                # does this ever happen?\n                continue\n            unpacked_cache[col[\"name\"]] = self._unpack_linked(val, col, table_data)\n        cap = row_data.pop(CAP_KEY, None)\n        assert len(row_data) == 0, \"Invalid row data\"\n        return unpacked_cache, cap\n\n    def _unpack_linked(self, val, col, table_data):\n        table_id = col.get(\"table_id\")\n        if table_id is None or val is UNCACHED or val is None:\n            # not a linked row, or UNCACHED linked row (serialize cache dispute), or linked row is None\n            return val\n        col_type, view_key = col[\"type\"], col[\"view_key\"]\n        if col_type == SINGLE:\n            row_id = val\n            return Row._create_from_trusted(view_key, table_id, row_id, table_data)\n        elif col_type == MULTIPLE:\n            row_ids = val\n            return [Row._create_from_trusted(view_key, table_id, row_id, table_data) for row_id in row_ids]\n\n        raise AssertionError(\"bad col type with table_id\")\n\n    # SERIALIZATION\n    def __serialize__(self, info):\n        table_data, local_data = info.shared_data(SHARED_DATA_KEY)\n        if table_data is not None and info.local_is_trusted:\n            self._merge_and_reduce(table_data, local_data)\n        return [self._view_key, self._table_id, self._id, self._cap]\n\n    def _merge_linked(self, val, col, g_table_data, local_data):\n        type = col[\"type\"]\n        if val is UNCACHED or val is None:\n            # maybe we were serialized and converted linked row(s) to UNCACHED\n            # or actually the linked row is None\n            pass\n        elif type == SINGLE:\n            row = val\n            val = row._merge_and_reduce(g_table_data, local_data)\n        elif type == MULTIPLE:\n            val = [row._merge_and_reduce(g_table_data, local_data) for row in val]\n        return val\n\n    def _make_row_data(self, g_table_data, local_data, cache_spec):\n        table_spec = self._spec\n        table_cols = table_spec[\"cols\"] if table_spec is not None else []\n        cache = self._cache\n        # we can't rely on the order of cache in python 2\n        cached_data = []\n        for i, (col, is_cached) in enumerate(zip(table_cols, cache_spec)):\n            if not is_cached:\n                continue\n            name = col[\"name\"]\n            val = self._merge_linked(cache[name], col, g_table_data, local_data)\n            cached_data.append((i, val))\n        cached_data.append((CAP_KEY, self._cap))\n        return cached_data\n\n    def _merge_and_reduce(self, g_table_data, local_data):\n        if check_serialized(self, local_data):\n            return int(self._id)\n        g_view_data = init_view_data(self._view_key, g_table_data)\n        table_spec, row_id, cache_spec = self._spec, self._id, self._cache_spec\n\n        # We assert that there is no way for rows from the same view_key to have different col_specs\n        # This includes the order\n        # the only thing they may differ on is cache_specs\n        g_table_spec, g_table_rows = init_spec_rows(g_view_data, table_spec, cache_spec)\n        g_cache_spec = g_table_spec[\"cache\"] if g_table_spec is not None else None\n\n        if table_spec is not None and g_cache_spec is not None:\n            is_dirty = self._dirty_spec or len(cache_spec) != len(g_cache_spec)\n        else:\n            is_dirty = self._dirty_spec\n\n        if is_dirty:\n            g_view_data[\"dirty_spec\"] = True\n            cache_spec = []\n\n        cached_data = self._make_row_data(g_table_data, local_data, cache_spec)\n        existing = g_table_rows.get(row_id, [])\n\n        if not is_dirty and cache_spec == g_cache_spec and type(existing) is list:\n            row_data = [val for _, val in cached_data]\n        else:\n            row_data = {str(key): val for key, val in cached_data}\n\n        merge_row_data(row_id, row_data, g_table_rows, g_table_spec, cache_spec)\n        return int(row_id)\n\n    # PRIVATE METHODS\n    def _cap_update_handler(self, updates):\n        if updates is False:\n            # We've been deleted clear_cache so that\n            # server calls are required for data access\n            self._clear_cache()\n            self._exists = False\n            return\n        elif self._spec is None:\n            return\n        clean_items = self._walk_local_items(updates)\n        self._cache.update(clean_items)\n        self._check_has_cached()\n\n    def _check_has_cached(self):\n        if self._spec is None:\n            return\n        self._cache_spec = [int(self._cache[col[\"name\"]] is not UNCACHED) for col in self._spec[\"cols\"]]\n        self._has_uncached = any(val is UNCACHED for val in self._cache.values())\n\n    def _clear_cache(self):\n        # clearing the cache also clears the spec - this forces a call to the server to update a spec\n        self._spec = None\n        self._cache.clear()\n        self._cache_spec = []\n        self._has_uncached = True\n\n    def _fill_cache(self, fetch=None):\n        if fetch is not None:\n            uncached_keys = None if fetch is True else fetch\n        elif self._spec is None:\n            uncached_keys = None\n        elif self._has_uncached:\n            uncached_keys = [key for key, val in self._cache.items() if val is UNCACHED]\n        else:\n            return  # no uncached values\n\n        table_data = anvil.server.call(PREFIX + \"fetch\", self._cap, uncached_keys)\n        rows = table_data[self._view_key][\"rows\"]\n        row_data = rows[self._id]\n        # Replace the compact row data with this Row instance\n        # so circular references don't clobber the data while we're unpacking.\n        rows[self._id] = self\n        self._unpack(table_data, row_data)\n\n    def _walk_local_items(self, items, missing=NOT_FOUND):\n        # We are about to put local items in the cache\n        # so check linked rows have valid view keys datetimes have tz.offset applied\n        items = items.copy()\n        rv = {}\n        cols = self._spec[\"cols\"]\n        for col in cols:\n            name, type = col[\"name\"], col[\"type\"]\n            val = items.pop(name, missing)\n            if val is NOT_FOUND:\n                continue\n            else:\n                rv[name] = _copy(val)\n            if val is UNCACHED or val is None:\n                continue\n            elif type == DATETIME:\n                rv[name] = clean_local_datetime(val)\n                continue\n            elif type == MEDIA:\n                rv[name] = UNCACHED  # we need to fetch a lazy media with a valid url\n                continue\n            elif type == SINGLE:\n                val = [val]\n            elif type != MULTIPLE:\n                continue\n            rows = val\n            expected_view_key = col[\"view_key\"]\n            if any(row._view_key != expected_view_key for row in rows):\n                rv[name] = UNCACHED\n        if len(items):\n            # more items than we should have - our col spec is no good anymore\n            self._dirty_spec = True\n            rv.update(items)\n        return rv\n\n    def _check_exists(self):\n        # only call this if we're not doing a server call\n        if not self._exists:\n            raise RowDeleted(\"This row has been deleted\")\n\n    # DUNDER METHODS\n    def __iter__(self):\n        # call to __iter__ can't suspend\n        # so only do suspension stuff in __next__\n        # note that this will not get called for dict(row)\n        # keys() and __getitem__ wins for a call to dict\n        return RowIterator(self)\n\n    def __contains__(self, key):\n        return key in self.keys()\n\n    def __getitem__(self, key):\n        if not isinstance(key, str):\n            raise TypeError(\"Row columns are always strings, not {}\".format(type(key).__name__))\n        if _batcher.batch_update.active:\n            rv = _batcher.batch_update.read(self._cap, key)\n            if rv is not NOT_FOUND:\n                return _copy(rv)\n        if self._spec is None:\n            self._fill_cache()\n        hit = self._cache.get(key, NOT_FOUND)\n        if hit is UNCACHED:\n            # we have a spec now so we'll fetch the remaining columns\n            self._fill_cache()\n        elif hit is NOT_FOUND:\n            global _auto_create_is_enabled\n            if _auto_create_is_enabled is None:\n                _auto_create_is_enabled = anvil.server.call(PREFIX + \"can_auto_create\")\n            if _auto_create_is_enabled:\n                # try to force fetch this key - incase we have a bad spec - i.e auto-columns\n                self._fill_cache([key])\n        else:\n            return _copy(hit)\n        try:\n            return _copy(self._cache[key])\n        except KeyError:\n            raise NoSuchColumnError(\"No such column '\" + key + \"'\")\n\n    def __setitem__(self, key, value):\n        return self.update(**{key: value})\n\n    def __eq__(self, other):\n        if not isinstance(other, Row):\n            return NotImplemented\n        return other._id == self._id and other._table_id == self._table_id\n\n    def __hash__(self):\n        self._check_exists()\n        return hash((self._table_id, self._id))\n\n    def __repr__(self):\n        if self._spec is None:\n            return \"<anvil.tables.Row object>\"\n\n        # custom reprs depending on type\n        trunc_str = lambda s: repr(s) if len(s) < 20 else repr(s[:17] + \"...\")\n        dt_repr = lambda d: \"datetime(\" + str(d) + \")\"\n        d_repr = lambda d: \"date(\" + str(d) + \")\"\n        printable_types = {\"string\": trunc_str, \"bool\": repr, \"date\": d_repr, \"datetime\": dt_repr, \"number\": repr}\n\n        # Find cols that are both cached and easily printed\n        cache, cols = self._cache, self._spec[\"cols\"]\n        cached_printable_cols = [\n            (c[\"name\"], printable_types[c[\"type\"]], cache[c[\"name\"]])\n            for c in cols\n            if c[\"type\"] in printable_types and cache[c[\"name\"]] is not UNCACHED\n        ]\n        # Only keep the first 5\n        cached_printable_cols = cached_printable_cols[:5]\n        # Find all the remaining columns\n        num_remaning = len(cols) - len(cached_printable_cols)\n\n        vals = \", \".join(\n            \"{}={}\".format(name, None if val is None else meth(val)) for name, meth, val in cached_printable_cols\n        )\n\n        if not num_remaning:\n            and_more = \"\"\n        elif cached_printable_cols:\n            and_more = \", plus {} more column{}\".format(num_remaning, \"s\" if num_remaning != 1 else \"\")\n        else:\n            and_more = \"{} column{}\".format(num_remaning, \"s\" if num_remaning != 1 else \"\")\n\n        return \"<anvil.tables.Row: {}{}>\".format(vals, and_more)\n\n    # PUBLIC API\n    # deprecated\n    def get_id(self):\n        # For compatibility with LiveObjects\n        self._check_exists()\n        return \"[{},{}]\".format(self._table_id, self._id)\n\n    # TODO reinclude this api\n    # @property\n    # def id(self):\n    #     return self._id\n\n    # TODO reinclude this api\n    # @property\n    # def table_id(self):\n    #     return self._table_id\n\n    def get(self, key, default=None):\n        try:\n            return self[key]\n        except NoSuchColumnError:\n            return default\n\n\n    def keys(self):\n        if self._spec is None:\n            # if we don't have a _spec we don't have any keys\n            # but we don't need to blindly call _fill_uncached: UNCACHED values are fine\n            self._fill_cache()\n        return self._cache.keys()\n\n    def _get_view(self):\n        self._fill_cache()\n        view = _copy(self._cache)\n        if _batcher.batch_update.active:\n            batched = _batcher.batch_update.get_updates(self._cap)\n            view.update(_copy(batched))\n        return view\n\n    def items(self):\n        return self._get_view().items()\n\n    def values(self):\n        return self._get_view().values()\n\n    def update(*args, **new_items):\n        # avoid name conflicts with columns, could use (self, other, \/, **kws)\n        # but positioin only args not available in py2\/Skulpt\n        if not args:\n            raise TypeError(\"method 'update' of 'Row' object needs an argument\")\n        elif len(args) > 2:\n            raise TypeError(\"expected at most 1 argument, got %d\" % (len(args) - 1))\n        elif len(args) == 2:\n            new_items = dict(args[1], **new_items)\n        self = args[0]\n        if not new_items:\n            # backwards compatability hack\n            self._clear_cache()\n            return\n\n        # circular reference\n        if _batcher.batch_update.active:\n            return _batcher.batch_update.push(self._cap, new_items)\n\n        global _make_refs\n        if _make_refs is None:\n            from ._refs import make_refs  # circular import\n\n            _make_refs = make_refs\n\n        anvil.server.call(PREFIX + \"update\", self._cap, _make_refs(new_items))\n        self._cap.send_update(new_items)\n\n    def delete(self):\n        if _batcher.batch_delete.active:\n            return _batcher.batch_delete.push(self._cap)\n\n        anvil.server.call(PREFIX + \"delete\", self._cap)\n        self._cap.send_update(False)\n\n    def refresh(self, fetch=None):\n        if fetch is not None:\n            from ..query import fetch_only\n\n            if not isinstance(fetch, fetch_only):\n                raise TypeError(\"the second argument to refresh should be a q.fetch_only() object\")\n            fetch = fetch.spec\n        self._clear_cache()\n        self._fill_cache(fetch)\n\n\nclass RowIterator:\n    def __init__(self, row):\n        self._row = row\n        self._fill_required = row._spec is None\n        self._iter = iter(row._cache.items())\n\n    def __iter__(self):\n        return self\n\n    def __next__(self):\n        if self._fill_required:\n            self._row._fill_cache()\n            self.__init__(self._row)\n\n        key, value = next(self._iter)\n        if value is UNCACHED:\n            # fill the rest of the cache\n            # since we probably want all the items!\n            # we rely here on the _cache keys not changing during iteration\n            # which works since we've filled it with UNCACHED values that match our expected keys\n            self._row._fill_cache()\n            value = self._row._cache[key]\n\n        if _batcher.batch_update.active:\n            batched = _batcher.batch_update.read(self._row._cap, key)\n            if batched is not NOT_FOUND:\n                value = batched\n\n        return (key, _copy(value))\n\n    next = __next__\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_search.py"] = "import anvil.server\nfrom anvil.server import Capability\n\nfrom .._base_classes import SearchIterator as BaseSearchIterator\nfrom ._constants import CAP_KEY, SERVER_PREFIX, SHARED_DATA_KEY\nfrom ._row import Row\nfrom ._utils import check_serialized, init_spec_rows, init_view_data, merge_row_data, validate_cap\n\nPREFIX = SERVER_PREFIX + \"search.\"\n\n\nclass PartialSearchIter(object):\n    def __init__(self, s, slice_):\n        self._view_key = s._view_key\n        self._table_id = s._table_id\n        self._cap = s._cap\n        self._idx = slice_.start or 0\n        self._step = slice_.step or 1\n        self._stop = slice_.stop\n        row_ids, cap_next = s._row_ids, s._cap_next\n        if row_ids is None:\n            # this can happen in deserialization from untrusted\/None transmited data\n            row_ids, cap_next = [], s._cap\n        assert cap_next is None or type(cap_next) is Capability\n        self._reset(row_ids, cap_next, s._table_data)\n\n    def _reset(self, row_ids, cap_next, table_data):\n        if self._stop is not None and len(row_ids) > self._stop:\n            row_ids, cap_next = row_ids[: self._stop], None\n        self._row_ids = row_ids\n        self._cap_next = cap_next\n        self._table_data = table_data\n\n    def _iter_next_page(self):\n        if self._cap_next is None:\n            raise StopIteration\n\n        num_row_ids = len(self._row_ids)\n        self._idx -= num_row_ids\n        if self._stop is not None:\n            self._stop -= num_row_ids\n\n        row_ids, cap_next, table_data = anvil.server.call(PREFIX + \"next_page\", self._cap_next)\n\n        self._reset(row_ids, cap_next, table_data)\n        return self.__next__()\n\n    def __iter__(self):\n        return self\n\n    def __next__(self):\n        try:\n            row_id = self._row_ids[self._idx]\n        except IndexError:\n            return self._iter_next_page()\n        self._idx += self._step\n        return Row._create_from_trusted(self._view_key, self._table_id, row_id, self._table_data)\n\n    next = __next__\n\n\n@anvil.server.portable_class\nclass SearchIterator(BaseSearchIterator):\n    @classmethod\n    def _create(cls, view_key, table_id, row_ids, cap, cap_next, table_data):\n        self = object.__new__(cls)\n        assert cap_next is None or type(cap_next) is Capability\n        self._view_key = view_key\n        self._table_id = table_id\n        self._row_ids = row_ids\n        self._cap = cap\n        self._cap_next = cap_next\n        self._table_data = table_data\n        self._from_serialize = False\n        return self\n\n    @classmethod\n    def __new_deserialized__(cls, data, info):\n        view_key, table_id, row_ids, cap, cap_next = data\n        table_data, _ = info.shared_data(SHARED_DATA_KEY)\n        if not info.remote_is_trusted:\n            validate_cap(cap, view_key, table_id)\n            table_data = None\n        if not table_data:\n            row_ids = cap_next = None\n        # when we deserialize ourselves we may have more data than we need\n        self = cls._create(view_key, table_id, row_ids, cap, cap_next, table_data)\n        self._from_serialize = True\n        return self\n\n    def _fill_data(self):\n        self._row_ids, self._cap_next, self._table_data = anvil.server.call(PREFIX + \"next_page\", self._cap)\n\n    def _clear_cache(self):\n        self._row_ids = self._table_data = self._cap_next = None\n\n    # SERIALIZATION\n    def _make_row_data(self, row_data, table_spec, compact=True):\n        if type(row_data) is dict or compact:\n            # this row didn't match our cache_spec so just send it\n            # or we are list and we're compact because our cache_specs already match\n            return row_data\n\n        cache_spec = table_spec[\"cache\"]\n        # we are currently compact and we need to be a dict\n        new_data = {CAP_KEY: row_data[-1]}\n        iter_row_data = iter(row_data)\n\n        new_data = {str(i): next(iter_row_data) for i, is_cached in enumerate(cache_spec) if is_cached}\n        cap = next(iter_row_data)\n        assert type(cap is Capability)\n        new_data[CAP_KEY] = cap\n        return new_data\n\n    def _get_table_view_iter(self):\n        if not self._from_serialize:\n            # Fast Path - we were created from my_table.search() so the table_data is already minimal\n            # i.e. we don't need to clean it based on table_specs\n            return self._table_data.keys()\n\n        # Slow Path - we're reserializing ourselves from a previous serialization\n        # so we may have too much data if we were serialized with merged table_data\n        table_view_keys = set()\n        # walk the table_specs and insert the view_keys and table_ids we need\n        _populate_table_views_ids(self._view_key, self._table_data, table_view_keys)\n        return table_view_keys\n\n    def _merge(self, g_table_data, local_data):\n        if check_serialized(self, local_data):\n            return\n\n        table_view_keys = self._get_table_view_iter()\n\n        for view_key in table_view_keys:\n            g_view_data = init_view_data(view_key, g_table_data)\n            l_view_data = self._table_data[view_key]\n\n            l_table_spec, l_table_rows = l_view_data[\"spec\"], l_view_data.get(\"rows\", {})\n            g_table_spec, g_table_rows = init_spec_rows(g_view_data, l_table_spec)\n\n            g_cache_spec = g_table_spec[\"cache\"]\n            l_cache_spec = l_table_spec[\"cache\"]\n            cache_match = g_table_spec is l_table_spec or g_cache_spec == l_cache_spec\n\n            for row_id, row_data in l_table_rows.items():\n                if isinstance(row_data, Row):\n                    # Ok we've already been created\n                    # this is rare - we've consumed the search iterator and now we're serializing\n                    # or we created this row from shared serialization data and we're now reserializing\n                    row = row_data\n                    row._merge_and_reduce(g_table_data, local_data)\n                    continue\n\n                g_row_data = g_table_rows.get(row_id, [])\n                g_is_compact = cache_match and type(g_row_data) is list\n                row_data = self._make_row_data(row_data, l_table_spec, compact=g_is_compact)\n                merge_row_data(row_id, row_data, g_table_rows, g_table_spec, l_cache_spec)\n\n    def __serialize__(self, info):\n        table_data, local_data = info.shared_data(SHARED_DATA_KEY)\n        row_ids = self._row_ids\n        if table_data is None:\n            row_ids = self._cap_next = None\n        elif info.local_is_trusted and self._table_data is not None:\n            self._merge(table_data, local_data)\n        return [self._view_key, self._table_id, row_ids, self._cap, self._cap_next]\n\n    def _make_partial_iterator(self, slice_=slice(None)):\n        return PartialSearchIter(self, slice_)\n\n    def __iter__(self):\n        return self._make_partial_iterator()\n\n    def __len__(self):\n        if self._cap_next is None and self._row_ids is not None:\n            return len(self._row_ids)\n        return anvil.server.call(PREFIX + \"get_length\", self._cap)\n\n    def __hash__(self):\n        return hash((self._table_id, self._cap))\n\n    def __eq__(self, other):\n        if not isinstance(other, SearchIterator):\n            return NotImplemented\n        return self._cap == other._cap\n\n    def __bool__(self):\n        # because we have a __len__ and we can't suspend\n        return True\n\n    __nonzero__ = __bool__\n\n    def refresh(self):\n        self._clear_cache()\n\n    def to_csv(self, escape_for_excel=False):\n        return anvil.server.call(PREFIX + \"to_csv\", self._cap, escape_for_excel=escape_for_excel)\n\n    def delete_all_rows(self):\n        result = anvil.server.call(PREFIX + \"delete_all\", self._cap)\n        self._clear_cache()\n        return result\n\n    def __getitem__(self, idx):\n        if self._row_ids is None:\n            self._fill_data()\n\n        if isinstance(idx, slice):\n            slice_ = slice(as_slice_idx(idx.start), as_slice_idx(idx.stop), as_slice_idx(idx.step))\n            return self._make_partial_iterator(slice_)\n        else:\n            slice_ = slice(as_idx(idx), None)\n        try:\n            return next(self._make_partial_iterator(slice_))\n        except StopIteration:\n            raise IndexError(\"search index out of range\")\n\n\ndef as_idx(i, msg=\"search indices must be non-negative integers\", can_be_none=False):\n    if i is None and can_be_none:\n        return None\n    elif type(i) is int:\n        pass\n    elif hasattr(i, \"__index__\"):\n        i = i.__index__()\n    else:\n        raise TypeError(msg)\n    if i < 0:\n        raise ValueError(msg)\n    return i\n\n\ndef as_slice_idx(i):\n    msg = \"search slice indices must non-negative itegers (or None)\"\n    return as_idx(i, msg, True)\n\n\ndef _populate_table_views_ids(view_key, table_data, seen):\n    # We might hold too much data if our table_data was from another serialization\n    # If we're reserializing ourselves then this method prevents sending unnecessary data across the wire\n    if view_key in seen:\n        # prevent circular references\n        return\n\n    try:\n        table_spec = table_data[view_key][\"spec\"]\n    except KeyError:\n        # Then these linked rows were not included in the data - probably uncached from the cache spec\n        # don't try include this view_key when serializing the data\n        return\n\n    seen.add(view_key)\n    cols = table_spec[\"cols\"]\n\n    for col in cols:\n        view_key = col.get(\"view_key\")\n        if view_key is None:\n            continue\n        _populate_table_views_ids(view_key, table_data, seen)\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_table.py"] = "import anvil.server\nfrom anvil.server import Capability\n\nfrom .._base_classes import Table as BaseTable\nfrom ._constants import CASCADE, KNOWN_PERMS, READ, SERVER_PREFIX, WRITE\nfrom ._refs import make_refs\nfrom ._row import Row\nfrom ._search import SearchIterator\nfrom ._utils import validate_cap\n\nPREFIX = SERVER_PREFIX + \"table.\"\n\n\n@anvil.server.portable_class\nclass Table(BaseTable):\n    @classmethod\n    def _create(cls, cap, view_key, table_id):\n        assert cap is None or type(cap) is Capability, \"expected a table capability\"\n        self = object.__new__(cls)\n        self._cap = cap\n        self._view_key = view_key\n        self._id = str(table_id)\n        return self\n\n    @classmethod\n    def __new_deserialized__(cls, data, info):\n        if not info.remote_is_trusted:\n            validate_cap(*data)\n        return cls._create(*data)\n\n    def __serialize__(self, _info):\n        return [self._cap, self._view_key, self._id]\n\n    def __iter__(self):\n        raise TypeError(\"You can't iterate on a table. Call search() on this table to get an iterator of rows instead.\")\n\n    def __eq__(self, other):\n        if not isinstance(other, Table):\n            return NotImplemented\n        return other._id == self._id\n\n    def __hash__(self):\n        return hash(self._id)\n\n    def __contains__(self, row):\n        return self.has_row(row)\n\n    def _get_view(self, perm, args, kws):\n        assert perm in KNOWN_PERMS, \"bad permission\"\n        new_cap, view_key = anvil.server.call(\n            PREFIX + \"get_view\", self._cap, perm, None, make_refs(args), make_refs(kws)\n        )\n        return Table._create(new_cap, view_key, self._id)\n\n    # PUBLIC API\n    def restrict_columns(self, col_spec):\n        new_cap, view_key = anvil.server.call(\"get_restricted_columns\", self._cap, col_spec)\n        return Table._create(new_cap, view_key, self._id)\n\n    def client_readable(self, *args, **kws):\n        return self._get_view(READ, args, kws)\n\n    def client_writable(self, *args, **kws):\n        return self._get_view(WRITE, args, kws)\n\n    def client_writable_cascade(self, *args, **kws):\n        return self._get_view(CASCADE, args, kws)\n\n    def delete_all_rows(self):\n        return anvil.server.call(PREFIX + \"delete_all_rows\", self._cap)\n\n    def add_rows(self, rows):\n        # rows can be an iterable of dicts\n        row_dicts = []\n        refs = []\n        for row in rows:\n            row = dict(row)\n            refs.append(make_refs(row))\n            row_dicts.append(row)\n        row_id_caps, spec = anvil.server.call(PREFIX + \"add_rows\", self._cap, refs)\n        return [\n            Row._create_from_local_values(self._view_key, self._id, row_id, spec, cap, row_items)\n            for (row_id, cap), row_items in zip(row_id_caps, row_dicts)\n        ]\n\n    def add_row(self, **data):\n        row_id, cap, spec = anvil.server.call(PREFIX + \"add_row\", self._cap, make_refs(data))\n        return Row._create_from_local_values(self._view_key, self._id, row_id, spec, cap, data)\n\n    def get(self, *args, **kws):\n        row_id_table_data = anvil.server.call(PREFIX + \"get_row\", self._cap, make_refs(args), make_refs(kws))\n        return row_id_table_data and Row._create_from_trusted(self._view_key, self._id, *row_id_table_data)\n\n    def get_by_id(self, row_id, fetch=None):\n        row_id_table_data = anvil.server.call(PREFIX + \"get_row_by_id\", self._cap, row_id, fetch=fetch)\n        return row_id_table_data and Row._create_from_trusted(self._view_key, self._id, *row_id_table_data)\n\n    def has_row(self, row):\n        if not isinstance(row, Row):\n            # backwards compatability return False\n            return False\n        elif row._table_id != self._id:\n            return False\n        return anvil.server.call(PREFIX + \"has_row\", self._cap, row._id)\n\n    def list_columns(self):\n        return anvil.server.call(PREFIX + \"list_columns\", self._cap)\n\n    def search(self, *args, **kws):\n        kws = make_refs(kws)\n        row_ids, cap, cap_next, table_data = anvil.server.call(PREFIX + \"search\", self._cap, args, kws)\n        return SearchIterator._create(self._view_key, self._id, row_ids, cap, cap_next, table_data)\n\n    def to_csv(self, escape_for_excel=False):\n        return anvil.server.call(PREFIX + \"to_csv\", self._cap, escape_for_excel=escape_for_excel)\n\n    # TODO reinclude this API\n    # @property\n    # def id(self):\n    #     return self._id\n";Sk.builtinFiles.files["anvil-services\/anvil\/tables\/v2\/_utils.py"] = "import anvil.tz\r\nfrom anvil.server import Capability, unwrap_capability\r\n\r\nfrom ._constants import CAP_KEY, NOT_FOUND, UNCACHED\r\n\r\n\r\ndef validate_cap(cap, view_key, table_id, row_id=NOT_FOUND):\r\n    import json  # we don't need this on the client\r\n\r\n    _, _, view_dict, narrowed, _ = unwrap_capability(cap, [\"_\", \"t\", Capability.ANY, Capability.ANY, Capability.ANY])\r\n    assert view_dict == json.loads(view_key)\r\n    assert table_id == str(view_dict[\"id\"])\r\n    if row_id is not NOT_FOUND:\r\n        assert row_id == str(narrowed[\"r\"])\r\n\r\n\r\ndef clean_local_datetime(d):\r\n    if d.tzinfo is not None:\r\n        offset = d.utcoffset().total_seconds()\r\n    else:\r\n        offset = anvil.tz.tzlocal().utcoffset(d).total_seconds()\r\n    return d.replace(tzinfo=anvil.tz.tzoffset(seconds=offset))\r\n\r\n\r\n# Serialization helpers\r\ndef check_serialized(self, local_data):\r\n    self_id = id(self)\r\n    serialized = local_data.get(self_id, False)\r\n    local_data[self_id] = True\r\n    return serialized\r\n\r\n\r\ndef init_view_data(view_key, g_table_data):\r\n    return g_table_data.setdefault(view_key, {})\r\n\r\n\r\ndef init_spec_rows(g_view_data, table_spec, cache_spec=None):\r\n    g_table_spec = g_view_data.get(\"spec\")\r\n    if g_table_spec is not None:\r\n        pass\r\n    elif table_spec is None or cache_spec is None:\r\n        g_table_spec = g_view_data[\"spec\"] = table_spec\r\n    else:\r\n        g_table_spec = g_view_data[\"spec\"] = {\"cols\": table_spec[\"cols\"], \"cache\": cache_spec}\r\n    g_table_rows = g_view_data.setdefault(\"rows\", {})\r\n    return g_table_spec, g_table_rows\r\n\r\n\r\ndef merge_row_data(row_id, row_data, g_table_rows, g_table_spec, row_cache_spec):\r\n    # we've already cleaned the row_data\r\n    #  - it will only be a compact list if the caches match\r\n    #  - and g_row_data is either None or also a compact list\r\n    # otherwise row_data will be a dict\r\n    g_row_data = g_table_rows.get(row_id)\r\n\r\n    # FAST - common case - nothing in row_data\r\n    if g_row_data is None:\r\n        g_table_rows[row_id] = row_data\r\n        return\r\n\r\n    g_row_type = type(g_row_data)\r\n    row_type = type(row_data)\r\n\r\n    # handle all UNCACHED - i.e. the partially cached writer wins\r\n    if g_row_type is list and len(g_row_data) == 1:\r\n        # the row serialized before us has an all 0 cache_spec and is compact\r\n        # we are either a dict or a list of the same length\r\n        g_table_rows[row_id] = row_data\r\n        return\r\n    if not any(row_cache_spec):\r\n        # the row to merge has an all 0 cache_spec\r\n        return\r\n\r\n    # SLOW PATH - uncommon cases\r\n    # Another reference to this row (not the exact same row) was already serialized before us\r\n    if row_type is list:\r\n        # g_row_data must also be a compact list if row_data is a list\r\n        # they must have the same length at this stage since we know the cache specs match\r\n        if g_row_type is list:\r\n            # fail safe sanity check\r\n            merge_compact(row_data, g_row_data)\r\n        \r\n    elif g_row_type is dict:\r\n        # then the previously serialized reference to this row\r\n        # didn't match the g_cache_spec\r\n        # so just take the itersect of the dictionaries\r\n        g_table_rows[row_id] = merge_dicts(row_data, g_row_data)\r\n        return\r\n    else:\r\n        # finally the g_row_type is a compact list and we are a dict - make it a dict\r\n        g_cache_spec = g_table_spec[\"cache\"]\r\n        merge_dict_with_compact(row_data, g_row_data, row_cache_spec, g_cache_spec)\r\n        g_table_rows[row_id] = row_data\r\n\r\n\r\ndef merge_compact(row_data, g_row_data):\r\n    # any conflicts just replace with UNCACHED sentinel\r\n    # use len - 1 so we skip the Capability\r\n    for i in range(len(row_data) - 1):\r\n        gbl, loc = g_row_data[i], row_data[i]\r\n        if gbl != loc:\r\n            g_row_data[i] = UNCACHED\r\n\r\n\r\ndef merge_dicts(row_data, g_row_data):\r\n    # walk the smallest\r\n    merged = {}\r\n    a, b = (row_data, g_row_data) if len(row_data) < len(g_row_data) else (g_row_data, row_data)\r\n    cap = a.pop(CAP_KEY)\r\n    for key, a_val in a.items():\r\n        b_val = b.get(key, NOT_FOUND)\r\n        if a_val == b_val:\r\n            merged[key] = a_val\r\n    merged[CAP_KEY] = a[CAP_KEY] = cap\r\n    return a\r\n\r\n\r\ndef merge_dict_with_compact(row_data, g_row_data, row_cache_spec, g_cache_spec):\r\n    iter_g_row_data = iter(g_row_data)\r\n    for i, (is_cached, g_is_cached) in enumerate(zip(row_cache_spec, g_cache_spec)):\r\n        i = str(i)\r\n        if not g_is_cached:\r\n            # we could use the incoming caller wins here\r\n            if is_cached:\r\n                row_data.pop(i, None)\r\n            continue\r\n\r\n        g_val = next(iter_g_row_data)\r\n        if not is_cached:\r\n            continue\r\n\r\n        if i in row_data and row_data[i] != g_val:\r\n            row_data.pop(i)\r\n\r\n    return row_data\r\n";Sk.builtinFiles.files["anvil-services\/anvil\/secrets.js"] = "var $builtinmodule = function() {\n\t\n\tthrow new Sk.builtin.ImportError(\"The anvil.secrets module cannot be used from client code\")\n}\n";anvilServicePreloadModules.push("anvil.email");Sk.builtinFiles.files["anvil-services\/anvil\/email.py"] = "import anvil.server\n\n#!defModule(anvil.email)!1: \"The `anvil.email` module contains functions for sending and receiving email in your Anvil app.\"\n\n#!suggestAttr(anvil.email,send)!0:\n\n#!defClass(anvil.email,SendFailure)!:\nclass SendFailure(anvil.server.AnvilWrappedError):\n    pass\n\nanvil.server._register_exception_type(\"anvil.email.SendFailure\", SendFailure)\n\nclass DeliveryFailure(Exception):\n    #!defMethod(_,message=None,smtp_code=554)!2: \n    # {anvil$helpLink: \"\/docs\/email\/sending_and_receiving#rejecting-email\", $doc: \"While handling an error, you can raise a DeliveryFailure exception to reject email delivery. Optionally, you may specify a message and SMTP error code with the rejection.\"} [\"__init__\"]\n    def __init__(self, message=None, smtp_code=None):\n        if message is None:\n            super(DeliveryFailure, self).__init__()\n        elif smtp_code is not None:\n            message = \"{}: {}\".format(smtp_code, message)\n        super(DeliveryFailure, self).__init__(message)\n    #!defClass(anvil.email,DeliveryFailure)!:\n\n\n\n#!defFunction(anvil.email,anvil.email.SendReport instance,[to=],[cc=],[bcc=],[from_address=\"no-reply\"],[from_name=],[subject=],[text=],[html=],[attachments=],[inline_attachments=])!2:\n# {\n#   $doc: \"Send an email\",\n#   anvil$helpLink: \"\/docs\/email\",\n#   anvil$args: {\n#     to: \"The email recipient[s] in the 'To' field. Can be a string or list of strings.\\n\\nEach string can be a bare address (eg 'joe@example.com') or include a display name (eg 'Joe Bloggs <joe@example.com>').\",\n#     cc: \"The email recipient[s] in the 'Cc' field. Can be a string or list of strings.\\n\\nEach string can be a bare address (eg 'joe@example.com') or include a display name (eg 'Joe Bloggs <joe@example.com>').\",\n#     bcc: \"The email recipient[s] in the 'Bcc' field. Can be a string or list of strings.\\n\\nEach string can be a bare address (eg 'joe@example.com') or include a display name (eg 'Joe Bloggs <joe@example.com>').\",\n#     from_address: \"The From: address from this email. Can be a bare address (eg 'joe@example.com') or include a display name (eg 'Joe Bloggs <joe@example.com>').\\n\\nIf no domain is specified, or the specified domain is not a legal sending domain for this app, the address will be replaced with a valid domain. So if you specify 'noreply', the email will come from 'noreply@your-app-domain.anvil.app'.\",\n#     from_name: \"The name associated with the From: address for this email. (Only valid if the from_address is a bare email address.)\",\n#     subject: \"The subject line for this email.\",\n#     text: \"The plain-text (no HTML) content for this email. You must specify at least one of 'text' and 'html'.\",\n#     html: \"The HTML content for this email. You must specify at least one of 'text' and 'html'.\",\n#     attachments: \"A list of Media objects to send as attachments with this email.\",\n#     inline_attachments: \"Inline that can be used in this email's HTML, for example in <img> tags. Must be a dictionary whose keys are IDs and values are Media objects. IDs can then be used in a message's HTML with 'cid:xxx' URIs.\",\n#   }\n# } [\"send\"]\ndef send(**kw):\n    return anvil.server.call(\"anvil.private.email.send.v2\", **kw)\n\n# NB no defFunction() here; this one is defined in the autocompleter\ndef handle_message(fn=None, require_dkim=False):\n    def wrapper(fn):\n        def handler(msg_dict):\n            msg = Message(msg_dict)\n            if require_dkim and not msg.dkim.valid_from_sender:\n                raise DeliveryFailure(\"No valid DKIM signature for %s\" % msg.envelope.from_address)\n            fn(msg)\n        return anvil.server.callable(\"email:handle_message\")(handler)\n    return wrapper(fn) if fn is not None else wrapper\n\n\n@anvil.server.portable_class\nclass Address(object):\n\n    #!defAttr()!1: {name:\"address\",type:\"string\",description:\"The email address this object represents.\"}\n    #!defAttr()!1: {name:\"name\",type:\"string\",description:\"The name associated with the address this object represents.\"}\n    #!defAttr()!1: {name:\"raw_value\",type:\"string\",description:\"The full string value of this address.\"}\n    def __init__(self, address):\n        self.address = address['address']\n        self.name = address['name']\n        self.raw_value = address['raw']\n\n    #!defClass(anvil.email,#Address)!:\n\n\n@anvil.server.portable_class\nclass Message(object):\n    #!defAttr()!1: {name:\"from_address\",type:\"string\",description:\"The email address from which this message was sent, according to the SMTP envelope.\"}\n    #!defAttr()!1: {name:\"recipient\",type:\"string\",description:\"The email address that received this message.\\n\\nNote that this email address may not appear in any of the headers (eg if the email has been BCCed or blind forwarded).\"}\n    @anvil.server.portable_class\n    class Envelope(object):\n        def __init__(self, envelope):\n            self.from_address = envelope['from']\n            self.recipient = envelope['recipient']\n    #!defClass(anvil.email.Message,#Envelope)!:\n\n    #!defAttr()!1: {name:\"valid_from_sender\",type:\"boolean\",description:\"Was this message signed by the domain in its envelope \\\"from\\\" address?\"}\n    #!defAttr()!1: {name:\"domains\",type:\"list(string)\",description:\"A list of the DKIM domains that signed this message.\"}\n    @anvil.server.portable_class\n    class DKIM(object):\n        def __init__(self, dkim):\n            self.valid_from_sender = dkim['valid_from_sender']\n            self.domains = dkim['domains']\n    #!defClass(anvil.email.Message,#DKIM)!:\n\n\n    #!defAttr()!1: {name:\"to_addresses\",pyType:\"list(anvil.email.Address instance)\",description:\"The addresses this message was sent to.\"}\n    #!defAttr()!1: {name:\"from_address\",pyType:\"anvil.email.Address instance\",description:\"The address this message was sent from.\"}\n    #!defAttr()!1: {name:\"cc_addresses\",pyType:\"list(anvil.email.Address instance)\",description:\"The addresses this message was copied to.\"}\n    @anvil.server.portable_class\n    class Addressees(object):\n        def __init__(self, addressees):\n            self.to_addresses = [Address(a) for a in addressees.get('to',[])]\n            self.from_address = Address(addressees['from'][0]) if 'from' in addressees else None\n            self.cc_addresses = [Address(a) for a in addressees.get('cc',[])]\n    #!defClass(anvil.email.Message,#Addressees)!:\n\n\n    #!defAttr()!1: {name:\"envelope\",pyType:\"anvil.email.Message.Envelope instance\",description:\"The sender and receipient of this email, according to the SMTP envelope.\"}\n    #!defAttr()!1: {name:\"dkim\",pyType:\"anvil.email.Message.DKIM instance\",description:\"Object describing whether this message was signed by the sending domain\"}\n    #!defAttr()!1: {name:\"addressees\",pyType:\"anvil.email.Message.Addressees instance\",description:\"The addresses this email was sent from and to, according to the headers.\"}\n    #!defAttr()!1: {name:\"headers\",type:\"list\",description:\"All the headers in this email, as a list of (name,value) pairs.\"}\n    #!defAttr()!1: {name:\"text\",type:\"string\",description:\"The plain-text content of this email, or None if there is no plain-text part.\"}\n    #!defAttr()!1: {name:\"subject\",type:\"string\",description:\"The subject of this email, or None if there is no subject.\"}\n    #!defAttr()!1: {name:\"html\",type:\"string\",description:\"The HTML content of this email, or None if there is no HTML part.\"}\n    #!defAttr()!1: {name:\"attachments\",pyType:\"list(anvil.Media instance)\",description:\"A list of this email's attachments.\"}\n    #!defAttr()!1: {name:\"inline_attachments\",pyType:\"dict(string,anvil.Media instance)\",description:\"A dictionary of this email's inline attachments. Keys are ContentID headers, values are the attachments as Media Objects.\"}\n\n    def __init__(self, msg_dict):\n        self.envelope = Message.Envelope(msg_dict['envelope'])\n        self.dkim = Message.DKIM(msg_dict['dkim'])\n        self.addressees = Message.Addressees(msg_dict['addressees'])\n        self.headers = msg_dict['headers']\n        self.subject = msg_dict['subject']\n        self.text = msg_dict['text']\n        self.html = msg_dict['html']\n        self.attachments = msg_dict['attachments']\n        self.inline_attachments = msg_dict['inline_attachments']\n\n    #!defMethod(_,header_name,[default=None])!2: \"Return the value of the specified header, or default value if it is not present.\\n\\nCase-insensitive. If the header is specified multiple times, returns the first value.\" [\"get_header\"]\n    def get_header(self, header_name, default=None):\n        header_name = header_name.lower()\n        for name,value in self.headers:\n            if name.lower() == header_name:\n                return value\n        return default\n\n    #!defMethod(_,header_name)!2: \"Return a list containing every value of the specified header. Case-insensitive.\" [\"list_header\"]\n    def list_header(self, header_name):\n        header_name = header_name.lower()\n        return [value for name,value in self.headers\n                if name.lower() == header_name]\n\n    #!defMethod(_,[cc=],[bcc=],[from_address=],[from_name=],[text=],[html=],[attachments=])!2: \"Reply to this email.\" [\"reply\"]\n    def reply(self,**kw):\n        kw['to'] = kw.get('to', self.get_header(\"Reply-To\", None))\n        if kw['to'] is None:\n            if self.addressees.from_address is not None:\n                kw['to'] = self.addressees.from_address.raw_value\n            else:\n                kw['to'] = self.envelope.from_address\n        if kw['to'] is None:\n            raise Exception(\"Cannot reply to a message with no Reply-To header, From address, or Envelope From address.\")\n\n        kw['subject'] = kw.get('subject', self.subject)\n        kw['in_reply_to'] = self.get_header(\"Message-ID\")\n        if kw['in_reply_to']:\n            kw['references'] = self.get_header(\"References\", \"\") + \" \" + kw['in_reply_to']\n        kw['from_address'] = kw.get('from_address', self.envelope.recipient)\n        send(**kw)\n\n    def __str__(self):\n\n        truncated_text = \"\"\n        if self.text:\n            truncated_text = self.text.replace(\"\\n\", \" \\\\ \")\n            (truncated_text[:70] + '...') if len(truncated_text) > 70 else truncated_text,\n\n        return \"\"\"anvil.email.Message:\n    from: %s\n    to: %s\n    subject: %s\n    text: %s\n    attachments: %s\"\"\" % (\n            self.addressees.from_address and self.addressees.from_address.raw_value,\n            len(self.addressees.to_addresses) > 0 and self.addressees.to_addresses[0].raw_value,\n            self.subject,\n            truncated_text,\n            \", \".join([\"%s (%s bytes)\" % (a.name, len(a.get_bytes())) for a in self.attachments]) if len(self.attachments) > 0 else None\n        )\n\n    #!defClass(anvil.email,#Message)!:\n\n\n@anvil.server.portable_class\nclass SendReport(object):\n\n    #!defAttr()!1: {name: \"message_id\", type: \"string\", description: \"The Message-ID header given to this outgoing message.\"}\n\n    def __init__(self):\n        raise Exception(\"Cannot construct a SendReport manually\")\n\n    #!defClass(anvil.email,#SendReport)!:\n";window.loadApp({"app":{"allow_embedding":false,"dependency_code":{},"package_name":"M3_App_5","config":{"client":{}},"modules":[],"name":"pulse-finance","dependency_ids":{},"startup_form":"Form1","dependency_order":[],"theme":{"html":{"standard-page.html":"<link href=\"https:\/\/fonts.googleapis.com\/css?family=Roboto:300,400,500\" rel=\"stylesheet\" rel=\"preload\" as=\"font\" crossorigin=\"anonymous\">\r\n\r\n<div class=\"structure\">\r\n  <div class=\"app-bar\" anvil-drop-container=\".anvil-container\" anvil-drop-redirect=\".placeholder\">\r\n    <a class=\"sidebar-toggle\" anvil-if-slot-empty=\"top-left-btn\" anvil-hide-if-slot-empty=\"left-nav\" anvil-drop-slot=\"top-left-btn\" href=\"javascript:void(0)\"><i class=\"fa fa-bars\"><\/i><\/a>\r\n    <a class=\"sidebar-toggle anvil-designer-only\" anvil-if-slot-empty=\"top-left-btn\" anvil-if-slot-empty=\"left-nav\" anvil-drop-slot=\"top-left-btn\"><i class=\"fa fa-blank\"><\/i><\/a>\r\n    <div class=\"top-left-btn\" anvil-slot=\"top-left-btn\"><\/div>\r\n    <div class=\"title\" anvil-slot=\"title\">\r\n      <div class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"title\" anvil-drop-here>Drop title here<\/div>\r\n    <\/div>\r\n    <div class=\"app-bar-nav\" anvil-slot=\"nav-right\">\r\n      <div class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"nav-right\" anvil-drop-here>Drop a FlowPanel here<\/div>\r\n    <\/div>\r\n    <div style=\"clear:both\"><\/div>\r\n  <\/div>\r\n\r\n  <div class=\"nav-holder\">\r\n    <div class=\"left-nav anvil-measure-this\" anvil-slot-repeat=\"left-nav\" anvil-drop-container=\">.anvil-container\">\r\n    <\/div>\r\n    <div class=\"left-nav-placeholder anvil-designer-only\" anvil-if-slot-empty=\"left-nav\" anvil-drop-slot=\"left-nav\">\r\n      <div class=\"prompt\">To add a sidebar, drop a ColumnPanel here.<\/div>\r\n    <\/div>\r\n    \r\n    <div class=\"content\">\r\n      <div anvil-slot-repeat=\"default\" class=\"anvil-measure-this\"><\/div>\r\n      <div class=\"placeholder drop-here\" anvil-if-slot-empty=\"default\" anvil-drop-slot=\"default\">Drop a ColumnPanel here.<\/div>\r\n    <\/div>\r\n  <\/div>\r\n\r\n  <div class=\"nav-shield\"><\/div>\r\n<\/div>\r\n<div anvil-drop-default anvil-drop-redirect=\".placeholder\" anvil-drop-container=\".anvil-container\"><\/div>\r\n \r\n<script>\r\n  var ln = $('.structure > .nav-holder > .left-nav');\r\n  var lnp = $('.structure > .nav-holder > .left-nav-placeholder');\r\n  var appBar = $('.app-bar')[0];\r\n  \r\n  function hideSidebar() {\r\n    ln.animate({left: -ln.outerWidth()}, function() {\r\n      ln.removeClass(\"in-transition shown\").addClass(\"hidden\");\r\n      $('.nav-shield').removeClass(\"shown\");\r\n      $(window).trigger('resize');\r\n    });\r\n    if (window.innerWidth > 998) { \r\n      $('.content').animate({'margin-left':0}, function(){})\r\n    }\r\n  }\r\n  \r\n  function showSidebar() {\r\n    $('.nav-shield').addClass(\"shown\");\r\n    ln.addClass(\"shown\").removeClass(\"hidden\").css({left: \"-100%\"}).css({left: -ln.outerWidth()}).animate({left: 0}, function() {\r\n      ln.removeClass(\"in-transition\");\r\n    });\r\n    $(window).trigger('resize');\r\n    if (window.innerWidth > 998) {\r\n      $('.content').animate({'margin-left': ln.outerWidth().toString() + 'px'}, function(){})\r\n    } \r\n  }\r\n  \r\n  $('.sidebar-toggle, .nav-shield').off('click').on('click', function() { \r\n    if (ln.is(\":visible\") || $('.nav-shield').is(\".shown\")) {\r\n      hideSidebar();\r\n    } else if(!ln.is(\":empty\")) {\r\n      showSidebar();\r\n    }\r\n  });\r\n  $('.left-nav').off('click').on('click', 'a, button', function() {\r\n    if ($('.nav-shield').is(\":visible\")) {\r\n      $('.nav-shield').trigger('click');\r\n    }\r\n  });\r\n  \r\n  document.addEventListener('scroll', function() {\r\n    if (appBar.classList.contains('scrolled')) {\r\n      if (window.scrollY === 0) {\r\n        appBar.classList.remove('scrolled')\r\n      }\r\n    }\r\n    else {\r\n      appBar.classList.add('scrolled')\r\n    }\r\n  });\r\n\r\n  function addMarginToContent() {\r\n    \/\/check if there is a free banner and set the top margin accordiningly\r\n    let topMargin;\r\n    if ($('#anvil-header').css('display') == 'block') {\r\n      topMargin = appBar.clientHeight + 50\r\n    } else {\r\n      topMargin = appBar.clientHeight\r\n    }\r\n    \/\/the left-nav-placeholder in the designer needs to shift down for the app bar\r\n    lnp.css({'top': appBar.clientHeight.toString() + 'px'})\r\n\r\n    \/\/if the window is small\r\n    if (window.innerWidth < 999) {\r\n      \/\/if in Anvil designer\r\n      if (window.anvilInDesigner) {\r\n        \/\/add left margin to content to make room for left-nav or left-nav-placeholder\r\n        $('.content').css({'margin-left': Math.max(ln.outerWidth(), lnp.outerWidth()).toString() + 'px'});\r\n        $('.content').css({'margin-top': appBar.clientHeight.toString() + 'px'})\r\n        ln.css({'top': topMargin.toString() + 'px'})\r\n      } else {\r\n        \/\/if not in Anvil designer, content gets no left margin because left-nav will be a modal overlay\r\n        $('.content').css({'margin-left': '0px'});\r\n        ln.css({'top': '0px'})\r\n        \/\/add top margin to content\r\n        $('.content').css({'margin-top': topMargin.toString() + 'px'});\r\n      }\r\n    } else {\r\n      \/\/if the window is big, add margin to content and left-nav for app bar\r\n      $('.content').css({'margin-top': appBar.clientHeight.toString() + 'px'});\r\n      ln.css({'top': topMargin.toString() + 'px'})\r\n      if (window.anvilInDesigner) {\r\n        \/\/if in the designer, add left margin for either the left-nav or the placeholder\r\n        $('.content').css({'margin-left': Math.max(ln.outerWidth(), lnp.outerWidth()).toString() + 'px'});\r\n      } else {\r\n        \/\/if not in the designer, only add margin for the left-nav because placeholder still has a width outside of designer\r\n        $('.content').css({'margin-left': ln.outerWidth() + 'px'});\r\n      }\r\n    }\r\n  }\r\n  \r\n  addMarginToContent()\r\n  window.addEventListener('resize', addMarginToContent);\r\n \r\n<\/script>"},"color_scheme":{"Secondary Container":"#E8DEF8","Tertiary Container":"#FFD8E4","On Background":"#1C1B1F","Disabled Container":"rgba(28, 27, 31, 0.12)","On Tertiary":"#FFFFFF","Outline":"#79747E","On Primary Container":"#21005E","Dark Overlay 2":"rgba(30, 25, 43, 0.12)","On Secondary":"#FFFFFF","On Secondary Container":"#1E192B","Primary Container":"#EADDFF","Secondary":"#625B71","On Surface Variant":"#49454E","Surface Variant":"#E7E0EC","Light Overlay 1":"rgba(255, 255, 255, 0.08)","Tertiary":"#7D5260","Light Overlay 2":"rgba(255, 255, 255, 0.12)","Primary Overlay 2":"rgba(103, 80, 164, 0.08)","Primary":"black","On Tertiary Container":"#370B1E","Primary Overlay 3":"rgba(103, 80, 164, 0.11)","Primary Overlay 1":"rgba(103, 80, 164, 0.05)","On Surface":"#1C1B1F","On Disabled":"rgba(28, 27, 31, 0.38)","Error":"#B3261E","Background":"#FFFBFE","Dark Overlay 1":"rgba(30, 25, 43, 0.08)","Surface":"#FFFBFE","On Primary":"black"},"vars":{"Secondary Container":"--anvil-color-Secondary-Container-3a56","Tertiary Container":"--anvil-color-Tertiary-Container-d1d2","On Background":"--anvil-color-On-Background-60f4","Disabled Container":"--anvil-color-Disabled-Container-445f","On Tertiary":"--anvil-color-On-Tertiary-78d1","Outline":"--anvil-color-Outline-e757","On Primary Container":"--anvil-color-On-Primary-Container-f383","Dark Overlay 2":"--anvil-color-Dark-Overlay-2-d528","On Secondary":"--anvil-color-On-Secondary-5fc6","On Secondary Container":"--anvil-color-On-Secondary-Container-f6a5","Primary Container":"--anvil-color-Primary-Container-d99b","Secondary":"--anvil-color-Secondary-62b9","On Surface Variant":"--anvil-color-On-Surface-Variant-e44f","Surface Variant":"--anvil-color-Surface-Variant-2aee","Light Overlay 1":"--anvil-color-Light-Overlay-1-f9f1","Tertiary":"--anvil-color-Tertiary-c16a","Light Overlay 2":"--anvil-color-Light-Overlay-2-e8ee","Primary Overlay 2":"--anvil-color-Primary-Overlay-2-da46","Primary":"--anvil-color-Primary-aeef","On Tertiary Container":"--anvil-color-On-Tertiary-Container-848a","Primary Overlay 3":"--anvil-color-Primary-Overlay-3-4c8a","Primary Overlay 1":"--anvil-color-Primary-Overlay-1-9b4d","On Surface":"--anvil-color-On-Surface-5b41","On Disabled":"--anvil-color-On-Disabled-1285","Error":"--anvil-color-Error-50c5","Background":"--anvil-color-Background-a24f","Dark Overlay 1":"--anvil-color-Dark-Overlay-1-ebca","Surface":"--anvil-color-Surface-7970","On Primary":"--anvil-color-On-Primary-0ca8"}},"runtime_options":{"version":2,"client_version":"3"},"forms":[{"is_package":true,"container":{"type":"HtmlTemplate","properties":{"html":"@theme:standard-page.html"}},"components":[{"type":"ColumnPanel","properties":{"col_widths":"{}"},"name":"content_panel","layout_properties":{"slot":"default"},"components":[{"name":"spacer_1","properties":{"height":181.8349609375},"type":"Spacer","layout_properties":{"grid_position":"QAFNNM,IGGBAI"}},{"name":"image_1","properties":{"source":"_\/theme\/65f84379-3f9d-4c13-ada8-9c28db6fea18 copy.png"},"type":"Image","layout_properties":{"grid_position":"RGOBUG,DTTWCI"}},{"name":"message_link","properties":{"align":"center","text":"","foreground":"white","border":"","icon":"fa:envelope"},"type":"Link","layout_properties":{"grid_position":"PZSHAL,TQQDIW"},"event_bindings":{"click":"message_link_click"}}]},{"type":"FlowPanel","properties":{},"name":"navbar_links","layout_properties":{"slot":"nav-right"}}],"code":"from ._anvil_designer import Form1Template\nfrom anvil import *\nimport anvil.tables as tables\nimport anvil.tables.query as q\nfrom anvil.tables import app_tables\nimport anvil.server\n\nclass Form1(Form1Template):\n  def __init__(self, **properties):\n    # Set Form properties and Data Bindings.\n    self.init_components(**properties)\n\n\n    # anvil.server.call('test')\n\n    \n\n    # Any code you write here will run before the form opens.\n\n  def button_1_click(self, **event_args):\n    \"\"\"This method is called when the button is clicked\"\"\"\n\n    if len(self.text_box_1.text) > 0:\n        data = anvil.server.call('get_stock_data', self.text_box_1.text)\n\n        summarized = anvil.server.call('summarize_stock_data', data, self.text_box_1.text)\n      \n        Notification(f'{summarized}', timeout=15).show()\n\n  def message_link_click(self, **event_args):\n    \"\"\"This method is called when the link is clicked\"\"\"\n    t = TextArea(\n                  # placeholder=\"If you encountered an error, kindly include the error message and\/or the action\/s you attempted to take that resulted in the error. \\n\\n\"\n                  #             \"Kindly include an email we can use to respond to your inquiry. \",\n                  placeholder=\"Send me a message and leave your contact info\",\n                  height='200px',\n                  )\n    result = alert(\n              content=t,\n              large=False,\n              # title=\"Send Feedback\",\n              buttons=[\n                 (\"Cancel\", False),\n                 (\"Send\", True),\n                  ],\n              dismissible=False,\n                )\n\n\n    anvil.server.call('send_inquiry', t.text)\n\n    # if result == True: \n    #     if len(t.text) > 0:\n    #         Notification(\"Sent\").show()\n    #         anvil.server.call_s('add_feedback', \n    #                             t.text,\n    #                             )\n","class_name":"Form1","id":"RMQDEQXHWQ2MHBBTWAE2U5L6R2ZBKMLW"}],"services":[{"source":"\/runtime\/services\/tables.yml","client_config":{}},{"source":"\/runtime\/services\/anvil\/secrets.yml","client_config":{}},{"source":"\/runtime\/services\/anvil\/email.yml","client_config":{}}]},"appId":"SLQPXZTXBKXN26QZ","appOrigin":"https:\/\/pulse-finance.com","ideOrigin":"https:\/\/anvil.works","runtimeVersion":3,"isCrawler":null}, anvilServicePreloadModules);const loadAppAfter = window.anvil._loadAppAfter || [];Promise.all(loadAppAfter).then(function() {window.openForm("Form1");});});
+</script>
+</body>
+</html>

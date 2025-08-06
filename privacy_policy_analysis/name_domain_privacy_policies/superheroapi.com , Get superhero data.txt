@@ -1,0 +1,1408 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<script>
+			window.tly_loaded = false;
+
+			window.getUpdatedCookieWhitelistByTermly = function(data) {
+				window.tly_loaded = true;
+				window.tly_data = data;
+
+				const event = new Event( `tly_loaded` );
+				window.dispatchEvent( event );
+			};
+		</script>
+<script type="text/javascript" data-slug="privacy-policy-generator">
+					function loadgtm(w,d,s,l,i){
+						w[l]=w[l]||[];w[l].push({'gtm.start':
+						new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+						j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src=
+						'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+					};
+					function loadtermly(){
+						console.log("DOM CONTENT LOADED");
+						var termly_embed_script = document.createElement( 'script' );
+						termly_embed_script.setAttribute( 'type', "text/javascript" );
+						termly_embed_script.setAttribute( 'src', "https://app.termly.io/resource-blocker/9598d17a-6c78-437c-83a3-52d50ae899fd?autoBlock=off" );
+						// termly_embed_script.setAttribute( 'data-auto-block', "off" );
+						// termly_embed_script.setAttribute( 'data-website-uuid', "9598d17a-6c78-437c-83a3-52d50ae899fd" );
+						// termly_embed_script.setAttribute( 'data-cfasync', "false" );
+						document.getElementsByTagName('head')[0].appendChild( termly_embed_script );
+					};
+					window.onload = function(){
+						if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+						// true for mobile device
+							console.log("LOAD MOBILE SCRIPTS");
+							setTimeout(function(){
+								loadtermly();
+								loadgtm(window,document,'script','dataLayer','GTM-KJBTQ26D');
+							}, 5000);
+						}else{
+						// false for not mobile device
+							console.log("LOAD DESKTOP SCRIPTS");
+							loadtermly();
+							loadgtm(window,document,'script','dataLayer','GTM-KJBTQ26D');
+						}
+					};	
+				</script>
+
+<title>Free Privacy Policy Generator - Create a Privacy Policy</title>
+<meta name="description" content="Use our privacy policy generator to create a CCPA, GDPR, and CalOPPA compliant privacy policy for your website, app, or software service." />
+<link rel="canonical" href="https://termly.io/products/privacy-policy-generator/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Privacy Policy Generator" />
+<meta property="og:description" content="Use our privacy policy generator to create a CCPA, GDPR, and CalOPPA compliant privacy policy for your website, app, or software service." />
+<meta property="og:url" content="https://termly.io/products/privacy-policy-generator/" />
+<meta property="og:site_name" content="Termly" />
+<meta property="article:publisher" content="https://www.facebook.com/termly.io" />
+<meta property="article:modified_time" content="2024-04-17T22:45:02+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Termly_io" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://termly.io/products/privacy-policy-generator/","url":"https://termly.io/products/privacy-policy-generator/","name":"Free Privacy Policy Generator - Create a Privacy Policy","isPartOf":{"@id":"https://termly.io/#website"},"primaryImageOfPage":{"@id":"https://termly.io/products/privacy-policy-generator/#primaryimage"},"image":{"@id":"https://termly.io/products/privacy-policy-generator/#primaryimage"},"thumbnailUrl":"https://termly.io/wp-content/uploads/2020/01/Icon_90_Privacy-Policy.svg","datePublished":"2024-04-17T22:45:01+00:00","dateModified":"2024-04-17T22:45:02+00:00","description":"Use our privacy policy generator to create a CCPA, GDPR, and CalOPPA compliant privacy policy for your website, app, or software service.","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://termly.io/products/privacy-policy-generator/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://termly.io/products/privacy-policy-generator/#primaryimage","url":"https://termly.io/wp-content/uploads/2020/01/Icon_90_Privacy-Policy.svg","contentUrl":"https://termly.io/wp-content/uploads/2020/01/Icon_90_Privacy-Policy.svg"},{"@type":"WebSite","@id":"https://termly.io/#website","url":"https://termly.io/","name":"Termly","description":"","publisher":{"@id":"https://termly.io/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://termly.io/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://termly.io/#organization","name":"Termly.io","url":"https://termly.io/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://termly.io/#/schema/logo/image/","url":"https://termly.io/wp-content/uploads/Termly_Icon.png","contentUrl":"https://termly.io/wp-content/uploads/Termly_Icon.png","width":210,"height":210,"caption":"Termly.io"},"image":{"@id":"https://termly.io/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/termly.io","https://x.com/Termly_io","https://www.linkedin.com/company/termly/","https://www.youtube.com/@termly"]}]}</script>
+
+<link href="https://fonts.gstatic.com" crossorigin rel="preconnect" />
+<link rel="alternate" type="application/rss+xml" title="Termly &raquo; Feed" href="https://termly.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Termly &raquo; Comments Feed" href="https://termly.io/comments/feed/" />
+<link rel="stylesheet" id="v2-style-tailwind-css" href="https://termly.io/wp-content/themes/genesis-tly-v4/v2/css/style.min.css?v=0.3.10&#038;ver=6.5.2" media="all" />
+<script src="https://termly.io/wp-content/themes/genesis-tly-v4/v2/js/script.min.js?v=0.3.10" defer="defer" type="text/javascript"></script>
+<link rel="icon" type="image/svg+xml" href="https://termly.io/wp-content/themes/genesis-tly-v4/images/favicons/favicon.svg" sizes="512x512"><link rel="icon" type="image/png" href="https://termly.io/wp-content/themes/genesis-tly-v4/images/favicons/favicon-192.png" sizes="192x192"><link rel="apple-touch-icon" sizes="180x180" href="https://termly.io/wp-content/themes/genesis-tly-v4/images/favicons/favicon-180.png"> 
+</head>
+<body class="page-template page-template-page_templates page-template-page_builder page-template-page_templatespage_builder-php page page-id-1815 page-child parent-pageid-3334 full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-visible no-js">
+<header id="header" class="header z-50 fixed mt-0 left-0 unscrolled">
+<section class="p-0 px-4 lg:px-6 shadow-blue bg-white left-0 w-full h-auto">
+<div class="container max-w-[1600px] flex flex-col lg:flex-row items-center px-0">
+<div class="w-full lg:w-auto xl:w-[180px] flex justify-between items-center logo-wrap">
+<a href="/" class="block py-2 lg:py-0 mobile-nav-logo"><img src="/wp-content/themes/genesis-tly-v4/v2/img/termly-logo.svg" width="141" height="40" class="h-10" alt="Termly logo" /></a>
+<button class="lg:hidden rounded-lg focus:outline-none focus:shadow-outline burger" aria-labelledby="nav-button">
+<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+<path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+</svg>
+<span class="sr-only" id="nav-button">Open Navigation menu</span>
+</button>
+</div>
+<nav id="nav-mobile" class="block fixed transition-all bg-white opacity-0 left-full w-full lg:hidden overflow-y-auto lg:overflow-visible h-full pointer-events-none">
+<div class="w-full flex justify-between items-center px-4 nav-logo-wrap">
+<a href="/" class="block py-2"><img src="/wp-content/themes/genesis-tly-v4/v2/img/termly-logo.svg" width="141" height="40" class="h-10" alt="Termly logo" /></a>
+<button class="rounded-lg focus:outline-none focus:shadow-outline burger pr-0" aria-labelledby="close-nav-button">
+<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+<span class="sr-only" id="close-nav-button">Close Navigation menu</span>
+</button>
+</div>
+<div id="nav-items" class="pb-48 relative">
+<div class="flex flex-col justify-center items-center fixed bottom-0 left-0 w-full bg-white p-4 drop-shadow-2xl z-20 try-for-free">
+<a href="https://app.termly.io/user/sign-up" class="btn-primary w-full font-bold text-medium">Try for free!</a>
+</div>
+<section class="mobile-dropdown">
+<div class="flex items-center">
+<a class="nav-item grow" href="https://termly.io/products/">
+Products
+</a>
+<button class="nav-item mobile-dropdown-show nav-chev rotate-90" aria-label="Mobile Menu">
+<svg xmlns="http://www.w3.org/2000/svg" width="10.558" height="22" viewBox="0 0 10.558 22">
+<g transform="translate(-17.222 -1.223)">
+<path data-name="Path 87" d="M17.857,23.222a.644.644,0,0,1-.464-1.072l9-9.575a.543.543,0,0,0,0-.715l-9-9.575a.632.632,0,0,1,.929-.857l9,9.575a1.8,1.8,0,0,1,0,2.394l-9,9.611A.629.629,0,0,1,17.857,23.222Z" fill="#4469f3" />
+</g>
+</svg>
+</button>
+</div>
+<article class="subnav leading-list px-6 pt-1 ">
+<h5 class="text-gray-medium uppercase leading-3">POLICY GENERATORS</h5>
+<small class="text-gray-medium text-xs block mb-2">Attorney-crafted documents and policies</small>
+<div class="grid lg:grid-cols-2 gap-0 leading-list text-small font-bold">
+<div>
+<a href="/products/privacy-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_privacy.webp" alt>
+<span class="block ">Privacy Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/terms-and-conditions-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_terms.webp" alt>
+<span class="block ">Terms and Conditions Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/cookie-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_policy.webp" alt>
+<span class="block ">Cookie Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/eula-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_eula-1.webp" alt>
+<span class="block ">EULA Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/acceptable-use-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/aup-icon.webp" alt>
+<span class="block ">Acceptable Use Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/disclaimer-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_disclaimer.webp" alt>
+<span class="block ">Disclaimer Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/refund-return-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_returns.webp" alt>
+<span class="block ">Return Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/shipping-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_shipping.webp" alt>
+<span class="block ">Shipping Policy Generator</span>
+</a>
+</div>
+</div>
+<hr class="mt-3 mb-5 border-gray-light">
+<h5 class="text-gray-medium uppercase leading-3 ">CONSENT MANAGEMENT SOLUTIONS</h5>
+<small class="text-gray-medium text-xs block mb-2">Compliant Consent Solutions</small>
+<div class="grid lg:grid-cols-2 gap-0 leading-list text-small font-bold">
+<div>
+<a href="/products/cookie-consent-manager/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_consent.webp" alt="nav_icon_cookie_consent">
+<span class="block -mt-4">Cookie Consent</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Obtain consent & manage cookie preferences</small>
+</div>
+<div>
+<a href="/products/cookie-scanner/" class="sub-menu-item font-bold">
+<img width="32" height="33" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_scanner.webp" alt>
+<span class="block -mt-4">Cookie Scanner</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Scan & classify your cookies</small>
+</div>
+<div>
+<a href="/products/cookie-banner-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_banner.webp" alt>
+<span class="block -mt-4">Cookie Banner</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Create a compliant cookie banner</small>
+</div>
+<div>
+<a href="https://termly.io/products/consent-management-platform/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/consent_management_icon.webp" alt>
+<span class="block -mt-4">Consent Management Platform</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Manage consent for cookies & data collection</small>
+</div>
+<div>
+<a href="https://termly.io/features/google-consent-mode/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/Layer-1.webp" alt="Layer 1">
+<span class="block -mt-4">Google Consent Mode</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Easily Set Up Google Consent Mode v2</small>
+</div>
+<div>
+<a href="https://termly.io/features/iab-tcf-2-2/" class="sub-menu-item font-bold">
+<img width="32" height="18" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/IAB-LOGO-32px.webp" alt="IAB-LOGO-32px">
+<span class="block -mt-4">IAB TCF 2.2</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Easily Set Up IAB TCF 2.2</small>
+</div>
+</div>
+</article>
+</section>
+<a href="https://termly.io/agencies/" class="nav-item">
+Agencies </a>
+<a href="https://termly.io/pricing/" class="nav-item">
+Pricing </a>
+<section class="mobile-dropdown">
+<div class="flex items-center">
+<a class="nav-item grow" href="https://termly.io/resources/">
+Resources
+</a>
+<button class="nav-item mobile-dropdown-show nav-chev " aria-label="Mobile Menu">
+<svg xmlns="http://www.w3.org/2000/svg" width="10.558" height="22" viewBox="0 0 10.558 22">
+<g transform="translate(-17.222 -1.223)">
+<path data-name="Path 87" d="M17.857,23.222a.644.644,0,0,1-.464-1.072l9-9.575a.543.543,0,0,0,0-.715l-9-9.575a.632.632,0,0,1,.929-.857l9,9.575a1.8,1.8,0,0,1,0,2.394l-9,9.611A.629.629,0,0,1,17.857,23.222Z" fill="#4469f3" />
+</g>
+</svg>
+</button>
+</div>
+<article class="subnav leading-list px-6 pt-1 hidden">
+<div class="mt-2">
+<a href="https://termly.io/resources/templates/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_templates-1.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+Templates </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Legal policy templates and how-to guides</small>
+</div>
+<a href="https://termly.io/resources/templates/privacy-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Privacy Policy Template </a>
+<a href="https://termly.io/resources/templates/terms-and-conditions-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Terms and Conditions Template </a>
+<a href="https://termly.io/resources/templates/cookie-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Cookie Policy Template </a>
+<a href="https://termly.io/resources/templates/eula/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+EULA Template </a>
+<a href="https://termly.io/resources/templates/impressum-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Impressum Template </a>
+<a href="https://termly.io/resources/templates/disclaimer-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Disclaimer Template </a>
+<a href="https://termly.io/resources/templates/return-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Return Policy Template </a>
+<div class="mt-2">
+<a href="#" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_agency.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+Need-based Solutions </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Compliance for various industries</small>
+</div>
+<a href="https://termly.io/i-am-a-website-owner/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Website Owners </a>
+<a href="https://termly.io/i-am-a-marketing-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Marketing Professionals </a>
+<a href="https://termly.io/i-am-a-compliance-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Compliance Professionals </a>
+<a href="https://termly.io/i-am-a-tech-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Tech Professionals </a>
+<div class="mt-2">
+<a href="https://support.termly.io/en/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/icon-docs.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+Documentation & Support </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Termly troubleshooting & documentation</small>
+</div>
+<div class="mt-2">
+<a href="https://termly.io/compliance-quiz/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_compliance-1.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+Compliance Quiz </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Answer a few questions to see if your business is compliant.</small>
+</div>
+<div class="mt-2">
+<a href="https://termly.io/resources/articles/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_articles.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+Articles </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Informational articles on privacy law compliance <br/> & best practices</small>
+</div>
+<div class="mt-2">
+<a href="https://termly.io/resources/articles/what-is-gdpr/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_gdpr.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="font-bold block -mt-4">
+What is GDPR </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Termly’s simple guide to the GDPR</small>
+</div>
+<div class="mt-2">
+<a href="https://termly.io/us-data-privacy-laws/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/usa-flag-circle.webp" loading="lazy" width="68" height="69" class="w-8 h-8 mr-2 shrink-0 object-contain" alt="usa-flag-circle" />
+<span class="font-bold block -mt-4">
+US Data Privacy Laws Tracker </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Stay up to date on all U.S. privacy laws.</small>
+</div>
+</article>
+</section>
+<a href="https://app.termly.io/dashboard?from=wp" class="nav-item">Sign In</a>
+</div>
+</nav>
+<nav id="nav" class="hidden relative z-10 lg:flex flex-grow text-darkblue justify-start w-full xl:w-7/12">
+<div class="dropdown">
+<a href="https://termly.io/products/" class="nav-item dropdown-link flex items-center">
+Products <svg xmlns="http://www.w3.org/2000/svg" width="8.987" height="6.179" viewBox="0 0 8.987 6.179" class="ml-2">
+<path data-name="Icon open-chevron-bottom" d="M1.685,0,0,1.685,4.494,6.179,8.987,1.685,7.3,0,4.494,2.809Z" fill="#272545" />
+</svg>
+</a>
+<div class="sub-menu text-gray-dark flex w-full lg:w-[42rem]" style="opacity: 0;">
+<div class="sub-menu-items w-full">
+<h5 class="text-gray-medium uppercase leading-3">POLICY GENERATORS</h5>
+<small class="text-gray-medium text-xs block mb-2">Attorney-crafted documents and policies</small>
+<div class="grid lg:grid-cols-2 gap-0 leading-list text-small font-bold">
+<div>
+<a href="/products/privacy-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_privacy.webp" alt>
+<span class="block ">Privacy Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/terms-and-conditions-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_terms.webp" alt>
+<span class="block ">Terms and Conditions Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/cookie-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_policy.webp" alt>
+<span class="block ">Cookie Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/eula-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_eula-1.webp" alt>
+<span class="block ">EULA Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/acceptable-use-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/aup-icon.webp" alt>
+<span class="block ">Acceptable Use Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/disclaimer-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_disclaimer.webp" alt>
+<span class="block ">Disclaimer Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/refund-return-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_returns.webp" alt>
+<span class="block ">Return Policy Generator</span>
+</a>
+</div>
+<div>
+<a href="/products/shipping-policy-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_shipping.webp" alt>
+<span class="block ">Shipping Policy Generator</span>
+</a>
+</div>
+</div>
+<hr class="mt-3 mb-5 border-gray-light">
+<h5 class="text-gray-medium uppercase leading-3 ">CONSENT MANAGEMENT SOLUTIONS</h5>
+<small class="text-gray-medium text-xs block mb-2">Compliant Consent Solutions</small>
+<div class="grid lg:grid-cols-2 gap-0 leading-list text-small font-bold">
+<div>
+<a href="/products/cookie-consent-manager/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_consent.webp" alt="nav_icon_cookie_consent">
+<span class="block -mt-4">Cookie Consent</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Obtain consent & manage cookie preferences</small>
+</div>
+<div>
+<a href="/products/cookie-scanner/" class="sub-menu-item font-bold">
+<img width="32" height="33" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_scanner.webp" alt>
+<span class="block -mt-4">Cookie Scanner</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Scan & classify your cookies</small>
+</div>
+<div>
+<a href="/products/cookie-banner-generator/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/nav_icon_cookie_banner.webp" alt>
+<span class="block -mt-4">Cookie Banner</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Create a compliant cookie banner</small>
+</div>
+<div>
+<a href="https://termly.io/products/consent-management-platform/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/consent_management_icon.webp" alt>
+<span class="block -mt-4">Consent Management Platform</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Manage consent for cookies & data collection</small>
+</div>
+<div>
+<a href="https://termly.io/features/google-consent-mode/" class="sub-menu-item font-bold">
+<img width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/Layer-1.webp" alt="Layer 1">
+<span class="block -mt-4">Google Consent Mode</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Easily Set Up Google Consent Mode v2</small>
+</div>
+<div>
+<a href="https://termly.io/features/iab-tcf-2-2/" class="sub-menu-item font-bold">
+<img width="32" height="18" class="w-8 h-8 mr-2 shrink-0 object-contain" src="https://termly.io/wp-content/uploads/IAB-LOGO-32px.webp" alt="IAB-LOGO-32px">
+<span class="block -mt-4">IAB TCF 2.2</span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Easily Set Up IAB TCF 2.2</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a href="https://termly.io/agencies/" class="nav-item ">
+Agencies </a>
+<a href="https://termly.io/pricing/" class="nav-item ">
+Pricing </a>
+<div class="dropdown">
+<a href="https://termly.io/resources/" class="nav-item dropdown-link flex items-center">
+Resources <svg xmlns="http://www.w3.org/2000/svg" width="8.987" height="6.179" viewBox="0 0 8.987 6.179" class="ml-2">
+<path data-name="Icon open-chevron-bottom" d="M1.685,0,0,1.685,4.494,6.179,8.987,1.685,7.3,0,4.494,2.809Z" fill="#272545" />
+</svg>
+</a>
+<div class="sub-menu text-gray-dark flex w-full lg:w-[48rem]" style="opacity: 0;">
+<div class="sub-menu-items w-full">
+<div class="grid grid-cols-2 gap-0 leading-list text-small font-bold">
+<div>
+<div>
+<a href="https://termly.io/resources/templates/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_templates-1.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+Templates </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Legal policy templates and how-to guides</small>
+</div>
+<a href="https://termly.io/resources/templates/privacy-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Privacy Policy Template </a>
+<a href="https://termly.io/resources/templates/terms-and-conditions-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Terms and Conditions Template </a>
+<a href="https://termly.io/resources/templates/cookie-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Cookie Policy Template </a>
+<a href="https://termly.io/resources/templates/eula/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+EULA Template </a>
+<a href="https://termly.io/resources/templates/impressum-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Impressum Template </a>
+<a href="https://termly.io/resources/templates/disclaimer-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Disclaimer Template </a>
+<a href="https://termly.io/resources/templates/return-policy-template/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Return Policy Template </a>
+<div>
+<a href="https://termly.io/resources/articles/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_articles.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+Articles </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Informational articles on privacy law compliance <br/> & best practices</small>
+</div>
+<div>
+<a href="https://termly.io/resources/articles/what-is-gdpr/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_gdpr.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+What is GDPR </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Termly’s simple guide to the GDPR</small>
+</div>
+</div>
+<div>
+<div>
+<a href="#" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_agency.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+Need-based Solutions </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Compliance for various industries</small>
+</div>
+<a href="https://termly.io/i-am-a-website-owner/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Website Owners </a>
+<a href="https://termly.io/i-am-a-marketing-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Marketing Professionals </a>
+<a href="https://termly.io/i-am-a-compliance-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Compliance Professionals </a>
+<a href="https://termly.io/i-am-a-tech-professional/" class="block w-full py-2 leading-4 ml-10 pl-4 border-l-2 border-lightblue hover:border-deepblue hover:text-deepblue transition-all text-smaller font-normal">
+Tech Professionals </a>
+<div>
+<a href="https://support.termly.io/en/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/icon-docs.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+Documentation & Support </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Termly troubleshooting & documentation</small>
+</div>
+<div>
+<a href="https://termly.io/compliance-quiz/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/nav_icon_compliance-1.webp" loading="lazy" width="32" height="32" class="w-8 h-8 mr-2 shrink-0 object-contain" alt />
+<span class="block -mt-4">
+Compliance Quiz </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Answer a few questions to see if your business is compliant.</small>
+</div>
+<div>
+<a href="https://termly.io/us-data-privacy-laws/" class="sub-menu-item leading-4">
+<img src="https://termly.io/wp-content/uploads/usa-flag-circle.webp" loading="lazy" width="68" height="69" class="w-8 h-8 mr-2 shrink-0 object-contain" alt="usa-flag-circle" />
+<span class="block -mt-4">
+US Data Privacy Laws Tracker </span>
+</a>
+<small class="text-xs block font-normal ml-10 -mt-5 leading-tight pointer-events-none mb-1">Stay up to date on all U.S. privacy laws.</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class="xl:w-2/12 hidden lg:flex justify-end items-center">
+<a href="https://app.termly.io/dashboard?from=wp" class="btn border border-transparent-light bg-white hover:bg-midblue hover:border-transparent-clear transition-colors mr-3">Sign In</a>
+<a href="https://app.termly.io/user/sign-up" class="btn-primary py-2 px-5 text-white shadow-med transition-colors">Try for free!</a>
+<button class="rounded-lg focus:outline-none focus:shadow-outline burger burger-tablet pr-0" aria-label="Mobile Menu">
+<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+<path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+</svg>
+</button>
+</div>
+</div>
+</section>
+</header>
+<section class="py-12 lg:py-20 pt-24 lg:pt-48 relative block none ">
+<div class=" container z-10 relative  ">
+<div class="flex flex-col lg:flex-row">
+<div class="lg:w-6/12 lg:pr-6">
+<div class="breadcrumb opacity-80 mb-3 text-smaller lg:text-small text-center lg:text-left"><span><span><a href="https://termly.io/">Home</a></span>  ›  <span><a href="https://termly.io/products/">Products</a></span>  ›  <span class="breadcrumb_last" aria-current="page">Privacy Policy Generator</span></span></div> <h1 class="lg:mb-6 leading-none text-center lg:text-left "><span class="text-gradient">Privacy Policy</span> Generator</h1>
+<div class="hidden  lg:hidden pt-4">
+<img fetchpriority="high" decoding="async" loading="eager" class="w-full h-auto replace " src="https://termly.io/wp-content/uploads/ppg_header.webp" alt="ppg_header" width="640" height="500" style="max-height: 530px;" />
+</div>
+<div class="flex flex-col lg:flex-col mb-8 lg:mb-0">
+<div class="text-center lg:text-left mb-6 lg:mb-0 mt-6 lg:mt-0">
+<p>Use our <strong>free privacy policy generator</strong> to create a privacy policy for your website, app, ecommerce store, SaaS, small business, or any other need. Comply with the GDPR, CCPA, PIPEDA, CalOPPA, and more!</p>
+<ul class="checklist checklist-inline"><li>GDPR</li><li>CCPA / CPRA</li><li>PIPEDA</li><li>CalOPPA</li></ul>
+</div>
+<div class="w-full pt-6 lg:pt-8 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-start">
+<a href="https://app.termly.io/builder/documents/new?template_id=12" class="btn-primary text-normal lg:text-articleheader font-bold w-fit block btn-601327197">Generate Privacy Policy</a>
+</div>
+</div>
+</div>
+<div class="lg:w-6/12 lg:pl-12 anim">
+<div class="hidden lg:block">
+<img fetchpriority="high" decoding="async" loading="eager" class="w-full h-auto replace " src="https://termly.io/wp-content/uploads/ppg_header.webp" alt="ppg_header" width="640" height="500" style="max-height: 530px;" />
+</div>
+<img decoding="async" src="https://termly.io/wp-content/uploads/trust-4-9.svg" width="307" height="39" loading="lazy" alt="trust 4 -9" class="mx-auto mt-3">
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block background-1 ">
+<div class=" container z-10 relative  ">
+<div class="flex flex-col lg:flex-row-reverse px-2">
+<div class="lg:w-6/12 lg:pl-8 text-center mb-12 lg:text-left lg:mb-0">
+<h2>Free Privacy Policy Generator <span class="text-gradient">Features</span></h2>
+<div class="mt-4">
+<div class="mt-4">
+<p>Generate a <strong>free privacy policy</strong> that’s comprehensive and legally compliant using one of the best privacy policy generators of 2023.</p>
+</div>
+</div>
+<div class="w-full pt-4 lg:pt-6 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-start">
+<a href="https://app.termly.io/builder/documents/new?template_id=12" class="btn-primary text-normal lg:text-articleheader font-bold w-fit block btn-872421213">Generate Privacy Policy</a>
+</div>
+<div class="block border-l-2 border-green pl-4 max-w-sm mt-10 text-left">
+<p class="text-small">&#8220;Creating a privacy policy was very easy with the guided questions and available templates. Would recommend.&#8221;</p>
+<div class="flex items-center">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/jason.png" type="image/webp">
+<source srcset="295" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/jason.png" class="rounded-full overflow-hidden shadow-lg w-12 h-12 mr-2" alt="Jason" width="72" height="72" loading="lazy">
+</picture>
+<h6 class="text-small">
+Jason
+<a href="https://www.trustpilot.com/users/62ccb89afdb0270012d81910" target="_blank" class="flex items-center text-panel opacity-80 leading-none transition-all hover:opacity-100">View Review</a>
+</h6>
+</div>
+</div>
+</div>
+<div class="lg:w-6/12 lg:pr-8">
+<div class="mb-8 bg-white rounded-md shadow-gray p-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<img decoding="async" loading="lazy" class="w-9 h-9 mr-3 mb-2 lg:mb-0" src="https://termly.io/wp-content/uploads/icon-build.svg" alt="Built for Every Business" width="0" height="0" />
+<h4>Built for Every Business</h4>
+</div>
+<ul class="checklist"><li>Website</li><li>Mobile App</li><li>Ecommerce site</li><li>SaaS</li></ul>
+</div>
+<div class="mb-8 bg-white rounded-md shadow-gray p-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<img decoding="async" loading="lazy" class="w-9 h-9 mr-3 mb-2 lg:mb-0" src="https://termly.io/wp-content/uploads/icon-privacy.svg" alt="Complies with Privacy Laws" width="0" height="0" />
+<h4>Complies with Privacy Laws</h4>
+</div>
+<ul class="checklist"><li>GDPR</li><li>CCPA/CPRA and CalOPPA</li><li>UK GDPR</li><li>PIPEDA</li></ul>
+</div>
+<div class="mb-8 bg-white rounded-md shadow-gray p-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<img decoding="async" loading="lazy" class="w-9 h-9 mr-3 mb-2 lg:mb-0" src="https://termly.io/wp-content/uploads/icon-buy-click.svg" alt="Easy to Use" width="0" height="0" />
+<h4>Easy to Use</h4>
+</div>
+<ul class="checklist"><li>Intuitive builder</li><li>Customization tools</li><li>Automatic updates</li><li>Embed options</li></ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block none ">
+<div class=" container z-10 relative  ">
+<div class="flex flex-col pb-14 text-center">
+<h2 class="mb-6 w-11/12 mx-auto">How To Use Our Privacy Policy Generator</h2>
+<p>Just follow these simple steps to get a custom, compliant privacy policy<br class="hidden lg:block"> for your business, software, site, or app:</p>
+</div>
+<div class="relative z-10 flex flex-col lg:flex-row anim anim-slide-in-up">
+<div class="w-full lg:w-6/12 flex flex-col lg:flex-row features">
+<div class="w-full flex-col flex relative overflow-x-auto lg:overflow-hidden snap-x snap-mandatory mobile-overflow anim anim-slide-in-up">
+<div class="flex w-full px-6 snap-align-start active line-after-vertical" data-switch="false" data-feature="how-0" data-delay="0">
+<div class="bg-white flex-shrink-0 w-16 h-16 lg:w-24 lg:h-24 mr-6 shadow-gray rounded-full flex items-center justify-center feature-accordion-icon">
+<img decoding="async" loading="lazy" class="h-11" src="https://termly.io/wp-content/uploads/search.svg" alt="Icon Search" width="44" height="44" />
+</div>
+<div class="py-4 lg:pt-9 w-full">
+<h4 class="text-articleheader mb-4">Tell us a little about your business</h4>
+<div class><p>Create your legal policy in a <strong>matter of minutes</strong> by answering a few questions in our privacy policy builder.</p>
+</div>
+</div>
+</div>
+<div class="flex w-full px-6 snap-align-start line-after-vertical" data-switch="false" data-feature="how-1" data-delay="0">
+<div class="bg-white flex-shrink-0 w-16 h-16 lg:w-24 lg:h-24 mr-6 shadow-gray rounded-full flex items-center justify-center feature-accordion-icon">
+<img decoding="async" loading="lazy" class="h-11" src="https://termly.io/wp-content/uploads/icon-customizable.svg" alt="Easy to Customize" width="44" height="44" />
+</div>
+<div class="py-4 lg:pt-9 w-full">
+<h4 class="text-articleheader mb-4">Publish your new privacy policy</h4>
+<div class><p>When you’re ready to place your privacy policy on your website, we’ll give you a few options. Whether you use a content management system like WordPress, manage your website yourself, or use a professional service, we make it easy.</p>
+</div>
+</div>
+</div>
+<div class="flex w-full px-6 snap-align-start " data-switch="false" data-feature="how-2" data-delay="0">
+<div class="bg-white flex-shrink-0 w-16 h-16 lg:w-24 lg:h-24 mr-6 shadow-gray rounded-full flex items-center justify-center feature-accordion-icon">
+<img decoding="async" loading="lazy" class="h-11" src="https://termly.io/wp-content/uploads/nav_icon_eula.svg" alt="EULA Generator" width="44" height="44" />
+</div>
+<div class="py-4 lg:pt-9 w-full">
+<h4 class="text-articleheader mb-4">Add your policy to your website</h4>
+<div class><p>Finally, when it comes to staying compliant, we have you covered. Our legal team regularly reviews and updates the privacy policy generator as laws change. When new laws are passed — like some recent US state laws — we’ll also review and update as needed. You’ll be in the loop to make sure your policy stays compliant.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:w-6/12 lg:pl-12 feature-images pt-10 lg:pt-0 lg:-top-12">
+<img decoding="async" loading="lazy" class="w-full feature-image" src="https://termly.io/wp-content/uploads/ppg_process_1_v4.svg" alt="ppg_process_1_v4" width="576" height="435" />
+<div class="flex flex-col lg:flex-row tip border-green relative md:-mt-20 shadow-small lg:-right-0 lg:w-tip w-11/12 mx-auto p-3 lg:p-1 lg:mx-auto">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/yasmeen.jpg" type="image/webp">
+<source srcset="https://termly.io/wp-content/uploads/ppg_process_1_v2.svg" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/ppg_process_1_v2.svg" class="w-20 lg:w-24 rounded-full mr-3 -mt-12 mb-2 lg:mt-0 lg:mb-0" width="96" height="96" loading="lazy" alt="Privacy Policy">
+</picture>
+<p class="text-smaller leading-snug lg:pr-4 text-center lg:text-left"><i>We guide you through the process of generating a privacy policy by asking some simple questions about your business &#8211; <span class="text-deepblue">Yasmeen, Privacy Engineer @ Termly</span></i></p>
+</div>
+</div>
+</div>
+<div class="w-full pt-6 lg:pt-8 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-center">
+<a href="https://app.termly.io/builder/documents/new?template_id=12" class="btn-primary text-normal lg:text-articleheader font-bold w-fit block btn-331802332">Generate Privacy Policy</a>
+</div>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block bg-lighterblue ">
+<div class=" container z-10 relative  ">
+<h4 class="text-center lg:text-center mb-4">Trusted by over <span class="text-gradient">1,000,000</span> businesses worldwide</h4>
+<div class="flex items-start justify-center flex-wrap mt-14">
+<div class="lg:px-8 lg:w-1/3 mb-6 lg:mb-0">
+<p class="text-smallmid">&#8220;It is so easy to use. I don&#039;t need to understand the full legal details of everything. It takes you step by step through the whole process.&#8221;</p>
+<div class="flex items-center justify-center lg:justify-start">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/steven-r.webp" type="image/webp">
+<source srcset="https://termly.io/wp-content/uploads/steven-r.jpg" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/steven-r.jpg" class="shadow-lg bg-white w-12 h-12 mr-2 rounded-full overflow-hidden" alt="steven-r" width="72" height="72" loading="lazy">
+</picture>
+<h6 class="text-small">
+Steven <a href="https://www.g2.com/products/termly-io/reviews/termly-io-review-7036926#survey-response-7036926" target="_blank" class="flex items-center text-panel opacity-80 leading-none transition-all hover:opacity-100">View review</a>
+</h6>
+</div>
+</div>
+<div class="lg:px-8 lg:w-1/3 mb-6 lg:mb-0">
+<p class="text-smallmid">&#8220;Termly is an amazing service and easy to use and update as business grows.&#8221;</p>
+<div class="flex items-center justify-center lg:justify-start">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/daria-k.webp" type="image/webp">
+<source srcset="https://termly.io/wp-content/uploads/daria-k.jpeg" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/daria-k.jpeg" class="shadow-lg bg-white w-12 h-12 mr-2 rounded-full overflow-hidden" alt="daria-k" width="72" height="72" loading="lazy">
+</picture>
+<h6 class="text-small">
+Daria <a href="https://www.g2.com/products/termly-io/reviews/termly-io-review-7718274" target="_blank" class="flex items-center text-panel opacity-80 leading-none transition-all hover:opacity-100">View review</a>
+</h6>
+</div>
+</div>
+<div class="lg:px-8 lg:w-1/3 mb-6 lg:mb-0">
+<p class="text-smallmid">&#8220;I was impressed by how Termly made it easy to create a privacy policy that covered multiple privacy laws (in my case UK GDPR, CCPA and CDPA) into one coherent professional-looking policy.&#8221;</p>
+<div class="flex items-center justify-center lg:justify-start">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/carl.webp" type="image/webp">
+<source srcset="https://termly.io/wp-content/uploads/carl.jpg" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/carl.jpg" class="shadow-lg bg-white w-12 h-12 mr-2 rounded-full overflow-hidden" alt="carl" width="72" height="72" loading="lazy">
+</picture>
+<h6 class="text-small">
+Carl <a href="https://www.trustpilot.com/users/644d456572c55b00131807a4" target="_blank" class="flex items-center text-panel opacity-80 leading-none transition-all hover:opacity-100">View review</a>
+</h6>
+</div>
+</div>
+</div>
+<div class="brands w-full flex relative overflow-x-auto lg:overflow-hidden snap-x snap-mandatory mt-14 lg:mt-20 items-center lg:justify-evenly mobile-overflow">
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/deloitte_logo.svg" alt="Brand Logo Deloitte" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_hilton.svg" alt="Brand Logo Hilton" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_toyota-1.svg" alt="Brand Logo Toyota" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_eggland2.svg" alt="Brand Logo Eggland&#8217;s best" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_hertz_2.svg" alt="Brand Logo Hertz" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_lawinsider2.svg" alt="Brand Logo Law Insider" width="0" height="0" />
+<img decoding="async" loading="lazy" class="flex-none  w-auto snap-center invert opacity-30 h-12 max-w-[190px]" src="https://termly.io/wp-content/uploads/brand_honda.svg" alt="Brand Logo Honda" width="0" height="0" />
+</div>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block none ">
+<div class=" container z-10 relative  ">
+<div class="flex flex-col px-2">
+<div class="w-full text-center mb-12 lg:mb-0">
+<h2 class="mb-8 lg:mb-12">Create a <span class="text-gradient">Free Privacy Policy</span></h2>
+</div>
+<div class="w-full">
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-websites.svg" alt="Icon Privacy" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for Websites / Blogs</h4>
+<p>Most websites and blogs need privacy policies without even realizing it. Stay on the right side of the law by making a custom privacy policy for your site. You can use our products with various platforms like WordPress, Godaddy, Weebly, and more.</p>
+<p><strong>Websites and Blogs often process visitor’s personal data, including:</strong></p>
+<ul class="tag-list"><li>Newsletter sign-ups</li><li>Contact us forms</li><li>Customer service communications</li><li>Cookies or other tracking technologies used for analytics, performance, and more</li></ul>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-mobile.svg" alt="Icon Privacy Mobile" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for Mobile Apps</h4>
+<p>Even if you are not subject to laws like the GDPR and CCPA, some marketplaces — including Google Play and Apple’s App Store — require your app to have a privacy policy. Avoid getting your app suspended or removed by reviewing app stores’ guidelines and publishing a privacy policy.</p>
+<p>Some third-party services and tools, like Google Analytics and Google Maps, require that you have a privacy policy in order to use the service. Create the perfect app privacy policy in minutes with our free privacy policy generator.</p>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-ecommerce.svg" alt="Privacy Policy for E-commerce Stores" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for E-commerce Stores</h4>
+<p>Ecommerce businesses often use consumer’s personal data, including:</p>
+<ul class="tag-list"><li>Payment Information</li><li>Contact details</li><li>Customer names</li><li>Customer addresses</li><li>Cookies or other tracking technologies used for customer shopping carts, analytics, and more</li></ul>
+<div class="mt-6 mb-0">
+<a href="javascript:;" onclick="openModal(event,this)" data-modal="feature-learn2">Learn more</a>
+<dialog id="feature-learn2">
+<h4 class="mb-6">Privacy Policy for E-commerce Stores</h4>
+<p>Ecommerce businesses often use consumer’s personal data, including:</p>
+<ul class="tag-list"><li>Payment Information</li><li>Contact details</li><li>Customer names</li><li>Customer addresses</li><li>Cookies or other tracking technologies used for customer shopping carts, analytics, and more</li></ul>
+<p>Sector-specific privacy laws (like GLBA, and FERPA), broader consumer privacy laws (like CCPA and GDPR), privacy laws governing the use of certain types of data (like COPPA), and organizations like the FTC regulate ecommerce businesses and their use of personal data. To comply with rules and regulations worldwide, build a free ecommerce privacy policy for your site. <strong>Here are some questions to keep in mind as you write your ecommerce privacy policy:</strong></p>
+<ul class="list-normal">
+<li><strong>Describe how you might share your customer’s information.</strong><br/>
+Do you use third-party processing for payments? Do you share the customer’s information with any other third parties, like Google Analytics, Google AdSense, or delivery services?</li>
+<li><strong>How does your website use cookies?</strong><br/>
+Cookies frequently collect data elements that are considered personal information under several privacy laws. Review all the ways you might be using cookies when drafting your privacy policy.</li>
+</ul>
+<form class="dialog-close" method="dialog"><button><img decoding="async" loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/dialog-close.svg" alt="Close Dialog" /></button></form>
+</dialog>
+</div>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-tools.svg" alt="Privacy Tools" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for Third-Party Tools</h4>
+<p>Even if you don’t think you need a privacy policy, some third-party services, like AdSense and Facebook Marketplace, require you to submit a compliant privacy policy. Our free privacy policy generator can help you create a personalized policy to comply with your third-party tool requirements.</p>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-saas.svg" alt="Privacy Saas" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for SaaS Apps</h4>
+<p>Your subscription-based service needs a privacy policy to account for the collection of subscriber details. Email addresses, payment information, and more are considered personal data under privacy laws. Keep your SaaS app in the clear with a free privacy policy.</p>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row pt-6 pb-6 lg:pt-12 lg:pb-12 pr-6 pl-6 lg:pl-0 mb-6 lg:items-center justify-start lg:justify-center bg-white rounded-md shadow-gray p-6">
+<div class="lg:w-2/12 flex items-center lg:justify-center mb-3 lg:mb-0 text-center">
+<img decoding="async" loading="lazy" class="w-14 lg:w-24 h-14 lg:h-24" src="https://termly.io/wp-content/uploads/icon-privacy-ads.svg" alt="Privacy Policy for Facebook Ads and Pages" width="0" height="0" />
+</div>
+<div class="lg:w-10/12">
+<h4 class="mb-4">Privacy Policy for Facebook Ads and Pages</h4>
+<p>Facebook requires apps on its platform to publish a privacy policy. You’ll need to have a privacy policy link ready before your app can go live. Facebook’s Platform Terms lists the requirements you’ll need to meet. Your privacy policy will also need to comply with any relevant laws.</p>
+</div>
+</div>
+</div>
+<div class="w-full pt-6 lg:pt-8 flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-center">
+<a href="https://app.termly.io/builder/documents/new?template_id=12" class="btn-primary text-normal lg:text-articleheader font-bold w-fit block btn-1306036477">Generate Privacy Policy</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-10 lg:py-16  relative block none ">
+<div class="py-12 px-4 lg:p-20 container z-10 relative  bg-gradient-light rounded-3xl ">
+<div class="flex flex-col px-2">
+<div class="w-full text-center mb-0">
+<h2>Easily Comply with Laws like <br class="hidden lg:block"> the <span class="text-gradient">GDPR</span>, <span class="text-gradient">CCPA</span>, and <span class="text-gradient">PIPEDA</span></h2>
+<div class="mt-4">
+<div class="text-center lg:w-9/12  mx-auto">
+<p class="max-w-4xl mx-auto text-small md:text-medium">Based on international laws and modern business practices, you need a privacy policy if you collect any personal information or personal data from users. Personal data includes more than just names and addresses — it can include cookie data, IP addresses, email addresses, and more.</p>
+</div>
+</div>
+</div>
+<div class="w-full grid lg:grid-cols-2 gap-6 mt-12">
+<div class="lg:col-span-2 py-2 lg:py-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<h4>Personal Data</h4>
+</div>
+<p>Personal data is any information that can be used to identify an individual. Personal data includes names, emails, phone numbers, addresses, geolocation, IP address, cookie data, and so much more.</p>
+</div>
+<div class=" py-2 lg:py-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<h4>Personal Data &amp; the Law</h4>
+</div>
+<p>Personal data is heavily protected by laws like the GDPR, CCPA, PIPEDA, CalOPPA, and others. The leading method of protecting personal data is requiring websites and businesses to be honest about how they collect, share, and use personal data. Privacy law violations can result in serious fines.</p>
+</div>
+<div class=" py-2 lg:py-6">
+<div class="flex flex-col lg:flex-row mb-4">
+<h4>Personal Data &amp; Your Privacy Policy</h4>
+</div>
+<p>If you collect personal data, you need a privacy policy. Comply with laws, build loyalty with customers, and meet online business standards by providing a comprehensive privacy policy to your users. Our privacy policy generator walks you through the necessary questions to create a customized privacy policy.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-0 mt-12">
+<div class="bg-white rounded-md p-6 shadow-blue flex flex-col text-center">
+<div class="h-32 mb-3 flex items-center justify-center">
+<img decoding="async" loading="lazy" class="h-28 w-28 mb-3" src="https://termly.io/wp-content/uploads/icon-gdpr-2.svg" alt="GDRP" width="0" height="0" />
+</div>
+<h4 class="mb-2">GDPR</h4>
+<p class="text-small leading-5">EU General Data Protection Regulation</p>
+</div>
+<div class="bg-white rounded-md p-6 shadow-blue flex flex-col text-center">
+<div class="h-32 mb-3 flex items-center justify-center">
+<img decoding="async" loading="lazy" class="h-28 w-28 mb-3" src="https://termly.io/wp-content/uploads/icon-ccpa.svg" alt="CCPA" width="0" height="0" />
+</div>
+<h4 class="mb-2">CCPA</h4>
+<p class="text-small leading-5">California Consumer Privacy Act</p>
+</div>
+<div class="bg-white rounded-md p-6 shadow-blue flex flex-col text-center">
+<div class="h-32 mb-3 flex items-center justify-center">
+<img decoding="async" loading="lazy" class="h-28 w-28 mb-3" src="https://termly.io/wp-content/uploads/icon-caloppa.svg" alt="CalOPPA" width="0" height="0" />
+</div>
+<h4 class="mb-2">CalOPPA</h4>
+<p class="text-small leading-5">California Online Privacy Protection Act</p>
+</div>
+<div class="bg-white rounded-md p-6 shadow-blue flex flex-col text-center">
+<div class="h-32 mb-3 flex items-center justify-center">
+<img decoding="async" loading="lazy" class="h-28 w-28 mb-3" src="https://termly.io/wp-content/uploads/icon-pipeda.svg" alt="PIPEDA" width="0" height="0" />
+</div>
+<h4 class="mb-2">PIPEDA</h4>
+<p class="text-small leading-5">Canada Personal Information Protection and Electronic Documents Act</p>
+</div>
+</div>
+</div>
+<div>
+<div class="flex flex-col lg:flex-row tip border-green relative mt-10 shadow-small lg:-right-0 lg:w-tip w-11/12 mx-auto p-3 lg:p-1 lg:mx-auto">
+<picture class="shrink-0">
+<source srcset="https://termly.io/wp-content/uploads/leila.webp" type="image/webp">
+<source srcset="https://termly.io/wp-content/uploads/leila.jpg" type="image/jpeg">
+<img decoding="async" src="https://termly.io/wp-content/uploads/leila.jpg" class="w-20 lg:w-24 rounded-full mr-3 -mt-12 mb-2 lg:mt-0 lg:mb-0" width="96" height="96" loading="lazy" alt="Leila">
+</picture>
+<p class="text-smaller leading-snug lg:pr-4 text-center lg:text-left"><i>A comprehensive and transparent privacy policy is required to comply with most of the major data privacy laws worldwide &#8211; <span class="text-deepblue">Leila, Privacy Compliance Specialist @ Termly</span></i></p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block bg-lighterblue ">
+<div class=" container z-10 relative  ">
+<div class="text-center lg:w-9/12  mx-auto">
+<h2 class="mb-3">Privacy Policy Generator <span class="text-gradient">FAQ</span></h2>
+<p class="max-w-4xl mx-auto text-small md:text-medium">
+We answer the most frequently asked questions about our free privacy policy generator. </p>
+</div>
+<div class="bg-white faqs rounded-md py-4 px-5 lg:py-8 lg:px-10 shadow-gray mx-auto max-w-3xl mt-8 anim anim-slide-in-up">
+<div class="accordion ">
+<section class="active" id="is-the-privacy-policy-generator-really-free">
+<div class="title">
+<h4>Is the Privacy Policy Generator really free?</h4>
+</div>
+<article class="hidden">
+<p>Yes, Termly offers one legal policy for free. No credit card is required to create, publish, and post your privacy policy once it’s been generated. However, if you need more than one legal policy or additional compliance features, you can choose to upgrade to a <a href="https://termly.io/pricing/">paid plan</a> and gain full access to our entire suite of compliance tools.</p>
+</article>
+</section>
+<section class id="when-was-the-privacy-policy-generator-last-updated">
+<div class="title">
+<h4>When was the Privacy Policy Generator last updated?</h4>
+</div>
+<article class="hidden">
+<p>We update our privacy policy generator on a regular basis to improve performance and comply with the latest data privacy laws.</p>
+<p><strong>Here are the latest updates to our privacy policy generator:</strong></p>
+<p id="h_200d4b7c40"><strong>March 28, 2024</strong></p>
+<ul>
+<li><strong>New Section:</strong> Marketing and Promotional Communications
+<ul>
+<li><strong>Purpose:</strong> Legal</li>
+<li><strong>Summary:</strong> Customers can include details about sending SMS text messages to satisfy regulatory requirements of the Telephone Consumer Protection Act (TCPA).</li>
+<li><strong>Impact:</strong> A new “SMS TEXT MESSAGING” section will include information on SMS message frequency, how to opt out, message and data rates, and support details.</li>
+</ul>
+</li>
+</ul>
+<p id="h_c52b3dd92b"><strong>March 14, 2024</strong></p>
+<ul>
+<li><strong>New Section:</strong> Global Privacy Control
+<ul>
+<li><strong>Purpose:</strong> Legal</li>
+<li><strong>Summary:</strong> Customers can specify that they have Global Privacy Control (GPC) enabled on their website.</li>
+<li><strong>Impact:</strong> Under “California Residents,” in the “DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS” section, it will explain that you will honor opt-out preferences if users enact the GPC opt-out signal on their browser.</li>
+</ul>
+</li>
+</ul>
+<p>View all updates in our <a href="https://support.termly.io/en/articles/7904716-privacy-policy-generator-release-notes">Privacy Policy Generator Update Log</a></p>
+</article>
+</section>
+<section class id="what-is-a-privacy-policy">
+<div class="title">
+<h4>What is a privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>A privacy policy is a legal document that explains how a company or website collects, uses, and shares personal information. Privacy policies should outline what personal information is collected, how the information is used, whether the information is shared with third parties, what rights users have over their data, and more.</p>
+</article>
+</section>
+<section class id="do-i-need-a-privacy-policy">
+<div class="title">
+<h4>Do I need a privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>If you collect personal data, you need a privacy policy. There are multiple laws that require privacy policies, as well as service providers that demand their users have privacy policies. For example, many Google services require you to have a privacy policy.</p>
+<p>Additionally, today’s consumers are more aware than ever when it comes to data privacy. Stand out from your competitors by publishing a clear, detailed privacy policy. You can reassure your users that their personal information is safe with your website, app, or company.</p>
+</article>
+</section>
+<section class id="which-laws-should-i-be-aware-of-when-generating-my-privacy-policy">
+<div class="title">
+<h4>Which laws should I be aware of when generating my privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>When creating your privacy policy, you should consider several privacy laws — including, but not limited to, the GDPR, CCPA, CalOPPA, and PIPEDA. Depending on your type of business, you may also need to review any relevant industry-specific laws or laws about use of specific types of data.</p>
+<p>If you’re not familiar with these data privacy laws or how they might apply to you, don’t worry. Our privacy policy generator can help walk you through relevant questions.</p>
+</article>
+</section>
+<section class id="can-i-copy-someone-elses-privacy-policy">
+<div class="title">
+<h4>Can I copy someone else&#8217;s privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>No, you can’t copy someone else’s privacy policy. Doing so will put your business or website at legal risk. Privacy policies are protected by copyright, so copying someone else’s policy is a legal violation. More importantly, your privacy policy needs to be tailored to your website in order to comply with data privacy laws and give users accurate information.</p>
+<p>In addition, you cannot copy and paste a privacy policy. Using another company’s privacy policy without permission is (copyright infringement), and illegal. Your privacy policy needs to be specific to your business, and explain how your website or app collects (user) data.</p>
+</article>
+</section>
+<section class id="what-should-my-privacy-policy-include">
+<div class="title">
+<h4>What should my privacy policy include?</h4>
+</div>
+<article class="hidden">
+<p>You&#8217;ll need to keep the following questions in mind when creating your policy:</p>
+<ul class="list-normal">
+<li>What types of data do you collect? Email addresses, contact information, and payment information are commonly collected. Be sure to evaluate all of the data you collect, whether that is for marketing purposes, newsletters, order information, and more.</li>
+<li>Why do you collect the data? Are you collecting any data you don’t need? Describing the purpose for data collection is a critical part of your privacy policy.</li>
+<li>Where and how do you store collected data? Some data privacy laws limit how long you can keep personal information. You’ll also want to consider the security of your data storage.</li>
+</ul>
+<p>Our privacy policy generator walks you through the steps and ensures you don&#8217;t forget anything when creating a privacy policy.</p>
+</article>
+</section>
+<section class id="where-should-i-put-my-privacy-policy">
+<div class="title">
+<h4>Where should I put my privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>Put your privacy policy in easy-to-find areas on your website. Some common places to put a privacy policy include:</p>
+<ul class="list-normal">
+<li>Website footer</li>
+<li>Main menu</li>
+<li>Checkout page</li>
+<li>Sign-up page</li>
+<li>Within other legal policies</li>
+</ul>
+<p>You should put your policy in multiple of the above locations. Linking your privacy policy around your site ensures users can find it, and that you stay compliant with privacy laws. Our privacy policy generator offers multiple embed options to help you easily add a policy to your website.</p>
+</article>
+</section>
+<section class id="do-i-need-more-than-a-privacy-policy">
+<div class="title">
+<h4>Do I need more than a privacy policy?</h4>
+</div>
+<article class="hidden">
+<p>Some websites and businesses do need more than just a privacy policy. If you need to comply with laws like the GDPR, you may also need to look into cookie consent. Depending on the type of website or business you have, you may also need other legal agreements. For example, websites that sell products may need a return policy and a shipping policy.</p>
+<p>Some legal agreements, like Terms and Conditions, can help protect your business. Terms and Conditions, also known as Terms of Service or Terms of Use, are an agreement between the website and the users. You can use this agreement to specify the rules for using your website or describe user behavior that is not allowed.</p>
+</article>
+</section>
+</div>
+</div>
+</div>
+</section>
+<script type="application/ld+json" class="faq-schema-graph"> {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                                    {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#is-the-privacy-policy-generator-really-free",
+                            "position": 1,
+                            "url": "https://termly.io/products/privacy-policy-generator/#is-the-privacy-policy-generator-really-free",
+                            "name": "Is the Privacy Policy Generator really free?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, Termly offers one legal policy for free. No credit card is required to create, publish, and post your privacy policy once it’s been generated. However, if you need more than one legal policy or additional compliance features, you can choose to upgrade to a paid plan and gain full access to our entire suite of compliance tools.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#when-was-the-privacy-policy-generator-last-updated",
+                            "position": 2,
+                            "url": "https://termly.io/products/privacy-policy-generator/#when-was-the-privacy-policy-generator-last-updated",
+                            "name": "When was the Privacy Policy Generator last updated?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We update our privacy policy generator on a regular basis to improve performance and comply with the latest data privacy laws. Here are the latest updates to our privacy policy generator: March 28, 2024 • New Section: Marketing and Promotional Communications • Purpose: Legal • Summary: Customers can include details about sending SMS text messages to satisfy regulatory requirements of the Telephone Consumer Protection Act (TCPA). • Impact: A new “SMS TEXT MESSAGING” section will include information on SMS message frequency, how to opt out, message and data rates, and support details. March 14, 2024 • New Section: Global Privacy Control • Purpose: Legal • Summary: Customers can specify that they have Global Privacy Control (GPC) enabled on their website. • Impact: Under “California Residents,” in the “DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS” section, it will explain that you will honor opt-out preferences if users enact the GPC opt-out signal on their browser. View all updates in our Privacy Policy Generator Update Log",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#what-is-a-privacy-policy",
+                            "position": 3,
+                            "url": "https://termly.io/products/privacy-policy-generator/#what-is-a-privacy-policy",
+                            "name": "What is a privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "A privacy policy is a legal document that explains how a company or website collects, uses, and shares personal information. Privacy policies should outline what personal information is collected, how the information is used, whether the information is shared with third parties, what rights users have over their data, and more.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#do-i-need-a-privacy-policy",
+                            "position": 4,
+                            "url": "https://termly.io/products/privacy-policy-generator/#do-i-need-a-privacy-policy",
+                            "name": "Do I need a privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "If you collect personal data, you need a privacy policy. There are multiple laws that require privacy policies, as well as service providers that demand their users have privacy policies. For example, many Google services require you to have a privacy policy. Additionally, today’s consumers are more aware than ever when it comes to data privacy. Stand out from your competitors by publishing a clear, detailed privacy policy. You can reassure your users that their personal information is safe with your website, app, or company.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#which-laws-should-i-be-aware-of-when-generating-my-privacy-policy",
+                            "position": 5,
+                            "url": "https://termly.io/products/privacy-policy-generator/#which-laws-should-i-be-aware-of-when-generating-my-privacy-policy",
+                            "name": "Which laws should I be aware of when generating my privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "When creating your privacy policy, you should consider several privacy laws — including, but not limited to, the GDPR, CCPA, CalOPPA, and PIPEDA. Depending on your type of business, you may also need to review any relevant industry-specific laws or laws about use of specific types of data. If you’re not familiar with these data privacy laws or how they might apply to you, don’t worry. Our privacy policy generator can help walk you through relevant questions.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#can-i-copy-someone-elses-privacy-policy",
+                            "position": 6,
+                            "url": "https://termly.io/products/privacy-policy-generator/#can-i-copy-someone-elses-privacy-policy",
+                            "name": "Can I copy someone else's privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "No, you can’t copy someone else’s privacy policy. Doing so will put your business or website at legal risk. Privacy policies are protected by copyright, so copying someone else’s policy is a legal violation. More importantly, your privacy policy needs to be tailored to your website in order to comply with data privacy laws and give users accurate information. In addition, you cannot copy and paste a privacy policy. Using another company’s privacy policy without permission is (copyright infringement), and illegal. Your privacy policy needs to be specific to your business, and explain how your website or app collects (user) data.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#what-should-my-privacy-policy-include",
+                            "position": 7,
+                            "url": "https://termly.io/products/privacy-policy-generator/#what-should-my-privacy-policy-include",
+                            "name": "What should my privacy policy include?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "You&#8217;ll need to keep the following questions in mind when creating your policy: • What types of data do you collect? Email addresses, contact information, and payment information are commonly collected. Be sure to evaluate all of the data you collect, whether that is for marketing purposes, newsletters, order information, and more. • Why do you collect the data? Are you collecting any data you don’t need? Describing the purpose for data collection is a critical part of your privacy policy. • Where and how do you store collected data? Some data privacy laws limit how long you can keep personal information. You’ll also want to consider the security of your data storage. Our privacy policy generator walks you through the steps and ensures you don&#8217;t forget anything when creating a privacy policy.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#where-should-i-put-my-privacy-policy",
+                            "position": 8,
+                            "url": "https://termly.io/products/privacy-policy-generator/#where-should-i-put-my-privacy-policy",
+                            "name": "Where should I put my privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Put your privacy policy in easy-to-find areas on your website. Some common places to put a privacy policy include: • Website footer • Main menu • Checkout page • Sign-up page • Within other legal policies You should put your policy in multiple of the above locations. Linking your privacy policy around your site ensures users can find it, and that you stay compliant with privacy laws. Our privacy policy generator offers multiple embed options to help you easily add a policy to your website.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        },                                            {
+                            "@type": "Question",
+                            "@id": "https://termly.io/products/privacy-policy-generator/#do-i-need-more-than-a-privacy-policy",
+                            "position": 9,
+                            "url": "https://termly.io/products/privacy-policy-generator/#do-i-need-more-than-a-privacy-policy",
+                            "name": "Do I need more than a privacy policy?",
+                            "answerCount": 1,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Some websites and businesses do need more than just a privacy policy. If you need to comply with laws like the GDPR, you may also need to look into cookie consent. Depending on the type of website or business you have, you may also need other legal agreements. For example, websites that sell products may need a return policy and a shipping policy. Some legal agreements, like Terms and Conditions, can help protect your business. Terms and Conditions, also known as Terms of Service or Terms of Use, are an agreement between the website and the users. You can use this agreement to specify the rules for using your website or describe user behavior that is not allowed.",
+                                "inLanguage": "en-US"
+                            },
+                            "inLanguage": "en-US"
+                        }                            ]
+    } </script>
+<section class="py-10 lg:py-16  relative block none ">
+<div class=" container z-10 relative  ">
+<div class="text-center">
+<h2 class="mb-12">Our Full Suite of <span class="text-gradient">Compliance Solutions</span></h2>
+</div>
+<div class="grid lg:grid-cols-2 gap-6 lg:gap-12 mt-6 lg:mt-20">
+<a href="/products/terms-and-conditions-generator/" class="card p-8">
+<div class="flex justify-start items-center mb-4 w-full">
+<img decoding="async" loading="lazy" class="w-11 mr-3" src="https://termly.io/wp-content/uploads/nav_icon_terms.svg" width="36" height="36" alt="Terms and Conditions Generator">
+<h5 class="font-bold text-medium lg:text-large">Terms and Conditions Generator</h5>
+</div>
+<p class="text-small lg:text-medium mb-4 lg:mb-6 w-full">Establish guidelines and safeguard your business with custom terms</p>
+<p class="text-small lg:text-medium w-full flex items-center py-2 text-deepblue">Learn more</p>
+</a>
+<a href="/products/disclaimer-generator/" class="card p-8">
+<div class="flex justify-start items-center mb-4 w-full">
+<img decoding="async" loading="lazy" class="w-11 mr-3" src="https://termly.io/wp-content/uploads/nav_icon_disclaimer.svg" width="36" height="36" alt="Disclaimer Generator">
+<h5 class="font-bold text-medium lg:text-large">Disclaimer Generator</h5>
+</div>
+<p class="text-small lg:text-medium mb-4 lg:mb-6 w-full">Create a legal disclaimer for FREE to protect your blog, website, or app against legal liability</p>
+<p class="text-small lg:text-medium w-full flex items-center py-2 text-deepblue">Learn more</p>
+</a>
+<a href="/products/cookie-policy-generator/" class="card p-8">
+<div class="flex justify-start items-center mb-4 w-full">
+<img decoding="async" loading="lazy" class="w-11 mr-3" src="https://termly.io/wp-content/uploads/nav_icon_cookie_policy.svg" width="36" height="36" alt="Cookie Policy Generator">
+<h5 class="font-bold text-medium lg:text-large">Cookie Policy Generator</h5>
+</div>
+<p class="text-small lg:text-medium mb-4 lg:mb-6 w-full">Notify users, provide cookie preferences, and obtain consent for your cookie use</p>
+<p class="text-small lg:text-medium w-full flex items-center py-2 text-deepblue">Learn more</p>
+</a>
+<a href="/products/cookie-scanner/" class="card p-8">
+<div class="flex justify-start items-center mb-4 w-full">
+<img decoding="async" loading="lazy" class="w-11 mr-3" src="https://termly.io/wp-content/uploads/nav_icon_cookie_scanner.svg" width="36" height="36" alt="Cookie Scanner">
+<h5 class="font-bold text-medium lg:text-large">Cookie Scanner</h5>
+</div>
+<p class="text-small lg:text-medium mb-4 lg:mb-6 w-full">Scan, categorize, and review your website’s cookies to ensure compliance with cookie use rules</p>
+<p class="text-small lg:text-medium w-full flex items-center py-2 text-deepblue">Learn more</p>
+</a>
+</div>
+<p class="text-center w-full pt-10 lg:pt-20 lg:pb-12"><a href="/products/" class="flex items-center justify-center text-small lg:text-medium w-fit mx-auto">Explore more solutions</a></p>
+</div>
+</section>
+<section class="py-12 lg:py-20  relative block bg-lighterblue ">
+<div class=" container z-10 relative  ">
+<h2 class="mt-6 mb-6 lg:mt-12 lg:mb-12 text-center">Related Articles About <span class="text-gradient">Privacy Policies</span></h2>
+<div class="carousel">
+<div class="carousel-scroll-container scroll-smooth" role="region" aria-label="Article Carousel" tabindex="0">
+<ol class="carousel-media w-full flex relative overflow-x-auto snap-x snap-mandatory pb-12" role="list">
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/new-jersey-data-privacy-act/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/New-Jersey-Data-Privacy-Act-NJDPA-01.svg" class="w-full h-60 object-cover" alt="New-Jersey-Data-Privacy-Act-NJDPA-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">New Jersey Data Privacy Act: First Look &#038; Summary</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">May 1, 2024<br/>Josh Langeland, CIPM</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/american-privacy-rights-act/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/American-Privacy-Rights-Act-APRA-02.svg" class="w-full h-60 object-cover" alt="American-Privacy-Rights-Act-APRA-02" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">American Privacy Rights Act (APRA): First Look &#038; Summary</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">April 22, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/biggest-data-breaches/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/98-Biggest-Data-Breaches-Hack-and-Exposures-2022-Update.svg" class="w-full h-60 object-cover" alt="98-Biggest-Data-Breaches-Hack-and-Exposures-2022-Update" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">109 Biggest Data Breaches, Hacks, and Exposures as of 2024</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 25, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/new-zealand-data-privacy-act-2020/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/New-Zealand-Data-Privacy-Act-2020-01.svg" class="w-full h-60 object-cover" alt="New-Zealand-Data-Privacy-Act-2020-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">New Zealand Data Privacy Act 2020 Explained</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 6, 2024<br/>James Ó Nuanáin, CIPP/E, CIPM, CIPT</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/sensitive-personal-information/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/Personal-vs-Sensitive-Personal-Information-Explained.svg" class="w-full h-60 object-cover" alt="Personal-vs-Sensitive-Personal-Information-Explained" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">Personal vs. Sensitive Personal Information</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 5, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/privacy-policy-for-hotel-websites/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/Privacy-Policy-for-Hotel-Websites-01.svg" class="w-full h-60 object-cover" alt="Privacy-Policy-for-Hotel-Websites-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">Privacy Policy for Hotel Websites</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 4, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/privacy-policy-for-gym-websites/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/Privacy-Policy-for-Gym-Websites-01.svg" class="w-full h-60 object-cover" alt="Privacy-Policy-for-Gym-Websites-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">Privacy Policy for Gym Websites</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 4, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/privacy-policy-for-real-estate-websites/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/Privacy-Policy-for-Real-Estate-Websites-01.svg" class="w-full h-60 object-cover" alt="Privacy-Policy-for-Real-Estate-Websites-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">Privacy Policy for Real Estate Websites</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 4, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+<li class="carousel-item flex-none w-11/12 lg:w-4/12 text-center px-2 lg:px-6 after-line snap-center">
+<a href="https://termly.io/resources/articles/privacy-policy-for-church-websites/" class="block snippet">
+<article class="card p-0 rounded-md overflow-hidden h-full">
+<img decoding="async" width="1" height="1" src="https://termly.io/wp-content/uploads/Privacy-Policy-for-Church-Websites-01.svg" class="w-full h-60 object-cover" alt="Privacy Policy for Church Websites-01" loading="lazy" /> <div class="p-4 w-full flex-grow flex flex-col">
+<h6 class="text-articleheader font-bold leading-tight text-left mb-3 flex-grow">Privacy Policy for Church Websites</h6>
+<div class="flex justify-between items-center w-full">
+<span class="bg-transparent-blueclear text-nano p-3 rounded-md text-deepdarkblue block uppercase articles">Articles</span>
+<p class="text-panel text-right">March 4, 2024<br/>Masha Komnenic CIPP/E, CIPM, CIPT, FIP</p>
+</div>
+</div>
+</article>
+</a>
+</li>
+</ol>
+<button class="carousel-control prev" aria-label="Previous" aria-disabled="true"><img decoding="async" loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/chevron-right-carousel.svg" alt="Previous Button"></button>
+<button class="carousel-control next" aria-label="Next" aria-disabled="true"><img decoding="async" loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/chevron-right-carousel.svg" alt="Next Button" class="rotate-180"></button>
+</div>
+</div>
+<p class="text-center w-full pb-12"><a href="/resources/" class="flex items-center justify-center text-medium text-deepdarkblue">Explore more resources</a></p>
+</div>
+</section>
+<footer>
+<section class="bg-midblue py-6 w-full text-center text-gray-light">
+<img src="https://termly.io/wp-content/uploads/trust-4-9.svg" width="307" height="39" loading="lazy" alt="trust 4 -9" class="mx-auto">
+</section>
+<section class="bg-white pt-20 pb-12 relative overflow-hidden">
+<div class="container mx-auto md:grid xl:grid-cols-8 relative">
+<div class="xl:col-span-2">
+<div class="flex flex-row lg:flex-col justify-between lg:justify-start">
+<a href="/" class="block py-2"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/termly-logo.svg" width="141" height="40" class="h-10 mb-2" alt="Termly logo" /></a>
+<div class="flex items-center justify-center lg:justify-start mb-2 lg:mb-4 gap-2">
+<a href="https://www.facebook.com/termly.io" class="w-12 h-12 flex items-center justify-center opacity-60 transition-all hover:opacity-100"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/facebook.svg" width="13" height="24" class="h-6" alt="Termly Facebook" /></a>
+<a href="https://twitter.com/Termly_io" class="w-12 h-12 flex items-center justify-center opacity-60 transition-all hover:opacity-100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1200 1227" fill="none" class="h-6">
+<path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="#5277ff" />
+</svg></a>
+<a href="https://www.linkedin.com/company/termly/" class="w-12 h-12 flex items-center justify-center opacity-60 transition-all hover:opacity-100"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/linkedin.svg" width="30" height="24" class="h-6" alt="Termly LinkedIn" /></a>
+</div>
+</div>
+<div class="flex items-center justify-start mb-8 lg:mb-0 gap-2 flex-wrap">
+<a href="https://www.bbb.org/us/wa/seattle/profile/compliance-consulting/termly-inc-1296-1000111404/#sealclick" target="_blank" class="block"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/bbb.svg" width="134" height="48" class="h-12" alt="Termly Inc BBB Business Review" /></a>
+<span class="block mr-2"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/iab_status_2.svg" width="83" height="46" class="h-14 w-auto" alt="Termly Inc BBB Business Review" /></span><span class="block mr-2 w-12"></span>
+<span class="block"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/iaap.svg" width="40" height="40" class="h-10" alt="IAPP Silver Member" /></span>
+<a href="https://termly.io/features/google-consent-mode/" class="block"><img loading="lazy" src="/wp-content/themes/genesis-tly-v4/v2/img/cmp_badge.svg" width="50" height="50" class="h-12" alt="Google CMP Certified" /></a>
+</div>
+<p class="text-tiny mt-4 mb-20 hidden lg:block">Copyright Termly 2023</p>
+</div>
+<div class="xl:col-span-6 md:grid xl:grid-cols-10 gap-y-4 py-4 xl:gap-y-0 xl:py-0">
+<div class="xl:col-span-3">
+<h6 class="text-deepblue mb-3 font-bold">Company</h6>
+<ul class="mb-6 lg:mb-0">
+<li><a href="/about-us/">About Us</a></li>
+<li><a href="https://apply.workable.com/termly-io/">Careers</a></li>
+<li><a href="/updates-press/">Updates and Press</a></li>
+<li><a href="https://termly.io/privacy-center/">Our Privacy Center</a></li>
+<li><a href="/our-privacy-policy/">Our Privacy Policy</a></li>
+<li><a href="/our-terms-of-use/">Our Terms of Use</a></li>
+<li><a href="/our-disclaimer/">Our Disclaimer</a></li>
+<li><a href="/our-cookie-policy/">Our Cookie Policy</a></li>
+<li><a href="/our-sub-processors/">Our Sub-Processors</a></li>
+<li><a href="https://app.termly.io/notify/42ad146d-177d-4c95-a4a6-34f2a35f16b5">Limit the Use of My Sensitive <br>Personal Information</a></li>
+<li><a href="https://app.termly.io/notify/42ad146d-177d-4c95-a4a6-34f2a35f16b5">Do Not Sell or Share My Information</a></li>
+</ul>
+</div>
+<div class="xl:col-span-3">
+<h6 class="text-deepblue mb-3 font-bold">Products</h6>
+<ul class="mb-6 lg:mb-0">
+<li><a href="/products/privacy-policy-generator/">Privacy Policy Generator</a></li>
+<li><a href="/products/terms-and-conditions-generator/">Terms and Conditions Generator</a></li>
+<li><a href="/products/eula-generator/">EULA Generator</a></li>
+<li><a href="/products/refund-return-policy-generator/">Refund & Return Policy</a></li>
+<li><a href="/products/shipping-policy-generator/">Shipping Policy Generator</a></li>
+<li><a href="/products/disclaimer-generator/">Disclaimer Generator</a></li>
+<li><a href="https://termly.io/products/consent-management-platform/">Consent Management Platform</a></li>
+<li><a href="/products/cookie-consent-manager/">Cookie Consent</a></li>
+<li><a href="/products/cookie-banner-generator/">Cookie Banner</a></li>
+<li><a href="/products/cookie-policy-generator/">Cookie Policy Generator</a></li>
+<li><a href="/products/cookie-scanner/">Cookie Scanner</a></li>
+</ul>
+</div>
+<div class="xl:col-span-2">
+<h6 class="text-deepblue mb-3 font-bold">Support</h6>
+<ul class="mb-6 lg:mb-0">
+<li><a href="https://support.termly.io/en/">Help and Support</a></li>
+<li><a href="/faq/">FAQs</a></li>
+<li><a href="/contact-us/">Contact Us</a></li>
+<li><a href="/pricing/">Pricing</a></li>
+<li><a href="/partners/">Partner with Us</a></li>
+<li><a href="/resources/">Resources</a></li>
+<li><a href="javascript:;" onclick="window.displayPreferenceModal()">Cookie Preferences</a></li>
+<li><a href="/legal-dictionary/">Legal Dictionary</a></li>
+<li><a href="/security-faq/">Security FAQ</a></li>
+</ul>
+</div>
+<div class="xl:col-span-2">
+<h6 class="text-deepblue mb-3 font-bold">Our Brands</h6>
+<ul class="mb-6 lg:mb-0">
+<li><a href="https://wp-rocket.me/">WP Rocket</a></li>
+<li><a href="https://imagify.io/">Imagify</a></li>
+<li><a href="https://rankmath.com/">Rank Math</a></li>
+<li><a href="https://rocketcdn.me/">RocketCDN</a></li>
+<li><a href="https://backwpup.com/">BackWPup</a></li>
+<li><a href="https://one.com/">one.com</a></li>
+</ul>
+</div>
+</div>
+<p class="text-tiny text-left lg:text-center mt-12 mb-3 lg:mb-20 xl:col-span-8">Disclaimer: Termly Inc is not a lawyer or a law firm and does not engage in the practice of law or provide legal advice or legal representation. All information, software, services, and comments provided on the site are for informational and self-help purposes only and are not intended to be a substitute for professional legal advice. Use of this site is subject to our Terms of Use.</p>
+<p class="text-tiny mt-4 mb-20 lg:hidden">Copyright Termly 2023</p>
+</div>
+</section>
+</footer><script src="https://termly.io/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.5.0" id="skip-links-js"></script>
+</body>
+</html>

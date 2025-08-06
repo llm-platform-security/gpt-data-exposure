@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-PBQM99G');
+		</script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				window.dataLayer.push(arguments);
+			}
+
+			gtag('js', new Date());
+
+			gtag('config', 'GTM-PBQM99G');
+		</script>
+		<title></title>
+		<!-- End Google Tag Manager -->
+		
+		<link href="./_app/immutable/assets/0.fba8e840.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/6.a34d34f5.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.7ac3b226.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.a3262970.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.545ae8e8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.e02286f4.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.7ba65ecc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.4882880a.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.0609723e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/appType.00511d6b.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/6.2df3046c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/head.5d56e0c7.js"><title>The Cat API Terms of Service</title><!-- HEAD_svelte-r0csrj_START --><link rel="icon" href="/_app/immutable/assets/thecatapi-cat.74a07522.svg"><meta name="title" content="The Cat API Terms of Service"><meta name="description" content="These are The Cat API's Terms of Service."><meta property="og:type" content="website"><meta property="og:url" content="https://thecatapi.com/terms"><meta property="og:title" content="The Cat API Terms of Service"><meta property="og:description" content="These are The Cat API's Terms of Service."><meta property="og:image" content="https://www.thecatapi.com/meta-tag-image.webp"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://thecatapi.com/terms"><meta property="twitter:title" content="The Cat API Terms of Service"><meta property="twitter:description" content="These are The Cat API's Terms of Service."><meta property="twitter:image" content="https://www.thecatapi.com/meta-tag-image.webp"><!-- HEAD_svelte-r0csrj_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-PBQM99G"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<div style="display: contents">  <header class="container mx-auto py-4 px-4 md:flex md:justify-between md:items-center"><div class="flex justify-between items-center"><a href="/"><img src="/_app/immutable/assets/thecatapi-logo.78868573.svg" alt="the cat api logo" width="160px" height="34px" loading="lazy"></a> <button aria-label="toggle header menu" class="md:hidden" data-svelte-h="svelte-17t0kw"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div> <nav class="hidden md:flex svelte-egb2zv"><ul class="flex flex-col gap-8 items-center uppercase font-bold pt-12 pb-6 md:flex-row md:p-0 md:font-normal"><li data-svelte-h="svelte-1f6wmp7"><a href="/#pricing">pricing</a></li> <li><a href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t" target="_blank">documentation</a></li> <li><a href="https://portal.thatapicompany.com">more apis</a></li> <li data-svelte-h="svelte-16dth0q"><a href="/showcase">showcase</a></li></ul></nav> </header>  <main class="container mx-auto px-4 pt-12 pb-24 text-3xl" data-svelte-h="svelte-kari37"><h1 class="text-3xl sm:text-4xl md:text-5xl">API Terms of Service</h1> <div class="mt-12"><h3 class="text-lg font-bold svelte-v91lqu">Effective date: 2023-07-01</h3> <p class="svelte-v91lqu">We welcome all developers to use our API and for use in their apps, platforms and services
+			free of charge, as long as they comply with the following Terms of Service. Under the paid
+			account, some points in the Terms of Service are waived which are noted below.*</p></div> <div class="mt-12"><h2 class="text-lg md:text-3xl svelte-v91lqu">1. Privacy &amp; Security</h2> <p class="svelte-v91lqu">1.1. All developers must guard their API keys and authentication details, as well as those of
+			their users&#39; privacy with utmost care.</p> <p class="svelte-v91lqu">1.2. It is forbidden to use API for malicious intent, purposefully cause damage to the API, or
+			attempt to gain unauthorized data from or use of other accounts.</p></div> <div class="mt-12"><h2 class="svelte-v91lqu">2. Transparency</h2> <p class="svelte-v91lqu">2.1. You must obtain your own account for your application.</p> <p class="svelte-v91lqu">2.2. You must not misrepresent yourself as The Dog API, The Cat API, or resell its services.</p> <p class="svelte-v91lqu">2.3. To avoid confusion, the title of your app must not include the phrase &quot;The Cat API&quot; or
+			&quot;Cat API&quot;, &quot;The Dog API&quot; or &quot;Dog API&quot;. An exception can be made if the phrase is preceded with
+			the word &quot;Unofficial&quot; in the title.</p> <p class="svelte-v91lqu">2.4. You must not use the official API logo for your app.</p></div> <div class="mt-12"><h2 class="svelte-v91lqu">3. Advertising &amp; Monetization</h2> <p class="svelte-v91lqu">3.1. Developers are allowed to monetize their coding efforts through advertising or other
+			legitimate means.</p> <p class="svelte-v91lqu">3.2. If you decide to monetize your app, you must clearly mention all the methods of
+			monetization that are used in your app in all its app store descriptions.</p> <p class="svelte-v91lqu">3.3.a We offer our API free of charge, but if you monetize it, your users must be aware of the
+			fact that your app uses The Dog API or The Cat API. This fact must be featured prominently in
+			the app&#39;s description in the app stores and in the in-app intro &amp; about page if your app
+			has it.</p> <p class="svelte-v91lqu">3.3.b Under the paid account, you are not required to feature The Dog API or The Cat API.*</p></div> <div class="mt-12"><h2 class="svelte-v91lqu">4. Service</h2> <p class="svelte-v91lqu">4.1. By utilizing our services, you acknowledge our commitment to provide the highest
+			standards of quality and uninterrupted access to our API, while acknowledging that we are
+			unable to provide absolute guarantees in this regard.</p></div> <div class="mt-12"><h2 class="svelte-v91lqu">5. Breach of terms</h2> <p class="svelte-v91lqu">5.1. If your app violates these terms, we will notify the API account responsible for the app
+			about the breach of terms.</p> <p class="svelte-v91lqu">5.2. If you do not update the app to fix the highlighted issues within 10 days, we will have
+			to discontinue your access to The Dog API and contact the app stores about the removal of your
+			apps that are using The Dog API or The Cat API in violation of these terms.</p></div> <p class="mt-12 svelte-v91lqu">We reserve the right to expand these terms and guidelines as the need arises. We will inform
+		client developers of such changes via an email notification.</p> </main> <footer class="w-full bg-bg-gray mt-auto px-4 py-8" data-svelte-h="svelte-1ao20wy"><div class="container mx-auto grid gap-y-10 text-center justify-center md:grid-cols-5 md:text-left"><img src="/_app/immutable/assets/thatapicompany-logo.17794be4.webp" alt="That API Company logo" width="80px" height="36px" class="mx-auto"> <div><h3 class="text-sm font-semibold">Details</h3> <ul class="svelte-s78c0q"><li class="svelte-s78c0q"><a href="https://thatapicompany.com/about-that-api-company">About Us</a></li></ul></div> <div><h3 class="text-sm font-semibold">Community and Support</h3> <ul class="svelte-s78c0q"><li class="svelte-s78c0q"><a href="https://discord.com/invite/SRaRFcQ7Yw">Discord</a></li> <li class="svelte-s78c0q"><a href="https://forum.thatapiguy.com/">Forum</a></li></ul></div> <div><h3 class="text-sm font-semibold">Our other APIs</h3> <ul class="svelte-s78c0q"><li class="svelte-s78c0q"><a href="https://theauthapi.com">The Auth API</a></li> <li class="svelte-s78c0q"><a href="https://www.thereportapi.com">The Report API</a></li> <li class="svelte-s78c0q"><a href="https://www.theanalyticsapi.com">The Analytics API</a></li> <li class="svelte-s78c0q"><a href="https://www.theimageapi.com">The Image API</a></li> <li class="svelte-s78c0q"><a href="https://portal.thatapicompany.com">More APIs</a></li></ul></div> <div><h3 class="text-sm font-semibold">Legals</h3> <ul class="svelte-s78c0q"><li class="svelte-s78c0q"><a href="/terms">Terms &amp; Conditions</a></li> <li class="svelte-s78c0q"><a href="/privacy">Privacy Policy</a></li></ul></div></div> </footer> 
+			
+			<script>
+				{
+					__sveltekit_blze7w = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {"PUBLIC_DOCS_URL":"https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t","PUBLIC_META_TAG_URL":"https://www.thecatapi.com/meta-tag-image.webp","PUBLIC_VIDEOS_URL":"https://www.youtube.com/playlist?list=PLsIVdsfCJFhdoyd0Y2KpfZcJWxlm4r_2n","PUBLIC_APP_TYPE":"cat","PUBLIC_PROJECTS_URL":"https://github.com/AdenForshaw/thecatapi-react-mui-favouriting","PUBLIC_APP_NAME":"The Cat API","PUBLIC_MORE_APIS_URL":"https://portal.thatapicompany.com","PUBLIC_BASE_URL":"https://thecatapi.com","PUBLIC_CODE_EXAMPLES_URL":"https://github.com/AdenForshaw/thecatapi-react-mui-favouriting","PUBLIC_GTM_ID":"GTM-PBQM99G","PUBLIC_DISCORD_URL":"https://discord.gg/B6RVQBU4hW3","PUBLIC_API_URL":"https://api.thecatapi.com/v1","PUBLIC_PRO_PRODUCT_URL":"https://buy.stripe.com/5kA14baGG4R64wM147"}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.7ac3b226.js"),
+						import("./_app/immutable/entry/app.7ba65ecc.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepWise privacy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="/scripts/fs.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/general-goal-01.png">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9WD765QXD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-J9WD765QXD'
+        , {'debug_mode' : true, } 
+        );
+    </script>
+</head>
+<!-- HTML -->
+
+<body class="site-layout">
+    <div class="flex site-content">
+        <!-- Main Content -->
+        <style>
+</style>
+<section class="static-content">
+    <div class="title">StepWise - Privacy Policy</div>
+    <div class="last-updated">Last Updated: 2024-01-08</div>
+
+    <ol>
+        <li>
+            <div class='header'>1. Introduction </div>
+            <div class="body">Welcome to StepWise! We are committed to protecting your privacy and handling your
+                personal information transparently. This Privacy Policy explains how we collect, use, and share
+                information when you use our services.
+            </div>
+        </li>
+        <li>
+            <div class='header'>2. Information Collection </div>
+            <div class="body">
+                <ul>
+                    <li><span class="sub-header">Personal Information</span> When you register for StepWise, we collect
+                        information such as your name, email address, and contact details.
+                    </li>
+                    <li><span class="sub-header">Usage Data</span> We collect data on how you interact with our
+                        services. This includes pages visited, time spent on pages, and other similar information.
+                    </li>
+                    <li><span class="sub-header">Cookies and Similar Technologies</span> We use cookies to enhance your
+                        experience, understand user activity, and improve the quality of our service. These do not track
+                        users for advertising purposes.
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class='header'>3. Use of Information </div>
+            <div class="body">
+                <ul>
+                    <li><span class="sub-header">Service Improvement</span> We use collected data to understand user
+                        needs and improve our services and features.
+                    </li>
+                    <li><span class="sub-header">Communication</span> We may use your information to respond to your
+                        inquiries, send service updates, and provide support.
+                    </li>
+                    <li><span class="sub-header">Analytics</span> To better understand how our services are used and to
+                        enhance user experience, we analyze the data collected.
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class='header'>4. Sharing of Information </div>
+            <div class="body">
+                We do not sell your personal data. Information may be shared with third-party service providers for
+                analytics purposes, but only to assist in improving StepWise.
+            </div>
+        </li>
+        <li>
+            <div class='header'>5. Data Security </div>
+            <div class="body">
+                We implement appropriate security measures to protect against unauthorized access, alteration,
+                disclosure, or destruction of your personal information.
+            </div>
+        </li>
+        <li>
+            <div class='header'>6. User Rights </div>
+            <div class="body">
+                You have the right to access, update, or delete your personal information at any time. Please contact us
+                for assistance.
+            </div>
+        </li>
+        <li>
+            <div class='header'>7. Changes to This Policy </div>
+            <div class="body">
+                This Privacy Policy may be updated from time to time. We will notify you of any significant changes by
+                posting the new policy on our site.
+            </div>
+        </li>
+        <li>
+            <div class='header'>8. Governing Law</div>
+            <div class="body">These Terms and Conditions shall be governed by and construed in accordance with the laws
+                of the State of Washington, without regard to its conflict of law provisions.
+                Any legal action or proceeding arising under these Terms and Conditions will be brought exclusively in
+                the federal or state courts located in Washington, and the parties hereby irrevocably consent to the
+                personal jurisdiction and venue therein.</div>
+        </li>
+        <li>
+            <div class='header'>9. Contact Us </div>
+            <div class="body">
+                If you have any questions or concerns about this Privacy Policy, please contact us at <a
+                    href="mailto:policy@joinstepwise.com">Policy communications</a>.
+            </div>
+        </li>
+
+    </ol>
+
+</section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">&copy; 2024 StepWise. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

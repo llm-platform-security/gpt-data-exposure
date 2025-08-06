@@ -1,0 +1,254 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="/" >
+      <title>mfers.dev</title>
+      <meta name="description" content="mfers next era is jus gettin started" />
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=69">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=69">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=69">
+      <link rel="manifest" href="/site.webmanifest?v=69">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg?v=69" color="#000000">
+      <link rel="shortcut icon" href="/favicon.ico?v=69">
+      <meta name="msapplication-TileColor" content="#dddddd">
+      <meta name="theme-color" content="#ffffff">
+    
+      <link rel="stylesheet" type="text/css" href="/styles/global.css" />
+      <link rel="stylesheet" type="text/css" href="/views/styles.css" />
+      <script src="/views/saturation.js" type="module"></script>
+    </head>
+    <body style="--primary:#FFB76E;--ink:#000;--lead:hsla(220,10%,5%,0.8);--bg:#fff;--highlight:#FFB76E;">
+      <div class="Nav__WRAPPER">
+    <div class="Nav__BAR">
+      <div class="Nav__CONTENT">
+        <a class="Nav__BRAND" href="/">
+          <span class="Nav__TITLE">{@~} <span>mfers.dev</span></span>
+        </a>
+        <div class="Nav__ITEMS">
+          <a class="Nav__TWITTER" href="https://twitter.com/m4rsh___">
+            <img src="/icons/twitter.png" />
+          </a>
+          <a class="Nav__GIT" href="https://github.com/mfers-dev">
+            <img src="/icons/git.png" />
+          </a>
+        </div>
+      </div>
+      <canvas class="Nav__UNDERLINE"></canvas>
+    </div>
+  </div>
+  <div class="Nav__PADDING"></div>
+      <main class="Router__ROUTER"><div class="PageHome__WRAPPER">
+    <div class="Container__WRAPPER">
+    <div class="Container__PIN__TOP"></div>
+    <div class="Container__CONTAINER">
+        <div class="PageHome__CONTAINER">
+        <div class="PageHome__INTRO">
+          <span class="PageHome__INTRO__LOGO">{@~}</span>
+          <h1 class="PageHome__INTRO__TITLE">mfers.dev</h1>
+          <h1 class="PageHome__INTRO__TAGLINE">free tools for mfers</h1>
+        </div>
+      </div>
+
+      <div class="Masonry__WRAPPER">
+    <div class="Masonry__TILES">
+      <div class="Masonry__TILE">
+          <div class="TutorialTile__WRAPPER">
+  <div class="TutorialTile__DRAWING">
+    <img style="aspect-ratio: auto 1" style="aspect-ratio: auto 1" src="/previews/4829-assets.png" alt="isolated mfers layers" />
+  </div>
+  <div class="TutorialTile__CONTENT" data-uid="example-tutorial">
+    <canvas class="TutorialTile__LINE resizer" data-hsl="195,0.8,0.8"></canvas>
+    <h3 class="TutorialTile__TITLE">
+      mfer brand kits
+    </h3>
+    <div class="TutorialTile__DETAILS">
+      <ul>
+              <!-- <li>image variations
+              <li>trait layers
+              <li>dominant colors
+              <li>matching derivatives -->
+            </ul>
+    </div>
+    <div class="TutorialTile__CTA">
+      <a class="RoundButton__BUTTON link" href="#" title="mfers assets">
+    <div class="RoundButton__FILL">
+      <canvas class="Overlay resizer" data-hue="195"></canvas>
+    </div>
+    <span class="RoundButton__LABEL">Coming soon</span>
+    <img src="/icons/right-arrow.png" alt="" class="RoundButton__ICON" />
+    <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+  </a>
+    </div>
+  </div>
+  <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+</div>
+        </div><div class="Masonry__TILE">
+          <div class="TutorialTile__WRAPPER">
+  <div class="TutorialTile__DRAWING">
+    <img style="aspect-ratio: auto 1.5" style="aspect-ratio: auto 1.5" src="/previews/tools/layers.png" alt="mfers layers" />
+  </div>
+  <div class="TutorialTile__CONTENT" data-uid="example-tutorial">
+    <canvas class="TutorialTile__LINE resizer" data-hsl="50,0.6,0.8"></canvas>
+    <h3 class="TutorialTile__TITLE">
+      layers
+    </h3>
+    <div class="TutorialTile__DETAILS">
+      <ul>
+              <li>optimized images
+              <li>colors
+              <li>bonus layers
+            </ul>
+    </div>
+    <div class="TutorialTile__CTA">
+      <a class="RoundButton__BUTTON link" href="/layers" title="mfers layers">
+    <div class="RoundButton__FILL">
+      <canvas class="Overlay resizer" data-hue="50"></canvas>
+    </div>
+    <span class="RoundButton__LABEL">explore</span>
+    <img src="/icons/right-arrow.png" alt="" class="RoundButton__ICON" />
+    <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+  </a>
+    </div>
+  </div>
+  <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+</div>
+        </div><div class="Masonry__TILE">
+          <div class="TutorialTile__WRAPPER">
+  <div class="TutorialTile__DRAWING">
+    <img style="aspect-ratio: auto 1.5" style="aspect-ratio: auto 1.5" src="/previews/tools/sartoshi-script-alphabet.png" alt="sartoshi script alphabet" />
+  </div>
+  <div class="TutorialTile__CONTENT" data-uid="example-tutorial">
+    <canvas class="TutorialTile__LINE resizer" data-hsl="110,0.6,0.8"></canvas>
+    <h3 class="TutorialTile__TITLE">
+      sartoshi script
+    </h3>
+    <div class="TutorialTile__DETAILS">
+      <ul>
+              <li>cc0 font
+              <li>inspired by sartoshi @~
+              <li>made by @hyreal3
+              <li>only 12kB
+            </ul>
+    </div>
+    <div class="TutorialTile__CTA">
+      <a class="RoundButton__BUTTON link" href="https://sartoshiscript.xyz" title="sartoshiscript.xyz">
+    <div class="RoundButton__FILL">
+      <canvas class="Overlay resizer" data-hue="110"></canvas>
+    </div>
+    <span class="RoundButton__LABEL">website</span>
+    <img src="/icons/external.png" alt="" class="RoundButton__ICON" />
+    <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+  </a>
+    </div>
+  </div>
+  <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+</div>
+        </div><div class="Masonry__TILE">
+          <div class="TutorialTile__WRAPPER">
+  <div class="TutorialTile__DRAWING">
+    <img style="aspect-ratio: auto 1" style="aspect-ratio: auto 1" src="/previews/mfers-js.png" alt="isolated mfers layers" />
+  </div>
+  <div class="TutorialTile__CONTENT" data-uid="example-tutorial">
+    <canvas class="TutorialTile__LINE resizer" data-hsl="30,0.8,0.8"></canvas>
+    <h3 class="TutorialTile__TITLE">
+      mfers.js
+    </h3>
+    <div class="TutorialTile__DETAILS">
+      <ul>
+              <li>all mfers metadata
+              <li>in browser or NodeJS
+              <li>only 43kB
+            </ul>
+    </div>
+    <div class="TutorialTile__CTA">
+      <a class="RoundButton__BUTTON link" href="https://github.com/mfers-dev/mfers" title="mfers metadata docs">
+    <div class="RoundButton__FILL">
+      <canvas class="Overlay resizer" data-hue="30"></canvas>
+    </div>
+    <span class="RoundButton__LABEL">github</span>
+    <img src="/icons/external.png" alt="" class="RoundButton__ICON" />
+    <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+  </a>
+    </div>
+  </div>
+  <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+</div>
+        </div><div class="Masonry__TILE">
+          <div class="TutorialTile__WRAPPER">
+  <div class="TutorialTile__DRAWING">
+    <img style="aspect-ratio: auto 1.5" style="aspect-ratio: auto 1.5" src="/previews/tools/rough-js.png" alt="rough-js npm package" />
+  </div>
+  <div class="TutorialTile__CONTENT" data-uid="example-tutorial">
+    <canvas class="TutorialTile__LINE resizer" data-hsl="355,0.6,0.8"></canvas>
+    <h3 class="TutorialTile__TITLE">
+      rough.js
+    </h3>
+    <div class="TutorialTile__DETAILS">
+      <ul>
+              <li>sketchy web graphics
+              <li>only 9kB
+              <li>MIT license
+            </ul>
+    </div>
+    <div class="TutorialTile__CTA">
+      <a class="RoundButton__BUTTON link" href="https://github.com/rough-stuff/rough" title="rough.js github">
+    <div class="RoundButton__FILL">
+      <canvas class="Overlay resizer" data-hue="355"></canvas>
+    </div>
+    <span class="RoundButton__LABEL">github</span>
+    <img src="/icons/external.png" alt="" class="RoundButton__ICON" />
+    <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+  </a>
+    </div>
+  </div>
+  <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+</div>
+        </div>
+    </div>
+    <div class="Masonry__CONTAINER">
+
+    </div>
+  </div>
+        <div class="ContentTitle__TITLE__ROW" style="text-align: left;" style="text-align: left;">
+      <span class="ContentTitle__TITLE__ID" id="why"></span>
+      <h1 class="ContentTitle__TITLE">why?</h1>
+      <canvas class="ContentTitle__TITLE__LINE" data-h="1"></canvas>
+    </div>
+        <figure class="Figure__WRAPPER">
+    <div class="Figure__FRAME" style="width: 20rem;height:20rem;" style="width: 20rem;height:20rem;"><img class="Figure__IMAGE" src="/sketches/mfers-rollin-compressed.gif" alt="" /><canvas class="SketchedOutline__CANVAS resizer"></canvas></div>
+    <figcaption class="Figure__CAPTION">so mfers can build what they want, faster.</figcaption>
+  </figure>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="Container__PIN__BOTTOM"></div>
+      </div>
+  </div>
+  </div></main>
+      <div class="Footer__FOOTER">
+    <span class="Footer__FOOTER__LEFT"><img src="/icons/nounfers.png" /></span>
+    <span class="Footer__FOOTER__CENTER"><img src="/icons/public-domain.png" /></span>
+    <span class="Footer__FOOTER__RIGHT">// m4rsh</span>
+  </div>
+      <m4r-sh class="Signature"></m4r-sh>
+      <div class="ThemeClass"></div>
+      <div class="Modal__WRAPPER" id="Modal__MODAL_ID">
+    <canvas class="Modal__BACKGROUND"></canvas>
+    <div class="Modal__POPUP">
+      <div class="Modal__SLOT">
+      </div>
+      <h2 class="Modal__TITLE"></h2>
+      <div class="Modal__POPUP__BORDER">
+      </div>
+      <button class="Modal__CLOSE">
+        <canvas class="SketchedOutline__CANVAS resizer"></canvas>
+        X
+      </button>
+    </div>
+  </div>
+    </body>
+  </html>

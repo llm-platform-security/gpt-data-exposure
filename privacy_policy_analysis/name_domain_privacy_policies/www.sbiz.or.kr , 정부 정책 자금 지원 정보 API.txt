@@ -1,0 +1,2746 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<title>오픈API | 소상공인마당</title>
+
+
+
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- favicon -->
+<link rel="shortcut icon" href="/sup/resource/www/img/sbiz_favicon.png">
+<!-- include stylesheet -->
+<link rel="stylesheet" href="/sup/resource/cmm/lib/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="/sup/resource/cmm/lib/slick/slick.css">
+<link rel="stylesheet" href="/sup/resource/cmm/lib/parsley/parsley.css">
+
+<link rel="stylesheet" href="/sup/resource/www/css/font.css">
+<link rel="stylesheet" href="/sup/resource/www/css/common.css?v=20230526">
+<link rel="stylesheet" href="/sup/resource/www/css/normal.css?v=20240423">
+<link rel="stylesheet" href="/sup/resource/www/css/responsive.css?v=20230623">
+<!-- include script -->
+<script src="/sup/resource/cmm/lib/jquery/jquery-3.6.1.min.js"></script>
+<script src="/sup/resource/cmm/lib/jquery-ui/jquery-ui.min.js"></script>
+<script src="/sup/resource/cmm/lib/jquery-ui/i18n/datepicker-ko.js"></script>
+<script src="/sup/resource/cmm/lib/vue/vue.min.js"></script>
+<script src="/sup/resource/cmm/lib/parsley/parsley.min.js"></script>
+<script src="/sup/resource/cmm/lib/parsley/i18n/ko.js"></script>
+<script src="/sup/resource/cmm/lib/moment/moment-with-ko.min.js"></script>
+<script src="/sup/resource/cmm/lib/matchheight/jquery.matchHeight.js"></script>
+<script src="/sup/resource/cmm/lib/slick/slick.min.js"></script>
+<script src="/sup/resource/cmm/lib/pagination/jquery.twbsPagination.min.js"></script>
+<script src="/sup/resource/cmm/lib/printThis/printThis.min.js"></script>
+
+<script src="/sup/resource/www/js/www.js?v=20231117"></script>
+<script src="/sup/resource/cmm/js/common.js?v=20240312"></script>
+<script src="/sup/resource/cmm/js/common-vue.js"></script>
+<script src="/sup/resource/www/js/normal.js?v=20231116"></script>
+
+<script>
+ctxPath = '/sup';
+</script>
+
+
+
+
+
+
+</head>
+<body>
+
+<!-- Header { -->
+
+
+
+
+
+
+<script>
+// *********************************************************************
+// 1010) 로그인
+function ssoLogin(){ // server
+
+	var ssoForm = document.SsoForm;
+
+	
+		ssoForm.action      = 'https://sso.sbiz.or.kr/sso/subLoginAction.do';
+	
+	
+
+	ssoForm.actionUrl.value = '';
+	ssoForm.sToken.value    = '';
+	ssoForm.submit();
+	return false;
+}
+
+// *********************************************************************
+// 1020) 로그아웃
+function ssoLogout(){ // server
+	var ssoForm = document.SsoForm;
+	ssoForm.reqSite.value   = 'https://www.sbiz.or.kr/sup/main.do';
+
+	
+		ssoForm.action      = 'https://sso.sbiz.or.kr/sso/supLogoutAction.do';
+	
+	
+
+	ssoForm.actionUrl.value = 'https://www.sbiz.or.kr/sup/sso/sup/logout.do';
+	ssoForm.submit();
+	return false;
+}
+
+//통합로그인
+function tLogin(){
+	window.open("/sup/sbiz_help/sbiz_pop.jsp?link=sbiz","pop","width=800,height=700, scrollbars=yes");
+}
+// *********************************************************************
+// 8000) Initialize
+//   $(document).ready(function() {
+
+//   });
+</script>
+
+<form id="SsoForm" name="SsoForm" action="/sso/login.do" method="POST">
+	<input type="hidden" name="reqSite"   value="https://www.sbiz.or.kr/sup/main.do">
+	<input type="hidden" name="actionUrl" value="">
+	<input type="hidden" name="sToken"    value="">
+</form>  
+
+<div id="skip">
+	
+	
+		<p class="skip-btn"><a href="#sub" tabindex="1">본문 바로가기</a></p>
+	
+</div>
+
+<div id="header">
+  <div class="header-inner cf wrapper">
+    <h1 class="header-logo">
+      <a href="/sup/main.do" class="header-logo__link">
+        <img src="/sup/resource/www/img/logo.png" alt="소상공인마당 홈으로">
+      </a>
+    </h1>
+    <div class="header-gnb">
+      <ul class="header-gnb__row i-col-0">
+        
+          
+          <li class="header-gnb__item">
+            <a href="/sup/page.do?mnucd=101" target="_self" class="header-gnb__link">사업정보</a>
+            <div class="header-submenu__wrap">
+              <div class="header-submenu__head">
+                <h3 class="header-submenu__1dep">사업정보</h3>
+              </div>
+              <div class="header-submenu__body">
+                <ul class="header-submenu__row">
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=102&scBbsCtgryId=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&scBbsMngSn=10" target="_self" class="header-submenu__link">정책자금</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=103&scBbsCtgryId=%EC%84%B1%EC%9E%A5%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-submenu__link">성장지원</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=104&scBbsCtgryId=%EC%9E%AC%EA%B8%B0%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-submenu__link">재기지원</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=154&scBbsCtgryId=%EC%B0%BD%EC%97%85%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-submenu__link">창업지원</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=105&scBbsCtgryId=%EC%A0%84%ED%86%B5%EC%8B%9C%EC%9E%A5%ED%99%9C%EC%84%B1%ED%99%94&scBbsMngSn=10" target="_self" class="header-submenu__link">전통시장 활성화</a>
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=106&scBbsCtgryId=%EC%86%8C%EA%B3%B5%EC%9D%B8%ED%8A%B9%ED%99%94&scBbsMngSn=10" target="_self" class="header-submenu__link">소공인특화</a>
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="header-gnb__item">
+            <a href="/sup/page.do?mnucd=107" target="_self" class="header-gnb__link">성공사례</a>
+            <div class="header-submenu__wrap">
+              <div class="header-submenu__head">
+                <h3 class="header-submenu__1dep">성공사례</h3>
+              </div>
+              <div class="header-submenu__body">
+                <ul class="header-submenu__row">
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=108&scBbsMngSn=11" target="_self" class="header-submenu__link">성공사례</a>
+                      
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          
+        
+          
+        
+          
+          <li class="header-gnb__item">
+            <a href="/sup/page.do?mnucd=109" target="_self" class="header-gnb__link">소식&알림</a>
+            <div class="header-submenu__wrap">
+              <div class="header-submenu__head">
+                <h3 class="header-submenu__1dep">소식&알림</h3>
+              </div>
+              <div class="header-submenu__body">
+                <ul class="header-submenu__row">
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=110&scBbsMngSn=1" target="_self" class="header-submenu__link">공지사항</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=111&scBbsMngSn=2" target="_self" class="header-submenu__link">오늘의 뉴스</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=112&scBbsMngSn=3" target="_self" class="header-submenu__link">Q&A</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/page.do?mnucd=113" target="_self" class="header-submenu__link">소상공인, 전통시장 자료</a>
+                      
+                      <ul class="header-3depmenu__row">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                          <li class="header-3depmenu__item">
+                            <a href="/sup/bbs/list.do?mnucd=114&scBbsMngSn=4" target="_self" class="header-3depmenu__link">소상공인 통계</a>
+                          </li>
+                        
+                      
+                        
+                          <li class="header-3depmenu__item">
+                            <a href="https://stat.kosis.kr/nsieu/view/tree.do?task=branchView&id=309_30902*MT_OTITLE&hOrg=309" target="_blank" class="header-3depmenu__link">전통시장 통계DB</a>
+                          </li>
+                        
+                      
+                        
+                          <li class="header-3depmenu__item">
+                            <a href="/sup/bbs/list.do?mnucd=115&scBbsMngSn=5" target="_self" class="header-3depmenu__link">보고서</a>
+                          </li>
+                        
+                      
+                        
+                          <li class="header-3depmenu__item">
+                            <a href="/sup/bbs/list.do?mnucd=117&scBbsMngSn=6" target="_self" class="header-3depmenu__link">체감경기지수(BSI)</a>
+                          </li>
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                      </ul>
+                      
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=118&scBbsMngSn=7" target="_self" class="header-submenu__link">창업절차도</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=119&scBbsMngSn=8" target="_self" class="header-submenu__link">FAQ</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/bbs/list.do?mnucd=120&scBbsMngSn=9" target="_self" class="header-submenu__link">이벤트</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/srvy/list.do?mnucd=121" target="_self" class="header-submenu__link">설문조사</a>
+                      
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="header-gnb__item">
+            <a href="/sup/page.do?mnucd=122" target="_self" class="header-gnb__link">나의정보</a>
+            <div class="header-submenu__wrap">
+              <div class="header-submenu__head">
+                <h3 class="header-submenu__1dep">나의정보</h3>
+              </div>
+              <div class="header-submenu__body">
+                <ul class="header-submenu__row">
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/mypage/custom/list.do?mnucd=123" target="_self" class="header-submenu__link">나의 맞춤정보</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/page.do?mnucd=124" target="_self" class="header-submenu__link">나의 지원이력</a>
+                      
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/mypage/bbs/itrst/list.do?mnucd=135" target="_self" class="header-submenu__link">나의 관심글</a>
+                      
+                    </li>
+                    
+                  
+                    
+                    <li class="header-submenu__item">
+                      <a href="/sup/mypage/bbs/list.do?mnucd=136&scBbsMngSn=3" target="_self" class="header-submenu__link">나의 Q&A</a>
+                      
+                    </li>
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+    <div class="header-snb i-col-0">
+      <ul class="header-member__wrap i-col-0">
+        
+        <!-- 로그인 전 { -->
+        <li class="header-member__item">
+          <a href="#" onclick="return ssoLogin();" class="header-member__link">로그인</a>
+        </li>
+        <li class="header-member__item">
+          <a href="https://sso.sbiz24.kr/#/join?returnUrl=https://www.sbiz.or.kr/sup/main.do" class="header-member__link blue">회원가입</a>
+        </li>
+        <!-- } 로그인 전 -->
+        
+        
+      </ul>
+      
+	    
+	    
+	      
+	      
+	    
+	  
+	  
+      <a href="https://www.sbiz24.kr/#/" target="_blank" class="header-link__wrap i-col-0">
+        <img src="/sup/resource/www/img/icon-24.png" alt="소상공인24 아이콘">
+        <p>소상공인 24</p>
+      </a>
+      <div class="header-sch__wrap srch-wrap">
+        <form id="srchFrm" action="/sup/search/list.do" class="header-sch__form" onsubmit="return goSearchPage();">
+          <input type="hidden" name="mnucd" value="155">
+          <div class="header-sch__box">
+            <label for="srch" class="header-sch__label hidden">검색어</label>
+            <input type="text" id="srch" name="srch" value="" placeholder="검색어를 입력해주세요." title="검색어 입력" class="header-sch__input">
+            <button type="submit" class="header-sch__button">
+              <img src="/sup/resource/www/img/srch-icon.png" alt="검색 버튼">
+            </button>
+          </div>
+        </form>
+      </div>
+      <button class="header-sch__button--mobile">
+        <img src="/sup/resource/www/img/srch-icon.png" alt="검색 버튼">
+      </button>
+      <button class="header-menu__button" title="메뉴 열기 버튼">
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <div class="header-fullmenu">
+    <div class="header-fullmenu__inner wrapper i-col-0 match_h">
+      <div class="header-quick">
+        <div class="header-quick__box">
+          <p class="header-quick__title">QUICK LINK</p>
+          <ul class="header-quick__list">
+            <li class="header-quick__item">
+              <a href="/sup/page.do?mnucd=148#0" class="header-quick__link">창업지원</a>
+            </li>
+            <li class="header-quick__item">
+              <a href="/sup/page.do?mnucd=148#1" class="header-quick__link">경영성장</a>
+            </li>
+            <li class="header-quick__item">
+              <a href="/sup/page.do?mnucd=148#2" class="header-quick__link">재기지원</a>
+            </li>
+            <li class="header-quick__item">
+              <a href="/sup/page.do?mnucd=148#3" class="header-quick__link">전통시장</a>
+            </li>
+            <li class="header-quick__item">
+              <a href="/sup/page.do?mnucd=148#4" class="header-quick__link">정책자금</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-sitemap i-col-0">
+        <div class="header-sitemap__box__wrap header-sitemap__box__wrap--1">
+          
+          
+          <div class="header-sitemap__box header-sitemap__box--1">
+            <p class="header-sitemap__title">사업정보</p>
+            <div class="header-sitemap__wrap">
+              <ul class="header-sitemap__row--1dep">
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/page.do?mnucd=153" target="_self" class="header-sitemap__link--1dep"><p>사업정보</p></a>
+                  
+                  <ul class="header-sitemap__row--2dep">
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=102&scBbsCtgryId=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">정책자금</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=103&scBbsCtgryId=%EC%84%B1%EC%9E%A5%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">성장지원</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=104&scBbsCtgryId=%EC%9E%AC%EA%B8%B0%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">재기지원</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=154&scBbsCtgryId=%EC%B0%BD%EC%97%85%EC%A7%80%EC%9B%90&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">창업지원</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=105&scBbsCtgryId=%EC%A0%84%ED%86%B5%EC%8B%9C%EC%9E%A5%ED%99%9C%EC%84%B1%ED%99%94&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">전통시장 활성화</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=106&scBbsCtgryId=%EC%86%8C%EA%B3%B5%EC%9D%B8%ED%8A%B9%ED%99%94&scBbsMngSn=10" target="_self" class="header-sitemap__link--2dep">소공인특화</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  </ul>
+                  
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="header-sitemap__box header-sitemap__box--1">
+            <p class="header-sitemap__title">성공사례</p>
+            <div class="header-sitemap__wrap">
+              <ul class="header-sitemap__row--1dep">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=108&scBbsMngSn=11" target="_self" class="header-sitemap__link--1dep"><p>성공사례</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+        <div class="header-sitemap__box__wrap header-sitemap__box__wrap--2">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="header-sitemap__box header-sitemap__box--2">
+            <p class="header-sitemap__title">소식&알림</p>
+            <div class="header-sitemap__wrap i-col-2">
+              <ul class="header-sitemap__row--1dep">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=110&scBbsMngSn=1" target="_self" class="header-sitemap__link--1dep"><p>공지사항</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=111&scBbsMngSn=2" target="_self" class="header-sitemap__link--1dep"><p>오늘의 뉴스</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=112&scBbsMngSn=3" target="_self" class="header-sitemap__link--1dep"><p>Q&A</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/page.do?mnucd=113" target="_self" class="header-sitemap__link--1dep"><p>소상공인, 전통시장 자료</p></a>
+                  
+                  <ul class="header-sitemap__row--2dep">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=114&scBbsMngSn=4" target="_self" class="header-sitemap__link--2dep">소상공인 통계</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="https://stat.kosis.kr/nsieu/view/tree.do?task=branchView&id=309_30902*MT_OTITLE&hOrg=309" target="_blank" class="header-sitemap__link--2dep">전통시장 통계DB</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=115&scBbsMngSn=5" target="_self" class="header-sitemap__link--2dep">보고서</a>
+                    </li>
+                    
+                    
+                    
+                    <li class="header-sitemap__item--2dep">
+                      <a href="/sup/bbs/list.do?mnucd=117&scBbsMngSn=6" target="_self" class="header-sitemap__link--2dep">체감경기지수(BSI)</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  </ul>
+                  
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+              <ul class="header-sitemap__row--1dep">
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=118&scBbsMngSn=7" target="_self" class="header-sitemap__link--1dep"><p>창업절차도</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=119&scBbsMngSn=8" target="_self" class="header-sitemap__link--1dep"><p>FAQ</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/bbs/list.do?mnucd=120&scBbsMngSn=9" target="_self" class="header-sitemap__link--1dep"><p>이벤트</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/srvy/list.do?mnucd=121" target="_self" class="header-sitemap__link--1dep"><p>설문조사</p></a>
+                  
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="header-sitemap__box header-sitemap__box--3">
+            <p class="header-sitemap__title">나의정보</p>
+            <div class="header-sitemap__wrap">
+              <ul class="header-sitemap__row--1dep">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/mypage/custom/list.do?mnucd=123" target="_self" class="header-sitemap__link--1dep"><p>나의 맞춤정보</p></a>
+                </li>
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/page.do?mnucd=124" target="_self" class="header-sitemap__link--1dep"><p>나의 지원이력</p></a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/mypage/bbs/itrst/list.do?mnucd=135" target="_self" class="header-sitemap__link--1dep"><p>나의 관심글</p></a>
+                </li>
+                
+                
+                
+                <li class="header-sitemap__item--1dep">
+                  <a href="/sup/mypage/bbs/list.do?mnucd=136&scBbsMngSn=3" target="_self" class="header-sitemap__link--1dep"><p>나의 Q&A</p></a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- } Header -->
+
+
+<!-- Sub title { -->
+<div class="sub-title-wrap">
+  <div class="wrapper2">
+    <div id="sub" class="cf sub-title-box">
+      <p class="sub-title">
+        <span class="sub-tit">
+          
+          오픈API
+          
+        </span>
+        <span class="sub-txt">POLICY</span>
+      </p>
+      <ul class="i-col-0 sub-breadcrumb">
+        <li><a href="/sup/main.do"> <img src="/sup/resource/www/img/icon-home.png" alt="홈"></a></li>
+        
+          <li><a href="/sup/page.do?mnucd=137" target="_self"> 푸터 </a></li>
+        
+        
+        
+          <li>
+          	  <a href="/sup/conts/view.do?mnucd=144" target="_self">오픈API</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- } Sub title -->
+
+
+<!-- Sub content { -->
+<div class="sub-contents">
+
+
+
+
+
+
+      <div class="wrapper2">
+        <div class="view-wrap">
+          <p class="page-title">API 정보</p>
+          <div class="view-content">
+            <div class="view-tbl__wrap">
+              <table class="view-tbl view-tbl--type1">
+                <caption>
+                  <strong>API 정보</strong>
+                  <p>API 유형, 담당자, 데이터 갱신주기, 요청 URL 제공</p>
+                </caption>
+                <tbody>
+                  <tr>
+                    <th>API 유형</th>
+                    <td>조회</td>
+                  </tr>
+                  <tr>
+                    <th>API 담당자</th>
+                    <td>정보화전략실 / 민선영 주임 / (042)363-7556 / msy0505@semas.or.kr</td>
+                  </tr>
+                  <tr>
+                    <th>API 데이터 갱신주기</th>
+                    <td>하루에 한번(오전 6시)</td>
+                  </tr>
+                  <tr>
+                    <th>요청 URL</th>
+                    <td>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">정책자금</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policyfound.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policyfound.do</a>
+                      </div>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">성장지원</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policygrow.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policygrow.do</a>
+                      </div>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">재기지원</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policycomeback.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policycomeback.do</a>
+                      </div>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">창업지원</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policystartup.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policystartup.do</a>
+                      </div>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">전통시장활성화</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policymarket.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policymarket.do</a>
+                      </div>
+                      <div class="view-link__row">
+                        <span class="view-link__item view-link__item--title">소공인특화</span>
+                        <a href="https://www.sbiz.or.kr/sup/policy/json/policygrnty.do" target="_blank" class="view-link__item view-link__item--link">https://www.sbiz.or.kr/sup/policy/json/policygrnty.do</a>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-wrap">
+          <p class="page-title">응답 메시지 명세</p>
+          <div class="view-content">
+            <p class="scrollText scrollText-767">← 좌우로 스크롤하여 확인해주세요 →</p>
+            <div class="view-tbl__wrap">
+              <table class="view-tbl view-tbl--type2">
+                <caption>
+                  <strong>응답 메시지 명세</strong>
+                  <p>항목명(영문), 항목명(국문), 항목명 최대 크기, 샘플데이터, 항목설명 제공</p>
+                </caption>
+                <thead>
+                  <tr>
+                    <th>항목명(영문)</th>
+                    <th>항목명(국문)</th>
+                    <th>항목명최대크기</th>
+                    <th>샘플데이터</th>
+                    <th>항목설명</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>status</td>
+                    <td>상태</td>
+                    <td>10</td>
+                    <td>SUCCESS</td>
+                    <td>처리 상태<br>(SUCCESS, ERROR)</td>
+                  </tr>
+                  <tr>
+                    <td>message</td>
+                    <td>메시지</td>
+                    <td>100</td>
+                    <td>처리 성공</td>
+                    <td>처리 메시지</td>
+                  </tr>
+                  <tr>
+                    <td>createDate</td>
+                    <td>생성일시</td>
+                    <td>20</td>
+                    <td>2018-10-31 06:00:00</td>
+                    <td>데이터 생성일시</td>
+                  </tr>
+                  <tr>
+                    <td>areaNo</td>
+                    <td>지역번호</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>지역번호(1~7)</td>
+                  </tr>
+                  <tr>
+                    <td>areaNm</td>
+                    <td>지역이름</td>
+                    <td>100</td>
+                    <td>전국</td>
+                    <td>지역명<br>(전국, 서울/강원, 인천/경기, 대전/세종/충청, <br>대구/경북, 부산/울산/경남, 광주/전라/제주)</td>
+                  </tr>
+                  <tr>
+                    <td>itemCnt</td>
+                    <td>아이템 수</td>
+                    <td>100</td>
+                    <td>7</td>
+                    <td>아이템 수</td>
+                  </tr>
+                  <tr>
+                    <td>title</td>
+                    <td>제목</td>
+                    <td>200</td>
+                    <td>2017년 경기도 소상공인 사업 <br>정리도우미 프로젝트	</td>
+                    <td>컨텐츠 제목</td>
+                  </tr>
+                  <tr>
+                    <td>url</td>
+                    <td>URL</td>
+                    <td>200</td>
+                    <td>http://www.sbiz.or.kr/sup/ssup_c01/1204298_1463.jsp?gubun=policycomeback</td>
+                    <td>해당 컨텐츠 URL</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div class="view-wrap">
+          <p class="page-title">요청/응답메세지 예제</p>
+          <div class="view-content">
+            <div class="view-tbl__wrap">
+              <table class="view-tbl view-tbl--type1">
+                <caption>
+                  <strong>요청/응답 메세지 예제</strong>
+                  <p>REST(URL), 응답 메시지 제공</p>
+                </caption>
+                <tbody>
+                  <tr>
+                    <th>REST(URL)</th>
+                    <td><a href="https://www.sbiz.or.kr/sup/policy/json/policycomeback.do" target="_blank">https://www.sbiz.or.kr/sup/policy/json/policycomeback.do</a></td>
+                  </tr>
+                  <tr>
+                    <th>응답 메시지</th>
+                    <td>
+                      <img src="/sup/resource/www/img/api-img.jpg" alt="응답 메세지 이미지">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+</div>
+<!-- } Sub content -->
+
+<!-- Footer { -->
+
+
+<div id="footer">
+  <!-- 챗봇 { -->
+  <a href="javascript:void(0);" onclick="chat('https://www.sbiz24.kr/chat/ch/home.do');" class="footer-chat" title="소상공인 지능형서비스 상담 챗봇 새창열림">
+    <img src="/sup/resource/www/img/icon-chat.png" alt="챗봇 이미지">
+  </a>
+  <!-- } 챗봇 -->
+  <div class="footer-contents">
+    <div class="footer-contents__inner wrapper">
+      <ul class="footer-page__row i-col-0">
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=138">이용약관</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=139" class="blue">개인정보처리방침</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=140">저작권정책</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=141">책임의한계와법적고지</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=142">이메일주소무단수집거부</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="https://113366.com/seda" target="_blank">원격지원</a>
+        </li>
+        <li class="footer-page__item">
+          <a href="/sup/conts/view.do?mnucd=144">오픈API</a>
+        </li>
+      </ul>
+      <ul class="footer-info__row i-col-0 footer-bot-info-ul">
+        <li class="footer-info__item i-col-0">
+          <p class="footer-info__text--left">주소</p>
+          <p class="footer-info__text--right">(우) 34917 대전광역시 중구 보문로 246 대림빌딩 2~3층, 11층, 16층 소상공인시장진흥공단</p>
+        </li>
+        <li class="footer-info__item i-col-0">
+          <p class="footer-info__text--left">대표전화</p>
+          <p class="footer-info__text--right">1357</p>
+        </li>
+      </ul>
+      <p class="footer-copyright">Copyright 2022 SEMAS, All Right Reserved.</p>
+      <div class="footer-right">
+      
+        <div class="footer-family__box">
+          <select name="family-site" id="family-site" class="footer-family__select" title="Family Site 선택">
+            <!-- option 의 value 값에 URL 입력 -->
+            <option value="">Family Site</option>
+            
+              <option value="https://edu.sbiz.or.kr/edu/main/main.do">교육(지식배움터)</option>
+            
+              <option value="https://www.sbiz.or.kr/cot/main.do">소상공인컨설팅</option>
+            
+              <option value="https://www.sbiz.or.kr/nhrp/main.do">희망리턴패키지</option>
+            
+              <option value="https://www.sbiz.or.kr/fcs/main.do">프랜차이즈</option>
+            
+              <option value="https://www.sbiz.or.kr/cop/main/copMain.do">협업활성화</option>
+            
+              <option value="https://www.sbiz.or.kr/nbs/main.do">신사업창업사관학교</option>
+            
+              <option value="https://sg.sbiz.or.kr/">상권정보</option>
+            
+              <option value="https://www.sbiz.or.kr/sijangtong/nation.do">전통시장</option>
+            
+              <option value="https://www.sbiz.or.kr/ssm/main.do">소공인특화지원</option>
+            
+              <option value="https://www.sbiz.or.kr/eip/main/main.do">고용보험료 지원</option>
+            
+              <option value="https://www.sbiz.or.kr/hdst/main/mainPage.do">백년가게 · 백년소공인</option>
+            
+              <option value="https://www.ipacademy.net/main.do">국가지식재산교육포털</option>
+            
+          </select>
+          <button class="family-site__btn" title="새 창">이동<span></span></button>
+        </div>
+      
+        <div class="footer-logo__box i-col-0">
+          <div class="footer-logo__item">
+            <a href="https://www.semas.or.kr/web/main/index.kmdc" target="_blank" class="footer-logo__link" title="소상공인시장진흥공단 새창열림">
+              <img src="/sup/resource/www/img/footer-logo01.png" alt="소상공인시장진흥공단 로고">
+            </a>
+          </div>
+          <div class="footer-logo__item">
+            <a href="https://www.mss.go.kr/site/smba/main.do" target="_blank" class="footer-logo__link" title="중소벤처기업부 새창열림">
+              <img src="/sup/resource/www/img/footer-logo02.png" alt="중소벤처기업부 로고">
+            </a>
+          </div>
+          <div class="footer-logo__item footer-logo__item--wa">
+            <a href="http://webwatch.or.kr" target="_blank" class="footer-logo__link" title="웹와치 새창열림">
+              <img src="/sup/resource/www/img/wa_mark.png" alt="과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2023.04.19 ~ 2024.04.18">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- } Footer -->
+
+<!-- Connection History { -->
+
+
+
+<script>
+$(function() {
+
+	var menuSn = '144';
+
+	var menuYn = sessionStorage.getItem('MENU_CNTN_HSTRY_' + menuSn);
+	
+	if (menuYn == null || menuYn != 'Y') {
+		$.post('/sup/menu/cntn/hstry/insert.do', {
+			menuSn: menuSn
+		}, function() {
+			sessionStorage.setItem('MENU_CNTN_HSTRY_' + menuSn, 'Y');
+		})
+		.fail(function(request, status, error) {
+			console.log('code:' + request.status + '\nmessage:' + request.responseText + '\nerror:' + error);
+		});
+	}
+});
+</script>
+<!-- } Connection History -->
+
+<!-- GooglAnalytics -->
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3180660-19"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3180660-19');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTX8V132FY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MTX8V132FY');
+</script>
+
+
+<!-- GooglAnalytics -->
+
+<!-- 로딩이 필요한 페이지 또는 공통 호출 가능 페이지에 load-wrap 추가 -->
+<div class="load-wrap">
+  <div class="load-content">
+    <img src="/sup/resource/www/img/loading.gif" alt="로딩이미지">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+

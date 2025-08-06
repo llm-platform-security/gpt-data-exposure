@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Privacy Policy - Flight Plan Database</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="shortcut icon" href="https://static.flightplandatabase.com/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="https://static.flightplandatabase.com/images/app-icon.min.png">
+
+<meta property="og:site_name " content="Flight Plan Database">
+<meta property="og:image" content="https://static.flightplandatabase.com/images/logo.min.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+
+
+
+<link rel="stylesheet" type="text/css" href="https://static.flightplandatabase.com/merged/8021161237860328030179379307066849278.css">
+
+		
+		<meta property="og:title" content="Privacy Policy">
+		<meta property="og:description" content="The Flight Plan Database privacy policy">
+
+		<meta name="description" content="The Flight Plan Database privacy policy">
+		<meta name="keywords" content="privacy, legal, flight plan database, database, aviation, flightplans, flight simulator">
+	</head>
+	
+	<body>
+		<div class="navigation">
+	<div style="display:none" id="_csrf">spyjj0jn-zZww_7vqesFL0MumnA3WJ0uw0GI</div>
+	
+	<div class="navigation-icon navigation-item">
+		<a class="menu-link" href="/"></a>
+	</div>
+
+	<div class="navigation-separator"></div>
+
+	<nav class="navigation-links navigation-item">
+		<ul class="menu-container">
+			<li>
+				<a class="menu-link" href="/tags">Tags</a>
+			</li>
+			<li>
+				<a class="menu-link" href="/planner">Planner</a>
+			</li>
+			<li>
+				<a class="menu-link" href="/upload">Upload</a>
+			</li>
+			<li>
+				<a class="menu-link" href="/tools">Tools</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="navigation-separator"></div>
+			
+	<div class="navigation-search navigation-item">
+		<form method="get" action="/search">
+			<input type="text" name="q" id="search" value="" placeholder="Search..." tabindex="1" autocorrect="off" autocapitalize="off" spellcheck="false">
+		</form>
+	</div>
+
+	<div class="navigation-search-advanced navigation-item">
+		<a href="/search">
+			<img class="navigation-search-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPAQMAAAABGAcJAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURUdwTAAAAJ8qhFEAAAABdFJOUwBA5thmAAAALUlEQVQI12NgZGBgbmAwnsFg/4NB/gODTAFDhQ3DDzsQCWQDRYDiQFmgGkYGAPK3CuGnjffOAAAAAElFTkSuQmCC" title="Advanced Search">
+		</a>
+	</div>
+
+	
+		<div class="navigation-account navigation-item">
+			<a class="menu-link" href="/login">Join</a>
+		</div>
+	
+
+	<div class="navigation-account navigation-item">
+		
+			<a class="menu-link" href="/login" id="navigation-login">Sign in</a>
+		
+	</div>
+
+</div>
+
+<div id="account-dropdown" class="navigation-dropdown">
+	
+		<form action="/auth/login" method="POST">
+			<label for="nav-login-id">Username / Email</label><br>
+			<input type="text" name="username" id="nav-login-id" required><br>
+
+			<label for="nav-login-username">Password</label><br>
+			<input type="password" name="password" id="nav-login-password" required><br>
+			<a href="/forgotpassword">Forgot your password?</a><br/><br/>
+
+			<input type="checkbox" id="nav-login-remember" name="remember" checked>
+			<label for="nav-login-remember">Remember me</label><br>
+
+			<input type="hidden" name="_csrf" value="spyjj0jn-zZww_7vqesFL0MumnA3WJ0uw0GI">
+
+			<input type="submit" value="Sign In">
+		</form>
+	
+</div>
+
+		<div class="container">
+			<div class="main">
+				<div class="main-item-title">Privacy Policy</div>
+				<div class="main-item">
+					<b>Flight Plan Database Privacy Policy</b><br>
+					<p>Last modified August 17 2018, in advance of September 1 2018 applicability.</p><br>
+
+					<p>
+						We take security of your personal information seriously throughout the Flight Plan Database. This document details what information is collected, how it is used and who has access to it.
+					</p><br>
+
+					<p>
+						<b>Information Collection and Usage</b><br>
+						The following identifiable information is collected and stored by the Flight Plan Database: <br><br>
+						- Email address: An email address is collected when registering for an account on the Flight Plan Database and is used for account identification and transactional messaging about account updates. This address is held on the Flight Plan Database servers for the lifetime of the account (unless the account email is changed) and shared only with the email service provider (Amazon Web Services) necessary to send emails. A hashed version of the email address is also used for profile images from <a target="_blank" rel="noopener" href="http://en.gravatar.com/">Gravatar</a>, although only if activated in the account settings.<br><br>
+						- User entered location information: This information is collected only when a user chooses to add a location to their profile and is used only for display purposes. This information is publicly available to any site visitor.<br><br>
+						- Requesting IP: This information is collected as requests are received by the Flight Plan Database servers and is used for site performance testing and abuse prevention. This information is held on the Flight Plan Database servers for 90 days and is also shared with the error tracking service Sentry only in the event of site errors.<br><br>
+						- Cookies: The Flight Plan Database sets and uses cookies to store state between requests and store preferences for site interactions.<br><br>
+
+						The Flight Plan Database servers are located in Europe. Where required by law, the Flight Plan Database may share the above information with government agencies.
+					</p><br>
+
+					<p>
+						<b>Data Rights</b><br>
+						All user account data can be removed by deleting your account in the account settings page. This account data may also exist in recent logs and backups, which are deleted within a month. For expedited deletion or for information on all user information held, please <a href="/contact">contact us</a>. 
+					</p><br>
+
+					<p>
+						<b>Changes to this Policy</b><br>
+						This policy may be updated at any time. Prior to these changes becoming effective, we will notify you through your account email address and give options for continued compliance and consent.
+					</p><br>
+
+					<p>
+						<b>Advertising</b><br>
+						Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website. Google's use of the DoubleClick cookie enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet. Users may opt out of the use of the DoubleClick cookie for interest-based advertising by visiting <a target="_blank" rel="noopener" href="http://www.google.com/ads/preferences/">Ads Settings</a>. (Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for interest based advertising by visiting <a target="_blank" rel="noopener" href="http://www.aboutads.info/">aboutads.info</a>.)<br><br>
+					</p><br>
+
+					If you have any questions about this policy, please <a href="/contact">contact us</a>.</p>
+
+				</div>
+			</div>
+			<div class="footer">
+	<div class="footer-icon"></div>
+	<div class="footer-item">
+		<span class="footer-item-title">Info</span><br>
+		<ul>
+			<li>- <a href="/about">About</a></li>
+			<li>- <a href="/stats">Stats</a></li>
+		</ul>
+	</div>
+	<div class="footer-item">
+		<span class="footer-item-title">Support</span><br>
+		<ul>
+			<li>- <a href="/contact">Contact Us</a></li>
+		</ul>
+	</div>
+	<div class="footer-item">
+		<span class="footer-item-title">Developers</span><br>
+		<ul>
+			<li>- <a href="/dev/api">API</a></li>
+			<li>- <a href="/dev/specification">FMS Specification</a></li>
+		</ul>
+	</div>
+	<div class="footer-item">
+		<span class="footer-item-title">Legal</span><br>
+		<ul>
+			<li>- <a href="/tos">Terms</a></li>
+			<li>- <a href="/privacy">Privacy</a></li>
+		</ul>
+	</div>
+	<div class="footer-item">
+		2008 - 2024 -- 0.000s<br/>
+	</div>
+</div>
+		</div>
+		<div class="cookie-consent">
+	This website uses cookies to ensure you get the best experience<br>
+	<span class="cookie-consent-ok">OK!</span>
+</div>
+
+
+<script type="text/javascript" charset="utf-8" src="https://static.flightplandatabase.com/merged/22603293324706783324422539765251983.js" nonce="0f25c5bf08fb50578c4514ab8497eff2ee1c88feb20d5f9e46"></script>
+
+
+<script type="text/javascript" nonce="0f25c5bf08fb50578c4514ab8497eff2ee1c88feb20d5f9e46">
+	Raven.config('https://0fffe4341d71411b9533796aec65ddcb@sentry.io/61759', {
+		ignoreErrors: [
+			/Blocked a frame with origin "\S+" from accessing a frame with origin "\S+"\. Protocols, domains, and ports must match\./i
+		]
+	}).install();
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	if (ga) {
+		ga('create', '1-20023134-AU'.split('').reverse().join(''), {
+			dh: 'flightplandatabase.com',
+			siteSpeedSampleRate: 100,
+			forceSSL: true
+		});
+		ga('set', 'dimension1', 'Guest');
+		ga('set', 'dimension2', 'true');
+		ga('set', 'anonymizeIp', true);
+		ga('send', 'pageview');
+	}
+</script>
+	</body>
+</html>

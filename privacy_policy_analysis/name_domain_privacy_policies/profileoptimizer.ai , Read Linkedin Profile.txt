@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            width: 75%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #000;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .contact {
+            font-style: italic;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> November 20, 2023</p>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>We do not collect, store, or use any personal information from our users. Our Service is designed to analyze and provide suggestions for users' profiles without retaining any data post-interaction.</p>
+
+        <h2>2. Use of Your Profile</h2>
+        <p><strong>Analysis Only:</strong> When you use our Service to optimize your profile, the information you provide is only used for the purpose of analysis and generating optimization suggestions.</p>
+        <p><strong>No Storage:</strong> We do not store your profile information, or any other personal data you provide during the use of our Service.</p>
+        <p><strong>No Sharing:</strong> Your information is not shared with any third parties.</p>
+
+        <h2>3. Anonymity and Security</h2>
+        <p><strong>Anonymity in Use:</strong> You can use our Service anonymously. We do not require your name, email address, or any other personal information.</p>
+        <p><strong>Security Measures:</strong> We implement appropriate technical measures to ensure that your interaction with our Service is secure and your information is not accessed by unauthorized parties.</p>
+
+        <h2>4. Changes to Our Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <div class="contact">
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at: info@profileoptimizer.ai</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 ProfileOptimizer.ai - All rights reserved.
+    </footer>
+</body>
+</html>

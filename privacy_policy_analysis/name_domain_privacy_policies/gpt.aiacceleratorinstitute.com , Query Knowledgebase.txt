@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="dns-prefetch" href="https://sync.outbrain.com">
+    <link rel="dns-prefetch" href="https://ups.analytics.yahoo.com">
+    <link rel="dns-prefetch" href="https://ib.adnxs.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.logrocket.io">
+
+    <link rel="preload" as="style"  rel="stylesheet" type="text/css" href="https://www.aiacceleratorinstitute.com/assets/built/screen.css?v=1cd58aa5b3" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Privacy policy</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+
+    <link  rel="stylesheet" type="text/css" href="https://www.aiacceleratorinstitute.com/assets/built/screen.css?v=1cd58aa5b3" />
+
+
+            <meta name="author" content="AIAI">
+
+
+
+    <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+
+    <script>
+      window.LogRocket && window.LogRocket.init('acara/sequel-main');
+
+      window.inArticleAdList;
+      window.inArticleAdListDisabled;
+      window.topNav;
+      window.showGetCertCta;
+      window.isTOCenabled;
+      window.userIdSegment = localStorage.getItem("user_id");
+    </script>
+
+
+    <script>
+      var ghosthunter_key = 'b1d2e55946ba49e939e2eba782';
+      window.isHiddenUpgradeVisible = false;
+    </script>
+    <script type="text/javascript">
+      function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      var action = getParameterByName('action');
+    if (action == 'signin') {
+          window.location = '/account';
+      }
+
+      if (window.location && window.location.search && window.location.search.includes('stripe=success')) {
+        window.location = '/activate';
+      }
+    </script>
+    <script>
+      var checkUserId = function({ payload, next, integrations }) {
+        var user_id = payload.obj.userId;
+        if(user_id && (user_id.length === 8 || user_id.length !== 36)) {
+          console.log('teacahble user_id still set, clearing');
+          window.localStorage.removeItem('apc_user_id');
+          analytics.reset();
+          analytics.user().anonymousId(payload.obj.anonymousId);
+          delete payload.obj.userId;
+          delete payload.obj.traits;
+          console.log('payload after clearing', payload.obj);
+        }
+        next(payload);
+      };
+    
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="RZg3uy2Djn0YfyEDm0XXZlEtJOZEBCAA";analytics.SNIPPET_VERSION="4.13.2";
+    
+        const tags = [];
+        const authors = [];
+        let primary_tag;
+        let primary_author;
+            primary_author = "AIAI";
+            primary_tag = "";
+                  authors.push("AIAI")
+          analytics.addSourceMiddleware(checkUserId);
+          analytics.load('RZg3uy2Djn0YfyEDm0XXZlEtJOZEBCAA', {
+            user: {
+              persist: true,
+              cookie: {
+                key: 'ajs_alliance_user_id'
+              },
+              localStorage: {
+                key: 'ajs_alliance_user_traits'
+              }
+            }
+          });
+          analytics.page({
+            properties: {
+              primary_tag: primary_tag,
+              primary_author: primary_author,
+              authors: authors,
+              tags: tags,
+              community: 'AIAI'
+              }
+          });
+          
+      }}();
+      
+    </script>
+
+    <meta name="description" content="This Application collects some Personal Data from its Users. This document contains a section dedicated to Californian consumers and their privacy rights.">
+    <link rel="icon" href="https://www.aiacceleratorinstitute.com/content/images/size/w256h256/format/jpeg/2023/06/AIAI_Favicon_60x60px_.jpg" type="image/jpeg">
+    <link rel="canonical" href="https://www.aiacceleratorinstitute.com/privacy-policy/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="AI Accelerator Institute">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Privacy policy">
+    <meta property="og:description" content="This Application collects some Personal Data from its Users. This document contains a section dedicated to Californian consumers and their privacy rights.">
+    <meta property="og:url" content="https://www.aiacceleratorinstitute.com/privacy-policy/">
+    <meta property="og:image" content="https://www.aiacceleratorinstitute.com/content/images/2020/03/aiacceleratorinstitute-2.png">
+    <meta property="article:published_time" content="2021-05-05T17:50:11.000Z">
+    <meta property="article:modified_time" content="2021-05-05T17:50:52.000Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy policy">
+    <meta name="twitter:description" content="This Application collects some Personal Data from its Users. This document contains a section dedicated to Californian consumers and their privacy rights.">
+    <meta name="twitter:url" content="https://www.aiacceleratorinstitute.com/privacy-policy/">
+    <meta name="twitter:image" content="https://www.aiacceleratorinstitute.com/content/images/2020/03/aiacceleratorinstitute-1.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="AIAI">
+    <meta name="twitter:site" content="@AI_AInstitute">
+    <meta name="twitter:creator" content="@ai_ainstitute">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AI Accelerator Institute",
+        "url": "https://www.aiacceleratorinstitute.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.aiacceleratorinstitute.com/content/images/2023/06/aiai_logo_full--1-.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "AIAI",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.aiacceleratorinstitute.com/content/images/2020/07/Untitled-design--52-.png",
+            "width": 200,
+            "height": 200
+        },
+        "url": "https://www.aiacceleratorinstitute.com/author/aiai/",
+        "sameAs": [
+            "https://twitter.com/ai_ainstitute"
+        ]
+    },
+    "headline": "Privacy policy",
+    "url": "https://www.aiacceleratorinstitute.com/privacy-policy/",
+    "datePublished": "2021-05-05T17:50:11.000Z",
+    "dateModified": "2021-05-05T17:50:52.000Z",
+    "description": "This Application collects some Personal Data from its Users. This document contains a section dedicated to Californian consumers and their privacy rights. ",
+    "mainEntityOfPage": "https://www.aiacceleratorinstitute.com/privacy-policy/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.82">
+    <link rel="alternate" type="application/rss+xml" title="AI Accelerator Institute" href="https://www.aiacceleratorinstitute.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.37/umd/portal.min.js" data-i18n="true" data-ghost="https://www.aiacceleratorinstitute.com/" data-key="5cbc0c447072bbc36bbddd8809" data-api="https://ai-accelerator-institute.ghost.io/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="5cbc0c447072bbc36bbddd8809" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://ai-accelerator-institute.ghost.io/" crossorigin="anonymous"></script>
+    
+    <link href="https://www.aiacceleratorinstitute.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=1cd58aa5b3"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=1cd58aa5b3">
+    <script defer src="/public/comment-counts.min.js?v=1cd58aa5b3" data-ghost-comments-counts-api="https://www.aiacceleratorinstitute.com/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=1cd58aa5b3"></script>
+    <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=5216131db94ff' async='true'></script>
+
+<!-- Start of Async ProveSource Code --><script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1ZWEyZTczNTRjNDQ0ZDQ1NzU0OWRhYWUiLCJpYXQiOjE1ODc3MzQzMjZ9.3BTkc-xMOUGxjeDJV_LuZh_FJ956iGxKa9mZGF4TRMA",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script><!-- End of Async ProveSource Code -->
+
+<!-- Mutiny Script -->
+<script>
+(function(){var a=window.mutiny=window.mutiny||{};if(!window.mutiny.client){a.client={_queue:{}};var b=["identify","trackConversion"];var c=[].concat(b,["defaultOptOut","optOut","optIn"]);var d=function factory(c){return function(){for(var d=arguments.length,e=new Array(d),f=0;f<d;f++){e[f]=arguments[f]}a.client._queue[c]=a.client._queue[c]||[];if(b.includes(c)){return new Promise(function(b,d){a.client._queue[c].push({args:e,resolve:b,reject:d});setTimeout(d,500)})}else{a.client._queue[c].push({args:e})}}};c.forEach(function(b){a.client[b]=d(b)})}})();
+</script>
+<script data-cfasync="false" src="https://client-registry.mutinycdn.com/personalize/client/dc82cf9a1e4605e6.js"></script>
+<!-- End Mutiny Script -->
+
+<script>!function () {var reb2b = window.reb2b = window.reb2b || [];if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"];reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments);args.unshift(method);reb2b.push(args);return reb2b;};};for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);}reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true;script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz";var first = document.getElementsByTagName("script")[0];first.parentNode.insertBefore(script, first);};reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("X0NW1GHDR8O4");}();</script>
+
+<!-- Hotjar Tracking Code for https://www.aiacceleratorinstitute.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3160542,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Start of Async ProveSource Code --><script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1ZWEyZTczNTRjNDQ0ZDQ1NzU0OWRhYWUiLCJpYXQiOjE1ODc3MzQzMjZ9.3BTkc-xMOUGxjeDJV_LuZh_FJ956iGxKa9mZGF4TRMA",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script><!-- End of Async ProveSource Code -->
+
+<script>
+    
+     window.proPlusStripeIdList = [
+         'price_1Os0SsJPgTx1yJPRlqt9793S',
+         'price_1Os0ROJPgTx1yJPR3ckstydT',
+         'price_1Os0RNJPgTx1yJPRLqvP7Ktw'
+    ];
+    
+</script>
+
+<script>
+    
+  const eventsCalendar = [
+
+    {
+image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/AIAI/AIAI%20virtual%20meetup%20tiny.png',
+name: 'AIAI Virtual',
+date: '8 May 2024',
+location: 'Online',
+type: 'virtual Meetups',
+description: 'Virtual meetup with fellow AI experts',
+buttonText: 'Sign up here',
+url: 'https://meetup.aiacceleratorinstitute.com/c/virtual/ai-virtual-may8',
+    },
+    {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/AIAI/Copy%20of%20robovision%20webinar%20(1).png',
+    name: 'Accelerate your AI Initiatives',
+    date: 'May 23rd',
+    location: 'Online',
+    type: 'Webinars',
+    description: 'Advanced data architectures for cloud-based AI.',
+    buttonText: 'Sign up today.',
+    url: 'https://www.aiacceleratorinstitute.com/data-architectures-to-accelerate-your-cloud-based-ai-initiatives-webinar/',  
+    },
+    {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Webinar-assets/Neureality.png',
+    name: 'AI for the rest of us.',
+    date: 'June 2, 2024',
+    location: 'Online',
+    type: 'Webinars',
+    description: 'Affordable intel for profitable growth.',
+    buttonText: 'Sign up today.',
+    url: 'https://www.aiacceleratorinstitute.com/ai-for-the-rest-of-us-affordable-intelligence-for-profitable-growth-webinar/',
+},
+    {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Gen%20AI%20NYC.png',
+    name: 'New York',
+    date: 'June 12, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Unleash the latest tech revolution.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/newyork',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/austin.png',
+    name: 'Austin',
+    date: 'July 10, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Meet the builders & execs behind cutting-edge generative applications.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/austin',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Generative%20AI%20Berlin.png',
+    name: 'Berlin',
+    date: 'September 12, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Meet the builders & execs behind cutting-edge generative applications.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/berlin',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Computer%20Vision%20Summit%20Berlin.png',
+    name: 'Berlin',
+    date: 'September 12, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Unite with Europe\'s computer vision builders & innovators.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/berlin',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/aicxo%20boston.png',
+    name: 'Berlin',
+    date: 'September 12, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'An assembly of the decision makers behind Europe\'s rapid spike in innovation and application.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/berlin',
+  },
+    {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Computer%20Vision%20Boston.png',
+    name: 'Boston',
+    date: 'October 16 & 17, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Uniting global industry leaders to accelerate computer vision innovations to production.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/boston',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Generative%20AI%20Summit%20Boston.png',
+    name: 'Boston',
+    date: 'October 16 & 17, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Unleash the latest tech revolution.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/boston',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/aicxo%20boston.png',
+    name: 'Boston',
+    date: 'October 16, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Unite with the East Coast\'s most influential AI execs.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/boston',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/AI%20Summit%20Boston.png',
+    name: 'Boston',
+    date: 'October 17, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Power application with efficient & cost-effective infrastructure.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/boston',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Computer%20Vision%20London.png',
+    name: 'London',
+    date: 'November 7, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Uniting global industry leaders to accelerate computer vision innovations to production.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/london',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/Generative%20AI%20Summit%20London.png',
+    name: 'London',
+    date: 'November 7, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Take the latest tech revolution to production & scale.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/london',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/gen%20ai%20toronto.png',
+    name: 'Toronto',
+    date: 'November 20, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Meet the builders & execs behind cutting-edge generative applications.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/toronto',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/AIAI/AIAI_Event_Calendar_Gen_AI_San_Jose_.png',
+    name: 'San Jose',
+    date: '2025',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Unleash the latest tech revolution.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/sanjose',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/AIAI/AIAI_Event_Calendar_CV_San_Jose.png',
+    name: 'San Jose',
+    date: '2025',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Unite with 500+ peers & join the world\'s largest computer vision end-user assembly.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/sanjose',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/aicxo%20san%20jose.png',
+    name: 'San Jose',
+    date: '2025',
+    location: 'North America',
+    type: 'Summits',
+    description: 'An assembly of the Valley\'s most influential C-suite leaders.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/sanjose',
+  },
+    {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/AIAI_events_calendar/AIA%20SJ.png',
+    name: 'San Jose',
+    date: '2025',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Discover the high-performance infrastructure needed to accelerate your AI systems to production.',
+    buttonText: 'Find out more',
+    url: 'https://world.aiacceleratorinstitute.com/location/sanjose',
+  },
+    
+  // Add more as needed
+];
+</script>
+
+
+<script>
+    var eventsList = [          
+        {
+          'title': 'AICXO Summit | San Jose',
+          'date': 'April 16, 2024',
+          'location': '<b>San Jose, CA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/sanjose/'          
+        },
+          {
+          'title': 'Generative AI Summit | San Jose',
+          'date': 'April 16 & 17, 2024',
+          'location': '<b>San Jose, CA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/sanjose/'          
+        },
+        {
+          'title': 'Computer Vision Summit | San Jose',
+          'date': 'April 16 & 17, 2024',
+          'location': '<b>San Jose, CA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/sanjose/'          
+        },
+        {
+          'title': 'AI Accelerator Summit | San Jose',
+          'date': 'April 17, 2024',
+          'location': '<b>San Jose, CA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/sanjose/'   
+        },
+        {
+          'title': 'Accelerate your AI initiatives [webinar]',
+          'date': 'May 23',
+          'location': '<b>Online</b>',
+          'url': '/data-architectures-to-accelerate-your-cloud-based-ai-initiatives-webinar/'    
+        },
+        {
+          'title': 'Generative AI Summit | New York',
+          'date': 'June 12, 2024',
+          'location': '<b>New York City, NY</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/newyork/'          
+        },
+        {
+          'title': 'Generative AI Summit | Austin',
+          'date': 'July 10, 2024',
+          'location': '<b>Austin, TX</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/austin/'          
+        },
+        {
+          'title': 'AICXO Summit | Berlin',
+          'date': 'September 12, 2024',
+          'location': '<b>Berlin, Germany</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/berlin/'          
+        },
+        {
+          'title': 'Generative AI Summit | Berlin',
+          'date': 'September 12, 2024',
+          'location': '<b>Berlin, Germany</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/berlin/'          
+        },
+        {
+          'title': 'Computer Vision Summit | Berlin',
+          'date': 'September 12, 2024',
+          'location': '<b>Berlin, Germany</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/berlin/'          
+        },
+      {
+          'title': 'AICXO Summit | Boston',
+          'date': 'October 16, 2024',
+          'location': '<b>Boston, MA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/boston/'          
+        },
+          {
+          'title': 'Generative AI Summit | Boston',
+          'date': 'October 16 & 17, 2024',
+          'location': '<b>Boston, MA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/boston/'          
+        },
+        {
+          'title': 'Computer Vision Summit | Boston',
+          'date': 'October 16 & 17, 2024',
+          'location': '<b>Boston, MA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/boston/'          
+        },
+        {
+          'title': 'AI Accelerator Summit | Boston',
+          'date': 'October 17, 2024',
+          'location': '<b>Boston, MA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/boston/'          
+        },
+        {
+          'title': 'Generative AI Summit | London',
+          'date': 'November 7, 2024',
+          'location': '<b>London, UK</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/london/'          
+        },
+        {
+          'title': 'Computer Vision Summit | London',
+          'date': 'November 7, 2024',
+          'location': '<b>London, UK</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/london/'          
+        },
+        {
+          'title': 'Generative AI Summit | Toronto',
+          'date': 'November 20, 2024',
+          'location': '<b>Toronto, CA</b>',
+          'url': 'https://world.aiacceleratorinstitute.com/location/toronto/'          
+        },
+        
+      ];
+     
+ </script>
+
+
+
+
+<script>
+ window.topNav = [
+ {
+     name: 'Membership',
+     itemList: [
+       {    
+         name: 'Membership plans',
+         url: '#',
+         desc: 'Pick your path',
+            itemList: [
+               {
+                 name: 'Pro membership',
+                 url: '/pro-membership/'
+               },
+               {
+                 name: 'Pro+ membership',
+                 url: '/pro-plus-membership/'
+        	   },
+              {
+                 name: 'Team membership',
+                 desc: 'For teams of 3+',
+                 url: '/signup'
+               },
+           ]
+        },
+       {    
+         name: 'Take a peek inside',
+         url: '#',
+         desc: 'See what the fuss is about',
+         itemList: [
+              {
+                 name: 'Freemium membership',
+                 url: '/insider-membership-plan'
+              },
+              {
+                 name: 'Membership release notes',
+                 url: '/whats-new-in-the-aiai-membership-plan'
+              },
+              {
+                 name: 'Exclusive membership articles',
+                 url: '/tag/membership-content/'  
+              },
+            ]
+        },
+      ]
+}, 
+     
+   {
+     name: 'Resources',
+     itemList: [
+        {
+         name: 'Content hub',
+         desc: 'Unlimited industry intelligence',
+         url: '/',
+             itemList: [
+           {
+             name: 'Articles',
+             desc: 'Insights on the edge',  
+             url: '/articles/'
+           },
+           {
+             name: 'Guides',
+             desc: 'Your knowledge hub',  
+             url: '/tag/hub-page/'
+           },               
+            {
+             name: 'Podcasts',
+             desc: 'Ultimate AI knowledge',
+             url: 'https://alliance.ghost.io/podcasts/?filter=podcast-filter-community-aiai'
+           },
+            {
+             name: 'Video Series',
+             desc: 'Engaging interviews with experts',
+             url: '/video-series'
+           },
+            {
+             name: 'AiPlayer',
+             desc: 'OnDemand content',
+             url: '/aiplayer'
+           }    
+         ]
+       },
+        {
+         name: 'Guides',
+         desc: 'Dive into the essentials',
+         url: '/',
+             itemList: [
+           {
+             name: 'Artificial Intelligence',
+             url: '/your-guide-to-artificial-intelligence/',
+           },
+           {
+             name: 'Computer Vision', 
+             url: '/your-guide-to-computer-vision/'
+           },               
+            {
+             name: 'Edge Computing',
+             url: 'your-guide-to-edge-computing/',
+           },
+            {
+             name: 'Machine Learning',
+             url: '/your-guide-to-machine-learning/',
+           },
+            {
+             name: 'Deep Learning',
+             url: '/your-guide-to-deep-learning/',
+           },
+            {
+             name: 'All guides',
+             url: '/tag/guides/',
+           }                 
+         ]
+       },         
+         {
+         name: 'Research & reports',
+         desc: 'Industry insights from us',
+         url: '/artificial-intelligence-resources',
+         itemList: [
+              {      
+             name: 'AI Salary Survey 2024',
+             desc: 'Share your salary & benchmark it against the industry',
+             url: '/ai-salary-survey-2024/'
+                          },
+             {      
+             name: 'Generative AI 2024 Survey',
+             desc: 'Share your insights today',
+             url: '/generative-ai-report-survey/'
+                          }, 
+            {      
+             name: 'Generative AI 2023 report',
+             desc: 'The ultimate guide to generative AI in 2023',
+             url: '/generative-ai-2023-report/'
+                          }, 
+             {
+             name: 'Computer Vision Landscape 2024 Survey',
+             desc: 'Share your expertise!',
+             url: '/computer-vision-landscape-2024-survey/'
+           },
+             {
+             name: 'Chips of Choice',
+             desc: 'The ultimate guide to AI Hardware',
+             url: '/chips-of-choice-2022/'
+           },
+              {
+             name: 'AI Software of Choice',
+             desc: 'The ultimate guide to AI Software',
+             url: '/ai-software-of-choice-2022-report'    
+           },
+           {
+             name: 'All reports',
+             url: '/all-aiai-reports/'
+           },
+         ]
+       },
+       {
+         name: 'Best of the rest',
+         desc: 'Highlights from the site',
+         url: '#',
+         itemList: [
+              {
+             name: 'AI-GPT',
+             desc: 'The ultimate AI assistant',               
+             url: 'https://gpt.aiacceleratorinstitute.com'
+           },           
+         ]
+       },
+     ]
+   },
+  
+     
+     
+   {
+     name: 'Events',
+     itemList: [
+       {
+         name: 'Virtual',
+         desc: 'Coming to a screen near you',
+             itemList: [    
+            {  
+              name: 'Accelerate your AI initiatives',
+              desc: 'May 23',
+              url: '/data-architectures-to-accelerate-your-cloud-based-ai-initiatives-webinar/',        
+            },
+           ]
+        },
+       {   
+         name: 'In-person summits',
+         desc: 'Events all over the world',
+             itemList: [           
+            {
+              name: 'Our global 2024 calendar',
+              'date': 'View all our in-person summits',
+              url: 'https://world.aiacceleratorinstitute.com/',   
+            },  
+               {
+              name: 'AIAI San Jose',
+              'desc': 'April 16 & 17, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/sanjose/', 
+            },
+               {
+              name: 'Generative AI Summit New York',
+              'desc': 'June 12, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/newyork/', 
+            },
+               {
+              name: 'Generative AI Summit Austin',
+              'desc': 'July 10, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/austin/', 
+            },
+               {
+              name: 'AIAI Berlin',
+              'desc': 'September 12, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/berlin/', 
+            },
+               {
+              name: 'AIAI Boston',
+              'desc': 'October 16 & 17, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/boston/', 
+            },
+               {
+              name: 'AIAI London',
+              'desc': 'November 7, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/london/', 
+            },
+               {
+              name: 'Generative AI Summit Toronto',
+              'desc': 'November 20, 2024',
+              url: 'https://world.aiacceleratorinstitute.com/location/toronto/', 
+            },
+          ]              
+        },
+         {
+         name: 'Regional Meetups',
+         desc: 'Open networking, pizza & drinks',
+             itemList: [   
+                {
+              name: 'AIAI Meetups',
+              'desc': 'Check out all our meetups here',
+              url: 'https://meetup.aiacceleratorinstitute.com/home', 
+            },  
+                 {
+              name: 'AIAI Virtual Meetup',
+              'desc': 'May 8',
+              url: 'https://meetup.aiacceleratorinstitute.com/c/virtual/ai-virtual-may8', 
+            },  
+          ]              
+        },
+         {
+         name: 'Speaking & partnerships',
+         desc: 'Get involved as a speaker or sponsor',
+             itemList: [ 
+                   {
+              name: 'Request to speak',
+              'desc': 'Get behind the mic',         
+              url: 'https://www.aiacceleratorinstitute.com/call-for-speakers-ai-accelerator-institute/'
+            },
+                   {
+              name: 'Request to partner',
+              'desc': 'Exhibit, speak & showcase your tech',
+              url: 'https://world.aiacceleratorinstitute.com/requesttopartner'
+            }
+         
+          ]              
+        },
+         
+    ]
+  },
+  {
+     name: 'Certification',
+     itemList: [
+         {
+         name: 'Practitioner certifications',
+         desc: 'Establish yourself as an authority',
+             itemList: [ 
+               {
+                 name: 'Certified Artificial Intelligence Practitioner [CAIP]',
+                 desc: 'Concepts, technologies & tools',               
+                 url: '/certified-artificial-intelligence-practitioner-caip/'
+               },
+               {
+                 name: 'Certified Data Science Practitioner [CDSP]',
+                 desc: 'Extract insight & communicate',                
+                 url: '/certified-data-science-practitioner-cdsp/'
+               }
+          ]              
+        },
+        {
+         name: 'Workshops',
+         desc: 'Live, hands-on traiining',
+             itemList: [ 
+               {
+                name: 'AI Advantage',
+                desc: 'Seize the power of AI',               
+                url: 'https://certified.thealliance.io/course/ai-advantage'
+               },
+          ]              
+        },
+     ]
+   },  
+       {
+     name: 'Partnerships',
+     itemList: [
+       {
+         name: 'Sponsorships & advertising',
+         url: '#',
+         desc: 'Showcase to 1.5million+ builders & execs',
+         itemList: [
+           {
+             name: 'Book LinkedIn ad space',
+             desc: 'Catapult your brand into the spotlight',               
+             url: '/aiai-ad-partnerships/'
+           },
+           {
+             name: 'Event partnerships',
+             desc: 'Exhibit, speak & showcase your tech',                
+             url: 'https://world.aiacceleratorinstitute.com/requesttopartner'
+           }
+         ]
+       }]
+     },
+     
+   {
+     name: 'Community',
+     itemList: [
+       {
+         name: 'Network',
+         url: '#',
+         desc: 'Connect and collaborate',
+         itemList: [             
+           {
+             name: 'Slack community',
+             desc: 'Network with 6,400+ AI practitioners ',               
+             url: '/join-the-aiai-community/'
+           },
+                 {
+             name: 'Meet the ambassadors',
+             url: '/meet-the-ambassadors-2/'
+           },
+                 {
+             name: 'LinkedIn community',
+             desc: 'Join 1.3+ million in the world’s largest AI group',                
+             url: 'https://www.linkedin.com/groups/1814785/'
+           },
+               {
+             name: 'Meetups',
+             desc: 'Connect, network and collaborate',               
+             url: '/aiai-meetups/'
+           }
+          ]   
+            },     
+              {
+         name: 'Learn',
+         url: '#',
+         desc: 'Level up your career',
+         itemList: [ 
+                    {
+             name: 'Become an ambassador',
+             url: '/become-ambassador/'
+        },   
+           {
+             name: 'Advisory Council',
+             desc: 'The AI Accelerator Institute engine room',                
+             url: '/meet-the-ambassadors/'
+           },
+             {
+             name: 'AIAI Customer Advisory Board',
+             desc: 'Customer Advisory Board',                
+             url: '/customer-advisory-board/'
+               }
+          ]   
+            },     
+              {
+            name: 'Best of the rest',
+         url: '#',
+         desc: 'Your AI highlights from elsewhere',
+         itemList: [ 
+                    {
+             name: 'AI Circuit',
+             desc: 'Subscribe to the monthly newsletter',
+             url: '/subscribe-to-the-aiai-newsletter/'
+           },
+           {
+             name: 'Create & Contribute',
+             desc: 'Share your insights',
+             url: '/contributor-guide/'
+           },
+           {
+            name: 'Case Studies',
+            url: '/tag/case-study/'   
+           },
+           {
+             name: 'AI Tutor',
+             desc: 'Meet Travis | Your AI-powered tutor',
+             url: 'https://aigents.co/learn'
+           },
+         ]
+       }]
+   },     
+     
+   {
+     name: 'About',
+     itemList: [
+       {
+         name: 'The basics',
+     desc: 'Our journey & how to reach us',
+         url: '/signup',
+            itemList: [
+            {
+             name: 'Mission',
+             url: '/about/'
+           },
+           {
+             name: 'The team',
+             url: '/the-aiai-team/'
+           },
+           {
+             name: 'Contact',
+             url: '/contact/'
+           }
+         ]
+       },
+
+          {
+         name: 'Get involved',
+         desc: 'Get your name published',
+         url: '/',
+          itemList: [
+           {
+             name: 'Create & contribute',
+             url: '/contributor-guide/'
+           },
+           {
+             name: 'Partner with us',
+             url: '/partner/'
+           },
+           {
+             name: 'Surveys',
+             desc: 'Watch this space!'
+           }              
+         ]
+       },
+     ]
+   },
+  {
+    name: "What's new?",
+    url: '#',
+    class: 'nav-whats-new'
+   }     
+];
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P84ZWZB');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- BEGIN PRIVY WIDGET CODE -->
+<script type='text/javascript'> var _d_site = _d_site || 'E0EA76522B68214B573AF962'; </script>
+<script src='https://widget.privy.com/assets/widget.js'></script>
+<!-- END PRIVY WIDGET CODE -->
+<!-- place this in your head tag -->
+<script src='https://js.tito.io/v1' async></script>
+
+<script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=5216131db94ff' async='true'></script>
+
+<!-- Autopilot aiai capture code -->
+<script>
+	window.ap3c = window.ap3c || {};
+	var ap3c = window.ap3c;
+	ap3c.cmd = ap3c.cmd || [];
+	ap3c.cmd.push(function() {
+		ap3c.init('YYKCqRe8ZPdd_bgMYWlhaQ', 'https://capture-api.autopilotapp.com/');
+		ap3c.track({v: 0});
+	});
+	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://cdn2l.ink/app.js";
+	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+</script>
+
+<script>
+    if (window.location.pathname === '/articles/') {
+        document.title = 'Artificial intelligence articles | AIAI Accelerator Institute';
+    }
+</script>
+
+<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='737c05'></script>
+
+<script src="https://tag.clearbitscripts.com/v1/pk_bebaa9db4ca35af82ab4d629c9fade2b/tags.js" referrerpolicy="strict-origin-when-cross-origin"></script><style>:root {--ghost-accent-color: #15171A;}</style>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+</head>
+<body class="home-template page-template page-privacy-policy">
+
+
+    <div class="site-wrapper">
+        <div class="inner nav-wrapper">
+      <div class="site-header-content">
+          <a href="/">
+            <div class="site-title">
+              <img class="site-logo" src="/content/images/size/w600/2023/06/aiai_logo_full--1-.png" alt="AI Accelerator Institute" />
+            </div>
+          </a>
+      </div>
+      <nav class="site-nav">
+    <div class="site-nav-left">
+        <div class="nav-login">
+              <a class="button primary small" href="/signin/">Log in</a>
+              <a class="button primary small button-green" href="/signup/">Membership</a>
+        </div>
+        <div class="nav-icons" data-ghost-search>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+        </div>
+        <!-- <div class="nav-icons nav-mobile">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+        </div> -->
+        <div class="modular-navigation"></div>
+        <div class="nav-icons nav-mobile-modular">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+        </div>
+
+        <!-- 
+            <ul class="nav">
+    <li class="nav-events"><a href="https://aiacceleratorsummit.com/calendar">Events</a></li>
+    <li class="nav-slack-community"><a href="https://join.slack.com/t/aiecosystem/shared_invite/zt-cy7xmyw4-XyADejXceqJx6NgbCvlEYg">Slack Community</a></li>
+    <li class="nav-artificial-intelligence-festival"><a href="https://festival.aiacceleratorinstitute.com/">Artificial Intelligence Festival</a></li>
+</ul>
+
+         -->
+    </div>
+</nav>
+
+
+<script>
+ if (window.topNav) {
+   document.addEventListener('mouseover', (evt) => {
+     let targetElement = evt.target;
+     do {
+         if (targetElement instanceof Element && targetElement.closest('.site-nav-left') || targetElement instanceof Element && targetElement.closest('.modular-navigation') || targetElement instanceof Element && targetElement.classList.contains('modular-navigation-main') || targetElement instanceof Element && targetElement.classList.contains('modular-navigation')) {
+             return;
+         }
+         targetElement = targetElement.parentNode;
+     } while (targetElement);
+     const thisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-wrapper');
+     const selectAllThisElementChildrenWrapperSub = document.querySelectorAll('.modular-navigation-item-sub-wrapper-active');
+     if (!document.querySelector('.modular-navigation-item-wrapper-active')) return;
+     for (let i = 0; i < thisElementChildrenWrapper.length; i++) {
+       thisElementChildrenWrapper[i].classList.remove('modular-navigation-item-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapper[i].style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+           selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+           selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+         }
+       }, 10);
+     }
+     const thisElementChildrenWrapperThird = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+     const selectAllThisElementChildrenWrapperSubThird = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper-active');
+     for (let i = 0; i < thisElementChildrenWrapperThird.length; i++) {
+       thisElementChildrenWrapperThird[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapperThird[i].style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSubThird.length; c++) {
+           selectAllThisElementChildrenWrapperSubThird[c].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+           selectAllThisElementChildrenWrapperSubThird[c].style.display = 'none';
+         }
+       }, 10);
+     }
+   });
+   const getModularNavigation = document.querySelector('.modular-navigation');
+   function modularNavHandleOnClik(event) {
+     const thisElement = event.target;
+     const thisElementParent = thisElement.parentNode;
+     const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-wrapper');
+     const selectAllThisElementChildrenWrapperSub = document.querySelectorAll('.modular-navigation-item-sub-wrapper-active');
+     if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-wrapper-active')) {
+       thisElementChildrenWrapper.classList.remove('modular-navigation-item-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapper.style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+           selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+           selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+         }
+       }, 310);
+       return;
+     }
+     const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-wrapper');
+     for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+       if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-wrapper-active')) {
+         selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-wrapper-active');
+         setTimeout(() => {
+           selectAllThisElementChildrenWrapper[i].style.display = 'none';
+           for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+             selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+             selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+           }
+         }, 310);
+       }
+     }
+     setTimeout(() => {
+       thisElementChildrenWrapper.style.display = 'flex';
+       setTimeout(() => {
+         thisElementChildrenWrapper.classList.add('modular-navigation-item-wrapper-active');
+       }, 1);
+     }, 10);
+   }
+   function modularNavHandleOnClikSub(event) {
+     const thisElement = event.target;
+     const thisElementParent = thisElement.classList.contains('modular-navigation-item') ? thisElement : thisElement.parentNode;
+     const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-sub-wrapper');
+     if (thisElementChildrenWrapper) {
+       if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-sub-wrapper-active')) {
+         thisElementChildrenWrapper.classList.remove('modular-navigation-item-sub-wrapper-active');
+         setTimeout(() => {
+           thisElementChildrenWrapper.style.display = 'none';
+         }, 310);
+         return;
+       }
+       const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-wrapper');
+       for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+         if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-wrapper-active')) {
+           selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-wrapper-active');
+           setTimeout(() => {
+             selectAllThisElementChildrenWrapper[i].style.display = 'none';
+           }, 310);
+         }
+       }
+         setTimeout(() => {
+           thisElementChildrenWrapper.style.display = 'flex';
+           setTimeout(() => {
+             thisElementChildrenWrapper.classList.add('modular-navigation-item-sub-wrapper-active');
+           }, 1);
+         }, 10);
+     }
+     const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+     for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+       if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+         selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+         setTimeout(() => {
+           selectAllThisElementChildrenWrapper[i].style.display = 'none';
+         }, 310);
+       }
+     }
+   }
+      function modularNavHandleOnClikSubThird(event) {
+        const thisElement = event.target;
+        const thisElementParent = thisElement.classList.contains('modular-navigation-item') ? thisElement : thisElement.parentNode;
+        const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-sub-third-wrapper');
+        if (thisElementChildrenWrapper) {
+          if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+            thisElementChildrenWrapper.classList.remove('modular-navigation-item-sub-third-wrapper-active');
+            setTimeout(() => {
+              thisElementChildrenWrapper.style.display = 'none';
+            }, 310);
+            return;
+          }
+          const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+          for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+            if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+              selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+              setTimeout(() => {
+                selectAllThisElementChildrenWrapper[i].style.display = 'none';
+              }, 310);
+            }
+          }
+          setTimeout(() => {
+            thisElementChildrenWrapper.style.display = 'flex';
+            setTimeout(() => {
+              thisElementChildrenWrapper.classList.add('modular-navigation-item-sub-third-wrapper-active');
+            }, 1);
+          }, 10);
+        }
+      }
+   for (let i = 0; i < topNav.length; i++) {
+     const thisModNav = topNav[i];
+     const thisModNavWrapper= document.createElement('div');
+     thisModNavWrapper.classList.add('modular-navigation-wrapper');
+     if (thisModNav.itemList)  {
+       const thisModNavMain = document.createElement('div');
+       thisModNavMain.classList.add('modular-navigation-main');
+       thisModNavMain.classList.add('modular-navigation-main-width-list');
+       if (thisModNav.class) thisModNavMain.classList.add(thisModNav.class);
+       thisModNavMain.textContent = thisModNav.name ? thisModNav.name : '';
+       thisModNavWrapper.appendChild(thisModNavMain);
+       thisModNavMain.addEventListener('mouseenter', modularNavHandleOnClik);
+       const thisModItemWrapper = document.createElement('div');
+       thisModItemWrapper.classList.add('modular-navigation-item-wrapper');
+       for (var b = 0; b < thisModNav.itemList.length; b++) {
+         const thisModItem = thisModNav.itemList[b];
+         if (thisModItem.itemList) {
+         }
+         if (!thisModItem.url && !thisModItem.itemList) continue;
+         const thisModNavItem = thisModItem.itemList ? document.createElement('div') : document.createElement('a');
+         thisModNavItem.classList.add('modular-navigation-item');
+         thisModNavItem.classList.add('modular-navigation-item-list-wrapper');
+         if (thisModItem.class) thisModNavItem.classList.add(thisModItem.class);
+         if (thisModItem.url) thisModNavItem.setAttribute('href', thisModItem.url);
+         if (thisModItem.target) thisModNavItem.setAttribute('target', thisModItem.target);
+         const thisModNavHtext = document.createElement('h5');
+         thisModNavHtext.textContent = thisModItem.name ? thisModItem.name : '';
+         thisModNavItem.appendChild(thisModNavHtext);
+         if (thisModItem.desc) {
+           const thisModNavPtext = document.createElement('p');
+           thisModNavPtext.textContent = thisModItem.desc;
+           thisModNavItem.appendChild(thisModNavPtext);
+         }
+         if (thisModItem.itemList) {
+           const thisModNavItemSubWrapper = document.createElement('div');
+           thisModNavItemSubWrapper.classList.add('modular-navigation-item-sub-wrapper');
+           for (let d = 0; d < thisModItem.itemList.length; d++) {
+             const thisModItemSub = thisModItem.itemList[d];
+             const thisModNavItemSub = thisModItemSub.itemList ? document.createElement('div') : document.createElement('a');
+             thisModNavItemSub.classList.add('modular-navigation-item-third');
+             thisModNavItemSub.classList.add('modular-navigation-item');
+             if (thisModItemSub.class) thisModNavItemSub.classList.add(thisModItemSub.class);
+             if (thisModItemSub.url) thisModNavItemSub.setAttribute('href', thisModItemSub.url);
+             if (thisModItemSub.target) thisModNavItemSub.setAttribute('target', thisModItemSub.target);
+             const thisModNavHtext = document.createElement('h6');
+             thisModNavHtext.textContent = thisModItemSub.name ? thisModItemSub.name : '';
+             thisModNavItemSub.appendChild(thisModNavHtext);
+             if (thisModItemSub.desc) {
+               const thisModNavPtext = document.createElement('p');
+               thisModNavPtext.textContent = thisModItemSub.desc;
+               thisModNavItemSub.appendChild(thisModNavPtext);
+             }
+             thisModNavItemSubWrapper.appendChild(thisModNavItemSub);
+           }
+           thisModNavItem.appendChild(thisModNavItemSubWrapper);
+         }
+         thisModItemWrapper.appendChild(thisModNavItem);
+       }
+       thisModNavWrapper.appendChild(thisModItemWrapper);
+     } else {
+       const thisModNavMain = document.createElement('a');
+       thisModNavMain.classList.add('modular-navigation-main');
+       if (thisModNav.class) thisModNavMain.classList.add(thisModNav.class);
+       thisModNavMain.setAttribute('href', thisModNav.url);
+       if (thisModNav.target) thisModNavMain.setAttribute('target', thisModNav.target);
+       thisModNavMain.textContent = thisModNav.name ? thisModNav.name : '';
+       thisModNavWrapper.appendChild(thisModNavMain);
+     }
+     getModularNavigation.appendChild(thisModNavWrapper);
+   }
+   const getModularNavMobile = document.querySelector('.nav-mobile-modular');
+   const thisModNavClose = document.createElement('div');
+   thisModNavClose.classList.add('modular-navigation-close');
+   thisModNavClose.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>';
+   getModularNavigation.appendChild(thisModNavClose);
+   thisModNavClose.addEventListener('click', function() {
+     getModularNavigation.classList.remove('modular-navigation-visible');
+   });
+   getModularNavMobile.addEventListener('click', function() {
+     getModularNavigation.classList.add('modular-navigation-visible');
+   });
+ }
+  if (document.querySelector('.nav-jobs a')) document.querySelector('.nav-jobs a').setAttribute('target', '_blank');
+  if (document.querySelector('.nav-pmm-q-a a')) document.querySelector('.nav-pmm-q-a a').setAttribute('target', '_blank');
+</script>  </div>
+  <div class="search-results">
+    <div class="search-results-close">
+      x close
+    </div>
+    <div id="search-field-wrapper">
+       <form>
+      <input id="search-field" class="st-default-search-input" placeholder="Start typing..."/>
+      </form>
+    </div>
+
+    <div id="results" class="st-search-container">Nothing to display...</div>
+    <div class="search-tags">
+      <div class="search-tags-view">or view by:</div>
+      <a href="/tag/computer-vision">Computer Vision</a>
+      <a href="/tag/ai-accelerators">AI Accelerators</a>
+      <a href="/tag/inference-and-training">Inference & Training</a>
+      <a href="/tag/brain-inspired-computing">Brain-Inspired Computing</a>
+      <a href="/tag/chip-design">Chip Design</a>
+      <a href="/tag/compute">Compute 2.0</a>
+      <a href="/tag/data-centers">Data Centers</a>
+      <a href="/tag/machine-learning">Machine Learning</a>
+    </div>
+  </div>
+  <div class="social-links social-links-fixed">
+    <a  href="https://www.linkedin.com/company/ai-accelerator-institute/" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g>
+	<g>
+		<path class="st0" d="M18.5,0h-17C0.7,0,0,0.6,0,1.4v17.1C0,19.4,0.7,20,1.5,20h17c0.8,0,1.5-0.6,1.5-1.4V1.4C20,0.6,19.3,0,18.5,0
+			z M5.9,17H3V7.5h3V17z M4.4,6.2c-1,0-1.7-0.8-1.7-1.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.2,5.4,5.4,6.2,4.4,6.2z
+			 M17,17h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5V17h-3V7.5h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17z"
+			/>
+	</g>
+</g>
+</svg>
+</a>
+    <a  href="https://twitter.com/ai_ainstitute" target="_blank"><?xml version="1.0" encoding="iso-8859-1"?>
+<svg viewBox="0 0 24 24" aria-hidden="true"
+    class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp">
+    <g>
+        <path
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+        </path>
+    </g>
+</svg></a>
+    <a  href="https://www.facebook.com/AIAInstitute"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 10.385 20" style="enable-background:new 0 0 10.385 20;" xml:space="preserve">
+<g>
+	<path id="f_1_" d="M6.742,20v-9.122h3.061l0.459-3.556h-3.52v-2.27c0-1.029,0.285-1.731,1.762-1.731
+		l1.882-0.001V0.139C10.06,0.097,8.943,0,7.643,0C4.928,0,3.07,1.657,3.07,4.699v2.622H0v3.556h3.07V20H6.742z"/>
+</g>
+</svg>
+</a>
+    <a  href="https://www.instagram.com/ai_acceleratorinstitute/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path d="M256,49.47c67.27,0,75.23,0.26,101.8,1.47c24.56,1.12,37.9,5.22,46.78,8.67c11.76,4.57,20.15,10.03,28.97,18.84
+		c8.82,8.82,14.28,17.21,18.84,28.97c3.45,8.88,7.55,22.22,8.67,46.78c1.21,26.56,1.47,34.53,1.47,101.8s-0.26,75.23-1.47,101.8
+		c-1.12,24.56-5.22,37.9-8.67,46.78c-4.57,11.76-10.03,20.15-18.84,28.97c-8.82,8.82-17.21,14.28-28.97,18.84
+		c-8.88,3.45-22.22,7.55-46.78,8.67c-26.56,1.21-34.53,1.47-101.8,1.47s-75.24-0.26-101.8-1.47c-24.56-1.12-37.9-5.22-46.78-8.67
+		c-11.76-4.57-20.15-10.03-28.97-18.84c-8.82-8.82-14.28-17.21-18.84-28.97c-3.45-8.88-7.55-22.22-8.67-46.78
+		c-1.21-26.56-1.47-34.53-1.47-101.8s0.26-75.23,1.47-101.8c1.12-24.56,5.22-37.9,8.67-46.78c4.57-11.76,10.03-20.15,18.84-28.97
+		c8.82-8.82,17.21-14.28,28.97-18.84c8.88-3.45,22.22-7.55,46.78-8.67C180.77,49.73,188.73,49.47,256,49.47 M256,4.08
+		c-68.42,0-77,0.29-103.87,1.52c-26.81,1.22-45.13,5.48-61.15,11.71c-16.57,6.44-30.62,15.05-44.62,29.06
+		C32.36,60.37,23.74,74.42,17.3,90.98c-6.23,16.02-10.49,34.34-11.71,61.15C4.37,179,4.08,187.58,4.08,256
+		c0,68.42,0.29,77,1.52,103.87c1.22,26.81,5.48,45.13,11.71,61.15c6.44,16.57,15.05,30.62,29.06,44.62
+		c14.01,14.01,28.05,22.62,44.62,29.06c16.02,6.23,34.34,10.49,61.15,11.71c26.87,1.23,35.45,1.52,103.87,1.52s77-0.29,103.87-1.52
+		c26.81-1.22,45.13-5.48,61.15-11.71c16.57-6.44,30.62-15.05,44.62-29.06c14.01-14.01,22.62-28.05,29.06-44.62
+		c6.23-16.02,10.49-34.34,11.71-61.15c1.23-26.87,1.52-35.45,1.52-103.87s-0.29-77-1.52-103.87c-1.22-26.81-5.48-45.13-11.71-61.15
+		c-6.44-16.57-15.05-30.62-29.06-44.62c-14.01-14.01-28.05-22.62-44.62-29.06c-16.02-6.23-34.34-10.49-61.15-11.71
+		C333,4.37,324.42,4.08,256,4.08L256,4.08z"/>
+	<path d="M256,126.64c-71.45,0-129.36,57.92-129.36,129.36S184.55,385.36,256,385.36S385.36,327.45,385.36,256
+		S327.45,126.64,256,126.64z M256,339.97c-46.38,0-83.97-37.6-83.97-83.97s37.6-83.97,83.97-83.97c46.38,0,83.97,37.6,83.97,83.97
+		S302.38,339.97,256,339.97z"/>
+	<circle cx="390.48" cy="121.52" r="30.23"/>
+</g>
+</svg>
+</a>
+    <a  href="https://www.tiktok.com/@ai.accelerator.in?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg></a>
+    <a  href="https://www.youtube.com/@aiacceleratorinstitute">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M180.32,53.36A22.12,22.12,0,0,0,164.76,37.7C151,34,96,34,96,34s-55,0-68.76,3.7A22.12,22.12,0,0,0,11.68,53.36C8,67.18,8,96,8,96s0,28.82,3.68,42.64A22.12,22.12,0,0,0,27.24,154.3C41,158,96,158,96,158s55,0,68.76-3.7a22.12,22.12,0,0,0,15.56-15.66C184,124.82,184,96,184,96S184,67.18,180.32,53.36ZM78,122.17V69.83L124,96Z" transform="translate(-8 -34)"/></svg>
+</a>
+    <a  href="/join-the-aiai-community/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 122.8 122.8" style="enable-background:new 0 0 122.8 122.8;" xml:space="preserve">
+
+<g>
+	<g>
+		<path class="st0" d="M25.8,77.6c0,7.1-5.8,12.9-12.9,12.9S0,84.7,0,77.6c0-7.1,5.8-12.9,12.9-12.9h12.9V77.6z"/>
+		<path class="st0" d="M32.3,77.6c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9s-12.9-5.8-12.9-12.9
+			C32.3,109.9,32.3,77.6,32.3,77.6z"/>
+	</g>
+	<g>
+		<path class="st0" d="M45.2,25.8c-7.1,0-12.9-5.8-12.9-12.9S38.1,0,45.2,0s12.9,5.8,12.9,12.9v12.9H45.2z"/>
+		<path class="st0" d="M45.2,32.3c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H12.9C5.8,58.1,0,52.3,0,45.2s5.8-12.9,12.9-12.9
+			C12.9,32.3,45.2,32.3,45.2,32.3z"/>
+	</g>
+	<g>
+		<path class="st0" d="M97,45.2c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H97V45.2z"/>
+		<path class="st0" d="M90.5,45.2c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V12.9C64.7,5.8,70.5,0,77.6,0
+			c7.1,0,12.9,5.8,12.9,12.9V45.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M77.6,97c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V97H77.6z"/>
+		<path class="st0" d="M77.6,90.5c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9
+			c0,7.1-5.8,12.9-12.9,12.9H77.6z"/>
+	</g>
+</g>
+</svg>
+</a>
+    <a href="https://feedly.com/i/subscription/feed/https://www.aiacceleratorinstitute.com/rss/" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+  </div>
+
+        
+
+
+
+<main id="site-main" class="site-main outer">
+
+<div class="feature-post-wrapper">
+        <article class="post-full post no-image no-image">
+
+
+            <section class="post-full-content">
+              <div class="post-content">
+                <header class="post-full-header">
+                    <h1 class="post-full-title">Privacy policy</h1>
+                    <section class="post-full-meta">
+                    </section>
+                </header>
+
+
+
+
+                      <!--kg-card-begin: html--><a href="https://www.iubenda.com/privacy-policy/24731467?ref=aiacceleratorinstitute.com" class="iubenda-white no-brand iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+<!--kg-card-end: html-->
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </section>
+
+        </article>
+</div>
+      <div class="sidebar-nav">
+
+  <div class="section-wrapper" style="margin-bottom: 4rem;">
+    <div class="section-title">
+      Newsletter
+    </div>
+
+    <section class="subscribe-form">
+
+  <p>Get industry insights</p>
+
+  <form data-members-form="subscribe">
+    <input data-members-email type="email" required="true" placeholder="youremail@example.com"/>
+    <br>
+    <button type="submit">Join</button>
+  </form>
+</section>
+
+  </div>
+
+
+  
+<div class="section-wrapper section-events-list-wrapper">
+  <div class="section-title">
+    Event List
+  </div>
+  <div class="section-events-list"></div>
+</div>
+
+
+
+<script>
+
+
+  var getEventListContainer = document.querySelector('.section-events-list');
+
+  if (getEventListContainer && typeof eventsList !== 'undefined' && eventsList) {
+    for (var i = 0; i < eventsList.length; i++) {
+
+      if (eventsList[i] && eventsList[i].title && eventsList[i].date && eventsList[i].location && eventsList[i].url) {
+        var eventListItemWrapper = document.createElement('a');
+        eventListItemWrapper.classList.add('section-events-item');
+        eventListItemWrapper.setAttribute('href', eventsList[i].url);
+        eventListItemWrapper.setAttribute('target', '_blank');
+
+        var eventListItemTitle = document.createElement('div');
+        eventListItemTitle.classList.add('section-events-title');
+        eventListItemTitle.innerHTML = eventsList[i].title;
+        eventListItemWrapper.appendChild(eventListItemTitle);
+
+        var eventListItemDate = document.createElement('div');
+        eventListItemDate.classList.add('section-events-date');
+        eventListItemDate.innerHTML = eventsList[i].date;
+        eventListItemWrapper.appendChild(eventListItemDate);
+
+        var eventListItemLocation = document.createElement('div');
+        eventListItemLocation.classList.add('section-events-location');
+        eventListItemLocation.innerHTML = eventsList[i].location;
+        eventListItemWrapper.appendChild(eventListItemLocation);
+
+        getEventListContainer.appendChild(eventListItemWrapper);
+
+      }
+
+    }
+  } else {
+    document.querySelector('.section-events-list-wrapper').style.display = 'none';
+  }
+
+
+
+</script>
+<!--
+  <div class="section-wrapper">
+    <div class="section-title">
+      Become an author
+    </div>
+
+    <section class="subscribe-form">
+
+    <p>If you'd like to post content please request access</p>
+
+    <form action="https://www.getdrip.com/forms/24507411/submissions" method="post" data-drip-embedded-form="24507411" class="form-group">
+        <div>
+            <input  class="subscribe-email" type="email" id="drip-email" name="fields[email]" value="" placeholder="youremail@example.com" />
+        </div>
+
+      <div style="display: none;" aria-hidden="true">
+        <label for="website">Website</label><br />
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="false" value="" />
+      </div>
+      <div>
+        <button type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Request Access</button>
+      </div>
+    </form>
+
+</section>
+
+  </div> -->
+
+</div>
+
+</main>
+
+
+
+
+        
+<div class="footer">
+<div class="footer-wrapper">
+      <div class="site-footer-content">
+
+            <div class="site-footer-content-logo">
+              <a href="/">
+                <img src="/content/images/size/w600/2023/06/aiai_logo_full--1-.png" />
+              </a>
+            </div>
+
+            <div class="site-footer-content-title">
+              Our mission is to help develop the next generation of machine intelligence specifically focusing on accelerating AI at the edge.<br><br>
+
+                For new and groundbreaking start-ups, we want to inspire and inform your journey, and for those giants in the space, we want to provide the tools you need to innovate and continue to propel your growth.
+
+            </div>
+
+      </div>
+
+      <div class="site-footer-social social-links">
+        <a  href="https://www.linkedin.com/company/ai-accelerator-institute/" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g>
+	<g>
+		<path class="st0" d="M18.5,0h-17C0.7,0,0,0.6,0,1.4v17.1C0,19.4,0.7,20,1.5,20h17c0.8,0,1.5-0.6,1.5-1.4V1.4C20,0.6,19.3,0,18.5,0
+			z M5.9,17H3V7.5h3V17z M4.4,6.2c-1,0-1.7-0.8-1.7-1.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.2,5.4,5.4,6.2,4.4,6.2z
+			 M17,17h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5V17h-3V7.5h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17z"
+			/>
+	</g>
+</g>
+</svg>
+</a>
+        <a  href="https://twitter.com/ai_ainstitute" target="_blank"><?xml version="1.0" encoding="iso-8859-1"?>
+<svg viewBox="0 0 24 24" aria-hidden="true"
+    class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp">
+    <g>
+        <path
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+        </path>
+    </g>
+</svg></a>
+        <a  href="https://www.facebook.com/AIAInstitute/"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 10.385 20" style="enable-background:new 0 0 10.385 20;" xml:space="preserve">
+<g>
+	<path id="f_1_" d="M6.742,20v-9.122h3.061l0.459-3.556h-3.52v-2.27c0-1.029,0.285-1.731,1.762-1.731
+		l1.882-0.001V0.139C10.06,0.097,8.943,0,7.643,0C4.928,0,3.07,1.657,3.07,4.699v2.622H0v3.556h3.07V20H6.742z"/>
+</g>
+</svg>
+</a>
+        <a  href="https://www.instagram.com/ai_acceleratorinstitute/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path d="M256,49.47c67.27,0,75.23,0.26,101.8,1.47c24.56,1.12,37.9,5.22,46.78,8.67c11.76,4.57,20.15,10.03,28.97,18.84
+		c8.82,8.82,14.28,17.21,18.84,28.97c3.45,8.88,7.55,22.22,8.67,46.78c1.21,26.56,1.47,34.53,1.47,101.8s-0.26,75.23-1.47,101.8
+		c-1.12,24.56-5.22,37.9-8.67,46.78c-4.57,11.76-10.03,20.15-18.84,28.97c-8.82,8.82-17.21,14.28-28.97,18.84
+		c-8.88,3.45-22.22,7.55-46.78,8.67c-26.56,1.21-34.53,1.47-101.8,1.47s-75.24-0.26-101.8-1.47c-24.56-1.12-37.9-5.22-46.78-8.67
+		c-11.76-4.57-20.15-10.03-28.97-18.84c-8.82-8.82-14.28-17.21-18.84-28.97c-3.45-8.88-7.55-22.22-8.67-46.78
+		c-1.21-26.56-1.47-34.53-1.47-101.8s0.26-75.23,1.47-101.8c1.12-24.56,5.22-37.9,8.67-46.78c4.57-11.76,10.03-20.15,18.84-28.97
+		c8.82-8.82,17.21-14.28,28.97-18.84c8.88-3.45,22.22-7.55,46.78-8.67C180.77,49.73,188.73,49.47,256,49.47 M256,4.08
+		c-68.42,0-77,0.29-103.87,1.52c-26.81,1.22-45.13,5.48-61.15,11.71c-16.57,6.44-30.62,15.05-44.62,29.06
+		C32.36,60.37,23.74,74.42,17.3,90.98c-6.23,16.02-10.49,34.34-11.71,61.15C4.37,179,4.08,187.58,4.08,256
+		c0,68.42,0.29,77,1.52,103.87c1.22,26.81,5.48,45.13,11.71,61.15c6.44,16.57,15.05,30.62,29.06,44.62
+		c14.01,14.01,28.05,22.62,44.62,29.06c16.02,6.23,34.34,10.49,61.15,11.71c26.87,1.23,35.45,1.52,103.87,1.52s77-0.29,103.87-1.52
+		c26.81-1.22,45.13-5.48,61.15-11.71c16.57-6.44,30.62-15.05,44.62-29.06c14.01-14.01,22.62-28.05,29.06-44.62
+		c6.23-16.02,10.49-34.34,11.71-61.15c1.23-26.87,1.52-35.45,1.52-103.87s-0.29-77-1.52-103.87c-1.22-26.81-5.48-45.13-11.71-61.15
+		c-6.44-16.57-15.05-30.62-29.06-44.62c-14.01-14.01-28.05-22.62-44.62-29.06c-16.02-6.23-34.34-10.49-61.15-11.71
+		C333,4.37,324.42,4.08,256,4.08L256,4.08z"/>
+	<path d="M256,126.64c-71.45,0-129.36,57.92-129.36,129.36S184.55,385.36,256,385.36S385.36,327.45,385.36,256
+		S327.45,126.64,256,126.64z M256,339.97c-46.38,0-83.97-37.6-83.97-83.97s37.6-83.97,83.97-83.97c46.38,0,83.97,37.6,83.97,83.97
+		S302.38,339.97,256,339.97z"/>
+	<circle cx="390.48" cy="121.52" r="30.23"/>
+</g>
+</svg>
+</a>
+        <a  href="https://www.tiktok.com/@ai.accelerator.in?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg></a>
+        <a  href="https://www.youtube.com/@aiacceleratorinstitute">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M180.32,53.36A22.12,22.12,0,0,0,164.76,37.7C151,34,96,34,96,34s-55,0-68.76,3.7A22.12,22.12,0,0,0,11.68,53.36C8,67.18,8,96,8,96s0,28.82,3.68,42.64A22.12,22.12,0,0,0,27.24,154.3C41,158,96,158,96,158s55,0,68.76-3.7a22.12,22.12,0,0,0,15.56-15.66C184,124.82,184,96,184,96S184,67.18,180.32,53.36ZM78,122.17V69.83L124,96Z" transform="translate(-8 -34)"/></svg>
+</a>
+        <a  href="/join-the-aiai-community/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 122.8 122.8" style="enable-background:new 0 0 122.8 122.8;" xml:space="preserve">
+
+<g>
+	<g>
+		<path class="st0" d="M25.8,77.6c0,7.1-5.8,12.9-12.9,12.9S0,84.7,0,77.6c0-7.1,5.8-12.9,12.9-12.9h12.9V77.6z"/>
+		<path class="st0" d="M32.3,77.6c0-7.1,5.8-12.9,12.9-12.9s12.9,5.8,12.9,12.9v32.3c0,7.1-5.8,12.9-12.9,12.9s-12.9-5.8-12.9-12.9
+			C32.3,109.9,32.3,77.6,32.3,77.6z"/>
+	</g>
+	<g>
+		<path class="st0" d="M45.2,25.8c-7.1,0-12.9-5.8-12.9-12.9S38.1,0,45.2,0s12.9,5.8,12.9,12.9v12.9H45.2z"/>
+		<path class="st0" d="M45.2,32.3c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H12.9C5.8,58.1,0,52.3,0,45.2s5.8-12.9,12.9-12.9
+			C12.9,32.3,45.2,32.3,45.2,32.3z"/>
+	</g>
+	<g>
+		<path class="st0" d="M97,45.2c0-7.1,5.8-12.9,12.9-12.9c7.1,0,12.9,5.8,12.9,12.9s-5.8,12.9-12.9,12.9H97V45.2z"/>
+		<path class="st0" d="M90.5,45.2c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V12.9C64.7,5.8,70.5,0,77.6,0
+			c7.1,0,12.9,5.8,12.9,12.9V45.2z"/>
+	</g>
+	<g>
+		<path class="st0" d="M77.6,97c7.1,0,12.9,5.8,12.9,12.9c0,7.1-5.8,12.9-12.9,12.9c-7.1,0-12.9-5.8-12.9-12.9V97H77.6z"/>
+		<path class="st0" d="M77.6,90.5c-7.1,0-12.9-5.8-12.9-12.9c0-7.1,5.8-12.9,12.9-12.9h32.3c7.1,0,12.9,5.8,12.9,12.9
+			c0,7.1-5.8,12.9-12.9,12.9H77.6z"/>
+	</g>
+</g>
+</svg>
+</a>
+        <a href="https://feedly.com/i/subscription/feed/https://aiacceleratorinstitute.com/rss/ " title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+      </div>
+
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          ABOUT
+        </div>
+        <ul role="menu">
+            <li class="nav-home nav-current" role="menuitem"><a href="/contributor-guide">Contribute</a></li>
+            <li class="nav-tag" role="menuitem"><a href="/the-aiai-team/">Meet the team</a></li>
+            <li class="nav-tag" role="menuitem"><a href="/partner">Media Guide</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/ambassadors">Ambassadors</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/about">Mission</a></li>
+        </ul>
+      </div>
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          RESOURCES
+        </div>
+        <ul role="menu">
+            <li class="nav-home nav-current" role="menuitem"><a href="/articles">Articles</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/signup/">Membership</a></li>
+            <li class="nav-tag" role="menuitem"><a href="/reports">Reports</a></li>
+        </ul>
+      </div>
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          GENERAL
+        </div>
+        <ul role="menu">
+            <li class="nav-home nav-current" role="menuitem"><a href="https://ti.to/product-marketing-alliance/cdsp-and-caip-coursesexams" target="_blank">Certification</a></li>
+            <li class="nav-tag" role="menuitem"><a href="https://aiacceleratorsummit.com/" target="_blank">Events</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/join-the-aiai-community/">Community</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="site-footer-categories">
+        <div class="site-footer-categories-title">
+          Learn
+        </div>
+        <a href="/tag/tech-news/">Tech News</a>
+        <a href="/tag/generative-ai/">Generative AI</a>
+        <a href="/tag/computer-vision/">Computer Vision</a>
+        <a href="/tag/ai-infrastructure/">AI Infrastructure</a>
+        <a href="/tag/aicxo/">AICXO</a>
+        <a href="/tag/governance-ethics/">Governance & Ethics</a>
+        <a href="/tag/industry-application/">Industry Application</a>
+      </div>
+  </div>
+</div>
+
+
+    </div>
+
+    <!--  -->
+
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
+    <script>
+	var beamer_config = {
+		product_id : "LCYMjRSt26921",
+        selector : '.nav-whats-new'        
+	};
+</script>
+<script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
+
+
+
+<script type="text/javascript">
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '649525905');
+    vgo('setTrackByDefault', true);
+
+    vgo('process');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P84ZWZB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <script type="text/javascript" src="https://www.aiacceleratorinstitute.com/assets/built/jquery.js?v=1cd58aa5b3" ></script>
+    <script type="text/javascript" src="https://www.aiacceleratorinstitute.com/assets/built/jquery.fitvids.js?v=1cd58aa5b3" ></script>
+    <script type="text/javascript" src="https://www.aiacceleratorinstitute.com/assets/built/ghost-lunr.js?v=1cd58aa5b3" defer></script>
+    <script type="text/javascript" src="https://www.aiacceleratorinstitute.com/assets/built/search.js?v=1cd58aa5b3" defer></script>
+    
+
+
+
+    <script type="text/javascript" src="https://www.aiacceleratorinstitute.com/assets/built/jquery.fitvids.js?v=1cd58aa5b3"></script>
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+      <script>
+        window.intercomSettings = {
+          app_id: "ihx5j8jg"
+        };
+      </script>
+
+
+    <script>
+      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ihx5j8jg';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+</body>
+</html>

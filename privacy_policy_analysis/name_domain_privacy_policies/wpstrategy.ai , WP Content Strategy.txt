@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>WP Interact</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="css/output.css" rel="stylesheet">
+</head>
+<body class="dark font-outfit">
+
+    <section id="privacy-policy" class="bg-white dark:bg-gray-900">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <nav class="text-gray-500 dark:text-gray-400 text-sm mb-10">
+          <ol class="list-none p-0 inline-flex">
+            <li class="flex items-center">
+              <a href="/" class="text-blue-500 hover:text-blue-800 dark:hover:text-blue-600">Home</a>
+              <div class="mx-2">&rarr;</div>
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+          </ol>
+        </nav>
+
+        <hr class="mb-10" />
+
+        <h2 class="font-outfit text-4xl md:text-6xl font-medium mb-20 text-gray-900 dark:text-white">Privacy Policy</h2>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">Effective Date: June 6, 2023</p>
+
+        <h3 class="text-2xl dark:text-white mb-3">Introduction</h3>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">This Privacy Policy governs the manner in which our plugin (Sync to GPT) or GPTs connected through the plugin collects, uses, maintains, and discloses information collected from users (each, a "User").</p>
+
+        <h3 class="text-2xl dark:text-white mb-3">Personal Data</h3>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">Our plugin does not store your personal data or any ChatGPT conversations.</p>
+
+        <h3 class="text-2xl dark:text-white mb-3">Changes to this privacy policy</h3>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">We have the discretion to update this privacy policy at any time. We encourage Users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect.</p>
+
+        <h3 class="text-2xl dark:text-white mb-3">Your acceptance of these terms</h3>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">By using this plugin or GPTs connected through the plugin, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our plugin. Your continued use of the plugin or GPT following the posting of changes to this policy will be deemed your acceptance of those changes.</p>
+
+        <p class="text-gray-500 dark:text-gray-400 mb-6">If you have any questions about this Privacy Policy, the practices of this plugin or GPT, or your dealings with this plugin or GPT, please contact us:</p>
+
+        <p class="mt-8 mb-10"><a href="mailto:virgiliuweb@gmail.com" class="font-outfit text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-lg px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Contact Us
+          <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a></p>
+      </div>
+    </section>
+
+    <footer class="p-4 bg-gray-50 sm:p-6 dark:bg-gray-800">
+      <div class="mx-auto max-w-screen-xl">
+        <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <div class="flex items-center">
+                    <img src="images/logo.png" class="mr-3 h-5" alt="WP Strategy Logo" />
+                    <span class="self-center text-base font-medium whitespace-nowrap dark:text-white">Sync to GPT</span>
+                </div>
+            </div>
+            <ul class="ml-auto flex text-sm items-center text-gray-600 dark:text-gray-400">
+                <li class="mr-2">
+                  <a href="virgiliuweb@gmail.com" target="_blank" class="hover:underline">Contact</a>
+                </li>
+                <li>|</li>
+                <li class="ml-2 mr-2">
+                    <a href="/privacy-policy" class="hover:underline">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700" />
+        <div class="flex justify-center items-center">
+            <span class="text-sm text-gray-500 text-center dark:text-gray-400">&copy; 2024 WP Strategy | Sync to GPT. All rights reserved.
+            </span>
+        </div>
+    </div>
+  </footer>
+
+  <!-- Load frontend JS -->
+  <script src="js/frontend.js"></script>
+</body>
+</html>

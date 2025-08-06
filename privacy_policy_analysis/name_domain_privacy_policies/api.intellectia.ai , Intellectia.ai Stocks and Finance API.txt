@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/pluginWebUpdateNotice/webUpdateNoticeInjectStyle.efdbdf2b.css">
+    <script src="/pluginWebUpdateNotice/webUpdateNoticeInjectScript.global.83b3cd15.js"></script>
+    <script>window.pluginWebUpdateNotice_version = 'f557f476';</script>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://d159e3ysga2l0q.cloudfront.net/intellectia_prod/cdn_dist/assets/logo-90efd65f.svg" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>intellectia</title>
+    <script type="module" crossorigin src="https://d159e3ysga2l0q.cloudfront.net/intellectia_prod/cdn_dist/assets/index-a27cfdb7.js"></script>
+    <link rel="stylesheet" href="https://d159e3ysga2l0q.cloudfront.net/intellectia_prod/cdn_dist/assets/index-3d1839de.css">
+  </head>
+  <body>
+    <div id="app" class="re"></div>
+    <script>
+      // window.isGlobalDebugger = false
+      // ;(() => {
+      //   function block() {
+      //     if (
+      //       window.outerHeight - window.innerHeight > 200 ||
+      //       window.outerWidth - window.innerWidth > 200
+      //     ) {
+      //       window.isGlobalDebugger = true
+      //       document.body.innerHTML = '检测到非法调试,请关闭后刷新重试!'
+      //     }
+      //     setInterval(() => {
+      //       ;(function () {
+      //         return false
+      //       })
+      //         ['constructor']('debugger')
+      //         ['call']()
+      //     }, 50)
+      //   }
+
+      //   try {
+      //     block()
+      //   } catch (err) {}
+      // })()
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VT7BTHZXW3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-VT7BTHZXW3')
+      gtag('config', 'AW-16510221924')
+    </script>
+    <script>
+      window.twttr = (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {}
+        if (d.getElementById(id)) return t
+        js = d.createElement(s)
+        js.id = id
+        js.src = 'https://platform.twitter.com/widgets.js'
+        fjs.parentNode.insertBefore(js, fjs)
+
+        t._e = []
+        t.ready = function (f) {
+          t._e.push(f)
+        }
+
+        return t
+      })(document, 'script', 'twitter-wjs')
+    </script>
+    
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=330558943107846"
+      nonce="20230622032476324"></script>
+    <script
+      src="https://accounts.google.com/gsi/client?hl=en"
+      async
+      defer></script>
+    <script>
+      // <!-- Add the Facebook SDK for Javascript -->
+      ;(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0]
+        if (d.getElementById(id)) {
+          return
+        }
+        js = d.createElement(s)
+        js.id = id
+        js.src = 'https://connect.facebook.net/en_US/sdk.js'
+        fjs.parentNode.insertBefore(js, fjs)
+      })(document, 'script', 'facebook-jssdk')
+    </script>
+  <div class="plugin-web-update-notice-anchor"></div></body>
+</html>

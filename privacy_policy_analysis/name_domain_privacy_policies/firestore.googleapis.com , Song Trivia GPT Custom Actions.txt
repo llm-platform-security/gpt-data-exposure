@@ -1,0 +1,4922 @@
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award">
+    <meta property="og:site_name" content="Firebase">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#a8c7fa"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/firebase/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/css/app.css">
+      
+        <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/css/dark-theme.css" disabled>
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/touchicon-180.png"><link rel="canonical" href="https://firebase.google.com/support/privacy"><link rel="search" type="application/opensearchdescription+xml"
+            title="Firebase" href="https://firebase.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://firebase.google.com/support/privacy" /><link rel="alternate" hreflang="x-default" href="https://firebase.google.com/support/privacy" /><link rel="alternate" hreflang="ar"
+          href="https://firebase.google.com/support/privacy?hl=ar" /><link rel="alternate" hreflang="bn"
+          href="https://firebase.google.com/support/privacy?hl=bn" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://firebase.google.com/support/privacy?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://firebase.google.com/support/privacy?hl=zh-tw" /><link rel="alternate" hreflang="fa"
+          href="https://firebase.google.com/support/privacy?hl=fa" /><link rel="alternate" hreflang="fr"
+          href="https://firebase.google.com/support/privacy?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://firebase.google.com/support/privacy?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://firebase.google.com/support/privacy?hl=he" /><link rel="alternate" hreflang="hi"
+          href="https://firebase.google.com/support/privacy?hl=hi" /><link rel="alternate" hreflang="id"
+          href="https://firebase.google.com/support/privacy?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://firebase.google.com/support/privacy?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://firebase.google.com/support/privacy?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://firebase.google.com/support/privacy?hl=ko" /><link rel="alternate" hreflang="pl"
+          href="https://firebase.google.com/support/privacy?hl=pl" /><link rel="alternate" hreflang="pt-BR"
+          href="https://firebase.google.com/support/privacy?hl=pt-br" /><link rel="alternate" hreflang="pt"
+          href="https://firebase.google.com/support/privacy?hl=pt" /><link rel="alternate" hreflang="ru"
+          href="https://firebase.google.com/support/privacy?hl=ru" /><link rel="alternate" hreflang="es"
+          href="https://firebase.google.com/support/privacy?hl=es" /><link rel="alternate" hreflang="es-419"
+          href="https://firebase.google.com/support/privacy?hl=es-419" /><link rel="alternate" hreflang="th"
+          href="https://firebase.google.com/support/privacy?hl=th" /><link rel="alternate" hreflang="tr"
+          href="https://firebase.google.com/support/privacy?hl=tr" /><link rel="alternate" hreflang="vi"
+          href="https://firebase.google.com/support/privacy?hl=vi" /><title>Privacy and Security in Firebase</title>
+
+<meta property="og:title" content="Privacy and Security in Firebase"><meta property="og:url" content="https://firebase.google.com/support/privacy"><meta property="og:locale" content="en"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": "Privacy and Security in Firebase"
+  }
+</script>
+  
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+<meta name="gtm_var" data-key="docType" data-value="privacy">
+
+  
+
+    
+      <link rel="stylesheet" href="/extras.css"></head>
+  <body class=""
+        template="page"
+        theme="firebase-icy-theme"
+        type="article"
+        
+        
+        appearance
+        layout="docs"
+        
+        
+        
+        
+        display-toc
+        pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+    <section class="devsite-wrapper">
+      
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+      <devsite-header role="banner">
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner nocontent">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="firebase" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup-dark-theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme"
+            alt="Firebase">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup.svg" class="devsite-site-logo" alt="Firebase">
+  </picture>
+  
+</a>
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab class="devsite-dropdown
+    
+    
+    
+    ">
+  
+    <a href="https://firebase.google.com/products-build"
+      track-metadata-eventdetail="https://firebase.google.com/products-build"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - products"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Products"
+         
+           track-name="products"
+         
+       >
+    Products
+  
+    </a>
+  
+  
+    <a href="#"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded="false"
+       aria-label="Dropdown menu for Products"
+       track-type="nav"
+       track-metadata-eventdetail="https://firebase.google.com/products-build"
+       track-metadata-position="nav - products"
+       track-metadata-module="primary nav"
+       
+        
+          data-category="Site-Wide Custom Events"
+        
+          data-label="Tab: Products"
+        
+          track-name="products"
+        
+      
+       class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></a>
+  
+  <div class="devsite-tabs-dropdown" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/products-build"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/products-build"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Build
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/products-release"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/products-release"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Release & Monitor
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/products-engage"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/products-engage"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Engage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://firebase.google.com/solutions"
+      track-metadata-eventdetail="https://firebase.google.com/solutions"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - solutions"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Solutions"
+         
+           track-name="solutions"
+         
+       >
+    Solutions
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://firebase.google.com/pricing"
+      track-metadata-eventdetail="https://firebase.google.com/pricing"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - pricing"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Pricing"
+         
+           track-name="pricing"
+         
+       >
+    Pricing
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab class="devsite-dropdown
+    
+    
+    
+    ">
+  
+    <a href="https://firebase.google.com/docs"
+      track-metadata-eventdetail="https://firebase.google.com/docs"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - docs"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Docs"
+         
+           track-name="docs"
+         
+       >
+    Docs
+  
+    </a>
+  
+  
+    <a href="#"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded="false"
+       aria-label="Dropdown menu for Docs"
+       track-type="nav"
+       track-metadata-eventdetail="https://firebase.google.com/docs"
+       track-metadata-position="nav - docs"
+       track-metadata-module="primary nav"
+       
+        
+          data-category="Site-Wide Custom Events"
+        
+          data-label="Tab: Docs"
+        
+          track-name="docs"
+        
+      
+       class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></a>
+  
+  <div class="devsite-tabs-dropdown" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Overview
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/guides"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/guides"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Fundamentals
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/build"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/build"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Build
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/release"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/release"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Release & Monitor
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/engage"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/engage"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Engage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/reference"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/reference"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Reference
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/docs/samples"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/docs/samples"
+                     track-metadata-position="nav - docs"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Samples
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+        
+          <tab class="devsite-dropdown
+    
+    
+    
+    ">
+  
+    <a href="https://firebase.google.com/community"
+      track-metadata-eventdetail="https://firebase.google.com/community"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - community"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Community"
+         
+           track-name="community"
+         
+       >
+    Community
+  
+    </a>
+  
+  
+    <a href="#"
+       role="button"
+       aria-haspopup="true"
+       aria-expanded="false"
+       aria-label="Dropdown menu for Community"
+       track-type="nav"
+       track-metadata-eventdetail="https://firebase.google.com/community"
+       track-metadata-position="nav - community"
+       track-metadata-module="primary nav"
+       
+        
+          data-category="Site-Wide Custom Events"
+        
+          data-label="Tab: Community"
+        
+          track-name="community"
+        
+      
+       class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></a>
+  
+  <div class="devsite-tabs-dropdown" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/community/learn"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/community/learn"
+                     track-metadata-position="nav - community"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Learn
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/community/events"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/community/events"
+                     track-metadata-position="nav - community"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Events
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://firebase.google.com/community/stories"
+                     track-type="nav"
+                     track-metadata-eventdetail="https://firebase.google.com/community/stories"
+                     track-metadata-position="nav - community"
+                     track-metadata-module="tertiary nav"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Stories
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://firebase.google.com/support"
+      track-metadata-eventdetail="https://firebase.google.com/support"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - support"
+       track-metadata-module="primary nav"
+       aria-label="Support, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Support"
+         
+           track-name="support"
+         
+       >
+    Support
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    
+    project-name="Firebase"
+    tenant-name="Firebase"
+    
+    
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://firebase.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+        
+
+        <devsite-appearance-selector></devsite-appearance-selector>
+
+        
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+        
+          
+  <a class="devsite-header-link devsite-top-button button gc-analytics-event"
+     href="//console.firebase.google.com"
+     data-category="Site-Wide Custom Events"
+     data-label="Site header link"
+     >
+    Go to console
+  </a>
+  
+        
+
+        
+          
+          
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+        </devsite-user>
+           
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    
+      devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+                  
+                  
+                  <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://firebase.google.com/support"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Support
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+                
+              
+              
+            </div>
+            
+          </div>
+          
+        
+      
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars >
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     >
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="firebase" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup-dark-theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme"
+            alt="Firebase">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup.svg" class="devsite-site-logo" alt="Firebase">
+  </picture>
+  
+</a>
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/products-build"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Products"
+      
+        track-name="products"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Products"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Products
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Products"
+      
+        track-name="products"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Products">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Products">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/solutions"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Solutions"
+      
+        track-name="solutions"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Solutions"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Solutions
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/pricing"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Pricing"
+      
+        track-name="pricing"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Pricing"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Pricing
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Docs"
+      
+        track-name="docs"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Docs"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Docs
+   </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Docs"
+      
+        track-name="docs"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Docs">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Docs">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/community"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Community"
+      
+        track-name="community"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Community"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Community
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Community"
+      
+        track-name="community"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Community">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Community">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/support"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Support"
+      
+        track-name="support"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Support"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Support
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+          
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="//console.firebase.google.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Go to console"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Go to console
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Developer Support</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/support"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support"
+      ><span class="devsite-nav-text" tooltip>Contact Support</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/scope"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/scope"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/scope"
+      ><span class="devsite-nav-text" tooltip>Scope of no-cost support</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Support Guides</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/support/guides"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides"
+      ><span class="devsite-nav-text" tooltip>Overview</span></a></li><li class="devsite-nav-item"><a href="/support/faq"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/faq"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/faq"
+      ><span class="devsite-nav-text" tooltip>FAQ</span></a></li><li class="devsite-nav-item"><a href="/support/guides/security-checklist"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/security-checklist"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/security-checklist"
+      ><span class="devsite-nav-text" tooltip>Security checklist</span></a></li><li class="devsite-nav-item"><a href="/support/guides/launch-checklist"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/launch-checklist"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/launch-checklist"
+      ><span class="devsite-nav-text" tooltip>Launch checklist</span></a></li><li class="devsite-nav-item"><a href="/support/guides/service-accounts"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/service-accounts"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/service-accounts"
+      ><span class="devsite-nav-text" tooltip>Firebase service accounts</span></a></li><li class="devsite-nav-item"><a href="/support/guides/analytics-adsupport"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/analytics-adsupport"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/analytics-adsupport"
+      ><span class="devsite-nav-text" tooltip>Enable the AdSupport framework</span></a></li><li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Dynamic Links deprecation</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/support/dynamic-links-faq"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/dynamic-links-faq"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/dynamic-links-faq"
+      ><span class="devsite-nav-text" tooltip>Deprecation FAQ</span></a></li><li class="devsite-nav-item"><a href="/support/guides/export-dynamic-links"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/export-dynamic-links"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/export-dynamic-links"
+      ><span class="devsite-nav-text" tooltip>Export Dynamic Links metadata</span></a></li><li class="devsite-nav-item"><a href="/support/guides/app-links-universal-links"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/app-links-universal-links"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/app-links-universal-links"
+      ><span class="devsite-nav-text" tooltip>Migrate to App Links &amp; Universal Links</span></a></li></ul></li><li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Migrate from Parse</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/support/guides/parse-android"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/parse-android"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/parse-android"
+      ><span class="devsite-nav-text" tooltip>Android</span></a></li><li class="devsite-nav-item"><a href="/support/guides/parse-ios"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/parse-ios"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/parse-ios"
+      ><span class="devsite-nav-text" tooltip>iOS+</span></a></li></ul></li></ul></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Cloud Audit Logs</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-management"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-management"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-management"
+      ><span class="devsite-nav-text" tooltip>Firebase Management</span></a></li><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-storage"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-storage"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-storage"
+      ><span class="devsite-nav-text" tooltip>Cloud Storage for Firebase</span></a></li><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-cloud-messaging"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-cloud-messaging"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-cloud-messaging"
+      ><span class="devsite-nav-text" tooltip>Firebase Cloud Messaging</span></a></li><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-app-check"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-app-check"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-app-check"
+      ><span class="devsite-nav-text" tooltip>Firebase App Check</span></a></li><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-rules"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-rules"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-rules"
+      ><span class="devsite-nav-text" tooltip>Firebase Security Rules</span></a></li><li class="devsite-nav-item"><a href="/support/guides/cloud-audit-logging/firebase-realtime-database"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/guides/cloud-audit-logging/firebase-realtime-database"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/guides/cloud-audit-logging/firebase-realtime-database"
+      ><span class="devsite-nav-text" tooltip>Firebase Realtime Database</span></a></li></ul></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Recent Changes and Updates</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/support/releases"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/releases"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/releases"
+      ><span class="devsite-nav-text" tooltip>Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/ios"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/ios"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/ios"
+      ><span class="devsite-nav-text" tooltip>iOS Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/android"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/android"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/android"
+      ><span class="devsite-nav-text" tooltip>Android Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/js"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/js"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/js"
+      ><span class="devsite-nav-text" tooltip>JavaScript Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/cpp-relnotes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/cpp-relnotes"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/cpp-relnotes"
+      ><span class="devsite-nav-text" tooltip>C++ Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/unity"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/unity"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/unity"
+      ><span class="devsite-nav-text" tooltip>Unity Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/admin/node"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/admin/node"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/admin/node"
+      ><span class="devsite-nav-text" tooltip>Admin Node.js Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/admin/java"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/admin/java"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/admin/java"
+      ><span class="devsite-nav-text" tooltip>Admin Java Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/admin/python"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/admin/python"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/admin/python"
+      ><span class="devsite-nav-text" tooltip>Admin Python Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/admin/go"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/admin/go"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/admin/go"
+      ><span class="devsite-nav-text" tooltip>Admin Go Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/admin/dotnet"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/admin/dotnet"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/admin/dotnet"
+      ><span class="devsite-nav-text" tooltip>Admin .NET Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/security-rules"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/security-rules"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/security-rules"
+      ><span class="devsite-nav-text" tooltip>Security Rules Release Notes</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/support/release-notes/cli"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/release-notes/cli"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/release-notes/cli"
+      ><span class="devsite-nav-text" tooltip>Firebase CLI Release Notes</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Policies for changes and versioning</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/policies/changes-to-firebase/overview"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /policies/changes-to-firebase/overview"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/policies/changes-to-firebase/overview"
+      ><span class="devsite-nav-text" tooltip>Overview</span></a></li><li class="devsite-nav-item"><a href="/policies/changes-to-firebase/introducing-and-communicating-changes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /policies/changes-to-firebase/introducing-and-communicating-changes"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/policies/changes-to-firebase/introducing-and-communicating-changes"
+      ><span class="devsite-nav-text" tooltip>Introducing and communicating changes</span></a></li><li class="devsite-nav-item"><a href="/policies/changes-to-firebase/versioning-and-maintenance"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /policies/changes-to-firebase/versioning-and-maintenance"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/policies/changes-to-firebase/versioning-and-maintenance"
+      ><span class="devsite-nav-text" tooltip>Versioning and maintenance</span></a></li></ul></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Legal Information</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/terms"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms"
+      ><span class="devsite-nav-text" tooltip>Terms of Service</span></a></li><li class="devsite-nav-item"><a href="/terms/billing"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/billing"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/billing"
+      ><span class="devsite-nav-text" tooltip>Paid Services Terms</span></a></li><li class="devsite-nav-item"><a href="/terms/data-processing-terms"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/data-processing-terms"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/data-processing-terms"
+      
+        alt-paths=" /terms/usa-privacy-addendum "><span class="devsite-nav-text" tooltip>Data Processing and Security Terms</span></a></li><li class="devsite-nav-item"><a href="/terms/firebase-sccs"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/firebase-sccs"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/firebase-sccs"
+      
+        alt-paths=" /terms/firebase-sccs-uk-c2p /terms/firebase-sccs-eu-p2p /terms/firebase-sccs-eu-p2c /terms/firebase-sccs-eu-c2p /terms/firebase-sccs-eu-p2p-google-exporter /terms/crashlytics-sccs-uk-c2p /terms/crashlytics-sccs-eu-p2p /terms/crashlytics-sccs-eu-p2c /terms/crashlytics-sccs-eu-c2p /terms/crashlytics-sccs-eu-p2p-google-exporter /terms/crashlytics-app-distribution-mcc "><span class="devsite-nav-text" tooltip>Firebase: Standard Contractual Clauses</span></a></li><li class="devsite-nav-item"><a href="/terms/service-level-agreement"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/service-level-agreement"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/service-level-agreement"
+      ><span class="devsite-nav-text" tooltip>Service Level Agreement for Hosting and Realtime Database</span></a></li><li class="devsite-nav-item"><a href="/terms/service-level-agreement/cloud-storage"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/service-level-agreement/cloud-storage"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/service-level-agreement/cloud-storage"
+      ><span class="devsite-nav-text" tooltip>Cloud Storage for Firebase Service Level Agreement</span></a></li><li class="devsite-nav-item"><a href="/policies/app-indexing"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /policies/app-indexing"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/policies/app-indexing"
+      ><span class="devsite-nav-text" tooltip>Firebase App Indexing User Data Policy</span></a></li><li class="devsite-nav-item"><a href="/terms/crashlytics"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/crashlytics"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/crashlytics"
+      ><span class="devsite-nav-text" tooltip>Crashlytics and App Distribution Terms</span></a></li><li class="devsite-nav-item"><a href="/terms/subprocessors"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /terms/subprocessors"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/terms/subprocessors"
+      ><span class="devsite-nav-text" tooltip>Firebase Subprocessors</span></a></li></ul></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Privacy and Security Information</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/support/privacy"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy"
+      ><span class="devsite-nav-text" tooltip>Privacy and Security in Firebase</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/dpo_and_eu_rep"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/dpo_and_eu_rep"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/dpo_and_eu_rep"
+      ><span class="devsite-nav-text" tooltip>Designate Data Protection Officers and EU Representatives</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/dpo"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/dpo"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/dpo"
+      ><span class="devsite-nav-text" tooltip>Firebase Data Privacy Inquiries</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/manage-iids"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/manage-iids"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/manage-iids"
+      ><span class="devsite-nav-text" tooltip>Manage Instance ID data</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/clear-export-data"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/clear-export-data"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/clear-export-data"
+      ><span class="devsite-nav-text" tooltip>Clear and export users&#39; data</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/storing-privacy-settings"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/storing-privacy-settings"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/storing-privacy-settings"
+      ><span class="devsite-nav-text" tooltip>Storing privacy settings with Firebase</span></a></li><li class="devsite-nav-item"><a href="/support/privacy/init-options"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /support/privacy/init-options"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/support/privacy/init-options"
+      ><span class="devsite-nav-text" tooltip>Troubleshoot initialization options</span></a></li></ul></li>
+          </ul>
+        
+        
+          
+    
+      
+      <ul class="devsite-nav-list" menu="Products"
+          aria-label="Side menu" hidden>
+        
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products-build"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Build"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Build
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products-release"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Release &amp; Monitor"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Release &amp; Monitor
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products-engage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Engage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Engage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+    
+  
+    
+  
+    
+      
+      <ul class="devsite-nav-list" menu="Docs"
+          aria-label="Side menu" hidden>
+        
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Overview"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Overview
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/guides"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Fundamentals"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Fundamentals
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/build"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Build"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Build
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/release"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Release &amp; Monitor"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Release &amp; Monitor
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/engage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Engage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Engage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/reference"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Reference"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Reference
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/samples"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Samples"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Samples
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+    
+      
+      <ul class="devsite-nav-list" menu="Community"
+          aria-label="Side menu" hidden>
+        
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/community/learn"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Learn"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Learn
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/community/events"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Events"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Events
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/community/stories"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Stories"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Stories
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+    
+  
+        
+        
+          
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" class="devsite-main-content"
+            
+              has-book-nav
+              has-sidebar
+            >
+          
+          
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav"
+                            role="navigation"
+                            aria-label="On this page"
+                            depth="2"
+                            scrollbars
+                  ></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav">
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article"><style>
+      /* Styles inlined from /styles/docs.css */
+.center {
+  text-align: center
+}
+
+/* Used in AdMob code examples */
+.oldcode {
+  opacity: .40;
+
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+
+  /* IE <= 7 */
+  filter:alpha(opacity=40);
+}
+
+.newcode {
+  font-weight: bold;
+}
+
+/* Device Screenshots */
+.deviceshot {
+  max-width: 700px;
+  max-height: 400px;
+}
+
+
+/* Start Changelog styles */
+.badge {
+    position: relative;
+    top: -3px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Colours for each type of changelog entry. */
+/* TODO: Change the colours to match the site colour scheme */
+
+.badge-changed {
+    background-color: #f4b400;
+    color: var(--tenant-inverted-text-color);
+}
+
+.badge-fixed {
+    background-color: #4285f4;
+    color: var(--tenant-inverted-text-color);
+}
+
+.badge-important {
+    background-color: #db4437;
+    color: var(--tenant-inverted-text-color);
+}
+
+.badge-feature {
+    background-color: #0f9d58;
+    color: var(--tenant-inverted-text-color);
+}
+
+.badge-deprecated {
+    background-color: #db4437;
+    color: var(--tenant-inverted-text-color);
+}
+
+.badge-issue {
+    background-color: #db4437;
+    color: var(--tenant-inverted-text-color);
+}
+
+.changelog > ul  {
+  padding-left: 0;
+}
+
+.changelog > ul > li {
+  list-style-type: none;
+  margin-bottom: 22px;
+}
+
+.firebase-support-release-page .changelog > ul {
+  list-style-type: none;
+  padding-left: 110px;
+}
+
+.firebase-release-roundup .changelog > ul {
+  list-style-type: disc outside;
+  padding-left: 40px;
+}
+
+.firebase-release-roundup .changelog > ul > li {
+  list-style-type: disc outside;
+  margin-bottom: 12px;
+}
+
+.release-changed::before, .release-feature::before, .release-fixed::before,
+.release-issue::before, .release-deprecated::before, .release-removed::before,
+.release-unchanged::before, .release-rules::before,
+.release-android::before, .release-android-bom::before, .release-ios::before,
+.release-admin::before, .release-cpp::before, .release-unity::before,
+.release-functions::before, .release-javascript::before,
+.release-flutter::before, .release-cli::before {
+  display: block;
+  float: left;
+  color: var(--tenant-inverted-text-color);
+  width: 100px;
+  height: 32px;
+  margin-left: -110px;
+  margin-right: 10px;
+  margin-top: -5px;
+  padding-top: 4px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.release-changed::before {
+  content: "changed";
+  background-color: #f4b400;
+}
+
+.release-feature::before {
+  content: "feature";
+  background-color: #0f9d58;
+}
+
+.release-fixed::before {
+  content: "fixed";
+  background-color: #4285f4;
+}
+
+.release-issue::before {
+  content: "issue";
+  background-color: #db4437;
+}
+
+.release-deprecated::before {
+  content: "deprecated";
+  background-color: #e65100;
+}
+
+.release-removed::before {
+  content: "removed";
+  background-color: #546e7a;
+}
+
+.release-unchanged::before {
+  content: "no change";
+  background-color: #ccc;
+}
+
+.release-android::before {
+  content: "android";
+  background-color: #a4c639;
+}
+
+.release-android-bom::before {
+  content: "android bom";
+  background-color: #a4c639;
+}
+
+.release-ios::before {
+  text-transform: none;
+  content: "iOS";
+  background-color: #007aff;
+}
+
+.release-admin::before {
+  content: "admin";
+  background-color: #909090;
+}
+
+.release-flutter::before {
+  content: "Flutter";
+  background-color: #039be5;
+}
+
+.release-cpp::before {
+  content: "c++";
+  background-color: #ff8a65;
+}
+
+.release-unity::before {
+  content: "unity";
+  background-color: #0cc;
+}
+
+.release-functions::before {
+  content: "functions";
+  background-color: #2c384a;
+}
+
+.release-javascript::before {
+  content: "javascript";
+  background-color: #7e57c2;
+}
+
+.release-rules::before {
+  content: "rules";
+  background-color: #1b3a57;
+}
+
+.release-cli::before {
+  text-transform: none;
+  content: "CLI";
+  background-color: #ffa000;
+}
+
+/* End Changelog styles */
+
+
+/* Docs Overview page styles */
+
+.docs-android,
+.docs-ios,
+.docs-web,
+.docs-cpp,
+.docs-unity {
+  height: 64px;
+  width: 64px;
+  margin: 10px 16px 0 -16px;
+}
+
+.firebase-docs-overview .devsite-landing-row h2 {
+  margin: 80px 0 -40px;
+}
+
+.devsite-landing-row-3-up .docs-landing-row-item {
+    width: calc((100% - 80px)/2);
+    display: inline-block;
+}
+
+.docs-landing-icon {
+  font-size: 48px;
+  height: 48px;
+  margin: 11px;
+  width: 48px;
+}
+
+.firebase-reference-list {
+  display: -ms-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.firebase-reference-list-item {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+.firebase-reference-list-item > a {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flex;
+  display: flex;
+}
+
+.firebase-reference-list-item > a:not(:hover) h3 {
+  color: var(--tenant-primary-text-color);
+}
+
+.firebase-reference-list-item > a:not(:hover) li,
+.firebase-reference-list-item > a:not(:hover) p {
+  color: var(--tenant-secondary-text-color);
+}
+
+.firebase-reference-list-item .docs-landing-icon {
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--tenant-docs-landing-icon-background, #f5f5f5);
+  border-radius: 50%;
+  -ms-flex: 0 0 88px;
+  flex: 0 0 88px;
+  height: 88px;
+  -ms-justify-content: center;
+  justify-content: center;
+  margin: 0 16px 0 0;
+  padding: 20px;
+}
+
+.firebase-reference-list-item h3 {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.firebase-reference-list-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.docs-android,
+.docs-ios,
+.docs-web,
+.docs-cpp,
+.docs-unity {
+  height: 88px;
+  width: auto;
+}
+
+.firebase-reference-list-item.docs-android .docs-landing-icon {
+  color: #00bfa5;
+}
+
+.firebase-reference-list-item.docs-cpp .docs-landing-icon {
+  color: #fd8c09;
+}
+
+.firebase-reference-list-item.docs-ios .docs-landing-icon {
+  color: #16aaca;
+}
+
+.firebase-reference-list-item.docs-unity .docs-landing-icon {
+  color: #000;
+}
+
+.firebase-reference-list-item.docs-web .docs-landing-icon {
+  color: #c52062;
+}
+
+.firebase-reference-list-item.docs-http .docs-landing-icon {
+  color: #3f51b5;
+}
+
+@media (max-width: 1000px) {
+  .firebase-reference-list {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+/* end Docs Overview page styles */
+
+/* Full-page platform selector for Crashlytics docs */
+/* Note: h3 in selector content must include hide-from-toc */
+
+.full-page-selector,
+.full-page-selector-content {
+  border: none;
+  font-size: inherit;
+}
+
+.full-page-selector > .kd-buttonbar {
+  margin: 32px 0;
+}
+
+.full-page-selector > section {
+  display: none;
+}
+
+.full-page-selector-content > .selected {
+  padding: 0;
+  font-size: inherit;
+}
+
+.full-page-selector-content > .kd-buttonbar {
+  display: none;
+}
+
+.select-page {
+  display: none;
+}
+
+.select-page + .ds-selector-tabs,
+.after-selection ~ .ds-selector-tabs {
+  border: none;
+  font-size: inherit;
+}
+
+.select-page + .ds-selector-tabs > .kd-buttonbar {
+  margin: 32px 0px;
+}
+
+.select-page + .ds-selector-tabs > section {
+  display: none;
+}
+
+.after-selection ~ .ds-selector-tabs > .selected {
+  padding: 0;
+  font-size: inherit;
+}
+
+.after-selection ~ .ds-selector-tabs > section p {
+  line-height: 24px;
+}
+
+.after-selection ~ .ds-selector-tabs > .kd-buttonbar {
+  display: none;
+}
+
+/* End full-page platform selector */
+
+/* Custom beta and alpha indicators */
+
+.devsite-nav-icon[data-icon="alpha"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M13.2,15c-0.3-0.9-0.6-1.7-0.9-2.6L12.1,12c0-0.1-0.1-0.3-0.1-0.4c-1.2,2.1-2.4,2.9-4.5,2.9C4.8,14.5,3,12.6,3,9s1.8-5.5,4.5-5.5c2.1,0,3.4,0.8,4.5,2.9L12.1,6l0.1-0.4c0.4-1.1,0.7-1.9,0.9-2.6h2.2c-0.4,0.8-0.7,1.7-1.2,3.2L14,6.6c-0.3,0.8-0.5,1.6-0.8,2.4c0.3,0.7,0.6,1.5,0.8,2.4l0.1,0.4c0.5,1.5,0.8,2.4,1.2,3.2C15.4,15,13.2,15,13.2,15z M7.5,5.5C5.9,5.5,5,6.5,5,9s0.9,3.5,2.5,3.5C9,12.5,9.9,11.6,11,9C9.9,6.4,9,5.5,7.5,5.5z' fill='%2380868b'/></svg>);
+}
+
+[theme='firebase-icy-theme'] .devsite-nav-icon[data-icon="alpha"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M13.2,15c-0.3-0.9-0.6-1.7-0.9-2.6L12.1,12c0-0.1-0.1-0.3-0.1-0.4c-1.2,2.1-2.4,2.9-4.5,2.9C4.8,14.5,3,12.6,3,9s1.8-5.5,4.5-5.5c2.1,0,3.4,0.8,4.5,2.9L12.1,6l0.1-0.4c0.4-1.1,0.7-1.9,0.9-2.6h2.2c-0.4,0.8-0.7,1.7-1.2,3.2L14,6.6c-0.3,0.8-0.5,1.6-0.8,2.4c0.3,0.7,0.6,1.5,0.8,2.4l0.1,0.4c0.5,1.5,0.8,2.4,1.2,3.2C15.4,15,13.2,15,13.2,15z M7.5,5.5C5.9,5.5,5,6.5,5,9s0.9,3.5,2.5,3.5C9,12.5,9.9,11.6,11,9C9.9,6.4,9,5.5,7.5,5.5z' fill='%2354617d'/></svg>);
+}
+
+.color-scheme--dark .devsite-nav-icon[data-icon="alpha"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M13.2,15c-0.3-0.9-0.6-1.7-0.9-2.6L12.1,12c0-0.1-0.1-0.3-0.1-0.4c-1.2,2.1-2.4,2.9-4.5,2.9C4.8,14.5,3,12.6,3,9s1.8-5.5,4.5-5.5c2.1,0,3.4,0.8,4.5,2.9L12.1,6l0.1-0.4c0.4-1.1,0.7-1.9,0.9-2.6h2.2c-0.4,0.8-0.7,1.7-1.2,3.2L14,6.6c-0.3,0.8-0.5,1.6-0.8,2.4c0.3,0.7,0.6,1.5,0.8,2.4l0.1,0.4c0.5,1.5,0.8,2.4,1.2,3.2C15.4,15,13.2,15,13.2,15z M7.5,5.5C5.9,5.5,5,6.5,5,9s0.9,3.5,2.5,3.5C9,12.5,9.9,11.6,11,9C9.9,6.4,9,5.5,7.5,5.5z' fill='%239eabc3'/></svg>);
+}
+
+.devsite-nav-icon[data-icon="beta"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M12.2,7.7c1.8,1.2,2.3,3.7,1.1,5.6c-0.7,1.1-2,1.8-3.3,1.8H7v2H5V4c0-1.1,0.9-2,2-2h2.5C11.4,2,13,3.6,13,5.5C13,6.3,12.7,7.1,12.2,7.7z M7,13h3c1.1,0,2-0.9,2-2s-0.9-2-2-2H7V13z M7,7h2.5C10.3,7,11,6.3,11,5.5S10.3,4,9.5,4H7V7z' fill='%2380868b'/></svg>);
+}
+
+[theme='firebase-icy-theme'] .devsite-nav-icon[data-icon="beta"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M12.2,7.7c1.8,1.2,2.3,3.7,1.1,5.6c-0.7,1.1-2,1.8-3.3,1.8H7v2H5V4c0-1.1,0.9-2,2-2h2.5C11.4,2,13,3.6,13,5.5C13,6.3,12.7,7.1,12.2,7.7z M7,13h3c1.1,0,2-0.9,2-2s-0.9-2-2-2H7V13z M7,7h2.5C10.3,7,11,6.3,11,5.5S10.3,4,9.5,4H7V7z' fill='%2354617d'/></svg>);
+}
+
+.color-scheme--dark .devsite-nav-icon[data-icon="beta"]::before {
+  content: url(data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'><path d='M12.2,7.7c1.8,1.2,2.3,3.7,1.1,5.6c-0.7,1.1-2,1.8-3.3,1.8H7v2H5V4c0-1.1,0.9-2,2-2h2.5C11.4,2,13,3.6,13,5.5C13,6.3,12.7,7.1,12.2,7.7z M7,13h3c1.1,0,2-0.9,2-2s-0.9-2-2-2H7V13z M7,7h2.5C10.3,7,11,6.3,11,5.5S10.3,4,9.5,4H7V7z' fill='%239eabc3'/></svg>);
+}
+
+.firebase-platform-label {
+ font: 500 12px/24px Roboto,sans-serif;
+}
+/* Full-page platform selector dropdown */
+/* Note: use menu variables in _elements.html file */
+
+.full-page-selector-dropdown {
+  border: none;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+.full-page-selector-dropdown > .ds-selector-tabs {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.full-page-selector-dropdown:hover .ds-selector-tabs {
+    display: block;
+    margin: 0;
+}
+
+.full-page-selector-dropdown:hover .kd-tabbutton {
+    display: block;
+    border: none;
+    height: inherit;
+    text-align: left;
+}
+
+.full-page-selector-dropdown:hover .kd-buttonbar {
+    border: none;
+    height: inherit;
+}
+
+.full-page-selector-dropdown h3:hover {
+    color: var(--tenant-inverted-text-color);
+    background-color: #039be5;
+}
+
+.full-page-selector-dropdown:hover .devsite-overflow-menu-button {
+    display: none;
+}
+
+img.white-bg {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+      </style><style>
+      /* Styles inlined from /styles/privacy-landing.css */
+/*
+ * Privacy landing page custom style
+ *
+ */
+
+
+/* Make left nav into a table of contents at the top of the page */
+.nav-always-open {
+  display: block !important;
+  border-left: none;
+}
+.nav-always-open a:link,
+.nav-always-open a:visited {
+  color: #757575;
+  white-space: normal;
+}
+.nav-always-open .devsite-nav-item-hidden {
+  display: inline-block;
+}
+.nav-always-open > ul > li {
+  font-weight: 500;
+  font-size: 14px;
+  color: inherit;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.nav-always-open > ul > li:last-child {
+  display: none;
+}
+.nav-always-open > ul > li li {
+  font-weight: 400;
+  font-size: 13px;
+}
+.nav-always-open .devsite-nav-item-heading {
+  display: block !important;
+  font-size: 16px;
+}
+.nav-always-open .devsite-nav-show-all {
+  display: none;
+}
+
+
+/* Styles for tables on the page  */
+.privacy-table .google-visualization-table-th {
+  cursor: pointer;
+  line-height: 16px;
+}
+.privacy-table .google-visualization-table-page-numbers::before {
+  content: "Page:";
+}
+.privacy-table .google-visualization-table-page-number {
+  margin-left: 4px;
+}
+.privacy-table .google-visualization-table-page-number.current {
+  text-decoration: underline;
+  color: #212121;
+  cursor: default;
+}
+.privacy-table .sort-descending span.google-visualization-table-sortind{
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px;
+  border-top: 0px solid transparent;
+}
+.privacy-table .sort-descending span.google-visualization-table-sortind::after{
+  font-family: "Material Icons";
+  float: left;
+  font-size: 24px;
+  vertical-align: middle;
+  content: "keyboard_arrow_down";
+}
+.privacy-table .sort-ascending span.google-visualization-table-sortind{
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px;
+  border-bottom: 0px solid transparent;
+}
+.privacy-table .sort-ascending span.google-visualization-table-sortind::after{
+  font-family: "Material Icons";
+  float: left;
+  font-size: 24px;
+  vertical-align: middle;
+  content: "keyboard_arrow_up";
+}
+.privacy-table td,
+.privacy-table .current,
+.cert-table td  {
+  color: inherit !important;
+}
+.cert-table th,
+.cert-table td {
+  text-align: center !important;
+}
+.cert-table th:first-child,
+.cert-table td:first-child {
+  text-align: initial !important;
+}
+.pii-cert li {
+  white-space: nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pii-cert td:first-child {
+  white-space: nowrap;
+}
+.pii-cert ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+/* Last modified note */
+.modified-note {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+/* Display product lists in three columns to minimize vertical footprint */
+.three-column-precursor + ul > li {
+  display: inline-block;
+  vertical-align: top;
+  list-style-position: inside;
+  width: 33%;
+}
+
+
+/* Prevent links from breaking to next line */
+a {
+  white-space: nowrap;
+}
+
+
+/* Slim down that big Support header block */
+.skinny-header {
+  padding: 0 114px 40px !important;
+}
+
+      </style>
+  
+  
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://firebase.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Firebase"
+      
+    >
+    
+        Firebase
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://firebase.google.com/support"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Support
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Firebase"
+  product-id="719752"
+  bucket=""
+  context=""
+  version="t-devsite-webserver-20240502-r00-rc00.460373615485710427"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  class="nocontent"
+  
+  
+    project-feedback-url="https://firebase.google.com/support/contact/bugs-features/"
+  
+  
+    
+      project-icon="https://firebase.google.com/_static/firebase/images/icon.svg"
+    
+  
+  
+    project-support-url="https://firebase.google.com/support/"
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+  
+      <h1 class="devsite-page-title" tabindex="-1">Privacy and Security in Firebase</h1>
+  <devsite-feature-tooltip
+          ack-key="AckCollectionsBookmarkTooltipDismiss"
+          analytics-category="Site-Wide Custom Events"
+          analytics-action-show="Callout Profile displayed"
+          analytics-action-close="Callout Profile dismissed"
+          analytics-label="Create Collection Callout"
+          class="devsite-page-bookmark-tooltip nocontent"
+          dismiss-button="true"
+          id="devsite-collections-dropdown"
+
+          
+          dismiss-button-text="Dismiss"
+
+          
+          close-button-text="Got it">
+
+        
+        <devsite-bookmark></devsite-bookmark>
+
+        <span slot="popout-heading">
+          
+          Stay organized with collections
+        </span>
+        <span slot="popout-contents">
+          
+          Save and categorize content based on your preferences.
+        </span>
+      </devsite-feature-tooltip>
+  <div class="devsite-page-title-meta"><devsite-view-release-notes></devsite-view-release-notes></div>
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+    
+    <devsite-recommendations-dropdown class="nocontent"></devsite-recommendations-dropdown>
+    
+  
+
+  
+
+
+
+
+
+
+<div class="devsite-article-body clearfix
+  ">
+
+  
+    
+
+    
+    
+  <div class="privacy">
+  
+
+<p>This page outlines Firebase&#39;s key security and privacy information. Whether
+you&#39;re looking to kick off a new project with Firebase, or curious about how
+Firebase works with your existing project, read on to see how Firebase can help
+protect you and your users.</p>
+
+<p class="modified-note">Last modified: April 29, 2024</p>
+
+<h2 id="data_protection" data-text="Data protection" tabindex="-1">Data protection</h2>
+
+<h3 id="firebase_support_for_gdpr_and_ccpa" data-text="Firebase support for GDPR and CCPA" tabindex="-1">Firebase support for GDPR and CCPA</h3>
+
+<p>On May 25th, 2018, the EU General Data Protection Regulation (GDPR) replaced the
+1995 EU Data Protection Directive. On January 1, 2020, the California Consumer
+Privacy Act (CCPA) took effect. On January 1, 2023, the California Privacy
+Rights Act (CPRA), which is a data privacy law that amends and expands upon the
+CCPA, took effect. Google is committed to helping our customers succeed under
+these privacy regulations, whether they are large software companies or
+independent developers.</p>
+
+<p>The GDPR imposes obligations on data controllers and data processors, and the
+CCPA/CPRA imposes obligations on businesses and their service providers.
+Firebase customers typically act as the &quot;data controller&quot; (GDPR) or &quot;business&quot;
+(CCPA/CPRA) for any personal data or information about their end-users they
+provide to Google in connection with their use of Firebase, and Google generally
+operates as a &quot;data processor&quot; (GDPR) or &quot;service provider&quot; (CCPA/CPRA).</p>
+
+<p>This means that data is under the customer&#39;s control. Customers are
+responsible for obligations like fulfilling an individual&#39;s rights with respect
+to their personal data or information.</p>
+
+<h3 id="firebase_data_processing_and_security_terms" data-text="Firebase Data Processing and Security Terms" tabindex="-1">Firebase Data Processing and Security Terms</h3>
+
+<p>When customers use Firebase, Google is generally a data processor under GDPR and
+processes personal data on their behalf. Similarly, when customers use Firebase,
+Google generally operates as a service provider under the CCPA/CPRA handling
+personal information on their behalf. Firebase terms include <a href="https://firebase.google.com/terms/">Data Processing
+and Security Terms</a> detailing these
+responsibilities.</p>
+
+<p>Certain Firebase services governed by the
+<a href="https://cloud.google.com/terms/">Google Cloud Platform (GCP) Terms of Service</a>
+are already covered by associated data processing terms, the
+<a href="https://cloud.google.com/terms/data-processing-addendum">Cloud Data Processing Addendum</a>.
+A complete list of Firebase services currently governed by the GCP Terms of
+Service is available in the
+<a href="https://firebase.google.com/terms/">Terms of Service for Firebase Services</a>.</p>
+
+<p>Google Analytics is a separate service that can be used together with Firebase,
+and is subject to separate
+<a href="https://www.google.com/analytics/terms/">terms</a>.</p>
+
+<h3 id="firebase_is_certified_under_major_privacy_and_security_standards" data-text="Firebase is certified under major privacy and security standards" tabindex="-1">Firebase is certified under major privacy and security standards</h3>
+
+<h4 id="certifications" data-text="ISO and SOC compliance" tabindex="-1">ISO and SOC compliance</h4>
+
+<p>All Firebase services (aside from App Indexing) have successfully completed the
+<a href="/static/downloads/gdpr/JAN2024_Firebase_ISO_27001.pdf">ISO 27001</a> and <a href="https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc1report">SOC
+1</a>,
+<a href="https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report">SOC
+2</a>,
+and <a href="/static/downloads/gdpr/JUNE2022_Firebase_SOC3_Report.pdf">SOC 3</a> evaluation
+process, and some have also completed the <a href="https://cloud.google.com/security/compliance/iso-27017">ISO
+27017</a> and <a href="https://cloud.google.com/security/compliance/iso-27018">ISO
+27018</a> certification
+process. Compliance reports and certificates for Firebase services governed by
+the GCP Terms of Service may be requested via the <a href="https://cloud.google.com/security/compliance/compliance-reports-manager">Compliance Reports
+Manager</a></p>
+
+<devsite-filter sortable="0">
+  <table>
+    <thead>
+      <tr>
+        <th>Service name</th>
+        <th>ISO 27001</th>
+        <th>ISO 27017</th>
+        <th>ISO 27018</th>
+        <th>SOC 1</th>
+        <th>SOC 2</th>
+        <th>SOC 3</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <tr>
+        <td>Firebase ML</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Test Lab</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Cloud Firestore</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Cloud Functions for Firebase</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Cloud Storage for Firebase</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Authentication</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Crashlytics</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase App Check</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase App Distribution</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase In-App Messaging</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Cloud Messaging</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Performance Monitoring</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Hosting</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Dynamic Links</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Remote Config</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Realtime Database</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Platform</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase A/B Testing</td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+        <td>
+          <span class='material-icons' data-tooltip='Complete' aria-label='Complete' aria-hidden="true" translate="no">check</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</devsite-filter>
+
+<h4 id="international_data_transfers" data-text="International Data Transfers" tabindex="-1">International Data Transfers</h4>
+
+<p>The Privacy Shield frameworks provided a mechanism to comply with data
+protection requirements when transferring EEA, UK or Swiss personal data to the
+United States and onwards. In light of the Court of Justice of the European Union ruling on data
+transfers, invalidating the EU-U.S. Privacy Shield, Firebase has moved to
+reliance on Standard Contractual Clauses for relevant data transfers, which, as
+per the ruling, can continue to be a valid legal mechanism to transfer data
+under the GDPR. The European Commission approved new versions of the Standard
+Contractual Clauses on June 4, 2021, which we are incorporating into our
+contracts with Firebase customers for relevant data transfers.</p>
+
+<p>We are committed to having a lawful basis for data transfers in compliance with
+applicable data protection laws.</p>
+
+<h2 id="data_processing_information" data-text="Data processing information" tabindex="-1">Data processing information</h2>
+
+<h3 id="examples-end-user-data-processed-by-firebase" data-text="Examples of end-user data processed by Firebase" tabindex="-1">Examples of end-user data processed by Firebase</h3>
+
+<p>Some Firebase services process your end users&#39; data to provide their service.
+The chart below has examples of how various Firebase services use and handle
+end-user data that may potentially be identifying. In addition, many Firebase
+services offer the ability to request deletion of specific data or control how
+data is handled.</p>
+
+
+
+<devsite-filter sortable="0">
+  <table class="pii-cert">
+    <thead>
+      <tr>
+        <th>Firebase service</th>
+        <th>End-user data</th>
+        <th>How data helps provide the service</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <tr>
+        <td>Cloud Functions for Firebase</td>
+        <td><ul><li>IP addresses</li></ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Cloud Functions uses IP addresses to
+            execute event-handling functions and HTTP functions based on end-user actions.
+          </p>
+          <p>
+            <strong>Retention:</strong> Cloud functions only saves IP addresses temporarily, to
+            provide the service.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Authentication</td>
+        <td>
+          <ul>
+            <li>Passwords</li>
+            <li>Email addresses</li>
+            <li>Phone numbers</li>
+            <li>User agents</li>
+            <li>IP addresses</li>
+          </ul>
+        </td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Firebase Authentication uses the data to enable end-user
+            authentication, and facilitate end-user account management. It also uses user-agent
+            strings and IP addresses to provide added security and prevent abuse during sign-up and
+            authentication.</p>
+          <p>
+            <strong>Retention:</strong> Firebase Authentication keeps logged IP addresses for a few
+            weeks. It retains other authentication information until the Firebase customer initiates
+            deletion of the associated user, after which data is removed from live and backup
+            systems within 180 days.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase App Check</td>
+        <td>
+          <ul>
+            <li>Attestation material from supported attestation providers</li>
+            <li>App Check tokens from successful attestations</li>
+          </ul>
+        </td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Firebase App Check uses attestation
+            material required by the corresponding attestation provider and
+            received from end-user's devices to help establish the integrity of
+            the device and/or the app. Attestation materials are sent to the
+            corresponding attestation provider for validation based on the
+            developer's configuration. App Check tokens obtained from successful
+            attestations are sent with every request to supported Firebase
+            services to access resources protected by App Check.
+          </p>
+          <p>
+            <strong>Retention:</strong> Attestation material is not retained by
+            App Check, but when it is sent to attestation providers, it is
+            subject to the terms of those attestation providers. App Check
+            tokens returned from successful attestations are valid throughout
+            their TTL duration, which cannot be longer than 7 days. For
+            developers who use replay protection features, App Check stores the
+            App Check tokens used with these features for at most 30 days. Other
+            App Check tokens not used with replay protection features are not
+            retained by Firebase services.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase App Distribution</td>
+        <td>
+          <ul>
+            <li>Users' names</li>
+            <li>Email addresses</li>
+            <li>iOS UDIDs</li>
+            <li><a href="https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID" class="external">Secure Android IDs</a></li>
+            <li>Firebase installation IDs</li>
+            <li>Tester feedback (screenshots and text)</li>
+          </ul>
+        </td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Firebase App Distribution uses the data to distribute
+            app builds to testers, monitor tester activity, enable tester features like in-app
+            feedback, and associate data with tester devices.</p>
+          <p>
+            <strong>Retention:</strong> Firebase App Distribution retains user information
+            until the Firebase customer requests its deletion, after which data is removed from live
+            and backup systems within 180 days.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Cloud Messaging</td>
+        <td><ul><li>Firebase installation IDs</li></ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Firebase Cloud Messaging uses
+            Firebase installation IDs to determine which devices to deliver messages to.
+          </p>
+          <p>
+            <strong>Retention:</strong> Firebase retains Firebase installation IDs
+            until the Firebase customer
+            makes an API call to delete the ID. After the call, data is removed from live and backup
+            systems within 180 days.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Crashlytics</td>
+        <td>
+          <ul>
+          <li>Crashlytics Installation UUIDs</li>
+          <li>Firebase installations ID</li>
+          <li>Crash traces</li>
+          <li>Breakpad minidump formatted data<br /> <i>(NDK crashes only)</i></li>
+        </ul>
+      </td>
+        <td><p>
+            <strong>How it helps:</strong> Firebase Crashlytics uses crash stack
+            traces to associate crashes with a project, send email alerts to
+            project members and display them in the Firebase Console, and help
+            Firebase customers debug crashes. It uses Crashlytics Installation
+            UUIDs to measure the number of users impacted by a crash and
+            minidump data to process NDK crashes. The minidump data is stored
+            while the crash session is being processed and then discarded. The
+            Firebase installation ID enables upcoming features that will enhance
+            crash reporting and crash management services. Refer to
+          <a href="https://firebase.google.com/support/privacy#crash-stored-info">
+            Examples of stored device information</a>
+          for more detail on the types of user information gathered. </p> <p>
+            <strong>Retention:</strong> Firebase Crashlytics keeps crash stack traces,
+            extracted minidump data, and associated identifiers (including
+            Crashlytics Installation UUIDs and Firebase installation IDs) for 90 days before
+            starting the process of removing it from live and backup systems.
+          </p>
+          <aside class="note">
+          <b>Note:</b> Firebase Crashlytics stores minidump data only temporarily in order to
+            process NDK crashes.
+          </aside>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Dynamic Links</td>
+        <td>
+          <ul>
+            <li>Device specs&nbsp;(iOS)</li>
+            <li>IP Addresses&nbsp;(iOS)</li>
+          </ul>
+        </td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Dynamic Links uses device specs and IP addresses on iOS to open
+            newly-installed apps to a specific page or context.
+          </p>
+          <p><strong>Retention:</strong> Dynamic Links only stores device specs and IP addresses temporarily, to
+            provide the service.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Hosting</td>
+        <td><ul><li>IP addresses</li></ul></td>
+        <td>
+          <p><strong>How it helps:</strong> Hosting uses IP addresses of incoming requests to detect
+            abuse and provide customers with detailed analysis of usage data.
+          </p>
+          <p><strong>Retention:</strong> Hosting retains IP data for a few months.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Performance Monitoring</td>
+        <td><ul><li>Firebase installation IDs</li><li>IP addresses</li></ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Performance Monitoring uses Firebase installation IDs
+            to calculate the number of unique Firebase installations that access network resources,
+            to ensure that access patterns are sufficiently anonymous. It also uses
+            Firebase installation IDs with Firebase Remote Config
+            to manage the rate of performance event reporting. Additionally, it uses IP
+            addresses to map performance events to the countries they originate from. For more
+            information, see
+            <a href="/support/privacy#performance-monitoring-collected-info">Data collection</a>.
+          </p>
+          <p>
+            <strong>Retention:</strong> Performance Monitoring keeps IP-associated
+            events for 30 days, and it keeps installation-associated and de-identified performance
+            data for 90 days before starting the process of removing it from live and backup
+            systems.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase In-App Messaging</td>
+        <td><ul><li>Firebase installation IDs</li></ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Firebase In-App Messaging uses
+            Firebase installation IDs to determine which devices to deliver messages to.
+          </p>
+          <p>
+            <strong>Retention:</strong> Firebase retains Firebase installation IDs
+            until the Firebase customer
+            makes an API call to delete the ID. After the call, data is removed from live and backup
+            systems within 180 days.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Realtime Database</td>
+        <td><ul><li>IP addresses</li><li>User agents</li></ul></td>
+        <td>
+          <p><strong>How it helps:</strong> Realtime Database uses IP addresses and user agents to
+            enable the <a href="https://firebase.google.com/docs/database/usage/profile">profiler
+            tool</a>, which helps Firebase customers understand usage trends and platform
+            breakdowns.
+          </p>
+          <p>
+            <strong>Retention:</strong> Realtime Database keeps IP addresses and user agent
+            information for a few days, unless a customer chooses to save it for longer.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase Remote Config</td>
+        <td><ul><li>Firebase installation IDs</li></ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> Remote Config uses Firebase installation IDs
+            to select configuration
+            values to return to end-user devices.</p><p><strong>Retention:</strong> Firebase retains
+          Firebase installation IDs until the Firebase customer makes an API call to delete the
+          ID. After the call, data is removed from live and backup systems within 180 days.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Firebase ML</td>
+        <td><ul><li>Uploaded Images</li>
+                <li>installation auth tokens</li>
+          </ul></td>
+        <td>
+          <p>
+            <strong>How it helps:</strong> The Cloud based APIs store uploaded images temporarily,
+            to process and return the analysis to you. Stored images are typically deleted within a
+            few hours. See the Cloud Vision
+            <a href="https://cloud.google.com/vision/docs/data-usage">Data Usage FAQ</a> for more
+            information.
+          </p>
+          <p>
+          <a href="/docs/projects/manage-installations#retrieve-fis-token">installation auth tokens</a>
+          are used by Firebase ML for device authentication when interacting with app
+            instances, for example, to distribute developer models to app instances.
+          </p>
+          <p><strong>Retention:</strong> installation auth tokens remain valid until their
+            expiration date. The default token lifetime is one week.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</devsite-filter>
+
+<div id="crash-stored-info"><devsite-expandable>
+  <p id="crash-stored-info"
+     class="showalways">
+    <b>Examples of information collected by Crashlytics</b>
+  </p>
+  <ul>
+    <li>An RFC-4122 UUID which permits us to deduplicate crashes</li>
+    <li>The Crashlytics Installation UUID</li>
+    <li>The Firebase installations ID (FID)</li>
+    <li>The Firebase session ID, which is a random UUID generated to tag events
+      with a session</li>
+    <li>The timestamp of when the crash occurred</li>
+    <li>The app's bundle identifier and full version number</li>
+    <li>The device's operating system name and version number</li>
+    <li>A boolean indicating whether the device was jailbroken/rooted</li>
+    <li>The device's model name, CPU architecture, amount of RAM and disk
+      space</li>
+    <li>The uint64 instruction pointer of every frame of every currently running
+      thread</li>
+    <li>If available in the runtime, the plain-text method or function name
+      containing each instruction pointer.</li>
+    <li>If an exception was thrown, the plain-text class name and message value
+      of the exception</li>
+    <li>If a fatal signal was raised, its name and integer code</li>
+    <li>For each binary image loaded into the application, its name, UUID, byte
+      size, and the uint64 base address at which it was loaded into RAM</li>
+    <li>A boolean indicating whether or not the app was in the background at the
+      time it crashed</li>
+    <li>An integer value indicating the rotation of the screen at the time of
+      crash</li>
+    <li>A boolean indicating whether the device's proximity sensor was
+      triggered</li>
+    <li>The contents of <code translate="no" dir="ltr">version-control-info.textproto</code>
+      <i>(only for Android apps
+      <a href="/support/releases#crashlytics-support-for-vcs-in-android-studio">configured
+        to use the version control system (VCS) integration</a>)</i></li>
+  </ul>
+</devsite-expandable>
+</div>
+
+<div id="performance-monitoring-collected-info"><devsite-expandable>
+  <p id="performance-monitoring-collected-info"
+     class="showalways">
+    <b>Examples of information collected by Performance Monitoring</b>
+  </p>
+  <ul>
+    <li>The Firebase installations ID (FID)</li>
+    <li>The Firebase session ID, which is a random UUID generated to tag events
+      with a session</li>
+    <li>General device information, such as model, OS, and orientation</li>
+    <li>RAM and disk size</li>
+    <li>CPU usage</li>
+    <li>Carrier (based on Mobile Country and Network Code)</li>
+    <li>Radio/Network information (for example, WiFi, LTE, 3G)</li>
+    <li>Country (based on IP address)</li>
+    <li>Locale/language</li>
+    <li>App version</li>
+    <li>App foreground or background state</li>
+    <li>App package name</li>
+    <li>Firebase installation IDs</li>
+    <li>Duration times for automated traces</li>
+    <li>Network URLs (not including URL parameters or payload content)
+      and the following corresponding information:
+      <ul>
+        <li>Response codes (for example, 403, 200)</li>
+        <li>Payload size in bytes</li>
+        <li>Response times</li>
+      </ul>
+    </li>
+  </ul>
+  <p>See a <a href="/docs/perf-mon#how_does_it_work">full list</a> of the
+    automatic traces collected by Performance Monitoring.
+  </p>
+</devsite-expandable>
+</div>
+<aside class="note"><strong>Note:</strong><span> For more info on deleting data associated with installations, see
+<a href="/docs/projects/manage-installations#delete-installation">Delete a Firebase installation</a>.</span></aside>
+<h3 id="guides-for-enabling-opt-in-end-user-data-processing" data-text="Guides for enabling opt-in for end-user data processing" tabindex="-1">Guides for enabling opt-in for end-user data processing</h3>
+
+<p>Services in the table above need some amount of end-user data to function. As a
+result, it&#39;s not possible to entirely disable data collection while using those
+services.</p>
+
+<p>If you&#39;re a customer who would like to offer users a chance to opt-in to a
+service, and the data collection that comes with it, in most cases that just
+requires adding a dialog or settings toggle before using the service.</p>
+
+<p>Some services, however, start up automatically when included in an app. To give
+users a chance to opt-in before using those services, you can choose to disable
+auto-initialization for each service, and manually initialize them at run time
+instead. To find out how, read the guides below:</p>
+
+<ul>
+<li>Cloud Messaging: <a href="/docs/cloud-messaging/android/client#prevent-auto-init">Prevent Auto-initialization (Android)</a> or <a href="/docs/cloud-messaging/ios/client#prevent_auto_initialization">Prevent Auto-initialization (iOS+)</a></li>
+<li>Crashlytics: <a href="/docs/crashlytics/customize-crash-reports?platform=ios#enable-reporting">Enable Opt-in Reporting (iOS+)</a>
+or <a href="/docs/crashlytics/customize-crash-reports?platform=android#enable-reporting">Enable Opt-in Reporting (Android)</a></li>
+<li>Performance Monitoring: <a href="/docs/perf-mon/disable-sdk">Enable Opt-in Monitoring</a></li>
+</ul>
+
+<p>If you integrate Firebase with Google Analytics, learn how to
+<a href="/docs/analytics/configure-data-collection">configure Analytics data collection</a>.</p>
+
+<h3 id="data_storage_and_processing_locations" data-text="Data storage and processing locations" tabindex="-1">Data storage and processing locations</h3>
+
+<p>Unless a service or feature offers data location selection, Firebase may process
+and store your data anywhere Google or its agents maintain facilities. Potential
+facility locations vary by service.</p>
+
+<h4 id="us-only_services" data-text="US-only services" tabindex="-1">US-only services</h4>
+
+<p>The Firebase Authentication service is run only from US data centers. As a result, Firebase Authentication processes data exclusively in the United States.</p>
+
+<h4 id="global_services" data-text="Global services" tabindex="-1">Global services</h4>
+
+<p>The majority of Firebase services run on global Google infrastructure.
+They could process data at any of the <a href="https://cloud.google.com/about/locations/">Google Cloud Platform locations</a>
+or <a href="https://www.google.com/about/datacenters/inside/locations/index.html">Google data center locations</a>.
+For some services
+you can make a specific <a href="https://cloud.google.com/terms/#data_location">Data Location Selection</a>
+which restricts processing to that location.</p>
+
+<div class="three-column-precursor"></div>
+
+<ul>
+<li>Cloud Storage for Firebase</li>
+<li>Cloud Firestore</li>
+<li>Cloud Functions for Firebase</li>
+<li>Firebase Hosting</li>
+<li>Firebase Crashlytics</li>
+<li>Firebase Performance Monitoring</li>
+<li>Firebase Dynamic Links</li>
+<li>Firebase Remote Config</li>
+<li>Firebase Cloud Messaging</li>
+<li>Firebase ML</li>
+<li>Firebase Test Lab</li>
+<li>Firebase App Check</li>
+</ul>
+
+<h2 id="security_information" data-text="Security information" tabindex="-1">Security information</h2>
+
+<h3 id="data_encryption" data-text="Data encryption" tabindex="-1">Data encryption</h3>
+
+<p>Firebase services encrypt data in transit using HTTPS and logically isolate
+customer data.</p>
+
+<p>In addition, several Firebase services also encrypt their data at rest:</p>
+
+<div class="three-column-precursor"></div>
+
+<ul>
+<li>Cloud Firestore</li>
+<li>Cloud Functions for Firebase</li>
+<li>Cloud Storage for Firebase</li>
+<li>Firebase Crashlytics</li>
+<li>Firebase Authentication</li>
+<li>Firebase Cloud Messaging</li>
+<li>Firebase Realtime Database</li>
+<li>Firebase Test Lab</li>
+<li>Firebase App Check</li>
+<li>Firebase Performance Monitoring</li>
+</ul>
+
+<h3 id="security_practices" data-text="Security practices" tabindex="-1">Security practices</h3>
+
+<p>To keep personal data safe, Firebase employs extensive security measures to
+minimize access:</p>
+
+<ul>
+<li>Firebase restricts access to a select employees who have a business purpose to access personal data.</li>
+<li>Firebase logs employee access to systems that contain personal data.</li>
+<li>Firebase only permits access to personal data by employees who sign in with Google Sign-In and <a href="https://fidoalliance.org/case-study-series-google-security-keys-work/">2-factor authentication</a>.</li>
+</ul>
+
+<h2 id="firebase_service_data" data-text="Firebase Service Data" tabindex="-1">Firebase Service Data</h2>
+
+<p>Firebase Service Data is personal information that Google collects and generates
+during the provision and administration of the Firebase services<sup>*</sup>,
+excluding Customer Data<sup>**</sup> as defined in our customer agreements
+covering Firebase services and
+<a href="//cloud.google.com/terms/cloud-privacy-notice">Google Cloud Service Data</a>.
+Examples of Firebase Service Data include information about service usage,
+resource identifiers like application IDs and package name/bundle IDs, technical
+and operational details of usage such as IP addresses, and direct communications
+with developers from feedback and support related conversations.</p>
+
+<p><sup>*Services covered include Firebase A/B Testing, Firebase App Distribution,
+  Firebase Cloud Messaging, Firebase Crashlytics, Firebase Dynamic Links,
+  Firebase Hosting, Firebase In-App Messaging, Firebase ML,
+  Firebase Performance Monitoring, Firebase Realtime Database, Firebase Remote
+  Config, and Firebase User Segmentation Storage.</sup></p>
+
+<p><sup>**For more information about how we process Customer Data, see our
+  <a href="/terms/data-processing-terms">Firebase Data Processing and Security
+  Terms</a>.</sup></p>
+
+<h3 id="examples_of_how_firebase_service_data_is_processed_by_firebase" data-text="Examples of how Firebase Service Data is processed by Firebase" tabindex="-1">Examples of how Firebase Service Data is processed by Firebase</h3>
+
+<p>Google uses Firebase Service Data in accordance with our
+<a href="//policies.google.com/privacy">privacy policy</a> and applicable terms.
+Firebase Service Data is used, for example, to:</p>
+
+<ul>
+<li>Provide Firebase services you request</li>
+<li>Make recommendations to optimize use of Firebase services</li>
+<li>Maintain and improve Firebase services</li>
+<li>Provide and improve other services you request</li>
+<li>Understand your use of Firebase and other Google services</li>
+<li>Provide better support to and communicate with you</li>
+<li>Protect you, our users, the public and Google</li>
+<li>Comply with legal obligations</li>
+</ul>
+
+<h3 id="firebase_service_data_use_by_non-firebase_google_services" data-text="Firebase Service Data use by non-Firebase Google services" tabindex="-1">Firebase Service Data use by non-Firebase Google services</h3>
+
+<p>You can control whether your Firebase Service Data may be used by Google to
+provide more in depth analysis, insights, and recommendations about
+<strong>non-Firebase</strong> Google services and improve <strong>non-Firebase</strong> Google services.
+You can configure this in your Firebase data privacy settings page.</p>
+
+<p>If this control is disabled, Firebase Service Data will continue to be used
+for other purposes, such as those mentioned above, in accordance with our
+<a href="//policies.google.com/privacy">privacy policy</a> and applicable terms, including
+to make recommendations about and improve <strong>Firebase</strong> services, and to deliver
+and improve other services you request, such as Google products you link to your
+Firebase project.</p>
+
+<h2 id="still_have_questions_contact_us" class="hide-from-toc" data-text="Still have questions? Contact us" tabindex="-1">Still have questions? Contact us</h2>
+
+<p>For any privacy-related questions you have that aren&#39;t covered here, <a href="/support/troubleshooter/contact">reach out to Firebase Support</a>. If you&#39;re a Firebase developer, include your Firebase App ID. Find your Firebase App ID in the
+<em>Your apps</em> card of your
+<span class="material-icons" aria-hidden="true" translate="no">settings</span> <a href="//console.firebase.google.com/project/_/settings/general/"><strong>Project
+settings</strong></a>.</p>
+
+
+  </div>
+
+  
+  
+
+  
+</div>
+
+  
+
+  
+    
+      <devsite-recommendations display="in-page" hidden yield>
+      </devsite-recommendations>
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+         <devsite-feedback
+  position="footer"
+  project-name="Firebase"
+  product-id="719752"
+  bucket=""
+  context=""
+  version="t-devsite-webserver-20240502-r00-rc00.460373615485710427"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="footer"
+  class="nocontent"
+  
+  
+    project-feedback-url="https://firebase.google.com/support/contact/bugs-features/"
+  
+  
+    
+      project-icon="https://firebase.google.com/_static/firebase/images/icon.svg"
+    
+  
+  
+    project-support-url="https://firebase.google.com/support/"
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+       
+    
+    
+      <devsite-recommendations id="recommendations-link" yield></devsite-recommendations>
+    
+  
+
+  
+  
+</article>
+
+
+<devsite-content-footer class="nocontent">
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2024-05-03 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  <template class="devsite-thumb-rating-down-categories">
+  [{
+      "type": "thumb-down",
+      "id": "missingTheInformationINeed",
+      "label":"Missing the information I need"
+    },{
+      "type": "thumb-down",
+      "id": "tooComplicatedTooManySteps",
+      "label":"Too complicated / too many steps"
+    },{
+      "type": "thumb-down",
+      "id": "outOfDate",
+      "label":"Out of date"
+    },{
+      "type": "thumb-down",
+      "id": "samplesCodeIssue",
+      "label":"Samples / code issue"
+    },{
+      "type": "thumb-down",
+      "id": "otherDown",
+      "label":"Other"
+    }]
+  </template>
+  <template class="devsite-thumb-rating-up-categories">
+  [{
+      "type": "thumb-up",
+      "id": "easyToUnderstand",
+      "label":"Easy to understand"
+    },{
+      "type": "thumb-up",
+      "id": "solvedMyProblem",
+      "label":"Solved my problem"
+    },{
+      "type": "thumb-up",
+      "id": "otherUp",
+      "label":"Other"
+    }]
+  </template>
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Firebase"
+  product-id="719752"
+  bucket=""
+  context=""
+  version="t-devsite-webserver-20240502-r00-rc00.460373615485710427"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  class="nocontent"
+  
+  
+    project-feedback-url="https://firebase.google.com/support/contact/bugs-features/"
+  
+  
+    
+      project-icon="https://firebase.google.com/_static/firebase/images/icon.svg"
+    
+  
+  
+    project-support-url="https://firebase.google.com/support/"
+  
+  feedback-type="thumb-rating">
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Learn</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/guides/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Guides
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/reference/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Reference
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/samples/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Samples
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/libraries/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Libraries
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//github.com/firebase/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+              
+              
+            
+          
+            GitHub
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Stay connected</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//firebase.blog"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/summit/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Firebase Summit
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//twitter.com/Firebase"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Twitter
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/user/Firebase"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+              
+              
+            
+          
+            YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Support</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/support/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Contact support
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//stackoverflow.com/questions/tagged/firebase"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Stack Overflow
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//firebase.community/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Slack community
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//groups.google.com/forum/#!forum/firebase-talk"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Google group
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/support/releases"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+          
+            Release notes
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/support/faq/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            >
+            
+              
+              
+            
+          
+            FAQs
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <source srcset="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup-google-for-developers-dark-theme.svg"
+                media="(prefers-color-scheme: none)"
+                class="devsite-dark-theme"
+                loading="lazy"
+                alt="Google Developers">
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developers.google.com/products/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          All products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel></devsite-panel>
+        
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar
+    
+    >
+</devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics analytics-iframe enable-cb>
+      
+        <script type="application/json" analytics>[]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;False&#34;, &#34;ga4&#34;: [], &#34;ga4p&#34;: [], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-N84485&#34;, &#34;purpose&#34;: 0}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Firebase&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;firebase&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    <firebase-gtm></firebase-gtm>
+
+<firebase-utm></firebase-utm>
+
+    <script nonce="WH5HTJw8lw9bBgvfNE8v1d1uIYnged">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/js/app_loader.js', '[4,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase","https://firebase-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/firebase/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/favicon.png","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/firebase/images/lockup.svg","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","firebase.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["MiscFeatureFlags__enable_firebase_utm","Cloud__enable_llm_concierge_chat","Cloud__enable_cloud_shell_fte_user_flow","MiscFeatureFlags__enable_project_variables","Search__enable_faceted_search","Profiles__enable_awarding_url","Cloud__enable_cloudx_ping","Search__enable_suggestions_from_borg","MiscFeatureFlags__developers_footer_dark_image","Search__enable_page_map","Experiments__reqs_query_experiments","BookNav__enable_tenant_cache_key","Search__enable_dynamic_content_confidential_banner","CloudShell__cloud_shell_button","MiscFeatureFlags__emergency_css","MiscFeatureFlags__enable_explain_this_code","Profiles__enable_recognition_badges","Analytics__enable_cookie_bar","EngEduTelemetry__enable_engedu_telemetry","Significatio__enable_by_tenant","MiscFeatureFlags__enable_dark_theme","MiscFeatureFlags__enable_variable_operator","Cloud__enable_cloud_dlp_service","Cloud__enable_free_trial_server_call","Profiles__require_profile_eligibility_for_signin","CloudShell__cloud_code_overflow_menu","Cloud__enable_cloud_facet_chat","Profiles__enable_public_developer_profiles","Profiles__enable_profile_collections","Profiles__enable_page_saving","Search__enable_ai_eligibility_checks","Concierge__enable_pushui","MiscFeatureFlags__developers_footer_image","Profiles__enable_developer_profiles_callout","Profiles__enable_release_notes_notifications","Cloud__enable_cloud_shell","Cloud__enable_cloudx_experiment_ids","TpcFeatures__enable_mirror_tenant_redirects"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,null,"https://developerprofiles-pa.clients6.google.com"]')
+  
+</script>
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

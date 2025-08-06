@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy | Diagram Genius</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #343541; /* Dark background */
+      color: #ffffff; /* Light text color for contrast */
+    }
+    h1, h2, p {
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    a {
+      color: #4fd1c5; /* Teal color for links to match the landing page theme */
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>At Diagram Genius, we respect your privacy and are committed to protecting it through our compliance with this policy.</p>
+
+    <h2>Data Collection and Use</h2>
+    <p>We do not collect personal data through our website, ensuring your visit remains private and secure. Our platform is designed to provide interactive diagramming tools without tracking or storing user information.</p>
+
+    <h2>No Cookies</h2>
+    <p>We do not use cookies or similar tracking technologies. Your experience on our website is not influenced or monitored by any form of data collection.</p>
+
+    <h2>Non-Personal Data</h2>
+    <p>While we do not collect personal information, we may gather non-identifiable, aggregate information for improving user experience. This includes data like website usage statistics and general demographic information.</p>
+
+    <h2>Data Security</h2>
+    <p>Although we do not collect personal data, we are dedicated to maintaining the security of our website and protecting it from unauthorized access.</p>
+
+    <h2>Your Rights</h2>
+    <p>As a user, you have rights under privacy laws like the GDPR and CCPA. Since we do not collect personal data, these rights regarding data access, correction, and deletion may not be applicable.</p>
+
+    <!-- <h2>Contact Us</h2>
+    <p>If you have any questions about this privacy policy, please feel free to <a href="mailto:contact@diagramgenius.com">contact us</a>.</p> -->
+  </div>
+</body>
+</html>

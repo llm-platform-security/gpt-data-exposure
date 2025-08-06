@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <header class="py-10">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <nav class="relative z-50 flex justify-between">
+                <div class="flex items-center md:gap-x-12">
+                    <a aria-label="Home" href="#">Vedic Astro Bot</a>
+                </div>
+                <!--
+                <div class="flex items-center gap-x-5 md:gap-x-8">
+                    <div class="hidden md:block"><a
+                            class="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                            href="/login">Sign in</a></div><a
+                        class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-blue-600 text-white hover:text-slate-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600"
+                        color="blue" variant="solid" href="/register"><span>Get started <span
+                                class="hidden lg:inline">today</span></span></a>
+                    <div class="-mr-1 md:hidden">
+                        <div data-headlessui-state=""><button
+                                class="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none"
+                                aria-label="Toggle Navigation" type="button" aria-expanded="false"
+                                data-headlessui-state="" id="headlessui-popover-button-:Rbpnla:"><svg aria-hidden="true"
+                                    class="h-3.5 w-3.5 overflow-visible stroke-slate-700" fill="none" stroke-width="2"
+                                    stroke-linecap="round">
+                                    <path d="M0 1H14M0 7H14M0 13H14" class="origin-center transition"></path>
+                                    <path d="M2 2L12 12M12 2L2 12" class="origin-center transition scale-90 opacity-0">
+                                    </path>
+                                </svg></button></div>
+                        <div
+                            style="position:fixed;top:1px;left:1px;width:1px;height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0;display:none">
+                        </div>
+                    </div>
+                </div>
+                -->
+            </nav>
+        </div>
+    </header>
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-4">Privacy Policy</h1>
+
+        <p class="mb-4">Effective Date: <b>15 Jan 2024</b></p>
+
+        <p class="mb-4">At Vedic Astro Bot, protecting your privacy is paramount to us. This Privacy Policy outlines our commitment and practices regarding the collection, use, and protection of your information.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Data Collection and Usage</h2>
+
+        <p class="mb-4">We collect the necessary personal data to provide our services, such as your birth date, time, and place. This information is used exclusively to calculate astrological charts and offer personalized astrological insights. We do not use this data for any other purpose and do not store it post-calculation. Once your chart is generated, your personal data is immediately discarded from our systems.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Data Storage and Protection</h2>
+
+        <p class="mb-4">We do not store your personal data after the astrological charts have been calculated. Our system is designed to immediately delete all personal information following the generation of your chart, ensuring that no data is retained, thereby protecting your privacy.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Disclosure of Information</h2>
+
+        <p class="mb-4">As we do not store any personal data beyond the chart calculation process, we have no information to share or disclose to third parties, except as required by law.</p>
+
+        <h2 class="text-2xl font-bold mb-2">User Consent</h2>
+
+        <p class="mb-4">By using Vedic Astro Bot, you consent to the temporary use of your information to calculate astrological charts as per the terms outlined in this Privacy Policy.</p>
+
+        <h2 class="text-2xl font-bold mb-2">User Rights</h2>
+
+        <p class="mb-4">Since we do not retain any personal data post-calculation, there are no user data rights to access, correct, or delete. However, if you have any questions or concerns, please feel free to contact us.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Compliance with Laws</h2>
+
+        <p class="mb-4">We adhere to relevant privacy laws and regulations, ensuring our practices meet legal standards.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Contact Information</h2>
+
+        <p class="mb-4">Should you have any inquiries about our privacy practices, please contact us at:</p>
+        <p class="mb-4">Email: admin@vedicastro.bot</p>
+
+        <h2 class="text-2xl font-bold mb-2">Policy Updates</h2>
+
+        <p class="mb-4">Any changes to our Privacy Policy will be communicated through our website. We encourage you to review our Privacy Policy periodically.</p>
+
+        <h2 class="text-2xl font-bold mb-2">Disclaimer</h2>
+
+        <p class="mb-4">The services of Vedic Astro Bot are provided for entertainment or informational purposes and should not be used as a substitute for professional advice. We do not guarantee the accuracy of the astrological information provided.</p>
+    </div>
+</body>
+
+</html>

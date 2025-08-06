@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Privacy Policy</title>
+    
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org/dist/ext/json-enc.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/mask@3.x.x/dist/cdn.min.js"></script>
+<script src="//unpkg.com/alpinejs" defer></script>
+
+<link href="/static/assets/css/home.css" rel='stylesheet'>
+
+<link rel="shortcut icon" type="image/png" href="/static/images/favicon.ico">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-54HFXCG5');</script>
+<!-- End Google Tag Manager -->
+
+    
+    <meta name="description" content="PSRESTful Privacy Policy">
+    <meta name="keywords" content="PromoStandards, Promo Standards, PromoStandards API, Promo Standards API,
+    PromoStandards Integration, Promo Standards Integration, PromoStandards Suppliers, Promo Standards Suppliers,
+    PromoStandards Distributors, Promo Standards Distributors, PromoStandards Developers, PromoStandards JSON API,
+    PromoStandards Suppliers Code, PromoStandards PSRESTful Integrated suppliers,
+    PromoStandards PSRESTful supported suppliers, PromoStandards REST API, PSRESTful pricing">
+    <meta property="og:title" content="PSRESTful Pricing"/>
+    <meta property="og:description" content="PSRESTful Privacy Policy"/>
+    <meta property="og:image" content="https://psrestful.com/static/images/ps-restful.svg"/>
+    <meta property="og:type" content="website"/>
+
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    
+<div class="ps-header">
+    <div class="container">
+        <!-- Header with Logo and Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="/static/images/ps-restful.svg" alt="PSRESTful Logo" width="auto"
+                         height="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                        <ul class="navbar-nav ms-auto"> <!-- ms-auto pushes these items to the right -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pricing/">Pricing</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://blog.psrestful.com/posts/" target="_blank">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact-us/">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button"
+                                            id="dropdownDocMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Documentation
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-light"
+                                        aria-labelledby="dropdownDocMenuButton">
+                                        <li><a class="dropdown-item active" href="https://docs.psrestful.com/" target="_blank">Documentation</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://api.psrestful.com/docs" target="_blank">API
+                                                Reference</a></li>
+                                        <li>
+                                        <li>
+                                            <a class="dropdown-item" href="/access-via-public-keys/">Public
+                                                Keys</a></li>
+                                        <li>
+                                        <li>
+                                            <a class="dropdown-item" href="/data-explorer-explained/">Data
+                                                Explorer</a></li>
+                                        <li>
+                                        <li>
+                                            <a class="dropdown-item" href="/cache-information/">Cache
+                                                Information</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="https://github.com/GallardoSolutions/psrestful-examples"
+                                               target="_blank">Examples</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="nav-link">
+                                    <a class="" href="/login">Sign In</a>
+                                    &nbsp;|&nbsp;
+                                    <a class="" href="/sign-up">Sign Up</a>
+                                </div>
+                            </li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+    <div class="content hero-image">
+        <div class="container py-5">
+            <h1>Privacy Policy</h1>
+            <p>Last updated: 08-12-2023</p>
+
+            <h2>Introduction</h2>
+            <p>PSRESTful ("us", "we", or "our") operates the (website URL) website (hereinafter referred to as the
+                "Service").</p>
+            <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when
+                you
+                use our Service and the choices you have associated with that data.</p>
+
+            <h2>Information Collection and Use</h2>
+            <p>We collect various types of information for various purposes to provide and improve our Service to
+                you.</p>
+
+            <!-- Personal Data Section -->
+            <h3>Personal Data</h3>
+            <p>While using our Service, we may ask you to provide us with certain personally identifiable information
+                that
+                can be used to contact or identify you ("Personal Data").</p>
+            <!-- You can expand on the specific types of data collected here -->
+
+            <!-- Usage Data Section -->
+            <h3>Usage Data</h3>
+            <p>We may also collect information on how the Service is accessed and used ("Usage Data").</p>
+            <!-- You can expand on the specific types of usage data collected here -->
+
+            <!-- Cookies Section -->
+            <h3>Cookies and Tracking Technologies</h3>
+            <p>We use cookies and similar tracking technologies to track activity on our Service and hold certain
+                information.</p>
+            <!-- You can expand on the use of cookies here -->
+
+            <h2>Use of Data</h2>
+            <p>PSRESTful uses the collected data for various purposes, such as:</p>
+            <ul>
+                <li>To provide and maintain our Service</li>
+                <li>To notify you about changes to our Service</li>
+                <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+                <li>To provide customer support</li>
+                <!-- Add any other uses of data -->
+            </ul>
+
+            <h2>Disclosure of Data</h2>
+            <p>We may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+            <ul>
+                <li>Comply with a legal obligation</li>
+                <li>Protect and defend the rights or property of PSRESTful</li>
+                <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+                <li>Protect the personal safety of users of the Service or the public</li>
+                <li>Protect against legal liability</li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+<section>
+    <footer class="py-3 mt-auto ps-footer">
+        <div class="container">
+            <div class="row">
+                <!-- New Links Section -->
+                <div class="col-md-4">
+                    <h5>Learn</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://docs.psrestful.com/">Documentation</a></li>
+                        <li><a href="https://api.psrestful.com/docs">API Reference</a></li>
+                        <li><a href="https://blog.psrestful.com/posts/">Blog</a></li>
+                        <li><a href="/integrated-suppliers/">Suppliers</a></li>
+                    </ul>
+                </div>
+                <!-- End of New Links Section -->
+                <div class="col-md-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/about-us/">About Us</a></li>
+                        <li><a href="/contact-us/">Contact Us</a></li>
+                        <li><a href="/faq/">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Legal</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/privacy-policy/">Privacy</a></li>
+                        
+                        <li><a href="/returns-and-refunds-policy/">Return/Refund Policy</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 PSRESTful. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmModalLabel">Confirm Action</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to proceed?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" id="confirmBtn">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Alert Modal -->
+<div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="alertModalLabel">Alert</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        This is an alert message.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        function customConfirm(message, callback) {
+            // Set the message to the modal body
+            $('#confirmModal .modal-body').text(message);
+
+            // Show the modal
+            $('#confirmModal').modal('show');
+
+            // When the confirm button is clicked
+            $('#confirmBtn').off('click').click(function () {
+                callback(true);
+                $('#confirmModal').modal('hide');
+            });
+
+            // When the modal is hidden (either by pressing cancel or clicking outside)
+            $('#confirmModal').off('hidden.bs.modal').on('hidden.bs.modal', function () {
+                callback(false);
+            });
+        }
+
+        /*
+        customConfirm("Are you sure?", function(response) {
+            if(response) {
+                // User confirmed
+                console.log("User confirmed");
+            } else {
+                // User canceled or closed the modal
+                console.log("User canceled or closed the modal");
+            }
+        });
+        */
+
+    </script>
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BDS2DNG2F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0BDS2DNG2F');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54HFXCG5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script type="text/javascript">
+    (function (d, t) {
+        let v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+            window.voiceflow.chat.load({
+                verify: {projectID: '655274be29fb2c0007203b66'},
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+            });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+</script>
+</body>
+</html>

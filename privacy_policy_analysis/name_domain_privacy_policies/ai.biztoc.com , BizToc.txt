@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en" itemscope id="page_static_page" itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta property="og:locale" content="en_US">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <link rel="canonical" href="https://biztoc.com/s/privacy">
+
+    <title>Privacy Policy</title>
+
+    <script type="text/javascript">
+
+        const vanille = "e39a1c7074fe9b63f8430c688fd1a41afa3988ef12e77e9c52a482134c3a78fc";
+        const appurls = {"post_shre": "https://biztoc.com/x/", "login": "/login", "api_more_source": "/api/mores", "com_vote": "/club/vote"};
+        const cdn_base = "https://c.biztoc.com";
+
+        const shredName = 'shred';
+
+            const is_vip = true;
+
+            const is_anon = true;
+
+            const is_app = false;
+
+            const ag_lsame = false;
+
+            const noshare = false;
+
+    </script>
+
+
+    <link rel="preconnect" href="https://c.biztoc.com/">
+    <link rel="preload" href="https://c.biztoc.com/274/font_01.woff2" as="font" type="font/woff2" crossorigin>
+
+        <link rel="preload" href="https://c.biztoc.com/274/base.css" as="style">
+        <link href="https://c.biztoc.com/274/base.css" rel="stylesheet">
+        <meta name="theme-color" content="#FFFFFF">
+
+<!--
+    <link href="https://c.biztoc.com/274/base_dark.css" rel="stylesheet" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#03031b" media="(prefers-color-scheme: dark)">
+ -->
+
+        <link rel="prefetch" href="https://c.biztoc.com/274/sortable.min.js">
+
+    <link rel="preload" href="https://c.biztoc.com/274/base.min.js" as="script">
+    <script src="https://c.biztoc.com/274/base.min.js" type="text/javascript"></script>
+
+    <link rel="alternate" type="application/rss+xml" title="BizToc Feed" href="https://biztoc.com/feed">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://c.biztoc.com/274/opensearch.xml" title="BizToc">
+
+    <meta name="application-name" content="BizToc">
+    <link rel="icon" href="https://c.biztoc.com/274/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="https://c.biztoc.com/274/favicon.png" type="image/png" sizes="512x512">
+    <meta name="msapplication-TileImage" content="https://c.biztoc.com/274/ms-tile.png">
+    <link rel="apple-touch-icon" href="https://c.biztoc.com/274/apple-touch-icon.png">
+    <link rel="mask-icon" href="https://c.biztoc.com/274/safari-pinned-tab.svg" color="#2f3a9c" data-dark-color="#FFFFFF">
+    <link rel="manifest" href="https://c.biztoc.com/274/manifest.json">
+
+    <meta name="tm-version" content="274">
+    <meta name="tm-rendered" content="2024-05-08 21:28:41">
+
+    <meta name="keywords" content="News, Aggregator, Breaking News, Curation, Media">
+    <meta name="description" content="The Privacy Policy for BizToc">
+        <meta property="article:author" content="BizToc">
+        <meta property="og:title" content="Privacy Policy">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://biztoc.com/s/privacy">
+        <meta property="og:description" content="The Privacy Policy for BizToc">
+
+        <meta property="og:image" content="https://c.biztoc.com/274/og.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta property="og:image" content="https://c.biztoc.com/274/ogs.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="1200">
+
+        <meta name="twitter:title" content="Privacy Policy">
+        <meta name="twitter:description" content="The Privacy Policy for BizToc">
+        <meta name="twitter:image" content="https://c.biztoc.com/274/og.png">
+
+        <script type="application/ld+json">
+        {
+            "@context":"https://schema.org",
+            "@type":"WebSite",
+            "name":"BizToc",
+            "headline":"Privacy Policy",
+            "description":"The Privacy Policy for BizToc",
+            "url":"https://biztoc.com/s/privacy",
+            "datePublished": "2024-05-08T21:28:41+00:00",
+            "dateModified": "2024-05-08T21:28:41+00:00",
+            "logo": "https://c.biztoc.com/274/og.png",
+            "author": {
+                "@type": "Organization",
+                "name": "BizToc",
+                "url": "https://biztoc.com/"
+            },
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://biztoc.com/s/privacy"
+            },
+            "image":"https://c.biztoc.com/274/og.png",
+            "publisher":{
+                "@type":"Organization",
+                "name": "The Entire Business World on a Single Page with the Web&#39;s Most Comprehensive One-Stop Finance News Hub.",
+                "logo":{"@type":"ImageObject","url":"https://c.biztoc.com/274/og.png"}
+            },
+
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://biztoc.com/search?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }
+
+        }
+        </script>
+
+    <meta property="og:site_name" content="BizToc">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@biztoc">
+    <meta name="twitter:creator" content="@biztoc">
+
+    <meta property="fb:app_id" content="1148957602248641">
+    <meta property="fb:admins" content="501851572">
+
+    <meta name="msvalidate.01" content="8F2A1D5812E982010BBE0D26B56030A5">
+    <meta name="p:domain_verify" content="">
+
+        <meta name="robots" content="noindex">
+
+        <script defer data-domain="biztoc.com" data-api="/tokei/do/ev" src="/tokei/l.js" type="text/javascript"></script>
+</head>
+
+<body >
+
+<div class="container grid-lg">
+
+        <header>
+            <nav>
+    <a href="/" id="logo" class="sprite_st sprite_logo bz">BizToc</a>
+    <div id="headspace"></div>
+
+        <div id="search_header">
+                <form method="post" action="/search" id="x-query" class="thesearch inheader">
+        <input type="hidden" name="vanille" value="e39a1c7074fe9b63f8430c688fd1a41afa3988ef12e77e9c52a482134c3a78fc">
+        <input type="search" name="q" id="q" tabindex="0"  data-query=""  class="inheader" placeholder="⋯" autocomplete="off" autocapitalize="off" spellcheck="false">
+            <a href="#" onclick="event.preventDefault();document.getElementById('x-query').submit();" class="action inheader"><i data-lucide="search"></i></a>
+    </form>
+
+        </div>
+
+        <a href="/hot" class="sprite_st sprite_hot"></a>
+
+
+
+
+    <div id="menu">
+        <a class="sprite_st" id="burger">MENU</a>
+        <ul id="burgermenu">
+
+                <li class="menu-item"><a href="/login"><i data-lucide="log-in"></i> Login / Sign Up</a></li>
+
+                <li class="menu-item"><a href="/"><i data-lucide="home"></i> Home</a></li>
+
+                <li class="menu-item"><a href="http://onepagecrypto.com/?ref=bt" target="_blank"><i data-lucide="bitcoin"></i> Crypto News</a></li>
+
+                <li class="menu-item"><a href="/media"><i data-lucide="aperture"></i> Media News</a></li>
+
+                <li class="menu-item"><a href="/hot"><i data-lucide="zap"></i> Hot</a></li>
+
+
+
+
+            <li class="menu-item"><a href="/light" target="_blank"><i data-lucide="list"></i> Light Mode</a></li>
+            <li class="menu-item"><a href="/wall"><i data-lucide="image"></i> Imagery</a></li>
+            <li class="menu-item"><a href="/search"><i data-lucide="search"></i> Search</a></li>
+
+                <li class="menu-item"><a href="/user/settings"><i data-lucide="user"></i> Settings &amp; Dark Mode</a></li>
+
+            <li class="menu-item"><a href="/user/grid"><i data-lucide="grid-3x3"></i> Customize News Grid</a></li>
+                <li class="divider"></li>
+                <li class="menu-item"><a href="https://apps.apple.com/app/biztoc/id1595877405?l=en" target="_blank"><i data-lucide="smartphone"></i> iOS App</a></li>
+                <li class="menu-item"><a href="https://chat.openai.com/g/g-6DYy5bwHv-biztoc-official" target="_blank"><i data-lucide="brain-circuit"></i> GPT Plugin</a></li>
+
+
+                <li class="divider"></li>
+                <li class="menu-item-sm">        <a href="https://www.facebook.com/biztoc" class="sprite_st soc_bk" target="_blank" title="Facebook">Facebook</a>
+        <a href="https://twitter.com/biztoc" class="sprite_st soc_wr" target="_blank" title="Twitter">Twitter</a>
+    <!-- <a href="https://t.me/biztoc" class="sprite_st soc_tg" target="_blank" title="Telegram">Telegram</a> -->
+    <!-- <a href="https://discord.gg/ts7S2PvVd2" class="sprite_st soc_di" target="_blank" title="Discord">Discord</a> -->
+        <a href="https://biztoc.com/feed" class="sprite_st soc_rss" target="_blank" title="RSS Feed">RSS Feed</a>
+</li>
+        </ul>
+    </div>
+</nav>
+
+        </header>
+
+
+
+
+
+    <div id="content">
+
+<h2>BizToc Privacy Policy</h2>
+<p>
+<strong>(Last updated as of 2020-03-01)</strong>
+</p>
+
+<p>
+Thank you for choosing to be part of our community at BizToc (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at mail@biztoc.com.<br><br>
+
+When you visit our website biztoc.com, mobile application, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites or Apps and our services.<br><br>
+
+This privacy policy applies to all information collected through our website (such as biztoc.com), mobile application, (&quot;Apps&quot;), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the &quot;Services&quot;).<br><br>
+
+Please read this privacy policy carefully as it will help you make informed decisions about sharing your personal information with us.<br><br>
+
+By accessing our Site or our Service, you accept our Privacy Policy and Terms of Use (found here: <a href="/s/terms" target="_blank">https://biztoc.com/s/terms</a>), and you consent to our collection, storage, use and disclosure of your Personal Information as described in this Privacy Policy.
+
+</p>
+
+
+<h2>WHAT INFORMATION DO WE COLLECT?</h2>
+
+
+<h3>Personal information you disclose to us</h3>
+<p>
+<strong>In Short:</strong> We collect personal information that you provide to us.<br><br>
+
+We collect personal information that you voluntarily provide to us when registering at the Services or Apps, expressing an interest in obtaining information about us or our products and services, when participating in activities on the Services or Apps (such as posting messages in our online forums or entering competitions, contests or giveaways) or otherwise contacting us.<br>
+
+The personal information that we collect depends on the context of your interactions with us and the Services or Apps, the choices you make and the products and features you use. The personal information we collect can include the following:<br>
+
+<strong>Publicly Available Personal Information.</strong> We collect first name, maiden name, last name, and nickname; email addresses; social media; and other similar data.<br>
+
+<strong>Personal Information Provided by You.</strong> We collect app usage; and other similar data.<br>
+
+<strong>Payment Data.</strong> We collect data necessary to process your payment if you make purchases, such as your payment instrument number (such as a credit card number), and the security code associated with your payment instrument. All payment data is stored by Stripe. You may find their privacy policy link(s) here: stripe.com.<br>
+
+<strong>Social Media Login Data.</strong> We may provide you with the option to register using social media account details, like your Facebook, Twitter or other social media account. If you choose to register in this way, we will collect the Information described in the section called &quot;HOW DO WE HANDLE YOUR SOCIAL LOGINS&quot; below.<br>
+
+All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.
+</p>
+
+<h3>Information automatically collected</h3>
+
+<p>
+<strong>In Short:</strong>  Some information — such as IP address and/or browser and device characteristics — is collected automatically when you visit our Services or Apps.<br><br>
+
+We automatically collect certain information when you visit, use or navigate the Services or Apps. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services or Apps and other technical information. This information is primarily needed to maintain the security and operation of our Services or Apps, and for our internal analytics and reporting purposes.<br>
+
+Like many businesses, we also collect information through cookies and similar technologies.<br>
+
+<strong>Online Identifiers.</strong> We collect tools and protocols, such as IP (Internet Protocol) addresses; cookie identifiers, or others such as the ones used for analytics and marketing; device's geolocation; and other similar data.
+</p>
+
+<h3>Information collected through our Apps</h3>
+
+<p>
+<strong>In Short:</strong>  We may collect information regarding your mobile device, push notifications, when you use our apps.<br><br>
+
+If you use our Apps, we may also collect the following information:<br>
+
+<strong>Mobile Device Access.</strong> We may request access or permission to certain features from your mobile device, including your mobile device's contacts, and other features. If you wish to change our access or permissions, you may do so in your device's settings.<br>
+
+<strong>Mobile Device Data.</strong> We may automatically collect device information (such as your mobile device ID, model and manufacturer), operating system, version information and IP address.<br>
+
+<strong>Push Notifications.</strong> We may request to send you push notifications regarding your account or the mobile application. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings.
+</p>
+
+<h3>Information collected from other sources</h3>
+
+<p>
+<strong>In Short:</strong>  We may collect limited data from public databases, marketing partners, social media platforms, and other outside sources.<br><br>
+
+We may obtain information about your from other sources, such as public databases, joint marketing partners, social media platforms (such as Facebook), as well as from other third parties. Examples of the information we receive from other sources include: social media profile information (your name, gender, birthday, email, current city, state and country, user identification numbers for your contacts, profile picture URL, and any other information that you choose to make public); marketing leads and search results and links, including paid listings (such as sponsored links). We will inform you about the source of information and the type of information and the type of information we have collected about you within a reasonable period after obtaining the personal data, but at the latest within one month.
+</p>
+
+
+<h2>HOW DO WE USE YOUR INFORMATION?</h2>
+
+<p>
+<strong>In Short:</strong> We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.<br><br>
+
+We use personal information collected via our Services or Apps for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.<br>
+
+Below are some definitions that will help you understand the roles and responsibilities of BizToc:
+</p>
+
+<ul>
+<li>&quot;data controller&quot; means a person who (either alone or jointly or in common with other persons) determines the purposes for which and the manner in which any personal information are, or are to be used.</li>
+
+<li>&quot;data processor&quot;, in relation to personal information, means any person (other than an employee of the data controller) who processes the data on behalf of the data controller.</li>
+</ul>
+
+<p>
+If you provide the data and the instructions, then you are the data controller and BizToc is the data processor.<br>
+
+If we determine the purposes for which we collect and use your personal information, then we are the Controller.<br>
+
+We use the information we collect or receive:
+</p>
+<ul>
+<li>To facilitate account creation and logon process. If you choose to link your account with us to a third party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract. See the section below headed &quot;HOW DO WE HANDLE YOUR SOCIAL LOGINS&quot; for further information.</li>
+
+<li>To send you marketing and promotional communications. We and/or our third party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt-out of our marketing emails at any time (see the &quot;WHAT ARE YOUR PRIVACY RIGHTS&quot; below).</li>
+
+<li>To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user's consent.</li>
+
+<li>To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.</li>
+
+<li>To deliver services to the user. We may use your information to provide you with the requested service.</li>
+
+<li>For other Business Purposes. We may use your information for other Business Purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Services or Apps, products, marketing and your experience. We may use and store this information in aggregated and anonymized form so that it is not associated with individual end users and does not include personal information. We will not use identifiable personal information without your consent.</li>
+</ul>
+
+
+
+<h2>WILL YOUR INFORMATION BE SHARED WITH ANYONE?</h2>
+<p>
+<strong>In Short:</strong> We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.<br><br>
+We may process or share data based on the following legal basis:
+</p>
+<ul>
+<li>Consent: We may process your data if you have given us specific consent to use your personal information in a specific purpose.</li>
+
+<li>Legitimate Interests: We may process your data when it is reasonably necessary to achieve our legitimate business interests.</li>
+
+<li>Performance of a Contract: Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.</li>
+
+<li>Legal Obligations: We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).</li>
+
+<li>Vital Interests: We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.</li>
+</ul>
+More specifically, we may need to process your data or share your personal information in the following situations:
+<ul>
+<li>Vendors, Consultants and Other Third-Party Service Providers. We may share your data with third party vendors, service providers, contractors or agents who perform services for us or on our behalf and require access to such information to do that work. Examples include: payment processing, data analysis, email delivery, hosting services, customer service and marketing efforts. We may allow selected third parties to use tracking technology on the Services or Apps, which will enable them to collect data about how you interact with the Services or Apps over time. This information may be used to, among other things, analyze and track data, determine the popularity of certain content and better understand online activity. Unless described in this Policy, we do not share, sell, rent or trade any of your information with third parties for their promotional purposes. We have contracts in place with our data processors. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will not share your personal information with any organisation apart from us. They will hold it securely and retain it for the period we instruct.
+
+<li>Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+
+<li>Business Partners. We may share your information with our business partners to offer you certain products, services or promotions.
+</ul>
+
+
+<h2 id="shr">WHO WILL YOUR INFORMATION BE SHARED WITH?</h2>
+<p>
+<strong>In Short:</strong> We only share information with the following third parties.<br><br>
+
+We only share and disclose your information with the following third parties. We have categorized each party so that you may be easily understand the purpose of our data collection and processing practices. If we have processed your data based on your consent and you wish to revoke your consent, please contact us.
+</p>
+<ul>
+<li>Web Analytics<br>
+<a href="https://plausible.io/privacy">Plausible.io Privacy</a> &amp; <a href="https://plausible.io/data-policy">Plausible.io Data Policy</a>
+</li>
+<li>Viewing YouTube Videos<br>
+<a href="https://www.youtube.com/static?template=terms">Youtube Terms</a> | <a href="https://policies.google.com/privacy?hl=en-US">Google Privacy Policy</a>
+</li>
+<li>Cloud Computing Services<br>
+<a href="https://cloud.google.com/security/privacy">Google Cloud Platform Privacy Policy</a>
+</li>
+<li>Invoice and Billing<br>
+<a href="https://stripe.com/privacy">Stripe Privacy Policy</a>
+</li>
+</ul>
+
+
+<p>
+<strong>In Short:</strong> We may use cookies and other tracking technologies to collect and store your information.<br><br>
+
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Policy.
+</p>
+
+
+<h2>HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h2>
+<p>
+<strong>In Short:</strong> If you choose to register or log in to our services using a social media account, we may have access to certain information about you.<br><br>
+
+Our Services or Apps offer you the ability to register and login using your third party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile Information we receive may vary depending on the social media provider concerned, but will often include your name, e-mail address, friends list, profile picture as well as other information you choose to make public.<br>
+
+We will use the information we receive only for the purposes that are described in this privacy policy or that are otherwise made clear to you on the Services or Apps. Please note that we do not control, and are not responsible for, other uses of your personal information by your third party social media provider. We recommend that you review their privacy policy to understand how they collect, use and share your personal information, and how you can set your privacy preferences on their sites and apps.
+</p>
+
+
+<h2>IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?</h2>
+<p>
+<strong>In Short:</strong> We may transfer, store, and process your information in countries other than your own.<br><br>
+
+Our servers are located in United States. If you are accessing our Services or Apps from outside United States, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information (see &quot;WILL YOUR INFORMATION BE SHARED WITH ANYONE?&quot; above), in United States, and other countries.<br>
+
+If you are a resident in the European Economic Area, then these countries may not have data protection or other laws as comprehensive as those in your country. We will however take all necessary measures to protect your personal information in accordance with this privacy policy and applicable law.
+</p>
+
+
+<h2>WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</h2>
+<p>
+<strong>In Short:</strong> We are not responsible for the safety of any information that you share with third-party providers who advertise, but are not affiliated with, our websites.<br><br>
+
+The Services or Apps may contain advertisements from third parties that are not affiliated with us and which may link to other websites, online services or mobile applications. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this privacy policy. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services or applications that may be linked to or from the Services or Apps. You should review the policies of such third parties and contact them directly to respond to your questions.
+</p>
+
+
+<h2>HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
+<p>
+<strong>In Short:</strong> We keep your information for as long as necessary to fulfill the purposes outlined in this privacy policy unless otherwise required by law.<br><br>
+
+We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this policy will require us keeping your personal information for longer than the period of time in which users have an account with us.<br>
+
+When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
+</p>
+
+
+<h2>DO WE COLLECT INFORMATION FROM MINORS?</h2>
+<p>
+<strong>In Short:</strong> We do not knowingly collect data from or market to children under 18 years of age.<br><br>
+
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Services or Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services or Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at mail@biztoc.com.
+</p>
+
+
+<h2>WHAT ARE YOUR PRIVACY RIGHTS?</h2>
+<p>
+<strong>In Short:</strong> In some regions, such as the European Economic Area, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.<br><br>
+
+In some regions (like the European Economic Area), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. To make such a request, please use the contact details provided below. We will consider and act upon any request in accordance with applicable data protection laws.<br>
+
+If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please note however that this will not affect the lawfulness of the processing before its withdrawal.<br>
+
+If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.<br>
+
+If you have questions or comments about your privacy rights, you may email us at mail@biztoc.com.
+</p>
+
+<h3>Account Information</h3>
+<p>
+If you would at any time like to review or change the information in your account or terminate your account, you can:
+</p>
+<ul>
+<li>Log into your account settings and update your user account.</li>
+</ul>
+<p>
+Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements.<br>
+
+<strong>Cookies and similar technologies:</strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services or Apps. To opt-out of interest-based advertising by advertisers on our Services or Apps visit http://www.aboutads.info/choices/.<br>
+
+<strong>Opting out of email marketing:</strong> You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list – however, we will still need to send you service-related emails that are necessary for the administration and use of your account. To otherwise opt-out, you may:
+</p>
+<ul>
+    <li>Access your account settings and update preferences.</li>
+</ul>
+
+
+
+<h2>DATA BREACH</h2>
+<p>
+A privacy breach occurs when there is unauthorized access to or collection, use, disclosure or disposal of personal information. You will be notified about data breaches when BizToc believes you are likely to be at risk or serious harm. For example, a data breach may be likely to result in serious financial harm or harm to your mental or physical well-being. In the event that BizToc becomes aware of a security breach which has resulted or may result in unauthorized access, use or disclosure of personal information BizToc will promptly investigate the matter and notify the applicable Supervisory Authority not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.
+</p>
+
+
+<h2>CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
+<p>
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (&quot;DNT&quot;) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy.
+</p>
+
+
+<h2>DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
+<p>
+<strong>In Short:</strong> Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.<br><br>
+
+California Civil Code Section 1798.83, also known as the &quot;Shine The Light&quot; law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.<br>
+
+If you are under 18 years of age, reside in California, and have a registered account with the Services or Apps, you have the right to request removal of unwanted data that you publicly post on the Services or Apps. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Services or Apps, but please be aware that the data may not be completely or comprehensively removed from our systems.
+</p>
+
+
+<h2>DO WE MAKE UPDATES TO THIS POLICY?</h2>
+<p>
+<strong>In Short:</strong> Yes, we will update this policy as necessary to stay compliant with relevant laws.<br><br>
+
+We may update this privacy policy from time to time. The updated version will be indicated by an updated &quot;Revised&quot; date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information.
+</p>
+
+
+<h2>HOW CAN YOU CONTACT US ABOUT THIS POLICY?</h2>
+<p>
+If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), Thomas Marban, by email at mail@biztoc.com, or by post to:<br>
+Tomatic Inc.<br>
+2093 Philadelphia Pike<br>
+Suite #2240<br>
+Claymont, DE 19703<br>
+United States
+<br><br>
+If you are a resident in the European Economic Area, the &quot;data controller&quot; of your personal information is BizToc. BizToc has appointed Thomas Marban to be its representative in the EEA. You can contact them directly regarding the processing of your information by BizToc, by email at mail@biztoc.com, by visiting BizToc, or by post to:
+<br>
+THOMAS MARBAN<br>
+Rudolfstr. 83<br>
+4040 Linz<br>
+Austria / Europe<br><br>
+</p>
+
+<h2>HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
+<p>
+Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: biztoc.com. We will respond to your request within 30 days.
+</p>
+
+
+    </div>
+
+            <footer id="footer">
+        <div class="columns col-gapless">
+
+            <div class="column col-auto col-sm-12">
+                <div class="socholder">
+                            <a href="https://www.facebook.com/biztoc" class="sprite_st soc_bk" target="_blank" title="Facebook">Facebook</a>
+        <a href="https://twitter.com/biztoc" class="sprite_st soc_wr" target="_blank" title="Twitter">Twitter</a>
+    <!-- <a href="https://t.me/biztoc" class="sprite_st soc_tg" target="_blank" title="Telegram">Telegram</a> -->
+    <!-- <a href="https://discord.gg/ts7S2PvVd2" class="sprite_st soc_di" target="_blank" title="Discord">Discord</a> -->
+        <a href="https://biztoc.com/feed" class="sprite_st soc_rss" target="_blank" title="RSS Feed">RSS Feed</a>
+
+                </div>
+            </div>
+
+            <div class="column col col-xs-12 ftright">
+                <small>
+                    <a href="/s/about">About</a> &nbsp;&#8286;&nbsp;
+                    <a href="/s/contact">Contact</a> &nbsp;&#8286;&nbsp;
+                    <a href="/s/legal">Legal</a> &nbsp;&#8286;&nbsp;
+                    <a href="https://t.betteruptime.com" target="_blank">Status</a>
+                </small>
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+
+<div id="vipbar"><a href="/login">The Entire Business World on a Single Page. Free&nbsp;to&nbsp;Use&nbsp;&rarr;</a></div>
+<div id="preview"><div class="preview_bg" onclick="preview_close();"></div><div class="preview_container"><a href="#" onclick="event.preventDefault();preview_close();" id="preview_close"><i data-lucide="x-circle"></i></a><div id="preview_content"></div></div></div>
+
+<script type="text/javascript">
+
+    ready(function(){
+        setTimeout(loadmedia, 1);
+        burgertrigger();
+        darkmode();
+
+
+    });
+
+    setTimeout(function(){
+        history.replaceState(null, null, location.protocol + '//' + location.host + location.pathname + location.search.replace(/[\?&]ref=[^&]+/, '').replace(/^&/, '?'));
+    }, 5000);
+
+</script>
+
+<script src="https://c.biztoc.com/274/lucid.min.js" type="text/javascript"></script>
+<script type="text/javascript">lucide.createIcons();</script>
+
+</body>
+</html>

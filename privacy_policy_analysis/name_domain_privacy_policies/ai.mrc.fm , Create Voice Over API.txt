@@ -1,0 +1,5516 @@
+<!doctype html>
+<html class="no-js no-touch" lang="en">
+  <head>
+	<!-- Added by AVADA SEO Suite -->
+	
+
+
+
+
+
+<meta name="twitter:image" content="undefined">
+
+
+
+
+
+
+	<!-- /Added by AVADA SEO Suite -->
+    <script>
+      window.Store = window.Store || {};
+      window.Store.id = 7867236407;
+
+      var location_url = window.location.href;
+      if(location_url.indexOf("/it/") != -1){
+        window.location.href = location_url.replace("/it","")
+      }else if(location_url.indexOf("/de/") != -1){
+        window.location.href = location_url.replace("/de","")
+      }else if(location_url.indexOf("https://musicradiocreative.com/it") != -1){
+         window.location.href = location_url.replace("/it","")
+      }else if(location_url.indexOf("https://musicradiocreative.com/de") != -1){
+         window.location.href = location_url.replace("/de","")
+      }else if(location_url.indexOf("https://musicradiocreative.com/en-it") != -1){
+         window.location.href = location_url.replace("/en-it","")
+      }else if(location_url.indexOf("https://musicradiocreative.com/en-de") != -1){
+         window.location.href = location_url.replace("/en-de","")
+      }else if(location_url.indexOf("/en-it/") != -1){
+         window.location.href = location_url.replace("/en-it","")
+      }else if(location_url.indexOf("/en-de/") != -1){
+         window.location.href = location_url.replace("/en-de","")
+      }
+      
+    </script>
+
+  
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com">
+    <link rel="preconnect" href="https://v.shopify.com">
+    <link rel="preconnect" href="https://cdn.shopifycloud.com">
+    
+    <title>Privacy Policy - Music Radio Creative - Audio Production Experts</title>
+
+    
+      <meta name="description" content="International audio production company, making radio jingles, podcast intros, DJ tags, radio ads and more. Here is all you need to know about our Privacy Policy and cookies we use.">
+    
+
+    
+  <link rel="shortcut icon" href="//musicradiocreative.com/cdn/shop/files/Favicon-MRC_32x32.png?v=1683032173" type="image/png">
+
+   <script>
+      YETT_BLACKLIST = [/facebook/,/trekkie/,/boomerang/]
+      !function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports):"function"==typeof define&&define.amd?define(["exports"],e):e(t.yett={})}(this,function(t){"use strict";var e={blacklist:window.YETT_BLACKLIST,whitelist:window.YETT_WHITELIST},r={blacklisted:[]},n=function(t,r){return t&&(!r||"javascript/blocked"!==r)&&(!e.blacklist||e.blacklist.some(function(e){return e.test(t)}))&&(!e.whitelist||e.whitelist.every(function(e){return!e.test(t)}))},i=function(t){var r=t.getAttribute("src");return e.blacklist&&e.blacklist.every(function(t){return!t.test(r)})||e.whitelist&&e.whitelist.some(function(t){return t.test(r)})},c=new MutationObserver(function(t){t.forEach(function(t){for(var e=t.addedNodes,i=function(t){var i=e[t];if(1===i.nodeType&&"SCRIPT"===i.tagName){var c=i.src,o=i.type;if(n(c,o)){r.blacklisted.push(i.cloneNode()),i.type="javascript/blocked";i.addEventListener("beforescriptexecute",function t(e){"javascript/blocked"===i.getAttribute("type")&&e.preventDefault(),i.removeEventListener("beforescriptexecute",t)}),i.parentElement.removeChild(i)}}},c=0;c<e.length;c++)i(c)})});c.observe(document.documentElement,{childList:!0,subtree:!0});var o=document.createElement;document.createElement=function(){for(var t=arguments.length,e=Array(t),r=0;r<t;r++)e[r]=arguments[r];if("script"!==e[0].toLowerCase())return o.bind(document).apply(void 0,e);var i=o.bind(document).apply(void 0,e),c=i.setAttribute.bind(i);return Object.defineProperties(i,{src:{get:function(){return i.getAttribute("src")},set:function(t){return n(t,i.type)&&c("type","javascript/blocked"),c("src",t),!0}},type:{set:function(t){var e=n(i.src,i.type)?"javascript/blocked":t;return c("type",e),!0}}}),i.setAttribute=function(t,e){"type"===t||"src"===t?i[t]=e:HTMLScriptElement.prototype.setAttribute.call(i,t,e)},i};var l=function(t){if(Array.isArray(t)){for(var e=0,r=Array(t.length);e<t.length;e++)r[e]=t[e];return r}return Array.from(t)},a=new RegExp("[|\\{}()[\\]^$+*?.]","g");t.unblock=function(){for(var t=arguments.length,n=Array(t),o=0;o<t;o++)n[o]=arguments[o];n.length<1?(e.blacklist=[],e.whitelist=[]):(e.blacklist&&(e.blacklist=e.blacklist.filter(function(t){return n.every(function(e){return!t.test(e)})})),e.whitelist&&(e.whitelist=[].concat(l(e.whitelist),l(n.map(function(t){var r=".*"+t.replace(a,"\\$&")+".*";return e.whitelist.find(function(t){return t.toString()===r.toString()})?null:new RegExp(r)}).filter(Boolean)))));for(var s=document.querySelectorAll('script[type="javascript/blocked"]'),u=0;u<s.length;u++){var p=s[u];i(p)&&(p.type="application/javascript",r.blacklisted.push(p),p.parentElement.removeChild(p))}var d=0;[].concat(l(r.blacklisted)).forEach(function(t,e){if(i(t)){var n=document.createElement("script");n.setAttribute("src",t.src),n.setAttribute("type","application/javascript"),document.head.appendChild(n),r.blacklisted.splice(e-d,1),d++}}),e.blacklist&&e.blacklist.length<1&&c.disconnect()},Object.defineProperty(t,"__esModule",{value:!0})});
+  </script>
+
+
+    
+      <link rel="canonical" href="https://musicradiocreative.com/pages/privacy-policy">
+    
+
+    <meta name="viewport" content="width=device-width">
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Music Radio Creative">
+<meta property="og:url" content="https://musicradiocreative.com/pages/privacy-policy">
+<meta property="og:title" content="Privacy Policy - Music Radio Creative - Audio Production Experts">
+<meta property="og:type" content="website">
+<meta property="og:description" content="International audio production company, making radio jingles, podcast intros, DJ tags, radio ads and more. Here is all you need to know about our Privacy Policy and cookies we use.">
+
+
+
+
+    
+    
+    
+
+    
+    
+    <meta
+      property="og:image"
+      content="https://musicradiocreative.com/cdn/shop/files/Your_Audio_Experts_1204x630.png?v=1679656214"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://musicradiocreative.com/cdn/shop/files/Your_Audio_Experts_1204x630.png?v=1679656214"
+    />
+    <meta property="og:image:width" content="1204" />
+    <meta property="og:image:height" content="630" />
+    
+    
+    <meta property="og:image:alt" content="Social media image" />
+  
+
+
+
+
+
+
+
+
+
+  <meta name="twitter:site" content="@musicrcreative">
+
+
+
+
+
+
+
+
+<meta name="twitter:title" content="Privacy Policy - Music Radio Creative - Audio Production Experts">
+<meta name="twitter:description" content="International audio production company, making radio jingles, podcast intros, DJ tags, radio ads and more. Here is all you need to know about our Privacy Policy and cookies we use.">
+
+
+    
+    
+    
+      
+      
+      <meta name="twitter:card" content="summary_large_image">
+    
+    
+    <meta
+      property="twitter:image"
+      content="https://musicradiocreative.com/cdn/shop/files/Your_Audio_Experts_1200x600_crop_center.png?v=1679656214"
+    />
+    <meta property="twitter:image:width" content="1200" />
+    <meta property="twitter:image:height" content="600" />
+    
+    
+    <meta property="twitter:image:alt" content="Social media image" />
+  
+
+
+
+    <link rel="preload" href="//musicradiocreative.com/cdn/fonts/montserrat/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2?h1=bXVzaWNyYWRpb2NyZWF0aXZlLmNvbQ&h2=bXVzaWMtcmFkaW8tY3JlYXRpdmUuYWNjb3VudC5teXNob3BpZnkuY29t&hmac=a27613556df82816521aa724e8212a254e75573bbe6cf5968d2d12fafad632b0" as="font" crossorigin="anonymous">
+    <link rel="preload" as="style" href="//musicradiocreative.com/cdn/shop/t/83/assets/theme.css?v=66090727633506855561699433350">
+ 
+  
+   <img loading="lazy" width="99999" alt=”” height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 96vw; height: 96vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="XbpQgI6PmBC8DXcaTvUgpJ3bFUBwvQfF_3gD2SamJqU">
+<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/7867236407/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="13ec3f0ccee9c7d243d310f695294923">
+<meta id="in-context-paypal-metadata" data-shop-id="7867236407" data-venmo-supported="false" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="GBP">
+<script async="async" src="/checkouts/internal/preloads.js?locale=en-GB"></script>
+<script async="async" data-src="https://shop.app/checkouts/internal/preloads.js?locale=en-GB&shop_id=7867236407" crossorigin="anonymous"></script>
+<script id="shopify-features" type="application/json">{"accessToken":"13ec3f0ccee9c7d243d310f695294923","betas":["rich-media-storefront-analytics"],"domain":"musicradiocreative.com","predictiveSearch":true,"shopId":7867236407,"smart_payment_buttons_url":"https:\/\/musicradiocreative.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/musicradiocreative.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en","flg4ff40b22":true}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "music-radio-creative.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"GBP","rate":"1.0"};
+Shopify.country = "GB";
+Shopify.theme = {"name":"Empire - Florian (Without buy buttons) Sep 22","id":137100624110,"theme_store_id":838,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "musicradiocreative.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>window.ShopifyPay = window.ShopifyPay || {};
+window.ShopifyPay.apiHost = "shop.app\/pay";</script>
+<script id="shop-js-features" type="application/json">{"compact":""}</script>
+<script>
+  window.Shopify = window.Shopify || {};
+  if (!window.Shopify.featureAssets) window.Shopify.featureAssets = {};
+  window.Shopify.featureAssets['shop-js'] = {"pay-button":["modules/client.pay-button_9bcdcb39.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"init-shop-email-lookup-coordinator":["modules/client.init-shop-email-lookup-coordinator_1a8a1481.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"avatar":["modules/client.avatar_d929532e.en.esm.js"],"init-customer-accounts-sign-up":["modules/client.init-customer-accounts-sign-up_3fcea504.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"shop-pay-checkout-sheet":["modules/client.shop-pay-checkout-sheet_fd52a97a.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"init-shop-for-new-customer-accounts":["modules/client.init-shop-for-new-customer-accounts_ac379358.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"init-customer-accounts":["modules/client.init-customer-accounts_6281e5ef.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"shop-pay-payment-request":["modules/client.shop-pay-payment-request_a1ece36a.en.esm.js","modules/chunk.common_bdd2b974.esm.js","modules/chunk.shop-pay_d8d6ce43.esm.js"],"discount-app":["modules/client.discount-app_edac4cc1.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"login-button":["modules/client.login-button_83577952.en.esm.js","modules/chunk.common_bdd2b974.esm.js"],"payment-terms":["modules/client.payment-terms_5f827999.en.esm.js","modules/chunk.common_bdd2b974.esm.js"]};
+</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/20f554c5cdf077f15e42c5d70\/9e4c55c280322e4eaa8323e51.js?shop=music-radio-creative.myshopify.com","https:\/\/static.affiliatly.com\/shopify\/v3\/shopify.js?affiliatly_code=AF-1042565\u0026s=2\u0026shop=music-radio-creative.myshopify.com","https:\/\/reconvert-cdn.com\/assets\/js\/store_reconvert_node.js?v=2\u0026scid=OTAyMWQ1ZTg3MGQ3YzE3NjdiMjE1NGMwOGI0MTBiN2UuNjc0ZmY5YzExNTRhMWMzNTg3YWRlZWYxM2UxYmQ4Y2Y=\u0026shop=music-radio-creative.myshopify.com","https:\/\/cdn1.judge.me\/assets\/installed.js?shop=music-radio-creative.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  document.addEventListener('asyncLazyLoad',function(event){asyncLoad();});if(window.attachEvent) {
+    window.attachEvent('onload', function(){});
+  } else {
+    window.addEventListener('load', function(){}, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":7867236407,"offset":3600,"reqid":"80741502-f17f-47f7-bb8e-fb466f8c1a25-1715192823","pageurl":"musicradiocreative.com\/pages\/privacy-policy","s":"pages-102910427374","u":"64e9c15f0633","p":"page","rtyp":"page","rid":102910427374};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>!function(){'use strict';const e='contact',t='account',n='new_comment',o=e=>e.map((([e,t])=>`form[action*='/${e}'] input[name='form_type'][value='${t}']`)).join(',');function c(e,t){try{const n=window.sessionStorage;for(const[o,c]of Object.entries(JSON.parse(n.getItem(t))))e.elements[o]&&(e.elements[o].value=c);n.removeItem(t)}catch{}}const s='form_type',r='cptcha';var a,m,i,u;a=window,m=document,u='ce_forms',a[i='Shopify']=a[i]||{},a[i][u]=a[i][u]||{},a[i][u].q=[],function(a,m,i,u,f){const[d,l]=function(c,s){const r=s?[[e,e],['blogs',n],['comments',n],[e,'customer']]:[],a=c?[[t,'customer_login'],[t,'recover_customer_password'],[t,'create_customer']]:[],m=o([...r,...a]),i=o(r.slice(0,3)),u=e=>()=>e?[...document.querySelectorAll(e)].map((e=>e.form)):[];return[u(m),u(i)]}(!0,!0),p=e=>{const t=e.target,n=t instanceof HTMLFormElement?t:t&&t.form;return n&&d().find((e=>n===e))};a.addEventListener('submit',(e=>{p(e)&&e.preventDefault()}));for(const e of['focusin','change'])a.addEventListener(e,(e=>{const t=p(e);t&&!t.dataset[r]&&(i(t,l().some((e=>e===t))),t.dataset[r]=!0)}));const _=m.get('form_key'),v=m.get(s);_&&v&&a.addEventListener('DOMContentLoaded',(()=>{for(const e of l())e.elements[s].value===v&&c(e,_)}))}(m,new URLSearchParams(a.location.search),((e,t)=>{const n=a[i][u],o=n.bindForm,c='6LeHG2ApAAAAAO4rPaDW-qVpPKPOBfjbCpzJB9ey';if(o)return o(e,c,t);n.q.push([e,c,t]),m.body.append(Object.assign(m.createElement('script'),{async:!0,src:'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_recaptcha.v1.0.5.iife.js'}))}))}();</script>
+<script integrity="sha256-n5Uet9jVOXPHGd4hH4B9Y6+BxkTluaaucmYaxAjUcvY=" data-source-attribution="shopify.loadfeatures" defer="defer" data-src="//musicradiocreative.com/cdn/shopifycloud/shopify/assets/storefront/load_feature-9f951eb7d8d53973c719de211f807d63af81c644e5b9a6ae72661ac408d472f6.js" crossorigin="anonymous"></script>
+<script crossorigin="anonymous" defer="defer" data-src="//musicradiocreative.com/cdn/shopifycloud/shopify/assets/shopify_pay/storefront-80e528be853eac23af2454534897ca9536b1d3d04aa043b042f34879a3c111c8.js?v=20220906"></script>
+<script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8=" data-source-attribution="shopify.dynamic-checkout" defer="defer" data-src="//musicradiocreative.com/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js" crossorigin="anonymous"></script>
+<script type='text/javascript' async='' data-src='https://cdn.shopify.com/shopifycloud/privacy-banner/storefront-banner.js'></script>
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 60px;
+  }
+}
+</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+   
+   
+    <link href="//musicradiocreative.com/cdn/shop/t/83/assets/theme.css?v=66090727633506855561699433350" rel="stylesheet" type="text/css" media="all" />
+
+    <link href="//musicradiocreative.com/cdn/shop/t/83/assets/custom_music.css?v=121131486066806696671695382801" rel="stylesheet" type="text/css" media="all" />
+    
+    <script>
+      window.Theme = window.Theme || {};
+      window.Theme.version = '9.0.0';
+      window.Theme.name = 'Empire';
+      window.Theme.routes = {
+        "root_url": "/",
+        "account_url": "/account",
+        "account_login_url": "/account/login",
+        "account_logout_url": "/account/logout",
+        "account_register_url": "/account/register",
+        "account_addresses_url": "/account/addresses",
+        "collections_url": "/collections",
+        "all_products_collection_url": "/collections/all",
+        "search_url": "/search",
+        "cart_url": "/cart",
+        "cart_add_url": "/cart/add",
+        "cart_change_url": "/cart/change",
+        "cart_clear_url": "/cart/clear",
+        "product_recommendations_url": "/recommendations/products",
+      };
+    </script>
+    
+  
+        
+        
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "name": "Music Radio Creative",
+      "url": "https://musicradiocreative.com/",
+      "logo": "https://cdn.shopify.com/s/files/1/0078/6723/6407/files/audio-production_d32ed54b-39a1-4aec-822e-4074fb19c23f.jpg?v=1625664050",
+      "sameAs": [
+        "https://www.facebook.com/musicradiocreative",
+        "https://twitter.com/musicrcreative",
+        "https://www.youtube.com/musicradiocreative"
+      ]
+    }
+    </script>
+
+
+  
+     
+
+    
+<link href="//musicradiocreative.com/cdn/shop/t/83/assets/custom-fields.css?v=22783381394956921401700823227" rel="stylesheet" type="text/css" media="all" />
+<script src="//musicradiocreative.com/cdn/shop/t/83/assets/custom-fields-widgets.js?v=2706296677974789471700823226" defer="defer"></script>
+<!-- BEGIN app block: shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8 --><!-- Start of Judge.me Core -->
+<link rel="dns-prefetch" href="https://cdn.judge.me">
+<script data-cfasync='false' class='jdgm-settings-script'>window.jdgmSettings={"pagination":5,"disable_web_reviews":false,"badge_no_review_text":"No reviews","badge_n_reviews_text":"{{ n }} review/reviews","hide_badge_preview_if_no_reviews":true,"badge_hide_text":false,"enforce_center_preview_badge":false,"widget_title":"Customer Reviews","widget_open_form_text":"Write a review","widget_close_form_text":"Cancel review","widget_refresh_page_text":"Refresh page","widget_summary_text":"Based on {{ number_of_reviews }} review/reviews","widget_no_review_text":"Be the first to write a review","widget_name_field_text":"Name","widget_verified_name_field_text":"Verified Name (public)","widget_name_placeholder_text":"Enter your name (public)","widget_required_field_error_text":"This field is required.","widget_email_field_text":"Email","widget_verified_email_field_text":"Verified Email (private, can not be edited)","widget_email_placeholder_text":"Enter your email (private)","widget_email_field_error_text":"Please enter a valid email address.","widget_rating_field_text":"Rating","widget_review_title_field_text":"Review Title","widget_review_title_placeholder_text":"Give your review a title","widget_review_body_field_text":"Review","widget_review_body_placeholder_text":"Write your comments here","widget_pictures_field_text":"Picture/Video (optional)","widget_submit_review_text":"Submit Review","widget_submit_verified_review_text":"Submit Verified Review","widget_submit_success_msg_with_auto_publish":"Thank you! Please refresh the page in a few moments to see your review. You can remove or edit your review by logging into \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e","widget_submit_success_msg_no_auto_publish":"Thank you! Your review will be published as soon as it is approved by the shop admin. You can remove or edit your review by logging into \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e","widget_show_default_reviews_out_of_total_text":"Showing {{ n_reviews_shown }} out of {{ n_reviews }} reviews.","widget_show_all_link_text":"Show all","widget_show_less_link_text":"Show less","widget_author_said_text":"{{ reviewer_name }} said:","widget_days_text":"{{ n }} days ago","widget_weeks_text":"{{ n }} week/weeks ago","widget_months_text":"{{ n }} month/months ago","widget_years_text":"{{ n }} year/years ago","widget_yesterday_text":"Yesterday","widget_today_text":"Today","widget_replied_text":"\u003e\u003e {{ shop_name }} replied:","widget_read_more_text":"Read more","widget_rating_filter_see_all_text":"See all reviews","widget_sorting_most_recent_text":"Most Recent","widget_sorting_highest_rating_text":"Highest Rating","widget_sorting_lowest_rating_text":"Lowest Rating","widget_sorting_with_pictures_text":"Only Pictures","widget_sorting_most_helpful_text":"Most Helpful","widget_open_question_form_text":"Ask a question","widget_reviews_subtab_text":"Reviews","widget_questions_subtab_text":"Questions","widget_question_label_text":"Question","widget_answer_label_text":"Answer","widget_question_placeholder_text":"Write your question here","widget_submit_question_text":"Submit Question","widget_question_submit_success_text":"Thank you for your question! We will notify you once it gets answered.","verified_badge_text":"Verified","verified_badge_placement":"left-of-reviewer-name","widget_hide_border":false,"widget_social_share":false,"all_reviews_include_out_of_store_products":true,"all_reviews_out_of_store_text":"(out of store)","all_reviews_product_name_prefix_text":"about","enable_review_pictures":true,"review_date_format":"dd/mm/yyyy","widget_product_reviews_subtab_text":"Product Reviews","widget_shop_reviews_subtab_text":"Shop Reviews","widget_sorting_pictures_first_text":"Pictures First","floating_tab_button_name":"★ Judge.me Reviews","floating_tab_title":"Let customers speak for us","floating_tab_url":"","floating_tab_url_enabled":false,"all_reviews_text_badge_text":"Customers rate us {{ shop.metafields.judgeme.all_reviews_rating | round: 1 }}/5 based on {{ shop.metafields.judgeme.all_reviews_count }} reviews.","all_reviews_text_badge_text_branded_style":"{{ shop.metafields.judgeme.all_reviews_rating | round: 1 }} out of 5 stars based on {{ shop.metafields.judgeme.all_reviews_count }} reviews","all_reviews_text_badge_url":"","all_reviews_text_style":"branded","featured_carousel_title":"Let customers speak for us","featured_carousel_count_text":"from {{ n }} reviews","featured_carousel_url":"","verified_count_badge_style":"branded","verified_count_badge_url":"","picture_reminder_submit_button":"Upload Pictures","widget_sorting_videos_first_text":"Videos First","widget_review_pending_text":"Pending","remove_microdata_snippet":false,"preview_badge_no_question_text":"No questions","preview_badge_n_question_text":"{{ number_of_questions }} question/questions","widget_search_bar_placeholder":"Search reviews","widget_sorting_verified_only_text":"Verified only","featured_carousel_verified_badge_enable":true,"all_reviews_page_load_more_text":"Load More Reviews","widget_advanced_speed_features":5,"widget_public_name_text":"displayed publicly like","default_reviewer_name_has_non_latin":true,"widget_reviewer_anonymous":"Anonymous","medals_widget_title":"Judge.me Review Medals","widget_invalid_yt_video_url_error_text":"Not a YouTube video URL","widget_max_length_field_error_text":"Please enter no more than {0} characters.","widget_verified_by_shop_text":"Verified by Shop","widget_load_with_code_splitting":true,"widget_ugc_title":"Made by us, Shared by you","widget_ugc_subtitle":"Tag us to see your picture featured in our page","widget_ugc_primary_button_text":"Buy Now","widget_ugc_secondary_button_text":"Load More","widget_ugc_reviews_button_text":"View Reviews","widget_primary_color":"#FDD645","widget_summary_average_rating_text":"{{ average_rating }} out of 5","widget_media_grid_title":"Customer photos \u0026 videos","widget_media_grid_see_more_text":"See more","widget_verified_by_judgeme_text":"Verified by Judge.me","widget_verified_by_judgeme_text_in_store_medals":"Verified by Judge.me","widget_media_field_exceed_quantity_message":"Sorry, we can only accept {{ max_media }} for one review.","widget_media_field_exceed_limit_message":"{{ file_name }} is too large, please select a {{ media_type }} less than {{ size_limit }}MB.","widget_review_submitted_text":"Review Submitted!","widget_question_submitted_text":"Question Submitted!","widget_close_form_text_question":"Cancel","widget_write_your_answer_here_text":"Write your answer here","widget_show_collected_by_judgeme":true,"widget_collected_by_judgeme_text":"collected by Judge.me","widget_load_more_text":"Load More","widget_full_review_text":"Full Review","widget_read_more_reviews_text":"Read More Reviews","widget_read_questions_text":"Read Questions","widget_questions_and_answers_text":"Questions \u0026 Answers","widget_verified_by_text":"Verified by","widget_number_of_reviews_text":"{{ number_of_reviews }} reviews","widget_back_button_text":"Back","widget_next_button_text":"Next","widget_custom_forms_filter_button":"Filters","how_reviews_are_collected":"How reviews are collected?","widget_gdpr_statement":"How we use your data: We’ll only contact you about the review you left, and only if necessary. By submitting your review, you agree to Judge.me’s \u003ca href='https://judge.me/terms' target='_blank' rel='nofollow noopener'\u003eterms and conditions\u003c/a\u003e and \u003ca href='https://judge.me/privacy' target='_blank' rel='nofollow noopener'\u003eprivacy policy\u003c/a\u003e.","platform":"shopify","branding_url":"https://judge.me/reviews","branding_text":"Powered by Judge.me","locale":"en","reply_name":"Music Radio Creative","widget_version":"3.0","footer":true,"autopublish":true,"review_dates":true,"enable_custom_form":false,"can_be_branded":true};</script> <style class='jdgm-settings-style'>.jdgm-xx{left:0}:root{--jdgm-primary-color:#FDD645;--jdgm-secondary-color:rgba(253,214,69,0.1);--jdgm-star-color:#FDD645;--jdgm-paginate-color:#FDD645;--jdgm-border-radius:0}.jdgm-histogram__bar-content{background-color:#FDD645}.jdgm-rev[data-verified-buyer=true] .jdgm-rev__icon.jdgm-rev__icon:after,.jdgm-rev__buyer-badge.jdgm-rev__buyer-badge{color:white;background-color:#FDD645}.jdgm-review-widget--small .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before{content:"See more"}@media only screen and (min-width: 768px){.jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before{content:"See more"}}.jdgm-prev-badge[data-average-rating='0.00']{display:none !important}.jdgm-author-all-initials{display:none !important}.jdgm-author-last-initial{display:none !important}.jdgm-rev-widg__title{visibility:hidden}.jdgm-rev-widg__summary-text{visibility:hidden}.jdgm-prev-badge__text{visibility:hidden}.jdgm-rev__replier:before{content:'musicradiocreative.com'}.jdgm-rev__prod-link-prefix:before{content:'about'}.jdgm-rev__out-of-store-text:before{content:'(out of store)'}@media only screen and (min-width: 768px){.jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,.jdgm-rev__pics .jdgm-rev__product-picture{display:none}}@media only screen and (max-width: 768px){.jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,.jdgm-rev__pics .jdgm-rev__product-picture{display:none}}.jdgm-preview-badge[data-template="product"]{display:none !important}.jdgm-preview-badge[data-template="collection"]{display:none !important}.jdgm-preview-badge[data-template="index"]{display:none !important}.jdgm-review-widget[data-from-snippet="true"]{display:none !important}.jdgm-verified-count-badget[data-from-snippet="true"]{display:none !important}.jdgm-carousel-wrapper[data-from-snippet="true"]{display:none !important}.jdgm-all-reviews-text[data-from-snippet="true"]{display:none !important}.jdgm-medals-section[data-from-snippet="true"]{display:none !important}.jdgm-ugc-media-wrapper[data-from-snippet="true"]{display:none !important}
+</style>
+
+  
+  
+  
+  <style class='jdgm-miracle-styles'>
+  @-webkit-keyframes jdgm-spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);-ms-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes jdgm-spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);-ms-transform:rotate(359deg);transform:rotate(359deg)}}@font-face{font-family:'JudgemeStar';src:url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==") format("woff");font-weight:normal;font-style:normal}.jdgm-star{font-family:'JudgemeStar';display:inline !important;text-decoration:none !important;padding:0 4px 0 0 !important;margin:0 !important;font-weight:bold;opacity:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.jdgm-star:hover{opacity:1}.jdgm-star:last-of-type{padding:0 !important}.jdgm-star.jdgm--on:before{content:"\e000"}.jdgm-star.jdgm--off:before{content:"\e001"}.jdgm-star.jdgm--half:before{content:"\e002"}.jdgm-widget *{margin:0;line-height:1.4;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-overflow-scrolling:touch}.jdgm-hidden{display:none !important;visibility:hidden !important}.jdgm-temp-hidden{display:none}.jdgm-spinner{width:40px;height:40px;margin:auto;border-radius:50%;border-top:2px solid #eee;border-right:2px solid #eee;border-bottom:2px solid #eee;border-left:2px solid #ccc;-webkit-animation:jdgm-spin 0.8s infinite linear;animation:jdgm-spin 0.8s infinite linear}.jdgm-prev-badge{display:block !important}
+
+</style>
+
+
+  
+  
+   
+
+
+<script data-cfasync='false' class='jdgm-script'>
+!function(e){window.jdgm=window.jdgm||{},jdgm.CDN_HOST="https://cdn.judge.me/",
+jdgm.docReady=function(d){(e.attachEvent?"complete"===e.readyState:"loading"!==e.readyState)?
+setTimeout(d,0):e.addEventListener("DOMContentLoaded",d)},jdgm.loadCSS=function(d,t,o,a){
+!o&&jdgm.loadCSS.requestedUrls.indexOf(d)>=0||(jdgm.loadCSS.requestedUrls.push(d),
+(a=e.createElement("link")).rel="stylesheet",a.class="jdgm-stylesheet",a.media="nope!",
+a.href=d,a.onload=function(){this.media="all",t&&setTimeout(t)},e.body.appendChild(a))},
+jdgm.loadCSS.requestedUrls=[],jdgm.loadJS=function(e,d){var t=new XMLHttpRequest;
+t.onreadystatechange=function(){4===t.readyState&&(Function(t.response)(),d&&d(t.response))},
+t.open("GET",e),t.send()},jdgm.docReady((function(){(window.jdgmLoadCSS||e.querySelectorAll(
+".jdgm-widget, .jdgm-all-reviews-page").length>0)&&(jdgmSettings.widget_load_with_code_splitting?
+parseFloat(jdgmSettings.widget_version)>=3?jdgm.loadCSS(jdgm.CDN_HOST+"widget_v3/base.css"):
+jdgm.loadCSS(jdgm.CDN_HOST+"widget/base.css"):jdgm.loadCSS(jdgm.CDN_HOST+"shopify_v2.css"),
+jdgm.loadJS(jdgm.CDN_HOST+"loader.js"))}))}(document);
+</script>
+<noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.judge.me/shopify_v2.css"></noscript>
+
+<!-- BEGIN app snippet: theme_fix_tags --><script>
+  (function() {
+    var jdgmThemeFixes = null;
+    if (!jdgmThemeFixes) return;
+    var thisThemeFix = jdgmThemeFixes[Shopify.theme.id];
+    if (!thisThemeFix) return;
+
+    if (thisThemeFix.html) {
+      document.addEventListener("DOMContentLoaded", function() {
+        var htmlDiv = document.createElement('div');
+        htmlDiv.classList.add('jdgm-theme-fix-html');
+        htmlDiv.innerHTML = thisThemeFix.html;
+        document.body.append(htmlDiv);
+      });
+    };
+
+    if (thisThemeFix.css) {
+      var styleTag = document.createElement('style');
+      styleTag.classList.add('jdgm-theme-fix-style');
+      styleTag.innerHTML = thisThemeFix.css;
+      document.head.append(styleTag);
+    };
+
+    if (thisThemeFix.js) {
+      var scriptTag = document.createElement('script');
+      scriptTag.classList.add('jdgm-theme-fix-script');
+      scriptTag.innerHTML = thisThemeFix.js;
+      document.head.append(scriptTag);
+    };
+  })();
+</script>
+<!-- END app snippet -->
+<!-- End of Judge.me Core -->
+
+
+
+
+<!-- END app app block --><!-- BEGIN app block: shopify://apps/candy-rack/blocks/head/cb9c657f-334f-4905-80c2-f69cca01460c --><script src="https://candyrack.ds-cdn.com/static/main.js?shop=music-radio-creative.myshopify.com" async></script>
+
+
+<!-- END app app block --><!-- BEGIN app block: shopify://apps/sitemap-noindex-pro/blocks/app-embed/4d815e2c-5af0-46ba-8301-d0f9cf660031 --><script>
+        var currentParameters = window.location.search;
+
+        if(currentParameters != '') {
+          var urlPath = '/pages/privacy-policy';
+          var url = urlPath + currentParameters;
+          var checkQueryParameters = 'en-it'
+          if(checkQueryParameters != '') {
+            var checkQueryParameters = checkQueryParameters.split(',');
+          }
+          var processNoIndexNoFollow = false;
+
+          if(document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
+            var processNoIndexNoFollow = true;
+          } else {
+            var processNoIndexNoFollow = true;
+          }
+
+          if(processNoIndexNoFollow == true) {
+            var metaRobotsFound = false;
+
+            for (i = 0; i < checkQueryParameters.length; i++) {
+              var checkParameters = url.includes(checkQueryParameters[i]);
+
+              if(checkParameters == true) {
+                metaRobotsFound = true;
+                break;
+              }
+            }
+
+            if(metaRobotsFound == true) {
+              var metaRobots = document.getElementsByName("robots");
+              for(var i=metaRobots.length-1;i>=0;i--)
+              {
+                metaRobots[i].parentNode.removeChild(metaRobots[i]);
+              }
+
+              var meta = document.createElement('meta');
+              meta.name = "robots";
+              meta.content = "noindex,nofollow";
+              document.getElementsByTagName('head')[0].appendChild(meta);
+            }
+          }
+        }
+      </script>
+<!-- END app app block --><link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 7867236407,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "page"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,t,r){var o="function"==typeof BigInt&&-1!==BigInt.toString().indexOf("[native code]")?"modern":"legacy";window.Shopify=window.Shopify||{};var i=window.Shopify;i.analytics=i.analytics||{};var s=i.analytics;s.replayQueue=[],s.publish=function(e,n,a){return s.replayQueue.push([e,n,a]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=[a,"/wpm","/b",r,o.substring(0,1),".js"].join("");!function(e){var n=e.src,a=e.async,t=void 0===a||a,r=e.onload,o=e.onerror,i=document.createElement("script"),s=document.head,l=document.body;i.async=t,i.src=n,r&&i.addEventListener("load",r),o&&i.addEventListener("error",o),s?s.appendChild(i):l?l.appendChild(i):console.error("Did not find a head or body element to append the script")}({src:l,async:!0,onload:function(){var a=window.webPixelsManager.init(e);n(a);var t=window.Shopify.analytics;t.replayQueue.forEach((function(e){var n=e[0],t=e[1],r=e[2];a.publishCustomEvent(n,t,r)})),t.replayQueue=[],t.publish=a.publishCustomEvent,t.visitor=a.visitor},onerror:function(){var n=e.storefrontBaseUrl.replace(/\/$/,""),a="".concat(n,"/.well-known/shopify/monorail/unstable/produce_batch"),r=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:"".concat(l," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(a,r))return!0}catch(e){}var o=new XMLHttpRequest;try{return o.open("POST",a,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(r),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}})})({shopId: 7867236407,storefrontBaseUrl: "https://musicradiocreative.com",cdnBaseUrl: "https://musicradiocreative.com/cdn",surface: "storefront-renderer",enabledBetaFlags: ["5de24938","3b4293f9"],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"064","apiClientId":"shopify-pixel","type":"APP","purposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"064","apiClientId":"shopify-pixel","type":"CUSTOM","purposes":["ANALYTICS","MARKETING"]}],initData: {"cart":null,"checkout":null,"customer":null,"productVariants":[]},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://musicradiocreative.com/cdn","53a461b83890f6a7f3ccf5248cbe075e8ef687c7","15b937c1wd0603e25p274946c7mfbb43f1f",);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'GBP';
+var meta = {"page":{"pageType":"page","resourceType":"page","resourceId":102910427374}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+(function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.onerror = function(e) {
+        var scriptFallback = document.createElement('script');
+        scriptFallback.type = 'text/javascript';
+        scriptFallback.onerror = function(error) {
+                var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 7867236407,
+      theme_id: 137100624110,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//musicradiocreative.com/cdn/s/trekkie.storefront.dd626a6a6fbdab104f8779acc4331c330134c832.min.js"});
+
+        };
+        scriptFallback.async = true;
+        scriptFallback.src = '//musicradiocreative.com/cdn/s/trekkie.storefront.dd626a6a6fbdab104f8779acc4331c330134c832.min.js';
+        first.parentNode.insertBefore(scriptFallback, first);
+      };
+      script.async = true;
+      script.src = '//musicradiocreative.com/cdn/s/trekkie.storefront.dd626a6a6fbdab104f8779acc4331c330134c832.min.js';
+      first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":7867236407,"isMerchantRequest":null,"themeId":137100624110,"themeCityHash":"15549060816286514342","contentLanguage":"en","currency":"GBP"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["bbcf04e6"]},"Google Analytics":{"trackingId":"UA-24394906-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["1489823874625276"],"agent":"plshopify1.2"},"Google Gtag Pixel":{"conversionId":"G-G3F3CBD8D7","eventLabels":[{"type":"search","action_label":["G-G3F3CBD8D7","AW-1034897636\/VHpXCN2B3dsCEOSRve0D"]},{"type":"begin_checkout","action_label":["G-G3F3CBD8D7","AW-1034897636\/FfhNCNqB3dsCEOSRve0D"]},{"type":"view_item","action_label":["G-G3F3CBD8D7","AW-1034897636\/_MNSCKeB3dsCEOSRve0D","MC-F1T14E5BYM"]},{"type":"purchase","action_label":["G-G3F3CBD8D7","AW-1034897636\/x6yoCKSB3dsCEOSRve0D","MC-F1T14E5BYM"]},{"type":"page_view","action_label":["G-G3F3CBD8D7","AW-1034897636\/mTeJCKGB3dsCEOSRve0D","MC-F1T14E5BYM"]},{"type":"add_payment_info","action_label":["G-G3F3CBD8D7","AW-1034897636\/RpBPCNiC3dsCEOSRve0D"]},{"type":"add_to_cart","action_label":["G-G3F3CBD8D7","AW-1034897636\/vY5oCKqB3dsCEOSRve0D"]}],"targetCountry":"GB"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":true,"facebookAppPixelId":"1489823874625276","source":"trekkie-storefront-renderer"}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+        ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+    
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"page","resourceType":"page","resourceId":102910427374});
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+
+        var eventsListenerScript = document.createElement('script');
+        eventsListenerScript.async = true;
+        eventsListenerScript.src = "//musicradiocreative.com/cdn/shopifycloud/shopify/assets/shop_events_listener-61fa9e0a912c675e178777d2b27f6cbd482f8912a6b0aa31fa3515985a8cd626.js";
+        document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "Empire";
+  window.BOOMR.themeVersion = "9.0.0";
+  window.BOOMR.shopId = 7867236407;
+  window.BOOMR.themeId = 137100624110;
+  window.BOOMR.renderRegion = "gcp-us-central1";
+  window.BOOMR.url =
+    "https://musicradiocreative.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+</head>
+        
+
+  <body
+    class="body  template-page page other-page"
+    data-instant-allow-query-string
+    
+      data-reduce-animations
+    
+  >
+   
+    <div style="--background-color: #ffffff">
+      
+
+
+    </div>
+
+    <script>
+      document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');
+      if(window.Shopify&&window.Shopify.designMode)document.documentElement.className+=' in-theme-editor';
+      if(('ontouchstart' in window)||window.DocumentTouch&&document instanceof DocumentTouch)document.documentElement.className=document.documentElement.className.replace(/\bno-touch\b/,'has-touch');
+    </script>
+
+    
+    <svg
+      class="icon-star-reference"
+      aria-hidden="true"
+      focusable="false"
+      role="presentation"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="3 3 17 17"
+      fill="none"
+    >
+      <symbol id="icon-star">
+        <rect class="icon-star-background" width="20" height="20" fill="currentColor"/>
+        <path d="M10 3L12.163 7.60778L17 8.35121L13.5 11.9359L14.326 17L10 14.6078L5.674 17L6.5 11.9359L3 8.35121L7.837 7.60778L10 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </symbol>
+      <clipPath id="icon-star-clip">
+        <path d="M10 3L12.163 7.60778L17 8.35121L13.5 11.9359L14.326 17L10 14.6078L5.674 17L6.5 11.9359L3 8.35121L7.837 7.60778L10 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </clipPath>
+    </svg>
+    
+
+    <a class="skip-to-main" href="#site-main">Skip to content</a>
+
+    <div id="shopify-section-static-announcement" class="shopify-section site-announcement"><script
+  type="application/json"
+  data-section-id="static-announcement"
+  data-section-type="static-announcement">
+</script>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <div id="shopify-section-static-utility-bar" class="shopify-section"><style data-shopify>
+  .utility-bar {
+    background-color: #1b175d;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .utility-bar .social-link,
+  .utility-bar__menu-link {
+    color: #ffffff;
+  }
+
+  .utility-bar .disclosure__toggle {
+    --disclosure-toggle-text-color: #ffffff;
+    --disclosure-toggle-background-color: #1b175d;
+  }
+
+  .utility-bar .disclosure__toggle:hover {
+    --disclosure-toggle-text-color: #ffffff;
+  }
+
+  .utility-bar .social-link:hover,
+  .utility-bar__menu-link:hover {
+    color: #ffffff;
+  }
+
+  .utility-bar .disclosure__toggle::after {
+    --disclosure-toggle-svg-color: #ffffff;
+  }
+
+  .utility-bar .disclosure__toggle:hover::after {
+    --disclosure-toggle-svg-color: #ffffff;
+  }
+</style>
+
+<script
+  type="application/json"
+  data-section-type="static-utility-bar"
+  data-section-id="static-utility-bar"
+  data-section-data
+>
+  {
+    "settings": {
+      "mobile_layout": "below"
+    }
+  }
+</script>
+
+</div>
+
+    <header
+      class="site-header site-header-nav--open"
+      role="banner"
+      data-site-header
+    >
+      <div id="shopify-section-static-header" class="shopify-section site-header-wrapper">
+
+<style data-shopify>
+  .site-header-cart--button {
+	display: flex;
+	gap: 15px;
+	text-decoration: none;
+}
+  </style>
+<script
+  type="application/json"
+  data-section-id="static-header"
+  data-section-type="static-header"
+  data-section-data>
+  {
+    "settings": {
+      "sticky_header": true,
+      "has_box_shadow": true,
+      "live_search": {
+        "enable": true,
+        "enable_images": true,
+        "enable_content": false,
+        "money_format": "£{{amount}}",
+        "show_mobile_search_bar": false,
+        "context": {
+          "view_all_results": "View all results",
+          "view_all_products": "View all products",
+          "content_results": {
+            "title": "Pages \u0026amp; Posts",
+            "no_results": "No results."
+          },
+          "no_results_products": {
+            "title": "No products for “*terms*”.",
+            "title_in_category": "No products for “*terms*” in *category*.",
+            "message": "Sorry, we couldn’t find any matches."
+          }
+        }
+      }
+    }
+  }
+</script>
+
+
+
+
+
+<style data-shopify>
+  .site-logo {
+    max-width: 250px;
+  }
+  .site-logo-image {
+    max-height: 80px;
+  }
+</style>
+
+<div
+  class="
+    site-header-main
+    
+  "
+  data-site-header-main
+  data-site-header-sticky
+  
+    data-site-header-mobile-search-button
+  
+>
+  <button class="site-header-menu-toggle mobile" data-menu-toggle>
+    <div class="site-header-menu-toggle--button" tabindex="-1">
+      <span class="toggle-icon--bar toggle-icon--bar-top"></span>
+      <span class="toggle-icon--bar toggle-icon--bar-middle"></span>
+      <span class="toggle-icon--bar toggle-icon--bar-bottom"></span>
+      <span class="visually-hidden">Menu</span>
+    </div>
+  </button>
+
+  
+    
+    
+      <button
+        class="site-header-mobile-search-button"
+        data-mobile-search-button
+      >
+        
+      <div class="site-header-mobile-search-button--button" tabindex="-1">
+        <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="23"
+  height="24"
+  fill="none"
+  viewBox="0 0 23 24"
+>
+  <path d="M21 21L15.5 15.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="10" cy="9" r="8" stroke="currentColor" stroke-width="2"/>
+</svg>
+
+      </div>
+    
+      </button>
+    
+  
+
+  <div
+    class="
+      site-header-main-content
+      
+    "
+  >
+    <div class="site-header-logo">
+      <a
+        class="site-logo"
+        href="/">
+        
+          
+          
+
+          
+
+  
+
+  <img 
+    
+      src="//musicradiocreative.com/cdn/shop/files/New-logo-music_478x250.png?v=1680500704"
+    
+    alt=""
+
+    
+      data-rimg
+      srcset="//musicradiocreative.com/cdn/shop/files/New-logo-music_478x250.png?v=1680500704 1x, //musicradiocreative.com/cdn/shop/files/New-logo-music_598x313.png?v=1680500704 1.25x"
+    
+
+    class="site-logo-image"
+    style="
+        object-fit:cover;object-position:50.0% 50.0%;
+      
+"
+    
+  >
+
+
+
+
+        
+      </a>
+    </div>
+
+    
+
+
+
+
+
+<div class="live-search mlive-search" data-live-search><form
+    class="
+      live-search-form
+      form-fields-inline
+      
+    "
+    action="/search"
+    method="get"
+    role="search"
+    aria-label="Product"
+    data-live-search-form
+  >
+    <input type="hidden" name="type" value="product">
+    <div class="form-field no-label"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.5 17.5L13.875 13.875" stroke="#1A1A1A" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      <input
+        class="form-field-input live-search-form-field"
+        type="text"
+        name="q"
+        id="typing-input"
+        aria-label="Search"
+        placeholder="What are you looking for?"
+        
+        autocomplete="off"
+        data-live-search-input
+      >
+      <button
+        class="live-search-takeover-cancel"
+        type="button"
+        data-live-search-takeover-cancel
+      >
+        Cancel
+      </button>
+      
+    </div>
+
+    <div class="search-flydown" data-live-search-flydown>
+      <div class="search-flydown--placeholder" data-live-search-placeholder>
+        <div class="search-flydown--product-items">
+          
+            <a class="search-flydown--product search-flydown--product" href="#">
+              
+                <div class="search-flydown--product-image">
+                  <svg class="placeholder--image placeholder--content-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.5 525.5"><path d="M324.5 212.7H203c-1.6 0-2.8 1.3-2.8 2.8V308c0 1.6 1.3 2.8 2.8 2.8h121.6c1.6 0 2.8-1.3 2.8-2.8v-92.5c0-1.6-1.3-2.8-2.9-2.8zm1.1 95.3c0 .6-.5 1.1-1.1 1.1H203c-.6 0-1.1-.5-1.1-1.1v-92.5c0-.6.5-1.1 1.1-1.1h121.6c.6 0 1.1.5 1.1 1.1V308z"/><path d="M210.4 299.5H240v.1s.1 0 .2-.1h75.2v-76.2h-105v76.2zm1.8-7.2l20-20c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l1.5 1.5 16.8 16.8c-12.9 3.3-20.7 6.3-22.8 7.2h-27.7v-5.5zm101.5-10.1c-20.1 1.7-36.7 4.8-49.1 7.9l-16.9-16.9 26.3-26.3c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l27.5 27.5v7.8zm-68.9 15.5c9.7-3.5 33.9-10.9 68.9-13.8v13.8h-68.9zm68.9-72.7v46.8l-26.2-26.2c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-26.3 26.3-.9-.9c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-18.8 18.8V225h101.4z"/><path d="M232.8 254c4.6 0 8.3-3.7 8.3-8.3s-3.7-8.3-8.3-8.3-8.3 3.7-8.3 8.3 3.7 8.3 8.3 8.3zm0-14.9c3.6 0 6.6 2.9 6.6 6.6s-2.9 6.6-6.6 6.6-6.6-2.9-6.6-6.6 3-6.6 6.6-6.6z"/></svg>
+                </div>
+              
+
+              <div class="search-flydown--product-text">
+                <span class="search-flydown--product-title placeholder--content-text"></span>
+                <span class="search-flydown--product-price placeholder--content-text"></span>
+              </div>
+            </a>
+          
+            <a class="search-flydown--product search-flydown--product" href="#">
+              
+                <div class="search-flydown--product-image">
+                  <svg class="placeholder--image placeholder--content-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.5 525.5"><path d="M324.5 212.7H203c-1.6 0-2.8 1.3-2.8 2.8V308c0 1.6 1.3 2.8 2.8 2.8h121.6c1.6 0 2.8-1.3 2.8-2.8v-92.5c0-1.6-1.3-2.8-2.9-2.8zm1.1 95.3c0 .6-.5 1.1-1.1 1.1H203c-.6 0-1.1-.5-1.1-1.1v-92.5c0-.6.5-1.1 1.1-1.1h121.6c.6 0 1.1.5 1.1 1.1V308z"/><path d="M210.4 299.5H240v.1s.1 0 .2-.1h75.2v-76.2h-105v76.2zm1.8-7.2l20-20c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l1.5 1.5 16.8 16.8c-12.9 3.3-20.7 6.3-22.8 7.2h-27.7v-5.5zm101.5-10.1c-20.1 1.7-36.7 4.8-49.1 7.9l-16.9-16.9 26.3-26.3c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l27.5 27.5v7.8zm-68.9 15.5c9.7-3.5 33.9-10.9 68.9-13.8v13.8h-68.9zm68.9-72.7v46.8l-26.2-26.2c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-26.3 26.3-.9-.9c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-18.8 18.8V225h101.4z"/><path d="M232.8 254c4.6 0 8.3-3.7 8.3-8.3s-3.7-8.3-8.3-8.3-8.3 3.7-8.3 8.3 3.7 8.3 8.3 8.3zm0-14.9c3.6 0 6.6 2.9 6.6 6.6s-2.9 6.6-6.6 6.6-6.6-2.9-6.6-6.6 3-6.6 6.6-6.6z"/></svg>
+                </div>
+              
+
+              <div class="search-flydown--product-text">
+                <span class="search-flydown--product-title placeholder--content-text"></span>
+                <span class="search-flydown--product-price placeholder--content-text"></span>
+              </div>
+            </a>
+          
+            <a class="search-flydown--product search-flydown--product" href="#">
+              
+                <div class="search-flydown--product-image">
+                  <svg class="placeholder--image placeholder--content-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.5 525.5"><path d="M324.5 212.7H203c-1.6 0-2.8 1.3-2.8 2.8V308c0 1.6 1.3 2.8 2.8 2.8h121.6c1.6 0 2.8-1.3 2.8-2.8v-92.5c0-1.6-1.3-2.8-2.9-2.8zm1.1 95.3c0 .6-.5 1.1-1.1 1.1H203c-.6 0-1.1-.5-1.1-1.1v-92.5c0-.6.5-1.1 1.1-1.1h121.6c.6 0 1.1.5 1.1 1.1V308z"/><path d="M210.4 299.5H240v.1s.1 0 .2-.1h75.2v-76.2h-105v76.2zm1.8-7.2l20-20c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l1.5 1.5 16.8 16.8c-12.9 3.3-20.7 6.3-22.8 7.2h-27.7v-5.5zm101.5-10.1c-20.1 1.7-36.7 4.8-49.1 7.9l-16.9-16.9 26.3-26.3c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l27.5 27.5v7.8zm-68.9 15.5c9.7-3.5 33.9-10.9 68.9-13.8v13.8h-68.9zm68.9-72.7v46.8l-26.2-26.2c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-26.3 26.3-.9-.9c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-18.8 18.8V225h101.4z"/><path d="M232.8 254c4.6 0 8.3-3.7 8.3-8.3s-3.7-8.3-8.3-8.3-8.3 3.7-8.3 8.3 3.7 8.3 8.3 8.3zm0-14.9c3.6 0 6.6 2.9 6.6 6.6s-2.9 6.6-6.6 6.6-6.6-2.9-6.6-6.6 3-6.6 6.6-6.6z"/></svg>
+                </div>
+              
+
+              <div class="search-flydown--product-text">
+                <span class="search-flydown--product-title placeholder--content-text"></span>
+                <span class="search-flydown--product-price placeholder--content-text"></span>
+              </div>
+            </a>
+          
+        </div>
+      </div>
+
+      <div
+        class="search-flydown--results "
+        data-live-search-results
+      ></div>
+
+      
+    </div>
+  </form>
+</div>
+<script type="text/javascript">
+  const placeholderText = document.getElementById("typing-input");
+  const sentence = placeholderText.placeholder;
+
+  let inputWord = 0;
+  function wordTyping() {
+    if (inputWord < sentence.length) {
+      placeholderText.placeholder = sentence.substring(0, inputWord+1);
+      inputWord++;
+      setTimeout(wordTyping, 80);
+    } else {
+      inputWord = 0;
+      placeholderText.placeholder = "";
+      setTimeout(wordTyping, 500);
+    }
+  }
+  wordTyping();
+</script>
+
+
+    
+  </div>
+
+  <div class="site-header-right">
+    <ul class="site-header-actions" data-header-actions>
+  
+    
+      <li class="site-header-actions__account-link">
+        <a
+          class="site-header_account-link-anchor"
+          href="/account/login"
+        >
+          <span class="site-header__account-icon">
+            
+
+
+    <svg class="icon-account "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">      <path d="M11.3336 14.4447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>      <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>    </svg>                                                                                                                
+
+          </span>
+          
+        </a>
+      </li>
+    
+  
+</ul>
+
+
+    <div class="site-header-cart">
+      <div class="customer-login-mobile">
+        <a href="/account" class="site-header__account-icon">
+            
+
+
+    <svg class="icon-account "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">      <path d="M11.3336 14.4447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>      <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>    </svg>                                                                                                                
+
+        </a>
+      </div>
+      <a class="site-header-cart--button" href="/cart">
+        
+         <span  class="site-header-cart--count ">
+           <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" fill="#FDD645"/>
+  <g clip-path="url(#clip0_1865_8901)">
+  <path d="M68.9463 63.8C68.7209 64.4118 68.5814 65.0558 68.2594 65.6139C67.2505 67.3741 65.6405 68.34 63.7086 68.7801C61.1434 69.3597 58.707 69.0055 56.5819 67.3848C54.8217 66.0432 53.9523 64.2723 54.489 62.0291C54.9075 60.2688 56.0989 59.0668 57.6767 58.2832C60.274 56.9953 62.9036 56.9953 65.5225 58.2618C65.662 58.3262 65.8015 58.4013 65.9947 58.4872C65.9947 52.7772 65.9947 47.1209 65.9947 41.411C58.2133 42.2804 50.4534 43.139 42.6397 44.0084C42.6397 44.2016 42.6397 44.3626 42.6397 44.5343C42.6397 51.4785 42.5968 58.4228 42.6612 65.367C42.6827 68.1576 41.4162 70.0359 38.9798 71.1306C35.9746 72.4722 33.0123 72.2576 30.3075 70.3149C28.6439 69.145 27.7638 67.5136 28.0536 65.4207C28.3005 63.6712 29.3094 62.4047 30.7798 61.5246C33.4845 59.9039 36.2966 59.8395 39.1408 61.1704C39.2696 61.2348 39.3984 61.2992 39.5379 61.3636C39.5594 61.3743 39.5916 61.3743 39.6882 61.3851C39.6882 61.2134 39.6882 61.0524 39.6882 60.8914C39.6882 52.4982 39.6882 44.0942 39.6882 35.701C39.6882 35.2073 39.7526 34.7458 40.1175 34.3702C40.4395 34.0267 40.8688 33.9408 41.3089 33.8979C46.2246 33.3505 51.1295 32.8139 56.0452 32.2665C59.6301 31.8694 63.2256 31.4723 66.8104 31.0644C66.8856 31.0537 66.9607 31.0215 67.0358 31C67.3041 31 67.5725 31 67.8408 31C68.3774 31.2147 68.7424 31.5903 68.957 32.1162C68.9463 42.6775 68.9463 53.2387 68.9463 63.8Z" fill="white"/>
+  </g>
+  <defs>
+  <clipPath id="clip0_1865_8901">
+  <rect width="40.9463" height="41" fill="white" transform="translate(28 31)"/>
+  </clipPath>
+  </defs>
+</svg>
+
+        </span>
+        <span class="site-header-cart-icon site-header-cart-icon--svg">
+          
+            
+
+
+            <svg width="25" height="24" viewBox="0 0 25 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">      <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2H1.33877H1.33883C1.61048 2.00005 2.00378 2.23945 2.10939 2.81599L2.10937 2.816L2.11046 2.82171L5.01743 18.1859C5.12011 18.7286 5.64325 19.0852 6.18591 18.9826C6.21078 18.9779 6.23526 18.9723 6.25933 18.9658C6.28646 18.968 6.31389 18.9692 6.34159 18.9692H18.8179H18.8181C19.0302 18.9691 19.2141 18.9765 19.4075 18.9842L19.4077 18.9842C19.5113 18.9884 19.6175 18.9926 19.7323 18.9959C20.0255 19.0043 20.3767 19.0061 20.7177 18.9406C21.08 18.871 21.4685 18.7189 21.8028 18.3961C22.1291 18.081 22.3266 17.6772 22.4479 17.2384C22.4569 17.2058 22.4642 17.1729 22.4699 17.1396L23.944 8.46865C24.2528 7.20993 23.2684 5.99987 21.9896 6H21.9894H4.74727L4.07666 2.45562L4.07608 2.4525C3.83133 1.12381 2.76159 8.49962e-05 1.33889 0H1.33883H1ZM5.12568 8L6.8227 16.9692H18.8178H18.8179C19.0686 16.9691 19.3257 16.9793 19.5406 16.9877L19.5413 16.9877C19.633 16.9913 19.7171 16.9947 19.7896 16.9967C20.0684 17.0047 20.2307 16.9976 20.3403 16.9766C20.3841 16.9681 20.4059 16.96 20.4151 16.9556C20.4247 16.9443 20.4639 16.8918 20.5077 16.7487L21.9794 8.09186C21.9842 8.06359 21.9902 8.03555 21.9974 8.0078C21.9941 8.00358 21.9908 8.00108 21.989 8H5.12568ZM20.416 16.9552C20.4195 16.9534 20.4208 16.9524 20.4205 16.9523C20.4204 16.9523 20.4199 16.9525 20.4191 16.953L20.416 16.9552ZM10.8666 22.4326C10.8666 23.2982 10.195 24 9.36658 24C8.53815 24 7.86658 23.2982 7.86658 22.4326C7.86658 21.567 8.53815 20.8653 9.36658 20.8653C10.195 20.8653 10.8666 21.567 10.8666 22.4326ZM18.0048 24C18.8332 24 19.5048 23.2982 19.5048 22.4326C19.5048 21.567 18.8332 20.8653 18.0048 20.8653C17.1763 20.8653 16.5048 21.567 16.5048 22.4326C16.5048 23.2982 17.1763 24 18.0048 24Z" fill="currentColor"/>    </svg>                                                                                                        
+
+           
+        </span>
+        <span class="visually-hidden">View cart</span>
+         
+      </a>
+    </div>
+  </div>
+</div>
+
+<div
+  class="
+    site-navigation-wrapper
+    
+      site-navigation--has-actions
+    
+    
+  "
+  data-site-navigation
+  id="site-header-nav"
+>
+  <nav
+    class="site-navigation"
+    aria-label="Main"
+  >
+  
+    
+
+
+
+
+<ul
+  class="navmenu navmenu-depth-1"
+  data-navmenu
+  aria-label="Main Menu"
+>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                  navmenu-id-corporate-audio"
+      
+      
+      
+    >
+      
+        <a
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+          
+        "
+        
+          href="/pages/audio-branding-for-business"
+        
+      >
+        Corporate Audio
+        
+      
+        </a>
+      
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                    navmenu-item-parent                  navmenu-basic__item-parent                    navmenu-id-voice-overs"
+      
+      data-navmenu-parent
+      
+    >
+      
+        <details data-navmenu-details>
+        <summary
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-parent
+          
+        "
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+          data-href="/collections/voiceover"
+        
+      >
+        Voice Overs
+        
+          <span
+            class="navmenu-icon navmenu-icon-depth-1"
+            data-navmenu-trigger
+          >
+            <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+          </span>
+        
+      
+        </summary>
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-ai-voice-overs"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/ai-voices"
+        >
+          
+          AI Voice Overs
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-female-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.voice=Female+Voices"
+        >
+          
+          Female Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-male-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.voice=Male+Voices"
+        >
+          
+          Male Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-british-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.language=English+%28British%29"
+        >
+          
+          British Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-american-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.language=English+%28American%29"
+        >
+          
+          American Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-best-selling"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/featured"
+        >
+          
+          Best Selling
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                    navmenu-item-parent                  navmenu-basic__item-parent                    navmenu-id-radio-djs"
+      
+      data-navmenu-parent
+      
+    >
+      
+        <details data-navmenu-details>
+        <summary
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-parent
+          
+        "
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+          data-href="https://musicradiocreative.com/collections/radio-imaging"
+        
+      >
+        Radio & DJs
+        
+          <span
+            class="navmenu-icon navmenu-icon-depth-1"
+            data-navmenu-trigger
+          >
+            <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+          </span>
+        
+      
+        </summary>
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-custom-jingles-dj-drops"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Custom Jingles & DJ Drops
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-packages"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging?filter.p.m.custom.browse=Radio+Packages&filter.p.m.custom.browse=DJ+Packages"
+        >
+          
+          Packages
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sung-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging/browse_sung-jingles"
+        >
+          
+          Sung Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sound-fx-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging/browse_production-libraries"
+        >
+          
+          Sound FX & Music
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://mrc.fm/presets"
+        >
+          
+          Audio Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-download-dj-drops"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging?filter.p.m.custom.browse=DJ+Packages"
+        >
+          
+          Download DJ Drops
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                    navmenu-item-parent                  navmenu-basic__item-parent                    navmenu-id-podcasters"
+      
+      data-navmenu-parent
+      
+    >
+      
+        <details data-navmenu-details>
+        <summary
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-parent
+          
+        "
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+          data-href="/collections/podcast-essentials"
+        
+      >
+        Podcasters
+        
+          <span
+            class="navmenu-icon navmenu-icon-depth-1"
+            data-navmenu-trigger
+          >
+            <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+          </span>
+        
+      
+        </summary>
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-intros"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Podcast Intros
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-editing"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/podcast-production"
+        >
+          
+          Podcast Editing
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audacity-audition-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/podcast-essentials?filter.p.m.custom.browse=Audio+Presets"
+        >
+          
+          Audacity & Audition Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-royalty-free-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/collections/royalty-free-music"
+        >
+          
+          Royalty Free Music
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-learn-to-edit-podcast"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://courses.musicradiocreative.com/"
+        >
+          
+          Learn To Edit Podcast
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-expert-coaching"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/products/personal-audio-coaching"
+        >
+          
+          Expert Coaching
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                    navmenu-item-parent                  navmenu-basic__item-parent                    navmenu-id-youtubers"
+      
+      data-navmenu-parent
+      
+    >
+      
+        <details data-navmenu-details>
+        <summary
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-parent
+          
+        "
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+          data-href="https://musicradiocreative.com/collections/youtubers"
+        
+      >
+        YouTubers
+        
+          <span
+            class="navmenu-icon navmenu-icon-depth-1"
+            data-navmenu-trigger
+          >
+            <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+          </span>
+        
+      
+        </summary>
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-custom-voice-overs"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Custom Voice Overs
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-premiere-pro-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/youtubers?filter.p.m.custom.browse=Audio+Presets"
+        >
+          
+          Premiere Pro Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-royalty-free-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/collections/royalty-free-music"
+        >
+          
+          Royalty Free Music
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                    navmenu-item-parent                  navmenu-basic__item-parent                    navmenu-id-more"
+      
+      data-navmenu-parent
+      
+    >
+      
+        <details data-navmenu-details>
+        <summary
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-parent
+          
+        "
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+          data-href="#"
+        
+      >
+        More
+        
+          <span
+            class="navmenu-icon navmenu-icon-depth-1"
+            data-navmenu-trigger
+          >
+            <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+          </span>
+        
+      
+        </summary>
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-contact-us"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/pages/contact"
+        >
+          
+          Contact Us
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-community"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://community.musicradiocreative.com/"
+        >
+          
+          Audio Community
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-resources"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://producer.musicradiocreative.com"
+        >
+          
+          Audio Resources
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-free-tutorials"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://www.youtube.com/channel/UCYEiWHoP2IHHgjOapTAYMQw"
+        >
+          
+          Free Tutorials
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-free-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://producer.musicradiocreative.com/free-jingles/"
+        >
+          
+          Free Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-our-clients"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/pages/our-clients"
+        >
+          
+          Our Clients
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-promo-spend-30"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/production-starter-kit"
+        >
+          
+          PROMO - Spend $30
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+      </details>
+    </li>
+  
+    
+    
+
+    
+    
+    
+    
+<li
+      class="navmenu-item              navmenu-basic__item                  navmenu-id-sale"
+      
+      
+      
+    >
+      
+        <a
+      
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+          
+        "
+        
+          href="/collections/special-offers"
+        
+      >
+        SALE
+        
+      
+        </a>
+      
+
+      
+      </details>
+    </li>
+  
+</ul>
+
+
+    
+      <div class="currency-converter-wrap">
+      
+  <form method="post" action="/cart/update" id="currency_form" accept-charset="UTF-8" class="shopify-currency-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="currency" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="return_to" value="/pages/privacy-policy" />
+    <select name="currency">
+      
+        
+          <option>AUD</option>
+        
+      
+        
+          <option>CAD</option>
+        
+      
+        
+          <option>EUR</option>
+        
+      
+        
+          <option selected="true">
+            GBP
+            £
+          </option>
+        
+      
+        
+          <option>USD</option>
+        
+      
+    </select>
+  </form>
+  <script>
+       function currencyFormSubmit(event) { event.target.form.submit(); }
+
+    document.querySelectorAll('.shopify-currency-form select').forEach(function(element) {
+    element.addEventListener('change', currencyFormSubmit); });
+  </script>
+
+
+      <span>|</span>
+      
+
+
+<noscript><form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="shopify-localization-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/pages/privacy-policy" /><details class="disclosure">
+      <summary>
+        <span class="disclosure__toggle">
+          English
+        </span>
+      </summary>
+      <div class="disclosure-list disclosure-list--visible">
+        
+          <div class="disclosure-list__item-wrapper disclosure-list__item">
+            <input
+              type="radio"
+              id="en"
+              name="locale_code"
+              value="en"
+              
+                checked
+              
+            >
+            <label class="disclosure-list__item--label" for="en">English</label>
+          </div>
+        
+        <button class="disclosure__submit" type="submit">
+          Update language
+        </button>
+      </div>
+    </details></form></noscript><form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="shopify-localization-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/pages/privacy-policy" /><div class="selectors-form__item selectors-form--no-js-hidden">
+    <div class="disclosure" data-disclosure-locale>
+      <h2 class="visually-hidden" id="lang-heading-12">
+        Language
+      </h2>
+
+<!--       <button
+        type="button"
+        class="disclosure__toggle"
+        aria-expanded="false"
+        aria-controls="lang-list-12"
+        aria-describedby="lang-heading-12"
+        data-disclosure-toggle
+        id="lang-selector"
+      >
+        English
+      </button> -->
+      <select name="locale_code" id="custom_locale_form">
+        
+          <option value="en"  selected>English</option>
+        
+      </select>
+<!--       <ul id="lang-list-12" class="disclosure-list" data-disclosure-list>
+        
+          <li>
+            <a
+              class="disclosure-list__item disclosure-list__item--current"
+              href="en"
+              lang="en"
+              
+                aria-current="true"
+              
+              data-value="en"
+              data-disclosure-option
+            >
+              <span class="disclosure-list__option">English</span>
+            </a>
+          </li></ul> -->
+<!--       <input
+        type="hidden"
+        name="locale_code"
+        id="LocaleSelector-12"
+        value="en"
+        data-disclosure-input
+      > -->
+    </div>
+    <input type="hidden" id ="return_path_locale_form" name="return_to" value=""/>
+  </div></form><script>
+  // const toggleBtn = document.getElementById('lang-selector');
+  // const targetElement = document.querySelector('.disclosure-list');
+  // toggleBtn.addEventListener('click', function() {
+  //   const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+  //   toggleBtn.setAttribute('aria-expanded', !isExpanded);
+  //   targetElement.classList.toggle('disclosure-list--visible');
+  // });
+
+  let languageDropdown = document.getElementById('custom_locale_form'),
+    localeForm = document.getElementById('localization_form'),
+    returnPathField = document.getElementById('return_path_locale_form'),
+    currentLang = "/en",
+    currentPath = "/pages/privacy-policy";
+  currentPath = currentPath.replace(currentLang, '');
+  languageDropdown.addEventListener('change', (e) => {
+    currentPath = `/${languageDropdown.value}${currentPath}`; 
+    returnPathField.value = currentPath;
+    localeForm.submit();
+  })
+</script>
+
+      </div>
+  </nav>
+  
+</div>
+
+<div class="site-mobile-nav" id="site-mobile-nav" data-mobile-nav tabindex="0">
+  <div class="mobile-nav-panel" data-mobile-nav-panel>
+
+    <ul class="site-header-actions" data-header-actions>
+  
+    
+      <li class="site-header-actions__account-link">
+        <a
+          class="site-header_account-link-anchor"
+          href="/account/login"
+        >
+          <span class="site-header__account-icon">
+            
+
+
+    <svg class="icon-account "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">      <path d="M11.3336 14.4447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>      <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>    </svg>                                                                                                                
+
+          </span>
+          
+        </a>
+      </li>
+    
+  
+</ul>
+
+
+    <a
+      class="mobile-nav-close"
+      href="#site-header-nav"
+      data-mobile-nav-close>
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="13"
+  height="13"
+  viewBox="0 0 13 13"
+>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.306 6.5L0 1.194 1.194 0 6.5 5.306 11.806 0 13 1.194 7.694 6.5 13 11.806 11.806 13 6.5 7.694 1.194 13 0 11.806 5.306 6.5z"/>
+</svg>
+      <span class="visually-hidden">Close</span>
+    </a>
+
+    <div class="mobile-nav-content" data-mobile-nav-content>
+      
+
+
+
+
+<ul
+  class="navmenu navmenu-depth-1"
+  data-navmenu
+  aria-label="Main Menu"
+>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item            navmenu-id-corporate-audio"
+      
+    >
+      <a
+        class="navmenu-link  "
+        href="/pages/audio-branding-for-business"
+        
+      >
+        Corporate Audio
+      </a>
+
+      
+
+      
+      
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item      navmenu-item-parent      navmenu-id-voice-overs"
+      data-navmenu-parent
+    >
+      <a
+        class="navmenu-link navmenu-link-parent "
+        href="/collections/voiceover"
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+        
+      >
+        Voice Overs
+      </a>
+
+      
+        
+
+
+
+<button
+  class="navmenu-button"
+  data-navmenu-trigger
+  aria-expanded="false"
+>
+  <div class="navmenu-button-wrapper" tabindex="-1">
+    <span class="navmenu-icon ">
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+    </span>
+    <span class="visually-hidden">Voice Overs</span>
+  </div>
+</button>
+
+      
+
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  data-accordion-content
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-ai-voice-overs"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/ai-voices"
+        >
+          
+          AI Voice Overs
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-female-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.voice=Female+Voices"
+        >
+          
+          Female Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-male-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.voice=Male+Voices"
+        >
+          
+          Male Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-british-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.language=English+%28British%29"
+        >
+          
+          British Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-american-voice-over"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover?filter.p.m.custom.language=English+%28American%29"
+        >
+          
+          American Voice Over
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-best-selling"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/featured"
+        >
+          
+          Best Selling
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item      navmenu-item-parent      navmenu-id-radio-djs"
+      data-navmenu-parent
+    >
+      <a
+        class="navmenu-link navmenu-link-parent "
+        href="https://musicradiocreative.com/collections/radio-imaging"
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+        
+      >
+        Radio & DJs
+      </a>
+
+      
+        
+
+
+
+<button
+  class="navmenu-button"
+  data-navmenu-trigger
+  aria-expanded="false"
+>
+  <div class="navmenu-button-wrapper" tabindex="-1">
+    <span class="navmenu-icon ">
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+    </span>
+    <span class="visually-hidden">Radio & DJs</span>
+  </div>
+</button>
+
+      
+
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  data-accordion-content
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-custom-jingles-dj-drops"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Custom Jingles & DJ Drops
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-packages"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging?filter.p.m.custom.browse=Radio+Packages&filter.p.m.custom.browse=DJ+Packages"
+        >
+          
+          Packages
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sung-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging/browse_sung-jingles"
+        >
+          
+          Sung Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sound-fx-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging/browse_production-libraries"
+        >
+          
+          Sound FX & Music
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://mrc.fm/presets"
+        >
+          
+          Audio Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-download-dj-drops"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/radio-imaging?filter.p.m.custom.browse=DJ+Packages"
+        >
+          
+          Download DJ Drops
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item      navmenu-item-parent      navmenu-id-podcasters"
+      data-navmenu-parent
+    >
+      <a
+        class="navmenu-link navmenu-link-parent "
+        href="/collections/podcast-essentials"
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+        
+      >
+        Podcasters
+      </a>
+
+      
+        
+
+
+
+<button
+  class="navmenu-button"
+  data-navmenu-trigger
+  aria-expanded="false"
+>
+  <div class="navmenu-button-wrapper" tabindex="-1">
+    <span class="navmenu-icon ">
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+    </span>
+    <span class="visually-hidden">Podcasters</span>
+  </div>
+</button>
+
+      
+
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  data-accordion-content
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-intros"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Podcast Intros
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-editing"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/podcast-production"
+        >
+          
+          Podcast Editing
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audacity-audition-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/podcast-essentials?filter.p.m.custom.browse=Audio+Presets"
+        >
+          
+          Audacity & Audition Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-royalty-free-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/collections/royalty-free-music"
+        >
+          
+          Royalty Free Music
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-learn-to-edit-podcast"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://courses.musicradiocreative.com/"
+        >
+          
+          Learn To Edit Podcast
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-expert-coaching"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/products/personal-audio-coaching"
+        >
+          
+          Expert Coaching
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item      navmenu-item-parent      navmenu-id-youtubers"
+      data-navmenu-parent
+    >
+      <a
+        class="navmenu-link navmenu-link-parent "
+        href="https://musicradiocreative.com/collections/youtubers"
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+        
+      >
+        YouTubers
+      </a>
+
+      
+        
+
+
+
+<button
+  class="navmenu-button"
+  data-navmenu-trigger
+  aria-expanded="false"
+>
+  <div class="navmenu-button-wrapper" tabindex="-1">
+    <span class="navmenu-icon ">
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+    </span>
+    <span class="visually-hidden">YouTubers</span>
+  </div>
+</button>
+
+      
+
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  data-accordion-content
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-custom-voice-overs"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/voiceover"
+        >
+          
+          Custom Voice Overs
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-premiere-pro-presets"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/collections/youtubers?filter.p.m.custom.browse=Audio+Presets"
+        >
+          
+          Premiere Pro Presets
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-royalty-free-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/collections/royalty-free-music"
+        >
+          
+          Royalty Free Music
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item      navmenu-item-parent      navmenu-id-more"
+      data-navmenu-parent
+    >
+      <a
+        class="navmenu-link navmenu-link-parent "
+        href="#"
+        
+          aria-haspopup="true"
+          aria-expanded="false"
+        
+      >
+        More
+      </a>
+
+      
+        
+
+
+
+<button
+  class="navmenu-button"
+  data-navmenu-trigger
+  aria-expanded="false"
+>
+  <div class="navmenu-button-wrapper" tabindex="-1">
+    <span class="navmenu-icon ">
+      <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="8"
+  height="6"
+  viewBox="0 0 8 6"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-chevron-down"
+>
+<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</svg>
+
+    </span>
+    <span class="visually-hidden">More</span>
+  </div>
+</button>
+
+      
+
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-2
+    navmenu-submenu
+    
+  "
+  data-navmenu
+  data-accordion-content
+  data-navmenu-submenu
+  aria-label="Main Menu"
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-contact-us"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/pages/contact"
+        >
+          
+          Contact Us
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-community"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://community.musicradiocreative.com/"
+        >
+          
+          Audio Community
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-resources"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://producer.musicradiocreative.com"
+        >
+          
+          Audio Resources
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-free-tutorials"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://www.youtube.com/channel/UCYEiWHoP2IHHgjOapTAYMQw"
+        >
+          
+          Free Tutorials
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-free-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://producer.musicradiocreative.com/free-jingles/"
+        >
+          
+          Free Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-our-clients"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="/pages/our-clients"
+        >
+          
+          Our Clients
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-promo-spend-30"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-2
+          
+        "
+        href="https://musicradiocreative.com/pages/production-starter-kit"
+        >
+          
+          PROMO - Spend $30
+</a>
+      </li>
+    
+  
+</ul>
+
+      
+
+      
+    </li>
+  
+    
+    
+
+    
+    
+    
+<li
+      class="navmenu-item            navmenu-id-sale"
+      
+    >
+      <a
+        class="navmenu-link  "
+        href="/collections/special-offers"
+        
+      >
+        SALE
+      </a>
+
+      
+
+      
+      
+
+      
+
+      
+    </li>
+  
+</ul>
+
+
+      
+    </div>
+    <div class="utility-bar__mobile-disclosure" data-utility-mobile></div>
+  </div>
+
+  <div class="mobile-nav-overlay" data-mobile-nav-overlay></div>
+</div>
+
+
+</div>
+    </header>
+    <div class="intersection-target" data-header-intersection-target></div>
+    <div class="site-main-dimmer" data-site-main-dimmer></div>
+    <main id="site-main" class="site-main" aria-label="Main content" tabindex="-1">
+      <div id="shopify-section-template--16871195738350__main" class="shopify-section"><article class="site-page" data-template-page>
+  <header class="page-masthead">
+    <h1 class="page-title">
+      Privacy Policy
+    </h1>
+  </header>
+
+  
+    <div class="page-content rte">
+      <div class="col-5">
+<h3>WEBSITE PRIVACY NOTICE</h3>
+</div>
+<div class="col-5 expandable">
+<p><strong>1</strong>.<strong> INTRODUCTION</strong></p>
+<p>This privacy notice provides you with details of how we collect and process your personal data through your use of our site https://musicradiocreative.com.</p>
+<p>By providing us with your data, you warrant to us that you are over 16 years of age.</p>
+<p>Music Radio Creative Ltd [is/am/are] the data controller and we are responsible for your personal data (referred to as “we”, “us” or “our” in this privacy notice).</p>
+<p>Contact Details<br><br>Our full details are:<br><br>Full name of legal entity: Music Radio Creative Limited<br><br>Email address:<span> </span><a href="mailto:contact@musicradiocreative.com">contact@musicradiocreative.com</a></p>
+<p><br>Postal address: Innovation Centre, St Cross Business Park, Newport, Isle of Wight, PO30 5WB, United Kingdom<br><br>It is very important that the information we hold about you is accurate and up to date. Please let us know if at any time your personal information changes by emailing us at<span> </span><a href="mailto:help@musicradiocreative.com">help@musicradiocreative.com</a></p>
+<p><strong>2.</strong> <strong>WHAT DATA DO WE COLLECT ABOUT YOU, FOR WHAT PURPOSE AND ON WHAT GROUND WE PROCESS IT</strong><br><br>Personal data means any information capable of identifying an individual. It does not include anonymised data.<br><br>We may process the following categories of personal data about you:<br><br>Communication Data that includes any communication that you send to us whether that be through the contact form on our website, through email, text, social media messaging, social media posting or any other communication that you send us. We process this data for the purposes of communicating with you, for record keeping and for the establishment, pursuance or defence of legal claims. Our lawful ground for this processing is our legitimate interests which in this case are to reply to communications sent to us, to keep records and to establish, pursue or defend legal claims.<br>Customer Data that includes data relating to any purchases of goods and/or services such as your name, title, billing address, delivery address email address, phone number, contact details, purchase details and your card details. We process this data to supply the goods and/or services you have purchased and to keep records of such transactions. Our lawful ground for this processing is the performance of a contract between you and us and/or taking steps at your request to enter into such a contract.<br>User Data that includes data about how you use our website and any online services together with any data that you post for publication on our website or through other online services. We process this data to operate our website and ensure relevant content is provided to you, to ensure the security of our website, to maintain back- ups of our website and/or databases and to enable publication and administration of our website, other online services and business. Our lawful ground for this processing is our legitimate interests which in this case are to enable us to properly administer our website and our business.<br>Technical Data that includes data about your use of our website and online services such as your IP address, your login data, details about your browser, length of visit to pages on our website, page views and navigation paths, details about the number of times you use our website, time zone settings and other technology on the devices you use to access our website. The source of this data is from our analytics tracking system. We process this data to analyse your use of our website and other online services, to administer and protect our business and website, to deliver relevant website content and advertisements to you and to understand the effectiveness of our advertising. Our lawful ground for this processing is our legitimate interests which in this case are to enable us to properly administer our website and our business and to grow our business and to decide our marketing strategy.<br>Marketing Data that includes data about your preferences in receiving marketing from us and our third parties and your communication preferences. We process this data to enable you to partake in our promotions such as competitions, prize draws and free give-aways, to deliver relevant website content and advertisements to you and measure or understand the effectiveness of this advertising. Our lawful ground for this processing is our legitimate interests which in this case are to study how customers use our products/services, to develop them, to grow our business and to decide our marketing strategy.<br>We may use Customer Data, User Data, Technical Data and Marketing Data to deliver relevant website content and advertisements to you (including Facebook adverts or other display advertisements) and to measure or understand the effectiveness of the advertising we serve you. Our lawful ground for this processing is legitimate interests which is to grow our business. We may also use such data to send other marketing communications to you. Our lawful ground for this processing is either consent or legitimate interests (namely to grow our business).<br>Sensitive Data<br><br>We do not collect any Sensitive Data about you. Sensitive data refers to data that includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data. We do not collect any information about criminal convictions and offences.<br><br>Where we are required to collect personal data by law, or under the terms of the contract between us and you do not provide us with that data when requested, we may not be able to perform the contract (for example, to deliver goods or services to you). If you don’t provide us with the requested data, we may have to cancel a product or service you have ordered but if we do, we will notify you at the time.<br><br>We will only use your personal data for a purpose it was collected for or a reasonably compatible purpose if necessary. For more information on this please email us at<span> </span><a href="mailto:contact@musicradiocreative.com">contact@musicradiocreative.com</a><br><br>In case we need to use your details for an unrelated new purpose we will let you know and explain the legal grounds for processing.<br><br>We may process your personal data without your knowledge or consent where this is required or permitted by law.<br><br>We do not carry out automated decision making or any type of automated profiling.<br><br><strong>3</strong>. <strong>HOW WE COLLECT YOUR PERSONAL DATA</strong><br><br>We may collect data about you by you providing the data directly to us (for example by filling in forms on our site or by sending us emails). We may automatically collect certain data from you as you use our website by using cookies and similar technologies.<br><br>We may receive data from third parties such as analytics providers such as Google based outside the EU, advertising networks such as Facebook based outside the EU, such as search information providers such as Google based outside the EU, providers of technical, payment and delivery services, such as data brokers or aggregators.<br><br>We may also receive data from publicly available sources such as Companies House and the Electoral Register based inside the EU.<br><br><strong>4</strong>. <strong>MARKETING COMMUNICATIONS</strong><br><br>Our lawful ground of processing your personal data to send you marketing communications is either your consent or our legitimate interests (namely to grow our business).<br><br>Under the Privacy and Electronic Communications Regulations, we may send you marketing communications from us if (i) you made a purchase or asked for information from us about our goods or services or (ii) you agreed to receive marketing communications and in each case you have not opted out of receiving such communications since. Under these regulations, if you are a limited company, we may send you marketing emails without your consent. However you can still opt out of receiving marketing emails from us at any time.<br><br>Before we share your personal data with any third party for their own marketing purposes we will get your express consent.<br><br>You can ask us or third parties to stop sending you marketing messages at any time [by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences] OR [by following the opt-out links on any marketing message sent to you or] OR by emailing us at<span> </span><a href="mailto:contact@musicradiocreative.com">contact@musicradiocreative.com</a><span> </span>at any time].<br><br>If you opt out of receiving marketing communications this opt-out does not apply to personal data provided as a result of other transactions, such as purchases, warranty registrations etc.<br><br><strong>5. DISCLOSURES OF YOUR PERSONAL DATA</strong><br><br>We may have to share your personal data with the parties set out below:<br><br>Service providers who provide IT and system administration services.<br>Professional advisers including lawyers, bankers, auditors and insurers<br>Government bodies that require us to report processing activities.<br>Fraud prevention agencies.<br>Third parties to whom we sell, transfer, or merge parts of our business or our assets.<br>We require all third parties to whom we transfer your data to respect the security of your personal data and to treat it in accordance with the law. We only allow such third parties to process your personal data for specified purposes and in accordance with our instructions.<br><br><strong>6. INTERNATIONAL TRANSFERS</strong><br><br>We share your personal data within our group of companies which involves transferring your data outside the European Economic Area (EEA).<br><br>Countries outside of the European Economic Area (EEA) do not always offer the same levels of protection to your personal data, so European law has prohibited transfers of personal data outside of the EEA unless the transfer meets certain criteria.<br><br>Many of our third parties service providers are based outside the European Economic Area (EEA) so their processing of your personal data will involve a transfer of data outside the EEA.<br><br>Whenever we transfer your personal data out of the EEA, we do our best to ensure a similar degree of security of data by ensuring at least one of the following safeguards is in place:<br><br>We will only transfer your personal data to countries that the European Commission have approved as providing an adequate level of protection for personal data by; or<br>Where we use certain service providers, we may use specific contracts or codes of conduct or certification mechanisms approved by the European Commission which give personal data the same protection it has in Europe; or<br>If we use US-based providers that are part of EU-US Privacy Shield, we may transfer data to them, as they have equivalent safeguards in place.<br>If none of the above safeguards is available, we may request your explicit consent to the specific transfer. You will have the right to withdraw this consent at any time.<br><br><strong>7. DATA SECURITY</strong><br><br>We have put in place security measures to prevent your personal data from being accidentally lost, used, altered, disclosed, or accessed without authorisation. We also allow access to your personal data only to those employees and partners who have a business need to know such data. They will only process your personal data on our instructions and they must keep it confidential.<br><br>We have procedures in place to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach if we are legally required to.<br><br><strong>8. DATA RETENTION</strong><br><br>We will only retain your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.<br><br>When deciding what the correct time is to keep the data for we look at its amount, nature and sensitivity, potential risk of harm from unauthorised use or disclosure, the processing purposes, if these can be achieved by other means and legal requirements.<br><br>For tax purposes the law requires us to keep basic information about our customers (including Contact, Identity, Financial and Transaction Data) for six years after they stop being customers.<br><br>In some circumstances we may anonymise your personal data for research or statistical purposes in which case we may use this information indefinitely without further notice to you.<br><br><strong>9. YOUR LEGAL RIGHTS</strong><br><br>Under data protection laws you have rights in relation to your personal data that include the right to request access, correction, erasure, restriction, transfer, to object to processing, to portability of data and (where the lawful ground of processing is consent) to withdraw consent.<br><br>You can see more about these rights at:<br><br><a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/" rel="noopener noreferrer">https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/</a><br><br>If you wish to exercise any of the rights set out above, please email us at<span> </span><a href="mailto:contact@musicradiocreative.com">contact@musicradiocreative.com</a><br><br>You will not have to pay a fee to access your personal data (or to exercise any of the other rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive or refuse to comply with your request in these circumstances.<br><br>We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data (or to exercise any of your other rights). This is a security measure to ensure that personal data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information in relation to your request to speed up our response.<br><br>We try to respond to all legitimate requests within one month. Occasionally it may take us longer than a month if your request is particularly complex or you have made a number of requests. In this case, we will notify you.<br><br>If you are not happy with any aspect of how we collect and use your data, you have the right to complain to the Information Commissioner’s Office (ICO), the UK supervisory authority for data protection issues (<a target="_blank" href="https://ico.org.uk/" rel="noopener noreferrer">www.ico.org.uk</a>). We should be grateful if you would contact us first if you do have a complaint so that we can try to resolve it for you.<br><br><strong>THIRD-PARTY LINKS</strong><br><br>This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.<br><br><strong>COOKIES</strong><br><br>You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly. For more information about the cookies we use, please see our cookie policy below.<br><br>We only use analytical cookies on our website which allow us to recognise and count the number of visitors and to see how visitors move around the site when they are using it but do not identify you individually. They help us to improve the way our website works, for example by ensuring that users are finding what they are looking for easily. Read more about the cookies we use below.<br><br><br><strong>COOKIE POLICY</strong><br><br>Information about our use of cookies<br><br>A cookie is a small file of letters and numbers that we store on your browser or the hard drive of your computer (if you consent to us using cookies). Cookies contain information that is transferred to your computer's hard drive. Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our website.<br><br>You can find more information about the purposes for which we use cookies below:<br><br>Estimate our audience size and usage pattern.<br>Store information about your preferences, and so allow us to customise our site and to provide you with offers that are targeted at your individual interests.<br>Speed up your searches.<br>Recognise you when you return to our site.<br>Allow you to use our site in a way that makes your browsing experience more convenient, for example, by allowing you to store items in an electronic shopping basket between visits. If you register with us or complete our online forms, we will use cookies to remember your details during your current visit, and any future visits provided the cookie was not deleted in the interim.<br>You can block cookies by activating the setting on your browser that allows you to refuse the setting of all or some cookies. However, if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of our site. Most web browsers allow some control of most cookies through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit<span> </span><a target="_blank" href="https://www.allaboutcookies.org/" rel="noopener noreferrer">www.allaboutcookies.org</a>.</p>
+</div>
+    </div>
+  
+</article>
+</div>
+    </main>
+    <div id="shopify-section-static-footer" class="shopify-section site-footer"><script
+  type="application/json"
+  data-section-id="static-footer"
+  data-section-type="static-footer"
+></script>
+
+<footer role="contentinfo" aria-label="Footer">
+  <section class="site-footer-wrapper">
+    
+      <div class="site-footer-item">
+        <div class="site-footer-blocks column-count-5">
+          <div class="site-footer-block-item  site-footer-block-logo-with-info  " >
+  
+    <div class="site-footer-block-content rte footer-logo-info-wrap">
+      <a href="https://musicradiocreative.com" class="footer-brand-logo">
+        <img src="//musicradiocreative.com/cdn/shop/files/footer-logo_200x81.png?v=1679045034" alt="Music Radio Creative" loading="lazy">
+      </a>
+      
+      
+    </div>
+  
+</div>
+<div class="site-footer-block-item  site-footer-block-menu  has-accordion" >
+  
+    <h2 class="site-footer-block-title" data-accordion-trigger>
+      About Us
+      <span class="site-footer-block-icon accordion--icon">
+        <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="14"
+  height="8"
+  viewBox="0 0 14 8"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="icon-chevron-down-left" d="M7 6.75L12.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+  <path class="icon-chevron-down-right" d="M7 6.75L1.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+</svg>
+
+      </span>
+    </h2>
+
+    <div class="site-footer-block-content">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-1
+    
+    
+  "
+  data-navmenu
+  data-accordion-content
+  
+  
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-meet-the-team"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/team"
+        >
+          
+          Meet The Team
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-our-clients"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/our-clients"
+        >
+          
+          Our Clients
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-contact-us"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/contact"
+        >
+          
+          Contact Us
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-faq"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/faq"
+        >
+          
+          FAQ
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-trustpilot"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://uk.trustpilot.com/review/musicradiocreative.com"
+        >
+          
+          Trustpilot
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-do-not-sell-my-personal-information"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/ccpa-opt-out"
+        >
+          
+          Do Not Sell My Personal Information
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sitemap"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://musicradiocreative.com/a/sitemap-tools/sitemap"
+        >
+          
+          Sitemap
+</a>
+      </li>
+    
+  
+</ul>
+
+    </div>
+  
+</div>
+<div class="site-footer-block-item  site-footer-block-menu  has-accordion" >
+  
+    <h2 class="site-footer-block-title" data-accordion-trigger>
+      Learn More
+      <span class="site-footer-block-icon accordion--icon">
+        <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="14"
+  height="8"
+  viewBox="0 0 14 8"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="icon-chevron-down-left" d="M7 6.75L12.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+  <path class="icon-chevron-down-right" d="M7 6.75L1.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+</svg>
+
+      </span>
+    </h2>
+
+    <div class="site-footer-block-content">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-1
+    
+    
+  "
+  data-navmenu
+  data-accordion-content
+  
+  
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-resources"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://producer.musicradiocreative.com"
+        >
+          
+          Resources
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-terms-and-conditions"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/terms-and-conditions"
+        >
+          
+          Terms And Conditions
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-responsible-ai-use"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://musicradiocreative.com/blogs/news/responsible-ai-manifesto-for-music-radio-creative"
+        >
+          
+          Responsible AI Use
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-affiliates"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/affiliates"
+        >
+          
+          Affiliates
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-privacy-policy"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          navmenu-link-active
+        "
+        href="/pages/privacy-policy"
+        >
+          
+          Privacy Policy
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-browse-voice-overs"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/voiceover"
+        >
+          
+          Browse Voice Overs
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-free-jingle-friday"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/pages/free-jingle-friday"
+        >
+          
+          Free Jingle Friday
+</a>
+      </li>
+    
+  
+</ul>
+
+    </div>
+  
+</div>
+<div class="site-footer-block-item  site-footer-block-menu  has-accordion" >
+  
+    <h2 class="site-footer-block-title" data-accordion-trigger>
+      Our Products
+      <span class="site-footer-block-icon accordion--icon">
+        <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="14"
+  height="8"
+  viewBox="0 0 14 8"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="icon-chevron-down-left" d="M7 6.75L12.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+  <path class="icon-chevron-down-right" d="M7 6.75L1.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+</svg>
+
+      </span>
+    </h2>
+
+    <div class="site-footer-block-content">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<ul
+  class="
+    navmenu
+    navmenu-depth-1
+    
+    
+  "
+  data-navmenu
+  data-accordion-content
+  
+  
+>
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-radio-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/radio-imaging"
+        >
+          
+          Radio Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-dj-drops"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/dj-jingles"
+        >
+          
+          DJ Drops
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-jingles"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/podcast-essentials"
+        >
+          
+          Podcast Jingles
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-podcast-editing"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://musicradiocreative.com/pages/podcast-production"
+        >
+          
+          Podcast Editing
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-audio-production-audio-video"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/podcast-editing"
+        >
+          
+          Audio Production (Audio & Video)
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-sound-effects"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/instant-downloads"
+        >
+          
+          Sound Effects
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-royalty-free-music"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="/collections/royalty-free-music"
+        >
+          
+          Royalty Free Music
+</a>
+      </li>
+    
+  
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+      <li
+        class="navmenu-item navmenu-id-learn-audio-editing"
+      >
+        <a
+        class="
+          navmenu-link
+          navmenu-link-depth-1
+          
+        "
+        href="https://courses.musicradiocreative.com/"
+        >
+          
+          Learn Audio Editing
+</a>
+      </li>
+    
+  
+</ul>
+
+    </div>
+  
+</div>
+<div class="site-footer-block-item  site-footer-block-social-accounts  " >
+  
+    
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    
+    
+
+
+
+  
+    
+    <h2 class="site-footer-block-title">
+      Social Media Links
+    </h2>
+    <div class="site-footer-block-content">
+  
+
+  <div class="social-icons">
+
+
+<a
+  class="social-link"
+  title="Facebook"
+  href="https://www.facebook.com/musicradiocreative"
+  target="_blank">
+<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="14.9268" cy="15.2261" r="14.4878" stroke="#F9F8F4" stroke-width="0.878049"/><path d="M18.439 9.37256H16.6829C15.9067 9.37256 15.1622 9.68092 14.6133 10.2298C14.0645 10.7787 13.7561 11.5231 13.7561 12.2994V14.0555H12V16.3969H13.7561V21.0799H16.0976V16.3969H17.8537L18.439 14.0555H16.0976V12.2994C16.0976 12.1441 16.1592 11.9952 16.269 11.8855C16.3788 11.7757 16.5277 11.714 16.6829 11.714H18.439V9.37256Z" stroke="#F9F8F4" stroke-width="0.878049" stroke-linecap="round" stroke-linejoin="round"/></svg>
+
+    <span class="visually-hidden">Find us on Facebook</span>
+  
+</a>
+
+
+
+
+<a
+  class="social-link"
+  title="Twitter"
+  href="https://twitter.com/musicrcreative"
+  target="_blank">
+<svg class="twitter-new-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+
+    <span class="visually-hidden">Find us on Twitter</span>
+  
+</a>
+
+
+
+
+<a
+  class="social-link"
+  title="YouTube"
+  href="https://www.youtube.com/musicradiocreative"
+  target="_blank">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_335_4991)"><path d="M15.001 29.5608C23.0024 29.5608 29.4888 23.0744 29.4888 15.073C29.4888 7.07161 23.0024 0.585205 15.001 0.585205C6.99959 0.585205 0.513184 7.07161 0.513184 15.073C0.513184 23.0744 6.99959 29.5608 15.001 29.5608Z" stroke="#F9F8F4" stroke-width="0.878049"/><path d="M21.1716 11.807C21.1021 11.5292 20.9605 11.2746 20.7611 11.0691C20.5617 10.8635 20.3116 10.7142 20.036 10.6362C19.0292 10.3904 15.0019 10.3904 15.0019 10.3904C15.0019 10.3904 10.9745 10.3904 9.96771 10.6596C9.69215 10.7376 9.44204 10.8869 9.24265 11.0925C9.04325 11.298 8.90164 11.5526 8.8321 11.8304C8.64784 12.8522 8.5577 13.8887 8.56283 14.927C8.55627 15.973 8.64641 17.0175 8.8321 18.047C8.90876 18.3161 9.05355 18.561 9.25248 18.7579C9.45141 18.9548 9.69775 19.097 9.96771 19.1709C10.9745 19.4401 15.0019 19.4401 15.0019 19.4401C15.0019 19.4401 19.0292 19.4401 20.036 19.1709C20.3116 19.0929 20.5617 18.9436 20.7611 18.738C20.9605 18.5325 21.1021 18.2779 21.1716 18.0001C21.3545 16.986 21.4446 15.9574 21.4409 14.927C21.4475 13.8809 21.3573 12.8364 21.1716 11.807Z" stroke="#F9F8F4" stroke-width="0.878049" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.6836 16.8412L17.0494 14.9271L13.6836 13.0129V16.8412Z" stroke="#F9F8F4" stroke-width="0.878049" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_335_4991"><rect width="30" height="30" fill="white"/></clipPath></defs></svg>
+
+    <span class="visually-hidden">Find us on YouTube</span>
+  
+</a>
+
+</div>
+
+  
+    </div>
+  
+
+
+  
+</div>
+
+        </div>
+      </div>
+    
+
+    <div class="site-footer-item footer-bottom">
+      <div class="site-footer-information">
+        <div class="site-footer-left">
+          
+
+          <p class="site-footer-credits">
+            
+            &copy 2024 Music Radio Creative | All rights reserved
+          </p>
+          
+        </div><div class="site-footer-right">
+            
+            <div class="shopify-cross-border">
+              
+
+              
+            </div>
+            
+
+            
+              <ul class="payment-icons">
+                
+                  <li class="payment-icons-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-american_express" viewBox="0 0 38 24" width="38" height="24"><title id="pi-american_express">American Express</title><path fill="#000" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z" opacity=".07"/><path fill="#006FCF" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z"/><path fill="#FFF" d="M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z"/><path fill="#006FCF" d="M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z"/><path fill="#006FCF" d="m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z"/><path fill="#FFF" d="M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z"/><path fill="#006FCF" d="m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z"/><path fill="#006FCF" d="M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z"/></svg>
+
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay"><title id="pi-apple_pay">Apple Pay</title><path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z" /><path fill="#FFF" d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875" /><g><g><path fill="#000" d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858" /><path fill="#000" d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048" /></g><g><path fill="#000" d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z" /><path fill="#000" d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z" /><path fill="#000" d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z" /></g></g></svg>
+
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"/></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"/><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"/><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"/><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"/><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"/><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"/><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"/><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"/><stop offset=".25" stop-color="#F79A20"/><stop offset=".533" stop-color="#F68D20"/><stop offset=".62" stop-color="#F58720"/><stop offset=".723" stop-color="#F48120"/><stop offset="1" stop-color="#F37521"/></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"/><stop offset=".359" stop-color="#E16F27"/><stop offset=".703" stop-color="#D4602C"/><stop offset=".982" stop-color="#D05B2E"/></linearGradient></defs></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-maestro"><title id="pi-maestro">Maestro</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><circle fill="#EB001B" cx="15" cy="12" r="7"/><circle fill="#00A2E5" cx="23" cy="12" r="7"/><path fill="#7375CF" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"/></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><circle fill="#EB001B" cx="15" cy="12" r="7"/><circle fill="#F79E1B" cx="23" cy="12" r="7"/><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"/></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"/><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"/><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"/></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"/><path d="M35.889 0C37.05 0 38 .982 38 2.182v19.636c0 1.2-.95 2.182-2.111 2.182H2.11C.95 24 0 23.018 0 21.818V2.182C0 .982.95 0 2.111 0H35.89z" fill="#5A31F4"/><path d="M9.35 11.368c-1.017-.223-1.47-.31-1.47-.705 0-.372.306-.558.92-.558.54 0 .934.238 1.225.704a.079.079 0 00.104.03l1.146-.584a.082.082 0 00.032-.114c-.475-.831-1.353-1.286-2.51-1.286-1.52 0-2.464.755-2.464 1.956 0 1.275 1.15 1.597 2.17 1.82 1.02.222 1.474.31 1.474.705 0 .396-.332.582-.993.582-.612 0-1.065-.282-1.34-.83a.08.08 0 00-.107-.035l-1.143.57a.083.083 0 00-.036.111c.454.92 1.384 1.437 2.627 1.437 1.583 0 2.539-.742 2.539-1.98s-1.155-1.598-2.173-1.82v-.003zM15.49 8.855c-.65 0-1.224.232-1.636.646a.04.04 0 01-.069-.03v-2.64a.08.08 0 00-.08-.081H12.27a.08.08 0 00-.08.082v8.194a.08.08 0 00.08.082h1.433a.08.08 0 00.081-.082v-3.594c0-.695.528-1.227 1.239-1.227.71 0 1.226.521 1.226 1.227v3.594a.08.08 0 00.081.082h1.433a.08.08 0 00.081-.082v-3.594c0-1.51-.981-2.577-2.355-2.577zM20.753 8.62c-.778 0-1.507.24-2.03.588a.082.082 0 00-.027.109l.632 1.088a.08.08 0 00.11.03 2.5 2.5 0 011.318-.366c1.25 0 2.17.891 2.17 2.068 0 1.003-.736 1.745-1.669 1.745-.76 0-1.288-.446-1.288-1.077 0-.361.152-.657.548-.866a.08.08 0 00.032-.113l-.596-1.018a.08.08 0 00-.098-.035c-.799.299-1.359 1.018-1.359 1.984 0 1.46 1.152 2.55 2.76 2.55 1.877 0 3.227-1.313 3.227-3.195 0-2.018-1.57-3.492-3.73-3.492zM28.675 8.843c-.724 0-1.373.27-1.845.746-.026.027-.069.007-.069-.029v-.572a.08.08 0 00-.08-.082h-1.397a.08.08 0 00-.08.082v8.182a.08.08 0 00.08.081h1.433a.08.08 0 00.081-.081v-2.683c0-.036.043-.054.069-.03a2.6 2.6 0 001.808.7c1.682 0 2.993-1.373 2.993-3.157s-1.313-3.157-2.993-3.157zm-.271 4.929c-.956 0-1.681-.768-1.681-1.783s.723-1.783 1.681-1.783c.958 0 1.68.755 1.68 1.783 0 1.027-.713 1.783-1.681 1.783h.001z" fill="#fff"/></svg>
+
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="-36 25 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-unionpay"><title id="pi-unionpay">Union Pay</title><path fill="#005B9A" d="M-36 46.8v.7-.7zM-18.3 25v24h-7.2c-1.3 0-2.1-1-1.8-2.3l4.4-19.4c.3-1.3 1.9-2.3 3.2-2.3h1.4zm12.6 0c-1.3 0-2.9 1-3.2 2.3l-4.5 19.4c-.3 1.3.5 2.3 1.8 2.3h-4.9V25h10.8z"/><path fill="#E9292D" d="M-19.7 25c-1.3 0-2.9 1.1-3.2 2.3l-4.4 19.4c-.3 1.3.5 2.3 1.8 2.3h-8.9c-.8 0-1.5-.6-1.5-1.4v-21c0-.8.7-1.6 1.5-1.6h14.7z"/><path fill="#0E73B9" d="M-5.7 25c-1.3 0-2.9 1.1-3.2 2.3l-4.4 19.4c-.3 1.3.5 2.3 1.8 2.3H-26h.5c-1.3 0-2.1-1-1.8-2.3l4.4-19.4c.3-1.3 1.9-2.3 3.2-2.3h14z"/><path fill="#059DA4" d="M2 26.6v21c0 .8-.6 1.4-1.5 1.4h-12.1c-1.3 0-2.1-1.1-1.8-2.3l4.5-19.4C-8.6 26-7 25-5.7 25H.5c.9 0 1.5.7 1.5 1.6z"/><path fill="#fff" d="M-21.122 38.645h.14c.14 0 .28-.07.28-.14l.42-.63h1.19l-.21.35h1.4l-.21.63h-1.68c-.21.28-.42.42-.7.42h-.84l.21-.63m-.21.91h3.01l-.21.7h-1.19l-.21.7h1.19l-.21.7h-1.19l-.28 1.05c-.07.14 0 .28.28.21h.98l-.21.7h-1.89c-.35 0-.49-.21-.35-.63l.35-1.33h-.77l.21-.7h.77l.21-.7h-.7l.21-.7zm4.83-1.75v.42s.56-.42 1.12-.42h1.96l-.77 2.66c-.07.28-.35.49-.77.49h-2.24l-.49 1.89c0 .07 0 .14.14.14h.42l-.14.56h-1.12c-.42 0-.56-.14-.49-.35l1.47-5.39h.91zm1.68.77h-1.75l-.21.7s.28-.21.77-.21h1.05l.14-.49zm-.63 1.68c.14 0 .21 0 .21-.14l.14-.35h-1.75l-.14.56 1.54-.07zm-1.19.84h.98v.42h.28c.14 0 .21-.07.21-.14l.07-.28h.84l-.14.49c-.07.35-.35.49-.77.56h-.56v.77c0 .14.07.21.35.21h.49l-.14.56h-1.19c-.35 0-.49-.14-.49-.49l.07-2.1zm4.2-2.45l.21-.84h1.19l-.07.28s.56-.28 1.05-.28h1.47l-.21.84h-.21l-1.12 3.85h.21l-.21.77h-.21l-.07.35h-1.19l.07-.35h-2.17l.21-.77h.21l1.12-3.85h-.28m1.26 0l-.28 1.05s.49-.21.91-.28c.07-.35.21-.77.21-.77h-.84zm-.49 1.54l-.28 1.12s.56-.28.98-.28c.14-.42.21-.77.21-.77l-.91-.07zm.21 2.31l.21-.77h-.84l-.21.77h.84zm2.87-4.69h1.12l.07.42c0 .07.07.14.21.14h.21l-.21.7h-.77c-.28 0-.49-.07-.49-.35l-.14-.91zm-.35 1.47h3.57l-.21.77h-1.19l-.21.7h1.12l-.21.77h-1.26l-.28.42h.63l.14.84c0 .07.07.14.21.14h.21l-.21.7h-.7c-.35 0-.56-.07-.56-.35l-.14-.77-.56.84c-.14.21-.35.35-.63.35h-1.05l.21-.7h.35c.14 0 .21-.07.35-.21l.84-1.26h-1.05l.21-.77h1.19l.21-.7h-1.19l.21-.77zm-19.74-5.04c-.14.7-.42 1.19-.91 1.54-.49.35-1.12.56-1.89.56-.7 0-1.26-.21-1.54-.56-.21-.28-.35-.56-.35-.98 0-.14 0-.35.07-.56l.84-3.92h1.19l-.77 3.92v.28c0 .21.07.35.14.49.14.21.35.28.7.28s.7-.07.91-.28c.21-.21.42-.42.49-.77l.77-3.92h1.19l-.84 3.92m1.12-1.54h.84l-.07.49.14-.14c.28-.28.63-.42 1.05-.42.35 0 .63.14.77.35.14.21.21.49.14.91l-.49 2.38h-.91l.42-2.17c.07-.28.07-.49 0-.56-.07-.14-.21-.14-.35-.14-.21 0-.42.07-.56.21-.14.14-.28.35-.28.63l-.42 2.03h-.91l.63-3.57m9.8 0h.84l-.07.49.14-.14c.28-.28.63-.42 1.05-.42.35 0 .63.14.77.35s.21.49.14.91l-.49 2.38h-.91l.42-2.24c.07-.21 0-.42-.07-.49-.07-.14-.21-.14-.35-.14-.21 0-.42.07-.56.21-.14.14-.28.35-.28.63l-.42 2.03h-.91l.7-3.57m-5.81 0h.98l-.77 3.5h-.98l.77-3.5m.35-1.33h.98l-.21.84h-.98l.21-.84zm1.4 4.55c-.21-.21-.35-.56-.35-.98v-.21c0-.07 0-.21.07-.28.14-.56.35-1.05.7-1.33.35-.35.84-.49 1.33-.49.42 0 .77.14 1.05.35.21.21.35.56.35.98v.21c0 .07 0 .21-.07.28-.14.56-.35.98-.7 1.33-.35.35-.84.49-1.33.49-.35 0-.7-.14-1.05-.35m1.89-.7c.14-.21.28-.49.35-.84v-.35c0-.21-.07-.35-.14-.49a.635.635 0 0 0-.49-.21c-.28 0-.49.07-.63.28-.14.21-.28.49-.35.84v.28c0 .21.07.35.14.49.14.14.28.21.49.21.28.07.42 0 .63-.21m6.51-4.69h2.52c.49 0 .84.14 1.12.35.28.21.35.56.35.91v.28c0 .07 0 .21-.07.28-.07.49-.35.98-.7 1.26-.42.35-.84.49-1.4.49h-1.4l-.42 2.03h-1.19l1.19-5.6m.56 2.59h1.12c.28 0 .49-.07.7-.21.14-.14.28-.35.35-.63v-.28c0-.21-.07-.35-.21-.42-.14-.07-.35-.14-.7-.14h-.91l-.35 1.68zm8.68 3.71c-.35.77-.7 1.26-.91 1.47-.21.21-.63.7-1.61.7l.07-.63c.84-.28 1.26-1.4 1.54-1.96l-.28-3.78h1.19l.07 2.38.91-2.31h1.05l-2.03 4.13m-2.94-3.85l-.42.28c-.42-.35-.84-.56-1.54-.21-.98.49-1.89 4.13.91 2.94l.14.21h1.12l.7-3.29-.91.07m-.56 1.82c-.21.56-.56.84-.91.77-.28-.14-.35-.63-.21-1.19.21-.56.56-.84.91-.77.28.14.35.63.21 1.19"/></svg>
+                  </li>
+                
+                  <li class="payment-icons-item">
+                    <svg viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"/><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"/><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"/></svg>
+                  </li>
+                
+              </ul>
+            
+          </div></div>
+    </div>
+  </section>
+</footer>
+
+
+</div>
+
+    
+    <div style="display: none;" aria-hidden="true" data-templates>
+      
+      <div
+        class="message-banner--container"
+        role="alert"
+        data-message-banner
+      >
+        <div class="message-banner--outer">
+          <div class="message-banner--inner" data-message-banner-content></div>
+
+          <button
+            class="message-banner--close"
+            type="button"
+            aria-label="Close"
+            data-message-banner-close
+          ><svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="13"
+  height="13"
+  viewBox="0 0 13 13"
+>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.306 6.5L0 1.194 1.194 0 6.5 5.306 11.806 0 13 1.194 7.694 6.5 13 11.806 11.806 13 6.5 7.694 1.194 13 0 11.806 5.306 6.5z"/>
+</svg></button>
+        </div>
+      </div>
+      
+
+      
+      <section class="atc-banner--container" role="log" data-atc-banner>
+        <div class="atc-banner--outer">
+          <div class="atc-banner--inner">
+            <div class="atc-banner--product">
+              <h2 class="atc-banner--product-title">
+                <span class="atc-banner--product-title--icon">
+                  
+
+
+                <svg class="icon-checkmark "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" width="18"  height="13" viewBox="0 0 18 13" xmlns="http://www.w3.org/2000/svg">      <path fill="currentColor" fill-rule="evenodd" d="M6.23 9.1L2.078 5.2 0 7.15 6.23 13 18 1.95 15.923 0z" />    </svg>                                                                                                    
+
+                </span>
+                Added to your cart:
+              </h2>
+
+              <div class="atc--product">
+                <div class="atc--product-image" data-atc-banner-product-image>
+                  <svg class="placeholder--image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.5 525.5"><path d="M324.5 212.7H203c-1.6 0-2.8 1.3-2.8 2.8V308c0 1.6 1.3 2.8 2.8 2.8h121.6c1.6 0 2.8-1.3 2.8-2.8v-92.5c0-1.6-1.3-2.8-2.9-2.8zm1.1 95.3c0 .6-.5 1.1-1.1 1.1H203c-.6 0-1.1-.5-1.1-1.1v-92.5c0-.6.5-1.1 1.1-1.1h121.6c.6 0 1.1.5 1.1 1.1V308z"/><path d="M210.4 299.5H240v.1s.1 0 .2-.1h75.2v-76.2h-105v76.2zm1.8-7.2l20-20c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l1.5 1.5 16.8 16.8c-12.9 3.3-20.7 6.3-22.8 7.2h-27.7v-5.5zm101.5-10.1c-20.1 1.7-36.7 4.8-49.1 7.9l-16.9-16.9 26.3-26.3c1.6-1.6 3.8-2.5 6.1-2.5s4.5.9 6.1 2.5l27.5 27.5v7.8zm-68.9 15.5c9.7-3.5 33.9-10.9 68.9-13.8v13.8h-68.9zm68.9-72.7v46.8l-26.2-26.2c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-26.3 26.3-.9-.9c-1.9-1.9-4.5-3-7.3-3s-5.4 1.1-7.3 3l-18.8 18.8V225h101.4z"/><path d="M232.8 254c4.6 0 8.3-3.7 8.3-8.3s-3.7-8.3-8.3-8.3-8.3 3.7-8.3 8.3 3.7 8.3 8.3 8.3zm0-14.9c3.6 0 6.6 2.9 6.6 6.6s-2.9 6.6-6.6 6.6-6.6-2.9-6.6-6.6 3-6.6 6.6-6.6z"/></svg>
+                </div>
+                <div class="atc--product-details">
+                  <h2 class="atc--product-details--title" data-atc-banner-product-title></h2>
+                  <span class="atc--product-details--options" data-atc-banner-product-options></span>
+                  <span class="atc--product-details--price">
+                    <span class="atc--product-details--price-quantity" data-atc-banner-product-price-quantity></span>
+                    <span class="atc--product-details--price-value money" data-atc-banner-product-price-value></span>
+                    <span
+                      class="atc--product-details--price-discounted money"
+                      data-atc-banner-product-price-discounted
+                    ></span>
+                    <span class="atc--product-details--unit-price hidden" data-atc-banner-unit-price>
+                      ** total_quantity ** | ** unit_price ** / ** unit_measure **
+                    </span>
+                  </span>
+                  <ul class="discount-list" data-atc-banner-product-discounts>
+                    <li class="discount-list-item">
+                      
+
+
+                                                                        <svg class="icon-sale-tag "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350" fill="none">      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M0 197.826C0 192.95 1.93821 188.275 5.38762 184.83L179.459 10.7587C186.348 3.86966 195.692 -0.000356971 205.435 2.46966e-08H334.782C343.187 2.46966e-08 350 6.81304 350 15.2173V144.565C350 154.308 346.13 163.651 339.241 170.541L165.17 344.612C161.725 348.061 157.049 350 152.174 350C147.299 350 142.624 348.061 139.179 344.612L5.38762 210.821C1.93821 207.376 0 202.701 0 197.826ZM304.348 68.4786C304.348 81.085 294.128 91.3046 281.521 91.3046C268.915 91.3046 258.695 81.085 258.695 68.4786C258.695 55.8721 268.915 45.6525 281.521 45.6525C294.128 45.6525 304.348 55.8721 304.348 68.4786Z" fill="currentColor"/>    </svg>                                            
+
+                      <span class="discount-title"></span>
+                      (-<span class="money discount-amount"></span>)
+                    </li>
+                  </ul>
+                  <span class="atc--line-item-subscriptions" data-atc-banner-product-subscription-title></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="atc-banner--cart">
+              <div class="atc-banner--cart-subtotal">
+                <span class="atc-subtotal--label">
+                  Cart subtotal
+                </span>
+                <span class="atc-subtotal--price money" data-atc-banner-cart-subtotal></span>
+              </div>
+
+              <footer class="atc-banner--cart-footer">
+                <a
+                  class="button-secondary atc-button--viewcart"
+                  href="/cart"
+                  data-atc-banner-cart-button
+                >
+                  View cart (<span></span>)
+                </a>
+                <form
+                  action="/cart"
+                  method="post"
+                  aria-label="cart checkout"
+                >
+                  <button class="button-primary atc-button--checkout" type="submit" name="checkout">
+                    
+                    <span>Checkout</span>
+                  </button>
+                </form>
+              </footer>
+            </div>
+          </div>
+
+          <button
+            class="atc-banner--close"
+            type="button"
+            aria-label="Close"
+            data-atc-banner-close
+          ><svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="13"
+  height="13"
+  viewBox="0 0 13 13"
+>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.306 6.5L0 1.194 1.194 0 6.5 5.306 11.806 0 13 1.194 7.694 6.5 13 11.806 11.806 13 6.5 7.694 1.194 13 0 11.806 5.306 6.5z"/>
+</svg></button>
+        </div>
+      </section>
+      
+    </div>
+
+    
+    
+    <div class="modal" data-modal-container aria-label="modal window" data-trap-focus>
+      <div class="modal-inner" data-modal-inner>
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close"
+          data-modal-close
+        >
+          <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="13"
+  height="13"
+  viewBox="0 0 13 13"
+>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.306 6.5L0 1.194 1.194 0 6.5 5.306 11.806 0 13 1.194 7.694 6.5 13 11.806 11.806 13 6.5 7.694 1.194 13 0 11.806 5.306 6.5z"/>
+</svg>
+        </button>
+        <div class="modal-content" data-modal-content></div>
+      </div>
+    </div>
+
+    <div class="modal-1" data-modal-container-1 aria-label="modal window">
+      <div class="modal-inner" data-modal-inner>
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close"
+          data-modal-1-close
+        >
+          <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  xmlns="http://www.w3.org/2000/svg"
+  width="13"
+  height="13"
+  viewBox="0 0 13 13"
+>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.306 6.5L0 1.194 1.194 0 6.5 5.306 11.806 0 13 1.194 7.694 6.5 13 11.806 11.806 13 6.5 7.694 1.194 13 0 11.806 5.306 6.5z"/>
+</svg>
+        </button>
+        <div class="modal-content" data-modal-content></div>
+      </div>
+    </div>
+    
+
+    
+    
+    
+    <div
+      class="pswp"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+      aria-label="Product zoom dialog"
+      data-photoswipe
+    >
+      
+      <div class="pswp__bg"></div>
+
+      
+      <div class="pswp__scroll-wrap">
+        
+        <div class="pswp__container" aria-hidden="true">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close">
+              <span tabindex="-1">
+                
+
+
+              <svg class="icon-close "    aria-hidden="true"    focusable="false"    role="presentation"    xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">      <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/>      <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/>    </svg>                                                                                                      
+
+              </span>
+            </button>
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+            
+            
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="product-zoom--thumbnails" data-photoswipe-thumbs>
+        <button
+          class="gallery-navigation--scroll-button scroll-left"
+          aria-label="Scroll thumbnails left"
+          data-gallery-scroll-button
+        >
+          <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="14"
+  height="8"
+  viewBox="0 0 14 8"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="icon-chevron-down-left" d="M7 6.75L12.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+  <path class="icon-chevron-down-right" d="M7 6.75L1.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+</svg>
+
+        </button>
+        <button
+          class="gallery-navigation--scroll-button scroll-right"
+          aria-label="Scroll thumbnails right"
+          data-gallery-scroll-button
+        >
+          <svg
+  aria-hidden="true"
+  focusable="false"
+  role="presentation"
+  width="14"
+  height="8"
+  viewBox="0 0 14 8"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path class="icon-chevron-down-left" d="M7 6.75L12.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+  <path class="icon-chevron-down-right" d="M7 6.75L1.5 1.25" stroke="currentColor" stroke-width="1.75" stroke-linecap="square"/>
+</svg>
+
+        </button>
+        <div class="product-zoom--thumb-scroller" data-photoswipe-thumb-scroller></div>
+      </div>
+    </div>
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+
+    <script
+      src="//musicradiocreative.com/cdn/shop/t/83/assets/empire.js?v=167172895958372245311695382801"
+      data-scripts
+      data-shopify-api-url="//musicradiocreative.com/cdn/shopifycloud/shopify/assets/themes_support/api.jquery-b0af070cfe3f5cf7c92f9e2a5da2665ee07ed2aad63bb408f8d6672f894a5996.js"
+      data-shopify-countries="/services/javascripts/countries.js"
+      data-shopify-common="//musicradiocreative.com/cdn/shopifycloud/shopify/assets/themes_support/shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.js"
+      data-shopify-cart="//musicradiocreative.com/cdn/shop/t/83/assets/jquery.cart.js?45936"
+      data-pxu-polyfills="//musicradiocreative.com/cdn/shop/t/83/assets/polyfills.min.js?v=56456865783534203841695382801"
+    ></script>
+
+    
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "/pages/privacy-policy",
+              "name": "Privacy Policy"
+            }
+          }
+        
+      ]
+    }
+  </script>
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Music Radio Creative",
+    "url": "https://musicradiocreative.com"
+  }
+</script>
+
+
+    <script>
+      (function () {
+        function handleFirstTab(e) {
+          if (e.keyCode === 9) { // the "I am a keyboard user" key
+            document.body.classList.add('user-is-tabbing');
+            window.removeEventListener('keydown', handleFirstTab);
+          }
+        }
+        window.addEventListener('keydown', handleFirstTab);
+      })();
+    </script>
+
+    
+
+    <script
+      src="//musicradiocreative.com/cdn/shop/t/83/assets/instantPage.min.js?v=155152858718089142721695382801"
+      type="module"
+      defer
+    ></script>
+    
+    
+<script src="//musicradiocreative.com/cdn/shop/t/83/assets/musicradiocreative.js?v=45358586386340070811695383057" type="text/javascript"></script>
+<script>
+  $(document).ready(function(){
+    let str,emailPattern = /^[a-zA-Z0-9\_\.\-]+@[a-zA-Z0-9\-]+(?:\.[a-zA-Z]+)$/;
+    $('input[name="contact[email]"]').on('input',function(){
+      str = $(this).val();
+      if(emailPattern.test(str)){
+        $('.customError').hide();
+        $('#Subscribe').attr('disabled',false);
+      }else{
+        $('.customError').show();
+        $('#Subscribe').attr('disabled',true);
+      }
+    })
+  })
+</script>
+
+    
+    
+      <link href="//musicradiocreative.com/cdn/shop/t/83/assets/extra-css.css?v=114719661418574233541695382801" rel="stylesheet" type="text/css" media="all" />
+    
+    
+    
+      <link href="//musicradiocreative.com/cdn/shop/t/83/assets/page.css?v=28805766211271474741695382801" rel="stylesheet" type="text/css" media="all" />
+    
+   
+<!-- <style>
+  @media (max-width: 400px){
+    .hero-banner__content p{
+      min-height: 160px !important;
+    }
+  }
+</style> -->
+          <script>
+ setTimeout(() => {
+    document.querySelectorAll('img').forEach((image, index) => {
+        if (!image.alt) image.alt = `Music Radio Creative image--${index}`;
+        if (index > 2) image.loading = 'lazy';
+    }) 
+   if (document.body.hasAttribute('aria-hidden')) document.body.removeAttribute('aria-hidden');
+    document.querySelectorAll('iframe').forEach((iframe, index) => (!iframe.getAttribute('title')) ? iframe.setAttribute("title", `Music Radio Creative iframe video player -${index}`) : '');
+    document.querySelectorAll('a').forEach(anchor => {
+        let hrefParam = anchor.getAttribute('href'),
+            ariaLabelParam = anchor.getAttribute('aria-label'),
+            ignoreHrefParam = ['javascript:void(0)', '#', '', 'javascript:void(0)'];
+        !hrefParam ? (anchor.setAttribute('aria-label', 'button'), anchor.setAttribute('role', 'button'), anchor.href = 'javascript:void(0)') : (ignoreHrefParam.includes(hrefParam) ? (anchor.setAttribute('aria-label', 'button'), anchor.setAttribute('role', 'button')) : anchor.setAttribute('aria-label', `Go to ${hrefParam}`));
+    });
+    (!document.querySelector('meta[charset]')) ? (charset = document.createElement('meta'), charset.setAttribute('charset', 'utf-8'), document.head.prepend(charset)) : ((!document.querySelector('meta[charset]').charset) ? document.querySelector('meta[charset]').setAttribute('charset', 'utf-8') : '');
+    (!document.querySelector('meta[name="description"]')) ? (description = document.createElement('meta'), description.setAttribute('name', 'description'), description.setAttribute('content', 'Shop High Quality Products With Affordable Prices | Music Radio Creative , Ryde United Kingdom'), document.head.prepend(description)) : ((!document.querySelector('meta[name="description"]').content) ? document.querySelector('meta[name="description"]').setAttribute('content', 'Shop High Quality Products With Affordable Prices | Music Radio Creative , Ryde United Kingdom') : '');
+    document.querySelector('meta[name="viewport"]') ? document.querySelector('meta[name="viewport"]').setAttribute("content", "width=device-width,initial-scale=1,user-scalable=1,minimum-scale = 1,maximum-scale = 3") : (viewport = document.createElement("meta"), viewport.setAttribute("name", "viewport"), viewport.setAttribute("content", "width=device-width,initial-scale=1,user-scalable=1,minimum-scale = 1,maximum-scale = 3"), document.head.prepend(viewport));
+    document.querySelectorAll('button').forEach((btn, index) => {
+        const ariaLabel = btn.getAttribute("aria-label");
+        btn.removeAttribute("aria-hidden");
+        if (!ariaLabel) btn.setAttribute('aria-label', `Button ${index}`);
+    });
+    document.querySelectorAll('input').forEach((input, index) => {
+       const ariaLabel = input.getAttribute("aria-label");
+        if (!ariaLabel) input.setAttribute('aria-label', `input ${index}`);
+    });
+    if (!document.querySelector('html').getAttribute('lang')) document.querySelector('html').setAttribute('lang', 'en');
+    let noIindexCount = 0;
+    document.querySelectorAll("meta").forEach(meta => {
+        if (meta.name == "robots" && (meta.content.includes("nofollow") || meta.content.includes("noindex"))) noIindexCount++;
+    });
+    if (noIindexCount == 0) {
+        const metaRobots = document.createElement('meta');
+        metaRobots.name = 'robots';
+        metaRobots.content = 'index,follow';
+        document.head.insertBefore(metaRobots, document.head.firstChild);
+    }
+  }, 2000);
+  var script_loaded=!1;function loadJSscripts(){if(!script_loaded){script_loaded=!0,document.querySelectorAll("iframe.lazy").forEach(t=>{datasrc=t.dataset.src,null!=datasrc&&(t.src=datasrc)});var t=document.getElementsByTagName("script");for(i=0;i<t.length;i++)if(null!==t[i].getAttribute("data-src")&&(t[i].setAttribute("src",t[i].getAttribute("data-src")),delete t[i].dataset.src),"lazyloadscript"==t[i].getAttribute("type")){for(var e=document.createElement("script"),a=0;a<t[i].attributes.length;a++){var n=t[i].attributes[a];e.setAttribute(n.name,n.value)}e.type="text/javascript",e.innerHTML=t[i].innerHTML,t[i].parentNode.removeChild(t[i]),t[i].parentNode.insertBefore(e,t[i])}var r=document.getElementsByTagName("link");for(i=0;i<r.length;i++)null!==r[i].getAttribute("data-href")&&(r[i].setAttribute("href",r[i].getAttribute("data-href")),delete r[i].dataset.href);document.dispatchEvent(new CustomEvent("StartKernelLoading")),setTimeout(function(){document.dispatchEvent(new CustomEvent("asyncLazyLoad"))},400)}}var activityEvents=["mousedown","mousemove","keydown","scroll","touchstart","click","keypress","touchmove"];activityEvents.forEach(function(t){window.addEventListener(t,loadJSscripts,!1)}),window.addEventListener?window.addEventListener("load",function(){},!1):window.attachEvent?window.attachEvent("onload",function(){}):window.onload=(t=>{});
+  var isReplaced=!1;function CedIO_Function(){isReplaced||(window.yett.unblock(),isReplaced=!0)}document.addEventListener("mouseover",CedIO_Function),document.addEventListener("scroll",CedIO_Function),document.addEventListener("touchstart",CedIO_Function),document.addEventListener("mousemove",CedIO_Function);
+</script>
+
+
+          
+
+  </body>
+</html>

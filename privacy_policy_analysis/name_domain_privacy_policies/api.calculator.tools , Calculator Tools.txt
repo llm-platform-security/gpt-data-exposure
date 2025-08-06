@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="color-scheme" content="dark light">
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="author" content="">
+        <meta name="keywords" content="" />
+        <!-- Opengraph -->
+        <meta property="og:site_name" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:locale" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:type" content=" " />
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="Calculator Tools">
+        <meta name="twitter:creator" content="@CalculatorTools">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+        <link id="link-canonical" rel="canonical" href="" />
+                <!-- Favicon -->
+                <link rel="icon" type="image/png" href="https://calculator.tools/static/c1ce3b8b4c59/images/favicon2-32x32.png" />
+                
+                <script src="https://calculator.tools/static/c1ce3b8b4c59/js/calculatortools.all.min.js"></script>
+        
+        <!-- WEB3 JS START -->
+        <script type="text/javascript">
+                var web3_contract_address = '';
+                var windowOnloadCallbacks = [];
+                var documentDomLoadedCallbacks = [];
+                var quickInitCallbacks = [];
+                var web3_callbacks = [];
+                window.addEventListener('load', function () {
+                        //console.log("WINDOW LOAD FIRED");
+                        //main_web3init();
+                });
+                document.addEventListener('DOMContentLoaded', function (event) {
+                        for (let callbackIdx in documentDomLoadedCallbacks) {
+                                if (typeof documentDomLoadedCallbacks[callbackIdx] === 'function') {
+                                        documentDomLoadedCallbacks[callbackIdx]();
+                                }
+                        }
+                });
+        </script>
+        <!-- WEB3 JS END -->
+
+        <!-- include jquery 3.6.1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <!--script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script-->
+
+        <!-- include fontawesome 5.15.3 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+               <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C597JNZTV"></script>
+       <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-1C597JNZTV');
+       </script>
+       
+        <script async="async" src="//securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script>
+                window.googletag = window.googletag || {cmd: []};
+        </script>
+
+        <link rel="stylesheet" href="https://calculator.tools/static/c1ce3b8b4c59/css/tailwind/tailwind.output.css">
+                <link rel="stylesheet" href="https://calculator.tools/static/c1ce3b8b4c59/css/main.tailwind.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- not roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+
+        <script type="text/javascript">
+                
+                var Quick = {};
+                var settings = {"is_dev":0,"cachebreaker":"17108077465266","name":"Calculator Tools","html_canonical":"https:\/\/calculator.tools\/","html_title":"Calculator Tools - Instantly Create Any App, Calculator, Website, Tool or Game using AI and No Code!","meta_description":"Calculator Tools lets you use AI to generate any app, calculator, tool, or anything you want! The AI generates code and your app is instantly with no code, live and online for free, to share with your friends.","meta_author":"Calculator Tools","meta_keywords":"Calculator Tools, calculators, apps, tools, AI, GPT-4, GPT-3, GPT, OpenAI, AI, AI art, artificial intelligence, program, programming, apps, websites, code, open source, Javascript","meta_noindex":true,"og_site_name":"Calculator Tools","og_title":"Calculator Tools - Instantly Create Any App, Calculator, Website, Tool or Game!","og_description":"Calculator Tools - Instantly Create Any App, Calculator, Website, Tool or Game!","og_url":"https:\/\/calculator.tools","og_locale":"en_us","og_image":"https:\/\/calculator.tools\/images\/og-image.png","og_type":"website","favicon_url":"https:\/\/calculator.tools\/images\/favicon.png","url_static":"https:\/\/calculator.tools\/","settings":[],"template_theme":0,"url_fqdn":"calculator.tools","url_domain":"calculator.tools","url_main":"https:\/\/calculator.tools\/","url_admin":"https:\/\/api-admin.calculator.tools\/","url_admin_static":"https:\/\/static-api-admin.calculator.tools\/","url_site":"https:\/\/calculator.tools\/","url_static_rev":"https:\/\/calculator.tools\/static\/c1ce3b8b4c59\/","url_staticsite":"https:\/\/calculator.tools\/","url_api":"https:\/\/api.calculator.tools\/","url_datalocal":"https:\/\/calculator.tools\/","url_dataremote":"dataremotedev.calculator.tools","url_iframe":"https:\/\/calculators.tools\/","facebook":{"main":{"app_id":"389370807930803","enabled":1}},"google":{"analytics":"UA-221514051-1","adsense":{"ad_client":"ca-pub-1165654890397435","ad_slot":"8542949689","search_id":"partner-pub-1165654890397435:8971533286"}},"sharethis":{"publisher":"fe25c252-ea61-4e5b-8f3b-fca2f20fe1d4"},"year":"2024"};
+
+                window.QuickAsyncInit = function() {
+                        //DO SOME AWESOME OVERRIDING FOR DEV...
+                        Quick.config.override('SITE_URL', 'https://calculator.tools/');
+                        Quick.config.override('URL_SITE', 'https://calculator.tools/');
+                        Quick.config.override('API_URL', 'https://api.calculator.tools/');
+                        Quick.config.override('URL_API', 'https://api.calculator.tools/');
+                        Quick.config.override('STATIC_URL', 'https://calculator.tools/static/c1ce3b8b4c59/');
+                        Quick.config.override('URL_STATIC', 'https://calculator.tools/static/c1ce3b8b4c59/');
+                        Quick.init({
+                                API_URL: 'https://api.calculator.tools/',
+                                STATIC_URL: 'https://calculator.tools/static/c1ce3b8b4c59/',
+                                URL_API: 'https://api.calculator.tools/',
+                                URL_STATIC: 'https://calculator.tools/static/c1ce3b8b4c59/',
+                                URL_SITE: 'https://calculator.tools/',
+                                                                APP_ID: 1,
+                                                                SESSION: ''
+                        });
+                        //MyStyle.logger.forceHtml = true;
+                        //document.getElementById('mystyle-logger-div').style.display = 'block';
+                };
+
+                //after the api client has loaded and booted up...
+                window.QuickInitCallback = function () {
+                        //StaticsiteTwitter.init();
+                        //web3Init();
+                        
+                        Staticsite.init();
+                        if (Staticsite.user_id !== null) {
+                                
+                        }
+                        // loop through any quickLoadedCallback
+                        //for (var i = 0; i < window.quickLoadedCallbacks.length; i++) {
+                        //        window.quickLoadedCallbacks[i]();
+                        //}
+                        for (let callbackIdx in quickInitCallbacks) {
+                                if (typeof quickInitCallbacks[callbackIdx] === 'function') {
+                                        quickInitCallbacks[callbackIdx]();
+                                }
+                        }
+
+                };
+
+                (function(d){
+                var js, id = 'calculatortools-jssdk', ref = d.getElementsByTagName('script')[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement('script'); js.id = id; js.async = true;
+                                js.src = "https://calculator.tools/static/c1ce3b8b4c59/js/api.js";
+                                ref.parentNode.insertBefore(js, ref);
+                }(document));
+        </script>		<meta name="robots" content="noindex">
+	</head>
+	<body class="leading-normal tracking-normal bg-white text-black" style="font-family: 'Source Sans Pro', sans-serif;">
+	<!--Nav-->
+	<script>
+    function navbarLogin() {
+        if (Staticsite.user_id == null) {
+            document.getElementById('navAction').classList.remove('hidden');
+            document.getElementById('navAction').classList.remove('lg:hidden');
+            return;    
+        }
+        if (document.getElementById('navbar-login-container')) {
+            document.getElementById('navAction').classList.add('hidden');
+            document.getElementById('navAction').classList.add('lg:hidden');
+
+            //console.log('set color', Staticsite.hexColorFromString(String(Staticsite.user_id)));
+            let color1 = Staticsite.hexColorFromString(String(Staticsite.user_id));
+            let color2 = Staticsite.hexColorFromString(String(Staticsite.user_id * (-1)));
+            let angle = Staticsite.user_id % 180;
+            // make criss-cross gradient, this is only 48x48 so make it tiny, make it 60% opaque
+            let gradient = 'linear-gradient(' + String(angle) + 'deg, ' + color1 + ' 0%, ' + color2 + ' 50%, ' + color1 + ' 100%)';
+            document.getElementById('current-character-link').style.backgroundImage = gradient;
+            document.getElementById('current-character-link').setAttribute('href', 'https://calculator.tools/user/dashboard/');
+            document.getElementById('current-character').classList.remove('hidden');
+
+            // add d-none to navbar-login-container
+            document.getElementById('navbar-login-container').classList.add('hidden');
+            // remove d-none from navbar-logout-container
+            document.getElementById('navbar-logout-container').classList.remove('hidden');
+            // remove d-none from navbar-user-prompt-container
+            document.getElementById('navbar-user-prompt-container').classList.remove('hidden');
+        }
+    }
+    quickInitCallbacks.push(
+        function() {
+            if (document.getElementById('navbar-login-container')) {
+                navbarLogin();
+            } else {
+                // dom loaded listen
+                document.addEventListener("DOMContentLoaded", function(event) {
+                    navbarLogin();
+                });
+            }
+        }
+    );
+    
+</script>
+
+<!--Nav-->
+<nav id="header" class="fixed w-full z-30 top-0 text-white">
+
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+            <a href="https://calculator.tools/" alt="Calculator Tools" title="Calculator Tools" class="toggleColour text-white no-underline hover:no-underline font-bold flex flex-wrap" href="#">
+                <img id="logo-image" class="logo-image" src="https://calculator.tools/static/c1ce3b8b4c59/images/logo2.svg" alt="" title="">
+                <h1 class="lg:text-5xl md:text-4xl sm:text-2xl text-2xl navbar-title text-black pt-2">
+                    Calculator Tools
+                </h1>
+            </a>
+        </div>
+
+        <div class="block pr-4 flex flex-wrap">
+            <a id="navAction" href="https://calculator.tools/user/login/" class="btn gradient hidden mx-auto lg:mx-0 hover:underline bg-white text-white font-bold rounded-full lg:mt-0 py-2 px-2 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out text-center w-2/3"
+                aria-current="page">
+                Login
+            </a>
+            <div id="current-character" class="hidden aspect-square text-center items-center text-white w-1/2 flex flex-wrap">
+                <!-- float the text in the vertical center -->
+                <a id="current-character-link" class="btn aspect-square rounded-full w-full flex flex-wrap justify-center items-center text-center text-white text-shadow cursor-pointer">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+            <button id="nav-toggle"
+                class="aspect-square items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out inline w-1/3">
+                <svg class="h-6 w-8" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow hidden mt-2 bg-white text-black p-4 z-20" id="nav-content">
+
+            <ul class="flex flex-wrap list-reset pl-0 mb-0 me-auto mb-2 lg:mb-0 flex flex-wrap ">
+
+                <li class="w-full lg:w-1/4 pr-4 pl-4 text-center">
+                    <a href="https://calculator.tools/create/">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline gradient-snowcone text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                            aria-current="page">
+                            Create
+                            <!-- wand icon -->
+                            <i class="fas fa-magic"></i>
+                        </button>
+                        <br>
+                        Make your own app, no coding required.
+                    </a>
+                </li>
+                <li class="w-full lg:w-1/4 pr-4 pl-4 text-center">
+                    <a href="https://calculator.tools/tag/">
+                        <button
+                            class="bg-blue-600 text-white hover:bg-blue-600 w-full mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                            aria-current="page" href="https://calculator.tools/tag/">
+                            Search
+                        </button>
+                        <br>
+                        Browse apps created by others.
+                    </a>
+                </li>
+
+                <li class="w-full lg:w-1/4 pr-4 pl-4 text-center">
+                    <a id="navbar-user-prompt-container" href="https://calculator.tools/user/dashboard/"
+                        class="login-button hidden">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline bg-gray-900 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out btn-dark"
+                            aria-current="page" href="https://calculator.tools/user/dashboard/">
+                            Dashboard
+                        </button>
+                        View and manage your apps.
+                    </a>
+
+                    <a id="navbar-user-prompt-container" href="https://calculator.tools/upgrade/">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline bg-gray-900 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out btn-dark"
+                            aria-current="page" href="https://calculator.tools/upgrade/">
+                            Upgrade
+                            <i class="fas fa-crown"></i>
+                        </button>
+                        Upgrade your account.
+                    </a>
+                </li>
+                <li class="w-full lg:w-1/4 pr-4 pl-4 text-center">
+                    <a id="navbar-login-container" href="https://calculator.tools/user/login/" class="login-button text-center">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out gradient"
+                            aria-current="page" href="https://calculator.tools/user/login/">
+                            Login
+                        </button>
+                        <span class="block">Save and edit your apps.</span>
+                    </a>
+                    <a id="navbar-login-container" href="https://calculator.tools/user/settings/" class="login-button text-center">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline bg-gray-900 text-white font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                            aria-current="page" href="https://calculator.tools/user/settings/">
+                            Settings
+                        </button>
+                        <span class="block">View and manage your user settings.</span>
+                    </a>
+                    <a id="navbar-logout-container" href="https://calculator.tools/user/logout/"
+                        class="hidden logout-button text-center">
+                        <button
+                            class="w-full mx-auto lg:mx-0 hover:underline text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out btn-secondary"
+                            aria-current="page" href="https://calculator.tools/user/logout/">
+                            Logout
+                        </button>
+                        <span class="block">Logout from this website.</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+	<div class="mt-16 flex flex-wrap justify-center bg-white text-black py-3 px-3">
+
+		<div id="main-content" class="container flex flex-wrap">
+
+			<h2 class="text-4xl w-full">
+				<a href="https://calculator.tools/privacy-policy" class="text-gray-700">
+					Privacy Policy
+				</a>
+			</h2>
+			
+			<div class="p-6 mt-6 bg-gray-200 rounded-md" id="main-jumbotron">
+				<p class="text-lg leading-6" id="lead-text">
+					This is our Privacy Policy for Calculator Tools. We respect your privacy and take it seriously.
+					<p id="lead" />
+				</p>
+			</div>
+
+			<div class="row">
+				<h2>Privacy Policy</h2>
+				<h3>Website Visitors</h3>
+				Like most website operators, Calculator Tools collects non-personally-identifying information of the sort that
+				web browsers and servers typically make available, such as the browser type, language preference,
+				referring site, and the date and time of each visitor request. Calculator Tools’s purpose in collecting
+				non-personally identifying information is to better understand how Calculator Tools’s visitors use its
+				website. From time to time, Calculator Tools may release non-personally-identifying information in the
+				aggregate, e.g., by publishing a report on trends in the usage of its website.
+				Calculator Tools also collects potentially personally-identifying information like Internet Protocol (IP)
+				addresses. Calculator Tools does not use such information to identify its visitors, however, and does not
+				disclose such information, other than under the same circumstances that it uses and discloses
+				personally-identifying information, as described below.
+
+				<h3>Gathering of Personally-Identifying Information</h3>
+				Certain visitors to Calculator Tools’s websites choose to interact with Calculator Tools in ways that require Calculator Tools to gather personally-identifying information. The amount and type of information that Calculator Tools
+				gathers depends on the nature of the interaction. For example, we ask visitors who use our design
+				application to provide a username and email address. In each case, Calculator Tools collects such information
+				only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Calculator Tools. Calculator Tools does not disclose personally-identifying information other than as described below.
+				And visitors can always refuse to supply personally-identifying information, with the caveat that it may
+				prevent them from engaging in certain website-related activities.
+
+				<h3>Aggregated Statistics</h3>
+				Calculator Tools may collect statistics about the behavior of visitors to its websites. For instance, Calculator Tools may reveal how many visitors a particular version of the design application got, or say which
+				features are most popular. However, Calculator Tools does not disclose personally-identifying information
+				other than as described below.
+
+				<h3>Protection of Certain Personally-Identifying Information</h3>
+				Calculator Tools discloses potentially personally-identifying and personally-identifying information only to
+				those of its employees, contractors, and affiliated organizations that (i) need to know that information
+				in order to process it on Calculator Tools’s behalf or to provide services available at Calculator Tools’s websites,
+				and (ii) that have agreed not to disclose it to others. Some of those employees, contractors and
+				affiliated organizations may be located outside of your home country; by using Calculator Tools’s websites,
+				you consent to the transfer of such information to them. Calculator Tools will not rent or sell potentially
+				personally-identifying and personally-identifying information to anyone. Other than to its employees,
+				contractors, and affiliated organizations, as described above, Calculator Tools discloses potentially
+				personally-identifying and personally-identifying information only when required to do so by law, or
+				when Calculator Tools believes in good faith that disclosure is reasonably necessary to protect the property
+				or rights of Calculator Tools, third parties, or the public at large. If you are a registered user of a Calculator Tools website and have supplied your email address, Calculator Tools may occasionally send you an email to
+				tell you about new features, solicit your feedback, or just keep you up to date with what’s going on
+				with Calculator Tools and our products. We primarily use our blog to communicate this type of information, so
+				we expect to keep this type of email to a minimum. If you send us a request (for example via a support
+				email or via one of our feedback mechanisms), we reserve the right to publish it in order to help us
+				clarify or respond to your request or to help us support other users. Calculator Tools takes all measures
+				reasonably necessary to protect against the unauthorized access, use, alteration, or destruction of
+				potentially personally-identifying and personally-identifying information.
+
+				<h3>Cookies</h3>
+				A cookie is a string of information that a website stores on a visitor’s computer, and that the
+				visitor’s browser provides to the website each time the visitor returns. Calculator Tools uses cookies to help
+				Calculator Tools identify and track visitors, their usage of Calculator Tools website, and their website access
+				preferences. Calculator Tools visitors who do not wish to have cookies placed on their computers should set
+				their browsers to refuse cookies before using Calculator Tools’s websites, with the drawback that certain
+				features of Calculator Tools’s websites may not function properly without the aid of cookies.
+
+				<h3>Data Deletion</h3>
+				Calculator Tools does not store any unnecessary data. On occasion some users may want to delete their data
+				stored with Calculator Tools. Users are able to request data deletion using the contact email address or
+				contact forms for Calculator Tools available at the bottom of the website or contact us via social media.
+
+				<h3>Privacy Policy Changes</h3>
+				Although most changes are likely to be minor, Calculator Tools may change its Privacy Policy from time to
+				time, and in the sole and clear discrection of Calculator Tools. Calculator Tools encourages visitors to frequently
+				check this page for any changes to its Privacy Policy. Your continued use of this site after any change
+				in this Privacy Policy will constitute your acceptance of such change.
+				<div class="clear" style="clear: both; display: block;">&nbsp;</div>
+			</div>
+		
+		</div>
+		            
+                <!-- SVG -->
+                <div class="relative">
+                    <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <path
+                                    d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
+                                    opacity="0.100000001"></path>
+                                <path
+                                    d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                                    opacity="0.100000001"></path>
+                                <path
+                                    d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
+                                    id="Path-4" opacity="0.200000003"></path>
+                            </g>
+                            <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <path
+                                    d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            
+                
+                <div class="footer-container bg-white text-black py-3 flex flex-wrap justify-center">
+                    <div class="container flex flex-wrap">
+                        <div class="lg:w-1/2 flex flex-wrap px-3">
+                            <a href="https://calculator.tools/" class="footer-title w-full">
+                                <h1 class="title-dark text-2xl w-full">
+                                    <!-- emoji logo for the site -->
+                                    <img id="logo-image" class="logo-image" src="https://calculator.tools/static/c1ce3b8b4c59/images/logo2.svg" class="navbar-title-image" alt="" title="" style="margin:-4px;">
+                                    Calculator Tools
+                                </h1>
+                            </a>
+                            <div>
+                                <p class="footer-title-text">
+                                    Use AI to create any app, tool, calculator, game or website you can imagine!
+                                    <br><br>
+                                    Tell the AI what you want your app to do, and it will instantly create it for you for free. Make powerful, simple applications, tools, calculators, trackers, games, and so much more.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="lg:w-1/2 px-3 text-center">
+                            <h1 class="title-dark text-2xl w-full">
+                                Want Better Apps? &nbsp; <i class="fas fa-arrow-down"></i><i class="fas fa-robot"></i>
+                            </h1>
+                            <div class="flex flex-wrap">
+                                <p class="w-full">
+                                    <a href="https://calculator.tools/upgrade/" class="w-full">
+                                        Upgrade to Pro to get access to more features, saved ads, and more powerful AI like GPT-4, GPT-4 Vision (GPT-4V), Whisper (Text-to-Speech), and more.
+                                        <button  class="btn btn-lg text-2xl btn-gradient-snowcone gradient-snowcone rounded py-2 w-full mt-2 mb-2">
+                                            <i class="fas fa-crown"></i>
+                                            Upgrade
+                                        </button>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <footer class="py-8 bg-white text-black px-3 w-full">
+                    <div class="container mx-auto px-4">
+                        <div class="flex flex-wrap">
+                            <div class="w-full lg:w-1/4 px-3">
+                                <h5 class="font-bold mb-4 title-dark">Pages</h5>
+                                <ul class="space-y-2">
+                                    <li><a href="https://calculator.tools/" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                                    <li><a href="https://calculator.tools/create/" class="text-gray-700 hover:text-blue-600">Create</a></li>
+                                    <li><a href="https://calculator.tools/tag/" class="text-gray-700 hover:text-blue-600">Browse</a></li>
+                                    <li><a href="https://calculator.tools/tools/gpt-4-token-calculator/" class="text-gray-700 hover:text-blue-600">GPT-4 Token Calculator</a></li>
+                                </ul>
+                                <h5 class="font-bold mb-4 title-dark">ChatGPT GPT Links</h5>
+                                <ul class="space-y-2">
+                                    <li><a href="https://calculator.tools/chatgpt/" class="text-gray-700 hover:text-blue-600">Calculator Tools ChatGPT</a>
+                                    <li><a href="https://calculator.tools/chatgpt/session/" class="text-gray-700 hover:text-blue-600">Calculator Tools ChatGPT Login Code</a>
+                                    <li><a href="https://chat.openai.com/g/g-8lo9FgAHL-automatic-programming-by-calculator-tools" class="text-gray-700 hover:text-blue-600">ChatGPT Automatic Programming (New!)</a>
+                                    <li><a href="https://chat.openai.com/g/g-fOObJOljM-automatic-grading-by-calculator-tools" class="text-gray-700 hover:text-blue-600">ChatGPT Automatic Grading (New!)</a>
+                                    <li><a href="https://calculator.tools/chatgpt-plugin/" class="text-gray-700 hover:text-blue-600">ChatGPT Plugin (Old)</a></li>
+                                </ul>
+                            </div>
+                
+                            <div class="w-full lg:w-1/4 px-3">
+                                <h5 class="font-bold mb-4 title-dark">Links</h5>
+                                <ul class="space-y-2">
+                                    <li><a href="https://twitter.com/CalculatorTools" class="text-gray-700 hover:text-blue-600" rel="nofollow">Twitter</a></li>
+                                    <li><a href="https://docs.google.com/forms/d/1Q8YpKfWM_p48vNY_kVhy9z3RYYbdbb1JUCkEx_Bi7a8" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+                                    <li><a href="https://calculator.tools/friends/" class="text-gray-700 hover:text-blue-600">Friends & Sponsors</a></li>
+                                </ul>
+                                <h5 class="font-bold mb-4 title-dark">Create</h5>
+                                <ul class="space-y-2">
+                                    <li><a href="https://calculator.tools/create/image-to-app/" class="text-gray-700 hover:text-blue-600">Image to App</a></li>
+                                    <li><a href="https://calculator.tools/create/screenshot-to-app/" class="text-gray-700 hover:text-blue-600">Screenshot to App</a></li>
+                                </ul>
+                            </div>
+                
+                            <div class="w-full lg:w-1/4 px-3">
+                                <h5 class="font-bold mb-4 title-dark">Legal</h5>
+                                <ul class="space-y-2">
+                                    <li><a href="https://calculator.tools/privacy-policy/" class="text-gray-700 hover:text-blue-600">Privacy Policy</a></li>
+                                    <li><a href="https://calculator.tools/terms-of-service/" class="text-gray-700 hover:text-blue-600">Terms of Service</a></li>
+                                </ul>
+                            </div>
+                
+                            <div class="text-center w-full lg:w-1/4">
+                                <a href="https://twitter.com/CalculatorTools" class="btn gradient-snowcone hover:bg-blue-600 text-white px-4 py-2 rounded-lg flex items-center" rel="nofollow" target="_blank">
+                                    <img src="https://calculator.tools/static/c1ce3b8b4c59/images/favicon2-32x32.png" alt="icon" class="mr-2">
+                                    Follow @CalculatorTools
+                                </a>
+                                <p class="mb-4">
+                                    Want the latest updates about your apps & AI?
+                                    <br>
+                                    <a href="https://twitter.com/CalculatorTools" target="_blank" rel="nofollow" class="text-blue-600 hover:text-blue-800">
+                                        @CalculatorTools
+                                    </a> is on Twitter!
+                                </p>
+                                
+                            </div>
+                        </div>
+                
+                        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8">
+                            <div class="text-center lg:text-left">
+                                © 2024 Calculator Tools
+                            </div>
+                            
+                            <!--div class="text-center lg:text-right">
+                                Made with <span class="text-red-500">❤️</span> by&nbsp;<a href="https://twitter.com/kickiniteasy" target="_blank" class="text-blue-600 hover:text-blue-800">@kickiniteasy</a>
+                            </div>-->
+                        </div>
+                    </div>
+                </footer>
+                
+            </div>
+
+            <div id="hidden-wrapper" style="display: none;">
+				<form id="api-twitter-upload" name="api-twitter-upload" action="https://api.calculator.tools/" method="POST" target="api-twitter-upload-iframe"></form>
+				<iframe name="api-twitter-upload-iframe" id="api-twitter-upload-iframe"></iframe>
+        
+
+                <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
+
+    document.addEventListener("scroll", navbarScroll);
+    document.addEventListener("DOMContentLoaded", navbarScroll);
+    function navbarScroll() {
+        //console.log('SCROLL EVENT');
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+            header.classList.add("gradient-white2white");
+            navaction.classList.remove("gradient");
+            navaction.classList.add("bg-white");
+            navaction.classList.remove("text-white");
+            navaction.classList.add("text-gray-800");
+            //Use to switch toggleColour colours
+            for (var i = 0; i < toToggle.length; i++) {
+                toToggle[i].classList.add("text-gray-800");
+                toToggle[i].classList.remove("text-white");
+            }
+            header.classList.add("shadow");
+            navcontent.classList.remove("bg-gray-100");
+            navcontent.classList.add("bg-white");
+        } else {
+            header.classList.remove("gradient-white2white");
+            navaction.classList.remove("bg-white");
+            navaction.classList.add("gradient");
+            navaction.classList.remove("text-gray-800");
+            navaction.classList.add("text-white");
+            //Use to switch toggleColour colours
+            for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+            }
+
+            header.classList.remove("shadow");
+            navcontent.classList.remove("bg-white");
+            navcontent.classList.add("bg-gray-100");
+        }
+    }
+</script>
+
+<script>
+    /*Toggle dropdown list*/
+    /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+    var navMenuDiv = document.getElementById("nav-content");
+    var navMenu = document.getElementById("nav-toggle");
+
+    
+    function check(e) {
+        //console.log('nav click');
+        var target = (e && e.target) || (event && event.srcElement);
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+            // click NOT on the menu
+            if (checkParent(target, navMenu)) {
+                // click on the link
+                if (navMenuDiv.classList.contains("hidden")) {
+                    navMenuDiv.classList.remove("hidden");
+                } else {
+                    navMenuDiv.classList.add("hidden");
+                }
+            } else {
+                // click both outside link and outside menu, hide menu
+                navMenuDiv.classList.add("hidden");
+            }
+        }
+    }
+    document.onclick = check;
+
+    function checkParent(t, elm) {
+        while (t.parentNode) {
+            if (t == elm) {
+                return true;
+            }
+            t = t.parentNode;
+        }
+        return false;
+    }
+
+</script>                <div class="hidden border-5  border-6  border-8"></div>
+			</div>	</body>
+
+</html>

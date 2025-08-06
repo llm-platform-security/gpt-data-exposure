@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The only food API you'll ever need. Our knowledge engineers spent years crafting our complex food ontology, which allows us to understand the relationships between ingredients, recipes, nutrition, allergens, and more. We understand 'nut free' muffins can't contain pecans (even if the recipe doesn't mention 'nuts' anywhere!) and we automatically determine that a recipe with Worcestershire sauce isn't vegetarian (we're looking at you, anchovies.)">
+<meta name="keywords" content="Food API, Recipe API, Nutrition API, Barcode Scanning API, Meal Planning API">
+<meta name="author" content="David Urbansky">
+
+<title>spoonacular recipe and food API</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/application/frontend/css/normalize.min.css" />
+<link rel="stylesheet" type="text/css" href="/application/frontend/css/foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="/application/frontend/css/styles.min.css" />
+<link rel="stylesheet" type="text/css" href="/application/frontend/css/notifications.min.css" />
+<style>
+        p {
+            text-align: inherit;
+        }
+        .divText, .optionGroup label, li, ol, p, ul {
+            font-size: 16px;
+        }
+        .row {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    </style>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CRubik:300,400,500,700,900" rel="stylesheet">
+
+<link href="/application/frontend/css/api/bootstrap.min.css" rel="stylesheet" media="screen">
+
+<link rel="stylesheet" href="/application/frontend/css/api/slicknav.css">
+
+<link href="/application/frontend/css/api/custom.min.css" rel="stylesheet" media="screen">
+
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.1"></script>
+<script type="text/javascript" src="/application/frontend/js/notifications.min.js?c=1"></script>
+<script type="text/javascript" src="/application/frontend/js/config.min.js?c=1"></script>
+<script type="text/javascript" src="/application/frontend/js/jquery.min.js?c=1"></script>
+</head>
+<body data-spy="scroll" data-target="#navigation" data-offset="71">
+
+<header class="header-layout-1">
+<nav class="navbar navbar-expand-md navbar-light fixed-top" id="navigation">
+<div class="container">
+<a class="navbar-brand" href="/food-api"><img src="/application/frontend/images/logo-simple-framed-green-gradient.svg" alt="spoonacular logo" /> <span class="greenF" style="font-size: 18px;margin-left: 10px;">spoonacular API</span></a>
+<ul class="navbar-nav ml-auto" id="main-menu">
+<li class="nav-item"><a id="section-overview" class="nav-link" href="/food-api">Overview</a></li>
+<li class="nav-item"><a id="section-docs" class="nav-link" href="/food-api/docs">Docs</a>
+<ul>
+<li><a href="/food-api/docs">Full Documentation</a></li>
+<li><a href="/food-api/faq">FAQ</a></li>
+<li><a href="/food-api/sdk">SDKs</a></li>
+<li><a href="/food-api/updates">Updates</a></li>
+</ul>
+</li>
+<li class="nav-item"><a id="section-pricing" class="nav-link" href="/food-api/pricing">Pricing</a></li>
+<li class="nav-item"><a id="section-terms" class="nav-link" href="/food-api/terms">Terms</a></li>
+<li class="nav-item"><a id="section-applications" class="nav-link" href="/food-api/apps">Applications</a></li>
+<li class="nav-item"><a id="section-console" class="nav-link download-link" href="/food-api/console">
+Start Now
+</a></li>
+</ul>
+<div class="navbar-toggle"></div>
+<div id="responsive-menu"></div>
+</div>
+</nav>
+</header>
+<div id="wrapper" class="row" style="max-width:1100px;margin-top:150px">
+<div class="col-lg-12">
+<h1>Terms of Use</h1>
+<h2>Acceptance of Terms</h2>
+<p>
+By subscribing to any of the spoonacular API plans offered on our website or on rapidapi.com (previously mashape.com) or to a custom plan to which you are invited, you the API subscriber (“you”) confirm that you have read and agree to the Terms of Use outlined below. Failure to honor these terms will result in your use of the spoonacular API being suspended and/or permanently blocked.
+</p>
+<h2>License</h2>
+<p>
+A spoonacular API subscription grants you a nonexclusive, non-transferable license to use the spoonacular API on a month-by-month basis dependent on your payment of the monthly fee associated with your subscription (and any additional charges due to exceeding the number of calls per day covered by your subscription) and on your agreement to respect these terms.
+You will be charged every month until you cancel your subscription under My Console > Plan/Billing or on RapidAPI's website, depending on where you subscribed.
+</p>
+<p>
+You must agree to keep your spoonacular API key confidential. If you post or commit code in a support forum, GitHub, etc., you must first remove the spoonacular API key. If your spoonacular API key is compromised and abused by an unauthorized user, you are responsible for its misuse and for any additional charges or harm incurred.
+</p>
+<h2>Content</h2>
+<p>
+The spoonacular API consists of ingredient information, recipes, grocery products, and menu items. spoonacular always provides credit to the original source of a recipe by including the name of the website/blog along with a hyperlink to the relevant page. You must credit the original source in the same manner on your website, app, etc. Should you be asked to remove a recipe from your website or app, it is your responsibility to let us know that the recipe should be removed from the spoonacular API.
+</p>
+<p>
+spoonacular also reserves the right to include the spoonacular logo, links to spoonacular, and/or advertisements (e.g. links or images related to sponsors) in the spoonacular API, including its widgets.
+</p>
+<h2>Prohibitions</h2>
+<p>
+You may use the data provided by the spoonacular API as part of your website, application, or other project, but you cannot use spoonacular data to create a site or application meant to provide the same experience as spoonacular. Should spoonacular determine that your website or application is attempting to compete with spoonacular’s website/apps or to drive traffic away from spoonacular in another way, you will no longer be allowed to use the spoonacular API. In this case, however, you may reach out to us to discuss a possible business partnership.
+</p>
+<p>
+You may not create the impression that your site or application is endorsed by spoonacular, nor may you use any spoonacular brands/logos to promote your site/app without prior permission. Again, please reach out if you would like to work more closely together - in some cases we may discount your spoonacular API use. However, if you are invited by spoonacular to a free, custom plan for hackathons or academic use, then you must provide a backlink to our food API page (link above).
+</p>
+<p>
+You may not scrape the spoonacular API or in any way attempt to copy or store the information it provides, including any derived, hashed, or transformed data. With prior written permission from spoonacular, you may cache user-requested data to improve performance (for a maximum of 1 hour). After 1 hour, you must delete your cache and refresh the data via the spoonacular API. If you stop using the spoonacular API or if your access to the API is suspended for any reason, then you must delete all data you ever obtained from the spoonacular API.
+</p>
+<p>
+You may not resell any data received via the spoonacular API.
+</p>
+<p>
+You may use the spoonacular API in order to compare the spoonacular API to spoonacular competitors.
+</p>
+<p>
+We reserve the right to discontinue the spoonacular API or to withdraw your permission to use the spoonacular API at any time for any reason without notice.
+</p>
+<h2>Disclaimer</h2>
+<p>
+The spoonacular API and all the data it consists of are intended for informational purposes only, and are provided "as is," "with all faults," and "as available." This means that while spoonacular will do its best to ensure the quality of the spoonacular API and the accuracy of spoonacular data, there are no guarantees or warranties (neither expressed nor implied), including merchantability, fitness for a particular purpose, and non-infringement. spoonacular is not accountable for any losses, damages, or any other problems that occur because the spoonacular API is unavailable or slow, because the data contains errors, or because of any text or images that you show on your website, in your app, etc., even if the text or image(s) come from the spoonacular API.
+</p>
+<p>
+By using the spoonacular API, you agree to assume all responsibility and risk of use of the spoonacular API. spoonacular is not responsible or liable for any consequences that result from your use of the spoonacular API and the content, materials, and information it contains. It is your responsibility to display appropriate disclaimers regarding potential inaccuracies pertaining to allergies, estimated costs, nutritional information, etc. in connection with the recipes you utilize from spoonacular’s database.
+</p>
+<p>
+You also agree that spoonacular may use your logo and company name as a professional reference/use case. If you do not want this, please let us know in written form.
+</p>
+<p>
+Nothing in these Terms of Use shall be construed as creating an employer-employee relationship, a partnership, a joint venture, or any other type of business relationship without an express written agreement between the parties.
+</p>
+<h2>Representations and Indemnification</h2>
+<p>
+You represent and warrant that you have the necessary power and authority to enter into this Agreement. If you are agreeing to these Terms on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to these Terms of Use. You will fully indemnify, hold harmless and defend spoonacular from any and all claims, damages, losses, liabilities, actions, judgments, costs and expenses (including reasonable attorney's fees and costs) brought by a third party arising out of or in connection with your use of the spoonacular API.
+</p>
+<h2>LIMITATIONS OF LIABILITY</h2>
+<p>IN NO EVENT WILL SPOONACULAR BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, OR LOST PROFIT DAMAGES, ARISING OUT OF OR IN CONNECTION WITH THESE API TERMS, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY, OR OTHERWISE, AND WHETHER OR NOT IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THE LIMITATIONS SPECIFIED IN THIS SECTION WILL SURVIVE AND APPLY EVEN IF ANY LIMITED REMEDY SPECIFIED IN THESE API TERMS OF USE IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.</p>
+<h2>Choice of Law</h2>
+<p>
+The terms and conditions of this Agreement are governed by and shall be construed in accordance with the laws of Indiana, located in the United States of America.
+All disputes arising out of or in connection with the terms and conditions of this Agreement shall be subject to the exclusive jurisdiction of the Courts of Indiana.
+</p>
+<h2>Updates</h2>
+<p>
+These Terms of Use may be updated or revised. You are responsible for regularly reviewing these Terms of Use so long as you continue to use the spoonacular API. If necessary, you will need to change your websites/app/etc. to be in compliance with these terms. Your continued use of the spoonacular API after changes to the Terms of Use will constitute acceptance of and agreement to such changes.
+</p>
+<p>
+Last Updated on January 1, 2020
+</p>
+</div> </div> 
+
+<section class="mega-footer-layout-1">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-3 col-md-6">
+<div class="footer-link">
+<h3>Company</h3>
+<ul>
+<li><a href="/about">About Us</a></li>
+<li><a href="/press">Press</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+<div class="footer-link">
+<h3>Legal</h3>
+<ul>
+<li><a href="/food-api/terms">Terms & Conditions</a></li>
+<li><a href="/food-api/privacy">Privacy Policy</a></li>
+<li><a href="/dmca">DMCA</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+<div class="footer-link">
+<h3>Info</h3>
+<ul>
+<li><a href="/food-api/faq">FAQ</a></li>
+<li><a href="/contact">Contact Us</a></li>
+<li><a href="https://discord.gg/EkYYnVF">Discord</a></li>
+<li><a href="https://twitter.com/spoonacular">Twitter</a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-6">
+<div class="footer-link">
+<h3>API Resources</h3>
+<ul>
+<li><a href="/food-api/docs">Full Documentation</a></li>
+<li><a href="http://status.spoonacular.com/">Uptime Status</a></li>
+<li><a href="/food-api/sdk">SDKs</a></li>
+<li><a href="/food-api/updates">Updates</a></li>
+<li><a href="https://apileague.com/" target="_blank">API League</a></li>
+<li><a href="https://worldnewsapi.com/" target="_blank">News API</a></li>
+<li><a href="https://humorapi.com/" target="_blank">Joke API</a></li>
+<li><a href="https://bigbookapi.com/" target="_blank">Book API</a></li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<script type="text/javascript" src="/application/frontend/js/foundation.min.js?c=1"></script>
+
+<script src="/application/frontend/js/api/bootstrap.min.js?c=1"></script>
+
+<script src="/application/frontend/js/api/responsive-tabs.js?c=1"></script>
+
+<script src="/application/frontend/js/api/jquery.slicknav.js?c=1"></script>
+
+<script src="/application/frontend/js/api/function.min.js?c=1"></script>
+<script type="text/javascript" src="/application/frontend/js/prism.min.js?c=1"></script>
+<script defer data-domain="spoonacular.com" src="https://plausible.io/js/script.js"></script>
+<script>
+        var referrer =  document.referrer;
+        if (referrer.indexOf('spoonacular.com') == -1) {
+            var date = new Date();
+            date.setTime(date.getTime() + (7 * 24 * 60 * 1000));
+            var expires = ';path=/; expires=' + date.toGMTString();
+            document.cookie = 'spoonacular_signup_referrer='+encodeURI(referrer) + expires;
+        }
+
+        // set active navigation
+        if (document.location.href.includes("/docs") || document.location.href.includes("/sdk") || document.location.href.includes("/update") || document.location.href.includes("/faq")) {
+            document.getElementById('section-docs').classList.add("active");
+        } else
+        if (document.location.href.includes("/pricing")) {
+            document.getElementById('section-pricing').classList.add("active");
+        } else
+        if (document.location.href.includes("/terms")) {
+            document.getElementById('section-terms').classList.add("active");
+        } else
+        if (document.location.href.includes("/apps")) {
+            document.getElementById('section-applications').classList.add("active");
+        } else {
+            document.getElementById('section-overview').classList.add("active");
+        }
+    </script>
+</body>
+</html> 

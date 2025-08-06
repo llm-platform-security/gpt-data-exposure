@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="dns-prefetch" href="https://sync.outbrain.com">
+    <link rel="dns-prefetch" href="https://ups.analytics.yahoo.com">
+    <link rel="dns-prefetch" href="https://ib.adnxs.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.logrocket.io">
+
+    <link rel="preload" as="style"  rel="stylesheet" type="text/css" href="https://www.customersuccesscollective.com/assets/built/screen.css?v=b6f88da614" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Customer Success Collective | Privacy Policy</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <link  rel="stylesheet" type="text/css" href="https://www.customersuccesscollective.com/assets/built/screen.css?v=b6f88da614" />
+
+
+            <meta name="author" content="Customer Success Collective">
+
+
+
+    <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+
+    <script>
+
+      window.LogRocket && window.LogRocket.init('acara/sequel-main');
+
+      window.inArticleAdList;
+      window.inArticleAdListDisabled;
+      window.topNav;
+      window.showGetCertCta;
+      window.isTOCenabled;
+      window.userIdSegment = localStorage.getItem("user_id");
+    </script>
+
+
+    <script>
+      var ghosthunter_key = 'b1d2e55946ba49e939e2eba782';
+      window.isHiddenUpgradeVisible = false;
+    </script>
+    <script type="text/javascript">
+      function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      var action = getParameterByName('action');
+    
+       if (action == 'signin') {
+          window.location = '/account';
+      }
+
+      if (window.location && window.location.search && window.location.search.includes('stripe=success')) {
+        window.location = '/activate';
+      }
+    </script>
+    <script>
+      var checkUserId = function({ payload, next, integrations }) {
+        var user_id = payload.obj.userId;
+        if(user_id && (user_id.length === 8 || user_id.length !== 36)) {
+          console.log('teacahble user_id still set, clearing');
+          window.localStorage.removeItem('apc_user_id');
+          analytics.reset();
+          analytics.user().anonymousId(payload.obj.anonymousId);
+          delete payload.obj.userId;
+          delete payload.obj.traits;
+          console.log('payload after clearing', payload.obj);
+        }
+        next(payload);
+      };
+    
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="KJbuqCLAMGmg1hU4fuM6MSTFWyq9fnTX";analytics.SNIPPET_VERSION="4.13.2";
+    
+        const tags = [];
+        const authors = [];
+        let primary_tag;
+        let primary_author;
+            primary_author = "Customer Success Collective";
+            primary_tag = "";
+                  authors.push("Customer Success Collective")
+          analytics.addSourceMiddleware(checkUserId);
+          analytics.load('KJbuqCLAMGmg1hU4fuM6MSTFWyq9fnTX', {
+            user: {
+              persist: true,
+              cookie: {
+                key: 'ajs_alliance_user_id'
+              },
+              localStorage: {
+                key: 'ajs_alliance_user_traits'
+              }
+            }
+          });
+          analytics.page({
+            properties: {
+              primary_tag: primary_tag,
+              primary_author: primary_author,
+              authors: authors,
+              tags: tags,
+              community: 'CSC'
+              }
+          });
+          
+      }}();
+      
+    </script>
+
+    <meta name="description" content="This document contains a section dedicated to consumers and their privacy rights.">
+    <link rel="icon" href="https://www.customersuccesscollective.com/content/images/size/w256h256/2023/05/Customer_Success_Collective-Icon.png" type="image/png">
+    <link rel="canonical" href="https://www.customersuccesscollective.com/privacy-policy/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Customer Success Collective">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Customer Success Collective | Privacy Policy">
+    <meta property="og:description" content="This Application collects some Personal Data from its Users.
+This document contains a section dedicated to consumers and their privacy rights.">
+    <meta property="og:url" content="https://www.customersuccesscollective.com/privacy-policy/">
+    <meta property="og:image" content="https://www.customersuccesscollective.com/content/images/2022/08/CSC_meta_website--1-.jpg">
+    <meta property="article:published_time" content="2021-03-11T11:23:19.000Z">
+    <meta property="article:modified_time" content="2022-08-16T16:52:02.000Z">
+    <meta property="article:publisher" content="https://www.facebook.com/customersuccesscollective">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Customer Success Collective | Privacy Policy">
+    <meta name="twitter:description" content="This Application collects some Personal Data from its Users.
+This document contains a section dedicated to consumers and their privacy rights.">
+    <meta name="twitter:url" content="https://www.customersuccesscollective.com/privacy-policy/">
+    <meta name="twitter:image" content="https://www.customersuccesscollective.com/content/images/2022/08/CSC_meta_website--1-.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Customer Success Collective">
+    <meta name="twitter:site" content="@_cscollective">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Customer Success Collective",
+        "url": "https://www.customersuccesscollective.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.customersuccesscollective.com/content/images/2021/06/Customer_Success_Collective-Colour--4-.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Customer Success Collective",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.customersuccesscollective.com/content/images/2021/06/Icon.png",
+            "width": 446,
+            "height": 431
+        },
+        "url": "https://www.customersuccesscollective.com/author/customer-success-collective/",
+        "sameAs": []
+    },
+    "headline": "Customer Success Collective | Privacy Policy",
+    "url": "https://www.customersuccesscollective.com/privacy-policy/",
+    "datePublished": "2021-03-11T11:23:19.000Z",
+    "dateModified": "2022-08-16T16:52:02.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.customersuccesscollective.com/content/images/2022/08/CSC_meta_website--1-.jpg",
+        "width": 1200,
+        "height": 630
+    },
+    "description": "This Application collects some Personal Data from its Users.\nThis document contains a section dedicated to consumers and their privacy rights. ",
+    "mainEntityOfPage": "https://www.customersuccesscollective.com/privacy-policy/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.82">
+    <link rel="alternate" type="application/rss+xml" title="Customer Success Collective" href="https://www.customersuccesscollective.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.37/umd/portal.min.js" data-i18n="true" data-ghost="https://www.customersuccesscollective.com/" data-key="3ffa4898f903e3ccf2c67bf7ea" data-api="https://customer-success-collective.ghost.io/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="3ffa4898f903e3ccf2c67bf7ea" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://customer-success-collective.ghost.io/" crossorigin="anonymous"></script>
+    
+    <link href="https://www.customersuccesscollective.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=b6f88da614"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=b6f88da614">
+    <script defer src="/public/member-attribution.min.js?v=b6f88da614"></script>
+    <script>
+    
+     window.proPlusStripeIdList = [
+         'price_1N0nUfJL7xKzlfjkeUoX08xU',
+         'price_1N0nUeJL7xKzlfjkLrIcayjk',
+         'price_1NdF0GJL7xKzlfjk35d5kCs1',
+         'price_1Nb3zJJL7xKzlfjkYXNJzTOw',
+         'price_1Ng9q8JL7xKzlfjkemBea9kM',
+         'price_1Nii46JL7xKzlfjk0zWH9A1q',
+         'price_1Nii3nJL7xKzlfjkVRv7R2P2',
+         'price_1Nii3RJL7xKzlfjk5S84sHBE',
+         'price_1Nii39JL7xKzlfjkuu8DZ6U3',
+         'price_1Nii2fJL7xKzlfjkA3Jqd9fT',
+         'price_1NgAJeJL7xKzlfjkaUTiVOro',
+         'price_1Ng9q8JL7xKzlfjkiUlRD9dm',
+         'price_1Ng9q8JL7xKzlfjkvAQxG1b0', 
+		 'price_1JaHPDJL7xKzlfjkNkzqxR1b'
+    ];
+
+   window.execPlusStripeIdList = [
+         'price_1P4KmNJL7xKzlfjkJysXWXNx'
+    ];
+    
+</script>
+
+<script>!function () {var reb2b = window.reb2b = window.reb2b || [];if (reb2b.invoked) return;reb2b.invoked = true;reb2b.methods = ["identify", "collect"];reb2b.factory = function (method) {return function () {var args = Array.prototype.slice.call(arguments);args.unshift(method);reb2b.push(args);return reb2b;};};for (var i = 0; i < reb2b.methods.length; i++) {var key = reb2b.methods[i];reb2b[key] = reb2b.factory(key);}reb2b.load = function (key) {var script = document.createElement("script");script.type = "text/javascript";script.async = true;script.src = "https://s3-us-west-2.amazonaws.com/b2bjsstore/b/" + key + "/reb2b.js.gz";var first = document.getElementsByTagName("script")[0];first.parentNode.insertBefore(script, first);};reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("5DNXY8HM1VO0");}();</script>
+
+<script src="https://tag.clearbitscripts.com/v1/pk_bebaa9db4ca35af82ab4d629c9fade2b/tags.js"></script>
+
+<!-- Initilize dataLayer for GTM tracking -->
+<script>window.dataLayer = window.dataLayer || [];</script>
+<!-- Initilize dataLayer for GTM tracking -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTR9HS2');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Mutiny Script -->
+<script>
+(function(){var a=window.mutiny=window.mutiny||{};if(!window.mutiny.client){a.client={_queue:{}};var b=["identify","trackConversion"];var c=[].concat(b,["defaultOptOut","optOut","optIn"]);var d=function factory(c){return function(){for(var d=arguments.length,e=new Array(d),f=0;f<d;f++){e[f]=arguments[f]}a.client._queue[c]=a.client._queue[c]||[];if(b.includes(c)){return new Promise(function(b,d){a.client._queue[c].push({args:e,resolve:b,reject:d});setTimeout(d,500)})}else{a.client._queue[c].push({args:e})}}};c.forEach(function(b){a.client[b]=d(b)})}})();
+</script>
+<script data-cfasync="false" src="https://client-registry.mutinycdn.com/personalize/client/dc82cf9a1e4605e6.js"></script>
+<!-- End Mutiny Script -->
+
+<!-- Hotjar Tracking Code for https://www.customersuccesscollective.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3160538,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Start of Async ProveSource Code --><script>!function(o,i){window.provesrc&&window.console&&console.error&&console.error("ProveSource is included twice in this page."),provesrc=window.provesrc={dq:[],display:function(){this.dq.push(arguments)}},o._provesrcAsyncInit=function(){provesrc.init({apiKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI1ZWEyZTczNTRjNDQ0ZDQ1NzU0OWRhYWUiLCJpYXQiOjE1ODc3MzQzMjZ9.3BTkc-xMOUGxjeDJV_LuZh_FJ956iGxKa9mZGF4TRMA",v:"0.0.4"})};var r=i.createElement("script");r.type="text/javascript",r.async=!0,r["ch"+"ar"+"set"]="UTF-8",r.src="https://cdn.provesrc.com/provesrc.js";var e=i.getElementsByTagName("script")[0];e.parentNode.insertBefore(r,e)}(window,document);</script><!-- End of Async ProveSource Code -->
+<script>
+    const eventsCalendar = [    
+
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/GTMA/sprint5.png',
+    name: 'Live two-hour workshops',
+    date: 'May 1-22, 2024',
+    location: 'Online',
+    type: 'Virtual courses',
+    description: 'Includes retention & churn, PMM pre vs post-launch, Marketing pre vs post-launch, & CS pre vs post-launch.',
+    buttonText: 'Sign up',
+    url: 'https://www.customersuccesscollective.com/gtm-live-workshops',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/CSC/NEW-CSC_Event_Calendar_CSFest_Amsterdam.png',
+    name: 'Amsterdam',
+    date: 'May 16 & 17, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Increase CS-attributable revenue with proven growth strategies and tactics.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/amsterdam',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/PMA-events-calendar/CSC_Leadership_Accelerator_Event_Calendar',
+    name: 'Leadership Accelerator Program',
+    date: 'May 16, 2024',
+    location: 'Online',
+    type: 'Virtual courses',
+    description: 'Unlock your leadership potential in a six-week coaching program',
+    buttonText: 'Sign up',
+    url: 'https://certified.customersuccesscollective.com/p/customer-success-leadership-accelerator',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/CSC/CSC_Event_Calendar_CSCFestival_LA.png',
+    name: 'Las Vegas',
+    date: 'May 22 & 23, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Take some of the worlds most forward-thinking CS strategies back to your desk.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/lasvegas',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/CSC/actioHX%20webinar%20copy%203.png',
+    name: 'To QBR or not to QBR?',
+    date: 'May 23',
+    location: 'Online',
+    type: 'Webinars',
+    description: 'Discover how to optimize your CS strategy with QBRs.',
+    buttonText: 'Sign up',
+    url: 'https://www.customersuccesscollective.com/to-qbr-or-not-to-qbr-webinar/',
+  },
+      {
+image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Events-Calendar/CSC/CSC%20Melbourne%20meetup.png',
+name: 'CSC virtual',
+date: '27 June 2024',
+location: 'Online',
+type: 'Virtual Meetups',
+description: 'Virtual networking with fellow CSMs',
+buttonText: 'Sign up here',
+url: 'https://community.customersuccesscollective.com/c/virtual/csc-virtualjune27',
+},
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Mastering-leadership-workshops/CSC%20Mastering%20Leadership%20Workshops%20(1).png',
+    name: 'Mastering Leadership: Recruitment and hiring',
+    date: '27 & 29 August 2024',
+    location: 'Online',
+    type: 'Members',
+    description: 'Quarterly workshops for Exec+ members to learn critical leadership skills on their journey to the top.',
+    buttonText: 'Sign up here',
+    url: 'www.customersuccesscollective.com/mastering-leadership-workshops',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/Customer%20Success%20Festival%20San%20Francisco.png',
+    name: 'San Francisco',
+    date: 'September 4 & 5, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Take some of the world\'s most forward-thinking CS strategies back to your desk.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/sanfrancisco',
+  },
+   {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CS%20Boston%202024.png',
+    name: 'Boston',
+    date: 'October 3 & 4, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Increase CS-attributable revenue with proven growth strategies and tactics.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/boston',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CX%20San%20Francisco.png',
+    name: 'San Francisco',
+    date: 'October 24, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Revolutionize CX with the support of local C-suite innovators.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CS%20Sydney%202024.png',
+    name: 'Sydney',
+    date: 'October 30 & 31, 2024',
+    location: 'APAC',
+    type: 'Summits',
+    description: 'Take some of APAC\'s most forward-thinking CS strategies back to your desk.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/sydney',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CS%20Chicago%202024.png',
+    name: 'Chicago',
+    date: 'November 13 & 14, 2024',
+    location: 'North America',
+    type: 'Summits',
+    description: 'Increase CS-attributable revenue with proven growth strategies and tactics.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/chicago',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CS%20London%20(1).png',
+    name: 'London',
+    date: 'December 4 & 5, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Leave equipped with value-driving tips & tricks from Europe\'s finest customer leaders.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/london',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/CSC_events_calendar/CCO%20Londn.png',
+    name: 'London',
+    date: 'December 4, 2024',
+    location: 'EMEA',
+    type: 'Summits',
+    description: 'Ensure your CS team delivers above and beyond as a revenue driving powerhouse.',
+    buttonText: 'Find out more',
+    url: 'https://events.customersuccesscollective.com/location/ccolondon',
+  },
+  {
+    image: 'https://pma-assets-external.ams3.cdn.digitaloceanspaces.com/Mastering-leadership-workshops/CSC%20Mastering%20Leadership%20Workshops%20(1).png',
+    name: 'Mastering Leadership: Relationship management',
+    date: '10 & 12 December 2024',
+    location: 'Online',
+    type: 'Members',
+    description: 'Quarterly workshops for Exec+ members to learn critical leadership skills on their journey to the top.',
+    buttonText: 'Sign up here',
+    url: 'www.customersuccesscollective.com/mastering-leadership-workshops',
+},
+ // Add more as needed
+];
+</script>
+
+
+<script>
+    
+    var eventsList = [
+      { 
+          'title': 'CS Leadership Accelerator',
+          'date': 'May 16',
+          'location': '<b>Live & online</b>',
+          'url': 'https://certified.customersuccesscollective.com/p/customer-success-leadership-accelerator'
+        },
+      { 
+          'title': 'Customer Success Festival',
+          'date': 'May 16-17',
+          'location': '<b>Amsterdam</b>',
+          'url': 'https://events.customersuccesscollective.com/location/amsterdam/'
+        },
+        { 
+          'title': 'Customer Success Festival',
+          'date': 'May 22-23',
+          'location': '<b>Las Vegas</b>',
+          'url': 'https://events.customersuccesscollective.com/location/lasvegas'
+        },
+        { 
+          'title': 'To QBR or not to QBR? [webinar]',
+          'date': 'May 23',
+          'location': '<b>Online</b>',
+          'url': 'https://www.customersuccesscollective.com/to-qbr-or-not-to-qbr-webinar/' 
+        },
+       { 
+          'title': 'CSC Virtual Meetup',
+          'date': 'May 28',
+          'location': '<b>Virtual</b>',
+          'url': 'https://community.customersuccesscollective.com/c/virtual/virtual-may28'
+        },
+    
+      ];
+
+ </script>
+
+<script>
+ window.topNav = [
+   {
+     name: 'Membership',
+     itemList: [
+        {
+          name: 'Membership plans',
+          url: '#',
+          desc: 'Pick your path',
+          itemList: [
+            {
+              name: 'Pro membership',
+              url: '/signup/'
+            },
+            {
+              name: 'Pro+ membership',
+              url: '/pro-plus-membership/'
+            },       
+            {
+              name: 'Exec+ membership',
+              url: '/exec-plus-membership/'
+            },
+             {
+              name: 'Team membership',
+              url: '/teams/'
+            }
+          ]              
+        },
+         {
+          name: 'What is included?',
+          desc: 'All you need to succeed',
+          itemList: [
+            {
+              name: 'Templates & frameworks',
+              url: '/templates-and-frameworks/'
+            },
+            {
+              name: 'OnDemand videos',
+              url: '/customer-success-ondemand/'
+            },
+            {
+              name: 'Exclusive content',
+              url: '/tag/membership-content/'
+            },
+          ]              
+        },
+        
+         {
+          name: 'Take a peek inside',
+          url: '#',
+          desc: 'See what the fuss is about',
+          itemList: [
+            {
+              name: 'Freemium membership',
+              url: '/insider-membership-plan/'            
+            },                 
+            {
+              name: 'Free taster pack',
+              url: '/test-before-you-invest-pro-membership-taster-pack/' 
+            },              
+            {
+              name: 'Pro membership sneak peek',
+              url: '/membership-samples/' 
+            },
+              {
+              name: '3 essential CS templates [freebie]',
+              url: '/3-essential-templates-to-transform-your-customer-success-strategy/' 
+            },            
+          ]
+        },
+      ]
+    },
+          
+    {
+     name: 'Resources',
+     itemList: [
+       {
+         name: 'Content hub',
+     desc: 'CS resources on tap',
+         url: '/signup',
+            itemList: [
+            {
+             name: 'Articles',
+             url: '/articles/'
+           },
+           {
+             name: 'CSC Prime',
+             url: '/csc-prime/'
+           },                
+           {
+             name: 'Podcasts',
+             url: 'https://alliance.ghost.io/podcasts/?filter=podcast-filter-community-csc'
+           },
+           {
+             name: 'Videos',
+             url: '/cs-connect/'
+           },                
+           {
+             name: 'eBooks',
+             url: '/ebooks/'
+           },
+           {
+             name: 'Create & contribute',
+             url: '/create-contribute/'
+           }
+         ]
+       },
+       {
+         name: 'Guides',
+     desc: 'Brush up on the essentials',
+         url: '/signup',
+            itemList: [
+            {
+             name: 'Customer success',
+             url: '/what-is-customer-success/'
+           },
+            {
+             name: 'Customer onboarding',
+             url: '/customer-onboarding/'
+           },                
+           {
+             name: 'Customer churn',
+             url: '/customer-churn/'
+           },                
+           {
+             name: 'Customer success metrics',
+             url: '/customer-success-metrics/'
+           },
+           {
+             name: 'Customer retention',
+             url: '/customer-retention/'
+           },                
+           {
+             name: 'Chief Customer Officer',
+             url: '/chief-customer-officer/'
+           }
+         ]
+       },
+       {           
+         name: 'Research & reports',
+         desc: 'Industry insights from us',
+         url: '#',
+         itemList: [
+           {      
+             name: 'Beyond the Bot: AI in Customer Success',
+             url: '/ai-in-customer-success-ebook/'
+           },
+{      
+             name: 'Customer Success Collective’s 24 in 2024',
+             url: '/24-in-2024/'
+           },
+           {      
+             name: 'Salary & Landscape Survey 2024',
+             url: '/customer-success-landscape-and-salary-survey-2024/'
+           },
+           {      
+             name: 'Customer Success Tools of Choice 2023',
+             url: '/customer-success-tools-of-choice/'
+           }, 
+           {      
+             name: 'State of Customer Onboarding 2023 Report',
+             url: '/the-state-of-customer-onboarding-2023/'
+           },
+             {      
+             name: 'State of Customer Success 2023 Report',
+             url: '/state-of-customer-success-report/'         
+             },
+             {      
+             name: 'The ultimate QBR toolkit',
+             url: '/the-ultimate-qbr-kit/'      
+            },             
+           {
+             name: 'View all reports',
+             url: 'https://www.customersuccesscollective.com/reports/'
+            },
+          ]
+        },
+       {
+         name: 'Best of the rest',
+         desc: 'Highlights from the site',
+         url: '/',
+          itemList: [
+            {
+             name: 'CSC-GPT',
+             desc: 'Ther ultimate CS assistant',
+             url: 'https://gpt.customersuccesscollective.com'
+            },
+            {
+             name: 'Newsletter',
+             desc: 'Signup to the monthly email',
+             url: '/customer-success-newsletter/'
+            }
+          ]
+        },          
+      ]
+    },  
+      
+    {
+     name: 'Certification',
+     itemList: [
+       {
+         name: 'Customer Success Core',
+         desc: 'The essentials of customer success',
+         itemList: [
+             {
+             name: 'CS Certified: Core [OnDemand]',
+             url: 'https://certified.customersuccesscollective.com/p/customer-success-certified-core'              
+            },
+           {
+             name: 'CS Certified: Core [In-person]',
+             url: 'https://certified.customersuccesscollective.com/p/customer-success-certified-core-in-person'              
+            },
+             {
+             name: 'View all courses',
+             url: 'https://certified.customersuccesscollective.com/courses'              
+            },
+          ]
+        },
+          {
+         name: 'Masters Certified',
+         desc: 'Be the go-to expert',
+         itemList: [
+             {
+             name: 'Customer Advocacy Certified',
+             url: 'https://certified.customersuccesscollective.com/p/customer-advocacy-certified-masters'              
+            },
+             {
+             name: 'Customer Research Certified',
+             url: 'https://certified.customersuccesscollective.com/p/customer-research-certified-masters'              
+            },
+             {
+             name: 'Customer Retention Certified',
+             url: 'https://certified.customersuccesscollective.com/p/customer-retention-certified-masters'              
+            },
+             {
+             name: 'CS Metrics Certified',
+             url: 'https://certified.customersuccesscollective.com/p/customer-success-metrics-certified-masters'              
+            },
+             {
+             name: 'Building a CS Team Certified',
+             url: 'https://certified.customersuccesscollective.com/p/building-a-customer-success-team'
+            },                 
+           {
+             name: 'View all Masters',              
+             url: 'https://certified.customersuccesscollective.com/courses/category/masters'               
+            },
+          ]
+        }, 
+         {
+         name: 'Advanced Micro',
+         desc: 'For fast & deep learning',
+         itemList: [
+             {
+             name: 'Customer Advocacy Framework',
+             url: 'https://certified.customersuccesscollective.com/p/customer-advocacy-strategic-framework'              
+            },
+          ]
+        },
+         {
+         name: 'Leadership Certified',
+         desc: 'The ultimate roadmap for leaders',
+         itemList: [
+             {
+             name: 'CS Certified: Leadership',
+             desc: 'Access anytime on-demand',
+             url: 'https://certified.customersuccesscollective.com/p/customer-success-certified-leadership'              
+            },           
+             {
+             name: 'CS Leadership Accelerator',
+             desc: 'Six-week live & immersive program',
+             url: 'https://certified.customersuccesscollective.com/p/customer-success-leadership-accelerator'              
+            },
+             {
+             name: 'View all courses',
+             url: 'https://certified.customersuccesscollective.com/courses'              
+            },
+          ]
+        },
+      ]
+    }, 
+      
+    {
+     name: 'Events',
+     itemList: [
+       {
+         name: 'Digital',
+           desc: 'Coming soon to a screen near you',
+         url: '#',
+         itemList: [
+           {      
+             name: 'Why CS folks 🧡 our events',
+             url: '/why-cs-folks-love-our-events/',     
+           },
+            {      
+             name: 'Virtual Meetup | May 28',
+             url: 'https://community.customersuccesscollective.com/c/virtual/csc-virtualjune27',     
+           },
+              {      
+             name: 'Virtual Meetup: Sales acquisition vs. CS retention | June 27',
+             url: 'https://community.customersuccesscollective.com/c/virtual/csc-virtualjune27',     
+           },
+           {      
+             name: 'To QBR or not to QBR?',
+             desc: 'May 23',
+             url: '/to-qbr-or-not-to-qbr-webinar/',      
+           }
+          ]   
+            },         
+              { 
+          name: 'In-person',
+		  desc: 'Events all over the world',
+          url: '#',
+              itemList: [                  
+             { 
+             name: 'Our global 2024 calendar',
+             url: 'https://events.customersuccesscollective.com/',
+             target: '_blank'  
+             },   
+                {  
+             name: 'CS Festival, Amsterdam | May, 16 & 17',
+             url: 'https://events.customersuccesscollective.com/location/amsterdam/',
+             target: '_blank'
+             },
+                {  
+             name: 'CS Festival, Las Vegas | May, 22 & 23',
+             url: 'https://events.customersuccesscollective.com/location/lasvegas',
+             target: '_blank'
+             },
+                  {  
+             name: 'CSC Festival, San Francisco | September 4 & 5',
+             url: 'https://events.customersuccesscollective.com/location/sanfrancisco/',
+             target: '_blank'
+             },
+             { 
+             name: 'Request to speak at one of our events',
+             url: 'https://www.customersuccesscollective.com/call-for-speakers-customer-success-collective/',
+             target: '_blank'
+             }
+          ]   
+            },         
+              {      
+         name: 'Catch-up',
+           desc: 'Never miss a beat',  
+         url: '#',
+         itemList: [
+          {
+           name: 'CS Festival Virtual October 2023',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-october-2023/',
+           },
+             {
+           name: 'CS Festival Amsterdam',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-amsterdam-may-2023/',
+           },
+           {
+           name: 'CS Festival New York',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-new-york-2023-on-demand-members-only/',
+           },
+           {
+           name: 'CS Festival Virtual March 2023',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-2023-ondemand/',
+           },
+           {
+           name: 'CS Festival Austin',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-austin-23/',
+           },
+            {
+           name: 'Chief Customer Officer Summit London',
+         url: 'https://www.customersuccesscollective.com/chief-customer-summit-london-november-2023/',
+           },
+           {
+           name: 'CS Festival London',
+         url: 'https://www.customersuccesscollective.com/customer-success-festival-london-2023-ondemand/',
+             }
+          ]
+        },          
+      ]
+    },      
+    {
+    name: 'Community',
+     itemList: [
+         {
+         name: 'Network',
+         url: '#',
+         desc: 'Connect and collaborate',
+         itemList: [             
+           {
+             name: 'Slack community',               
+             url: '/customer-success-community/'
+           },
+                {
+             name: 'CSC LinkedIn',                
+             url: 'https://www.linkedin.com/company/customersuccesscollective/'
+           },  
+             {
+             name: 'Meetups',               
+             url: '/customer-success-meetups/'
+           },
+              {
+             name: 'Meet our ambassadors',
+             url: '/meet-our-ambassadors/'
+          }
+          ]   
+            },     
+              {
+         name: 'Learn',
+         url: '#',
+         desc: 'Level up your career',
+         itemList: [ 
+                 {
+             name: 'CSC Awards | Winners 2023',                
+             url: 'https://www.customersuccesscollective.com/customer-success-awards-2023-winners/'
+           },
+             {
+             name: 'Community Newsletter',               
+             url: '/slack-newsletter/'
+           },
+             {
+             name: 'Become an ambassador',
+             url: '/become-an-ambassador/'
+           },
+               {
+             name: 'CSC Customer Advisory Board',                
+             url: '/customer-success-collective-customer-advisory-board/'
+           },  
+         ]
+       }]
+     },            
+    {
+     name: 'About',
+     itemList: [
+       {
+         name: 'The basics',
+     desc: 'Our journey & how to reach us',
+         url: '/signup',
+            itemList: [
+            {
+             name: 'Mission',
+             url: '/about/'
+           },
+           {
+             name: 'The team',
+             url: '/meet-the-team/'
+           },
+           {
+             name: 'Contact',
+             url: '/contact/'
+           }
+         ]
+       },
+         
+          {
+         name: 'Get involved',
+         desc: 'Get your name published',
+         url: '/',
+          itemList: [
+           {
+             name: 'Create & contribute',
+             url: '/create-contribute/'
+           },
+           {
+             name: 'Partner with us',
+             url: '/partner-with-us/'
+           }              
+         ]
+       },
+     ]
+   },
+     {
+    name: "What's new?",
+    url: '#',
+    class: 'nav-whats-new'
+   }  
+];
+</script>
+
+ <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=5216131db94ff' async='true'></script> 
+
+<script>
+    if (window.location.pathname === '/articles/') {
+        document.title = 'Customer success articles | Customer Success Collective';
+    }
+</script>
+
+<script>(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');</script>
+<script async src='https://r.wdfl.co/rw.js' data-rewardful='0ff37d'></script>
+
+
+<style>:root {--ghost-accent-color: #5036d5;}</style>
+
+</head>
+<body class="home-template page-template page-privacy-policy">
+
+
+    <div class="site-wrapper">
+        <div class="inner nav-wrapper">
+      <div class="site-header-content">
+          <a href="/">
+            <div class="site-title">
+              <img class="site-logo" src="/content/images/size/w600/2021/06/Customer_Success_Collective-Colour--4-.png" alt="Customer Success Collective" />
+            </div>
+          </a>
+      </div>
+      <nav class="site-nav">
+    <div class="site-nav-left">
+        <div class="nav-login">
+              <a class="button primary small" href="/signin/">Log in</a>
+              <a class="button primary small button-green" href="/signup/">Membership</a>
+        </div>
+        <div class="nav-icons" data-ghost-search>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+        </div>
+        <!-- <div class="nav-icons nav-mobile">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+        </div> -->
+        <div class="modular-navigation"></div>
+        <div class="nav-icons nav-mobile-modular">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+        </div>
+
+        <!-- 
+            <ul class="nav">
+    <li class="nav-customer-success-collective"><a href="https://customersuccesscollective.com/">Customer success collective</a></li>
+</ul>
+
+         -->
+    </div>
+</nav>
+
+
+<script>
+ if (window.topNav) {
+   document.addEventListener('mouseover', (evt) => {
+     let targetElement = evt.target;
+     do {
+         if (targetElement instanceof Element && targetElement.closest('.site-nav-left') || targetElement instanceof Element && targetElement.closest('.modular-navigation') || targetElement instanceof Element && targetElement.classList.contains('modular-navigation-main') || targetElement instanceof Element && targetElement.classList.contains('modular-navigation')) {
+             return;
+         }
+         targetElement = targetElement.parentNode;
+     } while (targetElement);
+     const thisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-wrapper');
+     const selectAllThisElementChildrenWrapperSub = document.querySelectorAll('.modular-navigation-item-sub-wrapper-active');
+     if (!document.querySelector('.modular-navigation-item-wrapper-active')) return;
+     for (let i = 0; i < thisElementChildrenWrapper.length; i++) {
+       thisElementChildrenWrapper[i].classList.remove('modular-navigation-item-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapper[i].style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+           selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+           selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+         }
+       }, 10);
+     }
+     const thisElementChildrenWrapperThird = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+     const selectAllThisElementChildrenWrapperSubThird = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper-active');
+     for (let i = 0; i < thisElementChildrenWrapperThird.length; i++) {
+       thisElementChildrenWrapperThird[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapperThird[i].style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSubThird.length; c++) {
+           selectAllThisElementChildrenWrapperSubThird[c].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+           selectAllThisElementChildrenWrapperSubThird[c].style.display = 'none';
+         }
+       }, 10);
+     }
+   });
+   const getModularNavigation = document.querySelector('.modular-navigation');
+   function modularNavHandleOnClik(event) {
+     const thisElement = event.target;
+     const thisElementParent = thisElement.parentNode;
+     const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-wrapper');
+     const selectAllThisElementChildrenWrapperSub = document.querySelectorAll('.modular-navigation-item-sub-wrapper-active');
+     if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-wrapper-active')) {
+       thisElementChildrenWrapper.classList.remove('modular-navigation-item-wrapper-active');
+       setTimeout(() => {
+         thisElementChildrenWrapper.style.display = 'none';
+         for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+           selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+           selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+         }
+       }, 310);
+       return;
+     }
+     const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-wrapper');
+     for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+       if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-wrapper-active')) {
+         selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-wrapper-active');
+         setTimeout(() => {
+           selectAllThisElementChildrenWrapper[i].style.display = 'none';
+           for (let c = 0; c < selectAllThisElementChildrenWrapperSub.length; c++) {
+             selectAllThisElementChildrenWrapperSub[c].classList.remove('modular-navigation-item-sub-wrapper-active');
+             selectAllThisElementChildrenWrapperSub[c].style.display = 'none';
+           }
+         }, 310);
+       }
+     }
+     setTimeout(() => {
+       thisElementChildrenWrapper.style.display = 'flex';
+       setTimeout(() => {
+         thisElementChildrenWrapper.classList.add('modular-navigation-item-wrapper-active');
+       }, 1);
+     }, 10);
+   }
+   function modularNavHandleOnClikSub(event) {
+     const thisElement = event.target;
+     const thisElementParent = thisElement.classList.contains('modular-navigation-item') ? thisElement : thisElement.parentNode;
+     const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-sub-wrapper');
+     if (thisElementChildrenWrapper) {
+       if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-sub-wrapper-active')) {
+         thisElementChildrenWrapper.classList.remove('modular-navigation-item-sub-wrapper-active');
+         setTimeout(() => {
+           thisElementChildrenWrapper.style.display = 'none';
+         }, 310);
+         return;
+       }
+       const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-wrapper');
+       for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+         if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-wrapper-active')) {
+           selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-wrapper-active');
+           setTimeout(() => {
+             selectAllThisElementChildrenWrapper[i].style.display = 'none';
+           }, 310);
+         }
+       }
+         setTimeout(() => {
+           thisElementChildrenWrapper.style.display = 'flex';
+           setTimeout(() => {
+             thisElementChildrenWrapper.classList.add('modular-navigation-item-sub-wrapper-active');
+           }, 1);
+         }, 10);
+     }
+     const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+     for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+       if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+         selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+         setTimeout(() => {
+           selectAllThisElementChildrenWrapper[i].style.display = 'none';
+         }, 310);
+       }
+     }
+   }
+      function modularNavHandleOnClikSubThird(event) {
+        const thisElement = event.target;
+        const thisElementParent = thisElement.classList.contains('modular-navigation-item') ? thisElement : thisElement.parentNode;
+        const thisElementChildrenWrapper = thisElementParent.querySelector('.modular-navigation-item-sub-third-wrapper');
+        if (thisElementChildrenWrapper) {
+          if (thisElementChildrenWrapper.classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+            thisElementChildrenWrapper.classList.remove('modular-navigation-item-sub-third-wrapper-active');
+            setTimeout(() => {
+              thisElementChildrenWrapper.style.display = 'none';
+            }, 310);
+            return;
+          }
+          const selectAllThisElementChildrenWrapper = document.querySelectorAll('.modular-navigation-item-sub-third-wrapper');
+          for (let i = 0; i < selectAllThisElementChildrenWrapper.length; i++) {
+            if (selectAllThisElementChildrenWrapper[i].classList.contains('modular-navigation-item-sub-third-wrapper-active')) {
+              selectAllThisElementChildrenWrapper[i].classList.remove('modular-navigation-item-sub-third-wrapper-active');
+              setTimeout(() => {
+                selectAllThisElementChildrenWrapper[i].style.display = 'none';
+              }, 310);
+            }
+          }
+          setTimeout(() => {
+            thisElementChildrenWrapper.style.display = 'flex';
+            setTimeout(() => {
+              thisElementChildrenWrapper.classList.add('modular-navigation-item-sub-third-wrapper-active');
+            }, 1);
+          }, 10);
+        }
+      }
+   for (let i = 0; i < topNav.length; i++) {
+     const thisModNav = topNav[i];
+     const thisModNavWrapper= document.createElement('div');
+     thisModNavWrapper.classList.add('modular-navigation-wrapper');
+     if (thisModNav.itemList)  {
+       const thisModNavMain = document.createElement('div');
+       thisModNavMain.classList.add('modular-navigation-main');
+       thisModNavMain.classList.add('modular-navigation-main-width-list');
+       if (thisModNav.class) thisModNavMain.classList.add(thisModNav.class);
+       thisModNavMain.textContent = thisModNav.name ? thisModNav.name : '';
+       thisModNavWrapper.appendChild(thisModNavMain);
+       thisModNavMain.addEventListener('mouseenter', modularNavHandleOnClik);
+       const thisModItemWrapper = document.createElement('div');
+       thisModItemWrapper.classList.add('modular-navigation-item-wrapper');
+       for (var b = 0; b < thisModNav.itemList.length; b++) {
+         const thisModItem = thisModNav.itemList[b];
+         if (thisModItem.itemList) {
+         }
+         if (!thisModItem.url && !thisModItem.itemList) continue;
+         const thisModNavItem = thisModItem.itemList ? document.createElement('div') : document.createElement('a');
+         thisModNavItem.classList.add('modular-navigation-item');
+         thisModNavItem.classList.add('modular-navigation-item-list-wrapper');
+         if (thisModItem.class) thisModNavItem.classList.add(thisModItem.class);
+         if (thisModItem.url) thisModNavItem.setAttribute('href', thisModItem.url);
+         if (thisModItem.target) thisModNavItem.setAttribute('target', thisModItem.target);
+         const thisModNavHtext = document.createElement('h5');
+         thisModNavHtext.textContent = thisModItem.name ? thisModItem.name : '';
+         thisModNavItem.appendChild(thisModNavHtext);
+         if (thisModItem.desc) {
+           const thisModNavPtext = document.createElement('p');
+           thisModNavPtext.textContent = thisModItem.desc;
+           thisModNavItem.appendChild(thisModNavPtext);
+         }
+         if (thisModItem.itemList) {
+           const thisModNavItemSubWrapper = document.createElement('div');
+           thisModNavItemSubWrapper.classList.add('modular-navigation-item-sub-wrapper');
+           for (let d = 0; d < thisModItem.itemList.length; d++) {
+             const thisModItemSub = thisModItem.itemList[d];
+             const thisModNavItemSub = thisModItemSub.itemList ? document.createElement('div') : document.createElement('a');
+             thisModNavItemSub.classList.add('modular-navigation-item-third');
+             thisModNavItemSub.classList.add('modular-navigation-item');
+             if (thisModItemSub.class) thisModNavItemSub.classList.add(thisModItemSub.class);
+             if (thisModItemSub.url) thisModNavItemSub.setAttribute('href', thisModItemSub.url);
+             if (thisModItemSub.target) thisModNavItemSub.setAttribute('target', thisModItemSub.target);
+             const thisModNavHtext = document.createElement('h6');
+             thisModNavHtext.textContent = thisModItemSub.name ? thisModItemSub.name : '';
+             thisModNavItemSub.appendChild(thisModNavHtext);
+             if (thisModItemSub.desc) {
+               const thisModNavPtext = document.createElement('p');
+               thisModNavPtext.textContent = thisModItemSub.desc;
+               thisModNavItemSub.appendChild(thisModNavPtext);
+             }
+             thisModNavItemSubWrapper.appendChild(thisModNavItemSub);
+           }
+           thisModNavItem.appendChild(thisModNavItemSubWrapper);
+         }
+         thisModItemWrapper.appendChild(thisModNavItem);
+       }
+       thisModNavWrapper.appendChild(thisModItemWrapper);
+     } else {
+       const thisModNavMain = document.createElement('a');
+       thisModNavMain.classList.add('modular-navigation-main');
+       if (thisModNav.class) thisModNavMain.classList.add(thisModNav.class);
+       thisModNavMain.setAttribute('href', thisModNav.url);
+       if (thisModNav.target) thisModNavMain.setAttribute('target', thisModNav.target);
+       thisModNavMain.textContent = thisModNav.name ? thisModNav.name : '';
+       thisModNavWrapper.appendChild(thisModNavMain);
+     }
+     getModularNavigation.appendChild(thisModNavWrapper);
+   }
+   const getModularNavMobile = document.querySelector('.nav-mobile-modular');
+   const thisModNavClose = document.createElement('div');
+   thisModNavClose.classList.add('modular-navigation-close');
+   thisModNavClose.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>';
+   getModularNavigation.appendChild(thisModNavClose);
+   thisModNavClose.addEventListener('click', function() {
+     getModularNavigation.classList.remove('modular-navigation-visible');
+   });
+   getModularNavMobile.addEventListener('click', function() {
+     getModularNavigation.classList.add('modular-navigation-visible');
+   });
+ }
+  if (document.querySelector('.nav-jobs a')) document.querySelector('.nav-jobs a').setAttribute('target', '_blank');
+  if (document.querySelector('.nav-pmm-q-a a')) document.querySelector('.nav-pmm-q-a a').setAttribute('target', '_blank');
+</script>  </div>
+  <div class="search-results">
+    <div class="search-results-close">
+      x close
+    </div>
+    <div id="search-field-wrapper">
+       <form>
+      <input id="search-field" class="st-default-search-input" placeholder="Start typing..."/>
+      </form>
+    </div>
+
+    <div id="results" class="st-search-container">Nothing to display...</div>
+    <div class="search-tags">
+      <div class="search-tags-view">or view by:</div>
+        <a href="/tag/customer-retention/">Customer retention</a>
+        <a href="/tag/customer-success-metrics">Customer success metrics</a>
+        <a href="/tag/customer-success-strategies">Customer success strategies</a>
+        <a href="/tag/churn-rate">Churn rate</a>
+        <a href="/tag/customer-marketing/">Customer marketing</a>
+        <a href="/tag/scaling-customer-success/">Scaling customer success</a>
+    </div>
+  </div>
+  <div class="social-links social-links-fixed">
+    <a href="https://www.linkedin.com/company/customersuccesscollective/" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g>
+	<g>
+		<path class="st0" d="M18.5,0h-17C0.7,0,0,0.6,0,1.4v17.1C0,19.4,0.7,20,1.5,20h17c0.8,0,1.5-0.6,1.5-1.4V1.4C20,0.6,19.3,0,18.5,0
+			z M5.9,17H3V7.5h3V17z M4.4,6.2c-1,0-1.7-0.8-1.7-1.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.2,5.4,5.4,6.2,4.4,6.2z
+			 M17,17h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5V17h-3V7.5h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17z"
+			/>
+	</g>
+</g>
+</svg>
+</a>
+    <a href="https://twitter.com/_cscollective" target="_blank"><?xml version="1.0" encoding="iso-8859-1"?>
+<svg viewBox="0 0 24 24" aria-hidden="true"
+    class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp">
+    <g>
+        <path
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+        </path>
+    </g>
+</svg></a>
+    <a href="https://www.facebook.com/customersuccesscollective"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 10.385 20" style="enable-background:new 0 0 10.385 20;" xml:space="preserve">
+<g>
+	<path id="f_1_" d="M6.742,20v-9.122h3.061l0.459-3.556h-3.52v-2.27c0-1.029,0.285-1.731,1.762-1.731
+		l1.882-0.001V0.139C10.06,0.097,8.943,0,7.643,0C4.928,0,3.07,1.657,3.07,4.699v2.622H0v3.556h3.07V20H6.742z"/>
+</g>
+</svg>
+</a>
+    <a href="https://www.tiktok.com/@cs_collective?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg></a>
+    <a href="https://www.youtube.com/@customersuccesscollective">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M180.32,53.36A22.12,22.12,0,0,0,164.76,37.7C151,34,96,34,96,34s-55,0-68.76,3.7A22.12,22.12,0,0,0,11.68,53.36C8,67.18,8,96,8,96s0,28.82,3.68,42.64A22.12,22.12,0,0,0,27.24,154.3C41,158,96,158,96,158s55,0,68.76-3.7a22.12,22.12,0,0,0,15.56-15.66C184,124.82,184,96,184,96S184,67.18,180.32,53.36ZM78,122.17V69.83L124,96Z" transform="translate(-8 -34)"/></svg>
+</a>
+    <a href="https://customersuccesscollective.com/customer-success-community/"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 80 80" width="20px" height="160px"><path d="M 27 7 C 26.449 7 26 7.449 26 8 C 26 8.551 26.449 9 27 9 C 27.551 9 28 8.551 28 8 C 28 7.449 27.551 7 27 7 z M 40 7 C 35.592874 7 32 10.592874 32 15 C 32 17.935513 33.631447 20.452449 36 21.841797 L 36 25 C 36 26.37066 36.94553 27.528978 38.210938 27.880859 C 38.537126 28.542191 39.212398 29 40 29 C 40.787602 29 41.462874 28.542191 41.789062 27.880859 C 43.05447 27.528978 44 26.37066 44 25 L 44 21.841797 C 46.088277 20.616853 47.531146 18.502112 47.853516 16 L 48 16 L 48 15 C 48 10.592874 44.407126 7 40 7 z M 53 7 C 52.449 7 52 7.449 52 8 C 52 8.551 52.449 9 53 9 C 53.551 9 54 8.551 54 8 C 54 7.449 53.551 7 53 7 z M 30 9 C 29.449 9 29 9.449 29 10 C 29 10.551 29.449 11 30 11 C 30.551 11 31 10.551 31 10 C 31 9.449 30.551 9 30 9 z M 40 9 C 43.326874 9 46 11.673126 46 15 C 46 17.397701 44.596351 19.449486 42.570312 20.414062 L 42 20.683594 L 42 22 L 40 22 L 40 24 L 42 24 L 42 25 C 42 25.56503 41.56503 26 41 26 L 39 26 C 38.43497 26 38 25.56503 38 25 L 38 20.683594 L 37.429688 20.414062 C 35.403649 19.449488 34 17.397701 34 15 C 34 11.673126 36.673126 9 40 9 z M 50 9 C 49.449 9 49 9.449 49 10 C 49 10.551 49.449 11 50 11 C 50.551 11 51 10.551 51 10 C 51 9.449 50.551 9 50 9 z M 25 14 C 24.449 14 24 14.449 24 15 C 24 15.551 24.449 16 25 16 C 25.551 16 26 15.551 26 15 C 26 14.449 25.551 14 25 14 z M 29 14 C 28.449 14 28 14.449 28 15 C 28 15.551 28.449 16 29 16 C 29.551 16 30 15.551 30 15 C 30 14.449 29.551 14 29 14 z M 51 14 C 50.449 14 50 14.449 50 15 C 50 15.551 50.449 16 51 16 C 51.551 16 52 15.551 52 15 C 52 14.449 51.551 14 51 14 z M 55 14 C 54.449 14 54 14.449 54 15 C 54 15.551 54.449 16 55 16 C 55.551 16 56 15.551 56 15 C 56 14.449 55.551 14 55 14 z M 30 19 C 29.449 19 29 19.449 29 20 C 29 20.551 29.449 21 30 21 C 30.551 21 31 20.551 31 20 C 31 19.449 30.551 19 30 19 z M 50 19 C 49.449 19 49 19.449 49 20 C 49 20.551 49.449 21 50 21 C 50.551 21 51 20.551 51 20 C 51 19.449 50.551 19 50 19 z M 27 21 C 26.449 21 26 21.449 26 22 C 26 22.551 26.449 23 27 23 C 27.551 23 28 22.551 28 22 C 28 21.449 27.551 21 27 21 z M 53 21 C 52.449 21 52 21.449 52 22 C 52 22.551 52.449 23 53 23 C 53.551 23 54 22.551 54 22 C 54 21.449 53.551 21 53 21 z M 18 28 C 13.592874 28 10 31.592874 10 36 C 10 40.407126 13.592874 44 18 44 C 22.407126 44 26 40.407126 26 36 L 26 35 L 25.796875 35 C 25.282076 31.084164 22.052768 28 18 28 z M 62 28 C 57.592874 28 54 31.592874 54 36 C 54 40.407126 57.592874 44 62 44 C 62.275445 44 62.548001 43.986375 62.816406 43.958984 C 64.695246 43.767248 66.384373 42.920314 67.652344 41.652344 C 69.101453 40.203235 70 38.203563 70 36 L 70 35 L 69.796875 35 C 69.282076 31.084164 66.052768 28 62 28 z M 18 30 C 21.326874 30 24 32.673126 24 36 C 24 39.326874 21.326874 42 18 42 C 14.673126 42 12 39.326874 12 36 C 12 32.673126 14.673126 30 18 30 z M 62 30 C 65.326874 30 68 32.673126 68 36 C 68 39.326874 65.326874 42 62 42 C 58.673126 42 56 39.326874 56 36 C 56 35.79207 56.010859 35.587095 56.03125 35.384766 C 56.337112 32.349828 58.881056 30 62 30 z M 40 35 C 35.041484 35 31 39.041484 31 44 C 31 48.958516 35.041484 53 40 53 C 44.958516 53 49 48.958516 49 44 L 49 43 L 48.796875 43 C 48.275261 38.532432 44.604108 35 40 35 z M 40 37 C 43.877484 37 47 40.122516 47 44 C 47 47.877484 43.877484 51 40 51 C 36.122516 51 33 47.877484 33 44 C 33 40.122516 36.122516 37 40 37 z M 18 46 C 10.306206 46 4 52.306206 4 60 L 4 64 L 26.269531 64 C 25.457834 65.84109 25 67.868987 25 70 L 25 74 L 55 74 L 55 71 L 55 70 C 55 67.868987 54.542166 65.84109 53.730469 64 L 76 64 L 76 60 C 76 52.306206 69.693794 46 62 46 C 55.158556 46 49.446319 50.988522 48.257812 57.503906 C 45.884282 55.926028 43.045242 55 40 55 C 36.954758 55 34.115718 55.926028 31.742188 57.503906 C 30.553681 50.988522 24.841444 46 18 46 z M 18 48 C 24.245162 48 29.37815 52.832416 29.921875 58.941406 C 28.934708 59.842395 28.067924 60.868215 27.347656 62 L 6 62 L 6 60 C 6 53.397794 11.397794 48 18 48 z M 62 48 C 68.602206 48 74 53.397794 74 60 L 74 62 L 52.652344 62 C 51.932076 60.868215 51.065292 59.842395 50.078125 58.941406 C 50.62185 52.832416 55.754838 48 62 48 z M 40 57 C 47.153388 57 53 62.846612 53 70 L 53 72 L 27 72 L 27 70 C 27 62.846612 32.846612 57 40 57 z M 8 58 C 7.449 58 7 58.449 7 59 C 7 59.551 7.449 60 8 60 C 8.551 60 9 59.551 9 59 C 9 58.449 8.551 58 8 58 z M 12 58 C 11.449 58 11 58.449 11 59 C 11 59.551 11.449 60 12 60 C 12.551 60 13 59.551 13 59 C 13 58.449 12.551 58 12 58 z M 16 58 C 15.449 58 15 58.449 15 59 C 15 59.551 15.449 60 16 60 C 16.551 60 17 59.551 17 59 C 17 58.449 16.551 58 16 58 z M 20 58 C 19.449 58 19 58.449 19 59 C 19 59.551 19.449 60 20 60 C 20.551 60 21 59.551 21 59 C 21 58.449 20.551 58 20 58 z M 24 58 C 23.449 58 23 58.449 23 59 C 23 59.551 23.449 60 24 60 C 24.551 60 25 59.551 25 59 C 25 58.449 24.551 58 24 58 z M 28 58 C 27.449 58 27 58.449 27 59 C 27 59.551 27.449 60 28 60 C 28.551 60 29 59.551 29 59 C 29 58.449 28.551 58 28 58 z M 52 58 C 51.449 58 51 58.449 51 59 C 51 59.551 51.449 60 52 60 C 52.551 60 53 59.551 53 59 C 53 58.449 52.551 58 52 58 z M 56 58 C 55.449 58 55 58.449 55 59 C 55 59.551 55.449 60 56 60 C 56.551 60 57 59.551 57 59 C 57 58.449 56.551 58 56 58 z M 60 58 C 59.449 58 59 58.449 59 59 C 59 59.551 59.449 60 60 60 C 60.551 60 61 59.551 61 59 C 61 58.449 60.551 58 60 58 z M 64 58 C 63.449 58 63 58.449 63 59 C 63 59.551 63.449 60 64 60 C 64.551 60 65 59.551 65 59 C 65 58.449 64.551 58 64 58 z M 68 58 C 67.449 58 67 58.449 67 59 C 67 59.551 67.449 60 68 60 C 68.551 60 69 59.551 69 59 C 69 58.449 68.551 58 68 58 z M 72 58 C 71.449 58 71 58.449 71 59 C 71 59.551 71.449 60 72 60 C 72.551 60 73 59.551 73 59 C 73 58.449 72.551 58 72 58 z M 30 68 C 29.449 68 29 68.449 29 69 C 29 69.551 29.449 70 30 70 C 30.551 70 31 69.551 31 69 C 31 68.449 30.551 68 30 68 z M 34 68 C 33.449 68 33 68.449 33 69 C 33 69.551 33.449 70 34 70 C 34.551 70 35 69.551 35 69 C 35 68.449 34.551 68 34 68 z M 38 68 C 37.449 68 37 68.449 37 69 C 37 69.551 37.449 70 38 70 C 38.551 70 39 69.551 39 69 C 39 68.449 38.551 68 38 68 z M 42 68 C 41.449 68 41 68.449 41 69 C 41 69.551 41.449 70 42 70 C 42.551 70 43 69.551 43 69 C 43 68.449 42.551 68 42 68 z M 46 68 C 45.449 68 45 68.449 45 69 C 45 69.551 45.449 70 46 70 C 46.551 70 47 69.551 47 69 C 47 68.449 46.551 68 46 68 z M 50 68 C 49.449 68 49 68.449 49 69 C 49 69.551 49.449 70 50 70 C 50.551 70 51 69.551 51 69 C 51 68.449 50.551 68 50 68 z"/></svg>
+</a>
+    <a href="https://feedly.com/i/subscription/feed/https://customersuccesscollective.com/rss/ " title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+  </div>
+
+        
+
+
+
+<main id="site-main" class="site-main outer">
+
+<div class="feature-post-wrapper">
+        <article class="post-full post ">
+
+
+            <section class="post-full-content">
+              <div class="post-content">
+                <header class="post-full-header">
+                    <h1 class="post-full-title">Privacy Policy</h1>
+                    <section class="post-full-meta">
+                    </section>
+                </header>
+
+
+
+
+                      <!--kg-card-begin: html--><a href="https://www.iubenda.com/privacy-policy/24731467?ref=customersuccesscollective.com" class="iubenda-white no-brand iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+<!--kg-card-end: html-->
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </section>
+
+        </article>
+</div>
+      <div class="sidebar-nav">
+
+  <div class="section-wrapper" style="margin-bottom: 4rem;">
+    <div class="section-title">
+      Subscribe for free
+    </div>
+
+    <section class="subscribe-form">
+
+  <p>Get industry insights</p>
+
+  <form data-members-form="subscribe">
+    <input data-members-email type="email" required="true" placeholder="youremail@example.com"/>
+    <br>
+    <button type="submit">Join</button>
+  </form>
+</section>
+
+  </div>
+
+
+  
+<div class="section-wrapper section-events-list-wrapper">
+  <div class="section-title">
+    Event List
+  </div>
+  <div class="section-events-list"></div>
+</div>
+
+
+
+<script>
+
+
+  var getEventListContainer = document.querySelector('.section-events-list');
+
+  if (getEventListContainer && typeof eventsList !== 'undefined' && eventsList) {
+    for (var i = 0; i < eventsList.length; i++) {
+
+      if (eventsList[i] && eventsList[i].title && eventsList[i].date && eventsList[i].location && eventsList[i].url) {
+        var eventListItemWrapper = document.createElement('a');
+        eventListItemWrapper.classList.add('section-events-item');
+        eventListItemWrapper.setAttribute('href', eventsList[i].url);
+        eventListItemWrapper.setAttribute('target', '_blank');
+
+        var eventListItemTitle = document.createElement('div');
+        eventListItemTitle.classList.add('section-events-title');
+        eventListItemTitle.innerHTML = eventsList[i].title;
+        eventListItemWrapper.appendChild(eventListItemTitle);
+
+        var eventListItemDate = document.createElement('div');
+        eventListItemDate.classList.add('section-events-date');
+        eventListItemDate.innerHTML = eventsList[i].date;
+        eventListItemWrapper.appendChild(eventListItemDate);
+
+        var eventListItemLocation = document.createElement('div');
+        eventListItemLocation.classList.add('section-events-location');
+        eventListItemLocation.innerHTML = eventsList[i].location;
+        eventListItemWrapper.appendChild(eventListItemLocation);
+
+        getEventListContainer.appendChild(eventListItemWrapper);
+
+      }
+
+    }
+  } else {
+    document.querySelector('.section-events-list-wrapper').style.display = 'none';
+  }
+
+
+
+</script>
+<!--
+  <div class="section-wrapper">
+    <div class="section-title">
+      Become an author
+    </div>
+
+    <section class="subscribe-form">
+  
+    <p>If you'd like to post content please request access</p>
+
+    <form action="https://www.getdrip.com/forms/24507411/submissions" method="post" data-drip-embedded-form="24507411" class="form-group">
+        <div>
+            <input  class="subscribe-email" type="email" id="drip-email" name="fields[email]" value="" placeholder="youremail@example.com" />
+        </div>
+
+      <div style="display: none;" aria-hidden="true">
+        <label for="website">Website</label><br />
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="false" value="" />
+      </div>
+      <div>
+        <button type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Request Access</button>
+      </div>
+    </form>
+
+</section>
+
+  </div> -->
+
+</div>
+
+</main>
+
+
+
+
+        
+<div class="footer">
+<div class="footer-wrapper">
+      <div class="site-footer-content">
+
+            <div class="site-footer-content-logo">
+              <a href="/">
+                <img src="/content/images/size/w600/2021/06/Customer_Success_Collective-Colour--4-.png" />
+              </a>
+            </div>
+
+            <div class="site-footer-content-title">
+              The Customer Success Collective is a community of forward-thinking CS enthusiasts, all rallied around one, shared goal: providing incredible customer experiences, 24/7.
+            </div>
+      </div>
+
+      <div class="site-footer-social social-links">
+        <a href="https://www.linkedin.com/company/customersuccesscollective/" target="_blank"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g>
+	<g>
+		<path class="st0" d="M18.5,0h-17C0.7,0,0,0.6,0,1.4v17.1C0,19.4,0.7,20,1.5,20h17c0.8,0,1.5-0.6,1.5-1.4V1.4C20,0.6,19.3,0,18.5,0
+			z M5.9,17H3V7.5h3V17z M4.4,6.2c-1,0-1.7-0.8-1.7-1.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.2,5.4,5.4,6.2,4.4,6.2z
+			 M17,17h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5V17h-3V7.5h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17z"
+			/>
+	</g>
+</g>
+</svg>
+</a>
+        <a href="https://twitter.com/_cscollective" target="_blank"><?xml version="1.0" encoding="iso-8859-1"?>
+<svg viewBox="0 0 24 24" aria-hidden="true"
+    class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp">
+    <g>
+        <path
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+        </path>
+    </g>
+</svg></a>
+        <a href="https://www.facebook.com/customersuccesscollective"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 10.385 20" style="enable-background:new 0 0 10.385 20;" xml:space="preserve">
+<g>
+	<path id="f_1_" d="M6.742,20v-9.122h3.061l0.459-3.556h-3.52v-2.27c0-1.029,0.285-1.731,1.762-1.731
+		l1.882-0.001V0.139C10.06,0.097,8.943,0,7.643,0C4.928,0,3.07,1.657,3.07,4.699v2.622H0v3.556h3.07V20H6.742z"/>
+</g>
+</svg>
+</a>
+        <a href="https://www.tiktok.com/@cs_collective?lang=en"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg></a>
+        <a href="https://www.youtube.com/@customersuccesscollective">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 124"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M180.32,53.36A22.12,22.12,0,0,0,164.76,37.7C151,34,96,34,96,34s-55,0-68.76,3.7A22.12,22.12,0,0,0,11.68,53.36C8,67.18,8,96,8,96s0,28.82,3.68,42.64A22.12,22.12,0,0,0,27.24,154.3C41,158,96,158,96,158s55,0,68.76-3.7a22.12,22.12,0,0,0,15.56-15.66C184,124.82,184,96,184,96S184,67.18,180.32,53.36ZM78,122.17V69.83L124,96Z" transform="translate(-8 -34)"/></svg>
+</a>
+        <a href="https://customersuccesscollective.com/customer-success-community/"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 80 80" width="20px" height="160px"><path d="M 27 7 C 26.449 7 26 7.449 26 8 C 26 8.551 26.449 9 27 9 C 27.551 9 28 8.551 28 8 C 28 7.449 27.551 7 27 7 z M 40 7 C 35.592874 7 32 10.592874 32 15 C 32 17.935513 33.631447 20.452449 36 21.841797 L 36 25 C 36 26.37066 36.94553 27.528978 38.210938 27.880859 C 38.537126 28.542191 39.212398 29 40 29 C 40.787602 29 41.462874 28.542191 41.789062 27.880859 C 43.05447 27.528978 44 26.37066 44 25 L 44 21.841797 C 46.088277 20.616853 47.531146 18.502112 47.853516 16 L 48 16 L 48 15 C 48 10.592874 44.407126 7 40 7 z M 53 7 C 52.449 7 52 7.449 52 8 C 52 8.551 52.449 9 53 9 C 53.551 9 54 8.551 54 8 C 54 7.449 53.551 7 53 7 z M 30 9 C 29.449 9 29 9.449 29 10 C 29 10.551 29.449 11 30 11 C 30.551 11 31 10.551 31 10 C 31 9.449 30.551 9 30 9 z M 40 9 C 43.326874 9 46 11.673126 46 15 C 46 17.397701 44.596351 19.449486 42.570312 20.414062 L 42 20.683594 L 42 22 L 40 22 L 40 24 L 42 24 L 42 25 C 42 25.56503 41.56503 26 41 26 L 39 26 C 38.43497 26 38 25.56503 38 25 L 38 20.683594 L 37.429688 20.414062 C 35.403649 19.449488 34 17.397701 34 15 C 34 11.673126 36.673126 9 40 9 z M 50 9 C 49.449 9 49 9.449 49 10 C 49 10.551 49.449 11 50 11 C 50.551 11 51 10.551 51 10 C 51 9.449 50.551 9 50 9 z M 25 14 C 24.449 14 24 14.449 24 15 C 24 15.551 24.449 16 25 16 C 25.551 16 26 15.551 26 15 C 26 14.449 25.551 14 25 14 z M 29 14 C 28.449 14 28 14.449 28 15 C 28 15.551 28.449 16 29 16 C 29.551 16 30 15.551 30 15 C 30 14.449 29.551 14 29 14 z M 51 14 C 50.449 14 50 14.449 50 15 C 50 15.551 50.449 16 51 16 C 51.551 16 52 15.551 52 15 C 52 14.449 51.551 14 51 14 z M 55 14 C 54.449 14 54 14.449 54 15 C 54 15.551 54.449 16 55 16 C 55.551 16 56 15.551 56 15 C 56 14.449 55.551 14 55 14 z M 30 19 C 29.449 19 29 19.449 29 20 C 29 20.551 29.449 21 30 21 C 30.551 21 31 20.551 31 20 C 31 19.449 30.551 19 30 19 z M 50 19 C 49.449 19 49 19.449 49 20 C 49 20.551 49.449 21 50 21 C 50.551 21 51 20.551 51 20 C 51 19.449 50.551 19 50 19 z M 27 21 C 26.449 21 26 21.449 26 22 C 26 22.551 26.449 23 27 23 C 27.551 23 28 22.551 28 22 C 28 21.449 27.551 21 27 21 z M 53 21 C 52.449 21 52 21.449 52 22 C 52 22.551 52.449 23 53 23 C 53.551 23 54 22.551 54 22 C 54 21.449 53.551 21 53 21 z M 18 28 C 13.592874 28 10 31.592874 10 36 C 10 40.407126 13.592874 44 18 44 C 22.407126 44 26 40.407126 26 36 L 26 35 L 25.796875 35 C 25.282076 31.084164 22.052768 28 18 28 z M 62 28 C 57.592874 28 54 31.592874 54 36 C 54 40.407126 57.592874 44 62 44 C 62.275445 44 62.548001 43.986375 62.816406 43.958984 C 64.695246 43.767248 66.384373 42.920314 67.652344 41.652344 C 69.101453 40.203235 70 38.203563 70 36 L 70 35 L 69.796875 35 C 69.282076 31.084164 66.052768 28 62 28 z M 18 30 C 21.326874 30 24 32.673126 24 36 C 24 39.326874 21.326874 42 18 42 C 14.673126 42 12 39.326874 12 36 C 12 32.673126 14.673126 30 18 30 z M 62 30 C 65.326874 30 68 32.673126 68 36 C 68 39.326874 65.326874 42 62 42 C 58.673126 42 56 39.326874 56 36 C 56 35.79207 56.010859 35.587095 56.03125 35.384766 C 56.337112 32.349828 58.881056 30 62 30 z M 40 35 C 35.041484 35 31 39.041484 31 44 C 31 48.958516 35.041484 53 40 53 C 44.958516 53 49 48.958516 49 44 L 49 43 L 48.796875 43 C 48.275261 38.532432 44.604108 35 40 35 z M 40 37 C 43.877484 37 47 40.122516 47 44 C 47 47.877484 43.877484 51 40 51 C 36.122516 51 33 47.877484 33 44 C 33 40.122516 36.122516 37 40 37 z M 18 46 C 10.306206 46 4 52.306206 4 60 L 4 64 L 26.269531 64 C 25.457834 65.84109 25 67.868987 25 70 L 25 74 L 55 74 L 55 71 L 55 70 C 55 67.868987 54.542166 65.84109 53.730469 64 L 76 64 L 76 60 C 76 52.306206 69.693794 46 62 46 C 55.158556 46 49.446319 50.988522 48.257812 57.503906 C 45.884282 55.926028 43.045242 55 40 55 C 36.954758 55 34.115718 55.926028 31.742188 57.503906 C 30.553681 50.988522 24.841444 46 18 46 z M 18 48 C 24.245162 48 29.37815 52.832416 29.921875 58.941406 C 28.934708 59.842395 28.067924 60.868215 27.347656 62 L 6 62 L 6 60 C 6 53.397794 11.397794 48 18 48 z M 62 48 C 68.602206 48 74 53.397794 74 60 L 74 62 L 52.652344 62 C 51.932076 60.868215 51.065292 59.842395 50.078125 58.941406 C 50.62185 52.832416 55.754838 48 62 48 z M 40 57 C 47.153388 57 53 62.846612 53 70 L 53 72 L 27 72 L 27 70 C 27 62.846612 32.846612 57 40 57 z M 8 58 C 7.449 58 7 58.449 7 59 C 7 59.551 7.449 60 8 60 C 8.551 60 9 59.551 9 59 C 9 58.449 8.551 58 8 58 z M 12 58 C 11.449 58 11 58.449 11 59 C 11 59.551 11.449 60 12 60 C 12.551 60 13 59.551 13 59 C 13 58.449 12.551 58 12 58 z M 16 58 C 15.449 58 15 58.449 15 59 C 15 59.551 15.449 60 16 60 C 16.551 60 17 59.551 17 59 C 17 58.449 16.551 58 16 58 z M 20 58 C 19.449 58 19 58.449 19 59 C 19 59.551 19.449 60 20 60 C 20.551 60 21 59.551 21 59 C 21 58.449 20.551 58 20 58 z M 24 58 C 23.449 58 23 58.449 23 59 C 23 59.551 23.449 60 24 60 C 24.551 60 25 59.551 25 59 C 25 58.449 24.551 58 24 58 z M 28 58 C 27.449 58 27 58.449 27 59 C 27 59.551 27.449 60 28 60 C 28.551 60 29 59.551 29 59 C 29 58.449 28.551 58 28 58 z M 52 58 C 51.449 58 51 58.449 51 59 C 51 59.551 51.449 60 52 60 C 52.551 60 53 59.551 53 59 C 53 58.449 52.551 58 52 58 z M 56 58 C 55.449 58 55 58.449 55 59 C 55 59.551 55.449 60 56 60 C 56.551 60 57 59.551 57 59 C 57 58.449 56.551 58 56 58 z M 60 58 C 59.449 58 59 58.449 59 59 C 59 59.551 59.449 60 60 60 C 60.551 60 61 59.551 61 59 C 61 58.449 60.551 58 60 58 z M 64 58 C 63.449 58 63 58.449 63 59 C 63 59.551 63.449 60 64 60 C 64.551 60 65 59.551 65 59 C 65 58.449 64.551 58 64 58 z M 68 58 C 67.449 58 67 58.449 67 59 C 67 59.551 67.449 60 68 60 C 68.551 60 69 59.551 69 59 C 69 58.449 68.551 58 68 58 z M 72 58 C 71.449 58 71 58.449 71 59 C 71 59.551 71.449 60 72 60 C 72.551 60 73 59.551 73 59 C 73 58.449 72.551 58 72 58 z M 30 68 C 29.449 68 29 68.449 29 69 C 29 69.551 29.449 70 30 70 C 30.551 70 31 69.551 31 69 C 31 68.449 30.551 68 30 68 z M 34 68 C 33.449 68 33 68.449 33 69 C 33 69.551 33.449 70 34 70 C 34.551 70 35 69.551 35 69 C 35 68.449 34.551 68 34 68 z M 38 68 C 37.449 68 37 68.449 37 69 C 37 69.551 37.449 70 38 70 C 38.551 70 39 69.551 39 69 C 39 68.449 38.551 68 38 68 z M 42 68 C 41.449 68 41 68.449 41 69 C 41 69.551 41.449 70 42 70 C 42.551 70 43 69.551 43 69 C 43 68.449 42.551 68 42 68 z M 46 68 C 45.449 68 45 68.449 45 69 C 45 69.551 45.449 70 46 70 C 46.551 70 47 69.551 47 69 C 47 68.449 46.551 68 46 68 z M 50 68 C 49.449 68 49 68.449 49 69 C 49 69.551 49.449 70 50 70 C 50.551 70 51 69.551 51 69 C 51 68.449 50.551 68 50 68 z"/></svg>
+</a>
+        <a href="https://feedly.com/i/subscription/feed/https://customersuccesscollective.com/rss/ " title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+      </div>
+
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          ABOUT
+        </div>
+        <ul role="menu">
+            <li class="nav-home nav-current" role="menuitem"><a href="/create-contribute/">Contribute</a></li>
+            <li class="nav-tag" role="menuitem"><a href="/partner-with-us">Media Guide</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/about">Mission</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/privacy-policy">Privacy Policy</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/terms-and-conditions">Terms of Service</a></li>
+
+        </ul>
+      </div>
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          RESOURCES
+        </div>
+        <ul role="menu">
+            <li class="nav-tag" role="menuitem"><a href="/articles">Articles</a></li>
+            <li class="nav-tag" role="menuitem"><a href="/customer-success-newsletter/">Newsletter</a></li>
+            <li class="nav-home nav-current" role="menuitem"><a href="#">Podcasts</a></li>
+            <li class="nav-tag" role="menuitem"><a href="#">Reports</a></li>
+        </ul>
+      </div>
+      <div class="site-footer-links">
+        <div class="site-footer-links-title">
+          GENERAL
+        </div>
+        <ul role="menu">
+            <li class="nav-tag" role="menuitem"><a href="/tag/events" target="_blank">Events</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="https://www.customersuccesscollective.com/signup/">Membership</a></li>
+            <li class="nav-advisory-board" role="menuitem"><a href="/customer-success-community/">Community</a></li>
+        </ul>
+      </div>
+
+      <div class="site-footer-categories">
+        <div class="site-footer-categories-title">
+          Learn
+        </div>
+        <a href="/tag/customer-retention/">Customer retention</a>
+        <a href="/tag/customer-success-metrics">Customer success metrics</a>
+        <a href="/tag/customer-success-strategies">Customer success strategies</a>
+        <a href="/tag/churn-rate">Churn rate</a>
+        <a href="/tag/customer-marketing/">Customer marketing</a>
+        <a href="/tag/scaling-customer-success/">Scaling customer success</a>
+      </div>
+
+  </div>
+</div>
+
+
+    </div>
+
+    <!--  -->
+
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-3c527d73-3a8d-4bde-b2eb-2af15291ff3a"></div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTR9HS2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script type="text/javascript">
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '649525905');
+    vgo('setTrackByDefault', true);
+
+    vgo('process');
+</script>
+
+<script>
+	var beamer_config = {
+		product_id : 'YZQKfrAI47007', //DO NOT CHANGE: This is your product code on Beamer
+        selector : '.nav-whats-new'
+	};
+</script>
+<script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
+
+<!-- khalil test code - start -->
+<script>
+    
+    (function() {
+        function attachClickListeners(iframe) {
+            const frameContent = iframe.contentDocument;
+            const toggleParent = frameContent.querySelector(".gh-portal-products-pricetoggle");
+
+            if(!toggleParent) {
+                console.error("Could not find any toggle parent");
+                return;
+            }
+            
+            toggleParent.addEventListener("click", function (event) {
+                if (event.target.matches(".gh-portal-btn")) {
+                    setTimeout(function () {
+                        setPortalPricing(iframe);
+                    }, 30);
+                }
+            });
+        }
+
+        function setPortalPricing(iframe) {
+            const frameContent = iframe.contentDocument;
+            const productCards = frameContent.querySelectorAll(".gh-portal-product-card");
+
+            if(!productCards.length) {
+                console.error("Could not find any product cards");
+                return;
+            }
+
+            // Cache the active buttons
+            const monthlyBtnActive = frameContent.querySelector('[data-test-button="switch-monthly"].gh-portal-btn.active') != null;
+            const yearlyBtnActive = frameContent.querySelector('[data-test-button="switch-yearly"].gh-portal-btn.active') != null;
+
+            // Map for product display mode
+            const productDisplayMode = {
+                'Pro+ membership': monthlyBtnActive ? 'none' : 'flex',
+                'Free': yearlyBtnActive ? 'none' : 'flex'
+            };
+
+            productCards.forEach(function (element) {
+                const productNameElement = element.querySelector(".gh-portal-product-name");
+
+                if(!productNameElement) {
+                    console.error("Could not find product name element in ", element);
+                    return;
+                }
+
+                const productName = productNameElement.textContent;
+                console.log("productName", productName);
+
+                element.style.display = productDisplayMode[productName] || 'flex';
+            });
+        }
+
+        let intervalId;
+
+        function callPortalIframe() {
+            let portalIframe = document.querySelector("#ghost-portal-root iframe");
+
+            if (portalIframe) {
+                portalIframe.addEventListener('load', function() {
+                    setPortalPricing(portalIframe);
+                    attachClickListeners(portalIframe);
+                    console.log("Pricing set and listeners attached");
+                    
+                    // listen to event click on button
+                    const viewPlansButton = portalIframe.contentDocument.querySelector(
+                    '.gh-portal-btn-main.gh-portal-btn-primary[data-test-button="view-plans"]'
+                  	);
+                    
+                    if (viewPlansButton) {
+                    	console.log(viewPlansButton);
+                        console.log("viewPlansButton was found!");
+                        clearInterval(intervalId); // Stop checking once the button is found
+                        
+                        viewPlansButton.addEventListener("click", function (event) {
+                          	console.log("viewPlansButton was clicked!");
+                            setTimeout(function () {
+                                setPortalPricing(portalIframe);
+                    			attachClickListeners(portalIframe);
+                        	}, 30);
+                          	
+                        });
+                        
+                     } else {
+                        console.log("viewPlansButton was not found on the page");
+                        console.log(viewPlansButton);
+                     }
+                    
+                    const changePlansButton = portalIframe.contentDocument.querySelector('.gh-portal-btn.gh-portal-btn-list[data-test-button="change-plan"]');
+
+                    if (changePlansButton) {
+                    	console.log(changePlansButton);
+                        console.log("changePlansButton was found!");
+                        clearInterval(intervalId); // Stop checking once the button is found
+                        
+                        changePlansButton.addEventListener("click", function (event) {
+                          	console.log("changePlansButton was clicked!");
+                            setTimeout(function () {
+                                setPortalPricing(portalIframe);
+                    			attachClickListeners(portalIframe);
+                        	}, 30);
+                          	
+                        });
+                        
+                     } else {
+                        console.log("changePlansButton was not found on the page");
+                        console.log(changePlansButton);
+                     }
+                    
+                    if(intervalId) {
+                        clearInterval(intervalId);
+                        intervalId = null;
+                    }
+                });
+            } else {
+                console.error("Could not find #ghost-portal-root iframe, retrying...");
+
+                if (!intervalId) {
+                    intervalId = setInterval(callPortalIframe, 1000);
+                }
+            }
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("DOM fully loaded");
+            
+            let currentUrl = window.location.href;
+            let link = document.querySelector('a[href="https://www.customersuccesscollective.com/#/portal/signup/"]');
+            
+            if(link){
+                link.addEventListener('click', function(event) {
+                    console.log('Link was clicked!');
+                    callPortalIframe();
+                });
+            } else {
+                console.log('The link was not found on the page');
+            }
+            if (
+                currentUrl === "https://www.customersuccesscollective.com/#/portal/signup/" || 
+                currentUrl === "https://www.customersuccesscollective.com/#/portal/account/plans/"
+            ) {
+                callPortalIframe();
+                console.log("You are on the signup page");
+            } else if (
+                currentUrl === "https://www.customersuccesscollective.com/#/portal" || 
+                currentUrl === "https://www.customersuccesscollective.com/account-free/#/portal" || 
+                currentUrl === "https://www.customersuccesscollective.com/pro-plus-membership-dashboard/#/portal" || 
+                currentUrl === "https://www.customersuccesscollective.com/account/#/portal"
+            ) {
+                callPortalIframe();
+                console.log("You are on the portal/viewplans page");
+            } else {
+                console.log("You are not on the signup/plan page");
+            }
+            
+            // Start observing the target node for configured mutations
+            const targetNodePortalRoot = document.getElementById("ghost-portal-root");
+            
+            if (targetNodePortalRoot) {
+                const config = { attributes: true, childList: true, subtree: true };
+
+                const poratalObserver = new MutationObserver(function() {
+                    callPortalIframe();
+                });
+                poratalObserver.observe(targetNodePortalRoot, config);
+            } else {
+                console.error("Could not find #ghost-portal-root element");
+            }
+            
+        });
+    })();
+
+</script>
+<!-- khalil test code - end -->
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+window._qevents = window._qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+window._qevents.push({
+qacct:"p-JFeMtMyV9W-_y",
+uid:"__INSERT_EMAIL_HERE__"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-JFeMtMyV9W-_y.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+    <script type="text/javascript" src="https://www.customersuccesscollective.com/assets/built/jquery.js?v=b6f88da614" ></script>
+    <script type="text/javascript" src="https://www.customersuccesscollective.com/assets/built/jquery.fitvids.js?v=b6f88da614" ></script>
+    <script type="text/javascript" src="https://www.customersuccesscollective.com/assets/built/ghost-lunr.js?v=b6f88da614" defer></script>
+    <script type="text/javascript" src="https://www.customersuccesscollective.com/assets/built/search.js?v=b6f88da614" defer></script>
+ 
+
+
+
+    <script type="text/javascript" src="https://www.customersuccesscollective.com/assets/built/jquery.fitvids.js?v=b6f88da614"></script>
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+
+      <script>
+        window.intercomSettings = {
+          app_id: "ihx5j8jg"
+        };
+      </script>
+
+
+
+    <script>
+      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ihx5j8jg';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+</body>
+</html>

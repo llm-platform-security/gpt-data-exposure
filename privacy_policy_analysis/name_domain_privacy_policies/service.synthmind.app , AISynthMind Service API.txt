@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>SynthMind AI</title>
+<link rel="stylesheet" href="/vendors.29bbcd54.css">
+<link rel="stylesheet" href="/umi.1e0f1958.css">
+<script async="" src="/scripts/loading.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XSPDSBNHTV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XSPDSBNHTV');
+  window.gtag = gtag
+</script>
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.synthmind.app"]);
+  _paq.push(["setDomains", ["*.synthmind.app","*.studio.synthmind.app","*.www.synthmind.app"]]);
+  _paq.push(["enableCrossDomainLinking"]);
+  _paq.push(['enableHeartBeatTimer', 8]);
+  _paq.push(['trackPageView']);
+  _paq.push(['trackVisibleContentImpressions']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//mt.synthmind.app/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<script src="/antd.6ac97634.js"></script>
+<script src="/lodash.03f303cf.js"></script>
+<script src="/react-dom.027f4798.js"></script>
+<script src="/vendors.34e0d6a4.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script src="/umi.5d7f9e05.js"></script>
+<script async="" src="https://accounts.google.com/gsi/client"></script>
+<script>
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65b0d07a0ff6374032c43112/1hktaso37';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>
+
+</body></html>

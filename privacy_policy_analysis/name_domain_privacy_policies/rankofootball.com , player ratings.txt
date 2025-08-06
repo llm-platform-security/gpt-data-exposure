@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+   
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3P7C6S4X6W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3P7C6S4X6W');
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Rank-O-Football",
+    "url": "http://rankofootball.com",
+    "description": "Your ultimate destination for comprehensive team rankings across Europe's top football leagues."
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Rank-O-Football",
+    "url": "http://rankofootball.com",
+    "logo": "",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "email": "sten@rankofootball.com",
+      "contactType": "customer service"
+    }],
+    "sameAs": [
+      "http://www.facebook.com/yourprofile",
+      "http://www.twitter.com/yourprofile"
+    ]
+  }
+  </script>
+
+
+<title>Football/soccer statistics - ranking European top teams and top leagues</title>
+<meta name="description" content="Discover the forefront of football analytics and soccer stats with our 
+ state-of-the-art ranking
+ system for European football teams—powered by the advanced methodologies of network science coupled with 
+ cutting-edge artificial intelligence. This unique tool transcends traditional rankings by analyzing a 
+ comprehensive network of match data within leagues and between leagues, utilizing AI to predict and 
+ articulate the dynamic hierarchies within European football. Our platform guarantees the provision of the most 
+ current insights in the best teams and best leagues in the world, ensuring that rankings are perpetually 
+ up to date, reflecting the latest matches and shifts 
+ in team dynamics. We provide on the page a state-of-the-art chatbot powered by GPT-4 where we allow free access for the first
+ time. Dive into the depths of football analytics and uncover rankings that not only present the 
+ current standing but also predict future trends better than all other methods, making it an indispensable 
+ resource for fans, analysts, and teams alike.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+<style>
+body {font-family: Arial; }
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #9370DB;  /*  f1f1f1; */
+}
+
+img.abild {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+
+
+/* p { background-color: #9370DB;
+    color: green;
+}*/
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 2px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #E6E6FA; /* #ddd; */
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #E6E6FA; /* #ccc; */
+}
+
+.tab .tablinks {
+  background-color: inherit; /* Light grey background */
+  color: black; /* Black text */
+  padding: 10px 20px; /* Padding inside the buttons */
+  margin: 0 4px; /* Margin between buttons */
+  border: none; /* No border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Cursor to indicate clickable */
+  text-align: center; /* Center the text inside */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Arrange buttons in a line */
+  transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+.tab .tablinks:hover {
+  background-color: #E6E6FA; /* #ddd; */
+}
+
+.tab .tablinks.active {
+  background-color: #E6E6FA; /* #ccc; */
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table {
+    font-family: 10pt, serif;
+    font-weight: lighter;
+    border-collapse: collapse;
+    margin-right: 5%;
+/*    width: 80%;*/
+}
+
+
+td, th {
+	font-family: arial,sans-serif;
+	font-weight: normal;
+	font-size: normal;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:  #E6E6FA; /*  #dddddd;*/
+}
+
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+        
+</style>
+</head>
+
+<body>
+
+
+
+  
+<div class="imgbox">
+<center>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2492970337119097"
+  crossorigin="anonymous"></script>
+<!-- firstunit -->
+<ins class="adsbygoogle"
+  style="display:block"
+  data-ad-client="ca-pub-2492970337119097"
+  data-ad-slot="6021227602"
+  data-ad-format="auto"
+  data-full-width-responsive="true"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<img class="abild" src="stadion.jpg" alt="football stadium">
+</center>
+
+
+<center>
+<img class="center-fit" src='rankofootball1.jpg' alt="football logo">
+</center>
+
+</div>
+
+<div class="tab">
+  <a href="#Home" class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</a>
+  <a href="#TeamRanking" class="tablinks" onclick="openCity(event, 'TeamRanking')">Teams</a>
+  <a href="#LeagueRanking" class="tablinks" onclick="openCity(event, 'LeagueRanking')">Leagues</a>
+  <a href="#Method" class="tablinks" onclick="openCity(event, 'Method')">Method</a>
+  <a href="#About" class="tablinks" onclick="openCity(event, 'About')">About</a>
+</div>
+
+
+
+<div id="Home" class="tabcontent">
+
+<br/>
+   <center> <h1><font color="#4B0082">  Ranking the European Top-Five-Leagues  </h1>
+
+  <i>
+  <p> Discover where your favorite team stands among Europe's elite.</p>
+  </i>
+   
+</center>
+   
+
+  <div class="content">
+      <p>Welcome to <strong>Rank-O-Football</strong>, your ultimate destination for comprehensive team rankings across Europe's top football leagues. Our innovative approach employs network science and AI to offer a truly objective ranking system.</p>
+
+      <div class="section-title">Why Rank-O-Football?</div>
+      <ul>
+          <li><strong>Revolutionary Method</strong>: We've developed a unique algorithm that objectively ranks teams not just within their leagues, but across all of Europe.</li>
+          <li><strong>Data-Driven Analysis</strong>: No hidden weights, no subjective biases. Our rankings are purely based on performance data from all national and European competitions.</li>
+          <li><strong>Comprehensive Coverage</strong>: Featuring all teams from the five top European leagues, ensuring a complete and inclusive ranking system.</li>
+      </ul>
+
+      <div class="section-title">Stay Ahead of the Game</div>
+      <ul>
+          <li><strong>Subscribe to Our Newsletter</strong>: Get in-depth analyses, insights, and the latest rankings directly in your inbox.</li>
+          <li><strong>Never Miss an Update</strong>: Wondering how recent matches affect your team's standing? Our rankings are regularly updated to reflect the latest results.</li>
+      </ul>
+  </div>
+
+   
+  <center>
+    <div>
+      <h3>
+        <p style="color:red">For more detailed analysis subscribe to our <a href="https://rankofootball.substack.com">newsletter</a></p>
+        <p style="color:red">NEW: You can also chat with the Ranko assistant at the  <a href="https://chat.openai.com/g/g-mHKUZbOLL-ranko-football">Rankofootball GPT</a> (ChatGPT+ subscription required)!</p>
+      </h3>
+    </div>
+  </center>
+<br/>
+
+
+<div>
+ <p><h2>Current top-3-teams/leagues:</h2></p>
+
+ 
+<table width="25%" style="float: left;" onclick="openCity(event, 'TeamRanking')">
+  <tr>
+    <th><b>Rank </b></th>
+    <th><b>Team </th>
+  </tr>
+
+  <tr>
+     <th>    1 </th>           <th>  Real Madrid </th></tr> 
+  <tr> <th>    2 </th>           <th>  Leverkusen </th> </tr>
+  <tr>     <th>    3 </th>           <th>  Dortmund </th>   </tr>
+
+</table>
+
+
+<table width="25%" style="float: none;" onclick="openCity(event, 'LeagueRanking')">
+  <tr>
+    <th><b>Rank </b></th>
+    <th><b>League </th>
+  </tr>
+  
+
+  <tr>
+     <th>    1 </th>           <th>  Primera Division </th> </tr> 
+  <tr>     <th>    2 </th>           <th>  Bundesliga </th> </tr> 
+  <tr>     <th>    3 </th>           <th>  Premier League </th>   </tr>
+
+</table>
+
+</div>
+
+<br />
+<br />
+<p>Click on the tabs above to see full tables.</i> </p>
+
+<br />
+<br />
+
+<iframe src="https://www.agenthost.ai/chat/rankofootball?embed=true" width="100%" height="600px"></iframe>
+
+
+<p>Get in touch for more detailed statistics and subscribe to the <a href = "https://rankofootball.substack.com">substack</a> </p>
+
+</div>
+
+
+
+
+
+<div id="TeamRanking" class="tabcontent">
+<br />
+
+  <p><h2><i>Team ranking, all five European top leagues, Season 2023/24</i></h2></p>
+
+<table width="80%">
+  <tr>
+    <th><b>Rank</th>
+    <th><b>Team</th>
+    <th><b>League</th>
+    <th><b>Points</th>
+ <!--   <th><b>Points</th>   -->
+  </tr>
+
+<!--    <ul> -->
+    
+  <tr>
+     <th>    1 </th>           <th>  Real Madrid </th>   <th> Primera Division </th> <th> 2.109 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    2 </th>           <th>  Leverkusen </th>   <th> Bundesliga </th> <th> 1.634 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    3 </th>           <th>  Dortmund </th>   <th> Bundesliga </th> <th> 1.598 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    4 </th>           <th>  Bayern </th>   <th> Bundesliga </th> <th> 1.496 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    5 </th>           <th>  Atleti </th>   <th> Primera Division </th> <th> 1.394 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    6 </th>           <th>  Man City </th>   <th> Premier League </th> <th> 1.389 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    7 </th>           <th>  PSG </th>   <th> Ligue 1 </th> <th> 1.292 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    8 </th>           <th>  Arsenal </th>   <th> Premier League </th> <th> 1.278 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    9 </th>           <th>  Inter </th>   <th> Serie A </th> <th> 1.233 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    10 </th>           <th>  Stuttgart </th>   <th> Bundesliga </th> <th> 1.11 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    11 </th>           <th>  Barça </th>   <th> Primera Division </th> <th> 1.037 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    12 </th>           <th>  Liverpool </th>   <th> Premier League </th> <th> 0.971 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    13 </th>           <th>  Girona </th>   <th> Primera Division </th> <th> 0.925 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    14 </th>           <th>  RB Leipzig </th>   <th> Bundesliga </th> <th> 0.856 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    15 </th>           <th>  Milan </th>   <th> Serie A </th> <th> 0.77 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    16 </th>           <th>  Aston Villa </th>   <th> Premier League </th> <th> 0.608 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    17 </th>           <th>  Athletic </th>   <th> Primera Division </th> <th> 0.527 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    18 </th>           <th>  Juventus </th>   <th> Serie A </th> <th> 0.507 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    19 </th>           <th>  Monaco </th>   <th> Ligue 1 </th> <th> 0.432 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    20 </th>           <th>  Bologna </th>   <th> Serie A </th> <th> 0.417 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    21 </th>           <th>  Tottenham </th>   <th> Premier League </th> <th> 0.404 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    22 </th>           <th>  Atalanta </th>   <th> Serie A </th> <th> 0.386 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    23 </th>           <th>  Newcastle </th>   <th> Premier League </th> <th> 0.38 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    24 </th>           <th>  Brest </th>   <th> Ligue 1 </th> <th> 0.364 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    25 </th>           <th>  Real Sociedad </th>   <th> Primera Division </th> <th> 0.352 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    26 </th>           <th>  Real Betis </th>   <th> Primera Division </th> <th> 0.295 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    27 </th>           <th>  Lille </th>   <th> Ligue 1 </th> <th> 0.289 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    28 </th>           <th>  Chelsea </th>   <th> Premier League </th> <th> 0.223 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    29 </th>           <th>  West Ham </th>   <th> Premier League </th> <th> 0.213 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    30 </th>           <th>  Roma </th>   <th> Serie A </th> <th> 0.188 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    31 </th>           <th>  RC Lens </th>   <th> Ligue 1 </th> <th> 0.169 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    32 </th>           <th>  Nice </th>   <th> Ligue 1 </th> <th> 0.16 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    33 </th>           <th>  Valencia </th>   <th> Primera Division </th> <th> 0.145 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    34 </th>           <th>  Lazio </th>   <th> Serie A </th> <th> 0.137 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    35 </th>           <th>  Napoli </th>   <th> Serie A </th> <th> 0.126 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    36 </th>           <th>  Man United </th>   <th> Premier League </th> <th> 0.102 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    37 </th>           <th>  Marseille </th>   <th> Ligue 1 </th> <th> 0.028 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    38 </th>           <th>  Getafe </th>   <th> Primera Division </th> <th> 0.003 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    39 </th>           <th>  Olympique Lyon </th>   <th> Ligue 1 </th> <th> -0.005 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    40 </th>           <th>  Frankfurt </th>   <th> Bundesliga </th> <th> -0.009 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    41 </th>           <th>  Heidenheim </th>   <th> Bundesliga </th> <th> -0.024 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    42 </th>           <th>  Villarreal </th>   <th> Primera Division </th> <th> -0.031 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    43 </th>           <th>  Fiorentina </th>   <th> Serie A </th> <th> -0.102 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    44 </th>           <th>  Brighton Hove </th>   <th> Premier League </th> <th> -0.105 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    45 </th>           <th>  Monza </th>   <th> Serie A </th> <th> -0.117 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    46 </th>           <th>  Sevilla FC </th>   <th> Primera Division </th> <th> -0.119 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    47 </th>           <th>  Genoa </th>   <th> Serie A </th> <th> -0.121 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    48 </th>           <th>  Toulouse </th>   <th> Ligue 1 </th> <th> -0.137 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    49 </th>           <th>  Stade Rennais </th>   <th> Ligue 1 </th> <th> -0.171 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    50 </th>           <th>  Torino </th>   <th> Serie A </th> <th> -0.189 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    51 </th>           <th>  Bournemouth </th>   <th> Premier League </th> <th> -0.19 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    52 </th>           <th>  Montpellier </th>   <th> Ligue 1 </th> <th> -0.191 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    53 </th>           <th>  Hoffenheim </th>   <th> Bundesliga </th> <th> -0.191 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    54 </th>           <th>  Rayo Vallecano </th>   <th> Primera Division </th> <th> -0.21 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    55 </th>           <th>  Crystal Palace </th>   <th> Premier League </th> <th> -0.218 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    56 </th>           <th>  Stade de Reims </th>   <th> Ligue 1 </th> <th> -0.22 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    57 </th>           <th>  Wolverhampton </th>   <th> Premier League </th> <th> -0.243 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    58 </th>           <th>  Everton </th>   <th> Premier League </th> <th> -0.251 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    59 </th>           <th>  Fulham </th>   <th> Premier League </th> <th> -0.262 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    60 </th>           <th>  Freiburg </th>   <th> Bundesliga </th> <th> -0.264 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    61 </th>           <th>  Bremen </th>   <th> Bundesliga </th> <th> -0.316 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    62 </th>           <th>  M&#x27;gladbach </th>   <th> Bundesliga </th> <th> -0.318 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    63 </th>           <th>  Alavés </th>   <th> Primera Division </th> <th> -0.321 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    64 </th>           <th>  Bochum </th>   <th> Bundesliga </th> <th> -0.378 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    65 </th>           <th>  Strasbourg </th>   <th> Ligue 1 </th> <th> -0.385 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    66 </th>           <th>  Wolfsburg </th>   <th> Bundesliga </th> <th> -0.386 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    67 </th>           <th>  Mallorca </th>   <th> Primera Division </th> <th> -0.39 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    68 </th>           <th>  Lecce </th>   <th> Serie A </th> <th> -0.408 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    69 </th>           <th>  Las Palmas </th>   <th> Primera Division </th> <th> -0.42 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    70 </th>           <th>  Osasuna </th>   <th> Primera Division </th> <th> -0.447 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    71 </th>           <th>  Augsburg </th>   <th> Bundesliga </th> <th> -0.45 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    72 </th>           <th>  Le Havre </th>   <th> Ligue 1 </th> <th> -0.466 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    73 </th>           <th>  Celta </th>   <th> Primera Division </th> <th> -0.468 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    74 </th>           <th>  Cagliari </th>   <th> Serie A </th> <th> -0.494 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    75 </th>           <th>  Sassuolo </th>   <th> Serie A </th> <th> -0.495 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    76 </th>           <th>  Nottingham </th>   <th> Premier League </th> <th> -0.543 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    77 </th>           <th>  Nantes </th>   <th> Ligue 1 </th> <th> -0.548 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    78 </th>           <th>  Udinese </th>   <th> Serie A </th> <th> -0.557 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    79 </th>           <th>  Mainz </th>   <th> Bundesliga </th> <th> -0.57 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    80 </th>           <th>  Brentford </th>   <th> Premier League </th> <th> -0.577 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    81 </th>           <th>  Cádiz CF </th>   <th> Primera Division </th> <th> -0.609 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    82 </th>           <th>  Clermont Foot </th>   <th> Ligue 1 </th> <th> -0.636 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    83 </th>           <th>  Union Berlin </th>   <th> Bundesliga </th> <th> -0.646 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    84 </th>           <th>  Verona </th>   <th> Serie A </th> <th> -0.659 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    85 </th>           <th>  Frosinone </th>   <th> Serie A </th> <th> -0.659 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    86 </th>           <th>  FC Metz </th>   <th> Ligue 1 </th> <th> -0.685 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    87 </th>           <th>  Lorient </th>   <th> Ligue 1 </th> <th> -0.693 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    88 </th>           <th>  Empoli </th>   <th> Serie A </th> <th> -0.703 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    89 </th>           <th>  1. FC Köln </th>   <th> Bundesliga </th> <th> -0.74 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    90 </th>           <th>  Burnley </th>   <th> Premier League </th> <th> -0.822 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    91 </th>           <th>  Granada </th>   <th> Primera Division </th> <th> -0.945 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    92 </th>           <th>  Luton Town </th>   <th> Premier League </th> <th> -0.945 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    93 </th>           <th>  Almería </th>   <th> Primera Division </th> <th> -0.958 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    94 </th>           <th>  Darmstadt </th>   <th> Bundesliga </th> <th> -1.117 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    95 </th>           <th>  Salernitana </th>   <th> Serie A </th> <th> -1.212 </th>
+  </tr>
+
+    
+  <tr>
+     <th>    96 </th>           <th>  Sheffield Utd </th>   <th> Premier League </th> <th> -1.216 </th>
+  </tr>
+
+    
+ <!--   </ul>  -->
+
+
+
+</table>
+
+
+
+</div>
+
+
+
+
+
+<div id="LeagueRanking" class="tabcontent">
+
+<br />
+ <p><h2><i>Ranking of the  five European top leagues, Season 2023/24</i></h2></p>
+
+
+<table width="80%">
+  <tr>
+    <th><b>Rank</th>
+    <th><b>League</th>
+    <th><b>Sum of points</th>
+ <!--   <th><b>Points</th>   -->
+  </tr>
+
+<!--    <ul> -->
+    
+  <tr>
+     <th>    1 </th>           <th>  Primera Division </th>   <th> 1.87 </th> 
+  </tr>
+
+    
+  <tr>
+     <th>    2 </th>           <th>  Bundesliga </th>   <th> 1.29 </th> 
+  </tr>
+
+    
+  <tr>
+     <th>    3 </th>           <th>  Premier League </th>   <th> 0.2 </th> 
+  </tr>
+
+    
+  <tr>
+     <th>    4 </th>           <th>  Ligue 1 </th>   <th> -1.4 </th> 
+  </tr>
+
+    
+  <tr>
+     <th>    5 </th>           <th>  Serie A </th>   <th> -1.95 </th> 
+  </tr>
+
+    
+ <!--   </ul>  -->
+
+
+
+</table>
+
+</div>
+
+<div id="Method" class="tabcontent">
+<br />
+<h2>Method and sources</h2>
+
+  <p><i> The ranking uses an adapted version of Google's page-rank algorithm.</p> 
+  <p>  We include all games of the five European top leagues (England, Germany, Spain, Italy, France) plus all their games  in the Champions League and Europa League.</p>
+ 
+  <p> With that we construct a graph where teams are the nodes of the graph. A win in a game is a directed link from the loser to the winner. </p> 
+
+  <p> Page rank is used to convert into a Markovian network and its steady state gives the respective points for each team. </p>  
+
+  <p>What do the points mean? Loosely speaking, positive numbers mean that the team has won more often than lost. Negative numbers mean the team lost more often than won. However, by construction of the page rank algorithm, the strength of the opposite team is important. E.g., a win against a top team counts more than a win against a team at the end of the table. </p>
+  
+    <p>This also implies that the number of games that a team has played is not important. In other words, the method allows to compare teams that have played different number of games (for instance because they do or do not participate in the international leagues.)</p> 
+
+
+  <p>(under construction)</i></p> 
+  
+</div>
+
+<div id="About" class="tabcontent">
+  <br />
+
+<p>This page was developed in 2018 as a project in network science and data analysis. Please support it by spreading the 
+news and  the link. </p>
+<p>I am a scientist working on data analysis tools. Go to my 
+<a href="https://www.linkedin.com/in/sten-rüdiger-373a52162/" style="text-decoration: none;color: #92ca55;">
+    linkedin</a> page
+for more information on other projects.
+
+<p><i>(under construction)</i></p>
+
+
+<p><i>Please send any inquiries to:</i></p>  
+<script language="JavaScript">
+    var username = "sten";
+    var hostname = "rankofootball.com";
+    var linktext = username + "@" + hostname ;
+    document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
+
+<br/>
+<br/>
+
+<p id="gdpr"> Datenschutzerklärung:</p> 
+ 
+<p>Die Betreiber dieser Seiten speichern wissentlich keine persönlichen Daten ab und die Nutzung unserer Webseite ist in 
+der Regel ohne Angabe personenbezogener Daten möglich.</p>
+
+<p>Wir weisen allerdings darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) 
+Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+<br/>
+
+<p>Data Privacy Policy:</p>
+
+
+<p>The operators of these pages do not knowingly store personal data, and the use of our website is generally possible without providing personal data.</p>
+
+<p>However, we would like to point out that data transmission over the Internet (e.g., communication by email) can have security gaps. Complete protection of data from access by third parties is not possible.</p>
+
+  
+</div>
+
+<script>
+function showTab() {
+  var tabs = document.getElementsByClassName("tabcontent");
+  for (var i = 0; i < tabs.length; i++) {
+      tabs[i].style.display = "none";
+  }
+
+  var fragment = window.location.hash.substring(1);
+  var activeTab = document.getElementById(fragment);
+
+//   Check if activeTab is not found, then default to the first tab
+//  if (!activeTab && tabs.length > 0) {
+//    activeTab = tabs[0];
+//  }
+
+  if (activeTab) {
+      activeTab.style.display = "block";
+  }
+}
+
+//window.addEventListener("load", showTab);
+//window.addEventListener("hashchange", showTab);
+
+
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    history.pushState(null, '', '#' + cityName);
+}
+
+// Get the element with id="defaultOpen" and click on it
+window.onload = function() {
+    document.getElementById("defaultOpen").click();
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Check if URL has a fragment (#Something)
+  if (window.location.hash) {
+    // Simulate a click on the corresponding tab link
+    const tabLink = document.querySelector(`.tablinks[href="${window.location.hash}"]`);
+    if (tabLink) {
+      tabLink.click();
+    }
+  } else {
+    // No fragment, open default tab
+    document.getElementById("defaultOpen").click();
+  }
+});
+
+window.onpopstate = function(event) {
+  if (window.location.hash) {
+    const tabLink = document.querySelector(`.tablinks[href="${window.location.hash}"]`);
+    if (tabLink) {
+      tabLink.click();
+    }
+  } else {
+    document.getElementById("defaultOpen").click();
+  }
+};
+
+</script>
+
+<script type="text/javascript">
+  var infolinks_pid = 3412483;
+  var infolinks_wsid = 0;
+  </script>
+  <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+
+
+</body>
+</html> 

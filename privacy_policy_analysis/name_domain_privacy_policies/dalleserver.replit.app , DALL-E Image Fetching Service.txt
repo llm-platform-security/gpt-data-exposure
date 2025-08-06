@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <title>DesignerGPT Privacy Page</title>
+</head>
+
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>DesignerGPT</strong></li>
+    </ul>
+  </nav>
+  <main class="container-fluid">
+      <header class="text-center">
+          <h2>DesignerGPT Privacy Policy</h2>
+      </header>
+      <section>
+          <h3>Respecting Your Privacy</h3>
+          <p>DesignerGPT is committed to protecting your privacy. We do not store any personal information beyond what is necessary to create your web page.</p>
+          <h3>Data Usage</h3>
+          <p>The information you provide, is used solely for the purpose of generating your web page. This data is not shared with third parties.</p>
+          <h3>User Content Ownership</h3>
+          <p>As a user of DesignerGPT, you retain full ownership of the content you provide. This includes anything you create with it.</p>
+          <h3>Consent and Agreement</h3>
+          <p>By using DesignerGPT, you agree to the collection and use of information in accordance with this policy. Changes to our privacy policy will be communicated through this page.</p>
+      </section>
+      <footer>
+          <p>Created by <a href="https://twitter.com/skirano">Skirano</a></p>
+      </footer>
+  </main>
+</body>
+
+</html>

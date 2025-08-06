@@ -1,0 +1,1782 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="canonical" href="https://mavex.ai" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="images/hero-light_v2.webp"
+      type="image/svg+xml"
+    />
+    <script defer src="images/ga.js"></script>
+    <script defer>
+      const tagId = "G-44KDPHN4SN";
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", tagId);
+    </script>
+    <script type="text/javascript" defer>
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "9dc2e9be-5bdd-4702-b5c1-3a506f9c920f";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="https://mavex.ai" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="font-src 'self' data: https://fonts.gstatic.com;"
+    />
+    <meta name="title" content="Mavex.ai - Your AI Executive Assistant" />
+    <meta
+      name="description"
+      content="Use our personal AI powered Executive Assistant to breeze through scheduling, calendar management, email drafting and beyond"
+    />
+    <!-- <title>Mavex.ai - Your personal AI Executive Assistant</title> -->
+    <title>Mavex.ai - Your AI Executive Assistant</title>
+  <link rel="icon" href="favicon.png"><link href="style.css" rel="stylesheet"></head>
+
+  <body
+    x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
+    x-init="
+         darkMode = JSON.parse(localStorage.getItem('darkMode'));
+         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+    :class="{'dark bg-black': darkMode === true}"
+  >
+    <div
+  class="fixed top-0 left-0 -z-10 flex h-full w-full items-center justify-around"
+>
+  <span
+    class="w-[1px] h-full bg-stroke dark:bg-strokedark flex animate-line1"
+  ></span>
+  <span
+    class="w-[1px] h-full bg-stroke dark:bg-strokedark flex animate-line2"
+  ></span>
+  <span
+    class="w-[1px] h-full bg-stroke dark:bg-strokedark flex animate-line3"
+  ></span>
+</div>
+
+    <header
+  class="fixed left-0 top-0 w-full z-99999 py-7"
+  :class="{ 'bg-white dark:bg-black shadow !py-4 transition duration-100' : stickyMenu }"
+  @scroll.window="stickyMenu = (window.pageYOffset > 20) ? true : false"
+>
+  <div
+    class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 lg:flex items-center justify-between relative"
+  >
+    <div class="w-full lg:w-1/4 flex items-center justify-between">
+      <a href='/'>
+        <div class="h-10 flex flex-row items-center justify-around">
+          <img
+            loading="lazy"
+            class="dark:hidden h-12"
+            width="100%"
+            height="100%"
+            src="images/mavex-light.svg"
+            alt="Logo Light"
+          />
+          <img
+            loading="lazy"
+            class="hidden dark:block h-12"
+            src="images/mavex-dark.svg"
+            alt="Logo Dark"
+          />
+        </div>
+      </a>
+
+      <!-- Hamburger Toggle BTN -->
+      <button
+        class="lg:hidden block"
+        aria-label="menu"
+        @click="navigationOpen = !navigationOpen"
+      >
+        <span class="block relative cursor-pointer w-5.5 h-5.5">
+          <span class="block absolute w-full h-full">
+            <span
+              class="block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-[0]"
+              :class="{ '!w-full delay-300': !navigationOpen }"
+            ></span>
+            <span
+              class="block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-150"
+              :class="{ '!w-full delay-400': !navigationOpen }"
+            ></span>
+            <span
+              class="block relative top-0 left-0 bg-black dark:bg-white rounded-sm w-0 h-0.5 my-1 ease-in-out duration-200 delay-200"
+              :class="{ '!w-full delay-500': !navigationOpen }"
+            ></span>
+          </span>
+          <span class="block absolute w-full h-full rotate-45">
+            <span
+              class="block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-300 absolute left-2.5 top-0 w-0.5 h-full"
+              :class="{ 'h-0 delay-[0]': !navigationOpen }"
+            ></span>
+            <span
+              class="block bg-black dark:bg-white rounded-sm ease-in-out duration-200 delay-400 absolute left-0 top-2.5 w-full h-0.5"
+              :class="{ 'h-0 dealy-200': !navigationOpen }"
+            ></span>
+          </span>
+        </span>
+      </button>
+      <!-- Hamburger Toggle BTN -->
+    </div>
+
+    <div
+      class="w-full lg:w-3/4 h-0 lg:h-auto invisible lg:visible lg:flex items-center justify-between"
+      :class="{ '!visible bg-white dark:bg-blacksection shadow-solid-5 h-auto max-h-[400px] overflow-y-scroll rounded-md mt-4 p-7.5': navigationOpen }"
+    >
+      <nav>
+        <ul class="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10">
+          <li>
+            <a :class='{ \'text-primary\': page === \'home\' }' class='hover:text-primary' href='/'>Home</a
+            >
+          </li>
+          <li>
+            <a class='hover:text-primary' href='/#features'>Features</a
+            >
+          </li>
+          <!-- <li class="group relative" x-data="{ dropdown: false }">
+            <a
+              href="#"
+              class="hover:text-primary flex items-center justify-between gap-3"
+              @click.prevent="dropdown = !dropdown"
+              :class="{ 'text-primary': page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }"
+            >
+              Pages
+
+              <svg
+                :class="{ 'fill-primary': dropdown }"
+                class="fill-waterloo group-hover:fill-primary w-3 h-3 cursor-pointer"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                />
+              </svg>
+            </a>
+            <ul class="dropdown" :class="{ 'flex': dropdown }">
+              <li>
+                <a
+                  href="blog-grid.html"
+                  class="hover:text-primary"
+                  :class="{ 'text-primary': page === 'blog-grid' }"
+                  >Blog Grid</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blog-single.html"
+                  class="hover:text-primary"
+                  :class="{ 'text-primary': page === 'blog-single' }"
+                  >Blog Single</a
+                >
+              </li>
+              <li>
+                <a
+                  href="signin.html"
+                  class="hover:text-primary"
+                  :class="{ 'text-primary': page === 'signin' }"
+                  >Sign In</a
+                >
+              </li>
+              <li>
+                <a
+                  href="signup.html"
+                  class="hover:text-primary"
+                  :class="{ 'text-primary': page === 'signup' }"
+                  >Sign Up</a
+                >
+              </li>
+              <li>
+                <a
+                  href="404.html"
+                  class="hover:text-primary"
+                  :class="{ 'text-primary': page === '404' }"
+                  >404</a
+                >
+              </li>
+            </ul>
+          </li> -->
+          <li>
+            <a class='hover:text-primary' href='/#Products'>Products</a
+            >
+          </li>
+          <li>
+            <a class='hover:text-primary' href='/#Pricing'>Pricing</a>
+          </li>
+          <li>
+            <a class='hover:text-primary' href='/blog'>Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-6 mt-7 lg:mt-0">
+        <div
+          class="mr-1.5 absolute lg:static top-1 right-17"
+          :class="navigationOpen ? '!visible' : '!visible'"
+        >
+          <label class="block m-0 relative">
+            <input
+              type="checkbox"
+              :value="darkMode"
+              @change="darkMode = !darkMode"
+              class="cursor-pointer w-full h-full opacity-0 absolute top-0 z-50 m-0"
+            />
+            <img
+              class="dark:hidden"
+              width="100%"
+              height="100%"
+              src="images/icon-sun.svg"
+              alt="Sun"
+            />
+            <img
+              class="hidden dark:block"
+              width="100%"
+              height="100%"
+              src="images/icon-moon.svg"
+              alt="Moon"
+            />
+          </label>
+        </div>
+
+        <a
+          href="https://app.mavex.ai"
+          target="_blank"
+          class="text-waterloo text-regular font-medium hover:text-primary"
+          >Sign In</a
+        >
+        <a
+          href="https://chat.openai.com/g/g-SiYaHyIA5-mavy-ea"
+          target="_blank"
+          class="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-1.5 px-4.5"
+          >Try On ChatGPT
+          <span>
+            <svg
+              viewBox="0 0 320 320"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 ml-2"
+            >
+              <g clip-path="url(#clip0_10145_290560)">
+                <path
+                  d="M297.06 130.97C304.32 109.18 301.82 85.31 290.21 65.49C272.75 35.09 237.65 19.45 203.37 26.81C188.12 9.63002 166.21 -0.139981 143.24 1.93887e-05C108.2 -0.0799806 77.11 22.48 66.33 55.82C43.82 60.43 24.39 74.52 13.02 94.49C-4.57001 124.81 -0.560007 163.03 22.94 189.03C15.68 210.82 18.18 234.69 29.79 254.51C47.25 284.91 82.35 300.55 116.63 293.19C131.87 310.37 153.79 320.14 176.76 319.99C211.82 320.08 242.92 297.5 253.7 264.13C276.21 259.52 295.64 245.43 307.01 225.46C324.58 195.14 320.56 156.95 297.07 130.95L297.06 130.97ZM176.78 299.08C162.75 299.1 149.16 294.19 138.39 285.2C138.88 284.94 139.73 284.47 140.28 284.13L204 247.33C207.26 245.48 209.26 242.01 209.24 238.26V148.43L236.17 163.98C236.46 164.12 236.65 164.4 236.69 164.72V239.11C236.65 272.19 209.86 299.01 176.78 299.08ZM47.94 244.05C40.91 231.91 38.38 217.68 40.79 203.87C41.26 204.15 42.09 204.66 42.68 205L106.4 241.8C109.63 243.69 113.63 243.69 116.87 241.8L194.66 196.88V227.98C194.68 228.3 194.53 228.61 194.28 228.81L129.87 266C101.18 282.52 64.54 272.7 47.95 244.05H47.94ZM31.17 104.96C38.17 92.8 49.22 83.5 62.38 78.67C62.38 79.22 62.35 80.19 62.35 80.87V154.48C62.33 158.22 64.33 161.69 67.58 163.54L145.37 208.45L118.44 224C118.17 224.18 117.83 224.21 117.53 224.08L53.11 186.86C24.48 170.28 14.66 133.65 31.16 104.97L31.17 104.96ZM252.43 156.45L174.64 111.53L201.57 95.99C201.84 95.81 202.18 95.78 202.48 95.91L266.9 133.1C295.58 149.67 305.41 186.36 288.84 215.04C281.83 227.18 270.79 236.48 257.64 241.32V165.51C257.67 161.77 255.68 158.31 252.44 156.45H252.43ZM279.23 116.11C278.76 115.82 277.93 115.32 277.34 114.98L213.62 78.18C210.39 76.29 206.39 76.29 203.15 78.18L125.36 123.1V92C125.34 91.68 125.49 91.37 125.74 91.17L190.15 54.01C218.84 37.46 255.52 47.31 272.06 76.01C279.05 88.13 281.58 102.32 279.21 116.11H279.23ZM110.72 171.54L83.78 155.99C83.49 155.85 83.3 155.57 83.26 155.25V80.86C83.28 47.74 110.15 20.9 143.27 20.92C157.28 20.92 170.84 25.84 181.61 34.8C181.12 35.06 180.28 35.53 179.72 35.87L116 72.67C112.74 74.52 110.74 77.98 110.76 81.73L110.72 171.52V171.54ZM125.35 140L160 119.99L194.65 139.99V180L160 200L125.35 180V140Z"
+                  fill="white"
+                ></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+        <a
+          href="https://chrome.google.com/webstore/detail/mavy/lapoampfbebjeconjefbegmjjhfkapko"
+          target="_blank"
+          class="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-1.5 px-4.5"
+          >Add to Chrome
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 48 48"
+              class="w-5 h-5 ml-2"
+            >
+              <defs>
+                <linearGradient
+                  id="a"
+                  x1="3.2173"
+                  y1="15"
+                  x2="44.7812"
+                  y2="15"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#d93025"></stop>
+                  <stop offset="1" stop-color="#ea4335"></stop>
+                </linearGradient>
+                <linearGradient
+                  id="b"
+                  x1="20.7219"
+                  y1="47.6791"
+                  x2="41.5039"
+                  y2="11.6837"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#fcc934"></stop>
+                  <stop offset="1" stop-color="#fbbc04"></stop>
+                </linearGradient>
+                <linearGradient
+                  id="c"
+                  x1="26.5981"
+                  y1="46.5015"
+                  x2="5.8161"
+                  y2="10.506"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#1e8e3e"></stop>
+                  <stop offset="1" stop-color="#34a853"></stop>
+                </linearGradient>
+
+                <path
+                  id="p"
+                  d="M13.6086 30.0031 3.218 12.006A23.994 23.994 0 0 0 24.0025 48l10.3906-17.9971-.0067-.0068a11.9852 11.9852 0 0 1-20.7778.007Z"
+                ></path>
+              </defs>
+
+              <use
+                xlink:href="#p"
+                fill="url(#a)"
+                transform="rotate(120 24 24)"
+              ></use>
+              <use
+                xlink:href="#p"
+                fill="url(#b)"
+                transform="rotate(-120 24 24)"
+              ></use>
+              <use xlink:href="#p" fill="url(#c)"></use>
+
+              <circle cx="24" cy="24" r="12" style="fill: #fff"></circle>
+              <circle cx="24" cy="24" r="9.5" style="fill: #1a73e8"></circle>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <!-- referral Section Start -->
+      <section
+        id="referralSection"
+        style="display: none"
+        class="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 overflow-hidden"
+      >
+        <div class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div
+            class="flex-col lg:text-center text-center lg:gap-8 xl:gap-32.5 leading-4"
+          >
+            <!-- <img -->
+            <!--   loading="lazy" -->
+            <!--   src="./images/shape/shape-06.svg" -->
+            <!--   alt="Saly" -->
+            <!--   class="hidden xl:block absolute" -->
+            <!-- /> -->
+            <h4 class="text-black dark:text-white text-lg font-medium mb-4.5">
+              🤝 Transform Your Workflow with
+              <span class="text-blue-400 font-bold">Mavy</span>
+            </h4>
+            <h1 class="text-black dark:text-white text-7xl font-bold mb-5">
+              Get 1 free month of
+              <br />
+              Mavy
+              <br />
+            </h1>
+            <h1 class="text-3xl da mt-5" style="color: darkgray">
+              Get 1 free month for you and
+            </h1>
+            <h1
+              id="senderEmail"
+              class="bg-blue-600 text-3xl rounded-xl px-3 py-1 text-white"
+              style="
+                background: #e46c44e6;
+                width: min-content;
+                display: inline-flex;
+                margin-top: 0.5rem;
+              "
+            ></h1>
+            <p class="mt-10">
+              Experience Intelligent email drafting and meeting coordination
+              with Mavy’s advanced AI capabilities.
+            </p>
+
+            <div class="mt-10">
+              <div class="flex flex-wrap justify-center item-center gap-5">
+                <!-- <input type="text" placeholder="Your email address"
+                    class="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-3" /> -->
+                <a id="ref_link" href="https://app.mavex.ai" target="_blank">
+                  <button
+                    class="flex bg-black text-lg font-semibold hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-8.5 py-6 animate-bounce"
+                  >
+                    Get Your First Month Free 🎁
+                  </button>
+                </a>
+              </div>
+              <!-- <p class="text-black dark:text-white mt-5 text-sm">
+                Free 7 days trial. No credit card required.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hidden Section End -->
+      <!-- ===== Hero Start ===== -->
+      <section class="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 overflow-hidden">
+        <div class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div class="flex lg:items-center lg:gap-8 xl:gap-32.5">
+            <div class="md:w-1/2">
+              <h4 class="text-black dark:text-white text-lg font-medium mb-4.5">
+                🤝 Transform Your Workflow with
+                <span class="text-blue-400 font-bold">Mavy</span>
+              </h4>
+              <h1 class="text-black dark:text-white text-5xl font-bold mb-5">
+                Meet Mavy, <br />The Ultimate AI Assistant
+                <span
+                  class="text-sm my-3 inline-block relative before:absolute before:-bottom-1 before:left-4 before:w-10/12 before:h-0.5 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1"
+                  >Your partner for success & efficiency</span
+                >
+              </h1>
+              <p>
+                Experience Intelligent email drafting and meeting coordination
+                with Mavy’s advanced AI capabilities.
+              </p>
+
+              <div class="mt-4">
+                <div class="flex flex-wrap gap-5">
+                  <!-- <input type="text" placeholder="Your email address"
+                    class="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-3" /> -->
+                  <a href="https://app.mavex.ai" target="_blank">
+                    <button
+                      class="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
+                    >
+                      Get Started
+                    </button>
+                  </a>
+                </div>
+                <p class="text-black dark:text-white mt-5 text-sm">
+                  Free 7 days trial. No credit card required.
+                </p>
+              </div>
+            </div>
+            <div class="md:w-1/2 hidden lg:block">
+              <div class="relative 2xl:-mr-7.5">
+                <img
+                  loading="lazy"
+                  src="images/shape-01.png"
+                  alt="shape"
+                  class="absolute -left-11.5 top-0"
+                />
+                <img
+                  loading="lazy"
+                  src="images/shape-02.svg"
+                  alt="shape"
+                  class="absolute right-0 bottom-0"
+                />
+                <img
+                  loading="lazy"
+                  src="images/shape-03.svg"
+                  alt="shape"
+                  class="absolute -right-6.5 bottom-0"
+                />
+                <div>
+                  <img
+                      height="100%"
+                      width="100%"
+                      class="dark:hidden shadow-solid-l"
+                      src="images/hero-light_v2.webp"
+                      alt="Hero"
+                  />
+                  <img
+                      height="100%"
+                      width="100%"
+                      class="hidden dark:block shadow-solid-l"
+                      src="images/hero-light_v2.webp"
+                      alt="Hero"
+                  />
+              </div>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Hero End ===== -->
+
+      <!-- ===== Clients Start ===== -->
+      <div
+        class="text-center mx-auto"
+        x-data="{ sectionTitle: `Trusted by Industry Leaders and Innovators`, sectionSubtitle: ``, sectionTitlePara: ``}"
+      >
+        <div
+  class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4"
+>
+  <h4
+    x-text="sectionTitle"
+    class="font-medium text-sectiontitle text-black dark:text-white"
+  ></h4>
+</div>
+<h2
+  x-text="sectionSubtitle"
+  class="font-bold text-3xl xl:text-sectiontitle3 text-black dark:text-white md:w-4/5 xl:w-1/2 mx-auto mb-4"
+></h2>
+<p class="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%]" x-text="sectionTitlePara"></p>
+
+      </div>
+      <section
+        class="bg-alabaster dark:bg-black border border-x-0 border-y-stroke dark:border-y-strokedark py-2"
+      >
+        <div class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div
+            class="grid grid-cols-3 md:grid-cols-5 gap-7.5 lg:gap-12.5 xl:gap-29 justify-center items-center"
+          >
+            <a href="#" class="block" style="max-height: 10rem">
+              <img
+                loading="lazy"
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+                src="images/droom_logo.svg"
+                alt="Clients"
+                width="100%"
+                height="100%"
+              />
+              <img
+                loading="lazy"
+                class="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+                src="images/droom_logo.svg"
+                alt="Clients"
+              />
+            </a>
+            <a href="#" class="block" style="max-height: 10rem">
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+                src="images/inc42-logo.svg"
+                alt="Clients"
+              />
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+                src="images/inc42-logo.svg"
+                alt="Clients"
+              />
+            </a>
+            <a href="#" class="block" style="max-height: 10rem">
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+                src="images/Matrimony.svg"
+                alt="Clients"
+              />
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+                src="images/Matrimony.svg"
+                alt="Clients"
+              />
+            </a>
+            <a
+              href="#"
+              class="block"
+              style="max-height: 10rem; max-width: 6rem"
+            >
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+                src="images/decentro.svg"
+                alt="Clients"
+              />
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+                src="images/decentro.svg"
+                alt="Clients"
+              />
+            </a>
+            <a
+              href="#"
+              class="block"
+              style="max-height: 13rem; max-width: 6rem"
+            >
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%"
+                class="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+                src="images/zypp.svg"
+                alt="Clients"
+              />
+              <img
+                loading="lazy"
+                width="100%"
+                height="100%" 
+                class="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+                src="images/zypp.svg"
+                alt="Clients"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Clients End ===== -->
+
+      <!-- ===== Features Start ===== -->
+      <section id="features" class="py-20 lg:py-25 xl:py-30">
+        <div class="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+          <!-- Section Title Start -->
+          <div
+            class="text-center mx-auto"
+            x-data="{ sectionTitle: `Experience Unparalleled Personalised AI Assistance`, sectionSubtitle: `Here’s What Mavy Can Do For You`, sectionTitlePara: `Empower your workflow with Mavy's cutting-edge features—seamless email drafting and  intelligent meeting scheduling`}"
+          >
+            <div
+  class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4"
+>
+  <h4
+    x-text="sectionTitle"
+    class="font-medium text-sectiontitle text-black dark:text-white"
+  ></h4>
+</div>
+<h2
+  x-text="sectionSubtitle"
+  class="font-bold text-3xl xl:text-sectiontitle3 text-black dark:text-white md:w-4/5 xl:w-1/2 mx-auto mb-4"
+></h2>
+<p class="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%]" x-text="sectionTitlePara"></p>
+
+          </div>
+          <!-- Section Title End -->
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 xl:gap-12.5 mt-12.5 lg:mt-15 xl:mt-20"
+          >
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 8v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0Zm12 7h-1v1a1 1 0 0 1-2 0v-1H8a1 1 0 0 1 0-2h1v-1a1 1 0 1 1 2 0v1h1a1 1 0 0 1 0 2Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                Autopilot Scheduling
+              </h3>
+              <p>
+                CC Mavy in emails, and let it communicate your availability,
+                ensuring your schedule aligns seamlessly.
+              </p>
+            </div>
+            <!-- Features item End -->
+
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 16"
+                >
+                  <path
+                    d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"
+                  />
+                  <path
+                    d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                AI-Powered Email Drafting
+              </h3>
+              <p>
+                Craft compelling emails effortlessly with Mavy's AI, tailored to
+                your unique style and preferences.
+              </p>
+            </div>
+            <!-- Features item End -->
+
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 14"
+                >
+                  <path
+                    d="M11 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm8.585 1.189a.994.994 0 0 0-.9-.138l-2.965.983a1 1 0 0 0-.685.949v8a1 1 0 0 0 .675.946l2.965 1.02a1.013 1.013 0 0 0 1.032-.242A1 1 0 0 0 20 12V2a1 1 0 0 0-.415-.811Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                Smart Meeting  Coordination
+              </h3>
+              <p>
+                Experience hassle-free scheduling as Mavy interacts with
+                contacts, finding meeting times.
+              </p>
+            </div>
+            <!-- Features item End -->
+
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 18"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M18 4H16V9C16 10.0609 15.5786 11.0783 14.8284 11.8284C14.0783 12.5786 13.0609 13 12 13H9L6.846 14.615C7.17993 14.8628 7.58418 14.9977 8 15H11.667L15.4 17.8C15.5731 17.9298 15.7836 18 16 18C16.2652 18 16.5196 17.8946 16.7071 17.7071C16.8946 17.5196 17 17.2652 17 17V15H18C18.5304 15 19.0391 14.7893 19.4142 14.4142C19.7893 14.0391 20 13.5304 20 13V6C20 5.46957 19.7893 4.96086 19.4142 4.58579C19.0391 4.21071 18.5304 4 18 4Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M12 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V9C0 9.53043 0.210714 10.0391 0.585786 10.4142C0.960859 10.7893 1.46957 11 2 11H3V13C3 13.1857 3.05171 13.3678 3.14935 13.5257C3.24698 13.6837 3.38668 13.8114 3.55279 13.8944C3.71889 13.9775 3.90484 14.0126 4.08981 13.996C4.27477 13.9793 4.45143 13.9114 4.6 13.8L8.333 11H12C12.5304 11 13.0391 10.7893 13.4142 10.4142C13.7893 10.0391 14 9.53043 14 9V2C14 1.46957 13.7893 0.960859 13.4142 0.585786C13.0391 0.210714 12.5304 0 12 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                Context-Aware Responses
+              </h3>
+              <p>
+                Mavy understands the conversation context, ensuring responses
+                are relevant and personalized.
+              </p>
+            </div>
+            <!-- Features item End -->
+
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm14-7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm-5-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm-5-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                Harmonise your Calendar
+              </h3>
+              <p>
+                Sync and manage your calendar effortlessly, ensuring seamless
+                coordination for your appointments.
+              </p>
+            </div>
+            <!-- Features item End -->
+
+            <!-- Features item Start -->
+            <div
+              class="border border-white shadow-solid-3 rounded-lg p-7.5 xl:p-12.5 transition-all hover:shadow-solid-4 dark:hover:bg-hoverdark dark:border-strokedark dark:bg-blacksection"
+            >
+              <div
+                class="flex items-center justify-center rounded-[4px] w-16 h-16"
+              >
+                <svg
+                  class="w-16 h-16 text-black dark:text-white"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="font-semibold text-xl xl:text-itemtitle text-black dark:text-white mt-7.5 mb-5"
+              >
+                Effortless Rescheduling
+              </h3>
+              <p>
+                Need to reschedule a meeting? A simple command to Mavy, &
+                consider it done—no fuss, just efficiency.
+              </p>
+            </div>
+            <!-- Features item End -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Features End ===== -->
+
+      <!-- ===== Features Tab Start ===== -->
+      <section
+        id="Products"
+        class="pt-18.5 pb-20 lg:pb-22.5 relative"
+        x-data="{ featuresTab: 'tabOne' }"
+      >
+        <div class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div class="absolute top-0 -z-1">
+            <img
+              loading="lazy"
+              width="100%"
+              height="100%"
+              class="dark:hidden"
+              src="images/shape-dotted-light.svg"
+              alt="Dotted Shape"
+            />
+            <img
+              loading="lazy"
+              width="100%"
+              height="100%"
+              class="hidden dark:block"
+              src="images/shape-dotted-dark.svg"
+              alt="Dotted Shape"
+            />
+          </div>
+
+          <!-- Tab Menues Start -->
+          <div
+            class="border border-stroke dark:border-strokedark dark:bg-blacksection shadow-solid-5 dark:shadow-solid-6 bg-white rounded-[10px] flex flex-wrap md:flex-nowrap md:items-center justify-center lg:gap-7.5 xl:gap-12.5 mb-15 xl:mb-21.5"
+          >
+            <div
+              class="relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5"
+              :class="{ 'active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]': featuresTab === 'tabOne' }"
+              @click.prevent="featuresTab = 'tabOne'"
+            >
+              <div
+                class="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center"
+              >
+                <p
+                  class="text-black dark:text-white font-medium text-metatitle3"
+                >
+                  01
+                </p>
+              </div>
+              <div class="lg:w-auto md:w-3/5">
+                <h4
+                  class="text-black dark:text-white text-sm xl:text-regular font-medium"
+                >
+                  Mavy's as AI Executive Assistant
+                </h4>
+              </div>
+            </div>
+            <div
+              class="relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5"
+              :class="{ 'active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]': featuresTab === 'tabTwo' }"
+              @click.prevent="featuresTab = 'tabTwo'"
+            >
+              <div
+                class="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center"
+              >
+                <p
+                  class="text-black dark:text-white font-medium text-metatitle3"
+                >
+                  02
+                </p>
+              </div>
+              <div class="lg:w-auto md:w-3/5">
+                <h5
+                  class="text-black dark:text-white text-sm xl:text-regular font-medium"
+                >
+                  Mavy in Email Threads
+                </h5>
+              </div>
+            </div>
+            <div
+              class="relative cursor-pointer w-full md:w-auto border-b last:border-0 md:border-0 border-stroke dark:border-strokedark flex items-center gap-4 py-2 xl:py-5 px-6 xl:px-13.5"
+              :class="{ 'active before:w-full before:h-1 before:bg-primary before:absolute before:bottom-0 before:left-0 before:rounded-tl-[4px] before:rounded-tr-[4px]': featuresTab === 'tabThree' }"
+              @click.prevent="featuresTab = 'tabThree'"
+            >
+              <div
+                class="w-12.5 h-12.5 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center"
+              >
+                <p
+                  class="text-black dark:text-white font-medium text-metatitle3"
+                >
+                  03
+                </p>
+              </div>
+              <div class="lg:w-auto md:w-3/5">
+                <h5
+                  class="text-black dark:text-white text-sm xl:text-regular font-medium"
+                >
+                  Mavy in Mobile Keyboard
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Menues End -->
+
+          <!-- Tab Content Start -->
+          <div class="mx-auto max-w-c-1154">
+            <div x-show="featuresTab === 'tabOne'">
+              <div class="flex items-center gap-8 lg:gap-19">
+                <div class="md:w-1/2">
+                  <h2
+                    class="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-bold mb-7"
+                  >
+                    Seamless Scheduling and  E-mail Writing
+                  </h2>
+                  <p class="mb-5">
+                    Mavy's Executive Assistant Agent crafts polished emails,
+                    automates time-consuming tasks, and ensures you're always on
+                    top of your appointments.
+                  </p>
+                  <p class="w-11/12">
+                    Experience a smarter, more efficient way to manage your
+                    professional communication.
+                  </p>
+                </div>
+                <div class="hidden md:block md:w-1/2">
+                  <div
+                    class="flex w-full rounded-xl item-center justify-center bg-[#1b2634]"
+                  >
+                    <video width="400" controls class="">
+                      <source
+                        src="images/Untitled-design1.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div x-show="featuresTab === 'tabTwo'">
+              <div class="flex items-center gap-8 lg:gap-19">
+                <div class="md:w-1/2">
+                  <!-- <div
+                    class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4"
+                  >
+                    <h4
+                      class="font-medium text-sectiontitle text-black dark:text-white"
+                    >
+                      Beta
+                    </h4>
+                  </div> -->
+                  <h2
+                    class="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-bold mb-7"
+                  >
+                    CC Mavy into your email threads
+                  </h2>
+                  <p class="mb-5">
+                    Mavy's Executive Assistant Agent crafts polished emails,
+                    automates time-consuming tasks, and ensures you're always on
+                    top of your appointments.
+                  </p>
+                  <p class="w-11/12">
+                    Experience a smarter, more efficient way to manage your
+                    professional communication.
+                  </p>
+                </div>
+                <div class="hidden md:block md:w-1/2">
+                  <div
+                    class="flex w-full rounded-xl item-center justify-center bg-[#0a1224]"
+                  >
+                      <img
+                        class="w-80"
+                        src="images/email_bot.gif"
+                        type="gif"
+                      />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div x-show="featuresTab === 'tabThree'">
+              <div class="flex items-center gap-8 lg:gap-19">
+                <div class="md:w-1/2">
+                  <div
+                    class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4"
+                  >
+                    <h4
+                      class="font-medium text-sectiontitle text-black dark:text-white"
+                    >
+                      Launching Soon!
+                    </h4>
+                  </div>
+                  <h2
+                    class="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-bold mb-7"
+                  >
+                    Your Personal AI Assistant Now in your phone
+                  </h2>
+                  <p class="mb-5">
+                    Experience the upcoming future of mobile productivity with
+                    Mavy's AI Keyboard. Transform your smartphone into a
+                    powerful assistant, seamlessly integrated with Mavy's
+                    capabilities.
+                  </p>
+                  <p class="w-11/12">
+                    From intelligent text completion to summarise, write, or
+                    paraphrase, and get context-aware responses, and boost your
+                    efficiency on the go.
+                  </p>
+                </div>
+                <div class="hidden md:block md:w-1/2">
+                  <div
+                    class="flex w-full h-full rounded-xl item-center justify-center bg-white"
+                  >
+                    <video width="200" height="400" controls class="rounded-xl">
+                      <source
+                        src="images/Mavex-AI-Keyboard.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab Content End -->
+        </div>
+      </section>
+      <!-- ===== Features Tab End ===== -->
+
+      <!-- ===== Funfact Start ===== -->
+      <section class="py-20 lg:py-22.5 px-4 md:px-8 2xl:px-0">
+        <div
+          class="mx-auto max-w-c-1390 py-22.5 xl:py-27.5 relative z-1 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:bg-blacksection dark:stroke-strokedark"
+        >
+          <!-- <img -->
+          <!--   loading="lazy" -->
+          <!--   src="./images/shape/shape-04.svg" -->
+          <!--   alt="Man" -->
+          <!--   class="absolute -top-25 -left-15 lg:left-0 -z-1" -->
+          <!-- /> -->
+          <img
+            loading="lazy"
+            src="images/shape-05.svg"
+            alt="Doodle"
+            class="absolute bottom-0 right-0 -z-1"
+          />
+          <img
+            loading="lazy"
+            src="images/shape-dotted-light-02.svg"
+            alt="Dotted"
+            class="absolute top-0 left-0 -z-1 dark:hidden"
+          />
+          <img
+            loading="lazy"
+            src="images/shape-dotted-dark-02.svg"
+            alt="Dotted"
+            class="absolute top-0 left-0 -z-1 hidden dark:block"
+          />
+
+          <div
+            class="mx-auto text-center md:w-4/5 lg:w-2/3 xl:w-1/2 mb-12.5 lg:mb-17.5 px-4 md:px-0"
+          >
+            <h2
+              class="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-4"
+            >
+              Time is Money 💸
+            </h2>
+            <p class="lg:w-11/12 mx-auto">
+              Calculate Your Productivity Boost with Mavy
+            </p>
+
+            <p class="lg:w-12/12 mx-auto text-lg mt-10 text-black">
+              How much time do you spend on emails, calendar, and scheduling
+              each day?
+            </p>
+            <input
+              id="slider"
+              type="range"
+              name="points"
+              min="15"
+              max="60"
+              value="45"
+              aria-labelledby="result"
+              class="w-full cursor-pointer mt-5"
+              style="accent-color: #da1919"
+            />
+            <div class="flex justify-between">
+              <h1 class="">15 min</h1>
+              <h1 class="">30 min</h1>
+              <h1 class="">45 min</h1>
+              <h1 class="">60 min</h1>
+            </div>
+          </div>
+          <div
+            class="mx-auto text-center md:w-4/5 lg:w-2/3 xl:w-1/2 px-4 md:px-0 mt-5 rounded bg-blue-900"
+          >
+            <h2
+              class="font-bold text-black dark:text-white text-2xl xl:text-sectiontitle4 mb-4"
+            >
+              Your Monthly Savings with Mavy
+            </h2>
+            <div>
+              <div
+                id="result"
+                class="lg:w-12/12 mx-auto text-1xl xl:text-sectiontitle4 font-bold"
+                style="color: green"
+              >
+                $2700
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Funfact End ===== -->
+
+      <!-- ===== CTA Start ===== -->
+      <section
+        class="py-20 lg:py-16 xl:py-30 px-4 md:px-8 2xl:px-0 overflow-hidden"
+      >
+        <div
+          class="mx-auto max-w-c-1390 px-7.5 md:px-12.5 xl:px-17.5 py-12.5 xl:py-0 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:bg-blacksection dark:stroke-strokedark"
+        >
+          <div
+            class="flex flex-wrap md:flex-nowrap md:items-center md:justify-between gap-8 md:gap-0"
+          >
+            <div class="md:w-[70%] lg:w-1/2">
+              <h2
+                class="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-bold mb-4 w-11/12 mt-4"
+              >
+                Supercharge Your Productivity! 🚀
+              </h2>
+              <p>
+                Unlock the Power of Mavy and Transform How You Work. Sign Up Now
+                for a Smarter, More Efficient Tomorrow! 💡
+              </p>
+            </div>
+            <div class="lg:w-[45%]">
+              <div class="flex items-center justify-end xl:justify-between">
+                <div class="hidden xl:block"></div>
+                <a
+                  href="https://app.mavex.ai"
+                  target="_blank"
+                  class="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6"
+                >
+                  Sign up free
+                  <img
+                    loading="lazy"
+                    src="images/icon-arrow-dark.svg"
+                    alt="Arrow"
+                    class="dark:hidden"
+                  />
+                  <img
+                    loading="lazy"
+                    src="images/icon-arrow-light.svg"
+                    alt="Arrow"
+                    class="hidden dark:block"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== CTA End ===== -->
+
+      <!-- ===== Pricing Table Start ===== -->
+      <section
+        id="Pricing"
+        class="pt-15 lg:pt-20 xl:pt-25 pb-20 lg:pb-25 xl:pb-30"
+      >
+        <div class="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+          <!-- Section Title Start -->
+          <div
+            class="text-center mx-auto"
+            x-data="{ sectionTitle: `PRICING PLANS`, sectionSubtitle: `Simple Pricing`, sectionTitlePara: ``}"
+          >
+            <div
+  class="bg-zumthor dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4"
+>
+  <h4
+    x-text="sectionTitle"
+    class="font-medium text-sectiontitle text-black dark:text-white"
+  ></h4>
+</div>
+<h2
+  x-text="sectionSubtitle"
+  class="font-bold text-3xl xl:text-sectiontitle3 text-black dark:text-white md:w-4/5 xl:w-1/2 mx-auto mb-4"
+></h2>
+<p class="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%]" x-text="sectionTitlePara"></p>
+
+          </div>
+          <!-- Section Title End -->
+        </div>
+
+        <div
+          class="mx-auto max-w-[1207px] px-4 md:px-8 xl:px-0 relative mt-15 xl:mt-20"
+        >
+          <div class="absolute -bottom-15 -z-1">
+            <img
+              loading="lazy"
+              width="100%"
+              height="100%"
+              src="images/shape-dotted-light.svg"
+              alt="Dotted"
+              class="dark:hidden"
+            />
+          </div>
+          <div
+            class="flex flex-wrap lg:flex-nowrap justify-center gap-7.5 xl:gap-12.5"
+          >
+            <!-- Pricing Item -->
+            <div
+              class="md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5"
+            >
+              <h3
+                class="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5"
+              >
+                $25
+                <span class="text-regular text-waterloo dark:text-manatee"
+                  >/month</span
+                >
+              </h3>
+              <h4
+                class="text-black dark:text-white font-medium text-para2 mb-2.5"
+              >
+                Starter
+              </h4>
+              <div
+                class="border-t border-stroke dark:border-strokedark mt-2 pt-2 pb-12.5"
+              >
+                <ul>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Scheduling and Calendar Management
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    CC mavy@mavex.ai for Scheduling on Email Threads
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Meeting Reminders
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Real-time Reporting
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Graceful Time-Zone Handling
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Access to Mavy On Chrome
+                  </li>
+                </ul>
+              </div>
+
+              <a
+                href="https://app.mavex.ai/billing"
+                class="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
+              >
+                Get the Plan
+                <svg
+                  class="fill-primary dark:fill-white dark:hover:fill-primary transition-all duration-300"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.4767 6.17348L6.00668 1.70348L7.18501 0.525146L13.6667 7.00681L7.18501 13.4885L6.00668 12.3101L10.4767 7.84015H0.333344V6.17348H10.4767Z"
+                    fill=""
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <!-- Pricing Item -->
+            <div
+              class="md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5"
+            >
+              <div
+                class="absolute top-7.5 -right-3.5 -rotate-90 rounded-tl-full rounded-bl-full bg-primary font-medium text-white text-metatitle uppercase py-1.5 px-4.5"
+              >
+                popular
+              </div>
+
+              <h3
+                class="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5"
+              >
+                $50
+                <span class="text-regular text-waterloo dark:text-manatee"
+                  >/month</span
+                >
+              </h3>
+              <h4
+                class="text-black dark:text-white font-medium text-para2 mb-2.5"
+              >
+                Advanced
+              </h4>
+
+              <div
+                class="border-t border-stroke dark:border-strokedark mt-2 pt-2 pb-12.5"
+              >
+                <ul>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Scheduling and Calendar Management
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    CC: name@mavex.ai for Scheduling on Email Threads. Customize
+                    with a name of your choice.
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Meeting Reminders
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Real-time Reporting
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Graceful Time-Zone Handling
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Access to Mavy On Chrome
+                  </li>
+                </ul>
+              </div>
+
+              <a
+                href="https://app.mavex.ai/billing"
+                class="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
+              >
+                Get the Plan
+                <svg
+                  class="fill-primary dark:fill-white dark:hover:fill-primary transition-all duration-300"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.4767 6.17348L6.00668 1.70348L7.18501 0.525146L13.6667 7.00681L7.18501 13.4885L6.00668 12.3101L10.4767 7.84015H0.333344V6.17348H10.4767Z"
+                    fill=""
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <!-- Pricing Item -->
+            <div
+              class="md:w-[45%] lg:w-1/3 group relative bg-white dark:bg-blacksection rounded-lg shadow-solid-10 dark:shadow-none border border-stroke dark:border-strokedark p-7.5 xl:p-12.5"
+            >
+              <h3
+                class="text-black dark:text-white font-bold text-3xl xl:text-sectiontitle3 mb-7.5"
+              >
+                Enterprise
+              </h3>
+              <div
+                class="border-t border-stroke dark:border-strokedark mt-2 pt-2 pb-12.5"
+              >
+                <ul>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Scheduling and Calendar Management for Teams
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Mavy lives on your domain - name@yourdomain.ai
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Register multiple assistant emails. Dedicate them to each of
+                    your teams.
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Automatic Follow-ups
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Meeting Reminders
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Multiple Calendar Integrations
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Real-time Reporting
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Connect Mavy to your Jira, Asana & Notion
+                  </li>
+                  <li class="text-black dark:text-manatee mb-4 last:mb-0">
+                    Add Mavy to Your Team's Slack Workspace
+                  </li>
+                </ul>
+              </div>
+
+              <a
+                href="https://app.mavex.ai/billing"
+                class="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
+              >
+                Get the Plan
+                <svg
+                  class="fill-primary dark:fill-white dark:hover:fill-primary transition-all duration-300"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.4767 6.17348L6.00668 1.70348L7.18501 0.525146L13.6667 7.00681L7.18501 13.4885L6.00668 12.3101L10.4767 7.84015H0.333344V6.17348H10.4767Z"
+                    fill=""
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Pricing Table End ===== -->
+    </main>
+    <!-- ===== Footer Start ===== -->
+    <footer
+  class="bg-white dark:bg-blacksection border-t border-stroke dark:border-strokedark"
+>
+  <div class="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+    <!-- Footer Top -->
+    <div class="py-20 lg:py-25">
+      <div class="flex flex-wrap lg:justify-between gap-8 lg:gap-0">
+        <div class="animate_top w-1/2 lg:w-1/4">
+          <a href='/'>
+            <img
+              loading="lazy"
+              width="150"
+              height="40"
+              src="images/mavex-light.svg"
+              alt="Logo"
+              class="dark:hidden"
+            />
+            <img
+              loading="lazy"
+              width="150"
+              height="40"
+              src="images/mavex-dark.svg"
+              alt="Logo"
+              class="hidden dark:block"
+            />
+          </a>
+          <p class="uppercase tracking-[5px] text-sectiontitle mb-1.5">
+            contact
+          </p>
+          <a
+            href="#"
+            class="text-black dark:text-white font-medium text-itemtitle"
+            >mavy@mavex.ai</a
+          >
+        </div>
+
+        <div
+          class="w-full lg:w-2/3 xl:w-7/12 flex flex-col md:flex-row md:justify-end gap-8 md:gap-0"
+        >
+          <div class="animate_top">
+            <h4
+              class="font-medium text-black dark:text-white text-itemtitle2 mb-9"
+            >
+              Quick Links
+            </h4>
+
+            <ul>
+              <li>
+                <a
+                  href="#"
+                  class="ud-inline-block hover:ud-text-primary ud-mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#features"
+                  class="ud-inline-block hover:ud-text-primary ud-mb-3"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Pricing"
+                  class="ud-inline-block hover:ud-text-primary ud-mb-3"
+                  >pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Products"
+                  class="ud-inline-block hover:ud-text-primary ud-mb-3"
+                  >products</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="animate_top">
+            <h4
+              class="font-medium text-black dark:text-white text-itemtitle2 mb-9"
+            >
+              Newsletter
+            </h4>
+            <p class="mb-4 w-[90%]">Subscribe to receive future updates</p>
+
+            <form action="#">
+              <div class="relative">
+                <input
+                  type="text"
+                  placeholder="Email address"
+                  class="w-full dark:bg-black border border-stroke dark:border-strokedark shadow-solid-11 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-3 px-6"
+                />
+
+                <button class="absolute right-0 p-4">
+                  <svg
+                    class="fill-[#757693] dark:fill-white hover:fill-primary"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_48_1487)">
+                      <path
+                        d="M3.1175 1.17318L18.5025 9.63484C18.5678 9.67081 18.6223 9.72365 18.6602 9.78786C18.6982 9.85206 18.7182 9.92527 18.7182 9.99984C18.7182 10.0744 18.6982 10.1476 18.6602 10.2118C18.6223 10.276 18.5678 10.3289 18.5025 10.3648L3.1175 18.8265C3.05406 18.8614 2.98262 18.8792 2.91023 18.8781C2.83783 18.8769 2.76698 18.857 2.70465 18.8201C2.64232 18.7833 2.59066 18.7308 2.55478 18.6679C2.51889 18.6051 2.50001 18.5339 2.5 18.4615V1.53818C2.50001 1.46577 2.51889 1.39462 2.55478 1.33174C2.59066 1.26885 2.64232 1.2164 2.70465 1.17956C2.76698 1.14272 2.83783 1.12275 2.91023 1.12163C2.98262 1.12051 3.05406 1.13828 3.1175 1.17318ZM4.16667 10.8332V16.3473L15.7083 9.99984L4.16667 3.65234V9.16651H8.33333V10.8332H4.16667Z"
+                        fill=""
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_48_1487">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Footer Top -->
+
+    <!-- Footer Bottom -->
+    <div
+      class="border-t border-stroke dark:border-strokedark flex flex-wrap flex-col lg:flex-row items-center justify-center lg:justify-between gap-5 lg:gap-0 py-7"
+    >
+      <div class="animate_top">
+        <ul class="flex items-center gap-8">
+          <li>
+            <a class='hover:text-primary' href='/privacy'>Privacy Policy</a>
+          </li>
+          <li>
+            <a class='hover:text-primary' href='/tos'>Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="animate_top">
+        <p>&copy; HearUs Innovations | 2023. All rights reserved.</p>
+      </div>
+
+      <div class="animate_top">
+        <ul class="flex items-center gap-5">
+          <!-- <li>
+            <a href="#">
+              <svg
+                class="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_48_1499)">
+                  <path
+                    d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                    fill=""
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_48_1499">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li> -->
+          <li>
+            <a
+              href="https://twitter.com/mavex_ai"
+              aria-label="Twitter"
+              target="_blank"
+            >
+              <svg
+                class="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_48_1502)">
+                  <path
+                    d="M22.162 5.65593C21.3985 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4803 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75098 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.345 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.2641 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.2301 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+                    fill=""
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_48_1502">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/mavexai"
+              aria-label="Linkedin"
+              target="_blank"
+            >
+              <svg
+                class="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_48_1505)">
+                  <path
+                    d="M6.94 5.00002C6.93974 5.53046 6.72877 6.03906 6.35351 6.41394C5.97825 6.78883 5.46944 6.99929 4.939 6.99902C4.40857 6.99876 3.89997 6.78779 3.52508 6.41253C3.1502 6.03727 2.93974 5.52846 2.94 4.99802C2.94027 4.46759 3.15124 3.95899 3.5265 3.5841C3.90176 3.20922 4.41057 2.99876 4.941 2.99902C5.47144 2.99929 5.98004 3.21026 6.35492 3.58552C6.72981 3.96078 6.94027 4.46959 6.94 5.00002ZM7 8.48002H3V21H7V8.48002ZM13.32 8.48002H9.34V21H13.28V14.43C13.28 10.77 18.05 10.43 18.05 14.43V21H22V13.07C22 6.90002 14.94 7.13002 13.28 10.16L13.32 8.48002Z"
+                    fill=""
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_48_1505">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="#">
+              <svg
+                class="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_48_1508)">
+                  <path
+                    d="M7.443 5.3501C8.082 5.3501 8.673 5.4001 9.213 5.5481C9.70301 5.63814 10.1708 5.82293 10.59 6.0921C10.984 6.3391 11.279 6.6861 11.475 7.1311C11.672 7.5761 11.77 8.1211 11.77 8.7141C11.77 9.4071 11.623 10.0001 11.279 10.4451C10.984 10.8911 10.492 11.2861 9.902 11.5831C10.738 11.8311 11.377 12.2761 11.77 12.8691C12.164 13.4631 12.41 14.2051 12.41 15.0461C12.41 15.7391 12.262 16.3321 12.016 16.8271C11.77 17.3221 11.377 17.7671 10.934 18.0641C10.4528 18.3825 9.92084 18.6165 9.361 18.7561C8.771 18.9051 8.181 19.0041 7.591 19.0041H1V5.3501H7.443ZM7.049 10.8901C7.59 10.8901 8.033 10.7421 8.377 10.4951C8.721 10.2481 8.869 9.8021 8.869 9.2581C8.869 8.9611 8.819 8.6641 8.721 8.4671C8.623 8.2691 8.475 8.1201 8.279 7.9721C8.082 7.8731 7.885 7.7741 7.639 7.7251C7.393 7.6751 7.148 7.6751 6.852 7.6751H4V10.8911H7.05L7.049 10.8901ZM7.197 16.7281C7.492 16.7281 7.787 16.6781 8.033 16.6291C8.28138 16.5819 8.51628 16.4805 8.721 16.3321C8.92139 16.1873 9.08903 16.002 9.213 15.7881C9.311 15.5411 9.41 15.2441 9.41 14.8981C9.41 14.2051 9.213 13.7101 8.82 13.3641C8.426 13.0671 7.885 12.9191 7.246 12.9191H4V16.7291H7.197V16.7281ZM16.689 16.6781C17.082 17.0741 17.672 17.2721 18.459 17.2721C19 17.2721 19.492 17.1241 19.885 16.8771C20.279 16.5801 20.525 16.2831 20.623 15.9861H23.033C22.639 17.1731 22.049 18.0141 21.263 18.5581C20.475 19.0531 19.541 19.3501 18.41 19.3501C17.6864 19.3523 16.9688 19.2179 16.295 18.9541C15.6887 18.7266 15.148 18.3529 14.721 17.8661C14.2643 17.4107 13.9267 16.8498 13.738 16.2331C13.492 15.5901 13.393 14.8981 13.393 14.1061C13.393 13.3641 13.492 12.6721 13.738 12.0281C13.9745 11.4082 14.3245 10.8378 14.77 10.3461C15.213 9.9011 15.754 9.5061 16.344 9.2581C17.0007 8.99416 17.7022 8.85969 18.41 8.8621C19.246 8.8621 19.984 9.0111 20.623 9.3571C21.263 9.7031 21.754 10.0991 22.148 10.6931C22.5499 11.2636 22.8494 11.8998 23.033 12.5731C23.131 13.2651 23.18 13.9581 23.131 14.7491H16C16 15.5411 16.295 16.2831 16.689 16.6791V16.6781ZM19.787 11.4841C19.443 11.1381 18.902 10.9401 18.262 10.9401C17.82 10.9401 17.475 11.0391 17.18 11.1871C16.885 11.3361 16.689 11.5341 16.492 11.7321C16.311 11.9234 16.1912 12.1643 16.148 12.4241C16.098 12.6721 16.049 12.8691 16.049 13.0671H20.475C20.377 12.3251 20.131 11.8311 19.787 11.4841V11.4841ZM15.459 6.2901H20.967V7.6261H15.46V6.2901H15.459Z"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_48_1508">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+  </div>
+</footer>
+
+    <!-- ===== Footer End ===== -->
+
+    <!-- ====== Back To Top Start ===== -->
+    <button
+  class="hidden items-center justify-center w-10 h-10 rounded-[4px] shadow-solid-5 bg-primary hover:bg-primaryho fixed bottom-8 right-8 z-999"
+  @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+  @scroll.window="scrollTop = (window.pageYOffset > 50) ? true : false"
+  :class="{ '!flex' : scrollTop }"
+>
+  <svg
+    class="fill-white w-5 h-5"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"
+  >
+    <path
+      d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"
+    />
+  </svg>
+</button>
+
+    <!-- ====== Back To Top End ===== -->
+    <script>
+      var slider = document.querySelector("#slider");
+      var result = document.querySelector("#result");
+      slider.addEventListener("input", function (event) {
+        //changed to input here
+        var sliderValue = event.target.value;
+        console.log(sliderValue);
+        var maxValue = 2000;
+        var hourlyRate = 60;
+        var calc = 0;
+        calc = sliderValue * hourlyRate;
+        result.innerHTML = `$` + calc;
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to parse the custom URL structure
+        function getCustomQueryParam(url, param) {
+          const regex = new RegExp("[?&]" + param + "=([^&#]*)", "i");
+          const match = regex.exec(url);
+          return match ? decodeURIComponent(match[1]) : null;
+        }
+
+        const currentUrl = window.location.href;
+        let referral_id = null;
+        let email = null;
+
+        referral_id = getCustomQueryParam(currentUrl, "referral_id");
+        email = getCustomQueryParam(currentUrl, "email");
+
+        if (referral_id !== null && email !== null) {
+          console.log(referral_id, email);
+          document.getElementById("referralSection").style.display = "block";
+          document.getElementById("senderEmail").textContent = email;
+          document.getElementById("ref_link").href =
+            `https://app.mavex.ai?ref=${referral_id}`;
+        }
+      });
+    </script>
+  <script defer src="bundle.js"></script></body>
+</html>

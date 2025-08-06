@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/aidrive.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <title>Ai Drive</title>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script
+      src="https://apis.google.com/js/client:plusone.js"
+      type="application/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill-blot-formatter@1.0.5/dist/quill-blot-formatter.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-bftEQI9m.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DJubgHUG.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

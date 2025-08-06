@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mind Muse Chatbot</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.css" rel="stylesheet">
+
+  <link rel="icon"
+      type="image/png"
+      href="https://i.imgur.com/2I4yAwV.png">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top"><span class="icon-span"><img style="border-radius: 50%" width="33px" src="img/mind_muse2.png"/></span>MindMuse</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="privacy_policy.html#download">Message</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="privacy_policy.html#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="privacy_policy.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-12 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5">We believe in protecting your privacy</h1>
+
+            <div class="privacy-policy">
+
+            <p>At Mind Muse we prioritize the privacy of our members.</p>
+
+            <h2>Consent</h2>
+
+            <p>By using our website or service, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+            <h2>Information we collect</h2>
+
+            <p>When you use our service, we may ask for your contact information and employment information, including items such as name, email address, telephone number, places of employment, education history and references.</p>
+            <p>We use the information we collect in various ways, including to:</p>
+
+            <ul>
+            <li>Provide, operate, and maintain our service</li>
+            <li>Improve, personalize, and expand our service</li>
+            <li>Understand and analyze how you use our service</li>
+            <li>Develop new products, services, features, and functionality</li>
+            <li>Communicate with you, either directly or through one of our partners, including for employment services, to provide you with updates and other information relating to the product, and for purposes related to helping you find employment</li>
+            <li>Send you messages</li>
+            </ul>
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; Mind Muse 2023. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="privacy_policy.html">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="terms.html">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="faq.html">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for 'Stable Diffusion 1.5 Prompt Guide' API</h1>
+        <p><strong>Effective Date: January 14, 2024</strong></p>
+
+        <h2>1. Introduction</h2>
+        <p>This privacy policy applies to the 'Stable Diffusion 1.5 Prompt Guide' Api, specifically focusing on the associated API provided by aipromptguide.com. Our commitment is to the privacy and data security of our users.</p>
+
+        <h2>2. Information Collection and Use</h2>
+        <p>The API for the 'Stable Diffusion 1.5 Prompt Guide' API has two primary functions:</p>
+        <ul>
+            <li><strong>Artist and Style Search:</strong> We provide a list of artists and styles within Stable Diffusion based on user-initiated searches. Please note, we do not store any search history or personal information related to these searches.</li>
+            <li><strong>Anonymous Feedback:</strong> Users can send anonymous feedback through the API. No personal data or identifiable information is collected or stored from this feedback.</li>
+        </ul>
+
+        <h2>3. Data Storage and Security</h2>
+        <p>No personal data or search history is stored in our system. Any data collected is anonymized and used solely for the functionality of the api's services. We employ appropriate security measures to protect against unauthorized access to or unauthorized alteration, disclosure, or destruction of data.</p>
+
+        <h2>4. User Rights</h2>
+        <p>As we do not collect personal data, user rights related to access, correction, deletion, or data portability are not applicable. However, we are committed to maintaining the anonymity and privacy of the data we handle.</p>
+
+        <h2>5. Changes to the Policy</h2>
+        <p>We reserve the right to modify this privacy policy. Any changes will be updated directly in the policy document and the revised policy will be effective immediately upon posting on our website.</p>
+
+        <h2>6. Contact Information</h2>
+        <p>For any questions or concerns regarding our privacy practices, please contact us via the support channel on aipromptguide.com.</p>
+    </div>
+</body>
+</html>

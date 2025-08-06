@@ -1,0 +1,590 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+                    <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Data API Terms - Reddit</title>
+                        <link media="all" rel="stylesheet" href="https://www.redditinc.com/assets/css/main.css?rel=1713469975950">
+                        <meta property="og:image" content="https://www.redditinc.com/assets/images/site/RedditInc_External_Graphic@2x.png" />
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@reddit">
+            <meta name="twitter:creator" content="@reddit">
+            <meta name="twitter:title" content="Data API Terms">
+            <meta name="twitter:image" content="https://www.redditinc.com/assets/images/site/RedditInc_External_Graphic@2x.png">
+
+            <!-- OneTrust Cookies Consent Notice start for redditinc.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1edeb221-754b-4822-94fe-d1cd24d64d2a" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for redditinc.com -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRWFNB5');</script>
+<!-- End Google Tag Manager -->
+                <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/treeselectjs@0.8.6/dist/treeselectjs.css" />
+    </head>
+    <body class="region-NA policies">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRWFNB5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    <div id="wrapper">
+                
+
+<header id="header" class="sm-resp">
+    <div class="wide-container">
+        <div class="logo">
+                            <a href="https://www.redditinc.com/">
+                    <img src="https://www.redditinc.com/assets/images/site/Reddit_Lockup_Logo.svg" alt="reddit" width="85" height="29">
+                </a>
+                            
+        </div>
+        <a href="#" class="nav-opener"><span></span><strong id="menu-label">menu</strong></a>
+        <nav id="nav">
+            <ul>
+                                                            <li    class=""><a href="https://www.redditinc.com/">About</a></li>
+                                                                                <li    class=""><a href="https://www.redditinc.com/careers">Careers</a></li>
+                                                                                <li    class=""><a href="https://www.redditinc.com/press">Press</a></li>
+                                                                                <li    class=""><a href="https://www.redditinc.com/brand">Brand</a></li>
+                                                                                <li    class=""><a href="https://www.redditinc.com/transparency">Transparency</a></li>
+                                                                                                    
+                        <li class=''><a class=' ' href="https://investor.redditinc.com/" target="_blank">Investors</a></li>                        
+                                                                                <li    class=""><a href="https://www.redditinc.com/reddit-for-good">Reddit for Good</a></li>
+                                                                                <li    class="nested">                            
+                            <a data-menu="Blog" href="https://www.redditinc.com/blog">Blog</a>
+                            <img class="sub-arrow" src="/assets/icons/right-arrow.svg">                     
+                        </li>
+                                                                                                    
+                        <li class='nav-li'><a class='nav-btn ' href="https://www.reddit.com/" target="_blank">Join now</a></li>                        
+                                                                </ul>
+                
+        </nav>
+    </div>
+    <div class="subnavs wide-container">
+        <div class="mobile-back">
+            <img class="back-arrow" src="/assets/icons/left-arrow.svg"><span>Back</span>
+        </div>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                    <div data-menu="Blog" class="nested-nav">
+                    <h2>Topics</h2>
+                    <ul>                   
+                                                                                               
+                            <li><a  href="/blog/topic/announcements">Announcements</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/life-at-reddit">Life at Reddit</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/community">Community</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/product-design">Product &amp; Design</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/reddit-business">Reddit for Business</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/technology">Technology</a></li>
+                                                                                               
+                            <li><a  href="/blog/topic/partnerships">Partnerships</a></li>
+                                            </ul>
+                </div>
+                                    
+                                            
+            </div>
+</header>
+                
+
+
+    <div id="two-columns" class="">
+        <div class="container">
+            <aside id="sidebar">
+                <div class="sidebar-holder">
+                    <ul class="side-nav">
+                                                                                                            <li><a href="#text-content1" class="smooth-links">1. Registration</a></li>
+
+                                                                                                                                                                                                                                                                                                            <li><a href="#text-content2" class="smooth-links">2. Your Use of Data APIs</a></li>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li><a href="#text-content3" class="smooth-links">3. Fees; Restrictions on Use</a></li>
+
+                                                                                                                                                                                                                                                        <li><a href="#text-content4" class="smooth-links">4. Trademarks; Attribution; Publicity</a></li>
+
+                                                                                                                                                                                                                                                                                                            <li><a href="#text-content5" class="smooth-links">5. Support; Changes; Feedback</a></li>
+
+                                                                                                                                                                                                                                                                                                            <li><a href="#text-content6" class="smooth-links">6. Termination</a></li>
+
+                                                                                                                                                                                                    <li><a href="#text-content7" class="smooth-links">7. Disclaimer; Limitation of Liability; Indemnity</a></li>
+
+                                                                                                                                                                                                                                                                                                            <li><a href="#text-content8" class="smooth-links">8. Miscellaneous</a></li>
+
+                                                                                                                                                                                                                                                                                                                        </ul>
+
+                                                                                                        </div>
+            </aside>
+            <div id="content">
+                <div>
+                    <div class="filter-holder">
+
+                                                                        
+                        <select class="filter-options">
+                                                                                                <option value="https://www.redditinc.com/policies/all"                                    >All</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/user-agreement"                                    >User Agreement</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/privacy-policy"                                    >Privacy Policy</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/content-policy"                                    >Content Policy</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/moderator-code-of-conduct"                                    >Moderator Code of Conduct</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/cookies"                                    >Cookie Notice</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/premium-and-virtual-goods-agreement"                                    >Premium and Virtual Goods Agreement</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/previews-terms"                                    >Previews Terms of Use</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/creator-terms"                                    >Creator Terms</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/developer-terms"                                    >Developer Terms</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/data-api-terms" selected                                    >Data API Terms</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/embeds-terms"                                    >Embeds Terms of Use</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/bug-bounty-program"                                    >Responsible Disclosure / Bug Bounty Program</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/trademark-use-policy"                                    >Trademark Use Policy</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/transparency"                                    >Transparency</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/guideline-for-law-enforcement"                                    >Guidelines for Law Enforcement</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/reddits-anti-slavery-and-human-trafficking-statement"                                    >Reddit&#039;s Anti-Slavery and Human Trafficking Statement</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <option value="https://www.redditinc.com/policies/contributor-monetization-policy"                                    >Contributor Monetization Policy</option>
+                                                                                                                                <option value="https://www.redditinc.com/policies/contributor-terms"                                    >Contributor Terms</option>
+                                                                                                                                                                                            <option value="https://www.redditinc.com/policies/developer-dpa"                                    >Developer Data Protection Addendum</option>
+                                                                                    </select>
+                        
+                                                
+                    </div>
+
+                    <h1>Data API Terms</h1>
+                    <div class="pol-date">
+                        <p>
+                                                            Effective June 19, 2023.
+                                                                                        Last Revised April 18, 2023
+                                                    </p>
+                    </div>
+                    <div class="text no-counter">
+                        <p dir="ltr">Thanks for inquiring about our data APIs and the related data, code, and other materials provided by Reddit with our data APIs (the “<strong>Data APIs</strong>”). Collectively, we refer to these Data API Terms, the <a href="https://www.redditinc.com/policies/developer-terms">Developer Terms</a>, our <a href="https://www.redditinc.com/policies/user-agreement-september-12-2021">User Agreement</a>, any additional terms, terms within the accompanying Developer Documentation for the Data APIs, and any applicable policies and guidelines as the “<strong>Data API Terms</strong>,” and the Data API Terms include certain terms that are defined in the <a href="https://www.redditinc.com/policies/developer-terms">Developer Terms</a> and our <a href="https://www.redditinc.com/policies/user-agreement-september-12-2021">User Agreement</a>. </p>
+<p>By using the Data APIs, you agree to the Data API Terms including the <a href="https://www.redditinc.com/policies/developer-terms">Developer Terms</a> with Reddit. You may use the Data APIs and any other Materials you access from our Services, whether using the Data APIs or not, only in accordance with the Data API Terms.</p>
+                    </div>
+                </div>
+
+                                
+                                                                    <div id="text-content1">
+                            <h2>1. Registration</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>1.1 Eligibility</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You may not use the Data APIs and may not accept the Data API Terms if: (a) you are not of legal age to form a binding contract with Reddit; or (b) you are a person barred from using or receiving the Data APIs under the applicable laws of the United States or other countries, including the country in which you are resident, or from which you use the Data APIs.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>1.2 Corporate Use</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>If you are accepting the Data API Terms on behalf of your employer or another entity, you represent and warrant that: (a) you have full legal authority to bind your employer, or the applicable entity, to the Data API Terms; (b) you have read and understand the Data API Terms; and (c) you agree, on behalf of the party that you represent, to the Data API Terms. If you do not have the legal authority to bind your employer or the applicable entity, please do not use the Data APIs.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>1.3 Contact Information</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">In order to access the Data APIs, you are required to provide identification information (e.g., contact details). This information must be up to date and accurate at all times.<br /></p>
+
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content2">
+                            <h2>2. Your Use of Data APIs</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>2.1 License</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit grants you, subject to your complete and ongoing compliance with the Data API Terms, a non-exclusive, non-transferable, non-sublicensable, and revocable license solely to access and use the Data APIs as expressly permitted under and in accordance with the Data API Terms. All rights not expressly granted to you are reserved by Reddit.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.2 App Users</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You agree that you will ensure that your App Users (including end users) comply with all associated terms and conditions of the Data API Terms.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.3 Compliance with Reddit Terms and Rules</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You agree to comply with the <a href="https://www.redditinc.com/policies/user-agreement">Reddit User Agreement</a> and <a href="https://www.reddit.com/policies/privacy-policy">Privacy Policy</a>, which may be amended from time to time. Further, you agree to comply with the Data API Developer Documentation.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.4 User Content</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>The Content created with or submitted to our Services by Users (“<strong>User Content</strong>”) is owned by Users and not by Reddit. Subject to your complete and ongoing compliance with the Data API Terms, Reddit grants you a non-exclusive, non-transferable, non-sublicensable, and revocable license to copy and display the User Content using the Data API solely as necessary to develop, deploy, distribute, and run your App to your App Users. You may not modify the User Content except to format it for such display. You will comply with any requirements or restrictions imposed on usage of User Content by their respective owners, which may include "all rights reserved" notices, Creative Commons licenses, or other terms and conditions that may be agreed upon between you and the owners. Except as expressly permitted by this section, no other rights or licenses are granted or implied, including any right to use User Content for other purposes, such as for training a machine learning or AI model, without the express permission of rightsholders in the applicable User Content.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.5 Removals</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You may receive notices or requests to remove User Content pursuant to the <a href="https://www.redditinc.com/policies/content-policy">Reddit Content Policy</a>. You will escalate these requests to Reddit, as needed, by submitting the request <a href="https://www.reddithelp.com/hc/en-us/requests/new">here</a>.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.6 Privacy Policy</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You will disclose in your App through a privacy policy how you collect, use, store, and disclose data collected from your App Users and other visitors, including, where applicable, that third parties (e.g., advertisers) may serve content or advertisements and collect information directly from your App Users and other visitors that may include the use of cookies. In addition, by using the Data APIs, Reddit may use submitted information in accordance with our Privacy Policy.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.7 Compliance with Law</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">You will comply with all applicable laws or regulations (including laws regarding the import or export of data, or software, privacy, and local laws).<br /></p>
+
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.8 Permitted Access</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You will only access (or attempt to access) Data APIs using Access Info described in the Developer Documentation for the Data APIs. You must use the Access Info we provided you (e.g., the OAuth token) when accessing the Data APIs, and you will not misrepresent or mask either the user agent or OAuth identity when using the Data APIs.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.9 API Limitations</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">Reddit may set and enforce limits on your use of the Data APIs (e.g., limiting the number of API requests that you may make or the number of App Users you may serve), in our sole discretion.<br /></p>
+
+                            </div>
+                                                            
+                    
+                                                                        <h3>2.10 Libraries, Wrappers, and Extensions</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>There are some great third-party libraries, wrappers, and extensions that help bring Reddit to our Users. If your App utilizes them, you need to comply with any limitations or restrictions imposed by the applicable third party and Reddit.</p>
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content3">
+                            <h2>3. Fees; Restrictions on Use</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>3.1 Fees</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit reserves the right to charge fees for future use or access to the Data APIs, rates to be determined at Reddit's sole discretion. If you are interested in using the Data APIs for commercial purposes, research in excess of rate limits, or for any use that is not expressly permitted under the Data API Terms, then you will need to enter into a separate agreement with Reddit. For more information, please review our Developer Documentation <a href="https://reddithelp.com/hc/en-us/articles/14945211791892">here</a>.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>3.2 Restrictions</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">You must not, and must not allow those acting on your behalf to:</p>
+<ul><li dir="ltr"><p dir="ltr">use the Data APIs to encourage or promote illegal activity or violation of third party rights (including using User Content to train a machine learning or AI model without the express permission of rightsholders in the applicable User Content);</p></li><li dir="ltr"><p dir="ltr">reverse engineer, decompile, disassemble or translate the Data APIs or otherwise derive the source code from any Data APIs or any part thereof, except to the extent that this restriction is expressly prohibited by applicable law;</p></li><li dir="ltr"><p dir="ltr">circumvent or exceed limitations on calls and use of the Data APIs as outlined in the Developer Documentation, or otherwise use the Data APIs in a manner that would constitute excessive or abusive usage or would disrupt or unreasonably interfere with the Data APIs or the servers or networks that provide the Data APIs (for clarity, if Reddit believes that you are in breach of this section, Reddit reserves the right to permanently block your access to the Data APIs);</p></li><li dir="ltr"><p dir="ltr">interfere with, modify, disrupt, or disable features or functionality of the Data APIs, including any mechanism used to restrict or control functionality, or defeat, avoid, bypass, remove, deactivate or otherwise circumvent any software protection or monitoring mechanism of the Data APIs;</p></li><li dir="ltr"><p dir="ltr">use the Data APIs with the intent of introducing any viruses, worms, defects, Trojan horses, malware, or any other items of a destructive nature;</p></li><li dir="ltr"><p dir="ltr">sell, lease, or sublicense the Data APIs or access thereto or derive revenues from the use or provision of the Data APIs, whether for direct commercial or monetary gain unless there is express written approval from Reddit; or</p></li><li dir="ltr"><p dir="ltr">use the Data APIs to spam, incentivize, or harass users.</p></li></ul>
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content4">
+                            <h2>4. Trademarks; Attribution; Publicity</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>4.1 Use of Reddit Trademarks</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You are not permitted to use the Reddit Trademarks in, or as part of the name of your App, or any logos used to promote or identify your App, unless expressly authorized in writing by Reddit or in the Data API Terms. Further, you agree not to: (a) create any derivative works of the Reddit Trademarks that may create or reasonably imply Reddit’s endorsement, association or sponsorship with your application; (b) use the Reddit Trademarks in such a way that would mislead, deceive or confuse users, including using or registering any mark that is confusingly similar to any Reddit Trademarks; and (c) challenge Reddit’s ownership of the Reddit Trademarks and you will not take any action inconsistent with this ownership and you will cooperate, at Reddit’s request and expense, in any action (including the conduct of legal proceedings) which Reddit deems necessary or desirable to establish or preserve Reddit’s exclusive rights in, and to, the Reddit Trademarks. All use of the Reddit Trademarks and all goodwill arising out of such use, will inure to Reddit’s benefit.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>4.2 Attribution</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You agree to display any attribution(s) required by Reddit as described in the Developer Documentation for the Data APIs. When you use the Data APIs, Reddit hereby grants to you a non-transferable, non-sublicensable, nonexclusive license while the Data API Terms are in effect to use or display “Reddit” wordmark, so long as you use “for” preceding such use (e.g., “[insert name] for Reddit”).</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>4.3 Publicity</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">You will not make any statement regarding your use of the Data APIs which suggests partnership with, sponsorship by, or endorsement by Reddit, without Reddit's prior written approval.<br /></p>
+
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content5">
+                            <h2>5. Support; Changes; Feedback</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>5.1 Support</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit may elect to provide you with support or modifications for the Data APIs, in its sole discretion, and may terminate such support at any time without notice to you.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>5.2 Changes to Data APIs</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit may change, suspend, or discontinue any aspect of the Data APIs at any time, including the availability of all or any part of the Data APIs.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>5.3 Feedback</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>You agree and acknowledge that any feedback that you provide with respect to the Data APIs may be used, modified, and incorporated into any Reddit products and services without any restriction, obligation, or compensation to you.</p>
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content6">
+                            <h2>6. Termination</h2>
+
+                                            
+                                    
+                    
+                                            
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p dir="ltr">You may stop using the Data APIs at any time, with or without notice to Reddit. Reddit reserves the right to revoke your access to the Data APIs for any reason and for any period of time, without notice to you. Upon any termination of the Data API Terms or discontinuation of your access to the Data APIs, you will immediately stop using the Data APIs, delete any cached or stored User Content and Materials that were permitted or transferred via the Data APIs and stop any further distribution or updates of any mobile applications (as may be applicable). This includes any data or models that were derived from User Content and Materials that were accessed from the Data APIs or our other Services.<br /></p>
+
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content7">
+                            <h2>7. Disclaimer; Limitation of Liability; Indemnity</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>7.1 Disclaimer</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit does not represent or warrant that any Data APIs are free of inaccuracies, errors, bugs, or interruptions, or are reliable, accurate, complete, or otherwise valid. The Data APIs are provided “as is” with no warranty, express or implied, of any kind and Reddit expressly disclaims any and all warranties and conditions, including any implied warranty of merchantability, fitness for a particular purpose, availability, security, title, and non-infringement. Your use of the Data APIs is at your own discretion and risk, and you will be solely responsible for any damage that results from the use of any Data APIs including any damage to your computer system or loss of data.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>7.2 Limitation of Liability</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit shall not be liable to you for any direct, indirect, incidental, consequential, special, or exemplary damages arising out of, or in connection with, use of the Data APIs, whether based on tort (including negligence or otherwise), breach of contract, breach of warranty, or any other pecuniary loss, whether or not Reddit has been advised of the possibility of such damages. Under no circumstances shall Reddit be liable to you for any amount in excess of $100.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>7.3 Indemnity</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>To the maximum extent permitted by applicable law, you agree to hold harmless and indemnify Reddit and its subsidiaries, affiliates, officers, agents, licensors, and employees from and against any third-party claim arising from or in any way related to your use of the Data APIs, including any liability or expense arising from all claims, losses, damages (actual and/or consequential), suits, judgments, litigation costs and attorneys' fees, of every kind and nature. Reddit shall use good faith efforts to provide you with written notice of such claim, suit, or action.</p>
+                            </div>
+                                                            
+                                            </div>                        <div id="text-content8">
+                            <h2>8. Miscellaneous</h2>
+
+                                            
+                                    
+                    
+                                                                        <h3>8.1 Confidentiality</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Our communications to you and our Data APIs may contain Reddit confidential information. Reddit confidential information includes any Materials, communications, and information that are marked confidential or that would normally be considered confidential under the circumstances. You may use this Confidential Information only as necessary in exercising your rights granted under the Data API Terms and you will not disclose it to any third party without Reddit's prior written consent. You agree that you will protect this confidential information from unauthorized use, access, or disclosure in the same manner that you would use to protect your own confidential and proprietary information of a similar nature and in no event with less than a reasonable degree of care. Reddit confidential information does not include information that you independently developed, that was rightfully given to you by a third party without confidentiality obligation, or that becomes public through no fault of your own. You may disclose Reddit confidential information when compelled to do so by law if you provide us reasonable prior notice, unless a court orders that we not receive notice.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>8.2 Modification to Data API Terms</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Reddit may modify the Data API Terms at any time. You should look at the Data API Terms regularly. If we modify the Data API Terms, we will post the revised Data API Terms. By continuing to access or use the Data APIs after modifications or revisions to the Data API Terms become effective, you agree to be bound by the revised or modified Data API Terms.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>8.3 General</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>The Data API Terms do not create any agency, partnership or joint venture between the parties. Nothing in the Data API Terms will limit either party's ability to seek injunctive relief. Reddit is not liable for failure or delay in performance to the extent caused by circumstances beyond our reasonable control. Any failure to enforce any provision of the Data API Terms will not constitute a waiver thereof or of any other provision. If any section (or portion of a section) of the Data API Terms is invalid, illegal, or unenforceable, the rest of the Data API Terms will remain in effect. The Data API Terms are governed by the laws of the State of California, excluding its conflict of laws principles. For any dispute relating to the Data API Terms, the parties consent to personal jurisdiction and exclusive venue in San Francisco County, California. The Data API Terms (and the <a href="https://www.redditinc.com/policies/developer-terms">Developer Terms</a> and our <a href="https://www.redditinc.com/policies/user-agreement">User Agreement</a>, which are incorporated by this reference into, and made a part of, the Data API Terms) are the entire agreement between you and Reddit relating to its subject and supersede any prior or contemporaneous agreements on that subject.</p>
+                            </div>
+                                                            
+                    
+                                                                        <h3>8.4 Questions</h3>
+                        
+                                                    <div
+                                                                class="text no-counter"
+                            >
+                                <p>Questions or comments about the Data API Terms or the Data APIs may be directed <a href="https://reddithelp.com/hc/en-us/requests/new?ticket_form_id=14868593862164">here</a>.</p>
+                            </div>
+                                                                            </div>            </div>
+        </div>
+    </div>
+                
+
+
+<footer id="footer">
+    <div class="wide-container">
+        <div class="left">
+            <div class="logo footer">
+                <a href="https://www.redditinc.com/">
+                <img src="https://www.redditinc.com/assets/images/site/Reddit_Lockup_Logo.svg" alt="reddit" width="85" height="29">
+                </a>
+            </div>
+            <div class="social-links">
+                                <ul class="footer-nav">
+                                                                                                                        <li><a class="facebook" href="https://www.facebook.com/reddit" target="_blank"><span class="show-sr">Facebook</span></a></li>
+                                                                                                        <li><a class="instagram" href="https://www.instagram.com/reddit" target="_blank"><span class="show-sr">Instagram</span></a></li>
+                                                                                                        <li><a class="twitter" href="https://www.twitter.com/reddit" target="_blank"><span class="show-sr">Twitter</span></a></li>
+                                                                                                        <li><a class="youtube" href="https://www.youtube.com/c/reddit" target="_blank"><span class="show-sr">YouTube</span></a></li>
+                                                                                                        <li><a class="linkedin" href="https://www.linkedin.com/company/reddit-com/" target="_blank"><span class="show-sr">LinkedIn</span></a></li>
+                                                    </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="columns">
+                                        <ul class="footer-nav company-block">
+                                                     <span class="footer-nav__headline">Company</span> 
+                                                                                
+                                                            <li ><a href="https://www.redditinc.com/">Reddit, Inc.</a></li>
+                                                                                
+                                                            <li ><a href="https://www.redditforbusiness.com/">Reddit for Business</a></li>
+                                                                                
+                                                            <li ><a href="https://www.redditinc.com/careers">Careers</a></li>
+                                                                                
+                                                            <li ><a href="http://investor.redditinc.com/">Investors</a></li>
+                                                                                
+                                                            <li ><a href="https://www.redditinc.com/press">Press Contact</a></li>
+                                                                                
+                                                            <li ><a href="https://www.redditinc.com/blog">Blog</a></li>
+                                                                                
+                                                            <li ><a href="https://www.reddit.com/r/RDDT/">r/RDDT</a></li>
+                                                                        </ul>
+
+                                        <ul class="footer-nav">
+                                                <span class="footer-nav__headline">Community</span>
+                            <li><a href=""></a></li>
+                                                <span class="footer-nav__headline"></span>
+                            <li><a href="https://www.reddit.com/r/reddit/">Reddit.com</a></li>
+                                                <span class="footer-nav__headline"></span>
+                            <li><a href="https://redditforcommunity.com?utm_source=redditinc&amp;utm_medium=redditinc&amp;utm_campaign=evergreen">Reddit for Community</a></li>
+                                                <span class="footer-nav__headline"></span>
+                            <li><a href="https://www.redditinc.com/policies/content-policy">Content Policy</a></li>
+                                                <span class="footer-nav__headline"></span>
+                            <li><a href="https://reddit.zendesk.com/hc/en-us">Help Center</a></li>
+                                                <span class="footer-nav__headline"></span>
+                            <li><a href="https://www.redditinc.com/policies/moderator-code-of-conduct">Moderator Code of Conduct</a></li>
+                                        </ul>
+
+                                        <ul class="footer-nav">
+                                            <span class="footer-nav__headline">Privacy &amp; Safety</span>
+                        <li><a href="" target="_blank"></a></li>
+                                            <span class="footer-nav__headline"></span>
+                        <li><a href="https://www.reddit.com/policies/privacy-policy" target="_blank">Privacy Policy</a></li>
+                                            <span class="footer-nav__headline"></span>
+                        <li><a href="https://www.redditinc.com/policies/user-agreement/" target="_blank">User Agreement</a></li>
+                                            <span class="footer-nav__headline"></span>
+                        <li><a href="https://www.redditinc.com/policies/transparency" target="_blank">Transparency Report</a></li>
+                                            <span class="footer-nav__headline"></span>
+                        <li><a href="https://www.reddit.com/r/redditsecurity/" target="_blank">r/redditsecurity</a></li>
+                                            <span class="footer-nav__headline"></span>
+                        <li><a href="https://www.redditinc.com/policies/" target="_blank">Other Terms and Policies</a></li>
+                                                          
+                    </ul>
+
+            </div>
+            <div class="doc">      
+                <span id="copyright">Copyright 2024 <a href="https://www.reddit.com" target="_blank">Reddit, Inc.</a> All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+        <script>window.jQuery || document.write('<script src="https://www.redditinc.com/assets/js/jquery-1.12.4.min.js" defer><\/script>')</script>
+        <script src="https://www.redditinc.com/assets/js/header.js" defer></script>    
+        <script src="https://www.redditinc.com/assets/js/ads.js?rel=1534185970845" defer></script>
+        <script src="https://www.redditinc.com/assets/js/comboTreePlugin.js" defer></script>                    
+        <script src="https://www.redditinc.com/assets/js/main.js?rel=1713469975950" defer></script>
+        <script>
+            initRecaptcha = function() {
+                if ($('form .require-recaptcha').length < 1) return;
+
+                grecaptcha.render('recaptcha', {
+                    'sitekey' : '6LfV4JYUAAAAAEhc2CrEBZBUPG8POUC-OhvKE0nL',
+                    'callback' : function(response) {
+                        $('form .require-recaptcha').removeClass('require-recaptcha').attr('disabled', false);
+                    }
+                });
+            }
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit" async defer></script>
+    </body>
+</html>

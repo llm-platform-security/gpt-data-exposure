@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <script>
+    dataLayer = typeof dataLayer === 'undefined' ? [] : dataLayer;
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-52PLNR');</script>
+<!-- End Google Tag Manager -->
+<link href="/assets/fontawesome-pro/css/all.min.css" media="none" onload="if(media!='all')media='all'" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Open Sans:regular,bold,italic,bolditalic|Playfair+Display:regular,bold,italic,bolditalic&display=swap" rel="stylesheet" />        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+                Privacy Notice &amp; Policy | St. Louis Fed
+        </title>
+
+        <link rel="preconnect" href="https://apis.google.com">
+        <link rel="preconnect" href="https://accounts.google.com">
+        <link rel="preconnect" href="https://www.googletagmanager.com">
+
+        <link rel="stylesheet" href=/assets/css/1712771740.main.min.css>
+        <!--[if IE]>
+        <link rel="stylesheet" href=/css/1544153103.ie.css />
+        <![endif]-->
+
+                <meta name="description" content="Providing free U.S. and international economic data, graphs and other data-related tools, plus quality research from St. Louis Fed economists.">
+            <link href="/assets/fontawesome-pro/css/v4-shims.css" media="none" onload="if(media!='all')media='all'" rel="stylesheet" />
+
+    </head>
+
+    <body class="">
+
+        <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+                    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52PLNR"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="header">
+    <div class="container">
+        <div id="action-modal"></div>
+        <div class="row">
+            <div class="col-10 col-md-12 col-lg-8 header-logo">
+                <a href="/"><img src="/images/masthead-88h-2x.png" id="logo" alt="Economic Research - Federal Reserve Bank of St. Louis" class="d-none d-md-block hidden-xs"><span style="margin-top:6px;" class="d-inline d-md-none visible-xs" id="logo-replacement">Economic Research <span>Federal Reserve Bank of St. Louis</span></span></a>
+            </div>
+            <div id="head-right" class="col-2 col-md-12 col-lg-4" style="padding-right:0">
+            <span class="d-inline d-md-none">
+                <a class="btn btn-link btn-lg research-nav-hamburger navbar-toggler" data-parent="#research-nav" data-bs-toggle="collapse" data-bs-target="#nav-inner" href="#" style="color: #FFF">
+                <i class="fa fa-bars"></i></a>
+            </span>
+
+
+                <form action="/ssi/search.php" id="head-search-form" class="d-none d-md-block col-lg-12 dropdown" style="height: 35px;">
+                    <div id="head-search-container">
+                        <div class="input-group">
+                            <input type="search" id="head-search" name="q" class="form-control js-placeholder" autocomplete="off" title="Search " placeholder="Search " data-bs-toggle="dropdown">
+                            <div class="input-group-append">
+                                <button class="btn btn-light" type="submit"><i class="fa fa-search fa-lg"></i></button>
+                            </div>
+                </div>
+                        </div>
+                        <div class="head-search-dropdown">
+                            <div class="head-search-dropdown-content">
+                                <div id="head-search-spinner">
+                                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                                    <div>Searching</div>
+                                </div>
+                                <a href="#" class="selected dropdown-item" data-search="all"><i class="fas fa-landmark"></i> <span class="some-right-margin">Search</span> All Research Division content</a>
+                                <a href="#" data-search="fred" class="dropdown-item"><i class="fas fa-chart-line"></i> <span class="some-right-margin">Search</span> Only FRED economic data</a>
+                                <a href="#" data-search="fraser" class="dropdown-item"><i class="fas fa-books"></i> <span class="some-right-margin">Search</span> Only FRASER digital library</a>
+                                <a href="#" data-search="pubwp" class="dropdown-item"><i class="fas fa-user-chart"></i> <span class="some-right-margin">Search</span> Only published research and working papers</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="notifications-container"></div>
+    </div>
+
+
+</div>
+
+<style>
+.navbar-nav>li>a {line-height: inherit;}
+#nav-accordion .panel { border: none; }
+#nav-accordion .panel-body { padding: inherit; }
+#nav-accordion.panel-group { margin-bottom: inherit; }
+</style>
+<nav class="navbar navbar-expand-md" id="research-nav" role="navigation" style="background: #798bb0;">
+    <div class="container" style="padding-left:0;padding-right:0">
+        <div id="nav-inner" class="navbar-collapse collapse">
+            <form action="/ssi/search.php" id="nav-search-form" class="d-block d-md-none col-12" style="margin-top: 8px;margin-bottom: 4px;">
+                <div class="input-group" id="nav-search-container" style="display: block;">
+                    <input type="text" class="form-control" id="nav-search" name="q" placeholder="Search " style="width:80%;margin:auto;">
+                </div>
+            </form>
+
+            <ul id="main-nav" class="navbar navbar-nav col-12 navbar-expand-md">
+                <li class="dropdown">
+                    <a href="/econ/" id="economist-link">
+                        Economists
+                        <i class="d-none d-md-inline fa fa-caret-down"></i><i class="hidden-sm fa fa-plus d-md-none d-inline"></i><i class="hidden-sm fa fa-minus d-md-none d-none" style="display:none"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="/econ/">Research Economists</a>
+                        <a href="/econ/#fellow">Research Fellows</a>
+                        <a href="/econ/#emeritus">Emeritus</a>
+                        <a href="/research-associates">Research Associates</a>
+                        <a href="/econ/#all">View all A-Z</a>
+                    </div>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="/publications/" id="publications-link">
+                        Research and Publications
+                        <i class="d-none d-md-inline fa fa-caret-down"></i><i class="hidden-sm fa fa-plus d-md-none d-inline"></i><i class="hidden-sm fa fa-minus d-md-none d-none" style="display:none"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="/wp/">Working Papers</a>
+                        <a href="/publications/">Research Division Publications</a>
+                        <a href="/resources/covid-19/">COVID-19 Research</a>
+                        <a href="https://fedinprint.org">Fed in Print</a>
+                        <a href="https://ideas.repec.org/d/frbslus.html">St. Louis Fed at RePEc IDEAS</a>
+                        <a href="/regecon/">Eighth District Economy</a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="/about.html">
+                        The Research Division
+                        <i class="d-none d-md-inline fa fa-caret-down"></i><i class="hidden-sm fa fa-plus d-md-none d-inline"></i><i class="hidden-sm fa fa-minus d-md-none d-none" style="display:none"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="/about.html">About</a>
+                        <a href="/publications/research-news/">Research News</a>
+                        <a href="/careers/">Careers</a>
+                        <a href="/conferences/">Events</a>
+                        <a href="/info-services.html">Information Services</a>
+                        <a href="/staff/">Research Staff</a>
+                    </div>
+                </li>
+
+                <li class="navbar-right ms-auto">
+                    <ul class="navbar-nav col-12" style="margin-top: 0; padding-right: 0;">
+                        <li>
+                            <a href="https://www.econlowdown.org">econlowdown</a>
+                        </li>
+                        <li>
+                            <a href="https://fraser.stlouisfed.org">FRASER</a>
+                        </li>
+                        <li>
+                            <a href="https://fred.stlouisfed.org">FRED</a>
+                        </li>
+                        <li class="d-none d-md-inline">
+                            <a href="#">|</a>
+                        </li>
+                        <li id="signin-wrap">
+                   <span id="user-nav">
+                       <a href="https://fredaccount.stlouisfed.org/" class="HeaderSignIn-gtm signin">My Account</a>
+                   </span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!--googleoff: snippet-->
+<a href="#content-container" class="sr-only sr-only-focusable">Skip to main content</a>
+<!--googleon: snippet-->
+<a name="top" id="top"></a>
+<!--[if lt IE 7 ]> <div id="container" class="ie6 container"><![endif]-->
+<!--[if IE 7 ]> <div id="container" class="ie7 container"><![endif]-->
+<!--[if IE 8 ]> <div id="container" class="ie8 container"><![endif]-->
+<!--[if IE 9 ]> <div id="container" class="ie9 container"><![endif]-->
+<!--[if IE]> <div id="container" class="ie container"><![endif]-->
+<!--[if !(IE)]><!--> <div id="container" class="container p-0"><!--<![endif]-->
+    <div id="page_category" style="display:none;"></div>
+
+    <div class="clear" id="content-container">
+        
+                <div class="col-12" style="padding-right:0;padding-left:0">
+        <h1>Privacy Notice & Policy</h1>
+<p>The Federal Reserve Bank of St. Louis respects your privacy. For the Bank's overall privacy policy, <a href="https://www.stlouisfed.org/about-us/privacy-policy/general-reserve-bank-data-privacy-notice">visit this page</a>.<br></p>
+<p><a href="https://www.stlouisfed.org/about-us/privacy-policy/general-reserve-bank-data-privacy-notice">The privacy policy below</a> includes supplemental information related to the websites and services of the&nbsp;Bank's Research Division.</p>
+<h3>Personal Information</h3>
+<p>You may access and browse our site without disclosing your personal data.
+        The personal information you choose to provide us is voluntary. We do
+        not require you to provide any information about yourself that you do
+        not wish to share.</p>
+<p>The FRED Add-In for Microsoft Excel is a Microsoft Office add-in that allows users to import data directly into Excel from the FRED website. No personally identifiable information is collected.</p>
+<p>You may choose to provide us with personal information if, for example,
+        you subscribe to our publications or mail lists, send us questions through
+        e-mail, answer our user surveys, register for an event or user account,
+        apply for a job or participate in our online activities. </p>
+<p>If you participate in a user survey, your answers and personal information
+        will only be analyzed in aggregate. The information will be used to help
+        us tailor our web site, publications, and services to our users' needs
+        and to help us understand our audience. </p>
+<p>If you provide us with your postal or e-mail address or telephone number,
+        this information will only be used for the purpose for which you provided
+        it, such as to: </p>
+<p> Provide you with the publications or information requested; </p>
+<ul>
+        <li> Clarify your order or request;</li>
+        <li> Register you for a user account, conference or other event;</li>
+        <li> Respond to you regarding your job application;</li>
+        <li> Provide you with related information; or</li>
+        <li> Send you a token of appreciation through postal mail if you participate
+            in selected online activities.
+        </li>
+    </ul>
+<p>We may also file your comments to improve the site, or review and discard
+        the information. </p>
+<p>When you fill out our online forms, they are returned to us via electronic
+        mail. Your responses are not encrypted. We cannot guarantee the security
+        of information sent via electronic mail. </p>
+<h3>Cookies </h3>
+<p>A cookie is a text file that a web site can send to your browser and
+        which may then be placed on your computer. We may use cookies on this
+        site in the following ways:</p>
+<ol>
+        <li> To collect statistical information about our users in aggregate.
+            We perform analyses on our web server's log files to identify, among
+            other things: <br>
+            <ul>
+                <li type="disc"> Our site's most popular pages;</li>
+                <li type="disc">The browsers and operating systems most often used by our visitors;</li>
+                <li type="disc">The sites and search engines that have referred visitors to our
+                    site; and
+                </li>
+                <li type="disc">The domains from which our users visit us.</li>
+                <li type="disc">This analysis does not involve personally identifiable information.
+                    It is used only for the purpose of helping us understand and better
+                    meet our audience's needs. <br>
+                </li>
+            </ul>
+        </li>
+        <li>A transient, memory-resident "cookie" may be invoked in certain cases.
+            For example, on the FRED site a cookie is required to remember your
+            selections as you move from page to page and enable FRED's functionality.
+            If you register for a Research user account, a cookie will be invoked
+            when you login to your user account. These cookies will disappear when
+            your browser is closed.
+            If you check the 'Stay logged in' option, the cookie will persist for a maximum of 2 weeks before another
+            login is required.
+            You are not required to register for a user
+            account to use this site.<br>
+            <br>
+        </li>
+        <li> Sometimes a third-party contractor will use cookies on one of the
+            sites they create and manage for us&mdash;for example, our Job Opportunities
+            site.
+        </li>
+        <br>
+        <li> Some aggregate web site analysis is performed for us by Google Analytics (<a href="http://www.google.com/analytics/">http://www.google.com/analytics/</a>), and may involve the use
+            of cookies set by Google. We also use Google Tag Manager (<a href="http://www.google.com/tagmanager/">http://www.google.com/tagmanager/</a>),
+            but have not implemented and do not use DoubleClick tracking cookies as part of that service. For Google's
+            Privacy policy, see <a href="http://www.google.com/privacy/">http://www.google.com/privacy.html</a>.
+        </li>
+        <br>
+        <li> Our RSS feeds are routed via FeedBurner, which is owned by Google. For Google's Privacy policy, see <a href="http://www.google.com/privacy.html">http://www.google.com/privacy.html</a>.
+    </li></ol>
+<p>You can set your browser to notify you before you receive a cookie, giving
+        you the opportunity to decide whether to accept it or not. You can also
+        set your browser to not accept cookies at all. If you do so, however,
+        some areas of some sites (including ours) may not operate properly. </p>
+<h3>Disclosure of Information</h3>
+<p>Any information collected on this web site, whether individual or aggregate,
+        is for Federal Reserve use only. We do not rent, sell or share personal
+        information about you with other people or nonaffiliated companies except
+        under any of the following circumstances:</p>
+<ul>
+        <li> When we have your permission;<br>
+            <br>
+        </li>
+        <li>The Federal Reserve Bank of St. Louis monitors this site for unauthorized
+            attempts to upload or change information, to defeat or circumvent security
+            measures, or to utilize this site for other than its intended purposes.
+            By using this site you expressly consent to such monitoring and you
+            are advised that if such monitoring reveals possible evidence of criminal
+            activity, we will provide the evidence of such monitoring to law enforcement
+            officials;<br>
+            <br>
+        </li>
+        <li>We retain the services of outside contractors to provide services,
+            including mailing list administration and our Job Opportunities pages.
+            We require that these contractors keep information obtained through
+            our web site secure and confidential. We also require that these contractors
+            use personal information obtained through our web site only on behalf
+            of the Federal Reserve. <br>
+            <br>
+        </li>
+        <li>We may be required to disclose your personal information to government
+            officials or otherwise as required by subpoenas, court orders, legal
+            process or other legal obligations and to establish or exercise our
+            legal rights or defend against legal claims. We will share information
+            in order to investigate, prevent or take action regarding illegal activities,
+            suspected fraud or as otherwise required by law. </li>
+        <li>If you are a member of the FRED Network and select the option to allow your profile to be viewable by the
+            public. By default this option is not selected, and your profile is not viewable by the public.
+        </li>
+    </ul>
+<h3>Submitting Content</h3>
+<p>
+        "Content" is any material, including but not limited to writings,
+        artwork, photographs, designs, plans, information, suggestions, ideas,
+        data, questions or comments, submitted by you to the Federal Reserve
+        Bank of St. Louis through this site.
+    </p>
+<p>
+        The Federal Reserve Bank of St. Louis is under no obligation to use any Content submitted.
+    </p>
+<p>
+        You may not submit Content that violates or infringes the rights of
+        others including, without limitation, patent, trademark, trade secret,
+        copyright, publicity or other proprietary rights.
+    </p>
+<p>
+        You may not submit Content that is:
+    </p>
+<ul>
+        <li>pornographic, obscene, X-rated or sexually explicit,</li>
+        <br>
+        <li>defamatory</li>
+        <br>
+        <li>racist, sexist or otherwise discriminatory or derogatory to any individual or groups</li>
+        <br>
+        <li>harassing or threatening</li>
+        <br>
+        <li>fraudulent, or</li>
+        <br>
+        <li>in violation of U.S. or state laws or regulations or Bank or System policy.</li>
+    </ul>
+<p>
+        Any Content you submit will be considered to be non-proprietary and non-confidential.
+    </p>
+<p>
+        The Federal Reserve Bank of St. Louis will have no obligations of any
+        kind with respect to any Content you submit and users of the site will
+        be free to edit, reproduce, use, disclose, publish and/or distribute
+        any Content for any purpose whatsoever, without limitation.
+    </p>
+<p>
+        You also agree that The Federal Reserve Bank of St. Louis will be free
+        to use any ideas, concepts, artwork, inventions, developments,
+        suggestions or techniques embodied in the Content for any purpose
+        whatsoever, with or without attribution, and without compensation to
+        you.
+    </p>
+<h3>Children</h3>
+<p>Our site is not directed toward children under 13. Nonetheless, we are
+        committed to comply with applicable laws and requirements, such as the
+        Children's Online Privacy Protection Act. We do not knowingly collect
+        personal data from children under 13. Minor children should always obtain
+        parental consent before releasing personal information to any web site. </p>
+<h3>Information Security and Quality</h3>
+<p> We have implemented security measures consistent with our internal information
+        security practices to help us keep your information secure. These measures
+        include technical and procedural steps to protect your data from misuse,
+        access or disclosure, loss, alteration or destruction. </p>
+<p>If you have voluntarily submitted personal information to us and wish
+        to review, update, correct or delete it, please email your request to
+        <a href="/contactus/email_research_webmaster.php">research@stlouisfed.org</a></p>
+<h3>Contact Information</h3>
+<p>Questions or comments about the Federal Reserve Bank of St. Louis's privacy
+        policy may be directed <a href="https://www.stlouisfed.org/about-us/privacy-policy/contact">here</a>.</p>
+    </div>
+
+                            <br class="clear">
+    </div>
+</div>
+
+<div class="container p-0">
+    <div id="footer" class="hidden-print row pt-2">
+
+            <a name="foot-search-a" class="xs-anchor"></a>
+           <form action="/ssi/search.php" id="foot-search-form" class="d-block d-md-none col-12" style="margin-bottom:2em">
+               <div id="foot-search-container">
+                   <input type="text" id="foot-search" name="q" class="js-placeholder" title="Search " placeholder="Search ""><button type='submit' class="pull-right" id="foot-search-button">&nbsp;</button>
+               </div>
+           </form>
+
+            <div class="col-12 col-md-6" style="margin-bottom:2em">
+                <h3 style="margin-top:0">SUBSCRIBE TO THE RESEARCH DIVISION NEWSLETTER</h3>
+                <form role="form" class="form-horizontal newsletter-form" method="post">
+                    <div>
+                        <div class="input-group">
+                            <input type="text" name="email" placeholder="Email" class="form-control email">
+                            <button type="submit" class="btn btn-outline-secondary" style="color: #333;">Subscribe</button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="cm-f-ttjlj" value="Research site footer">
+                </form>
+                <h3 class="mt-3"><a href="/">Research Division</a></h3>
+                <ul>
+                    <li><a href="/contactus/">Contact</a></li>
+                    <li><a href="/conferences/">Events</a></li>
+                    <li><a href="/careers/">Careers</a></li>
+                    <li><a href="/rss/">RSS</a></li>
+                    <li><a href="/legal.html">Legal and Privacy</a></li>
+
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 text-end">
+                <p><a href="https://www.stlouisfed.org"><img src="/images/frb-logo-bw.png" style="max-width: 250px"></a></p>
+                <p>
+                    One Federal Reserve Bank Plaza<br>
+                    St. Louis, MO 63102
+                </p>
+                <p>
+                    <a href="https://www.stlouisfed.org/about-us/resources/visiting-the-st-louis-fed">Information for Visitors</a>
+                </p>
+                <p class="twitter-x">
+                    <a class=" twitter-x twitter-x-link" href="https://twitter.com/stlouisfed">
+                        <img src="/images/x-logo-black.png" class="twitter-x twitter-x-logo" alt="twitter x">
+                        follow @stlouisfed
+                    </a>
+                </p>
+            </div>
+
+        </div>
+</div>
+
+<script>
+
+    // function to parse cookies, and return the value
+    function getCookie(name) {
+        var cookies = document.cookie.split(';');
+        for (var i in cookies) {
+            var cookie = cookies[i].trim().split('=');
+            if (cookie[0] == name) {
+                return cookie[1];
+            }
+        }
+        return null;
+    }
+
+    // if the user is logged in, send the value of the liruid cookie to Google Analytics
+    domain_suffix = (window.location.hostname.split(".")[0].split("-")[1] || '');
+    var researchLiruid = getCookie('research-liruid' + domain_suffix);
+    if (researchLiruid) {
+        dataLayer.push({'userId':researchLiruid});
+    }
+
+</script>
+<script src="//www.google.com/jsapi?key=ABQIAAAAPelFyeCz0PpV85SR5rWaqRRhAb2Ap3qYoysH45CbGq2mti5UQBSkEmzrEopuvbJMUl_7-XoJ24PVBg"></script>
+<script src="/assets/js/modernizr.min.js"></script>
+<script src="/assets/js/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery/jquery-migrate.min.js" type="text/javascript"></script>
+
+        <script src="//research.stlouisfed.org/js/1712771742.bootstrap.min.js"></script>
+    <script>
+
+    $(function(){
+        if (typeof $.fn.button !== 'undefined' && typeof $.fn.button.noConflict === 'function') {
+            var btn = $.fn.button.noConflict();
+            $.fn.btn = btn;
+        }
+    });
+    </script>
+
+
+<script src="/js/jquery/plugins/1544153103.jquery.hoverIntent.minified.js"></script>
+
+<script>
+    var websiteCfg = {"fred_host" : "fred.stlouisfed.org", "fraser_host" : "fraser.stlouisfed.org", "research_host" : "research.stlouisfed.org" };
+</script>
+<script src="/js/1712771740.common.min.js"></script>
+<script src="/js/lib/jquery/plugins/1544153103.jquery.hotkeys.js"></script>
+<script src="/assets/js/1559576334.ga-events.js"></script>
+<script src="/assets/js/jquery/plugins/1544153102.jquery.cookie.js"></script>
+
+<!-- pingdom_uptime_check=uXCPjTUzTxL7ULra -->        
+        
+    </body>
+
+</html>

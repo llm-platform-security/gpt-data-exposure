@@ -1,0 +1,2845 @@
+
+
+
+
+
+
+
+ 
+
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		<meta name="format-detection" content="telephone=no">
+
+		
+		
+			
+			
+				<meta name="title" property="og:title" content="공공데이터 포털"/>
+			
+		
+
+		
+			
+			
+				<meta name="description" property="og:description" content="국가에서 보유하고 있는 다양한 데이터를『공공데이터의 제공 및 이용 활성화에 관한 법률(제11956호)』에 따라 개방하여 국민들이 보다 쉽고 용이하게 공유•활용할 수 있도록 공공데이터(Dataset)와 Open API로 제공하는 사이트입니다."/>
+			
+		
+
+		<meta name="url" property="og:url" content="https://www.data.go.kr/ugs/selectPortalPolicyView.do"/>
+		<meta name="type" property="og:type" content="website"/>
+		<meta name="image" property="og:image" content="http://data.go.kr/images/biz/data-search/bg-nation.png">
+		<link rel="icon" type="image/x-icon" href="/images/biz/DATA.ico">
+
+		<meta name="google-site-verification" content="bvyY6E17BJNPJP1TbX5pgXHq4N0tuRivFDVih6bRCXQ" />
+		<meta name="naver-site-verification" content="dddd02420b56aeebf384a2b9b68a8d20a3bcd1c7" />
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		
+			
+			
+				<title>공공데이터포털</title>
+			
+		
+
+		
+		
+		
+
+
+
+ 
+<!-- css -->
+<link rel="stylesheet" href="/css/biz/cmm/tcs/import.css" media="all">
+<link rel="stylesheet" href="/css/app.css?t=202405130_0543" media="all">
+
+<!-- js -->
+<script src="/js/biz/cmm/tcs/jquery-1.12.4.js"></script>
+<script src="/js/biz/cmm/tcs/jquery-ui.1.12.1.js"></script>
+<script src="/js/biz/cmm/tcs/jquery.easing.1.3.js"></script>
+<script src="/js/biz/cmm/tcs/tooltipster.bundle.js"></script>
+<script src="/js/biz/cmm/tcs/jquery.modal.js"></script>
+<script src="/js/biz/cmm/tcs/dayjs.min.js"></script>
+<script src="/js/biz/cmm/tcs/ui.common.js"></script>
+<script src="/js/biz/cmm/tcs/swiper.min.js"></script>
+	
+	<!-- UI/UX팀 작업결과물 -->
+		 
+ 
+<!-- js -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/jquery.form.min.js"></script>					<!-- JQUERY form -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/placeholders.jquery.min.js"></script>			<!-- placeholder-->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_codeSetting.js"></script>				<!-- 공통js : 공통코드 selectbox 세팅 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_cmmFunction.js"></script>				<!-- 공통js : 공통 기능 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_stringUtil.js"></script>					<!-- 공통js : 공통 문자열처리 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_numberUtil.js"></script>					<!-- 공통js : 공통 숫자처리 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_openSourceSetting.js"></script>			<!-- 공통js : 오픈소스 세팅 - -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/script_cmmPopup.js"></script>					<!-- 공통js : 공통 팝업 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/moment.js"></script>							<!-- 공통js : 날짜 -->
+
+<script type="text/javascript" src="/js/biz/cmm/cmm/loading.js"></script>			             	<!-- 임시 스크립트 : 로딩바 -->
+<script type="text/javascript" src="/js/biz/cmm/cmm/underscore.js"></script>						<!-- 임시 스크립트 : 언더스코어 -->
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/biz/cmm/cmm/style_cmmCustom.css">   				<!-- 개발팀 공통 css  -->
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script> 									<!-- 공통js : 카카오 SDK  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>  <!-- 공통js : copyJS  -->
+<!-- Fine Uploader template w/ customization
+  ====================================================================== -->
+<script type="text/template" id="qq-template-validation">
+        <div class="qq-uploader-selector qq-uploader">
+            <div class="qq-total-progress-bar-container-selector qq-total-progress-bar-container">
+                <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-total-progress-bar-selector qq-progress-bar qq-total-progress-bar"></div>
+            </div>
+            <div class="qq-upload-button-selector qq-upload-button">
+                <div>파일 선택</div>
+            </div>
+            <ul class="qq-upload-list-selector qq-upload-list" aria-live="polite" aria-relevant="additions removals">
+                <li>
+                    <div class="qq-progress-bar-container-selector">
+                        <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-progress-bar-selector qq-progress-bar"></div>
+                    </div>
+                    <span class="qq-upload-spinner-selector qq-upload-spinner"></span>
+                    <img class="qq-thumbnail-selector" qq-max-size="100" qq-server-scale>
+                    <span class="qq-upload-file-selector qq-upload-file"></span>
+                    <span class="qq-upload-size-selector qq-upload-size"></span>
+                    <button type="button" class="qq-btn qq-upload-cancel-selector qq-upload-cancel">[취소]</button>
+                    <button type="button" class="qq-btn qq-upload-retry-selector qq-upload-retry">[재시도]</button>
+                    <button type="button" class="qq-btn qq-upload-delete-selector qq-upload-delete">[삭제]</button>
+                    <span role="status" class="qq-upload-status-text-selector qq-upload-status-text"></span>
+                </li>
+            </ul>
+            <dialog class="qq-alert-dialog-selector">
+                <div class="qq-dialog-message-selector"></div>
+                <div class="qq-dialog-buttons">
+                    <button type="button" class="qq-cancel-button-selector">[닫기]</button>
+                </div>
+            </dialog>
+            <dialog class="qq-confirm-dialog-selector">
+                <div class="qq-dialog-message-selector"></div>
+                <div class="qq-dialog-buttons">
+                    <button type="button" class="qq-cancel-button-selector">[아니오]</button>
+                    <button type="button" class="qq-ok-button-selector">[예]</button>
+                </div>
+            </dialog>
+
+            <dialog class="qq-prompt-dialog-selector">
+                <div class="qq-dialog-message-selector"></div>
+                <input type="text">
+                <div class="qq-dialog-buttons">
+                    <button type="button" class="qq-cancel-button-selector">[취소]</button>
+                    <button type="button" class="qq-ok-button-selector">[확인]</button>
+                </div>
+            </dialog>
+        </div>
+</script>
+ <script type="text/javascript">
+//  document.domain = "data.go.kr";
+
+	/**
+    * document Ready
+    */
+	$(document).ready(function(){
+		$('.date-from:text').each(function () {
+			$(this).prop("readonly", "true");
+		});
+		$('.date-to:text').each(function () {
+			$(this).prop("readonly", "true");
+		});
+		$('.date-picker-select:text').each(function () {
+			$(this).prop("readonly", "true");
+		});
+		
+	});
+</script>
+
+		<style>
+			
+			
+			#header {position:relative;z-index:100;height: 160px;color:#fff;background-color:#0b70b9;}
+
+			#header h1.logo {position:absolute;left:50%; top:58px; width:168px; height: 27px; margin:40px 0 0 -600px;padding: 0;}
+
+			#header .gov-info {display: flex; margin: 0 auto; vertical-align: bottom; padding: 18px 0 0px 11px; box-sizing:border-box; max-width: 1200px; height: 64px;}
+			#header .gov-info > ul {margin: 15px 0 0 0;}
+			#header .gov-info > ul img { vertical-align: middle; margin-right: 10px;}
+			#header .gov-info .gov-search {text-align: right;width: 400px;height: 40px;margin: 0px 0 0 auto;display: flex;}
+			#header .gov-info .input-text {width:400px; height: 100%;}
+			#header .gov-info .btn-search {overflow:hidden; display:block; right:0; top:0; width:40px; height:100%; text-indent:-9999px; background:#18a9ec url('/images/biz/main/btn-main-search2.png') no-repeat center;}
+			#header .gov-info .gov-search .atcmp_wrap {position:absolute; text-align: left; top:60px; z-index:2; width:400px; background-color:#fff; color:#333; border-top:1px solid #396fe1;}
+
+			#header .header-wrap {width:100%; height:100%; padding: 16px 0 0 0;}
+			#header .header-wrap .util {position:absolute; left:50%; top:0; width:600px; margin: 67px 0 0 0; text-align:right; line-height:1.1;}
+
+			#gnb ul.gnb-pc .depth2 {display:none; position:absolute;left:0; top: 160px;width:100%;margin:0;padding:0;background-color:#0b70b9;}
+			@media all and (max-width:1024px){
+
+				.inner-wrap {width:100%; max-width:100%;}
+
+				#header {position:fixed; left:0; top:0; z-index:10; width:100%; height:86px;}
+
+				#header h1.logo {position:absolute; left:20px; top:19px; width:116px; height:19px; margin:0; padding:0; margin-top: 30px;}
+				#header h1.logo a {background-size:100% auto;}
+
+				#header .btn-open-gnb {overflow:hidden; display:block; position:absolute; right:20px; top:20px; width:20px; height:17px; text-indent:-9999px; background:url('/images/biz/common/btn/btn-open-gnb.png') no-repeat 0 0; background-size:20px 17px; margin-top: 30px;}
+
+				#header .header-wrap {float:none; display:block; overflow:hidden; overflow-y:auto; position:fixed; left:100%; top:0; width:100%; height:100%; padding:56px 0 0 0; background-color:#0b70b9; transition:left 0.1s ease-in-out;}
+				#header .header-wrap.on {left:0;}
+				#header .header-wrap .logo {position:absolute; left:20px; top:19px; width:116px; height:19px; margin:0; padding:0;}
+				#header .header-wrap .logo a {overflow:hidden; display:block; width:100%; height:100%; text-indent:-9999px; background:url('/images/biz/common/logo/logo-top.png') no-repeat 0 0 / 100% auto;}
+
+				#header .header-wrap .util {overflow:hidden; position:static; left:inherit; top:inherit; width:100%; height:auto; padding:20px 0 20px 0; font-size:1em; line-height:1.1; text-align:center; border:1px solid #2886c9; border-width:1px 0;}
+
+				#header .header-wrap .util .login {float:none; display:inline-block;}
+				#header .header-wrap .util .login a {float:none; margin:0 10px;}
+				#header .header-wrap .util .login a:first-of-type {margin-left:0;}
+				#header .header-wrap .util .login .before {float:none; display:inline-block;}
+				#header .header-wrap .util .login .after {float:none;}
+				#header .header-wrap .util .link {float:none; margin:0 0 0 10px; display:inline-block;}
+				#header .header-wrap .util .link a {float:none; margin:0 10px;}
+				#header .header-wrap .util .link a:first-of-type {margin-left:0;}
+
+				#header .header-wrap .btn-close-gnb {overflow:hidden; display:block; position:absolute; right:20px; top:20px; width:16px; height:16px; text-indent:-9999px; background:url('/images/biz/common/btn/btn-close-gnb.png') no-repeat 0 0; background-size:16px 16px;}
+
+				#header .gov-info { margin-left: 15px;  display: inline-block; vertical-align: middle; margin-right: 10px; padding: 9px 0 3px 0;  margin-bottom: 20px; box-sizing:border-box; text-align:left; font-size: 12px;}
+				#header .gov-info img { vertical-align: bottom; margin-right: 10px;}
+				#header .gov-info .gov-search {width: 45%; height: 30px; margin: 5px 0px 0px 130px;display: flex; position: absolute;}
+				#header .gov-info .input-text {width: 100%; height: 100%; font-size:10px;}
+				#header .gov-info .btn-search {overflow:hidden; display:block; right:0; top:0; width:30px; height:100%; text-indent:-9999px; background:#18a9ec url('/images/biz/main/btn-main-search2.png') no-repeat center;}
+				#header .gov-info .gov-search .atcmp_wrap {position:absolute; text-align: left; top:86px; z-index:2; width:150px; background-color:#18a9ec; color:#fff; border-top:1px solid #396fe1;}
+
+				/* gnb */
+				#gnb {float:none; width:100%;}
+				#gnb ul.gnb-pc {display:none;}
+
+				#gnb ul.gnb-mb {display:block;}
+				#gnb ul.gnb-mb > li {position:relative; margin:0; padding:0; border-bottom:1px solid #2886c9;}
+				#gnb ul.gnb-mb > li:first-of-type {margin:0;}
+				#gnb ul.gnb-mb > li > a {display:block; position:relative; height:56px; padding:0 20px; font-size:1.2857em; line-height:55px; font-weight:700; letter-spacing:-0.05em;}
+				#gnb ul.gnb-mb > li > a:after {content:''; display:block; position:absolute; right:20px; top:50%; width:14px; height:8px; margin:-4px 0 0 0; padding:0; background:url('/images/biz/common/bg/bg-gnb-arr-mb.png') no-repeat 0 0 / 100% auto;}
+				#gnb ul.gnb-mb > li > a:hover {color:#fff584; text-decoration:none;}
+				#gnb ul.gnb-mb > li > a:focus {text-decoration:none;}
+				#gnb ul.gnb-mb > li.active > a {color:#fff584;}
+				#gnb ul.gnb-mb > li.active > a:after {transform:rotate(180deg);}
+				#gnb ul.gnb-mb > li.active .depth2 {display:none;}
+
+				#gnb ul.gnb-mb .depth2 {display:none; width:100%; margin:0; padding:0 0 20px 0;}
+				#gnb ul.gnb-mb .depth2 a {color:#fff;}
+				#gnb ul.gnb-mb .depth2 a:hover {color:#fff584; text-decoration:none;}
+				#gnb ul.gnb-mb .depth2 a:focus {text-decoration:none;}
+				#gnb ul.gnb-mb .depth2 ul {padding-left:38px;}
+				#gnb ul.gnb-mb .depth2 ul li {margin-top:4px;}
+				#gnb ul.gnb-mb .depth2 ul li:first-child {margin-top:0;}
+				#gnb ul.gnb-mb .depth2 ul li a {font-size:1.0714em; letter-spacing:-0.05em;}
+				#gnb ul.gnb-mb .depth2 ul li.active a {color:#fff584;}
+				#gnb ul.gnb-mb .depth2 ul li:last-child .depth3 {padding-bottom:0;}
+
+				#gnb ul.gnb-mb .depth3 {width:100%; margin:0; padding:5px 0 15px 0;}
+				#gnb ul.gnb-mb .depth3 a {color:#fff;}
+				#gnb ul.gnb-mb .depth3 a:hover {color:#fff584; text-decoration:none;}
+				#gnb ul.gnb-mb .depth3 a:focus {text-decoration:none;}
+				#gnb ul.gnb-mb .depth3 ul {padding-left:18px;}
+				#gnb ul.gnb-mb .depth3 ul li {margin-top:4px;}
+				#gnb ul.gnb-mb .depth3 ul li:first-child {margin-top:0;}
+				#gnb ul.gnb-mb .depth3 ul li a {font-size:1em; letter-spacing:-0.05em;}
+				#gnb ul.gnb-mb .depth3 ul li.active a {color:#fff584;}
+			}
+			@media all and (max-width:355px){
+				#header .gov-info .gov-search {display:none;}
+			}
+			
+			
+			
+		</style>
+	</head>
+	<body >
+		<div class="skip">
+
+			<a href="#contents" >콘텐츠 바로가기</a>
+
+		</div>
+		
+		<div class="wrapper">
+			
+			<!-- 헤더+메뉴 -->
+			
+
+
+
+
+
+
+ 
+<script type="text/javascript">
+
+    /**
+     * document Ready
+     */
+    $(document).ready(function () {
+        //현재메뉴 표시
+        let currentMainMenuId = fn_getCookie("currentMainMenuId");
+        setMenu(currentMainMenuId);
+
+        window.addEventListener("resize", function () {
+            let currentMainMenuId = fn_getCookie("currentMainMenuId");
+            if(!fn_empty(currentMainMenuId)){
+                if($(window).width() <= 1024){
+                    currentMainMenuId = currentMainMenuId.replace("_pc", "_mb");
+                    fn_setCookie("currentMainMenuId", currentMainMenuId,1);
+                }else{
+                    currentMainMenuId = currentMainMenuId.replace("_mb", "_pc");
+                    fn_setCookie("currentMainMenuId", currentMainMenuId,1);
+                }
+            setMenu(currentMainMenuId);
+            }
+        })
+
+        function setMenu(currentMainMenuId) {
+            if (!fn_empty(currentMainMenuId)) {
+                $("#" + currentMainMenuId).addClass("active");
+                if(currentMainMenuId != undefined || currentMainMenuId != 'M0000000000') {
+                    $("#" + currentMainMenuId).addClass("on");
+                }
+                $("#" + currentMainMenuId).parent().parent().parent().parent().addClass("active");
+                if(currentMainMenuId != undefined || currentMainMenuId != 'M0000000000') {
+                    $("#" + currentMainMenuId).parent().parent().parent().parent().addClass("on");
+                }
+                if (currentMainMenuId.includes("M02")) { // 마이페이지 관련 하부 메뉴
+                    $("#" + currentMainMenuId).parent().parent().parent().parent().parent().addClass("active");
+                    $("#" + currentMainMenuId).parent().parent().prev().addClass("active");
+                    $("#" + currentMainMenuId).parent().parent().parent().parent().prevAll().addClass("active");
+                    $("#" + currentMainMenuId).parent().parent().parent().parent().parent().parent().parent().addClass("active");
+                }
+            } else {
+                $("#gnb").find(".active").each(function (idx, entry) {
+                    $(this).removeClass("active");
+                });
+                $(".gnb-mb").find(".depth2").slideUp(1,'easeInOutExpo');
+                $(".gnb-mb").find(".depth3").slideUp(1, 'easeInOutExpo');
+                $(".gnb-mb").find(".depth4").slideUp(1, 'easeInOutExpo');
+            }
+
+            //하위메뉴 없는 경우 불필요한 태그 삭제
+            $(".ulLower").each(function (idx, entry) {
+                if ($(this).find("li").length === 0) {
+                    $(this).parent().parent().remove();
+                }
+            });
+
+            //마이페이지는 모바일 시 depth4 스타일 지정되므로 불필요한 태그 삭제는 별도로 동작
+            $(".depth4").children('ul').each(function (idx, entry) {
+                if ($(this).find("li").length === 0) {
+                    $(this).parent().remove();
+                }
+            });
+            
+            // 마이페이지 모바일 depthg3 불필요한 태그 삭제 
+            $(".arrow > ul > li").each(function (idx, entry) {
+                if($(this).next().children("ul").children("li").length === 0){
+                    $(this).remove();
+                }
+            })
+
+            if($(window).width() <= 1024){
+                $(".gnb-mb").find(".depth2").slideUp(1,'easeInOutExpo');
+                $(".gnb-mb").find(".depth3").slideUp(1, 'easeInOutExpo');
+                $(".gnb-mb").find(".depth4").slideUp(1, 'easeInOutExpo');
+                $(".gnb-mb").find(".active").children(".depth2").slideDown(1, 'easeInOutExpo');
+                $(".gnb-mb").find(".active").next(".depth3").slideDown(1, 'easeInOutExpo');
+                $(".gnb-mb").find(".active").next(".depth4").slideDown(1, 'easeInOutExpo');
+            }
+        }
+
+        $(document).tooltip();
+
+        let mberId = "";
+        let personalPolicyAgreeYn = "";
+        let conditionAgreeYn = "";
+        let checkUrl = window.location.href;
+
+        if(mberId != "" && !checkUrl.includes("/checkAgreeYn.do")) {
+            if(personalPolicyAgreeYn == "N") {
+                showCheckAgreeVer2Popup();
+            } else if(personalPolicyAgreeYn == "Y" && conditionAgreeYn == "N") {
+                showCheckConditionAgreeVer2Popup();
+            }
+        }
+    });
+
+</script>
+<header id="header" tabIndex="-1">
+    
+        
+            <form action="/tcs/dss/selectDataSetList.do" method="get" id="searchHeaderFrm"
+                  onSubmit="return false;">
+                <div class="gov-info">
+                    <ul>
+                        <li>
+                            <img src="/images/biz/common/logo/eg_logo.png" alt="eg(전자정부)">이 누리집은 대한민국
+                            공식 전자정부 누리집입니다.
+                        </li>
+                    </ul>
+                    <div class="gov-search">
+                        <input type="search" id="keyword" name="keyword" title="검색어를 입력해 주세요"
+                               onKeyup="fn_searchKeyup(this);" placeholder="검색어를 입력해 주세요." autocomplete="off"
+                               class="input-text"/>
+                        <button type="button" class="btn-search" onclick="fn_searchDataList();"
+                                style="background-color:#1196d9;" title="검색하기">검색
+                        </button>
+                        <div id="autoCompleteDiv" class="atcmp_wrap suggest-wrap" style="display:none;">
+                            자동완성 기능<br/>자동완성 기능
+                        </div>
+                    </div>
+                </div>
+            </form>
+        
+        
+    
+    <div class="inner-wrap">
+
+
+        <h1 class="logo"><a href="/index.do" title="홈페이지 바로가기">공공데이터포털</a></h1>
+
+        <button type="button" class="btn-open-gnb just-mb">메뉴보기</button>
+
+        <div class="header-wrap">
+            <p class="logo just-mb"><a href="/index.do">공공데이터포털</a></p>
+
+            <div class="util">
+                
+                
+                
+                <div class="login">
+                    
+                        <!-- 로그인 전 -->
+                        <div class="before">
+                            <a href="javascript:window.location.href='/uim/login/loginView.do';"
+                               title="로그인 이동">로그인</a>
+                            <a href="javascript:window.location.href='/uim/login/signupView.do';"
+                               title="회원가입 이동">회원가입</a>
+                        </div>
+                    
+
+                    
+                </div>
+
+                <div class="link">
+                    <a href="javascript:window.location.href='/cmm/cmm/siteMap.do';" class=""
+                       title="사이트맵 이동">사이트맵</a>
+                    <a href="/en/index.do" class="en-link" title="영문으로 보기">ENGLISH</a>
+                </div>
+            </div>
+
+            <nav id="gnb">
+                <!-- pc 일때 gnb : 링크 pc, mb 일때 둘다 넣어주세요 -->
+                <ul class="gnb-pc">
+                    
+                        <li id="M0001000000_pc">
+                            
+                                
+
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0001000000_pc','/');">데이터찾기</a>
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">데이터찾기<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                                <li id="M0001010000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0001010000_pc','/tcs/dss/selectDataSetList.do');"
+                                                                                                     title="데이터목록 페이지로 이동">데이터목록</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0001020000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0001020000_pc','/tcs/eds/selectCoreDataListView.do');"
+                                                                                                     title="국가중점데이터 페이지로 이동">국가중점데이터</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0001030000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0001030000_pc','/tcs/eds/idt/selectIssueDataList.do');"
+                                                                                                     title="이슈 및 추천데이터 페이지로 이동">이슈 및 추천데이터</a></li>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li id="M0006000000_pc">
+                            
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0006000000_pc','/tcs/opd/ndm/view.do');"
+                                       title="국가데이터맵 페이지로 이동">국가데이터맵</a>
+                                
+
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">국가데이터맵<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li id="M0002000000_pc">
+                            
+                                
+
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0002000000_pc','/');">데이터요청</a>
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">데이터요청<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <li id="M0002010000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0002010000_pc','/tcs/dor/insertDataOfferReqstProcssView.do');"
+                                                                                                     title="공공데이터 제공신청 페이지로 이동">공공데이터 제공신청</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0002020000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0002020000_pc','/tcs/dor/insertTrublMdatReqstProcssView.do');"
+                                                                                                     title="분쟁조정 신청 페이지로 이동">분쟁조정 신청</a></li>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li id="M0003000000_pc">
+                            
+                                
+
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0003000000_pc','/');">데이터활용</a>
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">데이터활용<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <li id="M0003060000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0003060000_pc','/tcs/vas/selectVisualizationListView.do');"
+                                                                                                     title="공공데이터 시각화 페이지로 이동">공공데이터 시각화</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0003040000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0003040000_pc','/tcs/lms/mpm/memberMapList.do');"
+                                                                                                     title="국민참여지도 페이지로 이동">국민참여지도</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0003050000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0003050000_pc','/tcs/lms/liv/selectLocationView.do');"
+                                                                                                     title="위치정보 시각화 페이지로 이동">위치정보 시각화</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0003010000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0003010000_pc','/tcs/puc/selectPublicUseCaseListView.do');"
+                                                                                                     title="공공데이터 활용사례 페이지로 이동">공공데이터 활용사례</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0003070000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0003070000_pc','/tcs/eds/ctm/selectContestDataList.do');"
+                                                                                                     title="공공데이터 우수사례 페이지로 이동">공공데이터 우수사례</a></li>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li id="M0004000000_pc">
+                            
+                                
+
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0004000000_pc','/');">정보공유</a>
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">정보공유<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <li id="M0004060000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004060000_pc','/bbs/dnb/selectDeveloperNetworkListView.do');"
+                                                                                                     title="개발자 네트워크 페이지로 이동">개발자 네트워크</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0004050000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004050000_pc','/bbs/dsb/selectDataShareContentsListView.do');"
+                                                                                                     title="데이터 공유하기 페이지로 이동">데이터 공유하기</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0004040000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004040000_pc','/bbs/ntc/selectNoticeListView.do');"
+                                                                                                     title="공지사항 페이지로 이동">공지사항</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0004020000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004020000_pc','/bbs/rcr/selectRecsroomList.do');"
+                                                                                                     title="자료실 페이지로 이동">자료실</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0004030000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004030000_pc','/bbs/faq/selectFaqList.do');"
+                                                                                                     title="문의하기 페이지로 이동">문의하기</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0004070000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0004070000_pc','/bbs/cnm/selectCardNewsListView.do');"
+                                                                                                     title="포털뉴스 페이지로 이동">포털뉴스</a></li>
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                        <li id="M0005000000_pc">
+                            
+                                
+
+                                
+                                    <a class="upperMenu" href="#"
+                                       onClick="javascript:fn_movePage(this, 'M0005000000_pc','/');">이용안내</a>
+                                
+                            
+                            <div class="depth2">
+                                <div class="wrap" style="width: 1230px;">
+                                    <p class="tit">이용안내<i
+                                            class="iconset ico-arr-gnb-depth2"></i></p>
+                                    <ul class="ulLower">
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                                <li id="M0005040000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0005040000_pc','/ugs/selectPublicDataUseGuideView.do');"
+                                                                                                     title="공공데이터 이용가이드 페이지로 이동">공공데이터 이용가이드</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0005010000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0005010000_pc','/ugs/selectPortalInfoView.do');"
+                                                                                                     title="공공데이터포털 소개 페이지로 이동">공공데이터포털 소개</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0005020000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0005020000_pc','/ugs/selectPortalPolicyView.do');"
+                                                                                                     title="공공데이터 정책 페이지로 이동">공공데이터 정책</a></li>
+                                            
+                                        
+                                            
+                                                <li id="M0005030000_pc"><a href="#"
+                                                                                                     onClick="javascript:fn_movePage(this, 'M0005030000_pc','/ugs/selectPublicDataQlityView.do');"
+                                                                                                     title="공공데이터 품질관리 페이지로 이동">공공데이터 품질관리</a></li>
+                                            
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    
+                </ul>
+
+                <!-- 모바일 일때 gnb : 링크 pc, mb 일때 둘다 넣어주세요 -->
+                <!-- 모바일 일때 국가데이터맵은 서비스 하지않음 -->
+                <ul class="gnb-mb">
+                    
+                        
+                            <li id="M0001000000_mb">
+                                <a class='upperMenu' href="#"
+                                   onClick="javascript:fn_movePage(this, 'M0001000000_mb','/',true);">데이터찾기</a>
+                                <div class="depth2">
+                                    <div class="wrap">
+                                        <ul class="ulLower">
+                                            
+                                                
+                                                    <li id="M0001010000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0001010000_mb','/tcs/dss/selectDataSetList.do');">데이터목록</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0001020000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0001020000_mb','/tcs/eds/selectCoreDataListView.do');">국가중점데이터</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0001030000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0001030000_mb','/tcs/eds/idt/selectIssueDataList.do');">이슈 및 추천데이터</a></li>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    
+                        
+                    
+                        
+                            <li id="M0002000000_mb">
+                                <a class='upperMenu' href="#"
+                                   onClick="javascript:fn_movePage(this, 'M0002000000_mb','/',true);">데이터요청</a>
+                                <div class="depth2">
+                                    <div class="wrap">
+                                        <ul class="ulLower">
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <li id="M0002010000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0002010000_mb','/tcs/dor/insertDataOfferReqstProcssView.do');">공공데이터 제공신청</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0002020000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0002020000_mb','/tcs/dor/insertTrublMdatReqstProcssView.do');">분쟁조정 신청</a></li>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    
+                        
+                            <li id="M0003000000_mb">
+                                <a class='upperMenu' href="#"
+                                   onClick="javascript:fn_movePage(this, 'M0003000000_mb','/',true);">데이터활용</a>
+                                <div class="depth2">
+                                    <div class="wrap">
+                                        <ul class="ulLower">
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <li id="M0003060000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0003060000_mb','/tcs/vas/selectVisualizationListView.do');">공공데이터 시각화</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0003040000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0003040000_mb','/tcs/lms/mpm/memberMapList.do');">국민참여지도</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0003050000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0003050000_mb','/tcs/lms/liv/selectLocationView.do');">위치정보 시각화</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0003010000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0003010000_mb','/tcs/puc/selectPublicUseCaseListView.do');">공공데이터 활용사례</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0003070000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0003070000_mb','/tcs/eds/ctm/selectContestDataList.do');">공공데이터 우수사례</a></li>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    
+                        
+                            <li id="M0004000000_mb">
+                                <a class='upperMenu' href="#"
+                                   onClick="javascript:fn_movePage(this, 'M0004000000_mb','/',true);">정보공유</a>
+                                <div class="depth2">
+                                    <div class="wrap">
+                                        <ul class="ulLower">
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <li id="M0004060000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004060000_mb','/bbs/dnb/selectDeveloperNetworkListView.do');">개발자 네트워크</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0004050000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004050000_mb','/bbs/dsb/selectDataShareContentsListView.do');">데이터 공유하기</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0004040000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004040000_mb','/bbs/ntc/selectNoticeListView.do');">공지사항</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0004020000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004020000_mb','/bbs/rcr/selectRecsroomList.do');">자료실</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0004030000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004030000_mb','/bbs/faq/selectFaqList.do');">문의하기</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0004070000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0004070000_mb','/bbs/cnm/selectCardNewsListView.do');">포털뉴스</a></li>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    
+                        
+                            <li id="M0005000000_mb">
+                                <a class='upperMenu' href="#"
+                                   onClick="javascript:fn_movePage(this, 'M0005000000_mb','/',true);">이용안내</a>
+                                <div class="depth2">
+                                    <div class="wrap">
+                                        <ul class="ulLower">
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <li id="M0005040000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0005040000_mb','/ugs/selectPublicDataUseGuideView.do');">공공데이터 이용가이드</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0005010000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0005010000_mb','/ugs/selectPortalInfoView.do');">공공데이터포털 소개</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0005020000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0005020000_mb','/ugs/selectPortalPolicyView.do');">공공데이터 정책</a></li>
+                                                
+                                            
+                                                
+                                                    <li id="M0005030000_mb"><a href="#"
+                                                                                                         onClick="javascript:fn_movePage(this,'M0005030000_mb','/ugs/selectPublicDataQlityView.do');">공공데이터 품질관리</a></li>
+                                                
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        
+                    
+                    <!-- 모바일 일때 마이페이지 메뉴도 제공 -->
+                    
+                </ul>
+            </nav>
+            <button type="button" class="btn-close-gnb just-mb">메뉴보기</button>
+        </div>
+    </div>
+</header>
+<script src="/js/utils/check-agree-popup.js"></script>
+<script type="text/javascript">
+
+    /**
+     * 페이지 이동
+     * @param  : menuId - 메뉴 ID
+     * @param  : menuUrl - 이동 menuUrl
+     * @return : 없음
+     */
+    function fn_movePage(obj, menuId, menuUrl) {
+
+        if (fn_empty(menuUrl)) return;
+
+        //상위메뉴가 아닌 경우만 URL 호출
+        if ($(obj).prop("class") != "upperMenu") {
+            if (menuUrl == "/") {
+                alert("서비스 준비중입니다.");
+                return;
+            }
+
+            fn_setCookie("currentMainMenuId", menuId, 1);
+            menuId = menuId.replace("_mb","")
+            fn_setCookie("currentMyMenuId", menuId, 1);
+            if (menuUrl == "/ssoMyPage") {
+                getMypageUrl();
+                return;
+            } else {
+                document.location.href = menuUrl;
+
+            }
+            //상위메뉴면서 하위메뉴가 없는 경우, URL 호출
+        } else {
+            if ($(obj).next().length == 0) {
+                if (menuUrl == "/") {
+                    alert("서비스 준비중입니다.");
+                    return;
+                } else {
+                    fn_setCookie("currentMainMenuId", menuId, 1);
+                    menuId = menuId.replace("_mb","")
+                    fn_setCookie("currentMyMenuId", menuId, 1);
+
+                    if (menuUrl == "/ssoMyPage") {
+                        getMypageUrl();
+                        return;
+                    } else {
+                        document.location.href = menuUrl;
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    function getMypageUrl() {
+        $.ajax({
+            url		: "/iim/api/myPageUrl.do",
+            success	: function(data) {
+                var jsonObj	= JSON.parse(data);
+                //console.log(jsonObj);
+                if(jsonObj.result) {
+                    location.href = jsonObj.url;
+                } else {
+                    alert("마이페이지로 이동 할 수 없습니다. 문제가 계속 될 경우 관리자에게 문의하여 주세요.");
+                }
+            }
+        })
+    }
+
+    /*
+    * 검색
+    */
+    function fn_searchDataList() {
+
+        if (!checkCloseRoundBrackets($('#keyword').val())) {
+            alert('괄호를 닫거나, 제거한 후 재검색하여 주시기 바랍니다');
+            return false;
+        }
+
+        if (checkSpecial($('#keyword').val())) {
+            alert('해당 특수문자는 검색에서 사용될 수 없습니다. 특수문자를 제외하고 재검색하여 주시기 바랍니다.');
+            return false;
+        }
+
+        $('#searchHeaderFrm').attr("onSubmit", "");
+        $('#searchHeaderFrm').submit();
+    }
+
+    /*
+    * 검색 텍스트 영역 키다운 이벤트
+    */
+    function fn_searchKeyup(target) {
+        var searchKeyword = target.value;
+
+        if (event.keyCode === 13) {
+            fn_searchDataList();
+            return;
+        }
+
+        fn_autoComplete(searchKeyword);
+    }
+
+    /*
+    * 자동완성
+    */
+    function fn_autoComplete(searchKeyword) {
+
+        var dataObj = {
+            keyword: searchKeyword
+        }
+
+        $.ajax({
+            "url": "/tcs/dss/selectAutoComplete.do",
+            "data": dataObj,
+
+            success: function (data) {
+                var dataArr = JSON.parse(data);
+                var $autoCompleteDiv = $("#autoCompleteDiv");
+
+                if (dataArr.length > 0) {
+                    $autoCompleteDiv.show();
+                    $autoCompleteDiv.html("");
+
+                    for (var i = 0; i < dataArr.length; i++) {
+                        var tempObj = dataArr[i];
+
+                        $autoCompleteDiv.append("<p onclick='fn_autoCompleteClick(\"" + tempObj.text + "\")'>" + tempObj.text + "</p>");
+                    }
+
+                } else {
+                    $autoCompleteDiv.hide();
+                }
+            }
+        })
+    }
+
+    /*
+    * 자동완성 텍스트 클릭시 호출 메서드
+    */
+    function fn_autoCompleteClick(keyword) {
+        $("#keyword").val(keyword);
+
+        fn_searchData();
+    }
+
+
+    // 특수문자 체크
+    function checkSpecial(str) {
+        const regExp = /[!?@#$%^&*:;-=~{}<>\[\]\|\\\"\'\,\.\/\`\₩]/g;
+        return regExp.test(str);
+    }
+
+    // 소괄호 닫힘 체크
+    function checkCloseRoundBrackets(str) {
+        //결과 초기값 true
+        var result = true;
+        //괄호만 넣을 빈 배열 생성
+        var s_arr = [];
+        var map = {
+            '(': ')',
+            '[': ']',
+            '{': '}'
+        }
+        for (var i = 0; i < str.length; i++) {
+            //문자열 str 의 ( 만 추출해서 배열에 담는다.
+            if (str[i] === "(" || str[i] === "[" || str[i] === "{") {
+                s_arr.push(str[i]);
+            } else if (str[i] === ")" || str[i] === "]" || str[i] === "}") {
+                //닫는 괄호가 나오면 여는괄호 모아둔데 가장 바깥꺼를 s_key로 담고 지금 str[i] 와 비교
+                var s_key = s_arr.pop();
+                if (str[i] !== map[s_key]) {
+                    return false;
+                }
+            }
+        }
+
+        //남은 (가 있어도 false
+        if (s_arr.length !== 0) {
+            result = false;
+        }
+
+        return result;
+    }
+</script>
+
+			
+			<!-- 임시 스타일 지정 -->
+			<div class="container">
+				
+					<!-- 본문 상단 네비게이터 : 메인화면에서 표출 X-->
+					
+
+
+
+
+
+
+ <script type="text/javascript">
+	
+	/**
+	 * document Ready
+	 */
+	$(document).ready(function(){
+		
+		//현재메뉴 표시
+		var currentMenuId = fn_getCookie("currentMainMenuId");
+		if(!fn_empty(currentMenuId)){
+			//depth1
+			$(".location > .locationDepth1").text($('#gnb > ul > li.active > a').text());
+			//depth2
+			// $(".location > .locationDepth2").text($('#gnb > ul > li.active > .depth2').find('.active').text());
+			$(".location > .locationDepth2").append($('#gnb > ul > li.active > .depth2').find('li.active').html());
+			//depth3
+			$(".location > .locationDepth3").append($('#gnb > ul > li.active > .depth2').find('.active').next().find('.active').html());
+			//depth4
+			$(".location > .locationDepth4").append($('#gnb > ul > li.active > .depth2').find('.active').next().find('.active').next().find('.active').html());
+
+			$(".location > .locationDepth1").show();
+			$(".location > .locationDepth2").show();
+			$(".location > .locationDepth3").show();
+			$(".location > .locationDepth4").show();
+		} else {
+			$(".location").hide();
+		}
+
+		$(".location").find("span:empty").remove(); // span중 빈 값 삭제
+		$(".location").find("span:last").css("font-weight","700"); // 마지막값 설정
+		
+	});
+ 
+</script>
+			<div class="location">
+				<span><a href="/index.do">홈</a></span>
+				<span class="locationDepth1"><a href=""></a></span>
+				<span class="locationDepth2"></span>
+				<span class="locationDepth3"></span>
+				<span class="locationDepth4"></span>
+			</div>
+				
+				
+				<!-- url에 '/iim/'이 포함되어있으면 마이페이지 왼쪽메뉴 표시 -->
+				<div class='content-layout '>
+					
+					<div id="contents">
+						<!-- 본문 -->
+						
+
+
+
+
+
+
+ <script type="text/javascript">
+
+	/**
+	 * document ready
+	 */
+	$(function(){
+		$(this).prop("title", $(".page-title-area > .tit").text()+" | 공공데이터포털");
+
+		//탭 선택값이 있을경우 해당 탭 선택
+		var hash = location.hash;
+		if(!fn_empty(hash)){
+			$(hash+"_a").click();
+		}
+
+	});
+
+
+</script>
+<!-- page-title-area -->
+<div class="page-title-area">
+	<h2 class="tit just-pc">공공데이터포털 정책</h2>
+
+	<div class="page-move just-mb">
+		<button type="button" class="now">공공데이터포털 정책</button>
+
+		<ul class="list">
+			<li><a href="">공공데이터포털 소개</a></li>
+			<li><a href="">	공공데이터 품질관리</a></li>
+		</ul>
+	</div>
+</div>
+<!--// page-title-area -->
+
+<!-- tab-list -->
+<div class="tab-list col-3 tab-layer">
+	<ul>
+		<li class="on"><a id="use_policy_a" href="#use_policy" title="이용정책 보기">이용정책</a></li>
+		<li><a id="use_stplat_a" href="#use_stplat" title="이용약관 보기">이용약관</a></li>
+		<li><a id="indvdlinfo_process_a" href="#indvdlinfo_process" title="개인정보 처리방침 보기">
+			<em>개인정보</em>
+			<em>처리방침</em>
+		</a>
+		</li>
+	</ul>
+</div>
+<!-- // tab-list -->
+
+<div class="tab-wrap">
+
+	<!-- tab : 이용 정책 -->
+	<div id="use_policy" class="tab-cont on">
+		<h2>이용정책</h2>
+
+		<h3 class="tit">공공데이터 이용정책</h3>
+
+		<p class="reset">공공기관은 공공데이터 포털을 통해 누구든지 공공데이터를 편리하게 이용할 수 있도록 보장하며, 이용권의 보편적 확대를 위하여 노력하고 있습니다. (공공데이터법 제1조, 제3조)</p>
+
+		<h3 class="tit">공공데이터 제공이란</h3>
+
+		<p class="reset">공공기관이 이용자로 하여금 기계판독이 가능한 형태의 공공데이터에 접근할 수 있게 하거나 이를 다양한 방식으로 전달하는 것을 말합니다.</p>
+
+		<h3 class="tit">공공데이터 이용방법</h3>
+
+		<p class="reset">공공데이터포털을 통해 제공 중인 공공데이터는 별도의 신청절차 없이 이용 가능하며, 제공되는 공공데이터의 목록은 각 공공기관의 홈페이지에서도 확인 가능합니다.<br />
+			공공데이터포털에서 제공하고 있지 않은 데이터의 경우 제공신청을 통해 이용할 수 있습니다. 다만, 공공데이터법 제17조 상의 제외대상 정보가 포함된 경우 제공이 거부될 수 있으며, 이 경우 공공데이터제공분쟁조정위원회에 조정을 신청할 수 있습니다.</p>
+		<p class="reset color-blue">※ 공공데이터 이용에 관한 자세한 방법은 활용지원 > 「공공데이터 이용가이드」를 참고해 주시기 바랍니다.</p>
+
+
+		<h3 class="tit">공공데이터 이용허락범위</h3>
+
+		<p class="reset">저작권 등 제3자 권리가 포함된 공공데이터는 권리자의 정당한 이용허락을 확보해야 합니다.<br /> 저작물이 포함된 공공데이터를 제공하는 경우에는 저작권법 등 관련 법령에 따른 공공누리 유형을 부착하도록 합니다.</p>
+		<p>[참고] 공공데이터 관리지침 제8조<br />
+		- 제8조(저작물이 포함된 공공데이터의 관리)<br/>
+		① 공공기관의 장은 저작물이 포함된 공공데이터를 관리하는 경우 제3자의 권리가 침해되지 않도록 권리 소재 및 권리자의 이용허락 범위를 명확히 파악해야 한다. 이 경우 권리자의 이용허락은 서면 등 명시적으로 의사를 확인할 수 있는 방법으로 받아야 한다.<br />
+		② 공공기관의 장은 저작물이 포함된 공공데이터를 제공할 때에는 「저작권법」 등 관련 법령에 따른 공공누리 유형을 부착하여 공공데이터의 이용허락 범위를 표시해야 한다. 이 경우 소관 공공데이터에 제3자의 권리가 포함된 경우라도 권리자가 허락하는 경우에는 이용자가 저작물을 자유롭게 이용할 수 있도록 제공해야 한다.<br />
+		③ 공공기관의 장은 소관 공공데이터에 포함된 저작물이 업무상 작성하여 공표된 것이거나 계약에 따라 해당 저작물의 저작재산권 전부를 보유한 경우에는 저작권법 제24조의2제1항 각 호의 어느 하나에 해당하는 경우를 제외하고 이용자가 별도의 이용허락 없이 자유롭게 이용할 수 있도록 제공해야 한다.</p>
+
+		<div class="data-mark-box" style="padding:5px 20px 20px 20px">
+
+			<p style="text-align: left;">
+				[참고] 공공누리 유형안내
+				<a href="https://www.kogl.or.kr/info/license.do" target="_blank" title="공공누리 유형안내">
+					(https://www.kogl.or.kr/info/license.do)
+				</a>
+			</p>
+
+			<div class="data-table">
+				<table>
+					<caption>
+						<strong>공공누리 유형안내</strong>
+						<p>공공누리 유형안내로 이용허락 유형, 표시마크, 이용허락범위 정보를 제공</p>
+					</caption>
+					<colgroup>
+						<col style="width:33%;">
+						<col style="width:33%;">
+						<col style="width:33%;">
+					</colgroup>
+					<tbody>
+					<tr>
+						<th style="text-align: center; font-size: 18px;">이용허락 유형</th>
+						<th style="text-align: center; font-size: 18px;">표시마크</th>
+						<th style="text-align: center; font-size: 18px;">이용허락범위</th>
+					</tr>
+					<tr>
+						<td style="text-align: center;">
+							<strong>[제1유형]</strong><br/>
+							출처표시
+						</td>
+						<td style="text-align: center;">
+							<img src="/images/biz/use-info/img_opencode1_m.jpeg" alt="" style="max-width: 100%; height: auto;">
+						</td>
+						<td>
+							출처표시<br/>
+							상업적, 비상업적 이용가능<br/>
+							변형 등 2차적 저작물 작성 가능
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">
+							<strong>[제2유형]</strong><br/>
+							출처표시+상업적 이용금지
+						</td>
+						<td style="text-align: center;">
+							<img src="/images/biz/use-info/img_opencode2_m.jpeg" alt="" style="max-width: 100%; height: auto;">
+						</td>
+						<td>
+							출처표시<br/>
+							비상업적만 이용가능<br/>
+							변형 등 2차적 저작물 작성 가능
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">
+							<strong>[제3유형]</strong><br/>
+							출처표시+변경금지
+						</td>
+						<td style="text-align: center;">
+							<img src="/images/biz/use-info/img_opencode3_m.jpeg" alt="" style="max-width: 100%; height: auto;">
+						<td>
+							출처표시<br/>
+							상업적, 비상업적 이용가능<br/>
+							변형 등 2차적 저작물 작성 금지
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">
+							<strong>[제4유형]</strong><br/>
+							출처표시+상업적<br/>
+							이용금지 + 변경금지
+						</td>
+						<td style="text-align: center;">
+							<img src="/images/biz/use-info/img_opencode4_m.jpeg" alt="" style="max-width: 100%; height: auto;">
+						</td>
+						<td>
+							출처표시<br/>
+							비상업적만 이용가능<br/>
+							변형 등 2차적 저작물 작성 금지
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<p class="reset">
+			참고<br />
+
+
+			<a href="https://www.law.go.kr/LSW/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%95" target="_blank" title="새창 열림">국가법령정보센터 공공데이터법 바로가기</a><br />
+			<a href="https://www.law.go.kr/LSW/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9" target="_blank" title="새창 열림">국가법령정보센터 공공데이터법 시행령 바로가기</a><br />
+			<a href="https://www.law.go.kr/LSW/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99" target="_blank" title="새창 열림">국가법령정보센터 공공데이터법 시행규칙 바로가기</a>
+		</p>
+	</div>
+
+	<!-- tab : 이용 약관 -->
+	<div id="use_stplat" class="tab-cont">
+		<div tabIndex="-1">
+			<h2>이용약관</h2>
+
+			<h3 class="tit">제1장 총칙</h3>
+
+			<div class="policy-wrap">
+				<ul>
+					<li class="on">
+						<button type="button" class="title">제1조 목적</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<p class="reset">본 약관은 행정안전부가 공공데이터 포털(이하 “포털”)에서 제공하는 모든 서비스(이하 “서비스”)의 이용조건 및 절차, 회원·제공기관·공공데이터활용지원센터(이하 “센터”)의 권리, 의무, 책임사항과 기타 필요한 사항을 규정함을 목적으로 합니다.</p>
+						</div>
+					</li>
+
+					<li>
+						<button type="button" class="title">제2조 용어의 정의</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<p class="reset">본 약관에서 사용하는 용어의 정의는 다음과 같습니다.</p>
+
+							<ol class="decimal-list">
+								<li> “포털”이란 행정안전부가 공공데이터법 제21조에 따라 공공데이터의 효율적 제공을 위하여 구축·관리하는 공공데이터 통합제공시스템을 의미합니다.</li>
+								<li> “목록등록관리시스템”이란 행정안전부가 공공데이터법 제18조에 따라 공공데이터의 체계적 관리 등을 위하여 구축·운영하는 공공데이터 업무시스템을 의미합니다.</li>
+								<li> “회원”이란 “일반회원”, “기업회원”, “기관회원” 모두를 지칭합니다.</li>
+								<li> “일반회원”이란 “포털”의 회원가입절차에 따라 이용약관에 동의하고 가입을 완료한 개인 또는 법인으로서 “포털”이 제공하는 서비스를 이용할 수 있는 자를 의미합니다.</li>
+								<li> “기업회원”이란 “포털”의 회원가입절차에 따라 기업 또는 단체를 대리하여 그 소속 직원이 이용약관에 동의하고 가입을 완료한 기업 또는 단체로서 “포털”이 제공하는 서비스를 이용할 수 있는 자를 의미합니다.</li>
+								<li> “기관회원”이란 “일반회원”과 “기업회원” 중 “기관회원”으로 전환신청을 완료했거나, “목록등록관리시스템”의 회원가입절차에 따라 “공공기관”을 대리하여 그 소속 직원이 이용약관에 동의하고 가입을 완료한 공공기관으로서 “포털”이 제공하는 서비스를 이용할 수 있는 자를 의미합니다.</li>
+								<li> “공공기관”이란 공공데이터법 제2조제1호에 따른 공공기관을 의미합니다.</li>
+								<li> “제공기관”이란 “포털”을 통해 공공데이터를 제공 중인 “공공기관”을 의미합니다.</li>
+								<li> “센터”란 공공데이터법 제13조에 따라 “포털”의 구축·관리 및 활용 촉진의 업무 등 공공데이터와 관련된 업무를 수행하는 한국지능정보사회진흥원에 설치된 공공데이터활용지원센터를 의미합니다.</li>
+								<li> 본 약관에서 정의하지 않은 용어는 관련 법령 및 서비스 안내에서 정의하거나 일반적인 개념에 의합니다.</li>
+							</ol>
+						</div>
+					</li>
+
+					<li>
+						<button type="button" class="title">제3조 약관의 효력과 변경</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 센터는 회원이 본 약관의 내용을 쉽게 알 수 있도록 포털에 게시하거나 기타의 방법으로 공지하고, 본 약관에 동의한 회원 모두에게 그 효력이 발생합니다.</li>
+								<li> 센터는 필요한 경우 관련 법령을 위배하지 않는 범위에서 본 약관을 변경할 수 있습니다. 본 약관을 변경할 경우 시행일자 7일 전까지 변경사항을 명시하여 포털에 공지하며, 회원이 가입 시 제공한 이메일 주소로 통지합니다. 다만, 오탈자 등 경미한 자구 수정이나 명백한 오류를 바로잡는 변경은 예외로 합니다.</li>
+								<li> 약관 변경 공지 후 회원이 변경된 약관에 동의하지 않는 경우 이용계약을 해지(회원탈퇴)할 수 있습니다. 회원이 명시적으로 약관 변경에 대한 거부의사를 표시하지 아니하면, 변경된 약관에 동의한 것으로 간주합니다.</li>
+							</ol>
+						</div>
+					</li>
+
+					<li>
+						<button type="button" class="title">제4조 약관외 준칙</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<p class="reset">본 약관에 규정되지 않은 사항은 공공데이터법, 개인정보보호법, 저작권법, 약관규제법, 정보통신망법 등 관계법령과 개인정보처리방침 및 행정안전부가 별도로 정한 지침에 따르며, 법령 및 지침에 정하는 바가 없는 경우에는 일반 관례에 따릅니다.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<h3 class="tit">제2장 이용조건 및 절차</h3>
+
+			<div class="policy-wrap">
+				<ul>
+					<li>
+						<button type="button" class="title">제5조 이용 계약의 성립 및 제한</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 이용 계약은 회원이 되고자 하는 이용자(이하 “신청자”)가 온라인으로 포털에서 제공하는 소정의 회원가입 신청 양식에서 요구하는 사항을 기록한 본 약관 및 개인정보의 수집·이용에 동의하고 센터가 신청자의 회원가입 신청에 대하여 승인함으로써 성립합니다.</li>
+								<li> 신청자가 회원가입 시 일반회원, 기업회원, 기관회원의 가입 절차를 이해하여 각 가입 화면 중 “동의함”버튼을 클릭하면 본 약관을 충분히 읽고 동의하여 회원가입하는 것으로 간주됩니다.</li>
+								<li> 본 약관 제2조 제7항의 공공기관은 법인으로 회원가입 후 본 약관 제2조 제8항에 따른 제공기관으로 전환이 가능합니다.</li>
+								<li> 센터는 다음 각 호에 해당하는 이용계약에 대하여는 회원가입에 대한 승낙을 하지 않거나, 회원가입을 해지할 수 있습니다.
+									<ul>
+										<li> 1) 다른 사람의 명의를 사용하여 신청하였을 때</li>
+										<li> 2) 회원 가입 신청서의 내용을 허위로 기재 또는 허위의 자료를 제출하였거나 기타 센터가 정한 이용신청요건이 미비되었을 때</li>
+										<li> 3) 포털을 이용하여 법령과 본 약관이 금지하는 행위를 하였거나 사회의 안녕 질서 혹은 미풍양속을 저해할 목적으로 신청하였을 때</li>
+										<li> 4) 다른 사람의 포털 서비스 이용을 방해하거나 그 정보를 도용하는 행위를 하였을 때</li>
+										<li> 5) 서비스 부정이용 행위에 대한 제재조치를 취하기 전 이를 회피하기 위해 탈퇴한 사실이 존재하였을 때</li>
+										<li> 6) 센터가 회원의 본 약관 위반 등 귀책사유로 이용계약을 해지하였던 회원이 재가입을 신청하는 경우</li>
+										<li> 7) 기업회원의 경우, 소속 기업 및 담당자의 직위가 확인되지 않거나 퇴사하는 경우</li>
+										<li> 8) 기타 센터가 정한 제공기관의 공유정책 및 업무처리 기준에 위배되었을 때</li>
+									</ul>
+								</li>
+								<li> 회원가입 후 위 제4항 각 호의 사실이 밝혀진 경우, 센터는 이용계약의 해지, 해당회원 ID를 삭제하거나 회원을 강제탈퇴 조치하며, 필요할 경우 관계법령에 따른 형사처벌이나 행정제재를 위한 법률절차를 진행할 수 있습니다.</li>
+								<li> 센터는 다음 각 호에 해당하는 경우에 그 사유가 해소가 되는 경우까지 회원가입에 대한 승낙을 유보할 수 있습니다.
+									<ul>
+										<li> 1) 기술상의 장애사유로 인한 서비스 중단 </li>
+										<li> 2) 전기통신사업법에 의한 기간통신사업자가 전기통신 서비스를 중지하는 경우 </li>
+										<li> 3) 전시, 사변, 천재지변 또는 이에 준하는 국가 비상상태가 발생거나 발생할 우려가 있는 경우 </li>
+										<li> 4) 긴급한 설비의 장애 또는 서비스 이용의 폭주 등 기타 서비스를 제공할 수 없는 사유가 발생한 경우 </li>
+									</ul>
+								</li>
+								<li> 회원이 이용계약을 해지하고자 하는 때(회원탈퇴)에는 회원 본인이 포털에서 회원탈퇴를 신청할 수 있으며, 센터는 즉시 회원탈퇴 처리를 합니다. 회원탈퇴로 인해 발생하는 불이익에 대한 책임은 회원 본인에게 있습니다.</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제6조 회원정보 사용에 대한 동의</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li>회원의 개인정보는 개인정보보호법 등 관련 법령에 의해 보호됩니다.</li>
+								<li>회원정보는 다음과 같이 이용, 관리, 보호됩니다.
+									<ol>
+										<li> 1) 개인정보의 이용 : 센터는 회원의 개인정보를 본인의 동의 없이 이용하거나 제3자에게 제공하지 않습니다. 단, 관련 법률의 규정에 의해 허용되는 경우에는 예외로 합니다.
+										<li> 2) 개인정보의 관리 : 회원은 개인정보의 보호 및 관리를 위하여 포털 서비스의 개인정보관리 기능을 통해 수시로 개인정보를 수정·삭제할 수 있습니다.
+										<li> 3) 개인정보의 보호 : 회원의 개인정보는 전적으로 회원의 ID와 비밀번호에 의해 관리하고 오직 회원만이 열람 수정 및 삭제할 수 있습니다. 따라서 타인에게 회원의 ID와 비밀번호를 알려주어서는 안되며 이용 종료 시에는 반드시 접속을 종료해야 합니다.
+										<li> 4) 개인정보의 폐기 : 회원 탈퇴 시 센터는 포털에 등록된 회원정보를 즉시 폐기합니다.
+									</ol>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제7조 회원의 정보 보안</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 회원이 포털의 회원가입 절차를 완료하는 순간부터 회원은 ID와 비밀번호 등 관련 정보를 안전하게 관리할 책임이 있으며, 자신의 정보 및 계정(ID, 비밀번호 등) 등을 타인에게 제공하여서는 아니 되고, 해당 책임을 다하지 않음으로써 발생하는 결과에 대한 모든 책임은 회원이 부담합니다.</li>
+								<li> 회원은 자신의 ID나 비밀번호가 부정하게 사용되었다는 사실을 발견한 경우 즉시 센터에 신고하여야 합니다. 신고를 하지 않음으로 인해 발생한 결과에 대한 모든 책임은 회원이 부담합니다.</li>
+								<li> 회원은 포털 서비스를 정상적으로 종료하지 아니하여 제3자가 회원에 관한 정보를 이용하게 되는 등의 결과가 발생하는 경우 관련 손해 등 법적 문제에 대하여 센터는 책임을 지지 않습니다.</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제8조 포털 서비스의 이용시간</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li>포털 서비스 이용시간은 센터의 업무상 또는 기술상 특별한 지장이 없는 한 연중무휴, 1일 24시간을 원칙으로 합니다.</li>
+								<li>센터는 제1항의 이용시간에도 불구하고 정기점검 등 포털의 원활한 운영을 위해 필요하다고 판단되는 경우 포털에 미리 공지 후 서비스 이용을 제한할 수 있습니다.</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제9조 포털 서비스의 중단</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 센터는 국가비상사태, 정전, 설비장애, 기타 불가항력에 의한 사유로 포털 서비스의 원활한 제공이 어렵다고 판단되는 경우, 관련 법령에 근거하여 업무절차나 시스템의 개선이 필요한 경우, 기타 포털 서비스의 계속적 제공이 어려운 경우 포털 서비스를 일시적 또는 영구적으로 중단할 수 있으며, 영구적 중단의 경우 3개월전 회원에게 공지하여야 합니다.</li>
+								<li> 센터는 포털서비스의 원활한 운영을 위하여 필요하다고 판단되는 경우 사전 고지 후 서비스를 일시적으로 수정, 변경 및 중단할 수 있습니다.</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제10조 게시물의 관리</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<p class="reset">
+								센터는 포털의 원활한 운영을 위하여 다음 각 호의 경우 회원이 게시한 글, 사진, 동영상 및 각종 파일, 링크 등 일체의 정보(이하 “게시물”)를 사전 통지 없이 삭제할 수 있습니다
+							</p>
+							<ol class="decimal-list">
+								<li>본 서비스 약관에 위배되거나 상용 또는 불법, 음란, 저속하다고 판단되는 게시물을 게시한 경우</li>
+								<li>다른 회원 또는 제3자를 비방하거나 중상모략으로 명예를 손상시키는 내용인 경우</li>
+								<li>공공질서 및 미풍양속에 위반되는 내용인 경우</li>
+								<li>범죄적 행위에 결부된다고 인정되는 내용일 경우</li>
+								<li>제3자의 저작권 등 기타 권리를 침해하는 내용인 경우</li>
+								<li>기타 관계 법령에 위배되는 경우</li>
+							</ol>
+						</div>
+					</li>
+
+					<li>
+						<button type="button" class="title">제11조 서비스의 이용제한</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 회원이 제공하는 정보의 내용이 허위인 것으로 판명되거나, 그러하다고 의심할 만한 합리적인 사유가 발생할 경우 센터는 회원의 서비스 이용을 일부 또는 전부 중지할 수 있으며, 센터는 이로 인해
+									센터의 고의 또는 중대한 과실 없이 회원 및 제3자에게 발생하는 불이익에 대해 책임을 부담하지 아니합니다. </li>
+								<li> 센터는 회원이 본 약관을 위배했다고 판단될 경우 서비스의 이용을 제한할 수 있으며, 해당 이용제한으로 인해 발생한 손해에 대해 책임을 지지 않습니다. </li>
+							</ol>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<h3 class="tit">제3장 권리·의무 및 책임</h3>
+
+			<div class="policy-wrap">
+				<ul>
+					<li>
+						<button type="button" class="title">제12조 회원</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 회원이 포털 서비스를 이용함에 있어서 작성한 게시물에 대한 저작권 등 법령상 보호되는 권리는 회원에게 귀속됩니다.</li>
+								<li> 회원은 게시물 작성 시 타인의 저작권 등 관련 법령에 위반되는 정보가 포함되지 않도록 주의하여야 하며, 이와 관련하여 발생하는 민, 형사상의 책임은 회원이 부담하여야 합니다.</li>
+								<li> 회원 가입 시에 요구되는 정보는 정확하게 기입하여야 합니다. 또한 이미 제공된 회원에 대한 정보가 정확한 정보가 되도록 유지, 갱신하여야 합니다.</li>
+								<li> 회원은 포털 서비스 이용과 관련하여 다음 각 호의 행위를 하여서는 안됩니다.
+									<ol>
+										<li> 1) 자신의 ID 및 비밀번호를 제3자에게 이용하게 하거나 다른 회원의 ID를 부정 사용하는 행위</li>
+										<li> 2) 회원정보 또는 포털에 게시된 정보를 허위로 변경하는 행위</li>
+										<li> 3) 범죄행위를 목적으로 하거나 기타 범죄행위와 관련된 행위</li>
+										<li> 4) 선량한 풍속, 기타 사회질서를 해하는 행위</li>
+										<li> 5) 타인의 명예를 훼손하거나 모욕하는 행위</li>
+										<li> 6) 타인의 지식재산권 등의 권리를 침해하는 행위</li>
+										<li> 7) 해킹 또는 유사 프로그램을 실행하거나 정상적인 운영을 방해하는 행위(예: 해킹 또는 바이러스의 유포행위, 디도스 공격 등)</li>
+										<li> 8) 광고성 정보 등 포털 서비스와 무관한 정보를 지속적으로 게시하는 행위</li>
+										<li> 9) 기타 서비스의 안정적인 운영에 지장을 주거나 줄 우려가 있는 일체의 행위</li>
+									</ol>
+								</li>
+								<li> 본 조 제4항에 해당하는 행위를 한 회원에 대하여 센터는 다음 각 호의 조치를 취할 수 있습니다. 다만, 센터가 취할 수 있는 조치는 아래 각 호에 한정되지 아니하며, 회사가 조치를 취할 수 있는 회원의 행위 역시 본 조 제4항의 경우에 한정되지 않습니다.
+									<ol>
+										<li> 1) 특정 서비스 이용 제한</li>
+										<li> 2) 이용계약 해지</li>
+										<li> 3) 손해배상청구</li>
+									</ol>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제13조 센터</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 센터는 공공데이터법 등 포털 서비스의 근거 법령에 따라 적법하게 관련 업무를 수행하여야 하며, 지속적, 안정적으로 서비스를 제공하기 위해 노력할 의무가 있습니다.</li>
+								<li> 센터는 회원의 개인정보를 본인의 동의 없이 이용하거나 타인에게 제공하지 않습니다. 다만, 개인정보보호법 등 관련 법령에 의하여 허용되는 경우에는 예외로 합니다.</li>
+								<li> 센터는 회원이 안전하게 포털 서비스를 이용할 수 있도록 회원의 개인정보를 보호해야 합니다.</li>
+								<li> 센터는 회원의 귀책사유로 인한 서비스 이용 장애에 대하여 책임을 지지 않습니다.</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제14조 제공기관</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 제공기관은 보유·관리하는 공공데이터가 공공데이터법 제17조에 따른 제공대상에 해당하는 경우, 관련 절차에 따라 제공목록을 등록하고 해당 데이터를 포털에 등록하여야 합니다. </li>
+								<li> 제공기관은 회원이 제공목록에 등록되지 않은 공공데이터를 공공데이터법 제27조에 따라 제공신청할 경우 법률에 규정된 절차 및 기준을 준수하여 제공여부를 결정해야 하며, 공공데이터 제공 여부를 결정한 때에는 지체없이 결정 내용을 회원에게 알려야 합니다. </li>
+								<li> 제공기관은 포털에서 제공하는 공공데이터를 현행화하여 제공하고, 회원이 신고한 공공데이터 등록 누락, 오류신고, 이용불편사항 등에 대해서 조치를 취해야 합니다. </li>
+								<li> 제공기관은 다음 각 호에 해당할 경우 공공데이터의 제공을 중단할 수 있습니다.
+									<ol>
+										<li> 1) 이용자가 공공데이터 제공 시 공표된 이용요건을 위반하여 공공기관 본래의 업무수행에 상당한 지장을 초래할 우려가 있는 경우 </li>
+										<li> 2) 공공데이터의 이용이 제3자의 권리를 현저하게 침해하는 경우 </li>
+										<li> 3) 공공데이터를 범죄 등의 불법행위에 악용하는 경우 </li>
+										<li> 4) 공공데이터법 제20조에 따라 제공기관이 행정안전부장관에게 공공데이터 목록의 제외를 요청한 경우 </li>
+										<li> 5) 그 밖에 공공데이터법 제29조에 따라 공공데이터분쟁조정위원회가 정하는 경우 </li>
+									</ol>
+								</li>
+								<li> 오픈 API 방식으로 제공되는 공공데이터의 이용과 관련하여, 제공기관은 특정 회원의 이용형태로 인해 제공기관의 업무에 지장을 초래하거나 제공시스템의 성능 저하 등의 문제가 발생할 경우 서비스 이용을 제한할 수 있습니다. </li>
+							</ol>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<h3 class="tit">제4장 기타</h3>
+
+			<div class="policy-wrap">
+				<ul>
+					<li>
+						<button type="button" class="title">제15조 포털 서비스에 대한 지식재산권</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 포털 서비스에 대한 지식재산권은 원칙적으로 센터에 귀속됩니다. 다만 계약 등 달리 정함이 있는 경우 그러하지 않습니다.</li>
+								<li> 포털 자료실 메뉴에 게시된 정보는 공공데이터 제공결정을 통한 것이 아니며, 공공기관 및 제3자의 지식재산이 포함될 수 있습니다. 따라서 이용 시 관련 권리가 침해되지 않도록 유의하여야 합니다.</li>
+								<li> 회원은 센터의 명시적인 사전 승인 없이 포털 서비스에 대한 지식재산을 이용하거나 제3자로 하여금 이용하게 해서는 안됩니다.</li>
+							</ol>
+						</div>
+					</li>
+
+					<li>
+						<button type="button" class="title">제16조 면책조항</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li> 제공기관은 공공데이터의 제공과 관련하여 공공데이터의 품질, 공공데이터의 제공중단 등 공공데이터법 제36조에서 규정하는 사유로 이용자 또는 제3자에게 손해가 발생한 경우 그에 대한 책임을 지지 않습니다. </li>
+								<li> 공공데이터법 제36조 제3항에 따라 이용자는 제3자의 권리가 포함된 공공데이터가 제공된 경우 이를 이용하였더라도 진정한 권리자에게 발생한 손해에 대하여 책임을 지지 않습니다. 다만 제3자의 권리가 포함된 사실을 인지하고 이용한 경우는 제외됩니다. </li>
+								<li> 센터는 제9조에 따라 서비스가 중지되는 등의 사유로 회원의 포털 서비스 이용과 관련하여 회원 또는 제3자에게 손해가 발생하더라도 책임을 지지 않습니다. 다만 해당 손해가 센터의 고의 또는 중과실, 범죄행위 등으로 인해 발생한 경우에는 예외로 합니다. </li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<button type="button" class="title">제17조 관할법원</button>
+
+						<div class="policy-text" tabIndex="-1">
+							<ol class="decimal-list">
+								<li>포털과 회원 간에 발생한 서비스 이용에 관한 분쟁에 대하여는 대한민국 법을 적용하며, 본 분쟁으로 인한 소는 민사소송법에 따른 관할 법원에 제기합니다.</li>
+							</ol>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="box-gray-border">
+				<h3 class="tit">부칙</h3>
+				<ol class="decimal-list">
+					<li>
+						본 약관은 2023년 6월 8일부터 시행됩니다.
+						<ol>
+							<li>
+								*  개정일: 2023년 6월 8일
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<!-- tab : 개인정보 처리방침 -->
+	<div id="indvdlinfo_process" class="tab-cont">
+		<h2>행정안전부 <공공데이터포털> 개인정보 처리방침</h2>
+		<div class="box-gray-border">
+			행정안전부('http://www.data.go.kr' 이하 '행정안전부')는 「개인정보 보호법」 제30조에 따라 정보주체에게 개인정보 처리에 관한 절차 및 기준을 안내하고, 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
+		</div>
+
+		<div class="policy-label">
+			<div class="tit a-c mb-4">
+				주요 개인정보 처리 표시(라벨링)
+			</div>
+			<div class="label-wrap">
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-info.png" alt="일반 개인정보 수집">
+					<div>
+						일반 개인정보 수집
+					</div>
+				</a>
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-policy1-big.png" alt="개인정보의 처리 목적">
+					<div>
+						개인정보의 처리 목적
+					</div>
+				</a>
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-policy2-big.png" alt="개인정보의 보유기간">
+					<div>
+						개인정보의 보유기간
+					</div>
+				</a>
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-policy4-big.png" alt="개인정보 처리위탁">
+					<div>
+						개인정보 처리위탁
+					</div>
+				</a>
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-policy3-big.png" alt="개인정보의 제공">
+					<div>
+						개인정보의 제공
+					</div>
+				</a>
+				<a href="javascript:;" class="label-box">
+					<img class="policy-icon" src="/images/biz/personal-policy/img-personal-policy12-big.png" alt="개인정보 열람 청구">
+					<div>
+						개인정보 열람 청구
+					</div>
+				</a>
+			</div>
+
+			<div class="tit a-c mb-4">
+				목차
+			</div>
+			<div>
+				<p>「개인정보 처리방침」은 다음과 같은 내용으로 구성되어 있습니다.</p>
+				<p style="margin-left: 0.8rem; color: #E4012E; font-weight: 400;">※ 목차 클릭 시 해당 조문으로 이동합니다.</p>
+				<div class="panel_box panel_white pds">
+					<ul class="cnt_list">
+						<li data-policy="policy1">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy1.png" class="policy-img" alt="제1조(개인정보의 처리목적)">
+									<span>제1조(개인정보의 처리목적)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy2">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy2.png" class="policy-img" alt="제2조(처리하는 개인정보의 항목)">
+									<span>제2조(처리하는 개인정보의 항목)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy3">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy3.png" class="policy-img" alt="제3조(개인정보의 제3자 제공에 관한 사항)">
+									<span>제3조(개인정보의 제3자 제공에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy4">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy4.png" class="policy-img" alt="제4조(개인정보처리의 위탁에 관한 사항)">
+									<span>제4조(개인정보처리의 위탁에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy5">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy5.png" class="policy-img" alt="제5조(개인정보의 파기 절차 및 방법)">
+									<span>제5조(개인정보의 파기 절차 및 방법)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy6">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy6.png" class="policy-img" alt="제6조(정보주체와 법정대리인의 권리·의무 및 관한 사항)">
+									<span>제6조(정보주체와 법정대리인의 권리·의무 및 행사방법에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy7">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy7.png" class="policy-img" alt="제7조(개인정보의 안전성 확보조치에 관한 사항)">
+									<span>제7조(개인정보의 안전성 확보조치에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy8">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy8.png" class="policy-img" alt="제8조(개인정보를 자동으로 수집하는 장치의 설치·거부에 관한 사항)">
+									<span>제8조(개인정보를 자동으로 수집하는 장치의 설치·운영 및 그 거부에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy9">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy9.png" class="policy-img" alt="제9조(추가적인 이용·제공 관련 판단 기준">
+									<span>제9조(추가적인 이용·제공 관련 판단 기준)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy10">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy10.png" class="policy-img" alt="제10조(가명정보 처리에 관한 사항)">
+									<span>제10조(가명정보 처리에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy11">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy11.png" class="policy-img" alt="제11조(개인정보 보호(분야별)책임자에 관한 사항">
+									<span>제11조(개인정보 보호(분야별)책임자에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy12">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy12.png" class="policy-img" alt="제12조(개인정보의 열람청구를 접수·처리하는 부서">
+									<span>제12조(개인정보의 열람청구를 접수·처리하는 부서)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy13">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy13.png" class="policy-img" alt="제13조(정보주체의 권익침해에 대한 구제방법)">
+									<span>제13조(정보주체의 권익침해에 대한 구제방법)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy14">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy14.png" class="policy-img" alt="제14조(개인정보 관리수준진단 결과)">
+									<span>제14조(개인정보 관리수준진단 결과)</span>
+								</div>
+							</div>
+						</li>
+						<li data-policy="policy15">
+							<div>
+								<div class="policy-detail">
+									<img src="/images/biz/personal-policy/img-personal-policy15.png" class="policy-img" alt="제15조 개인정보 처리방침의 변경에 관한 사항">
+									<span>제15조(정보 처리방침의 변경에 관한 사항)</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div tabIndex="-1">
+				<div class="policy-wrap">
+					<ul>
+						<li class="on">
+							<button type="button" class="title title-padding" id="policy1">
+								<img src="/images/biz/personal-policy/img-personal-policy1.png" class="policy-img" alt="제1조(개인정보의 처리목적)"> <span>제1조(개인정보의 처리목적)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									① 행정안전부가 개인정보 보호법 제32조에 따라 등록․공개하는 개인정보파일의 처리목적은 다음과 같습니다.<br>
+									&emsp; 1. 개인정보 파일명 : 공공데이터포털회원정보<br>
+									&emsp; &emsp; 가. 개인정보의 처리목적 : 공공데이터포털 이용 및 공공데이터 활용 관리, 공공데이터 정책 반영, 공공데이터 제공 운영실태 평가 수행 등의 목적<br>
+									&emsp; &emsp; 나. 수집방법 : 공공데이터포털 누리집<br>
+									&emsp; &emsp; 다. 보유근거 : 개인정보 보호법 제15조제1항, 제39조의6제1항<br>
+									&emsp; &emsp; 라. 보유기간 : 탈퇴시까지<br>
+									&emsp; &emsp; 마. 관련법령 : 공공데이터법 제9조, 제14조, 제21조제3항, 동법 시행령 제10조, 제14조의2제1항, 제16조제4항<br>
+									&emsp; 2. 개인정보 파일명 : 공공데이터포털 데이터제공요청 신청자정보<br>
+									&emsp; &emsp; 가. 개인정보의 처리목적 : 공공데이터 제공신청 접수 및 처리<br>
+									&emsp; &emsp; 나. 수집방법 : 공공데이터포털 누리집<br>
+									&emsp; &emsp; 다. 보유근거 : 공공기록물법 시행령 제26조제1항<br>
+									&emsp; &emsp; 라. 보유기간 : 10년<br>
+									&emsp; &emsp; 마. 관련법령 : 공공데이터법 제27조제1항, 동법 시행령 제21조, 동법 시행규칙 별지 제9호서식<br>
+									&emsp; 3. 개인정보 파일명 : 공공데이터 제공분쟁조정 신청자정보<br>
+									&emsp; &emsp; 가. 개인정보의 처리목적 : 공공데이터 제공 관련 분쟁조정 신청 및 처리, 공공데이터 정책 반영<br>
+									&emsp; &emsp; 나. 수집방법 : 공공데이터포털 누리집<br>
+									&emsp; &emsp; 다. 보유근거 : 공공기록물법 시행령 제26조제1항<br>
+									&emsp; &emsp; 라. 보유기간 : 5년<br>
+									&emsp; &emsp; 마. 관련법령 : 공공데이터법 제31조제2항, 동법 시행규칙 제10조<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title  title-padding" id="policy2">
+								<img src="/images/biz/personal-policy/img-personal-policy2.png" class="policy-img" alt="제2조(처리하는 개인정보의 항목)"> <span>제2조(처리하는 개인정보의 항목)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									① 행정안전부는 다음의 개인정보 항목을 처리하고 있습니다.<br>
+									&emsp; 1. < 공공데이터포털회원정보 ><br>
+									&emsp; &emsp; 가. 일반회원<br>
+									&emsp; &emsp; &emsp; a. 필수항목 : 성명, 아이디, 비밀번호, 이메일, 휴대폰번호<br>
+									&emsp; &emsp; &emsp;  b. 선택항목 : 전화번호<br>
+									&emsp; &emsp; 나. 기업회원<br>
+									&emsp; &emsp; &emsp; a. 필수항목 : 성명, 기업명, 아이디, 비밀번호, 이메일, 휴대폰번호, 기업 대표자명<br>
+									&emsp; &emsp; &emsp; b. 선택항목 : 전화번호<br>
+									&emsp; 다. 기관회원<br>
+									&emsp; &emsp; &emsp; a. 필수항목 : 성명, 아이디, 비밀번호, 이메일, 휴대폰번호, 인증서등록, 사용자기관/업종분류, 기관명, 전화번호, &emsp; 소속부서명<br>
+									&emsp; 2.  < 공공데이터포털 데이터제공요청 신청자정보 ><br>
+									&emsp; &emsp; 가. 필수항목 : 성명, 생년월일, 주소, 전화번호, 이메일<br>
+									&emsp; &emsp; 나. 선택항목 : 사업자(법인, 단체) 등록번호<br>
+									&emsp; 3.  < 공공데이터 제공분쟁조정 신청자정보 ><br>
+									&emsp; &emsp; 가. 필수항목 : 성명, 생년월일, 주소, 전화번호, 이메일<br>
+									&emsp; &emsp; 나. 선택항목 : 사업자(법인, 단체) 등록번호<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy3">
+								<img src="/images/biz/personal-policy/img-personal-policy3.png" class="policy-img" alt="제3조(개인정보의 제3자 제공에 관한 사항)"> <span>제3조(개인정보의 제3자 제공에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 정보주체의 개인정보를 제1조(개인정보의 처리 목적)에서 명시한 범위 내에서만 처리하며, 정보주체의 동의, 법률의 특별한 규정 등 ｢개인정보 보호법｣ 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다.<br>
+									&emsp; ② 행정안전부는다음과 같이 개인정보를 제3자에게 제공하고 있습니다.<br>
+									<div class="col-table">
+										<table>
+											<thead>
+											<tr>
+												<th class="grid-col-3">제공받는 자</th>
+												<th class="grid-col-3">제공목적</th>
+												<th class="grid-col-4">제공항목</th>
+												<th class="grid-col-2">보유 및 이용기간</th>
+												<th class="grid-col-3">관련근거</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>공공데이터를 제공하는 공공기관</td>
+												<td>공공데이터 활용 처리, 개선·개발, 오류접수·수정, 문의응대 등 관리</td>
+												<td>성명(단체명 및 대표자 성명), 아이디, 휴대폰번호, 이메일</td>
+												<td>2년</td>
+												<td>공공데이터법 제26조</td>
+											</tr>
+											<tr>
+												<td>공공데이터 제공신청을 접수 및 처리하는 공공기관</td>
+												<td>공공데이터 제공신청 접수 및 처리</td>
+												<td>성명(단체명 및 대표자 성명), 생년월일, 주소, 전화번호, 이메일, 사업자(법인, 단체) 등록번호</td>
+												<td>10년</td>
+												<td>공공데이터법 제27조제1항, 동법 시행령 제21조, 동법 시행규칙 별지 제9호서식</td>
+											</tr>
+											<tr>
+												<td>공공데이터제공 분쟁조정 피신청인(공공기관)</td>
+												<td>공공데이터 제공 분쟁조정 신청내용 및 사실 확인</td>
+												<td>성명(단체명 및 대표자 성명), 생년월일, 주소, 전화번호, 이메일, 사업자(법인, 단체) 등록번호</td>
+												<td>5년</td>
+												<td>공공데이터법 제31조제2항, 동법 시행규칙 제10조(별지 제15호 서식)</td>
+											</tr>
+											</tbody>
+										</table>
+									</div><br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy4">
+								<img src="/images/biz/personal-policy/img-personal-policy4.png" class="policy-img" alt="제4조(개인정보처리의 위탁에 관한 사항)"> <span>제4조(개인정보처리의 위탁에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다. <br>
+									&emsp; &emsp; 가. 위탁처리 기관<br>
+									<div class="col-table">
+										<table>
+											<thead>
+											<tr>
+												<th class="grid-col-3">수탁업체명</th>
+												<th class="grid-col-3">주소</th>
+												<th class="grid-col-3">전화</th>
+												<th class="grid-col-2">근무시간</th>
+												<th class="grid-col-4">위탁 업무</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>한국지능정보사회진흥원</td>
+												<td>대구광역시 동구 첨단로 53</td>
+												<td>053-230-1572, 1573</td>
+												<td>09:00~18:00</td>
+												<td>공공데이터포털 운영</td>
+											</tr>
+											</tbody>
+										</table>
+									</div><br>
+									&emsp; &emsp; 나. 위탁처리 수행업체<br>
+									<div class="col-table">
+										<table>
+											<thead>
+											<tr>
+												<th class="grid-col-3">수탁업체명</th>
+												<th class="grid-col-3">주소</th>
+												<th class="grid-col-3">전화</th>
+												<th class="grid-col-2">근무시간</th>
+												<th class="grid-col-4">위탁 업무</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>㈜프람트테크놀로지</td>
+												<td>서울특별시 종로구 인사동5길 25, 4층</td>
+												<td>1566-0025</td>
+												<td>09:00~18:00</td>
+												<td>공공데이터포털 서비스 개발·모니터링, 민원응대</td>
+											</tr>
+											</tbody>
+										</table><br>
+									</div>
+									&emsp; ② 위탁계약 체결 시 ｢개인정보 보호법｣ 제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적․관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리․감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.<br>
+									&emsp; ③ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체없이 본 개인정보 처리방침을 통하여 공개하도록 하겠습니다.<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy5">
+								<img src="/images/biz/personal-policy/img-personal-policy5.png" class="policy-img" alt="제5조(개인정보의 파기 절차 및 방법)"> <span>제5조(개인정보의 파기 절차 및 방법)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.<br>
+									&emsp; ② 개인정보 파기의 절차 및 방법은 다음과 같습니다. <br>
+									&emsp; &emsp; 1. 파기절차 : 행정안전부는 파기 사유가 발생한 개인정보를 선정하고, 행정안전부의 개인정보 분야별 책임자의 승인을 받아 개인정보를 파기합니다. <br>
+									&emsp; &emsp; 2. 파기방법 :  행정안전부는 전자적 파일 형태로 기록․저장된 개인정보는 기록을 재생할 수 없도록 파기하며, 종이 문서에 기록․저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy6">
+								<img src="/images/biz/personal-policy/img-personal-policy6.png" class="policy-img" alt="제6조(정보주체와 법정대리인의 권리·의무 및 관한 사항)"> <span>제6조(정보주체와 법정대리인의 권리·의무 및 행사방법에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 정보주체는 행정안전부에 대해 언제든지 개인정보 열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다. <br>
+									&emsp; ② 제1항에 따른 권리 행사는 행정안전부에 대해 「개인정보 보호법」 시행령 제41조 제1항에 따라 서면, 전자우편, 팩스 등을 통하여 하실 수 있으며 행정안전부는 이에 대해 지체 없이 조치하겠습니다.<br>
+									&emsp; ③ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수도 있습니다. 이 경우 “개인정보 처리 방법에 관한 고시” 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다. <br>
+									&emsp; &emsp; ※ 만 14세 미만 아동에 관한 개인정보의 열람등 요구는 법정대리인이 직접 해야 하며, 만 14세 이상의 미성년자인 정보주체는 정보주체의 개인정보에 관하여 미성년자 본인이 권리를 행사하거나 법정대리인을 통하여 권리를 행사할 수도 있습니다<br>
+									&emsp; ④ 개인정보 열람 및 처리정지 요구는 「개인정보 보호법」 제35조 제4항, 제37조 제2항에 의하여 정보주체의 권리가 제한 될 수 있습니다.<br>
+									&emsp; ⑤ 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.<br>
+									&emsp; ⑥ 행정안전부는 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구, 처리 정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인합니다. <br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy7">
+								<img src="/images/biz/personal-policy/img-personal-policy7.png" class="policy-img" alt="제7조(개인정보의 안전성 확보조치에 관한 사항)"> <span>제7조(개인정보의 안전성 확보조치에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다. <br>
+									&emsp; &emsp; 1. 내부관리계획의 수립 및 시행 : 개인정보의 안전한 처리를 위하여 내부관리계획을 수립하고 시행하고 있습니다.<br>
+									&emsp; &emsp; 2. 개인정보 취급직원의 최소화 및 교육 : 개인정보를 취급하는 직원은 반드시 필요한 인원에 한하여 지정·관리하고 있으며 취급직원을 대상으로 안전한 관리를 위한 교육을 실시하고 있습니다. <br>
+									&emsp; &emsp; 3. 정기적인 자체 지도 실시 : 개인정보 취급 관련 안정성 확보를 위해 매년 자체 개인정보 보호 관리수준 진단을 실시하고 있습니다.<br>
+									&emsp; &emsp; 4. 개인정보에 대한 접근 제한 : 개인정보를 처리하는 개인정보처리시스템에 대한 접근권한의 부여·변경·말소를 통하여 개인정보에 대한 접근통제를 위한 필요한 조치를 하고 있으며 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있습니다.<br>
+									&emsp; &emsp; 5. 접속기록의 보관 : 개인정보처리시스템에 접속한 기록을 2년 이상 보관·관리하고 있습니다. <br>
+									&emsp; &emsp; 6. 개인정보의 암호화 : 개인정보는 암호화 등을 통해 안전하게 저장 및 관리되고 있습니다. 또한, 중요한 데이터는 저장 및 전송 시 암호화하여 사용하는 등의 별도 보안기능을 사용하고 있습니다.<br>
+									&emsp; &emsp; 7. 해킹 등에 대비한 기술적 대책 : 행정안전부는 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적으로 갱신·점검하고 있습니다.<br>
+									&emsp; &emsp; 8. 비인가자에 대한 출입 통제 : 개인정보를 보관하고 있는 개인정보처리시스템의 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립·운영하고 있습니다.<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy8">
+								<img src="/images/biz/personal-policy/img-personal-policy8.png" class="policy-img" alt="제8조(개인정보를 자동으로 수집하는 장치의 설치·거부에 관한 사항)"> <span> 제8조(개인정보를 자동으로 수집하는 장치의 설치·운영 및 그 거부에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 이용자에게 개별적인 맞춤서비스를 제공하기 위해 이용 정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다. <br>
+									&emsp; ② 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에게 보내는 소량의 정보이며 이용자의 컴퓨터 하드디스크에 저장되기도 합니다. <br>
+									&emsp; &emsp; 가. 쿠키의 사용목적: 이용자가 방문한 각 서비스와 웹 사이트들에 대한 방문 및 이용형태, 인기 검색어, 보안접속 여부, 등을 파악하여 이용자에게 최적화된 정보 제공을 위해 사용됩니다. <br>
+									&emsp; &emsp; 나. 쿠키의 설치·운영 및 거부: 브라우저 옵션 설정을 통해 쿠키 허용, 쿠키 차단 등의 설정을 할 수 있습니다.<br>
+									&emsp; &emsp; &emsp; - Internet Explorer : 웹브라우저 우측 상단의 도구 메뉴 > 인터넷 옵션 > 개인정보 > 설정 > 고급<br>
+									&emsp; &emsp; &emsp; - Edge: 웹브라우저 우측 상단의 설정 메뉴 > 쿠키 및 사이트 권한 > 쿠키 및 사이트 데이터 관리 및 삭제<br>
+									&emsp; &emsp; &emsp; - Chrome: 웹브라우저 우측 상단의 설정 메뉴 > 개인정보 및 보안 > 쿠키 및 기타 사이트 데이터<br>
+									&emsp; &emsp; 다. 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다. <br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy9">
+								<img src="/images/biz/personal-policy/img-personal-policy9.png" class="policy-img" alt="제9조(추가적인 이용·제공 관련 판단 기준"> <span>제9조(추가적인 이용·제공 관련 판단 기준)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>&emsp; ① 행정안전부는  「개인정보 보호법」 제15조제3항 및 제17조제4항에 따라 「개인정보 보호법」 시행령 제14조의2에 따른 사항을 고려하여 정보주체의 동의 없이 개인정보를 추가적으로 이용·제공할 수 있습니다. <br>
+									&emsp; ② 이에 따라 행정안전부는 정보주체의 동의 없이 추가적인 이용·제공을 하기 위해서 다음과 같은 사항을 고려하였습니다. <br>
+									&emsp; &emsp; ‣ 개인정보를 추가적으로 이용·제공하려는 목적이 당초 수집 목적과 관련성이 있는지 여부 <br>
+									&emsp; &emsp; ‣ 개인정보를 수집한 정황 또는 처리 관행에 비추어 볼 때 추가적인 이용·제공에 대한 예측 가능성이 있는지 여부 <br>
+									&emsp; &emsp; ‣ 개인정보의 추가적인 이용·제공이 정보주체의 이익을 부당하게 침해하는지 여부 <br>
+									&emsp; &emsp; ‣ 가명처리 또는 암호화 등 안전성 확보에 필요한 조치를 하였는지 여부<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy10">
+								<img src="/images/biz/personal-policy/img-personal-policy10.png" class="policy-img" alt="제10조(가명정보 처리에 관한 사항)"> <span>제10조(가명정보 처리에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									현재 개인정보를 가명처리 하고 있지 않으며, 가명처리 할 경우 관련사항을 정보주체가 확인할 수 있도록 안내를 하겠습니다
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy11">
+								<img src="/images/biz/personal-policy/img-personal-policy11.png" class="policy-img" alt="제11조(개인정보 보호(분야별)책임자에 관한 사항" > <span>제11조(개인정보 보호(분야별)책임자에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호(분야별)책임자를 지정하고 있습니다. <br>
+									<div class="col-table">
+										<table>
+											<thead>
+											<tr>
+												<th class="grid-col-5" colspan="2">구분</th>
+												<th class="grid-col-4">부서</th>
+												<th class="grid-col-3">성명</th>
+												<th class="grid-col-4">연락처</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td colspan="2">개인정보보호 책임자</td>
+												<td>정책기획관</td>
+												<td>정창성</td>
+												<td rowspan="3">
+													※ 담당부서로 연결됩니다.<br>
+													전화 044-205-2473<br>
+													팩스 044-205-8926<br>
+													전자우편 jangyh87@korea.kr<br>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">개인정보보호 분야별 책임자</td>
+												<td>공공데이터정책과장</td>
+												<td>하인호</td>
+											</tr>
+											<tr>
+												<td colspan="2">개인정보보호 분야별 담당자</td>
+												<td>공공데이터정책과</td>
+												<td>장유희</td>
+											</tr>
+											<tr>
+												<td rowspan="3">수탁기관</td>
+												<td>개인정보보호 책임자</td>
+												<td>부원장실</td>
+												<td>박원재</td>
+												<td rowspan="3">
+													※ 담당부서로 연결됩니다.<br>
+													전화 053-230-1572<br>
+													팩스 053-230-1920<br>
+													전자우편 jrw@nia.or.kr<br>
+												</td>
+											</tr>
+											<tr>
+												<td>개인정보보호 분야별 책임자</td>
+												<td>공공데이터개방활용팀장</td>
+												<td>이재원</td>
+											</tr>
+											<tr>
+												<td>개인정보보호 분야별 담당자</td>
+												<td>공공데이터개방활용팀</td>
+												<td>장라원</td>
+											</tr>
+											</tbody>
+										</table><br>
+									</div>
+									&emsp; ② 정보주체께서는 공공데이터포털을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 분야별 담당부서로 문의하실 수 있습니다. 행정안전부는 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy12">
+								<img src="/images/biz/personal-policy/img-personal-policy12.png" class="policy-img" alt="제12조(개인정보의 열람청구를 접수·처리하는 부서"> <span>제12조(개인정보의 열람청구를 접수·처리하는 부서)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 정보주체는 「개인정보 보호법」 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있으며, 행정안전부는 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력 하겠습니다. <br>
+									&emsp; &emsp; ‣ 개인정보 열람청구 분야별 접수·처리 부서 <br>
+									<div class="col-table">
+										<table>
+											<thead>
+											<tr>
+												<th class="grid-col-3">분야별 담당부서</th>
+												<th class="grid-col-2">담당자</th>
+												<th class="grid-col-3">전화</th>
+												<th class="grid-col-2">전자우편</th>
+												<th class="grid-col-2">팩스</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>공공데이터정책과</td>
+												<td>장유희</td>
+												<td>044-205-2473</td>
+												<td>jangyh87@korea.kr</td>
+												<td>044-205-8926</td>
+											</tr>
+											</tbody>
+										</table><br>
+									</div>
+									&emsp; ② 정보주체께서는 제1항의 열람청구 접수·처리부서 이외에 ‘개인정보 포털’ 누리집(www.privacy.go.kr)를 통하여서도 개인정보 열람청구를 하실 수 있습니다. <br>
+									&emsp; &emsp; ※ 개인정보 포털→ 개인서비스 → 정보주체 권리행사 → 개인정보 열람 등 요구(본인인증 필요)<br>
+								</div>
+							</div>
+						</li>
+						<li>
+							<button type="button" class="title title-padding" id="policy13">
+								<img src="/images/biz/personal-policy/img-personal-policy13.png" class="policy-img" alt="제13조(정보주체의 권익침해에 대한 구제방법)"> <span>제13조(정보주체의 권익침해에 대한 구제방법)</span>
+							</button>
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다. 이 밖에 기타 개인정보침해의 신고, 상담에 대하여는 아래의 기관에 문의하시기 바랍니다.<br>
+									&emsp; &emsp; 1. 개인정보분쟁조정위원회 : (국번없이) 1833-6972 (www.kopico.go.kr) <br>
+									&emsp; &emsp; 2. 개인정보침해신고센터 : (국번없이) 118 (privacy.kisa.or.kr) <br>
+									&emsp; &emsp; 3. 대검찰청 : (국번없이) 1301 (www.spo.go.kr) <br>
+									&emsp; &emsp; 4. 경찰청 : (국번없이) 182 (ecrm.cyber.go.kr) <br>
+									&emsp; ② 「개인정보 보호법」 제35조(개인정보의 열람), 제36조(개인정보의 정정·삭제), 제37조(개인정보의 처리정지 등)의 규정에 의한 요구에 대하여 공공기관의 장이 행한 처분 또는 부작위로 인하여 권리 또는 이익의 침해를 받은 자는 행정심판법이 정하는 바에 따라 행정심판을 청구할 수 있습니다. <br>
+									&emsp; &emsp; ▸ 중앙행정심판위원회 : (국번없이) 110 (www.simpan.go.kr) <br>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<button type="button" class="title title-padding" id="policy14">
+								<img src="/images/biz/personal-policy/img-personal-policy14.png" class="policy-img" alt="제14조(개인정보 관리수준진단 결과)"> <span>제14조(개인정보 관리수준진단 결과)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 행정안전부는 정보주체의 개인정보를 안전하게 관리하기 위해 「개인정보 보호법」 제11조에 따라 매년 개인정보보호위원회에서 실시하는 “공공기관 개인정보 관리수준진단”을 받고 있습니다.<br>
+									&emsp; ② 행정안전부는 2022년도 개인정보 관리수준진단 평가 결과 ’S‘ 등급을 획득하였습니다.<br>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<button type="button" class="title title-padding" id="policy15">
+								<img src="/images/biz/personal-policy/img-personal-policy15.png" class="policy-img" alt="제15조(개인정보 처리방침의 변경에 관한 사항)"> <span>제15조(정보 처리방침의 변경에 관한 사항)</span>
+							</button>
+
+							<div class="policy-text" tabIndex="-1">
+								<div>
+									&emsp; ① 이 개인정보 처리방침은 2024.02. 22.부터 적용됩니다. <br>
+									&emsp; ② 이전의 개인정보 처리방침은 아래에서 확인하실 수 있습니다. <br>
+									<ul>
+										<li>
+											&emsp; &emsp; <a href="http://www.nia.or.kr/files/ko/html/Content/common_privacy_h1.html" target="_blank" title="새창 열림">2011.9.30 ~ 2012.10.4. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="http://www.nia.or.kr/files/ko/html/Content/common_privacy_h2.html" target="_blank" title="새창 열림">2012.10.5 ~ 2013.6.4. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious.jsp" target="_blank" title="새창 열림">2013.6.5 ~ 2013.9.16. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious2.jsp" target="_blank" title="새창 열림">2013.9.17 ~ 2014.3.17. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious3.jsp" target="_blank" title="새창 열림">2014.3.18 ~ 2014.4.30. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious4.jsp" target="_blank" title="새창 열림">2014.5.1 ~ 2014.9.14. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious5.jsp" target="_blank" title="새창 열림">2014.9.15 ~ 2015.1.20. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious6.jsp" target="_blank" title="새창 열림">2015.1.21 ~ 2015.5.27. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious7.jsp" target="_blank" title="새창 열림">2015.5.28 ~ 2016.1.27. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious8.jsp" target="_blank" title="새창 열림">2016.1.28 ~ 2016.9.9. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious9.jsp" target="_blank" title="새창 열림">2016.9.10 ~ 2016.11.14. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious10.jsp" target="_blank" title="새창 열림">2016.11.15 ~ 2017.2.7. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious11.jsp" target="_blank" title="새창 열림">2017.2.8 ~ 2017.2.13. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious12.jsp" target="_blank" title="새창 열림">2017.2.14 ~ 2018.2.28. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious13.jsp" target="_blank" title="새창 열림">2018.3.1 ~ 2018.10.4. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious14.jsp" target="_blank" title="새창 열림">2018.10.5 ~ 2019.06.30. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious15.jsp" target="_blank" title="새창 열림">2019.7.1 ~ 2020.08.26. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious16.jsp" target="_blank" title="새창 열림">2020.8.27 ~ 2020.11.25. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious17.jsp" target="_blank" title="새창 열림">2020.11.26 ~ 2021.04.12. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious18.jsp" target="_blank" title="새창 열림">2021.04.13 ~ 2021.05.26. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious19.jsp" target="_blank" title="새창 열림">2021.05.27 ~ 2022.05.10. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious20.jsp" target="_blank" title="새창 열림">2022.05.11 ~ 2022.11.29. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious21.jsp" target="_blank" title="새창 열림">2022.11.30 ~ 2023.02.22. 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious22.jsp" target="_blank" title="새창 열림">2023.02.23 ~ 2023.05.31 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious23.jsp" target="_blank" title="새창 열림">2023.6.1 ~ 2023.08.23 적용</a>
+										</li>
+										<li>
+											&emsp; &emsp; <a href="https://data.go.kr/IrosPersonalInfoProtectionPrevious24.jsp" target="_blank" title="새창 열림">2023.08.24 ~ 2024.02.21 적용</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+
+</script>
+
+					</div>
+				</div>
+			</div>
+			
+			<aside class="quick-area">
+				<a href="#top" class="btn-go-top" title="맨 위로 가기">상단가기</a>
+			</aside>
+			
+			
+
+
+
+
+
+
+ <!-- footer -->
+<footer id="footer" tabIndex="-1">
+	<div class="inner-wrap">
+		<div class="footer-util">
+			<div class="tel">
+				<i class="iconset ico-tel"></i> <strong>공공데이터 개방문의</strong> <a title="바로 전화 걸기" href="tel:1566-0025">1566-0025</a>
+			</div>
+			
+			<div class="email">
+				<a title="이메일 바로가기" href="mailto:opendata_help@nia.or.kr"><i class="iconset ico-email"></i> 운영자 메일상담</a>
+			</div>
+			
+			<div class="sns-share">
+
+				<a href="http://www.facebook.com/koreadataportal" target="_blank" title="새창 열림">
+					<i class="iconset ico-facebook">페이스북 공유</i>
+				</a>
+				<a href="https://twitter.com/koreadataportal" target="_blank" title="새창 열림">
+					<i class="iconset ico-twitter">트위터 공유</i>
+				</a>
+				<a href="http://blog.naver.com/nia_korea" target="_blank" title="새창 열림">
+					<i class="iconset ico-blog">블로그 공유</i>
+				</a>
+			</div>
+			<!-- 2020-02-19 뉴스레터 신청 레이어 팝업 -->
+			<div id="layer_newsletter_request" class="modal medium">
+				<p class="layer-title">뉴스레터 신청</p>
+				<div class="layer-contents">
+					<div class="newsletter-request-box">
+						<label for="newsletter_request" class="title req">이메일주소</label>
+
+						<input type="text" id="newsletter_request" class="input-text" placeholder="sample@sample.com" style="ime-mode:disabled">
+
+						<p class="reset">
+							<input type="checkbox" id="check_agree" value="Y">
+							<label for="check_agree">수신동의</label>
+						</p>
+
+						<p class="reset">
+							* 수신 미동의 시 뉴스레터 신청 서비스에 제한이 있습니다.
+						</p>
+					</div>
+
+					청
+				</div>
+			</div>
+			<!-- // 2020-02-19 뉴스레터 신청 레이어 팝업 -->
+		</div>
+		
+		<div class="footer-link">
+			<ul class="list">
+				<li><a title="새 창으로 이용약관 열기" href="/ugs/selectPortalPolicyView.do#use_stplat" target="_blank">이용약관</a></li>
+				<li class="privacy"><a title="새 창으로 개인정보처리방침 열기" href="/ugs/selectPortalPolicyView.do#indvdlinfo_process" target="_blank">개인정보처리방침</a></li>
+				<li><a title="새 창으로 공공데이터포털 소개 열기" href="/ugs/selectPortalInfoView.do#portal_info" target="_blank">공공데이터포털 소개</a></li>
+				<li><a title="분쟁조정신청 바로가기" href="/tcs/dor/insertTrublMdatReqstProcssView.do">분쟁조정신청</a></li>
+			</ul>
+			
+
+
+
+			
+			<div class="site-select">
+				<select class="selectSiteList" title="관련사이트 선택">
+
+					<option value="http://www.mois.go.kr/">행정안전부</option>
+					<option value="http://www.odsc.go.kr/">공공데이터전략위원회</option>
+					<option value="http://www.odmc.or.kr/">공공데이터분쟁조정위원회</option>
+					<option value="http://odf.or.kr/">오픈데이터포럼</option>
+					<option value="https://www.data.go.kr/osd/opensquare.do">오픈스퀘어-D</option>
+
+
+					
+
+
+				</select>
+				
+				<button type="button" title="새창 열림" class="btnGoSite button">이동</button>
+			</div>
+		</div>
+		
+		<div class="footer-info">
+			<div class="logo">
+				<a href="https://www.mois.go.kr/" target="_blank" title="새창 열림"><img src="/images/biz/common/logo/logo-footer-01.png" alt="행정안전부" /></a>
+
+			</div>
+			
+			<div class="address">
+				<div>
+					<p>(30112) 세종특별자치시 도움6로 42(어진동) </p>
+					<p class="tel">대표번호 : <a title="바로 전화 걸기" href="tel:1566-0025">1566-0025</a></p>
+					<p>문의시간 : 09:00~18:00 (월~금)</p>
+
+				</div>
+				
+
+
+
+				
+				<div>
+					<p>ⓒ행정안전부. All rights reserved.</p>
+				</div>
+			</div>
+			
+
+
+
+
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+
+	/*
+	 * 사이트 이동 버튼 클릭
+	*/
+	$(".btnGoSite").click( function(e) {
+		var url = $('.selectSiteList').val();
+		if(url != "#") {
+			var w = window.open( url, '_blank');
+			w.document.title = "새창";
+		}
+	});
+	
+	/*
+	 * 뉴스레터 신청
+	*/
+	function fn_saveNewsLetter(){
+		
+		//이메일 입력확인
+		if(fn_empty($("#newsletter_request").val())){
+			alert("이메일 주소는 필수입력 항목입니다.");
+			$("#newsletter_request").focus();
+	        return;
+		}
+		
+		//이메일 형식 확인
+		var regExp = fn_regExp("email");
+		if ( !regExp.test($("#newsletter_request").val()) ) {
+			alert("이메일주소를 올바르게 입력해주세요.");
+			$("#newsletter_request").focus();
+			return;
+		}
+		
+		if(fn_empty($("#check_agree").val()) || !$("#check_agree").is(":checked")){
+			alert("이메일 수신에 동의하셔야 뉴스레터를 신청하실 수 있습니다.");
+			$("#check_agree").focus();
+	        return;
+		}
+		
+		if(confirm("뉴스레터를 신청하시겠습니까?")){
+			$.ajax({
+				type:"POST",
+				url: '/insertNewsLetterUser.json',
+				data : {userEmail : $("#newsletter_request").val(), agreeYn : $("#check_agree").val()} ,
+				dataType : "json",
+				traditional : true,
+				success: function(result){
+					if(result.status){
+						if(result.duplUserAt){
+							alert("이미 뉴스레터 신청이 완료된 이메일주소를 입력하셨습니다.\n다른 이메일주소를 입력해주세요.");
+							return;
+						}else{
+							alert("뉴스레터 신청이 완료되었습니다.");
+							$("#newsletter_request").val("");
+							$("#check_agree").removeProp("checked");
+							$.modal.close();
+						}
+					}else{
+						alert("뉴스레터 신청 중 오류가 발생하였습니다.");
+						return;
+					}
+				},
+				error: function(xhr, status, error) {
+					alert("뉴스레터 신청 중 오류가 발생하였습니다.");
+					return;
+				}
+			});
+		}
+	}
+</script>
+
+<!-- Google tag (gtag.js)  - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TYF9K5TBJ"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-7TYF9K5TBJ');
+</script>
+<!--// footer -->
+		</div>
+	</body>
+</html>

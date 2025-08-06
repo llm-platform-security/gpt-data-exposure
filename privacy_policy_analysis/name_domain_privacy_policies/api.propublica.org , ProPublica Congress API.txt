@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>ProPublica Congress API</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">ProPublica Congress API</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Intro</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="members/" class="nav-link">Members</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="bills/" class="nav-link">Bills</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="votes/" class="nav-link">Votes</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="statements/" class="nav-link">Statements</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="committees/" class="nav-link">Committees</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="other/" class="nav-link">Other Endpoints</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="members/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#get-an-api-key" class="nav-link">Get an API Key</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#scope-of-data" class="nav-link">Scope of Data</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#terms-of-use" class="nav-link">Terms of Use</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#authentication" class="nav-link">Authentication</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#requests" class="nav-link">Requests</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#common-parameters" class="nav-link">Common Parameters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#responses" class="nav-link">Responses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#errors" class="nav-link">Errors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#data-sources" class="nav-link">Data Sources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#data-update-schedules" class="nav-link">Data Update Schedules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#sunlight-congress-api-users" class="nav-link">Sunlight Congress API Users</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="overview">Overview</h2>
+<p><strong>We have shut down new sign ups to the Congress API, and we anticipate turning off the API on July 5, 2024.</strong></p>
+<p>Using the Congress API, you can retrieve legislative data from the House of Representatives, the Senate and the Library of Congress. The API, which <a href="http://open.blogs.nytimes.com/2009/01/08/introducing-the-congress-api">originated at The New York Times</a> in 2009, includes details about members, votes, bills, nominations and other aspects of congressional activity. This document describes the requests that users can make of the API and the responses that it returns.</p>
+<p><em>In this document, curly braces { } indicate required variables. Square brackets [ ] indicate optional parameters or placeholders.</em></p>
+<h2 id="get-an-api-key">Get an API Key</h2>
+<p>New API keys are not available.</p>
+<h2 id="scope-of-data">Scope of Data</h2>
+<p>The Congress API returns the following types of data:</p>
+<ul>
+<li>Roll-call vote data: Only roll-call votes (not voice votes or division votes) are tracked by official Congressional data sources. Along with basic vote data, the ProPublica API returns additional information that is less readily available, such as party totals. Votes are available from 1991 for the House of Representatives and from 1989 for the Senate.</li>
+<li>Member data: Along with general biographical information for current and past members of Congress, the API returns data about members’ Congressional roles. Role data includes the Congress number and chamber, as well as the member’s title, state and party. A single member may have more than one role in a particular Congress (for example, the member may switch parties or move from the House to the Senate). The API also helps you compare member data, including vote positions and bill cosponsorships. Member data is available for every member who has served in Congress, but those who have served more recently (since 1995) have more information.</li>
+<li>Bill data: Along with standard bill summaries and details, the API returns bill subjects, amendments and related bills. You can also retrieve bills by member and view all the cosponsors of a bill. Bill information is available for bills from 1995 onward.</li>
+<li>Nomination data: The API returns presidential civilian nomination lists and details. Military nominations are not included. For general information about presidential nominations, see <a href="https://www.congress.gov/nominations">Congress.gov</a>. Nomination data is available from 2001 onward.</li>
+<li>Committee data: The API returns data about House and Senate committees, along with the memberships of those committees.</li>
+<li>Statement data: The API returns data about press releases published by members of the House and Senate.</li>
+<li>Lobbying data: The API returns data about filings from registered lobbyists. <a href="https://www.propublica.org/nerds/lobbying-registration-database-reporting-recipe">More details on lobbying data</a>.</li>
+<li>Other data: The API returns various supplemental information, including party counts by state; and committees and committee rosters.</li>
+</ul>
+<p>Most of the data in the ProPublica Congress API is updated daily, while votes are updated every 30 minutes.</p>
+<h2 id="terms-of-use">Terms of Use</h2>
+<p>Use of this API is available under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States license. Commercial users may be subject to additional use fees. To request permission for any commercial use, please fill out the API key request form.</p>
+<p>All users are required to abide by the following terms of use for data provided by the API:  </p>
+<ol>
+<li>You can’t republish the raw data in its entirety, or otherwise distribute the data (in whole or in part) on a stand-alone basis.</li>
+<li>You can’t change the data except to update or correct it.</li>
+<li>Unless authorized, you can’t charge people money to look at the data, or sell advertising specifically against it. (It may be used on advertising-supported websites or on paid-access sites that provide other content, benefits and/or services.)</li>
+<li>You can’t sub-license or resell the data to others.</li>
+<li>If you use the data for publication, you must cite ProPublica.</li>
+<li>We do not guarantee the accuracy or completeness of the data.  You acknowledge that the data may contain errors and omissions.  </li>
+<li>We are not obligated to update the data, but in the event we do, you are solely responsible for checking our site for any updates.</li>
+<li>You will indemnify, hold harmless, and defend ProPublica from and against any claims arising out of your use of the data.</li>
+</ol>
+<h2 id="authentication">Authentication</h2>
+<p>To use the Congress API, you must sign up for an API key. Usage is limited to 5000 requests per day (rate limits are subject to change). The API key must be included in all API requests to the server, as a header:</p>
+<pre><code>X-API-Key: PROPUBLICA_API_KEY
+</code></pre>
+<p>To authorize, use this code:</p>
+<pre><code>With shell, you can just pass the correct header with each request
+curl "api_endpoint_here"
+  -H "X-API-Key: PROPUBLICA_API_KEY"
+</code></pre>
+<p>Make sure to replace <code>PROPUBLICA_API_KEY</code> with your API key.</p>
+<h2 id="requests">Requests</h2>
+<p>The Congress API uses a RESTful style. See individual methods below for permitted requests. The API only accepts GET requests. All requests begin with:</p>
+<pre><code>https://api.propublica.org/congress/{version}/
+</code></pre>
+<p>The current version is <code>v1</code>. For requests that have a <code>congress</code> parameter, the current Congress is <code>117</code>.</p>
+<h2 id="common-parameters">Common Parameters</h2>
+<p>These parameters are used in all request types. See below for URI structures and additional parameters for each type of request.</p>
+<ul>
+<li><em>version</em> The API version (in URI path). The current version is <code>v1</code>.</li>
+</ul>
+<p>The following parameters are optional:</p>
+<ul>
+<li><em>callback</em> JSONP callback function (in query string).</li>
+</ul>
+<h2 id="responses">Responses</h2>
+<p>The API provides JSON and XML responses for every type of request, and supports JSONP callbacks. Responses that are not date-based return the first 20 results; pagination is available via an offset query string parameter using multiples of 20 for most votes, nomination and bill requests that return more than one object.</p>
+<h2 id="errors">Errors</h2>
+<p>This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files…just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>’s frontmatter. Files are included in the order listed.</p>
+<p>The ProPublica Congress API uses the following error codes:</p>
+<table>
+<thead>
+<tr>
+<th>Error Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>400</td>
+<td>Bad Request – Your request is improperly formed</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden – Your request did not include an authorization header</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not Found – The specified record(s) could not be found</td>
+</tr>
+<tr>
+<td>406</td>
+<td>Not Acceptable – You requested a format that isn’t json or xml</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Internal Server Error – We had a problem with our server. Try again later.</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Service Unavailable – The service is currently not working. Please try again later.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-sources">Data Sources</h2>
+<p>The data returned by the Congress API is compiled from the following sources:</p>
+<ul>
+<li>The <a href="https://github.com/unitedstates/">United States project on GitHub</a> for member information.</li>
+<li>The official Web site of the <a href="http://clerk.house.gov/legislative/legvotes.html">Office of the Clerk of the U.S. House of Representatives</a>, for vote data</li>
+<li>The official Web site of the <a href="http://www.senate.gov/pagelayout/legislative/a_three_sections_with_teasers/votes.htm">United States Senate</a>, for vote data</li>
+<li>The <a href="http://bioguide.congress.gov/biosearch/biosearch.asp">Biographical Directory of the United States Congress</a>, for member biographical information</li>
+<li>UnitedStates.io, for committee memberships, social media account names in member lists and some member biographical information</li>
+<li>MIT Professor Charles Stewart’s collection of <a href="http://web.mit.edu/17.251/www/data_page.html">Congressional data</a>, for some role information</li>
+<li><a href="https://www.congress.gov/">Congress.gov</a> (The Library of Congress) and the <a href="https://www.gpo.gov/fdsys/bulkdata/BILLSUM">Government Printing Office</a>, for bill data and nomination data</li>
+</ul>
+<p>Certain fields in the API responses (such as party totals and vote agreement percentages) are calculated by ProPublica, based on these data sources. The data returned by the Congress API is in the public domain.</p>
+<h2 id="data-update-schedules">Data Update Schedules</h2>
+<ul>
+<li>Bill data, including sponsorships, subjects and amendments, is updated six times a day at the following times (all Eastern Standard Time): 7:00 a.m., 9:45 a.m., 12:45 p.m., 4:45 p.m., 9:45 p.m. and 1:45 a.m.</li>
+<li>House and Senate votes, along with House and Senate floor actions, are updated every 30 minutes.</li>
+<li>Nomination data and committee hearing data is updated at 12 p.m. every day.</li>
+<li>Data on personal explanations and leaves of absence is updated at 12 p.m. every day.</li>
+</ul>
+<h2 id="sunlight-congress-api-users">Sunlight Congress API Users</h2>
+<p>Welcome, former Sunlight Congress API users! We want you to be able to use the ProPublica Congress API for your projects, and are here to try and help make the transition process easier. ProPublica took over the Sunlight Congress API in <a href="https://www.propublica.org/article/taking-cues-and-some-projects-from-sunlight-labs">Nov. 2016</a> and was sun-setted on Oct. 1, 2017. In between, we&rsquo;ve added support for many Sunlight Congress API features to the ProPublica Congress API. We post about that work on our <a href="https://www.propublica.org/nerds/">Nerd Blog</a> and offer a <a href="https://github.com/propublica/congress-api-docs/blob/master/changelog.md">changelog</a> of updates as well.</p>
+<p>The ProPublica Congress differs from the Sunlight Congress API in several important respects:</p>
+<ul>
+<li>The ProPublica Congress API does not offer a location-based lookup service. We recommend that developers use the <a href="https://developers.google.com/civic-information/">Google Civic Information API</a> to accomplish this task. Operating your own geography-based service is another option.</li>
+<li>The ProPublica Congress API does not offer an endpoint to retrieve an image of a member of Congress. Instead, we recommend that developers use the images provided by <a href="https://github.com/unitedstates/images">the United States project on GitHub</a>.</li>
+<li>The ProPublica Congress API does not offer a <a href="https://sunlightlabs.github.io/congress/#filtering">filtering syntax</a> on requests in the way that the Sunlight Congress API did, instead offering a more REST-ful style with fewer querystring options.</li>
+<li>Authentication for the ProPublica Congress API is by key, but the key is sent as a custom header with requests, not as a query string argument.</li>
+<li>The ProPublica Congress API does not support the experimental RSS format output that the Sunlight Congress API did.</li>
+<li>Developers and users can file error reports or ask questions on <a href="https://github.com/propublica/congress-api-docs/issues">GitHub</a> or via email at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d3b2a3babbb6bfa393a3a1bca3a6b1bfbab0b2fdbca1b4">[email&#160;protected]</a>.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.2.4
+Build Date UTC : 2024-04-11 21:36:17.055670+00:00
+-->

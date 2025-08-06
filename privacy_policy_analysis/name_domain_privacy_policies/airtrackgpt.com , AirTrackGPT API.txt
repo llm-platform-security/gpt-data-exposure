@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirTrackGPT | Discover a new way to plan your adventure</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/grt-youtube-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ======== Header Section ======== -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img srcset="img/AirTrackGPT.webp 2x" src="img/AirTrackGPT.webp" alt="AirTrackGPT">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ======== How it Works Section ======== -->
+    <section id="how-it-works" class="how-it-work">
+        <div class="container">
+            <h2>Privacy Policy for AirTrack GPT</h2>
+
+            <div class="row align-items-center justify-content-center gx-lg-12 mb-5">
+                <div class="col-lg-12 ">
+                    <p >
+                        1. Introduction<br>
+                        This Privacy Policy outlines how ManySignals OÜ ("ManySignals", "we", "us", or "our") collects, uses, and protects your information when you use AirTrack GPT. By using our service, you consent to the data practices described in this policy.
+                    </p >
+                    <p >
+                        2. Information Collection<br>
+                        Personal Data: This includes information such as your name, email address, and any other data you provide while using AirTrack GPT.
+                    </p >
+                    <p >
+                        Usage Data: We collect information on how the service is accessed and used. This may include details like your computer's Internet Protocol address (IP address), browser type, browser version, the pages of our service that you visit, the time and date of your visit, the time spent on those pages, and other diagnostic data.
+                    </p >
+                    <p >
+                        Tracking & Cookies Data: We use cookies and similar tracking technologies to track activity on our service and hold certain information.
+                    </p >
+                    <p >
+                        3. Use of Data
+                    </p >
+                    <p >
+                        ManySignals OÜ uses the collected data for various purposes:
+                    </p >
+                    <p >
+                        - To provide and maintain our service.<br>
+                        - To notify you about changes to our service.<br>
+                        - To allow you to participate in interactive features of our service when you choose to do so.<br>
+                        - To provide customer support.<br>
+                        - To gather analysis or valuable information so that we can improve our service.<br>
+                        - To monitor the usage of our service.<br>
+                        - To detect, prevent, and address technical issues.<br>
+                    </p >
+                    <p >
+                        4. Transfer of Data<br>
+                        Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction.
+                    </p >
+                    <p >
+                        5. Disclosure of Data<br>
+                        Legal Requirements: ManySignals OÜ may disclose your Personal Data in the good faith belief that such action is necessary to comply with a legal obligation, protect and defend the rights or property of ManySignals OÜ, prevent or investigate possible wrongdoing in connection with the service, protect the personal safety of users of the service or the public, and protect against legal liability.
+                    </p >
+                    <p >
+                        Service Providers: We may employ third-party companies and individuals to facilitate our service, provide the service on our behalf, perform service-related services, or assist us in analyzing how our service is used.
+                    </p >
+                    <p >
+                        6. Security of Data<br>
+                        The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure.
+                    </p >
+                    <p >
+                        7. Service Providers<br>
+                        We may employ third-party companies and individuals to facilitate our service ("Service Providers"), provide the service on our behalf, perform service-related services, or assist us in analyzing how our service is used.
+                    </p >
+                    <p >
+                        8. Links to Other Sites<br>
+                        Our service may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site.
+                    </p >
+                    <p >
+                        9. Children's Privacy<br>
+                        Our service does not address anyone under the age of 18 ("Children").
+                    </p >
+                    <p >
+                        10. Changes to This Privacy Policy<br>
+                        We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+                    </p >
+                    <p >
+                        11. Contact Us<br>
+                        If you have any questions about this Privacy Policy, please contact us at office@airtrackbot.com.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ======== CTA Section ======== -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box">
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-9 col-md-10">
+                        <h2>Simplify your journey planning</h2>
+                        <p>Find the best flight deals, discover the cheapest dates to fly, and <br
+                                class="d-none d-lg-block" />explore the best destinations from your airport.</p>
+                    </div>
+
+                    <div class="col-lg-3 text-lg-end">
+                        <a href="https://chat.openai.com/g/g-RZ2Suvfcc-airtrack-gpt" target="_blank">Get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== Footer Section ======== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3>Legal</h3>
+                    <ul class="useful-links">
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h3>Contacts</h3>
+                    <ul class="useful-links">
+                        <li><a href="mailto:office@airtrackbot.com">Email</a></li>
+                        <li><a href="mailto:office@airtrackbot.com">Press</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h3>Links</h3>
+                    <ul class="useful-links">
+                        <li><a href="https://manyflights.io" target="_blank">Flight Deals</a></li>
+                        <li><a href="https://airtrackbot.com" target="_blank">AirTrackBot</a></li>
+                        <li><a href="https://t.me/hotelbot" target="_blank">HotelBot</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h3>Social Media</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://twitter.com/AirTrackGPT" target="_blank">
+                                <i class="fi fi-brands-twitter-alt"></i>
+                                X (Twitter)
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://instagram.com/airtrackgpt" target="_blank">
+                                <i class="fi fi-brands-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://facebook.com/airtrackgpt" target="_blank">
+                                <i class="fi fi-brands-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright © 2024 ManySignals OÜ, All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==== Scroll to Top ==== -->
+    <a href="#top" class="scroll-to-top" title="Scroll to Top">
+        <img srcset="img/up-arrow_2x.png 2x" src="img/up-arrow.png" alt="">
+    </a>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/grt-youtube-popup.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        // Smooth Scroll
+        const scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 0,
+            offset: 30,
+            speedAsDuration: false,
+            easing: 'linear'
+        });
+
+        const navs = document.querySelectorAll('.nav-link');
+        navs?.forEach(item => {
+            item.addEventListener("click", () => {
+                document.querySelector(".navbar-collapse.show")?.classList.remove('show');
+            });
+        });
+    </script>
+</body>
+
+</html>

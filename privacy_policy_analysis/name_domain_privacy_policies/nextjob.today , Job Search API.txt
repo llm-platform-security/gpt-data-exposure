@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6886TLJFXM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-6886TLJFXM');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2" as="font" crossOrigin="anonymous" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <style>
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* vietnamese */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <title>Privacy Policy: Safeguarding Your Personal Information | Next Job Today</title>
+    <link rel="canonical" href="https://nextjob.today/privacy" />
+    <meta name="description" content="At NextJob.Today, we&#x27;re committed to protecting your privacy. Understand how we handle your personal data, maintain transparency, and ensure your information&#x27;s safety as you navigate through the AI-powered job search experience. Your trust is our priority." />
+
+    <meta property="og:title" content="Privacy Policy: Safeguarding Your Personal Information" />
+    <meta property="og:description" content="At NextJob.Today, we&#x27;re committed to protecting your privacy. Understand how we handle your personal data, maintain transparency, and ensure your information&#x27;s safety as you navigate through the AI-powered job search experience. Your trust is our priority." />
+    <meta property="og:url" content="https://nextjob.today/privacy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://nextjob.today/images/NextJob-Header-Share.jpg" />
+    <meta property="twitter:image:alt" content="NextJob.Today" />
+
+    <link rel="alternate" href="https://nextjob.today/privacy" hreflang="en" />
+    <link rel="alternate" href="https://nextjob.today/privacy?lang=fr" hreflang="fr" />
+    <link rel="alternate" href="https://nextjob.today/privacy?lang=de" hreflang="de" />
+    <link rel="alternate" href="https://nextjob.today/privacy?lang=es" hreflang="es" />
+
+    <meta name="slack-app-id" content="A05DFM4P2TS" />
+
+</head>
+<body>
+    <header>
+        <div class="left">
+            <a class="logo" href="/" title="Experience the future of job searching with NextJob.Today.{{NEWLINE}}Our innovative platform streamlines your search, matching you with opportunities tailored to your skills and interests. Navigate your career path differently, start the conversation today.">
+                <picture>
+                    <source srcset='/images/jobtalks-logo.webp' type='image/webp'>
+                    <source srcset='/images/jobtalks-logo.jpg' type='image/jpeg'>
+                    <img loading="lazy" src="/images/jobtalks-logo.jpg" alt="NextJob Logo - a smilling robot after finding a job" height="45" width="45" />
+                </picture>
+                Next Job Today
+            </a>
+        </div>
+        <div class="right">
+            <details class="lang">
+                <summary class="icon">&#8801;</summary>
+                <div class="dvMenu">
+                    <ul class="menu">
+                        <li><a href="/articles" title="Job Search Related Articles">Articles</a></li>
+                        <li><a href="/pricing" title="Discover the ideal pricing plan for our Job Search ChatBot, empowering you to streamline your hiring process and find top talent efficiently. Choose from flexible options tailored to suit your organization&#x27;s needs and budget">Pricing</a></li>
+                        <li><a href="/faq/user" title="Looking for answers to your job search questions? Check out NextJob&#x27;s comprehensive FAQ page, providing expert guidance on finding your dream job, writing resumes, preparing for interviews, and more. Simplify your job search with NextJob&#x27;s user-friendly FAQ resource today!">FAQ</a></li>
+                        <li><a href="/integrations" title="Explore NextJob&#x27;s Integration Page to discover our extensive list of compatible platforms. Enhance your recruitment process with our job search chatbot seamlessly integrated with top HR tools.">Integrations</a></li>
+                        <li><a href="/contact" title="Contact us at NextJob.Today for support, queries, or feedback. We&#x27;re committed to enhancing your job/candidate search experience with our AI-powered platform. Let us help you navigate your career path or find the best candidate. Reach out today, and let&#x27;s start talking about your future.">Contact Us</a></li>
+                    </ul>
+                </div>
+            </details>
+            <details class="lang">
+                <summary>en</summary>
+                <div class="dvMenu">
+                    <ul class="menu">
+                        <li><a href="?lang=en" title="English">English</a></li>
+                        <li><a href="?lang=fr" title="Français">Français</a></li>
+                        <li><a href="?lang=de" title="Deutsch">Deutsch</a></li>
+                        <li><a href="?lang=es" title="español">Español</a></li>
+                    </ul>
+                </div>
+            </details>
+            <a href="/company/post-a-job" class="lang" title="Find and hire the world&#x27;s best talent with JobsTalk. Reach millions of skilled applicants ready to work on premise, hybrid or remotely. Boost your company&#x27;s growth and productivity by leveraging our platform to find dedicated, skilled professionals globally.">Post a Job</a>
+        </div>
+    </header>
+    <main>
+        
+<h1>Privacy Policy: Safeguarding Your Personal Information</h1>
+<p>At NextJob.Today, we're committed to protecting your privacy. Understand how we handle your personal data, maintain transparency, and ensure your information's safety as you navigate through the AI-powered job search experience. Your trust is our priority.</p>
+<div>
+    Effective Date: June 24, 2023
+<br />
+<br>
+This Privacy Policy governs the manner in which NextJob.Today ("we," "us," or "our") collects, uses, maintains, and discloses information collected from users (referred to as "you" or "your") of the NextJob.Today website ("Website"). This Privacy Policy applies to the Website and all products and services offered by Push.ai Gmbh, the company behind NextJob.Today, and is in compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR).
+<br />
+<br>
+<h2>Information we collect</h2>
+We may collect personal and non-personal information from you in various ways when you interact with our Website. This information may include, but is not limited to:
+<br />
+<br>
+<b>Personal information:</b>
+<br />
+- Your name
+<br />
+- Contact information (such as email address and phone number)
+<br />
+- Resume or CV details
+<br />
+- Employment history and qualifications
+<br />
+- Any other information you voluntarily provide through our forms or correspondence
+<br />
+<br />
+<b>Non-personal information:</b>
+<br />
+- Technical information about your device, browser, and operating system
+<br />
+- Internet Protocol (IP) address
+<br />
+- Website usage details (e.g., pages visited, time spent on each page)
+<br />
+- Cookies and similar technologies (see Section 4 for more details)
+<br />
+<br />
+<h2>How we use collected information</h2>
+We collect and use your information for the following purposes:
+<br />
+<br />
+<b>To provide and personalize our services:</b><br />
+- To process and respond to your inquiries, applications, or job-related requests<br />
+- To match you with suitable job opportunities based on your qualifications
+<br />
+- To communicate with you about job opportunities, updates, and promotions
+<br />
+- To improve our services and tailor them to your preferences
+<br />
+<br />
+<b>To improve our Website:</b>
+<br />
+- To analyze usage patterns and trends
+<br />
+- To monitor the effectiveness of our marketing campaigns
+<br />
+- To diagnose technical issues and ensure proper functionality
+<br />
+<br />
+<h2>How we protect your information</h2>
+We adopt appropriate data collection, storage, and processing practices, as well as security measures, to protect against unauthorized access, alteration, disclosure, or destruction of your personal information, username, password, transaction information, and data stored on our Website. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+
+<h2>Retention of Personal Information</h2>
+We want to assure you that we do not keep your personal information longer than necessary. As part of our data retention practices, we maintain your data for a period of three years from your last activity on our platform. If there has been no activity associated with your account for three consecutive years, we will securely delete your personal information from our systems.
+<br /><br />
+This retention period allows us to fulfill our commitment to provide you with a seamless user experience while ensuring that we only retain data that is relevant and necessary for our services. Rest assured, any personal information that is no longer required will be permanently and securely deleted from our records.
+<br /><br />
+We also want to emphasize that during this retention period, we continue to prioritize the security and protection of your personal information. Our robust security measures and strict access controls help safeguard your data against unauthorized access, alteration, or disclosure.
+<br /><br />
+please note that in compliance with Swiss laws, any user-related data linked to invoices will be retained for a period of 10 years. This is necessary to fulfill our legal obligations and ensure adherence to local regulatory requirements.
+
+<h2>Use of cookies and similar technologies</h2>
+Our Website may use cookies and similar technologies to enhance your user experience. Cookies are small text files that are placed on your device when you visit certain websites. They help us analyze web traffic, remember your preferences, and improve the overall user experience. By using our Website, you consent to the use of cookies and similar technologies.
+
+<h2>Sharing your personal information</h2>
+We do not sell, trade, or rent your personal information to third parties. However, we may share your information with trusted third-party service providers who assist us in operating our Website and conducting our business, such as hosting providers, analytics providers, and communication tools. These third parties are bound by confidentiality obligations and are prohibited from using your personal information for any other purpose.
+
+<h2>International data transfers</h2>
+As a user of our Website, you understand and consent to the transfer, storage, and processing of your personal information to and within Switzerland and other countries where our service providers are located. We will take all reasonable steps necessary to ensure that your information is treated securely and in accordance with this Privacy Policy.
+
+<h2>Your rights</h2>
+You have the right to access, correct, or delete your personal information held by us. You may also withdraw your consent for certain data processing activities or object to the processing of your personal information under certain circumstances. To exercise these rights or if you have any questions or concerns about our privacy practices, please contact us using the information provided in Section 8.
+
+<h2>Contact us</h2>
+If you have any questions or concerns regarding this Privacy Policy or our data processing practices, please contact us at:
+
+Push.ai Gmbh
+<br />
+Address: Poststrasse 6, 6300 Zug, Switzerland
+<br />
+Email: support@NextJob.Today
+<br />
+<br />
+<h2>Changes to this Privacy Policy</h2>
+We reserve the right to update or modify this Privacy Policy at any time, and such changes will be effective immediately upon posting on the Website. We encourage you to periodically review this page for the latest information on our privacy practices.
+<br />
+<br />
+By using the NextJob.Today Website, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use our Website
+</div>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://nextjob.today/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Privacy Policy",
+        "item": "https://nextjob.today/privacy"
+      }]
+    }
+</script>
+    </main>
+    
+    <footer>
+        &copy; 2024 - Push.ai gmbh - <a href="/privacy" title="At NextJob.Today, we&#x27;re committed to protecting your privacy. Understand how we handle your personal data, maintain transparency, and ensure your information&#x27;s safety as you navigate through the AI-powered job search experience. Your trust is our priority.">Privacy Policy</a>
+        - <a href="/terms" title="Understand your rights and responsibilities with NextJob&#x27;s comprehensive Terms &amp; Conditions. Learn about our user policies, data privacy, content usage, and more for a secure job search experience">Terms</a>
+        - <a href="/contact" title="Contact us at NextJob.Today for support, queries, or feedback. We&#x27;re committed to enhancing your job/candidate search experience with our AI-powered platform. Let us help you navigate your career path or find the best candidate. Reach out today, and let&#x27;s start talking about your future.">Contact Us</a>
+    </footer>
+    
+    
+</body>
+</html>

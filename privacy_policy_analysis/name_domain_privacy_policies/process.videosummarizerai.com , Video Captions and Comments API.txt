@@ -1,0 +1,563 @@
+<!DOCTYPE html><html lang="en-IE"><head><link rel="icon" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:16,h:16,m" sizes="16x16"/><link rel="icon" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:24,h:24,m" sizes="24x24"/><link rel="icon" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:32,h:32,m" sizes="32x32"/><link rel="icon" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:48,h:48,m" sizes="48x48"/><link rel="icon" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:64,h:64,m" sizes="64x64"/><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Video Summarizer AI</title><meta name="author" content="Video Summarizer AI"/><meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 8.0.0000"/><link rel="manifest" href="/manifest.webmanifest"/><link rel="apple-touch-icon" sizes="57x57" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:57,h:57,m"/><link rel="apple-touch-icon" sizes="60x60" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:60,h:60,m"/><link rel="apple-touch-icon" sizes="72x72" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:72,h:72,m"/><link rel="apple-touch-icon" sizes="114x114" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:114,h:114,m"/><link rel="apple-touch-icon" sizes="120x120" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:120,h:120,m"/><link rel="apple-touch-icon" sizes="144x144" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:144,h:144,m"/><link rel="apple-touch-icon" sizes="152x152" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:152,h:152,m"/><link rel="apple-touch-icon" sizes="180x180" href="//img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/favicon/ad01932a-efde-49f3-9b2d-ea40f0a441bd.png/:/rs=w:180,h:180,m"/><meta property="og:url" content="https://videosummarizerai.com/privacy-policy"/>
+<meta property="og:site_name" content="Video Summarizer AI"/>
+<meta property="og:title" content="Video Summarizer AI"/>
+<meta property="og:description" content="Generate educational summaries from lengthy YouTube videos in your language.
+"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/video_summary_ai_logo_enhanced_size.jpg"/>
+<meta property="og:locale" content="en_IE"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Video Summarizer AI"/>
+<meta name="twitter:description" content="Video Summarizer "/>
+<meta name="twitter:image" content="https://img1.wsimg.com/isteam/ip/fac3788f-4714-4318-ae9f-2664593f460d/video_summary_ai_logo_enhanced_size.jpg"/>
+<meta name="twitter:image:alt" content="Video Summarizer AI"/>
+<meta name="theme-color" content="#FFFFFF"/><style data-inline-fonts>/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidh18Smxg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidg18Smxg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidv18Smxg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidj18Smxg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidi18Smxg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJT9g.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJT9g.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJT9g.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJT9g.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJT9g.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdh18Smxg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdo18Smxg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdg18Smxg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdv18Smxg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdj18Smxg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18Smxg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://img1.wsimg.com/gfonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><style>.x{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);margin:0;box-sizing:border-box}.x *,.x :after,.x :before{box-sizing:inherit}.x-el a[href^="mailto:"]:not(.x-el),.x-el a[href^="tel:"]:not(.x-el){color:inherit;font-size:inherit;text-decoration:inherit}.x-el-article,.x-el-aside,.x-el-details,.x-el-figcaption,.x-el-figure,.x-el-footer,.x-el-header,.x-el-hgroup,.x-el-main,.x-el-menu,.x-el-nav,.x-el-section,.x-el-summary{display:block}.x-el-audio,.x-el-canvas,.x-el-progress,.x-el-video{display:inline-block;vertical-align:baseline}.x-el-audio:not([controls]){display:none;height:0}.x-el-template{display:none}.x-el-a{background-color:transparent;color:inherit}.x-el-a:active,.x-el-a:hover{outline:0}.x-el-abbr[title]{border-bottom:1px dotted}.x-el-b,.x-el-strong{font-weight:700}.x-el-dfn{font-style:italic}.x-el-mark{background:#ff0;color:#000}.x-el-small{font-size:80%}.x-el-sub,.x-el-sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.x-el-sup{top:-.5em}.x-el-sub{bottom:-.25em}.x-el-img{vertical-align:middle;border:0}.x-el-svg:not(:root){overflow:hidden}.x-el-figure{margin:0}.x-el-hr{box-sizing:content-box;height:0}.x-el-pre{overflow:auto}.x-el-code,.x-el-kbd,.x-el-pre,.x-el-samp{font-family:monospace,monospace;font-size:1em}.x-el-button,.x-el-input,.x-el-optgroup,.x-el-select,.x-el-textarea{color:inherit;font:inherit;margin:0}.x-el-button{overflow:visible}.x-el-button,.x-el-select{text-transform:none}.x-el-button,.x-el-input[type=button],.x-el-input[type=reset],.x-el-input[type=submit]{-webkit-appearance:button;cursor:pointer}.x-el-button[disabled],.x-el-input[disabled]{cursor:default}.x-el-button::-moz-focus-inner,.x-el-input::-moz-focus-inner{border:0;padding:0}.x-el-input{line-height:normal}.x-el-input[type=checkbox],.x-el-input[type=radio]{box-sizing:border-box;padding:0}.x-el-input[type=number]::-webkit-inner-spin-button,.x-el-input[type=number]::-webkit-outer-spin-button{height:auto}.x-el-input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}.x-el-input[type=search]::-webkit-search-cancel-button,.x-el-input[type=search]::-webkit-search-decoration{-webkit-appearance:none}.x-el-textarea{border:0}.x-el-fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}.x-el-legend{border:0;padding:0}.x-el-textarea{overflow:auto}.x-el-optgroup{font-weight:700}.x-el-table{border-collapse:collapse;border-spacing:0}.x-el-td,.x-el-th{padding:0}.x{-webkit-font-smoothing:antialiased}.x-el-hr{border:0}.x-el-fieldset,.x-el-input,.x-el-select,.x-el-textarea{margin-top:0;margin-bottom:0}.x-el-fieldset,.x-el-input[type=email],.x-el-input[type=text],.x-el-textarea{width:100%}.x-el-label{vertical-align:middle}.x-el-input{border-style:none;padding:.5em;vertical-align:middle}.x-el-select:not([multiple]){vertical-align:middle}.x-el-textarea{line-height:1.75;padding:.5em}.x-el.d-none{display:none!important}.sideline-footer{margin-top:auto}.disable-scroll{touch-action:none;overflow:hidden;position:fixed;max-width:100vw}@-webkit-keyframes loaderscale{0%{transform:scale(1);opacity:1}45%{transform:scale(.1);opacity:.7}80%{transform:scale(1);opacity:1}}@keyframes loaderscale{0%{transform:scale(1);opacity:1}45%{transform:scale(.1);opacity:.7}80%{transform:scale(1);opacity:1}}.x-loader svg{display:inline-block}.x-loader svg:first-child{-webkit-animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) -.24s infinite;animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) -.24s infinite}.x-loader svg:nth-child(2){-webkit-animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) -.12s infinite;animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) -.12s infinite}.x-loader svg:nth-child(3){-webkit-animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) 0s infinite;animation:loaderscale .75s cubic-bezier(.2,.68,.18,1.08) 0s infinite}.x-icon>svg{transition:transform .33s ease-in-out}.x-icon>svg.rotate-90{transform:rotate(-90deg)}.x-icon>svg.rotate90{transform:rotate(90deg)}.x-icon>svg.rotate-180{transform:rotate(-180deg)}.x-icon>svg.rotate180{transform:rotate(180deg)}.x-rt ol,.x-rt ul{text-align:left}.x-rt p{margin:0}.mte-inline-block{display:inline-block}@media only screen and (min-device-width:1025px){:root select,_::-webkit-full-page-media,_:future{font-family:sans-serif!important}}
+
+</style>
+<style>/*
+Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+—————————————————————————————-
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+—————————————————————————————-
+*/
+
+/*
+Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name Source.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+—————————————————————————————-
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+—————————————————————————————-
+*/
+</style>
+<style data-glamor="cxs-default-sheet">.x .c1-1{letter-spacing:normal}.x .c1-2{text-transform:none}.x .c1-3{background-color:rgb(255, 255, 255)}.x .c1-4{width:100%}.x .c1-5 > div{position:relative}.x .c1-6 > div{overflow:hidden}.x .c1-7 > div{margin-top:auto}.x .c1-8 > div{margin-right:auto}.x .c1-9 > div{margin-bottom:auto}.x .c1-a > div{margin-left:auto}.x .c1-b{font-family:'Source Sans Pro', arial, sans-serif}.x .c1-c{font-size:16px}.x .c1-h{padding-top:56px}.x .c1-i{padding-bottom:56px}.x .c1-j{overflow:visible}.x .c1-k{padding:0px !important}.x .c1-n{z-index:3}.x .c1-o .sticky-animate{background-color:rgba(255, 255, 255, 0.9)}.x .c1-p .sticky-animate hr{opacity:0 !important}.x .c1-q{transition:background .3s}.x .c1-r{position:relative}.x .c1-s{padding-top:24px}.x .c1-t{padding-bottom:24px}.x .c1-u{padding-left:24px}.x .c1-v{padding-right:24px}.x .c1-w{background-color:rgba(255, 255, 255, 0.25)}.x .c1-x{z-index:auto}.x .c1-12{align-items:center}.x .c1-13{flex-wrap:nowrap}.x .c1-14{display:flex}.x .c1-15{margin-top:0px}.x .c1-16{margin-right:0px}.x .c1-17{margin-bottom:0px}.x .c1-18{margin-left:0px}.x .c1-19{[object -object]:0px}.x .c1-1b{width:30%}.x .c1-1c{padding-right:0px}.x .c1-1d{padding-left:0px}.x .c1-1e{letter-spacing:inherit}.x .c1-1f{text-transform:inherit}.x .c1-1g{text-decoration:none}.x .c1-1h{word-wrap:break-word}.x .c1-1i{overflow-wrap:break-word}.x .c1-1j{cursor:pointer}.x .c1-1k{justify-content:flex-start}.x .c1-1l{border-top:0px}.x .c1-1m{border-right:0px}.x .c1-1n{border-bottom:0px}.x .c1-1o{border-left:0px}.x .c1-1p{color:rgb(27, 27, 27)}.x .c1-1q{font-weight:inherit}.x .c1-1r:hover{color:rgb(143, 110, 110)}.x .c1-1s:active{color:rgb(48, 48, 48)}.x .c1-1t{color:inherit}.x .c1-1u{display:inline-block}.x .c1-1v{vertical-align:top}.x .c1-1w{padding-top:6px}.x .c1-1x{padding-right:6px}.x .c1-1y{padding-bottom:6px}.x .c1-1z{padding-left:6px}.x .c1-20{width:70%}.x .c1-21{text-align:left}.x .c1-22{padding-left:8px}.x .c1-23{padding-right:8px}.x .c1-24{justify-content:flex-end}.x .c1-25{line-height:0}.x .c1-28{margin-left:auto}.x .c1-29{margin-right:auto}.x .c1-2a{max-width:100%}.x .c1-2b{display:none}.x .c1-2c{padding-top:0px}.x .c1-2d{padding-bottom:0px}.x .c1-2f{min-width:100%}.x .c1-2g{flex-basis:auto}.x .c1-2h{justify-content:space-between}.x .c1-2i{padding-top:5px}.x .c1-2j{line-height:24px}.x .c1-2k{-webkit-margin-before:0}.x .c1-2l{-webkit-margin-after:0}.x .c1-2m{-webkit-padding-start:0}.x .c1-2n{color:rgb(94, 94, 94)}.x .c1-2o{margin-bottom:none}.x .c1-2p{list-style:none}.x .c1-2q{padding-left:32px}.x .c1-2r{white-space:nowrap}.x .c1-2s{visibility:hidden}.x .c1-2t:first-child{margin-left:0}.x .c1-2u:first-child{padding-left:0}.x .c1-2v{letter-spacing:0.071em}.x .c1-2w{text-transform:uppercase}.x .c1-2x{display:block}.x .c1-2y{margin-left:-6px}.x .c1-2z{margin-right:-6px}.x .c1-30{margin-top:-6px}.x .c1-31{margin-bottom:-6px}.x .c1-32{font-size:14px}.x .c1-33{font-weight:400}.x .c1-34:hover{color:rgb(27, 27, 27)}.x .c1-35:active{color:rgb(27, 27, 27)}.x .c1-3a{font-weight:700}.x .c1-3b{transition:transform .33s ease-in-out}.x .c1-3c{transform:rotate(0deg)}.x .c1-3d{vertical-align:middle}.x .c1-3e{border-radius:4px}.x .c1-3f{box-shadow:0 3px 6px 3px rgba(0,0,0,0.24)}.x .c1-3g{padding-top:16px}.x .c1-3h{padding-bottom:16px}.x .c1-3i{padding-left:16px}.x .c1-3j{padding-right:16px}.x .c1-3k{position:absolute}.x .c1-3l{right:0px}.x .c1-3m{top:32px}.x .c1-3n{max-height:45vh}.x .c1-3o{overflow-y:auto}.x .c1-3p{z-index:1003}.x .c1-3s:last-child{margin-bottom:0}.x .c1-3t{margin-top:8px}.x .c1-3u{margin-bottom:8px}.x .c1-3v{line-height:1.5}.x .c1-3w{display:inline}.x .c1-3x{transition:}.x .c1-3y{transform:}.x .c1-3z{top:initial}.x .c1-40{max-height:none}.x .c1-41{width:240px}.x .c1-42{color:inherit !important}.x .c1-43{margin-bottom:16px}.x .c1-44{padding-top:8px}.x .c1-45{padding-bottom:8px}.x .c1-46{border-color:rgb(226, 226, 226)}.x .c1-47{border-bottom-width:1px}.x .c1-48{border-style:solid}.x .c1-49{margin-top:16px}.x .c1-4a dropdown{position:absolute}.x .c1-4b dropdown{right:0px}.x .c1-4c dropdown{top:initial}.x .c1-4d dropdown{white-space:nowrap}.x .c1-4e dropdown{max-height:none}.x .c1-4f dropdown{overflow-y:auto}.x .c1-4g dropdown{display:none}.x .c1-4h dropdown{z-index:1003}.x .c1-4i dropdown{width:240px}.x .c1-4l listItem{display:block}.x .c1-4m listItem{text-align:left}.x .c1-4n listItem{margin-bottom:0}.x .c1-4o separator{margin-top:16px}.x .c1-4p separator{margin-bottom:16px}.x .c1-4q{background-color:rgb(22, 22, 22)}.x .c1-4r{position:fixed}.x .c1-4s{top:0px}.x .c1-4t{height:100%}.x .c1-4u{z-index:10002}.x .c1-4v{-webkit-overflow-scrolling:touch}.x .c1-4w{transform:translateX(-249vw)}.x .c1-4x{overscroll-behavior:contain}.x .c1-4y{box-shadow:0 2px 6px 0px rgba(0,0,0,0.2)}.x .c1-4z{transition:transform .3s ease-in-out}.x .c1-50{overflow:hidden}.x .c1-51{flex-direction:column}.x .c1-52{padding-bottom:32px}.x .c1-57{text-shadow:none}.x .c1-58{color:rgb(164, 164, 164)}.x .c1-59{color:rgb(247, 247, 247)}.x .c1-5a{line-height:1.3em}.x .c1-5b{font-style:normal}.x .c1-5c{top:15px}.x .c1-5d{right:15px}.x .c1-5e{font-size:28px}.x .c1-5f:hover{color:rgb(255, 255, 255)}.x .c1-5k{overflow-x:hidden}.x .c1-5l{overscroll-behavior:none}.x .c1-5m{border-color:rgba(76, 76, 76, 0.5)}.x .c1-5n{border-bottom-width:1px}.x .c1-5o{border-bottom-style:solid}.x .c1-5p:last-child{border-bottom:0}.x .c1-5q{min-width:200px}.x .c1-5r{font-size:22px}.x .c1-5s:hover{color:rgb(198, 198, 198)}.x .c1-5t:active{color:rgb(255, 255, 255)}.x .c1-5z{cursor:auto}.x .c1-60{border-color:rgb(42, 42, 42)}.x .c1-61{border-color:rgba(0, 0, 0, 0.3)}.x .c1-67{line-height:1.2}.x .c1-68{margin-bottom:40px}.x .c1-69{text-align:center}.x .c1-6a{font-family:'Playfair Display', Georgia, serif}.x .c1-6b{font-size:40px}.x .c1-6i{font-size:unset}.x .c1-6j{font-family:unset}.x .c1-6k{letter-spacing:unset}.x .c1-6l{text-transform:unset}.x .c1-6m{line-height:0px}.x .c1-6n{border-bottom-width:2px}.x .c1-6o{margin-top:24px}.x .c1-6p{width:50px}.x .c1-6q{box-sizing:border-box}.x .c1-6r{flex-direction:row}.x .c1-6s{flex-wrap:wrap}.x .c1-6t{margin-right:-12px}.x .c1-6u{margin-bottom:-24px}.x .c1-6v{margin-left:-12px}.x .c1-70{flex-grow:1}.x .c1-71{flex-shrink:1}.x .c1-72{flex-basis:0%}.x .c1-73{padding-right:12px}.x .c1-74{padding-left:12px}.x .c1-7f{font-size:inherit !important}.x .c1-7g{line-height:inherit}.x .c1-7h{font-style:italic}.x .c1-7i{text-decoration:line-through}.x .c1-7j{text-decoration:underline}.x .c1-7k{color:rgb(143, 110, 110)}.x .c1-7l:hover{color:rgb(71, 71, 71)}.x .c1-7n{flex-basis:100%}.x .c1-7q{color:rgb(89, 89, 89)}.x .c1-7r{right:0px}.x .c1-7s{z-index:10000}.x .c1-7t{height:auto}.x .c1-7u{border-radius:0px}.x .c1-7v{transition:all 1s ease-in}.x .c1-7w{box-shadow:0 2px 6px 0px rgba(0,0,0,0.3)}.x .c1-7x{contain:content}.x .c1-7y{bottom:-500px}.x .c1-86{line-height:1.25}.x .c1-87{max-height:300px}.x .c1-89{justify-content:center}.x .c1-8a{margin-bottom:4px}.x .c1-8b{word-break:break-word}.x .c1-8c{flex-basis:50%}.x .c1-8d{border-style:none}.x .c1-8e{padding-top:4px}.x .c1-8f{padding-bottom:4px}.x .c1-8g{min-height:40px}.x .c1-8h{border-radius:48px}.x .c1-8i{color:rgb(255, 255, 255)}.x .c1-8j{background-color:rgb(0, 0, 0)}.x .c1-8k{font-size:12px}.x .c1-8l:nth-child(2){margin-left:24px}.x .c1-8m:hover{background-color:rgb(38, 38, 38)}</style>
+<style data-glamor="cxs-xs-sheet">@media (max-width: 767px){.x .c1-l{padding-top:40px}}@media (max-width: 767px){.x .c1-m{padding-bottom:40px}}@media (max-width: 767px){.x .c1-7m{padding-bottom:32px}}</style>
+<style data-glamor="cxs-sm-sheet">@media (min-width: 768px){.x .c1-d{font-size:16px}}@media (min-width: 768px){.x .c1-36{font-size:14px}}@media (min-width: 768px) and (max-width: 1023px){.x .c1-3r{right:0px}}@media (min-width: 768px) and (max-width: 1023px){.x .c1-4k dropdown{right:0px}}@media (min-width: 768px){.x .c1-53{width:100%}}@media (min-width: 768px){.x .c1-5g{font-size:30px}}@media (min-width: 768px){.x .c1-5u{font-size:22px}}@media (min-width: 768px){.x .c1-6c{font-size:48px}}@media (min-width: 768px){.x .c1-6w{margin-top:0}}@media (min-width: 768px){.x .c1-6x{margin-right:-24px}}@media (min-width: 768px){.x .c1-6y{margin-bottom:-48px}}@media (min-width: 768px){.x .c1-6z{margin-left:-24px}}@media (min-width: 768px){.x .c1-75{margin-left:8.333333333333332%}}@media (min-width: 768px){.x .c1-76{flex-basis:83.33333333333334%}}@media (min-width: 768px){.x .c1-77{max-width:83.33333333333334%}}@media (min-width: 768px){.x .c1-78{padding-top:0}}@media (min-width: 768px){.x .c1-79{padding-right:24px}}@media (min-width: 768px){.x .c1-7a{padding-bottom:48px}}@media (min-width: 768px){.x .c1-7b{padding-left:24px}}@media (min-width: 768px){.x .c1-7z{width:400px}}@media (min-width: 768px){.x .c1-80{max-height:500px}}@media (min-width: 768px){.x .c1-81{border-radius:7px}}@media (min-width: 768px){.x .c1-82{margin-top:24px}}@media (min-width: 768px){.x .c1-83{margin-right:24px}}@media (min-width: 768px){.x .c1-84{margin-bottom:24px}}@media (min-width: 768px){.x .c1-85{margin-left:24px}}@media (min-width: 768px){.x .c1-88{max-height:200px}}@media (min-width: 768px){.x .c1-8n{width:auto}}@media (min-width: 768px){.x .c1-8o{font-size:12px}}</style>
+<style data-glamor="cxs-md-sheet">@media (min-width: 1024px){.x .c1-e{font-size:16px}}@media (min-width: 1024px){.x .c1-y{padding-top:16px}}@media (min-width: 1024px){.x .c1-z{padding-bottom:16px}}@media (min-width: 1024px){.x .c1-10{padding-left:24px}}@media (min-width: 1024px){.x .c1-11{padding-right:24px}}@media (min-width: 1024px){.x .c1-1a{display:none}}@media (min-width: 1024px){.x .c1-26 > :first-child{margin-left:24px}}@media (min-width: 1024px){.x .c1-27{justify-content:inherit}}@media (min-width: 1024px){.x .c1-2e{display:flex}}@media (min-width: 1024px){.x .c1-37{font-size:14px}}@media (min-width: 1024px) and (max-width: 1279px){.x .c1-3q{right:0px}}@media (min-width: 1024px) and (max-width: 1279px){.x .c1-4j dropdown{right:0px}}@media (min-width: 1024px){.x .c1-54{width:984px}}@media (min-width: 1024px){.x .c1-5h{font-size:30px}}@media (min-width: 1024px){.x .c1-5v{min-width:300px}}@media (min-width: 1024px){.x .c1-5w{font-size:22px}}@media (min-width: 1024px){.x .c1-62{margin-top:0px}}@media (min-width: 1024px){.x .c1-63{margin-bottom:0px}}@media (min-width: 1024px){.x .c1-64{margin-left:24px}}@media (min-width: 1024px){.x .c1-65{margin-right:24px}}@media (min-width: 1024px){.x .c1-66{width:auto}}@media (min-width: 1024px){.x .c1-6d{text-align:center}}@media (min-width: 1024px){.x .c1-6e{margin-left:auto}}@media (min-width: 1024px){.x .c1-6f{font-size:48px}}@media (min-width: 1024px){.x .c1-7c{margin-left:16.666666666666664%}}@media (min-width: 1024px){.x .c1-7d{flex-basis:66.66666666666666%}}@media (min-width: 1024px){.x .c1-7e{max-width:66.66666666666666%}}@media (min-width: 1024px){.x .c1-7o{flex-basis:0%}}@media (min-width: 1024px){.x .c1-7p{max-width:none}}@media (min-width: 1024px){.x .c1-8p{font-size:12px}}</style>
+<style data-glamor="cxs-lg-sheet">@media (min-width: 1280px){.x .c1-f{font-size:16px}}@media (min-width: 1280px){.x .c1-38{font-size:14px}}@media (min-width: 1280px){.x .c1-55{width:1160px}}@media (min-width: 1280px){.x .c1-5i{font-size:32px}}@media (min-width: 1280px){.x .c1-5x{font-size:22px}}@media (min-width: 1280px){.x .c1-6g{font-size:62px}}@media (min-width: 1280px){.x .c1-8q{font-size:12px}}</style>
+<style data-glamor="cxs-xl-sheet">@media (min-width: 1536px){.x .c1-g{font-size:18px}}@media (min-width: 1536px){.x .c1-39{font-size:16px}}@media (min-width: 1536px){.x .c1-56{width:1280px}}@media (min-width: 1536px){.x .c1-5j{font-size:36px}}@media (min-width: 1536px){.x .c1-5y{font-size:24px}}@media (min-width: 1536px){.x .c1-6h{font-size:64px}}@media (min-width: 1536px){.x .c1-8r{font-size:14px}}</style>
+<style>@keyframes opacity-bounce { 
+      0% {opacity: 0;transform: translateY(100%); } 
+      60% { transform: translateY(-20%); } 
+      100% { opacity: 1; transform: translateY(0); }
+    }</style>
+<style>.gd-ad-flex-parent {
+          animation-name: opacity-bounce; 
+          animation-duration: 800ms; 
+          animation-delay: 400ms; 
+          animation-fill-mode: forwards; 
+          animation-timing-function: ease; 
+          opacity: 0;</style>
+<style>.page-inner { background-color: rgb(255, 255, 255); min-height: 100vh; }</style>
+<script>"use strict";
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}</script></head>
+<body class="x  x-fonts-playfair-display x-fonts-source-sans-pro"><div id="layout-fac-3788-f-4714-4318-ae-9-f-2664593-f-460-d" class="layout layout-layout layout-layout-layout-13 locale-en-IE lang-en"><div data-ux="Page" id="page-102942" class="x-el x-el-div x-el c1-1 c1-2 c1-3 c1-4 c1-5 c1-6 c1-7 c1-8 c1-9 c1-a c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div page-inner c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div id="4e56676e-c979-4512-be68-6e1b125e144c" class="widget widget-header widget-header-header-9"><div data-ux="Header" role="main" data-aid="HEADER_WIDGET" id="n-102943" class="x-el x-el-div x-el x-el c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-3 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div> <div id="freemium-ad-102944"></div><section data-ux="Section" data-aid="HEADER_SECTION" class="x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-j c1-k c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-n c1-4 c1-3 c1-b c1-c c1-d c1-e c1-f c1-g"><div id="header_stickynav-anchor102946"></div><div data-ux="Block" data-stickynav-wrapper="true" class="x-el x-el-div c1-1 c1-2 c1-o c1-p c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" data-stickynav="true" id="header_stickynav102945" class="x-el x-el-div c1-1 c1-2 c1-q c1-3 c1-b c1-c c1-d c1-e c1-f c1-g"><nav data-ux="Block" class="x-el x-el-nav c1-1 c1-2 c1-r c1-s c1-t c1-u c1-v c1-w c1-x c1-b c1-c c1-d c1-y c1-z c1-10 c1-11 c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-12 c1-13 c1-4 c1-14 c1-15 c1-16 c1-17 c1-18 c1-19 c1-b c1-c c1-d c1-1a c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-1b c1-1c c1-1d c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Element" id="bs-1" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><a rel="" role="button" aria-haspopup="menu" data-ux="LinkDropdown" data-toggle-ignore="true" id="102947" aria-expanded="false" toggleId="n-102943-navId-mobile" icon="hamburger" data-edit-interactive="true" data-aid="HAMBURGER_MENU_LINK" aria-label="Hamburger Site Navigation Icon" href="#" data-typography="LinkAlpha" class="x-el x-el-a c1-1e c1-1f c1-1g c1-1h c1-1i c1-14 c1-1j c1-12 c1-1k c1-1l c1-1m c1-1n c1-1o c1-1p c1-b c1-c c1-1q c1-1r c1-1s c1-d c1-1a c1-e c1-f c1-g" data-tccl="ux2.HEADER.header9.Section.Default.Link.Dropdown.102948.click,click"><svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="IconHamburger" class="x-el x-el-svg c1-1 c1-2 c1-1t c1-1u c1-1v c1-1w c1-1x c1-1y c1-1z c1-b c1-c c1-d c1-e c1-f c1-g"><path fill-rule="evenodd" d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z"></path></svg></a></div></div><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-20 c1-21 c1-1k c1-1i c1-22 c1-23 c1-b c1-c c1-d c1-e c1-f c1-g"></div><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-1b c1-1c c1-1d c1-14 c1-24 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="UtilitiesMenu" id="membership1102949-utility-menu" class="x-el x-el-div c1-1 c1-2 c1-14 c1-12 c1-25 c1-b c1-c c1-24 c1-d c1-26 c1-27 c1-e c1-f c1-g"></div></div></div><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" id="navBarId-102951" class="x-el x-el-div c1-1 c1-2 c1-2b c1-1k c1-12 c1-13 c1-2c c1-2d c1-b c1-c c1-d c1-2e c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-2f c1-12 c1-2g c1-2h c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-r c1-2i c1-b c1-c c1-d c1-e c1-f c1-g"><nav data-ux="Nav" data-aid="HEADER_NAV_RENDERED" role="navigation" class="x-el x-el-nav c1-1 c1-2 c1-2a c1-2j c1-b c1-c c1-d c1-e c1-f c1-g"><ul data-ux="List" id="nav-102952" class="x-el x-el-ul c1-1 c1-2 c1-15 c1-17 c1-18 c1-16 c1-2k c1-2l c1-2m c1-r c1-2c c1-1c c1-2d c1-1d c1-b c1-c c1-d c1-e c1-f c1-g"><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavLink" target="" data-page="c54cdd81-8010-42ca-9070-a11f52911ae7" data-edit-interactive="true" href="/video-summarizer-ai" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-2x c1-1j c1-2y c1-2z c1-30 c1-31 c1-1z c1-1x c1-1w c1-1y c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Default.102954.click,click">Video Summarizer AI</a></li><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavLink" target="" data-page="df4ed67c-322c-454d-ab8e-4bb036d5a9eb" data-edit-interactive="true" href="/our-blog" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-2x c1-1j c1-2y c1-2z c1-30 c1-31 c1-1z c1-1x c1-1w c1-1y c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Default.102955.click,click">Our Blog</a></li><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavLinkActive" target="" data-page="7602ea25-5ea9-422a-8b1b-981d13ced8cb" data-edit-interactive="true" href="/privacy-policy" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-2x c1-1j c1-b c1-1p c1-32 c1-3a c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Active.102956.click,click">Privacy Policy</a></li><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavLink" target="" data-page="e737716f-8d68-4288-80a4-6ac59e8951e2" data-edit-interactive="true" href="/terms-of-service" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-2x c1-1j c1-2y c1-2z c1-30 c1-31 c1-1z c1-1x c1-1w c1-1y c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Default.102957.click,click">Terms of Service</a></li><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavLink" target="" data-page="8f25b9e3-af37-435d-9bea-3ed00994b83e" data-edit-interactive="true" href="/blog-about-writing-pads" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-2x c1-1j c1-2y c1-2z c1-30 c1-31 c1-1z c1-1x c1-1w c1-1y c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Default.102958.click,click">Blog about writing pads</a></li><li data-ux="ListItemInline" class="x-el x-el-li nav-item c1-1 c1-2 c1-2n c1-18 c1-2o c1-1u c1-2p c1-1v c1-2q c1-2r c1-r c1-2s c1-b c1-c c1-2t c1-2u c1-d c1-e c1-f c1-g"><div data-ux="Element" id="bs-2" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><a rel="" role="button" aria-haspopup="menu" data-ux="NavLinkDropdown" data-toggle-ignore="true" id="102959" aria-expanded="false" data-aid="NAV_MORE" data-edit-interactive="true" href="#" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-14 c1-1j c1-12 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.Default.Link.Dropdown.102960.click,click"><div style="pointer-events:none;display:flex;align-items:center" data-aid="NAV_MORE"><span style="margin-right:4px">More</span><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" data-ux="Icon" class="x-el x-el-svg c1-1 c1-2 c1-1t c1-1u c1-3b c1-3c c1-3d c1-r c1-1j c1-b c1-32 c1-36 c1-37 c1-38 c1-39"><path fill-rule="evenodd" d="M19.774 7.86c.294-.335.04-.839-.423-.84L4.538 7c-.447-.001-.698.48-.425.81l7.204 8.693a.56.56 0 0 0 .836.011l7.621-8.654z"></path></svg></div></a></div><ul data-ux="Dropdown" role="menu" id="more-102953" class="x-el x-el-ul c1-1 c1-2 c1-3e c1-3f c1-3 c1-3g c1-3h c1-3i c1-3j c1-3k c1-3l c1-3m c1-2r c1-3n c1-3o c1-2b c1-3p c1-b c1-c c1-3q c1-3r c1-d c1-e c1-f c1-g"><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavMoreMenuLink" target="" data-page="c54cdd81-8010-42ca-9070-a11f52911ae7" data-edit-interactive="true" aria-labelledby="more-102953" href="/video-summarizer-ai" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-1u c1-1j c1-3t c1-3u c1-3v c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.MoreMenu.Link.Default.102961.click,click">Video Summarizer AI</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavMoreMenuLink" target="" data-page="df4ed67c-322c-454d-ab8e-4bb036d5a9eb" data-edit-interactive="true" aria-labelledby="more-102953" href="/our-blog" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-1u c1-1j c1-3t c1-3u c1-3v c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.MoreMenu.Link.Default.102962.click,click">Our Blog</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavMoreMenuLinkActive" target="" data-page="7602ea25-5ea9-422a-8b1b-981d13ced8cb" data-edit-interactive="true" aria-labelledby="more-102953" href="/privacy-policy" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-1u c1-1j c1-3t c1-3u c1-3v c1-b c1-1p c1-32 c1-3a c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.MoreMenu.Link.Active.102963.click,click">Privacy Policy</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavMoreMenuLink" target="" data-page="e737716f-8d68-4288-80a4-6ac59e8951e2" data-edit-interactive="true" aria-labelledby="more-102953" href="/terms-of-service" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-1u c1-1j c1-3t c1-3u c1-3v c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.MoreMenu.Link.Default.102964.click,click">Terms of Service</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavMoreMenuLink" target="" data-page="8f25b9e3-af37-435d-9bea-3ed00994b83e" data-edit-interactive="true" aria-labelledby="more-102953" href="/blog-about-writing-pads" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-1u c1-1j c1-3t c1-3u c1-3v c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.Nav.MoreMenu.Link.Default.102965.click,click">Blog about writing pads</a></li></ul></li></ul></nav></div><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-r c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="UtilitiesMenu" id="n-102943102966-utility-menu" class="x-el x-el-div c1-1 c1-2 c1-14 c1-12 c1-25 c1-b c1-c c1-24 c1-d c1-26 c1-27 c1-e c1-f c1-g"><span data-ux="Element" id="n-102943102966-membership-icon" class="x-el x-el-span c1-1 c1-2 c1-r c1-14 c1-1j c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-12 c1-b c1-c c1-d c1-e c1-f c1-g"><span data-ux="Element" class="x-el x-el-span membership-icon-logged-out c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Element" id="bs-3" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><a rel="" role="button" aria-haspopup="menu" data-ux="UtilitiesMenuLink" data-toggle-ignore="true" id="102967" aria-expanded="false" data-aid="MEMBERSHIP_ICON_DESKTOP_RENDERED" data-edit-interactive="true" href="#" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Default.Link.Dropdown.102968.click,click"><div style="pointer-events:auto;display:flex;align-items:center" data-aid="MEMBERSHIP_ICON_DESKTOP_RENDERED"><svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="UtilitiesMenuIcon" data-typography="NavAlpha" class="x-el x-el-svg c1-2v c1-2w c1-1t c1-1u c1-3x c1-3y c1-3d c1-1w c1-1x c1-1y c1-1z c1-25 c1-r c1-1j c1-b c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39"><path fill-rule="evenodd" d="M16.056 8.255a4.254 4.254 0 1 1-8.507 0 4.254 4.254 0 0 1 8.507 0zm3.052 11.71H4.496a.503.503 0 0 1-.46-.693 8.326 8.326 0 0 1 7.766-5.328 8.326 8.326 0 0 1 7.766 5.328.503.503 0 0 1-.46.694z"></path></svg></div></a></div></span><span data-ux="Element" class="x-el x-el-span membership-icon-logged-in c1-1 c1-2 c1-2b c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Element" id="bs-4" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><a rel="" role="button" aria-haspopup="menu" data-ux="UtilitiesMenuLink" data-toggle-ignore="true" id="102969" aria-expanded="false" data-aid="MEMBERSHIP_ICON_DESKTOP_RENDERED" data-edit-interactive="true" href="#" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Default.Link.Dropdown.102970.click,click"><div style="pointer-events:auto;display:flex;align-items:center" data-aid="MEMBERSHIP_ICON_DESKTOP_RENDERED"><svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="UtilitiesMenuIcon" data-typography="NavAlpha" class="x-el x-el-svg c1-2v c1-2w c1-1t c1-1u c1-3x c1-3y c1-3d c1-1w c1-1x c1-1y c1-1z c1-25 c1-r c1-1j c1-b c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39"><path fill-rule="evenodd" d="M16.056 8.255a4.254 4.254 0 1 1-8.507 0 4.254 4.254 0 0 1 8.507 0zm3.052 11.71H4.496a.503.503 0 0 1-.46-.693 8.326 8.326 0 0 1 7.766-5.328 8.326 8.326 0 0 1 7.766 5.328.503.503 0 0 1-.46.694z"></path></svg></div></a></div></span><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><script><!--googleoff: all--></script><ul data-ux="Dropdown" role="menu" id="n-102943102966-membershipId-loggedout" class="x-el x-el-ul membership-sign-out c1-1 c1-2 c1-3e c1-3f c1-3 c1-3g c1-3h c1-3i c1-3j c1-3k c1-3l c1-3z c1-2r c1-40 c1-3o c1-2b c1-3p c1-41 c1-b c1-c c1-3q c1-3r c1-d c1-e c1-f c1-g"><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="UtilitiesMenuLink" data-edit-interactive="true" id="n-102943102966-membership-sign-in" aria-labelledby="n-102943102966-membershipId-loggedout" href="/m/account" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Menu.Link.Default.102971.click,click">Sign In</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="UtilitiesMenuLink" data-edit-interactive="true" id="n-102943102966-membership-create-account" aria-labelledby="n-102943102966-membershipId-loggedout" href="/m/create-account" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Menu.Link.Default.102972.click,click">Create Account</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><hr aria-hidden="true" role="separator" data-ux="HR" class="x-el x-el-hr c1-1 c1-2 c1-46 c1-47 c1-48 c1-49 c1-43 c1-4 c1-b c1-c c1-d c1-e c1-f c1-g"/></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="UtilitiesMenuLink" data-edit-interactive="true" id="n-102943102966-membership-account-logged-out" aria-labelledby="n-102943102966-membershipId-loggedout" href="/m/account" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Menu.Link.Default.102973.click,click">My Account</a></li></ul><ul data-ux="Dropdown" role="menu" id="n-102943102966-membershipId" class="x-el x-el-ul membership-sign-in c1-1 c1-2 c1-3e c1-3f c1-3 c1-3g c1-3h c1-3i c1-3j c1-3k c1-3l c1-3z c1-2r c1-40 c1-3o c1-2b c1-3p c1-41 c1-b c1-c c1-3q c1-3r c1-d c1-e c1-f c1-g"><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><p data-ux="Text" id="n-102943102966-membership-header" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-43 c1-4a c1-4b c1-4c c1-4d c1-4e c1-4f c1-4g c1-4h c1-4i c1-4j c1-4k c1-4l c1-4m c1-4n c1-4o c1-4p c1-b c1-3a c1-2n c1-c c1-d c1-e c1-f c1-g">Signed in as:</p></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><p data-ux="Text" id="n-102943102966-membership-email" data-aid="MEMBERSHIP_EMAIL_ADDRESS" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-4a c1-4b c1-4c c1-4d c1-4e c1-4f c1-4g c1-4h c1-4i c1-4j c1-4k c1-4l c1-4m c1-4n c1-4o c1-4p c1-b c1-2n c1-c c1-33 c1-d c1-e c1-f c1-g">filler@godaddy.com</p></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-2n c1-17 c1-2x c1-21 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><hr aria-hidden="true" role="separator" data-ux="HR" class="x-el x-el-hr c1-1 c1-2 c1-46 c1-47 c1-48 c1-49 c1-43 c1-4 c1-b c1-c c1-d c1-e c1-f c1-g"/></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="UtilitiesMenuLink" data-edit-interactive="true" id="n-102943102966-membership-account-logged-in" aria-labelledby="n-102943102966-membershipId" href="/m/account" data-typography="NavAlpha" class="x-el x-el-a c1-2v c1-2w c1-1g c1-1h c1-1i c1-3w c1-1j c1-25 c1-b c1-1p c1-32 c1-33 c1-34 c1-35 c1-36 c1-37 c1-38 c1-39" data-tccl="ux2.HEADER.header9.UtilitiesMenu.Menu.Link.Default.102974.click,click">My Account</a></li><li data-ux="ListItem" role="menuitem" class="x-el x-el-li c1-1 c1-2 c1-42 c1-43 c1-2x c1-21 c1-1j c1-44 c1-23 c1-45 c1-22 c1-b c1-c c1-3s c1-d c1-e c1-f c1-g"><p data-ux="Text" id="n-102943102966-membership-sign-out" data-aid="MEMBERSHIP_SIGNOUT_LINK" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-4a c1-4b c1-4c c1-4d c1-4e c1-4f c1-4g c1-4h c1-4i c1-4j c1-4k c1-4l c1-4m c1-4n c1-4o c1-4p c1-b c1-2n c1-c c1-33 c1-d c1-e c1-f c1-g">Sign out</p></li></ul><script><!--googleon: all--></script></div></div></span></div></div></div></div></div></nav></div></div><div role="navigation" data-ux="NavigationDrawer" id="n-102943-navId-mobile" class="x-el x-el-div c1-1 c1-2 c1-4q c1-4r c1-4s c1-4 c1-4t c1-3o c1-4u c1-h c1-4v c1-4w c1-4x c1-4y c1-4z c1-50 c1-14 c1-51 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-u c1-v c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Membership" class="x-el x-el-div membership-header-logged-in c1-1 c1-2 c1-52 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-b c1-c c1-53 c1-d c1-54 c1-e c1-55 c1-f c1-56 c1-g"><p data-ux="TextMajor" id="n-102943-membership-header" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-57 c1-b c1-58 c1-c c1-33 c1-d c1-e c1-f c1-g">Signed in as:</p><p data-ux="Text" id="n-102943-membership-email" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-b c1-58 c1-c c1-33 c1-d c1-e c1-f c1-g">filler@godaddy.com</p></div></div><svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="CloseIcon" data-edit-interactive="true" data-close="true" class="x-el x-el-svg c1-1 c1-2 c1-59 c1-1u c1-3d c1-1w c1-1x c1-1y c1-1z c1-1j c1-5a c1-5b c1-3k c1-5c c1-5d c1-5e c1-b c1-5f c1-5g c1-5h c1-5i c1-5j"><path fill-rule="evenodd" d="M19.245 4.313a1.065 1.065 0 0 0-1.508 0L11.78 10.27 5.82 4.313A1.065 1.065 0 1 0 4.312 5.82l5.958 5.958-5.958 5.959a1.067 1.067 0 0 0 1.508 1.508l5.959-5.958 5.958 5.958a1.065 1.065 0 1 0 1.508-1.508l-5.958-5.959 5.958-5.958a1.065 1.065 0 0 0 0-1.508"></path></svg></div><div data-ux="Container" id="n-102943-navContainerId-mobile" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-3o c1-5k c1-4 c1-5l c1-b c1-c c1-53 c1-d c1-54 c1-e c1-55 c1-f c1-56 c1-g"><div data-ux="Block" id="n-102943-navLinksContentId-mobile" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><ul role="menu" data-ux="NavigationDrawerList" id="n-102943-navListId-mobile" class="x-el x-el-ul c1-1 c1-2 c1-15 c1-17 c1-18 c1-16 c1-2k c1-2l c1-2m c1-21 c1-2c c1-2d c1-1d c1-1c c1-1h c1-1i c1-b c1-c c1-d c1-e c1-f c1-g"><li role="menuitem" data-ux="NavigationDrawerListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavigationDrawerLink" target="" data-page="c54cdd81-8010-42ca-9070-a11f52911ae7" data-edit-interactive="true" data-close="true" href="/video-summarizer-ai" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Default.102975.click,click"><span>Video Summarizer AI</span></a></li><li role="menuitem" data-ux="NavigationDrawerListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavigationDrawerLink" target="" data-page="df4ed67c-322c-454d-ab8e-4bb036d5a9eb" data-edit-interactive="true" data-close="true" href="/our-blog" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Default.102976.click,click"><span>Our Blog</span></a></li><li role="menuitem" data-ux="NavigationDrawerListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavigationDrawerLinkActive" target="" data-page="7602ea25-5ea9-422a-8b1b-981d13ced8cb" data-edit-interactive="true" data-close="true" href="/privacy-policy" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-3a c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Active.102977.click,click"><span>Privacy Policy</span></a></li><li role="menuitem" data-ux="NavigationDrawerListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavigationDrawerLink" target="" data-page="e737716f-8d68-4288-80a4-6ac59e8951e2" data-edit-interactive="true" data-close="true" href="/terms-of-service" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Default.102978.click,click"><span>Terms of Service</span></a></li><li role="menuitem" data-ux="NavigationDrawerListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="NavigationDrawerLink" target="" data-page="8f25b9e3-af37-435d-9bea-3ed00994b83e" data-edit-interactive="true" data-close="true" href="/blog-about-writing-pads" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Default.102979.click,click"><span>Blog about writing pads</span></a></li></ul><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-2x c1-d c1-1a c1-e c1-f c1-g"><div data-ux="Membership" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><p data-ux="MembershipHeading" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-3t c1-3u c1-u c1-v c1-2d c1-5z c1-b c1-58 c1-c c1-33 c1-d c1-e c1-f c1-g">Account</p><ul data-ux="List" role="menu" class="x-el x-el-ul membership-links-logged-in c1-1 c1-2 c1-15 c1-17 c1-18 c1-16 c1-2k c1-2l c1-2m c1-21 c1-2c c1-2d c1-1d c1-1c c1-1h c1-1i c1-b c1-c c1-d c1-e c1-f c1-g"><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><hr aria-hidden="true" role="separator" data-ux="MembershipHR" class="x-el x-el-hr c1-1 c1-2 c1-60 c1-47 c1-48 c1-15 c1-17 c1-4 c1-b c1-c c1-d c1-e c1-f c1-g"/></li><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="MembershipLink" data-edit-interactive="true" id="n-102943-membership-account-logged-in" name="My Account" dataAid="MEMBERSHIP_ACCOUNT_LINK" href="/m/account" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.Membership.Default.Link.Default.102986.click,click">My Account</a></li><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><p data-ux="Text" id="n-102943-membership-sign-out" data-aid="MEMBERSHIP_SIGNOUT_LINK" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-b c1-58 c1-c c1-33 c1-d c1-e c1-f c1-g">Sign out</p></li></ul><ul data-ux="List" role="menu" class="x-el x-el-ul membership-links-logged-out c1-1 c1-2 c1-15 c1-17 c1-18 c1-16 c1-2k c1-2l c1-2m c1-21 c1-2c c1-2d c1-1d c1-1c c1-1h c1-1i c1-b c1-c c1-d c1-e c1-f c1-g"><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><hr aria-hidden="true" role="separator" data-ux="MembershipHR" class="x-el x-el-hr c1-1 c1-2 c1-60 c1-47 c1-48 c1-15 c1-17 c1-4 c1-b c1-c c1-d c1-e c1-f c1-g"/></li><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="MembershipLink" data-edit-interactive="true" id="n-102943-membership-sign-in" name="Sign In" dataAid="MEMBERSHIP_SIGNIN_LINK" href="/m/account" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.Membership.Default.Link.Default.102987.click,click">Sign In</a></li><li role="menuitem" data-ux="MembershipListItem" class="x-el x-el-li c1-1 c1-2 c1-58 c1-17 c1-2x c1-5m c1-5n c1-5o c1-b c1-c c1-3s c1-5p c1-d c1-e c1-f c1-g"><a rel="" role="link" aria-haspopup="false" data-ux="MembershipLink" data-edit-interactive="true" id="n-102943-membership-account-logged-out" name="My Account" dataAid="MEMBERSHIP_ACCOUNT_LINK" href="/m/account" data-typography="NavBeta" class="x-el x-el-a c1-1 c1-2 c1-1g c1-1h c1-1i c1-14 c1-1j c1-3g c1-3h c1-u c1-v c1-12 c1-5q c1-2h c1-b c1-59 c1-5r c1-33 c1-5s c1-5t c1-5u c1-5v c1-5w c1-5x c1-5y" data-tccl="ux2.HEADER.header9.Membership.Default.Link.Default.102988.click,click">My Account</a></li></ul></div></div></div></div></div><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-b c1-c c1-d c1-e c1-f c1-g"><hr aria-hidden="true" role="separator" data-ux="HR" class="x-el x-el-hr c1-1 c1-2 c1-61 c1-47 c1-48 c1-15 c1-17 c1-4 c1-16 c1-18 c1-19 c1-b c1-c c1-d c1-62 c1-63 c1-64 c1-65 c1-66 c1-e c1-f c1-g"/></div></div></section>  </div></div></div><div id="2d9e9532-a41f-4e12-8a97-93c4a000ec85" class="widget widget-privacy widget-privacy-privacy-1"><div data-ux="Widget" role="region" id="2d9e9532-a41f-4e12-8a97-93c4a000ec85" class="x-el x-el-div x-el c1-1 c1-2 c1-3 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div> <section data-ux="Section" class="x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-b c1-c c1-53 c1-d c1-54 c1-e c1-55 c1-f c1-56 c1-g"><h1 role="heading" aria-level="1" data-ux="SectionHeading" data-aid="PRIVACY_SECTION_TITLE_RENDERED" data-promoted-from="2" data-order="0" data-typography="HeadingAlpha" data-font-scaled="true" class="x-el x-el-h1 c1-1 c1-2 c1-1h c1-1i c1-67 c1-28 c1-16 c1-15 c1-68 c1-69 c1-6a c1-1p c1-6b c1-33 c1-6c c1-6d c1-6e c1-6f c1-6g c1-6h"><span data-ux="Element" class="x-el x-el-span c1-6i c1-1t c1-6j c1-6k c1-6l">Privacy Policy for &quot;Video Summarizer&quot;</span><div data-ux="Block" class="x-el x-el-div c1-4 c1-6m c1-6a c1-6b c1-6c c1-6f c1-6g c1-6h"><hr aria-hidden="true" role="separator" data-ux="SectionHeadingHR" class="x-el x-el-hr c1-46 c1-6n c1-48 c1-6o c1-17 c1-6p c1-1u c1-6a c1-6b c1-6c c1-6f c1-6g c1-6h"/></div></h1><div data-ux="Grid" class="x-el x-el-div c1-1 c1-2 c1-14 c1-6q c1-6r c1-6s c1-15 c1-6t c1-6u c1-6v c1-b c1-c c1-6w c1-6x c1-6y c1-6z c1-d c1-e c1-f c1-g"><div data-ux="GridCell" class="x-el x-el-div c1-1 c1-2 c1-6q c1-70 c1-71 c1-72 c1-2a c1-2c c1-73 c1-t c1-74 c1-b c1-c c1-75 c1-76 c1-77 c1-78 c1-79 c1-7a c1-7b c1-d c1-7c c1-7d c1-7e c1-e c1-f c1-g"><div data-ux="Text" data-aid="PRIVACY_CONTENT_RENDERED" data-typography="BodyAlpha" class="x-el c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-b c1-2n c1-c c1-33 c1-d c1-e c1-f c1-g x-rt"><p style="margin:0"><span>Welcome to 'Video Summarizer'. Your privacy is important to us, and we are committed to protecting your personal data in accordance with the General Data Protection Regulation (GDPR).</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Reference Consistency Across Product Names</strong></span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span>This Privacy Policy applies to product known as "Video Summarizer," also referred to as "Video Summarizer AI" and "Video Summary AI" and other names. For the purpose of this Privacy Policy, please note that any mention of "Video Summarizer" within this document also pertains to its alternate names, specifically "Video Summarizer" and "Video Summary AI" and other names. This means that all terms, conditions, and policies outlined herein apply equally and in full to the product, irrespective of it being referred to as "Video Summarizer," "Video Summarizer AI," or "Video Summary AI" and other names. This inclusive terminology ensures that all references to the product, under any of these names, are covered uniformly by this Privacy Policy.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Data Controller</strong></span></p><p style="margin:0"><span>The data controller responsible for your personal data is Klym Zhuravlov-Iuzefovych, an individual with individual activity certificate №1133162, with the registered address at Verbu skg. 8, Vilnius 11115, Lithuania ("us", "we", or "our").</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Information Collection and Use</strong></span></p><p style="margin:0"><span>'Video Summarizer' collects non-personal information such as video and audio data and captions when you interact with our service. Please do not share any personal data with us through our service. The information we collect is used solely to provide education summary and is not used for any other purpose.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">User Responsibility</strong></span></p><p style="margin:0"><span>Users are responsible for ensuring that no personal data is included in the video content submitted to "Video Summarizer AI". If personal data is included, users must ensure they have obtained the necessary consent and provide it to 'Video Summarizer' upon request.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Sharing of Data</strong></span></p><p style="margin:0"><span>We share data, which may include personally identifiable information, with OpenAI during user interactions with 'Video Summarizer'. Due to the nature of the data processing, we may inadvertently share personal data with OpenAI without explicit knowledge of its personal nature. Except as required by law or to provide the services requested by you, we do not share any personally identifiable information with other third parties. We are committed to ensuring the confidentiality and integrity of your data in accordance with GDPR regulations.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span>In addition to sharing data with OpenAI, 'Video Summarizer' also shares data with PythonAnywhere, a third-party service, for the specific purpose of processing video captions. This collaboration enables us to enhance the functionality of our service and provide a better user experience. The shared data may include non-personal information such as video and audio data and captions.</span></p><p style="margin:0"><span>When sharing data with PythonAnywhere, we ensure that:</span></p><p style="margin:0"><ul>
+  <li>The data shared is limited to what is necessary for processing video captions.</li>
+  <li>PythonAnywhere adheres to GDPR standards in the handling and processing of this data.</li>
+  <li>Adequate safeguards are in place to protect your data privacy and security.</li>
+</ul></p><p style="margin:0"><span>Our collaboration with PythonAnywhere is conducted with the utmost regard for GDPR compliance, ensuring that your data is handled responsibly and transparently.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Data Sharing with OpenAI</strong></span></p><p style="margin:0"><span>'Video Summarizer' utilizes services powered by OpenAI. OpenAI may use the data generated from interactions with 'Video Summarizer' for the purpose of training their models. This usage is in line with our commitment to enhancing our service while adhering to GDPR regulations.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Data Retention</strong></span></p><p style="margin:0"><span>We retain the collected information only for as long as necessary to provide you with your requested service. Data is protected within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Your Rights Under GDPR</strong></span></p><p style="margin:0"><span>Under the GDPR, you have the right to:</span></p><p style="margin:0"><span>- Access the personal data we hold about you.</span></p><p style="margin:0"><span>- Rectify any inaccurate or incomplete data.</span></p><p style="margin:0"><span>- Delete your personal data.</span></p><p style="margin:0"><span>- Restrict the processing of your personal data.</span></p><p style="margin:0"><span>- Object to processing of your personal data.</span></p><p style="margin:0"><span>- Data portability, to receive your data in a structured, commonly used, and machine-readable format.</span></p><p style="margin:0"><span>- Withdraw consent at any time where we are relying on consent to process your personal data.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Lawful Basis for Processing</strong></span></p><p style="margin:0"><span>We will only process your data when we have a lawful basis to do so. The lawful bases for processing by 'Video Summarizer' include consent (where you have given consent), contract (where processing is necessary for the performance of a contract with you), and “legitimate interests”.</span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">OpenAI Privacy Policy</strong></span></p><p style="margin:0"><span>For more details on data handling by OpenAI, you are encouraged to review OpenAI's Privacy Policy, available at:&nbsp;</span></p><p style="margin:0"><span><a class="x-el x-el-a c1-1e c1-1f c1-7j c1-1h c1-1i c1-3w c1-1j c1-6i c1-b c1-7k c1-1q c1-7l c1-1s" href="https://openai.com/policies/privacy-policy." target="_blank">https://openai.com/policies/privacy-policy.</a></span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Changes to This Privacy Policy</strong></span></p><p style="margin:0"><span>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the effective date.<br>
+</span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Contact Us</strong></span></p><p style="margin:0"><span>If you have any questions about this Privacy Policy or wish to exercise any of your rights, please contact us at <a class="x-el x-el-a c1-1e c1-1f c1-7j c1-1h c1-1i c1-3w c1-1j c1-6i c1-b c1-7k c1-1q c1-7l c1-1s" href="mailto:contact@videosummarizerai.com" target="_blank">contact@videosummarizerai.com</a></span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Read our Terms of use:</strong><br>
+<a class="x-el x-el-a c1-1e c1-1f c1-7j c1-1h c1-1i c1-3w c1-1j c1-6i c1-b c1-7k c1-1q c1-7l c1-1s" href="https://videosummarizerai.com/terms-of-service" target="_blank">https://videosummarizerai.com/terms-of-service</a></span></p><p style="margin:0"><span><br></span></p><p style="margin:0"><span><strong class="x-el x-el-span c1-1e c1-1f c1-b c1-7f c1-1t c1-3a c1-7g">Our another website:</strong></span></p><p style="margin:0"><span><a class="x-el x-el-a c1-1e c1-1f c1-7j c1-1h c1-1i c1-3w c1-1j c1-6i c1-b c1-7k c1-1q c1-7l c1-1s" href="https://videosummarizer.co" target="_blank">https://videosummarizer.co</a></span></p><p style="margin:0"><span><br></span></p></div></div></div></div></section>  </div></div></div><div id="b02c2aaf-2c97-41ff-949e-d4cdf54599bd" class="widget widget-footer widget-footer-footer-4"><div data-ux="Widget" role="contentinfo" id="b02c2aaf-2c97-41ff-949e-d4cdf54599bd" class="x-el x-el-div x-el c1-1 c1-2 c1-3 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><div> <section data-ux="Section" class="x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-b c1-c c1-53 c1-d c1-54 c1-e c1-55 c1-f c1-56 c1-g"><div data-ux="Layout" class="x-el x-el-div c1-1 c1-2 c1-69 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="Container" class="x-el x-el-div c1-1 c1-2 c1-28 c1-29 c1-u c1-v c1-2a c1-t c1-b c1-c c1-7m c1-53 c1-d c1-54 c1-e c1-55 c1-f c1-56 c1-g"><p data-ux="FooterText" data-aid="FOOTER_BUSINESS_NAME_RENDERED" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-43 c1-3a c1-b c1-1p c1-c c1-d c1-e c1-f c1-g">For user feedback: feedback@videosummarizerai.com</p><p data-ux="FooterText" data-aid="FOOTER_ADDRESS_RENDERED" data-typography="BodyAlpha" class="x-el x-el-p c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-43 c1-b c1-1p c1-c c1-33 c1-d c1-e c1-f c1-g">For press: press.inquiries@videosummarizerai.com</p></div><div data-ux="Grid" class="x-el x-el-div c1-1 c1-2 c1-14 c1-6q c1-6r c1-6s c1-15 c1-16 c1-17 c1-18 c1-12 c1-69 c1-b c1-c c1-d c1-e c1-f c1-g"><div data-ux="GridCell" class="x-el x-el-div c1-1 c1-2 c1-6q c1-70 c1-71 c1-7n c1-2a c1-2c c1-1c c1-2d c1-1d c1-b c1-c c1-d c1-7o c1-7p c1-e c1-f c1-g"><div data-ux="FooterDetails" data-aid="FOOTER_COPYRIGHT_RENDERED" data-typography="DetailsAlpha" class="x-el c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-b c1-7q c1-32 c1-33 c1-36 c1-6d c1-37 c1-38 c1-39 x-rt"><p style="margin:0"><span>Copyright © 2023 Video Summarizer AI by Klym Zhuravlov-Iuzefovych. All Rights Reserved. Notice: videosummarizer.co is also our website.</span></p></div></div></div></div></div></section>  </div></div></div><div id="3f45b853-a845-4f42-a086-f34f22c3f938" class="widget widget-cookie-banner widget-cookie-banner-cookie-1"><div data-ux="Group" data-aid="FOOTER_COOKIE_BANNER_RENDERED" id="3f45b853-a845-4f42-a086-f34f22c3f938-banner" class="x-el x-el-div c1-1 c1-2 c1-4r c1-7r c1-7s c1-4 c1-7t c1-21 c1-3 c1-7u c1-3o c1-7v c1-7w c1-7x c1-7y c1-s c1-v c1-t c1-u c1-15 c1-16 c1-17 c1-18 c1-19 c1-b c1-c c1-7z c1-80 c1-81 c1-82 c1-83 c1-84 c1-85 c1-d c1-e c1-f c1-g"><h4 role="heading" aria-level="4" data-ux="Heading" data-aid="FOOTER_COOKIE_TITLE_RENDERED" data-typography="HeadingDelta" class="x-el x-el-h4 c1-1 c1-2 c1-1h c1-1i c1-86 c1-18 c1-16 c1-15 c1-17 c1-45 c1-b c1-1p c1-5r c1-33 c1-5u c1-5w c1-5x c1-5y">This website uses cookies.</h4><div data-ux="Text" data-aid="FOOTER_COOKIE_MESSAGE_RENDERED" data-typography="BodyAlpha" class="x-el c1-1 c1-2 c1-1h c1-1i c1-3v c1-15 c1-17 c1-87 c1-3o c1-b c1-2n c1-c c1-33 c1-88 c1-d c1-e c1-f c1-g x-rt"><p style="margin:0"><span>We use only functional cookies that are required for this website to work.</span></p></div><div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-14 c1-2h c1-b c1-c c1-d c1-e c1-f c1-g"><a data-ux-btn="primary" data-ux="ButtonPrimary" color="HIGHCONTRAST" fill="SOLID" shape="PILL" decoration="NONE" shadow="NONE" href="" data-aid="FOOTER_COOKIE_DECLINE_RENDERED" id="3f45b853-a845-4f42-a086-f34f22c3f938-decline" data-typography="ButtonAlpha" class="x-el x-el-a c1-2v c1-2w c1-14 c1-51 c1-89 c1-1j c1-6o c1-8a c1-8b c1-8c c1-70 c1-8d c1-12 c1-69 c1-1g c1-1i c1-1h c1-r c1-2a c1-4 c1-u c1-v c1-8e c1-8f c1-8g c1-8h c1-8i c1-8j c1-b c1-3a c1-57 c1-8k c1-8l c1-8m c1-8n c1-8o c1-8p c1-8q c1-8r" data-tccl="ux2.COOKIE_BANNER.cookie1.Group.Default.Button.Primary.102993.click,click">Decline</a><a data-ux-btn="primary" data-ux="ButtonPrimary" color="HIGHCONTRAST" fill="SOLID" shape="PILL" decoration="NONE" shadow="NONE" href="" data-aid="FOOTER_COOKIE_CLOSE_RENDERED" id="3f45b853-a845-4f42-a086-f34f22c3f938-accept" data-typography="ButtonAlpha" class="x-el x-el-a c1-2v c1-2w c1-14 c1-51 c1-89 c1-1j c1-6o c1-8a c1-8b c1-8c c1-70 c1-8d c1-12 c1-69 c1-1g c1-1i c1-1h c1-r c1-2a c1-4 c1-u c1-v c1-8e c1-8f c1-8g c1-8h c1-8i c1-8j c1-b c1-3a c1-57 c1-8k c1-8l c1-8m c1-8n c1-8o c1-8p c1-8q c1-8r" data-tccl="ux2.COOKIE_BANNER.cookie1.Group.Default.Button.Primary.102994.click,click">Accept</a></div></div></div><div id="950fa245-753f-43c0-be7e-869d16055926" class="widget widget-popup widget-popup-popup-1"></div><div id="d4fecd54-7b6d-44a7-b401-1b8b2569a666" class="widget widget-messaging widget-messaging-messaging-1"></div></div></div></div>
+<script type="text/javascript">"IntersectionObserver"in window&&"Intl"in window&&"Locale"in window.Intl||document.write(`\x3Cscript src="https://img1.wsimg.com/poly/v3/polyfill.min.js?rum=0&unknown=polyfill&flags=gated&features=Intl.~locale.en-IE">\x3C/script>`)</script>
+<script src="//img1.wsimg.com/blobby/go/fac3788f-4714-4318-ae9f-2664593f460d/gpub/119a63dafac51b6b/script.js" crossorigin></script>
+<script src="//img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.37.7.js" crossorigin></script>
+<script src="//img1.wsimg.com/blobby/go/fac3788f-4714-4318-ae9f-2664593f460d/gpub/e9fbe970a21a12b5/script.js" crossorigin></script>
+<script defer src="//img1.wsimg.com/traffic-assets/js/tccl.min.js" crossorigin></script></body></html>

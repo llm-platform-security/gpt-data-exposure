@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rechtliche Hinweise &mdash; Handbuch Opendata.swiss 1.0 Dokumentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/contentui.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/translations.js"></script>
+        <script src="../../_static/contentui.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="../../genindex.html" />
+    <link rel="search" title="Suche" href="../../search.html" />
+    <link rel="next" title="opendata.swiss verstehen" href="../vorbereiten/erstpublizierende/opendata-swiss-verstehen.html" />
+    <link rel="prev" title="Kontakt" href="kontakt.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html">
+            <img src="../../_static/handbook_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div id="language-switcher">
+  <a href="" class="lang_de">Deutsch</a><span class="language-divider"><a href="" class="lang_fr">Français</a>
+</div>
+<div role="search">
+  <form id="ogdch-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Handbuch durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Vorbereiten</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../vorbereiten/vorbereiten.html">Auf einen Blick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vorbereiten/erstpublizierende.html">Für Erst-Publizierende</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vorbereiten/publikationsrichtlinien.html">Publikationsrichtlinien</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publizieren</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../publizieren/publizieren.html">Auf einen Blick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publizieren/erstpublizierende.html">Für Erst-Publizierende</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publizieren/publikationsprozess.html">Publikationsprozess verstehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../publizieren/publikationsvariante.html">Publikationsvariante auswählen</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Pflegen</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pflegen/pflegen.html">Auf einen Blick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pflegen/datasets-updaten.html">Datasets updaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pflegen/auskunft-geben.html">Auskunft zu Daten geben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pflegen/support.html">Support und Feedback</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Nutzen</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../nutzen/nutzen.html">Auf einen Blick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nutzen/daten-suchen.html">Daten suchen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nutzen/api-nutzen.html">opendata.swiss API nutzen</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Kommunizieren</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../kommunizieren/kommunizieren.html">Auf einen Blick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kommunizieren/ogd.html">Über unsere Kanäle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kommunizieren/datennutzende.html">Mit den Datennutzenden</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Glossar</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glossar/bibliothek.html">Bibliothek</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossar/begriffe.html">Begriffe</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Über das Handbuch</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ueber-das-handbuch.html">Über das Handbuch</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kontakt.html">Kontakt</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Rechtliche Hinweise</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Handbuch Opendata.swiss</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          
+<div id="ogdch-header">
+    <a href="https://opendata.swiss">
+        
+        <img class="ogdch-logo" src="../../_images/logo_horizontal.png" alt="logo opendata.swiss"/>
+    </a>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="custom-breadcrumbs docutils container">
+<ul class="simple">
+<li><p><em class="fa fa-home"></em> <a class="reference internal" href="../../index.html"><span class="doc">Handbuch</span></a> <em class="fa fa-chevron-right"></em></p></li>
+<li><p>Rechtliche Hinweise</p></li>
+</ul>
+</div>
+<section id="rechtliche-hinweise">
+<h1>Rechtliche Hinweise<a class="headerlink" href="#rechtliche-hinweise" title="Link zu dieser Überschrift"></a></h1>
+<section id="haftung">
+<h2>Haftung<a class="headerlink" href="#haftung" title="Link zu dieser Überschrift"></a></h2>
+<p>Obwohl die veröffentlichten Informationen mit aller Sorgfalt geprüft worden sind,
+kann für die inhaltliche Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und
+Vollständigkeit dieser Informationen keine Gewährleistung übernommen werden.</p>
+<p>Die beteiligten Behörden behalten sich ausdrücklich vor, jederzeit Inhalte ohne Ankündigung
+ganz oder teilweise zu ändern, zu löschen oder zeitweise nicht zu veröffentlichen.</p>
+<p>Haftungsansprüche gegen die Behörden wegen Schäden materieller oder immaterieller Art,
+welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten
+Informationen, durch Missbrauch der Verbindung oder durch technische Störungen
+entstanden sind, werden ausgeschlossen.</p>
+</section>
+<section id="verweise-und-links">
+<h2>Verweise und Links<a class="headerlink" href="#verweise-und-links" title="Link zu dieser Überschrift"></a></h2>
+<p>Verweise und Links auf Webseiten Dritter liegen ausserhalb des Verantwortungsbereichs der
+beteiligten Behörden. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene
+Gefahr des Nutzers oder der Nutzerin. Die beteiligten Behörden erklären ausdrücklich,
+dass sie keinerlei Einfluss auf die Gestaltung, den Inhalt und die Angebote der verknüpften
+Seiten haben. Informationen und Dienstleistungen von verknüpften Webseiten liegen
+vollumfänglich in der Verantwortung des jeweiligen Dritten. Es wird jegliche
+Verantwortung für solche Webseiten abgelehnt.</p>
+</section>
+<section id="datenschutz">
+<h2>Datenschutz<a class="headerlink" href="#datenschutz" title="Link zu dieser Überschrift"></a></h2>
+<p>Gestützt auf Artikel 13 der schweizerischen Bundesverfassung und die Datenschutzgesetze hat
+jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer
+persönlichen Daten. Die beteiligten Behörden halten diese Bestimmungen ein. Persönliche
+Daten werden auf handbook.opendata.swiss streng vertraulich behandelt und weder an
+Dritte verkauft noch weitergegeben.</p>
+<p>In enger Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken
+vor fremden Zugriffen, Verlusten, Missbrauch oder vor Fälschung zu schützen.</p>
+<p>Beim Zugriff auf handbook.opendata.swiss werden folgende Daten in Logfiles gespeichert:
+IP-Adresse, Datum, Uhrzeit, Browser-Anfrage und allg. übertragene Informationen zum
+Betriebssystem resp. Browser. Die Webserver unserer Hosting-Provider registrieren
+lediglich unpersönliche Nutzungsdaten, welche für die beteiligten Behörden so
+aufbereitet werden, dass Trends erkennbar sind, um das Angebot entsprechend zu
+verbessern (Logfiles). Für zusätzliche Informationen zur Webanalyse siehe nächster Abschnitt.</p>
+<p>Die Nutzungsdaten werden nicht mit persönlichen Daten verknüpft. Eine Ausnahme bildet die
+freiwillige Kontaktaufnahme. Beim Registrieren der E-Mail-Adresse wird diese in eine
+separate Datenbank aufgenommen, die in keinem Zusammenhang mit den anonymen Logfiles steht.
+Es besteht jederzeit die Möglichkeit, die Registrierung wieder rückgängig zu machen.</p>
+</section>
+<section id="webanalyse">
+<h2>Webanalyse<a class="headerlink" href="#webanalyse" title="Link zu dieser Überschrift"></a></h2>
+<p><em>handbook.opendata.swiss</em> verwendet den Open Source Webanalysedienst Matomo. Matomo
+verwendet sogenannte «Cookies», das sind Textdateien, die auf Ihrem Computer gespeichert
+werden und die eine Analyse Ihrer Benutzung der Website ermöglichen. Zur Analyse der
+Benutzung dieser Seite werden die durch den Cookie erzeugten Nutzungsinformationen
+(einschliesslich Ihrer gekürzten IP-Adresse) an unseren Server in der Schweiz übertragen
+und zu Zwecken der Nutzungsanalyse gespeichert. Diese Daten dienen der Website Optimierung.
+Ihre IP-Adresse wird bei diesem Vorgang umgehend anonymisiert.</p>
+<p>Die Speicherung von Cookies können Sie durch eine entsprechende Einstellung Ihrer
+Browser-Software verhindern; mit dieser Einstellung können gegebenenfalls nicht
+sämtliche Funktionen dieser Website genutzt werden.</p>
+</section>
+<section id="urheberrecht">
+<h2>Urheberrecht<a class="headerlink" href="#urheberrecht" title="Link zu dieser Überschrift"></a></h2>
+<p>Die auf swiss handbook.opendata.swiss veröffentlichten Daten sind in der Regel
+urheberrechtlich nicht geschützt. Die auf handbook.opendata.swiss enthaltenen
+Informationen werden der Öffentlichkeit zugänglich gemacht.</p>
+</section>
+<section id="quellcode">
+<h2>Quellcode<a class="headerlink" href="#quellcode" title="Link zu dieser Überschrift"></a></h2>
+<p>handbook.opendata.swiss nutzt Sphinx, einen auf Dokumentation spezialisierten, statischen
+Website-Generator, der auch von der Hosting Plattform Read The Docs genutzt wird.
+Sphinx und alle seine Komponenten sind Open Source Software und
+unter der GNU GPL v2.0 Lizenz frei verfügbar.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr class="footer-divider"/>
+<div id="ogdch-footer">
+    <p class="footer-text">
+	    Sie haben Fragen?
+        <a href="mailto:opendata(at)bfs.admin.ch">Schreiben Sie uns.</a>
+    </p>
+    <div class="footer-logos">
+        
+        
+        <img class="bundeslogo logo-footer" src="../../_images/bundeslogo.svg" alt="bundeslogo"/>
+        <img class="logo-tf logo-footer" src="../../_images/logo-tf-egovernment.png" alt="logo themenführer e-government"/>
+    </div>
+</div>
+
+  <div class="copyright" role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, bfs.admin.ch
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+
+
+
+</footer>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script> 
+
+</body>
+</html>

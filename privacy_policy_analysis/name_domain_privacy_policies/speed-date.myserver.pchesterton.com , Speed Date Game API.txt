@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+        <p>Effective Date: 11-Jan-2023</p>
+    </header>
+    <main>
+        <p>Thank you for using our API ("API"). This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you interact with our API. Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it.</p>
+        <section>
+            <h2>1. Information We Collect</h2>
+            <h3>1.1. Personal Information:</h3>
+            <p>We do not collect any personal information directly from the users when a custom GPT interacts with our API. Personal information refers to any information that identifies or can be used to identify an individual.</p>
+            <h3>1.2. Usage Information:</h3>
+            <p>We may collect certain usage information automatically when a custom GPT interacts with our API. This usage information may include the access time and date and the technical information about the interactions.</p>
+        </section>
+        <section>
+            <h2>2. Use of Information</h2>
+            <h3>2.1. Personal Information:</h3>
+            <p>Since we do not collect any personal information from the users, we do not use it for any purpose.</p>
+            <h3>2.2. Usage Information:</h3>
+            <p>We may use the usage information collected from the custom GPT for the following purposes:</p>
+            <ul>
+                <li>a) To analyze and improve the performance and functionality of our API.</li>
+                <li>b) To monitor and prevent any unauthorized use or abuse of our API.</li>
+                <li>c) To generate aggregated and anonymized statistical data for research and development purposes.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>3. Disclosure of Information</h2>
+            <h3>3.1. Personal Information:</h3>
+            <p>Since we do not collect any personal information from the users, we do not disclose it to any third parties.</p>
+            <h3>3.2. Usage Information:</h3>
+            <p>We may disclose the usage information collected from the custom GPT to the following parties:</p>
+            <ul>
+                <li>a) Service Providers: We may engage third-party service providers to assist us in analyzing and improving our API. These service providers will have access to the usage information but are obligated to maintain the confidentiality and security of the information.</li>
+                <li>b) Legal Requirements: We may disclose the usage information if required to do so by law or in the good faith belief that such action is necessary to comply with legal obligations or protect and defend our rights or property.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>4. Data Security</h2>
+            <p>We take reasonable measures to protect the information collected from the custom GPT against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or method of electronic storage is 100% secure. Therefore, while we strive to use commercially acceptable means to protect the information, we cannot guarantee its absolute security.</p>
+        </section>
+        <section>
+            <h2>5. Changes to this Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Any changes we make to this Privacy Policy will be posted on this page, with an updated Effective Date. You are advised to review this Privacy Policy periodically for any changes. Your continued use of our API after the posting of changes will constitute your acceptance of such changes.</p>
+        </section>
+        <footer>
+            <p>By using our API, you acknowledge that you have read and understood this Privacy Policy and agree to be bound by its terms and conditions.</p>
+        </footer>
+    </main>
+</body>
+</html>

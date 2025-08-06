@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - here.news</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo at the top center -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+            <a href="/">
+                <img src="/static/logo.svg" alt="Logo" id="top-logo">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Privacy Policy for here.news</h1>
+    <p>Effective Date: 2023-11-30</p>
+    <p>Welcome to here.news! Your privacy is critically important to us. This Privacy Policy document contains types of information that is collected and recorded by here.news and how we use it.</p>
+    Welcome to here.news! Your privacy is critically important to us. This Privacy Policy document contains types of information that is collected and recorded by here.news and how we use it.<br><br>
+
+    If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br><br>
+    
+    <h2>1. Information We Collect</h2>
+    
+    We collect information in the following ways: <br><br>
+    
+    Information you provide to us: This includes information you enter when you create an account, such as your name, email address, and any other contact or personal information you choose to provide.<br><br>
+    
+    Information automatically collected: When you visit here.news, we may automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device.<br><br>
+    
+    <h2>2. How We Use Your Information</h2>
+    
+    The information we collect is used for various purposes:
+    <ul>
+    <li>To provide and maintain our service</li>
+    <li>To notify you about changes to our service</li>
+    <li>To allow you to participate in interactive features of our service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the service</li>
+    <li>To monitor the usage of the service</li>
+    <li>To detect, prevent and address technical issues</li>
+    </ul>       
+    <h2>3. Log Files</h2>
+    
+    here.news follows a standard procedure of using log files.
+</div>
+
+<footer class="footer bg-light mt-4">
+    <div class="container">
+        <span class="text-muted">(cc)2023 Newstr, Here.news. Some Rights Reserved.</span>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

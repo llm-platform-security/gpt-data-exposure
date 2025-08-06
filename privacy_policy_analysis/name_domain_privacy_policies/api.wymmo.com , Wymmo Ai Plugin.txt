@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js" lang="fr" prefix="og: http://ogp.me/ns#"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon-54c42350cf.ico" />
+<link rel="icon" href="/assets/img/favicon-54c42350cf.ico" sizes="any">
+<link rel="icon" href="/assets/img/favicon-f7cd750a49.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple_touch_icon-993150213a.png">
+<link rel="preload" href="/assets/css/main-17af5ac6a9.css" as="style" />
+<link rel="stylesheet" href="/assets/css/main-17af5ac6a9.css" />
+<link rel="search" type="application/opensearchdescription+xml" title="Wymmo" href="https://wymmo.com/opensearch.xml" />
+<script type="application/ld+json">
+  {
+    "@context":"http://schema.org",
+    "@type":"WebSite",
+    "name":"wymmo.com",
+    "alternateName":"Où voudriez-vous habiter ?",
+    "url":"https://wymmo.com/",
+    "potentialAction": {
+      "@type":"SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://wymmo.com/search?q={search_term_string}"
+      },
+      "query-input":"required name=search_term_string"
+    }
+  }
+</script>
+<meta name="theme-color" content="#ffcc00ff" />
+
+
+<title>Vie privée</title>
+<meta name="title" content="Vie privée">
+<meta name="description" content="Votre vie privée nous est importante, comme la notre.">
+<meta property="og:site_name" content="Wymmo" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content="Vie privée" />
+<meta property="og:description" content="Votre vie privée nous est importante, comme la notre." />
+<meta property="og:url" content="https://wymmo.com/privacy">
+<link rel="canonical" href="https://wymmo.com/privacy" />
+<meta property="og:image" content="https://wymmo.com/assets/img/wymmo_logo_little_clear-54527389df.png">
+<meta property="twitter:site" content="@wymmo_com">
+<meta property="twitter:creator" content="@wymmo_com">
+<meta property="twitter:card" content="summary_large_image">
+</head>
+<body>
+<header id="top-header">
+<section class="document-sized gap-4 flex-columns items-center p-4">
+<div class="sm:w-1/5 w-1/2">
+<a href="https://wymmo.com/">
+<picture>
+<source srcset="/assets/img/wymmo_logo_little_dark-ee6ffa769c.png" media="(prefers-color-scheme:dark)">
+<img class="default" src="/assets/img/wymmo_logo_little_clear-54527389df.png" alt="Logo: Wymmo, Où voudriez-vous habiter ?" width="493" height="74" />
+</picture>
+</a>
+</div>
+<div class="sm:w-4/5 w-full">
+<form action="https://wymmo.com/search" id="q_form">
+<div id="q_app">
+<div class="relative">
+<div class="v-centered-overflow vco-left"><span class="ic icq i-[mdi--magnify]"></span></div>
+<input autocomplete="off" id="q" name="q" type="text" autofocus="autofocus" class="q" spellcheck="false" placeholder value />
+<div class="v-centered-overflow vco-right"><button type="submit" class="btn-out" tabindex="-1">Go</button></div>
+</div>
+<div class="search_hint"> </div>
+</div>
+</form>
+</div>
+</section>
+</header>
+<main class="card document-sized">
+<h1 class="card-title">Vie privée</h1>
+<p>
+Comme vous, nous n'aimons pas nous faire proposer des pubs pour un nouveau lit après avoir visité un site immobilier.
+Votre vie privée nous est importante, comme la notre. <br/>
+Pour proposer le présent service nous avons besoin :
+<ul>
+<li>de connaitre votre recherche, ou votre proposition</li>
+<li>de vous connaitre, un peu, pour vous joindre par exemple, en rapport avec votre annonce</li>
+<li>de vous reconnaitre (pour vous connecter à votre compte chez nous si vous en avez un)</li>
+<li>... c'est tout merci ...</li>
+</ul>
+</p>
+<h2 class="card-title">Garantie sans gluten</h2>
+<p>
+Techniquement nous avons besoin de quelques <b>cookies</b> minimaux pour opérer ce service.
+Mais nous n'utilisons pas de traqueurs publicitaires, ni de ciblage, ni rien qui pourrait divulguer à des tiers le contenu de votre nagivation sur ce service.
+Nos outils de suivi d'audience : <a href="https://withcabin.com/privacy/wymmo.com">Cabin</a> et <a href="https://posthog.com">PostHog</a> ; sont volontairement minimalistes pour cette raison.
+C'est pourquoi vous n'avez eu <b>aucune popup</b> de consentement à accepter lors de votre arriver sur le site, qui est pourtant conforme à la reglementation <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">RGPD</a>.
+</p>
+</main><div class="document-sized flex-stack my-8 sm:my-10 md:my-12 items-center">
+<picture class="w-11/12 sm:w-4/5 md:w-2/3">
+<source srcset="/assets/img/wymmo_logo_big_dark-6d31bf0358.png" media="(prefers-color-scheme:dark)" />
+<img class="default" src="/assets/img/wymmo_logo_big_clear-bf3ed59ed1.png" alt="Logo: Wymmo, Où voudriez-vous habiter ?" width="1399" height="279" />
+</picture>
+</div>
+<footer id="footer">
+<div class="document-sized p-6 mx-auto">
+<div class="lg:flex">
+<div class="w-full lg:w-2/5">
+<div>
+<a href="https://wymmo.com/" class="text-l font-semibold text-day hover:text-glow">Wymmo - Où voudriez-vous habiter ?</a>
+<div class="flex mt-2">
+Retrouvez-nous sûr :
+<span class="text-2xl">
+<a href="https://www.linkedin.com/company/wymmo-com" class="ml-2 opacity-80 text-glow hover:opacity-100" aria-label="LinkedIn" target="_blank"><span class="i-[mdi--linkedin]"></span></a>
+<a href="https://www.facebook.com/profile.php?id=100088055264593" class="ml-2 opacity-80 text-glow hover:opacity-100" aria-label="Facebook" target="_blank"><span class="i-[mdi--facebook]"></span></a>
+<a href="https://twitter.com/wymmo_com" class="ml-2 opacity-80 text-glow hover:opacity-100" aria-label="Twitter" target="_blank"><span class="i-[mdi--twitter]"></span></a>
+</span>
+</div>
+<a class="max-w-sm mt-3" href="https://wymmo.com/search?q=La+Rochelle+17000">Made with 💛 in La Rochelle</a>
+</div>
+</div>
+<div class="mt-6 lg:mt-0 lg:flex-1">
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+<div>
+<h3>Annonces Immobilières</h3>
+
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Achat">Ventes immobilières</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Location">Locations immobilières</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Achat+Maison">Achat Maison</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Achat+Appartement">Achat Appartement</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Location+Maison">Location Maison</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Location+Appartement">Location Appartement</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Appartement+Neuf">Appartement neuf</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/search?q=Prestige">Biens d'exception</a>
+</div>
+<div>
+<h3>Autres</h3>
+<a class="block mt-2 text-sm" href="https://wymmo.com/gateways">Passerelles immobilières</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/directory">Annuaire de services immobilier</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/showcase">Vitrine immobilière</a>
+</div>
+<div>
+<h3>Nous contacter</h3>
+<a class="block mt-2 text-sm" href="https://wymmo.com/contact">Contact</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/newsletter">Newsletter</a>
+<hr/>
+<h3>Mentions légales</h3>
+<a class="block mt-2 text-sm" href="https://wymmo.com/privacy">Vie Privée</a>
+<a class="block mt-2 text-sm" href="https://wymmo.com/tos">Conditions générales d'utilisation</a>
+</div>
+<div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-5 pb-3"></div>
+<p class="text-center text-day-darker font-semibold">© Wymmo 2023</p>
+<p class="text-center text-day-darker">
+<a class="link text-sm" href="https://wymmo.com/thanks">Remerciements</a>
+</p>
+</div>
+</footer>
+<script async defer type="module">
+  import init, * as bindings from '/assets/scripts/web_search_bar-f11d62a633.js';
+  init('/assets/scripts/web_search_bar_bg-0ac0f2858a.wasm'); 
+</script>
+<script async defer src="https://cabin.wymmo.com/hello.js"></script>
+
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//mat.wymmo.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+</body>
+</html>

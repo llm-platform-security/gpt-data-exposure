@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="dns-prefetch" href="https://cdn.watchmode.com">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138206944-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+function gtag() {
+dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'UA-138206944-1');
+	</script>
+	<meta charset="utf-8">
+			<link href="https://www.watchmode.com/misc/privacy/" rel="canonical">
+					<meta property="og:site_name" content="Watchmode"/>
+				<meta property="og:title" content="Privacy Policy - Watchmode"/>
+					<meta property="og:image" content="https://cdn.watchmode.com/assets/images/android-chrome-256x256.png"/>
+				<meta property="og:url" content="https://www.watchmode.com"/>
+		
+	<meta property="og:type" content="website"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<title>Privacy Policy - Watchmode</title>
+			<link rel="stylesheet" href="/static/css/bundle.css">
+								
+	<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.watchmode.com/assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.watchmode.com/assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.watchmode.com/assets/favicons/favicon-16x16.png">
+	<link rel="mask-icon" href="https://cdn.watchmode.com/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body id="body" data-spy="scroll" data-target=".fixed-top">
+    <nav class="navbar fixed-top navbar-expand-xxl navbar-custom navbar-dark bg-dark">
+	<div class="d-inline-flex align-items-between justify-content-between w-100">
+		<div id="navLogoDiv" class="align-self-start">
+			<a href="/"><img src="https://cdn.watchmode.com/assets/images/logoNav.png" alt="Watchmode Home" id="navLogo"></a>
+		</div>
+		<div class="pt-0 pe-2 d-none" id="hiddenSearchIcon">
+			<ul class="navbar-nav flex-row mt-1">
+				<li class="nav-item mx-2 mx-lg-0">
+					<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-search lightGrey toggleSearchDropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="font-size: 26px;"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
+				</li>
+			</ul>
+		</div>
+		<div class="d-flex flex-row-reverse">
+			<div class="mt-1">
+				<a class="btn btn-secondary dropdown-toggle medGreyBg2 medGreyBorder2 px-1" href="#" role="button" id="regionChooserButton" data-bs-toggle="modal" data-bs-target="#regionChooserModal"><img src="https://cdn.watchmode.com/misc_images/icons/usFlag2.png" id="navRegionFlag" style="width: 30px;height: 18px;" alt="USA Streaming Sources" data-region="US"></a>
+			</div>
+			<button class="navbar-toggler pt-2 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle menu" style="align-items: center !important;">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse me-3" id="mainNav" style="width: auto !important; min-width: 350px;">
+				<div class="offcanvas-header mt-3">
+					<button class="btn btn-close teal tealBorder float-end" id="mobileNavClose" style="width: auto !important;">&times; Close</button>
+				</div>
+				<ul class="navbar-nav">
+					<li class="nav-item pe-3 pt-1">
+						<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-search lightGrey toggleSearchDropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="font-size: 26px;"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="dashboardNavLink" href="/dashboard/" data-target="dashboardNavLink">DASHBOARD</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="psNavLink" href="/browse/" data-target="psNavLink">POWER SEARCH</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-nowrap" id="chooseNavLink" href="/watch-next/" data-target="chooseNavLink">CHOOSE FOR ME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="watchlistNavLink"  href="#" data-bs-toggle="modal" data-bs-target="#needAccountModal" >MY WATCHLIST</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="myShowsNavLink"  href="#" data-bs-toggle="modal" data-bs-target="#needAccountModal" >MY SHOWS</a>
+					</li>
+											<li class="nav-item">
+							<a class="nav-link" href="/login/?returnURL=aHR0cHM6Ly93d3cud2F0Y2htb2RlLmNvbQ">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/signup/?returnURL=aHR0cHM6Ly93d3cud2F0Y2htb2RlLmNvbQ">Sign Up</a>
+						</li>
+									</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+<div class="spinner-wrapper"><div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="spinner-message offWhite" id="spinner-message"></div></div>
+	<div class="container"><div class="row"><div class="navScrollRowContainer p-0 text-center"><div class="navScrollRowInner"><div class="navScrollRowtile"><a href="/">HOME</a></div><div class="navScrollRowtile"><a href="/dashboard/">DASHBOARD</a></div><div class="navScrollRowtile"><a href="/browse/">POWER SEARCH</a></div><div class="navScrollRowtile"><a href="/whats-new/">WHAT'S NEW?</a></div><div class="navScrollRowtile"><a href="/coming-soon/">STREAMING SOON</a></div></div></div></div></div>
+<div id="searchDropdown" class="d-none searchOverlay">
+	<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-x-circle-fill searchOverlayCloseButton toggleSearchDropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path class="searchOverlayCloseButton" fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.146-3.146a.5.5 0 0 0-.708-.708L8 7.293 4.854 4.146a.5.5 0 1 0-.708.708L7.293 8l-3.147 3.146a.5.5 0 0 0 .708.708L8 8.707l3.146 3.147a.5.5 0 0 0 .708-.708L8.707 8l3.147-3.146z"/></svg>
+	<div class="searchOverlayContent">
+		<div class="w-100 text-center mb-3 mx-auto">
+			<h3 class="lightGrey">Type in any movie or show to find where you can watch it, or type a person's name.</h3>
+		</div>
+		<div class="row lightGreyBg4 py-3 px-0 mx-0 mb-5" style="border-radius: 15px;">
+			<div class="col p-0 m-0">
+				<form id="quickSearchNav" name="quickSearchNav" method="GET" action="/search/">
+					<div class="quickSearchContainer">
+						<div class="quickSearchInputContainer w-100 d-inline-flex align-items-center align-content-center">
+							<div class="quickSearchInput w-100"><input id="quickSearchTypeaheadNav" class="jsTypeaheadInput form-control w-100" name="searchTerm" type="search" placeholder="Search" autocomplete="off" data-container="quickSearchResultsContainerNav" data-clicktype="1" data-type="1"></div>
+							<div class="quickSearchButton">
+								<button type="submit" class="btn quickSearchButtonIcon me-1" aria-label="Submit Search">
+									<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-search teal" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="font-size: 22px;"><path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/><path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
+								</button>
+							</div>
+						</div>
+						<div class="quickSearchResults d-none mt-1" id="quickSearchResultsContainerNav"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <div class="container" id="contentContainer">
+        <p>Last Updated: December 20<sup>th</sup>, 2020</p>
+
+        <p><strong>Watchmode</strong><strong>&trade;</strong><strong> Mobile Application and Website</strong><strong>&nbsp;</strong><strong>Privacy Policy</strong></p>
+        <p><strong>Summary</strong></p>
+        <p>Thank you for visiting the Watchmode&trade; website located at&nbsp;<a href="https://www.watchmode.com/">www.watchmode.com</a>&nbsp;(the "Site") and/or accessing the Watchmode&trade; mobile application (the "App"). The Site and App are owned and operated by Meteoric, LLC ("Watchmode&trade;," "we," "our" or "us"). The following Watchmode&trade; Mobile Application and Website Privacy Policy ("Privacy Policy") sets forth our policy with respect to the collection, storage and use of your personal information and other information that we collect from you.&nbsp;<strong>Please note, if you are a resident of a European Union Member State ("EU Resident"), you are not permitted to use the Site, App and/or other Watchmode&trade; Offerings (as defined below).</strong></p>
+        <p><strong>Background</strong></p>
+        <p>This Privacy Policy covers our treatment of personal information and other information that we collect when an end-user: (a) accesses and/or uses the Site; (b) downloads, attempts to download and/or uses the Watchmode&trade; mobile application (the "App") and associated Software, as made available on the iPhone&reg;, iPad&reg; and iPod Touch&reg;, as well as Android&reg; and other mobile devices, where and to the extent available (collectively, "Mobile Devices") by and through the Apple&reg; App Store, the Google Play&reg; store (where available) and other applicable venues (collectively, "Download Venues");(c) accesses certain reviews, ratings, tips, rankings, lists, text, images, video, audio and other content and information relating to the Watchmode&trade; Offerings as made available by: (i) Watchmode&trade; (collectively, "Watchmode&trade; Content");and/or (ii) Users ("User Content," and together with the Watchmode&trade; Content, the "Content");(d) registers for a Watchmode&trade; account ("Account") as an end-user of the App and/or Site ("User"), which enables Users to: (i) create personalized profile pages which may include images uploaded by Users and User Content ("Profile Pages");and (ii) upload links and buttons ("User Links") associated with such Users&rsquo; third-party video streaming service providers ("Third-Party Streaming Services") to a personalized dashboard ("Dashboard");(e) accesses certain message boards, comment sections, messaging functionality and other interactive features of the Watchmode&trade; Offerings ("Interactive Services");(f) accesses links to the Watchmode&trade; social media pages/accounts appearing on third-party social media websites (collectively, "Social Media Pages"), such as Facebook&reg;, Instagram&reg;, Twitter&reg; and YouTube&reg; (collectively, "Social Media Websites," and together with the Site, App, Content, Profile Pages, Dashboard and Interactive Services, the "Watchmode&trade; Offerings");and/or (g) otherwise affirmatively consents to this Privacy Policy.</p>
+        <p>Capitalized terms not defined herein shall have the meanings set forth in the Watchmode&trade; Mobile Application End-User License Agreement and Website Terms and Conditions ("Terms").</p>
+        <p><em>Apple&reg;,&nbsp;Apple TV&reg;,</em>&nbsp;<em>iTunes&reg;, iPhone&reg;, iPad&reg; and iPod Touch&reg; are registered trademarks of Apple, Inc. ("Apple"). Facebook&reg; and Instagram&reg; are registered trademarks of Facebook, Inc. ("Facebook"). Android&reg;, Google&reg;, Google Play&reg; and YouTube&reg; are registered trademarks of Google, Inc. ("Google"). Twitter&reg; is a registered trademark of Twitter, Inc. ("Twitter"). Please be advised that the Watchmode&trade; is not in any way affiliated with Apple, Facebook or Twitter, and the Watchmode&trade; Offerings are not endorsed, administered or sponsored by any of the foregoing entities.</em></p>
+        <p><strong>Privacy Rights of Minors</strong></p>
+        <p>The Watchmode&trade; Offerings are not available to anyone under thirteen (13) years of age.</p>
+        <p>The Watchmode&trade; Offerings are not available to anyone under the age of eighteen (18) (or the applicable age of majority, if greater than eighteen (18) years of age in their respective jurisdictions) whose registration has not been approved by a parent or legal guardian.</p>
+        <p>Watchmode&trade; does not knowingly solicit or collect personal information from Users under thirteen (13) years of age (&ldquo;Child&rdquo;). If you are a under eighteen (18) years of age, or the applicable age of majority, if greater than eighteen (18) years of age in your jurisdiction of residence, but older than thirteen (13) years of age (&ldquo;Minor&rdquo;), and you wish to access the Site and/or App, you must have your parent(s) or legal guardian(s) (collectively, &ldquo;Parent&rdquo;): (a) give you their permission for you to access and use of the Site and/or App; and (b) review this Privacy Policy with you and discuss any questions that you may have.</p>
+        <p>Watchmode&trade; encourages Parents to participate in and monitor the interactive activities of their Minors on the Site and/or the App. Watchmode&trade; will never knowingly share personal information about Minors (&ldquo;Minor Personal Information&rdquo;) with business partners or other third parties for any purpose other than providing the Watchmode&trade; Offerings to those Minors.</p>
+        <p>If you are a parent or guardian of a Minor or Child and discover that your Minor or Child, as applicable, has obtained a Watchmode&trade; Account without your permission, or you otherwise would like Watchmode&trade; to delete the personal information of your Minor or Child, then please contact Watchmode&trade; via&nbsp;<a href="https://www.watchmode.com/misc/contact/">e-mail us here</a>; call us at: (800) 887-1161; or send us U.S. mail to: 3435 Ocean Park Blvd #107D, Santa Monica, CA 90405.</p>
+        <p><strong>Personal Information Collected</strong></p>
+        <p>You are not required to create an account to use Watchmode. If you optionally choose to create a Watchmode&trade; account via the Site or the App, Watchmode will collect and store your full name, email address, date of birth, gender (if you optionally elect to submit this), and any other fields you submit to the registration form, or to the My Account page. You may optionally sign up using your Facebook&reg; account, Google&reg; account, or Apple&reg; account when using the app on an iOS&reg; device.</p>
+        <p>When you create an Account using your Facebook&reg; account, Watchmode&trade; may collect the data from your Facebook account that is authorized by you at the time of signup including (i) your e-mail address; (ii) your full name; (iii) your date of birth; (iv) your profile picture; (v) your gender; and (vi) any other information collected via the Facebook&reg; account interface, depending on the User&rsquo;s Facebook&reg; account settings (collectively, "Facebook&reg; Registration Data").</p>
+        <p>When you create an Account using your Google&reg; account, Watchmode&trade; may collect some or all of the following (depending on the User&rsquo;s Google&reg; account settings and the discretion of Google&reg;): (A) the User&rsquo;s e-mail address; (B) the User&rsquo;s full name; (C) the User&rsquo;s profile picture; and (D) any other information collected via the Google&reg; account interface, depending on the User&rsquo;s Google&reg; account settings.</p>
+        <p>When you create an Account using your Apple&reg; account, Watchmode&trade; may collect some or all of the following (depending on the User&rsquo;s Apple&reg; account settings and the discretion of Apple&reg;): (A) your e-mail address, or a private relay email address provided by Apple&reg;; (B) your full name; (C) any other information collected via the Apple &reg; account interface, depending on the User&rsquo;s Apple &reg; account settings.</p>
+        <p>When a User creates a Watchmode account using a 3rd party like Google&reg;, Apple&reg; &nbsp;or Facebook&reg;, her/his information will be stored in Watchmode's database, even if they delete it from Apple&reg;, Google&reg; or Facebook&reg;, or delete their Apple&reg;, Google&reg; or Facebook&reg; account. This information can always be deleted from Watchmode by a logged in User simply by clicking the "My Account" option from the navigation menu of the website, clicking "Delete my account" and following the steps to permanently delete user information, or in the App by pressing on the profile icon in the top right of the App, pressing on the Edit Profile button, and then pressing "Delete my account".</p>
+        <p>In addition, where a User creates a Profile Page, that User may opt to provide some or all of the following (which may be viewable by other Users): (I) user name; (II) profile picture; (III) gender; (IV) date of birth; and (V) any other information that can be uploaded to the applicable Profile Page.</p>
+        <p><strong>Use of Personal Information</strong></p>
+        <p>Watchmode&trade; uses your personal information for the purpose of providing the Offerings on the website and app, such as providing customized movie and show recommendations using your date of birth and gender as factors. Watchmode does not display your personal information anywhere in the App or Website, unless you specifically elect to display information on your profile page.</p>
+        <p>Watchmode&trade; does not share your personal information with any third-parties for the purposes of marketing.</p>
+        <p>Watchmode&trade; will use personal information submitted by you to provider customer service and respond to inquiries.</p>
+        <p>Watchmode&trade; will use your e-mail address to provide Account related email updates, helpful e-mails about the Watchmode&trade; offerings, e-mails about movies &amp; TV shows &amp; streaming services, and other emails Watchmode &trade; deems relevant to the Offering.</p>
+        <p>We reserve the right to release current or past personal information: (i) in the event that we believe that the Watchmode&trade; Offerings are being or have been used in violation of the Terms or to commit unlawful acts; (ii) if the information is subpoenaed;&nbsp;<em>provided, however,</em>&nbsp;that, where permitted by applicable law, we shall provide you with e-mail notice, and opportunity to challenge the subpoena, prior to disclosure of any personal information pursuant to a subpoena; or (iii) if we are sold, merge with a third party, are acquired or are the subject of bankruptcy proceedings;&nbsp;<em>provided, however,</em>&nbsp;that if Watchmode&trade; is involved in a bankruptcy proceeding, merger, acquisition or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on the Site and in the App of any change in ownership or uses of your personal information, as well as any choices that you may have regarding your personal information.</p>
+        <p><strong>Non-personal information Collection and Use</strong></p>
+        <p>IP Addresses/Browser Type<br /> We may collect certain non-personally identifiable information about you and your computer and/or mobile device when you visit many of the pages of the Site. This non-personally identifiable information includes, without limitation, the type of browser that you use (e.g., Safari, Chrome, Internet Explorer), your IP address, the type of operating system that you use (e.g., Windows or iOS) and the domain name of your Internet service provider (e.g., Verizon, AT&amp;T). We use the non-personally identifiable information that we collect to improve the design and content of the Watchmode&trade; Offerings and to enable us to personalize your Internet experience. We also may use this information in the aggregate to analyze usage of the Watchmode&trade; Offerings.</p>
+        <p>While using the Site or App, Watchmode will collect various data related to the Offerings, such as movie &amp; show ratings, your watchlist, your search history, your reviews, your comments, your recommendation feedback, your lists, your show viewing history and more. &nbsp;</p>
+        <p>Watchmode&trade; reserves the right to share this non-personal information with third-parties, but this information will never contain your personal information.</p>
+        <p>Mobile Device Information<br /> We may collect certain non-personally identifiable information about you and your Mobile Device when you access the App and/or visit certain App pages. This non-personally identifiable information includes, without limitation, the following information pertaining to your Mobile Device and your use of the App: (a) Mobile Device platform type; (b) Mobile Device identifier; (c) SDK version; (d) API key (identifier for the App);(e) App version; (f) iOS Identifier for Advertising (if applicable);(g) iOS Identifier for Vendors (if applicable);(h) Media Access Control (MAC) address; (i) International Mobile Equipment Identity (IMEI);(j) the model type, manufacture and iOS version or Android version of the Mobile Device; (k) your App session start/stop time and date; (l) session ID; and (m) the actions taken while utilizing the App. We use the non-personally identifiable information identified in this paragraph to improve the design and content of the Watchmode&trade; Offerings and to enable us to personalize your App experience. We also may use this information in the aggregate to analyze Watchmode&trade; Offerings usage, alter existing Watchmode&trade; Offerings and/or develop new or different Watchmode&trade; Offerings.</p>
+        <p>Cookies</p>
+        <p>When a User signs up for the Site, logs in to the Site, or elects to use the Site without signing up, but chooses the streaming providers, Watchmode&trade; will send one (1) or more cookie files (collectively, "Cookies") to assign an anonymous, unique identifier to the applicable User&rsquo;s computer and/or Mobile Device, as applicable.</p>
+        <p>A Cookie is a piece of data stored on your computer&rsquo;s hard drive/Mobile Device containing non-personally identifiable information about you. Cookies have many benefits to enhance your experience at the Site and in the App. To find out more about Cookies, please visit www.cookiecentral.com. We use Cookies to improve the quality of the Watchmode&trade; Offerings, including for storing User preferences and tracking Site/App-User trends (such as Site pages opened and App-session length).</p>
+        <p>Most Internet browsers and Mobile Devices are initially set up to accept Cookies, but you can reset your browser or Mobile Device to refuse all Cookies or to indicate when a Cookie is being sent. To disable and reject certain Cookies, follow the instructions associated with your Internet browser and/or Mobile Device, as applicable. Even in the case where a User rejects a Cookie, he or she may still use the Watchmode&trade; Offerings;&nbsp;<em>provided, however,</em>&nbsp;that certain functions of the Watchmode&trade; Offerings may be impaired or rendered inoperable if the use of Cookies is disabled. We reserve the right to retain Cookie data indefinitely.</p>
+        <p>Behavioral Tracking<br /> Watchmode&trade;, as well as third party entities such as Google&reg;, use Cookies, pixels and other tracking technology (collectively, "Tracking Technology") in connection with the Site and App for purposes of tracking Users&rsquo; activities (such as websites visited, advertisements selected and pages viewed) after they leave the Site and/or exit the App. Watchmode&trade;, and its third-party partners, use this Tracking Technology to target applicable Users with advertisements featuring Watchmode&trade; products and/or services, as well as third-party products and/or services, that may be of interest to applicable Users.</p>
+        <p>In general, Users may be able to disable some, or all, of this tracking activity by utilizing the "Do Not Track" setting or similar options within most major Internet browsers. In addition, Users may be able to opt-out of this form of tracking utilizing the options made available by the&nbsp;<a href="http://www.networkadvertising.org/choices/">Network Advertising Initiative</a>&nbsp;or&nbsp;<a href="http://www.aboutads.info/choices/">Digital Advertising Alliance</a>.</p>
+        <p>Further, Users can opt-out of certain Google&reg;-related tracking technology, and customize the Google&reg; Display Network ads that they receive, by visiting the Google&reg; Ads Settings at: http://www.google.com/settings/ads. Google&reg; also recommends installing the Google&reg; Analytics Opt-out Browser Add-on for your web browser, which is available here: https://tools.google.com/dlpage/gaoptout. To the greatest extent permissible under applicable law, we are not responsible for the tracking practices of third-parties in connection with the Site.</p>
+        <p>Geolocation Tracking<br /> Please be advised that, with your permission, Watchmode&trade; uses geolocation tracking technology in order to enable certain features of the App, such as providing you with Watchmode&trade; Offerings specially tailored to your geographical region. In connection with the foregoing, your geolocation information will not be shared with third parties for marketing purposes. Other than as set forth in this paragraph, Watchmode&trade; does not track your geolocation, or share or use your geolocation information, for any purpose.</p>
+        <p>Cross Device Tracking<br /> Watchmode&trade; may track Users&rsquo; use of the Watchmode&trade; Offerings across various devices, including Users&rsquo; personal computers and Mobile Devices, in order to optimize and personalize use of the Watchmode&trade; Offerings. Watchmode&trade; may collect certain User personal information across various devices.</p>
+        <p>Aggregate Data<br /> Watchmode&trade; reserves the right to transfer and/or sell aggregate or group data about Users of the Watchmode&trade; Offerings for lawful purposes. Aggregate or group data is data that describes the demographics, usage and other characteristics of Watchmode&trade; Offerings Users as a group, without disclosing personally identifiable information.</p>
+        <p><strong>Profile Page</strong></p>
+        <p>If you choose to include additional information and/or User Content on your Profile Page, you should be aware that the personal information/User Content that you include on your Profile Page can be read, collected and/or used by other Users of the Watchmode&trade; Offerings, and could be used to send you unsolicited messages or otherwise to contact you without your consent or desire.&nbsp;We are not responsible for the personal information that you choose to include on, or link to, via your Profile Page.</p>
+        <p><strong>Interactive Services/Social Media Pages</strong></p>
+        <p>If you engage in any interaction with Watchmode&trade;, other Users or any third party on any Social Media Pages or via the Interactive Services, you should be aware that: (a) the personal information that you submit by and through such Social Media Pages and/or Interactive Services, as applicable, can be read, collected and/or used by other users of these mobile applications/websites/services (depending on your privacy settings associated with your accounts with the applicable Social Media Websites or Mobile Applications), and could be used to send you unsolicited messages or otherwise to contact you without your consent or desire; and (b) where Watchmode&trade; responds to any interaction on such Social Media Pages, your account name/handle may be viewable by any and all members/users of Watchmode&rsquo;s&trade; social media accounts.</p>
+        <p>We are not responsible for the personal information that you choose to submit on, or link to, any Social Media Pages or via the Interactive Services. The Social Media Pages operate independently from Watchmode&trade;, and we are not responsible for such Social Media Pages&rsquo; interfaces or privacy or security practices. We encourage you to review the privacy policies and settings of the Social Media Pages with which you interact to help you understand those Social Media Pages&rsquo; privacy practices. If you have questions about the security and privacy settings of any Social Media Pages that you use, please refer to their applicable privacy notices or policies.</p>
+        <p><strong>Social Media Features and Widgets</strong></p>
+        <p>Our Site and App may include social media features, such as the Facebook&reg; "Share" button. These features may collect your IP address and the page that you are visiting on the Site/App, and may set a cookie to enable the feature to function properly. Social media features and widgets are either hosted by a third party or hosted directly on our Site and/or in our App, as applicable. Your interactions with these features are governed by the applicable privacy policy of the social media company providing same. Below is information concerning some of these social media widgets:</p>
+        <p>Facebook&reg;</p>
+        <p>The Facebook&reg; Social Media Website and associated social plug-ins are operated by Facebook Inc., 1601 South California Ave, Palo Alto, CA 94304, USA and are available at&nbsp;<a href="https://www.facebook.com/">www.facebook.com</a>. The Facebook&reg; plug-in(s) used on the Site and in the App can be identified by one of Facebook&rsquo;s&reg; logos. The list of Facebook&reg; social plug-ins and their appearances and functions can be found at:&nbsp;<a href="https://developers.facebook.com/docs/plugins/">developers.facebook.com/docs/plug-ins</a>. We have no control over the data that Facebook&reg; collects via its social plug-ins. Please note, where you use a Facebook&reg; social plug-in on the Site and/or in the App, this allows Facebook&reg; to learn that you have visited the underling Site/App page, even if you are not a registered Facebook&reg; user or if you are not logged in to your Facebook&reg; account, if any, at that time. Your browser will transfer this information, as well as your IP address, to Facebook&rsquo;s&reg; server in the USA where such information is stored. If you are logged in to Facebook&reg;, Facebook&reg; can associate your visit to the Site/App session, as applicable, to your Facebook&reg; account. To find out more about the reasons why and the extent to which Facebook&reg; collects data, how the data is further processed and used, your rights associated with same, and the settings options that you can select to protect your privacy, please read Facebook&rsquo;s&reg; Data Protection Policy, which can be found at:&nbsp;<a href="http://www.facebook.com/about/privacy">www.facebook.com/about/privacy</a>. It may also be possible to block Facebook&reg; social plug-ins by using add-ons for your browser, e.g. with the Facebook&reg; blocker.</p>
+        <p><strong>Twitter&reg;</strong></p>
+        <p>We may use plug-ins on the Site and in the App that are provided by Twitter Inc.,1355 Market St, Suite 900, San Francisco, CA 94103, USA, which can be identified by the Twitter&reg; logo. The Twitter&reg; plug-ins enable Users to, among other things, share blog posts, articles and/or other pages of the Site/App on Twitter&reg;. If you access a website that includes this plug-in, your browser sets up a direct connection to Twitter&rsquo;s&reg; servers. We have no control over the data that Twitter&reg; collects via its social plug-ins. Additional information is available in Twitter&rsquo;s&reg; privacy policy, which can be found at:&nbsp;<a href="https://twitter.com/privacy?lang=en">https://twitter.com/privacy</a>.</p>
+        <p><strong>Third-Party Websites and Mobile Applications</strong></p>
+        <p>The Site and App may contain links to third-party owned and/or operated websites and mobile applications including, without limitation, the Social Media Pages. Watchmode&trade; is not responsible for the privacy practices or the content of such websites or mobile applications. In some cases, you may be able to make a purchase through one of these third-party websites or mobile applications. In these instances, you may be required to provide certain information, such as a credit card number, to register or complete a transaction at such website or mobile application. These third-party websites and mobile applications have separate privacy and data collection practices and Watchmode&trade; has no responsibility or liability relating to them.</p>
+        <p><strong>Security</strong></p>
+        <p>We endeavor to safeguard and protect our Users&rsquo; personal information. When Users make personal information available to us, their personal information is protected both online and offline (to the extent that we maintain any personal information offline). Where we ask Users to enter sensitive data (such as credit card information), if ever, and when we store and transmit such Sensitive Data, that personal information is encrypted with advanced TLS (Transport Layer Security).</p>
+        <p>Access to your personal information is strictly limited, and we take reasonable measures to ensure that your personal information is not accessible to the public. All of our Users&rsquo; personal information is restricted in our offices, as well as in the offices of our third party service providers. Only employees or third party agents who need User personal information to perform a specific job function are granted access to User personal information. Our employees are dedicated to ensuring the security and privacy of all User personal information. Employees not adhering to our firm policies are subject to disciplinary action. The servers that we store User personal information on are kept in a secure physical environment. We also have security measures in place to protect the loss, misuse and alteration of personal information under our control.</p>
+        <p>Please be advised, however, that while we take every reasonable precaution available to protect your data, no storage facility, technology, software, security protocol or data transmission over the Internet or via wireless networks can be guaranteed to be 100% secure. Computer hackers that circumvent our security measures may gain access to certain portions of your personal information, and technological bugs, errors and glitches may cause inadvertent disclosures of your personal information;&nbsp;<em>provided, however,</em>&nbsp;that any attempt to breach the security of a network, our servers, databases or other hardware or software may constitute a crime punishable by law. For the reasons mentioned above, we cannot warrant that your personal information will be absolutely secure. Any transmission of data at or through the Site, App, other Watchmode&trade; Offerings or otherwise via the Internet or wireless networks, is done at your own risk.</p>
+        <p>In compliance with applicable federal and state laws, we shall notify you and any applicable regulatory agencies in the event that we learn of an information security breach with respect to your personal information. You will be notified via e-mail in the event of such a breach. Please be advised that notice may be delayed in order to address the needs of law enforcement, determine the scope of network damage, and to engage in remedial measures.</p>
+        <p><strong>Opt-Out/Unsubscribe</strong></p>
+        <p>To opt-out of receiving e-mail and other forms of communications from us, you can: (a) follow the instructions included in the applicable e-mail message or other communication; or (b)&nbsp;<a href="https://www.watchmode.com/misc/contact/">e-mail us here</a>.</p>
+        <p>Notwithstanding the foregoing, we may continue to contact you for the purpose of communicating information relating to your request for Watchmode&trade; Offerings, as well as to respond to any inquiry or request made by you. To opt-out of receiving Watchmode&trade; Offerings-related and/or inquiry response-related messages from Watchmode&trade;, you must cease requesting and/or utilizing the Watchmode&trade; Offerings and/or cease submitting inquiries to Watchmode&trade;, as applicable.</p>
+        <p><strong>Deleting, Modifying and Updating Your Information</strong></p>
+        <p>At your request, we will: (a) inform you of what personal information we have on file for you (or in the case of a Parent, the applicable Minor Personal Information we have on file);(b) amend the personal information that we have on file for you (or in the case of a Parent, the applicable Minor Personal Information we have on file);and/or (c) remove personal information that you have provided to us, or that we have collected, from our servers/databases (or in the case of a Parent, the applicable Minor Personal Information we have on file). You may do so by utilizing the options made available in your Account interface and/or by&nbsp;<a href="https://www.watchmode.com/misc/contact/">e-mailing us here</a>. We ask individual Users to identify themselves and the information requested to be accessed, corrected or removed before processing such requests, and, to the extent permitted by applicable law, we may decline to process requests that are unreasonably repetitive or systematic, require disproportionate technical effort, jeopardize the privacy of others or would be extremely impractical (for instance, requests concerning information residing on backup tapes).</p>
+        <p>Please be advised that deleting your personal information may terminate your access to certain of the Watchmode&trade; Offerings. If you wish to continue using the full complement of Watchmode&trade; Offerings, you may not be able to delete all of the personal information that we have on file for you.</p>
+        <p>Please be further advised that, after you delete your personal information, residual copies may take a period of time before they are deleted from our active servers and may remain in our backup systems.</p>
+        <p><strong>Transfer of personal information Internationally</strong></p>
+        <p>If you are visiting the Site and/or accessing the App from a country other than the country in which our servers are located, your communications with us may result in the transfer of information across international boundaries. By visiting the Site, accessing the App and/or otherwise communicating electronically with us, you consent to such transfers. Even if your jurisdiction does not have the same privacy laws as the jurisdiction where our servers are located, we will treat your information as subject to the protections described in this Privacy Policy.</p>
+        <p><strong>Your California Privacy Rights</strong></p>
+        <p>If you are a resident of the State of California and would like to learn how your "personal information" (as defined in the Shine the Light Law, Cal. Civ. Code &sect; 1798.83) is shared with third-parties, what categories of personal information that we have shared with third-parties in the preceding year, as well as the names and addresses of those third-parties, please call us at: (800) 887-1161;&nbsp;<a href="https://www.watchmode.com/misc/contact">e-mail us here</a>; or send us U.S. mail to: 3435 Ocean Park Blvd #107D, Santa Monica, CA 90405.</p>
+        <p><strong>Your Nevada Privacy Rights</strong></p>
+        <p>Watchmode&trade; &nbsp;does not sell your personal information to any third party data broker.&nbsp; However if you would like to be on record as formally opt-ing out of any sharing of your personal information please call us at: (800) 887-1161;&nbsp;<a href="https://www.watchmode.com/misc/contact/">e-mail us here</a>; or send us U.S. mail to: 3435 Ocean Park Blvd., #107D, Santa Monica, CA 90405.</p>
+        <p><strong>Changes to this Privacy Policy</strong></p>
+        <p>Watchmode&trade; reserves the right to change or update this Privacy Policy at any time by posting a notice on the Site and in the App that we are changing our Privacy Policy. If the manner in which we use personal information changes, Watchmode&trade; will notify Users by: (a) sending the modified policy to our Users via email; and/or (b) by any other reasonable means acceptable under applicable state and federal law. You will have a choice as to whether or not we use your information in this different manner, and we will only use your information in this different manner where you opt-in to such use.</p>
+        
+        <p><strong>Google&reg;</strong></p>
+        <p>The Watchmode website and app uses various services provided by Google, such as Google Analytics, YouTube and Sign in With Google. To review Google's Privacy Policy please visit: <a href="http://www.google.com/policies/privacy">http://www.google.com/policies/privacy</a>.</p>        
+        <p><strong>Contact Us</strong></p>
+        <p>If you have any questions about this Privacy Policy or our privacy practices in general, you may&nbsp;<a href="https://www.watchmode.com/misc/contact/">e-mail us here</a>; call us at: (800) 887-1161; or send us U.S. mail to: 3435 Ocean Park Blvd #107D, Santa Monica, CA 90405.</p>
+        <p><strong>Filing a Complaint with the Federal Trade Commission</strong></p>
+        <p>To file a complaint regarding our privacy practices, please&nbsp;<a href="https://www.ftc.gov/news-events/media-resources/identity-theft-and-data-security/filing-complaint">Click Here</a>.</p>
+    </div>
+    	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-col">
+						<h4>Watchmode</h4>
+						<p>The site for finding what to watch.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="footer-col middle">
+						<h4>Some stuff</h4>
+						<div class="d-inline-flex" style="align-items: center; align-content: center">
+							<div class="me-2 me-2">
+								<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-square-fill teal" style="font-size: 11px" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/></svg>
+							</div>
+							<div>
+								<a class="teal" href="/misc/contact/">Contact Us</a>
+							</div>
+						</div>
+						<div></div>
+						<div class="d-inline-flex" style="align-items: center; align-content: center">
+							<div class="me-2 me-2">
+								<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-square-fill teal" style="font-size: 11px" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/></svg>
+							</div>
+							<div>
+								<a class="teal" href="https://api.watchmode.com">Watchmode API</a>
+							</div>
+						</div>
+						<div></div>
+						<div class="d-inline-flex" style="align-items: center; align-content: center">
+							<div class="me-2 me-2">
+								<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-square-fill teal" style="font-size: 11px" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/></svg>
+							</div>
+							<div>
+								<a class="teal" href="/misc/about/">About Us</a>
+							</div>
+						</div>
+						<div></div>
+						<div class="d-inline-flex" style="align-items: center; align-content: center">
+							<div class="me-2 me-2">
+								<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-square-fill teal" style="font-size: 11px" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/></svg>
+							</div>
+							<div>
+								<a class="teal" href="/misc/terms/">Terms & Conditions</a>,&nbsp;<a class="teal" href="/misc/privacy/">Privacy Policy</a>.</div>
+						</div>
+						<div></div>
+						<div class="d-inline-flex" style="align-items: center; align-content: center">
+							<div class="me-2 me-2">
+								<svg width="1em" height="1em" viewbox="0 0 16 16" class="bi bi-square-fill teal" style="font-size: 11px" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/></svg>
+							</div>
+							<div>
+								<a class="teal" href="/misc/dataDeletion/">Data Deletion Instructions</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="footer-col last">
+						<h4>Follow Watchmode</h4>
+						<a href="https://www.facebook.com/WatchmodeApp"><img src="https://cdn.watchmode.com/misc_images/footerFacebook.png" alt="Follow Watchmode on Facebook" class="footerSocialIcon"/></a>
+						<a href="https://twitter.com/_watchmode"><img src="https://cdn.watchmode.com/misc_images/footerTwitter.png" alt="Follow Watchmode on Twitter" class="footerSocialIcon"/></a>
+						<a href="https://www.youtube.com/channel/UCfkMT9pfgeTCpSExz4S_Xyw"><img src="https://cdn.watchmode.com/misc_images/footerYoutube.png" alt="Follow Watchmode on YouTube" class="footerSocialIcon"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-start">
+					<p class="textSmall lightGrey">Watchmode™ does not itself provide any video streaming service. The terms/conditions of using any streaming services accessible via links on Watchmode will be determined by those 3rd party streaming service providers (“Providers”). The names & logos associated with the Providers are the registered trademarks of those respective entities. We are not affiliated with, endorsed, administered or sponsored by any of those entities.</p>
+					<p class="textSmall lightGrey">We do not condone the unauthorized streaming or submission of 3rd party intellectual property. We do our best to provide accurate information, however sometimes information on this site can be outdated/inaccurate. If you believe that your property has been submitted to/streamed on the Site without your authorization, or to report inaccurate information please&nbsp;<a href="/misc/contact/">contact us</a>.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="p-small">Copyright ©2019-2024&nbsp;Watchmode - All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#body" class="back-to-top page-scroll d-none">Back to Top</a>
+<div id="toast"></div>
+	<div class="modal fade" id="needAccountModal" tabindex="-1" role="dialog" style="z-index: 2222" aria-labelledby="needAccountModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="needAccountModalLabel">One thing missing...</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body" id="needAccountModalBody"><div id="needAccountFormAlert" style="display: none;" role="alert"></div><p class="ultraLightGrey">Before you can do a bunch of cool stuff like save titles to your watchlist, track your favorite shows, get A.I. recommendations, save your searches and leave reviews & ratings, you have to:<BR><BR><a href="/misc/servicesChooser/?uuidSignup=1&returnURL=aHR0cHM6Ly93d3cud2F0Y2htb2RlLmNvbQ">Set your streaming services & movie/show preferences</a><BR><BR>It's free, you don't have to create an account, and takes just a minute.<BR><BR>Already have a Watchmode account?&nbsp;<a href="/login/?returnURL=aHR0cHM6Ly93d3cud2F0Y2htb2RlLmNvbQ" class="teal">Login</a></p></div></div></div></div>
+<div class="modal fade" id="regionChooserModal" tabindex="-1" role="dialog" style="z-index: 2222;" aria-labelledby="regionChooserModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="regionChooserModalLabel">CHANGE YOUR VIEWING COUNTRY</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body" id="regionChooserModalBody" style="text-align: center; margin: auto;"><div id="regionChooserModalAlert" style="display: none;" role="alert"></div><div class="container"><div class="row"><div class="col"><div class="mb-2"><button class="btn btn-secondary regionChooserCountry" data-region="US"><img src="https://cdn.watchmode.com/misc_images/icons/usFlag2.png" style="width: 30px;" alt="USA">&nbsp;&nbsp;USA</button></div><div class="mb-2"><button class="btn btn-secondary regionChooserCountry" data-region="CA"><img src="https://cdn.watchmode.com/misc_images/icons/flagCA.png" style="width: 30px;" alt="Canada">&nbsp;&nbsp;Canada</button></div><div class="mb-2"><button class="btn btn-secondary regionChooserCountry" data-region="GB"><img src="https://cdn.watchmode.com/misc_images/icons/flagGB.png" style="width: 30px;" alt="Great Britain">&nbsp;&nbsp;Great Britain</button></div><div class="mb-2"><button class="btn btn-secondary regionChooserCountry" data-region="AU"><img src="https://cdn.watchmode.com/misc_images/icons/flagAU.png" style="width: 30px;" alt="Australia">&nbsp;&nbsp;Australia</button></div><div class="mb-2"><button class="btn btn-secondary regionChooserCountry" data-region="BR"><img src="https://cdn.watchmode.com/misc_images/icons/flagBR.png" style="width: 30px;" alt="Brazil">&nbsp;&nbsp;Brazil</button></div></div></div></div><div class="mt-4">We're always adding more countries, so check back if you don't see your country listed!</div></div></div></div></div>
+<script>const isAdmin = false;const combinedUserID = '';const isLoggedIn = false;const navbarHidden = false;const userType = 0;const formKey = 'NzEwMTg4NjcyMjc4NzQ=';const returnUrl = 'https://www.watchmode.com';const WATCHMODE_CDN1 = 'https://cdn.watchmode.com';
+</script>
+<script src="/static/js/global.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  <link rel="icon" href="public/favicons/news.ico" type="image/x-icon">
+
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="82d5acac-7522-4291-8323-68615be1487d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <style>
+      /* Define the pulsing animation */
+      @keyframes pulse {
+          0% {
+              transform: scale(1); /* Start at normal size */
+          }
+          50% {
+              transform: scale(1.05); /* Slightly enlarge it */
+          }
+          100% {
+              transform: scale(1); /* Return to normal size */
+          }
+      }
+      
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+          padding: 20px;
+        }
+
+        .container {
+          margin: 0 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+          border-radius: 50px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          animation: pulse 2s infinite;
+
+        }
+
+        h1, h2, p, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+          text-align: center;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+          text-align: center;
+        }
+
+      
+
+        .video-container {
+            position: relative;
+            /* overflow: hidden; */
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+          /* padding-top: 500px; */
+          margin-top: 30px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+
+        .btn:hover, .btn:focus {
+            background-color: #0056b3;
+            outline: none;
+        }
+
+      .openai {
+        background-color: #10A37F;
+      }
+
+        .example-prompts, .legal-info {
+            margin-top: 30px;
+        }
+      
+
+        .example-prompts h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+
+      .example-prompts p {
+        text-align: left;
+      }
+
+        .example-prompts ul {
+            list-style-type: none;
+            padding-left: 0;
+            gap: 10px;
+            display: grid;
+        }
+
+        .legal-info a {
+            font-size: 0.9em;
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .legal-info a:hover, .legal-info a:focus {
+            color: #333;
+            outline: none;
+        }
+
+      .btn-group {
+        margin-top: 30px;
+      }
+
+      @media screen and (min-width: 768px) {
+
+        .content {
+          margin: 0 20px;
+        }
+          .header-content {
+              flex-direction: row-reverse; /* Change direction so the logo appears on the left */
+              justify-content: space-between; /* Space out the child elements */
+              gap: 30px; /* Add a gap between child elements */
+          }
+
+        h1, p {
+          text-align: left;
+        }
+        
+
+          .logo {
+              margin: 0;
+          }
+      }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <h1>Legal</h1>
+                </div>
+            </div>
+          <h2>Generative Innovations: "news" Terms and Conditions</h2>
+          <p>Last updated: 23/10/2023</p>
+
+          <p>Please read these Terms and Conditions ("Terms") carefully before using the "news" service (the "Service") operated by Generative Innovations ("us", "we", or "our").</p>
+
+          <p>By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the Service.</p>
+
+          <h3>Service Description:</h3>
+          <p>"news" is a service that provides real-time access to news articles from various sources around the world.</p>
+
+          <h3>User Responsibilities:</h3>
+          <p>You are responsible for ensuring that your use of the Service complies with all local, state, national, and international laws.</p>
+
+          <h3>Privacy:</h3>
+          <p>Your privacy is important to us. Please review our Privacy Policy for more information on how we collect, use, and share your personal data.</p>
+
+          <h3>Intellectual Property:</h3>
+          <p>All content provided by the Service, including but not limited to text, graphics, logos, and news articles, is the property of Generative Innovations or its content suppliers and is protected by international copyright laws.</p>
+
+          <h3>Content Sources:</h3>
+          <p>The Service aggregates content from third-party sources. We do not endorse, guarantee, or assume responsibility for the accuracy, relevance, or completeness of any content provided by these third-party sources.</p>
+
+          <h3>Prohibited Uses:</h3>
+          <p>You may not use the Service for any illegal or unauthorized purpose. You must not attempt to circumvent any security features of the Service.</p>
+
+          <h3>Termination:</h3>
+          <p>We reserve the right to terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+
+          <h3>Limitation of Liability:</h3>
+          <p>To the fullest extent permitted by law, Generative Innovations shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from (a) your access to, use of, or inability to access or use the Service; (b) any unauthorized access to or use of our servers and/or any personal information stored therein; (c) any bugs, viruses, or similar that may be transmitted to or through our Service by any third party; (d) any errors or omissions in content; or (e) any other matter relating to the Service.</p>
+
+          <h2>Generative AI Legal Disclaimer & Terms of Use for news, one news, alpha news</h2>
+
+          <h3>1. Nature & Limitations of Generative AI</h3>
+          <p>The services ("news", "one news", "alpha news") incorporate generative artificial intelligence ("Generative AI"). By its very nature, AI utilizes algorithms and extensive datasets to generate content, which inherently carries potential unpredictability and limitations.</p>
+
+          <h3>2. Content Authenticity and Accuracy</h3>
+          <p>The content produced may, from time to time, be imprecise, incomplete, or contextually inappropriate. These outputs are algorithmic consequences and are not intended to reflect or express the objectives, perspectives, or beliefs of Generative Innovations or its affiliates. Generative Innovations does not guarantee or warrant the reliability, completeness, or accuracy of the AI-generated content.</p>
+
+          <h3>3. User's Reliance on AI-generated Content</h3>
+          <p>Users expressly acknowledge and agree that any information, content, or output provided by or influenced by the Generative AI should not be the definitive basis for significant decisions, including but not limited to financial, personal, or business contexts. It remains imperative for users to employ discretion, validate information from authoritative sources, and obtain professional advice when necessary.</p>
+
+          <h3>4. Limitations of Liability & Indemnification</h3>
+          <p>Generative Innovations, its affiliates, and its licensors are not liable for any claim, damages, or other liabilities, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the AI-generated content. Users agree to defend, indemnify, and hold harmless Generative Innovations and its licensee and licensors, and their employees, contractors, agents, officers, and directors, from and against any claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of use or misuse of the AI-powered services.</p>
+
+
+
+          <h3>Changes to Terms:</h3>
+          <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days' notice prior to any new terms taking effect. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you must stop using the Service.</p>
+
+          <h3>Governing Law & Jurisdiction:</h3>
+          <p>These Terms shall be governed by and construed in accordance with the laws of [Specify Country/State], without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.</p>
+
+          <h3>Contact Us:</h3>
+          <p>If you have any questions about these Terms, please contact us at: <a href="mailto:contact@gpt-news.co">contact@gpt-news.co</a>.</p>
+
+          <footer>
+              <p>© 2023 Generative Innovations. All rights reserved.</p>
+          </footer>
+
+        </div>
+    </main>
+</body>
+
+</html>

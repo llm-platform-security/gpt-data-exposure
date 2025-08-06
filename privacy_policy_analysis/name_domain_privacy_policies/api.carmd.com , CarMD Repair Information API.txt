@@ -1,0 +1,3097 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarMD API</title>
+    <link rel="icon" href="/member/Content/APIDocs/images/favicon.png" type="image/x-icon" />
+    <meta name="description" content="CarMD API Docs Theme">
+    <meta name="author" content="CarMD">
+    <meta name="copyright" content="CarMD">
+    <meta name="date" content="2018-6-22">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/member/Content/APIDocs/css/jquery.mobile-menu.css">
+    <link rel="stylesheet" type="text/css" href="/member/Content/APIDocs/css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/member/Content/APIDocs/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/member/Content/APIDocs/css/dev-reset.css">
+</head>
+<body id="pixxett-api">
+    <div id="page">
+        <!-- Header -->
+        <header class="header" id="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1 col-sm-2">
+                        <div class="mm-toggle-wrap">
+                            <div class="mm-toggle"><i class="fa fa-align-justify"></i><span class="mm-label">Menu</span> </div>
+                        </div>
+                        <!-- Header Logo -->
+                        <a class="header__block header__brand" href="https://www.carmd.com/">
+                            <h1><img src="/member/Content/APIDocs/images/logo.png" alt="API UI logo"></h1>
+                        </a>
+                        <!-- End Header Logo -->
+                    </div>
+                    <div class="col-lg-11 col-sm-10 hidden-xs">
+                        <div class="header__nav">
+                            <div class="header__nav--right">
+                                    <ul class="dx-nav-0 dx-nav-0-tools">
+                                        <li class="dx-nav-0-item ">
+                                            <a class="dx-nav-0-link" href="/member/login">Login</a>
+                                        </li>
+                                    </ul>
+                                    <div class="dx-auth-block">
+                                        <div class="dx-auth-logged-out">
+                                            <a class="dx-auth-login dx-btn dx-btn-primary" data-js="auth-btn" href="/member/register"
+                                               data-dxa="login,nav-click,nav-login">Sign up</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- header service -->
+        <div class="header-section-wrapper">
+            <div class="header-section header-section-example">
+                <div id="language">
+                    <ul class="language-toggle">
+                        <li>
+                            <input type="radio" class="language-toggle-source" name="language-toggle" id="toggle-lang-none" data-language="none" checked="checked">
+                            <label for="toggle-lang-none" class="language-toggle-button language-toggle-button--none">none</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End header service -->
+        <!-- Sidebar -->
+        <div id="documenter_sidebar">
+            <div id="scrollholder" class="scrollholder">
+                <div id="scroll" class="scroll">
+                    <ol id="documenter_nav">
+                        <li><a class="current" href="#intro"> Introduction</a></li>
+                        <li><a href="#auth"> Authentication</a></li>
+                        <li><a href="#requests"> Requests</a></li>
+                        <li><a href="#credit-details"> Credit Details </a></li>
+                        <li><a href="#response-formatting"> Response Formatting</a></li>
+                        <li><a href="#available-fields"> GET Available Fields</a></li>
+                        <li><a href="#vin-decode"> GET Vin Decode </a></li>
+                        <li><a href="#vin-decode-more"> GET Vin Decode More </a></li>
+                        <li><a href="#obd2-port-location"> GET OBD2 Port Location </a></li>
+                        <li><a href="#maintenance"> GET Maintenance </a></li>
+                        <li><a href="#maint-full"> GET Maintenance List</a></li>
+                        <li><a href="#code-definition"> GET Code Definition</a></li>                        
+                        <li><a href="#repair"> GET Repair </a></li>
+                        <li><a href="#repair-list"> GET Repair List</a></li>
+                        <li><a href="#repair-info"> GET Repair Info</a></li>
+                        <li><a href="#diagnostics"> GET Diagnostics </a></li>
+                        <li><a href="#upcoming-repairs"> GET Upcoming Repairs </a></li>
+                        <li><a href="#tsb"> GET TSB </a></li>
+                        <li><a href="#safety-recalls"> GET Safety Recalls </a></li>
+                        <li><a href="#vehicle-warrenty"> GET Vehicle Warranty </a></li>
+                        <li><a href="#image"> GET Vehicle Image </a></li>
+                        <li><a href="#vehicle-history-report"> GET Vehicle History Report </a></li>
+                        <li><a href="#ymm"> GET Year, Make, Model, Engine </a></li>
+                        <li><a href="#credits"> GET Credits </a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- end sidebar -->
+        <!-- Section Background -->
+        <div id="background">
+            <div class="background-actual"></div>
+        </div>
+        <!-- End Section Background -->
+        <!-- main Content -->
+        <div id="documenter_content" class="method-area-wrapper">
+            <section id="intro" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>Introduction</h3>
+                            <p>
+                                Welcome to CarMD API V3 developer documentation.
+                            </p>
+                            <p>
+                                These APIs primarily function on vehicles sold in the US since 1996 and have coverage for similar vehicles sold in other countries.
+                                To get started, please <a href="/member/register">register</a> first.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="auth" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>Authentication</h3>
+                            <p>
+                                Before being able to use the CarMD APIs, you must <a href="/member/register">register</a>.  On registration you will have 2 pieces of information which must be submitted as part of your requests.
+                                <ul>
+                                    <li>Partner Token</li>
+                                    <li>Authorization Key</li>
+                                </ul>
+                                Note: Please submit this information through your header.  It will not work if submitted as parameters.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part marginB30">
+                            <h5>API Reference</h5>
+                            <p>
+                                You will need to use this on every call to the CarMD APIs.
+                            </p>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST HEADER
+                        </div>
+                        <div class="method-example-part">
+                            <pre class=" language-none"><code class=" language-none">{
+  "content-type":"application/json",
+  "authorization":"your_auth_key_here",
+  "partner-token":"your_partner_token_here"
+}                           
+</code></pre>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="requests" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>Requests</h3>
+                            <p>
+                                All requests and responses are <b>application/json</b> content type and follow standard HTTP reponse status codes for success and failure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>Status Codes</h5>
+                            <div class="table-responsive">
+                                <div class="table">
+                                    <table class="table-container">
+                                        <colgroup>
+                                            <col class="col-xs-3">
+                                            <col class="col-xs-9">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th class="table-row-property">200</th>
+                                                <td class="table-row-definition">Successful Request</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">400</th>
+                                                <td class="table-row-definition">Bad Request – Invalid request format</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">401</th>
+                                                <td class="table-row-definition">Unauthorized – Invalid API Key</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">402</th>
+                                                <td class="table-row-definition">Request Failed</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">403</th>
+                                                <td class="table-row-definition">Forbidden – You do not have access to the requested resource</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">404</th>
+                                                <td class="table-row-definition">Not Found</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">409</th>
+                                                <td class="table-row-definition">Conflict</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">429</th>
+                                                <td class="table-row-definition">Too Many Requests</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="table-row-property">500, 502, 503, 504</th>
+                                                <td class="table-row-definition">Internal Server Error</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="credit-details" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>Credits</h3>
+                            <p>
+                                For those who:
+                            </p>
+                            <ul>
+                                <li>Want to start with low upfront costs.</li>
+                                <li>Want to use a narrow service set and don't want to be charged for all the services.</li>
+                                <li>Have unknown and/or variable usage.</li>
+                            </ul>
+                            <p>
+                                CarMD APIs offers credit model that charges per request.  Every request with have a different credit fee, with some being very low compared to other endpoints.
+                            </p>
+                            <p>
+                                Users may purchase as many or as few credits as they wish to load up their account.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="response-formatting" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>Response Formatting </h3>
+                            <p>
+                                Every request response comes with a message and data object. The data object contains the endpoint specific response.
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> MESSAGE OBJECT</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        code
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Error message code.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        message
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        ok or failed
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        credentials
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        valid or invalid
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        version
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        v3.0.0
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        endpoint
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Endpoint used for this response
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        count
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Counter for all requests. Increments by one for every request made.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>Response Format</h5>
+                        </div>
+
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{
+    "code":0,
+    "message":"ok",
+    "credentials":"valid",
+    "version":"v3.0.0",
+    "endpoint":"tsb",
+    "counter":101
+  }
+  "data":{}
+}
+</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            <h5>Codes</h5>
+                        </div>
+
+                        <div class="method-example-part">
+                            <div class="table-responsive">
+                                <div class="table">
+                                    <table class="table-container">
+                                        <colgroup>
+                                            <col class="col-xs-3">
+                                            <col class="col-xs-9">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th class="table-row-property">0</th>
+                                                <td class="table-row-definition">Successful Request</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="available-fields" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Available Fields</h3>
+                            <p>
+                                Provides a list of data sets available for a specific vehicle.<br><br>
+
+                                With just basic vehicle identification by VIN or YMM, the only fields that will be valid are:
+                                <ul>
+                                    <li>Decode</li>
+                                    <li>Port</li>
+                                    <li>TSB</li>
+                                    <li>Maintenance List</li>
+                                    <li>Recall</li>
+                                    <li>Warranty</li>
+                                </ul>
+
+                                To get Vehicle History Report a VIN must be provided.<br /><br />
+                                For data on repair or diagnostics, submission of the mileage and dtcs are needed in addition to the vehicle information.<br><br>
+                                To check the maintenance and upcoming fields, mileage information is required.
+                                For clarity maintenance is strictly maintenance at a certain mileage, while maintenance list is the all the maintenance items for that vehicle.
+                                Maintenance requires mileage, while Maintenance List does not.<br><br>
+                                Special note regarding repair and diagnostics:  These fields will only work with VIN parameter and will not work with YMM parameters.
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/fields?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/fields?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/fields?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;</mark><br>
+                                GET <mark>/fields?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>/fields?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;&amp;unit=&lt;unit&gt;</mark><br><br>
+
+                                GET <mark>/fields?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark><br>
+                                GET <mark>/fields?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/fields?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/fields?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/fields?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The odometer of this vehicle.  Needed for maintenence, repair, and diagnostics fields.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        dtc
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The code of this vehicle.  Needed for repair and diagnostics fields.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The odometer of this vehicle.  Needed for maintenence, repair, and diagnostics fields.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/fields?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/fields?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/fields?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;mileage=82000&amp;unit=km</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "mileage":82000,
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "decode":true,
+    "port":true,
+    "maint":false,
+    "maintlist":true,
+    "repair":false,
+    "diag":false,
+    "upcoming":false,
+    "tsb":true,
+    "recall":true,
+    "warranty":false,
+    "vehicle_history_report":true
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/fields?vin=19XFA1F87AE030552&amp;mileage=80500&amp;dtc=P0102&amp;unit=km</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"19XFA1F87AE030552",
+  "mileage":80500,
+  "dtc":"P0102",
+  "unit":"km",
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "decode":true,
+    "port":true,
+    "maint":true,
+    "maintlist":true,
+    "repair":true,
+    "diag":true,
+    "upcoming":true,
+    "tsb":true,
+    "recall":true,
+    "warranty":true,
+    "vehicle_history_report":true
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="vin-decode" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET VIN Decode</h3>
+                            <p>
+                                Decodes a VIN to its year, make, model, and engine.  Covers vehicles from 1981 to current year.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Year</li>
+                                    <li>Make</li>
+                                    <li>Model</li>
+                                    <li>Manufacturer</li>
+                                    <li>Engine</li>
+                                    <li>Trim</li>
+                                    <li>Transmission</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/decode?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/decode?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/decode?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "year":2015,
+    "make":"CHEVROLET",
+    "model":"EQUINOX",
+    "manufacturer": "GENERAL MOTORS",
+    "engine":" L4, 2.4L; DOHC; 16V; DI; FFV",
+    "trim": "LTZ",
+    "transmission": "AUTOMATIC"
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="vin-decode-more" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET VIN Decode More</h3>
+                            <p>
+                                Decodes VIN into 30+ additional fields.
+                            </p>
+
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/decode_more?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/decode_more?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> RESPONSE DEFINITION</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item"><h6 class="method-list-item-label">battery_kw</h6><p class="method-list-item-description">The measure of total battery power expressed in kilowatts.   For example:  71KW, 85KW, 75KW, 67KW.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">battery_type</h6><p class="method-list-item-description">A  value that identifies the kind of battery in the vehicle. For example: PbA - Lead Acid,NMH - Nickel Metal Hydride.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">battery_type_desc</h6><p class="method-list-item-description">The description of the code for the Battery Type Code. For example:PbA - Lead Acid,NMH - Nickel Metal Hydride.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">battery_voltage_desc</h6><p class="method-list-item-description">The voltage rating of the battery as provided by the manufactuer.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">body_style</h6><p class="method-list-item-description">A code that describes the body style of the vehicle. For example, CP=Coupe.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">body_style_desc</h6><p class="method-list-item-description">The description of the code Body Style Code For example: Coupe     </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">door_cnt</h6><p class="method-list-item-description">The number of doors the vehicle has.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">drive_type</h6><p class="method-list-item-description">(Drive Type) This element describes type of driving configuration for cars and trucks such as FWD, AWD, RWD.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">drive_type_desc</h6><p class="method-list-item-description">(Drive Type) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_has_supercharger</h6><p class="method-list-item-description">Indicates if the engine has a supercharger or not.  Yes, No or Unknown.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_has_turbocharger</h6><p class="method-list-item-description">Indicates if the engine has a turbocharger. Yes, No or Unknown.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_has_variable_valve_timing</h6><p class="method-list-item-description">Indicates whether a vehicle has Variable Valve Timing.  Yes, No or Unknown.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_block_type</h6><p class="method-list-item-description">(Block Type) Description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_carbureted_barrel_cnt</h6><p class="method-list-item-description">The number of barrels on a carbureted engine.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_carbureted_type</h6><p class="method-list-item-description">The description of the code which identifies the vehicle carburetion type.   For example Carburator, Fuel Injection, Unknown or Electric n/a.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_cylinder_cnt</h6><p class="method-list-item-description">Contains a code that represents the number of cylinders a vehicle's combustion engine can have.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_displacement_cubic_cm</h6><p class="method-list-item-description">(Displacement CC) displacement in cubic centimeters. We intend to use this as the definitive, exact diplacement value, i.e. 4967 cc.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_displacement_cubic_inches</h6><p class="method-list-item-description">(Displacement CID) displacement in cubic inches. This is a rounded, marketing value, like 302 cubic inches, instead of 4967 cc.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_displacement_cubic_liters</h6><p class="method-list-item-description">(Displacement Liters) displacement in rounded Liters, where 1,000 cubic centimeters = 1 liter. Even domestic makes will advertise displacement in terms of liters (e.g. 5.0 liter mustang, which equates to a 302 CID or 4967 cc displacement).</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_fuel_injection</h6><p class="method-list-item-description">The type of fuel injection used by a vehicle.  For example, Direct, Throttlebody</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_model</h6><p class="method-list-item-description">(Model) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">engine_manufacturer</h6><p class="method-list-item-description">(Mfr.) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">fuel_cpcty_gallons</h6><p class="method-list-item-description">The total fuel capacity (in gallons) for the vehicle with standard equipment as reported by the OEM. The Fuel Capacity measurement does not include optional second fuel tanks for trucks</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">fuel_type</h6><p class="method-list-item-description">(Fuel) What an internal combustion burns to move a piston in a cylinder</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_front_desc</h6><p class="method-list-item-description">more specific tire description (ex. Michelin Eagle P245/40ZR)” </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_front_pressure_lbs</h6><p class="method-list-item-description">(Front Tire Pressure) Vehicle Mfr reccomendation for tire pressure, in pounds/sq. in.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_front_size</h6><p class="method-list-item-description">(Front Tire Size Description) As in "17R245"</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">make</h6><p class="method-list-item-description">(Make - Name) Full name of the make (i.e. Chevrolet)</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">model</h6><p class="method-list-item-description">(Model Code) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">year</h6><p class="method-list-item-description">The marketing year defined by the OEM which the vehicle was produced. The value contained in this attribute may not always match the calendar year in which the vehicle was actually manufactured. Many OEMs release models prior to calendar year.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">mfg_base_msrp</h6><p class="method-list-item-description">Contains the base price of the vehicle as designated by the OEM's specifications.  BASE PRICE includes only the price for the base model of the vehicle, excluding any optional equipment that may have been added as a result of the vehicle's TRIM LEVEL.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">manufacturer</h6><p class="method-list-item-description">(Vehicle Manufacturer Name) The name of the vehicle manufacturer, i.e. General Motors, as defined by the National Crime Information Center.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">origin_desc</h6><p class="method-list-item-description">(Origin) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">plant_city_name</h6><p class="method-list-item-description">(City) This is the city where the plant is located.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">plant_country_name</h6><p class="method-list-item-description">(Country) This is the country where the plant is located. Example values are USA, Canada and Japan.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">plant_location_name</h6><p class="method-list-item-description">(State or Province) This is the state or province (Canada) location of the plant.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_rear_desc</h6><p class="method-list-item-description">more specific tire description (ex. Michelin Eagle P245/40ZR)” </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_rear_recommended_pressure</h6><p class="method-list-item-description">(Rear Tire Pressure) Vehicle Mfr reccomendation for tire pressure, in pounds/sq. in.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">tire_rear_size</h6><p class="method-list-item-description">(Rear Tire Size Description) As in "17R245"</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">weight_base</h6><p class="method-list-item-description">Contains the base weight of the vehicle, as defined in the OEM's specifications.  The base weight of a vehicle is the empty weight of the base model of the vehicle (i.e., the stripped down version of the vehicle).</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trim</h6><p class="method-list-item-description">The Trim of the vehicle</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_bed_length_code</h6><p class="method-list-item-description">(Bed Length) Code representing the manufacturer's description of the relative size of the cargo area of a pickup truck or van. A "long" Ford Ranger bed (compact pickup) may well be shorter than a "short" bed on an F350. (large industrial pickup).</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_bed_length_desc</h6><p class="method-list-item-description">(Bed Length) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_brk_code</h6><p class="method-list-item-description">(Brake Type) The type of brakes on the Vehicle (currently commercial truck only). Truck VIN determines this currently</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_brk_desc</h6><p class="method-list-item-description">(Brake Type) description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_cab_code</h6><p class="method-list-item-description">(Cab Configuration) Cab Type describes the physical configuration of a truck's cabin.</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">trk_cab_desc</h6><p class="method-list-item-description">(Cab Configuration) medium description</p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">wheel_end_cnt</h6><p class="method-list-item-description">The number of wheel ends on the vehicle.  For example in a 6x4 configuration this would be the 6.  </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">wheel_powertrain_cnt</h6><p class="method-list-item-description">Number of wheels driven by the power train.  For example in a 6x4 configuration this would be the 4. </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">vehicle_type</h6><p class="method-list-item-description">The description of the code for the vehicle type code. For example: passenger, truck, motorcycle, commercial trailer.     </p></li>
+                                <li class="method-list-item"><h6 class="method-list-item-label">transmission</h6><p class="method-list-item-description">Provides transmission type of the vehicle</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/decode_more?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">
+{
+    "message":{...},
+    "data":{
+        "battery_kw": "",
+        "battery_type": "N/A",
+        "battery_type_desc": "Not Applicable",
+        "battery_voltage_desc": "",
+        "body_style": "UT",
+        "body_style_desc": "SPORT UTILITY VEHICLE",
+        "door_cnt": "4",
+        "drive_type": "FWD",
+        "drive_type_desc": "Front Wheel Drive",
+        "engine_has_supercharger": "No",
+        "engine_has_turbocharger": "No",
+        "engine_has_variable_valve_timing": "Yes",
+        "engine_block_type": "In-Line",
+        "engine_carbureted_barrel_cnt": "NA",
+        "engine_carbureted_type": "Fuel Injection",
+        "engine_cylinder_cnt": "4",
+        "engine_displacement_cubic_cm": "",
+        "engine_displacement_cubic_inches": "146",
+        "engine_displacement_cubic_liters": "2.4",
+        "engine_fuel_injection": "Direct",
+        "engine_model": "2.4L",
+        "engine_manufacturer": "GENERAL MOTORS",
+        "tire_front_desc": "",
+        "tire_front_pressure_lbs": "",
+        "tire_front_size": "17R225",
+        "make": "CHEVROLET",
+        "model": "EQUINOX",
+        "year": "2015",
+        "mfg_base_msrp": "31920",
+        "manufacturer": "General Motors",
+        "origin_desc": "Domestic",
+        "plant_city_name": "SPRING HILL",
+        "plant_country_name": "United States",
+        "plant_location_name": "TENNESSEE",
+        "tire_rear_desc": "",
+        "tire_rear_recommended_pressure": "",
+        "tire_rear_size": "17R225",
+        "weight_base": "3829",
+        "trim": "LTZ",
+        "trk_bed_length_code": "U",
+        "trk_bed_length_desc": "Unknown",
+        "trk_brk_code": "HYD",
+        "trk_brk_desc": "HYDRAULIC",
+        "trk_cab_code": "SUV",
+        "trk_cab_desc": "Sport Utility",
+        "wheel_end_cnt": "4",
+        "wheel_powertrain_cnt": "2",
+        "fuel_cpcty_gallons": "18.8",
+        "vehicle_type": "Truck",
+        "fuel_type": "Flexible",
+        "transmission": "AUTOMATIC"
+    }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="obd2-port-location" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET OBD2 Port Location</h3>
+                            <p>
+                                Provides the OBD2 port location where one would plug in a dongle into their vehicle.
+                                This API provides an image location for the general area of the plugin location as well as a detailed real-life image of the plug itself.
+                            </p>
+                            <p>
+                                View this API in action, <a href="https://www.carmd.com/wp/locating-the-obd2-port-or-dlc-locator/" target=_blank>https://www.carmd.com/wp/locating-the-obd2-port-or-dlc-locator/</a>
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Url to image containing location of port</li>
+                                    <li>Number value to location of port</li>
+                                    <li>Url to image of real life image of port</li>
+                                    <li>Access notes mentioning if the port is covered or uncovered, if special access is necessary, etc</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/port?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/port?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/port?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/port?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/port?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/port?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "location_img": "http://api2.carmd.com/v2.0/Content/dlc/position/2.jpg"
+    "location_value":2,
+    "access_img":"https://secure-downloads.innova.com/dlc-location-images-wm/chevrolet/equinox/equinox-2-cmd.jpg?Expires=1529947955&Signature=YdnADor-AWZ6cIydvBLJNWuAc9Wi4axsmx1kmmgc3Wb~OZafjgRPpO7X1w0rbZm-BSh4a3byoAOmucKIVbrZoClcHrV0QZ6b58hum9w005Q-0YbUwcfentrcOkrT5VXM1sL-xe3~s-egf18TUciCX8oZBGh5RyLa9SFprEb74vfu9fpLpBxzqAN4n6mV2~z0WTfVjTVWPEVjoNEro2ro4EMP7LjpkKRf8KCGsTexCNkVh1P3MzvZcpDUV9TE9dfbltanvv9fVt9g12qU7GfoCTEZTCOnlkfUzaFTAcHOdnrQCDEp5m8ZVlAFrh104X4xHqWMZ3HnDySWoArAbnvpyA__&Key-Pair-Id=APKAJVI4C2YLKAQ7KO6A",
+    "access_notes":"uncovered",
+    "notes":"Driver Side - Under Lower Left Side of Dashboard"
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="maintenance" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Maintenance</h3>
+                            <p>
+                                Gets a vehicle's maintenance information within +-10,000 miles of the submitted mileage.  The maintenance is both OEM scheduled maintenance and additional maintenance items that may not be part of an OEM's regular schedule. Can use VIN or year, make, mile to fetch the data.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Name of item</li>
+                                    <li>Due mileage</li>
+                                    <li>Cost of repair</li>
+                                    <li>Parts needed for repair</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/maint?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/maint?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/maint?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>/maint?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/maint?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maint?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maint?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maint?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maint?vin=1GNALDEK9FZ108495&amp;mileage=51000</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maint?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;mileage=51000</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maint?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;mileage=82000&amp;unit=km</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":51000
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "mileage":51000
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "mileage":82000,
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "desc":"Inspect For Fluid Leaks",
+    "due_mileage":52500,
+    "due_km":0,
+    "is_oem":True,
+    "repair":{
+      "repair_difficulty":2,
+      "repair_hours":0.0,
+      "labor_rate_per_hour":106.38,
+      "part_cost":6.15,
+      "labor_cost":0.0,      
+      "misc_cost":0.0,
+      "total_cost":6.15
+    },
+    "parts":[{
+      "desc":"Engine Oil",
+      "manufacturer":"",
+      "price":"6.15",
+      "qty":"1"
+    }]
+  },
+  {...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="maint-full" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Maintenance List</h3>
+                            <p>
+                                Get the entire maintenace schedule of a vehicle.  The maintenance is both OEM scheduled maintenance and additional maintenance items that may not be part of an OEM's regular schedule. Can use VIN or year to fetch the data.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Name of item</li>
+                                    <li>Due mileage</li>
+                                    <li>Miles between each recurrance</li>
+                                    <li>Cost of repair</li>
+                                    <li>Parts needed for repair</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/maintlist?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/maintlist?vin=&lt;vin&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>/maintlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark><br>
+                                GET <mark>/maintlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/maintlist?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maintlist?vin=&lt;vin&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maintlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/maintlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> RESPONSE</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        is_oem
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        If true, this item is part of the OEM's recommended scheduled maintenance.  Your user would be able to find this item in their vehicle handbook.
+                                        <br><br>
+                                        If false, this item is not part of the OEM's recommended scheduled maintenance.  It is an item that is predicted to fail and need regular maintenance.  This item is not the same as Upcoming Repairs.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        is_cycle
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        If true, this item has a regular mileage interval of maintenance.
+                                        <br><br>
+                                        If false, this item is a one off maintenance item or has an irregular maintenance schedule.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        cycle_mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        If is_cycle is true, this will provide this item's recurrence in miles.
+                                        <br><br>
+                                        If is_cycle is false, this value will be -1
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maintlist?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maintlist?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/maintlist?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;unit=km</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "desc": "Inspect Steering & Suspension Components",
+    "due_mileage": 7500,
+    "due_km": 0,
+    "is_oem": true,
+    "is_cycle": true,
+    "cycle_mileage": 7500,
+    "cycle_km": 0,
+    "repair": {
+      "repair_difficulty": 2,
+      "repair_hours": 0,
+      "labor_rate_per_hour": 101.44,
+      "part_cost": 166.51,
+      "labor_cost": 0,
+      "misc_cost": 0,
+      "total_cost": 166.51
+    },
+    "parts": [{
+      "desc": "Steering Tie Rod End",
+      "manufacturer": "",
+      "price": 108.03,
+      "qty": 1
+    },{
+      "desc": "Steering Tie Rod End",
+      "manufacturer": "",
+      "price": 58.48,
+      "qty": 1
+    }]
+  },
+  {...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="code-definition" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Code Definition</h3>
+                            <p>
+                                Get a vehicle’s fault code definition. This service covers SAE public standard codes and OEM non-standard codes.
+                            </p>
+                            <p>
+                                This means that this API will define codes that start with p0, and includes definition codes that start with p1 or B, C, U and all other codes that are manufacturer specific.
+                            </p>
+                            <p>
+                                This API accepts an array of fault codes as input and provides the following data:
+                                <ul>
+                                    <li>Fault code definition</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/code?vin=&lt;vin&gt;&amp;codes=&lt;code1,code2,code3...&gt;</mark><br>
+                                GET <mark>/code?vin=&lt;vin&gt;&amp;codes=&lt;code1&gt;</mark><br>
+                                GET <mark>/code?make=&lt;make&gt;&amp;codes=&lt;code1,code2,code3...&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/code?vin=&lt;vin&gt;&amp;codes=&lt;code1,code2,code3...&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/code?make=&lt;make&gt;&amp;codes=&lt;code1,code2,code3...&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        manufacturer - please make sure your make input matches our Get Make output
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        codes
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Can either be a single code or an array of codes
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/code?vin=1GNALDEK9FZ108495&amp;codes=P0420,U0155</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/code?make=CHEVROLET&amp;codes=P0420,U0155</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "codes":"P0420,U0155"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "make":"CHEVROLET",
+  "codes":"P0420,U0155"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "vin":"1GNALDEK9FZ108495",
+    "codes":[
+      {
+        "code": "P0420",
+        "definition": "Catalyst System Low Efficiency (Bank 1)"
+      },
+      {
+        "code": "U0155",
+        "definition": "Lost Communication With Instrument Cluster"
+      }
+    ]
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="repair" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Repair</h3>
+                            <p>
+                                Get a vehicle's repair information based on its check engine light data.  This service covers SAE public standard codes and OEM non-standard codes.
+                            </p>
+                            <p>
+                                This system uses a form of intelligent analysis to derive repairs and understands that a code is not tied to a specific part but may be a symptom of another underlying issue.
+                            </p>
+                            <p>
+                                As a result, it will often respond with a single repair that it is 99% certain.  In cases where the system is not as certain, it will respond with a few options.  These options are ordered from most likely to least likely.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Name and urgency of repair</li>
+                                    <li>Cost of repair</li>
+                                    <li>Difficulty of repair (1=anyone can do, 5=requires technical expertise)</li>
+                                    <li>Parts needed for repair</li>
+                                    <li>TSB associated with repair</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/repair?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;</mark><br>
+                                GET <mark>/repair?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/repair?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/repair?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        dtc
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The required DTC code must be the primary code presented by the vehicle.  This code is part of the dataset containing the freeze frame information.  If the code is found on its own or alongside other codes (a series of pcodes) then those codes are likely pending or stored codes and not the main code for the check engine light.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/repair?vin=1GNALDEK9FZ108495&amp;mileage=51000&amp;dtc=p0420</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/repair?vin=1GNALDEK9FZ108495&amp;mileage=82000&amp;dtc=p0420&amp;unit=km</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":51000,
+  "dtc":"p0420"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":82000,
+  "dtc":"p0420",
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "desc":"Replace Catalytic Converter(s) with new OE Catalytic Converter(s),
+    "urgency":2,
+    "urgency_desc":"Repair immediately if drivability issues are present. Threat to essential system components if not repaired as soon as possible.",
+    "repair":{
+      "difficulty":3,
+      "hours":2.3,
+      "labor_rate_per_hour":106.38,
+      "part_cost":1967.01,
+      "labor_cost":244.674,
+      "misc_cost":25,
+      "total_cost":2236.684
+    },
+    "parts":[{
+      "desc":"Catalytic Converter",
+      "manufacturer":"",
+      "price":683.67,
+      "qty":"1"
+    },{
+      "desc":"Catalytic Converter",
+      "manufacturer":"",
+      "price":1283.34,
+      "qty":"1"
+    }],
+    "tsb":[{
+      "id":118676,
+      "manufacturer_number":"07-00-89-037K",
+      "desc":"Warranty Administration - Courtesy Transportation and Roadside Assistance Programs",
+      "categories":["Tools & Hardware"]
+      "file_name":"4824780",
+      "file_url":"http://downloads.innova.com/tsb-files/118000/4824780.pdf",
+      "issue_date":"2017-06-23T00:00:00",
+      "updated_date":"2017-10-10T00:00:00"
+    },{...}]
+  },
+  {...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="repair-list" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Repair List</h3>
+                            <p>
+                                Get the names of the all the repairs needed by specific vehicle. This includes maintenance and check engine light repairs.
+                            </p>
+                            <p>
+                                To get part and labor hours, use this API with Get Repair Info.
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/repairlist?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/repairlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/repairlist?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/repairlist?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        engine
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle engine
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">http://api.carmd.com/v3.0/repairlist?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">http://api.carmd.com/v3.0/repairlist?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;engine=L4,2.4L;DOHC;16V;DI;FFV</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">{
+  "vin": "1GNALDEK9FZ108495"
+}</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">{
+  "year": "2015",
+  "make": "CHEVROLET",
+  "model": "EQUINOX",
+  "engine": "L4,2.4L;DOHC;16V;DI;FFV"
+}</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">{
+  "message": "...",
+  "repairlist": [
+    {
+      "item": "Change Engine Oil and Filter",
+      "is_maint": true,
+      "is_oem": false,
+      "repair_code": "c799346520d2-750010Y"
+    },
+    {
+      "item": "Change Transfer Case Fluid",
+      "is_maint": true,
+      "is_oem": false,
+      "repair_code": "409b562d49ed-9750010Y"
+    },
+    {...}]
+}</code></pre>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="repair-info" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Repair Info</h3>
+                            <p>
+                                Get repair info of a specific repair using the repair_code from Get Repair List api.
+                            </p>
+                            <p>
+                                Using this API you will get:
+                                <ul>
+                                    <li>Parts needed for repair</li>
+                                    <li>Labor hours needed for repair</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/repairinfo?repair_code=&lt;repair_code&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/repairinfo?repair_code=&lt;repair_code&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS </h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        repair_code
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Use code from Get Repair List here
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">http://api.carmd.com/v3.0/repairinfo?repair_code=e11952e29c7c-6000010Y</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">{
+  "repair_code": "e11952e29c7c-6000010Y"
+}</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+                            <pre class=" language-none"><code class=" language-none">{
+  "message": "...",
+  "repairinfo": [
+    {
+      "repair_code": "e11952e29c7c-6000010Y",
+      "desc": "Change Engine Coolant",
+      "is_oem": false,
+      "repair": {
+        "repair_difficulty": 2,
+        "repair_hours": 0.7,
+        "labor_rate_per_hour": 101.44,
+        "part_cost": 72.45,
+        "labor_cost": 71.0,
+        "misc_cost": 25.0,
+        "total_cost": 168.45
+      },
+      "parts": [
+        {
+          "desc": "Engine Coolant / Antifreeze",
+          "manufacturer": "",
+          "price": 24.15,
+          "qty": 3
+        }
+      ]
+    }
+  ]
+}</code></pre>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="diagnostics" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Diagnostics</h3>
+                            <p>
+                                Get a vehicle's diagnostic information based on its check engine light data. This service covers SAE public standard codes and some OEM non-standard powertrain codes.
+                            </p>
+                            <p>
+                                This endpoint contains information a consumer may find useful.  This data is prefixed by “layman”.  Additional information that may be useful for the more technically inclined is prefixed by “tech”.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Name and urgency of repair</li>
+                                    <li>Effects on vehicle if code is not resolved</li>
+                                    <li>System responsible for issuing this code</li>
+                                    <li>Layman’s version of the code definition, conditions for setting of the code, and importance of this code</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/diag?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;</mark><br>
+                                GET <mark>/diag?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/diag?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/diag?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;dtc=&lt;dtc&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        dtc
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Primary diagnostic trouble code.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">
+http://api.carmd.com/v3.0/diag?vin=1GNALDEK9FZ108495&amp;mileage=51000&amp;dtc=p0420</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">
+http://api.carmd.com/v3.0/diag?vin=1GNALDEK9FZ108495&amp;mileage=82000&amp;dtc=p0420&amp;unit=km</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":51000,
+  "dtc":"p0420"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":82000,
+  "dtc":"p0420",
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "code":"P0420",
+    "urgency":2,
+    "urgency_desc":"Repair immediately if drivability issues are present. Threat to essential system components if not repaired as soon as possible.",
+    "effect_on_vehicle":"This condition will prevent the vehicle from running at its optimum efficiency and fuel economy may suffer.",
+    "responsible_system":"Sensors indicate the catalytic converter is not reducing exhaust gas emissions properly.",
+    "layman_definition":"Catalyst System Efficiency Below Threshold (Bank 1)",
+    "tech_definition":"Catalyst System Low Efficiency (Bank 1)",
+  }
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="upcoming-repairs" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Upcoming Repairs</h3>
+                            <p>
+                                Provides insight into issues that this vehicle may experience in the next 12 months.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Repair name of this issue</li>
+                                    <li>Likelihood of this issue occurring</li>
+                                    <li>Cost of repair</li>
+                                    <li>Repair difficulty</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/upcoming?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/upcoming?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>/upcoming?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>/upcoming?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/upcoming?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/upcoming?vin=&lt;vin&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/upcoming?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/upcoming?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;mileage=&lt;mileage&gt;&amp;unit=&lt;unit&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        mileage
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Miles driven by this vehicle.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        unit
+                                        <span class="method-list-item-label-details">optional</span>
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        The unit of odometer.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/upcoming?vin=1GNALDEK9FZ108495&amp;mileage=51000</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/upcoming?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;mileage=51000</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/upcoming?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;mileage=82000&amp;unit=km</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495",
+  "mileage":51000
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "mileage":51000  
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "mileage":82000,
+  "unit":"km"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "desc":"Replace Camshaft Position (CMP) Actuator Solenoid",
+    "probability":0.57,
+    "hours":1.96,
+    "part_cost":144.18,
+    "labor_cost":208.9,
+    "misc_cost":25.0,
+    "total_cost":378.09
+  },  {
+    "desc":"Replace Variable Valve Timing (VVT) Solenoid",
+    "probability":0.19,
+    "hours":0.6,
+    "part_cost":58.21,
+    "labor_cost":63.82,
+    "misc_cost":25.0,
+    "total_cost":147.03
+  },{...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="tsb" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET TSB</h3>
+                            <p>
+                                Provides a vehicle's technical service bulletins.  Bulletins include a summary and PDF and are segmented into categories.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>TSB Name</li>
+                                    <li>TSB summary</li>
+                                    <li>TSB PDF</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/tsb?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/tsb?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/tsb?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/tsb?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        engine
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle engine
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/tsb?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/tsb?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;engine=L4,2.4L;DOHC;16V;DI;FFV</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "engine":"L4,2.4L;DOHC;16V;DI;FFV"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "id":118676,
+    "manufacturer_number":"07-00-89-037K",
+    "desc":"Warranty Administration - Courtesy Transportation and Roadside Assistance Programs",
+    "categories":["Tools & Hardware"]
+    "file_name":"4824780",
+    "file_url":"http://downloads.innova.com/tsb-files/118000/4824780.pdf",
+    "issue_date":"2017-06-23T00:00:00",
+    "updated_date":"2017-10-10T00:00:00"
+  },{
+    "id":118672,
+    "manufacturer_number":"15086A",
+    "desc":"Customer Satisfaction - OnStar System Inoperative - Chip Corruption",
+    "categories":["Recall"]
+    "file_name":"4828709",
+    "file_url":"http://downloads.innova.com/tsb-files/118000/4828709.pdf",
+    "issue_date":"2017-06-22T00:00:00",
+    "updated_date":"2017-10-10T00:00:00"
+  },{...}] 
+}  
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="safety-recalls" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Safety Recalls</h3>
+                            <p>
+                                Provides the safety recalls on a vehicle.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Description and information on the safety recall</li>
+                                    <li>Date recall was issued</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/recall?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/recall?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/recall?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/recall?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/recall?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/recall?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "desc":""GENERAL MOTORS LLC (GM) IS RECALLING CERTAIN MODEL YEAR 2015 BUICK LACROSSE, CADILLAC XTS, CHEVROLET CAMARO, EQUINOX, MALIBU, AND GMC TERRAIN VEHICLES.  THE AFFECTED VEHICLES HAVE FRONT SEAT-MOUNTED SIDE IMPACT AIR BAGS WHOSE INFLATOR MAY RUPTURE UPON ITS DEPLOYMENT.",
+    "corrective_action":" GM WILL NOTIFY OWNERS, AND DEALERS WILL REPLACE THE SIDE IMPACT AIR BAG MODULES, FREE OF CHARGE. THE RECALL BEGAN ON OCTOBER 19, 2015.  OWNERS MAY CONTACT BUICK CUSTOMER SERVICE AT 1-800-521-7300, CHEVROLET CUSTOMER SERVICE AT 1-800-222-1020, CADILLAC CUSTOMER SERVICE AT 1-800-458-8006, OR GMC CUSTOMER SERVICE AT 1-800-462-8782.  GM'S NUMBER FOR THIS RECALL IS 01320.",
+    "consequence":""IN THE EVENT OF A CRASH NECESSITATING DEPLOYMENT OF ONE OR BOTH OF THE SIDE IMPACT AIR BAGS, THE AIR BAG'S INFLATOR MAY RUPTURE AND THE AIR BAG MAY NOT PROPERLY INFLATE. THE RUPTURE COULD CAUSE METAL FRAGMENTS TO STRIKE THE VEHICLE OCCUPANTS, POTENTIALLY RESULTING IN SERIOUS INJURY OR DEATH.  ADDITIONALLY, IF THE AIR BAG DOES NOT PROPERLY INFLATE, THE DRIVER OR PASSENGER IS AT AN INCREASED RISK OF INJURY.",
+    "recall_date":"1/16/2015",
+    "campaign_number":"15V666000",
+    "recall_number":"17668"
+  },
+  {...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="vehicle-warrenty" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Vehicle Warranty</h3>
+                            <p>
+                                Provides the warranty status on a vehicle.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Warranty name</li>
+                                    <li>Warranty description</li>
+                                    <li>Warranty qualitifications/limits</li>
+                                    <li>If warranty is transferable between owners.</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/warranty?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/warranty?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/warranty?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/warranty?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>Year, Make, Model, Engine parameter information is provided from <a href="#ymm"> GET Year, Make, Model, Engine </a> endpoints.</p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/warranty?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/warranty?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "type":"Electric/Hybrid",
+    "criteria":"8 year / 100,000 miles ",
+    "note":" Battery components only ",
+    "max_miles":100000,
+    "max_year ":8,
+    "transferable":true
+  },{
+    "type":"Basic",
+    "criteria":"3 year / 36,000 miles",
+    "note":"",
+    "max_miles":36000,
+    "max_year ":3,
+    "transferable":true
+  },{...}]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="image" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Vehicle Image</h3>
+                            <p>
+                                Provides an image of the vehicle.
+                            </p>
+                            <p>
+                                Note: Although this endpoint accepts a VIN the provided resource will be a generic image of that year make and model.
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/image?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>/image?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/image?vin=&lt;vin&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/image?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;&amp;engine=&lt;engine&gt;</mark>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 1)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS (option 2)</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle year
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle make
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle model
+                                    </p>
+                                </li>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        engine
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle engine
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/image?vin=5TFEV54198X043410</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/image?year=2015&amp;make=CHEVROLET&amp;model=EQUINOX&amp;engine=L4, 2.4L; DOHC; 16V; DI; FFV</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "vin":"5TFEV54198X043410"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":"2015",
+  "make":"CHEVROLET",
+  "model":"EQUINOX",
+  "engine":"L4, 2.4L; DOHC; 16V; DI; FFV"
+}
+</code></pre>
+                        </div>
+
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "image":"image_of_vehicle_here"
+  }]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="vehicle-history-report" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Vehicle History Report</h3>
+                            <p>
+                                Provides link to a PDF with vehicle history information.
+                            </p>
+                            <p>
+                                This link will expire, it is recommended the PDF is downloaded and sent to the end user for their records.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                            </p>
+                            <ul>
+                                <li>Link to PDF of Vehicle History Report</li>
+                            </ul>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/vhr?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/vhr?vin=&lt;vin&gt;</mark><br>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> PARAMETERS</h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        vin
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Vehicle identification number
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class="language-none"><code class="language-none">http://api.carmd.com/v3.0/vhr?vin=1GNALDEK9FZ108495</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class="language-none"><code class="language-none">{
+  "vin":"1GNALDEK9FZ108495"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class="language-none"><code class="language-none">{
+  "message":{...},
+  "data":[{
+    "pdf": "http://api.carmd.com/v3.0/VehicleHistoryReport/VR_1GNALDEK9FZ108495.pdf"
+  }]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="ymm" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Year, Make, Model, Engine</h3>
+                            <p>
+                                This endpoint can be used to assist users to determining their year, make, model, and engine as an alternative to using their VINs.
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/year</mark><br>
+                                GET <mark>/make?year=&lt;year&gt;</mark><br>
+                                GET <mark>/model?year=&lt;year&gt;&amp;make=&lt;make&gt;</mark><br>
+                                GET <mark>/engine?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/year</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/make?year=&lt;year&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/model?year=&lt;year&gt;&amp;make=&lt;make&gt;</mark><br>
+                                GET <mark>http://api.carmd.com/v3.0/engine?year=&lt;year&gt;&amp;make=&lt;make&gt;&amp;model=&lt;model&gt;</mark>
+                            </p>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> YEAR PARAMETERS </h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        None
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        There are no parameters for the year endpoint
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> MAKE PARAMETERS </h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Int. This parameter only takes the years provided by the /year endpoint.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> MODEL PARAMETERS </h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Int. This parameter only takes the years provided by the /year endpoint.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        String. This parameter only takes the makes provided by the /make endpoint.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="method-list attributes">
+                            <h5 class="method-list-title"> ENGINE PARAMETERS </h5>
+                            <ul class="method-list-group">
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Year
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        Int. This parameter only takes the years provided by the /year endpoint.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Make
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        String. This parameter only takes the makes provided by the /make endpoint.
+                                    </p>
+                                </li>
+                                <li class="method-list-item">
+                                    <h6 class="method-list-item-label">
+                                        Model
+                                    </h6>
+                                    <p class="method-list-item-description">
+                                        String. This parameter only takes the models provided by the /model endpoint.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>GET Year API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/year</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[ "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005","2004", "2003", "2002", "2001", "2000", "1999", "1998", "1997", "1996"]
+}
+</code></pre>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>GET Make API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/make?year=2015</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":2015
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[ "ACURA", "Alfa Romeo", "Aston Martin", "Bently", "BMW", "Buick", "Cadillac", "Chevrolet", "Chrysler", "Dodge", "Ferrari", "Fiat", "Ford", "GMC","Honda", "Hyundai", "..."]
+}
+</code></pre>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>GET Model API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/model?year=2015&amp;make=ACURA</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":2015,
+  "make":"ACURA"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":[ "ILX", "MDX", "RDX", "RLX", "TLX"]
+}
+</code></pre>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>GET Engine API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/engine?year=2015&amp;make=ACURA&amp;model=RLX</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "year":2015,
+  "make":"ACURA",
+  "model":"RLX"
+}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":["V6, 3.5L; SOHC; 24V; SEFI","V6, 3.5L; SOHC; 24V; SEFI; Hybrid"]
+}
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="credits" class="method">
+                <div class="method-area">
+                    <div class="method-copy">
+                        <div class="method-copy-padding">
+                            <h3>GET Credits</h3>
+                            <p>
+                                The remaining number of credits on this account.
+                            </p>
+                            <p>
+                                This endpoint provides the following data:
+                                <ul>
+                                    <li>Credit count</li>
+                                </ul>
+                            </p>
+                            <p>
+                                HTTP REQUEST<br>
+                                GET <mark>/credits</mark><br>
+                            </p>
+                            <p>
+                                ENDPOINT DEFINITION<br>
+                                GET <mark>http://api.carmd.com/v3.0/credits</mark><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="method-example">
+                        <div class="method-example-part">
+                            <h5>API Reference</h5>
+                            ENDPOINT
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">http://api.carmd.com/v3.0/credits</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            REQUEST
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{}
+</code></pre>
+                        </div>
+                        <div class="method-example-part">
+                            RESPONSE
+                        </div>
+                        <div class="method-example-part marginB30">
+<pre class=" language-none"><code class="language-none">{
+  "message":{...},
+  "data":{
+    "credits":1000
+  } 
+}  
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Blockquotes mobile menu -->
+    <div id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <ul>
+                <li>
+                    <div class="mm-search">
+                        <form id="search1" name="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control simple" placeholder="Search ..." name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-search"></i> </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <a href="#documenter-1">Page links</a>
+                    <ul>
+                        <li><a href="#documenter-1">API Reference</a> </li>
+                        <li><a href="#documenter-2">Authentication </a> </li>
+                        <li>
+                            <a href="#documenter-3">Errors </a>
+                            <ul>
+                                <li><a href="#documenter-3-1">Handling errors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#documenter-4">Expanding Objects</a> </li>
+                        <li><a href="#documenter-5">Idempotent Requests</a> </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="top-links">
+                <ul class="links">
+                    <li><a title="Docs" href="javascript:void(0)">Docs</a> </li>
+                    <li><a title="API Reference" href="javascript:void(0)">API Reference</a> </li>
+                    <li><a title="Support" href="javascript:void(0)">Support</a> </li>
+                    <li><a title="Dashboard" href="javascript:void(0)">Dashboard</a> </li>
+                    <li class="last"><a title="Login" href="javascript:void(0)">Login</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/member/Content/APIDocs/js/prism.js"></script>
+    <script src="/member/Content/APIDocs/js/jquery.1.6.4.js"></script>
+    <script src="/member/Content/APIDocs/js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="/member/Content/APIDocs/js/jquery.easing.js"></script>
+    <script>
+        document.createElement('section');
+        var duration = 500, easing = 'swing';
+    </script>
+    <script src="/member/Content/APIDocs/js/slides.min.jquery.js"></script>
+    <script src="/member/Content/APIDocs/js/script.js"></script>
+    <script src="/member/Content/APIDocs/js/scroll.js"></script>
+    <script src="/member/Content/APIDocs/js/common.js"></script>
+    <script src="/member/Content/APIDocs/js/jquery.mobile-menu.min.js"></script>
+    <script>
+            //ScrollLoad("scrollholder", "scroll", false);
+    </script>
+</body>
+</html>

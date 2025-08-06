@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="nl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Privacybeleid Kenteken Assistant</title>
+    <style>
+        @media (min-width:0px) {
+            #container {
+                margin: 0% 5% 0% 5%;
+            }
+        }
+
+        @media (min-width:1024px) {
+            #container {
+                margin: 0% 20% 0% 20%;
+            }
+        }
+
+        p {
+            font-family: Arial;
+        }
+        h1 {
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Privacybeleid van Kenteken Assistant</h1>
+        <p>
+            Kenteken Assistant is een chatbot gebaseerd op ChatGPT van Open AI. Op deze chatbot is de <a href="https://openai.com/policies/privacy-policy">privacy policy</a> van Open AI van toepassing.
+        </p>
+        <p>
+            Bij het beantwoorden van vragen over Nederlandse voertuigen maakt Kenteken Assistant chatbot gebruik van een externe voertuig databron (API).
+            Hieronder staat het privacybeleid beschreven van deze voertuig databron (API):
+        </p>
+        <br />
+        <p><b>Data Verzameling:</b> De voertuig API verzamelt de volgende gegevens bij het opvragen van een voertuiggegevens: het kenteken of merk/model, het tijdstip van opvragen en het Chat ID. Let wel, er wordt geen persoonlijk identificeerbare informatie verzameld en doorgegeven vanuit Open AI.</p>
+        <p><b>Doel van Gebruik:</b> De verzamelde gegevens worden alleen gebruikt om de chatbot-service te analyseren en verbeteren. Deze analyses focussen zich op algemene gebruikspatronen, niet op individuele gebruikers.</p>
+        <p><b>Gegevensdeling:</b> De verzamelde gegevens worden niet gedeeld met externe partijen. Geaggregeerde data kan wel worden gedeeld, bijvoorbeeld de frequentie waarmee bepaalde kentekens of automerken zijn opgevraagd.</p>
+        <p><b>Beveiliging:</b> De verzamelde gegevens worden met standaard beveiligingsmaatregelen beveiligd. Hoewel we ons uiterste best doen, is absolute veiligheid in het digitale domein echter nooit 100% gegarandeerd.</p>
+        <p><b>Bewaartermijn:</b> Gegevens worden voor maximaal 180 dagen bewaard en daarna alleen in geaggregeerde vorm opgeslagen.</p>
+        <p><b>Beleidswijzigingen:</b> Dit privacybeleid kan door ons worden aangepast. Eventuele wijzigingen publiceren we op deze pagina, inclusief datum van de laatste herziening.</p>
+        <p><b>Contact:</b> Voor vragen of opmerkingen over ons privacybeleid, kunt u contact opnemen met BE Committed via info@becommitted.nl.</p>
+        <p><b>Laatst aangepast:</b> 3 december 2023</p>
+    </div>
+</body>
+</html>

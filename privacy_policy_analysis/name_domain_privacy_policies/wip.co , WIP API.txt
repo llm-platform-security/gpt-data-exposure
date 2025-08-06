@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html class="h-full">
+<head><title>WIP</title>
+<link rel="apple-touch-icon" type="image/png" href="https://wip.co/assets/favicon-e2325abe92549e0d34e061f8dd4b3cf283e83e4f73dcbdf43eed0bc4fe952cbc.png" sizes="512x512">
+<link rel="icon" type="image/png" href="https://wip.co/assets/favicon-e2325abe92549e0d34e061f8dd4b3cf283e83e4f73dcbdf43eed0bc4fe952cbc.png" sizes="512x512">
+<meta name="description" content="We are a community of makers who help each other ship projects.">
+<link rel="image_src" href="https://wip.co/assets/og-32d7ae205ccd03c89e48f66753855ac47b6048ab2d7dd7105b52390c7e352151.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="WIP">
+<meta property="og:site_name" content="WIP">
+<meta property="og:image" content="https://wip.co/assets/og-32d7ae205ccd03c89e48f66753855ac47b6048ab2d7dd7105b52390c7e352151.jpg">
+<meta property="og:description" content="We are a community of makers who help each other ship projects.">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+//<![CDATA[
+window.gon={};gon.current={"user":{"id":null,"admin":false}};gon.routes={"root":"https://wip.co/","questions":"https://wip.co/posts","users_autocompletions":"https://wip.co/autocompletions/users.json?query=QUERY","projects_autocompletions":"https://wip.co/autocompletions/projects.json?query=QUERY","notifications":"https://wip.co/notifications","new_user_registration_url":"https://wip.co/join","searches":"https://wip.co/search"};gon.stripe_publishable_key=null;gon.signed_in=false;gon.mentionable={"minimum_length_for_autocomplete":2};gon.google_analytics={"id":"UA-575449-44","local_request":false};
+//]]>
+</script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="pflEozCjyyIhO0wGULu5uVu6-h--2q06FdZORXyrpt4pu2m4mQPlbvw1GdWQ0RQQS6bAu6sOxdd6Uznf_uQLIg" />
+<meta name="direct-upload-url" content="/rails/active_storage/direct_uploads">
+<link href="/manifest.json" rel="manifest">
+<link rel="stylesheet" href="/assets/application-ca53fd30ec5d0e3d03ebccb41b4c66fcccf8ebae1b56f7ede657165b3bef0a6e.css" data-turbo-track="reload" />
+<link rel="stylesheet" href="/assets/tailwind-6e627f10ff5d52cea5ccbeebc61a6efd50de6c152e87f65e23738a21189e8b3c.css" data-turbo-track="reload" />
+<script src="/assets/theme-b360f502bee203ce50f6f003b043d3a34e2874bca100dae9a95440dd6dd4ea56.js" data-turbo-track="reload"></script>
+<script src="/assets/application-52dcc7fbcb109c5d409cdd74c1e96dfa22abf236a7c0d1beb4166be9849eae42.js" data-turbo-track="reload" defer="defer"></script>
+
+<script>window.sa=window.sa||function(){a=[].slice.call(arguments);sa.q?sa.q.push(a):sa.q=[a]};</script>
+<script async defer src="https://sa.wip.co/app.js"></script>
+</head>
+<body class="h-full dark:bg-gray-950 " data-controller="shortcuts theme " data-guest data-rails-action="terms" data-rails-controller="pages">
+<turbo-cable-stream-source channel="Turbo::StreamsChannel" signed-stream-name="Ijp1bnJlYWRfbm90aWZpY2F0aW9uc19jb3VudCI=--b6a63abc974f07a4b77959c2aaaf0f86fbaef772a7d7f1306d5035ab8b147451"></turbo-cable-stream-source>
+<div data-controller="sidebar" class="max-w-6xl mx-auto">
+
+<div class="relative z-50 hidden md:hidden" role="dialog" aria-modal="true" data-sidebar-target="mobileMenu">
+
+<div class="fixed inset-0 bg-gray-600 bg-opacity-75" data-transition-enter="transition-opacity ease-linear duration-300" data-transition-enter-start="opacity-0" data-transition-enter-end="opacity-100" data-transition-leave="transition-opacity ease-linear duration-300" data-transition-leave-start="opacity-100" data-transition-leave-end="opacity-0" data-sidebar-target="backdrop"></div>
+<div class="fixed inset-0 z-50 flex">
+
+<div class="relative flex w-full max-w-xs flex-1 flex-col bg-white dark:bg-black" data-transition-enter="transition ease-in-out duration-300 transform" data-transition-enter-start="-translate-x-full" data-transition-enter-end="translate-x-0" data-transition-leave="transition ease-in-out duration-300 transform" data-transition-leave-start="translate-x-0" data-transition-leave-end="-translate-x-full" data-sidebar-target="menu">
+
+<div class="absolute top-0 right-0 -mr-12 pt-2" data-transition-enter="ease-in-out duration-300" data-transition-enter-start="opacity-0" data-transition-enter-end="opacity-100" data-transition-leave="ease-in-out duration-300" data-transition-leave-start="opacity-100" data-transition-leave-end="opacity-0" data-sidebar-target="closeButton" data-action="click->sidebar#close">
+<button type="button" class="ml-1 flex h-10 w-10 items-center justify-center rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+<span class="sr-only">Close sidebar</span>
+
+<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+</button>
+</div>
+<div class="h-0 flex-1 overflow-y-auto pt-5 pb-4">
+<div class="flex flex-shrink-0 items-center px-4">
+<a class="flex items-center gap-2 w-auto" href="/">
+<img class="h-7 w-7" src="/assets/logo-5e013d7d14f9427f7aa07a024b0dd80924cd898435434e51aa40dd04e9e27932.svg" />
+<div class="font-bold hidden">WIP</div>
+</a>
+</div>
+<nav class="mt-5 space-y-1 px-2">
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"></path>
+<path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"></path>
+</svg>
+Home
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/projects"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M2.25 4.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875V17.25a4.5 4.5 0 1 1-9 0V4.125Zm4.5 14.25a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" clip-rule="evenodd"></path>
+<path d="M10.719 21.75h9.156c1.036 0 1.875-.84 1.875-1.875v-5.25c0-1.036-.84-1.875-1.875-1.875h-.14l-8.742 8.743c-.09.089-.18.175-.274.257ZM12.738 17.625l6.474-6.474a1.875 1.875 0 0 0 0-2.651L15.5 4.787a1.875 1.875 0 0 0-2.651 0l-.1.099V17.25c0 .126-.003.251-.01.375Z"></path>
+</svg>
+Projects
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" data-turbo-preload="true" href="/posts"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M5.337 21.718a6.707 6.707 0 0 1-.533-.074.75.75 0 0 1-.44-1.223 3.73 3.73 0 0 0 .814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9c0 5.03-4.428 9-9.75 9-.833 0-1.643-.097-2.417-.279a6.721 6.721 0 0 1-4.246.997Z" clip-rule="evenodd"></path>
+</svg>
+Questions
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/roasts"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z"></path>
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M12.963 2.286a.75.75 0 0 0-1.071-.136 9.742 9.742 0 0 0-3.539 6.176 7.547 7.547 0 0 1-1.705-1.715.75.75 0 0 0-1.152-.082A9 9 0 1 0 15.68 4.534a7.46 7.46 0 0 1-2.717-2.248ZM15.75 14.25a3.75 3.75 0 1 1-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 0 1 1.925-3.546 3.75 3.75 0 0 1 3.255 3.718Z" clip-rule="evenodd"></path>
+</svg>
+Roasts
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/milestones"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.54 15h6.42l.5 1.5H8.29l.5-1.5Zm8.085-8.995a.75.75 0 1 0-.75-1.299 12.81 12.81 0 0 0-3.558 3.05L11.03 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 0 0 1.146-.102 11.312 11.312 0 0 1 3.612-3.321Z" clip-rule="evenodd"></path>
+</svg>
+Milestones
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/pro"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd"></path>
+</svg>
+Pro
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/deals"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M9.375 3a1.875 1.875 0 0 0 0 3.75h1.875v4.5H3.375A1.875 1.875 0 0 1 1.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0 1 12 2.753a3.375 3.375 0 0 1 5.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 1 0-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3ZM11.25 12.75H3v6.75a2.25 2.25 0 0 0 2.25 2.25h6v-9ZM12.75 12.75v9h6.75a2.25 2.25 0 0 0 2.25-2.25v-6.75h-9Z"></path>
+</svg>
+Deals
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/meetups"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd"></path>
+<path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z"></path>
+</svg>
+Meetups
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/intros"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634Zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866Zm2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0Z" clip-rule="evenodd"></path>
+</svg>
+Intros
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/hangout"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M4.5 4.5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h8.25a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H4.5ZM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06Z"></path>
+</svg>
+Hangout
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/search"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd"></path>
+</svg>
+Search
+</a>
+</nav>
+</div>
+<div class="flex-shrink-0 border-t border-gray-200 dark:border-gray-800 p-2 relative mt-auto pb-14">
+
+<div class="flex flex-col gap-2 w-full">
+<a class="block bg-wip-yellow dark:bg-wip-yellow hover:bg-wip-yellow-dark dark:hover:bg-wip-yellow-dark rounded-lg py-2 font-medium text-center" href="/join">Join WIP
+</a><a class="block bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-lg py-2 font-medium text-center" href="/users/sign_in">Sign in
+</a></div>
+</div>
+</div>
+<div class="w-14 flex-shrink-0">
+
+</div>
+</div>
+</div>
+
+<div class="hidden md:fixed md:inset-y-0 md:flex md:w-56 md:flex-col" data-turbo-permanent data-controller="current-page persistent-scroll" data-action="turbo:visit@window->current-page#visit turbo:before-render@window->persistent-scroll#storePosition turbo:render@window->persistent-scroll#restorePosition" id="sidebar-nav-guest">
+
+<div class="flex min-h-0 flex-1 flex-col border-r border-gray-200 dark:border-gray-800 xbg-white">
+<div class="flex flex-1 flex-col overflow-y-auto pt-5 pb-4 scrollbar-hide" data-persistent-scroll-target="scrollable">
+<div class="flex flex-shrink-0 items-center px-4">
+<a class="flex items-center gap-2 w-auto" href="/">
+<img class="h-7 w-7" src="/assets/logo-5e013d7d14f9427f7aa07a024b0dd80924cd898435434e51aa40dd04e9e27932.svg" />
+<div class="font-bold hidden">WIP</div>
+</a>
+</div>
+<nav class="mt-5 flex-1 flex flex-col gap-1 xbg-white px-2">
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"></path>
+<path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"></path>
+</svg>
+Home
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/projects"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M2.25 4.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875V17.25a4.5 4.5 0 1 1-9 0V4.125Zm4.5 14.25a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z" clip-rule="evenodd"></path>
+<path d="M10.719 21.75h9.156c1.036 0 1.875-.84 1.875-1.875v-5.25c0-1.036-.84-1.875-1.875-1.875h-.14l-8.742 8.743c-.09.089-.18.175-.274.257ZM12.738 17.625l6.474-6.474a1.875 1.875 0 0 0 0-2.651L15.5 4.787a1.875 1.875 0 0 0-2.651 0l-.1.099V17.25c0 .126-.003.251-.01.375Z"></path>
+</svg>
+Projects
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/posts"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M5.337 21.718a6.707 6.707 0 0 1-.533-.074.75.75 0 0 1-.44-1.223 3.73 3.73 0 0 0 .814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9c0 5.03-4.428 9-9.75 9-.833 0-1.643-.097-2.417-.279a6.721 6.721 0 0 1-4.246.997Z" clip-rule="evenodd"></path>
+</svg>
+Questions
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/roasts"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z"></path>
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M12.963 2.286a.75.75 0 0 0-1.071-.136 9.742 9.742 0 0 0-3.539 6.176 7.547 7.547 0 0 1-1.705-1.715.75.75 0 0 0-1.152-.082A9 9 0 1 0 15.68 4.534a7.46 7.46 0 0 1-2.717-2.248ZM15.75 14.25a3.75 3.75 0 1 1-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 0 1 1.925-3.546 3.75 3.75 0 0 1 3.255 3.718Z" clip-rule="evenodd"></path>
+</svg>
+Roasts
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/milestones"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.54 15h6.42l.5 1.5H8.29l.5-1.5Zm8.085-8.995a.75.75 0 1 0-.75-1.299 12.81 12.81 0 0 0-3.558 3.05L11.03 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 0 0 1.146-.102 11.312 11.312 0 0 1 3.612-3.321Z" clip-rule="evenodd"></path>
+</svg>
+Milestones
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/pro"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd"></path>
+</svg>
+Pro
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/deals"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M9.375 3a1.875 1.875 0 0 0 0 3.75h1.875v4.5H3.375A1.875 1.875 0 0 1 1.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0 1 12 2.753a3.375 3.375 0 0 1 5.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 1 0-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3ZM11.25 12.75H3v6.75a2.25 2.25 0 0 0 2.25 2.25h6v-9ZM12.75 12.75v9h6.75a2.25 2.25 0 0 0 2.25-2.25v-6.75h-9Z"></path>
+</svg>
+Deals
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/meetups"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd"></path>
+<path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z"></path>
+</svg>
+Meetups
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/intros"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634Zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866Zm2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0Z" clip-rule="evenodd"></path>
+</svg>
+Intros
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/hangout"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path d="M4.5 4.5a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h8.25a3 3 0 0 0 3-3v-9a3 3 0 0 0-3-3H4.5ZM19.94 18.75l-2.69-2.69V7.94l2.69-2.69c.944-.945 2.56-.276 2.56 1.06v11.38c0 1.336-1.616 2.005-2.56 1.06Z"></path>
+</svg>
+Hangout
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/search"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd"></path>
+</svg>
+Search
+</a>
+<details class="rounded open:ring-2 ring-gray-100 dark:ring-gray-900">
+<summary class="list-none select-none">
+<div class="transition-colors duration-200 flex items-center px-2 py-1 text-base font-medium rounded-md text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 cursor-pointer">
+<span class="contents group-open:hidden">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 mr-3 flex-shrink-0 text-gray-400 dark:text-gray-600 group-hover:text-gray-500">
+<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+</svg>
+More
+</span>
+<span class="hidden group-open:contents">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-6 h-6 mr-3 flex-shrink-0 text-gray-400 dark:text-gray-600 group-hover:text-gray-500">
+<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"></path>
+</svg>
+More
+</span>
+</div>
+</summary>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/api/v1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clip-rule="evenodd"></path>
+</svg>
+API
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/help"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M19.449 8.448 16.388 11a4.52 4.52 0 0 1 0 2.002l3.061 2.55a8.275 8.275 0 0 0 0-7.103ZM15.552 19.45 13 16.388a4.52 4.52 0 0 1-2.002 0l-2.55 3.061a8.275 8.275 0 0 0 7.103 0ZM4.55 15.552 7.612 13a4.52 4.52 0 0 1 0-2.002L4.551 8.45a8.275 8.275 0 0 0 0 7.103ZM8.448 4.55 11 7.612a4.52 4.52 0 0 1 2.002 0l2.55-3.061a8.275 8.275 0 0 0-7.103 0Zm8.657-.86a9.776 9.776 0 0 1 1.79 1.415 9.776 9.776 0 0 1 1.414 1.788 9.764 9.764 0 0 1 0 10.211 9.777 9.777 0 0 1-1.415 1.79 9.777 9.777 0 0 1-1.788 1.414 9.764 9.764 0 0 1-10.212 0 9.776 9.776 0 0 1-1.788-1.415 9.776 9.776 0 0 1-1.415-1.788 9.764 9.764 0 0 1 0-10.212 9.774 9.774 0 0 1 1.415-1.788A9.774 9.774 0 0 1 6.894 3.69a9.764 9.764 0 0 1 10.211 0ZM14.121 9.88a2.985 2.985 0 0 0-1.11-.704 3.015 3.015 0 0 0-2.022 0 2.985 2.985 0 0 0-1.11.704c-.326.325-.56.705-.704 1.11a3.015 3.015 0 0 0 0 2.022c.144.405.378.785.704 1.11.325.326.705.56 1.11.704.652.233 1.37.233 2.022 0a2.985 2.985 0 0 0 1.11-.704c.326-.325.56-.705.704-1.11a3.016 3.016 0 0 0 0-2.022 2.985 2.985 0 0 0-.704-1.11Z" clip-rule="evenodd"></path>
+</svg>
+Help
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/open"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm4.5 7.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0v-2.25a.75.75 0 0 1 .75-.75Zm3.75-1.5a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V12Zm2.25-3a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 1-1.5 0V9.75A.75.75 0 0 1 13.5 9Zm3.75-1.5a.75.75 0 0 0-1.5 0v9a.75.75 0 0 0 1.5 0v-9Z" clip-rule="evenodd"></path>
+</svg>
+Open
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/makers/map"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M8.161 2.58a1.875 1.875 0 0 1 1.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0 1 21.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 0 1-1.676 0l-4.994-2.497a.375.375 0 0 0-.336 0l-3.868 1.935A1.875 1.875 0 0 1 2.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437ZM9 6a.75.75 0 0 1 .75.75V15a.75.75 0 0 1-1.5 0V6.75A.75.75 0 0 1 9 6Zm6.75 3a.75.75 0 0 0-1.5 0v8.25a.75.75 0 0 0 1.5 0V9Z" clip-rule="evenodd"></path>
+</svg>
+Map
+</a>
+<a class="not-current transition-colors duration-200 group self-start flex items-center px-2 py-1 text-3xl md:text-base rounded-lg text-gray-900 dark:text-gray-400 font-medium md:hover:bg-gray-100 md:dark:hover:bg-gray-900 hover:text-gray-900 dark:hover:text-gray-100 current:bg-gray-100 current:dark:bg-gray-900 current:text-black current:dark:text-gray-100 current:font-bold" href="/report"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-gray-800 dark:text-gray-600 group-hover:text-gray-700 dark:group-hover:text-gray-300 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-8 h-8 md:w-6 md:h-6 mr-3 flex-shrink-0 text-black dark:text-gray-300 group-hover:text-black dark:group-hover:text-gray-300 hidden current:block">
+<path fill-rule="evenodd" d="M3 2.25a.75.75 0 0 1 .75.75v.54l1.838-.46a9.75 9.75 0 0 1 6.725.738l.108.054A8.25 8.25 0 0 0 18 4.524l3.11-.732a.75.75 0 0 1 .917.81 47.784 47.784 0 0 0 .005 10.337.75.75 0 0 1-.574.812l-3.114.733a9.75 9.75 0 0 1-6.594-.77l-.108-.054a8.25 8.25 0 0 0-5.69-.625l-2.202.55V21a.75.75 0 0 1-1.5 0V3A.75.75 0 0 1 3 2.25Z" clip-rule="evenodd"></path>
+</svg>
+Report
+</a>
+</details>
+</nav>
+</div>
+<div class="flex-shrink-0 border-t border-gray-200 dark:border-gray-800 p-2 relative mt-auto pb-14">
+
+<div class="flex flex-col gap-2 w-full">
+<a class="block bg-wip-yellow dark:bg-wip-yellow hover:bg-wip-yellow-dark dark:hover:bg-wip-yellow-dark rounded-lg py-2 font-medium text-center" href="/join">Join WIP
+</a><a class="block bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-lg py-2 font-medium text-center" href="/users/sign_in">Sign in
+</a></div>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col md:pl-56">
+
+<div class="fixed inset-x-0 bottom-0 z-40 backdrop-blur-lg bg-white/80 dark:bg-gray-900/90 px-1 pt-1 pb-1-safe md:hidden flex border-t border-black/10 dark:border-white/10" data-controller="current-page" data-turbo-permanent id="bottom-nav-guest">
+<a class=" flex grow h-10 w-10 items-center justify-center rounded text-gray-500 transition-all transform-gpu active:scale-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" href="/">
+<span class="sr-only">Home</span>
+<div class="relative">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-500 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-100 hidden current:block">
+<path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"></path>
+<path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"></path>
+</svg>
+</div>
+</a>
+<a class=" flex grow h-10 w-10 items-center justify-center rounded text-gray-500 transition-all transform-gpu active:scale-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" href="/search">
+<span class="sr-only">Search</span>
+<div class="relative">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-500 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-100 hidden current:block">
+<path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd"></path>
+</svg>
+</div>
+</a>
+<a class=" flex grow h-10 w-10 items-center justify-center rounded text-gray-500 transition-all transform-gpu active:scale-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" href="/posts">
+<span class="sr-only">Questions</span>
+<div class="relative">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-500 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-100 hidden current:block">
+<path fill-rule="evenodd" d="M5.337 21.718a6.707 6.707 0 0 1-.533-.074.75.75 0 0 1-.44-1.223 3.73 3.73 0 0 0 .814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9c0 5.03-4.428 9-9.75 9-.833 0-1.643-.097-2.417-.279a6.721 6.721 0 0 1-4.246.997Z" clip-rule="evenodd"></path>
+</svg>
+</div>
+</a>
+<a class=" flex grow h-10 w-10 items-center justify-center rounded text-gray-500 transition-all transform-gpu active:scale-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" href="/notifications">
+<span class="sr-only">Notifications</span>
+<div class="relative">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-500 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-100 hidden current:block">
+<path fill-rule="evenodd" d="M5.25 9a6.75 6.75 0 0 1 13.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 0 1-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 1 1-7.48 0 24.585 24.585 0 0 1-4.831-1.244.75.75 0 0 1-.298-1.205A8.217 8.217 0 0 0 5.25 9.75V9Zm4.502 8.9a2.25 2.25 0 1 0 4.496 0 25.057 25.057 0 0 1-4.496 0Z" clip-rule="evenodd"></path>
+</svg>
+<div class="absolute -top-0.5 right-0 rounded-full h-1.5 w-1.5 bg-red-500 text-[0px] hidden [&:has([data-unread-notifications-count]:not(:empty))]:flex">
+<turbo-frame id="notification_badge" src="/notifications/badge"></turbo-frame>
+</div>
+</div>
+</a> <a class=" flex grow h-10 w-10 items-center justify-center rounded text-gray-500 transition-all transform-gpu active:scale-90 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" data-action="click-&gt;sidebar#open" href="#more">
+<span class="sr-only">More</span>
+<div class="relative">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-500 block current:hidden">
+<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-6 w-6 text-black dark:text-gray-100 hidden current:block">
+<path fill-rule="evenodd" d="M4.5 12a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm6 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm6 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" clip-rule="evenodd"></path>
+</svg>
+</div>
+</a>
+</div>
+<main class="flex-1">
+<div class="grid grid-cols-6 min-h-screen pb-[49px] sm:pb-0">
+<section class="main">
+<section class="page">
+<h1 class="page__title">Terms of Service</h1>
+<p>These terms apply to WIP and any other of WIP's sites, apps, communities on any platform, any of its meetups and/or any of its online or offline events or properties.</p>
+<p>Non-legally binding TL;DR:</p>
+<ul>
+<li>WIP's sites are crowdsourced and have user-generated content, so don't rely on the data.</li>
+<li>We're not liable if you get hurt because of our site, app, data or meetups.</li>
+<li>You allow us to publish the stuff you contribute to this site indefinitely.</li>
+<li>When providing feedback (through the feedback form or any other way), you agree to let us use it to improve the site/app.</li>
+<li>We collect analytics data including your IP, location and actions on this site to make it better (including through Google and other analytics services).</li>
+<li>We also use your IP, location and actions on this site to personalize it (e.g. show you the nearest members to you)</li>
+<li>If you use one of our APIs or data, you're required to link back to us at every page or in every app screen you use the data on.</li>
+<li>You can only re-publish our data if it's for non-commercial objectives (e.g. not a company/startup)</li>
+<li>If you excessively promote your website/app/business/yourself on or spam any of our websites and/or communities, we have the right to ban you for life and not refund your membership payment as a fine for having to spend time to moderate you (otherwise you'll just sign up again too).</li>
+<li>We reserve the right to deny refund requests for any reason.</li>
+</ul>
+<p>And here's the official legal terms:</p>
+<p>We accept no responsibility for any loss, injury or inconvenience resulting from using WIP's websites and apps. You should verify critical information.</p>
+<p>WIP accepts no liability or responsibility to any person or organisation as a consequence of any reliance upon the information contained in its sites like WIP, Telegram chat, and any other of its sites and properties.</p>
+<p>We collect data about your browser, IP, location for analytics purposes. We also use your location to show you nearby members. If you contribute content data to the site, the chat, you provide us with a perpetual license to broadcast, display, distribute, sell and produce derivatives from your contributions.</p>
+<p>Every effort is made to provide information that is accurate. However, materials contained in WIP's websites, apps, communities and its properties are subject to change at any time by appropriate action of WIP. We give no assurance or warranty that information on this site is current, and take no responsibility for matters arising from changed circumstances or other information or material which may affect the accuracy or currency of information on this site.</p>
+<p>Copyright in WIP's websites, apps, communities and its properties rests with WIP unless otherwise stated.</p>
+<p>We reserve the right to permanently ban any user from our websites for behavior that goes against our <a href="/guidelines">guidelines</a>. We will be the sole judge of behavior and we do not offer appeals or refunds in those cases.</p>
+<p>By using WIP, you agree to not excessively promote your website, application, app, software, product, business or yourself by posting links to them on any of our platform sites or apps. WIP reserves the right to terminate your account and keep your membership fee as a fine.</p>
+<p>Users are liable for Fees for Membership together with all applicable taxes. Users may cancel their Membership at any time by contacting WIP's customer service or logging into their account details via the descriptor website indicated on their email receipt. Users must cancel their Membership 48 hours prior to the rebill date if they do not wish their Membership to renew with associated Fees. Up until the date a Membership is canceled the User authorizes WIP to continue charging the User's Payment Method to pay: (i) Fees for Membership; (ii) all purchases of other products, services and entertainment provided by WIP; and (iii) other liabilities of yours to WIP or any third party.</p>
+<p>Delayed Transactions. In the event a User's Payment Method was declined WIP may attempt to process the transaction again under the same conditions as the transaction was initiated by the User, within a few days of the User's first attempt to purchase their Membership. Where the Payment Method is approved in such a circumstance, the User will receive an email confirming the successful completion of their transaction.</p>
+<p>Memberships may be canceled on the user's dashboard or by contacting WIP customer service. If a Membership is canceled before the renewal date the User will still have access for the remainder of the period already paid.</p>
+<p>We generally offer very limited refunds to new users. The reason is that you can "inspect the product" (that is the membership) by accessing all our sites in read-only mode before becoming a paid member. Thus, except being able to participate on our sites, nothing changes. You were/are able to inspect what you buy before buying and therefore we don't give refunds. You knew what you were buying. If you doubt becoming a member, we suggest you don't.</p>
+<p>Many of our websites, apps and communities contain user generated data that is subjective, may not be accurate or may be offensive to you. We are not liable for any damages that result from using this data.</p>
+<p>The information posted on our websites, apps and communities should not be considered legal, financial or other advice and is not intended to replace consultation with a qualified professional or specific written confirmation from WIP. We do not answer specific legal or financial questions.</p>
+<p>WIP's websites, apps, communities and its properties is provided on an “as is”, “as available” basis without warranties of any kind, express or implied, including, but not limited to, those of TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE or NON-INFRINGEMENT or any warranty arising from a course of dealing, usage, or trade practice. No advice or written information provided shall create a warranty; nor shall members or visitors to the site rely on any such information or advice. This publication is not intended to be a contract, explicit or implied, and WIP reserves the right to make changes to the information contained.</p>
+<p>The user assumes all responsibility and risk for the use of WIP's websites, apps, communities and its properties and the Internet generally. We accept no liability or responsibility to any person or organisation as a consequence of any reliance upon the information contained in this site. Under no circumstances, including negligence, shall anyone involved in creating or maintaining WIP's websites, apps, communities and its properties be liable for any direct, indirect, incidental, special or consequential damages, or loss profits that result from the use or inability to use the Website and/or any other websites which are linked to this site. Nor shall they be liable for any such damages including, but not limited to, reliance by a member or visitor on any information obtained via the Website; or that result from mistakes, omissions, interruptions, deletion of files, viruses, errors, defects, or failure of performance, communications failure, theft, destruction or unauthorized access. States or Countries which do not allow some or all of the above limitations of liability, liability shall be limited to the greatest extent allowed by law.</p>
+<p>WIP'S SOFTWARE, APPS, WEBSITE, COMMUNITIES AND ANY OF ITS OTHER PROPERTIES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS, OWNERS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH WIP'S SOFTWARE, APPS, WEBSITE, COMMUNITIES AND ANY OF ITS OTHER PROPERTIES OR THE USE OR OTHER DEALINGS IN WIP'S SOFTWARE, APPS, WEBSITE, COMMUNITIES AND ANY OF ITS OTHER PROPERTIES.</p>
+<p>Visitors agree to use the Website only for lawful purposes and are prohibited from posting on the Website any unlawful, harmful, threatening, abusive, harassing, defamatory, or obscene material of any kind, including, but not limited to, any material which encourages conduct that would constitute a criminal offence, give rise to civil liability or otherwise violate any applicable local, state, national or international law. Although in the absence of a specific complaint the postings are monitored for compliance with this provision, in an effort to discourage such conduct, please note that all postings in any forum area will list the author’s name and institution - no anonymous postings will be permitted.</p>
+<p>We are distributors (not publishers) of the content supplied by visitors and other third parties. Accordingly, we have no more editorial control over this content than does a public library. Any opinions, advice, statements, services, offers or other information or content made available by members, visitors and other third parties are those of the respective author(s) and we are not responsible for any material posted by third parties. We cannot and do not endorse it in any way, we expressly disclaim any liability associated with material posted by third parties.</p>
+<p>Unless otherwise stated, reference to any products, services, hypertext link to the third parties or other information by trade name, trademark, supplier or otherwise does not constitute or imply its endorsement, sponsorship or recommendation by us. Nor is endorsement of us implied by such links. They are for convenience only, as an index in a public library.</p>
+<p>Any information on WIP's websites, apps, communities and its properties may include technical inaccuracies or typographical errors. Furthermore, the information may change from time to time without any notice.</p>
+<p>You agree to observe and maintain the confidentiality of all security features relating to use of the Website (including passwords, access arrangements etc) as notified. WIP will not be liable for any unauthorised breach or disclosure of the security features.</p>
+<p>You agree to link back with a web hyperlink or in-app hyperlink to our site on the page or app screen where you use the data from our APIs or site.</p>
+<p>You user data may be used on any of our websites and apps including marketing pages to show current user activity.</p>
+<p>When providing feedback (e.g. by identifying any errors or problems in the operations of WIP and its services) throug any medium (e.g. the feedback form, email or any other medium), you acknowledge and agree that all feedback will be the sole and exclusive property of WIP. You hereby assign to WIP and agree to assign to WIP all of your right and interesting in and to all feedback, including all intellectual property rights therein.</p>
+<p>You agree to indemnify WIP (its employees and agents) for any loss suffered or liability incurred by WIP (its employees and agents) arising from any unlawful, unauthorised or improper access or use of the Website or any breach of these terms by you or your employees, contractors or representatives.</p>
+<p>WIP does not guarantee constant availability of Website access and accept no liability for down time or access failure due to circumstances beyond its reasonable control (including any failure by ISP or system provider).</p>
+<p>The Site may contain links to other sites on the internet (“Linked Sites”). WIP is not responsible for the accuracy, legality, decency of material or copyright compliance of any Linked Site or services or information provided via any Linked Site.</p>
+<p>No data transmission over the Internet can be guaranteed as totally secure. Whilst we strive to protect such information we do not warrant and cannot ensure the security of information which you transmit to us. Accordingly, any information which you transmit to us is transmitted at your own risk.</p>
+<p>These terms and conditions will be constructed according to and are governed by the laws of Singapore, regardless of where WIP operates or you use WIP from.</p>
+</section>
+</section>
+</div>
+</main>
+</div>
+</div>
+<turbo-frame id="modal"></turbo-frame>
+<div class="blocker hidden" data-action="shortcuts:openHelp@window-&gt;modal#open click-&gt;modal#closeIfClickedBlocker keydown@window-&gt;modal#closeIfEscape" data-controller="modal">
+<div class="modal">
+<h1>Keyboard Shortcuts</h1>
+<table class="shortcuts">
+<tr>
+<td>Go to Homepage</td>
+<td>
+<kbd class="font-mono">g</kbd>
+<kbd class="font-mono">h</kbd>
+</td>
+</tr>
+<tr>
+<td>Go to Done Todos</td>
+<td>
+<kbd class="font-mono">g</kbd>
+<kbd class="font-mono">d</kbd>
+</td>
+</tr>
+<tr>
+<td>Go to Questions</td>
+<td>
+<kbd class="font-mono">g</kbd>
+<kbd class="font-mono">q</kbd>
+</td>
+</tr>
+<tr>
+<td>Compose a New Todo</td>
+<td>
+<kbd class="font-mono">n</kbd>
+</td>
+</tr>
+<tr>
+<td>Go to Search</td>
+<td>
+<kbd class="font-mono">/</kbd>
+</td>
+</tr>
+<tr>
+<td>Show this dialog</td>
+<td>
+<kbd class="font-mono">?</kbd>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

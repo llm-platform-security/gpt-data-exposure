@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<link href="https://font.elice.io/css?family=Elice+DX+Neolli" rel="stylesheet">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZZF1QH690"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+
+			gtag('config', 'G-XZZF1QH690');
+		</script>
+
+		<meta charset="utf-8" />
+		
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="naver-site-verification" content="b93f7a0cd71ee246701e635319a5e6abaf022e6d" />
+		
+		
+		<link href="./_app/immutable/assets/0.b969a9b5.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.e96b1ddd.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.a119fd52.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.f1583a62.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.be9ea2d2.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d21a05af.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5bb073b6.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.79dc5542.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.40b8f606.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.7d776dab.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/globals.7f7f1b26.js"><title>스탠바이챗::StandbyChat</title><!-- HEAD_svelte-1q8xl96_START --><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="StandbyChat(스탠바이챗)은 AI 상담원 생성 툴 입니다. chatgpt와 카카오톡 챗봇을 연결합니다. 쉽고 빠른 고객 상담 자동화. 고객상담 자동화 트랜드에 맞게 바꾸세요."><meta name="keywords" content="standbychat,스탠바이챗,chatgpt고객센터,chatgpt,chatgpt고객센터구축,챗봇개발,openai,국내유일1:1챗봇수업,chatgpt앱개발,오픈빌더스킬개발,챗봇제작,챗봇전문기업"><meta property="og:title" content="standbychat : 카카오톡 고객상담을 위한 맞춤형 ChatGPT 서비스"> <meta property="og:description" content="StandbyChat은 AI 상담원 생성 툴 입니다. chatgpt와 카카오톡 챗봇을 연결합니다. 쉽고 빠른 고객 상담 자동화. 고객상담 자동화 트랜드에 맞게 바꾸세요."> <meta property="og:url" content="https://standbychat.com/"> <meta property="og:type" content="website">  <meta property="og:image" content="https://standbychat.com/standbychat-title.png"> <meta property="og:image:alt" content="standbychat"> <meta property="og:image:width" content="850"> <meta property="og:image:height" content="650"><!-- HEAD_svelte-1q8xl96_END --><!-- HEAD_svelte-1xhvd6d_START --><meta name="description" content="StandbyChat(스탠바이챗)은 AI 상담원 생성 툴 입니다. chatgpt와 카카오톡 챗봇을 연결합니다. 쉽고 빠른 고객 상담 자동화. 고객상담 자동화 트랜드에 맞게 바꾸세요."><!-- HEAD_svelte-1xhvd6d_END -->
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5XJ974G" height="0" width="0"
+				style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<div style="display: contents">  <div class="app svelte-5iqw9j"><header class="svelte-1at6o3e"><div data-svelte-h="svelte-dg0exb"><a href="/" class="svelte-1at6o3e"><img class="main-logo svelte-1at6o3e" src="/_app/immutable/assets/logo-standbychat.ebf964f7.png" alt="SvelteKit"></a></div> <nav class="svelte-1at6o3e"> <ul class="svelte-1at6o3e"><li class="select-a svelte-1at6o3e" aria-current="page"><a href="/" class="svelte-1at6o3e" data-svelte-h="svelte-fmbxmu">스탠바이챗</a></li> <li class=" svelte-1at6o3e"><a href="/about" class="svelte-1at6o3e" data-svelte-h="svelte-1uthi1q">사용법</a></li> <li class=" svelte-1at6o3e"><a href="/demo" class="svelte-1at6o3e" data-svelte-h="svelte-h4n7ne">데모등록</a></li></ul> </nav>  </header> <main class="svelte-5iqw9j">   <section class="svelte-1ifklw1"><div class="top-title svelte-1ifklw1" style="background-image:url('/sbc-2.png'); background-repeat: no-repeat; background-size: cover;background-position: bottom center;"></div>   <div class="title-desc" data-svelte-h="svelte-1shf4sq"><h1 class="masked-text svelte-1ifklw1"><span style="white-space: pre;word-wrap: break-word;">카카오톡</span> <span style="white-space: pre;word-wrap: break-word;">고객상담을 위한</span> <span style="white-space: pre;word-wrap: break-word;">맞춤형</span> <span style="white-space: pre;word-wrap: break-word;">ChatGPT 서비스</span></h1></div> <div class="infomations svelte-1ifklw1"> <div class="content svelte-1ifklw1"><div class="img svelte-1ifklw1"><img class="content-img svelte-1ifklw1" src="/_app/immutable/assets/standbychat-magic-chatbot-m.5426cee8.jpg" alt="standbychat-magic-chatbot"></div> <div class="questions svelte-1ifklw1" data-svelte-h="svelte-1lrdsgv"><h2 class="svelte-1ifklw1">챗봇을 사용하면 고객센터가 자동화 된다고 하던데요?</h2> <div class="answer svelte-1ifklw1">많은 비용을 써도, ChatGPT 이전의 챗봇은 입력한 질문과 답변에 대해서만 처리
+					가능했습니다.간단한 버튼식 챗봇으로는 단순 업무 처리도 불가능한 경우가 많습니다.고객이
+					원하는 내용을 정확하게 알려주는 방식이 아니라, 정해진 답변을 선택하는 형태로는 고객센터
+					자동화에 어려움이 있습니다.<br><br>애플 시리나 구글 어시스턴트가 여전히 제대로 답변을
+					못하는 이유이기도 합니다. 구글, 애플도 이전의 방식으로는 고객이 원하는 답변을 만들어 내기
+					어려웠죠. 구글이 어시스턴트에 LLM을 적용하려는 이유기도 합니다.</div> <div class="info-standbychat svelte-1ifklw1">단순 챗봇일 경우에는 버튼으로만 구성되어도 충분한 경우도 있습니다. 챗봇이 고객과 소통할 때
+					중요한 것이 무엇인지에 따라서 달라질 수 있습니다. 왜 버튼형 챗봇이 사용되었을지? 그
+					방식으로 충분히 고객이 원하는 내용을 전달할 수 있을지에 대한 고려는 필요합니다. 초기의
+					챗봇은 자연어처리가 안되었고, 간단한 단답형식 정도만 처리 가능했습니다. 사용자의 말에 따른
+					답변이 가능한 현재의 시점에서도 제한되고 정해진 답변만 하는 챗봇이 과연 고객 센터의 부하를
+					줄이는데 도움이 될지에 대해서는 생각해 볼 문제입니다.
+					<br><br>
+					그렇지만, chatgpt가 만능은 아닙니다. 고객사의 서버를 통해서 데이터를 가져오기 위해서는 고객사가
+					API를 제공할 수 있어야 합니다. 또한 기본적으로 chatgpt api 사용에서는 외부 API와의 연동에 대한
+					부분은 별도의 개발이 필요합니다. 즉, 극적으로 고객센터의 모든 업무를 처리하는 방법으로 사용될
+					수는 없습니다.</div></div></div>   <div class="content svelte-1ifklw1"><div class="questions img-order-1 svelte-1ifklw1" data-svelte-h="svelte-1nrkc7k"><h2 class="svelte-1ifklw1">StandbyChat이 개발하는 챗봇은 무엇이 다른가요?</h2> <div class="answer svelte-1ifklw1">고객 질문을 ChatGPT로 분석하고, 데이터 문서에서 찾아서 ChatGPT로 정확한 답변을 생성합니다.
+					질문답변 입력형식으로 처리할 수 없는 문서 기반으로 동작하는 챗봇을 쉽고, 낮은 비용으로
+					구축합니다.</div> <div class="info-standbychat svelte-1ifklw1">단순히 chatgpt api에 연결되었다고 정확한 답변을 할 수 있는 것은 아닙니다. 고객 문서를
+					임베딩 방식으로 연결해서 질문과 관련된 문서를 찾고, 문서에서 질문의 답 부분에 대해서
+					챗봇이 답변을 생성하는 방식으로 동작하게 됩니다. 고객 문서 데이터를 OpenAI Ada2 모델로
+					임베딩을 진행하며, 임베딩된 데이터와 고객질의 간의 상관 관계를 찾는 과정이 포함되게
+					됩니다. 데이터화된 문서가 없을 경우를 제외한다면, chatgpt의 성능 그대로를 고객센터 챗봇에
+					적용하게 됩니다. 비용을 최적화 하기 위해서 chatgpt3.5를 사용하거나, 비용이 20배 비싸지만
+					성능을 위해서 gpt4를 사용할 수 있습니다. 혹은 chatgpt3.5 파인튜닝 방식으로 적용
+					가능합니다.
+					<br><br>
+					유지관리의 편의성에서도 카카오톡 챗봇은 오픈빌더를 통해서 수정하고 배포하는 과정을 거쳐야 합니다.
+					standbyChat의 경우에는 설정된 구글시트를 업데이트하는 것으로 수정 및 배포가 완료 되게 됩니다.
+					오픈빌더에 들어가고 배포 및 테스트 과정이 축소되므로 더 짧은 시간에 챗봇 업데이트 작업을 완료
+					할 수 있습니다.</div></div> <div class="img img-order-2 svelte-1ifklw1"><img class="content-img svelte-1ifklw1" src="/_app/immutable/assets/standbychat-ai-chatbot-m.4c91fd34.jpg" alt="standbychat-ai-chatbot"></div></div>  <div class="content svelte-1ifklw1"><div class="img svelte-1ifklw1"><img class="content-img svelte-1ifklw1" src="/_app/immutable/assets/standbychat-howto-m.d9e096a3.jpg" alt="standbychat-content-chatbot"></div> <div class="questions svelte-1ifklw1" data-svelte-h="svelte-wvfyzx"><h2 class="svelte-1ifklw1">StandbyChat을 사용하려면 어떻게 해야 하나요?</h2> <div class="answer svelte-1ifklw1">구축 방법은 <a href="/about">HOWTO</a>를 확인 해주세요. 특별한 지식없이도 고객지원 문서만
+					있다면 쉽게 만들 수 있습니다. 구글시트를 통해서 관리가 가능하므로, 별도의 관리페이지 없이
+					쉽게 사용할 수 있습니다. 챗봇의 답변을 고치는 작업도 카카오톡 오픈빌더툴에서 배포과정 없이
+					쉽게 실시간 적용됩니다.</div> <div class="info-standbychat svelte-1ifklw1">카카오 채널, 오픈빌더 계정, 구글 계정만 있으면 바로 chatgpt를 고객센터에 적용할 수
+					있습니다. 오픈빌더를 구축했다면 폴백블럭을 이용해서 ChatGPT와 추가적으로 연결하는 작업을
+					할 뿐 이전 챗봇에 영향을 미치지는 않습니다. 다만 이 경우에는 이전 답변과 ChatGPT 답변이
+					중복되지 않도록 조정하는 작업이 필요합니다.
+					<br><br>
+					구글시트 셀에 데이터를 입력하고, 구글시트에 커스텀되어 있는 버튼 클릭으로 챗봇 배포를 완료할
+					수 있도록 합니다. 추가적인 개발 지식이나 ChatGPT에 대한 지식이 필요한 것은 아닙니다. 다만,
+					자사의 챗봇이 어떤 형식으로 대화를 할지에 대한 준비는 필요합니다. 이 부분도 구글시트에서 업데이트
+					가능하도록 개발합니다.</div></div></div>  <div class="content svelte-1ifklw1"><div class="questions img-order-1 svelte-1ifklw1" data-svelte-h="svelte-17lysyc"><h2 class="svelte-1ifklw1">StandbyChat으로 모든 챗봇 기능을 만들 수 있나요?</h2> <div class="answer svelte-1ifklw1">StandbyChat은 ChatGPT와의 데이터문서의 연결을 합니다. 필요한 챗봇 기능은 추가 개발 후 통합
+					가능합니다.</div> <div class="info-standbychat svelte-1ifklw1">standbyChat은 화이트래빗스토리의 서비스입니다. 화이트래빗스토리(wrstory.com)은 2018년부터
+					전문적으로 챗봇 개발을 진행했습니다. 다양한 프로젝트 경험으로 필요한 기능을 개발하고
+					있습니다. ChatGPT를 응용하는 개발에서 일반적인 개발영역까지 모두 개발 가능합니다. 전문성과
+					책임감을 가지고 개발하고 있습니다. 추가 기능 개발에 대한 견적은 프로젝트 미팅에서
+					결정합니다.</div></div> <div class="img img-order-2 svelte-1ifklw1"><img class="content-img svelte-1ifklw1" src="/_app/immutable/assets/standbychat-function-m.6c99e3d5.jpg" alt="standbychat-functions-chatbot"></div></div>  <div class="content svelte-1ifklw1"><div class="img svelte-1ifklw1"><img class="content-img svelte-1ifklw1" src="/_app/immutable/assets/standbychat-price-m.a16aebaf.jpg" alt="standbychat-price-chatbot"></div> <div class="questions svelte-1ifklw1" data-svelte-h="svelte-tyiziy"><h2 class="svelte-1ifklw1">StandbyChat의 비용과 기간은?</h2> <div class="answer svelte-1ifklw1">단독 서버로 구축하는 경우 초기 개발 비용은 300만원(VAT제외)입니다.클라우드 형태로 구축도
+					가능하며, 월단위 비용은 10만원입니다.ChaGPT API 는 고객사가 결제해야 합니다.개발 기간은
+					1주-2주이며, 데이터 문서의 복잡성에 따라 기간이 변경될 수 있습니다. 고객사의 요청에 따라
+					기간 및 비용은 달라집니다.</div></div></div> <div class="info-standbychat svelte-1ifklw1"></div>  <div class="contact svelte-1ifklw1" data-svelte-h="svelte-19fb0r0"><div>문의하기</div> <div>담당자 : 김윤형 대표</div> <div>이메일 : yh.kim@wrstory.com</div> <div>전화번호 : 010-5527-0494</div> <br> <div>화이트래빗스토리</div> <div>03956 서울특별시 마포구 방울내로 31</div> <div>사업자 번호 : 848-34-01027</div> <div>통신판매업신고 : 2022-서울마포-1663</div></div></div>  </section></main> <footer class="svelte-5iqw9j" data-svelte-h="svelte-kgftm5"><p>standbyChat by <a href="https://wrstory.com" class="svelte-5iqw9j">wrstory.com</a> @2023</p></footer> </div> 
+			
+			<script>
+				{
+					__sveltekit_uhrxy1 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.a119fd52.js"),
+						import("./_app/immutable/entry/app.d21a05af.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

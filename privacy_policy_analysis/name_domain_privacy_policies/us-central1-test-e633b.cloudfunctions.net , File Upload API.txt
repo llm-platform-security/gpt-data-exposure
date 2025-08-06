@@ -1,0 +1,119 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><title>OfferPilot</title><meta name="description" content="OfferPilot - Empowering job seekers with personalized resumes &amp; cover letters. Maximize success in the job market! Craft tailored applications &amp; ace screenings"/><meta name="keywords" content="job seekers, internships, resume building, job applications, college students, career development, personalized resumes, cover letters"/><meta name="robots" content="index, follow"/><link rel="apple-touch-icon" sizes="180x180" href="/FaviconPackage/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/FaviconPackage/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/FaviconPackage/favicon-16x16.png"/><link rel="manifest" href="/FaviconPackage/site.webmanifest"/><meta name="msapplication-TileColor" content="#da532c"/><meta name="theme-color" content="#ffffff"/><link rel="canonical" href="https://www.offerpilot.ai"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><link rel="alternate" hrefLang="en" href="https://www.offerpilot.ai/"/><meta property="og:title" content="OfferPilot - Tailored Resumes for College Students"/><meta property="og:description" content="Optimize your job applications with OfferPilot. Personalized resume and cover letter tools for job seekers to succeed in the job market."/><meta property="og:image" content="/NewOfferPilotLogo.png"/><meta property="og:url" content="https://www.offerpilot.ai"/><meta property="og:type" content="website"/><meta name="twitter:title" content="OfferPilot - Empower Your Job Applications"/><meta name="twitter:description" content="Build effective resumes and cover letters with OfferPilot, designed for college students entering the job market."/><meta name="twitter:image" content="/NewOfferPilotLogo.png"/><script src="https://cdn.amplitude.com/libs/analytics-browser-2.1.3-min.js.gz"></script><script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.1.0-min.js.gz"></script><script type="text/javascript">!function(){&quot;use strict&quot;;!function(e,t){var r=e.amplitude||{_q:[],_iq:{}};if(r.invoked)e.console&amp;&amp;console.error&amp;&amp;console.error(&quot;Amplitude snippet has been loaded.&quot;);else{var n=function(e,t){e.prototype[t]=function(){return this._q.push({name:t,args:Array.prototype.slice.call(arguments,0)}),this}},s=function(e,t,r){return function(n){e._q.push({name:t,args:Array.prototype.slice.call(r,0),resolve:n})}},o=function(e,t,r){e[t]=function(){if(r)return{promise:new Promise(s(e,t,Array.prototype.slice.call(arguments)))}}},i=function(e){for(var t=0;t&lt;m.length;t++)o(e,m[t],!1);for(var r=0;r&lt;y.length;r++)o(e,y[r],!0)};r.invoked=!0;var a=t.createElement(&quot;script&quot;);a.type=&quot;text/javascript&quot;,a.crossOrigin=&quot;anonymous&quot;,a.src=&quot;https://cdn.amplitude.com/libs/plugin-ga-events-forwarder-browser-0.2.0-min.js.gz&quot;,a.onload=function(){e.gaEventsForwarder&amp;&amp;e.gaEventsForwarder.plugin&amp;&amp;e.amplitude.add(e.gaEventsForwarder.plugin())};var c=t.createElement(&quot;script&quot;);c.type=&quot;text/javascript&quot;,c.integrity=&quot;sha384-HpnlFSsUOQTaqmMKb6/PqZKVOBEpRji3JNLr81x6XElQ4bkquzRyG/F8rY8IDMuw&quot;,c.crossOrigin=&quot;anonymous&quot;,c.async=!0,c.src=&quot;https://cdn.amplitude.com/libs/analytics-browser-2.2.1-min.js.gz&quot;,c.onload=function(){e.amplitude.runQueuedFunctions||console.log(&quot;[Amplitude] Error: could not load SDK&quot;)};var u=t.getElementsByTagName(&quot;script&quot;)[0];u.parentNode.insertBefore(a,u),u.parentNode.insertBefore(c,u);for(var p=function(){return this._q=[],this},d=[&quot;add&quot;,&quot;append&quot;,&quot;clearAll&quot;,&quot;prepend&quot;,&quot;set&quot;,&quot;setOnce&quot;,&quot;unset&quot;,&quot;preInsert&quot;,&quot;postInsert&quot;,&quot;remove&quot;,&quot;getUserProperties&quot;],l=0;l&lt;d.length;l++)n(p,d[l]);r.Identify=p;for(var g=function(){return this._q=[],this},v=[&quot;getEventProperties&quot;,&quot;setProductId&quot;,&quot;setQuantity&quot;,&quot;setPrice&quot;,&quot;setRevenue&quot;,&quot;setRevenueType&quot;,&quot;setEventProperties&quot;],f=0;f&lt;v.length;f++)n(g,v[f]);r.Revenue=g;var m=[&quot;getDeviceId&quot;,&quot;setDeviceId&quot;,&quot;getSessionId&quot;,&quot;setSessionId&quot;,&quot;getUserId&quot;,&quot;setUserId&quot;,&quot;setOptOut&quot;,&quot;setTransport&quot;,&quot;reset&quot;,&quot;extendSession&quot;],y=[&quot;init&quot;,&quot;add&quot;,&quot;remove&quot;,&quot;track&quot;,&quot;logEvent&quot;,&quot;identify&quot;,&quot;groupIdentify&quot;,&quot;setGroup&quot;,&quot;revenue&quot;,&quot;flush&quot;];i(r),r.createInstance=function(e){return r._iq[e]={_q:[]},i(r._iq[e]),r._iq[e]},e.amplitude=r}}(window,document)}();
+            amplitude.init(&#x27;3461d36e8395912be846c7c20bbb0450&#x27;);
+            const sessionReplayTracking = window.sessionReplay.plugin();
+            window.amplitude.add(sessionReplayTracking);
+            </script><meta name="next-head-count" content="26"/><link rel="icon" href="/favicon.ico"/><link rel="preload" href="/_next/static/css/ef46db3751d8e999.css" as="style" crossorigin=""/><link rel="stylesheet" href="/_next/static/css/ef46db3751d8e999.css" crossorigin="" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-b5d89afd3832cb8f.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/framework-5666885447fdc3cc.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/main-7aae8af1322efb45.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/_app-74f908e75bcee316.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/1664-85b07e8ab89f78f9.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/legal/privacy-policy-e5a2ec2ef3ac531c.js" defer="" crossorigin=""></script><script src="/_next/static/z3W8F_PnUqySowzv4M1OS/_buildManifest.js" defer="" crossorigin=""></script><script src="/_next/static/z3W8F_PnUqySowzv4M1OS/_ssgManifest.js" defer="" crossorigin=""></script><style data-styled="" data-styled-version="6.0.8">*{font-family:"Inter";box-sizing:border-box;margin:0;padding:0;-ms-overflow-style:none;scrollbar-width:none;}/*!sc*/
+* ::-webkit-scrollbar{display:none;}/*!sc*/
+* a{color:inherit;text-decoration:none;}/*!sc*/
+data-styled.g1[id="sc-global-dkrUix1"]{content:"sc-global-dkrUix1,"}/*!sc*/
+.fOKPfL{display:flex;flex-direction:column;padding:2vw;}/*!sc*/
+data-styled.g127[id="sc-261c515b-0"]{content:"fOKPfL,"}/*!sc*/
+.iaeJHX{font-size:3vw;margin-bottom:4vw;}/*!sc*/
+data-styled.g128[id="sc-261c515b-1"]{content:"iaeJHX,"}/*!sc*/
+.htPWsL{font-size:1.5vw;}/*!sc*/
+data-styled.g129[id="sc-261c515b-2"]{content:"htPWsL,"}/*!sc*/
+.fwxnbN{display:flex;height:5vw;width:100%;justify-content:center;align-items:center;gap:1vw;margin-top:4vw;border-top:1px solid gainsboro;border-bottom:1px solid gainsboro;}/*!sc*/
+data-styled.g130[id="sc-261c515b-3"]{content:"fwxnbN,"}/*!sc*/
+.itlNMY{cursor:pointer;color:#001689;}/*!sc*/
+.itlNMY:hover{text-decoration:underline;}/*!sc*/
+data-styled.g131[id="sc-261c515b-4"]{content:"itlNMY,"}/*!sc*/
+</style></head><body><div id="__next"><div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div><section class="sc-261c515b-0 fOKPfL"><div class="sc-261c515b-1 iaeJHX">Privacy Policy</div>
+Effective Date: August 2nd, 2023
+<br/>
+Last Updated: August 2nd, 2023
+
+<br/><br/>
+Welcome to OfferPilot (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;), a revolutionary AI-powered platform dedicated to assisting you in crafting professional resumes and empowering your professional journey. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy governs the collection, use, storage, and disclosure of your data when you access or utilize our website and services. By using OfferPilot, you signify your understanding and acceptance of this Privacy Policy. If you disagree with any of the terms outlined herein, we kindly request that you refrain from using our website and services.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">1. Information We Collect</div><br/><br/>
+1.1 Personal Information
+<br/><br/>
+To provide you with personalized services, we may collect various types of personal information that you voluntarily provide, including but not limited to:
+<br/><br/>
+- Your name, email address, postal address, telephone number, and other contact details.
+<br/>
+- Your work experience, educational background, skills, and other relevant data necessary to create tailored and effective resumes.
+<br/>
+- Your preferences and settings related to our services.
+<br/><br/>
+1.2 User Activity and Analytics
+<br/><br/>
+We gather information about your interactions with our website and services, which includes but is not limited to:
+<br/><br/>
+- Pages visited, links clicked, and other actions taken on our platform.
+<br/>
+- Device information, IP address, browser type, operating system, and other technical data.
+<br/>
+- Usage data to analyze patterns and trends, improve our services, and enhance user experience.
+<br/>
+- Aggregated data to generate statistical insights and conduct market research.
+<br/><br/>
+1.3 Cookies and Similar Technologies
+<br/><br/>
+We use cookies, web beacons, and similar tracking technologies to enhance your browsing experience, optimize website performance, and customize our offerings to your preferences. These technologies allow us to:
+<br/><br/>
+- Remember your login credentials and session information for seamless navigation.
+<br/>
+- Analyze user behavior and engagement to improve the functionality of our website.
+<br/>
+- Offer personalized content and advertisements based on your interests and preferences.
+<br/>
+- Monitor website traffic, usage patterns, and user demographics.
+<br/><br/>
+By using our website, you consent to our use of cookies and similar technologies in accordance with this Privacy Policy and our Cookie Policy.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">2. Use of Your Information</div><br/><br/>
+2.1 Resume Creation and Tailoring
+<br/><br/>
+We utilize the information you provide to generate, customize, and tailor professional resumes that showcase your qualifications and job preferences effectively.
+<br/><br/>
+2.2 Service Improvement and Personalization
+<br/><br/>
+Analyzing user data allows us to understand your needs and preferences better, enabling us to:
+<br/><br/>
+- Enhance the user interface and functionality of our website and services.
+<br/>
+- Improve our resume crafting algorithms and job-matching capabilities.
+<br/>
+- Provide personalized recommendations and content based on your resume details and preferences.
+<br/><br/>
+2.3 Communication and Marketing
+<br/><br/>
+We may use your contact information to send you updates, newsletters, promotional materials, and other communications related to our services. You have the option to unsubscribe from these communications at any time.
+<br/><br/>
+2.4 Legal Compliance and Protection
+<br/><br/>
+We may process and disclose your information to comply with applicable laws, enforce our terms of use, protect our rights, or respond to legal requests.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">3. Data Sharing</div><br/><br/>
+3.1 Third-Party Service Providers
+<br/><br/>
+To enhance our services and user experience, we may share your information with trusted third-party service providers, including:
+<br/><br/>
+- Cloud hosting and data storage providers to securely store your data.
+<br/>
+- Analytics platforms to analyze user behavior and trends for service optimization.
+<br/>
+- Marketing and advertising partners to promote our services.
+<br/><br/>
+3.2 Legal Requirements
+<br/><br/>
+We may disclose your personal information if required by law, court order, or government regulation or if we believe such disclosure is necessary to protect our rights, privacy, safety, or property, as well as that of our users and the public.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">4. Data Security</div><br/><br/>
+We take the security of your data seriously and have implemented industry-standard measures to safeguard it against unauthorized access, disclosure, alteration, or destruction. However, no data transmission over the internet or electronic storage method can be guaranteed 100% secure. Therefore, while we strive to protect your personal information, we cannot ensure absolute security and accept no liability for any breaches beyond our reasonable control.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">5. Your Rights and Choices</div><br/><br/>
+5.1 Access and Correction
+<br/><br/>
+You have the right to access and correct any inaccuracies in your personal information held by OfferPilot. You can review and update your information through your account settings.
+<br/><br/>
+5.2 Data Deletion
+<br/><br/>
+You may request the deletion of your account and associated data by contacting us using the information provided below. However, please note that we may retain certain information as required by law or for legitimate business purposes.
+<br/><br/>
+5.3 Cookies and Analytics
+<br/><br/>
+You have the option to manage your cookie preferences through your browser settings. Please refer to our Cookie Policy for more details on how to control cookies and similar technologies.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">6. Changes to this Privacy Policy</div><br/><br/>
+We may update this Privacy Policy periodically to reflect changes in our data practices or legal requirements. The &quot;Last Updated&quot; date at the top of this document will indicate the most recent revisions. We recommend reviewing this Privacy Policy regularly to stay informed of any updates.
+<br/><br/><br/><br/><div class="sc-261c515b-2 htPWsL">7. Contact Us</div><br/><br/>
+If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at Team@offerpilot.ai.
+<br/><br/><br/><br/>
+Thank you for entrusting OfferPilot with your resume crafting and professional journey. Your privacy is of utmost importance to us, and we are dedicated to continually improving our services while safeguarding your personal information.
+<div class="sc-261c515b-3 fwxnbN">© 2024 OfferPilot. All rights reserved<div>|</div><a class="sc-261c515b-4 itlNMY" href="/legal/terms-of-use">Terms of Use</a><div>|</div><a class="sc-261c515b-4 itlNMY" href="/legal/gdpr">GDPR Statement</a></div></section></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{}},"page":"/legal/privacy-policy","query":{},"buildId":"z3W8F_PnUqySowzv4M1OS","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning Plugin Policy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+
+<section class="section">
+    <div class="container">
+        <h1 class="title">Legal</h1>
+
+        <h2 class="subtitle mt-5">Travel Planning Plugin Description</h2>
+        <p>The Travel Planning plugin allows users to create and organize travel itineraries within ChatGPT, generate maps for visualizing the sites they intend to visit, and create a dedicated webpage to oversee their trip. Remember the geolocalization is not exact, it is only a reference.</p>
+
+        <h1 class="title mt-5">Privacy Policy</h1>
+        <p>We deeply value your privacy and are committed to safeguarding your information. Our privacy policy details the kind of information we may gather and its intended use.</p>
+
+        <h2 class="subtitle mt-5">Data Collection</h2>
+        <p>We collect only the data essential for our plugin's operation. This includes geographic information used for map generation. We do not gather any personally identifiable information.</p>
+
+        <h2 class="subtitle mt-5">Data Usage</h2>
+        <p>The collected data is exclusively used to enhance our services, especially in terms of diagnosing and resolving generation issues. We analyze maps produced by our plugin solely when there are issues related to their display, ensuring users receive an optimal experience.</p>
+
+        <h2 class="subtitle mt-5">Data Sharing</h2>
+        <p>We do not share, sell, or trade your data with third parties.</p>
+
+        <h2 class="subtitle mt-5">Changes To This Privacy Policy</h2>
+        <p>Our Privacy Policy is subject to updates from time to time. We won't curtail your rights under this Privacy Policy without obtaining your explicit consent. Any modifications will be prominently displayed on this page.</p>
+
+        <p class="mt-5">Should you have any queries or concerns about our privacy policy, please don't hesitate to <a href="mailto:info@sinclinal.com">contact us</a>.</p>
+    </div>
+</section>
+
+</body>
+
+</html>

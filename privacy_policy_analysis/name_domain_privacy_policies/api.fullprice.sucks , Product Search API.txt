@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta
+      name="description"
+      content="FullPrice.Sucks - Because Paying Full Price Really Does Suck!"
+    />
+    <meta name="author" content="" />
+    <title>FullPrice.Sucks - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <!---------------------------------------------------------------------------------------------- STYLESHEETS -->
+    <link rel="icon" href="../../images/logo.png" />
+    <!-- Browser Tab Icon -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <!-- Font-Awesome Icons -->
+    <link rel="stylesheet" href="../css/icomoon.min.css" />
+    <!-- iconmoon Icons -->
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <!-- Carousel slider -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="../css/animate.css" />
+    <!-- Wow Animation CSS -->
+    <link rel="stylesheet" media="screen" href="../css/style-particle.css" />
+    <!-- ParticlesCSS -->
+
+    <link rel="stylesheet" href="../css/google-fonts.css" />
+    <!-- Google font (Poppins) font face -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <!-- Google font (Poppins)  -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      /* CSS Styles */
+      .app-btn {
+        /* Your existing styles for the textarea (if any) */
+      }
+
+      .app-btn::placeholder {
+        color: rgb(
+          152,
+          216,
+          229
+        ); /* Change the color to gray or any other color you prefer */
+      }
+
+      @keyframes blinking {
+        0%,
+        100% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      #confirmationMessage {
+        font-weight: bold;
+        color: rgb(5, 211, 5);
+        line-height: 1.5;
+        animation: blinking 2s infinite; /* Adjust the animation duration as needed */
+        transition: opacity 1s ease-in-out; /* Adjust the fade in and out speed */
+      }
+
+      #confirmationMessage.show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- STATIC BANNER -->
+    <!-- particles.js container -->
+    <div id="particles-jsV2">
+      <div class="container"></div>
+    </div>
+
+    <!-- WRAPPER -->
+    <!-- Preloader -->
+    <div class="wrapper preloader" id="site-home">
+      <!-- NAVIGATION AND SLIDER HOLDER -->
+      <section class="site-holder" role="banner">
+        <!-- HEADER -->
+        <header class="site-header">
+          <!-- STICKY HEADER -->
+          <div class="sticky-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-8 col-sm-3">
+                  <!-- LOGO -->
+                  <div class="site-logo" style="margin-top: 10px">
+                    <a
+                      href="../index.html"
+                      style="display: flex; align-items: center"
+                    >
+                      <img src="../images/logo.png" alt="Logo" />
+                      <span style="font-size: 26px; margin-left: 5px">FPS</span>
+                    </a>
+                  </div>
+                  <!-- END LOGO -->
+                </div>
+                <div class="col-xs-4 col-sm-9">
+                  <!-- NAVIGATION -->
+                  <nav class="site-nav" id="site-nav" role="navigation">
+                    <!-- MOBILE VIEW BUTTON -->
+                    <div class="nav-mobile">
+                      <i class="fa fa-bars show"></i>
+                      <i class="fa fa-close hide"></i>
+                    </div>
+                    <!-- LINKS -->
+                    <ul class="nav-off-canvas">
+                      <!-- ACTIVE ITEM -->
+                      <li ><a href="/">Home</a></li>
+                      <li><a href="/#amazing-features">Features</a></li>
+                      <li><a href="/#site-quick-view">Quick View</a></li>
+                      <li><a href="/#site-download">Download</a></li>
+                      <li class="active"><a href="/privacyPolicy">Privacy Policy</a></li>
+                      <li><a href="/request">Request Delete</a></li>
+                      <li ><a href="/TOS">TOS</a></li>
+                      <li><a href="/#quick-support">Contact us</a></li>
+                    </ul>
+                  </nav>
+                  <!-- END NAVIGATION -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- START SLIDER - display none -->
+          <div
+            id="header-slider"
+            class="header-slider color-gredient"
+            style="display: none"
+          >
+            <ul class="seq-canvas">
+              <!-- SLIDE 1 -->
+              <li class="step1 slides">
+                <!-- MAIN IMAGE -->
+                <div
+                  class="bg-img"
+                  style="background-image: url(../images/header-slide-1.png)"
+                ></div>
+
+                <!-- Caption -->
+                <div class="slide-caption">
+                  <!-- H1 Heading -->
+                  <h1>Smart</h1>
+
+                  <!-- H2 Heading -->
+                  <h2>Ready to showcase your app</h2>
+
+                  <!-- Paragraph -->
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting indus orem Ipsum has been the industry's
+                    standard dummy text ever since the when an own printer took
+                    a galley
+                  </p>
+
+                  <!-- Buttons -->
+                  <a href="#" class="slide-button slide-button-active"
+                    >Download</a
+                  >
+
+                  <!-- Button -->
+                  <a href="#" class="slide-button">Learn more</a>
+                </div>
+              </li>
+
+              <!-- SLIDE 2 -->
+              <li class="step2 slides">
+                <!-- MAIN IMAGE -->
+                <div
+                  class="bg-img"
+                  style="background-image: url(../images/header-slide-2.png)"
+                ></div>
+
+                <!-- Caption -->
+                <div class="slide-caption">
+                  <!-- H1 Heading -->
+                  <h1>Smart</h1>
+
+                  <!-- H2 Heading -->
+                  <h2>Ready to showcase your app</h2>
+
+                  <!-- Paragraph -->
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting indus orem Ipsum has been the industry's
+                    standard dummy text ever since the when an own printer took
+                    a galley
+                  </p>
+
+                  <!-- Buttons -->
+                  <a href="#" class="slide-button slide-button-active"
+                    >Download
+                  </a>
+
+                  <!-- Button -->
+                  <a href="#" class="slide-button">Learn more</a>
+                </div>
+              </li>
+
+              <!-- SLIDE 3 -->
+              <li class="step3 slides">
+                <!-- MAIN IMAGE -->
+                <div
+                  class="bg-img"
+                  style="background-image: url(../images/header-slide-1.png)"
+                ></div>
+
+                <!-- Caption -->
+                <div class="slide-caption">
+                  <!-- H1 Heading -->
+                  <h1>Smart</h1>
+
+                  <!-- H2 Heading -->
+                  <h2>Ready to showcase your app</h2>
+
+                  <!-- Paragraph -->
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting indus orem Ipsum has been the industry's
+                    standard dummy text ever since the when an own printer took
+                    a galley
+                  </p>
+
+                  <!-- Buttons -->
+                  <a href="#" class="slide-button slide-button-active"
+                    >Download
+                  </a>
+
+                  <!-- Button -->
+                  <a href="#" class="slide-button">Learn more</a>
+                </div>
+              </li>
+
+              <!-- SLIDE 4 -->
+              <li class="step4 slides">
+                <!-- MAIN IMAGE -->
+                <div
+                  class="bg-img"
+                  style="background-image: url(../images/header-slide-2.png)"
+                ></div>
+
+                <!-- Caption -->
+                <div class="slide-caption">
+                  <!-- H1 Heading -->
+                  <h1>Smart</h1>
+
+                  <!-- H2 Heading -->
+                  <h2>Ready to showcase your app</h2>
+
+                  <!-- Paragraph -->
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting indus orem Ipsum has been the industry's
+                    standard dummy text ever since the when an own printer took
+                    a galley
+                  </p>
+
+                  <!-- Buttons -->
+                  <a href="#" class="slide-button slide-button-active"
+                    >Download now</a
+                  >
+
+                  <!-- Button -->
+                  <a href="#" class="slide-button">Learn more</a>
+                </div>
+              </li>
+            </ul>
+
+            <!-- PAGINATION -->
+            <ul class="seq-pagination">
+              <li>01</li>
+              <li>02</li>
+              <li>03</li>
+              <li>04</li>
+            </ul>
+
+            <!-- NAVIGATION -->
+            <button type="button" class="seq-next">
+              <span class="icon-play"></span>
+            </button>
+            <button type="button" class="seq-prev">
+              <span class="icon-play-flip"></span>
+            </button>
+          </div>
+        </header>
+        <!-- END HEADER -->
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="site-how-it-works section-grey" id="how-it-works">
+        <div class="container-fluid wide">
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- H1 HEADING -->
+              <br><br><br>
+              <h1>PRIVACY POLICY</h1>
+
+              <!-- START SLIDER -->
+
+              <!-- Slider main container -->
+              <div>
+                <h3>Welcome to FullPriceSucks</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  This Privacy Policy outlines how we, FullPriceSucks ("we" or "our"), collect, use, maintain, and disclose information obtained from users ("you") of our website fullprice.sucks ("Site") and our mobile application, as well as all products and services offered by FullPriceSucks ("Services").
+
+We reserve the right to update this Privacy Policy at our discretion, and we encourage you to check this page frequently for any changes. By using our Services, you indicate your acceptance of this policy. If you do not agree with this policy, please refrain from using our Services. Continued use of our Services after any modifications to this policy signifies your acceptance of those changes.
+
+                </p>
+
+                <h3>Personal Information</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We may collect your Personal Information through various means, such as when you visit our Site, register on the Site, place an order, and engage in other activities, services, features, or resources provided on our Site or Application.
+
+We do not collect or process Personal Information related to race or ethnicity, political opinions, religious or philosophical beliefs, trade union membership, physical or mental health, sexual life, any actual or alleged criminal offenses or penalties, or any other information that may be considered sensitive under the EU General Data Protection Regulation ("GDPR").
+
+Please note that any Personal Information, such as your email address, will not be shared with Listing Owners. FullPriceSucks will not be responsible for any losses resulting from the disclosure of information in communications with Listing Owners via the messenger function.
+
+If you follow any FullPriceSucks listing owners, they will have access to your Avatar, user name, and the time you created your FullPriceSucks account. You acknowledge that listing owners may send you new deals or other campaigns through FullPriceSucks Notifications.
+
+                </p>
+
+                <h3>Non-personal Information</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  When you interact with our Site, we may collect non-personal information, which may include browser name, language preferences, device type, settings and software used, computer type, technical information about your connection to our Site (such as operating system and internet service provider), and other similar data.
+
+                  We may also use device identifiers, cookies, and other technologies on devices, applications, and web pages to collect browsing, usage, or other technical information for fraud prevention purposes.
+                  
+                </p>
+
+                <h3>Information Collection Sources</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We collect information about you from various sources, including but not limited to:
+
+When you provide information to us through our Services, such as during registration or account creation, subscription purchases, surveys, contact via email or other means, or by providing your business card.
+
+Information you voluntarily make public, including through social media posts about us or through our chats, forums, or communities on the Services. Please note that we are not responsible for the information you share in certain public areas of the Services, and you can modify your publicly available information through your profile page.
+
+Information automatically received and stored when you use our Services. Like many websites, we use cookies and other unique identifiers to obtain certain types of information when your web browser or device accesses our Services and other content served by or on behalf of FullPriceSucks on other websites or applications.
+
+Information obtained from third parties, such as offline channels (telephone or direct mail efforts), customers, vendors, suppliers, publicly-available sources, third-party affiliate network operators, referral sources, and social network sites or services. If you use third-party connections or log-in to access our Services, create a membership or profile, or access our content on third-party platforms or services, we may also receive information available about you or collected from you on those services.
+
+                </p>
+
+                <h3>Purposes of Data Processing</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We process your personal information for the following purposes:
+
+                  To provide Services: We use your personal information to handle orders, deliver products and services, and communicate with you about orders, products, services, and promotional offers.
+                  
+                  To personalize user experience: We may aggregate information to understand how our users interact with our Services.
+                  
+                  To improve Services: Your feedback helps us respond to customer service requests and improve our products and services' functionality, performance, and usability.
+                  
+                  To process payments: We use personal information provided during order placement only to provide the service and do not share it with outside parties except when necessary for service provision.
+                  
+                  To run promotions, contests, surveys, or other Site features: We may send you information you agreed to receive about topics we think will interest you.
+                  
+                  To send periodic emails: We use email addresses to send information and updates about users' orders, respond to inquiries, and, if opted in, provide company news, updates, and related information.
+                  
+                  To comply with legal obligations: We may process personal information to fulfill legal requirements.
+                  
+                  To communicate with you: We use personal information to communicate with you via different channels, such as phone, email, or chat, regarding Services.
+                  
+                  Advertising: We may use personal information to display interest-based ads related to Services, promotions, or other information, with compliance to applicable law. You can unsubscribe from our newsletter lists at any time, opt out of telephone marketing, and adjust notification settings for in-app messages.
+                  
+                  Fraud Prevention and Credit Risks: We process personal information to prevent and detect fraud and abuse, protecting our customers' security, and assessing and managing credit risks.
+                  
+                  Purposes for which we seek your consent: We may ask for your consent to process your personal information for specific purposes, and you can withdraw your consent at any time.
+                  
+                </p>
+
+                <h3>Information Sharing</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We do not sell, rent, or disclose your personal information to third parties for marketing and advertising purposes without your consent. We limit the disclosure of personal information to what is directly relevant and necessary for specified purposes.
+
+We share your data only with the following parties:
+
+Business partners: We may share your personal information with business partners for providing Services to you.
+
+Google Analytics and Clicky: Our website and mobile application uses Google Analytics and Clicky to analyze user interactions. This is a standard practice for websites to track visitor numbers, popular deals, and trends. We strive not to share personally identifiable information with Google Analytics and Clicky.
+
+MailChimp: If you subscribe to the FullPriceSucks newsletter service, we use MailChimp as a third-party service to manage subscriptions and send emails. MailChimp may obtain non-personal information like email addresses, IP addresses, language preferences, device types, and locations. If you object to this disclosure to MailChimp, you cannot use the service.
+
+Google and Facebook: FullPriceSucks may have third-party login interfaces for FullPriceSucks on Google or Facebook, but we only receive feedback on whether the login is successful, and we do not provide your personal information to these third parties.
+
+Help Scout: If you use the Contact Us feature on the Site to ask for our help, we may share your email address and name with Help Scout to reply to you.
+
+Business Transfers: As our business develops, we may sell or acquire other businesses or services. Customer information is typically one of the transferred business assets but remains subject to pre-existing Privacy Policy commitments (unless the customer consents otherwise). If FullPriceSucks's owner or substantially all of its assets are acquired, customer information will be one of the transferred assets.
+
+Other third parties: We may share personal information with legal and regulatory authorities upon request, outside professional advisors (e.g., accountants, auditors, lawyers) under binding contractual obligations of confidentiality, relevant parties, law enforcement agencies or courts as necessary for legal rights establishment, exercise, or defense, and for prevention, investigation, detection, prosecution of criminal offenses, safeguarding public security, or as required by applicable law.
+
+                </p>
+
+                <h3>International Transfers of Information</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We may transfer your Personal Information to recipients in other countries. When transferring personal information from the European Economic Area ("EEA") to recipients outside the EEA in non-adequate jurisdictions, we ensure the transfer complies with this Privacy Policy and applicable data protection laws.
+
+                </p>
+
+                <h3>Data Retention</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We retain your personal information as long as necessary for the purposes stated in this Privacy Policy and to fulfill legal obligations, resolve disputes, and enforce policies. We take steps to ensure that your personal information is only processed for the minimum period necessary.
+
+                </p>
+
+                <h3>Information Security</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We implement appropriate technical and organizational security measures to protect your User Information against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, unauthorized access, and other unlawful or unauthorized forms of processing, in accordance with applicable law. We maintain physical, electronic, and procedural safeguards in connection with the collection, storage, and disclosure of personal customer information. Although we take reasonable measures, the internet is an open system, and we cannot guarantee complete security or be held responsible for any breaches or actions by third parties.
+
+                </p>
+
+                <h3>Data Accuracy and Minimization</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We ensure that your information is accurate, and where necessary, kept up to date. We will erase or rectify any information you inform us is inaccurate regarding the purposes for which they are processed.
+
+                  We also ensure that your information processing is limited to what is reasonably necessary for the purposes outlined in this policy or to provide you services or access to our Services.
+                  
+                </p>
+
+                <h3>User Choices</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  If you have questions or objections regarding how we collect and process your personal information, please contact us. Many of our Services offer settings that allow you to control how your data is used.
+
+                  You can choose not to provide certain information, but doing so may limit your access to certain Services.
+                  
+                  
+                  If you are an EU resident, you have certain rights, including the right to object to providing or processing your personal information to us, access, rectification, erasure, or restriction of processing of your Personal Information, data portability, and the right to withdraw consent. Please provide proof of identity to exercise these rights and email it to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="80f3f5f0f0eff2f4c0e6f5ececf0f2e9e3e5aef3f5e3ebf3">[email&#160;protected]</a>
+                  
+                </p>
+
+                <h3>Children's Use of FullPriceSucks Services</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  FullPriceSucks does not provide Services to children under 16. If you are under 16, you may use our Services only with the involvement of a parent or guardian.
+
+                </p>
+
+                <h3>Third-party Websites</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  Our Site may contain advertising or content that links to sites and services of partners, suppliers, advertisers, sponsors, licensors, and other third parties. We are not responsible for the content or practices of these sites, and browsing and interaction are subject to their own terms and policies.
+
+                </p>
+
+                <h3>Web Browser Cookies</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  We use "cookies" to enhance User experience. Cookies are placed on User's hard drive for record-keeping and to track information about them. Users can choose to refuse cookies or receive alerts when cookies are sent, but this may affect certain Site functions.
+
+                </p>
+
+                <h3>Contact Information</h3>
+                <!-- PARAGRAPH -->
+                <p>
+                  If you have any questions about this Privacy Policy or your dealings with FullPriceSucks, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f5868085859a8781b59380999985879c9690db8680969e86">[email&#160;protected]</a>.
+
+                </p>
+
+                <br />
+                <br />
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="site-footer section-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1>Download Now</h1>
+              <!-- DOWNLOAD ICONS -->
+              <section class="site-download-icons">
+                <div class="align-center">
+                  <!-- BUTTON 1 -->
+                  <a
+                    href="#"
+                    class="app-download-icons wow fadeInDown"
+                    data-wow-duration="1s"
+                  >
+                    <!-- FIGURE -->
+                    <figure><i class="fa fa-mobile"></i></figure>
+                    <!-- h6 heading -->
+                    <h6>Available on the</h6>
+                    <!-- h5 -->
+                    <h5>iOS App Store</h5>
+                  </a>
+
+                  <!-- BUTTON 2 -->
+                  <a
+                    href="#"
+                    class="app-download-icons wow fadeInDown"
+                    data-wow-duration="2s"
+                  >
+                    <!-- FIGURE -->
+                    <figure><i class="fa fa-android"></i></figure>
+                    <!-- h6 heading -->
+                    <h6>Available on the</h6>
+                    <!-- h5 -->
+                    <h5>Google Store</h5>
+                  </a>
+                </div>
+              </section>
+
+              <!-- END LOGO -->
+
+              <!-- SOCIAL ICONS -->
+              <div class="site-social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </div>
+              <!-- END SOCIAL ICONS -->
+
+              <!-- COPYRIGHT -->
+              <div class="site-copyright">
+                <p>© Copyright 2023 FullPriceSucks</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- END WRAPPER -->
+
+    <!-------------------------------------------------------------------------- SCRIPTS -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../js/jquery-1.12.4.min.js"></script>
+    <!-- JQuery -->
+    <script src="../js/loadingoverlay.min.js"></script>
+    <!-- Preloader -->
+    <script src="../js/swiper.jquery.min.js"></script>
+    <!-- Carousel slider -->
+    <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Custom scroll bar -->
+    <script src="../js/modernizr-custom.min.js"></script>
+    <!-- Modernizr -->
+    <script src="../js/../imagesloaded.pkgd.min.js"></script>
+    <!-- Header Slider -->
+    <script src="../js/hammer.min.js"></script>
+    <!-- Header Slider -->
+    <script src="../js/sequence.min.js"></script>
+    <!-- Header Slider -->
+    <script src="../js/tweetie.min.js"></script>
+    <!-- Twitter Feed -->
+    <script src="../js/jquery.countimator.min.js"></script>
+    <!-- Counter -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/jquery.sticky.min.js"></script>
+    <!-- Sticky Header -->
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <!-- scroll top -->
+    <script src="../js/style.js"></script>
+    <!-- Template Changeable Plugin Options -->
+    <script src="../js/wow.min.js"></script>
+    <!--Wow animation js -->
+
+    <!-- Header banner particle scripts -->
+    <script src="../js/particles.js"></script>
+    <!-- Header banner particle js -->
+    <script src="../js/app.js"></script>
+    <!-- Header banner particle js -->
+
+    <!-- stats.js -->
+    <script>
+      var count_particles, stats, update;
+      stats = new Stats();
+      stats.setMode(0);
+      stats.domElement.style.position = "absolute";
+      stats.domElement.style.left = "0px";
+      stats.domElement.style.top = "0px";
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector(".js-count-particles");
+      update = function () {
+        stats.begin();
+        stats.end();
+        if (
+          window.pJSDom[0].pJS.particles &&
+          window.pJSDom[0].pJS.particles.array
+        ) {
+          count_particles.innerText =
+            window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script>
+  </body>
+</html>

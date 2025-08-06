@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="ScriptGPT">
+	<meta name="description"
+		content="Wiki of ScriptGPT, an AI-powered coding assistant, highlighting its advanced JavaScript and TypeScript capabilities.">
+	<meta name="keywords" content="ScriptGPT, AI Coding Assistant, JavaScript, TypeScript, Web Development">
+	<title>ScriptGPT Wiki</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="font-sans bg-neon-dark-blue text-white">
+
+	<!-- Navbar -->
+	<nav class="bg-gray-900 shadow" role="navigation">
+		<div class="container mx-auto px-6 py-3">
+			<div class="flex justify-between items-center">
+				<div class="text-lg font-semibold text-neon-blue" aria-label="ScriptGPT Wiki">
+					<a href="https://scriptgpt.wiki/" class="hover:text-neon-blue-dark text-gray-300" target="_blank"
+						rel="noopener noreferrer">ScriptGPT Wiki</a>
+				</div>
+				<div class="flex space-x-4">
+					<a href="#about" class="hover:text-neon-blue-dark">About</a>
+					<a href="#features" class="hover:text-neon-blue-dark">Features</a>
+					<a href="#demo" class="hover:text-neon-blue-dark">Demo</a>
+					<a href="#contact" class="hover:text-neon-blue-dark">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Privacy Policy Section -->
+	<header class="text-center py-16 bg-neon-dark-blue text-white">
+		<h1 class="text-4xl font-bold mb-2 text-gray-200 text-shadow">Privacy Policy for ScriptGPT AI</h1>
+		<p class="mb-4 text-gray-300">Dedicated to safeguarding your data in the era of AI</p>
+	</header>
+
+	<!-- Privacy Policy Content -->
+	<section class="container mx-auto px-6 py-10 bg-gray-800 text-white rounded-lg"
+		aria-labelledby="privacy-policy-heading">
+		<h2 id="privacy-policy-heading" class="text-3xl font-bold text-gray-300 mb-4">Introduction</h2>
+		<p class="text-gray-300 mb-4">
+			At ScriptGPT AI, we understand the importance of privacy in the digital age, especially when it comes to the use
+			of
+			artificial intelligence and machine learning technologies. This Privacy Policy outlines how we collect, use,
+			store,
+			and protect your data when you interact with our custom GPT model.
+		</p>
+
+		<h3 class="text-2xl font-bold text-gray-200 mb-3">Data Collection and Usage</h3>
+		<p class="text-gray-300 mb-4">
+			We collect data that you provide directly during your interactions with ScriptGPT AI, including queries and
+			commands. This data is used to process your requests, improve model responses, and enhance user experience. We are
+			committed to using this data responsibly, ensuring it serves to refine the intelligence and applicability of our
+			AI
+			without compromising your privacy.
+		</p>
+
+		<h3 class="text-2xl font-bold text-gray-200 mb-3">Model Training and User Data</h3>
+		<p class="text-gray-300 mb-4">
+			ScriptGPT AI leverages user interactions for continuous improvement of its machine learning model. However, we
+			anonymize and aggregate data used in this context to prevent any personal identification or data misuse.
+		</p>
+
+		<h3 class="text-2xl font-bold text-gray-200 mb-3">Data Storage and Security</h3>
+		<p class="text-gray-300 mb-4">
+			Data security is paramount. We implement robust security measures to protect against unauthorized access,
+			alteration, disclosure, or destruction of your personal information and data stored on our servers.
+		</p>
+
+		<h3 class="text-2xl font-bold text-gray-200 mb-3">Your Rights and Choices</h3>
+		<p class="text-gray-300 mb-4">
+			You have the right to access, correct, or delete your personal data at any time. If you wish to exercise these
+			rights or have questions about how your data is handled, please contact us through the provided channels.
+		</p>
+
+		<h3 class="text-2xl font-bold text-gray-200 mb-3">Changes to This Policy</h3>
+		<p class="text-gray-300 mb-4">
+			We may update our Privacy Policy to reflect changes in our practices. When we make significant changes, we will
+			notify you through our website or other means, allowing you to review the changes before they become effective.
+		</p>
+
+		<p class="text-gray-300 mb-4">
+			This Privacy Policy was last updated on [Last Updated Date]. We encourage you to review our policy periodically.
+		</p>
+
+		<p class="text-gray-300 mb-4">
+			If you have any questions or concerns about our Privacy Policy, please contact us at [Contact Information].
+		</p>
+	</section>
+
+	<script>
+		function sendMail(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			const form = event.target;
+			const firstName = encodeURIComponent(form.querySelector('#grid-first-name').value);
+			const lastName = encodeURIComponent(form.querySelector('#grid-last-name').value);
+			const email = encodeURIComponent(form.querySelector('#grid-email').value);
+			const message = encodeURIComponent(form.querySelector('#grid-message').value);
+			const subject = encodeURIComponent('Contact Form Submission');
+			const mailtoLink = `mailto:spice.ryan@hotmail.com?subject=${subject}&body=First Name: ${firstName}%0D%0ALast Name: ${lastName}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+			window.location.href = mailtoLink;
+		}
+	</script>
+
+	<!-- Links Section with Neon Blue Theme -->
+	<section class="bg-black text-white py-12">
+		<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="text-center">
+
+				<h2 class="text-3xl font-bold mb-8 text-gray-200">Explore ScriptGPT</h2>
+
+				<ul class="list-none space-y-4 md:space-y-0 md:flex md:justify-center md:space-x-4">
+					<!-- GitHub Source Button -->
+					<li>
+						<a href="https://github.com/ScriptGPT" class="text-center">
+							<button
+								class="question-btn bg-neon-blue hover:bg-neon-blue-dark text-dark-gray font-bold py-2 px-4 rounded-full transition-colors duration-300">
+								See <span class="font-normal">ScriptGPT</span> source on GitHub
+							</button>
+						</a>
+					</li>
+					<!-- Chat with ScriptGPT Button -->
+					<li>
+						<a href="https://chat.openai.com/g/g-w183yU1Ue-ScriptGPT" class="text-center">
+							<button
+								class="question-btn bg-neon-blue hover:bg-neon-blue-dark text-dark-gray font-bold py-2 px-4 rounded-full transition-colors duration-300">
+								<span class="font-normal">Chat with ScriptGPT</span>
+							</button>
+						</a>
+					</li>
+					<!-- gpt-knowledge-compiler Button -->
+					<li>
+						<a href="https://github.com/ryanspice/gpt-knowledge-compiler" class="text-center">
+							<button
+								class="question-btn bg-neon-blue hover:bg-neon-blue-dark text-dark-gray font-bold py-2 px-4 rounded-full transition-colors duration-300">
+								Follow <span class="font-normal">gpt-knowledge-compiler</span> on GitHub
+							</button>
+						</a>
+					</li>
+					<!-- LinkedIn Button -->
+					<li>
+						<a href="https://www.linkedin.com/company/scriptgpt" class="text-center">
+							<button
+								class="question-btn bg-neon-blue hover:bg-neon-blue-dark text-dark-gray font-bold py-2 px-4 rounded-full transition-colors duration-300">
+								Follow <span class="font-normal">Ryan</span> on LinkedIn
+							</button>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer Section with Neon Blue Theme -->
+	<footer class="bg-black text-gray-400">
+		<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+			<div class="xl:grid xl:grid-cols-4 xl:gap-8">
+				<!-- Logo and Description -->
+				<div class="xl:col-span-1">
+					<div class="flex items-center mb-4">
+						<!-- Replace with your own image path -->
+						<img class="h-8 w-auto sm:h-10" src="0326641b-fd7d-41d9-8852-48138f8f02f1.png" alt="GPTs App Logo">
+						<h1 class="text-gray-300 text-lg font-bold ml-2">ScriptGPT</h1>
+					</div>
+					<p class="text-gray-400 text-sm">
+						Web Development, Apps, DevTools and SaaS. Python, TypeScript, JavaScript, HTML, SCSS. Fluent in Angular,
+						Vue, React, Svelte, Webpack, Vite, Vercel, Next, Nuxt, SvelteKit, Node, GO, PHP, C#, AODA and WCGAG 2.1.
+					</p>
+				</div>
+
+				<!-- Column 1 -->
+				<div class="mt-8 xl:mt-0 xl:col-span-1">
+					<h6 class="text-base font-medium text-gray-300">GET STARTED</h6>
+					<nav class="mt-4">
+						<a href="#about" class="text-neon-blue hover:text-gray-300">About</a><br />
+						<a href="#features" class="text-neon-blue hover:text-gray-300">Features</a><br />
+						<a href="#demo" class="text-neon-blue hover:text-gray-300">Demo</a><br />
+						<a href="#contact" class="text-neon-blue hover:text-gray-300">Contact</a>
+					</nav>
+				</div>
+
+				<!-- Column 2 -->
+				<div class="mt-8 xl:mt-0 xl:col-span-1">
+					<h6 class="text-base font-medium text-gray-300">RESOURCES</h6>
+					<nav class="mt-4">
+						<a href="https://gptsapp.io/blog" class="text-neon-blue hover:text-gray-300">Blog</a><br />
+						<a href="https://gptsapp.io/docs" class="text-neon-blue hover:text-gray-300">Documentation</a><br />
+						<a href="https://gptsapp.io/support" class="text-neon-blue hover:text-gray-300">Support</a><br />
+						<a href="https://gptsapp.io" class="text-neon-blue hover:text-gray-300">GPTsApp.io</a><br />
+					</nav>
+				</div>
+
+				<!-- Column 3 -->
+				<div class="mt-8 xl:mt-0 xl:col-span-1">
+					<h6 class="text-base font-medium text-gray-300">CONTACT US</h6>
+					<nav class="mt-4">
+						<a href="https://gptsapp.io" class="text-neon-blue hover:text-gray-300">ryanspice.com</a><br />
+						<a href="mailto:spice.ryan@hotmail.com"
+							class="text-neon-blue hover:text-gray-300">spice.ryan@hotmail.com</a>
+
+					</nav>
+				</div>
+			</div>
+
+			<!-- Bottom Section for copyrights -->
+			<div class="mt-8 border-t border-gray-700 pt-8">
+				<p class="text-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+					© ScriptGPT.wiki. All Rights Reserved [
+					<a href="/terms" class="text-neon-blue hover:text-neon-blue-dark rel=" noopener noreferrer"">Terms &
+						Conditions</a>
+					|
+					<a href="/privacy-policy" class="text-neon-blue hover:text-neon-blue-dark rel=" noopener noreferrer"">Privacy
+						Policy</a> |
+					<a href="/your-privacy-choices" class="text-neon-blue hover:text-neon-blue-dark rel=" noopener
+						noreferrer"">Your
+						Privacy Choices</a>
+					]
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Vanilla JavaScript File -->
+	<script src="./script.js"></script>
+</body>
+
+</html>

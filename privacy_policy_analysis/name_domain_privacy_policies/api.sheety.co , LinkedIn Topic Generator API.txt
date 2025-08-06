@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/jquery.js" type="application/javascript"></script>
+  <script src="/assets/js/bootstrap.min.js" type="application/javascript"></script>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Sheety - Privacy</title>
+  <meta property="og:title" content="Sheety - Privacy"/>
+  <meta name="description" content="Turn any Google Sheet into an API instantly. Power websites, apps, or whatever you like, all from a spreadsheet."/>
+  <meta property="og:description" content="Turn any Google Sheet into an API instantly. Power websites, apps, or whatever you like, all from a spreadsheet."/>
+  <meta property="og:image" content="https://sheety.co/social.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"></meta>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  navbar-light ">
+	<div class="container">
+		<a class="navbar-brand" href="/">
+			<img src="/assets/images/logo.svg">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="/templates">Templates</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/pricing">Pricing</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/docs">Learn</a>
+			</li>
+			<li class="nav-item">
+				<a class="btn btn-secondary ml-4" href="https://dashboard.sheety.co">Dashboard &rarr;</a>
+			</li>
+		</ul>
+	</div>
+</nav><div class="container">
+	<div class="row">
+		<div class="col-lg-10 offset-lg-1 mt-5">
+<h1 id="terms-of-service" class="display-4">Privacy Policy</h1>
+
+<p class="text-muted">Last updated: 18th November 2021</p>
+
+<p class="fs-4">Hi, we're <a href="https://notsobig.co">The Not So Big Company</a>, and we're the makers of Sheety. As a company we always try to avoid collecting data, though sometimes we do collect a small amount in order to offer you the services that we do. This page will outline the type of data we do collect, why we collect it, and how you can request a copy of it.</p>
+
+<p>For the purpose of the Data Protection Act 1998 (the “Act”), the data controller is NOT SO BIG TECH LIMITED located at 1 Haven Way, SE1 3FJ, London.</p>
+
+<h3 id="what-data-we-collect" class="text-gradient">What data we collect</h3>
+<p>The personal data we collect from you includes:</p>
+
+<ul>
+	<li>questions, queries or feedback you leave, including your email address if you contact us</li>
+	<li>your email address when you sign up</li>
+	<li>OAuth access and refresh tokens from your Google account</li>
+	<li>the names of the spreadsheets you add in the Sheety dashboard, and corresponding identifiers</li> 
+	<li>your Internet Protocol (IP) address, and details of which version of web browser you used</li>
+	<li>a log of how many times your API has been accessed</li>
+</ul>
+
+<h3 id="what-we-do-with-your-data" class="text-gradient">What we do with your data</h3>
+<p>The data we collect may be shared with our technology suppliers, for example our hosting provider.</p>
+
+<p>We will not:</p>
+
+<ul>
+	<li>sell or rent your data to third parties</li>
+	<li>share your data with third parties for marketing purposes</li>
+	<li>We will share your data if we are required to do so by law - for example, by court order, or to prevent fraud or other crime.</li>
+</ul>
+
+<p>We use Cloudflare Analytics to collect information about how you use our websites. This includes IP addresses. The data is anonymised before being used for analytics processing.</p>
+
+<p>Cloudflare Analytics processes anonymised information about:</p>
+
+<ul>
+	<li>the pages you visit on our websites</li>
+	<li>how long you spend on each of our website pages</li>
+	<li>how you got to the site</li>
+	<li>what you click on while you’re visiting the site</li>
+</ul>
+
+<p>We will not identify you through analytics information, and we will not combine analytics information with other data sets in a way that would identify who you are.</p>
+
+<p>We also use Cloudflare as our CDN (caching layer). Cloudflare will see:</p>
+<ul>
+	<li>the requests made to your API, including the POST/PUT body</li>
+	<li>the response from Sheety</li>
+	<li>the IP addresses of users accessing your API</li>
+</ul>
+
+<h3 id="how-long-we-keep-your-data" class="text-gradient">How long we keep your data</h3>
+<p>We will only retain your personal data for as long as:</p>
+
+<ul>
+	<li>it is needed for the purposes set out in this document</li>
+	<li>We will keep your email data until you unsubscribe.</li>
+	<li>We will delete access log data after 120 days.</li>
+</ul>
+
+<h3 id="childrens-privacy-protection" class="text-gradient">Children’s privacy protection</h3>
+<p>Our services are not designed for, or intentionally targeted at, children 13 years of age or younger. We do not intentionally collect or maintain data about anyone under the age of 13.</p>
+
+<p>Where your data is processed and stored
+We design, build and run our systems to make sure that your data is as safe as possible at all stages, both while it’s processed and when it’s stored.</p>
+
+<p>All personal data is stored in the European Economic Area (EEA).</p>
+
+<p>How we protect your data and keep it secure We are committed to doing all that we can to keep your data secure. We have set up systems and processes to prevent unauthorised access or disclosure of your data - for example, we protect your data using varying levels of encryption.</p>
+
+<p>We also make sure that any third parties that we deal with keep all personal data they process on our behalf secure.</p>
+
+<h3 id="your-rights" class="text-gradient">Your rights</h3>
+<p>You have the right to request:</p>
+
+<ul>
+	<li>information about how your personal data is processed</li>
+	<li>a copy of that personal data</li>
+	<li>that anything inaccurate in your personal data is corrected immediately You can also:</li>
+	<li>raise an objection about how your personal data is processed</li>
+	<li>request that your personal data is erased if there is no longer a justification for it</li>
+	<li>ask that the processing of your personal data is restricted in certain circumstances</li>
+	<li>If you have any of these requests, get in contact by emailing <a href="/cdn-cgi/l/email-protection#375f525b47775958434458555e501954585a4756594e"><span class="__cf_email__" data-cfemail="b5ddd0d9c5f5dbdac1c6dad7dcd29bd6dad8c5d4dbcc">[email&#160;protected]</span></a>.</li>
+</ul>
+
+<p>Changes to this policy
+We may change this privacy policy. In that case, the ‘last updated’ date at the top of this page will also change. Any changes to this privacy policy will apply to you and your data immediately.</p>
+
+<p>If these changes affect how your personal data is processed, NOT SO BIG TECH LIMITED will take reasonable steps to let you know.</p>
+
+		</div>
+	</div>
+</div><footer class="pt-4 my-md-5 pt-md-5 border-top">
+	<div class="container">
+	  <div class="row">
+		<div class="col-12 col-md">
+		  <img class="mb-2" src="/assets/images/notsobig-logo-muted.svg" height="40">
+		  <small class="d-block mb-3 text-muted">&copy; 2021 <a href="https://notsobig.company" target="_blank">The Not So Big Company</a></small>
+		</div>
+		<div class="col-6 col-md">
+		  <h5>About</h5>
+		  <ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="/pricing">Pricing</a></li>
+			<li><a class="text-muted" href="/privacy">Privacy</a></li>
+			<li><a class="text-muted" href="/terms">Terms</a></li>
+			<li><a class="text-muted" href="/security">Security</a></li>
+			<li><a class="text-muted" target="_blank" href="https://github.com/getsheety">Github</a></li>
+			<li><a class="text-muted" target="_blank" href="https://twitter.com/getsheety">Twitter (@NotSoBigCompany)</a></li>
+		  </ul>
+		</div>
+		<div class="col-6 col-md">
+		  <h5>Learn</h5>
+		  <ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="/docs/spreadsheet">Getting Started</a></li>
+			<li><a class="text-muted" href="/docs/requests">Making Requests</a></li>
+			<li><a class="text-muted" href="/templates">Templates</a></li>
+		  </ul>
+		</div>
+		<div class="col-6 col-md">
+		  <h5>Help</h5>
+		  <ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="/faqs/troubleshooting">Troubleshooting</a></li>
+			<li><a class="text-muted" href="/faqs/billing">Billing questions</a></li>
+			<li><a class="text-muted" href="/status">Status</a></li>
+			<li><a class="text-muted" href="/contact">Contact</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-58897186-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-58897186-3');
+</script></body>
+
+</html>

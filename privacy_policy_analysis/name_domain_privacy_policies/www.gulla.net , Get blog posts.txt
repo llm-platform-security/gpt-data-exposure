@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="Description">
+<meta name="author" content="Tomas Hensrud Gulla">
+<title>Privacy information for GPT - Tomas Hensrud Gulla</title>
+<link href="https://www.gulla.net/en/privacy/" rel="canonical" />
+<link rel="stylesheet" href="/Static/Styles/main.20240508.css">
+<link rel="preload" fetchpriority="high" as="image" href="/Static/Images/gulla.webp" type="image/webp">
+</head>
+<body>
+<div class="container my-4 border border-secondary rounded" id="maincontainer">
+<div class="row header-row pt-1 ">
+<p class="h1 mx-auto"><a href="/en/">Tomas Hensrud Gulla</a></p>
+</div>
+<div class="row" id="header">
+<div>
+<a href="https://world.episerver.com/blogs/Chris-Sharp/Dates/2020/1/welcome-to-the-3-new-emvps/"><img src="/Static/Images/emvp_375_135.webp" alt="Epi MVP - Most Valuable Professional" width="250" height="90"></a>
+</div>
+<div class="ml-auto mr-2">
+<div class="global-language-selector">
+<a href="/en/privacy/"><img src="/Static/Images/en.svg" width="48" height="40" alt="English"></a>
+<a href="/no/privacy/"><img src="/Static/Images/no.svg" width="48" height="40" alt="Norsk"></a>
+</div>
+</div>
+</div>
+<div class="row navigation py-2">
+<p class="mx-auto mb-0">
+<a href="/en/blog/">Blog</a><a href="/en/ai/">AI</a><a href="/en/gpt/">GPT</a><a href="/en/about-me/">About me</a><a href="/en/4042/">404</a></p>
+</div>
+<div class="row main-content p-4">
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb p-0 m-0">
+<li class="breadcrumb-item"><a href="/en/">Gulla.net</a></li>
+<li class="breadcrumb-item active" aria-current="page">Privacy information for GPT</li>
+</ol>
+</nav>
+<h1>Privacy information for GPT</h1>
+<div class="mainintro">
+<p>No information is collected.</p></div>
+<div class="mainbody">
+</div>
+</div>
+<div class="footer row pt-2">
+<p class="mx-auto d-block d-sm-none">Powered by Optimizely CMS 12.29.1</p>
+<p class="mx-auto d-none d-sm-block">Proudly powered by Optimizely CMS 12.29.1</p>
+</div>
+</div>
+<script>new Image().src = 'https://nullitics.com/n.gif?u=' + encodeURI(location.href) + '&r=' + encodeURI(document.referrer) + '&d=' + screen.width;</script>
+</body>
+</html>

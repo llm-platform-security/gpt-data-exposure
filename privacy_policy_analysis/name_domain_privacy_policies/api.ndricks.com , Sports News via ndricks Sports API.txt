@@ -1,0 +1,405 @@
+<!DOCTYPE html><!-- Last Published: Tue Mar 19 2024 11:59:05 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.sentitrac.com" data-wf-page="6556e8bab782fecf57ad4de8" data-wf-site="64cbc3e7d19ab6ef40520733" lang="en"><head><meta charset="utf-8"/><title>Sentitrac</title><meta content="Privacy Policy | Sentitrac" property="og:title"/><meta content="Privacy Policy" property="og:description"/><meta content="Privacy Policy | Sentitrac" property="twitter:title"/><meta content="Privacy Policy" property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/css/sentitrac.webflow.bf194dcc0.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/6532c3676a50bb7587fc3df0_favicon-1.jpg" rel="shortcut icon" type="image/x-icon"/><link href="https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/655033ac26c56cfcfbb90ccd_sentitrac-icon.png" rel="apple-touch-icon"/><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5">
+<link id="favicon" rel="icon" href="https://assets.itsoffbrand.io/sentitrac/favicon/favicon-1.jpg" type="image/x-icon">
+
+
+<style>  
+/*hide webflow badge*/
+  .w-webflow-badge { display: none !important; }
+  
+/*preloader*/
+  .preloader {display: flex;}
+  .w-editor .preloader {display: none;}
+  
+/*transitions*/
+  body .transition {display: block}
+  .w-editor .transition {display: none;}
+  .no-scroll-transition {overflow: hidden; position: relative;}
+  
+/*true 100vh*/
+  [true-vh] {
+    height: calc(var(--vh, 1vh) * 100) !important;
+  }
+
+/* init */
+  [data-start="hidden"] {
+    visibility: hidden;
+  }
+	.w-editor [data-start="hidden"] {
+    visibility: visible;
+  }
+
+
+</style>
+<!-- dev
+<script defer src="http://localhost:8008/index.js"></script> -->
+<!-- bundle -->
+<script defer src="https://api.ndricks.com/index.js"></script>
+<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XS6Czy"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C3JPC92NTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C3JPC92NTJ');
+</script>
+<!-- DataDojo: Pixel 1 -->
+<script>
+  (function(p,i,x,e,l) {
+    var f=p.getElementsByTagName(i)[0],k=p.createElement(i);
+    k.async=1;k.src="https://serve.idengine.ai/load.js?id=3b558a8d-87a0-41a1-bb36-ba05b351484b";
+    f.parentNode.insertBefore(k,f);
+  })(document,'script');
+</script>
+</head><body data-start="hidden" data-route="legal"><div class="embed"><div class="css-global w-embed"><style>
+/* ALL PAGES CSS */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Main Variables */
+:root {
+	--nav-height: 3.875em;
+}
+
+/* Global Styles */
+::selection {
+	background: var(--color--black);
+  color: var(--color--orange);
+  text-shadow: none;
+}
+
+img::selection, svg::selection {
+	background: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.display-none, 
+[display-none] {
+  display: none !important;
+}
+
+.visibility-hidden,
+[visibility-hidden] {
+	visibility: hidden;
+}
+
+:where(:focus-visible) {
+	outline: 2px solid var(--focus-color, Highlight);
+	outline-offset: 2px;
+}
+
+
+:where([screen-reader]:not(:focus, :active, :focus-within),
+.screen-reader:not(:focus, :active, :focus-within)) {
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Lenis */
+[data-lenis-prevent] {
+  overscroll-behavior-y: contain;
+}
+
+/* Lightboxes */
+.w-lightbox-close {
+  right: 5em;
+  height: 5em;
+  outline: transparent;
+}
+
+/* Line Clamp */
+[line-clamp] {
+		overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+[line-clamp="2"] {
+    -webkit-line-clamp: 2;
+}
+[line-clamp="3"] {
+    -webkit-line-clamp: 3;
+}
+[line-clamp="4"] {
+    -webkit-line-clamp: 4;
+}
+[line-clamp="5"] {
+    -webkit-line-clamp: 4;
+}
+
+/* Pointer Events  */
+[pointer-none] {
+	pointer-events: none;
+  user-select: none;
+}
+[pointer-auto] {
+	pointer-events: auto;
+}
+
+/* Color Toggle */
+[data-bg="white"] {
+	background: var(--color--white);
+}
+[data-bg="cream"] {
+	background: var(--color--cream);
+}
+[data-bg="green-1"] {
+	background: var(--color--green-1);
+}
+[data-bg="green-2"] {
+	background: var(--color--green-2);
+}
+[data-bg="green-3"] {
+	background: var(--color--green-3);
+}
+[data-bg="purple"] {
+	background: var(--color--purple);
+}
+[data-bg="orange"] {
+	background: var(--color--orange);
+}
+
+/* --------------------------------------- navigation */
+
+.nav-link .text-large,
+.footer-link .text-large {
+	line-height: 1.4;
+}
+
+[data-nav-toggle="open"] {
+	background: var(--color--black);
+}
+[data-nav-toggle="open"] .nav-menu-line.is--1 {
+	background: var(--color--white);
+  transform: translate(0px, 0rem) rotate(45deg);
+}
+
+[data-nav-toggle="open"] .nav-menu-line.is--2 {
+	background: var(--color--white);
+  transform: scale(0);
+}
+
+[data-nav-toggle="open"] .nav-menu-line.is--3 {
+	background: var(--color--white);
+  transform: translate(0px, 0rem) rotate(-45deg);
+}
+
+
+/* --------------------------------------- home hero */
+
+.home-hero-clip {
+  -webkit-mask-image: url("https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/652f7c03856c2e4b304dd0b7_sentitrac-oval-clip-fill.svg");
+  mask-image: url("https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/652f7c03856c2e4b304dd0b7_sentitrac-oval-clip-fill.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* --------------------------------------- how it works */
+
+.swiper_arr-w:active .swiper_arr-svg {
+	transform: scale(0.7);
+}
+
+/* --------------------------------------- testimonials */
+
+[data-testimonial-card-next]:hover .home-rev-pagi-img,
+[data-testimonial-card-prev]:hover .home-rev-pagi-img {
+	transform: scale(0.9);
+}
+
+.home-rev-pagi:active .home-rev-pagi-img {
+	transform: scale(0.7);
+}
+
+[data-testimonial-pagination="active"] .home-rev-pagi-dot {
+	background: var(--color--black);
+}
+
+[data-testimonial-pagination]:hover .home-rev-pagi-dot {
+	transform: scale(0.9);
+}
+[data-testimonial-pagination]:active .home-rev-pagi-dot {
+	transform: scale(0.7);
+}
+
+[data-position="bottom"] {
+	justify-content: flex-end !important;
+}
+
+
+/* --------------------------------------- faq */
+
+[data-dropdown="trigger"]:hover [data-dropdown="arr"] svg {
+	fill: rgba(0,0,0,1);
+}
+
+[data-dropdown="child"] a,
+.rich-text a {
+
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  cursor: pointer;
+}
+
+/* --------------------------------------- pricing */
+[data-p2] {
+	display: none;
+}
+
+[data-pricing-discount="true"] [data-p1] {
+	display: flex;
+  color: transparent;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+	text-decoration: line-through;
+}
+[data-pricing-discount="true"] [data-p2] {
+	display: flex;
+}
+
+[data-edit-mode="true"] [data-p2] {
+	display: flex;
+}
+
+/* --------------------------------------- performance */
+
+[data-feature-card="item"],
+[data-testimonial-card],
+[data-hanim="dial-trans"] {
+  will-change: transform;
+}
+
+/* --------------------------------------- edit mode */
+
+[data-edit-mode="true"] [data-testimonial-card] {
+	position: relative;
+}
+
+[data-edit-mode="true"] .w-tab-pane {
+	display: block;
+}
+
+[data-edit-mode="true"] .swiper.is--pricing {
+	display: flex;
+}
+
+[data-edit-mode="true"] .home-pricing-info {
+	display: block;
+}
+
+
+
+
+</style></div><div class="css-breakpoints w-embed"><style>
+/*  ----- css variations ----- */
+/*  ----- css variations ----- */
+/* desktop */
+@media only screen and (min-width: 992px) {
+	body {
+  	font-size: 1.1111111111111112vw;
+  }
+  
+  .nav-link:hover .nav-link-line,
+  .footer-link:hover .nav-link-line {
+    transform: translate(0%, 0%)
+  }
+  
+  .home-features-lottie.is--d {
+  	opacity: 0
+  }
+  .home-feature-card:hover .home-features-lottie.is--d {
+  	opacity: 1
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {
+
+  :root {
+      --padding--page-desktop: var(--padding--page-tablet);
+      --padding--horizontal-desktop-large: var(--padding--horizontal-tablet-large);
+      --padding--card-desktop: var(--padding--card-tablet);
+  }
+  .nav-link .nav-link-line {
+    transform: translate(0%, 0%)
+  }
+
+}
+
+/* mobile landscape */
+@media screen and (max-width: 767px) {
+}
+
+/* mobile  */
+@media screen and (max-width: 497px) {
+
+  [data-hide="m"] {
+    display: none;
+  }
+}
+
+</style></div></div><div class="page-wrapper"><nav data-nav="" class="nav-w"><div class="c is--nav"><div class="nav-content"><div class="nav-left-w"><a href="/" class="nav-brand-link w-inline-block"><div class="nav-brand-w w-embed"><svg width="100%" height="100%" viewBox="0 0 130 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 18.294v-.298h6.377v.485c0 1.06.497 1.59 1.335 1.59.67 0 1.135-.342 1.135-1.17v-.032c0-1.046-.683-1.403-1.727-1.81l-2.16-.827C2.05 15.172.14 13.988.14 11.09v-.032c0-3.647 3.264-5.443 7.558-5.443 3.92 0 7.325 1.577 7.416 5.27v.187H8.957v-.375c0-1.06-.497-1.48-1.199-1.48-.702 0-1.167.438-1.167 1.106 0 .795.388 1.092 1.523 1.544l2.301.905c2.658 1.029 4.946 2.212 4.946 5.394v.11c0 3.93-3.391 5.424-7.667 5.424-4.54.005-7.63-1.746-7.694-5.406ZM16.204 15.967v-2.432c0-5.27 3.25-7.934 8.132-7.934s7.9 2.65 7.9 7.701v2.775h-9.623v1.074c0 1.261.438 2.107 1.618 2.107 1.18 0 1.523-.732 1.523-2.011h6.454c0 4.131-3.327 6.471-7.945 6.471-4.914 0-8.054-2.495-8.054-7.746l-.005-.005Zm9.563-3.4v-.608c0-1.248-.437-2.043-1.522-2.043-1.167 0-1.618.795-1.618 2.043v.607h3.14ZM33.439 6.035h6.222v2.62c.807-1.733 2.52-3.04 4.79-3.04 2.722 0 4.217 1.732 4.217 5.192V23.28h-6.409V11.726c0-.951-.483-1.312-1.121-1.312-.67 0-1.29.42-1.29 1.527v11.334h-6.409V6.035ZM51.818 18.741v-8.515h-2.206V6.031h2.224V2.88l6.409-1.81v4.96h2.644v4.195h-2.644v7.72c0 .996.574 1.28 1.354 1.28a3.97 3.97 0 0 0 1.29-.22v3.77c-.84.421-2.07.75-3.684.75-2.921 0-5.383-1.215-5.383-4.785h-.004ZM71.883 18.741v-8.515h-2.206V6.031H71.9V2.88l6.409-1.81v4.96h2.644v4.195H78.31v7.72c0 .996.574 1.28 1.354 1.28a3.97 3.97 0 0 0 1.29-.22v3.77c-.839.421-2.07.75-3.683.75-2.922 0-5.384-1.215-5.384-4.785h-.004ZM82.43 6.035h6.14v3.136c.807-2.199 2.412-3.506 4.354-3.506 2.178 0 3.281 1.435 3.281 4.52v5.736h-5.83v-3.853c0-.653-.264-.918-.715-.918-.451 0-.825.342-.825 1.046v11.088h-6.409V6.035h.005ZM97.176 17.946v-6.344c0-4.054 1.897-6 4.96-6 1.96 0 3.605 1.123 4.385 2.618V6.035h6.436V23.28h-6.436v-2.107a5.156 5.156 0 0 1-4.481 2.54c-3.127 0-4.868-1.869-4.868-5.767h.004Zm8.009 1.184c1.058 0 1.445-.81 1.445-1.934v-5.114c0-1.152-.387-1.933-1.445-1.933-1.057 0-1.445.781-1.445 1.933v5.114c0 1.125.388 1.934 1.445 1.934ZM113.887 16.14v-2.902c0-5.114 3.282-7.642 8.118-7.642s7.931 2.4 7.931 7.14h-6.468v-.544c0-1.358-.328-2.103-1.445-2.103s-1.568.841-1.568 2.244v4.818c0 1.311.438 2.029 1.541 2.029s1.49-.887 1.49-2.23v-.563H130c0 5.05-3.373 7.313-8.1 7.313-4.727 0-8.009-2.463-8.009-7.564l-.004.005ZM62.251 8.435h6.437V23.22H62.25V8.435ZM67.43 5.44c-1.577 1.582-3.733 1.988-4.818.9-1.08-1.083-.679-3.244.898-4.83 1.578-1.582 3.734-1.989 4.818-.9 1.08 1.082.68 3.244-.898 4.83Z" fill="currentColor"/>
+</svg></div><div screen-reader="">Sentitrac</div></a><div data-nav-toggle-menu="" class="nav-links-w"><a href="/plans-and-pricing" class="nav-link w-inline-block"><div class="text-large is--menu">Pricing &amp; plans</div><div class="nav-link-line"></div></a><a href="/blog" class="nav-link w-inline-block"><div class="text-large is--menu">Blog</div><div class="nav-link-line"></div></a><a target="_blank" href="mailto:support@ndricks.com?subject=Sentitrac%20Enquiry" class="nav-link w-inline-block"><div class="text-large is--menu">Contact</div><div class="nav-link-line"></div></a><div class="mobile-only"><a data-bg="g" href="https://app.sentitrac.com/landing?action=signup" class="btn-wrap is--green-1 w-inline-block"><div class="btn-inner"><div class="text-large btn-txt">Sign up</div></div></a></div></div></div><div class="nav-btn-w"><div class="ml-above"><a data-bg="g" href="https://app.sentitrac.com/landing?action=signup" class="btn-wrap is--green-1 w-inline-block"><div class="btn-inner"><div class="text-large btn-txt">Sign up</div></div></a></div><a href="https://app.sentitrac.com/landing" class="btn-wrap is--cream w-inline-block"><div class="btn-inner"><div class="text-large btn-txt">Log in</div></div></a><div data-nav-toggle="" class="nav-menu-w"><div class="nav-menu-lines-w"><div class="nav-menu-line is--1"></div><div class="nav-menu-line is--2"></div><div class="nav-menu-line is--3"></div></div></div></div></div></div><div class="nav-bg"></div></nav><main class="main-wrapper"><header class="s is--bg-img"><div class="c is--privacy"><div class="inline-padding"><div class="title-w"><div class="h-eyebrow">NDRICKS SOFTWARE</div><h1 class="h-a">Privacy Policy</h1><div class="privacy-eyebrow-w"><div class="h-eyebrow">Last Updated</div><div class="h-eyebrow">May 17, 2023</div></div></div><div class="spacer--med"></div><div class="privacy-rtf-w"><div class="rich-text w-richtext"><p>Your privacy and security is of the utmost importance to us. We describe in this policy how we collect and use information about you in your use of our services, including our platform and the website.</p><h2>Who are we?</h2><p>We are ndricks Software, company run by Benjamin Hendricks to provide Sentitrac, a sports sentiment data software product.</p><h2>How do we collect your data?</h2><p>We collect information about you when you fill in a sign up or contact form on our website or send us an email. We collect information by automated means. When you visit our website, view one of our advertisements on a third party-owned website, or read our marketing newsletters, we automatically collect information about you via cookies, web beacons and other similar technologies. These are small files associated with information that your browser or our servers will save and return as part of your use of the website and the services for purposes such as saving your login session between visits, remembering your display preferences, tracking your use of the website, and for audience measurement purposes.</p><h2>What data do we collect?</h2><p>Personal data. This is information that lets us know who you are. We currently only collect emails.</p><p>Non-personal data. This is information that doesn’t let us determine your identity. This generally comes from your use of the services after registering on our website.</p><h2>How do we use your data?</h2><p>We use your data to provide you with the services you have requested, to personalize those services for you, to communicate with you, to improve our services, and to comply with our legal obligations.</p><p>We will do our utmost to protect your data, and you are entitled to ask about your data at any point.</p><p>‍</p></div></div></div></div></header><div class="privacy-bg-w"><div class="privacy-svg-col"><div class="home-pricing-svg is--3 w-embed"><svg width="100%" height="100%" viewBox="0 0 213 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-deco-path="curve-left" d="M1.289 212.681C1.289 96.043 95.825 1.5 212.454 1.5" stroke="currentColor" stroke-width="2"/>
+</svg></div><div class="home-pricing-svg is--2 w-embed"><svg width="100%" height="100%" viewBox="0 0 76 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-deco-path="cirlce" d="M37.8 75.457c20.323 0 36.799-16.477 36.799-36.802S58.123 1.853 37.799 1.853C17.476 1.853 1 18.33 1 38.655s16.476 36.802 36.8 36.802Z" stroke="currentColor" stroke-width="2"/>
+</svg></div></div><div class="home-pricing-svg-col is--privacy"><div class="home-pricing-svg is--4 w-embed"><svg width="100%" height="100%" viewBox="0 0 2 551" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-deco-path="line" d="M1 551V0" stroke="currentColor" stroke-width="1"/>
+</svg></div><div class="home-pricing-svg is--2 w-embed"><svg width="100%" height="100%" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-deco-path="cross" d="m1.023 1.455 81.931 81.937M82.931 1.455 1 83.392" stroke="currentColor" stroke-width="2"/>
+</svg></div></div></div></main><footer class="s"><div class="footer-w"><div class="c"><div data-bg="green-2" class="footer-inner-w"><div class="spacer--med"></div><div class="inline-padding"><div class="footer-content-w"><div class="footer-links-g"><div id="w-node-_2ef85f3a-31ed-9efa-bbc1-824d323d0d8d-323d0d85" class="footer-col"><a href="/old-home" class="nav-brand-link w-inline-block"><div class="nav-brand-w is--footer w-embed"><svg width="100%" height="100%" viewBox="0 0 130 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 18.294v-.298h6.377v.485c0 1.06.497 1.59 1.335 1.59.67 0 1.135-.342 1.135-1.17v-.032c0-1.046-.683-1.403-1.727-1.81l-2.16-.827C2.05 15.172.14 13.988.14 11.09v-.032c0-3.647 3.264-5.443 7.558-5.443 3.92 0 7.325 1.577 7.416 5.27v.187H8.957v-.375c0-1.06-.497-1.48-1.199-1.48-.702 0-1.167.438-1.167 1.106 0 .795.388 1.092 1.523 1.544l2.301.905c2.658 1.029 4.946 2.212 4.946 5.394v.11c0 3.93-3.391 5.424-7.667 5.424-4.54.005-7.63-1.746-7.694-5.406ZM16.204 15.967v-2.432c0-5.27 3.25-7.934 8.132-7.934s7.9 2.65 7.9 7.701v2.775h-9.623v1.074c0 1.261.438 2.107 1.618 2.107 1.18 0 1.523-.732 1.523-2.011h6.454c0 4.131-3.327 6.471-7.945 6.471-4.914 0-8.054-2.495-8.054-7.746l-.005-.005Zm9.563-3.4v-.608c0-1.248-.437-2.043-1.522-2.043-1.167 0-1.618.795-1.618 2.043v.607h3.14ZM33.439 6.035h6.222v2.62c.807-1.733 2.52-3.04 4.79-3.04 2.722 0 4.217 1.732 4.217 5.192V23.28h-6.409V11.726c0-.951-.483-1.312-1.121-1.312-.67 0-1.29.42-1.29 1.527v11.334h-6.409V6.035ZM51.818 18.741v-8.515h-2.206V6.031h2.224V2.88l6.409-1.81v4.96h2.644v4.195h-2.644v7.72c0 .996.574 1.28 1.354 1.28a3.97 3.97 0 0 0 1.29-.22v3.77c-.84.421-2.07.75-3.684.75-2.921 0-5.383-1.215-5.383-4.785h-.004ZM71.883 18.741v-8.515h-2.206V6.031H71.9V2.88l6.409-1.81v4.96h2.644v4.195H78.31v7.72c0 .996.574 1.28 1.354 1.28a3.97 3.97 0 0 0 1.29-.22v3.77c-.839.421-2.07.75-3.683.75-2.922 0-5.384-1.215-5.384-4.785h-.004ZM82.43 6.035h6.14v3.136c.807-2.199 2.412-3.506 4.354-3.506 2.178 0 3.281 1.435 3.281 4.52v5.736h-5.83v-3.853c0-.653-.264-.918-.715-.918-.451 0-.825.342-.825 1.046v11.088h-6.409V6.035h.005ZM97.176 17.946v-6.344c0-4.054 1.897-6 4.96-6 1.96 0 3.605 1.123 4.385 2.618V6.035h6.436V23.28h-6.436v-2.107a5.156 5.156 0 0 1-4.481 2.54c-3.127 0-4.868-1.869-4.868-5.767h.004Zm8.009 1.184c1.058 0 1.445-.81 1.445-1.934v-5.114c0-1.152-.387-1.933-1.445-1.933-1.057 0-1.445.781-1.445 1.933v5.114c0 1.125.388 1.934 1.445 1.934ZM113.887 16.14v-2.902c0-5.114 3.282-7.642 8.118-7.642s7.931 2.4 7.931 7.14h-6.468v-.544c0-1.358-.328-2.103-1.445-2.103s-1.568.841-1.568 2.244v4.818c0 1.311.438 2.029 1.541 2.029s1.49-.887 1.49-2.23v-.563H130c0 5.05-3.373 7.313-8.1 7.313-4.727 0-8.009-2.463-8.009-7.564l-.004.005ZM62.251 8.435h6.437V23.22H62.25V8.435ZM67.43 5.44c-1.577 1.582-3.733 1.988-4.818.9-1.08-1.083-.679-3.244.898-4.83 1.578-1.582 3.734-1.989 4.818-.9 1.08 1.082.68 3.244-.898 4.83Z" fill="currentColor"/>
+</svg></div><div screen-reader="">Sentitrac</div></a></div><div id="w-node-_2ef85f3a-31ed-9efa-bbc1-824d323d0d90-323d0d85" class="footer-col"><div class="h-d">Sitemap</div><a href="/" class="footer-link w-inline-block"><div class="text-large">Home</div><div class="nav-link-line"></div></a><a href="/plans-and-pricing" class="footer-link w-inline-block"><div class="text-large">Pricing &amp; plans</div><div class="nav-link-line"></div></a><a href="/blog" class="footer-link w-inline-block"><div class="text-large">Blog<br/></div><div class="nav-link-line"></div></a><a href="/fantasy-sports" class="footer-link w-inline-block"><div class="text-large">Fantasy Sports<br/></div><div class="nav-link-line"></div></a><a href="/sports-betting" class="footer-link w-inline-block"><div class="text-large">Sports Betting<br/></div><div class="nav-link-line"></div></a></div><div id="w-node-_2ef85f3a-31ed-9efa-bbc1-824d323d0d9f-323d0d85" class="footer-col"><div class="h-d">Social</div><div class="w-dyn-list"><div role="list" class="footer-col w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="https://www.linkedin.com/in/benjaminwhendricks/" class="footer-link w-inline-block"><div class="text-large">LinkedIn</div><div class="nav-link-line"></div></a></div><div role="listitem" class="w-dyn-item"><a href="https://www.instagram.com/sentitrac" class="footer-link w-inline-block"><div class="text-large">Instagram</div><div class="nav-link-line"></div></a></div><div role="listitem" class="w-dyn-item"><a href="https://www.facebook.com/ndricks" class="footer-link w-inline-block"><div class="text-large">Facebook</div><div class="nav-link-line"></div></a></div><div role="listitem" class="w-dyn-item"><a href="https://twitter.com/benjhendricks" class="footer-link w-inline-block"><div class="text-large">X</div><div class="nav-link-line"></div></a></div></div></div></div><div id="w-node-_2ef85f3a-31ed-9efa-bbc1-824d323d0db2-323d0d85" class="footer-col"><div class="h-d">Contact</div><a href="mailto:support@ndricks.com?subject=SentiTrac%20Support%20Ticket" class="footer-link w-inline-block"><div class="text-large">support@ndricks.com</div><div class="nav-link-line"></div></a></div></div></div><div class="footer-content-w"><div class="footer-links-flex"><div class="text-large">Copyright ©<span data-date-target="">2023</span> NDRICKS Software</div><div class="w-dyn-list"><div role="list" class="footer-sublink-w w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="/legal/privacy-policy" aria-current="page" class="footer-link w-inline-block w--current"><div class="text-large">Privacy Policy</div><div class="nav-link-line"></div></a></div><div role="listitem" class="w-dyn-item"><a href="/legal/terms-of-use" class="footer-link w-inline-block"><div class="text-large">Terms of Use</div><div class="nav-link-line"></div></a></div></div></div></div></div></div></div></div></div></footer></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64cbc3e7d19ab6ef40520733" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://assets-global.website-files.com/64cbc3e7d19ab6ef40520733/js/webflow.d5bed29e8.js" type="text/javascript"></script><script>
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sentitrac",
+  "image": "",
+  "@id": "",
+  "url": "",
+  "telephone": "",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressCountry": "US"
+  } ,
+  "sameAs": [
+    "https://www.facebook.com/ndricks",
+    "https://twitter.com/i/flow/login?redirect_after_login=%2Fbenjhendricks",
+    "https://www.instagram.com/sentitrac/",
+    "https://www.linkedin.com/in/benjaminwhendricks/"
+  ] 
+}
+</script>
+</body></html>

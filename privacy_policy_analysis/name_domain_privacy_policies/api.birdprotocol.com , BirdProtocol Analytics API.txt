@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bird.Money">
+  <meta name="keywords" content="Off-Chain Oracle Analytics, Defi, Lending" />
+  <meta name="author" content="Bird.Money Team">
+  <meta name="theme-color" content="#000">
+  <meta property="og:title" content="Bird: Advanced Analytics Delivered On-Chain" />
+  <meta property="og:description"
+    content="Bird is empowering dApp developers to create the Web3.0 UX of the future by developing wallet-level machine learning prediction products that are accessible within a permissionless, decentralized on-chain oracle." />
+  <meta property="og:url" content="https://bird.money/" />
+  <meta property="og:image" content="images/favicon-180x180.png />
+  <meta property=" og:image:type" content="image/png" />
+  <meta property=”og:type” content=”website” />
+
+  <title>Bird.Money | Off-Chain Oracle Analytics, Defi, Lending</title>
+
+  <!-- vendor style -->
+  <link rel="alternate" hreflang="en" href="https://bird.money">
+  <link rel="alternate" hreflang="zh" href="https://zh.bird.money">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <link href=" https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- cookiealert styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+  <link href="css/MyFontsWebfontsKit.css rel=" stylesheet">
+
+  <!-- custom style -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- <link href="{{url_for('static', filename='bird/css/roadmap.css rel="stylesheet"> -->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+  <!-- <link href="{{url_for('static', filename='bird/css/styles.css rel="stylesheet"> -->
+  <link rel="icon" href="images/favicon/favicon-180x180.png">
+
+  <link rel=" icon" type="image/png" href="images/favicon/favicon-16x16.png
+    sizes=" 16x16">
+  <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png
+    sizes=" 32x32">
+  <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png
+    sizes=" 96x96">
+  <!-- <link rel="apple-touch-icon" href="older-iPhone.png"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/favicon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="images/favicon/favicon-167x167.png">
+  <link href="https://fonts.googleapis.com/css?family=Product+Sans:300,400,700" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9EKXD3PQN%22%3E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q9EKXD3PQN');
+  </script>
+
+</head>
+
+<body class="bird_home">
+  <div class="bird_home__announcements">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col d-flex justify-content-center">
+          <div class="bird_home__announcements__content">
+            <a href="https://medium.com/bird-money/binance-labs-selects-bird-to-participate-in-season-3-of-its-prestigious-project-incubation-program-f5ffb9fe2064?source=friends_link&sk=e3564408a4d53828ebf2e2f9cb18f0b0"
+              target="_blank" rel="noopener noreferrer">
+              <div class="bird_home__announcements__content__logo">
+                <img src="images/binance-labs.svg" alt="">
+              </div>
+              <div class="bird_home__announcements__content__text">
+                <p><span>Bird</span> <span class="d-none d-md-inline-block" style="color:#fff"> has been</span> selected
+                  <span class="d-none d-md-inline-block" style="color:#fff">to participate
+                    in season 3 of
+                    its</span> <span class="d-md-none" style="color:#fff">in binance labs</span> <span>Project
+                    incubation program</span>
+                </p>
+              </div>
+              <div class="bird_home__announcements__content__birdlogo">
+                <img src="images/bird-brand.svg" alt="">
+                <img src="images/bird-gold.svg" alt="" class="bird_home__announcements__content__birdlogoGold">
+                <span class="d-none d-md-inline-block">Read More <i class="fas fa-chevron-circle-right"></i></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backDrop"></div>
+  <!-- <div class="bird_home-glow d-none d-lg-block"></div> -->
+  <nav class="bird_home__navigation bird_home__navigation-mobile d-flex d-lg-none">
+    <div class="container">
+      <div class="d-flex pt-4 justify-content-between">
+        <a class='my-0 mr-md-auto' href='/'>
+          <div class="global-header__brand"><img src="images/logo.svg" alt="">
+            <h5>Bird</h5>
+          </div>
+        </a>
+        <div class="mobile-menu-hamburger" style="margin-top: -12px;"><span class="mdi mdi-menu-open"
+            style="font-size: 32px; margin-top: -12px;"></span></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bird_home__main__sidebar-mobile d-lg-none is-active">
+    <header class="">
+      <a class='my-0 mr-md-auto' href='/'>
+        <div class="global-header__brand"><img src="images/logo.svg" alt="">
+          <h5>Bird</h5>
+        </div>
+      </a>
+    </header>
+
+    <div class="bird_home__main__sidebar__navigation">
+      <nav>
+        <ul>
+          <li><a href="index.html/#trade">Buy Bird</a></li>
+          <li><a href='/oracle'>Oracle Analytics</a></li>
+          <li><a href='/loans'>Lending</a></li>
+          <li>
+            <a class="" data-bs-toggle="collapse" href="#productsMobileNav" role="button" aria-expanded="false"
+              aria-controls="productsMobileNav">
+              Products
+            </a>
+
+            <div class="collapse" id="productsMobileNav">
+              <div class="bird_home__main__sidebar__navigation__dropdown">
+                <ul>
+                  <li>
+                    <a href='/oracle'>
+                      <span>Oracle Analytics</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/creditscore'>
+                      <span>DeFi Credit Score</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/launchpad'>
+                      <span>Launchpad Score</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href='/ecomm'>
+                      <span>Ecomm Analytics</span>
+                    </a>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a class="" data-bs-toggle="collapse" href="#appsMobileNav" role="button" aria-expanded="false"
+              aria-controls="appsMobileNav">
+              Apps
+            </a>
+
+            <div class="collapse" id="appsMobileNav">
+              <div class="bird_home__main__sidebar__navigation__dropdown">
+                <ul>
+                  <li>
+                    <a href="https://bridge.bird.money/">
+                      <span>Bridge App</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://app.bird.money/">
+                      <span>Oracle Analytic App</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://lend.bird.money/">
+                      <span>Lending App</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://nft.bird.money/">
+                      <span>Ecomm Analytics</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/nft-landing">
+                      <span>Analytics NFT</span>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href='/flightpath'>Flight Path</a></li>
+          <li><a href="https://samurai.cyberfi.tech/stake-pad/stake-bird">Staking</a></li>
+          <li><a href='/faq'>FAQ</a></li>
+          <li><a href="https://docs.bird.money/">Docs</a></li>
+          <li><a href='/team'>Team</a></li>
+          <li><a href="https://birdmerch.store/">Bird Merch</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <header class="global-header">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center b-sm justify-content-between">
+        <a href="/" class="my-0 mr-md-auto d-none d-lg-flex">
+          <div class="global-header__brand"><img src="images/logo.svg" alt="">
+            <h5>Bird</h5>
+          </div>
+        </a>
+        <nav class="global-nav my-2 my-md-0 mr-md-3 d-none d-lg-flex">
+          <ul>
+            <li><a class href='/flightpath'>Flight Path</a></li>
+            <li class="dropdown nav-menu-dropdown">
+              <a href="#" class="nav-link dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Products</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class='dropdown-item' href='/oracle'>
+                  <div class="menu-image">
+                    <img src="images/ana.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Oracle Analytics</span>
+                    <span>On-Chain Oracle Protocols</span>
+                  </div>
+                </a>
+                <a class='dropdown-item' href='/creditscore'>
+                  <div class="menu-image">
+                    <img src="images/score.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>DeFi Credit Score</span>
+                    <span>Credit risk analytics</span>
+                  </div>
+                </a>
+                <a class='dropdown-item' href='/launchpad'>
+                  <div class="menu-image">
+                    <img src="images/launch.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Launchpad Score</span>
+                    <span>Smarter launchpad</span>
+                  </div>
+                </a>
+                <a class='dropdown-item' href='/ecomm'>
+                  <div class="menu-image">
+                    <img src="images/ecommerce-item.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Ecomm Analytics</span>
+                    <span>Online Shopping</span>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="dropdown nav-menu-dropdown">
+              <a href="#" class="nav-link dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Apps</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="https://bridge.bird.money/" target="_blank" rel="noopener noreferrer">
+                  <div class="menu-image">
+                    <img src="images/bridge.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Cross-chain Transfer</span>
+                    <span>Bridge App</span>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="https://app.bird.money/" target="_blank" rel="noopener noreferrer">
+                  <div class="menu-image">
+                    <img src="images/analytics.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Analytics</span>
+                    <span>Oracle Analytic App</span>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="https://lend.bird.money/" target="_blank" rel="noopener noreferrer">
+                  <div class="menu-image">
+                    <img src="images/lend.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Lending</span>
+                    <span>Lending App</span>
+                  </div>
+                </a>
+                <a class='dropdown-item' href='/nft-landing'>
+                  <div class="menu-image">
+                    <img src="images/nft.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>NFT</span>
+                    <span>Analytics NFT</span>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li><a target="_blank" href="https://samurai.cyberfi.tech/stake-pad/stake-bird"
+                rel="noopener noreferrer">Staking</a></li>
+
+            <li class="dropdown nav-menu-dropdown">
+              <a href="#" class="nav-link dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Developers</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item has-heading" href="https://docs.bird.money/" target="_blank"
+                  rel="noopener noreferrer">
+                  <!-- <header>
+                            <h4>Developers</h4>
+                            <span></span>
+                          </header> -->
+                  <div class="menu-image">
+                    <img src="images/code.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>Documentation</span>
+                    <span>Bird Money Documentation</span>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="https://www.bird.money/docs" target="_blank" rel="noopener noreferrer">
+                  <div class="menu-image">
+                    <img src="images/api.svg" alt="">
+                  </div>
+                  <div class="links">
+                    <span>API</span>
+                    <span>Bird Money API</span>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <!-- <li><a href="/faq">FAQ</a></li> -->
+            <li><a href='/team'>Team</a></li>
+            <li>
+              <span class="d-block d-lg-inline-flex s-sm">
+                <a class="btn" href="https://birdmerch.store/">Bird Merch</a>
+              </span>
+            </li>
+            <li style="
+    padding-left: .4rem;
+">
+              <span class="d-block d-lg-inline-flex s-sm">
+                <a class="btn" href="/#trade" style="
+    background: #AE0707;
+    color: #fff;">Buy Bird</a>
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class=" bird_home__main">
+    <section class="bird_home__article__banner terms">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <header class="">
+              <h2 class="">Bird.Money Terms of Use </h2>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bird_home__article__post terms">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="bird_home__article__post__wrap">
+              <div class="bird_home__article__post__content terms">
+
+                <article>
+                  <h3>Introduction</h3>
+                  <p>In these Bird.Money General Terms of Use (“Terms”), “Bird”, "we" and "us" refers to Bird.Money and
+                    its
+                    related software
+                    products. We own and operate the website <a href="https://bird.money/">https://bird.money/</a> ("the
+                    Site") which serves
+                    as
+                    a front-end to the Bird’s
+                    decentralized technology products. These Terms apply to you (“You”) as a user of the Site and Bird’s
+                    software, including
+                    all the products, services, tools and information made available on the Site.
+                  </p>
+                  <p>
+                    Please review these Terms carefully before using the Site. These Terms apply to any person accessing
+                    the
+                    Site. By using
+                    the Site you agree to be bound by them. By using the Site in any capacity, you agree that you have
+                    read
+                    and understand
+                    these Terms.
+                  </p>
+                  <p>
+                    This agreement contains a mandatory individual arbitration and class action/jury trial waiver
+                    provision
+                    that requires
+                    the use of arbitration on an individual basis to resolve disputes, rather than jury trials or class
+                    actions.
+                  </p>
+                  <p>
+                    You must be willing and capable of forming a legally binding contract online either as an individual
+                    or
+                    on behalf of a
+                    legal entity. You represent that, if you are consenting to be bound by these Terms on behalf of a
+                    legal
+                    entity, you have
+                    the legal authority to do so and can form a legally binding contract online you are at least the age
+                    of
+                    majority where
+                    you reside, and have the full authority to enter into and to abide by the rules contained in these
+                    Terms.
+
+                  </p>
+                  <p>
+                    You are advised to check these Terms frequently to review any changes to the Terms. Bird in its sole
+                    discretion,
+                    reserves the right to make changes to our terms of services. Changes are considered in force for all
+                    users of the Site.
+                    They take effect immediately upon posting. As a user, you agree to be bound by any changes to our
+                    terms
+                    and your
+                    continued use of the Site shall constitute acceptance of any such changes.
+                  </p>
+                </article>
+
+
+                <article>
+                  <h3>Site</h3>
+                  <p>
+                    On the Site, Bird provides access to a decentralized finance application (“Application”) on the
+                    Ethereum
+                    blockchain,
+                    that allows lenders or borrowers of Ethereum assets (“Cryptocurrency assets”) to transact using
+                    smart
+                    contracts (“Smart
+                    Contracts”).
+                  </p>
+                  <p>
+                    Using the Bird software may require that you pay a fee, such as gas charges on the Ethereum network
+                    to
+                    perform a
+                    transaction. You acknowledge and agree that these fees are not paid to Bird and are out of our
+                    control.
+                  </p>
+                  <p>
+                    You acknowledge and agree that Bird has no control over any transactions on the Bird Site, the
+                    method of
+                    payment of any
+                    transactions or any actual payments of transactions.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Access to the Bird Site</h3>
+                  <p>Access to the Site is provided on a “as is” and “as available” basis only. We do not guarantee the
+                    Site, or any content
+                    on it, in any way. From time to time, access may be unavailable for any reason.</p>
+                  <p>We reserve the right to limit the availability of the site to any person, geographic area or
+                    jurisdiction we so desire
+                    and/or to terminate your access to and use of the Site, at any time and in our sole discretion. If
+                    you
+                    breach these
+                    terms, we may suspend or disable your access to the Site.</p>
+                  <p>Content on the site may change at any time. However, content may be obsolete or irrelevant and we
+                    are
+                    under no
+                    obligation to update it. The Site may contain errors and/or omissions.</p>
+                  <p>
+                    If the site is unavailable at any time for any reason and you suffer a loss, we will not be liable
+                    to
+                    you for any damage
+                    under any circumstance.
+                  </p>
+                  <p>By using the site, you agree to comply with all applicable domestic and international laws,
+                    statutes,
+                    ordinances and
+                    regulations applicable to your use of the site.</p>
+
+                  <p>As a condition to accessing or using the the Site, you:</p>
+                  <ol>
+                    <li>will only use the Services and the Site for lawful purposes and in accordance with these Terms;
+                    </li>
+                    <li>will maintain the security and confidentiality of access to your cryptocurrency wallet address;
+                      and
+                    </li>
+                  </ol>
+                  <p>As a condition to accessing or using the Site or the Services, you will not:</p>
+                  <ol>
+                    <li>Use the Site for any purpose that is unlawful;</li>
+                    <li>Violate any Applicable Law, including, without limitation, any relevant and applicable
+                      anti-money
+                      laundering and
+                      anti-terrorist financing laws and any relevant and applicable privacy and data collection laws, in
+                      each case as may be
+                      amended.
+                    </li>
+                    <li>Export or transfer any Bird technology in violation of applicable laws or regulations;</li>
+                    <li>Infringe upon any intellectual property or other third-party right, or commit a tort while using
+                      the
+                      Site;</li>
+                    <li>Attempt to circumvent any security measures or filtering technology that BIrd employs on the
+                      Site,
+                      or attempt to visit
+                      any part of the Site that you are not authorized for;</li>
+                    <li>Encourage any third party to engage in any of the activities prohibited under these Terms.</li>
+                  </ol>
+                  <p>You acknowledge that your use of the Site may present certain risks, including without limitation
+                    the
+                    following risks:</p>
+                  <ol>
+                    <li>That any Smart Contracts you interact with are entirely your own responsibility and liability,
+                      and
+                      that Bird is not
+                      party to the Smart Contracts;</li>
+                    <li>At any time, your access to your cryptocurrency assets may be unavailable or delayed which may
+                      result in the
+                      cryptocurrency assets decreasing in value or other loss;
+                    </li>
+                    <li>If you are a borrower of cryptocurrency assets and if your collateral declines such that your
+                      collateral is no longer
+                      sufficient to secure your borrowed cryptocurrency assets, other users may seize your collateral to
+                      close your
+                      outstanding cryptocurrency asset balance;</li>
+                    <li>And site and/or application may be suspended or terminated for any or no reason, which may limit
+                      your access to your
+                      cryptocurrency assets.
+                    </li>
+                  </ol>
+                  <p>Accordingly, you expressly agree that:</p>
+                  <ol>
+                    <li>you assume all risk in connection with your access and use of the Site, the Application and the
+                      Smart Contracts;</li>
+                    <li>that you expressly waive and release Bird from any and all liability, claims, or damages that
+                      may
+                      arise from your use of
+                      the Site or any of Bird’s software.
+                    </li>
+                  </ol>
+                </article>
+
+
+
+
+                <article>
+                  <h3>Intellectual Property Rights</h3>
+                  <p>We are the sole owner of all intellectual property rights in the Site and the material published on
+                    them. These works
+                    are protected by copyright laws. All rights are reserved.</p>
+                  <p>You will retain ownership of any data you upload or submit to the Site. You grant us a worldwide,
+                    royalty-free,
+                    irrevocable licence to use these data in any manner.</p>
+                </article>
+
+                <article>
+                  <h3>Disclaimers</h3>
+                  <p>We do not guarantee that the Site will be secure or free from bugs or viruses</p>
+                  <p>You are responsible for configuring your information technology, computer programs and platform in
+                    order to access the
+                    Site. You should use your own virus protection software.</p>
+                  <p>All content available on the Site is for informational purposes only. In particular, the content
+                    and
+                    materials available
+                    on the Site does not constitute any form of advice or recommendation by us, should not be regarded
+                    as an
+                    offer,
+                    solicitation, invitation or recommendation to buy or sell investments, securities or any other
+                    financial
+                    services and is
+                    not intended to be relied upon by you in making any specific investment or other decisions. We
+                    recommend
+                    that you seek
+                    independent advice from a financial advisor.
+                  </p>
+                  <p>Nothing included in the site constitutes an offer or solicitation to sell, or distribution of,
+                    investments and related
+                    services to anyone in any jurisdiction.</p>
+                </article>
+
+                <article>
+                  <h3>General</h3>
+                  <p>If any clause or part of any clause of these Terms is found to be unenforceable, then the remainder
+                    of
+                    the terms will
+                    remain in full force and effect.</p>
+                  <p>No single or partial exercise, or failure or delay in exercising any right by us shall constitute a
+                    waiver by us to
+                    release any future rights.</p>
+                  <p>No single or partial exercise, or failure or delay in exercising any right by us shall constitute a
+                    waiver by us to
+                    release any future rights.
+                  </p>
+                </article>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="global-footer">
+      <div class="container">
+        <div class="row" style="padding-top:2.5rem">
+          <div class="col-lg-5">
+            <div class="global-footer__info float-md-left">
+              <a href="" class="my-0 mr-md-auto">
+                <div class="global-footer__info__brand"><img src="images/logo.svg" alt="">
+                  <h5>&nbsp; Bird</h5>
+                </div>
+              </a>
+              <div class="global-footer__info__about">
+                <p>Bird is powered by a driven team and an amazing community.</p>
+                <ul class="nav">
+
+                  <li class="nav-item mr-2">
+                    <a class="nav-link btn-outline-default" target="_blank" href="https://twitter.com/_birdmoney"
+                      rel="noopener noreferrer"><i class="fab fa-twitter" style="font-size: 1.7rem;color: #fff;"
+                        aria-hidden="true"></i></a>
+                  </li>
+
+                  <!-- <li class="nav-item mr-2">
+                      <a class="nav-link btn-outline-default" target="_blank" rel="noopener noreferrer"
+                        href="https://discord.gg/Z2BeCnS"><i class="fab fa-discord" style="font-size: 1.7rem;color: #fff;"
+                          aria-hidden="true"></i></a>
+                    </li> -->
+
+                  <li class="nav-item mr-2">
+                    <a class="nav-link btn-outline-default" target="_blank" rel="noopener noreferrer"
+                      href="https://medium.com/bird-money"><i class="fab fa-medium"
+                        style="font-size: 1.7rem;color: #fff;" aria-hidden="true"></i></a>
+                  </li>
+
+                  <li class="nav-item mr-2">
+                    <a class="nav-link btn-outline-default" target="_blank" alt="Contract"
+                      href="https://github.com/bird-money" rel="noopener noreferrer"><i class="fab fa-github"
+                        style="font-size: 1.7rem;color: #fff;" aria-hidden="true"></i></a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link btn-outline-default" target="_blank" alt="Contract"
+                      href="https://t.me/joinchat/AAAAAEzyFurRdr3sZZnrBw" rel="noopener noreferrer"><i
+                        class="fab fa-telegram" style="font-size: 1.7rem;color: #fff;" aria-hidden="true"></i></a>
+                  </li>
+                  <li class="nav-item mr-2">
+                    <a class="nav-link btn-outline-default" target="_blank" alt="Contract"
+                      href="https://www.linkedin.com/company/birdmoney/" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin" style="font-size: 1.7rem;color: #fff;" aria-hidden="true"></i></a>
+                  </li>
+                </ul>
+                <p><strong>Copyright 2022 Bird</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="global-footer__info__links" style="margin-top: 1.5rem;">
+              <h6>Bird</h6>
+              <nav>
+                <ul class="nav flex-column">
+                  <li><a href='/'>Home</a></li>
+                  <li><a class href='/flightpath'>Flight Path</a></li>
+                  <li><a href='/oracle'>Oracle Analytics</a></li>
+                  <li><a href='/loans'>Lending</a></li>
+                  <li><a href='/faq'>FAQ</a></li>
+                  <li><a href="https://docs.bird.money/">Docs</a></li>
+                  <li><a href='/team'>Team</a></li>
+                  <li><a
+                      href="https://drive.google.com/drive/folders/10ds_yGqIIYSdHfbdRkIUDxlXbqI1ttwH?usp=sharing">Media
+                      Kit</a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="global-footer__info__links" style="margin-top: 1.5rem;">
+              <h6>Apps</h6>
+              <nav>
+                <ul class="nav flex-column">
+                  <li><a href='/oracle'>Oracle Analytics</a></li>
+                  <li><a href='/loans'>Lending</a></li>
+                  <li><a href="https://nft.bird.money/">Analytics NFT</a></li>
+                  <li><a target="_blank" href="https://www.bird.money/docs" rel="noopener noreferrer">API</a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="global-footer__copyright float-md-right" style="margin-top: 1.5rem;">
+              <h5>Off-chain Oracle Analytics</h5>
+              <p>Contact: admin@bird.money</p>
+              <ul>
+                <li><a href='/terms'>Terms &amp; Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- <script src="js/bodymovin.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        delay: 1
+      });
+
+      Weglot.initialize({
+        api_key: 'wg_b565e3b5da4d24787a6d6e800e91eeef5'
+      });
+
+      // $(function () {
+      //   $('[data-toggle="tooltip"]').tooltip({
+      //     container: 'body',
+      //     boundary: 'body',
+      //     fallbackPlacement: ['bottom', 'bottom', 'bottom', 'bottom']
+      //   })
+      // })
+
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+
+      var timeLine = new TimelineMax({ repeat: 1 });
+      timeLine.from('.bird_home__announcements__content__logo', 1, { opacity: 0, y: 20 })
+      timeLine.from('.bird_home__announcements__content__text', 1, { opacity: 0, y: 20 })
+      timeLine.from('.bird_home__announcements__content__birdlogo', 1, { opacity: 0, y: -20 })
+      timeLine.from('.bird_home__announcements__content__birdlogoGold', 1, { opacity: 0 })
+
+      var elem = document.querySelector('.partner-grid');
+      var iso = new Isotope(elem, {
+        // options
+        itemSelector: '.partner-grid-item',
+        layoutMode: 'fitRows'
+      });
+
+      $(function () {
+        $(".filtering").on("click", "span", function () {
+          var a = $(".partner-grid").isotope({});
+          var e = $(this).attr("data-filter");
+          a.isotope({ filter: e });
+        });
+        $(".filtering").on("click", "span", function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      })
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,474 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="description" content="ֽ, ɼ, ũ, ǰ, üũī, ڻ, б" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="KB" />
+    <meta property="og:description" content="  Ʈ" />
+    <meta property="og:image" content="https://tong.kbsec.com/og/og_thum.jpg?v=202405091" />
+    <meta property="og:url" content="https://www.kbsec.com/" />
+    <title> KB |   Ʈ </title>
+    
+
+
+
+
+
+<script type='text/javascript' src='/common/js/netfunnel/inc_netfunnel.js?v=20240509054758'></script>
+<script type="text/javascript">
+    var userUtil = (function(){
+        var uInfo = {
+            uType   : '' ,
+            uEMC    : '',
+            uScrFlg : '',
+            uCtftLgnFlag : '' ,
+            uNetFunnel : ''
+        };
+
+        return {
+            getUtype : function(){
+                return uInfo.uType;
+            },
+            getUEMC : function(){
+                return uInfo.uEMC;
+            },
+            getScrFlg : function(){
+                return uInfo.uScrFlg;
+            },
+            getCtftLgnFlag : function(){
+                return uInfo.uCtftLgnFlag;
+            },
+            getNetFunnel : function(){
+                return uInfo.uNetFunnel;
+            }
+        }
+    }());
+
+</script>
+
+ <!-- jsp -->
+    <script type="text/javascript" src="/common/js/inc/inc_common.js?v=20240509054758"></script><!-- Ϲݸ޴ȭ js -->
+    <link rel="stylesheet" type="text/css" href="/common/css/main.css?v=20240509054758">
+    <script type="text/javascript" src="/common/js/main.js?v=20240509054758"></script>
+    <script type="text/javascript" src="/common/js/platform.js"></script>
+    <script type="text/javascript" src="/finance/market/js/commonFundGrid.js?v=20240509054758"></script>
+    <script type="text/javascript" src="/common/js/plugins/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="/common/js/plugins/jquery.transform2d.js"></script>
+    <script type="text/javascript" src="/common/js/snowfall.jquery.min.js"></script>
+    <script type="text/javascript">
+        <!--
+        ui.menuset.init("m00000000"); /* menu json load */
+        //-->
+        var vMainJsonUrl = "/ndataweb/json/main/";
+        //ȯ϶ json 
+        if (document.location.host.indexOf("loc.kbsec") > -1 || document.location.host.indexOf("locopen.kbsec") > -1) {
+            vMainJsonUrl = "/common/json/";
+        }
+
+        //ݵ庯
+/*
+        var vIsLogin = isLogin %>;
+        var vIsMan =  isMan%>;
+        var vUserAge = userAge%>;
+        var vUserName =  userName%>";
+        var vUserInvsCd =userIvstCd%>;
+*/
+
+        var link = document.location.href;
+        if ( link.indexOf("//open.kbsec.com") >= 0 )
+            location.href = "https://www.kbsec.com";
+
+        $(document).ready(function(){
+            try
+            {
+                if ( platform.description.indexOf("Windows") >= 0 )
+                {
+                    var osVer = (platform.os.version != null) ? platform.os.version : platform.os.family;
+                    var browserName = platform.name;
+
+                    var browserVer  = Number(platform.version.split(".")[0]);
+                    var trident = platform.getTrident();
+                    var ua = platform.ua.replace(/ /g, '').toUpperCase();
+
+                    console.log("os [" + osVer + "] : bm[" + browserName + "] : bv[" + browserVer + "] : tr[" + trident + "]");
+
+                    if ( osVer.indexOf("XP") >= 0 && browserName == "IE" && browserVer < 8 && trident < 8)
+                        $popup.open("/util/common/UTIL_04_0011.html", 'UTIL_04_0011', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                    else if ( osVer.indexOf("XP") >= 0 && ua.indexOf("SV1") >= 0 )
+                        $popup.open("/util/common/UTIL_04_0017.html", 'UTIL_04_0017', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                    else if ( osVer.indexOf("Vista") >= 0 && browserName == "IE" && browserVer < 8 && trident < 8)
+                        $popup.open("/util/common/UTIL_04_0013.html", 'UTIL_04_0013', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                    //else if ( ( osVer.indexOf("XP") >= 0 || osVer.indexOf("Vista") >= 0) && ( browserName == "Firefox" && browserVer == 52 ) ) {}
+                    else if ( ( osVer.indexOf("XP") >= 0 || osVer.indexOf("Vista") >= 0) && ( browserName == "Chrome" ) ) {}
+                    else if ( ( osVer.indexOf("XP") >= 0 || osVer.indexOf("Vista") >= 0) && ( browserName == "Chrome" || browserName == "Firefox" ) )
+                        $popup.open("/util/common/UTIL_04_0012.html", 'UTIL_04_0012', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                    else
+                    {
+                        if ( osVer == "7" && browserName == "IE" && browserVer < 8 && trident < 8)
+                            $popup.open("/util/common/UTIL_04_0014.html?type=1", 'UTIL_04_0014', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        else if (  osVer == "8" && browserName == "IE" && browserVer < 9 && trident < 9)
+                            $popup.open("/util/common/UTIL_04_0014.html?type=2", 'UTIL_04_0014', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        else if (  osVer == "8.1" && browserName == "IE" && browserVer < 10 && trident < 10)
+                            $popup.open("/util/common/UTIL_04_0014.html?type=3", 'UTIL_04_0014', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        else if (  osVer == "10" && browserName == "IE" && browserVer < 11 && trident < 11)
+                            $popup.open("/util/common/UTIL_04_0014.html?type=4", 'UTIL_04_0014', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        else if ( browserName == "Firefox" && browserVer < 61 )
+                            $popup.open("/util/common/UTIL_04_0015.html?ver=61", 'UTIL_04_0015', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        else if ( browserName == "Chrome" && browserVer < 63 )
+                            $popup.open("/util/common/UTIL_04_0016.html?ver=63", 'UTIL_04_0016', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                        //else if ( browserName != "Chrome" && browserName != "IE" && browserName != "Firefox" && browserName.indexOf("Edge") < 0 )
+                        //    $popup.open("/util/common/UTIL_04_0012.html", 'UTIL_04_0012', 'width=750,height=666,scrollbars=no, useCookie=no, bottomBar=no', this);
+                    }
+                }
+
+            }catch (e){
+                console.log("Unkown user agent [" + e.toString() + "][" + navigator.userAgent + "]");
+            }
+
+            //$('.diagonal').snowfall({image :"/images/main/snow.png", flakeCount:30,  minSize:5, maxSize:15, flakeIndex:10, maxSpeed:2});
+        });
+
+
+    </script>
+    <span itemscope="" itemtype="http://schema.org/Organization">
+      <link itemprop="url" href="http://www.kbsec.com">
+      <a itemprop="sameAs" aria-label="KB α" href="https://blog.naver.com/e_adventure"></a>
+      <a itemprop="sameAs" aria-label="KB Ʃ" href="https://www.youtube.com/user/hsyoufirst"></a>
+      <a itemprop="sameAs" aria-label="KB ̽" href="https://www.facebook.com/kbsecable"></a>
+      <a itemprop="sameAs" aria-label="KB νŸ׷" href="https://www.instagram.com/kbsecable"></a>
+      <a itemprop="sameAs" aria-label="KB ̹ iN" href="https://kin.naver.com/profile/index.nhn?u=7xaPuL2kDxxhqjMndB5Azaliv2Fd2a4GcaRFKNTKKpc%3D"></a>
+      <a itemprop="sameAs" aria-label="KB 'M-able'() - Google Play" href="https://play.google.com/store/apps/details?id=com.kbsec.mts.iplustarngm2"></a>
+      <a itemprop="sameAs" aria-label="KB 'M-able'() - AppS tore" href="https://apps.apple.com/kr/app/id350742701"></a>
+    </span>
+</head>
+
+<body class="main">
+<div id="wrap">
+    <script type="text/javascript">ui.layout.skipnavi(true);</script> <!-- // ټ Skip Navi -->
+    <!--  -->
+    <div class="video-popup">
+        <div class="video-popup-closer"><span class="blind"></span></div>
+    </div>
+    <!--  // -->
+
+    <!-- Layout :header Area -->
+    <script type="text/javascript">writeHTMLHeader();</script>
+    <!-- // Layout : header Area -->
+
+    <!-- Layout : contents Area -->
+    <!-- key visual //-->
+    <div id="containerNew" class="key_visual_wrap">
+
+        <!-- ־ ̹ ̵ -->
+        <div class="diagonal">
+        	<div class="b">
+				<div></div>
+			</div>
+			<div class="i">
+				<div></div>
+			</div>
+        </div>
+        <!-- // ־ ̹ ̵ -->
+
+        <!-- Ű  -->
+        <div class="keyCon">
+            <h2 class="blind">kb ǥ</h2>
+            <ul class="indicator">
+                <li>
+                    <a href="#tab_keyCon_2" data-slide-index="1"><img src="/images/main/tab_keyCon_2.png?v=20240509054758" alt="kb ǥ1" /></a>
+                    <div id="keycon1">
+                        <img src="/images/main/txt_key_con2.png?v=20240509054758" class="block" alt="ο Ʈ̵ ý - KB M-able ̵ " >
+<!--                         <a href="https://mablewide.kbsec.com/go.able?forwardcd=m09060000" target="_blank" class="ty3" style="margin-top:25px;"><span>ڼ</span></a> -->
+							<a href="javascript:void(0)" target="_blank" class="ty3" style="margin-top:25px;" onclick="doGoMablewide(); return false;"><span>ڼ</span></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#tab_keyCon_11" data-slide-index="2"><img src="/images/main/tab_keyCon_11.png?v=20240509054758" alt="kb ǥ2" /></a>
+                    <div id="keycon2">
+                        <img src="/images/main/txt_key_con11.png?v=20240509054758" class="block" alt=" Ը ϴ ! KB ̷Ʈ ε" >
+                        <a href="/go.able?linkcd=s060901010000&seq=10005428&idt=20230428" target="_blank" class="ty5" style="margin-top:25px;"><span>ڼ</span></a>
+                    </div>
+                </li>
+			</ul>
+						
+        
+            <ul class="keyBtn" style="z-index:10;">
+                <li class="btn1" onclick="$popup.open('/login/jsp/LOGN_01_0001.jsp', 'LOGN010001', 'width=784,height=757,scrollbars=no, useCookie=no,  useClose=no , bottomBar=no', this); return false;" id="loginAtag"><img src="/images/main/login.png" width="49" height="23" alt="α"></li>
+                <li class="btn2" onclick="location.href='/go.able?linkcd=m06070000'"><img src="/images/main/cert.png" width="65" height="23" alt=""></li>
+            </ul>
+        
+        </div>
+        <!--// Ű  -->
+    </div>
+    <!-- // key visual -->
+
+    <div class="welcomeArea">
+        <div class="welcomeCont">
+            <ul class="friends" onclick="location.href='/go.able?linkcd=m06040002'">
+                <li class="kiki">kiki</li>
+                <li class="agger">agger</li>
+                <li class="bibi">bibi</li>
+                <li class="ramu">ramu</li>
+                <li class="cauli">cauli</li>
+            </ul>
+            <ul class="welcomeMenuTy1">
+                <li class="wmTy1_1">
+                    <span class="wmTy1Ico">°</span>
+                    <ul class="welcomeSub">
+                        <li class="wms1_1"><a href="/go.able?linkcd=m06020008"><span> °</span></a></li>
+                        <li class="wms1_2"><a href="/go.able?linkcd=m06020001"><span> °</span></a></li>
+                        <li class="wms1_3"><a href="/go.able?linkcd=m06020002"><span>࿡ °</span></a></li>
+                    </ul>
+                </li>
+                <li class="wmTy1_2">
+                    <span class="wmTy1Ico">ID</span>
+                    <ul class="welcomeSub">
+                        <li class="wms2_1"><a href="/go.able?linkcd=m02050019"><span>IDϱ</span></a></li>
+                    </ul>
+                </li>
+                <li class="wmTy1_3">
+                    <span class="wmTy1Ico"> ߱</span>
+                    <ul class="welcomeSub">
+                        <li class="wms3_1"><a href="/go.able?linkcd=m06070003"><span> ߱/߱</span></a></li>
+                        <li class="wms3_2"><a href="/go.able?linkcd=m06070005"><span>Ÿ </span></a></li>
+                        <li class="wms3_3"><a href="/go.able?linkcd=m06070004"><span>Ʈ</span></a></li>
+                    </ul>
+                </li>
+                <li class="wmTy1_4">
+                    <span class="wmTy1Ico">ä ٿε</span>
+                    <ul class="welcomeSub">
+                        <li class="wms4_1"><a href="javascript:fnGetHable();"><span>HTS ٿε</span></a></li>
+                        <li class="wms4_2"><a href="" onclick="ui.popup.open({url:'/go.able?linkcd=CP0032&type=4', width:720, height:790, bname:'sms01'}); return false;" title="â ϴ"><span>MTS ٿε</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="welcomeMenuTy2">
+            	<li class="wmTy2_4"><span class="ico_new">new</span><a href="/go.able?linkcd=m06030022"> ̵</a></li>
+	    		<li class="wmTy2_1"><a href="/go.able?linkcd=m06040002">ϴ</a></li>
+	    		
+                <li class="wmTy2_3"><a href="" onclick="ui.popup.open({url:'http://202.30.200.102', width:720, height:760, bname:'CUST000002'}); return false;"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ̺Ʈ // -->
+    <div id="edk_conts_wrap" class="edk_conts_wrap">
+        <div class="edk_conts">
+            <div id="divEdk1" class="event_conts">
+                <h2 class="blind">̺Ʈ</h2>
+                <div id="event_rolling" class="event_rolling">
+                    <button type="button" class="actPrev ir"><span class="blind"></span></button>
+                    <button type="button" class="actNext ir"><span class="blind"></span></button>
+                    <div class="slideCtrl ty2">
+                        <span class="numin"></span>
+                    </div>
+                    <div class="dvgroup"></div>
+                </div>
+                <script type="text/javascript">
+                    main.mkBannerHTML({
+                        target:$('div#event_rolling .dvgroup'),
+                        url : vMainJsonUrl + "main_mkbanner.json",
+                        callback:function(dataset) {
+                            ui.rolling({
+                                obj:$("div#event_rolling .dvgroup"), "isAuto":false
+                            });
+                        }
+                    });
+                </script>
+            </div>
+            <a href="/go.able?linkcd=m06090002" class="more ir"><span class="blind">̺Ʈ </span></a>
+        </div>
+    </div>
+    <!-- //̺Ʈ -->
+
+    <!-- ̵ // -->
+    
+    <!-- // ̵ -->
+    <!--  // -->
+    <div id="wkBannerList" class="guideMenu"></div>
+    <script type="text/javascript">
+        main.wkBannerHTML({target:$('#wkBannerList'), url : vMainJsonUrl + "main_wkbanner.json"});
+    </script>
+    <!-- //  -->
+
+    <!-- Խ // -->
+    <!-- ݵ巩ŷ, ŷ, ̺Ʈ, , , ֽ choice // -->
+    <div class="etc_info">
+        <!-- ݵ巩ŷ // -->
+        <div class="fL fund_box">
+            <h2 class="tit_fund_ranking">ݵ巩ŷ</h2>
+            <div class="main_tabTy1">
+                <ul>
+                    <li class="active"><a href="#" class="title"><span>ͷ</span></a></li>
+                    <li><a href="#" class="title"><span></span></a></li>
+                    <li><a href="#" class="title"><span>ִǸ</span></a></li>
+                </ul>
+            </div>
+            <div id='fundrankWrap' class="fund_choice_conts">
+
+            </div>
+        </div>
+        <script type="text/javascript">
+            main.rankingHTML({target:$('#fundrankWrap'), url : vMainJsonUrl + "goods.json"} );
+        </script>
+        <!-- // ݵ巩ŷ -->
+
+        <!--  // -->
+        <div class="fR notice_box">
+            <h2 class="tit_notice"></h2>
+            <div id="notice_list" class="notice_conts">
+                <ol class="notice_list"></ol>
+            </div>
+            <a href="/go.able?linkcd=m06090001" class="more ir"><span class="blind"> </span></a>
+        </div>
+        <script type="text/javascript">
+            main.bbsHTML({target:$('#notice_list .notice_list'), url:vMainJsonUrl + "webMainNoticeList.json"});
+        </script>
+
+        
+        <!-- //  -->
+    </div>
+    <!-- // Խ -->
+
+    <!-- Layout : user side Area -->
+    <div id="aside"><script type="text/javascript">writeHTMLSidebar();</script></div>
+    <!-- // Layout : user side Area -->
+
+    <!-- Layout : footer Area -->
+    <div id="footer"><script type="text/javascript">ui.layout.footappend();</script></div>
+    <!-- // Layout : footer Area -->
+</div>
+
+<script type="text/javascript">
+    ui.init();
+
+    //Ű ҷ
+    function getCookie01(name)
+    {
+        var obj = name + "=";
+
+        var x = 0;
+
+        while ( x <= document.cookie.length )
+        {
+            var y = (x+obj.length);
+
+            if ( document.cookie.substring( x, y ) == obj )
+            {
+
+                if ((endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+                    endOfCookie = document.cookie.length;
+                return unescape( document.cookie.substring( y, endOfCookie ) );
+            }
+
+            x = document.cookie.indexOf( " ", x ) + 1;
+
+            if ( x == 0 )
+                break;
+        }
+        return "";
+    }
+    
+    $(window).load(function(){
+    	
+    	if(getCookie01("closeToday") !="Y"){
+    		$popup.open('/common//popup/MAIN_01_0015.html?var=2', 'MAIN_01_0015', 'width=500, height=400, scrollbars=no, useCookie=no, bottomBar=no', $('#loginAtag')); //KB Ȩ Ʈ̵  ȳ
+    	}
+    	
+    	//$popup.open('/go.able?linkcd=s00000001L100', 's00000001L100', 'width=500, height=500, scrollbars=no, useCookie=no, bottomBar=no', $('#loginAtag'));//  
+        //$popup.open('/go.able?linkcd=s00000001L100', 's00000001L100', 'width=930,height=640,scrollbars=no, useCookie=no, bottomBar=no', $('#loginAtag')); //  
+        //$popup.open('/go.able?linkcd=s00000001L100', 's00000001L100', 'width=490,height=430,scrollbars=no, useCookie=no, bottomBar=no', $('#loginAtag')); //  Һ 溸 ȳ
+        //console.log('closeToday >> ' + getCookie01('closeToday'));
+
+            //if(getCookie01("closeToday") !="Y"){
+                //$popup.open('/popup/jsp/MAIN_01_0009.jsp', 'MAIN_01_0009', 'width=520, height=613, scrollbars=no, useCookie=no, bottomBar=no', $('#loginAtag'));//
+            //}
+
+    });
+    
+
+    <!--  //  -->
+    $(".btn_Player").click(function() {
+	    $(".video-popup").addClass("reveal"),
+	    $(".video-popup .video-wrapper").remove(),
+	    $(".video-popup").append("<div class='video-wrapper'><span class='closeBtn'><span class='blind'>ݱư</span></span><iframe width='560' height='315' src='https://www.youtube.com/embed/Zem7aezCFeM?autoplay=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>")
+
+	    $(".closeBtn").click(function() {
+		    $(".video-popup .video-wrapper").remove(),
+		    $(".video-popup").removeClass("reveal");
+	    });
+    });
+    
+</script>
+
+<div class="video-popup">
+	<div class="video-popup-closer"><span class="blind"></span></div>
+</div>
+
+<script>
+function doGoMablewide() {
+    try {
+        $.ajax(
+            {
+                url: "/go.able?linkcd=CJ0105",
+                dataType: "json",
+                contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                success: function (data) {
+                	var domain = window.document.domain.toLowerCase();
+                	var url = '';
+        			if ("loc.kbsec.com".indexOf(domain) > -1 || "dev.kbsec.com".indexOf(domain) > -1) {
+        				url = 'https://dmablewide.kbsec.com/websso.jsp?enc_data=' + data.enc_data;
+        			}else {
+        				url = 'https://mablewide.kbsec.com/websso.jsp?enc_data=' + data.enc_data;
+        			}
+                    window.open(url);
+                },
+                error: function (request, status, error) {
+                    alert(request.status + '|' + error);
+                }
+            }
+        );
+    } catch (e) {
+        alertException(1, 5794, e);
+    }
+}
+</script>
+</body>
+</html>

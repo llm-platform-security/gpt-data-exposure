@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en" x-cloak x-data="{darkMode: localStorage.getItem('dark') === null ? true : localStorage.getItem('dark') === 'true'}" x-init="$watch('darkMode', val => localStorage.setItem('dark', val))" x-bind:class="{'dark': darkMode}">
+<head>
+
+<script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MJLR36WB');
+    </script>
+
+<script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+                c[a] = c[a] || function() {
+                    (c[a].q = c[a].q || []).push(arguments)
+                };
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "e06b13911f");
+    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0020HFS383"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'AW-0020HFS383');
+    </script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-0020HFS383', {
+                'linker': {
+                    'domains': ['modelslab.com', 'stablediffusionapi.com']
+                }
+            });
+    </script>
+<script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+                    Tawk_LoadStart = new Date();
+                (function() {
+                    var s1 = document.createElement("script"),
+                        s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = 'https://embed.tawk.to/6332cd5154f06e12d8971855/1gdv74273';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+                })();
+    </script>
+<title>Privacy policy</title>
+<script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://modelslab.com",
+          "logo": "https://assets.modelslab.com/themes/October2022/Kh4QdnAqdueh6PeJpCQD.png"
+        }
+    </script>
+<script type="application/ld+json">
+        {
+          "@context" : "https://schema.org",
+          "@type" : "WebSite",
+          "name" : "stable diffusion api",
+          "url" : "https://modelslab.com"
+        }
+    </script>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="csrf-token" content="kcSaUIJg9oEGzCwKkCPdhILwhdeEypePSDfRXrkT">
+<meta name="url" content="https://modelslab.com">
+<link rel="icon" href="https://imagedelivery.net/PP4qZJxMlvGLHJQBm3ErNg/58efe4a6-3522-4240-b80c-7c3140109300/768" type="image/x-icon">
+
+<meta name="theme-color" content="#2563eb">
+
+<meta name="msapplication-navbutton-color" content="#2563eb">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#2563eb">
+<meta name="twitter:title" content="Privacy policy">
+<meta name="twitter:description" content="stable diffusion api privacy policy">
+<meta name="twitter:image:src" content="https://assets.modelslab.com/pages/page1.jpg">
+<meta name="twitter:site" content="@adhik_joshi">
+<meta name="twitter:creator" content="@adhik_joshi">
+<meta property="og:title" content="Privacy policy">
+<meta property="og:url" content="http://modelslab.com/p/privacy-policy">
+<meta property="og:image" content="https://assets.modelslab.com/pages/page1.jpg">
+<meta property="og:type" content="website">
+<meta property="og:description" content="stable diffusion api privacy policy">
+<meta property="og:site_name" content="Stable Diffusion And Dreambooth API - Generate and Finetune Dreambooth Stable Diffusion using API">
+<meta itemprop="name" content="Privacy policy">
+<meta itemprop="description" content="stable diffusion api privacy policy">
+<meta itemprop="image" content="https://assets.modelslab.com/pages/page1.jpg">
+<link rel="dns-prefetch" href="https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev">
+<link rel="dns-prefetch" href="https://cdn2.stablediffusionapi.com">
+<link rel="dns-prefetch" href="https://cdn.stablediffusionapi.com">
+<link rel="dns-prefetch" href="https://o.clarity.ms">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="https://unpkg.com">
+<link rel="dns-prefetch" href="https://images.modelslab.com">
+<link rel="dns-prefetch" href="https://image.stablediffusionapi.com">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="description" content="stable diffusion api privacy policy">
+<script src="/js/app.js?id=02ec7da8b0a439736ce061b9cbc962a2" defer></script>
+
+<link href="/css/app.css?id=17a9e5bc81b3176022d73b800f05d260" rel="stylesheet">
+<style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+<script>
+        (function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');
+    </script>
+<script async src="https://r.wdfl.co/rw.js" data-rewardful="8c2ea7"></script>
+<script type="text/javascript">
+        (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+                MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
+    </script>
+<link rel="canonical" href="https://modelslab.com/p/privacy-policy" />
+</head>
+<body class="flex flex-col min-h-screen dark:bg-gray-900 bg-gray-50 bg-gray-50">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJLR36WB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="relative top-0 bottom-0 left-0 z-50 hidden w-full h-16 md:block bg-gradient-to-r from-wave-500 via-wave-600 to-purple-500 dark:from-wave-500 dark:via-gray-700 dark:to-blue-400 dark:text-gray-300">
+<div class="flex items-center justify-between w-full h-full px-3 mx-auto max-w-7xl">
+<div class="relative flex items-center">
+<a href="https://modelslab.com/enterprise" target="_blank" class="flex items-center text-sm text-blue-200 hover:underline">
+<span class="ml-1 font-medium">
+Launching Enterprise API Servers </span>
+<svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+</svg>
+</a>
+</div>
+<div class="w-auto">
+<a href="https://modelslab.com/enterprise" target="_blank" class="flex items-center h-8 px-3 text-sm font-medium text-white border border-white rounded-md cursor-pointer">
+👉🏻
+<span class="py-1.5 pl-2.5">Try Now</span>
+</a>
+</div>
+</div>
+</div>
+<header x-data="{ mobileMenuOpen: false, isFixed: false }" x-init="window.addEventListener('scroll', () => { isFixed = window.scrollY > 70 })" :class="{ 'fixed top-0 w-full z-40 bg-white': isFixed, 'relative': !isFixed }" class="relative w-full z-40 dark:bg-gray-900 transition duration-300 ease-in-out  bg-gray-50">
+<div class="px-1 mx-auto xl:px-5 max-w-7xl">
+<div class="flex items-center justify-between h-24 border-b-2 border-gray-100 dark:border-gray-800 md:justify-start md:space-x-6">
+<div class="inline-flex">
+
+<a href="https://modelslab.com" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-wave-500">
+<svg class="w-24" x-show="!darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_639_532)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="black" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_639_532">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+<svg class="w-24" x-show="darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1250_1665)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="white" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_1250_1665">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+</a>
+</div>
+<div class="flex justify-end flex-grow -my-2 -mr-2 lg:hidden">
+<button @click="mobileMenuOpen = true" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 dark:hover:bg-gray-800 dark:text-gray-400">
+<svg class="w-6 h-6" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path></svg>
+</button>
+</div>
+
+<button x-cloak x-on:click="darkMode = !darkMode;" class="md:hidden">
+<svg xmlns="http://www.w3.org/2000/svg" x-show="darkMode" class="p-2 ml-2 w-11" fill="gray" viewBox="0 0 24 24" id="light-mode"><path d="M7 12c0 2.8 2.2 5 5 5s5-2.2 5-5-2.2-5-5-5-5 2.2-5 5zm5-3c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zm1-4V3c0-.6-.4-1-1-1s-1 .4-1 1v2c0 .6.4 1 1 1s1-.4 1-1zm6.1-.1c-.4-.4-1-.4-1.4 0l-1.4 1.4c-.4.4-.4 1 0 1.4.2.2.5.3.7.3s.5-.1.7-.3l1.4-1.4c.4-.3.4-1 0-1.4zM21 11h-2c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zm-3.3 5.2c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4l-1.4-1.4zM11 19v2c0 .6.4 1 1 1s1-.4 1-1v-2c0-.6-.4-1-1-1s-1 .4-1 1zm-6.1.1c.2.2.5.3.7.3s.5-.1.7-.3l1.4-1.4c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-1.4 1.4c-.4.3-.4 1 0 1.4zM2 12c0 .6.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1zm4.3-7.1c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.3.5.4.8.4s.5-.1.7-.3c.4-.4.4-1 0-1.4L6.3 4.9z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" x-show="!darkMode" class="p-2 ml-2 w-11" fill="gray" viewBox="0 0 24 24" id="dark-mode"><path d="M12.3 4.9c.4-.2.6-.7.5-1.1s-.6-.8-1.1-.8C6.8 3.1 3 7.1 3 12c0 5 4 9 9 9 3.8 0 7.1-2.4 8.4-5.9.2-.4 0-.9-.4-1.2-.4-.3-.9-.2-1.2.1-1 .9-2.3 1.4-3.7 1.4-3.1 0-5.7-2.5-5.7-5.7 0-1.9 1.1-3.8 2.9-4.8zm2.8 12.5c.5 0 1 0 1.4-.1-1.2 1.1-2.8 1.7-4.5 1.7-3.9 0-7-3.1-7-7 0-2.5 1.4-4.8 3.5-6-.7 1.1-1 2.4-1 3.8-.1 4.2 3.4 7.6 7.6 7.6z"></path></svg>
+</button>
+<nav class="items-center justify-end flex-1 hidden w-full h-full space-x-10 lg:flex">
+<a target="_blank" href="/pricing" class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-wave-600 focus:outline-none focus:text-wave-600 dark:text-gray-300">
+Pricing
+</a>
+<a target="_blank" href="https://docs.modelslab.com" class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-wave-600 focus:outline-none focus:text-wave-600 dark:text-gray-300">
+API Docs
+</a>
+<a href="https://modelslab.com/playground/text-to-image" class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-wave-600 focus:outline-none focus:text-wave-600 dark:text-gray-300">
+Playground
+</a>
+<a href="https://modelslab.com/models" class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-wave-600 focus:outline-none focus:text-wave-600 dark:text-gray-300">
+Models
+</a>
+<a href="https://modelslab.com/enterprise" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-500 transition duration-150 ease-in-out border-b-2 border-transparent focus:outline-none dark:text-gray-300">
+Enterprise
+<div class="m-1 -top-3 -right-3 px-2.5 py-0.5 bg-blue-500 text-white rounded-full text-xs">New</div>
+</a>
+<div @mouseenter="dropdown = true" @mouseleave="dropdown=false" @click.away="dropdown=false" x-data="{ dropdown: false }" class="relative z-40 h-full select-none">
+<div :class="{ 'text-wave-600': dropdown, 'text-gray-500': !dropdown }" class="inline-flex items-center h-full space-x-2 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out cursor-pointer select-none hover:text-wave-600 focus:outline-none focus:text-wave-500 dark:text-gray-300">
+<span>Product</span>
+<svg class="w-5 h-5 text-gray-400 transition duration-150 ease-in-out group-hover:text-wave-600 group-focus:text-wave-600" x-bind:class="{ 'text-wave-600': dropdown, 'text-gray-400': !dropdown }" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div x-show="dropdown" x-transition:enter="duration-200 ease-out scale-95" x-transition:enter-start="opacity-50 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition duration-100 ease-in scale-100" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="fixed w-full transform -translate-x-1/2 xl:w-screen xl:max-w-6xl xl:px-2 xl:absolute sm:px-0 lg:ml-0 -left-6 right-8 -ml-9" x-cloak>
+<div class="overflow-hidden shadow-lg xl:rounded-xl ">
+<div class="flex items-stretch justify-center overflow-hidden bg-white shadow-xs dark:bg-gray-800 xl:rounded-xl">
+<div class="flex flex-col">
+<div class="flex h-full">
+<div class="relative flex flex-col items-start justify-start w-full h-full max-w-xs bg-center bg-cover lg:block" style="background-image:url('https://imagedelivery.net/PP4qZJxMlvGLHJQBm3ErNg/b9acfccb-106b-47b4-9757-20dd7cae0f00/public')">
+<div class="relative flex flex-col items-start justify-center w-full h-full px-16 py-8">
+<img loading="lazy" src="https://stablediffusionapi.com/storage/themes/October2022/Kh4QdnAqdueh6PeJpCQD.png" alt="Stable Diffusion API" class="z-20 w-auto h-10">
+<h3 class="z-30 mt-1 text-lg font-thin text-wave-200">Get Dedicated Server to Server
+APIs at Scale</h3>
+<span class="relative z-20 inline-flex mt-5 rounded-md shadow-sm">
+<a href="/enterprise" class="relative inline-flex items-center px-4 py-2 text-sm font-medium leading-5 transition duration-150 ease-in-out bg-white border border-transparent rounded-md text-wave-500 hover:bg-gray-100 focus:outline-none focus:border-gray-300 focus:shadow-outline-gray active:bg-gray-100">
+Get Enterprise Plan
+<span class="absolute top-0 right-0 px-3 py-1 -mt-4 -mr-8 text-xs text-white rounded-full bg-wave-400">NEW</span>
+</a>
+</span>
+</div>
+<div class="absolute inset-0 w-full h-full opacity-75 bg-wave-600"></div>
+<div class="absolute inset-0 w-full h-full opacity-75 bg-gradient-to-br from-wave-600 to-indigo-600">
+</div>
+</div>
+<div class="relative z-20 grid gap-6 px-5 pt-6 pb-8 bg-white border-transparent dark:bg-gray-800 xl:border-gray-200 sm:gap-8 sm:p-8">
+<a href="/train-model" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 4c0 1.657-3.582 3-8 3S1 5.657 1 4m16 0c0-1.657-3.582-3-8-3S1 2.343 1 4m16 0v6M1 4v6m0 0c0 1.657 3.582 3 8 3s8-1.343 8-3M1 10v6c0 1.657 3.582 3 8 3s8-1.343 8-3v-6" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Train Models
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Train models with your own data and use them in production in minutes.
+</p>
+</div>
+</a>
+<a href="/llm-api" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.5 6.5h.01m4.49 0h.01m4.49 0h.01M18 1H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+LLM Chat
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+LLM Chat API alows you to create chatbots that can talk about anything.
+Literally.
+</p>
+</div>
+</a>
+<a href="/voice-cloning" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7v3a5.006 5.006 0 0 1-5 5H6a5.006 5.006 0 0 1-5-5V7m7 9v3m-3 0h6M7 1h2a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Voice Cloning API
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Clone anyones voice with just a few lines of code in multiple languages.
+</p>
+</div>
+</a>
+<a href="/text-to-image" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
+<path fill="currentColor" d="M13 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM7.565 7.423 4.5 14h11.518l-2.516-3.71L11 13 7.565 7.423Z" />
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 1H2a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z" />
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM7.565 7.423 4.5 14h11.518l-2.516-3.71L11 13 7.565 7.423Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Text to Image
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Generate images from text using hundreds of pre-trained models.
+</p>
+</div>
+</a>
+<a href="/uncensored-chat" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 p-2 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-chat" viewBox="0 0 24 24"><path d="M12,3C17.5,3 22,6.58 22,11C22,15.42 17.5,19 12,19C10.76,19 9.57,18.82 8.47,18.5C5.55,21 2,21 2,21C4.33,18.67 4.7,17.1 4.75,16.5C3.05,15.07 2,13.13 2,11C2,6.58 6.5,3 12,3Z" /></svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Uncensored Chat
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Uncensored Chat API allows you to talk about anything you want. No restrictions,
+no rules, no censorship.
+</p>
+</div>
+</a>
+</div>
+<div class="relative z-20 grid gap-6 px-5 pt-6 pb-8 bg-white border-transparent dark:bg-gray-800 rounded-r-xl xl:border-gray-200 sm:gap-8 sm:p-8">
+<a href="/interior-api" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 1h12M3 1v16M3 1H2m13 0v16m0-16h1m-1 16H3m12 0h2M3 17H1M6 4h1v1H6V4Zm5 0h1v1h-1V4ZM6 8h1v1H6V8Zm5 0h1v1h-1V8Zm-3 4h2a1 1 0 0 1 1 1v4H7v-4a1 1 0 0 1 1-1Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Interior Design API
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Create interior design using API.
+</p>
+</div>
+</a>
+<a href="/image-editing" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
+<path d="M12.687 14.408a3.01 3.01 0 0 1-1.533.821l-3.566.713a3 3 0 0 1-3.53-3.53l.713-3.566a3.01 3.01 0 0 1 .821-1.533L10.905 2H2.167A2.169 2.169 0 0 0 0 4.167v11.666A2.169 2.169 0 0 0 2.167 18h11.666A2.169 2.169 0 0 0 16 15.833V11.1l-3.313 3.308Zm5.53-9.065.546-.546a2.518 2.518 0 0 0 0-3.56 2.576 2.576 0 0 0-3.559 0l-.547.547 3.56 3.56Z" />
+<path d="M13.243 3.2 7.359 9.081a.5.5 0 0 0-.136.256L6.51 12.9a.5.5 0 0 0 .59.59l3.566-.713a.5.5 0 0 0 .255-.136L16.8 6.757 13.243 3.2Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Image editing APIs
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Edit image API to edit images using AI in real-time.
+</p>
+</div>
+</a>
+<a href="/enterprise" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+<path d="M19.728 10.686c-2.38 2.256-6.153 3.381-9.875 3.381-3.722 0-7.4-1.126-9.571-3.371L0 10.437V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-7.6l-.272.286Z" />
+<path d="m.135 7.847 1.542 1.417c3.6 3.712 12.747 3.7 16.635.01L19.605 7.9A.98.98 0 0 1 20 7.652V6a2 2 0 0 0-2-2h-3V3a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v1H2a2 2 0 0 0-2 2v1.765c.047.024.092.051.135.082ZM10 10.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5ZM7 3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1H7V3Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+Enterprise APIs
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+Get dedicated servers for your APIs with 99.99% uptime.
+</p>
+</div>
+</a>
+<a href="/showcase" class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg group">
+<div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mt-1 mr-3 transition duration-300 ease-in-out transform scale-100 bg-indigo-100 rounded-full text-wave-600 group-hover:text-white group-hover:bg-wave-600 group-hover:scale-110 group-hover:rotate-3 -rotate-3">
+<svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
+<path d="m19.848 15.968-4.4-7a1 1 0 0 0-1.6-.131l-2.164 2.448L7.872 4.51A1.028 1.028 0 0 0 6.985 4a1 1 0 0 0-.871.537l-6 11.5A1 1 0 0 0 1 17.5h18a1 1 0 0 0 .847-1.532ZM12.5 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+</svg>
+</div>
+<div class="space-y-1">
+<p class="text-base font-medium leading-6 text-gray-900 dark:text-white">
+View Showcase
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-white">
+See what others have built with Stable Diffusion API.
+</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-1 h-5 mx-10 border-r border-gray-300"></div>
+<a target="_blank" href="https://calendly.com/support-lael/30min" class="px-3 py-2 text-base font-medium leading-6 text-blue-500 whitespace-no-wrap bg-white border border-blue-500 rounded-md focus:outline-none focus:text-gray-900 md:block dark:text-blue-500 dark:bg-transparent">
+Book a Call
+</a>
+<button x-cloak x-on:click="darkMode = !darkMode;">
+<svg xmlns="http://www.w3.org/2000/svg" x-show="darkMode" class="p-2 ml-2 w-11" fill="gray" viewBox="0 0 24 24" id="light-mode"><path d="M7 12c0 2.8 2.2 5 5 5s5-2.2 5-5-2.2-5-5-5-5 2.2-5 5zm5-3c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3zm1-4V3c0-.6-.4-1-1-1s-1 .4-1 1v2c0 .6.4 1 1 1s1-.4 1-1zm6.1-.1c-.4-.4-1-.4-1.4 0l-1.4 1.4c-.4.4-.4 1 0 1.4.2.2.5.3.7.3s.5-.1.7-.3l1.4-1.4c.4-.3.4-1 0-1.4zM21 11h-2c-.6 0-1 .4-1 1s.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1zm-3.3 5.2c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4l-1.4-1.4zM11 19v2c0 .6.4 1 1 1s1-.4 1-1v-2c0-.6-.4-1-1-1s-1 .4-1 1zm-6.1.1c.2.2.5.3.7.3s.5-.1.7-.3l1.4-1.4c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-1.4 1.4c-.4.3-.4 1 0 1.4zM2 12c0 .6.4 1 1 1h2c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1zm4.3-7.1c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l1.4 1.4c.2.3.5.4.8.4s.5-.1.7-.3c.4-.4.4-1 0-1.4L6.3 4.9z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" x-show="!darkMode" class="p-2 ml-2 w-11" fill="gray" viewBox="0 0 24 24" id="dark-mode"><path d="M12.3 4.9c.4-.2.6-.7.5-1.1s-.6-.8-1.1-.8C6.8 3.1 3 7.1 3 12c0 5 4 9 9 9 3.8 0 7.1-2.4 8.4-5.9.2-.4 0-.9-.4-1.2-.4-.3-.9-.2-1.2.1-1 .9-2.3 1.4-3.7 1.4-3.1 0-5.7-2.5-5.7-5.7 0-1.9 1.1-3.8 2.9-4.8zm2.8 12.5c.5 0 1 0 1.4-.1-1.2 1.1-2.8 1.7-4.5 1.7-3.9 0-7-3.1-7-7 0-2.5 1.4-4.8 3.5-6-.7 1.1-1 2.4-1 3.8-.1 4.2 3.4 7.6 7.6 7.6z"></path></svg>
+</button>
+<span class="inline-flex rounded-md shadow-sm">
+<a href="/register" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-wave-500 hover:bg-wave-600 focus:outline-none focus:border-indigo-700 focus:shadow-outline-wave active:bg-wave-700 dark:bg-gray-700 dark:from-white dark:via-purple-200 dark:to-purple-500 ">
+Sign up
+</a>
+</span>
+</nav>
+</div>
+</div>
+<div x-show="mobileMenuOpen" x-transition:enter="duration-300 ease-out scale-100" x-transition:enter-start="opacity-50 scale-110" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition duration-75 ease-in scale-100" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-100" class="absolute inset-x-0 top-0 z-40 transition origin-top transform lg:hidden">
+<div class="shadow-lg">
+<div class="bg-white divide-y-2 shadow-xs divide-gray-50 dark:bg-gray-900">
+<div class="pt-6 pb-6 space-y-6">
+<div class="flex items-center justify-between px-8 mt-1">
+<svg class="w-24" x-show="!darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_639_532)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="black" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_639_532">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+<svg class="w-24" x-show="darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1250_1665)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="white" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_1250_1665">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+<div class="-mr-2">
+<button @click="mobileMenuOpen = false" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-300">
+<svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+</svg>
+</button>
+</div>
+</div>
+<div>
+<nav class="grid row-gap-8 dark:bg-gray-900">
+<a href="/" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md dark:hover:bg-gray-800 hover:bg-gray-50">
+<svg class="flex-shrink-0 w-6 h-6 ml-0.5 text-wave-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Home
+</div>
+</a>
+<a href="/pricing" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-6 h-6 ml-0.5 text-wave-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Pricing
+</div>
+</a>
+<a href="https://modelslab.com/models" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-6 h-6 text-wave-600" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#005fe6" stroke="#005fe6" stroke-width="24.576"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M924.086857 282.843429l-362.057143 210.724571v415.378286s227.108571-137.728 238.738286-144.384c11.190857-6.436571 26.331429 0.731429 28.891429 17.554285 0.146286 0.731429 1.462857 4.973714 1.462857 5.705143 1.536 18.212571-0.731429 26.770286-12.580572 33.718857l-273.993143 162.742858c-6.948571 3.510857-16.091429 5.485714-30.72-1.755429-7.168-3.218286-424.301714-255.268571-424.301714-255.268571a24.649143 24.649143 0 0 1-11.702857-20.772572V251.611429c0-2.486857-2.413714-25.526857 13.385143-35.913143L517.558857 2.633143a24.137143 24.137143 0 0 1 21.796572 0l426.276571 213.138286c9.508571 4.827429 17.481143 14.628571 16.749714 23.844571a29.622857 29.622857 0 0 1 0.512 5.412571v437.028572c0 16.164571-13.165714 29.257143-29.330285 29.257143h-0.073143a29.403429 29.403429 0 0 1-29.403429-29.330286V282.843429zM495.908571 903.972571V493.714286L141.604571 290.230857v397.677714L495.908571 904.045714zM191.195429 236.251429l337.188571 191.122285 337.042286-191.122285L528.310857 67.876571 191.195429 236.251429z" fill="#005fe6"></path></g></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Models
+</div>
+</a>
+<a href="https://modelslab.com/enterprise" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-6 h-6 text-wave-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#005fe6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 15L12 2M12 2L15 5.5M12 2L9 5.5" stroke="#005fe6" stroke-width="2.088" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M8 22.0002H16C18.8284 22.0002 20.2426 22.0002 21.1213 21.1215C22 20.2429 22 18.8286 22 16.0002V15.0002C22 12.1718 22 10.7576 21.1213 9.8789C20.3529 9.11051 19.175 9.01406 17 9.00195M7 9.00195C4.82497 9.01406 3.64706 9.11051 2.87868 9.87889C2 10.7576 2 12.1718 2 15.0002L2 16.0002C2 18.8286 2 20.2429 2.87868 21.1215C3.17848 21.4213 3.54062 21.6188 4 21.749" stroke="#005fe6" stroke-width="2.088" stroke-linecap="round"></path> </g></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Enterprise
+</div>
+</a>
+<a href="https://modelslab.com/blog" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-6 h-6 ml-0.5 text-wave-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Blog
+</div>
+</a>
+<a href="https://modelslab.com/catalogue" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg viewBox="0 0 24 24" class="flex-shrink-0 w-6 h-6 text-wave-600" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#005fe6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20.5 15V10C20.5 7.17157 20.5 5.75736 19.6213 4.87868C18.7426 4 17.3284 4 14.5 4H14M3.5 15V10C3.5 7.17157 3.5 5.75736 4.37868 4.87868C5.25736 4 6.67157 4 9.5 4H10" stroke="#005fe6" stroke-width="2.232" stroke-linecap="round"></path> <path d="M12 20H5C3.34315 20 2 18.6569 2 17V16C2 15.4477 2.44772 15 3 15H7.33333C7.76607 15 8.18714 15.1404 8.53333 15.4L9.46667 16.1C9.81286 16.3596 10.2339 16.5 10.6667 16.5H13.3333C13.7661 16.5 14.1871 16.3596 14.5333 16.1L15.4667 15.4C15.8129 15.1404 16.2339 15 16.6667 15H21C21.5523 15 22 15.4477 22 16V17C22 18.6569 20.6569 20 19 20H16" stroke="#005fe6" stroke-width="2.232" stroke-linecap="round"></path> </g></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+API Catalogue
+</div>
+</a>
+<a href="https://calendly.com/support-lael/30min" target="_blank" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-7 h-7 text-wave-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#005fe6"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.0002 4V5C15.0002 6.88562 15.0002 7.82843 15.586 8.41421C16.1718 9 17.1146 9 19.0002 9H20.5002M20.5002 9L18.0002 7M20.5002 9L18.0002 11" stroke="#005fe6" stroke-width="1.752" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4.00655 7.93309C3.93421 9.84122 4.41713 13.0817 7.6677 16.3323C8.45191 17.1165 9.23553 17.7396 10 18.2327M5.53781 4.93723C6.93076 3.54428 9.15317 3.73144 10.0376 5.31617L10.6866 6.4791C11.2723 7.52858 11.0372 8.90532 10.1147 9.8278C10.1147 9.8278 10.1147 9.8278 10.1147 9.8278C10.1146 9.82792 8.99588 10.9468 11.0245 12.9755C13.0525 15.0035 14.1714 13.8861 14.1722 13.8853C14.1722 13.8853 14.1722 13.8853 14.1722 13.8853C15.0947 12.9628 16.4714 12.7277 17.5209 13.3134L18.6838 13.9624C20.2686 14.8468 20.4557 17.0692 19.0628 18.4622C18.2258 19.2992 17.2004 19.9505 16.0669 19.9934C15.2529 20.0243 14.1963 19.9541 13 19.6111" stroke="#005fe6" stroke-width="1.752" stroke-linecap="round"></path> </g></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Book a Call
+</div>
+</a>
+<a href="https://modelslab.com/playground/text-to-image" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-8 h-8 text-wave-600" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#005fe6" stroke-width="0.00025"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12.5 11.75C12.9142 11.75 13.25 11.4142 13.25 11C13.25 10.5858 12.9142 10.25 12.5 10.25V11.75ZM5.5 10.25C5.08579 10.25 4.75 10.5858 4.75 11C4.75 11.4142 5.08579 11.75 5.5 11.75V10.25ZM12.5 10.25C12.0858 10.25 11.75 10.5858 11.75 11C11.75 11.4142 12.0858 11.75 12.5 11.75V10.25ZM19.5 11.75C19.9142 11.75 20.25 11.4142 20.25 11C20.25 10.5858 19.9142 10.25 19.5 10.25V11.75ZM11.75 11C11.75 11.4142 12.0858 11.75 12.5 11.75C12.9142 11.75 13.25 11.4142 13.25 11H11.75ZM13.25 5C13.25 4.58579 12.9142 4.25 12.5 4.25C12.0858 4.25 11.75 4.58579 11.75 5H13.25ZM6.25 11C6.25 10.5858 5.91421 10.25 5.5 10.25C5.08579 10.25 4.75 10.5858 4.75 11H6.25ZM20.25 11C20.25 10.5858 19.9142 10.25 19.5 10.25C19.0858 10.25 18.75 10.5858 18.75 11H20.25ZM4.75 11C4.75 11.4142 5.08579 11.75 5.5 11.75C5.91421 11.75 6.25 11.4142 6.25 11H4.75ZM12.5 5.75C12.9142 5.75 13.25 5.41421 13.25 5C13.25 4.58579 12.9142 4.25 12.5 4.25V5.75ZM18.75 11C18.75 11.4142 19.0858 11.75 19.5 11.75C19.9142 11.75 20.25 11.4142 20.25 11H18.75ZM12.5 4.25C12.0858 4.25 11.75 4.58579 11.75 5C11.75 5.41421 12.0858 5.75 12.5 5.75V4.25ZM12.5 10.25H5.5V11.75H12.5V10.25ZM12.5 11.75H19.5V10.25H12.5V11.75ZM13.25 11V5H11.75V11H13.25ZM4.75 11V15H6.25V11H4.75ZM4.75 15C4.75 17.6234 6.87665 19.75 9.5 19.75V18.25C7.70507 18.25 6.25 16.7949 6.25 15H4.75ZM9.5 19.75H15.5V18.25H9.5V19.75ZM15.5 19.75C18.1234 19.75 20.25 17.6234 20.25 15H18.75C18.75 16.7949 17.2949 18.25 15.5 18.25V19.75ZM20.25 15V11H18.75V15H20.25ZM6.25 11V9H4.75V11H6.25ZM6.25 9C6.25 7.20507 7.70507 5.75 9.5 5.75V4.25C6.87665 4.25 4.75 6.37665 4.75 9H6.25ZM9.5 5.75H12.5V4.25H9.5V5.75ZM20.25 11V9H18.75V11H20.25ZM20.25 9C20.25 6.37665 18.1234 4.25 15.5 4.25V5.75C17.2949 5.75 18.75 7.20507 18.75 9H20.25ZM15.5 4.25H12.5V5.75H15.5V4.25Z" fill="#005fe6"></path> </g></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+Playground
+</div>
+</a>
+<a href="https://docs.modelslab.com" target="_blank" class="flex items-center px-8 py-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:hover:bg-gray-800">
+<svg class="flex-shrink-0 w-6 h-6 ml-0.5 text-wave-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+<div class="text-base font-medium leading-6 text-gray-900 dark:text-gray-300">
+API Docs
+</div>
+</a>
+</nav>
+</div>
+</div>
+<div class="px-8 py-6 space-y-6">
+<div class="space-y-6">
+<span class="flex w-full rounded-md shadow-sm">
+<a href="/register" class="flex items-center justify-center w-full px-4 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-wave-600 hover:bg-wave-500 focus:outline-none focus:border-wave-700 focus:shadow-outline-wave active:bg-wave-700">
+Sign up
+</a>
+</span>
+<p class="text-base font-medium leading-6 text-center text-gray-500 dark:text-gray-300">
+Existing customer?
+<a href="https://modelslab.com/login" class="transition duration-150 ease-in-out text-wave-600 hover:text-wave-500">
+Sign in
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow overflow-x-hidden">
+<div class="py-20 mx-auto max-w-7xl dark:text-white">
+<article id="page-1" class="max-w-4xl px-5 mx-auto prose-xl lg:prose-2xl lg:px-0 dark:text-white">
+<meta property="name" content="Privacy policy">
+<meta property="author" typeof="Person" content="admin">
+<meta property="dateModified" content="2023-10-11T22:24:29+05:30">
+<meta class="uk-margin-remove-adjacent" property="datePublished" content="2017-11-21T10:53:23+05:30">
+<h1 class="dark:text-white">Privacy policy</h1>
+
+<div class="dark:text-white">
+<div class="dark:text-white"><p class="p1 dark:text-white"><span class="s1"><strong>1.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1 dark:text-white"><strong>Introduction</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>2.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Acceptance of terms of the Privacy Policy by the Users:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>3.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Scope of the Privacy Policy.</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>4.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Information collected</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>4.1.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Personally identifiable information:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>4.2.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Information we collect during access and use of the Website:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>4.3.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Information we collect from other sources:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>How will Information be used:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.1.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Processing for User Login</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.2.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Technical and functional management</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.3.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Improvement of Website</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.4.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Request Fulfillment &amp; to improve customer service</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.5.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Email Communications w.r.t Marketing and Newsletters etc.</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>5.6.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Enforcement:</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>6.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Disclosure of Information to Others</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>6.1.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Legal Requests and/or Compliance with Applicable Laws</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>6.2.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Other Corporate Entities</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>6.3.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Internal Service Providers</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>6.4.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>With Users’ explicit consent</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>7.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Legal Basis for Processing Personal Data under GDPR</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>8.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Your Rights under the GDPR</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>9.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Exercising of Your GDPR Data Protection Rights</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>10.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Protection and Security Information collected by the Website</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>11.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Retention of Personal Information</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>12.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Change in Personal Information</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>13.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Indemnification</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>14.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Governing Law and Jurisdiction</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p1"><span class="s1"><strong>15.</strong></span><span class="s2 Apple-tab-span"> </span><span class="s1"><strong>Changes in this Privacy Policy</strong></span><span class="s2 Apple-tab-span">&nbsp;</span></p><p class="p3">&nbsp;</p><p class="p5"><span style="color:hsl(0, 0%, 0%);"><span class="s1"><strong>PRIVACY POLICY</strong></span></span></p><ul><li class="ul1"><span class="s1"><strong>Introduction</strong></span></li></ul><p class="p7" style="margin-left:40px;"><span class="s1">This Privacy Policy (“Privacy Policy”) is intended to provide users of this website or other sites of the Company (defined hereinafter) collectively referred to as “Website” with clear and complete information about the data and information that the Company collects in connection with usage of the Website by the users and the way that data and information is stored and used.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">This Privacy Policy applies to the Website and the services available through the Website which is owned, hosted and maintained by [*] and its affiliates (“<strong>Company</strong>” or “<strong>We</strong>” or “<strong>Us</strong>” or “<strong>Ourselves</strong>”) having its registered office [*]. All the content provided on the Website is general content for informational purpose only (“<strong>Content</strong>”). We are committed to protect the privacy and information of the users who use and/or register on the Website (“<strong>User</strong>” or “<strong>Users</strong>” or “<strong>You</strong>”). This Privacy Policy outlines the usage policies and practices that apply to the Website and also sets forth what all information and/or database the Website gathers (categorized as mandatory or optional) and how We collect, use, hold, share and protect such information collected from the Users of the Website.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">Please review the Privacy Policy carefully so that You understand Our privacy practices. In case You have any queries or concerns regarding this Privacy Policy, You should contact us by email at [*].</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Acceptance of terms of the Privacy Policy by the Users:</strong></span></li></ul><p class="p7" style="margin-left:40px;"><span class="s1">This Privacy Policy is applicable on You when You access and use the Website. By using the Website, You signify Your acceptance of the Privacy Policy and expressly consent to Our collection, use, disclosure, and retention of Your personal information as described in this Privacy Policy. If You do not agree to this Privacy Policy and/or to Our processing of Your data/information in the manner outlined in this Privacy Policy, please do not use this Website or submit any personal data to Us. Our Privacy Policy is subject to change at any time without notice. To make sure You are aware of any changes, please review this Privacy Policy periodically. Your continued use of the Website following the posting of changes to this Privacy Policy shall be deemed Your acceptance of those changes.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">Please also note the following:</span></p><ul><li class="ul1" style="margin-left:40px;"><span class="s1">For the purpose of the GDPR, the Company is the Data Controller.</span></li><li class="ul1" style="margin-left:40px;"><span class="s1">Data Controller, for the purposes of the GDPR (General Data Protection Regulation), refers to the Company as the legal person which alone or jointly with others determines the purposes and means of the processing of Personal Data</span></li><li class="ul1" style="margin-left:40px;"><span class="s1">For the purposes for GDPR, Personal Data means any information relating to You such as a name, an identification number, location data, online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity.</span></li><li class="ul1" style="margin-left:40px;"><span class="s1">Under GDPR (General Data Protection Regulation), You can be referred to as the Data Subject or as the User as you are the individual using the Service.</span></li></ul><p class="p9" style="margin-left:40px;"><span class="s1"><strong>BY USING OUR SERVICES OR BY OTHERWISE GIVING US YOUR PERSONAL INFORMATION, YOU AGREE TO THE TERMS OF THIS PRIVACY POLICY.</strong></span></p><p class="p9" style="margin-left:40px;">&nbsp;</p><p class="p9" style="margin-left:40px;">&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Scope of the Privacy Policy.</strong></span></li></ul><p class="p7" style="margin-left:40px;"><span class="s1">This Privacy Policy refers and applies only to the Website. Its main aim is to inform the Users of the way their personal data is collected and processed, providing relevant information to the User, as well as fixing the accessing conditions and the use of the Website.</span></p><p class="p10"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Information collected</strong></span><ul><li class="ul1"><span class="s3"><strong>Personally identifiable information:</strong></span></li></ul></li></ul><p class="p7" style="margin-left:40px;"><span class="s1">Personally Identifiable Information means any information that may be used to identify an individual, including but not limited to the following:</span></p><p class="p7" style="margin-left:40px;"><span class="s1">(a) Information about Your personal identity inter alia as name, age, sex, facial recognition etc.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">(b) Your contact details such as Your address, postal code, telephone or mobile number and facsimile;</span></p><p class="p7" style="margin-left:40px;"><span class="s1">(c) User ID information such as Your username, email address and other security-related information used by You in relation to access and use Our Website and Content, User ID of social networks etc. However, the password of Your account with the Website shall automatically get saved in Our server when You create an account or register with the Website which shall not be accessed by the Company unless desired under any legal obligation.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">(d) The Company’s digital platforms use various third party analytical tools. These tools use cookies which are downloaded to your device when you visit the website in order to provide a personalized browsing experience, such as your Internet Protocol (IP) address, the time and number of your visits, pages you request, name of the internet service provider, the website or media that referred you to us etc. through the use of cookies which are small files stored on your web browser in order to optimize the design of the Site provide personalized browsing experience and analyse side operations. Cookies enable us to track and aggregate user behaviour data so that we may better target the interests of our users and enhance their experience on the Site. All information collected by third party cookies is aggregated and anonymous. By using our website user/s agree that these types of cookies can be placed on his/her device. User/s is free to disable/delete these cookies by changing his/her device/browser settings. However, some website features or services may not function properly without cookies. We are not responsible for cookies placed in the device of user/s by any other website and information collected thereto.</span></p><p class="p7" style="margin-left:40px;"><span class="s1">(e) Any other data which may fall under the definition of Personal Data or Sensitive Personal Data under the applicable laws.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">The aforementioned shall collectively be referred to as “<strong>Personal Information</strong>”. Personal Information will also include any personally identifiable information provided by You in any form during any interaction or communication with Us through the Website.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">When You use Our Website, We collect, transfer and store Your Personal Information in order to record, support and facilitate Your participation in the activities You select, track Your preferences, to notify You of any updated information and new activities and other related functions offered by Us, keep You informed about latest Content available on the Website, special offers, and other products and services, to assist You with customer service or technical support issues, to follow up with You after Your visit. For the aforesaid purpose, We only collect such personal information that We consider relevant to understand You or Your interests.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">Personal Information may also get collected and shared with third-parties if there is content from the Website that You specifically and knowingly upload, share or transmit to an email recipient, online community, or to the public, e.g. uploaded photos, posted reviews or comments, or information about You or anything posted by You that You choose to share with others through features which may be provided on Our Website. Such uploaded, shared or transmitted content will also be subject to the privacy policy of the email, online community, website, social media or other platforms to which You upload, share or transmit the content.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Information we collect during access and use of the Website:</strong></span></li></ul><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">Apart from any Personal Information provided by You, We may also collect certain non-personal and/or technical information through third-party sources, platforms (such as social networking websites, databases, online marketing firms, and ad targeting firms) and other channels.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Information we collect from other sources:</strong></span></li></ul><p class="p7"><span class="s1">We may access information about You from third-party sources and platforms (such as social networking websites, databases, online marketing firms, and ad targeting firms), including:</span></p><p class="p7"><span class="s1">(a) if You access third-party social networking services (such as Facebook, Twitter) regarding the Us, we may collect, personal contact information and/or any personal data that is part of Your profile on a third party social network (e.g. Facebook) and that You allow that third party social network to share with us (e.g. name, email address, gender, birthday, city, profile picture, user ID, friend list). You can learn more about the data that we may obtain about You by visiting the privacy policies on the website of the relevant third party social network.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">(b) demographic data, such as age range, gender, and interests;</span></p><p class="p7"><span class="s1">(c) advertisement interaction and viewing data, such as ad click-through rates and information about how many times You viewed a particular ad; and</span></p><p class="p7"><span class="s1">(d) unique identifiers, including mobile device identification numbers, that can identify the physical location at the point of access in accordance with applicable law.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">Please note that the Website may combine the information that we collect with information we obtain from third-party sources.</span></p><p class="p7"><span class="s1">Sometimes this data can be shared with partners who help Us deliver ads to You on Website not controlled by Us.</span></p><p class="p7"><span class="s1">The aforementioned information herein collected by Us under clause 4.1, 4.2 and 4.3 are collectively referred to as “<strong>Information</strong>”.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>How will Information be used:</strong></span></li></ul><p class="p7"><span class="s1">We use the Information to understand Your needs and accordingly facilitate Our services and route You through the relevant information that meets Your need. We do not sell, rent, trade or exchange any personally identifying information of Our Users. We may provide the Information to Our affiliates and service providers under contract (such as customer care, data analytics) to support the operation of the Website and Our services. To the extent we use Your personal information to market to You, we will provide You the ability to opt-out of such uses.</span></p><p class="p7"><span class="s1">We may also use the Information to provide contents and services that are targeted to Your interests. By accepting Privacy Policy, You expressly agree to receive this communications/informations.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Processing for User Login</strong></span></li></ul><p class="p7"><span class="s1">We may use the Information for processing Your login for Our Website.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Technical and functional management</strong></span></li></ul><p class="p7"><span class="s1">We use technical data such as Your IP address to help diagnose problems and resolve issues related to functionality of the Website.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Improvement of Website</strong></span></li></ul><p class="p7"><span class="s1">We aggregate and analyze the Information that We collect and may use the same to monitor and analyze use of the Website, to increase Our Website's functionality, and to better tailor Our Content and design to suit Our Users’ needs so as to provide them with a smooth, efficient, safe and customized experience while using the Website.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Request Fulfillment &amp; to improve customer service</strong></span></li></ul><p class="p7"><span class="s1">We may also use the Information that We collect to fulfill Your requests for products, services, and information, which helps us respond to Your customer service requests and support needs, more efficiently. For example, We may use Your contact information to respond to Your customer service requests or to enable You to participate in features on the Website such as surveys, polls, sweepstakes, and message boards. We may also use information in the aggregate to understand how Our Users as a group use the services and resources provided on Our Website and use feedback You provide to improve Our products and services.</span></p><p class="p8"><br>&nbsp;</p><p class="p7"><span class="s1">Further, We use the Information to resolve disputes; troubleshoot problems; measure consumer interest in the services provided by Us, inform You about online and offline offers, products, services, and updates; customize Your experience; detect and protect Us against error, fraud and other criminal activity; enforce Our User Agreement, and in general to improve the Users experience.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Email Communications w.r.t Marketing and Newsletters etc.</strong></span></li></ul><p class="p7"><span class="s1">We may use the Information that we collect to send You e-mail communications, such as editorial updates, information about Your account or changes to the Website, newsletters, marketing and promotional messages about Our own or Our marketing partners' products and services that may be of interest to You. It may also be used to respond to Your inquiries, questions, and/or other requests. If You signed up for one of Our email newsletters, we will also send You the newsletters that You requested. If You decide to opt-in to Our mailing list, You will receive emails that may include company news, updates, related product or service information, etc. If at any time the User would like to unsubscribe from receiving future emails, We include detailed unsubscribe instructions at the bottom of each email or User may contact us via Our Website.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Enforcement:</strong></span></li></ul><p class="p7"><span class="s1">We may use the information that we collect to prevent illegal activities, to enforce the Privacy Policy, and to otherwise protect Our rights and the rights of Our Users.</span></p><p class="p7"><span class="s1">In addition to the uses identified above, we may use the Information that We collect for any other purposes disclosed to You at the time We collect Your information.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Disclosure of Information to Others</strong></span><ul><li class="ul1"><span class="s3"><strong>Legal Requests and/or Compliance with Applicable Laws</strong></span></li></ul></li></ul><p class="p7"><span class="s1">We cooperate with law enforcement and regulatory inquiries, as well as other third parties to enforce laws, such as intellectual property rights, fraud and other rights, to help protect You and the community. Therefore, in response to a verified request by any statutory authority including but not limited to law enforcement agency or other government officials relating to a criminal investigation or alleged illegal activity, we may (and You authorize us to) disclose, as per the applicable laws, some of Your personal information as are reasonably necessary to respond/comply with the statutory mandate including but not limited to court orders or other legal process. We may access, use, transfer or disclose Your Personal Information to third parties such as government or law enforcement authorities or private parties, if it is legally and statutorily required to do so under any of the following conditions:</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1">To satisfy any applicable law, rule, regulation, governmental requests or legal process.</span></li><li class="ul1"><span class="s1">To protect and/or defend and/or enforce Our Privacy Policy for online services or other policies applicable to any online services in case of potential violations.</span></li><li class="ul1"><span class="s1">To secure Our systems.</span></li><li class="ul1"><span class="s1">To respond to claims that an advertisement, posting or other Content violates the rights of a third party.</span></li><li class="ul1"><span class="s1">To protect the rights, property or personal safety of the Users and the public in general for any reason.</span></li><li class="ul1"><span class="s1">To detect, prevent or otherwise address fraud, security or technical issues.</span></li><li class="ul1"><span class="s1">To prevent or stop activity we may consider to be, or to pose a risk of being, an illegal, unethical, or legally actionable activity.</span></li></ul><p class="p7"><span class="s1">In case of any illegal, ethical or legally actionable activity, we may use IP address or other device identifiers, to identify users, and may do so in cooperation with third parties such as internet service providers, wireless service providers and/or law enforcement agencies, including disclosing such information to third parties, all in Our discretion. Such disclosures may be carried out without notice to You. However, we shall not sell, share or rent the Users Personal Information to any third party or use any users e-mail id for sending any unsolicited mails.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Other Corporate Entities</strong></span></li></ul><p class="p7"><span class="s1">We share much of Our data, including Information about You, with Our parent, affiliates, subsidiaries, and joint ventures that are committed to serving Your online requests and related services, throughout the world. To the extent that these entities have access to Your personal information, they remain bound by the existing Privacy Policy. As we continue to develop Our business, we might sell or buy stores, subsidiaries or business units. In such transactions, Users’ Information generally is one of the transferred business assets but shall remain subject to the terms and conditions contained in this Privacy Policy.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>Internal Service Providers</strong></span></li></ul><p class="p7"><span class="s1">We may employ third parties services to facilitate or outsource one or more aspects of the business, product and service operations that we provide to You on the Website (e.g., search technology, discussion boards, bill collection, affiliate and rewards programs, co-branded credit cards) and therefore we may provide some of Your personal information to these internal service providers. These internal service providers' are subject to confidentiality agreements with us and other legal restrictions that prohibit their use of Your personal information for any other purpose except to facilitate the specific outsourced service. In the event of Your direct involvement with the internal service provider, any additional information disclosed by You to them shall be subject to internal service provider’s own applicable privacy policy and the Website/Company shall not be responsible for the same.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s3"><strong>With Users’ explicit consent</strong></span></li></ul><p class="p7"><span class="s1">We do not sell or rent Users’ personal information to third parties for their marketing purposes, but with Your explicit consent, we may disclose Users’ personal information (i) to other registered Users of the Website for the purpose of facilitating the communications and transactions, if any, amongst the Users (ii) to third parties for their marketing and advertising purposes; (iii) to send You promotions, notifications, or other services. However, the Users have the right to opt-out of receiving marketing communications about the Company/Website.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Legal Basis for Processing Personal Data under GDPR</strong></span></li></ul><p class="p7"><span class="s1">We may process Personal Data under the following conditions:</span></p><ul><li class="ul1"><span class="s1">Consent: You have given Your consent for processing Personal Data for one or more specific purposes.</span></li><li class="ul1"><span class="s1">Performance of a contract: Provision of Personal Data is necessary for the performance of an agreement with You and/or for any pre-contractual obligations thereof.</span></li><li class="ul1"><span class="s1">Legal obligations: Processing Personal Data is necessary for compliance with a legal obligation to which the Company is subject.</span></li><li class="ul1"><span class="s1">Vital interests: Processing Personal Data is necessary in order to protect Your vital interests or of another natural person.</span></li><li class="ul1"><span class="s1">Public interests: Processing Personal Data is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Company.</span></li><li class="ul1"><span class="s1">Legitimate interests: Processing Personal Data is necessary for the purposes of the legitimate interests pursued by the Company.</span></li></ul><p class="p10"><br>&nbsp;</p><p class="p7"><span class="s1">In any case, the Company will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.</span></p><p class="p11"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Your Rights under the GDPR</strong></span></li></ul><p class="p7"><span class="s1">The Company undertakes to respect the confidentiality of Your Personal Data and to guarantee You can exercise Your rights. You have the right under this Privacy Policy, and by law if You are within the EU, to:</span></p><p class="p11"><br>&nbsp;</p><ul><li class="ul1"><span class="s1">Request access to Your Personal Data. The right to access, update or delete the information We have on You. Whenever made possible, you can access, update or request deletion of Your Personal Data directly within Your account settings section. If you are unable to perform these actions yourself, please contact Us to assist You. This also enables You to receive a copy of the Personal Data We hold about You.</span></li><li class="ul1"><span class="s1">Request correction of the Personal Data that We hold about You. You have the right to have any incomplete or inaccurate information We hold about You corrected.</span></li><li class="ul1"><span class="s1">Object to processing of Your Personal Data. This right exists where We are relying on a legitimate interest as the legal basis for Our processing and there is something about Your particular situation, which makes You want to object to our processing of Your Personal Data on this ground. You also have the right to object where We are processing Your Personal Data for direct marketing purposes.</span></li><li class="ul1"><span class="s1">Request erasure of Your Personal Data. You have the right to ask Us to delete or remove Personal Data when there is no good reason for Us to continue processing it.</span></li></ul><p class="p11"><br>&nbsp;</p><ul><li class="ul1"><span class="s1">Request the transfer of Your Personal Data. We will provide to You, or to a third-party You have chosen, Your Personal Data in a structured, commonly used, machine-readable format. Please note that this right only applies to automated information which You initially provided consent for Us to use or where We used the information to perform a contract with You.</span></li></ul><p class="p11"><br>&nbsp;</p><ul><li class="ul1"><span class="s1">Withdraw Your consent. You have the right to withdraw Your consent on using your Personal Data. If You withdraw Your consent, We may not be able to provide You with access to certain specific functionalities of the Service.</span></li></ul><p class="p11"><br>&nbsp;</p><p class="p10"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Exercising of Your GDPR Data Protection Rights</strong></span></li></ul><p class="p7"><span class="s1">You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us. Please note that we may ask You to verify Your identity before responding to such requests. If You make a request, We will try our best to respond to You as soon as possible.</span></p><p class="p7"><span class="s1">You have the right to complain to a Data Protection Authority about Our collection and use of Your Personal Data. For more information, if You are in the European Economic Area (EEA), please contact Your local data protection authority in the EEA.</span></p><p class="p10"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Protection and Security Information collected by the Website</strong></span></li></ul><p class="p7"><span class="s1">We have physical, electronic, and procedural safeguards that comply with the laws prevalent in India to protect personal information about You and, accordingly, we take appropriate security measures to protect against unauthorized access, alteration, disclosure or destruction of Your personal information, username, password, transaction information and data stored on Our Website in compliance with the provisions of the GDPR and Information Technology Act, 2000 and Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, to ensure the protection and preservation of Your privacy. In addition to the above, we, on best endeavour basis, try to limit access to personal information of Our users to only such Users who we believe reasonably need to come into contact with that information to provide products or services to You. However, no data transmissions over the Internet can be guaranteed to be 100 percent secure. Consequently, we cannot ensure or warrant the security of any information You transmit to us and You understand that any information that You share is done at Your own risk.</span></p><p class="p10"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Retention of Personal Information</strong></span></li></ul><p class="p7"><span class="s1">Unless specified otherwise in this Privacy Policy, we will retain Your Information as permitted or required by applicable law. In some cases, even after cancellation of the user account, Your Information may be retained for the purpose of legal and regulatory compliances, resolving disputes, concluding activities related to account cancellation, enforcing Our agreements, Privacy Policy or for any other reason which may be deemed necessary. However, the Information of the User will get anonymized upon cancellation of user account except for the abovementioned purposes.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Change in Personal Information</strong></span></li></ul><p class="p7"><span class="s1">You are responsible for maintaining the accuracy of the Personal Information submitted at the time of login.</span></p><p class="p10"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Indemnification</strong></span></li></ul><p class="p7"><span class="s1">You agree and undertake to indemnify and hold harmless Us, from and against any and all suit, dispute, actions, damages, costs and expenses, if any, of whatsoever nature, arising out of or in any way connected with this Privacy Policy, Information and/or Your use or access of the Website.</span></p><p class="p7"><span class="s1">You expressly understand that under no circumstances, including, but not limited to, negligence, shall We be liable to You or any other person or entity for any direct, indirect, incidental, special, or consequential damages, including, but not limited to damages for loss of profits, goodwill, use, data or other intangible losses, resulting from circumstances, including but not limited to: (i) unauthorized access to or alteration of Information; (ii) any unauthorized access to or use of Our secure servers and/or any and all Information stored therein.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Governing Law and Jurisdiction</strong></span></li></ul><p class="p7"><span class="s1">You represent that You have accessed the Website and have provided Information on Your own initiative and are responsible for compliance with all applicable laws including, but not limited to, any applicable local laws. This Privacy Policy is governed by the laws of India and the courts at [*] shall have exclusive jurisdiction.</span></p><p class="p8"><br>&nbsp;</p><ul><li class="ul1"><span class="s1"><strong>Opt-Out Clause:</strong></span></li></ul><p class="p7"><span class="s1">In accordance with EU GDPR policies, we respect your privacy and provide you with the ability to opt out of any updates or changes to our privacy policies. If we make any updates or modifications to our policies, we will communicate them to you clearly and promptly.</span></p><p class="p7"><span class="s1">Upon receiving notification of an update, you will have the option to withdraw your consent and opt out of the new policies. Your decision to opt out will not affect the protection and compliance of your data with our previous privacy policies.</span></p><p class="p7"><span class="s1">To exercise your right to opt out, please contact us through the designated channels provided in our communication. We will ensure that your withdrawal request is processed promptly and your data will continue to be protected in accordance with the privacy policies that were in place prior to the update.</span></p><p class="p7"><span class="s1">We are committed to maintaining transparency and providing you with control over your personal data. Your privacy is important to us, and we strive to adhere to the highest standards of data protection as outlined by the GDPR.</span></p><p class="p7"><span class="s1">Please note that by opting out, you may be restricted from accessing certain services or features that are affected by the updated policies. However, we will continue to honor your previous privacy choices and protect your data accordingly.</span></p><p class="p8">&nbsp;</p><p class="p8">&nbsp;</p><p class="p13"><span style="color:hsl(0, 0%, 0%);"><strong>DISCLAIMER</strong></span></p><p class="p15">Company <span class="s4">retains</span> copyright on all the text, contents, graphics and trademarks displayed on this site. All the trademarks displayed on this site with “TM” or “®”are owned by Company.</p><p class="p16">&nbsp;</p><p class="p15">The information on this site has been included in good faith and is for general purpose only and should not be relied upon for any specific purpose. The user shall not distribute text or graphics to others without the express written consent of Company. The user shall also not, without Company’s prior permission, copy and distribute this information on any other server, or modify or reuse text or graphics on this or any another system.</p><p class="p15">Although Company tries to ensure that all information and recommendations, whether in relation to the products, services, offerings or otherwise (hereinafter "information"), provided as part of this website is correct at the time of inclusion on the web site, Company does not guarantee the accuracy of the Information. Company makes no representations or warranties as to the completeness or accuracy of Information. Certain links in this site may connect to other Web Sites maintained by third parties over whom Company has no control. Company makes no representations as to the accuracy or any other aspect of information contained in such other Web Sites.</p><p class="p15">Company hereby disclaims all warranties and conditions with regard to this information, including all implied warranties and conditions of merchantability, fitness for any particular purpose, title and non-infringement. In no event will Company, its related partnerships or corporations, or the partners, agents or employees thereof be liable for any decision made by the User and/or site visitor for any inference or action taken in reliance on the information provided in this site or for any consequential, special or similar damages. Applicable Law and Jurisdiction of this Disclaimer are governed by and to be interpreted in accordance with laws of India, without regard to the choice or conflicts of law provisions of any jurisdiction. The User/site visitor agrees that in the event of any dispute arising in relation to this Disclaimer or any dispute arising in relation to the web site whether in contract or tort or otherwise, to submit to the jurisdiction of the courts located at Delhi (India) only for the resolution of all such disputes.</p><p class="p17">&nbsp;</p><p class="p17">&nbsp;</p><p class="p3">&nbsp;</p></div>
+</div>
+</article>
+</div>
+</main>
+<footer class="relative z-10 bg-white dark:bg-gray-800 pt-4 pb-10 lg:pt-[80px] lg:pb-20 px-1">
+<div class="flex flex-col justify-between w-full px-5 mx-auto md:flex-row max-w-7xl md:justify-start">
+<div class="w-full">
+<div class="w-full mb-6">
+<a href="/" class="flex justify-between w-full mb-4 space-x-3">
+<svg class="w-24" x-show="!darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_639_532)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="black" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_639_532">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+<svg class="w-24" x-show="darkMode" viewBox="0 0 439 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1250_1665)">
+<path d="M5.30966 20.9091L21.2386 20.9091L38.0625 61.9545H38.7784L55.6023 20.9091H71.5312L71.5312 82H59.0028L59.0028 42.2372H58.4957L42.6861 81.7017H34.1548L18.3452 42.0881H17.8381L17.8381 82H5.30966L5.30966 20.9091ZM100.116 82.8949C95.4825 82.8949 91.4754 81.9105 88.0947 79.9418C84.7339 77.9531 82.1387 75.1889 80.3092 71.6491C78.4796 68.0895 77.5649 63.9631 77.5649 59.2699C77.5649 54.5369 78.4796 50.4006 80.3092 46.8608C82.1387 43.3011 84.7339 40.5369 88.0947 38.5682C91.4754 36.5795 95.4825 35.5852 100.116 35.5852C104.75 35.5852 108.747 36.5795 112.107 38.5682C115.488 40.5369 118.093 43.3011 119.923 46.8608C121.752 50.4006 122.667 54.5369 122.667 59.2699C122.667 63.9631 121.752 68.0895 119.923 71.6491C118.093 75.1889 115.488 77.9531 112.107 79.9418C108.747 81.9105 104.75 82.8949 100.116 82.8949ZM100.176 73.0511C102.284 73.0511 104.044 72.4545 105.456 71.2614C106.867 70.0483 107.931 68.3977 108.647 66.3097C109.383 64.2216 109.751 61.8452 109.751 59.1804C109.751 56.5156 109.383 54.1392 108.647 52.0511C107.931 49.9631 106.867 48.3125 105.456 47.0994C104.044 45.8864 102.284 45.2798 100.176 45.2798C98.0478 45.2798 96.2581 45.8864 94.8064 47.0994C93.3745 48.3125 92.2907 49.9631 91.5549 52.0511C90.839 54.1392 90.4811 56.5156 90.4811 59.1804C90.4811 61.8452 90.839 64.2216 91.5549 66.3097C92.2907 68.3977 93.3745 70.0483 94.8064 71.2614C96.2581 72.4545 98.0478 73.0511 100.176 73.0511ZM145.293 82.7457C141.813 82.7457 138.661 81.8509 135.837 80.0611C133.034 78.2514 130.806 75.5966 129.156 72.0966C127.525 68.5767 126.71 64.2614 126.71 59.1506C126.71 53.9006 127.555 49.5355 129.245 46.0554C130.935 42.5554 133.183 39.9403 135.987 38.2102C138.81 36.4602 141.903 35.5852 145.264 35.5852C147.829 35.5852 149.967 36.0227 151.677 36.8977C153.407 37.7528 154.799 38.8267 155.853 40.1193C156.927 41.392 157.742 42.6449 158.299 43.8778H158.687V20.9091L171.364 20.9091V82H158.836V74.6619H158.299C157.703 75.9347 156.857 77.1974 155.764 78.4503C154.69 79.6832 153.288 80.7074 151.558 81.5227C149.847 82.3381 147.759 82.7457 145.293 82.7457ZM149.32 72.6335C151.369 72.6335 153.099 72.0767 154.511 70.9631C155.943 69.8295 157.036 68.2486 157.792 66.2202C158.568 64.1918 158.955 61.8153 158.955 59.0909C158.955 56.3665 158.578 54 157.822 51.9915C157.066 49.983 155.972 48.4318 154.541 47.3381C153.109 46.2443 151.369 45.6974 149.32 45.6974C147.232 45.6974 145.472 46.2642 144.041 47.3977C142.609 48.5312 141.525 50.1023 140.789 52.1108C140.053 54.1193 139.685 56.446 139.685 59.0909C139.685 61.7557 140.053 64.1122 140.789 66.1605C141.545 68.1889 142.629 69.7798 144.041 70.9332C145.472 72.0668 147.232 72.6335 149.32 72.6335ZM200.173 82.8949C195.46 82.8949 191.403 81.9403 188.003 80.0313C184.622 78.1023 182.017 75.3778 180.187 71.858C178.358 68.3182 177.443 64.1321 177.443 59.2997C177.443 54.5866 178.358 50.4503 180.187 46.8906C182.017 43.331 184.592 40.5568 187.913 38.5682C191.254 36.5795 195.172 35.5852 199.666 35.5852C202.689 35.5852 205.503 36.0724 208.108 37.0469C210.733 38.0014 213.02 39.4432 214.968 41.3722C216.937 43.3011 218.468 45.7273 219.562 48.6506C220.656 51.554 221.203 54.9545 221.203 58.8523V62.3423L182.514 62.3423V54.4673L209.241 54.4673C209.241 52.6378 208.843 51.017 208.048 49.6051C207.253 48.1932 206.149 47.0895 204.737 46.294C203.345 45.4787 201.724 45.071 199.875 45.071C197.946 45.071 196.235 45.5185 194.744 46.4134C193.272 47.2884 192.119 48.4716 191.284 49.9631C190.449 51.4347 190.021 53.0753 190.001 54.8849V62.3722C190.001 64.6392 190.419 66.598 191.254 68.2486C192.109 69.8991 193.312 71.1719 194.863 72.0668C196.414 72.9616 198.254 73.4091 200.382 73.4091C201.794 73.4091 203.086 73.2102 204.26 72.8125C205.433 72.4148 206.437 71.8182 207.272 71.0227C208.108 70.2273 208.744 69.2528 209.181 68.0994L220.934 68.875C220.338 71.6989 219.115 74.1648 217.265 76.2727C215.436 78.3608 213.069 79.9915 210.166 81.1648C207.282 82.3182 203.951 82.8949 200.173 82.8949ZM239.683 20.9091V82H226.975V20.9091L239.683 20.9091ZM285.464 49.2472L273.831 49.9631C273.632 48.9687 273.204 48.0739 272.548 47.2784C271.892 46.4631 271.027 45.8168 269.953 45.3395C268.899 44.8423 267.636 44.5938 266.165 44.5938C264.196 44.5938 262.535 45.0114 261.183 45.8466C259.831 46.6619 259.155 47.7557 259.155 49.1278C259.155 50.2216 259.592 51.1463 260.467 51.902C261.342 52.6577 262.844 53.2642 264.971 53.7216L273.264 55.392C277.719 56.3068 281.04 57.7784 283.227 59.8068C285.415 61.8352 286.508 64.5 286.508 67.8011C286.508 70.804 285.623 73.4389 283.853 75.706C282.103 77.973 279.697 79.7429 276.635 81.0156C273.592 82.2685 270.082 82.8949 266.105 82.8949C260.04 82.8949 255.207 81.6321 251.608 79.1065C248.028 76.5611 245.93 73.1009 245.314 68.7259L257.812 68.0696C258.19 69.919 259.105 71.331 260.557 72.3054C262.008 73.2599 263.868 73.7372 266.135 73.7372C268.362 73.7372 270.152 73.3097 271.504 72.4545C272.876 71.5795 273.572 70.456 273.592 69.0838C273.572 67.9304 273.085 66.9858 272.13 66.25C271.176 65.4943 269.704 64.9176 267.716 64.5199L259.781 62.9389C255.307 62.044 251.976 60.4929 249.788 58.2855C247.621 56.0781 246.537 53.2642 246.537 49.8438C246.537 46.9006 247.332 44.3651 248.923 42.2372C250.534 40.1094 252.791 38.4688 255.694 37.3153C258.618 36.1619 262.038 35.5852 265.956 35.5852C271.743 35.5852 276.297 36.8082 279.618 39.2543C282.959 41.7003 284.907 45.0312 285.464 49.2472Z" fill="white" />
+<path d="M294.31 82V20.9091H307.226V71.3509H333.416V82H294.31ZM354.797 82.8651C351.873 82.8651 349.268 82.358 346.981 81.3438C344.694 80.3097 342.885 78.7884 341.552 76.7798C340.24 74.7514 339.583 72.2259 339.583 69.2031C339.583 66.6577 340.051 64.5199 340.985 62.7898C341.92 61.0597 343.193 59.6676 344.804 58.6136C346.414 57.5597 348.244 56.7642 350.292 56.2273C352.36 55.6903 354.528 55.3125 356.795 55.0938C359.46 54.8153 361.608 54.5568 363.238 54.3182C364.869 54.0597 366.052 53.6818 366.788 53.1847C367.524 52.6875 367.892 51.9517 367.892 50.9773V50.7983C367.892 48.9091 367.295 47.4474 366.102 46.4134C364.929 45.3793 363.258 44.8622 361.091 44.8622C358.804 44.8622 356.984 45.3693 355.632 46.3835C354.279 47.3778 353.385 48.6307 352.947 50.142L341.194 49.1875C341.791 46.4034 342.964 43.9972 344.714 41.9688C346.464 39.9205 348.721 38.3494 351.485 37.2557C354.27 36.142 357.491 35.5852 361.15 35.5852C363.696 35.5852 366.132 35.8835 368.458 36.4801C370.805 37.0767 372.883 38.0014 374.693 39.2543C376.522 40.5071 377.964 42.1179 379.018 44.0866C380.072 46.0355 380.599 48.3722 380.599 51.0966V82H368.548V75.6463H368.19C367.454 77.0781 366.47 78.3409 365.237 79.4347C364.004 80.5085 362.522 81.3537 360.792 81.9702C359.062 82.5668 357.064 82.8651 354.797 82.8651ZM358.436 74.0952C360.305 74.0952 361.956 73.7273 363.387 72.9915C364.819 72.2358 365.943 71.2216 366.758 69.9489C367.574 68.6761 367.981 67.2344 367.981 65.6236V60.7614C367.583 61.0199 367.037 61.2585 366.341 61.4773C365.664 61.6761 364.899 61.8651 364.044 62.044C363.189 62.2031 362.333 62.3523 361.478 62.4915C360.623 62.6108 359.848 62.7202 359.152 62.8196C357.66 63.0384 356.358 63.3864 355.244 63.8636C354.13 64.3409 353.265 64.9872 352.649 65.8026C352.032 66.598 351.724 67.5923 351.724 68.7855C351.724 70.5156 352.35 71.8381 353.603 72.7528C354.876 73.6477 356.487 74.0952 358.436 74.0952ZM390.696 82V20.9091H403.404V43.8778H403.792C404.348 42.6449 405.154 41.392 406.208 40.1193C407.282 38.8267 408.674 37.7528 410.384 36.8977C412.114 36.0227 414.262 35.5852 416.827 35.5852C420.168 35.5852 423.25 36.4602 426.074 38.2102C428.898 39.9403 431.155 42.5554 432.846 46.0554C434.536 49.5355 435.381 53.9006 435.381 59.1506C435.381 64.2614 434.556 68.5767 432.905 72.0966C431.275 75.5966 429.047 78.2514 426.223 80.0611C423.419 81.8509 420.277 82.7457 416.797 82.7457C414.331 82.7457 412.233 82.3381 410.503 81.5227C408.793 80.7074 407.391 79.6832 406.297 78.4503C405.203 77.1974 404.368 75.9347 403.792 74.6619H403.225V82H390.696ZM403.135 59.0909C403.135 61.8153 403.513 64.1918 404.269 66.2202C405.025 68.2486 406.118 69.8295 407.55 70.9631C408.982 72.0767 410.722 72.6335 412.77 72.6335C414.838 72.6335 416.588 72.0668 418.02 70.9332C419.452 69.7798 420.536 68.1889 421.272 66.1605C422.027 64.1122 422.405 61.7557 422.405 59.0909C422.405 56.446 422.037 54.1193 421.301 52.1108C420.566 50.1023 419.482 48.5312 418.05 47.3977C416.618 46.2642 414.858 45.6974 412.77 45.6974C410.702 45.6974 408.952 46.2443 407.52 47.3381C406.108 48.4318 405.025 49.983 404.269 51.9915C403.513 54 403.135 56.3665 403.135 59.0909Z" fill="#005CF0" />
+</g>
+<defs>
+<clipPath id="clip0_1250_1665">
+<rect width="439" height="102" fill="white" />
+</clipPath>
+</defs>
+</svg>
+</a>
+</div>
+</div>
+<div class="w-full mb-10">
+<h4 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-100">Resources</h4>
+<ul>
+<li>
+<a href="https://modelslab.com/playground/new" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Playground
+</a>
+</li>
+<li>
+<a href="https://modelslab.com/live_server" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Live Server
+</a>
+</li>
+<li>
+<a href="https://modelslab.com/enterprise" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Enterprise Plan
+</a>
+</li>
+<li>
+<a href="/models/create" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Upload Model
+</a>
+</li>
+</ul>
+</div>
+<div class="w-full mb-10">
+<h4 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-100">Company</h4>
+<ul>
+<li>
+<a href="https://modelslab.com/models" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Models List
+</a>
+</li>
+<li>
+<a href="https://modelslab.com/catalogue" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+API Catalogue
+</a>
+</li>
+<li>
+<a href="https://docs.modelslab.com" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+Documentation
+</a>
+</li>
+<li>
+<a href="/showcase" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+Showcase
+</a>
+</li>
+<li>
+<a href="https://tally.so/r/n9Dd4Q" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+ModelsLab for Startups
+</a>
+</li>
+</ul>
+</div>
+<div class="w-full mb-10">
+<h4 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-100">Quick Links</h4>
+<ul>
+<li>
+<a href="/p/Terms-and-Conditions" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+Terms and Condition
+</a>
+</li>
+<li>
+<a href="/p/refund-policy" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+Refund Policy
+</a>
+</li>
+<li>
+<a href="/p/privacy-policy" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300" target="_blank">
+Privacy Policy
+</a>
+</li>
+<li>
+<a href="https://modelslab.com/testimonials" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Testimonials
+</a>
+</li>
+<li>
+<a href="https://modelslab.com/faq" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+FAQ
+</a>
+</li>
+<li>
+<a href="/login" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Login
+</a>
+</li>
+<li>
+<a href="/register" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Register
+</a>
+</li>
+</ul>
+</div>
+<div class="w-full mb-10">
+<h4 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-100"> About</h4>
+<ul>
+<li>
+<a href="https://modelslab.com/about" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+About Us
+</a>
+</li>
+<li>
+<a href="/contact" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Contact us
+</a>
+</li>
+<li>
+<a href="/pricing" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Pricing
+</a>
+</li>
+<li>
+<a href="/blog" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Blog
+</a>
+</li>
+<li>
+<a href="/ai-news" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+AI News
+</a>
+</li>
+<li>
+<a href="/support" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Support
+</a>
+</li>
+</ul>
+</div>
+<div class="w-full mb-10">
+<h4 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-100">Our Products</h4>
+<ul>
+<li>
+<a href="/text-to-image" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Text to Image API
+</a>
+</li>
+<li>
+<a href="/text-to-video" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Text to Video API
+</a>
+</li>
+<li>
+<a href="/train-model" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Train Model API
+</a>
+</li>
+<li>
+<a href="/llm-api" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+LLM API
+</a>
+</li>
+<li>
+<a href="/image-editing" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Image Editing API
+</a>
+</li>
+<li>
+<a href="/voice-cloning" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Voice Cloning API
+</a>
+</li>
+<li>
+<a href="/fashion-api" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Fashion API
+</a>
+</li>
+<li>
+<a href="/uncensored-chat" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Uncensored Chat API
+</a>
+</li>
+<li>
+<a href="/text-to-3d" class="inline-block mb-2 text-base leading-loose text-gray-700 hover:text-gray-500 dark:text-gray-300">
+Text to 3D
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="flex flex-col items-center justify-between w-full px-5 py-6 mx-auto border-t border-solid max-w-7xl lg:flex-row border-gray">
+<ul class="flex flex-wrap space-x-5 text-xs">
+<li class="mb-6 text-center flex-full lg:flex-none lg:mb-0 dark:text-gray-300">&copy;
+2024 ModelsLab formerly Stable Diffusion API. All rights reserved.</li>
+</ul>
+<ul class="flex items-center mt-10 space-x-5 lg:mt-0">
+<li>
+<a href="https://twitter.com/ModelsLabAI" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-gray-900">
+<span class="sr-only">Twitter</span>
+<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+
+<path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+</svg>
+</a>
+</li>
+<li>
+<a href="https://discord.gg/UxqnDu7j3r" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-gray-900">
+<span class="sr-only">Discord</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="w-5 h-5" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+<path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+</svg>
+</a>
+</li>
+<li>
+<a href="http://linkedin.com/company/stablediffusion" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-gray-900">
+<span class="sr-only">Discord</span>
+<svg class="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-linkedin" viewBox="0 0 24 24"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" /></svg> </a>
+</li>
+<li>
+<a href="https://www.instagram.com/modelslabai/" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-gray-900">
+<span class="sr-only">Discord</span>
+<svg class="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-instagram" viewBox="0 0 24 24"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg> </a>
+</li>
+</ul>
+</div>
+</footer>
+
+
+<div id="fullscreenLoader" class="fixed inset-0 top-0 left-0 z-50 flex flex-col items-center justify-center hidden w-full h-full bg-gray-900 opacity-50">
+<svg class="w-5 h-5 mr-3 -ml-1 text-white animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+</path>
+</svg>
+<p id="fullscreenLoaderMessage" class="mt-4 text-sm font-medium text-white uppercase"></p>
+</div>
+
+</div>
+<div class="fixed inset-0 z-50 flex items-end justify-center px-4 py-6 pointer-events-none sm:p-6 sm:items-start sm:justify-end">
+<div id="toast" x-data x-cloak @click="$store.toast.close()" x-show="$store.toast.show" x-transition:enter="transform ease-out duration-300 transition" x-transition:enter-start="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2" x-transition:enter-end="translate-y-0 opacity-100 sm:translate-x-0" x-transition:leave="transform transition ease-in duration-100" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg cursor-pointer pointer-events-auto hover:-translate-1 dark:bg-gray-800 dark:text-gray-50 dark:border-gray-600 da">
+<div class="relative overflow-hidden rounded-lg shadow-xs">
+<div class="px-4 py-5">
+<div class="flex items-center">
+<div class="flex-shrink-0 pr-0.5">
+<template x-if="$store.toast.type == 'info'">
+<div class="w-10 h-10">
+<svg class="w-10 h-10 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</div>
+</template>
+<template x-if="$store.toast.type == 'warning'">
+<div class="w-10 h-10">
+<svg class="w-10 h-10 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+</div>
+</template>
+<template x-if="$store.toast.type == 'success'">
+<div class="w-10 h-10">
+<svg class="w-10 h-10 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</div>
+</template>
+<template x-if="$store.toast.type == 'danger'">
+<div class="w-10 h-10">
+<svg class="w-10 h-10 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+</div>
+</template>
+</div>
+<div class="flex-1 w-0 pl-3.5 ml-1 border-l border-gray-100 dark:border-gray-600">
+<p class="text-sm font-medium leading-5 text-gray-900">
+<template x-if="$store.toast.type == 'info'"><span class="dark:text-gray-300">Notice</span></template>
+<template x-if="$store.toast.type == 'warning'"><span class="dark:text-gray-300">Warning</span></template>
+<template x-if="$store.toast.type == 'success'"><span class="dark:text-gray-300">Success</span></template>
+<template x-if="$store.toast.type == 'danger'"><span class="dark:text-gray-300">Something went wrong</span></template>
+</p>
+<p class="text-sm leading-5 text-gray-500 dark:text-gray-100" x-text="$store.toast.message"></p>
+<div class="mt-4">
+<div class="flex space-x-3">
+<a x-show="$store.toast.link1" :href="$store.toast.link1" target="_blank" class="inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm">Click here 1</a>
+<a x-show="$store.toast.link2" :href="$store.toast.link2" target="_blank" class="inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium text-blue-600 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm">Click here</a>
+</div>
+</div>
+</div>
+<div class="flex self-start flex-shrink-0 ml-4">
+<button @click="$store.toast.close()" class="inline-flex -mt-1 text-gray-400 transition duration-150 ease-in-out rounded-full focus:outline-none focus:text-gray-500">
+<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<div id="toast_bar" class="absolute bottom-0 left-0 w-full h-1 transition-all ease-out" :class="{ 'bg-indigo-400' : $store.toast.type == 'info', 'bg-yellow-400' : $store.toast.type == 'warning', 'bg-green-400' : $store.toast.type == 'success', 'bg-red-400' : $store.toast.type == 'danger' }" style="transition-duration: 3950ms;"></div>
+</div>
+</div>
+</div>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+
+        var stripe = Stripe("pk_live_51MmuZ6HOzQvHGmiB6aDU8cKJZCEiNDnZx0ZZzZjhu9UVQ8K2flS86Qsa0SF5SR09p6Hbbx2RJHZlXXV74GZNoTVQ00nAGlhkpZ");
+
+        let checkoutBtns = document.getElementsByClassName("checkout");
+        for( var i=0; i < checkoutBtns.length; i++ ){
+            checkoutBtns[i].addEventListener('click', function(){
+                redirectStripeCheckout(this.dataset.plan)
+            }, false);
+        }
+
+        let updateBtns = document.getElementsByClassName("checkout-update");
+        for( var i=0; i < updateBtns.length; i++ ){
+            updateBtns[i].addEventListener('click', billingPortal, false);
+        }
+
+        let cancelBtns = document.getElementsByClassName("checkout-cancel");
+        for( var i=0; i < cancelBtns.length; i++ ){
+            cancelBtns[i].addEventListener('click', billingPortal, false);
+        }
+
+        function billingPortal() {
+            window.location.href = "https://modelslab.com/stripe/billing-portal"
+        }
+
+        function redirectStripeCheckout(planId) {
+
+           
+            
+                    window.location.href = "/dashboard/subscription";
+                    return ;
+
+            
+            document.getElementById('fullscreenLoaderMessage').innerText = 'Starting your journey...';
+            document.getElementById('fullscreenLoader').classList.remove('hidden');
+
+            var data = {
+                planId: planId,
+                customer: ""
+            }
+            fetch('/stripe/create-checkout-session', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'X-CSRF-TOKEN': "kcSaUIJg9oEGzCwKkCPdhILwhdeEypePSDfRXrkT",
+                    'content-type': "application/json",
+                },
+            })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(session) {
+                console.info(session)
+                return stripe.redirectToCheckout({ sessionId: session.id });
+            })
+            .then(function(result) {
+                // If `redirectToCheckout` fails due to a browser or network
+                // error, you should display the localized error message to your
+                // customer using `error.message`.
+                if (result.error) {
+                    alert(result.error.message);
+                }
+            });
+        }
+    </script>
+<script type="text/javascript">
+        
+    </script>
+<script type="text/javascript">
+        
+    </script>
+<script type="text/javascript">
+        
+    </script>
+<script type="text/javascript">
+        
+    </script>
+<script src="/livewire/livewire.js?id=90730a3b0e7144480175" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'kcSaUIJg9oEGzCwKkCPdhILwhdeEypePSDfRXrkT';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+<script>
+        document.addEventListener('alpine:init', () => {
+        Alpine.directive('tooltip', (el, directive, {Alpine})=>{
+            if(!directive.value)handleToolRoot(el, Alpine, directive);
+            else if(directive.value === 'panel')handleToolPanel(el, Alpine, directive);
+            else if(directive.value === 'panel-sub')handleToolPanelSub(el, Alpine, directive);
+            else if(directive.value === 'arrow')handleToolArrow(el, Alpine, directive);
+            else if(directive.value === 'arrow-sub')handleToolArrowSub(el, Alpine, directive);
+        })
+    })
+
+    const handleToolRoot = (el, Alpine, directive) => {
+        Alpine.bind(el, ()=>({
+            ['x-data'](){
+                return {
+                    tooltipVisible: false,
+                    tooltipText: 'Tooltip text',
+                    tooltipArrow: true,
+                    tooltipPosition: directive.modifiers[0] || 'top',
+                }
+            },
+            ['@mouseenter'](){
+                this.$data.tooltipVisible = true;
+            },
+            ['@mouseleave'](){
+                this.$data.tooltipVisible = false;
+            },
+            [':style'](){
+                return {
+                    'position': 'relative'
+                }
+            }
+        }))
+    }
+
+    const handleToolPanel = (el, Alpine, directive) => {
+        Alpine.bind(el, ()=>({
+            ['x-show'](){
+                return this.$data.tooltipVisible
+            },
+            [':class'](){
+                const { tooltipPosition } = this.$data;
+                return {
+                    'top-0 left-1/2 -translate-x-1/2 -mt-0.5 -translate-y-full' : tooltipPosition === 'top',
+                    'top-1/2 -translate-y-1/2 -ml-0.5 left-0 -translate-x-full' : tooltipPosition === 'left',
+                    'bottom-0 left-1/2 -translate-x-1/2 -mb-0.5 translate-y-full' : tooltipPosition === 'bottom',
+                    'top-1/2 -translate-y-1/2 -mr-0.5 right-0 translate-x-full' : tooltipPosition === 'right',
+                    'absolute w-auto text-sm' : true,
+                }
+            }
+        }))
+    }
+
+    const handleToolPanelSub = (el, Alpine)=>{
+        Alpine.bind(el, ()=>({
+            ['x-show'](){
+                return this.$data.tooltipVisible
+            },
+            [':class'](){
+                const { tooltipPosition } = this.$data;
+                return {'relative px-2 py-1 text-white bg-black rounded bg-opacity-90' : true,}
+            }
+        }))
+    }
+
+    const handleToolArrow = (el, Alpine, directive) => {
+        Alpine.bind(el, ()=>({
+            ['x-show'](){
+                return this.$data.tooltipArrow
+            },
+            [':class'](){
+                const { tooltipPosition } = this.$data;
+                return {
+                    'origin-top-left -rotate-45' : tooltipPosition === 'top',
+                    'origin-top-left rotate-45' : tooltipPosition === 'left',
+                    'origin-bottom-left rotate-45' : tooltipPosition === 'bottom',
+                    'origin-top-right -rotate-45' : tooltipPosition === 'right',
+                    'w-1.5 h-1.5 transform bg-black bg-opacity-90' : true,
+                }
+            }
+        }))
+    }
+
+    const handleToolArrowSub = (el, Alpine)=>{
+        Alpine.bind(el, ()=>({
+            ['x-show'](){
+                return this.$data.tooltipVisible
+            },
+            [':class'](){
+                const { tooltipPosition } = this.$data;
+                return {
+                    'top-0 left-1/2 -translate-x-1/2 -mt-0.5 -translate-y-full' : tooltipPosition === 'top',
+                    'top-1/2 -translate-y-1/2 -ml-0.5 left-0 -translate-x-full' : tooltipPosition === 'left',
+                    'bottom-0 left-1/2 -translate-x-1/2 -mb-0.5 translate-y-full' : tooltipPosition === 'bottom',
+                    'top-1/2 -translate-y-1/2 -mr-0.5 right-0 translate-x-full' : tooltipPosition === 'right',
+                    'absolute w-auto text-sm' : true,
+                }
+            }
+        }))
+    }
+    </script>
+</body>
+</html>

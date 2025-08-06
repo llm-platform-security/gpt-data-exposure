@@ -1,0 +1,1347 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--metatextblock--><title>Privacy Policy | 80days.me AI Trip Planner</title><meta name="description" content="Learn how 80days.me handles your data and respects your privacy when using our AI trip planning services." /> <meta property="og:url" content="https://80days.me/privacy" /><meta property="og:title" content="Privacy Policy | 80days.me AI Trip Planner" /><meta property="og:description" content="Learn how 80days.me handles your data and respects your privacy when using our AI trip planning services." /><meta property="og:type" content="website" /><meta property="og:image" content="https://static.tildacdn.com/tild3237-6562-4632-a162-303031613865/-/resize/504x/ethnoza_illustration.png" /><link rel="canonical" href="https://80days.me/privacy"><!--/metatextblock--><meta name="format-detection" content="telephone=no" /><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://ws.tildacdn.com"><link rel="dns-prefetch" href="https://static.tildacdn.com"><link rel="shortcut icon" href="https://static.tildacdn.com/tild6332-3938-4336-a531-613236623730/favicon_1.ico" type="image/x-icon" /><!-- Assets --><script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" async charset="utf-8"></script><link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/><link rel="stylesheet" href="/tilda-blocks-page23473429.min.css?t=1706319210" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&subset=latin,cyrillic" rel="stylesheet"><link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-2.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-cover-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="https://static.tildacdn.com/css/highlight.min.css" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-cards-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" /><link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';" /><script nomodule src="https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js" charset="utf-8"></script><script type="text/javascript">function t_onReady(func) {
+if (document.readyState != 'loading') {
+func();
+} else {
+document.addEventListener('DOMContentLoaded', func);
+}
+}
+function t_onFuncLoad(funcName, okFunc, time) {
+if (typeof window[funcName] === 'function') {
+okFunc();
+} else {
+setTimeout(function() {
+t_onFuncLoad(funcName, okFunc, time);
+},(time || 100));
+}
+}function t_throttle(fn, threshhold, scope) {return function () {fn.apply(scope || this, arguments);};}</script><script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js" charset="utf-8" onerror="this.loaderr='y';"></script> <script src="https://static.tildacdn.com/js/tilda-scripts-3.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script><script src="/tilda-blocks-page23473429.min.js?t=1706319210" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-lazyload-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-animation-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-cover-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/highlight.min.js" charset="utf-8" onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-menu-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-cards-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-skiplink-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script><script src="https://static.tildacdn.com/js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+<meta name="google-play-app" content="app-id=me.eightydays.app">
+<meta name="apple-itunes-app" content="app-id=1076909479">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2089658267791084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2089658267791084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<meta name="p:domain_verify" content="fe2039370da9c153e8492f15b2529828"/>
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
+<!-- GetYourGuide Analytics -->
+<script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="IUOFH39"></script>
+<!-- End GetYourGuide Analytics -->
+<meta name="wot-verification" content="2a2a4c7c6ac3873b03ac"/>
+
+
+<script type="text/javascript">window.dataLayer = window.dataLayer || [];</script><!-- Facebook Pixel Code --><script type="text/javascript" data-tilda-cookie-type="advertising">setTimeout(function(){!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='pltilda';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2089658267791084');
+fbq('track', 'PageView');
+}, 2000);</script><!-- End Facebook Pixel Code --><script type="text/javascript">(function () {
+if((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent))===false && typeof(sessionStorage)!='undefined' && sessionStorage.getItem('visited')!=='y' && document.visibilityState){
+var style=document.createElement('style');
+style.type='text/css';
+style.innerHTML='@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+document.getElementsByTagName('head')[0].appendChild(style);
+function t_setvisRecs(){
+var alr=document.querySelectorAll('.t-records');
+Array.prototype.forEach.call(alr, function(el) {
+el.classList.add("t-records_animated");
+});
+setTimeout(function () {
+Array.prototype.forEach.call(alr, function(el) {
+el.classList.add("t-records_visible");
+});
+sessionStorage.setItem("visited", "y");
+}, 400);
+} 
+document.addEventListener('DOMContentLoaded', t_setvisRecs);
+}
+})();</script></head><body class="t-body" style="margin:0;"><!--allrecords--><div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3096596" data-tilda-page-id="23473429" data-tilda-page-alias="privacy" data-tilda-formskey="5aaf9c2e23b21e14385512ce9d0287ce" data-tilda-lazy="yes" data-tilda-project-lang="EN" data-tilda-project-headcode="yes" ><!--header--><header id="t-header" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3096596" data-tilda-page-id="14575594" data-tilda-page-alias="header" data-tilda-formskey="5aaf9c2e23b21e14385512ce9d0287ce" data-tilda-lazy="yes" data-tilda-project-lang="EN" data-tilda-project-headcode="yes" ><div id="rec460687647" class="r t-rec" style=" " data-animationappear="off" data-record-type="131" ><!-- T123 --><div class="t123" ><div class="t-container_100 "><div class="t-width t-width_100 ">
+
+			    <div id="fb-root"></div>
+
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102762506743355");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+			 
+			
+</div> </div></div></div><div id="rec587276265" class="r t-rec t-screenmin-980px" style=" " data-record-type="257" data-screen-min="980px" ><!-- T228 --><div id="nav587276265marker"></div><div class="tmenu-mobile" ><div class="tmenu-mobile__container"><div class="tmenu-mobile__text t-name t-name_md" field="menu_mob_title">&nbsp;</div><button type="button" 
+class="t-menuburger t-menuburger_first " 
+aria-label="Navigation menu" 
+aria-expanded="false"><span style="background-color:#fff;"></span><span style="background-color:#fff;"></span><span style="background-color:#fff;"></span><span style="background-color:#fff;"></span></button><script>function t_menuburger_init(recid) {
+var rec = document.querySelector('#rec' + recid);
+if (!rec) return;
+var burger = rec.querySelector('.t-menuburger');
+if (!burger) return;
+var isSecondStyle = burger.classList.contains('t-menuburger_second');
+if (isSecondStyle && !window.isMobile && !('ontouchend' in document)) {
+burger.addEventListener('mouseenter', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-unhovered');
+burger.classList.add('t-menuburger-hovered');
+});
+burger.addEventListener('mouseleave', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-hovered');
+burger.classList.add('t-menuburger-unhovered');
+setTimeout(function() {
+burger.classList.remove('t-menuburger-unhovered');
+}, 300);
+});
+}
+burger.addEventListener('click', function() {
+if (!burger.closest('.tmenu-mobile') &&
+!burger.closest('.t450__burger_container') &&
+!burger.closest('.t466__container') &&
+!burger.closest('.t204__burger') &&
+!burger.closest('.t199__js__menu-toggler')) {
+burger.classList.toggle('t-menuburger-opened');
+burger.classList.remove('t-menuburger-unhovered');
+}
+});
+var menu = rec.querySelector('[data-menu="yes"]');
+if (!menu) return;
+var menuLinks = menu.querySelectorAll('.t-menu__link-item');
+var submenuClassList = ['t978__menu-link_hook', 't978__tm-link', 't966__tm-link', 't794__tm-link', 't-menusub__target-link'];
+Array.prototype.forEach.call(menuLinks, function (link) {
+link.addEventListener('click', function () {
+var isSubmenuHook = submenuClassList.some(function (submenuClass) {
+return link.classList.contains(submenuClass);
+});
+if (isSubmenuHook) return;
+burger.classList.remove('t-menuburger-opened');
+});
+});
+menu.addEventListener('clickedAnchorInTooltipMenu', function () {
+burger.classList.remove('t-menuburger-opened');
+});
+}
+t_onReady(function() {
+t_onFuncLoad('t_menuburger_init', function(){t_menuburger_init('587276265');});
+});</script><style>.t-menuburger {
+position: relative;
+flex-shrink: 0;
+width: 28px;
+height: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+outline: none;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: transform .5s ease-in-out;
+cursor: pointer;
+z-index: 999;
+}
+/*---menu burger lines---*/
+.t-menuburger span {
+display: block;
+position: absolute;
+width: 100%;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+height: 3px;
+background-color: #000;
+}
+.t-menuburger span:nth-child(1) {
+top: 0px;
+}
+.t-menuburger span:nth-child(2),
+.t-menuburger span:nth-child(3) {
+top: 8px;
+}
+.t-menuburger span:nth-child(4) {
+top: 16px;
+}
+/*menu burger big*/
+.t-menuburger__big {
+width: 42px;
+height: 32px;
+}
+.t-menuburger__big span {
+height: 5px;
+}
+.t-menuburger__big span:nth-child(2),
+.t-menuburger__big span:nth-child(3) {
+top: 13px;
+}
+.t-menuburger__big span:nth-child(4) {
+top: 26px;
+}
+/*menu burger small*/
+.t-menuburger__small {
+width: 22px;
+height: 14px;
+}
+.t-menuburger__small span {
+height: 2px;
+}
+.t-menuburger__small span:nth-child(2),
+.t-menuburger__small span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger__small span:nth-child(4) {
+top: 12px;
+}
+/*menu burger opened*/
+.t-menuburger-opened span:nth-child(1) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.t-menuburger-opened span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.t-menuburger-opened span:nth-child(4) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(1) {
+top: 6px;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(4) {
+top: 18px;
+}
+.t-menuburger-opened.t-menuburger__small span:nth-child(1),
+.t-menuburger-opened.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+/*---menu burger first style---*/
+@media (hover), (min-width:0\0) {
+.t-menuburger_first:hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_first:hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+/*---menu burger second style---*/
+.t-menuburger_second span:nth-child(2),
+.t-menuburger_second span:nth-child(3) {
+width: 80%;
+left: 20%;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_second.t-menuburger-hovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-hovered span:nth-child(3) {
+animation: t-menuburger-anim 0.3s ease-out normal forwards;
+}
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(3) {
+animation: t-menuburger-anim2 0.3s ease-out normal forwards;
+}
+}
+.t-menuburger_second.t-menuburger-opened span:nth-child(2),
+.t-menuburger_second.t-menuburger-opened span:nth-child(3){
+left: 0;
+right: 0;
+width: 100%!important;
+}
+/*---menu burger third style---*/
+.t-menuburger_third span:nth-child(4) {
+width: 70%;
+left: unset;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_third:not(.t-menuburger-opened):hover span:nth-child(4) {
+width: 100%;
+}
+}
+.t-menuburger_third.t-menuburger-opened span:nth-child(4) {
+width: 0!important;
+right: 50%;
+}
+/*---menu burger fourth style---*/
+.t-menuburger_fourth {
+height: 12px;
+}
+.t-menuburger_fourth.t-menuburger__small {
+height: 8px;
+}
+.t-menuburger_fourth.t-menuburger__big {
+height: 18px;
+}
+.t-menuburger_fourth span:nth-child(2),
+.t-menuburger_fourth span:nth-child(3) {
+top: 4px;
+opacity: 0;
+}
+.t-menuburger_fourth span:nth-child(4) {
+top: 8px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__big span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(4) {
+top: 12px;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(1),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(4) {
+top: 4px;
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(2),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(3) {
+opacity: 1;
+}
+/*---menu burger animations---*/
+@keyframes t-menuburger-anim {
+0% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+50% {
+width: 100%;
+left: 0;
+right: 0;
+}
+100% {
+width: 80%;
+left: 0;
+right: 20%;
+}
+}
+@keyframes t-menuburger-anim2 {
+0% {
+width: 80%;
+left: 0;
+}
+50% {
+width: 100%;
+right: 0;
+left: 0;
+}
+100% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+}</style> </div></div><style>.tmenu-mobile {
+background-color: #111;
+display: none;
+width: 100%;
+top: 0;
+z-index: 990;
+}
+.tmenu-mobile_positionfixed {
+position: fixed;
+}
+.tmenu-mobile__text {
+color: #fff;
+}
+.tmenu-mobile__container {
+min-height: 64px;
+padding: 20px;
+position: relative;
+box-sizing: border-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-justify-content: space-between;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+.tmenu-mobile__list {
+display: block;
+}
+.tmenu-mobile__burgerlogo {
+display: inline-block;
+font-size: 24px;
+font-weight: 400;
+white-space: nowrap;
+vertical-align: middle;
+}
+.tmenu-mobile__imglogo {
+height: auto;
+display: block;
+max-width: 300px!important;
+box-sizing: border-box;
+padding: 0;
+margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+.tmenu-mobile__menucontent_hidden {
+display: none;
+height: 100%;
+}
+.tmenu-mobile {
+display: block;
+}
+}
+@media screen and (max-width: 980px) {
+#rec587276265 .t-menuburger {
+-webkit-order: 1;
+-ms-flex-order: 1;
+order: 1;
+}
+}</style><style> #rec587276265 .tmenu-mobile__burgerlogo a { font-size: 18px; color: #000000; font-weight: 700; letter-spacing: 1px; }</style><style> #rec587276265 .tmenu-mobile__burgerlogo__title { font-size: 18px; color: #000000; font-weight: 700; letter-spacing: 1px; }</style><div id="nav587276265" class="t228 t228__positionabsolute tmenu-mobile__menucontent_hidden" style="background-color: rgba(255,255,255,0.0); height:80px; " data-bgcolor-hex="#ffffff" data-bgcolor-rgba="rgba(255,255,255,0.0)" data-navmarker="nav587276265marker" data-appearoffset="500px" data-bgopacity-two="" data-menushadow="0" data-bgopacity="0.0" data-menu-items-align="right" data-menu="yes"><div class="t228__maincontainer " style="height:80px;"><div class="t228__padding40px"></div><div class="t228__leftside"><div class="t228__leftcontainer"><a href="https://80days.me/" class="t228__imgwrapper" ><img class="t228__imglogo t228__imglogomobile" 
+src="https://static.tildacdn.com/tild6531-3634-4864-a635-643163393664/eightydaysme-logo.svg" 
+imgfield="img"
+style="max-width: 220px; width: 220px; min-width: 220px; height: auto; display: block;"
+alt=""></a></div></div><div class="t228__centerside t228__menualign_right"><nav class="t228__centercontainer"><ul role="list" class="t228__list t-menu__list"><li class="t228__list_item" 
+style="padding:0 15px 0 0;"><a class="t-menu__link-item" 
+href="https://eightydays.page.link/app" data-menu-submenu-hook="" data-menu-item-number="1"
+>Start</a></li><li class="t228__list_item" 
+style="padding:0 15px;"><a class="t-menu__link-item" 
+href="https://chat.openai.com/g/g-cu5TfwCdx-80days-multi-city-european-travel-beta"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="2"
+>GPTs</a></li><li class="t228__list_item" 
+style="padding:0 15px;"><a class="t-menu__link-item" 
+href="https://80days.me/how-it-works" data-menu-submenu-hook="" data-menu-item-number="3"
+>How it Works</a></li><li class="t228__list_item" 
+style="padding:0 0 0 15px;"><a class="t-menu__link-item" 
+href="https://app.eightydays.me" data-menu-submenu-hook="" data-menu-item-number="4"
+>Your Bookings</a></li></ul></nav></div><div class="t228__rightside"><div class="t228__rightcontainer"><div class="t228__right_descr"><a href="https://wa.me/16504415356" style="">(650) 441-5356</a></div><div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_whatsapp"><a href="https://wa.me/16504415356" target="_blank" rel="nofollow" aria-label="whatsapp" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM69.7626 28.9928C64.6172 23.841 57.7739 21.0027 50.4832 21C35.4616 21 23.2346 33.2252 23.2292 48.2522C23.2274 53.0557 24.4823 57.7446 26.8668 61.8769L23 76L37.4477 72.2105C41.4282 74.3822 45.9107 75.5262 50.4714 75.528H50.4823C65.5029 75.528 77.7299 63.301 77.7363 48.2749C77.7408 40.9915 74.9089 34.1446 69.7626 28.9928ZM62.9086 53.9588C62.2274 53.6178 58.8799 51.9708 58.2551 51.7435C57.6313 51.5161 57.1766 51.4024 56.7228 52.0845C56.269 52.7666 54.964 54.2998 54.5666 54.7545C54.1692 55.2092 53.7718 55.2656 53.0915 54.9246C52.9802 54.8688 52.8283 54.803 52.6409 54.7217C51.6819 54.3057 49.7905 53.4855 47.6151 51.5443C45.5907 49.7382 44.2239 47.5084 43.8265 46.8272C43.4291 46.1452 43.7837 45.7769 44.1248 45.4376C44.3292 45.2338 44.564 44.9478 44.7987 44.662C44.9157 44.5194 45.0328 44.3768 45.146 44.2445C45.4345 43.9075 45.56 43.6516 45.7302 43.3049C45.7607 43.2427 45.7926 43.1776 45.8272 43.1087C46.0545 42.654 45.9409 42.2565 45.7708 41.9155C45.6572 41.6877 45.0118 40.1167 44.4265 38.6923C44.1355 37.984 43.8594 37.3119 43.671 36.8592C43.1828 35.687 42.6883 35.69 42.2913 35.6924C42.2386 35.6928 42.1876 35.6931 42.1386 35.6906C41.7421 35.6706 41.2874 35.667 40.8336 35.667C40.3798 35.667 39.6423 35.837 39.0175 36.5191C38.9773 36.5631 38.9323 36.6111 38.8834 36.6633C38.1738 37.4209 36.634 39.0648 36.634 42.2002C36.634 45.544 39.062 48.7748 39.4124 49.2411L39.415 49.2444C39.4371 49.274 39.4767 49.3309 39.5333 49.4121C40.3462 50.5782 44.6615 56.7691 51.0481 59.5271C52.6732 60.2291 53.9409 60.6475 54.9303 60.9612C56.5618 61.4796 58.046 61.4068 59.22 61.2313C60.5286 61.0358 63.2487 59.5844 63.8161 57.9938C64.3836 56.4033 64.3836 55.0392 64.2136 54.7554C64.0764 54.5258 63.7545 54.3701 63.2776 54.1395C63.1633 54.0843 63.0401 54.0247 62.9086 53.9588Z" fill="#000000"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_instagram"><a href="https://www.instagram.com/80days.me" target="_blank" rel="nofollow" aria-label="instagram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#000000"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_tiktok"><a href="https://www.tiktok.com/@80days.me" target="_blank" rel="nofollow" aria-label="tiktok" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm5.495-74.986c-1.555.002-3.113.004-4.676.028l.001.002c-.04 5.37-.038 10.742-.035 16.12.001 3.007.003 6.015-.004 9.026-.006 1.01-.005 2.019-.004 3.027.002 2.712.005 5.421-.144 8.138-.022.754-.4 1.417-.767 2.06l-.088.154c-1.212 1.977-3.442 3.327-5.769 3.352-3.51.31-6.797-2.563-7.292-5.982-.004-.167-.01-.336-.016-.505-.034-.964-.069-1.948.298-2.846.522-1.482 1.524-2.791 2.843-3.646 1.806-1.255 4.222-1.442 6.29-.773 0-1.318.022-2.636.044-3.953.03-1.767.06-3.534.036-5.303-4.525-.846-9.358.585-12.808 3.59-3.044 2.58-5.005 6.372-5.38 10.336a34.879 34.879 0 0 0 .025 3.1c.431 4.876 3.392 9.418 7.6 11.9 2.54 1.496 5.516 2.309 8.496 2.139 4.858-.082 9.588-2.686 12.313-6.682 1.694-2.4 2.655-5.299 2.818-8.211.042-4.001.04-8.01.036-12.023 0-2.068-.002-4.138.003-6.208 1.082.708 2.189 1.4 3.376 1.938 2.727 1.293 5.746 1.919 8.75 2.017v-8.39c-3.206-.357-6.501-1.415-8.83-3.726-2.335-2.255-3.482-5.504-3.646-8.693-1.156.01-2.312.012-3.47.014Z" fill="#000000"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_facebook"><a href="https://www.facebook.com/80days.me" target="_blank" rel="nofollow" aria-label="facebook" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.6142 0 50-22.3858 50-50S77.6142 0 50 0 0 22.3858 0 50s22.3858 50 50 50Zm3.431-73.9854c-2.5161.0701-5.171.6758-7.0464 2.4577-1.5488 1.4326-2.329 3.5177-2.5044 5.602-.0534 1.4908-.0458 2.9855-.0382 4.4796.0058 1.1205.0115 2.2407-.0085 3.3587-.6888.005-1.3797.0036-2.0709.0021-.9218-.0019-1.8441-.0038-2.7626.0096 0 .8921.0013 1.7855.0026 2.6797.0026 1.791.0052 3.5853-.0026 5.3799.9185.0134 1.8409.0115 2.7627.0096.6912-.0015 1.382-.0029 2.0708.0021.0155 3.5565.0127 7.1128.0098 10.669-.0036 4.4452-.0072 8.8903.0252 13.3354 1.8903-.0134 3.7765-.0115 5.6633-.0095 1.4152.0014 2.8306.0028 4.2484-.0022.0117-4.0009.0088-7.9986.0058-11.9963-.0029-3.9979-.0058-7.9957.0059-11.9964.9533-.005 1.9067-.0036 2.86-.0021 1.2713.0019 2.5425.0038 3.8137-.0096.396-2.679.7335-5.3814.9198-8.0947-1.2576-.0058-2.5155-.0058-3.7734-.0058-1.2578 0-2.5157 0-3.7734-.0059 0-.4689-.0007-.9378-.0014-1.4066-.0022-1.4063-.0044-2.8123.0131-4.2188.198-1.0834 1.3158-1.9104 2.3992-1.8403h5.1476c.0117-2.8069.0117-5.602 0-8.4089-.6636 0-1.3273-.0007-1.9911-.0014-1.9915-.0022-3.9832-.0044-5.975.0131Z" fill="#000000"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_youtube"><a href="https://www.youtube.com/@eightydaysme" target="_blank" rel="nofollow" aria-label="youtube" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm17.9-67.374c3.838.346 6 2.695 6.474 6.438.332 2.612.626 6.352.626 10.375 0 7.064-.626 11.148-.626 11.148-.588 3.728-2.39 5.752-6.18 6.18-4.235.48-13.76.7-17.992.7-4.38 0-13.237-.184-17.66-.552-3.8-.317-6.394-2.44-6.916-6.218-.38-2.752-.626-6.022-.626-11.222 0-5.788.209-8.238.7-10.853.699-3.732 2.48-5.54 6.548-5.96C36.516 32.221 40.55 32 49.577 32c4.413 0 13.927.228 18.322.626Zm-23.216 9.761v14.374L58.37 49.5l-13.686-7.114Z" fill="#000000"/></svg></a></li><!-- /new soclinks --></ul></div></div></div><div class="t228__padding40px"></div></div></div><style>@media screen and (max-width: 980px) {
+#rec587276265 .t228__leftcontainer {
+padding: 20px;
+}
+#rec587276265 .t228__imglogo {
+padding: 20px 0;
+}
+#rec587276265 .t228 {
+position: static;
+}
+}</style><script>window.addEventListener('resize', t_throttle(function () {
+t_onFuncLoad('t_menu__setBGcolor', function () {
+t_menu__setBGcolor('587276265', '.t228');
+});
+}));
+t_onReady(function () {
+t_onFuncLoad('t_menu__highlightActiveLinks', function () {
+t_menu__highlightActiveLinks('.t228__list_item a');
+});
+t_onFuncLoad('t228__init', function () {
+t228__init('587276265');
+});
+t_onFuncLoad('t_menu__setBGcolor', function () {
+t_menu__setBGcolor('587276265', '.t228');
+});
+t_onFuncLoad('t_menu__interactFromKeyboard', function () {
+t_menu__interactFromKeyboard('587276265');
+});
+t_onFuncLoad('t_menu__createMobileMenu', function () {
+t_menu__createMobileMenu('587276265', '.t228');
+});
+});</script><!--[if IE 8]><style>#rec587276265 .t228 {
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9ffffff', endColorstr='#D9ffffff');
+}</style><![endif]--><style>@media (hover: hover), (min-width: 0\0) {#rec587276265 .t-btn:not(.t-animate_no-hover):hover {color: #ff4c7c !important;background-color: #ffffff !important;}#rec587276265 .t-btn:not(.t-animate_no-hover):focus-visible {color: #ff4c7c !important;background-color: #ffffff !important;}#rec587276265 .t-btn:not(.t-animate_no-hover) {transition-property: background-color, color, border-color, box-shadow;transition-duration: 0.2s;transition-timing-function: ease-in-out;}#rec587276265 .t-btntext:not(.t-animate_no-hover):hover {color: #ff4c7c !important;}#rec587276265 .t-btntext:not(.t-animate_no-hover):focus-visible {color: #ff4c7c !important;}}</style><style>#rec587276265 .t-menu__link-item{
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+#rec587276265 .t-menu__link-item,
+#rec587276265 .t-menu__link-item.t-active {
+opacity: 1 !important;
+}
+}</style><style> #rec587276265 .t228__leftcontainer a { font-size: 18px; color: #000000; font-weight: 700; letter-spacing: 1px; } #rec587276265 a.t-menu__link-item { font-size: 14px; color: #000000; font-weight: 500; } #rec587276265 .t228__right_langs_lang a { font-size: 14px; color: #000000; font-weight: 500; }</style><style> #rec587276265 .t228__logo { font-size: 18px; color: #000000; font-weight: 700; letter-spacing: 1px; }</style></div><div id="rec318397806" class="r t-rec t-rec_pt_0 t-rec_pb_0 t-screenmin-480px t-screenmax-980px" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="450" data-screen-min="480px" data-screen-max="980px" ><div class="t450__menu__content t450__beforeready " 
+style="top:30px; right: 30px; left: auto;" data-menu="yes" data-appearoffset="" data-hideoffset="1500"
+><div class="t450__burger_container t450__burger-nobg"><div class="t450__burger_bg t450__burger_cirqle" 
+style="; opacity:0.0;"></div><button type="button" 
+class="t-menuburger t-menuburger_first " 
+aria-label="Navigation menu" 
+aria-expanded="false"><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span></button><script>function t_menuburger_init(recid) {
+var rec = document.querySelector('#rec' + recid);
+if (!rec) return;
+var burger = rec.querySelector('.t-menuburger');
+if (!burger) return;
+var isSecondStyle = burger.classList.contains('t-menuburger_second');
+if (isSecondStyle && !window.isMobile && !('ontouchend' in document)) {
+burger.addEventListener('mouseenter', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-unhovered');
+burger.classList.add('t-menuburger-hovered');
+});
+burger.addEventListener('mouseleave', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-hovered');
+burger.classList.add('t-menuburger-unhovered');
+setTimeout(function() {
+burger.classList.remove('t-menuburger-unhovered');
+}, 300);
+});
+}
+burger.addEventListener('click', function() {
+if (!burger.closest('.tmenu-mobile') &&
+!burger.closest('.t450__burger_container') &&
+!burger.closest('.t466__container') &&
+!burger.closest('.t204__burger') &&
+!burger.closest('.t199__js__menu-toggler')) {
+burger.classList.toggle('t-menuburger-opened');
+burger.classList.remove('t-menuburger-unhovered');
+}
+});
+var menu = rec.querySelector('[data-menu="yes"]');
+if (!menu) return;
+var menuLinks = menu.querySelectorAll('.t-menu__link-item');
+var submenuClassList = ['t978__menu-link_hook', 't978__tm-link', 't966__tm-link', 't794__tm-link', 't-menusub__target-link'];
+Array.prototype.forEach.call(menuLinks, function (link) {
+link.addEventListener('click', function () {
+var isSubmenuHook = submenuClassList.some(function (submenuClass) {
+return link.classList.contains(submenuClass);
+});
+if (isSubmenuHook) return;
+burger.classList.remove('t-menuburger-opened');
+});
+});
+menu.addEventListener('clickedAnchorInTooltipMenu', function () {
+burger.classList.remove('t-menuburger-opened');
+});
+}
+t_onReady(function() {
+t_onFuncLoad('t_menuburger_init', function(){t_menuburger_init('318397806');});
+});</script><style>.t-menuburger {
+position: relative;
+flex-shrink: 0;
+width: 28px;
+height: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+outline: none;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: transform .5s ease-in-out;
+cursor: pointer;
+z-index: 999;
+}
+/*---menu burger lines---*/
+.t-menuburger span {
+display: block;
+position: absolute;
+width: 100%;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+height: 3px;
+background-color: #000;
+}
+.t-menuburger span:nth-child(1) {
+top: 0px;
+}
+.t-menuburger span:nth-child(2),
+.t-menuburger span:nth-child(3) {
+top: 8px;
+}
+.t-menuburger span:nth-child(4) {
+top: 16px;
+}
+/*menu burger big*/
+.t-menuburger__big {
+width: 42px;
+height: 32px;
+}
+.t-menuburger__big span {
+height: 5px;
+}
+.t-menuburger__big span:nth-child(2),
+.t-menuburger__big span:nth-child(3) {
+top: 13px;
+}
+.t-menuburger__big span:nth-child(4) {
+top: 26px;
+}
+/*menu burger small*/
+.t-menuburger__small {
+width: 22px;
+height: 14px;
+}
+.t-menuburger__small span {
+height: 2px;
+}
+.t-menuburger__small span:nth-child(2),
+.t-menuburger__small span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger__small span:nth-child(4) {
+top: 12px;
+}
+/*menu burger opened*/
+.t-menuburger-opened span:nth-child(1) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.t-menuburger-opened span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.t-menuburger-opened span:nth-child(4) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(1) {
+top: 6px;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(4) {
+top: 18px;
+}
+.t-menuburger-opened.t-menuburger__small span:nth-child(1),
+.t-menuburger-opened.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+/*---menu burger first style---*/
+@media (hover), (min-width:0\0) {
+.t-menuburger_first:hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_first:hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+/*---menu burger second style---*/
+.t-menuburger_second span:nth-child(2),
+.t-menuburger_second span:nth-child(3) {
+width: 80%;
+left: 20%;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_second.t-menuburger-hovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-hovered span:nth-child(3) {
+animation: t-menuburger-anim 0.3s ease-out normal forwards;
+}
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(3) {
+animation: t-menuburger-anim2 0.3s ease-out normal forwards;
+}
+}
+.t-menuburger_second.t-menuburger-opened span:nth-child(2),
+.t-menuburger_second.t-menuburger-opened span:nth-child(3){
+left: 0;
+right: 0;
+width: 100%!important;
+}
+/*---menu burger third style---*/
+.t-menuburger_third span:nth-child(4) {
+width: 70%;
+left: unset;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_third:not(.t-menuburger-opened):hover span:nth-child(4) {
+width: 100%;
+}
+}
+.t-menuburger_third.t-menuburger-opened span:nth-child(4) {
+width: 0!important;
+right: 50%;
+}
+/*---menu burger fourth style---*/
+.t-menuburger_fourth {
+height: 12px;
+}
+.t-menuburger_fourth.t-menuburger__small {
+height: 8px;
+}
+.t-menuburger_fourth.t-menuburger__big {
+height: 18px;
+}
+.t-menuburger_fourth span:nth-child(2),
+.t-menuburger_fourth span:nth-child(3) {
+top: 4px;
+opacity: 0;
+}
+.t-menuburger_fourth span:nth-child(4) {
+top: 8px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__big span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(4) {
+top: 12px;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(1),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(4) {
+top: 4px;
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(2),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(3) {
+opacity: 1;
+}
+/*---menu burger animations---*/
+@keyframes t-menuburger-anim {
+0% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+50% {
+width: 100%;
+left: 0;
+right: 0;
+}
+100% {
+width: 80%;
+left: 0;
+right: 20%;
+}
+}
+@keyframes t-menuburger-anim2 {
+0% {
+width: 80%;
+left: 0;
+}
+50% {
+width: 100%;
+right: 0;
+left: 0;
+}
+100% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+}</style> </div></div><!-- t450 --><div id="nav318397806marker"></div><div class="t450__overlay"><div class="t450__overlay_bg" 
+style=" "></div></div><div id="nav318397806" class="t450 " data-tooltip-hook="#menuopen" 
+style="max-width: 260px;"><button type="button" 
+class="t450__close-button t450__close t450_opened "
+aria-label="Close menu"><div class="t450__close_icon"><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span></div></button><div class="t450__container t-align_left"><div class="t450__top"><div class="t450__logowrapper"><a href="https://80days.me"
+><div class="t450__logo t-heading t-heading_xs" field="title">Booking<br />multi-city Eurotrips<br />made easy</div></a></div><nav class="t450__menu"><ul role="list" class="t450__list t-menu__list"><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://testflight.apple.com/join/mCjFFFXf" data-menu-submenu-hook="" data-menu-item-number="1" 
+>BETA-version</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://eightydays.page.link/app" data-menu-submenu-hook="" data-menu-item-number="2" 
+>Start</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://app.eightydays.me/" data-menu-submenu-hook="" data-menu-item-number="3" 
+>Your Bookings</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/how-it-works" data-menu-submenu-hook="" data-menu-item-number="4" 
+>How it works?</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/faq" data-menu-submenu-hook="" data-menu-item-number="5" 
+>FAQ</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://chat.openai.com/g/g-cu5TfwCdx-80days-multi-city-european-travel-beta" data-menu-submenu-hook="" data-menu-item-number="6" 
+>GPT Store</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://apps.apple.com/us/app/eightydays-me-multi-city-trips/id1076909479"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="7" 
+>AppStore</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://play.google.com/store/apps/details?id=me.eightydays.app"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="8" 
+>Google Play</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://www.trustpilot.com/review/eightydays.me"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="9" 
+>Reviews</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/referral" data-menu-submenu-hook="" data-menu-item-number="10" 
+>Referral Program</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/terms" data-menu-submenu-hook="" data-menu-item-number="11" 
+>Terms of use</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://wa.me/16504415356"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="12" 
+>Chat With Us</a></li></ul></nav></div><div class="t450__rightside"><div class="t450__rightcontainer"><div class="t450__right_descr t-descr t-descr_xs" field="descr"><span style="font-size: 18px;">1-650-441-5356</span><br /><br />80days's algorithms design trips based on actual visits, the best time to travel, and prices from 100+ official partners, without hidden inconvenient airports and any connecting flights.<br /><br /><br /></div><div class="t450__right_social_links"><div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_instagram"><a href="https://www.instagram.com/80days.me/" target="_blank" rel="nofollow" aria-label="instagram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_whatsapp"><a href="https://wa.me/16504415356?text=Hello%2C%20I%27d%20like%20to%20book%20a%20trip." target="_blank" rel="nofollow" aria-label="whatsapp" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM69.7626 28.9928C64.6172 23.841 57.7739 21.0027 50.4832 21C35.4616 21 23.2346 33.2252 23.2292 48.2522C23.2274 53.0557 24.4823 57.7446 26.8668 61.8769L23 76L37.4477 72.2105C41.4282 74.3822 45.9107 75.5262 50.4714 75.528H50.4823C65.5029 75.528 77.7299 63.301 77.7363 48.2749C77.7408 40.9915 74.9089 34.1446 69.7626 28.9928ZM62.9086 53.9588C62.2274 53.6178 58.8799 51.9708 58.2551 51.7435C57.6313 51.5161 57.1766 51.4024 56.7228 52.0845C56.269 52.7666 54.964 54.2998 54.5666 54.7545C54.1692 55.2092 53.7718 55.2656 53.0915 54.9246C52.9802 54.8688 52.8283 54.803 52.6409 54.7217C51.6819 54.3057 49.7905 53.4855 47.6151 51.5443C45.5907 49.7382 44.2239 47.5084 43.8265 46.8272C43.4291 46.1452 43.7837 45.7769 44.1248 45.4376C44.3292 45.2338 44.564 44.9478 44.7987 44.662C44.9157 44.5194 45.0328 44.3768 45.146 44.2445C45.4345 43.9075 45.56 43.6516 45.7302 43.3049C45.7607 43.2427 45.7926 43.1776 45.8272 43.1087C46.0545 42.654 45.9409 42.2565 45.7708 41.9155C45.6572 41.6877 45.0118 40.1167 44.4265 38.6923C44.1355 37.984 43.8594 37.3119 43.671 36.8592C43.1828 35.687 42.6883 35.69 42.2913 35.6924C42.2386 35.6928 42.1876 35.6931 42.1386 35.6906C41.7421 35.6706 41.2874 35.667 40.8336 35.667C40.3798 35.667 39.6423 35.837 39.0175 36.5191C38.9773 36.5631 38.9323 36.6111 38.8834 36.6633C38.1738 37.4209 36.634 39.0648 36.634 42.2002C36.634 45.544 39.062 48.7748 39.4124 49.2411L39.415 49.2444C39.4371 49.274 39.4767 49.3309 39.5333 49.4121C40.3462 50.5782 44.6615 56.7691 51.0481 59.5271C52.6732 60.2291 53.9409 60.6475 54.9303 60.9612C56.5618 61.4796 58.046 61.4068 59.22 61.2313C60.5286 61.0358 63.2487 59.5844 63.8161 57.9938C64.3836 56.4033 64.3836 55.0392 64.2136 54.7554C64.0764 54.5258 63.7545 54.3701 63.2776 54.1395C63.1633 54.0843 63.0401 54.0247 62.9086 53.9588Z" fill="#ffffff"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_phone"><a href="tel:+16504415356" target="_blank" rel="nofollow" aria-label="phone" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM50.0089 29H51.618C56.4915 29.0061 61.1633 30.9461 64.6073 34.3938C68.0512 37.8415 69.9856 42.5151 69.9856 47.3879V48.9968C69.9338 49.5699 69.6689 50.1027 69.2433 50.49C68.8177 50.8772 68.2623 51.0908 67.6868 51.0884H67.5029C66.8966 51.0358 66.3359 50.745 65.9437 50.2796C65.5516 49.8143 65.36 49.2124 65.4109 48.6061V47.3879C65.4109 43.7303 63.9578 40.2225 61.3711 37.6362C58.7844 35.0499 55.2761 33.597 51.618 33.597H50.3997C49.79 33.6488 49.1847 33.4563 48.7169 33.0619C48.2492 32.6675 47.9573 32.1035 47.9054 31.4939C47.8536 30.8843 48.0461 30.279 48.4406 29.8114C48.835 29.3437 49.3992 29.0518 50.0089 29ZM56.889 49.0132C56.4579 48.5821 56.2157 47.9975 56.2157 47.3879C56.2157 46.1687 55.7313 44.9994 54.869 44.1373C54.0068 43.2752 52.8374 42.7909 51.618 42.7909C51.0083 42.7909 50.4236 42.5488 49.9925 42.1177C49.5614 41.6867 49.3192 41.102 49.3192 40.4924C49.3192 39.8828 49.5614 39.2982 49.9925 38.8672C50.4236 38.4361 51.0083 38.1939 51.618 38.1939C54.0568 38.1939 56.3956 39.1626 58.1201 40.8868C59.8445 42.611 60.8133 44.9495 60.8133 47.3879C60.8133 47.9975 60.5711 48.5821 60.14 49.0132C59.7089 49.4442 59.1242 49.6864 58.5145 49.6864C57.9048 49.6864 57.3201 49.4442 56.889 49.0132ZM66.4011 69.0663L66.401 69.0846C66.3999 69.5725 66.2967 70.0547 66.0981 70.5003C65.8998 70.9451 65.611 71.3435 65.2499 71.67C64.8674 72.0182 64.4123 72.2771 63.9176 72.428C63.4516 72.5702 62.9613 72.6132 62.4782 72.5546C58.2475 72.53 53.4102 70.5344 49.1802 68.1761C44.8871 65.7827 41.0444 62.915 38.8019 60.9903L38.7681 60.9613L38.7367 60.9299C32.3303 54.5198 28.2175 46.1735 27.0362 37.186C26.9623 36.6765 27.0018 36.157 27.1519 35.6645C27.3027 35.1695 27.5615 34.7142 27.9094 34.3314C28.2397 33.9658 28.6436 33.6742 29.0944 33.4757C29.5447 33.2775 30.0316 33.1766 30.5234 33.1796H37.4967C38.299 33.1636 39.0826 33.4244 39.7156 33.9184C40.3527 34.4156 40.7979 35.1184 40.9754 35.9071L41.0038 36.0335V36.1631C41.0038 36.4901 41.0787 36.795 41.1847 37.2268C41.2275 37.4012 41.2755 37.5965 41.3256 37.8221L41.326 37.8238C41.583 38.9896 41.925 40.1351 42.3491 41.251L42.7322 42.259L38.4899 44.26L38.4846 44.2625C38.204 44.3914 37.986 44.6263 37.8784 44.9157L37.8716 44.934L37.8642 44.952C37.7476 45.236 37.7476 45.5545 37.8642 45.8385L37.9144 45.9608L37.9359 46.0912C38.0802 46.9648 38.5603 48.0981 39.4062 49.4169C40.243 50.7215 41.3964 52.1437 42.808 53.5872C45.6206 56.4634 49.3981 59.3625 53.5798 61.5387C53.8533 61.6395 54.1552 61.6343 54.4257 61.5231L54.4437 61.5157L54.462 61.5089C54.7501 61.4016 54.9842 61.1848 55.1133 60.9057L55.1148 60.9023L57.0232 56.6591L58.0397 57.03C59.1934 57.4509 60.3737 57.7947 61.5729 58.0592L61.5785 58.0605L61.5841 58.0618C62.152 58.1929 62.7727 58.3042 63.3802 58.3942L63.4231 58.4006L63.4654 58.4101C64.2537 58.5877 64.956 59.0332 65.453 59.6706C65.9429 60.2991 66.2033 61.0758 66.1916 61.8721L66.4011 69.0663Z" fill="#ffffff"/></svg></a></li><!-- /new soclinks --></ul></div></div></div></div></div></div><script>t_onReady(function() {
+var rec = document.querySelector('#rec318397806');
+if (!rec) return;
+rec.setAttribute('data-animationappear', 'off');
+rec.style.opacity = 1;
+t_onFuncLoad('t450_initMenu', function () {
+t450_initMenu('318397806');
+});
+});</script><script>t_onReady(function () {
+var rec = document.querySelector('#rec318397806');
+if (!rec) return;
+var wrapperBlock = rec.querySelector('.t450');
+if (wrapperBlock) {
+wrapperBlock.classList.remove('t450__beforeready');
+}
+t_onFuncLoad('t450_appearMenu', function () {
+t450_appearMenu('318397806');
+window.addEventListener('scroll', t_throttle(function () {
+t450_appearMenu('318397806');
+}));
+});
+});</script><style>#rec318397806 .t-menu__link-item{
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+#rec318397806 .t-menu__link-item,
+#rec318397806 .t-menu__link-item.t-active {
+opacity: 1 !important;
+}
+}</style><style> #rec318397806 .t450__logo { font-size: 18px; }</style><style> #rec318397806 .t450__logowrapper a { font-size: 18px; } #rec318397806 a.t-menu__link-item { font-size: 18px; color: #ffffff; letter-spacing: 0.5px; }</style></div><div id="rec318409558" class="r t-rec t-rec_pt_0 t-rec_pb_0 t-screenmax-480px" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="450" data-screen-max="480px" ><div class="t450__menu__content t450__beforeready " 
+style="top:20px; right: 20px; left: auto;" data-menu="yes" data-appearoffset="" data-hideoffset="1500"
+><div class="t450__burger_container t450__burger-nobg"><div class="t450__burger_bg t450__burger_cirqle" 
+style="; opacity:0.0;"></div><button type="button" 
+class="t-menuburger t-menuburger_first " 
+aria-label="Navigation menu" 
+aria-expanded="false"><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span><span style="background-color:#b0b0b0;"></span></button><script>function t_menuburger_init(recid) {
+var rec = document.querySelector('#rec' + recid);
+if (!rec) return;
+var burger = rec.querySelector('.t-menuburger');
+if (!burger) return;
+var isSecondStyle = burger.classList.contains('t-menuburger_second');
+if (isSecondStyle && !window.isMobile && !('ontouchend' in document)) {
+burger.addEventListener('mouseenter', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-unhovered');
+burger.classList.add('t-menuburger-hovered');
+});
+burger.addEventListener('mouseleave', function() {
+if (burger.classList.contains('t-menuburger-opened')) return;
+burger.classList.remove('t-menuburger-hovered');
+burger.classList.add('t-menuburger-unhovered');
+setTimeout(function() {
+burger.classList.remove('t-menuburger-unhovered');
+}, 300);
+});
+}
+burger.addEventListener('click', function() {
+if (!burger.closest('.tmenu-mobile') &&
+!burger.closest('.t450__burger_container') &&
+!burger.closest('.t466__container') &&
+!burger.closest('.t204__burger') &&
+!burger.closest('.t199__js__menu-toggler')) {
+burger.classList.toggle('t-menuburger-opened');
+burger.classList.remove('t-menuburger-unhovered');
+}
+});
+var menu = rec.querySelector('[data-menu="yes"]');
+if (!menu) return;
+var menuLinks = menu.querySelectorAll('.t-menu__link-item');
+var submenuClassList = ['t978__menu-link_hook', 't978__tm-link', 't966__tm-link', 't794__tm-link', 't-menusub__target-link'];
+Array.prototype.forEach.call(menuLinks, function (link) {
+link.addEventListener('click', function () {
+var isSubmenuHook = submenuClassList.some(function (submenuClass) {
+return link.classList.contains(submenuClass);
+});
+if (isSubmenuHook) return;
+burger.classList.remove('t-menuburger-opened');
+});
+});
+menu.addEventListener('clickedAnchorInTooltipMenu', function () {
+burger.classList.remove('t-menuburger-opened');
+});
+}
+t_onReady(function() {
+t_onFuncLoad('t_menuburger_init', function(){t_menuburger_init('318409558');});
+});</script><style>.t-menuburger {
+position: relative;
+flex-shrink: 0;
+width: 28px;
+height: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+outline: none;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: transform .5s ease-in-out;
+cursor: pointer;
+z-index: 999;
+}
+/*---menu burger lines---*/
+.t-menuburger span {
+display: block;
+position: absolute;
+width: 100%;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+height: 3px;
+background-color: #000;
+}
+.t-menuburger span:nth-child(1) {
+top: 0px;
+}
+.t-menuburger span:nth-child(2),
+.t-menuburger span:nth-child(3) {
+top: 8px;
+}
+.t-menuburger span:nth-child(4) {
+top: 16px;
+}
+/*menu burger big*/
+.t-menuburger__big {
+width: 42px;
+height: 32px;
+}
+.t-menuburger__big span {
+height: 5px;
+}
+.t-menuburger__big span:nth-child(2),
+.t-menuburger__big span:nth-child(3) {
+top: 13px;
+}
+.t-menuburger__big span:nth-child(4) {
+top: 26px;
+}
+/*menu burger small*/
+.t-menuburger__small {
+width: 22px;
+height: 14px;
+}
+.t-menuburger__small span {
+height: 2px;
+}
+.t-menuburger__small span:nth-child(2),
+.t-menuburger__small span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger__small span:nth-child(4) {
+top: 12px;
+}
+/*menu burger opened*/
+.t-menuburger-opened span:nth-child(1) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.t-menuburger-opened span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.t-menuburger-opened span:nth-child(4) {
+top: 8px;
+width: 0%;
+left: 50%;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(1) {
+top: 6px;
+}
+.t-menuburger-opened.t-menuburger__big span:nth-child(4) {
+top: 18px;
+}
+.t-menuburger-opened.t-menuburger__small span:nth-child(1),
+.t-menuburger-opened.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+/*---menu burger first style---*/
+@media (hover), (min-width:0\0) {
+.t-menuburger_first:hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_first:hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_first.t-menuburger__big:hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+/*---menu burger second style---*/
+.t-menuburger_second span:nth-child(2),
+.t-menuburger_second span:nth-child(3) {
+width: 80%;
+left: 20%;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_second.t-menuburger-hovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-hovered span:nth-child(3) {
+animation: t-menuburger-anim 0.3s ease-out normal forwards;
+}
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(2),
+.t-menuburger_second.t-menuburger-unhovered span:nth-child(3) {
+animation: t-menuburger-anim2 0.3s ease-out normal forwards;
+}
+}
+.t-menuburger_second.t-menuburger-opened span:nth-child(2),
+.t-menuburger_second.t-menuburger-opened span:nth-child(3){
+left: 0;
+right: 0;
+width: 100%!important;
+}
+/*---menu burger third style---*/
+.t-menuburger_third span:nth-child(4) {
+width: 70%;
+left: unset;
+right: 0;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_third:not(.t-menuburger-opened):hover span:nth-child(4) {
+width: 100%;
+}
+}
+.t-menuburger_third.t-menuburger-opened span:nth-child(4) {
+width: 0!important;
+right: 50%;
+}
+/*---menu burger fourth style---*/
+.t-menuburger_fourth {
+height: 12px;
+}
+.t-menuburger_fourth.t-menuburger__small {
+height: 8px;
+}
+.t-menuburger_fourth.t-menuburger__big {
+height: 18px;
+}
+.t-menuburger_fourth span:nth-child(2),
+.t-menuburger_fourth span:nth-child(3) {
+top: 4px;
+opacity: 0;
+}
+.t-menuburger_fourth span:nth-child(4) {
+top: 8px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__small span:nth-child(3) {
+top: 3px;
+}
+.t-menuburger_fourth.t-menuburger__small span:nth-child(4) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(2),
+.t-menuburger_fourth.t-menuburger__big span:nth-child(3) {
+top: 6px;
+}
+.t-menuburger_fourth.t-menuburger__big span:nth-child(4) {
+top: 12px;
+}
+@media (hover), (min-width:0\0) {
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(1px);
+}
+.t-menuburger_fourth:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-1px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(1) {
+transform: translateY(3px);
+}
+.t-menuburger_fourth.t-menuburger__big:not(.t-menuburger-opened):hover span:nth-child(4) {
+transform: translateY(-3px);
+}
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(1),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(4) {
+top: 4px;
+}
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(2),
+.t-menuburger_fourth.t-menuburger-opened span:nth-child(3) {
+opacity: 1;
+}
+/*---menu burger animations---*/
+@keyframes t-menuburger-anim {
+0% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+50% {
+width: 100%;
+left: 0;
+right: 0;
+}
+100% {
+width: 80%;
+left: 0;
+right: 20%;
+}
+}
+@keyframes t-menuburger-anim2 {
+0% {
+width: 80%;
+left: 0;
+}
+50% {
+width: 100%;
+right: 0;
+left: 0;
+}
+100% {
+width: 80%;
+left: 20%;
+right: 0;
+}
+}</style> </div></div><!-- t450 --><div id="nav318409558marker"></div><div class="t450__overlay"><div class="t450__overlay_bg" 
+style=" "></div></div><div id="nav318409558" class="t450 " data-tooltip-hook="#menuopen" 
+style="max-width: 260px;"><button type="button" 
+class="t450__close-button t450__close t450_opened "
+aria-label="Close menu"><div class="t450__close_icon"><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span><span style="background-color:#ffffff;"></span></div></button><div class="t450__container t-align_left"><div class="t450__top"><div class="t450__logowrapper"><a href="/"
+><div class="t450__logo t-heading t-heading_xs" field="title">Booking<br />multi-city Eurotrips<br />made easy</div></a></div><nav class="t450__menu"><ul role="list" class="t450__list t-menu__list"><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://testflight.apple.com/join/mCjFFFXf" data-menu-submenu-hook="" data-menu-item-number="1" 
+>BETA-version</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://eightydays.page.link/app" data-menu-submenu-hook="" data-menu-item-number="2" 
+>Start</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://app.eightydays.me/" data-menu-submenu-hook="" data-menu-item-number="3" 
+>My Bookings</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/how-it-works" data-menu-submenu-hook="" data-menu-item-number="4" 
+>How it Works</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/faq" data-menu-submenu-hook="" data-menu-item-number="5" 
+>F.A.Q.</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://chat.openai.com/g/g-cu5TfwCdx-80days-multi-city-european-travel-beta" data-menu-submenu-hook="" data-menu-item-number="6" 
+>GPT Store</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://apps.apple.com/us/app/eightydays-me-multi-city-trips/id1076909479"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="7" 
+>AppStore</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://play.google.com/store/apps/details?id=me.eightydays.app"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="8" 
+>Google Play</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://www.trustpilot.com/review/eightydays.me"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="9" 
+>Reviews</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://80days.me/terms" data-menu-submenu-hook="" data-menu-item-number="10" 
+>Terms of use</a></li><li class="t450__list_item" 
+><a class="t-menu__link-item " 
+href="https://wa.me/16504415356"
+target="_blank" data-menu-submenu-hook="" data-menu-item-number="11" 
+>Chat With Us</a></li></ul></nav></div><div class="t450__rightside"><div class="t450__rightcontainer"><div class="t450__right_descr t-descr t-descr_xs" field="descr">80days's algorithms design trips based on actual visits, the best time to travel, and prices from 100+ official partners, without hidden inconvenient airports and any connecting flights.</div><div class="t450__right_social_links"><div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_instagram"><a href="https://www.instagram.com/80days.me/" target="_blank" rel="nofollow" aria-label="instagram" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_whatsapp"><a href="https://wa.me/16504415356" target="_blank" rel="nofollow" aria-label="whatsapp" style="width: 30px; height: 30px;"><svg class="t-sociallinks__svg" role="presentation" width=30px height=30px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM69.7626 28.9928C64.6172 23.841 57.7739 21.0027 50.4832 21C35.4616 21 23.2346 33.2252 23.2292 48.2522C23.2274 53.0557 24.4823 57.7446 26.8668 61.8769L23 76L37.4477 72.2105C41.4282 74.3822 45.9107 75.5262 50.4714 75.528H50.4823C65.5029 75.528 77.7299 63.301 77.7363 48.2749C77.7408 40.9915 74.9089 34.1446 69.7626 28.9928ZM62.9086 53.9588C62.2274 53.6178 58.8799 51.9708 58.2551 51.7435C57.6313 51.5161 57.1766 51.4024 56.7228 52.0845C56.269 52.7666 54.964 54.2998 54.5666 54.7545C54.1692 55.2092 53.7718 55.2656 53.0915 54.9246C52.9802 54.8688 52.8283 54.803 52.6409 54.7217C51.6819 54.3057 49.7905 53.4855 47.6151 51.5443C45.5907 49.7382 44.2239 47.5084 43.8265 46.8272C43.4291 46.1452 43.7837 45.7769 44.1248 45.4376C44.3292 45.2338 44.564 44.9478 44.7987 44.662C44.9157 44.5194 45.0328 44.3768 45.146 44.2445C45.4345 43.9075 45.56 43.6516 45.7302 43.3049C45.7607 43.2427 45.7926 43.1776 45.8272 43.1087C46.0545 42.654 45.9409 42.2565 45.7708 41.9155C45.6572 41.6877 45.0118 40.1167 44.4265 38.6923C44.1355 37.984 43.8594 37.3119 43.671 36.8592C43.1828 35.687 42.6883 35.69 42.2913 35.6924C42.2386 35.6928 42.1876 35.6931 42.1386 35.6906C41.7421 35.6706 41.2874 35.667 40.8336 35.667C40.3798 35.667 39.6423 35.837 39.0175 36.5191C38.9773 36.5631 38.9323 36.6111 38.8834 36.6633C38.1738 37.4209 36.634 39.0648 36.634 42.2002C36.634 45.544 39.062 48.7748 39.4124 49.2411L39.415 49.2444C39.4371 49.274 39.4767 49.3309 39.5333 49.4121C40.3462 50.5782 44.6615 56.7691 51.0481 59.5271C52.6732 60.2291 53.9409 60.6475 54.9303 60.9612C56.5618 61.4796 58.046 61.4068 59.22 61.2313C60.5286 61.0358 63.2487 59.5844 63.8161 57.9938C64.3836 56.4033 64.3836 55.0392 64.2136 54.7554C64.0764 54.5258 63.7545 54.3701 63.2776 54.1395C63.1633 54.0843 63.0401 54.0247 62.9086 53.9588Z" fill="#ffffff"/></svg></a></li><!-- /new soclinks --></ul></div></div><div class="t450__right_descr t-descr t-descr_xs" field="descr2"><a href="https://wa.me/16504415356">(650) 441-5356</a></div></div></div></div></div><script>t_onReady(function() {
+var rec = document.querySelector('#rec318409558');
+if (!rec) return;
+rec.setAttribute('data-animationappear', 'off');
+rec.style.opacity = 1;
+t_onFuncLoad('t450_initMenu', function () {
+t450_initMenu('318409558');
+});
+});</script><script>t_onReady(function () {
+var rec = document.querySelector('#rec318409558');
+if (!rec) return;
+var wrapperBlock = rec.querySelector('.t450');
+if (wrapperBlock) {
+wrapperBlock.classList.remove('t450__beforeready');
+}
+t_onFuncLoad('t450_appearMenu', function () {
+t450_appearMenu('318409558');
+window.addEventListener('scroll', t_throttle(function () {
+t450_appearMenu('318409558');
+}));
+});
+});</script><style>#rec318409558 .t-menu__link-item{
+}
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+#rec318409558 .t-menu__link-item,
+#rec318409558 .t-menu__link-item.t-active {
+opacity: 1 !important;
+}
+}</style><style> #rec318409558 .t450__logo { font-size: 18px; }</style><style> #rec318409558 .t450__logowrapper a { font-size: 18px; } #rec318409558 a.t-menu__link-item { font-size: 18px; color: #ffffff; letter-spacing: 0.5px; }</style></div></header><!--/header--><div id="rec586062065" class="r t-rec" style=" " data-animationappear="off" data-record-type="160" ><!-- T148 --><!-- cover --><div class="t-cover"
+id="recorddiv586062065"
+bgimgfield="img"
+style="height:30vh; background-image:url('https://static.tildacdn.com/tild3237-6562-4632-a162-303031613865/-/resize/20x/ethnoza_illustration.png');"
+><div class="t-cover__carrier" id="coverCarry586062065"data-content-cover-id="586062065"data-content-cover-bg="https://static.tildacdn.com/tild3237-6562-4632-a162-303031613865/ethnoza_illustration.png"data-display-changed="true"data-content-cover-height="30vh"data-content-cover-parallax=""style="height:30vh;background-attachment:scroll; "itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.com/tild3237-6562-4632-a162-303031613865/ethnoza_illustration.png"></div><div class="t-cover__filter" style="height:30vh;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fe000000', endColorstr='#fe000000');"></div><div class="t148"><div class="t-container_100"> <div class="t-cover__wrapper t-valign_bottom" style="height:30vh;"> </div></div></div></div></div><div id="rec579311376" class="r t-rec t-rec_pt_90 t-rec_pb_0" style="padding-top:90px;padding-bottom:0px;background-color:#ffffff; " data-record-type="128" data-bg-color="#ffffff"><!-- T120 --><div class="t120"><div class="t-container t-align_left"><div class="t-col t-col_8 t-prefix_2"><h1 class="t120__title t-heading t-heading_sm" field="title">80days.me: Privacy Policy<br /></h1> <div class="t120__descr t-descr t-descr_xs" field="subtitle">Effective Date: 17th April 2023</div> </div></div></div><style> #rec579311376 .t120__title { color: #202124; } #rec579311376 .t120__descr { color: #80868b; font-weight: 400; }</style></div><div id="rec586079238" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px;background-color:#ffffff; " data-record-type="128" data-bg-color="#ffffff"><!-- T120 --><div class="t120"><div class="t-container t-align_left"><div class="t-col t-col_8 t-prefix_2"><h2 class="t120__title t-heading t-heading_sm" field="title">Protecting Your Data and Privacy<br /></h2> </div></div></div><style> #rec586079238 .t120__title { font-size: 16px; color: #80868b; font-weight: 400; } #rec586079238 .t120__descr { color: #80868b; font-weight: 400; }</style></div><div id="rec579308021" class="r t-rec t-rec_pt_30 t-rec_pb_135" style="padding-top:30px;padding-bottom:135px; " data-record-type="106" ><!-- T004 --><div class="t004"><div class="t-container "><div class="t-col t-col_8 t-prefix_2"><div field="text" class="t-text t-text_md ">We, the team at 80days.me, respect your privacy and the protection of your personal data. This privacy policy describes how we collect, use, process, and protect your personal information when you visit our website and use our services. <br /><br /> <strong>Age Restriction</strong> <br />The System is not intended to be used by children under 13 years old. If we become aware that we have collected personal information from a child under 13 years old without verified parental consent, we will take steps to remove the information as soon as possible. If you believe that we may have collected personal information from a child under 13 years old, please contact us immediately. <br /><br /> <strong>Information Collection</strong> <br />We collect information when you register on our website, place an order, subscribe to our newsletter, fill out a feedback form, or interact with our website in any other way. We may collect the following information: <br /><br /> <ul> <li> Information provided directly by you during registration (Username, Password, Email Address). </li> <li> Information provided directly by you during filling in user profile and using the system (First Name, Last Name, Location, Tour Itineraries, Phone Number). </li> <li> Other information you provide to us through your use of our website and services. </li> </ul> <strong>Information Usage</strong> <br />We use your information to verify your authorization to access and use the System, remember you for your next visits to the Service, personalize information for you based on your location, language, and currency configurations, improve the usability and functionality of the Service, find and eliminate tech problems, analyze user behavior and trends to develop new sought-after features, and communicate with you using the Intercom chat-service. <br /><br /> <strong>Information Protection</strong> <br />We take measures to protect your personal information. We use various technical and organizational security measures to protect your information from unauthorized access, use, alteration, or disclosure. We use standard encryption protocols, such as SSL/TLS, to secure the transmission of data between your browser and our website. <br /><br /> <strong>Disclosure of Information to Third Parties</strong> <br />We do not sell, trade, or transfer your personal information to third parties without your consent, except for the information necessary for booking trips. In such cases, we will only share the minimum amount of personal information required for the booking process. <br /><br /> <strong>Third-Party Services</strong> <br />We use the following third-party services on our website: <br /><br /> <ul> <li> Facebook API: We use the Facebook API to allow you to log in to our website using your Facebook account. This allows us to provide a more personalized experience for you on our website. <br /><br /> </li> <li> Intercom API: We use the Intercom API to provide customer support and to communicate with you about our products and services. This allows us to provide a more seamless and efficient experience for you. <br /><br /> </li> <li> Google Analytics: We use Google Analytics to track website traffic and to better understand how our website is being used. This allows us to improve our website and to provide a better user experience for you. <br /><br /> </li> </ul> <strong>Payment Processing</strong> <br />We use Stripe to process payments for our services. When you make a payment, you will be redirected to the Stripe website, where you will be asked to provide your payment information. Stripe is a secure payment platform that complies with the Payment Card Industry Data Security Standard (PCI DSS). We do not store your payment information on our servers. <br /><br /> <strong>Response to Legal Request</strong> <br />We may disclose the information in response to a legal request related to a judicial proceeding or other legal process. <br /><br /> <strong>Not Identifiable Information</strong> <br />We may share anonymized information (with any part of the data that can be used to identify you removed) with third parties for marketing, advertising, and research purposes. <br /><br /> <strong>Correcting Inaccurate Information</strong> <br />If you believe that Eightydays.me has incorrect or incomplete information on your personal data, please contact us as soon as possible. We will promptly correct any information found to be inaccurate or incomplete. <br /><br /> <strong>Deleting Your Account</strong> <br />You can delete your account by contacting us through <a href="https://wa.me/16504415356" style="">WhatsApp</a> or by email at <a href="mailto:support@80days.me">support@80days.me</a>. Once we receive your request, we will delete your account and any personal information associated with it. <br /><br /> <strong>Changes to Privacy Policy</strong> <br />We may make changes to our privacy policy from time to time. We will inform you of these changes by posting an updated version of our privacy policy on our website. We recommend that you periodically review our privacy policy to stay informed of any changes. <br /><br /> <strong>Contact Us</strong> <br />If you have any questions or concerns about our privacy policy, please contact us by email at <a href="mailto:support@80days.me">support@80days.me</a> or by <a href="https://wa.me/16504415356" style="">WhatsApp</a> at the number provided on our website. <br /><br /> <strong>Effective Date</strong> <br />This privacy policy is effective as of the date stated at the top of this page.<br /></div></div></div></div><style> #rec579308021 .t-text { font-size: 16px; font-weight: 400; font-family: 'Roboto'; }</style></div><!--footer--><footer id="t-footer" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="3096596" data-tilda-page-id="14576212" data-tilda-page-alias="footer" data-tilda-formskey="5aaf9c2e23b21e14385512ce9d0287ce" data-tilda-lazy="yes" data-tilda-project-lang="EN" data-tilda-project-headcode="yes" ><div id="rec566556101" class="r t-rec t-rec_pt_30 t-rec_pb_30" style="padding-top:30px;padding-bottom:30px; " data-record-type="595" ><!-- t595 --><div class="t595"><div class="t595__container t-card__container t-container"><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_1 " style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="http://lifehacker.com/eightydays-plans-a-multi-city-european-trip-for-you-1792698542?utm_campaign=socialflow_lifehacker_facebook&amp;utm_source=lifehacker_facebook&amp;utm_medium=socialflow" class="t-card__link"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild3461-3765-4332-b061-643964306330/-/empty/lifehacker_logo.jpg" data-original="https://static.tildacdn.com/tild3461-3765-4332-b061-643964306330/lifehacker_logo.jpg" 
+imgfield="li_img__1481203544538"
+style="max-width:140px;" alt=""></a></div></div><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_2 t595__line_vertical_2order" style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="https://www.forbes.com/sites/gabrielleigh/2020/02/28/eightydays-why-you-might-want-an-algorithm-to-plan-your-next-trip" class="t-card__link" target="_blank"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild6639-3937-4636-a330-303264326166/forbes-2.svg" 
+imgfield="li_img__1582914420861"
+style="max-width:140px;" alt=""></a></div></div><div class="t-clear t595__line t595__line_horizontal_mob2col" style="background: #ffffff;"></div><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_3 t595__line_vertical_3order " style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="https://www.travelandleisure.com/" class="t-card__link"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild6465-6563-4034-b564-623563306239/-/empty/imagen_travelandleis.jpg" data-original="https://static.tildacdn.com/tild6465-6563-4034-b564-623563306239/imagen_travelandleis.jpg" 
+imgfield="li_img__1481205129244"
+style="max-width:140px;" alt=""></a></div></div><div class="t-clear t595__line t595__line_horizontal_mob3col" style="background: #ffffff;"></div><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_4 t595__line_vertical_2order" style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="https://www.insidehook.com/nation/eightydays-travel-booking-service" class="t-card__link"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild3438-6462-4664-a135-626365303361/-/empty/2d6dad56da8b4ebd803a.png" data-original="https://static.tildacdn.com/tild3438-6462-4664-a135-626365303361/2d6dad56da8b4ebd803a.png" 
+imgfield="li_img__1516182125507"
+style="max-width:140px;" alt=""></a></div></div><div class="t-clear t595__line t595__line_horizontal_mob2col" style="background: #ffffff;"></div><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_5 " style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="http://www.thisisinsider.com/this-app-will-help-you-plan-a-multi-city-european-vacation-2017-2" class="t-card__link"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild6233-3738-4235-b936-643835303339/-/empty/e63161731e0f4751b42f.png" data-original="https://static.tildacdn.com/tild6233-3738-4235-b936-643835303339/e63161731e0f4751b42f.png" 
+imgfield="li_img__1516182217342"
+style="max-width:140px;" alt=""></a></div></div><div class="t-col t595__item t595__item_6-in-row"> <div class="t595__line t595__line_vertical t595__line_vertical_0 t595__line_vertical_3order t595__line_vertical_2order" style="background: #ffffff;"></div><div class="t-card__col t-card__col_withoutbtn"><a href="https://www.nationalgeographic.co.uk/travel/2019/05/tech-traveller-how-to-plan-your-journey" class="t-card__link"><img class="t595__img t-img " 
+src="https://static.tildacdn.com/tild3763-3430-4164-a138-353065373433/-/empty/500px-Natgeologosvg.png" data-original="https://static.tildacdn.com/tild3763-3430-4164-a138-353065373433/500px-Natgeologosvg.png" 
+imgfield="li_img__1516182289622"
+style="max-width:140px;" alt=""></a></div></div></div></div><script>t_onReady(function() {
+t_onFuncLoad('t595_init', function () {
+t595_init('566556101');
+});
+});</script></div><div id="rec566556026" class="r t-rec t-rec_pb_30" style="padding-bottom:30px; " data-animationappear="off" data-record-type="160" ><!-- T148 --><!-- cover --><div class="t-cover"
+id="recorddiv566556026"
+bgimgfield="img"
+style="height:260px; background-image:url('https://static.tildacdn.com/tild3338-3636-4863-a134-303862663865/80daysfooter4x.svg');"
+><div class="t-cover__carrier" id="coverCarry566556026"data-content-cover-id="566556026"data-content-cover-bg="https://static.tildacdn.com/tild3338-3636-4863-a134-303862663865/80daysfooter4x.svg"data-display-changed="true"data-content-cover-height="260px"data-content-cover-parallax=""style="height:260px;background-attachment:scroll; background-position:left bottom;"itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.com/tild3338-3636-4863-a134-303862663865/80daysfooter4x.svg"></div><div class="t-cover__filter" style="height:260px;background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fe000000', endColorstr='#fe000000');"></div><div class="t148"><div class="t-container_100"> <div class="t-cover__wrapper t-valign_bottom" style="height:260px;"> </div></div></div></div></div><div id="rec566504323" class="r t-rec t-rec_pt_60 t-rec_pb_90 t-screenmax-480px" style="padding-top:60px;padding-bottom:90px; " data-animationappear="off" data-record-type="144" data-screen-max="480px" ><!-- T134 --><div class="t134"><div class="t-container"><div class="t-col t-col_10 t-prefix_1"><img class="t134__img" 
+src="https://static.tildacdn.com/tild3363-3766-4433-b132-323830626538/payments.svg" 
+imgfield="img"
+alt=""><div class="t134__descr" field="descr">© 2018 - 2024 Eightydays, Inc.<br />80days.me | Eightydays.me<br />Made in Silicon Valley, CA</div></div></div></div><style>#rec566504323 .t134__title, #rec566504323 .t134__descr {
+color: #ffffff;
+}</style><style> #rec566504323 .t134__title { color: #000000; } #rec566504323 .t134__descr { color: #000000; }</style></div><div id="rec566167361" class="r t-rec t-rec_pt_0 t-rec_pb_0 t-screenmin-480px" style="padding-top:0px;padding-bottom:0px; " data-record-type="490" data-screen-min="480px" ><!-- t490 --><div class="t490"><div class="t-section__container t-container"><div class="t-col t-col_12"><div class="t-section__topwrapper t-align_left"><div class="t-section__title t-title t-title_xs" field="btitle"><div style="text-align:left;" data-customstyle="yes"></div></div> <div class="t-section__descr t-descr t-descr_xl" field="bdescr"><div style="text-align:left;" data-customstyle="yes"></div></div> </div></div></div><div class="t490__container t-card__container t-container"><div class="t-card__col t-card__col_withoutbtn t490__col t-col t-col_4 t-align_center t-item"><div class="t490__wrappercenter"><div class="t-card__title t-name t-name_xl" field="li_title__1476968690512"><div style="font-size:20px;text-align:left;" data-customstyle="yes"></div></div><div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476968690512"><div style="text-align:left;" data-customstyle="yes"></div></div></div></div><div class="t-card__col t-card__col_withoutbtn t490__col t-col t-col_4 t-align_center t-item"><img class="t490__img t-img" 
+src="https://static.tildacdn.com/tild3038-3861-4331-b932-323338643964/payments.svg" 
+imgfield="li_img__1476968700508"
+style="width:400px;" 
+alt=""><div class="t490__wrappercenter"><div class="t-card__title t-name t-name_xl" field="li_title__1476968700508"><div style="font-size:18px;text-align:left;" data-customstyle="yes"></div></div><div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476968700508"><div style="text-align:left;" data-customstyle="yes"></div></div></div></div><div class="t-card__col t-card__col_withoutbtn t490__col t-col t-col_4 t-align_center t-item"><div class="t490__wrappercenter"><div class="t-card__title t-name t-name_xl" field="li_title__1476968722790"><div style="font-size:18px;text-align:left;" data-customstyle="yes"></div></div><div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476968722790"><div style="text-align:left;" data-customstyle="yes"></div></div></div></div></div></div><script>t_onReady(function () {
+t_onFuncLoad('t490_init', function () {
+t490_init('566167361');
+});
+});</script></div><div id="rec458885005" class="r t-rec t-rec_pt_30 t-rec_pb_75 t-screenmin-480px" style="padding-top:30px;padding-bottom:75px; " data-animationappear="off" data-record-type="447" data-screen-min="480px" ><!-- T447 --><div class="t447"><div class="t-container t-align_left"><div class="t447__col t-col t-col_3"><div class="t447__title t-name t-name_xs t447__title_uppercase" field="title">ABOUT</div> <div class="t447__descr t-descr t-descr_xxs" field="descr"><ul><li><a href="https://www.80days.me/about">About Us<br /></a></li><li><a href="https://wa.me/16504415356">Chat with Us<br /></a></li><li><a href="https://www.buymeacoffee.com/80days.me/e/161165">Tour Creation with Agent</a></li><li><a href="https://80days.me/faq" style="">F.A.Q.</a></li><li><a href="https://80days.me/referral" style="">Referral Program</a></li><li><a href="https://app.eightydays.me/">Your Bookings</a></li><li><a href="https://80days.me/how-it-works">How it Works</a></li><li><a href="https://80days.me/terms">Terms and Conditions<br /></a></li><li><a href="https://80days.me/privacy" style="">Privacy Policy</a></li><li><a href="https://www.trustpilot.com/review/eightydays.me">Reviews</a></li><li><a href="https://play.google.com/store/apps/details?id=me.eightydays.app">Google Play</a></li><li><a href="https://apps.apple.com/us/app/eightydays-me-multi-city-trips/id1076909479">App Store<br /></a></li><li><a href="https://chat.openai.com/g/g-cu5TfwCdx-80days-multi-city-european-travel-beta" style="">GPT Store</a></li><li></li></ul></div> </div><div class="t447__col t-col t-col_3"><div class="t447__title t-name t-name_xs t447__title_uppercase" field="title2">PARTNERS</div> <div class="t447__descr t-descr t-descr_xxs" field="descr2"><ul><li><a href="https://airbnb.com">Airbnb</a></li><li><a href="https://booking.com">Booking.com</a></li><li><a href="https://skyscanner.com/">Skyscanner</a></li><li><a href="https://www.sncf.com/en">SNCF</a></li><li><a href="https://www.eurostar.com/">Eurostar</a></li><li><a href="https://www.trenitalia.com/en.html">Trenitalia</a></li><li><a href="http://www.kqzyfj.com/click-8478834-13176968">City Sightseeing</a></li><li><a href="https://all.accor.com/czech-republic-slovakia-hungary-romania/index.en.shtml">Accor Hotels</a></li><li><a href="https://wwws.airfrance.us/">Air France</a></li><li><a href="https://www.aa.com/homePage.do">American Airlines</a></li><li><a href="https://www.bahn.de/">Deutsche Bahn</a></li></ul></div> </div> <div class="t447__floatbeaker_lr3"></div><div> <div class="t447__col t-col t-col_3"><div class="t447__title t-name t-name_xs t447__title_uppercase" field="title3" >Multi-destination trips</div> <div class="t447__descr t-descr t-descr_xxs" field="descr3" ><ul><li><a href="https://80days.me/nyc">Eurotrips from New York, NY</a></li><li><a href="https://80days.me/atl">Trips to Europe from Atlanta, GA</a></li><li><a href="http://80days.me/tlv">Eurotours from Tel Aviv</a></li><li><a href="https://80days.me/lax">Eurotrips from Los Angeles, CA</a></li><li><a href="https://80days.me/ord">European tours from Chicago, IL</a></li><li><a href="https://80days.me/Traveling-by-Train-in-Europe">Traveling by Train in Europe</a></li><li><a href="https://80days.me/cheap-eurotrips">Cheap Eurotrips</a></li><li><a href="https://eightydays.page.link/app">Multi-city travel packages</a></li><li><a href="https://eightydays.page.link/app">Multi-day trips around Europe</a></li><li></li></ul></div> </div><div class="t447__col t-col t-col_3"><div class="t447__title t-name t-name_xs t447__title_uppercase" field="title4">Subscribe</div> <form id="form458885005" name='form458885005' role="form" action='https://forms.tildacdn.com/procces/' method='POST' data-formactiontype="2" data-inputbox=".t447__blockinput" class="js-form-proccess " > <input type="hidden" name="formservices[]" value="248bbb2720fc4fb9d8b8da05cad77bc9" class="js-formaction-services"><div class="t447__input-wrapper t-width t-width_12"><div class="t447__wrapper"><div class="t447__blockinput"><input type="text" id="input_458885005" name="email" class="t447__input t-input js-tilda-rule" value="" placeholder="Your E-mail" data-tilda-req="1" data-tilda-rule="email" style="color:#717171; border:1px solid #717171; background-color:#ffffff; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;"></div><div class="t447__blockbutton"> <button type="submit" class="t447__submit t-submit" style="color:#ffffff; border:0px solid ; background-color:#83e668; border-radius: 12px; -moz-border-radius: 12px; -webkit-border-radius: 12px;" data-buttonfieldset="button"
+> <div class="t447__btniconwrapper"><svg role="presentation" class="t447__btnicon" fill="#ffffff" width="20px" height="20px" viewBox="0 0 25 21.4" xmlns="http://www.w3.org/2000/svg"><desc>Subscribe</desc><path d="M0 21.4l25-10.7L0 0v8.3l17.9 2.4L0 13.1v8.3z"/></svg></div></button></div></div><div class="t447__allert-wrapper"><div class="js-errorbox-all t447__blockinput-errorbox t-form__errorbox-text" style="display:none;"><div class="t447__blockinput-errors-text t-descr t-descr_xxs" ><p class="t447__blockinput-errors-item js-rule-error js-rule-error-all"></p><p class="t447__blockinput-errors-item js-rule-error js-rule-error-req">Required field</p><p class="t447__blockinput-errors-item js-rule-error js-rule-error-email">Please correct e-mail address</p><p class="t447__blockinput-errors-item js-rule-error js-rule-error-name">Name Wrong. Correct please</p><p class="t447__blockinput-errors-item js-rule-error js-rule-error-phone">Please correct phone number</p><p class="t447__blockinput-errors-item js-rule-error js-rule-error-string">Please enter letter, number or punctuation symbols.</p></div></div><div class="js-successbox t447__blockinput-success t-text t-text_md" style="display:none;"><div class="t447__success-icon"><svg role="img" class="t447__success-icon-svg" width="40px" height="40px" viewBox="0 0 50 50"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#FFFFFF"><path d="M25.0982353,49.2829412 C11.5294118,49.2829412 0.490588235,38.2435294 0.490588235,24.6752941 C0.490588235,11.1064706 11.53,0.0670588235 25.0982353,0.0670588235 C38.6664706,0.0670588235 49.7058824,11.1064706 49.7058824,24.6752941 C49.7058824,38.2441176 38.6664706,49.2829412 25.0982353,49.2829412 L25.0982353,49.2829412 Z M25.0982353,1.83176471 C12.5023529,1.83176471 2.25529412,12.0794118 2.25529412,24.6752941 C2.25529412,37.2705882 12.5023529,47.5182353 25.0982353,47.5182353 C37.6941176,47.5182353 47.9411765,37.2705882 47.9411765,24.6752941 C47.9411765,12.0794118 37.6941176,1.83176471 25.0982353,1.83176471 L25.0982353,1.83176471 Z"></path><path d="M22.8435294,30.5305882 L18.3958824,26.0829412 C18.0511765,25.7382353 18.0511765,25.18 18.3958824,24.8352941 C18.7405882,24.4905882 19.2988235,24.4905882 19.6435294,24.8352941 L22.8429412,28.0347059 L31.7282353,19.1488235 C32.0729412,18.8041176 32.6311765,18.8041176 32.9758824,19.1488235 C33.3205882,19.4935294 33.3205882,20.0517647 32.9758824,20.3964706 L22.8435294,30.5305882 L22.8435294,30.5305882 Z"></path></g></g></svg></div><div class="t447__success-message t-descr t-descr_xs" >Thank you!</div></div></div></div></form> <div class="t-sociallinks"><ul role="list" class="t-sociallinks__wrapper" aria-label="Social media links"><!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_facebook"><a href="https://www.facebook.com/80days.me/" target="_blank" rel="nofollow" aria-label="facebook" style="width: 25px; height: 25px;"><svg class="t-sociallinks__svg" role="presentation" width=25px height=25px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43.3077 14.1204C46.4333 11.1506 50.8581 10.1412 55.0516 10.0244C59.4777 9.98539 63.9037 10.0049 68.3285 10.0049C68.348 14.683 68.348 19.3416 68.3285 24.0197C65.4757 24.0197 62.6021 24.0197 59.7492 24.0197C57.9435 23.9028 56.0805 25.2811 55.7505 27.0868C55.7116 30.2125 55.7311 33.3369 55.7311 36.4625C59.9233 36.482 64.1168 36.4625 68.3091 36.482C67.9986 41.0042 67.436 45.5082 66.7761 49.9732C63.0684 50.0122 59.3608 49.9732 55.6531 49.9927C55.6142 63.3281 55.6726 76.6439 55.6336 89.9805C50.1203 90 44.6276 89.961 39.1142 90C39.0168 76.6646 39.1142 63.3293 39.0558 49.9927C36.377 49.9732 33.6788 50.0122 31 49.9732C31.0195 45.4887 31 41.0054 31 36.5404C33.6788 36.5015 36.377 36.5404 39.0558 36.521C39.1337 32.1728 38.9778 27.8052 39.1337 23.4571C39.4259 19.9833 40.7263 16.5082 43.3077 14.1204Z" fill="#80868b"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_instagram"><a href="https://www.instagram.com/80days.me" target="_blank" rel="nofollow" aria-label="instagram" style="width: 25px; height: 25px;"><svg class="t-sociallinks__svg" role="presentation" width=25px height=25px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M66.9644 10H33.04C20.3227 10 10 20.3227 10 32.9573V67.1167C10 79.6816 20.3227 90 33.04 90H66.96C79.6816 90 90 79.6816 90 67.0384V32.9616C90.0044 20.3227 79.6816 10 66.9644 10ZM29.2 50.0022C29.2 38.5083 38.5257 29.2 50.0022 29.2C61.4786 29.2 70.8 38.5083 70.8 50.0022C70.8 61.4961 61.4743 70.8 50.0022 70.8C38.5257 70.8 29.2 61.4961 29.2 50.0022ZM72.8854 31.2027C70.2079 31.2027 68.0789 29.0824 68.0789 26.4049C68.0789 23.7273 70.2035 21.6027 72.8854 21.6027C75.5586 21.6027 77.6833 23.7273 77.6833 26.4049C77.6833 29.0824 75.5586 31.2027 72.8854 31.2027Z" fill="#80868b"/><path d="M50.0022 36.4011C42.4659 36.4011 36.4011 42.4876 36.4011 50.0022C36.4011 57.5124 42.4659 63.6033 50.0022 63.6033C57.5429 63.6033 63.6033 57.5124 63.6033 50.0022C63.6033 42.492 57.4514 36.4011 50.0022 36.4011Z" fill="#80868b"/></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_whatsapp"><a href="https://wa.me/16504415356" target="_blank" rel="nofollow" aria-label="whatsapp" style="width: 25px; height: 25px;"><svg class="t-sociallinks__svg" role="presentation" width=25px height=25px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50.168 10C60.8239 10.004 70.8257 14.1522 78.346 21.6819C85.8676 29.2114 90.0066 39.2185 90 49.8636C89.9906 71.8252 72.1203 89.6956 50.1668 89.6956H50.1508C43.4852 89.6929 36.9338 88.0208 31.1162 84.8468L10 90.3853L15.6516 69.7437C12.1665 63.7042 10.3323 56.851 10.3349 49.8304C10.343 27.8676 28.2134 10 50.168 10V10ZM61.5376 54.7631C62.4507 55.0954 67.3433 57.5023 68.3389 58.0009C68.5313 58.0971 68.7113 58.1842 68.8784 58.265C69.5753 58.602 70.0458 58.8296 70.2462 59.1651C70.4947 59.5799 70.4947 61.5736 69.6654 63.8982C68.8359 66.2229 64.8605 68.3442 62.9478 68.63C61.2319 68.8865 59.0627 68.9928 56.6782 68.2353C55.2322 67.7767 53.3794 67.1653 51.0041 66.1392C41.6698 62.1082 35.3628 53.06 34.1747 51.3556C34.0919 51.2368 34.0341 51.1538 34.0017 51.1106L33.9981 51.1056C33.486 50.4243 29.9372 45.7022 29.9372 40.8149C29.9372 36.2325 32.1873 33.8303 33.2244 32.7232C33.2961 32.6467 33.3619 32.5763 33.4208 32.5118C34.3341 31.5149 35.412 31.2664 36.0751 31.2664C36.7385 31.2664 37.4029 31.2717 37.9826 31.301C38.0541 31.3046 38.1286 31.304 38.2056 31.3037C38.786 31.3001 39.5087 31.2957 40.2221 33.0089C40.4976 33.6707 40.9012 34.653 41.3265 35.6882C42.1818 37.7702 43.1251 40.066 43.2912 40.399C43.5397 40.8974 43.7058 41.4782 43.3736 42.1427C43.323 42.2436 43.2763 42.3387 43.2318 42.4295C42.9831 42.9364 42.7995 43.3104 42.378 43.8029C42.2125 43.9963 42.0413 44.2045 41.8703 44.4131C41.5273 44.8309 41.1842 45.2488 40.8853 45.5467C40.387 46.0425 39.8686 46.5808 40.4493 47.5777C41.0303 48.5731 43.028 51.8323 45.9867 54.472C49.1661 57.3091 51.93 58.5078 53.3318 59.1157C53.6058 59.2346 53.8279 59.3308 53.9907 59.4124C54.9849 59.9109 55.5658 59.8284 56.1465 59.1637C56.7274 58.4993 58.6347 56.2583 59.298 55.2615C59.9612 54.2646 60.6259 54.4307 61.5376 54.7631V54.7631Z" fill="#80868b"/></svg></a></li><!-- /new soclinks --></ul></div></div> </div> <div class="t-row t-clear"><div class="t447__col t-col t-col_3"><div class="t447__text t447__text_left t-descr t-descr_xxs" field="text">© 2018 - 2024 Eightydays, Inc.<br />80days.me | Eightydays.me <br />Made in Silicon Valley, CA</div> </div> <div class="t447__col t-col t-col_3 t-prefix_6"></div> </div> </div></div><style> 
+#rec458885005 .t447__title {
+color: #222222;
+}
+#rec458885005 .t447__descr {
+color: #80868b;
+}</style> <style> #rec458885005 .t447__title { text-transform: uppercase; } #rec458885005 .t447__descr { line-height: 2; font-weight: 400; } #rec458885005 .t447__text_left { font-size: 14px; line-height: 1.5; font-weight: 400; } #rec458885005 .t447__text_right { font-size: 14px; font-weight: 400; }</style></div><div id="rec469553807" class="r t-rec" style=" " data-animationappear="off" data-record-type="131" ><!-- T123 --><div class="t123" ><div class="t-container_100 "><div class="t-width t-width_100 ">
+
+			<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCBW687-scPQinYqYHDEjiLndksy7gZfy4",
+    authDomain: "skillful-camp-134709.firebaseapp.com",
+    databaseURL: "https://skillful-camp-134709.firebaseio.com",
+    projectId: "skillful-camp-134709",
+    storageBucket: "skillful-camp-134709.appspot.com",
+    messagingSenderId: "928510651980",
+    appId: "1:928510651980:web:570237a56088fbfb6fcee9",
+    measurementId: "G-MHBWF4WJXP"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+			 
+			
+</div> </div></div></div></footer><!--/footer--></div><!--/allrecords--><!-- Stat --><script type="text/javascript">if (! window.mainTracker) { window.mainTracker = 'tilda'; }
+setTimeout(function(){ (function (d, w, k, o, g) { var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);}; s.type = "text/javascript"; s.async = true; s.key = k; s.id = "tildastatscript"; s.src=g; if (w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);} else { f(); } })(document, window, 'cf78ae284b0b2a99ba3691262edfd62f','script','https://static.tildacdn.com/js/tilda-stat-1.0.min.js');
+}, 2000); </script><!-- FB Pixel code (noscript) --><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089658267791084&ev=PageView&agent=pltilda&noscript=1"/></noscript><!-- End FB Pixel code (noscript) --></body></html>

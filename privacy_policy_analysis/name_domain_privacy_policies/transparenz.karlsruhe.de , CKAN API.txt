@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="de" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="de"> <!--<![endif]-->
+  <head>
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.9.5" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Datenschutz - Stadt Karlsruhe</title>
+
+    
+    <link rel="shortcut icon" href="/base/images/ckan.ico" />
+    
+        
+    
+    
+      
+      
+      
+      
+    
+
+    
+    
+
+
+    
+    
+        
+        
+
+
+    
+      
+      
+    
+
+    
+    <link href="/webassets/base/a98d57ea_main.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-harvest/c95a0af2_harvest_css.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-geoview/77c3ca23_geo-resource-styles.css" rel="stylesheet"/>
+<link href="/webassets/ka/ka.css?6d69ddf3" rel="stylesheet"/>
+  
+    
+
+   <!-- Matomo -->
+   <script type="text/plain" data-cookiecategory="statistics">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://dienste.karlsruhe.de/piwik/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '17']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+  
+  
+   
+
+
+  </head>
+
+  
+  <body data-site-root="https://transparenz.karlsruhe.de/" data-locale-root="https://transparenz.karlsruhe.de/" >
+
+    
+    <div class="sr-only sr-only-focusable"><a href="#content">Überspringen zum Inhalt</a></div>
+  
+
+  
+    
+ 
+<div class="account-masthead">
+  <div class="container">
+     
+    <nav class="account not-authed" aria-label="Benutzerkonto">
+      <ul class="list-unstyled">
+        
+TEST
+
+      </ul>
+    </nav>
+     
+  </div>
+</div>
+
+<header class="navbar navbar-static-top masthead">
+    
+  <div class="container">
+    <div class="navbar-right">
+      <button data-target="#main-navigation-toggle" data-toggle="collapse" class="navbar-toggle collapsed" type="button" aria-label="expand or collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="fa fa-bars"></span>
+      </button>
+    </div>
+    <hgroup class="header-image navbar-left">
+       
+      <a class="logo" href="/"><img src="/uploads/admin/2021-09-06-100057.158623logokarlsruhe.svg" alt="Stadt Karlsruhe" title="Stadt Karlsruhe" /></a>
+       
+    </hgroup>
+
+    <div class="collapse navbar-collapse" id="main-navigation-toggle">
+      
+      <nav class="section navigation">
+        <ul class="nav nav-pills">
+            
+  <li><a href="/dataset/">Datensätze</a></li><li><a href="/organization/">Organisationen</a></li><li><a href="/group/">Kategorien</a></li><li><a href="/showcase">Anwendungen</a></li><li><a href="/pages/datenanfrage">Datenanfrage</a></li>
+
+        </ul>
+      </nav>
+       
+<div class="menu-right container-fluid">
+</div>
+
+
+    </div>
+  </div>
+</header>
+
+<div class="jumbotron">
+<header>
+<h1> Transparenzportal der Stadt Karlsruhe</h1>
+</header>
+</div>
+
+
+
+  
+    <div class="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar" role="navigation" aria-label="Brotkrumen-Navigation">
+              
+                
+              
+            </div>
+          
+
+          <div class="row wrapper no-nav">
+            
+            
+            
+
+            
+
+            
+<div class="container center-block">
+<div class="row">
+
+
+ <div class="module-content col-md-6">
+    
+      
+    
+    <h1 class="page-heading">Datenschutz</h1>
+    
+      <div class="ckanext-pages-content">
+        
+        
+          <p>F&#252;r das Transparenzprtal gelten die allgemeinen Bedingungen zu Datenschutz und Informationssicherheit der Stadtverwaltung Karlsruhe gem&#228;&#223; Artikel 13 und 14 EU-Daten&#173;schutz-Grund&#173;ver&#173;ord&#173;nung (DSGVO).  
+<strong><a href="https://www.karlsruhe.de/impressum/datenschutz" target="_blank" rel="nofollow">https://www.karlsruhe.de/impressum/datenschutz</a></strong>
+
+</p>
+
+<h2>Matomo</h2>
+
+<div id="matomo-opt-out"></div>
+
+<script src="https://dienste.karlsruhe.de/piwik/index.php?module=CoreAdminHome&amp;action=optOutJS&amp;divId=matomo-opt-out&amp;language=auto&amp;showIntro=1"></script>
+        
+      </div>
+    
+  </div>
+  <div class="col-md-6 module-content">
+        <div class="module-content box dataset">
+              <h1 class="page-heading">NEUESTE DATENSÄTZE</h1>
+              
+                  
+
+  
+    <ul class="dataset-list list-unstyled">
+    	
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+		<a href="/dataset/karlsruher-mietspiegel">Karlsruher Mietspiegel</a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Der Mietspiegel ist eine Übersicht über die Mieten, die in Karlsruhe für frei finanzierte Wohnungen bezahlt werden (ortsübliche Vergleichsmiete).</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/karlsruher-mietspiegel" class="label label-default" data-format="pdf">PDF</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/karlsruher-mietspiegel" class="label label-default" data-format="html">HTML</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+		<a href="/dataset/geschwindigkeiten">Geschwindigkeiten</a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Straßen mit Geschwindigkeitslimits in Karlsruhe.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/geschwindigkeiten" class="label label-default" data-format="geojson">GeoJSON</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/geschwindigkeiten" class="label label-default" data-format="shp">SHP</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+		<a href="/dataset/escooter-in-karlsruhe">eScooter in Karlsruhe</a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Standorte der eScooter in Karlsruhe.
+Anbieter: Voi, Bolt, Lime.
+Tier hat der Datenweitergabe im Sinne von OpenData nicht zugestimmt.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/escooter-in-karlsruhe" class="label label-default" data-format="geojson">GeoJSON</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/escooter-in-karlsruhe" class="label label-default" data-format="shp">SHP</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+		<a href="/dataset/radnetz-stadt-karlsruhe">Radnetz Stadt Karlsruhe</a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Radnetz der Stadt Karlsruhe</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/radnetz-stadt-karlsruhe" class="label label-default" data-format="geojson">GeoJSON</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/radnetz-stadt-karlsruhe" class="label label-default" data-format="shp">SHP</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h2 class="dataset-heading">
+            
+              
+            
+            
+		<a href="/dataset/parkscheinautomaten">Parkscheinautomaten</a>
+            
+            
+              
+              
+            
+          </h2>
+        
+        
+          
+        
+        
+          
+            <div>Standorte der Parkscheinautomaten in Karlsruhe.
+Die zugehörigen Parkflächen finden sie hier.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/parkscheinautomaten" class="label label-default" data-format="geojson">GeoJSON</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/parkscheinautomaten" class="label label-default" data-format="shp">SHP</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/parkscheinautomaten" class="label label-default" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	    
+    </ul>
+  
+
+              
+        </div>  
+        <div class="module-content box statistic">
+            <h1>STATISTIK</h1>
+            <ul>
+              
+              
+              <li>
+                <a href="/dataset/">
+                  <strong><span>127</span></strong>
+                  Datensätze
+                </a>
+              </li>
+              <li>
+                <a href="/organization/">
+                  <strong><span>4</span></strong>
+                  Organisationen
+                </a>
+              </li>
+              <li>
+                <a href="/group/">
+                  <strong><span>13</span></strong>
+                  Kategorien
+                </a>
+              </li>
+              
+            </ul>
+          </div>  
+  </div>
+</div>
+</div>
+
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="container">
+    
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div id="c85290" class="frame frame-default frame-type-textpic frame-layout-0">
+                <div class="media-element media-element--right ce-intext ce-nowrap"></div>
+                <div class="ce-bodytext">
+                    <header>
+                        <h4 class="">
+                            INFOS
+                        </h4>
+                    </header>
+                    <p>
+                        <a href="/pages/nutzungsbedingungen" title="Nutzungsbedingungen"
+                            class="link">Nutzungsbedingungen</a>&nbsp;<br>
+
+                        <a href="/pages/datenschutz" title="Datenschutz" class="link">Datenschutz</a>&nbsp;<br>
+                        <a href="/pages/impressum" title="Impressum" class="link">Impressum</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div id="c85291" class="frame frame-default frame-type-textpic frame-layout-0">
+                <div class="media-element media-element--right ce-intext ce-nowrap"></div>
+                <div class="ce-bodytext">
+                    <header>
+                        <h4 class="">
+                            weiterführende Links
+                        </h4>
+                    </header>
+                    <p>
+                        
+                            
+                            
+                            <a href="https://okfn.org/en/what-we-do/tools/" title="OKFN / CKAN Community" target="_blank" class="link">OKFN / CKAN Community</a><br>
+                            <a href="http://docs.ckan.org/en/2.9/" title="CKAN-Docs" target="blank" class="link">CKAN Dokumentation</a><br>
+                            <a href="http://docs.ckan.org/en/2.9/api/" title="CKAN-API" target="blank" class="link">CKAN API Dokumentation</a><br>
+                            <a href="/api/3/action/status_show" title="API Transparenzportal" target="_blank" class="link">API Transparenzportal</a><br>
+                        
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4">
+            <div id="c85293" class="frame frame-default frame-type-header frame-layout-0">
+                <header>
+                    <h4 class="">                        
+                    </h4>
+                </header>
+            </div>
+
+            <div class="social-media">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="copyright"><span>Copyright 2024 Stadt Karlsruhe </span></div>
+
+
+  </div>
+
+  
+    
+  
+</footer>
+  
+  
+  
+  
+  
+  
+    
+  <!-- body content ... -->
+  <script defer src="/cookieconsent.js"></script>
+  <script>
+    const datenschutzUrl = '/pages/datenschutz'
+  </script>
+  <script defer src="/cookieconsent-init.js"></script>
+
+
+      
+
+    
+    
+    <link href="/webassets/webassets-external/de8ab57dd2d11a20df1ee9f67317a0d5_cookieconsent.css" rel="stylesheet"/>
+<link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/0b01aef1_font-awesome.css" rel="stylesheet"/>
+    <script src="/webassets/vendor/d8ae4bed_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/fb6095a0_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/580fa18d_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/base/15a18f6c_main.js" type="text/javascript"></script>
+<script src="/webassets/base/266988e1_ckan.js" type="text/javascript"></script>
+  </body>
+</html>

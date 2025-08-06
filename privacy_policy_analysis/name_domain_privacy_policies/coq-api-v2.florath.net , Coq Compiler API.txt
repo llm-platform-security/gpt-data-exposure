@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>GPT-Coq Assistant &#8211; flonatel Gmbh &amp; Co. KG</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="alternate" type="application/rss+xml" title="flonatel Gmbh &amp; Co. KG &raquo; Feed" href="https://flonatel.florath.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="flonatel Gmbh &amp; Co. KG &raquo; Comments Feed" href="https://flonatel.florath.net/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/flonatel.florath.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://flonatel.florath.net/wp-includes/css/dist/block-library/style.min.css?ver=6.4.2' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://flonatel.florath.net/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.5.6' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://flonatel.florath.net/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.4.2' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css' href='https://flonatel.florath.net/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css' href='https://flonatel.florath.net/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.5.3' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css' href='https://flonatel.florath.net/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=6.4.2' media='all' />
+<script src="https://flonatel.florath.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://flonatel.florath.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://flonatel.florath.net/wp-json/" /><link rel="alternate" type="application/json" href="https://flonatel.florath.net/wp-json/wp/v2/pages/55" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://flonatel.florath.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.2" />
+<link rel="canonical" href="https://flonatel.florath.net/gpt-coq-assistant/" />
+<link rel='shortlink' href='https://flonatel.florath.net/?p=55' />
+<link rel="alternate" type="application/json+oembed" href="https://flonatel.florath.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fflonatel.florath.net%2Fgpt-coq-assistant%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://flonatel.florath.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fflonatel.florath.net%2Fgpt-coq-assistant%2F&#038;format=xml" />
+<style>.cmplz-hidden{display:none!important;}</style><!-- OceanWP CSS -->
+<style type="text/css">
+/* General CSS */.boxed-layout{background-color:#6587c2}/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}/* Typography CSS */body{font-size:16px}h1{font-size:28px}h2{font-size:36px}h3{font-size:24px}
+</style></head>
+
+<body data-cmplz=1 class="page-template-default page page-id-55 wp-embed-responsive oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-width content-max-width has-topbar page-header-disabled has-breadcrumbs" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+	
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+
+<div id="top-bar-wrap" class="clr">
+
+	<div id="top-bar" class="clr container has-no-content">
+
+		
+		<div id="top-bar-inner" class="clr">
+
+			
+
+		</div><!-- #top-bar-inner -->
+
+		
+	</div><!-- #top-bar -->
+
+</div><!-- #top-bar-wrap -->
+
+
+			
+<header id="site-header" class="minimal-header clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand" >
+
+	
+	<div id="site-logo-inner" class="clr">
+
+						<a href="https://flonatel.florath.net/" rel="home" class="site-title site-logo-text" >flonatel Gmbh &amp; Co. KG</a>
+				
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+
+				
+			</div><!-- #site-header-inner -->
+
+			
+<div id="mobile-dropdown" class="clr" >
+
+	<nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+		<div class="menu"><li class="page_item page-item-6"><a href="https://flonatel.florath.net/">flonatel GmbH &#038; Co. KG</a></li>
+<li class="page_item page-item-55 current_page_item"><a href="https://flonatel.florath.net/gpt-coq-assistant/" aria-current="page">GPT-Coq Assistant</a></li>
+<li class="page_item page-item-43"><a href="https://flonatel.florath.net/impressum/">Impressum</a></li>
+</div>
+
+<div id="mobile-menu-search" class="clr">
+	<form aria-label="Search this website" method="get" action="https://flonatel.florath.net/" class="mobile-searchform">
+		<input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-1" type="search" name="s" autocomplete="off" placeholder="Search" />
+		<button aria-label="Submit search" type="submit" class="searchform-submit">
+			<i class=" icon-magnifier" aria-hidden="true" role="img"></i>		</button>
+					</form>
+</div><!-- .mobile-menu-search -->
+
+	</nav>
+
+</div>
+
+			
+			
+		
+		
+</header><!-- #site-header -->
+
+
+			
+			<main id="main" class="site-main clr"  role="main">
+
+				
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+	
+<figure class="wp-block-image size-full is-style-rounded"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://flonatel.florath.net/wp-content/uploads/2024/01/DALL·E-2024-01-08-06.40.13-A-visually-engaging-and-abstract-representation-of-a-mathematician-working-with-the-Coq-Proof-Assistant.-The-image-features-a-figure-surrounded-by-mat-edited.png" alt="" class="wp-image-66" srcset="https://flonatel.florath.net/wp-content/uploads/2024/01/DALL·E-2024-01-08-06.40.13-A-visually-engaging-and-abstract-representation-of-a-mathematician-working-with-the-Coq-Proof-Assistant.-The-image-features-a-figure-surrounded-by-mat-edited.png 1024w, https://flonatel.florath.net/wp-content/uploads/2024/01/DALL·E-2024-01-08-06.40.13-A-visually-engaging-and-abstract-representation-of-a-mathematician-working-with-the-Coq-Proof-Assistant.-The-image-features-a-figure-surrounded-by-mat-edited-300x169.png 300w, https://flonatel.florath.net/wp-content/uploads/2024/01/DALL·E-2024-01-08-06.40.13-A-visually-engaging-and-abstract-representation-of-a-mathematician-working-with-the-Coq-Proof-Assistant.-The-image-features-a-figure-surrounded-by-mat-edited-768x432.png 768w, https://flonatel.florath.net/wp-content/uploads/2024/01/DALL·E-2024-01-08-06.40.13-A-visually-engaging-and-abstract-representation-of-a-mathematician-working-with-the-Coq-Proof-Assistant.-The-image-features-a-figure-surrounded-by-mat-edited-800x450.png 800w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">Introduction to GPT-Coq Assistant</h3>
+
+
+
+<p>Welcome to GPT-Coq Assistant, your specialized mathematician in utilizing the Coq Proof Assistant. This tool is dedicated to aiding the development of definitions, lemmas, examples, and theorems within Coq&#8217;s robust framework. It provides the same look and feel as the build-in code interpreter: the GPT is able to execute Coq source code and directly fix it when there are problems. </p>
+
+
+
+<h3 class="wp-block-heading">Key Features</h3>
+
+
+
+<ol>
+<li><strong>Expertise in Mathematics and Coq</strong>: Tailored assistance in creating and understanding mathematical proofs, definitions, and lemmas using Coq&#8217;s language and tools.</li>
+
+
+
+<li><strong>Formal and Concise Communication</strong>: Maintains a formal tone and adheres to a concise 80-character line length to promote readability and standard coding practices.</li>
+
+
+
+<li><strong>Structured Problem Solving</strong>: Emphasizes a top-down approach, breaking down goals into manageable tasks and highlighting errors or contradictions immediately.</li>
+
+
+
+<li><strong>Import Management</strong>: Ensures all necessary imports are included in the Coq source code, prompting for any missing or suggesting alternatives.</li>
+</ol>
+
+
+
+<h3 class="wp-block-heading">Usage Guidelines</h3>
+
+
+
+<ul>
+<li><strong>Initiating Coq Code</strong>: Clearly demarcate your Coq source code between [COQ] and [/COQ], hypothesis between [HYP] and [/HYP], and any error messages between [ERR] and [/ERR] for clear processing.</li>
+
+
+
+<li><strong>Interactive Dialogue</strong>: Provide your familiarity level with Coq or mathematics to receive tailored assistance. Don&#8217;t hesitate to ask for clarification or provide additional context for ambiguous requests.</li>
+
+
+
+<li><strong>Safety and Security</strong>: Respect the safety and security protocols in place for the code interpreter to ensure a secure environment for all users.</li>
+
+
+
+<li><strong>Responsible Use</strong>: Adhere to the assistant&#8217;s capabilities and avoid non-mathematical or irrelevant queries for optimal performance.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading"><br>Current Shortcomings and Possible Problems</h3>
+
+
+
+<h4 class="wp-block-heading">1. Experimental Implementation:</h4>
+
+
+
+<p>The current iteration of the GPT-Coq Assistant is purely experimental and subject to change. Users should be aware that functionalities, features, and the overall approach may evolve over time as improvements and updates are made. This experimental nature means that the tool should be used with an understanding of its provisional status.</p>
+
+
+
+<p>Be prepared that the interaction with GPT runs into &#8220;network problems&#8221; which typically is the way to state, that the iterative process of one interaction took too long.</p>
+
+
+
+<h4 class="wp-block-heading">2. Limited Coq Environment:</h4>
+
+
+
+<p>The Coq environment provided within the GPT-Coq Assistant is limited and may not encompass the full range of features, libraries, or capabilities found in a complete, standalone Coq environment. Users might encounter restrictions in terms of available tactics, libraries, or functionality that can impact the proof development process.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large"><img decoding="async" width="493" height="1024" src="https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1-493x1024.png" alt="" class="wp-image-72" srcset="https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1-493x1024.png 493w, https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1-144x300.png 144w, https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1-768x1596.png 768w, https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1-739x1536.png 739w, https://flonatel.florath.net/wp-content/uploads/2024/01/Screenshot-20240108102146-820x1704-1.png 820w" sizes="(max-width: 493px) 100vw, 493px" /></figure></div>
+
+
+<h4 class="wp-block-heading">3. Varied Quality in Coq Handling:</h4>
+
+
+
+<p>While GPT has been trained on a wide range of languages and disciplines, its handling of Coq proofs may not be as robust or nuanced as its handling of other programming languages or simpler mathematical tasks. As such, users might find that achieving a successful proof requires several iterations, refinements, or rephrasings of the problem at hand to guide the assistant towards a useful solution.</p>
+
+
+
+<p>As an example GPT tries to proof the commutativity of addition. It presents a theorem and the proof, but the proof is wrong. A &#8220;Check it.&#8221; prompt let&#8217;s GTP execute a remote coq environment, checks the proof and returns possible errors. GPT analysis the error, fixes the problem and tries again until a valid proof is found.</p>
+
+
+
+<h4 class="wp-block-heading">4. Need for Problem Decomposition:</h4>
+
+
+
+<p>Given the complex nature of proofs and the limitations of the GPT&#8217;s understanding of Coq, users are advised to be prepared to break down larger problems into smaller, more manageable ones. Mid-sized proofs or those of considerable complexity may exceed the assistant&#8217;s current capabilities, necessitating a more granular approach where each component of the proof is tackled individually. This strategy not only aligns better with the assistant&#8217;s capabilities but also fosters a more methodical and thorough approach to problem-solving.</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Privacy Policy for GPT-Coq Assistant Service</strong></h2>
+
+
+
+<p>Effective Date: 2024-01-07</p>
+
+
+
+<p>Welcome to the Coq Compiler Service. We are committed to protecting your privacy and ensuring a secure service. Please read the following to learn more about our privacy policy.</p>
+
+
+
+<p><strong>1. No Personal Data:</strong></p>
+
+
+
+<p><em>The Coq Compiler Service is designed exclusively for compiling Coq source code files. Users are strictly prohibited from submitting any personal data to the service, including but not limited to names, addresses, phone numbers, or any information that can be used to identify or contact a person.</em></p>
+
+
+
+<p><strong>2. Use of the Service:</strong></p>
+
+
+
+<p><em>When using our service, ensure that the content of the Coq files does not contain any personal or sensitive data. We are not responsible for any personal data submitted to our service, and we have the right to delete any content that we suspect may contain such information.</em></p>
+
+
+
+<p><strong>3. Data Collection:</strong></p>
+
+
+
+<p><em>We may collect non-personally identifying information that is typically made available by web servers and browsers, such as the browser type, language preference, referring site, and the date and time of each visitor request. Our purpose in collecting non-personally identifying information is to better understand how visitors use our service.</em></p>
+
+
+
+<p><strong>4. Your Responsibilities:</strong></p>
+
+
+
+<p><em>As a user of the Coq Compiler Service, it is your responsibility to ensure that no personal data is included in the files you submit for compilation. Always review and sanitize the content before submission.</em></p>
+
+
+
+<p><strong>5. Changes to the Privacy Policy:</strong></p>
+
+
+
+<p><em>We may update this policy from time to time. We will notify you of any changes by posting the new policy on this page. You are advised to review this Privacy Policy periodically for any changes.</em></p>
+
+	
+</div>
+
+</article>
+
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+	</div><!-- #content-wrap -->
+
+	
+
+	</main><!-- #main -->
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_4 col col-1">
+				<div id="block-8" class="footer-widget widget_block widget_text clr">
+<p>flonatel GmbH &amp; Co. KG</p>
+</div>			</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+					<div id="block-14" class="footer-widget widget_block widget_text clr">
+<p>Raerener Straße 10b<br>52076 Aachen</p>
+</div>				</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-3 ">
+					<div id="block-13" class="footer-widget widget_block widget_text clr">
+<p>Tel: +49 2408 9810020<br>EMail: <a href="mailto:info@florath.net">info@florath.net</a></p>
+</div>				</div><!-- .footer-one-box -->
+				
+							<div class="footer-box span_1_of_4 col col-4">
+					<div id="block-12" class="footer-widget widget_block widget_text clr">
+<p><a href="https://flonatel.florath.net/?page_id=43">Impressum</a></p>
+</div>				</div><!-- .footer-box -->
+				
+			
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+	</div><!-- #footer-inner -->
+
+	
+</footer><!-- #footer -->
+
+	
+	
+</div><!-- #wrap -->
+
+
+</div><!-- #outer-wrap -->
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Manage Cookie Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="close-dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Functional</span></label>
+								</span>
+								Always active							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistics</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statistics</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Read more about these purposes</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Manage consent</button>
+
+</div><script src="https://flonatel.florath.net/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script id="oceanwp-main-js-extra">
+var oceanwpLocalize = {"nonce":"2213f8d423","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customScrollOffset":"0","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/flonatel.florath.net\/wp-admin\/admin-ajax.php","oe_mc_wpnonce":"dc766860f0"};
+</script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=3.5.3" id="oceanwp-main-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=3.5.3" id="oceanwp-drop-down-mobile-menu-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?ver=3.5.3" id="oceanwp-drop-down-search-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.5.3" id="ow-magnific-popup-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=3.5.3" id="oceanwp-lightbox-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.5.3" id="ow-flickity-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=3.5.3" id="oceanwp-slider-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=3.5.3" id="oceanwp-scroll-effect-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=3.5.3" id="oceanwp-scroll-top-js"></script>
+<script src="https://flonatel.florath.net/wp-content/themes/oceanwp/assets/js/select.min.js?ver=3.5.3" id="oceanwp-select-js"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"10","version":"6.5.6","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/flonatel.florath.net\/wp-json\/complianz\/v1\/","locale":"lang=en&locale=en_US","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"16","cookie_path":"\/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","aria_label":"Click to accept {category} cookies and enable this content","css_file":"https:\/\/flonatel.florath.net\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=10","page_links":{"eu":{"cookie-statement":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"},"privacy-statement":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"},"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"us":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"uk":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"ca":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"au":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"za":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}},"br":{"impressum":{"title":"Impressum","url":"https:\/\/flonatel.florath.net\/impressum\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":""};
+</script>
+<script defer src="https://flonatel.florath.net/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=6.5.6" id="cmplz-cookiebanner-js"></script>
+</body>
+</html>

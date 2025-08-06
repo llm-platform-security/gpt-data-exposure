@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bearhug</title>
+</head>
+<body>
+    <div class="grid-2">
+        <div class="section-2">
+            <h2>Privacy</h2>
+            <ol>
+                <li>
+                    Introduction
+                    <p>Welcome to Bearhug! We are committed to protecting your privacy and handling your data responsibly. This policy outlines how we collect, use, and safeguard your information.</p>
+                </li>
+                <li>
+                    Data Collection and Use
+                    <p>We collect personal data such as your menstrual cycle dates, symptoms, and product preferences. This data is used to provide personalized insights, predictions, and improve our service.</p>
+                </li>
+                <li>
+                    Data Sharing and Disclosure
+                    <p>Your data is confidential. We do not sell your personal information. Data may be shared with third parties only when necessary for service provision (e.g., cloud hosting) and in compliance with legal obligations.</p>
+                </li>
+                <li>
+                    Data Security
+                    <p>We employ industry-standard security measures to protect your data from unauthorized access, disclosure, alteration, or destruction.</p>
+                </li>
+                <li>
+                    User Rights
+                    <p>You have the right to access, amend, and delete your personal information.</p>
+                </li>
+                <li>
+                    Cookies and Tracking Technologies
+                    <p>Our landing page website uses cookies to improve user experience. You can manage cookie preferences through your browser settings.</p>
+                </li>
+                <li>
+                    Policy Updates
+                    <p>This privacy policy may be updated to reflect changes in our practices or regulatory requirements. Users will be notified of significant changes.</p>
+                </li>
+                </ol>
+        </div>
+        <div class="section-2">
+            <h2>Term of Services</h2>
+            <ol>
+                <li>
+                    Acceptance of Terms
+                    <p>By using Bearhug, you agree to these terms of service. If you do not agree, please do not use our services.</p>
+                </li>
+                <li>
+                    Use of Service
+                    <p>Bearhug provides menstrual cycle tracking and related insights. The service is for personal, non-commercial use.</p>
+                </li>
+                <li>
+                    User Responsibilities
+                    <p>You are responsible for the accuracy of the data you enter and for maintaining the confidentiality of your account.</p>
+                </li>
+                <li>
+                    Intellectual Property
+                    <p>All content and software on Bearhug are the property of our company or our licensors and protected by copyright laws.</p>
+                </li>
+                <li>
+                    Disclaimer of Warranties
+                    <p>Bearhug is provided "as is" without any warranties. We do not guarantee accuracy, reliability, or suitability for any purpose.</p>
+                </li>
+                <li>
+                    Limitation of Liability
+                    <p>Our liability to you is limited to the maximum extent permitted by law. We are not liable for any indirect or incidental damages.</p>
+                </li>
+                <li>
+                    Changes to Terms
+                    <p>These terms may be updated periodically. Continued use of the service after changes indicates acceptance of the new terms.</p>
+                </li>
+            </ol>
+            <p>&copy; 2023 Bearhug. All rights reserved.</p>
+
+        </div>
+    </div>
+</body>
+</html>

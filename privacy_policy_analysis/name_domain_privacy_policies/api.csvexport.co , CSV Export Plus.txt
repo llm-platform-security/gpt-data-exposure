@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Explore CSV Export / CSV Export Plus, a tool packed with robust features for data management, sharing, and integration. Perfect for all data handling needs.">
+        <meta name="author" content="CSV Export / CSV Export Plus">
+
+        <!-- Webpage Title -->
+        <title>Privacy Policy</title>
+        
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="css/swiper.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- CSS cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Typing Animation Effect -->
+        <style>
+            #cursor-plus-word {
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink {
+                0% {opacity: 1;}
+                50% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+        </style>
+        
+        <!-- Favicon  -->
+        <link id="favicon" rel="icon" href="images/favicon-2.png" type="image/x-icon">
+    </head>
+    <body>
+        
+        <!-- Navigation -->
+        <nav id="navbarEx" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container">
+
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <a id="logo-text" class="navbar-brand logo-text" href="home">CSV Export<span id="plus-word" style="color: #ffec00;"></span><span id="cursor-plus-word">|</span></a>
+
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsEx">
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms">Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item social-icons">
+                        <span class="fa-stack">
+                            <a href="https://facebook.com/somethingtechie">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://instagram.com/somethingtechie">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://x.com/somethingtechie">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-x-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+
+        <!-- Header -->
+        <header class="ex-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <h1>Privacy Policy</h1>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </header> <!-- end of ex-header -->
+        <!-- end of header -->
+
+
+        <!-- Basic -->
+        <div class="ex-basic-1 pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <h2 class="mt-5 mb-3">1. Introduction</h2>
+                        <p class="mb-5">Welcome to CSV Export / CSV Export Plus. This Privacy Policy outlines our commitment to protecting and respecting your privacy. It covers how we collect, use, disclose, and store your information.</p>
+                        <h3>1.1. Information We Collect</h3>
+                        <p class="mb-5">We collect information to provide better services to our users. This includes basic information you provide us, like your name and email, and service usage data. This information is used exclusively to create Google Spreadsheets on your behalf.</p>
+                        <h3>1.2. How We Use Information</h3>
+                        <p class="mb-5">We use the information we collect to provide, maintain, protect, and improve our services, to develop new ones, and to protect ourselves and our users. We do not share your data with third-party tools. Your data is only used to create Google Spreadsheets on your behalf, and you will always be asked for explicit consent before we do this.</p>
+                        <h3>1.3. Sharing Information with Third Parties</h3>
+                        <p class="mb-5">In order to provide, maintain, protect, and improve our services, we may share your data with third-party AI platforms. These platforms help us in creating Google Spreadsheets on your behalf. The data shared with these platforms can include your name and email. We only share your data after obtaining your explicit consent. We ensure that these third parties are committed to protecting your privacy and adhere to data protection laws.</p>                 
+                        <h2 class="mb-3">2. Information Security</h2>
+                        <p>We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold.</p>
+                        <p class="mb-4">We review our information collection, storage, and processing practices, including physical security measures, to guard against unauthorized access to systems.</p>
+                        <ul class="list-unstyled li-space-lg mb-4">
+                            <li class="d-flex">
+                                <i class="fas fa-square"></i>
+                                <div class="flex-grow-1"><strong>Data Encryption</strong> We encrypt many of our services using SSL to protect your data.</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-square"></i>
+                                <div class="flex-grow-1"><strong>Access Control</strong> We restrict access to personal information to employees, contractors, and agents who need to know that information in order to process it for us.</div>
+                            </li>
+                            <li class="d-flex">
+                                <i class="fas fa-square"></i>
+                                <div class="flex-grow-1"><strong>Contractual Safeguards</strong> These individuals are bound by confidentiality obligations and may be subject to discipline, including termination and criminal prosecution, if they fail to meet these obligations.</div>
+                            </li>
+                        </ul>
+                        <p class="mb-5">We aim to maintain our services in a manner that protects information from accidental or malicious destruction.</p>
+                        <div class="text-box mb-5">
+                            <h3>Information Sharing</h3>
+                            <p>We do not share personal information with companies, organizations, or individuals outside of CSV Export / CSV Export Plus unless one of the following circumstances applies...</p>
+                        </div>                        
+                        <h2 class="mb-3">3. Changes to This Policy</h2>
+                        <p class="mb-5"> Our Privacy Policy may change from time to time. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).</p>
+                        <h3>3.1. Compliance and Cooperation with Regulatory Authorities</h3>
+                        <p class="mb-5">We regularly review our compliance with our Privacy Policy. We also adhere to several self-regulatory frameworks.</p>
+                        <h3>3.2. Contact Us</h3>
+                        <p class="mb-5">If you have any questions about this Privacy Policy, please feel free to contact us through our website or write to us at Privacy Matters, c/o CSV Export / CSV Export Plus.</p>
+                        <div class="text-box mb-5">
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1"><strong>Address</strong> 115 Mabini Avenue, Poblacion 2 (Barangay 2) Catbalogan City, Samar, Philippines 6700</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1"><strong>Email</strong> contact@somethingtechie.co</div>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="fas fa-square"></i>
+                                    <div class="flex-grow-1"><strong>Phone</strong> +63 (55) 543 8602</div>
+                                </li>
+                            </ul>
+                        </div>                        
+                        <h2 class="mb-3">4. Conclusion</h2>
+                        <p class="mb-4">Your privacy is important to us. We strive to protect your personal information and safeguard your privacy and security. We appreciate your trust in sharing your personal information with us.</p>
+                        <ul class="list-unstyled li-space-lg mb-5">
+                            <li class="d-flex">
+                                <strong>1.</strong>
+                                <div class="flex-grow-1"><strong>Last Updated</strong> This Privacy Policy was last updated on July 22, 2023.</div>
+                            </li>
+                            <li class="d-flex">
+                                <strong>2.</strong>
+                                <div class="flex-grow-1"><strong>Agreement</strong> By using our services, you agree to the terms of this Privacy Policy.</div>
+                            </li>
+                            <li class="d-flex">
+                                <strong>3.</strong>
+                                <div class="flex-grow-1"><strong>Changes</strong> We may change this Privacy Policy at any time, with changes taking effect when posted on the website.</div>
+                            </li>
+                        </ul>                        
+                        <div class="text-box mb-5">
+                            <h3>Thank You</h3>
+                            <p>Thank you for taking the time to read our Privacy Policy. We appreciate your trust and want to make sure you understand how we use and safeguard your data.</p>
+                        </div>                        
+                        <p class="mb-5">If you have any questions or concerns about our privacy practices, please don't hesitate to contact us.</p>                        
+                        <a class="btn-solid-reg mb-5" href="home">Home</a>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of ex-basic-1 -->
+        <!-- end of basic -->
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <div class="footer-col icon-stack">
+                            <span class="fa-stack">
+                                <a href="https://facebook.com/somethingtechie">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://instagram.com/somethingtechie">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="https://x.com/somethingtechie">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-x-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <p class="p-small">Questions? Reach out to us at <a href="mailto:contact@csvexport.co"><strong>contact@csvexport.co</strong></a>!</p>
+                        </div> <!-- end of footer-col -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->  
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex flex-column align-items-center justify-content-center">
+                        <p class="p-small mb-2">CSV Export / CSV Export Plus © 2024</p>
+                        <div class="powered-by d-flex align-items-center">
+                            <span class="me-2">POWERED BY</span>
+                            <a href="https://somethingtechie.co">
+                                <img src="https://somethingtechie.co/img/logo.png" alt="SOMETHING TECHIE" style="height: 36px;">
+                            </a>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
+        
+
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn">
+            <img src="images/up-arrow.png" alt="alternative">
+        </button>
+        <!-- end of back to top button -->
+            
+        <!-- Scripts -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        
+        <!-- Disable Right-Click -->
+        <script>
+            document.addEventListener('contextmenu', event => event.preventDefault());
+        </script>
+
+        <!-- Typing Animation Effect -->
+        <script>
+            var favicon = document.getElementById('favicon');
+            var plusWordElement = document.getElementById('plus-word');
+            var word = " Plus";
+            var index = 0;
+            var isDeleting = false;
+            var pauseBetween = 2000;
+            var timeoutId;
+
+            function typePlusWord() {
+                clearTimeout(timeoutId); // clear the previous timeout
+                if (!isDeleting && index <= word.length) {
+                    plusWordElement.innerHTML = `<span style='color: #ffec00;'>${word.slice(0, index)}</span>`;
+                    favicon.href = 'images/favicon-2.png';
+                    index++;
+                    timeoutId = setTimeout(typePlusWord, 150);
+                } else if (!isDeleting && index > word.length) {
+                    isDeleting = true;
+                    timeoutId = setTimeout(typePlusWord, pauseBetween);
+                } else if (isDeleting && index >= 0) {
+                    plusWordElement.innerHTML = `<span style='color: #ffec00;'>${word.slice(0, index)}</span>`;
+                    favicon.href = (index > 0) ? 'images/favicon-1.png' : 'images/favicon-2.png';
+                    index--;
+                    timeoutId = setTimeout(typePlusWord, 150);
+                } else if (isDeleting && index < 0) {
+                    isDeleting = false;
+                    timeoutId = setTimeout(typePlusWord, pauseBetween);
+                }
+            }
+
+            timeoutId = setTimeout(typePlusWord, pauseBetween);
+        </script>
+
+        <!-- Crisp -->
+        <!--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="5eb84d3e-604e-437e-ab7d-2ee51ca8a561";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
+    </body>
+</html>

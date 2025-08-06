@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- PLUGINS -->
+    <meta name="lava-verify" content="d8170ed20a48fed8" />
+
+
+
+
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="generator" content="Creatium">
+
+    <title>Политика конфиденциальности — ProTalk</title>
+
+    <link rel="canonical" href="https://pro-talk.ru/privacy">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="application/ld+json">{}</script>
+    
+<!--[if IE]><link rel="shortcut icon" href="https://i.1.creatium.io/disk2/e8/fd/ed/d01a2eb6e6b002c270070c3c74cfe51440/32x32/ptalk_ng.png"><![endif]-->
+<link rel="apple-touch-icon-precomposed" href="https://i.1.creatium.io/disk2/e8/fd/ed/d01a2eb6e6b002c270070c3c74cfe51440/180x180/ptalk_ng.png">
+<link rel="icon" href="https://i.1.creatium.io/disk2/e8/fd/ed/d01a2eb6e6b002c270070c3c74cfe51440/196x196/ptalk_ng.png">
+                <script>
+                window.creatium = {"creatium":true,"visit_id":null,"site_id":169965,"page_id":1050678,"content_id":1021597,"lang":"ru","time":1715202474,"screens":"screens-xs-md-lg","animations":[],"cookies":{"alert":1,"message":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f \u043d\u0430\u0448 \u0441\u0430\u0439\u0442, \u0432\u044b \u0434\u0430\u0435\u0442\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432 cookie \u0438 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0434\u0430\u043d\u043d\u044b\u0445"},"integrations":[],"misc":{"cdn_host":"i.1.creatium.io"},"allow_cookies":true,"site_options":{"captcha_signup":false,"captcha_orders":false,"member_allow_signup":false,"member_allow_auth":false},"member":{"id":0},"async":{"js":["\/app\/4.2\/delivery-builder?action=async&key=ae2ffae8f394a21cb3ebe1710f8b381d","\/assets\/4.2\/vendors-async.js?v=1705235070"],"css":["\/assets\/4.2\/vendors-async.css?v=1705235070"],"js_adaptive_sections":"\/app\/4.2\/delivery-builder?action=adaptive-sections&key=ae2ffae8f394a21cb3ebe1710f8b381d"},"device":"other","mini":false,"scroll":{"snapping":false}};
+                window.cr = window.creatium;
+                window.plp = window.creatium;
+                window.error_handler = function (e, fn_id) {
+                    window.console && console.log && console.log(fn_id);
+                    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
+                    window.console && console.error && console.error(e.message);
+                };
+                    cr.api = function (v, cb) { cr.api.queue.push([v, cb]) };
+    cr.api.queue = [];
+    cr.layout = {"top":0,"left":0};
+            </script>
+    <!-- CORE -->
+    <link type="text/css" rel="stylesheet" href="/assets/4.2/vendors.css?v=1705235070"><link type="text/css" rel="stylesheet" href="/assets/4.2/default.css?v=1705235070"><link type="text/css" rel="stylesheet" href="/assets/4.2/nodes.css?v=1705235070">    <script defer type="text/javascript" src="/assets/4.2/vendors.js?v=1705235070"></script><script defer type="text/javascript" src="/assets/4.2/default.js?v=1705235070"></script><script defer type="text/javascript" src="/assets/4.2/nodes.js?v=1705235070"></script><link rel="preload" href="/assets/4.2/vendors-sync.js?v=1705235070" as="script">
+            <style> 
+.node.css1 > .wrapper1 { background-color: rgb(231, 232, 254) }
+.node.css1  { color: #333 }
+.node.css1  > .padding_top { padding-top: 6px }
+.node.css1  > .padding_bottom { padding-bottom: 0px }
+.node.css1 a { color: rgb(117, 117, 117) }
+.node.css2  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css2 a { color: rgb(117, 117, 117) }
+.metahtml.css3 .hamburger1 {
+  position: relative;
+}
+
+.metahtml.css3 .hamburger1-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.metahtml.css3 .hamburger1-altmenu {
+  flex-grow: 1;
+  order: 1;
+}
+
+.metahtml.css3 .hamburger1-toggle {
+  width: 24px;
+  height: 14.399999999999999px;
+  flex: 0 0 24px;
+  margin: 5px;
+  cursor: pointer;
+  margin-top: 0;
+  order: 2;
+  position: relative;
+}
+
+.metahtml.css3 .hamburger1-toggle span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: rgb(38, 100, 217);
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.metahtml.css3 .hamburger1-toggle span:nth-child(1) {
+  top: 0px;
+}
+
+.metahtml.css3 .hamburger1-toggle span:nth-child(2),
+.metahtml.css3 .hamburger1-toggle span:nth-child(3) {
+  top: 7px;
+}
+
+.metahtml.css3 .hamburger1-toggle span:nth-child(4) {
+  top: 14px;
+}
+
+.metahtml.css3 .hamburger1-toggle.is-expanded span:nth-child(1) {
+  top: 7px;
+  width: 0%;
+  left: 50%;
+  opacity: 0;
+}
+
+.metahtml.css3 .hamburger1-toggle.is-expanded span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.metahtml.css3 .hamburger1-toggle.is-expanded span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.metahtml.css3 .hamburger1-toggle.is-expanded span:nth-child(4) {
+  top: 7.199999999999999px;
+  width: 0%;
+  left: 50%;
+  opacity: 0;
+}
+.node.css4  { color: #333; padding-top: 0px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css4 a { color: rgb(117, 117, 117) }
+.node.css5 img { width: calc(0.15 * var(--width)) }
+.node.css5 .bgnormal { text-align: left }
+.node.css6  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css6 a { color: rgb(117, 117, 117) }
+.textable.css7  { text-align: center; font-family: "Open Sans"; font-size: 6px; line-height: 1.6; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 0.05 }
+.node.css8  { color: #333; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css8 a { color: rgb(117, 117, 117) }
+.node.css9 img { width: calc(1 * var(--width)) }
+.node.css9 .bgnormal { text-align: center }
+.node.css10 img { width: calc(0.2 * var(--width)) }
+.node.css10 .bgnormal { text-align: center }
+.node.css11 > .wrapper1 { background-color: rgba(255, 255, 255, 0) }
+.node.css11  { color: #333; padding-top: 10px; padding-bottom: 10px; padding-left: 0px; padding-right: 0px }
+.screen-xs .node.css11  { padding-left: 60px!important; padding-right: 60px!important }
+.node.css11 a { color: rgb(117, 117, 117) }
+.node.css12  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css12 a { color: rgb(117, 117, 117) }
+.btn.css13 { text-align: center } .btn.css13 { background-color: rgba(231, 232, 254, 0);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(231, 232, 254);padding-top: 6px;padding-bottom: 6px;font-size: 15px;color: rgb(0, 0, 0)!important; } .btn.css13:hover, .btn.css13.hover { background-color: rgb(231, 232, 254);border-color: rgb(231, 232, 254);color: rgb(0, 0, 0)!important; } .btn.css13:active, .btn.css13.active { background-color: rgb(231, 232, 254);border-color: rgb(231, 232, 254);color: rgb(0, 0, 0)!important; } .btn.css13:before {  } .btn.css13:active:before, .btn.css13.active:before { background-color: rgb(231, 232, 254); }
+.btn.css14 { text-align: center } .btn.css14 { background-color: rgb(231, 232, 254);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-width: 1px;border-color: rgb(231, 232, 254);padding-top: 6px;padding-bottom: 6px;font-size: 15px;font-weight: bold;color: rgb(0, 0, 0)!important; } .btn.css14:hover, .btn.css14.hover { background-color: rgb(231, 232, 254);border-color: rgb(231, 232, 254);color: rgb(0, 0, 0)!important; } .btn.css14:active, .btn.css14.active { background-color: rgb(231, 232, 254);border-color: rgb(231, 232, 254);color: rgb(0, 0, 0)!important; } .btn.css14:before {  } .btn.css14:active:before, .btn.css14.active:before { background-color: rgb(231, 232, 254); }
+.modal.css15 .modal-dialog { width: 500px }
+.metahtml.css16 .popover1-root {
+  perspective: 1000px;
+}
+
+.metahtml.css16 .popover1-container {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(242, 242, 242);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  outline: none;
+  padding: 50px 20px;
+  margin-top: 6.666666666666667px;
+  opacity: 0;
+  transform-origin: 50% -50px;
+  transform: rotateX(-15deg);
+  transition: 250ms transform ease-out, 250ms opacity ease-out;
+}
+
+.metahtml.css16 .popover1-root.is-active .popover1-container {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.metahtml.css16 .popover1-root.is-hiding .popover1-container {
+  opacity: 0;
+  transform: rotateX(-15deg);
+}
+
+.metahtml.css16 .popover1-arrow {
+  text-align: center;
+  position: absolute;
+  line-height: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.metahtml.css16 .popover1-arrow div {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(242, 242, 242);
+  transform: translateY(-50%) rotate(45deg);
+  margin-top: -1px;
+  position: relative;
+  display: inline-block;
+  border-width: 1px 0 0 1px;
+  vertical-align: top;
+}
+
+.metahtml.css16 .popover1-body {
+  position: relative;
+  padding: 20px;
+}
+
+.metahtml.css16 .popover1-title {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.metahtml.css16 .popover1-close {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  margin-top: -2px;
+}
+
+.metahtml.css16 .popover1-close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.node.css17  { color: #333; padding-top: 10px; padding-bottom: 126px; padding-left: 5px; padding-right: 5px }
+.node.css17 a { color: rgb(117, 117, 117) }
+.btn.css18 { text-align: center } .btn.css18 { background-color: rgb(231, 232, 254);border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;border-style: solid;border-top-width: 1px;border-bottom-width: 1px;border-left-width: 1px;border-right-width: 1px;border-color: rgb(231, 232, 254);padding-top: 6px;padding-bottom: 6px;font-size: 15px;font-weight: bold;color: rgb(0, 0, 0)!important; } .btn.css18:hover, .btn.css18.hover { background-color: rgb(184, 187, 252);border-color: rgb(184, 187, 252);color: rgb(0, 0, 0)!important; } .btn.css18:active, .btn.css18.active { background-color: rgb(184, 187, 252);border-color: rgb(101, 107, 249);color: rgb(0, 0, 0)!important; } .btn.css18:before {  } .btn.css18:active:before, .btn.css18.active:before { background-color: rgb(184, 187, 252); }
+.node.css19 > .wrapper1 { background-color: rgb(243, 243, 243) }
+.node.css19  { color: #333 }
+.node.css19  > .padding_top { padding-top: 70px }
+.screen-xs .node.css19  > .padding_top { padding-top: 50px!important }
+.node.css19  > .padding_bottom { padding-bottom: 126px }
+.node.css19 a { color: rgb(117, 117, 117) }
+.node.css20 > .max-width { max-width: 800px; margin-left: auto; margin-right: auto }
+.textable.css21  { text-align: left; font-family: "Roboto Slab"; font-size: 36px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css21  { font-size: 29px!important }
+.node.css22 .padding { height: 30px }
+.textable.css23  { text-align: left; font-family: "Open Sans"; font-size: 39px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.textable.css24  { text-align: left; font-family: "Open Sans"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 1 }
+.textable.css25  { text-align: left; font-family: "Open Sans"; font-size: 28px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.textable.css26  { text-align: left; font-family: "Open Sans"; font-size: 16px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.node.css27 > .wrapper1 { background-color: rgb(24, 33, 49) }
+.node.css27  { color: #FFF }
+.node.css27  > .padding_top { padding-top: 111px }
+.screen-xs .node.css27  > .padding_top { padding-top: 30px!important }
+.node.css27  > .padding_bottom { padding-bottom: 22px }
+.screen-xs .node.css27  > .padding_bottom { padding-bottom: 30px!important }
+.node.css27 a { color: rgb(117, 117, 117) }
+.node.css28  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css28 a { color: rgb(117, 117, 117) }
+.node.css29  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css29 a { color: rgb(117, 117, 117) }
+.node.css30 img { width: calc(0.15 * var(--width)) }
+.node.css30 .bgnormal { text-align: center }
+.textable.css31  { text-align: center; font-family: "Open Sans"; font-size: 12px; line-height: 1.8666666666666665; letter-spacing: 0em; opacity: 0.6 }
+.screen-xs .textable.css31  { text-align: center!important }
+.textable.css32  { text-align: center; font-family: "Open Sans"; font-size: 12px; line-height: 1.8666666666666665; letter-spacing: 0em; opacity: 0.53 }
+.screen-xs .textable.css32  { text-align: center!important }
+.node.css33  { color: #FFF; padding-top: 0px; padding-bottom: 0px; padding-left: 5px; padding-right: 0px }
+.node.css33 a { color: rgb(117, 117, 117) }
+.node.css34  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 0px; padding-right: 0px }
+.node.css34 a { color: rgb(117, 117, 117) }
+.btn.css35 { text-align: center } .btn.css35 { background-color: rgba(195, 195, 195, 0);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(156, 156, 156);padding-top: 8px;padding-bottom: 8px;font-size: 12px;text-decoration: underline;color: rgb(195, 195, 195)!important; } .btn.css35:hover, .btn.css35.hover { background-color: rgba(175, 175, 175, 0);border-color: rgb(124, 124, 124);color: rgb(156, 156, 156)!important; } .btn.css35:active, .btn.css35.active { background-color: rgba(158, 158, 158, 0);border-color: rgb(140, 140, 140);color: rgb(255, 255, 255)!important; } .btn.css35:before {  } .btn.css35:active:before, .btn.css35.active:before { background-color: rgba(158, 158, 158, 0); }
+.node.css36  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 0px; padding-right: 5px }
+.node.css36 a { color: rgb(117, 117, 117) }
+.soc-icon.css37 .link .bg {border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;width: 27px;height: 27px;padding: 2px;border-style: solid;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;border-right-width: 0px;color: rgb(153, 153, 153);border-color: rgb(30, 80, 174);background: rgba(38, 100, 217, 0);}.soc-icon.css37 .link:hover .bg {color: rgb(38, 100, 217);border-color: rgb(23, 60, 130);background: rgba(30, 80, 174, 0);}.soc-icon.css37 .link:active .bg {color: rgb(255, 255, 255);border-color: rgb(23, 60, 130);background: rgb(30, 80, 174);}.soc-icon.css37 span { line-height: 27px }
+.area.screen-lg { min-width: 1200px; }.area.screen-lg .container { width: 1140px; }.area.screen-lg .container.soft { max-width: 1140px; }.area.screen-md { min-width: 960px; }.area.screen-md .container { width: 940px; }.area.screen-md .container.soft { max-width: 940px; }.area.screen-sm { min-width: 720px; }.area.screen-sm .container { width: 720px; }.area.screen-sm .container.soft { max-width: 720px; }.area.screen-xs .container { max-width: 737px; padding: 0 15px; }
+ </style>
+    
+    
+    <!-- PLUGINS -->
+    <meta name="lava-verify" content="d8170ed20a48fed8" />
+<meta name="mailru-domain" content="V3Lp1jjQSfx8ZhMf" />
+<meta name="facebook-domain-verification" content="dg2h83eo0g66ty7dalnev0wrtje8ld" />
+<script type="text/javascript">
+ // Версия 3
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+ (window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+  ym(94268091, 'init', {
+ clickmap:true,
+ trackLinks:true,
+ accurateTrackBounce:true,
+  webvisor: true,
+  });
+  </script><noscript><div><img src='https://mc.yandex.ru/watch/94268091' style='position:absolute; left:-9999px;' alt='' /></div></noscript>
+<meta name="yandex-verification" content="b3c22dba0d23d1da" /><meta name="yandex-verification" content="ef2b7f056b5599ef" />
+<meta name="google-site-verification" content="VSRLtsV1tbBb-rYGWQHdeRpnvjrArE5eOyyQ3fzkOro" />
+
+
+                    <script async type="text/javascript"
+                src="/app/sv?tech=1021597.1050678.169965&url=%2Fprivacy&referer="
+        ></script>
+    
+    <!-- proxy-module cut-head -->
+</head>
+
+<body class="area font-text-opensans font-header-robotoslab">
+<div class="area-wrapper">
+<!-- PLUGINS -->
+
+
+
+
+
+
+
+
+<!-- HTML -->
+<script>
+            creatium.getWindowWidth = function () {
+                var windowWidth = window.innerWidth;
+
+                
+                if (window.innerWidth === 980 && !window.MSStream && /iPhone|iPod/.test(navigator.userAgent)) {
+                    windowWidth = window.outerWidth;
+                }
+                
+                return windowWidth;
+            }
+        
+            creatium.getScreen = function () {
+                var _windowWidth = creatium.getWindowWidth();
+
+                var lgWidth = 1200 + cr.layout._left_current;
+                var mdWidth = 992 + cr.layout._left_current;
+                var smWidth = 768 + cr.layout._left_current;
+
+                if (creatium.screens === 'screens-xs') return 'xs';
+                else if (creatium.screens === 'screens-sm') return 'sm';
+                else if (creatium.screens === 'screens-md') return 'md';
+                else if (creatium.screens === 'screens-lg') return 'lg';
+                else if (creatium.screens === 'screens-xs-sm') {
+                    if (_windowWidth >= smWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'md';
+                } else if (creatium.screens === 'screens-xs-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= smWidth && _windowWidth < lgWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-xs-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                }
+            }
+            
+            creatium.isLayoutMobile = function () {
+                if (creatium.getScreen() !== 'xs') return false;
+                return creatium.getWindowWidth() < 320 + cr.layout.left;
+            }
+
+            cr.layout._left_current = cr.layout.left;
+            if (cr.layout._left_current) {
+                document.body.classList.add('layout-left-active');
+            }
+
+            creatium.layout.mobile = creatium.isLayoutMobile();
+            if (creatium.layout.mobile) {
+                document.body.classList.add('layout-mobile');
+            }
+
+            creatium.screen = creatium.getScreen();
+            document.body.classList.add('screen-' + creatium.screen);
+
+            if (creatium.device) {
+                creatium.device_fix = false;
+                if (creatium.screen === 'xs' && creatium.device !== 'mobile') creatium.device_fix = true;
+                if (creatium.screen === 'sm' && creatium.device !== 'tablet') creatium.device_fix = true;
+                if (creatium.screen === 'md' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.screen === 'lg' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.device_fix) document.write('<script src="' + creatium.async.js_adaptive_sections + '"></scr'+'ipt>');                    
+            }
+        </script><div class="node section-clear section css1" id="home" data-fixation="{&quot;lg&quot;:&quot;none&quot;,&quot;md&quot;:&quot;none&quot;,&quot;sm&quot;:&quot;none&quot;,&quot;xs&quot;:&quot;top&quot;}" data-opacity="0.95"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-hamburger widget css2"><div class="metahtml css3"><div class="hamburger1">
+  <div cr-hamburger-root="">
+    <div class="hamburger1-header">
+      <div cr-hamburger-toggle="" il-action="toggle" class="hamburger1-toggle is-collapsed">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="hamburger1-altmenu">
+        <div class="cont"><div class="node widget-image widget css4 css5"><div class="bgnormal"><a href="/#start" target=""><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAAXNSR0IArs4c6QAAABJJREFUGFdjZKAQMFKon4FiAwACSQAE8F4HLgAAAABJRU5ErkJggg==" style="border-radius: 0px; --width:924px; --height:219px; --ratio:4.21918;" data-lazy-image="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B924,219%5D,%22quality%22:8%7D" data-lazy-image_resize="true" data-lazy-image_detect="css-width"></a></div><noscript><img src="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B924,219%5D,%22quality%22:8%7D" alt=""></noscript></div></div>
+      </div>
+    </div>
+  </div>
+  <div cr-hamburger-menu="" class="hamburger1-menu is-collapsed" style="display: none;">
+    <div class="cont"><div class="node widget-text cr-text widget css6"><p class="textable css7">ИП Горелов Максим Николаевич &nbsp;8 (915) 093-74-75</p></div><div class="node widget-grid widget css6"><div class="grid valign-middle paddings-0px sm-wrap xs-wrap"><div class="gridwrap"><div class="col" style="width: 16.166%;"><div class="cont"><div class="node widget-image widget xs-hidden sm-hidden css8 css9"><div class="bgnormal"><a href="/?ref=#home" target=""><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAAXNSR0IArs4c6QAAABJJREFUGFdjZKAQMFKon4FiAwACSQAE8F4HLgAAAABJRU5ErkJggg==" style="border-radius: 0px; --width:924px; --height:219px; --ratio:4.21918;" data-lazy-image="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B924,219%5D,%22quality%22:8%7D" data-lazy-image_resize="true" data-lazy-image_detect="css-width"></a></div><noscript><img src="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B924,219%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div><div class="col" style="width: 83.834%;"><div class="cont"><div class="node widget-image widget xs-hidden md-hidden lg-hidden css8 css10"><div class="bgnormal"><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAAXNSR0IArs4c6QAAABJJREFUGFdjZKAQMFKon4FiAwACSQAE8F4HLgAAAABJRU5ErkJggg==" style="border-radius: 0px; --width:924px; --height:219px; --ratio:4.21918;" data-lazy-image="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B%22924%22,%22219%22%5D,%22quality%22:8%7D" data-lazy-image_resize="true" data-lazy-image_detect="css-width"></div><noscript><img src="https://i.1.creatium.io/disk2/00/61/b0/9c2cc99533d5a17ff46aa25dc85cb5a7b6/logo9.png#%7B%22size%22:%5B%22924%22,%22219%22%5D,%22quality%22:8%7D" alt=""></noscript></div><div class="node widget-menu widget css11" id="menu1"><div class="wrapper1"><div class="wrapper2"></div></div><div class="w-menu-grid center xs-full"><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css12"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css13" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru?ref=#staff" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Каталог ботов</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css12"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css13" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru?ref=#tax" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Тарифы</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css12"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css13" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru/help?ref=" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Помощь</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css6"><div class="button-container center"><div class="button-wrapper"><button class="btn btn-legacy font-text css14" data-action="modal" data-modal="popover"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Регистрация</span></div><div class="pad-right" style="width: 12px;"></div></button></div></div><div class="modal nocolors css15" data-name="popover" data-type="popover" data-duration="250" data-trigger="click"><div data-uid="uluoibrcv851yylxsbqr_0"></div></div></div></div></div><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget css6"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css14" data-action="link" data-highlight="true" data-track-active="false" href="https://account.pro-talk.ru/login" target="_blank" rel="nofollow"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Войти</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="w-menu-grid__cell" data-repeater-template="" style="padding-left: 0px; padding-right: 0px;"><div class="cont cell"><div class="node widget-menu-button cr-menu-button widget xs-hidden sm-hidden md-hidden lg-hidden css2"><div class="button-container center"><div class="button-wrapper"><button class="btn btn-legacy font-text css18" data-action="none"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text"><div data-fillout-id="miA1nPNN7Wus" data-fillout-embed-type="popup" data-fillout-button-text="Регистрация" data-fillout-button-color="#E7E8FE" data-fillout-button-size="small" data-fillout-inherit-parameters=""></div><script src="https://server.fillout.com/embed/v1/"></script></span></div><div class="pad-right" style="width: 12px;"></div></button></div></div></div></div></div></div></div></div></div></div></div></div></div>
+  </div>
+</div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css19"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-max-width widget css12 css20"><div class="max-width" style="position: relative;"><div class="cont"><div class="node widget-text cr-text widget css12"><h2 class="textable css21">Редактируемый текст</h2></div><div class="node widget-blank widget css2 css22"><div class="padding"></div></div><div class="node widget-text cr-text widget css8"><h1 class="textable css23">Политика конфиденциальности ProTalk</h1></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Дата последнего обновления: 12 июня 2023</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Определения</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Настоящая Политика конфиденциальности устанавливает порядок сбора и обработки вашей личной информации через веб-сайт <a href="https://pro-talk.ru/">https://pro-talk.ru/</a> сервис ProTalk, а также продукты, услуги и приложения, ссылающиеся на настоящую Политику конфиденциальности (совместно именуемые “ProTalk” или «Сервис»), которую администрация сервиса ProTalk и ее аффилированные лица получают в ходе использования вами Сервиса.<br>Используя ProTalk, вы соглашаетесь с условиями, описанными в настоящей Политике конфиденциальности.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Перечень собираемой нами информации</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Сбор и обработка Персональной информации (персональных данных) осуществляется при использовании вами Сервиса. Данную информацию можно разделить на две общие категории: Информация, которую вы предоставляете самостоятельно и Информация, которая собирается автоматически.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Информация, которую вы предоставляете самостоятельно</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">При использовании Сервиса мы запрашиваем и собираем приведенную ниже личную информацию. Данная информация необходима для надлежащего выполнения любого заключенного между нами договора, включая, но не ограничиваясь Пользовательское соглашение. Без данной информации мы не сможем предоставить вам все запрашиваемые услуги и функции Сервиса.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">К такой информации относится:</h3></div><div class="node widget-text cr-text widget css8"><h4 class="textable css26"><b>Информация о вашем профиле:</b></h4></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– ваши фамилия, имя, отчество;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– контактный телефон;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– E-mail (электронная почта);</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– место жительства;</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Ваши сообщения</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">При работе Сервиса в обычном режиме мы храним ваши сообщения на наших серверах в течение неопределенного срока. Мы обеспечиваем сквозное шифрование для нашего Сервиса, которое включено по умолчанию. Сквозное шифрования означает, что ваши сообщения шифруются для того, чтобы оградить их от чтения третьими лицами или нас.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Ваши контакты</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Чтобы помочь вам организовать общение с другими людьми, мы можем создавать списки избранных контактов, и вы сами можете регистрировать группы или списки рассылки, вступать и добавляться в них, при этом эти группы и списки будут прикрепляться к информации вашего аккаунта.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Информация, которая собирается автоматически</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Существует определенная информация, которую мы собираем автоматически в результате использования вами Сервиса или с помощью файлов cookie и других сервисов веб-аналитики.<br>Эта информация, как правило, включает:</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Информацию об использовании – мы собираем информацию о вашем использовании Сервиса, включая посещаемые страницы и ссылки, время, частоту и продолжительность ваших посещений Сервиса.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Данные журнала – мы автоматически собираем данные журнала при использовании Сервиса, даже если вы не зарегистрировались для учетной записи или не вошли в систему. Эта информация включает в себя, среди прочего, сведения о том, как вы использовали Сервис (включая ссылки на сторонние сайты или службы), IP-адрес, время доступа, тип браузера и операционной системы, информацию об устройстве, информацию о событиях устройства (например, сбоях, типе браузера) и страницу, с которой вы просматривали или работали до или после использования Сервиса.<br>Файлы cookie – мы используем файлы cookie и другие подобные технологии, такие как пиксели, локальное хранилище и идентификаторы мобильных устройств, а также можем позволить нашим бизнес-партнерам использовать эти технологии отслеживания на Сервисе или привлекать других пользователей для отслеживания вашего поведения от нашего имени.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Данные местоположения – при использовании определенных функций Сервиса мы можем собирать данные о вашем общем местоположении (например, IP-адрес). Мы используем эти данные для предоставления услуг на основе местоположения (например, рекламы и персонализированного контента). Большинство мобильных устройств позволяют контролировать или отключать использование служб определения местоположения для приложений в настройках устройства.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Информация об устройстве – мы собираем информацию от и об устройствах, которые вы используете, в том числе о том, как вы взаимодействуете с Сервисом, и информацию о самом устройстве, такую как модель оборудования, операционная система, IP-адреса, информация о cookie, настройки устройства, мобильные устройства и идентификаторы рекламы, установленные приложения, тип браузера, язык, уровень батареи и часовой пояс. Эта информация позволяет распознавать и связывать ваши действия, а также предоставлять персонализированный контент и рекламу на всех ваших устройствах.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Цели использования персональной информации</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы используем Вашу личную информацию для работы, предоставления, разработки и улучшения продуктов и услуг, которые мы предлагаем нашим клиентам. Эти цели включают:</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– идентификацию Пользователя;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– предоставление Пользователю персонализированных услуг и сервисов;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– связь с Пользователем, в том числе направление уведомлений, запросов и информации, касающихся использования Сервиса, оказания услуг, а также обработки запросов и заявок от Пользователя;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– проведение статистических и иных исследований, на основе обезличенных данных;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– проведение маркетинговых акций для Пользователей, в том числе в целях распространения предложений об участии в акции и получения предусмотренных акцией призов/вознаграждений;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– распространение рекламно-информационных материалов по сетям электросвязи, в том числе посредством использования телефонной, интернет-, подвижной радиотелефонной связи, или путем прямых контактов;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– для разрешения спорных ситуаций и выявления неполадок;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– для предотвращения потенциально запрещенных и незаконных действий;</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– таргетирования рассылок, рекламных материалов и иной информации, доводимой до сведения Пользователей.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Использование cookie и других идентификаторов</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Чтобы наши системы могли распознавать ваш браузер или устройство, а также предоставлять и совершенствовать службы ProTalk, мы используем файлы cookie и другие идентификаторы.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы используем cookie, пиксели и другие технологии (совместно именуемые “cookie”), чтобы узнать больше о ваших интересах, а также предоставить вам функции и услуги Сервиса, включая:</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Распознавание при входе в систему. Это необходимо для возможности использования Сервиса.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Отслеживание указанных настроек. Это позволяет нам соблюдать ваши предпочтения, например, в отношении отображаемой рекламы. Вы можете установить свои настройки с помощью учетной записи.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Проведение исследований и диагностики для улучшения содержания, продуктов и услуг ProTalk.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Предотвращение мошеннических действий.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Усиление безопасности при использовании Сервиса.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Предоставление контента, включая рекламу, которая имеет отношение к вашим интересам на сайте ProTalk и сторонних сайтах.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">– Формирование статистики. Это позволяет измерять и анализировать работу наших сервисов.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Отдельные сайты, в число которых входят: поисковые системы, поставщики услуг по измерению и аналитике, социальные сети и рекламные компании, также могут устанавливать файлы cookie при взаимодействии с сервисами ProTalk. Такие сайты используют cookie при предоставлении контента, в том числе, рекламы, имеющей отношение к вашим интересам, для оценки эффективности своей рекламы, а также для выполнения услуг от имени ProTalk.<br>Управление файлами cookie доступно через настройки браузера. Функция “Справка” в большинстве браузеров содержит информацию о запрете вашему браузеру принимать новые файлы cookie, настройках уведомления браузера о получении нового файла cookie, блокировке файлов cookie и истечении срока действия файлов cookie. В случае блокировки cookie, отдельные функции Сервиса могут быть не доступны.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Передача информации пользователей третьим лицам</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">ProTalk не осуществляет продажу и передачу персональной информации пользователей третьим лицам. Персональная информация пользователей может быть предоставлена только в указанных ниже случаях, а также аффилированным лицам, которые соблюдают требования настоящей Политики и предпринимают все необходимые действия для защиты персональных данных.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Привлечение сторонних исполнителей</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы привлекаем другие компании и частных лиц для оказания отдельных услуг, таких как: поддержка работы сайта, удаление повторяющейся информации, анализ данных, оказание маркетинговой помощи, обеспечение результатов поиска и ссылок, обработка платежей, обеспечение обслуживания клиентов и других. Привлекаемые могут иметь доступ к персональной информации, необходимой для выполнения возложенных на них задач, но не могут использовать полученные данные в других целях.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">В соответствии с требованиями закона</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы можем раскрывать вашу информацию судам, правоохранительным органам и государственным органам в следующих целях: (I) соблюдение наших юридических обязательств, (ii) соблюдение процессуальных норм и ответы на претензии, предъявленные в отношении Wazzup, (iii) ответы на запросы уполномоченных лиц, касающиеся уголовного расследования или предполагаемой или подозреваемой незаконной деятельности или любой другой деятельности, которая может подвергнуть нас, вас или любых других из наших пользователей ответственности, (Iv) обеспечение соблюдения соглашениями с пользователями, или (V) для защиты прав, собственности или личной безопасности ProTalk, его сотрудников и аффилированных лиц.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Реструктуризация или продажа бизнеса</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы вправе по своему усмотрению уступать все наши права и обязательства по настоящей Политике конфиденциальности любым нашим аффилированным лицам в связи со слиянием, присоединением, реструктуризацией или продажей Сервиса, в силу закона или на иных основаниях. Кроме того, информация о вас может быть передана любым нашим аффинированным лицам, правопреемникам или новому владельцу Сервиса.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">По вашему согласию</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Ваша информация может быть раскрыта или передана третьим лицам по вашему согласию. Мы сообщим вам об этом в момент сбора вашей информации, включая цели, для которых мы будем использовать эти данные.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Защита информации</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">В рамках сервиса ProTalk поддерживаются соответствующие технические, административные и физические гарантии, предназначенные для предотвращения несанкционированного доступа, использования или раскрытия личной информации, которую мы собираем или храним, а также для обеспечения уровня безопасности, соответствующего риску различной вероятности и серьезности для прав и свобод физических лиц, которые могут быть вовлечены в наши операции по обработке. Мы регулярно отслеживаем наши системы на предмет возможных уязвимостей и атак. Однако гарантировать безопасность информации, передаваемой через интернет, не представляется возможным. Вы используете Сервис и предоставляете нам информацию по своему усмотрению и на свой риск. Тем не менее, если по какой-либо причине ваши персональные данные несанкционированно попадут к третьим лицам, вам будет сообщено об этом в течение 72 часов.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Обновление и изменение настоящей политики</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Мы можем изменить или обновить настоящую Политику конфиденциальности, в случае необходимости. Мы сообщим вам о внесении изменений в настоящую Политику конфиденциальности и обновим дату “Последнее изменение” в верхней части настоящей Политики конфиденциальности. Дальнейшее использование Сервиса подтверждает ваше согласие с нашей Политикой конфиденциальности и внесенными изменениями. Если вы не согласны с Политикой конфиденциальности и внесенными изменениями, пожалуйста, не используйте Сервис. Рекомендуем периодически пересматривать настоящую Политику конфиденциальности.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Возрастные ограничения</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Сервис не предназначен для использования несовершеннолетними. Любому лицу, не достигшему 18 лет, запрещается пользоваться Сервисом. Такие лица не должны пытаться зарегистрировать учетную запись или представить нам какую-либо личную информацию. Мы сознательно не собираем никакой личной информации от любого лица, которому не исполнилось 18 лет. При получении информации о том, что мы получили персональные данные от лица, не достигшего 18 лет, такие данные будут удалены незамедлительно. Если у вас есть основания полагать, что мы, возможно, собрали персональные данные лица, не достигшего 18 лет, пожалуйста, уведомите нас немедленно по адресу<span>&nbsp;support@</span>pro-talk.ru. Для целей проверки возраста пользователей Сервис вправе запрашивать копии документа, удостоверяющего личность. В случае отказа от предоставления такого документа, доступ такого пользователя к Сервису может быть заблокирован.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Заключительные положения</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Пользователь может в любой момент изменить (обновить, дополнить) предоставленную им персональную информацию или её часть, а также параметры её конфиденциальности, воспользовавшись функцией редактирования персональных данных в личном кабинете.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Персональные данные хранятся на Сервисе до момента прекращения вами использования Сервиса. В случае удаления данных с Сервиса по инициативе одной из сторон, персональные данные пользователя хранятся в базах данных Сервиса не более шести месяцев.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">По истечении вышеуказанного срока хранения персональных данных пользователя, персональные данные пользователя уничтожаются.</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">Пользователь вправе в любой момент отозвать предоставленное согласие на обработку персональных данных при условии письменного уведомления об этом Сервиса по каналам связи, указанным ниже, не менее чем за 90 дней̆ до предполагаемой̆ даты прекращения обработки и использования предоставленных им персональных данных.</p></div><div class="node widget-text cr-text widget css8"><h3 class="textable css25">Контактная информация</h3></div><div class="node widget-text cr-text widget css8"><p class="textable css24">По вопросам и предложениям, связанным с настоящей Политикой, просим связываться с нами по адресу эл.почты<span>&nbsp;</span>support@pro-talk.ru<span>&nbsp;</span></p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">ИП Горелов Максим Николавевич</p></div><div class="node widget-text cr-text widget css8"><p class="textable css24">ОГРН 309500106900065, ИНН 500104951533</p></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css27"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css28"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 17.0268%;"><div class="cont"><div class="node widget-image widget css29 css30"><div class="bgnormal"><a href="https://pro-talk.ru/?ref=" target=""><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPqI4LwAAIkcAEFZQAIMAAAAASUVORK5CYII=" data-lazy-image="https://i.1.creatium.io/disk2/ed/6a/1e/cc17861a671b6ac874e37218af7ba14cb7/ptalk.jpg#%7B%22size%22:%5B385,367%5D,%22quality%22:8%7D" data-lazy-image_resize="true" data-lazy-image_detect="css-width" style="border-radius: 62px; --width:385px; --height:367px; --ratio:1.04905;"></a></div><noscript><img src="https://i.1.creatium.io/disk2/ed/6a/1e/cc17861a671b6ac874e37218af7ba14cb7/ptalk.jpg#%7B%22size%22:%5B385,367%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div><div class="col" style="width: 69.0286%;"><div class="cont"><div class="node widget-text cr-text widget css28"><p class="textable css31">© ProTalk 2023 ИП Горелов Максим Николаевич ИНН<span>&nbsp;</span><a href="tel:500104951533">500104951533</a><span>&nbsp;</span>ОГРН<span>&nbsp;</span><a href="tel:309500106900065">309500106900065</a>&nbsp;</p></div><div class="node widget-text cr-text widget css28"><p class="textable css32">Новая, 8, 9 Реутов, Московская область 143964 Россия</p></div><div class="node widget-grid widget css33"><div class="grid valign-middle paddings-0px xs-wrap"><div class="gridwrap"><div class="col" style="width: 26.601%;"><div class="cont"><div class="node widget-button widget css34"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css35" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru/privacy?ref=" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Политика конфиденциальности</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="col" style="width: 24.7537%;"><div class="cont"><div class="node widget-button widget css34"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css35" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru/user-agreement?ref=" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Пользовательское соглашение</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="col" style="width: 23.6453%;"><div class="cont"><div class="node widget-button widget css36"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css35" data-action="link" data-highlight="true" data-track-active="false" href="https://pro-talk.ru/referral-program?ref=" target="_self"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Реферальная программа</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div><div class="col" style="width: 25%;"><div class="cont"><div class="node widget-button widget css36"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-text css35" data-action="link" data-highlight="true" data-track-active="false" href="https://candied-cactus-f66.notion.site/ATIKS-DialogAI-White-Label-719b6bde98a94161b531c7dbaa129c08?pvs=4" target="_blank"><div class="pad-left" style="width: 12px;"></div><div class="btn-content"><span class="text">Партнёрство по White Label</span></div><div class="pad-right" style="width: 12px;"></div></a></div></div></div></div></div></div></div></div></div></div><div class="col" style="width: 13.9446%;"><div class="cont"><div class="node widget-socials widget css28"><div class="xs-force-center soc-icon paddings-10px white css37" style="text-align: right; font-size: 23px;"><a class="link vk" soc-index="0" href="https://vk.com/protalk_official" target="_blank"><div class="bg "></div></a><a class="link tg" soc-index="1" href="https://t.me/protalk_official" target="_blank"><div class="bg "></div></a><a class="link youtube" soc-index="2" href="https://www.youtube.com/@protalk_official" target="_blank"><div class="bg "></div></a></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section section-helper css38"></div>
+
+<!-- CORE -->
+<script type="text/javascript" src="/assets/4.2/vendors-sync.js?v=1705235070"></script>
+<!-- DEFER -->
+    
+<!-- PLUGINS -->
+
+
+
+
+
+
+<script type="text/javascript">
+            document.umnicoWidgetHash = 'f5dbee4fef8f4f4c776677bdda0b8778';
+            var x = document.createElement('script');
+            x.src = 'https://umnico.com/assets/widget-loader.js';
+            x.type = 'text/javascript';
+            x.charset = 'UTF-8';
+            x.async = true;
+            document.body.appendChild(x);
+        </script>
+</div></body>
+</html>

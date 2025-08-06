@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Legal.css"> <!-- Reference to your CSS file -->
+    <title>Legal</title>
+</head>
+<body>
+    <div>
+        <div class="legal-cards">
+            <a href="/legal/privacypolicy.html" class="legal-card">
+                <h2>Privacy Policy</h2>
+                <p>Click here to view our privacy policy</p>
+            </a>
+            <a href="/legal/termsofuse.html" class="legal-card">
+                <h2>Terms of Use</h2>
+                <p>Click here to view our terms of use</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

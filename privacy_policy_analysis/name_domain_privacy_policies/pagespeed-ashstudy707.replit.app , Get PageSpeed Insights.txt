@@ -1,0 +1,2222 @@
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award">
+    <meta property="og:site_name" content="Google for Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#1a73e8"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/developers/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/css/app.css">
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/images/favicon-new.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/images/touchicon-180-new.png"><link rel="canonical" href="https://developers.google.com/speed/docs/insights/v5/get-started"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google for Developers" href="https://developers.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started" /><link rel="alternate" hreflang="x-default" href="https://developers.google.com/speed/docs/insights/v5/get-started" /><link rel="alternate" hreflang="ar"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=ar" /><link rel="alternate" hreflang="bn"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=bn" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=zh-tw" /><link rel="alternate" hreflang="fa"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=fa" /><link rel="alternate" hreflang="fr"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=he" /><link rel="alternate" hreflang="hi"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=hi" /><link rel="alternate" hreflang="id"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=ko" /><link rel="alternate" hreflang="pl"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=pl" /><link rel="alternate" hreflang="pt-BR"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=pt-br" /><link rel="alternate" hreflang="ru"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=ru" /><link rel="alternate" hreflang="es"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=es" /><link rel="alternate" hreflang="es-419"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=es-419" /><link rel="alternate" hreflang="th"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=th" /><link rel="alternate" hreflang="tr"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=tr" /><link rel="alternate" hreflang="vi"
+          href="https://developers.google.com/speed/docs/insights/v5/get-started?hl=vi" /><title>Get Started with the PageSpeed Insights API &nbsp;|&nbsp; Google for Developers</title>
+
+<meta property="og:title" content="Get Started with the PageSpeed Insights API &nbsp;|&nbsp; Google for Developers"><meta property="og:url" content="https://developers.google.com/speed/docs/insights/v5/get-started"><meta property="og:image" content="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/images/opengraph/google-blue.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": "Get Started with the PageSpeed Insights API"
+  }
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Insights",
+      "item": "https://developers.google.com/speed/pagespeed/insights"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Get Started with the PageSpeed Insights API",
+      "item": "https://developers.google.com/speed/docs/insights/v5/get-started"
+    }]
+  }
+  </script>
+  
+  
+  
+  
+
+
+    
+      <link rel="stylesheet" href="/extras.css"></head>
+  <body class=""
+        template="page"
+        theme="google-blue"
+        type="article"
+        
+        
+        
+        layout="docs"
+        
+        
+        
+        concierge
+        display-toc
+        pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+    <section class="devsite-wrapper">
+      
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+      <devsite-header role="banner">
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner nocontent">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/speed/pagespeed/insights">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-product-logo"
+           alt="PageSpeed Insights"
+           src="https://www.gstatic.com/images/icons/material/product/2x/pagespeed_64dp.png"
+           srcset=" https://www.gstatic.com/images/icons/material/product/2x/pagespeed_64dp.png"
+           sizes="64px"
+           loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/speed/pagespeed/insights"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="PageSpeed Insights"
+      
+    >
+    PageSpeed Insights
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/speed/pagespeed/insights"
+      track-metadata-eventdetail="https://developers.google.com/speed/pagespeed/insights"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - home"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="home"
+         
+           data-label="navTopMenu"
+         
+           track-name="home"
+         
+           data-action="tabClick"
+         
+       >
+    HOME
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://developers.google.com/speed/docs/insights/v5/about"
+      track-metadata-eventdetail="https://developers.google.com/speed/docs/insights/v5/about"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - docs"
+       track-metadata-module="primary nav"
+       aria-label="DOCS, selected" 
+       
+         
+           data-category="guide"
+         
+           data-label="navTopMenu"
+         
+           track-name="docs"
+         
+           data-action="tabClick"
+         
+       >
+    DOCS
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    
+    project-name="PageSpeed Insights"
+    tenant-name="Google for Developers"
+    project-scope="/speed/pagespeed/insights"
+    url-scoped="https://developers.google.com/s/results/speed/pagespeed/insights"
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+        
+
+        
+          
+          
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+        </devsite-user>
+           
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    
+      devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+                  
+                  
+                  <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/speed/docs/insights/v5/about"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Make your web pages fast on all devices
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+                
+              
+              
+            </div>
+            
+          </div>
+          
+        
+      
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars >
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     >
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/speed/pagespeed/insights">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-product-logo"
+           alt="PageSpeed Insights"
+           src="https://www.gstatic.com/images/icons/material/product/2x/pagespeed_64dp.png"
+           srcset=" https://www.gstatic.com/images/icons/material/product/2x/pagespeed_64dp.png"
+           sizes="64px"
+           loading="lazy">
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/speed/pagespeed/insights"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="PageSpeed Insights"
+      
+    >
+    PageSpeed Insights
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://developers.google.com/speed/pagespeed/insights"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="home"
+      
+        data-label="navTopMenu"
+      
+        track-name="home"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: HOME"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      HOME
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/speed/docs/insights/v5/about"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="guide"
+      
+        data-label="navTopMenu"
+      
+        track-name="docs"
+      
+        data-action="tabClick"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: DOCS"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      DOCS
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+          
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item"><a href="/speed/docs/insights/v5/about"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/v5/about"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/v5/about"
+      ><span class="devsite-nav-text" tooltip>About PageSpeed Insights</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/speed/docs/insights/languages"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/languages"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/languages"
+      ><span class="devsite-nav-text" tooltip>Languages</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/speed/docs/insights/release_notes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/release_notes"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/release_notes"
+      ><span class="devsite-nav-text" tooltip>Release Notes</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>PageSpeed API</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/speed/docs/insights/v5/get-started"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/v5/get-started"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/v5/get-started"
+      ><span class="devsite-nav-text" tooltip>Get Started</span></a></li><li class="devsite-nav-item"><a href="/speed/docs/insights/rest/v5/pagespeedapi/runpagespeed"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/rest/v5/pagespeedapi/runpagespeed"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/rest/v5/pagespeedapi/runpagespeed"
+      ><span class="devsite-nav-text" tooltip>API Reference</span></a></li><li class="devsite-nav-item"><a href="/speed/docs/insights/libraries"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /speed/docs/insights/libraries"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/speed/docs/insights/libraries"
+      ><span class="devsite-nav-text" tooltip>Client Libraries</span></a></li></ul></li>
+          </ul>
+        
+        
+          
+    
+  
+    
+  
+        
+        
+          
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" class="devsite-main-content"
+            
+              has-book-nav
+              
+            >
+          
+          
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Home
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/products"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Products
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/speed"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail="Make the Web Faster"
+      
+    >
+    
+        Make the Web Faster
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/speed/pagespeed/insights"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="4"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="4"
+      
+        track-metadata-eventdetail="PageSpeed Insights"
+      
+    >
+    
+        Insights
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/speed/docs/insights/v5/about"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="5"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="5"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        DOCS
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+  </div>
+  
+      <h1 class="devsite-page-title" tabindex="-1">Get Started with the PageSpeed Insights API</h1>
+  <devsite-feature-tooltip
+          ack-key="AckCollectionsBookmarkTooltipDismiss"
+          analytics-category="Site-Wide Custom Events"
+          analytics-action-show="Callout Profile displayed"
+          analytics-action-close="Callout Profile dismissed"
+          analytics-label="Create Collection Callout"
+          class="devsite-page-bookmark-tooltip nocontent"
+          dismiss-button="true"
+          id="devsite-collections-dropdown"
+
+          
+          dismiss-button-text="Dismiss"
+
+          
+          close-button-text="Got it">
+
+        
+        <devsite-bookmark></devsite-bookmark>
+
+        <span slot="popout-heading">
+          
+          Stay organized with collections
+        </span>
+        <span slot="popout-contents">
+          
+          Save and categorize content based on your preferences.
+        </span>
+      </devsite-feature-tooltip>
+  <div class="devsite-page-title-meta"><devsite-view-release-notes></devsite-view-release-notes></div>
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+
+  
+
+
+
+
+
+
+<div class="devsite-article-body clearfix
+  ">
+
+  
+    
+  <p>
+    Use the PageSpeed Insights API to:
+  </p>
+  <ul>
+    <li>Measure the performance of a web page.</li>
+    <li>Get suggestions on how to improve the page's performance, accessibility, and SEO.</li>
+    <li>
+      Learn how to convert the page into a <a href="/web/progressive-web-apps">Progressive
+      Web App.</a>
+    </li>
+  </ul>
+  
+  
+  
+  
+  
+  
+  <p>
+    The PageSpeed Insights API returns real-world data from the <a href="https://developer.chrome.com/docs/crux/">Chrome User
+    Experience Report</a> and lab data from <a href="/web/tools/lighthouse">Lighthouse</a>.
+  </p>
+  <aside class="note">
+    We plan to discontinue including real-world data from the
+    <a href="https://developer.chrome.com/docs/crux/"'>Chrome User Experience Report</a> in this API. We recommend the
+    <a href="https://developer.chrome.com/docs/crux/api/">CrUX API</a> (<a href="https://developer.chrome.com/blog/chrome-ux-report-api/">guide</a>) or the
+    <a href="https://developer.chrome.com/docs/crux/history-api/">CrUX History API</a>
+    (<a href="https://developer.chrome.com/blog/chrome-ux-report-history-api/">guide</a>) instead.
+  </aside>
+  <h2 id="prerequisites" data-text="Prerequisites" tabindex="-1">Prerequisites</h2>
+  <p>
+    This tutorial assumes that you have general knowledge of command line interfaces and web
+    development.
+  </p>
+  <h2 id="key" data-text="Optional: Set up an API key" tabindex="-1">Optional: Set up an API key</h2>
+  
+  <p>
+    If you're just trying out the PageSpeed Insights API, you don't need an API key. If you
+    plan on using the API in an automated way and making multiple queries per second, you'll
+    need an API key.
+  </p>
+  
+  
+  
+  
+  <h3 id="APIKey" data-text="   Acquiring and using an API key " tabindex="-1">
+  Acquiring and using an API key
+</h3>
+
+
+
+
+  <a tabindex="0" class="devsite-api-getstarted-widget gc-analytics-event button button-primary"
+     data-category="Site-Wide Custom Events"
+     data-label="Get Henhouse Key"
+     data-api-id="pagespeedonline">Get a Key</a>
+  <p>Or create one in the <a href="https://console.cloud.google.com/apis/credentials">Credentials page</a>.</p>
+
+
+<p>After you have an API key, your application can append the query parameter
+<code translate="no" dir="ltr">key=<var translate="no">yourAPIKey</var></code> to all request URLs.</p>
+
+<p>The API key is safe for embedding in URLs; it doesn't need any encoding.</p>
+  <h2 id="explorer" data-text="API Explorer" tabindex="-1">API Explorer</h2>
+  
+  <p>
+    To make calls to the PageSpeed Insights API without writing any code, check out the
+    <a href="/apis-explorer#p/pagespeedonline/v5/">API Explorer</a>.
+  </p>
+  <h2 id="cli" data-text="CURL" tabindex="-1">CURL</h2>
+  <p>To try out the PageSpeed Insights API from the command line:</p>
+  <ol>
+    <li>Open a terminal.</li>
+    <li>
+      <p>
+        Run the following command. Append <code translate="no" dir="ltr">&amp;key=<var translate="no">yourAPIKey</var></code> if you're
+        using an API key.
+      </p>
+      <pre class="prettyprint notranslate devsite-click-to-copy lang-sh" dir="ltr">
+curl https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://developers.google.com
+</pre>
+      <p>
+        The response is a JSON object. See <a href="/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed#response">Response</a> to learn more
+        about each of the properties in the response object.
+      </p>
+      <pre class="prettyprint notranslate devsite-click-to-copy lang-json"
+     style="height:500px;" dir="ltr">
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "https://developers.google.com/",
+ "loadingExperience": {
+  "id": "https://developers.google.com/",
+  "metrics": {
+   "FIRST_CONTENTFUL_PAINT_MS": {
+    "percentile": 3482,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 1000,
+      "proportion": 0.37151728768042963
+     },
+     {
+      "min": 1000,
+      "max": 2500,
+      "proportion": 0.4244153519077991
+     },
+     {
+      "min": 2500,
+      "proportion": 0.2040673604117713
+     }
+    ],
+    "category": "SLOW"
+   },
+   "FIRST_INPUT_DELAY_MS": {
+    "percentile": 36,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 50,
+      "proportion": 0.960628961482204
+     },
+     {
+      "min": 50,
+      "max": 250,
+      "proportion": 0.02888834714773281
+     },
+     {
+      "min": 250,
+      "proportion": 0.010482691370063388
+     }
+    ],
+    "category": "FAST"
+   }
+  },
+  "overall_category": "SLOW",
+  "initial_url": "https://developers.google.com/"
+ },
+ "originLoadingExperience": {
+  "id": "https://developers.google.com",
+  "metrics": {
+   "FIRST_CONTENTFUL_PAINT_MS": {
+    "percentile": 2761,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 1000,
+      "proportion": 0.4236433226493666
+     },
+     {
+      "min": 1000,
+      "max": 2500,
+      "proportion": 0.45045120795679117
+     },
+     {
+      "min": 2500,
+      "proportion": 0.1259054693938423
+     }
+    ],
+    "category": "SLOW"
+   },
+   "FIRST_INPUT_DELAY_MS": {
+    "percentile": 45,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 50,
+      "proportion": 0.9537371485251699
+     },
+     {
+      "min": 50,
+      "max": 250,
+      "proportion": 0.03044972719889055
+     },
+     {
+      "min": 250,
+      "proportion": 0.01581312427593959
+     }
+    ],
+    "category": "FAST"
+   }
+  },
+  "overall_category": "SLOW",
+  "initial_url": "https://developers.google.com/"
+ },
+ "lighthouseResult": {
+  "requestedUrl": "https://developers.google.com/",
+  "finalUrl": "https://developers.google.com/",
+  "lighthouseVersion": "3.2.0",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/72.0.3584.0 Safari/537.36",
+  "fetchTime": "2018-11-01T03:03:58.394Z",
+  "environment": {
+   "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3559.0 Safari/537.36",
+   "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/72.0.3584.0 Safari/537.36",
+   "benchmarkIndex": 590.0
+  },
+  "runWarnings": [],
+  "configSettings": {
+   "emulatedFormFactor": "desktop",
+   "locale": "en-US",
+   "onlyCategories": [
+    "performance"
+   ]
+  },
+  "audits": {
+   "estimated-input-latency": {
+    "id": "estimated-input-latency",
+    "title": "Estimated Input Latency",
+    "description": "The score above is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/estimated-input-latency).",
+    "score": 1.0,
+    "scoreDisplayMode": "numeric",
+    "displayValue": "30 ms"
+   },
+   "uses-rel-preconnect": {
+    "id": "uses-rel-preconnect",
+    "title": "Preconnect to required origins",
+    "description": "Consider adding preconnect or dns-prefetch resource hints to establish early connections to important third-party origins. [Learn more](https://developers.google.com/web/fundamentals/performance/resource-prioritization#preconnect).",
+    "score": 1.0,
+    "scoreDisplayMode": "numeric",
+    "details": {
+     "headings": [],
+     "type": "opportunity",
+     "items": [],
+     "overallSavingsMs": 0.0
+    }
+   },
+   ...
+  },
+  "categories": {
+   "performance": {
+    "id": "performance",
+    "title": "Performance",
+    "score": 0.96,
+    "auditRefs": [
+     {
+      "id": "first-contentful-paint",
+      "weight": 3.0,
+      "group": "metrics"
+     },
+     {
+      "id": "first-meaningful-paint",
+      "weight": 1.0,
+      "group": "metrics"
+     },
+     ...
+    ]
+   }
+  },
+  "categoryGroups": {
+   "a11y-element-names": {
+    "title": "Elements Have Discernible Names",
+    "description": "These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader."
+   },
+   "a11y-language": {
+    "title": "Page Specifies Valid Language",
+    "description": "These are opportunities to improve the interpretation of your content by users in different locales."
+   },
+   ...
+  },
+  "i18n": {
+   "rendererFormattedStrings": {
+    "varianceDisclaimer": "Values are estimated and may vary.",
+    "opportunityResourceColumnLabel": "Opportunity",
+    "opportunitySavingsColumnLabel": "Estimated Savings",
+    "errorMissingAuditInfo": "Report error: no audit information",
+    "errorLabel": "Error!",
+    "warningHeader": "Warnings: ",
+    "auditGroupExpandTooltip": "Show audits",
+    "passedAuditsGroupTitle": "Passed audits",
+    "notApplicableAuditsGroupTitle": "Not applicable",
+    "manualAuditsGroupTitle": "Additional items to manually check",
+    "toplevelWarningsMessage": "There were issues affecting this run of Lighthouse:",
+    "scorescaleLabel": "Score scale:",
+    "crcLongestDurationLabel": "Maximum critical path latency:",
+    "crcInitialNavigation": "Initial Navigation",
+    "lsPerformanceCategoryDescription": "[Lighthouse](https://developers.google.com/web/tools/lighthouse/) analysis of the current page on an emulated mobile network. Values are estimated and may vary.",
+    "labDataTitle": "Lab Data"
+   }
+  }
+ },
+ "analysisUTCTimestamp": "2018-11-01T03:03:58.394Z"
+}
+</pre>
+    </li>
+  </ol>
+  <h2 id="javascript" data-text="JavaScript" tabindex="-1">JavaScript</h2>
+  <p>To try out the PageSpeed Insights API from JavaScript:</p>
+  <ol>
+    <li>
+      <p>
+        Copy the code below. The code uses the PageSpeed Insights API to measure the performance of
+        <code translate="no" dir="ltr">https://developers.google.com</code>, and then it displays the results.
+      </p>
+      <pre style="height:500px;"
+           class="prettyprint notranslate devsite-click-to-copy
+                  lang-html" dir="ltr">&lt;script&gt;
+function run() {
+  const url = setUpQuery();
+  fetch(url)
+    .then(response =&gt; response.json())
+    .then(json =&gt; {
+      // See https://developers.google.com/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed#response
+      // to learn more about each of the properties in the response object.
+      showInitialContent(json.id);
+      const cruxMetrics = {
+        &quot;First Contentful Paint&quot;: json.loadingExperience.metrics.FIRST_CONTENTFUL_PAINT_MS.category,
+        &quot;First Input Delay&quot;: json.loadingExperience.metrics.FIRST_INPUT_DELAY_MS.category
+      };
+      showCruxContent(cruxMetrics);
+      const lighthouse = json.lighthouseResult;
+      const lighthouseMetrics = {
+        &#39;First Contentful Paint&#39;: lighthouse.audits[&#39;first-contentful-paint&#39;].displayValue,
+        &#39;Speed Index&#39;: lighthouse.audits[&#39;speed-index&#39;].displayValue,
+        &#39;Time To Interactive&#39;: lighthouse.audits[&#39;interactive&#39;].displayValue,
+        &#39;First Meaningful Paint&#39;: lighthouse.audits[&#39;first-meaningful-paint&#39;].displayValue,
+        &#39;First CPU Idle&#39;: lighthouse.audits[&#39;first-cpu-idle&#39;].displayValue,
+        &#39;Estimated Input Latency&#39;: lighthouse.audits[&#39;estimated-input-latency&#39;].displayValue
+      };
+      showLighthouseContent(lighthouseMetrics);
+    });
+}
+
+function setUpQuery() {
+  const api = &#39;https://www.googleapis.com/pagespeedonline/v5/runPagespeed&#39;;
+  const parameters = {
+    url: encodeURIComponent(&#39;https://developers.google.com&#39;)
+  };
+  let query = `${api}?`;
+  for (key in parameters) {
+    query += `${key}=${parameters[key]}`;
+  }
+  return query;
+}
+
+function showInitialContent(id) {
+  document.body.innerHTML = &#39;&#39;;
+  const title = document.createElement(&#39;h1&#39;);
+  title.textContent = &#39;PageSpeed Insights API Demo&#39;;
+  document.body.appendChild(title);
+  const page = document.createElement(&#39;p&#39;);
+  page.textContent = `Page tested: ${id}`;
+  document.body.appendChild(page);
+}
+
+function showCruxContent(cruxMetrics) {
+  const cruxHeader = document.createElement(&#39;h2&#39;);
+  cruxHeader.textContent = &quot;Chrome User Experience Report Results&quot;;
+  document.body.appendChild(cruxHeader);
+  for (key in cruxMetrics) {
+    const p = document.createElement(&#39;p&#39;);
+    p.textContent = `${key}: ${cruxMetrics[key]}`;
+    document.body.appendChild(p);
+  }
+}
+
+function showLighthouseContent(lighthouseMetrics) {
+  const lighthouseHeader = document.createElement(&#39;h2&#39;);
+  lighthouseHeader.textContent = &quot;Lighthouse Results&quot;;
+  document.body.appendChild(lighthouseHeader);
+  for (key in lighthouseMetrics) {
+    const p = document.createElement(&#39;p&#39;);
+    p.textContent = `${key}: ${lighthouseMetrics[key]}`;
+    document.body.appendChild(p);
+  }
+}
+
+run();
+&lt;/script&gt;
+</pre>
+    </li>
+    <li>Paste the code into an HTML file.</li>
+    <li>
+      <p>
+        Open the HTML file in a browser. Upon successful completion, your page will look like
+        <b>Figure 1</b>.
+      </p>
+      <figure>
+        <img src="/static/speed/docs/insights/images/v5/demo.png">
+        <figcaption>
+          <b>Figure 1</b>. The JavaScript demo
+        </figcaption>
+      </figure>
+    </li>
+  </ol>
+  <h2 id="next-steps" data-text="Next steps" tabindex="-1">Next steps</h2>
+  
+  <ul>
+    <li>
+      See <a href="/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed#response">Response</a> to learn more about each of the properties in the
+      response object.
+    </li>
+    <li>
+      <a href="#key">Set up an API key</a> if you plan on making more than 2 queries per second.
+    </li>
+    <li>
+      See <a href="/speed/docs/insights/v5/about">About the PageSpeed Insights API</a> to learn more
+      about how performance measurements are calculated.
+    </li>
+  </ul>
+  <style>
+  .helpful--container {
+    margin: 1em 0;
+    position: relative;
+  }
+  .helpful--section {
+    position: static;
+  }
+</style>
+
+<h2 id="feedback" class="hide-from-toc" data-text="Feedback" tabindex="-1">Feedback</h2>
+
+<p>Was this page helpful?</p>
+
+
+
+
+
+
+<div class="helpful--container">
+  <section class="expandable helpful--section">
+    <button class="button button-primary expand-control gc-analytics-event"
+            data-category="Helpful" data-value="1"
+            data-label="/speed/docs/insights/v5/get-started"
+            style="background-color:#f44336;">
+      Yes
+    </button>
+    <aside class="success">
+      Great! Thank you for the feedback. 
+  If you have a specific, answerable question about using PageSpeed Insights,
+  ask the question in English on <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/pagespeed-insights">Stack
+  Overflow</a>. For general questions, feedback, and discussion, start a thread in the
+  <a target="_blank" rel="noopener" href="https://groups.google.com/forum/#!forum/pagespeed-insights-discuss">mailing list</a>.
+
+    </aside>
+  </section>
+  <section class="expandable helpful--section">
+    <button class="button button-primary expand-control gc-analytics-event"
+            data-category="Helpful" data-value="0"
+            data-label="/speed/docs/insights/v5/get-started"
+            style="position:absolute;top:0;left:70px;background-color:#f44336;">
+      No
+    </button>
+    <aside class="warning">
+      Sorry to hear that. 
+  If you have a specific, answerable question about using PageSpeed Insights,
+  ask the question in English on <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/pagespeed-insights">Stack
+  Overflow</a>. For general questions, feedback, and discussion, start a thread in the
+  <a target="_blank" rel="noopener" href="https://groups.google.com/forum/#!forum/pagespeed-insights-discuss">mailing list</a>.
+
+    </aside>
+  </section>
+</div>
+  
+
+  
+</div>
+
+  
+
+  
+    
+      <devsite-recommendations display="in-page" hidden yield>
+      </devsite-recommendations>
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+    
+    
+      <devsite-recommendations id="recommendations-link" yield></devsite-recommendations>
+    
+  
+
+  
+  
+</article>
+
+
+<devsite-content-footer class="nocontent">
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2024-01-10 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  <template class="devsite-thumb-rating-down-categories">
+  [{
+      "type": "thumb-down",
+      "id": "missingTheInformationINeed",
+      "label":"Missing the information I need"
+    },{
+      "type": "thumb-down",
+      "id": "tooComplicatedTooManySteps",
+      "label":"Too complicated / too many steps"
+    },{
+      "type": "thumb-down",
+      "id": "outOfDate",
+      "label":"Out of date"
+    },{
+      "type": "thumb-down",
+      "id": "samplesCodeIssue",
+      "label":"Samples / code issue"
+    },{
+      "type": "thumb-down",
+      "id": "otherDown",
+      "label":"Other"
+    }]
+  </template>
+  <template class="devsite-thumb-rating-up-categories">
+  [{
+      "type": "thumb-up",
+      "id": "easyToUnderstand",
+      "label":"Easy to understand"
+    },{
+      "type": "thumb-up",
+      "id": "solvedMyProblem",
+      "label":"Solved my problem"
+    },{
+      "type": "thumb-up",
+      "id": "otherUp",
+      "label":"Other"
+    }]
+  </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Product Info</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/terms"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Terms of Service
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/speed/docs/insights/release_notes"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+              
+              
+            
+          
+            Release Notes
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Client Libraries</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/speed/docs/insights/libraries"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+              
+              
+            
+          
+            Libraries and Samples
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Developer consoles</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.developers.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Google API Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.cloud.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Google Cloud Platform Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//play.google.com/apps/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Google Play Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.firebase.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Firebase Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.actions.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+          
+            Actions on Google Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cast.google.com/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            >
+            
+          
+            Cast SDK Developer Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//chrome.google.com/webstore/developer/dashboard"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 7)"
+            >
+            
+              
+              
+            
+          
+            Chrome Web Store Dashboard
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="/products"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          All products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/site-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Sign up for the Google for Developers newsletter</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/newsletter/subscribe"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         >
+          Subscribe
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel></devsite-panel>
+        
+          <devsite-concierge
+  
+  
+    data-info-panel
+  
+  
+    data-ai-panel
+  
+  
+  
+  
+    data-api-explorer-panel
+  >
+</devsite-concierge>
+        
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar
+    
+    >
+</devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics analytics-iframe enable-cb>
+      
+        <script type="application/json" analytics>[{&#34;dimensions&#34;: {&#34;dimension11&#34;: false, &#34;dimension5&#34;: &#34;en&#34;, &#34;dimension4&#34;: &#34;PageSpeed Insights&#34;, &#34;dimension3&#34;: false, &#34;dimension6&#34;: &#34;en&#34;, &#34;dimension1&#34;: &#34;Signed out&#34;}, &#34;gaid&#34;: &#34;UA-24532603-1&#34;, &#34;metrics&#34;: {&#34;ratings_count&#34;: &#34;metric2&#34;, &#34;ratings_value&#34;: &#34;metric1&#34;}, &#34;purpose&#34;: 1}, {&#34;dimensions&#34;: {&#34;dimension11&#34;: false, &#34;dimension5&#34;: &#34;en&#34;, &#34;dimension4&#34;: &#34;PageSpeed Insights&#34;, &#34;dimension3&#34;: false, &#34;dimension6&#34;: &#34;en&#34;, &#34;dimension1&#34;: &#34;Signed out&#34;}, &#34;gaid&#34;: &#34;UA-22137612-2&#34;, &#34;metrics&#34;: {&#34;ratings_count&#34;: &#34;metric2&#34;, &#34;ratings_value&#34;: &#34;metric1&#34;}, &#34;purpose&#34;: 0}]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;False&#34;, &#34;ga4&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;ga4p&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;gtm&#34;: [], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;PageSpeed Insights&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;developers&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    <script nonce="WRfxPEK7pZYttgeuAiFxlUjxi9xPt3">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers","https://developers-dot-devsite-v2-prod.appspot.com",null,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v8710cb4731a368cb758d972abd8e9129d9a2b5cf087d107be78174bbc0c595e6/developers/images/favicon-new.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","developers.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["Search__enable_page_map","Cloud__enable_llm_concierge_chat","Search__enable_dynamic_content_confidential_banner","Cloud__enable_cloud_shell_fte_user_flow","Analytics__enable_cookie_bar","Experiments__reqs_query_experiments","MiscFeatureFlags__enable_project_variables","Profiles__require_profile_eligibility_for_signin","Search__enable_faceted_search","Concierge__enable_concierge_restricted","EngEduTelemetry__enable_engedu_telemetry","Significatio__enable_by_tenant","Search__enable_ai_eligibility_checks","Profiles__enable_public_developer_profiles","Search__enable_ai_search_summaries_restricted","TpcFeatures__enable_mirror_tenant_redirects","Profiles__enable_page_saving","MiscFeatureFlags__enable_explain_this_code","MiscFeatureFlags__enable_firebase_utm","Cloud__enable_cloudx_ping","Profiles__enable_profile_collections","Cloud__enable_cloud_dlp_service","Cloud__enable_cloud_shell","MiscFeatureFlags__developers_footer_image","Cloud__enable_cloudx_experiment_ids","Cloud__enable_free_trial_server_call","Cloud__enable_cloud_facet_chat","MiscFeatureFlags__emergency_css","Search__enable_suggestions_from_borg","Profiles__enable_developer_profiles_callout","Profiles__enable_release_notes_notifications","BookNav__enable_tenant_cache_key","MiscFeatureFlags__enable_variable_operator","MiscFeatureFlags__developers_footer_dark_image","CloudShell__cloud_shell_button","Concierge__enable_pushui","CloudShell__cloud_code_overflow_menu","Profiles__enable_recognition_badges","Profiles__enable_awarding_url","Search__enable_ai_search_summaries","Concierge__enable_concierge"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,null,"https://developerprofiles-pa.clients6.google.com"]')
+  
+</script>
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

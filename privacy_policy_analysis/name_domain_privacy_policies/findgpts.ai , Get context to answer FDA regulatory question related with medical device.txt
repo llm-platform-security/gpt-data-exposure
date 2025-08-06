@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Find GPTs serves as your all-in-one destination for GPT exploration and creation. At Find GPTs, you can share and unearth the finest GPT models within the GPT Store, and forge your personalized GPT designed for analyzing and chat with your uploaded PDF, TXT, or DOCX files directly through your own GPT. ">
+    <meta name="author" content="FindGPTs.AI">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="FindGPTs.ai" /> <!-- website name -->
+    <meta property="og:site" content="https://www.findgpts.ai" /> <!-- website link -->
+    <meta property="og:title" content="DreamGPT Hub" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://www.findgpts.ai" /> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Find GPTs</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://www.findgpts.ai/site/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://www.findgpts.ai/site/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="https://www.findgpts.ai/site/adminlte/dist/css/adminlte.min.css" rel="stylesheet">
+    <link href="https://www.findgpts.ai/site/css/swiper.css" rel="stylesheet">
+    <link href="https://www.findgpts.ai/site/css/styles_gpt.css?v=10" rel="stylesheet">
+    <link href="styles.css?v=104" rel="stylesheet">
+    <link href="styles_user_panel.css?v=1" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="https://www.findgpts.ai/site/images/favicon.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.php"><img src="https://www.findgpts.ai/site/images/logo.jpg" alt="Find GPTs"></a>
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                    </li>
+                    <span class="separator">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://chat.openai.com/g/g-OnCQhFPV0-smart-gpt-finder"
+                            target="_blank">Try Smart GPT Finder</a>
+                    </li>
+                    <span class="separator">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit_gpt.php">Submit GPT</a>
+                    </li>
+                    <span class="separator">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.findgpts.ai/blog">Blog</a>
+                    </li>
+                    <span class="separator">|</span>
+                    <li id="signin" class="nav-item">
+                        <a class="nav-link" href="user_sign_in.php">Sign In</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    -->
+                </ul>
+                <span class="nav-item" style="display:none">
+                    <a class="btn-solid-sm" href="https://www.buymeacoffee.com/findgpts.ai" target="_blank">Buy Me a
+                        Coffee</a>
+                </span>
+
+                <span id="usericon" class="nav-item" style="display:none">
+                    <div class="image">
+                        <img class="user-img img-circle" src="https://www.findgpts.ai/site/images/user_not_signed_photo.jpg" .25alt="User Image">
+                    </div>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+    <!-- Header -->
+    <header class="ex-header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h1 style="text-align: left;">FindGPTs Service Privacy Policy</h1>
+                    <p><strong>Effective Date: November 22, 2023</strong></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    
+                    <h2 class="mb-3">Introduction</h2>
+                    <p class="mb-5">Welcome to FindGPTs Interface Service. This privacy policy applies to users of the FindGPTs 
+                        Interface Service. At FindGPTs, we are dedicated to protecting your data and ensuring the privacy of all users.</p>
+                    <p class="mb-5">
+                        Our service, including all supported Custom ChatGPTs, is designed to enhance your daily activities, 
+                        whether for work or study. It enables users to utilize advanced custom ChatGPTs to streamline tasks, 
+                        saving time for more important things in life, like family, hobbies, or friends.
+                    </p>
+                    <p class="mb-5">
+                        FindGPTs.AI is your partner in research, challenging work, or exploring new topics. Our tool is designed 
+                        to help you find the most efficient custom ChatGPTs, making your work more productive and your life more enjoyable.
+                    </p>
+
+                    <h2 class="mb-3">Data Handling Practices</h2>
+                    <p class="mb-5"><strong>Authentication:</strong> GPTs are authenticated through their respective platforms. We do not 
+                        store any personal data from the GPTs or the authentication process.</p>
+                    <p class="mb-5"><strong>Data Collection:</strong> We do not actively collect personal information from GPTs. Interaction data, 
+                        such as selected text and generated responses, is collected solely to process user inquiries and enhance service performance.</p>
+                    <p class="mb-5"><strong>Data Storage:</strong> We store collected data securely within the United States, prioritizing data security 
+                        and privacy integrity.</p>
+
+                    <h2 class="mb-3">Data Sharing</h2>
+                    <p class="mb-5"><strong>Processing Requests:</strong> Requests initiated by GPTs to FindGPTs servers may be forwarded to OpenAI, Microsoft, 
+                        or other AI service providers. Data sharing is limited to the content provided by the GPTs, ChatGPT, and their generated queries.</p>
+
+                    <h2 class="mb-3">Policy Modifications</h2>
+                    <p class="mb-5">FindGPTs reserves the right to modify this privacy policy to reflect changes in our data handling procedures or in 
+                        response to legal, operational, or regulatory changes. We may not provide additional notice for such updates.</p>
+
+                    <h2 class="mb-3">Contact Information</h2>
+                    <p class="mb-5">For further details on our privacy policies, inquiries, or to submit a complaint, please contact:</p>
+                    <p class="mb-5"><strong>FindGPTs.AI</strong><br>Email: <a href="mailto:admin@findgpts.ai">admin@findgpts.ai</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <img class="decoration-city" src="https://www.findgpts.ai/site/images/decoration-city.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Discover and craft your ideal AI companion with FindGPTs, where innovation meets personalization
+                        in the world of generative models.</h4>
+                    <div class="social-container">
+                        <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span> -->
+                        <span class="fa-stack">
+                            <a href="https://twitter.com/findgpts" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span> 
+                        <!-- <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        -->
+                        <!-- <span class="fa-stack">
+                            <a href="" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span> -->
+                        <span class="fa-stack">
+                            <a href="https://www.youtube.com/channel/UCU6GAbuP1AI5qVx5XvTrgnw" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="list-unstyled li-space-lg p-small">
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <p class="p-small statement">2023-2024 Copyright © <a href="https://www.findgpts.ai">FindGPTs</a></p>
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <p class="p-small statement">Powered By: <a href="https://www.findgpts.ai/" target="_blank">FindGPTs</a>
+                    </p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="https://www.findgpts.ai/site/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+    <!-- Scripts -->
+    <script src="https://www.findgpts.ai/site/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="https://www.findgpts.ai/site/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="https://www.findgpts.ai/site/js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="https://www.findgpts.ai/site/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/scripts_terms_privacy.min.js?v=5"></script> <!-- Custom scripts -->
+    <script src="js/scripts_user_panel.min.js?v=62"></script> <!-- Custom scripts -->
+    <!-- Cloudflare Web Analytics -->
+        <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "6d23d30af92440a5a860dcc307c30043"}'></script> -->
+    <!-- End Cloudflare Web Analytics -->
+
+    <script src="https://unpkg.com/@popperjs/core"></script>
+    <script src="https://unpkg.com/tippy.js"></script>
+</body>
+
+</html>

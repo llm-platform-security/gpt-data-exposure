@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RHQQLMQC5P"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());	
+	  gtag('config', 'G-RHQQLMQC5P');
+	</script>
+	
+	<title>Privacy Policy | Lucid Beads - Create Your Dream Bracelets with a Purpose</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
+	
+	<link rel="stylesheet" href="/static/css/uikit-default.css">
+	<link rel="stylesheet" href="/static/css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Source+Sans+Pro&display=swap">
+	<link rel="stylesheet" id="theme-bg" href="">
+	<link rel="stylesheet" id="theme-accent" href="">
+	<script src="/static/js/uikit.min.js"></script>
+	<script src="/static/js/uikit-icons.min.js"></script>
+	<script src="/static/js/uikit-icons-extended.min.js"></script>
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/js.cookie.min.js"></script>
+	<script src="/static/js/base.js"></script>
+	
+</head>
+
+<body>
+
+
+	
+
+
+<div class="uk-section uk-padding-remove-vertical">
+<nav class="uk-container uk-container-large">
+    <div id="site-header" class="uk-flex uk-flex-middle uk-flex-between uk-grid-small" uk-grid>
+        <div>
+        	<div class="uk-grid-small uk-flex uk-flex-middle" uk-grid>
+			    <div id="logo-container">
+			    	<a href="/"><img src="/static/images/logo.png" alt="Lucid Beads Logo"></a>
+			    </div>
+			    <div class="uk-visible@m logo-text uk-text-primary uk-text-normal">
+			    	<a class="uk-link-heading" href="/">LucidBeads</a>
+			    </div>
+			</div>
+        </div>
+        <div>
+	        <ul class="uk-subnav uk-subnav-pill">
+	        	<li class="uk-hidden@m">
+					<a uk-icon="icon:menu"></a>
+					<div class="uk-border-rounded" uk-dropdown="animation: uk-animation-slide-top-small">
+						<ul class="uk-nav uk-nav-default">
+							<li><p class="uk-margin-small uk-text-muted uk-text-bold uk-text-default">Create</p></li>
+							<li><a href="/create/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: settings"></span>Quickstart</a></li>
+							<li><a href="/workspace/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: lifesaver"></span>Workspace</a></li>
+							<li><a href="/ai/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: eye"></span>AI Assistant</a></li>
+							<li class="uk-nav-divider uk-margin-bottom"></li>
+							<li><p class="uk-margin-small uk-text-muted uk-text-bold uk-text-default">Earn/Raise</p></li>
+							<li><a href="/rewards/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: bookmark"></span>Rewards</a></li>
+							<li><a href="/fundraising/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: heart"></span>Fundraising</a></li>
+							<li><a href="/merch-store/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: bag"></span>Merch Store</a></li>
+							<li class="uk-nav-divider uk-margin-bottom"></li>
+							<li><p class="uk-margin-small uk-text-muted uk-text-bold uk-text-default">Explore</p></li>
+							<li><a href="/gemstones/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: nut"></span>Gemstones</a></li>
+							<li><a href="/creations/"><span class="uk-margin-small-right uk-icon" uk-icon="icon: grid"></span>Creations</a></li>
+							
+						</ul>
+					</div>
+				</li>
+				<li class="uk-visible@m">
+					<a><span uk-icon="icon:chevron-down" style="font-size:18px">Create </span></a>
+					<div class="uk-width-large uk-border-rounded" uk-dropdown="animation: uk-animation-slide-top-small">
+					    <div class="uk-drop-grid uk-grid-small" uk-grid>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/create/">Quickstart</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Quickly create custom bracelets in a few simple clicks
+					            	</div>
+					            </div>
+					        </div>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/workspace/">Workspace</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Create fully custom bracelets manually bead by bead
+					            	</div>
+					            </div>
+					        </div>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/ai/">AI Assistant</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Let AI create for you based on intentions or causes
+					            	</div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</li>
+				
+				<li class="uk-visible@m">
+					<a><span uk-icon="icon:chevron-down" style="font-size:18px">Explore </span></a>
+					<div class="uk-width-large uk-border-rounded" uk-dropdown>
+					    <div class="uk-drop-grid uk-grid-small" uk-grid>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/gemstones/">Gemstones</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Learn about gemstones and find your favorites
+					            	</div>
+					            </div>
+					        </div>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/creations/">Creations</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Explore popular creations and draw inspirations
+					            	</div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</li>
+				<li class="uk-visible@m">
+					<a><span uk-icon="icon:chevron-down" style="font-size:18px">Earn </span></a>
+					<div class="uk-width-large uk-border-rounded" uk-dropdown>
+					    <div class="uk-margin uk-drop-grid uk-grid-small" uk-grid>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/rewards/">Rewards</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Get rewarded with free bracelets for your creativity
+					            	</div>
+					            </div>
+					        </div>
+					        <div class="uk-width-1-1">
+					            <div class="uk-border-rounded uk-background-muted uk-padding-small uk-text-center drop-menu-background">
+					            	<div><a class="uk-text-primary uk-text-bold uk-link-heading" href="/merch-store/">Merch Store</a></div>
+					            	<div class="uk-margin-small-top">
+					            		Offer custom bracelets to your followers & customers
+					            	</div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</li>
+				
+				<li id="user-profile-menu">
+					
+					<a uk-icon="icon:user"></a>
+					<div class="uk-border-rounded" uk-dropdown="animation: uk-animation-slide-top-small">
+					    <a href="/account/login/" class="uk-button uk-button-small uk-button-primary uk-width-1-1 uk-margin-bottom">Log In</a>
+						<a href="/account/signup/" class="uk-button uk-button-small uk-button-primary uk-width-1-1">Sign Up for Free</a>
+					</div>
+					
+				</li>
+				
+				<li id="cart-menu">
+					<a class="uk-text-bold" uk-icon="icon:cart"><span id="cart-product-qty" class="uk-badge"></span></a>
+					<div id="cart-summary" class="uk-border-rounded uk-width-medium uk-padding-remove" uk-dropdown="animation: uk-animation-slide-top-small">
+						<div class="uk-padding-small uk-text-center uk-text-muted">
+							<div class="uk-margin-small"><span uk-icon="icon: cart; ratio: 3"></span></div>
+							<div class="uk-text-small">Your cart is empty</div>
+						</div>
+					</div>
+				</li>
+				
+				<li>
+					<a><img src="/static/images/color-palette.png" class="uk-border-circle"></img></a>
+					<div class="uk-width-small uk-border-rounded" uk-dropdown="animation: uk-animation-slide-top-small">
+						<p class="uk-text-small uk-text-center">Background</p>
+						<div class="uk-dropdown-grid uk-child-width-1-3 uk-grid-small" uk-grid>
+							<div>
+								<button class="theme-bg-switcher uk-button uk-button-small uk-border-rounded uk-width-1-1" id="rose_gold" style="background-color: #F7EFED;">&nbsp;</button>
+							</div>
+							<div>
+								<button class="theme-bg-switcher uk-button uk-button-small uk-border-rounded uk-width-1-1" id="gold" style="background-color: #F7F5E9;">&nbsp;</button>
+							</div>
+							<div>
+								<button class="theme-bg-switcher uk-button uk-button-small uk-border-rounded uk-width-1-1" id="silver" style="background-color: #E8E8E8;">&nbsp;</button>
+							</div>
+						</div>
+						<p class="uk-text-small uk-text-center">Accent</p>
+						<div class="uk-dropdown-grid uk-child-width-1-3 uk-grid-small uk-text-center" uk-grid>
+							<div>
+								<div class="theme-accent-switcher" id="rhodonite"><a href="#"><img src="/media/images/beads/workspace/G-RDN-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="red_jasper"><a href="#"><img src="/media/images/beads/workspace/G-JSR-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="carnelian"><a href="#"><img src="/media/images/beads/workspace/G-CAR-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="aventurine"><a href="#"><img src="/media/images/beads/workspace/G-AVG-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="apatite"><a href="#"><img src="/media/images/beads/workspace/G-APT-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="sodalite"><a href="#"><img src="/media/images/beads/workspace/G-SOD-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="amethyst"><a href="#"><img src="/media/images/beads/workspace/G-AME-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="pyrite"><a href="#"><img src="/media/images/beads/workspace/G-PYR-06.png"></a></div>
+							</div>
+							<div>
+								<div class="theme-accent-switcher" id="obsidian"><a href="#"><img src="/media/images/beads/workspace/G-OBS-06.png"></a></div>
+							</div>
+						</div>
+				    </div>
+				</li>
+			</ul>
+		</div>		
+    </div>
+</nav>
+</div>
+
+
+
+
+<div class="uk-section uk-section-small uk-section-default" uk-height-viewport="offset-top: true">
+	<div class="uk-container uk-container-small">
+		<h1 class="uk-text-center uk-text-primary">Privacy Policy</h1>
+		<div class="uk-margin-medium-top uk-background-default uk-padding-large uk-border-rounded">
+			<p>At LucidBeads.com, we take your privacy seriously. This Privacy Policy explains how we collect, use, and disclose your personal information in connection with our website LucidBeads.com (the "Site"). By using the Site, you consent to the practices described in this Privacy Policy.</p>
+<h3>Personal Information We Collect</h3>
+<p>We may collect various types of personal information from you when you use the Site, including:</p>
+<ul>
+<li>Contact Information: We may collect your name, email address, phone number, and postal address when you create an account, place an order, or contact us.</li>
+<li>Payment Information: We may collect your payment information, such as your PayPal account or credit card number, when you place an order.</li>
+<li>Order Information: We may collect information about your orders, including the products you purchase and your shipping and billing information.</li>
+<li>Website Usage Information: We may collect information about how you use the Site, including your browsing and search history, IP address, and browser information.</li>
+</ul>
+<p>We may use cookies and similar technologies to collect website usage information and enhance your browsing experience. Cookies are small data files stored on your device's browser. By using our website, you consent to the use of cookies. You can modify your browser settings to refuse cookies or provide notifications when cookies are being sent. We may also use log files, web beacons, pixel tags, and other tracking technologies to analyze website usage.</p>
+<h3>How We Use Your Personal Information</h3>
+<p>We may use your personal information for the following purposes:</p>
+<ul>
+<li>To process and fulfill your orders</li>
+<li>To communicate with you about your orders, account, and the Site</li>
+<li>To personalize your experience on the Site</li>
+<li>To improve the Site and our products and services</li>
+<li>To analyze Site usage and trends</li>
+<li>To prevent fraud and protect the security of the Site and our customers</li>
+<li>To comply with applicable laws and regulations</li>
+</ul>
+<h3>How We Share Your Personal Information</h3>
+<p>We may share your personal information with third parties in the following circumstances:</p>
+<ul>
+<li>Service Providers: We may share your personal information with service providers who perform services on our behalf, such as payment processing, shipping, and marketing.</li>
+<li>Legal Requirements: We may disclose your personal information if required to do so by law or in response to a legal request or process, such as a court order or subpoena.</li>
+<li>Business Transactions: We may disclose your personal information in connection with a business transaction, such as a merger, acquisition, or sale of assets.</li>
+</ul>
+<h3>Your Choices and Rights</h3>
+<p>You may choose not to provide certain personal information to us, but this may limit your ability to use certain features of the Site. You may also have certain rights with respect to your personal information, such as the right to access, correct, or delete your personal information. Please contact us to exercise these rights.</p>
+<h3>Data Retention</h3>
+<p>We will retain your personal information for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws or regulations.</p>
+<h3>Security</h3>
+<p>We implement appropriate security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, please be aware that no method of data transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute data security.</p>
+<h3>Changes to this Privacy Policy</h3>
+<p>We may update this Privacy Policy from time to time. We encourage you to review this page periodically to stay informed about our privacy practices.</p>
+<h3>Contact Us</h3>
+<p>If you have any questions or concerns regarding this Privacy Policy, please contact us at info@lucidbeads.com or write to us: Lucid Beads, Inc., 2108 N ST #5246, Sacramento, CA 95816, USA.</p>
+		</div>
+	</div>
+</div>
+	
+
+	<footer class="uk-section uk-section-small uk-section-secondary uk-padding-remove-bottom uk-text-small uk-text-light">
+	<div class="uk-container uk-container-large">
+		<div class="uk-grid uk-grid-large" uk-grid>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>CREATE</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/create/">Quickstart</a></li>
+					<li><a class="uk-link-reset" href="/workspace/">Workspace</a></li>
+					<li><a class="uk-link-reset" href="/gemstones/">AI Assistant</a></li>
+				</ul>
+			</div>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>EXPLORE</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/gemstones/">Gemstones</a></li>
+					<li><a class="uk-link-reset" href="/creations/">Creations</a></li>
+				</ul>
+			</div>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>EARN</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/rewards/">Rewards</a></li>
+					<li><a class="uk-link-reset" href="/merch-store/">Merch Store</a></li>
+				</ul>
+			</div>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>HELP</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/faq/">FAQ</a></li>
+					<li><a class="uk-link-reset" href="/contact/">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>POLICIES</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/shipping/">Shipping</a></li>
+					<li><a class="uk-link-reset" href="/returns/">Returns</a></li>
+				</ul>
+			</div>
+			<div class="uk-width-1-3 uk-width-1-6@m">
+				<h3>COMPANY</h3>
+				<ul class="uk-list">
+					<li><a class="uk-link-reset" href="/terms/">Terms</a> / <a class="uk-link-reset" href="/privacy/">Privacy</a></li>
+					<li><a class="uk-link-reset" href="/disclaimer/">Disclaimer</a></li>
+					<li><a class="uk-link-reset" href="/about/">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+	<div class="uk-text-center uk-margin-medium-top">
+		<p>© 2024 <a class="uk-link-reset" href="/">Lucid Beads, Inc.</a></p>
+	</div>
+</footer>
+
+
+
+	<script src="/static/js/ui.js"></script>
+
+
+</body>
+</html>

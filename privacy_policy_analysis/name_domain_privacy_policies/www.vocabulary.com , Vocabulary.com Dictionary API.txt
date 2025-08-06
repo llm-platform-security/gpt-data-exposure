@@ -1,0 +1,1130 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+<!DOCTYPE html>
+<html lang="en-US" xmlns:vcom xmlns:fb>
+<head>	
+	<title>Vocabulary.com - Learn Words - English Dictionary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="3R35M2yercptKyifE7fI4vgVpNi6Z3gC1HcotkgLCJU" />
+	<meta name="facebook-domain-verification" content="ct7l6f3j3ua57s1j3pbuu57m6ln9t4" />
+	
+	<meta name="keywords" content="Vocabulary, vocab, words, word puzzles, word roots, English vocabulary, SAT prep, ACT prep" />
+	<meta name="description" content ="Vocabulary.com helps you learn new words, play games that improve your vocabulary, and explore language." />
+ 	
+ 	<meta name="robots" content="noarchive" />
+ 	<meta name="googlebot" content="noodp, noarchive" />
+	<meta property="og:title" content="Find out how strong your vocabulary is and learn new words at Vocabulary.com."/>
+	<meta property="og:site_name" content="Vocabulary.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://www.vocabulary.com/images/icons/facebook-75x75.gif" />    
+	<meta property="og:description" content="Vocabulary.com helps you learn new words, play games that improve your vocabulary, and explore language."/>
+	<meta property="fb:app_id" content="186513741363512" />
+    
+	<link rel="search" type="application/opensearchdescription+xml" href="https://www.vocabulary.com/search.xml" title="Vocabulary.com" />    
+	<link href="//cdn.vocab.com/images/ios-icons/114x114-off5pn.png" rel="apple-touch-icon" >
+	<link href="//cdn.vocab.com/images/favicons/favicon-32x32-2frmtt.png" sizes="32x32" rel="icon" type="image/png" >
+	<link href="//cdn.vocab.com/images/favicons/favicon-16x16-uf6i7e.png" sizes="16x16" rel="icon" type="image/png" >
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link href="//cdn.vocab.com/css/header-1se0obg.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/main-1k6bjvq.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/progress-lng7q0.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/dictionary-4wdani.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/achievements-vol2je.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/leaderboards-hcvyb4.css" rel="stylesheet" type="text/css" >
+	
+	<link href="//cdn.vocab.com/css/fonts/ss-social-circle-bzvwn4.css" rel="stylesheet" type="text/css" >	
+	<link href="//cdn.vocab.com/css/fonts/ss-symbolicons-block-g34fgg.css" rel="stylesheet" type="text/css" >
+	<link href="//cdn.vocab.com/css/fonts/ss-standard-17jzxjx.css" rel="stylesheet" type="text/css" >
+	
+	<link href="//cdn.vocab.com/css/home-1w7xdgt.css" rel="stylesheet" type="text/css" >
+	<style type="text/css">
+	body.home .fixed-tray {
+		background-image: url("//cdn.vocab.com/images/home/dictionary-search-bg-1920-1fyyt3h.svg");
+	}
+	body.home .dictionary-search {
+		background-image: url("//cdn.vocab.com/images/home/search-flower-jpjxvs.svg");
+	}
+	body.home .dictionary-search .search-box .icon {
+		background-image: url("//cdn.vocab.com/images/home/search-bar-icon-bplg1q.svg");
+	}
+	body.home .dictionary-search .search-box.with-search .icon {
+		background-image: url("//cdn.vocab.com/images/home/close-btn-mp06mx.svg");
+	}
+	body.home .dictionary-search button.advanced-search {
+		background-image: url("//cdn.vocab.com/images/dictionary/advsearch-icon-14kzu1p.svg");
+	}
+	body.home .dictionary-search a.random-word {
+		background-image: url("//cdn.vocab.com/images/dictionary/random-icon-ruwkb4.svg");
+	}
+	body.home .looking-for-nav .dictionary-for-learning a {
+		background-image: url("//cdn.vocab.com/images/home/down-arrow-blue-5xghc4.svg");
+	}
+	body.home .looking-for-nav .improve-vocabulary a {
+		background-image: url("//cdn.vocab.com/images/home/down-arrow-red-k16u1t.svg");
+	}
+	body.home .looking-for-nav .teach-words a {
+		background-image: url("//cdn.vocab.com/images/home/down-arrow-green-1dvrt8i.svg");
+	}
+	body.home .looking-for .button {
+		background-image: url("//cdn.vocab.com/images/home/button-arrow-rt-x4ls9u.svg");
+	}
+	body.home .bowl-signup  {
+		background-image:
+			url("//cdn.vocab.com/images/home/bowl-signup-wave-160zlyn.svg"), 
+			url("//cdn.vocab.com/images/home/bowl-signup-bg-zf9pxt.png");
+	}
+	body.home .bowl-signup .stats  {
+		background-image: url("//cdn.vocab.com/images/home/stats-flower-mbya46.svg");
+	}
+	@media only screen and (max-width: 900px) {
+		body.home .fixed-tray {
+			background-image: url("//cdn.vocab.com/images/home/dictionary-search-bg-800-1jug14t.svg");
+		}
+	}
+	@media only screen and (max-width: 800px) {
+		body.home .fixed-tray {
+			background-image: url("//cdn.vocab.com/images/home/dictionary-search-bg-600-1xl9bym.svg");
+		}
+	}
+	@media only screen and (max-width: 660px) {
+		body.home .fixed-tray {
+			background-image: url("//cdn.vocab.com/images/home/dictionary-search-bg-480-1oucxkw.svg");
+		}
+		
+		body.home .fixed-tray .dictionary-search .search-box .icon {
+			background-image: url("//cdn.vocab.com/images/home/search-bar-icon-rnd-rxr2du.svg");
+			width: 44px;
+		}
+		body.home .fixed-tray .dictionary-search .search-box.with-search .icon {
+			background-image: url("//cdn.vocab.com/images/home/close-btn-mp06mx.svg");
+		}
+		body.home .bowl-signup  {
+			background-image:
+				url("//cdn.vocab.com/images/home/bowl-signup-wave-800-wyd8sa.svg"), 
+				url("//cdn.vocab.com/images/home/bowl-signup-bg-zf9pxt.png");
+		}
+	}
+	@media only screen and (max-width: 480px) {
+		body.home .fixed-tray {
+			background-image: url("//cdn.vocab.com/images/home/dictionary-search-bg-320-pfz0qg.svg");
+		}
+		body.home .bowl-signup .stats  {
+			background-image: url("//cdn.vocab.com/images/home/stats-flower-320-1evqds1.svg");
+		}
+	}
+	</style>
+	<script>
+	window.onerror = function(message, source, line, col, error){
+		try {
+			if (window.XMLHttpRequest && line && (!window.lasterr || new Date().getTime() - window.lasterr.getTime() > 10000)) {
+				var httpRequest = new XMLHttpRequest();
+				httpRequest.open('POST', '/js/error');
+				httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+				httpRequest.send('msg=' + encodeURIComponent(JSON.stringify(
+					{"msg":message, 
+					"src":source, 
+					"line":line, 
+					"col":col, 
+					"err":error
+					}
+				)));
+				window.lasterr = new Date();
+			}
+		} catch(e){}
+	}
+	</script>
+	
+	<script>
+		window.dataLayer = window.dataLayer || []; /* GTM Data Layer */
+		window.VCOM=(window.VCOM=function(){(VCOM.q=VCOM.q||[]).push(arguments)});
+		window.VCOM.__api_server = "https://api.vocabulary.com";
+	</script>
+		
+		
+	<script>var loginData = {"validUser":false,"locCn":"US","auth":{"loggedin":false},"perms":{},"points":0,"level":{"id":"L01","name":"Novice","milestone":0,"progress":0},"bowl":{"period":"OFFSEASON","name":"Fall 2024 Season","shortName":"Fall 2024","startDay":"2024-10-01","endDay":"2024-11-30"}};</script>	
+	
+	
+
+<script src="//cdn.vocab.com/lib/jquery-1eev1tf.js" type="text/javascript" ></script>
+	
+
+<script src="//cdn.vocab.com/js/module-rmdxzp.js" type="text/javascript" ></script>
+	
+		<script type="text/javascript">
+(function() {
+	window.__cmpmode = null;
+	
+	var cbs = [];
+	var status;
+    window.__cmp = function(cmd, cb, gdprApplies, consent) {
+    	if (cmd === 'getConsentData') {
+    		if (status) {
+    			cb(status);
+    		} else {
+    			cbs.push(cb);
+    		}
+    	} else if (cmd === 'cb') {
+    		status = {gdprApplies:gdprApplies, hasGlobalConsent:consent};
+    		for (var i = 0; i < cbs.length; i++) {
+    			cbs[i](status);
+    		}
+    	}
+	}
+    
+    var elem = document.createElement('script');
+    elem.src = '//cdn.vocab.com/js/vcom/cmp-zpdg09.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+})();
+</script>
+<style>
+body .cookie-privacy-banner {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	padding: 1em 0;
+	font-size: 90%;
+	background: linear-gradient(rgba(51,82,109,.95) 0%,rgba(32,67,98,.95) 100%);
+	color: #e0e0e0;
+	display: none;
+}
+body.with-cookie-banner .cookie-privacy-banner {
+	display: block;
+}
+body.with-cookie-banner .page-footer {
+	padding-bottom: 18em;
+}
+.cookie-privacy-banner a {
+	color: #e0e0e0;
+}
+.cookie-privacy-banner p {
+	line-height: 125%;
+}
+.cookie-privacy-banner .i-agree {
+	margin-right: 2em;
+}
+.cookie-privacy-banner .choice {
+	font-weight: bold;
+}
+</style>
+	
+	<script>
+	Module.after(['jquery', 'vcom/base','vcom/usermenu' ],function(){});
+	</script>
+		
+	
+ <script>
+if ('URLSearchParams' in window) {
+	var ltiMode = new URLSearchParams(document.location.search).get('lti') || (window.name.indexOf('lti:')==0?window.name.substring(4):null);
+	if (ltiMode)  {	
+		var r = document.getElementsByTagName('link')[0],
+			l = document.createElement('link');
+		l.type='text/css';l.rel='stylesheet';l.href='//cdn.vocab.com/css/lti-1w1rape.css';
+		r.parentNode.insertBefore(l,r);
+		window.name='lti:'+ltiMode;
+		var html=document.getElementsByTagName('html')[0];
+		html.setAttribute('data-lti-mode',ltiMode);
+		html.classList.add("lti");		
+		Module.after(['jquery','vcom/lti'],function(){});
+	}
+}
+</script>
+<style>
+html[data-lti-mode="assign"] .page-unit .activities-panel {
+	display: none;
+}
+html[data-lti-mode="assign"] .lists-3 .summary-activities .activities-panel .flashcards {
+	display: none;
+}
+html[data-lti-mode="assign"] .teach-learn-panels .activity.jam {
+	display: none;
+}
+html[data-lti-mode="assign"] .lists-3 .summary-activities .activities-panel .teach .activity-list {
+	grid-template-columns: 1fr;
+}
+</style>
+	
+	<script>
+Module.after(['jquery', 'vcom/autocomplete', 'vcom/advancedsearch'], function(){
+	jQuery(function($){
+		const $body = $('body');
+		const $dictSearch = $('.dictionary-search');
+		const $dictWrapper = $dictSearch.parent();
+		const $autoComplete = $dictSearch.find('.autocomplete');
+		const $searchBox = $dictSearch.find('.search-box');
+		const $search = $searchBox.find('input.search');
+		const autoComplete = new modules.vcom.autocomplete.Autocomplete($autoComplete, $search);
+		
+		const lookup = (lang, word) => {
+			if (lang && !lang == 'en') {
+				location.href = `/dictionary/${lang}/${word}`;
+			} else {
+				location.href = `/dictionary/${word}`;
+			}
+		}
+		
+		$autoComplete.on('autocomplete.click autocomplete.enter', function(){
+			let w = autoComplete.getSelectedWord();
+			if (w) {
+				lookup(w.lang, w.word);
+			} else {
+				let text = autoComplete.getText().trim();
+				if (text.length && !autoComplete.isComplex()) {			
+					lookup('en', text);
+				}
+			}
+		})
+		.on('autocomplete.update', function(){
+			$body.toggleClass('with-autocomplete-results', !!$autoComplete.find('.suggestions').length);
+		});
+		
+		$dictSearch.on('submit', function(e){
+			e.preventDefault();
+			$autoComplete.trigger('autocomplete.enter');
+		})
+		.on('click', '.actions .advanced-search', function(e){
+			e.preventDefault();
+			modules.vcom.advancedsearch.toggle();
+		})
+		.on('click', '.search-box.with-search .icon', function(e){
+			e.stopPropagation();
+			$search.val('').trigger('input');
+		});
+		
+		$search.on('input', function(){
+			$searchBox.toggleClass('with-search', !!$search.val().trim());
+		});
+		
+		const $stats = $body.find('.bowl-signup .stats');
+		$.get('/stats', function(stats){
+			if (stats && stats.qa && stats.wm && stats.jams) {
+				$stats.find('.stat.questions-answered .num').text(stats.qa.commaFormat());
+				$stats.find('.stat.words-mastered .num').text(stats.wm.commaFormat());
+				$stats.find('.stat.jams-played .num').text(stats.jams.commaFormat());
+				$stats.addClass('with-stats');
+			}
+		});
+		
+	});
+});
+</script>
+
+	<script>
+(function(){
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-154986-6', 'auto');
+	window.dataLayer = window.dataLayer || [];
+	
+	VCOM('gdpr',function(){
+		
+		var t = document.createElement('script');
+		t.async=true;
+		t.src='https://www.google-analytics.com/analytics.js';
+		document.head.appendChild(t);
+		
+		
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-TN79ND');
+	});
+	
+	VCOM('auth',function(auth){
+		var userType = 'unknown';
+		if (auth.validUser) {
+			userType = auth.ima || 'unknown';
+			ga('set','dimension1',auth.paid?'paid':'free');
+			ga('set','dimension2', userType);
+			var role = (auth.auth && auth.auth.role) ? auth.auth.role.toLowerCase() : "";
+			if (role=='bill' && auth.plan) role = auth.plan;
+			if (role) ga('set','dimension3',role);
+			if (auth.classes && !auth.classes.empty)  ga('set','dimension4','inclass');
+						
+			if (window.dataLayer) {
+				window.dataLayer.push({
+					user_id: auth.auth.uid || '',
+					user_type: userType
+				});
+			}
+		} else {
+			userType = 'anonymous';
+			ga('set','dimension1','anon');
+			if (window.dataLayer) {
+				window.dataLayer.push({
+					user_type: userType
+				});				
+			}			
+		}
+		ga('send', 'pageview');
+		
+		if (window.dataLayer && userType != 'unknown' && userType != 'anonymous') {
+			var cks = document.cookie.split(';')
+	    	.map(function(v){
+	    		return v.split('=');
+	    	})
+	    	.reduce(function(acc, v) {
+	      		acc[decodeURIComponent(v[0].trim())] = decodeURIComponent(v[1].trim());
+	      		return acc;
+	    	}, {});
+			
+			if (cks.gtag_signup) {
+				window.dataLayer.push({
+					event: 'sign_up',
+					method: cks.gtag_signup || 'unknown'
+				});
+				document.cookie = ("gtag_signup=; domain=vocabulary.com; max-age=0; path=/");
+				
+				ga('send','event','Signup',userType);
+			}
+			
+			if (cks.gtag_login) {
+				window.dataLayer.push({
+					event: 'login',
+					method: (auth.auth && auth.auth.method) ? auth.auth.method : 'unknown'
+				});
+				document.cookie = ("gtag_login=; domain=vocabulary.com; max-age=0; path=/");
+			}
+		}
+	});	
+})();
+</script>
+</head>
+<body class=" top-section-home home with-light-header loggedout">
+<div class="body-wrapper">
+<a href="#input-search-word" class="skip-to-main-content">SKIP TO CONTENT</a>
+<header class="page-header noselect" role="banner"><div class="limited-width"><nav class="main">
+		<a href="/" title="Vocabulary.com" class="logo" ><img src="//cdn.vocab.com/images/header/logo-1wobq9i.png" alt="Vocabulary.com" class="screen-only" ><img src="//cdn.vocab.com/images/logo-sar2cf.svg" alt="" class="print-only" ></a>
+		<div class="logininfo"></div><button role="button" aria-pressed="false" aria-label="navigation menu" class="hamburger menu"><span class="rows"></span></button></nav><nav class="tabs"><ul><li title="Learn on Vocabulary.com" class="playTab"><a href="/vocabtrainer/"><span>Learn</span></a></li><li title="Look up a word" class="dictTab empty"><a href="/dictionary/"><span>Dictionary</span></a></li><li title="Find a Vocabulary List" class="listsTab"><a href="/lists/"><span>Vocabulary Lists</span></a></li><li title="VocabTrainer™" class="vocabTrainerTab"><a href="/vocabtrainer/"><span>VocabTrainer™</span></a></li></ul></nav><div class="achievements"></div><div class="recent"></div></div></header>
+<div class="fixed-tray">
+	<div class="dict-top">
+	<form class="dictionary-search">
+		<h2>Look up a word, learn it forever.</h2>
+		<div class="search-box">		
+			<input
+				autocapitalize="off"
+				autocomplete="off"
+				autocorrect="off"
+				class="search"
+				id="input-search-word"
+				placeholder="start typing to look up a word..."
+				spellcheck="false"
+				type="text" 
+				aria-label="search"/>
+			<span class="icon"></span>
+		</div>
+		<div class="actions">
+			<button title="Show advanced search options" class="advanced-search">Advanced Search</button>
+			<a href="/dictionary/randomword" role="button" title="Show a random vocabulary word" class="random-word">Random Word</a>
+		</div>
+		<div class="autocomplete"></div>
+	</form>
+</div>
+<div id="advancedSearch" data-buttonclass="button" data-searchfieldselector=".dictionary-search input.search"></div>
+<div class="wave-bottom">
+	<div class="looking-for-nav">
+		<em>I am looking for...</em>
+		<ul>
+			<li class="dictionary-for-learning"><a href="#dictionary-for-learning">A <strong>dictionary</strong><br/>for learning</a></li>
+			<li class="improve-vocabulary"><a href="#improve-vocabulary"><span class="sci-fun-long">A scientific and fun way<br/>to <strong>improve vocabulary</strong></span><span class="sci-fun-short">A fun way to<br/><strong>improve vocabulary</strong></span></a></li>
+			<li class="teach-words"><a href="#teach-words">A better way<br/>to <strong>teach words</strong></a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div id="page" class="page">
+	<div
+		class="pageContent clearfloat "
+		id="pageContent"
+		tabindex="-1"
+	>
+
+
+
+<div class="looking-for limited-width">
+	<section id="dictionary-for-learning">
+		<picture>
+			<source media="(max-width: 480px)" srcset="
+				//cdn.vocab.com/images/home/looking-for/dictionary-320-gvm393.png,
+				//cdn.vocab.com/images/home/looking-for/dictionary-320-2x-1jzpetw.png 2x
+				"/>
+			<source media="(max-width: 660px)" srcset="
+				//cdn.vocab.com/images/home/looking-for/dictionary-480-1hkabax.png,
+				//cdn.vocab.com/images/home/looking-for/dictionary-480-2x-88rn6f.png 2x
+				"/>
+			<source media="(max-width: 900px)" srcset="
+				//cdn.vocab.com/images/home/looking-for/dictionary-660-7p8jma.png,
+				//cdn.vocab.com/images/home/looking-for/dictionary-660-2x-1nee5br.png 2x
+				"/>
+			<source srcset="
+				//cdn.vocab.com/images/home/looking-for/dictionary-1ffrjz.png,
+				//cdn.vocab.com/images/home/looking-for/dictionary-2x-13r8lzr.png 2x
+				"/>
+			<img src="//cdn.vocab.com/images/home/looking-for/dictionary-1ffrjz.png" alt="dictionary definition of the word, vocabulary"/>
+		</picture>
+		<div class="description">
+			<div class="label">FOR EVERYONE</div>
+			<h2>A dictionary for learning</h2>
+			<p>Whether you’re looking up a specific word or just browsing, you’ll find a universe of friendly explanations and fun activities designed to educate and entertain.</p>
+			<a class="button v3 blue-1" role="button" href="/dictionary/">Learn more</a>
+		</div>
+	</section>
+	<section id="improve-vocabulary">
+		<div class="description">
+			<div class="label">FOR LEARNERS</div>
+			<h2>A scientific and fun way to improve vocabulary</h2>
+			<p>Play games and compete in activities on your own or with participants from around the globe.  With our advanced teaching algorithm and study tools, get ready for your vocabulary to expand!</p>
+			<a class="button v3 red-1" role="button" href="/learner-subscription/">Subscribe now</a>
+		</div>
+		<div id="vocabtrainer_video"></div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	<script src="https://cdnapi.kaltura.com/p/4764982/sp/476498200/embedIframeJs/uiconf_id/51260142/partner_id/4764982"></script>
+	
+	
+	<style>
+		.kWidgetCentered {
+			border-radius: 8px !important;
+		}
+	</style>
+	
+
+<script>
+	function initKWidget(callbackForkWidget) {
+		if (window.KWidget === undefined) {
+			$.getScript('https://cdnapi.kaltura.com/p/4764982/sp/476498200/embedIframeJs/uiconf_id/51260142/partner_id/4764982', callbackForkWidget);
+		}
+		else {
+			callbackForkWidget();
+		}
+	}
+	function callbackPlayBtnClicked(playerId) {
+		// function callbackPlayBtnClicked can be empty
+		
+			if (window.dataLayer) {
+				window.dataLayer.push({
+					'event': 'video_start',
+					'video_duration': 94,
+					'video_id': '1_ex1tt6og',
+					'video_provider': 'Kaltura',
+					'video_title': '2023 promo video for Vocab Trainer',
+				});
+			}
+		
+	}
+
+	initKWidget(function() {
+		
+			
+			
+				window.kWidget.thumbEmbed({
+					readyCallback: callbackPlayBtnClicked,
+					targetId: "vocabtrainer_video",
+					wid: "_4764982",
+					uiconf_id: "53181732",
+					entry_id: "1_ex1tt6og",
+					flashvars:{
+						
+						'KalturaSupport.LeadWithHTML5':true,
+						
+					}
+				})
+			
+		
+	});
+</script>
+	</section>
+	<section id="teach-words">
+		<picture>
+			<source media="(max-width: 480px)" srcset=" 
+				//cdn.vocab.com/images/home/looking-for/teach-words-320-1hictrs.png,
+				//cdn.vocab.com/images/home/looking-for/teach-words-320-2x-1fpe6bf.png 2x
+				"/>
+			<source media="(max-width: 660px)" srcset="
+				//cdn.vocab.com/images/home/looking-for/teach-words-480-1lk5a06.png,
+				//cdn.vocab.com/images/home/looking-for/teach-words-480-2x-1yt93wb.png 2x
+				"/>
+			<source media="(max-width: 900px)" srcset="
+				//cdn.vocab.com/images/home/looking-for/teach-words-660-1jv5tag.png,
+				//cdn.vocab.com/images/home/looking-for/teach-words-660-2x-1k9bbpj.png 2x
+				"/>
+			<source srcset="
+				//cdn.vocab.com/images/home/looking-for/teach-words-1jix97q.png,
+				//cdn.vocab.com/images/home/looking-for/teach-words-2x-1x7fttp.png 2x
+				"/>
+			<img src="/images/home/looking-for-teach-words.png" alt="types of activities and word lists"/>
+		</picture>
+		<div class="description">
+			<div class="label">FOR EDUCATORS</div>
+			<h2>A better way to teach words</h2>
+			<p>
+				Engage your students with a fast-paced Vocab Jam, assign ready-made word lists for
+				thousands of books and topics, and more!
+			</p>
+			<a class="button v3 green-1"
+				role="button" href="/signup/teacher/">Start your free trial</a>
+			<a href="/for-educators/" class="explore-more">Learn more</a>
+		</div>
+	</section>
+</div>
+<div class="success-stories">
+	<h2>Success Stories</h2>
+	<p>Teachers and learners are doing amazing things with Vocabulary.com</p>
+	<div class="testimonials">
+		<div class="testimonial">
+			<picture>
+				<source srcset="
+					//cdn.vocab.com/images/home/testimonials/student-1erev1y.png,
+					//cdn.vocab.com/images/home/testimonials/student-2x-2a0oyg.png 2x
+					"/>
+				<img src="//cdn.vocab.com/images/home/testimonials/student-1erev1y.png" alt="High school student"/>
+			</picture>
+			<blockquote>I took the PSAT on Wednesday and the vocabulary section was a breeze. Keep doing what you do, your website has helped me so much!</blockquote>
+			<div class="quotee">
+				<div class="role">— High school student,</div>
+				<div class="location">Lewistown, PA</div>
+			</div>
+		</div>
+		<div class="testimonial">
+			<picture>
+				<source srcset="
+					//cdn.vocab.com/images/home/testimonials/principal-1a231e.png,
+					//cdn.vocab.com/images/home/testimonials/principal-2x-1nfwe1n.png 2x
+					"/>
+				<img src="//cdn.vocab.com/images/home/testimonials/principal-1a231e.png" alt="Middle school principal"/>
+			</picture>
+			<blockquote>I see enhancing the vocabulary of students as essential in this knowledge-based economy.</blockquote>
+			<div class="quotee">
+				<div class="role">— Middle school principal,</div>
+				<div class="location">Adelphi, MD</div>
+			</div>
+		</div>
+		<div class="testimonial">
+			<picture>
+				<source srcset="
+					//cdn.vocab.com/images/home/testimonials/teacher-qwqtuw.png,
+					//cdn.vocab.com/images/home/testimonials/teacher-2x-1y5mbhk.png 2x
+					"/>
+				<img src="//cdn.vocab.com/images/home/testimonials/teacher-qwqtuw.png" alt="High school science teacher"/>
+			</picture>
+			<blockquote>Vocabulary.com tells me on my teacher dashboard which words my students are struggling with, so I can spend an extra minute in class reviewing those.</blockquote>
+			<div class="quotee">
+				<div class="role">— High school science teacher,</div>
+				<div class="location">Broward, FL</div>
+			</div>
+		</div>
+	</div>
+	<a href="/membership/success-stories/" class="button clear see-more" role="button">See more</a>
+</div>
+<div class="awards">
+	<h2>An award-winning teaching & learning experience</h2>
+	<div class="badges">
+		<div class="badge"><img alt="Smart Media winner from Academic's choice" src="//cdn.vocab.com/images/home/awards/academics-choice-awards-2022-1iym46.png" /></div>
+		<div class="badge"><img alt="Honoring Excellence from Mom's choice award" src="//cdn.vocab.com/images/home/awards/moms-choice-awards-2022-gold-1hspssf.png" /></div>
+		<div class="badge"><img alt="Winner from Teach and learning awards of excellence in secondary education" src="//cdn.vocab.com/images/home/awards/tl-2022-bts-secondary-u7ja68.png" /></div>
+	</div>
+</div>
+<div class="bowl-signup">
+	<div class="label">Put your school on the map</div>
+	<h2 class="join-bowl">Join the Vocabulary Bowl</h2>
+	<div class="stats">
+		<div class="stat words-mastered">
+			<div class="num"></div>
+			<div class="name">Words mastered</div>
+		</div>
+		<div class="stat jams-played">
+			<div class="num"></div>
+			<div class="name">Jams played</div>
+		</div>
+		<div class="stat questions-answered">
+			<div class="num"></div>
+			<div class="name">Questions answered</div>
+		</div>
+		<a href="/bowl/" class="button get-involved" role="button">Get involved</a>
+	</div>
+	<h2 class="sign-up">Sign up now (it’s free!)</h2>
+	<p>Whether you’re a teacher or a learner, Vocabulary.com can put you or your class on the path to systematic vocabulary improvement.</p>
+	<a href="/signup/" class="button get-started" role="button">Get started</a>
+</div>
+</div>
+</div>
+
+
+
+<footer class="page-footer">
+
+<nav class="sitelinks limited-width hide-mobile screen-only">
+		<div class="lks-col">
+			<h3>Learn with us</h3>
+			<ul>
+			<li><a href="/learner-subscription/">Learner subscriptions</a></li>
+			<li><a href="/lists/">Vocabulary lists</a></li>
+			<li><a href="/dictionary/">Dictionary</a></li>				
+			<li><a href="/test-prep/">Test Prep</a></li>	
+			<li><a href="/jam/">Join a Vocabulary Jam</a></li>
+			<li><a href="/articles/chooseyourwords/">Commonly confused words</a></li>
+			<li><a href="/word-of-the-day/">Word of the day</a></li>
+			</ul>				
+		</div>
+		<div class="lks-col">
+			<h3><a href="/for-educators/">Teach with us</a></h3>
+			<ul>
+			<li><a href="/for-educators/">For educators</a></li>
+			<li><a href="/for-administrators/">For schools and districts</a></li>
+			<li><a href="/how-it-works/">How it works</a></li>
+			<li><a href="/membership/success-stories/">Success stories</a></li>
+			<li><a href="/membership/research/">Research</a></li> 
+			<li><a href="/professional-development/">Professional development</a></li> 
+			<li><a href="/membership/quote/">Contact sales</a></li>
+			</ul>				
+		</div>
+		<div class="lks-col">
+			<h3><a href="/help/">Resources</a></h3>
+			<ul>
+			<li><a href="/help/">Help articles/FAQ</a></li>			
+			<li><a href="/teaching-resources/">Teaching resources</a></li>
+			<li><a href="/learner-resource-center/">Learner resources</a></li>
+			<li><a href="/english-language-learning-resources/">ESL/ELL resources</a></li>
+			<li><a href="/lists/lists-by-grade/">Grade level resources</a></li>
+			<li><a href="/resources/ipa-pronunciation/">IPA Pronunciation</a></li>
+			
+			<li><a href="/help/contactus">Contact support</a></li>
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>				
+			<li>&nbsp;</li>				
+			<li>&nbsp;</li>				
+			</ul>				
+		</div>
+					
+		<div class="lks-col">
+			<h3><a href="/leaderboards/thisweek/">Leaderboards</a></h3>
+			<ul>
+			<li><a href="/bowl/">Vocabulary Bowl</a></li>	
+			<li><a href="/leaderboards/today/">Today's leaders</a></li>
+			<li><a href="/leaderboards/thisweek/">Weekly leaders</a></li>
+			<li><a href="/leaderboards/thismonth/">Monthly leaders</a></li>
+			<li>&nbsp;</li>				
+			<li>&nbsp;</li>				
+			</ul>						
+		</div>	
+			
+		<div class="lks-col">
+			<h3><a href="/about/">About</a></h3>
+			<ul>
+			<li><a href="/about/">Our Mission</a></li>
+			<li><a href="/blog/">Blog</a></li>
+			<li>
+				<a href="https://www.ixl.com/feedback/vocabularydotcom"
+					target="_blank">Tell us what you think</a>
+			</li>
+			<li><a href="/privacy/">Privacy Policy</a></li>
+			<li><a href="/terms/">Terms of Use</a></li>
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			</ul>				
+		</div>
+
+</nav>
+
+
+
+
+
+
+<div class="ftr-legal">
+	<div class="box-all-brands">
+		<div class="box-list-brand box-list-brand-first">
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.ixl.com">
+					<img src="//cdn.vocab.com/images/footer/logo-ixl-for-ftr-190h5m.svg" alt="IXL Learning" class="img-ixl-brand-logo" >
+					<p>Comprehensive K-12 <br />personalized learning</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.rosettastone.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-rosetta-stone-for-ftr-cnz0xb.svg" alt="Rosetta Stone" class="img-rosetta-brand-logo" >
+					<p>Immersive learning <br />for 25 languages</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.wyzant.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-wyzant-for-ftr-92dn93.svg" alt="Wyzant" class="img-wyzant-brand-logo" >
+					<p>Trusted tutors for <br />300 subjects</p>
+				</a>
+			</div>
+			<div class="box-item-brand box-item-brand-last">
+				<a class="lk-item-brand" href="https://www.education.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-education-com-for-ftr-a3xg4c.svg" al="Education.com" class="img-education-brand-logo" >
+					<p>35,000 worksheets, games, <br />and lesson plans</p>
+				</a>
+			</div>
+		</div>
+		<div class="box-list-brand">
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.teacherspayteachers.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-tpt-for-ftr-pa6bkm.svg" alt="TPT" class="img-tpt-brand-logo" >
+					<p>Marketplace for millions of <br />educator-created resources</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.abcya.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-abcya-for-ftr-1or2r2i.svg" alt="ABCya" class="img-abcya-brand-logo" >
+					<p>Fun educational <br />games for kids</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.spanishdict.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-spanish-dictionary-for-ftr-df6e8l.svg" alt="SpanishDictionary.com" class="img-spanish-dictionary-logo" >
+					<p>Spanish-English dictionary, <br />translator, and learning</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.ingles.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-ingles-for-ftr-w00ql8.svg" alt="Inglés.com" class="img-ingles-brand-logo" >
+					<p>Diccionario inglés-español, <br />traductor y sitio de aprendizaje</p>
+				</a>
+			</div>
+			<div class="box-item-brand box-item-brand-last">
+				<a class="lk-item-brand" href="https://emmersion.ai/">
+					<img src="//cdn.vocab.com/images/footer/logo-emmersion-for-ftr-1m00b4j.svg" alt="Emmersion" class="img-emmersion-brand-logo" >
+					<p>Fast and accurate <br />language certification</p>
+				</a>
+			</div>
+		</div>
+	</div><!-- end of DIV.ftr-ixl-brands -->
+	<div class="box-ixl-brands-legal-lks">
+		<div class="box-logo-txt-logo">
+			<img src="//cdn.vocab.com/images/footer/logo-vocab-green-check-for-ftr-4lic3k.svg" alt="vocabulary.com logo" class="logo-vocabulary" >
+			<div class="box-legal-text">
+				<div class="box-copy-vocabulary">
+					Copyright &copy; 2024 <br />
+					Vocabulary.com, Inc.
+				</div>
+				<div class="box-division-rights">
+					A division of IXL Learning <span class="txt-bull">&bull;</span> <br />
+					All Rights Reserved.
+				</div>
+			</div>
+			<img src="//cdn.vocab.com/images/footer/logo-ixl-learning-ab1nek.svg" alt="IXL logo" class="logo-ixl" >
+		</div>
+		<div class="box-social-media">
+			<a class="lk-social-media"
+				href="https://www.facebook.com/vocabularycom/"
+				rel="noopener"
+				target="_blank"
+				title="Facebook"><img src="//cdn.vocab.com/images/footer/facebook-fff-on-000-1djwcsu.svg" alt="Facebook logo" width="19" class="icon-facebook" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://x.com/VocabularyCom/"
+				rel="noopener"
+				target="_blank"
+				title="x.com"><img src="//cdn.vocab.com/images/footer/x-fff-on-000-r417h3.svg" alt="X.com logo" width="19" class="icon-x" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://www.instagram.com/vocabcom/"
+				rel="noopener"
+				target="_blank"
+				title="Instagram"><img src="//cdn.vocab.com/images/footer/instagram-fff-on-000-1nomn10.svg" alt="Instagram logo" width="19" class="icon-instagram" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://www.linkedin.com/company/vocabulary-com/"
+				rel="noopener"
+				target="_blank"
+				title="LinkedIn"><img src="//cdn.vocab.com/images/footer/linkedin-fff-on-000-rszenv.svg" alt="LinkedIn logo" width="19" class="icon-linkedin" height="19" ></a>
+		</div><!-- end of DIV.box-social-media -->
+	</div><!-- end of DIV.box-ixl-brands-legal-lks -->
+	
+</div>
+
+
+
+
+
+</footer>
+
+<nav class="sitemap screen-only">
+<div class="scrollable">
+<div>
+	<div class="sitelinks limited-width mobile-5050 pad2y">
+	<div class="col9">
+	<div class="col9">
+		<div class="col4 pad1x">
+			<h3>Learn with us</h3>
+			<ul>
+			<li><a href="/learner-subscription/">Learner subscriptions</a></li>
+			<li><a href="/lists/">Vocabulary lists</a></li>
+			<li><a href="/dictionary/">Dictionary</a></li>				
+			<li><a href="/test-prep/">Test Prep</a></li>	
+			<li><a href="/jam/">Join a Vocabulary Jam</a></li>
+			<li><a href="/articles/chooseyourwords/">Commonly confused words</a></li>
+			<li><a href="/word-of-the-day/">Word of the day</a></li>
+			</ul>				
+		</div>
+		<div class="col4 pad1x">
+			<h3><a href="/for-educators/">Teach with us</a></h3>
+			<ul>
+			<li><a href="/for-educators/">For educators</a></li>
+			<li><a href="/for-administrators/">For schools and districts</a></li>
+			<li><a href="/how-it-works/">How it works</a></li>
+			<li><a href="/membership/success-stories/">Success stories</a></li>
+			<li><a href="/membership/research/">Research</a></li> 
+			<li><a href="/professional-development/">Professional development</a></li> 
+			<li><a href="/membership/quote/">Contact sales</a></li>
+			</ul>				
+		</div>
+		<div class="col4 pad1x">
+			<h3><a href="/help/">Resources</a></h3>
+			<ul>
+			<li><a href="/help/">Help articles/FAQ</a></li>			
+			<li><a href="/teaching-resources/">Teaching resources</a></li>
+			<li><a href="/learner-resource-center/">Learner resources</a></li>
+			<li><a href="/english-language-learning-resources/">ESL/ELL resources</a></li>
+			<li><a href="/lists/lists-by-grade/">Grade level resources</a></li>
+			<li><a href="/resources/ipa-pronunciation/">IPA Pronunciation</a></li>
+			<li><a href="/help/contactus">Contact support</a></li>
+			</ul>				
+		</div>
+  </div>
+  <div class="col9">
+		<div class="col4 pad1x">
+			<h3><a href="/leaderboards/thisweek/">Leaderboards</a></h3>
+			<ul>
+			<li><a href="/bowl/">Vocabulary Bowl</a></li>	
+			<li><a href="/leaderboards/today/">Today's leaders</a></li>
+			<li><a href="/leaderboards/thisweek/">Weekly leaders</a></li>
+			<li><a href="/leaderboards/thismonth/">Monthly leaders</a></li>
+			</ul>						
+		</div>	
+		<div class="col4 pad1x">
+			<h3><a href="/about/">About</a></h3>
+			<ul>
+			<li><a href="/about/">Our Mission</a></li>
+			<li><a href="/blog/">Blog</a></li>
+			<li>
+				<a href="https://www.ixl.com/feedback/vocabularydotcom"
+					target="_blank">Tell us what you think</a>
+			</li>
+			<li><a href="/privacy/">Privacy Policy</a></li>
+			<li><a href="/terms/">Terms of Use</a></li>
+			</ul>	
+		</div>
+	</div>
+	</div>
+	
+	<div class="col3 pad1x">
+		
+		<div class="loggedout-only clearfloat signinoptions">
+			<h3><a href="/account/">My Account</a></h3>
+			<a role="button" class="sign-in button" href="/login/">Log in</a>
+			<a role="button" class="sign-up button green" href="/signup/">Sign up</a>
+		</div>
+		<ul class="account-menu loggedin-only">
+			
+			<h3><a href="/account/">My Account</a></h3>
+			<li><a href="/auth/logout"><i class="ss-logout"></i>Log Out</a></li>
+			<li class="nav-my-learning"><a href="/learner/"><i class="ss-dashboard"></i>My Learning</a></li>
+			<li class="nav-proficiency-report"><a href="/learner-subscription/"><i class="icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.79581 10.4049L6.5 12.5L4.68541 15.6755C4.60616 15.8142 4.40431 15.8086 4.33287 15.6657L3.5 14H1.40889C1.24247 14 1.14885 13.8086 1.25101 13.6772L3.79581 10.4049ZM12.2042 10.4049L14.749 13.6772C14.8511 13.8086 14.7575 14 14.5911 14H12.5L11.6671 15.6657C11.5957 15.8086 11.3938 15.8142 11.3146 15.6755L9.5 12.5L12.2042 10.4049Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.85668L7.17743 2.4567C6.83411 2.70714 6.41994 2.84171 5.99498 2.8409L4.97683 2.83897L4.66404 3.80789C4.53349 4.2123 4.27752 4.56461 3.93324 4.81374L3.1084 5.41063L3.42487 6.37835C3.55696 6.78226 3.55696 7.21775 3.42487 7.62166L3.1084 8.58938L3.93324 9.18627C4.27752 9.4354 4.53349 9.78771 4.66404 10.1921L4.97683 11.161L5.99498 11.1591C6.41994 11.1583 6.83411 11.2929 7.17743 11.5433L8 12.1433L8.82256 11.5433C9.16589 11.2929 9.58006 11.1583 10.005 11.1591L11.0232 11.161L11.336 10.1921C11.4665 9.78771 11.7225 9.4354 12.0668 9.18627L12.8916 8.58938L12.5751 7.62166C12.443 7.21775 12.443 6.78226 12.5751 6.37835L12.8916 5.41063L12.0667 4.81374C11.7225 4.56461 11.4665 4.2123 11.336 3.80789L11.0232 2.83897L10.005 2.8409C9.58006 2.84171 9.16589 2.70714 8.82256 2.4567L8 1.85668ZM8.29466 0.214948C8.11909 0.0868792 7.8809 0.0868793 7.70534 0.214948L6.29345 1.24486C6.20762 1.30747 6.10407 1.34111 5.99783 1.34091L4.25023 1.33758C4.03291 1.33717 3.84021 1.47717 3.77345 1.68398L3.23658 3.34708C3.20394 3.44818 3.13995 3.53626 3.05388 3.59854L1.63808 4.62307C1.46203 4.75047 1.38842 4.977 1.45597 5.18355L1.99917 6.84459C2.0322 6.94557 2.0322 7.05444 1.99917 7.15542L1.45597 8.81646C1.38842 9.02301 1.46203 9.24955 1.63808 9.37694L3.05388 10.4015C3.13995 10.4638 3.20394 10.5518 3.23658 10.6529L3.77345 12.316C3.84021 12.5228 4.03291 12.6628 4.25023 12.6624L5.99783 12.6591C6.10407 12.6589 6.20762 12.6925 6.29345 12.7552L7.70534 13.7851C7.8809 13.9131 8.11909 13.9131 8.29466 13.7851L9.70655 12.7552C9.79238 12.6925 9.89592 12.6589 10.0022 12.6591L11.7498 12.6624C11.9671 12.6628 12.1598 12.5228 12.2265 12.316L12.7634 10.6529C12.7961 10.5518 12.86 10.4638 12.9461 10.4015L14.3619 9.37694C14.538 9.24955 14.6116 9.02301 14.544 8.81646L14.0008 7.15542C13.9678 7.05444 13.9678 6.94557 14.0008 6.84459L14.544 5.18355C14.6116 4.977 14.538 4.75047 14.3619 4.62307L12.9461 3.59854C12.86 3.53626 12.7961 3.44818 12.7634 3.34708L12.2265 1.68398C12.1598 1.47717 11.9671 1.33717 11.7498 1.33758L10.0022 1.34091C9.89592 1.34111 9.79238 1.30747 9.70655 1.24486L8.29466 0.214948Z" fill="white"/>
+</svg></i>My Proficiency Report</a></li>
+			<li class="nav-myprofile"><a href="/profiles/my"><i class="ss-user"></i>My Profile</a></li>
+			<li class="perms-school-reports-only"><a href="/account/schools"><i class="ss-school ss-symbolicons-block"></i>Schools &amp; Teachers</a></li>
+			
+			<li class="nav-classes educator-only"><a href="/account/classes"><i class="ss-users"></i>My Classes</a></li>
+			
+			<li class="nav-assignments"><a href="/account/activities/"><i class="ss-attach"></i>Assignments &amp; Activities</a></li>
+			
+			<li ><a href="/account/lists/"><i class="ss-list"></i>My Lists</a>
+			<ul>
+				<li><a href="/lists/"><i class="ss-search"></i>Find a List to Learn...</a></li>
+				<li><a href="/lists/new"><i class="ss-hospital ss-symbolicons-block"></i>Create a New List...</a></li>
+			</ul>
+			</li>
+			<li><a href="/progress/"><i class="ss-barchart"></i>My Progress</a>
+				<ul>
+					<li><a href="/account/progress/words/learning"><i class="ss-hiker ss-symbolicons-block"></i>Words I'm Learning</a></li>
+					<li><a href="/account/progress/words/trouble"><i class="ss-bullseye ss-symbolicons-block"></i>My Trouble Words</a></li>
+					<li><a href="/account/progress/words/mastered"><i class="ss-check ss-symbolicons-block"></i>Words I've Mastered</a></li>
+					<li><a href="/account/progress/achievements"><i class="ss-award ss-symbolicons-block"></i>My Achievements</a></li>
+				</ul>
+			</li>	
+			<li class="perms-user-admin-only"><a href="/account/users"><i class="ss-usergroup ss-symbolicons-block "></i>User Administration</a></li>
+			<li class="perms-auth-admin-only"><a href="/account/authentication"><i class="ss-key"></i>User Authentication</a></li>
+			<li>
+				<a href="/account/"><i class="ss-settings"></i>My Account</a>			
+			</li>
+			
+		</ul>
+	</div>
+	</div>
+	
+
+
+
+
+
+<div class="ftr-legal">
+	<div class="box-all-brands">
+		<div class="box-list-brand box-list-brand-first">
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.ixl.com">
+					<img src="//cdn.vocab.com/images/footer/logo-ixl-for-ftr-190h5m.svg" alt="IXL Learning" class="img-ixl-brand-logo" >
+					<p>Comprehensive K-12 <br />personalized learning</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.rosettastone.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-rosetta-stone-for-ftr-cnz0xb.svg" alt="Rosetta Stone" class="img-rosetta-brand-logo" >
+					<p>Immersive learning <br />for 25 languages</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.wyzant.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-wyzant-for-ftr-92dn93.svg" alt="Wyzant" class="img-wyzant-brand-logo" >
+					<p>Trusted tutors for <br />300 subjects</p>
+				</a>
+			</div>
+			<div class="box-item-brand box-item-brand-last">
+				<a class="lk-item-brand" href="https://www.education.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-education-com-for-ftr-a3xg4c.svg" al="Education.com" class="img-education-brand-logo" >
+					<p>35,000 worksheets, games, <br />and lesson plans</p>
+				</a>
+			</div>
+		</div>
+		<div class="box-list-brand">
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.teacherspayteachers.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-tpt-for-ftr-pa6bkm.svg" alt="TPT" class="img-tpt-brand-logo" >
+					<p>Marketplace for millions of <br />educator-created resources</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.abcya.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-abcya-for-ftr-1or2r2i.svg" alt="ABCya" class="img-abcya-brand-logo" >
+					<p>Fun educational <br />games for kids</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.spanishdict.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-spanish-dictionary-for-ftr-df6e8l.svg" alt="SpanishDictionary.com" class="img-spanish-dictionary-logo" >
+					<p>Spanish-English dictionary, <br />translator, and learning</p>
+				</a>
+			</div>
+			<div class="box-item-brand">
+				<a class="lk-item-brand" href="https://www.ingles.com/">
+					<img src="//cdn.vocab.com/images/footer/logo-ingles-for-ftr-w00ql8.svg" alt="Inglés.com" class="img-ingles-brand-logo" >
+					<p>Diccionario inglés-español, <br />traductor y sitio de aprendizaje</p>
+				</a>
+			</div>
+			<div class="box-item-brand box-item-brand-last">
+				<a class="lk-item-brand" href="https://emmersion.ai/">
+					<img src="//cdn.vocab.com/images/footer/logo-emmersion-for-ftr-1m00b4j.svg" alt="Emmersion" class="img-emmersion-brand-logo" >
+					<p>Fast and accurate <br />language certification</p>
+				</a>
+			</div>
+		</div>
+	</div><!-- end of DIV.ftr-ixl-brands -->
+	<div class="box-ixl-brands-legal-lks">
+		<div class="box-logo-txt-logo">
+			<img src="//cdn.vocab.com/images/footer/logo-vocab-green-check-for-ftr-4lic3k.svg" alt="vocabulary.com logo" class="logo-vocabulary" >
+			<div class="box-legal-text">
+				<div class="box-copy-vocabulary">
+					Copyright &copy; 2024 <br />
+					Vocabulary.com, Inc.
+				</div>
+				<div class="box-division-rights">
+					A division of IXL Learning <span class="txt-bull">&bull;</span> <br />
+					All Rights Reserved.
+				</div>
+			</div>
+			<img src="//cdn.vocab.com/images/footer/logo-ixl-learning-ab1nek.svg" alt="IXL logo" class="logo-ixl" >
+		</div>
+		<div class="box-social-media">
+			<a class="lk-social-media"
+				href="https://www.facebook.com/vocabularycom/"
+				rel="noopener"
+				target="_blank"
+				title="Facebook"><img src="//cdn.vocab.com/images/footer/facebook-fff-on-000-1djwcsu.svg" alt="Facebook logo" width="19" class="icon-facebook" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://x.com/VocabularyCom/"
+				rel="noopener"
+				target="_blank"
+				title="x.com"><img src="//cdn.vocab.com/images/footer/x-fff-on-000-r417h3.svg" alt="X.com logo" width="19" class="icon-x" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://www.instagram.com/vocabcom/"
+				rel="noopener"
+				target="_blank"
+				title="Instagram"><img src="//cdn.vocab.com/images/footer/instagram-fff-on-000-1nomn10.svg" alt="Instagram logo" width="19" class="icon-instagram" height="19" ></a>
+			<a class="lk-social-media"
+				href="https://www.linkedin.com/company/vocabulary-com/"
+				rel="noopener"
+				target="_blank"
+				title="LinkedIn"><img src="//cdn.vocab.com/images/footer/linkedin-fff-on-000-rszenv.svg" alt="LinkedIn logo" width="19" class="icon-linkedin" height="19" ></a>
+		</div><!-- end of DIV.box-social-media -->
+	</div><!-- end of DIV.box-ixl-brands-legal-lks -->
+	
+		<a href="/auth/admin"
+			rel="nofollow"
+			hidden="hidden"
+			aria-hidden="true"
+			style="position: absolute; top: 0px; left: -1000px; width:1px; height:1px">
+				<img src="//cdn.vocab.com/images/clear-16y9b5d.gif" width="0" alt="" aria-hidden="true" height="0" >
+		</a>
+	
+</div>
+
+
+
+
+
+</div></div>
+</nav>
+</div>
+<div class="scroll-tracking-pixel"></div>
+
+
+
+<script>VCOM.q.push(['auth',function(auth){ if (auth.ima=='educator') { Module.after('vcom/npswidget',()=>modules.vcom.npswidget.show()); } }]);</script>
+</body>
+</html>

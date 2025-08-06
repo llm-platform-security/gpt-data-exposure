@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="it-it" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://www.exel.it/images/EXEL%20favicon.png" sizes="any">
+                <link rel="apple-touch-icon" href="/templates/yootheme/packages/theme-joomla/assets/images/apple-touch-icon.png">
+        <meta charset="utf-8">
+	<meta name="rights" content="Exel s.r.l.">
+	<meta name="description" content="Gentile utente, La presente per informarLa che all´atto della sua registrazione presso il ns. sito www.exel.it la Exel s.r.l. entrerà in possesso dei suoi dati ">
+	<meta name="generator" content="ExelCms">
+	<title>Privacy - Progetto Integra - Sienergy Integra</title>
+	<link href="https://www.exel.it/privacy.html" rel="alternate" hreflang="it-IT">
+	<link href="https://www.exel.it/en/privacy.html" rel="alternate" hreflang="en-GB">
+	<link href="/media/system/css/joomla-fontawesome.min.css?ver=4.3.11" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.2.0" rel="stylesheet" />
+	<link href="/media/com_jce/site/css/content.min.css?badb4208be409b1335b815dde676300e" rel="stylesheet" />
+	<link href="/media/jbmedia/css/cookies.css?10d1bedc16bf854eade4ce8fe18dc709" rel="stylesheet" />
+	<link href="/media/mod_languages/css/template.min.css?10d1bedc16bf854eade4ce8fe18dc709" rel="stylesheet" />
+	<link href="/templates/yootheme/css/theme.63.css?1713791394" rel="stylesheet" />
+<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?647005fc12b79b3ca2bb30c059899d5994e3e34d"></script>
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"ERROR":"Errore","MESSAGE":"Messaggio","NOTICE":"Avviso","WARNING":"Attenzione","JCLOSE":"Chiudi","JOK":"OK","JOPEN":"Apri"},"system.paths":{"root":"","rootFull":"https:\/\/www.exel.it\/","base":"","baseFull":"https:\/\/www.exel.it\/"},"csrf.token":"f8bc3807b1105542095bc2eb72a18022"}</script>
+	<script src="/media/system/js/core.min.js?ee06c8994b37d13d4ad21c573bbffeeb9465c0e2"></script>
+	<script src="/media/system/js/messages-es5.min.js?c29829fd2432533d05b15b771f86c6637708bd9d" nomodule defer></script>
+	<script src="/media/system/js/messages.min.js?7f7aa28ac8e8d42145850e8b45b3bc82ff9a6411" type="module"></script>
+	<script src="https://www.googletagmanager.com/gtag/js?id=AW-11362718202" async></script>
+	<script src="/templates/yootheme/vendor/assets/uikit/dist/js/uikit.min.js?4.3.11"></script>
+	<script src="/templates/yootheme/vendor/assets/uikit/dist/js/uikit-icons-design-escapes.min.js?4.3.11"></script>
+	<script src="/templates/yootheme/js/theme.js?4.3.11"></script>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PMT2Q5Z5');</script>
+	<script>document.addEventListener('DOMContentLoaded', function() {
+            Array.prototype.slice.call(document.querySelectorAll('a span[id^="cloak"]')).forEach(function(span) {
+                span.innerText = span.textContent;
+            });
+        });</script>
+	<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-11362718202');</script>
+	<script>/*UIkit.util.ready(function () {
+    document.querySelectorAll('.tm-header .uk-navbar-nav a').forEach(function(el) {
+        if (location.hostname == el.hostname && location.pathname == el.pathname && el.href != '#') {
+            UIkit.scroll(el, {offset: 0});
+        }
+    });
+});*/</script>
+	<link href="https://www.exel.it/privacy.html" rel="alternate" hreflang="x-default">
+	<script>window.yootheme ||= {}; var $theme = yootheme.theme = {"i18n":{"close":{"label":"Close"},"totop":{"label":"Back to top"},"marker":{"label":"Open"},"navbarToggleIcon":{"label":"Open menu"},"paginationPrevious":{"label":"Previous page"},"paginationNext":{"label":"Next page"},"searchIcon":{"toggle":"Open Search","submit":"Submit Search"},"slider":{"next":"Next slide","previous":"Previous slide","slideX":"Slide %s","slideLabel":"%s of %s"},"slideshow":{"next":"Next slide","previous":"Previous slide","slideX":"Slide %s","slideLabel":"%s of %s"},"lightboxPanel":{"next":"Next slide","previous":"Previous slide","slideLabel":"%s of %s","close":"Close"}}};</script>
+
+    <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.exel.it/w-stats/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+    <body class=""><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMT2Q5Z5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+        <div class="uk-hidden-visually uk-notification uk-notification-top-left uk-width-auto">
+            <div class="uk-notification-message">
+                <a href="#tm-main">Skip to main content</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="tm-page">
+
+                        
+
+
+<header class="tm-header-mobile uk-hidden@m">
+
+
+    
+        <div class="uk-navbar-container">
+
+            <div class="uk-container uk-container-expand">
+                <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;boundary&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;}">
+
+                                        <div class="uk-navbar-left">
+
+                        
+                                                    <a uk-toggle href="#tm-dialog-mobile" class="uk-navbar-toggle">
+
+        
+        <div uk-navbar-toggle-icon></div>
+
+        
+    </a>
+                        
+                    </div>
+                    
+                                        <div class="uk-navbar-center">
+
+                                                    <a href="https://www.exel.it/" aria-label="Torna alla Home" class="uk-logo uk-navbar-item">
+    <img alt loading="eager" width="100px" height="46" src="/images/logo.svg"></a>
+                        
+                        
+                    </div>
+                    
+                    
+                </nav>
+            </div>
+
+        </div>
+
+    
+
+
+
+        <div id="tm-dialog-mobile" uk-offcanvas="container: true; overlay: true" mode="slide">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+                        <button class="uk-offcanvas-close uk-close-large" type="button" uk-close uk-toggle="cls: uk-close-large; mode: media; media: @s"></button>
+            
+                        <div class="uk-margin-auto-bottom">
+                
+<div class="uk-grid uk-child-width-1-1" uk-grid>    <div>
+<div class="uk-panel" id="module-176">
+
+    
+    
+<ul class="uk-nav uk-nav-default">
+    
+	<li class="item-102"><a href="/chi-siamo.html"> Chi Siamo</a></li>
+	<li class="item-583"><a href="/progetto-integra.html"> Progetto Integra</a></li>
+	<li class="item-603"><a href="/supporto.html"> Supporto</a></li>
+	<li class="item-145"><a href="/corsi-integra.html"> Corsi</a></li>
+	<li class="item-133"><a href="/area-clienti-guest.html"> Area Clienti</a></li>
+	<li class="item-192"><a href="/acquista.html"> Acquista</a></li>
+	<li class="item-146"><a href="/area-sienergy.html"> Sienergy</a></li>
+	<li class="item-893"><a href="/lavora-con-noi.html"> Lavora con noi</a></li>
+	<li class="item-109"><a href="/contatti.html"> Contatti</a></li>
+	<li class="item-1382"><a href="/strumenti-di-calcolo.html"> Web Apps</a></li></ul>
+
+</div>
+</div>    <div>
+<div class="uk-panel" id="module-175">
+
+    
+    <div class="dialog-mobile no-card ">
+        
+<div class="uk-panel mod-languages">
+
+    
+    
+        <ul class="uk-subnav">
+                                            <li class="uk-active">
+                    <a style="display: flex !important;" href="https://www.exel.it/privacy.html">
+                                                    <img title="Italiano (IT)" src="/media/mod_languages/images/it.gif" alt="Italiano (IT)">                                            </a>
+                </li>
+                                                            <li >
+                    <a style="display: flex !important;" href="/en/privacy.html">
+                                                    <img title="English (UK)" src="/media/mod_languages/images/en.gif" alt="English (UK)">                                            </a>
+                </li>
+                                    </ul>
+
+    
+    
+</div>
+</div>
+
+</div>
+</div></div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    
+    
+
+</header>
+
+
+
+
+<header class="tm-header uk-visible@m">
+
+
+
+        <div uk-sticky media="@m" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+    
+        <div class="uk-navbar-container">
+
+            <div class="uk-container uk-container-large">
+                <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;container&quot;:&quot;.tm-header &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header .uk-navbar-container&quot;}">
+
+                                        <div class="uk-navbar-left">
+
+                                                    <a href="https://www.exel.it/" aria-label="Torna alla Home" class="uk-logo uk-navbar-item">
+    <img alt loading="eager" width="100px" height="46" src="/images/logo.svg"></a>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                                        <div class="uk-navbar-right">
+
+                        
+                                                    
+<ul class="uk-navbar-nav">
+    
+	<li class="item-102"><a href="/chi-siamo.html"> Chi Siamo</a></li>
+	<li class="item-583 uk-parent"><a href="/progetto-integra.html"> Progetto Integra</a>
+	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
+
+		<li class="item-584"><a href="/progetto-integra/funzioni-progetto-integra.html"> Funzioni principali</a></li>
+		<li class="item-586 uk-parent"><a href="/progetto-integra/moduli.html"> Moduli</a>
+		<ul class="uk-nav-sub">
+
+			<li class="item-602"><a href="/progetto-integra/moduli.html/#progettazione-elettrica" uk-scroll> Progettazione Elettrica</a></li>
+			<li class="item-601"><a href="/progetto-integra/moduli.html/#media-tensione" uk-scroll> Media Tensione</a></li>
+			<li class="item-934"><a href="/progetto-integra/moduli.html/#fotovoltaico" uk-scroll> Fotovoltaico</a></li>
+			<li class="item-935"><a href="/progetto-integra/moduli.html/#spd" uk-scroll> Spd</a></li>
+			<li class="item-931"><a href="/progetto-integra/moduli.html/#corrente-continua" uk-scroll> Corrente Continua</a></li>
+			<li class="item-932"><a href="/progetto-integra/moduli.html/#arc-flash" uk-scroll> Arc Flash</a></li>
+			<li class="item-933"><a href="/progetto-integra/moduli.html/#knx" uk-scroll> Knx</a></li>
+			<li class="item-600"><a href="/progetto-integra/moduli.html/#computa" uk-scroll> Computa</a></li></ul></li>
+		<li class="item-585"><a href="/progetto-integra/richiedi-trial.html"> Richiedi Trial</a></li></ul></div></div></li>
+	<li class="item-603 uk-parent"><a href="/supporto.html"> Supporto</a>
+	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
+
+		<li class="item-169"><a href="/supporto/video.html"> Tutorial</a></li>
+		<li class="item-605"><a href="/supporto/assistenza-tecnica.html"> Assistenza Tecnica</a></li>
+		<li class="item-604"><a href="/supporto/teleassistenza.html"> Teleassistenza</a></li></ul></div></div></li>
+	<li class="item-145"><a href="/corsi-integra.html"> Corsi</a></li>
+	<li class="item-133"><a href="/area-clienti-guest.html"> Area Clienti</a></li>
+	<li class="item-192 uk-parent"><a href="/acquista.html"> Acquista</a>
+	<div class="uk-drop uk-navbar-dropdown"><div><ul class="uk-nav uk-navbar-dropdown-nav">
+
+		<li class="item-286 uk-parent"><a href="/acquista/versioni-ordinabili-online.html"> Abbonamento TimEDition</a>
+		<ul class="uk-nav-sub">
+
+			<li class="item-288"><a href="/acquista/versioni-ordinabili-online/te30.html"> Mensile</a></li>
+			<li class="item-359"><a href="/acquista/versioni-ordinabili-online/te7.html"> Settimanale</a></li></ul></li>
+		<li class="item-287 uk-parent"><a href="/acquista/licenza-tradizionale.html"> Licenza Tradizionale</a>
+		<ul class="uk-nav-sub">
+
+			<li class="item-291"><a href="/acquista/licenza-tradizionale/#lt10" uk-scroll> Lt10</a></li>
+			<li class="item-292"><a href="/acquista/licenza-tradizionale/#lt15" uk-scroll> Lt15</a></li>
+			<li class="item-293"><a href="/acquista/licenza-tradizionale/#full" uk-scroll> Full</a></li></ul></li></ul></div></div></li>
+	<li class="item-146"><a href="/area-sienergy.html"> Sienergy</a></li>
+	<li class="item-893"><a href="/lavora-con-noi.html"> Lavora con noi</a></li>
+	<li class="item-109"><a href="/contatti.html"> Contatti</a></li>
+	<li class="item-1382"><a href="/strumenti-di-calcolo.html"> Web Apps</a></li></ul>
+
+<div class="uk-navbar-item" id="module-133">
+
+    
+    <div class="header no-card ">
+        
+<div class="uk-panel mod-languages">
+
+    
+    
+        <ul class="uk-subnav">
+                                            <li class="uk-active">
+                    <a style="display: flex !important;" href="https://www.exel.it/privacy.html">
+                                                    <img title="Italiano (IT)" src="/media/mod_languages/images/it.gif" alt="Italiano (IT)">                                            </a>
+                </li>
+                                                            <li >
+                    <a style="display: flex !important;" href="/en/privacy.html">
+                                                    <img title="English (UK)" src="/media/mod_languages/images/en.gif" alt="English (UK)">                                            </a>
+                </li>
+                                    </ul>
+
+    
+    
+</div>
+</div>
+
+</div>
+
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+
+        </div>
+
+        </div>
+    
+
+
+
+
+
+
+
+</header>
+
+            
+            
+
+            <main id="tm-main"  class="tm-main uk-section uk-section-default" uk-height-viewport="expand: true">
+
+                                <div class="uk-container">
+
+                    
+                            
+                
+                <div id="system-message-container" aria-live="polite"></div>
+
+                <article id="article-166" class="uk-article" data-permalink="https://www.exel.it/privacy.html" typeof="Article" vocab="https://schema.org/">
+
+    <meta property="name" content="">
+    <meta property="author" typeof="Person" content="Super User">
+    <meta property="dateModified" content="2023-04-12T13:18:58+00:00">
+    <meta property="datePublished" content="2018-04-27T08:37:36+00:00">
+    <meta class="uk-margin-remove-adjacent" property="articleSection" content="Uncategorised">
+
+    
+    
+    
+    
+     
+    <div class="uk-margin-medium" property="text">
+<a href="https://www.iubenda.com/privacy-policy/26515841" class="iubenda-nostyle iubenda-noiframe iubenda-embed iubenda-noiframe iub-body-embed" title="Privacy Policy">Privacy Policy</a>
+<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script> </div>
+
+    
+    
+    
+    
+    
+    
+</article>
+
+                
+                        
+                </div>
+                
+            </main>
+
+            
+<div id="module-171" class="builder"><!-- Builder #module-171 --><style class="uk-margin-remove-adjacent">#module-171\#0 .el-link{background-color: navy; color: #fff; border: 2px solid #fff;}#module-171\#1{position: fixed; top: 50%; right: 1rem; transform: translateY(-50%); z-index: 99999; width: auto;}#module-171\#2 .el-link{background-color: navy; color: #fff; border: 2px solid #fff;}#module-171\#3{margin-left: 1rem;}</style>
+<div class="uk-visible@m uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom">
+    
+        
+        
+        
+            
+                                <div class="uk-container">                
+                    <div class="uk-visible@m uk-grid tm-grid-expand uk-grid-column-collapse uk-child-width-1-1 uk-margin-remove-vertical">
+<div class="js-sticky uk-width-1-1 uk-visible@m" id="module-171#1">
+    
+        
+            
+            
+            
+                                <div class="uk-panel uk-position-z-index" uk-sticky="end: !.js-sticky; media: @m;">                
+                    
+<div id="module-171#0" class="uk-margin-small uk-text-right uk-visible@m" uk-scrollspy="target: [uk-scrollspy-class];">    <div class="uk-child-width-auto uk-flex-column uk-grid-small uk-flex-inline" uk-grid>
+            <div>
+<a class="el-link uk-icon-button" href="http://www.youtube.com/user/ProgettoINTEGRA" target="_blank" rel="noreferrer"><span uk-icon="icon: youtube;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.instagram.com/exel_integra/" target="_blank" rel="noreferrer"><span uk-icon="icon: instagram;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.facebook.com/EXELSrl/" target="_blank" rel="noreferrer"><span uk-icon="icon: facebook;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.linkedin.com/company/exel-srl-engineering-software/" target="_blank" rel="noreferrer"><span uk-icon="icon: linkedin;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://exel.it/registrati.html?view=form" target="_blank" rel="noreferrer"><span uk-icon="icon: file-edit;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.exel.it/forum/" target="_blank" rel="noreferrer"><span uk-icon="icon: world;"></span></a></div>
+    
+    </div></div>
+                                </div>                
+            
+        
+    
+</div></div>
+                                </div>                
+            
+        
+    
+</div>
+<div class="uk-section-secondary">
+        <div data-src="/images/yootheme/cta-bg.svg" uk-img class="uk-background-norepeat uk-background-height-1-1 uk-background-center-right uk-background-image@s uk-section uk-section-large" style="background-color: #000080;">    
+        
+        
+        
+            
+                                <div class="uk-container">                
+                    <div class="uk-grid-margin uk-container uk-container-large"><div class="uk-grid tm-grid-expand" uk-grid>
+<div class="uk-width-2-3@s">
+    
+        
+            
+            
+            
+                
+                    
+<h2 class="uk-width-large@s uk-text-left@s uk-text-center">        Vuoi saperne di più o hai bisogno di una consulenza?    </h2>
+                
+            
+        
+    
+</div>
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-3@s">
+    
+        
+            
+            
+                        <div class="uk-panel uk-width-1-1">            
+                
+                    
+<div class="uk-margin uk-text-right@s uk-text-center">
+    
+    
+        
+        
+<a class="el-content uk-button uk-button-primary uk-button-large" href="/contatti-3.html">
+    
+        Contattaci    
+    
+</a>
+
+        
+    
+    
+</div>
+
+                
+                        </div>            
+        
+    
+</div></div></div>
+                                </div>                
+            
+        
+        </div>
+    
+</div>
+<div class="uk-section-default uk-section" uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-fade; delay: false;">
+    
+        
+        
+        
+            
+                                <div class="uk-container uk-container-large">                
+                    <div class="uk-grid tm-grid-expand uk-grid-row-large uk-child-width-1-1 uk-grid-margin-large">
+<div class="uk-width-1-1">
+    
+        
+            
+            
+            
+                
+                    
+<div class="uk-margin uk-text-left" uk-scrollspy-class="uk-animation-slide-top-small">
+        <a class="el-link" href="#" uk-scroll><img src="/images/logo.svg" width="200" height="91" class="el-image" alt loading="lazy"></a>    
+    
+</div><div class="uk-panel uk-margin uk-width-medium@m uk-text-left" uk-scrollspy-class><p>Exel S.r.l.<br />Corso Lombardia, 75<br />Autoporto Pescarito<br />10099 San Mauro Torinese (TO) Italy (IT)</p></div>
+                
+            
+        
+    
+</div></div>
+                                </div>                
+            
+        
+    
+</div>
+<div class="uk-section-default uk-section uk-section-small">
+    
+        
+        
+        
+            
+                
+                    <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+    
+        
+            
+            
+            
+                
+                    <hr>
+                
+            
+        
+    
+</div></div><div class="uk-grid-margin uk-container uk-container-large"><div class="uk-grid tm-grid-expand" uk-grid>
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m">
+    
+        
+            
+            
+                        <div class="uk-panel uk-width-1-1">            
+                
+                    
+<div id="module-171#2" class="uk-margin-small uk-text-right" uk-scrollspy="target: [uk-scrollspy-class];">    <div class="uk-child-width-auto uk-grid-small uk-flex-inline" uk-grid>
+            <div>
+<a class="el-link uk-icon-button" href="http://www.youtube.com/user/ProgettoINTEGRA" target="_blank" rel="noreferrer"><span uk-icon="icon: youtube;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.instagram.com/exel_integra/" target="_blank" rel="noreferrer"><span uk-icon="icon: instagram;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.facebook.com/EXELSrl/" target="_blank" rel="noreferrer"><span uk-icon="icon: facebook;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.linkedin.com/company/exel-srl-engineering-software/" target="_blank" rel="noreferrer"><span uk-icon="icon: linkedin;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.exel.it/registrati.html?view=form" target="_blank" rel="noreferrer"><span uk-icon="icon: file-edit;"></span></a></div>
+            <div>
+<a class="el-link uk-icon-button" href="https://www.exel.it/forum/" target="_blank" rel="noreferrer"><span uk-icon="icon: world;"></span></a></div>
+    
+    </div></div>
+                
+                        </div>            
+        
+    
+</div>
+<div class="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-flex-first@m">
+    
+        
+            
+            
+                        <div class="uk-panel uk-width-1-1">            
+                
+                    <div class="uk-panel uk-text-small uk-text-muted uk-margin uk-text-left@m uk-text-center"><p>Copyright © 2023 Exel s.r.l. Engineering &amp; Software - Tutti i diritti riservati - P.I. 05928990018 - <br />REA TO-746738 Capitale versato<span> </span><span data-originalfontsize="10pt" data-originalcomputedfontsize="13.333333015441895">€ 51.000,00</span></p></div>
+                
+                        </div>            
+        
+    
+</div></div></div><div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
+<div class="uk-width-1-1">
+    
+        
+            
+            
+            
+                
+                    
+<div id="module-171#3" class="uk-margin uk-text-left"><a href="#" uk-totop uk-scroll></a></div>
+                
+            
+        
+    
+</div></div>
+                
+            
+        
+    
+</div></div>
+<div class="tm-bottom uk-section-default uk-section">
+
+    
+        
+        
+        
+                        <div class="uk-container">
+            
+                
+<div class="uk-panel" id="module-177">
+
+    
+    <!--googleoff: all-->
+	<!-- Template Default bootstrap -->
+	<div class="jb-cookie bottom black blue  robots-noindex robots-nofollow robots-nocontent" style="display: none;">
+		<!-- BG color -->
+		<div class="jb-cookie-bg black"></div>
+	    
+		<p class="jb-cookie-title">"Al fine di fornire la migliore esperienza online questo sito utilizza i cookies".</p>
+		<p>Utilizzando il nostro sito, l'utente accetta il nostro utilizzo da parte dei cookie.												<a href="/cookies-info.html">Scopri di più</a>
+									</p>
+		<div class="jb-accept btn blue">Accetto</div>
+	</div>
+	
+	
+<!--googleon: all--><script type="text/javascript">
+    jQuery(document).ready(function () { 
+    	function setCookie(c_name,value,exdays,domain) {
+			if (domain != '') {domain = '; domain=' + domain}
+
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate() + exdays);
+			var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/" + domain;
+
+			document.cookie=c_name + "=" + c_value;
+		}
+
+		var $jb_cookie = jQuery('.jb-cookie'),
+			cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)jbcookies\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+		if (cookieValue === '') { // NO EXIST
+			$jb_cookie.delay(1000).slideDown('fast');
+				}
+
+		jQuery('.jb-accept').click(function() {
+			setCookie("jbcookies","yes",90,"");
+			$jb_cookie.slideUp('slow');
+			jQuery('.jb-cookie-decline').fadeIn('slow', function() {});
+		});
+
+		jQuery('.jb-decline').click(function() {
+			jQuery('.jb-cookie-decline').fadeOut('slow', function() {
+							});
+			setCookie("jbcookies","",0,"");
+			$jb_cookie.delay(1000).slideDown('fast');
+		});
+    });
+</script>
+
+</div>
+
+                        </div>
+            
+        
+    
+</div>
+
+
+            
+        </div>
+
+        
+        
+
+    </body>
+</html>

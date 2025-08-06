@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FMVK9QE58M"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-FMVK9QE58M');
+	</script>
+	<!-- Hotjar Tracking Code for Toolblox Web -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:3930304,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<meta name="description" content=""/>
+	<meta name="author" content=""/>
+	<title>Toolblox - Privacy Policy</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<style data-tag="reset-style-sheet">
+		html {
+			line-height: 1.15;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		* {
+			box-sizing: border-box;
+			border-width: 0;
+			border-style: solid;
+		}
+
+		p, li, ul, pre, div, h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+		}
+
+		button, input, optgroup, select, textarea {
+			font-family: inherit;
+			font-size: 100%;
+			line-height: 1.15;
+			margin: 0;
+		}
+
+		button, select {
+			text-transform: none;
+		}
+
+		button, [type="button"], [type="reset"], [type="submit"] {
+			-webkit-appearance: button;
+		}
+
+		button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+			border-style: none;
+			padding: 0;
+		}
+
+		button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+			outline: 1px dotted ButtonText;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+
+		input {
+			padding: 2px 4px;
+		}
+
+		img {
+			display: block;
+		}
+
+		html {
+			scroll-behavior: smooth
+		}
+	</style>
+	<style data-tag="default-style-sheet">
+		html {
+			font-family: Inter;
+			font-size: 16px;
+		}
+
+		body {
+			font-weight: 400;
+			font-style: normal;
+			text-decoration: none;
+			text-transform: none;
+			letter-spacing: normal;
+			line-height: 1.15;
+			color: var(--dl-color-gray-black);
+			background-color: var(--dl-color-gray-white);
+		}
+	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+	      data-tag="font" data-bs-tag="font"/>
+	<link rel="stylesheet"
+	      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+	      data-tag="font" data-bs-tag="font"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link rel="stylesheet" href="/css/site.css?v=oz_GqmIFYMPRQlvx8ASdrqVrQatPRPtA3l_pz-r2_h4" />
+	<link rel="stylesheet" href="/css/v2.css?v=7vPrV_-k8efGqz6bl8sHdMurQyfSOQ2jokk-mjlSNtQ" />
+	<link rel="stylesheet" href="/Toolblox.Web.styles.css?v=JFNLJwLnONqqiHKProLbZU2B8Xt6EdIYEMNqmba3kaY" />
+	<!-- Core theme JS--><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=166fb390-32a6-4ece-a175-94410b91e584;IngestionEndpoint=https://switzerlandnorth-0.in.applicationinsights.azure.com/;LiveEndpoint=https://switzerlandnorth.livediagnostics.monitor.azure.com/'
+}});</script></head>
+<body class="d-flex flex-column h-100">
+    <main b-e6km990pei class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav b-e6km990pei class="px-5 navbar navbar-expand-lg">
+            <div b-e6km990pei class="frame34-frame73 ">
+                <div b-e6km990pei class="header-logo">
+                    <a class="navbar-brand" href="/">
+                        <img b-e6km990pei alt="UnionI220212420"
+                             src="/assets/v2/logo.svg"
+                             class="header-svg" />
+                    </a>
+                </div>
+                <button b-e6km990pei class="frame174-textbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img b-e6km990pei src="/assets/v2/burger.svg" alt="24generalburgerI7010117098799" class="frame174-image24generalburger">
+                </button>
+                <div b-e6km990pei class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul b-e6km990pei class="navbar-nav ms-auto mb-2 mb-lg-0">
+	                    <li b-e6km990pei class="nav-item">
+		                    <a class="nav-link header-text smsm-Regular " href="/?page=%2F">Home</a>
+	                    </li>
+	                    <li b-e6km990pei class="nav-item">
+		                    <a class="nav-link header-text smsm-Regular " href="/Technology">Technology</a>
+	                    </li>
+	                    <li b-e6km990pei class="nav-item">
+		                    <a b-e6km990pei class="nav-link header-text smsm-Regular" href="https://academy.toolblox.net?a=">How Tos</a>
+	                    </li>
+	                    <li b-e6km990pei class="nav-item">
+		                    <a class="nav-link header-text smsm-Regular " href="/Pricing">Pricing</a>
+	                    </li>
+	                    <li b-e6km990pei class="nav-item">
+		                    <a class="nav-link header-text smsm-Regular " href="/About">About</a>
+	                    </li>
+                        <li b-e6km990pei class="nav-item">
+                            <a b-e6km990pei href="https://app.toolblox.net?a=" class="btnPrimary">Start building</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Step boxes -->
+<section class="py-5" id="stepboxes" style="background-color: #ffffff;">
+                
+    <div class="container">
+                    
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+                <div class="text-center">
+                    <h2 class="fw-bolder mb-0">Privacy policy</h2>
+                    <br/><br/>
+                </div>
+            </div>
+        </div>
+        <div class="row">                        
+            <div class="col-lg-12">
+                <h1>Privacy Policy for Toolblox</h1>
+
+                <p>At Toolblox (a trademark of Ideevoog OÜ), formerly VOOG, accessible from toolblox.net, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Toolblox and how we use it.</p>
+
+                <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+
+                <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Toolblox.</p>
+
+                <h2>Consent</h2>
+
+                <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+
+                <h2>Information we collect</h2>
+
+                <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+                <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+                <p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p>
+
+                <h2>How we use your information</h2>
+
+                <p>We use the information we collect in various ways, including to:</p>
+
+                <ul>
+	                <li>Provide, operate, and maintain our website</li>
+	                <li>Improve, personalize, and expand our website</li>
+	                <li>Understand and analyze how you use our website</li>
+	                <li>Develop new products, services, features, and functionality</li>
+	                <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+	                <li>Send you emails</li>
+	                <li>Find and prevent fraud</li>
+                </ul>
+                
+                <h2>Tracking for service improvement</h2>
+                
+                <p>
+	                We use Hotjar in order to better understand our users’ needs and to optimize this service and experience. Hotjar is a technology service that helps us better understand our users’ experience (e.g. how much time they spend on which pages, which links they choose to click, what users do and don’t like, etc.) and this enables us to build and maintain our service with user feedback. Hotjar uses cookies and other technologies to collect data on our users’ behavior and their devices. This includes a device's IP address (processed during your session and stored in a de-identified form), device screen size, device type (unique device identifiers), browser information, geographic location (country only), and the preferred language used to display our website. Hotjar stores this information on our behalf in a pseudonymized user profile. Hotjar is contractually forbidden to sell any of the data collected on our behalf.
+                </p>
+
+                <p>
+	                For further details, please see the ‘about Hotjar’ section of <a href="https://help.hotjar.com/hc/en-us/categories/115001323967-About-Hotjar" target="_blank">Hotjar’s support site</a>.
+                </p>
+                <h2>Log Files</h2>
+
+                <p>Toolblox follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+
+                <h2>Cookies and Web Beacons</h2>
+
+                <p>Like any other website, Toolblox uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+
+
+
+                <h2>Advertising Partners Privacy Policies</h2>
+
+                <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Toolblox.</p>
+
+                <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Toolblox, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+
+                <p>Note that Toolblox has no access to or control over these cookies that are used by third-party advertisers.</p>
+
+                <h2>Third Party Privacy Policies</h2>
+
+                <p>Toolblox's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+
+                <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+
+                <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+
+                <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+                <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p>
+                <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
+                <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
+                <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+
+                <h2>GDPR Data Protection Rights</h2>
+
+                <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
+                <p>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</p>
+                <p>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</p>
+                <p>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</p>
+                <p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p>
+                <p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p>
+                <p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
+                <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+
+                <h2>Children's Information</h2>
+
+                <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+
+                <p>Toolblox does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+             </div> 
+        </div>
+    </div>
+</section>
+
+    </main>
+    <!-- Footer-->
+    <footer b-e6km990pei>
+        <div b-e6km990pei class="header-header">
+            <div b-e6km990pei class="header-logo">
+                <a class="navbar-brand" href="/">
+                    <img b-e6km990pei alt="UnionI220212420"
+                         src="/assets/v3/logo_white.svg"
+                         class="header-svg" />
+                </a>
+            </div>
+	        <div b-e6km990pei class="header-frame1">
+		        <li b-e6km990pei class="header-defaultlink">
+			        <a class="header-text smsm-Regular " href="/Blog">Blog</a>
+		        </li>
+		        <div b-e6km990pei class="header-defaultlink">
+			        <a class="header-text smsm-Regular selected" href="/Privacy">Privacy Policy</a>
+		        </div>
+		        <div b-e6km990pei class="header-defaultlink">
+			        <a class="header-text smsm-Regular " href="/Terms">Terms of Service</a>
+		        </div>
+		        <div b-e6km990pei class="header-defaultlink">
+			        <a b-e6km990pei class="header-text smsm-Regular" href="https://community.toolblox.net">Community forum</a>
+		        </div>
+		        <div b-e6km990pei class="header-defaultlink">
+			        <a b-e6km990pei class="header-text smsm-Regular" href="https://twitter.com/tool_blox">Twitter</a>
+		        </div>
+		        <div b-e6km990pei class="header-defaultlink">
+			        <a b-e6km990pei class="header-text smsm-Regular" href="https://app.toolblox.net?a="><b b-e6km990pei>Open App</b></a>
+		        </div>
+				<img b-e6km990pei src="/assets/v3/micaswiss.svg" alt="Hosted in Switzerland and ready for the European Crypto-assets Regulation" class="hostingpic"/>
+	        </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+
+    <!-- Core theme JS-->
+    
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/139819879.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+</html>

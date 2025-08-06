@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="./favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/scroll-lock/2.1.2/scroll-lock.min.js"
+		integrity="sha512-MBbICakhGbnckq5iFnAvaoTQwTyZqIEdhXGbzpNvGhkr+ZhjRdaVmJuNCVyZkObp5O/Mlows81qbzLAalgnoIg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"publisher": {
+				"@type": "Organization",
+				"name": "Opable",
+				"url": "https://opable.com/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://opable.com/content/images/2023/04/opable-2.png"
+				}
+			},
+			"url": "https://opable.com/",
+			"mainEntityOfPage": "https://opable.com/",
+			"description": "Tools to understand, build, and engage your audience. Take your ideas all the way from opportunity to operational."
+		}
+			</script>
+
+	<script>
+		let viewportmeta = document.querySelector('meta[name="viewport"]');
+		if (viewportmeta) {
+			if (screen.width < 375) {
+				let newScale = screen.width / 375;
+				viewportmeta.content =
+					"width=375, minimum-scale=" +
+					newScale +
+					", maximum-scale=1.0, user-scalable=no, initial-scale=" +
+					newScale +
+					"";
+			} else {
+				viewportmeta.content =
+					"width=device-width, maximum-scale=1.0, initial-scale=1.0";
+			}
+		}
+	</script>
+	
+		<link href="./_app/immutable/assets/0.n4_y7bb5.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.9Rr8_VGD.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry._RUQ7tpJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.EKNBkY9R.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.uKGimoz_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.55nKRaYO.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.XtWKRYFW.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.ZEAaMCGj.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/5.DUNvY_ZD.js"><title>Opable: innovative products through customer alignment</title><!-- HEAD_svelte-1qagr6c_START --><meta name="description" content="Tools to understand, build, and engage your audience. Take your ideas all the way from opportunity to operational."><link rel="icon" href="/favicon.png" type="image/png"><link rel="canonical" href="https://opable.com/"><meta name="referrer" content="no-referrer-when-downgrade"><meta property="og:site_name" content="Opable"><meta property="og:type" content="website"><meta property="og:title" content="Opable: Find out what moves your audience, then move forward, together."><meta property="og:description" content="Take your ideas all the way from opportunity to operational with integrated tools to understand, build, and engage your audience."><meta property="og:url" content="https://opable.com/"><meta property="article:publisher" content="https://www.facebook.com/getopable"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Opable: product innovation engine - tools and strategy for teams"><meta name="twitter:description" content="Tools to understand, build, and engage your audience. Take your ideas all the way from opportunity to operational."><meta name="twitter:url" content="https://opable.com/"><meta name="twitter:site" content="@englr"><meta property="og:image:width" content="1024"><meta property="og:image:height" content="530"><!-- HEAD_svelte-1qagr6c_END -->
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">   <div class="bg-white dark:bg-gray-700"><nav class="header bg-white border-gray-200 dark:bg-gray-900 absolute lg:fixed lg:shadow-xl lg:border-b border-gray-100 dark:border-gray-700 lg:shadow-gray-100 lg:dark:shadow-gray-800 w-full z-10 top-0" data-svelte-h="svelte-w9nesf"><div class="max-w-screen-xl pt-8 lg:pt-2 pb-4 px-4 mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center lg:place-items-stretch"><a href="/#top" class="header-link mx-auto lg:mx-0 inline-block lg:flex pt-1.5 place-self-start"><img height="64" width="64" class="h-12 lg:h-15 dark:hidden float-left" src="/img/logo-dark.svg" alt=""> <img height="64" width="64" class="h-12 lg:h-15 hidden dark:block float-left" src="/img/logo-light.svg" alt=""> <span class="md:ps-2 font-semibold text-2xl inline-block pt-1.5 md:pt-2.5 dark:text-white">op<u>able</u></span></a> <div class="text-right hidden lg:block place-self-end"><div class="hidden md:inline-block"><ul class="font-medium flex flex-col p-4 md:p-0 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"><li><a href="/#more" class="header-link mt-5 block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Products</a></li> <li><a href="/#faq" class="header-link mt-5 block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Questions</a></li> <li><a href="/partnerships" class="mt-5 block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Partnerships</a></li> <li class="pt-2"><a href="/#updates" class="btn header-link ml-4">Get Updates</a></li></ul></div></div></div></nav> <div id="top" class="pt-16" data-svelte-h="svelte-1wr7fxs"> </div> <div class="post-content gh-content gh-canvas max-w-[65rem] mx-auto rounded-3xl" data-svelte-h="svelte-qb757"><h2 id="privacy-policy">PRIVACY POLICY</h2> <p class="heading">OVERVIEW</p> <p>This Privacy Policy describes how your personal information is
+        collected, used, and shared when you visit or make a purchase from this
+        website (“the website”).</p> <p class="heading">PERSONAL INFORMATION WE COLLECT</p> <p>When you visit the website, we automatically collect certain information
+        about your device, including information about your web browser, IP
+        address, time zone, and some of the cookies that are installed on your
+        device. Additionally, as you browse the website, we collect information
+        about the individual web pages or products that you view, what websites
+        or search terms referred you to the website, and information about how
+        you interact with the website. We refer to this automatically-collected
+        information as “Device Information.”</p> <p>We collect Device Information using the following technologies:</p> <ul class="ms-5 pe-10 list-disc"><li>“Cookies” are data files that are placed on your device or computer
+            and often include an anonymous unique identifier. For more
+            information about cookies, and how to disable cookies, visit <a href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a>.</li> <li>“Log files” track actions occurring on the website, and collect data
+            including your IP address, browser type, Internet service provider,
+            referring/exit pages, and date/time stamps.</li> <li>“Review Tools” track end-user actions, screen information, and
+            browser errors to allow for remote debugging and optimisation.</li> <li>“Web beacons,” “tags,” and “pixels” are electronic files used to
+            record information about how you browse the website.</li></ul> <p>Additionally when you register or create an account, make a purchase, or
+        attempt to make a purchase through the website, we collect certain
+        information from you, including your name, billing address, shipping
+        address, payment information (including credit card numbers, email
+        address, and phone number. We refer to this information as “Account
+        Information.”</p> <p>When we talk about “Personal Information” in this Privacy Policy, we are
+        talking both about Device Information and Account Information.</p> <p class="heading">HOW DO WE USE YOUR PERSONAL INFORMATION?</p> <p>We use the Account Information that we collect generally to fulfill any
+        orders placed through the website (including processing your payment
+        information, arranging for shipping, and providing you with invoices
+        and/or order confirmations). Additionally, we use this Account
+        Information to: Communicate with you; Screen our orders for potential
+        risk or fraud; When in line with the preferences you have shared with
+        us, provide you with information or advertising relating to our products
+        or services. We specifically maintain aggregated usage statistics and
+        individual Account Information profiles for the website via connection
+        to the Intercom service.</p> <p>We use the Device Information that we collect to help us screen for
+        potential risk and fraud (in particular, your IP address), and more
+        generally to improve and optimize our Site (for example, by generating
+        analytics about how our customers browse and interact with the website,
+        and to assess the success of our marketing and advertising campaigns).</p> <p class="heading">SHARING YOUR PERSONAL INFORMATION</p> <p>We share your Personal Information with third parties to help us use
+        your Personal Information, as described above. We use the domain name of
+        your email address to identify organizations that use our service, and
+        publish some of these organizational logos on our website. If you or
+        your company objects to this use, please let us know and we will remove
+        it from our listing. We also use Google Analytics to help us understand
+        how our customers use the website--you can read more about how Google
+        uses your Personal Information here: <a href="https://www.google.com/intl/en/policies/privacy/?ref=opable.com">https://www.google.com/intl/en/policies/privacy/</a>. You can also opt-out of Google Analytics here:
+        <a href="https://tools.google.com/dlpage/gaoptout?ref=opable.com">https://tools.google.com/dlpage/gaoptout</a>.</p> <p>Finally, we may also share your Personal Information to comply with
+        applicable laws and regulations, to respond to a subpoena, search
+        warrant or other lawful request for information we receive, or to
+        otherwise protect our rights.</p> <p class="heading">DO NOT TRACK</p> <p>Please note that we do not alter our site&#39;s data collection and use
+        practices when we see a Do Not Track signal from your browser.</p> <p class="heading">YOUR RIGHTS</p> <p>If you are a European resident, you have the right to access personal
+        information we hold about you and to ask that your personal information
+        be corrected, updated, or deleted. If you would like to exercise this
+        right, please contact us through the contact information below.</p> <p>Additionally, if you are a European resident we note that we are
+        processing your information in order to fulfill contracts we might have
+        with you (for example if you order services or create an account), or
+        otherwise to pursue our legitimate business interests listed above.
+        Additionally, please note that your information will be transferred
+        outside of Europe, including to Canada and the United States.</p> <p class="heading">DATA RETENTION</p> <p>When you create an account on our websites, we will maintain your
+        personal information for our records unless and until you ask us to
+        delete this information.</p> <p class="heading">DATA STEWARDSHIP</p> <p>As a provider of SaaS tools, we facilitate the creation and distribution
+        of surveys and forms. However, the ownership and responsibility of the
+        data collected through these surveys and forms lie with the creator (our
+        client), not us. When you use our services to create and share a survey
+        or form, you assume the role of data steward, responsible for managing
+        and protecting the data collected from your respondents.</p> <p>Similarly, if you are responding to a survey or form created by one of
+        our clients using our platform, please be aware that you are providing
+        your information to them, not directly to us. Our clients, as the
+        creators and distributors of these surveys or forms, are the stewards of
+        your data. We encourage you to review their privacy policies and terms
+        of use to understand how your data will be handled.</p> <p class="heading">MINORS</p> <p>The website and services are not intended for individuals under the age
+        of 16.</p> <p class="heading">CHANGES</p> <p>We may update this privacy policy from time to time in order to reflect,
+        for example, changes to our practices or for other operational, legal or
+        regulatory reasons.</p> <p class="heading">CONTACT US</p> <p>For more information about our privacy practices, if you have questions,
+        or if you would like to make a complaint, please contact us by e-mail at
+        alvin@westthird.com or by mail using the details provided below:<br>
+        33539 Northview Place, Abbotsford, BC, V2S 6P4, Canada</p></div>  <div class="bg-gray-50 -mt-8 pt-28 px-10 pb-20 lg:pt-26 lg:pb-18 md:pt-20 md:pb-12 dark:bg-dark-surface-secondary" data-svelte-h="svelte-1wfif6w"><div class="max-w-[66.5rem] mx-auto lg:max-w-[39.25rem]"><div class="flex items-center mb-5 md:flex-col md:mb-6"><a class="header-link flex shrink-0 mr-3 md:mb-6 w-12" href="/"><img class="w-full dark:hidden" src="/img/logo-dark.svg" alt=""><img class="hidden w-full dark:block" src="/img/logo-light.svg" alt=""></a> <label class="hidden relative block shrink-0 select-none cursor-pointer tap-highlight-color md:mb-6"><input class="theme absolute top-0 left-0 opacity-0" type="checkbox"><span class="flex p-[0.1875rem] bg-surface-secondary border border-borderColor rounded-full dark:bg-dark-surface-secondary dark:border-dark-borderColor"><span class="group flex justify-center items-center w-8 h-8 mr-1 border border-borderColor bg-surface-primary rounded-full text-0 last:mr-0 tap-highlight-color dark:border-transparent dark:bg-transparent"><svg class="w-4 h-4 fill-primary transition-colors group-hover:fill-primary dark:group-hover:fill-dark-primary dark:fill-secondary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5.101 17.739a1.15 1.15 0 0 1 .001 2.3 1.15 1.15 0 1 1-.001-2.3zm13.787 0a1.15 1.15 0 0 1 .001 2.3 1.15 1.15 0 1 1-.001-2.3zM16.461 7.528a6.32 6.32 0 0 1 0 8.934 6.32 6.32 0 0 1-8.934 0 6.32 6.32 0 0 1 0-8.934 6.32 6.32 0 0 1 8.934 0zM8.801 8.801a4.52 4.52 0 0 0 0 6.388 4.52 4.52 0 0 0 6.591-6.171l-.203-.217-.217-.203a4.52 4.52 0 0 0-6.171.203zm-3.699-4.85a1.15 1.15 0 1 1 .001 2.3 1.15 1.15 0 1 1-.001-2.3zm13.787-.001a1.15 1.15 0 0 1 .001 2.3 1.15 1.15 0 1 1-.001-2.3zm-6.895-2.855l.156.01a1.15 1.15 0 0 1-.155 2.29 1.15 1.15 0 0 1-1.15-1.143 1.15 1.15 0 0 1 .992-1.146l.156-.011zm0 19.5l.156.01a1.15 1.15 0 0 1-.155 2.289 1.15 1.15 0 0 1-.157-2.289l.156-.011zm9.745-9.771a1.17 1.17 0 0 1 .006 2.342 1.17 1.17 0 1 1-.006-2.342zm-19.5.021a1.15 1.15 0 1 1 .007 2.3 1.15 1.15 0 0 1-.007-2.3z"></path></svg></span> <span class="group flex justify-center items-center w-8 h-8 mr-1 border border-transparent bg-transparent rounded-full text-0 last:mr-0 tap-highlight-color dark:bg-dark-surface-primary dark:border-dark-borderColor"><svg class="w-4 h-4 fill-secondary transition-colors group-hover:fill-primary dark:group-hover:fill-dark-primary dark:fill-dark-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10.522 5.033c-1.78 2.492-1.543 5.994.604 8.14 1.679 1.679 4.19 2.215 6.489 1.479a.9.9 0 0 1 1.106 1.201c-1.367 3.302-4.636 5.556-8.232 5.556-4.897 0-8.9-4.003-8.9-8.9 0-4.629 3.517-8.447 8.113-8.896a.9.9 0 0 1 .82 1.419zm-2.443.783l-.111.04A7.12 7.12 0 0 0 3.39 12.51c0 3.903 3.197 7.1 7.1 7.1 2.106 0 4.083-.981 5.414-2.554l.17-.208.07-.095-.207.015c-2.01.09-4.001-.54-5.564-1.845l-.243-.212-.277-.263c-2.168-2.168-2.828-5.374-1.928-8.198l.095-.281.058-.151zM19.49 5.61a.9.9 0 0 1 .888.754l.012.146-.001 1.099 1.101.001a.9.9 0 0 1 .146 1.788l-.146.012-1.101-.001.001 1.101a.9.9 0 0 1-1.788.146l-.012-.146-.001-1.101-1.099.001a.9.9 0 0 1-.146-1.788l.146-.012 1.099-.001.001-1.099a.9.9 0 0 1 .9-.9zm-4.999-3a.9.9 0 0 1 .888.754l.012.146v.099l.101.001a.9.9 0 0 1 .146 1.788l-.146.012-.101-.001v.101a.9.9 0 0 1-1.788.146l-.012-.146v-.101l-.099.001a.9.9 0 0 1-.146-1.788l.146-.012.099-.001V3.51a.9.9 0 0 1 .9-.9z"></path></svg></span></span></label> <div class="flex space-x-4 ml-auto md:ml-0"><a class="text-md leading-6 font-medium text-primary transition-colors hover:!text-surface-brand dark:text-dark-primary" href="/partnerships">Partner with Us</a> <a class="text-md leading-6 font-medium text-primary transition-colors hover:!text-surface-brand dark:text-dark-primary" href="/privacy">Privacy Policy</a> <a class="text-md leading-6 font-medium text-primary transition-colors hover:!text-surface-brand dark:text-dark-primary" href="terms">Terms of Service</a></div></div> <div class="text-center w-full text-xs text-secondary">Copyright © 2023 West Third Enterprises, Inc. – All rights
+        reserved</div></div></div> </div> 
+			
+			<script>
+				{
+					__sveltekit_hm0qa = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.9Rr8_VGD.js"),
+						import("./_app/immutable/entry/app.uKGimoz_.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	<script data-goatcounter="https://opable.goatcounter.com/count"
+	async src="//gc.zgo.at/count.js"></script>
+
+</body>
+
+</html>

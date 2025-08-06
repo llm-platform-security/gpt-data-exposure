@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Privacy Policy - Endpoint Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1, h2 {
+            color: #333366;
+        }
+        p {
+            color: #666666;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+
+    <div class="section">
+        <h2>1. Introduction</h2>
+        <p>Welcome to <span class="bold">endpoint.bot</span>. This privacy policy explains our commitment to protecting the privacy of our users.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. No Data Collection</h2>
+        <div class="subsection">
+            <p class="bold">We respect your privacy:</p>
+            <p>Our API does not collect, store, or process any personal data from its users.</p>
+            <p>All interactions with our API are conducted with a focus on maintaining user privacy.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Data Security</h2>
+        <div class="subsection">
+            <p class="bold">Our priority is the security of any interaction with our API:</p>
+            <p>We implement industry-standard security measures to protect our service and its interactions.</p>
+            <p>Although we do not store user data, we take precautions to ensure secure data transmission.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. User Responsibility</h2>
+        <div class="subsection">
+            <p class="bold">Users are responsible for their data:</p>
+            <p>It is the user's responsibility to ensure that their use of the API complies with all applicable laws and regulations.</p>
+            <p>Users should be aware of the information they transmit through our API.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Children's Privacy</h2>
+        <p>We do not knowingly collect personal information from individuals under the age of 13.</p>
+    </div>
+
+    <div class="section">
+        <h2>6. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time:</p>
+        <p>Any changes will be posted on our website and effective immediately upon posting.</p>
+    </div>
+
+    <div class="section">
+        <h2>7. Contact Information</h2>
+        <p>For any questions or concerns about our privacy policy, please contact us.</p>
+    </div>
+</body>
+</html>
