@@ -105,6 +105,8 @@ python metascraper.py --use-json
 - `gizmos_noref.json` / `gizmos_ref.json`: Detailed GPT metadata without/with source references.  
 - `replay_file.json`: Map of failed URLs and associated error reasons.  
 
+**Note:** The GPT metadata collected by April 26 (2024) is stored in `./gpt_crawlers/GPTs_4_26.7z`.
+
 ## Contribution and Support
 We welcome contributions via pull requests. For issues or feature requests, open a GitHub issue. Feel free to reach out if you have questions or need guidance.
 
